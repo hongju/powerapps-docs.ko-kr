@@ -1,0 +1,57 @@
+### YamlMime:YamlDocument
+documentType: Tutorial
+title: 시작
+metadata:
+  title: 시작 | Microsoft PowerApps
+  description: 'PowerApps가 무엇인지, 해당 소프트웨어 요소와 관련 기술을 이해합니다.'
+  audience: Business User
+  level: Beginner
+  nextTutorialHref: create-app-sharepoint
+  nextTutorialTitle: SharePoint에서 앱 만들기
+  displayType: one-column
+  author: mgblythe
+  manager: anneta
+  ms.service: powerapps
+  ms.topic: get-started-article
+  ms.date: 10/27/2017
+  ms.author: mblythe
+items:
+  - durationInMinutes: 1
+    content: |
+      PowerApps가 무엇인지, 해당 소프트웨어 요소와 관련 기술을 이해합니다. SharePoint 목록에서 앱을 만들고 앱을 생성할 수 있는 여러 가지 방법을 살펴봅니다.
+  - title: PowerApps 소개
+    durationInMinutes: 5
+    content: |
+      > [!Video https://www.youtube.com/embed/n9fkvkekINE?rel=0]
+
+      [!INCLUDE [](includes/learning-introducing-powerapps.md)]
+  - title: PowerApps 구성 요소
+    durationInMinutes: 6
+    content: |
+      > [!Video https://www.youtube.com/embed/r6mowYePq1Q?rel=0]
+
+      [!INCLUDE [](includes/learning-powerapps-parts.md)]
+  - title: 관련 기술
+    durationInMinutes: 6
+    content: |
+      > [!Video https://www.youtube.com/embed/C81IfqIn9LI?rel=0]
+
+      [!INCLUDE [](includes/learning-related-technologies.md)]
+  - title: 앱 만들기에 대한 간단한 설명
+    durationInMinutes: 6
+    content: |
+      > [!Video https://www.youtube.com/embed/NOv3kacXqho?rel=0]
+
+      [!INCLUDE [](includes/learning-quick-look-powerapps.md)]
+  - title: 첫 번째 앱 만들기
+    durationInMinutes: 5
+    content: |
+      > [!Video https://www.youtube.com/embed/ixRpT48Z6IQ?rel=0]
+
+      [!INCLUDE [](includes/learning-create-first-app-powerapps.md)]
+  - title: 이 섹션 검토
+    durationInMinutes: 2
+    content: |
+      [!INCLUDE [](includes/learning-review-section-one.md)]
+  - content: |
+      Microsoft PowerApps 단계별 학습의 **시작** 섹션을 완료했습니다.
