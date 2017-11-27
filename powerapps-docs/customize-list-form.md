@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 11/13/2017
 ms.author: sharik
-ms.openlocfilehash: 162314b1bb94e8358e5ddb290adf9db9f43950a0
-ms.sourcegitcommit: ce66ba8eadc41d5f260217d164f8317b90ae1504
+ms.openlocfilehash: dbcafbc8d77aa427e5d129cb1d5760e10b1a106c
+ms.sourcegitcommit: e1572ad0f9e1f1e6149551e91a9bc1fed45e3132
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="customize-a-sharepoint-list-form-using-powerapps"></a>PowerApps를 사용하여 SharePoint 목록 양식을 사용자 지정
 
@@ -47,9 +47,16 @@ SharePoint 목록의 명령 모음에서 **PowerApps**를 클릭하거나 탭한
 
 ## <a name="customize-the-list-form"></a>목록 양식 사용자 지정
 
-PowerApps는 양식을 사용자 지정하는 다양한 방법을 제공합니다. 예를 들어 레이아웃을 변경하고, 텍스트에 서식을 지정하고, 이미지나 차트를 추가하고, 사용자 지정 데이터 유효성 검사를 추가하고, 규칙을 추가하거나, 추가 보기를 만들 수 있습니다.
+PowerApps는 양식을 사용자 지정하는 다양한 방법을 제공합니다. 다음은 몇 가지 예제입니다.
 
-양식에 보이지 않아야 하는 **AccountID** 필드가 있다고 가정하겠습니다.
+* [크기 및 방향 변경](set-aspect-ratio-portrait-landscape.md)
+* [텍스트 서식 지정](controls/properties-text.md)
+* [이미지](add-images-pictures-audio-video.md) 또는 [차트 추가](use-line-pie-bar-chart.md)
+* [사용자 지정 데이터 유효성 검사 추가](functions/function-validate.md)
+* [규칙 추가](working-with-rules.md)
+* [추가 보기 만들기](https://powerapps.microsoft.com/blog/separate-custom-forms/)
+
+설명을 위해 양식에 보이지 않아야 하는 **AccountID** 필드가 있다고 가정하겠습니다.
 
 ![AccountID 필드 선택](./media/customize-list-form/select-card.png)
 
@@ -57,7 +64,7 @@ PowerApps에서는 필드 숨기기가 쉽습니다. 양식 사용자 지정 옵
 
 ![AccountID 확인란 선택 취소](./media/customize-list-form/checkbox.png)
 
-필드를 숨기고 다른 양식을 변경하는 방법에 대한 단계별 지침은 [PowerApps에서 양식 사용자 지정](customize-forms-sharepoint.md)을 참조하세요.
+필드를 숨기고 다른 양식을 변경하는 방법에 대한 단계별 지침은 [PowerApps에서 양식 사용자 지정](customize-forms-sharepoint.md)을 참조하세요. 리소스의 전체 목록은 [Microsoft PowerApps 문서](https://docs.microsoft.com/powerapps/)를 참조하세요.
 
 ## <a name="save-and-publish-the-list-form-back-to-sharepoint"></a>목록 양식을 저장하고 SharePoint에 다시 게시
 

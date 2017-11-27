@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 11/11/2017
 ms.author: ankitsar
-ms.openlocfilehash: 2bb6aae9ab460e4fc03f6c7e3243f47da0ffe455
-ms.sourcegitcommit: ce66ba8eadc41d5f260217d164f8317b90ae1504
+ms.openlocfilehash: 2a5fd3cb6805f5e22fe6d4bc7fba0de64df8afd2
+ms.sourcegitcommit: e1572ad0f9e1f1e6149551e91a9bc1fed45e3132
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="understand-sharepoint-forms-integration"></a>SharePoint 양식 통합 이해
 PowerApps에서 [SharePoint 목록 양식을 쉽게 사용자 지정](customize-list-form.md)할 수 있습니다. 이 문서에서는 이러한 양식의 작업 방식과 사용자 지정하는 방법을 자세히 설명합니다.
@@ -70,7 +70,7 @@ SharePoint 목록의 양식을 사용자 지정한 경험이 있다면 기본 �
 
         **SubmitForm(SharePointForm1)**
 
-이러한 기본값은 양식이 SharePoint 내에서 실행될 때 작동하는지를 확인합니다. SharePoint에서 사용자가 상호 작용할 때 PowerApps 양식 모드를 변경하고 변경 내용이 SharePoint에 제출되도록 합니다.
+이 기본값은 SharePoint 내에서 실행 중일 때 양식이 작동되도록 합니다. 즉, SharePoint에서 사용자가 상호 작용할 때 PowerApps 양식 모드를 변경하고 변경 내용이 SharePoint에 제출되도록 합니다.
 
 ## <a name="understand-the-sharepointintegration-control"></a>SharePointIntegration 컨트롤 이해
 **SharePointIntegration** 컨트롤은 SharePoint와 PowerApps 사이에서 사용자 작업을 전달합니다.
@@ -99,7 +99,6 @@ SharePoint 목록의 양식을 사용자 지정한 경험이 있다면 기본 �
 **데이터 원본** – 양식이 표시, 편집 또는 작성할 레코드가 포함된 목록입니다. 이 속성을 변경하면 **Selected** 및 **SelectedItemID** 속성이 작동을 중지할 수 있습니다.
 
 ## <a name="customize-the-default-form"></a>기본 양식 사용자 지정
-
 기본 생성 양식과 **SharePointIntegration** 컨트롤에 대한 이해를 바탕으로 수식을 변경하여 양식을 사용자 지정할 수 있습니다. 다음은 양식을 사용자 지정할 때 유의할 사항입니다.
 
 * 항목을 만들거나 표시하거나 편집하는 별도의 사용자 지정 환경을 만들려면 변수를 설정하거나 다른 화면으로 이동하도록 **SharePointIntegration** 컨트롤의 **OnNew**, **OnView** 또는 **OnEdit** 수식을 설정합니다.
@@ -109,6 +108,6 @@ SharePoint 목록의 양식을 사용자 지정한 경험이 있다면 기본 �
     >[!TIP]
      **OnNew**, **OnView** 및 **OnEdit** 수식의 변수에 다른 값을 설정합니다. **OnSave** 수식에 이 변수를 사용하면 어떤 양식을 사용 중인지 확인할 수 있습니다.
 
-* 모든 양식의 **OnSuccess**에 **RequestHide()**를 포함해야 합니다. 이 항목을 잊어 버리면 SharePoint에서 양식을 언제 숨길지 알 수 없게 됩니다.
+* 모든 양식의 **OnSuccess** 수식에 **RequestHide()**를 포함해야 합니다. 이 항목을 잊어 버리면 SharePoint에서 양식을 언제 숨길지 알 수 없게 됩니다.
 
 * 사용자가 SharePoint에서 **취소**를 클릭하거나 탭할 때 양식 숨기기를 제어할 수 없으므로, **SharePointIntegration** 컨트롤의 **OnCancel** 수식에서 양식을 다시 설정해야 합니다.
