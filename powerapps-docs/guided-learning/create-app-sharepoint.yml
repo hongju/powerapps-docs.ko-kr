@@ -1,13 +1,12 @@
-### YamlMime:YamlDocument
 documentType: Tutorial
-title: SharePoint에서 앱 만들기
+title: "SharePoint에서 앱 만들기"
 metadata:
-  title: SharePoint에서 앱 만들기 | Microsoft PowerApps
-  description: SharePoint 목록에서 3화면 앱을 생성한 다음 앱을 탐색하고 업데이트합니다.
+  title: "SharePoint에서 앱 만들기 | Microsoft PowerApps"
+  description: "SharePoint 목록에서 3화면 앱을 생성한 다음 앱을 탐색하고 업데이트합니다."
   audience: Business User
   level: Beginner
   nextTutorialHref: create-app-cds
-  nextTutorialTitle: Common Data Service에서 앱 만들기
+  nextTutorialTitle: "Common Data Service에서 앱 만들기"
   displayType: one-column
   author: mgblythe
   manager: anneta
@@ -16,32 +15,39 @@ metadata:
   ms.date: 10/27/2017
   ms.author: mblythe
 items:
-  - durationInMinutes: 1
-    content: |
-      SharePoint 목록에서 3화면 앱을 생성한 다음 앱에서 화면과 컨트롤을 탐색합니다. 앱 화면, 컨트롤 및 필드를 업데이트하고 수식을 사용하여 앱 동작을 추가로 사용자 정의합니다.
-  - title: 앱 생성
-    durationInMinutes: 3
-    content: |
-      > [!Video https://www.youtube.com/embed/m6KfAwEdtYU?rel=0]
+- durationInMinutes: 1
+  content: "SharePoint 목록에서 3화면 앱을 생성한 다음 앱에서 화면과 컨트롤을 탐색합니다. 앱 화면, 컨트롤 및 필드를 업데이트하고 수식을 사용하여 앱 동작을 추가로 사용자 정의합니다.\n"
+  ms.openlocfilehash: b18bd904adbe96d473e170443945c6464c02d6ea
+  ms.sourcegitcommit: fb1a20690729f1958a27bd553774a6047a2cd54e
+  ms.translationtype: HT
+  ms.contentlocale: ko-KR
+  ms.lasthandoff: 11/12/2017
+- title: "앱 생성"
+  durationInMinutes: 3
+  content: >
+    > [!Video https://www.youtube.com/embed/m6KfAwEdtYU?rel=0]
 
-      [!INCLUDE [](includes/learning-spo-app-generate.md)]
-  - title: 생성된 앱 탐색
-    durationInMinutes: 5
-    content: |
-      > [!Video https://www.youtube.com/embed/OJ8a9VINeKU?rel=0]
 
-      [!INCLUDE [](includes/learning-spo-app-explore-controls.md)]
-  - title: 앱 사용자 지정
-    durationInMinutes: 5
-    content: |
-      > [!Video https://www.youtube.com/embed/KydeusvKndQ?rel=0]
+    [!INCLUDE [](includes/learning-spo-app-generate.md)]
+- title: "생성된 앱 탐색"
+  durationInMinutes: 5
+  content: >
+    > [!Video https://www.youtube.com/embed/OJ8a9VINeKU?rel=0]
 
-      [!INCLUDE [](includes/learning-spo-app-customize.md)]
-  - title: 앱 수식 탐색
-    durationInMinutes: 9
-    content: |
-      > [!Video https://www.youtube.com/embed/9TBA19YU7EA?rel=0]
 
-      [!INCLUDE [](includes/learning-spo-app-explore-formulas.md)]
-  - content: |
-      Microsoft PowerApps 단계별 학습의 **SharePoint에서 앱 만들기** 섹션을 완료했습니다.
+    [!INCLUDE [](includes/learning-spo-app-explore-controls.md)]
+- title: "앱 사용자 지정"
+  durationInMinutes: 5
+  content: >
+    > [!Video https://www.youtube.com/embed/KydeusvKndQ?rel=0]
+
+
+    [!INCLUDE [](includes/learning-spo-app-customize.md)]
+- title: "앱 수식 탐색"
+  durationInMinutes: 9
+  content: >
+    > [!Video https://www.youtube.com/embed/9TBA19YU7EA?rel=0]
+
+
+    [!INCLUDE [](includes/learning-spo-app-explore-formulas.md)]
+- content: "Microsoft PowerApps 단계별 학습의 **SharePoint에서 앱 만들기** 섹션을 완료했습니다.\0"

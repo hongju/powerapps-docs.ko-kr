@@ -1,13 +1,12 @@
-### YamlMime:YamlDocument
 documentType: Tutorial
-title: Common Data Service에서 앱 만들기
+title: "Common Data Service에서 앱 만들기"
 metadata:
-  title: Common Data Service에서 앱 만들기 | Microsoft PowerApps
-  description: Common Data Service에서 3화면 앱을 생성한 다음 앱을 탐색하고 업데이트합니다.
+  title: "Common Data Service에서 앱 만들기 | Microsoft PowerApps"
+  description: "Common Data Service에서 3화면 앱을 생성한 다음 앱을 탐색하고 업데이트합니다."
   audience: Business User
   level: Beginner
   nextTutorialHref: manage-apps
-  nextTutorialTitle: 앱 관리하기
+  nextTutorialTitle: "앱 관리하기"
   displayType: one-column
   author: mgblythe
   manager: anneta
@@ -16,32 +15,39 @@ metadata:
   ms.date: 10/27/2017
   ms.author: mblythe
 items:
-  - durationInMinutes: 1
-    content: |
-      Common Data Service에서 3화면 앱을 생성한 다음 앱에서 화면과 컨트롤을 탐색합니다. 앱 화면, 컨트롤 및 필드를 업데이트하고 추가 데이터를 가져와서 앱에서 흐름을 트리거합니다.
-  - title: 앱 생성
-    durationInMinutes: 6
-    content: |
-      > [!Video https://www.youtube.com/embed/Gi5TQF7_pz8?rel=0]
+- durationInMinutes: 1
+  content: "Common Data Service에서 3화면 앱을 생성한 다음 앱에서 화면과 컨트롤을 탐색합니다. 앱 화면, 컨트롤 및 필드를 업데이트하고 추가 데이터를 가져와서 앱에서 흐름을 트리거합니다.\n"
+  ms.openlocfilehash: f62cd3a2197f98d28ca00c5842765b1dae1ba31d
+  ms.sourcegitcommit: fb1a20690729f1958a27bd553774a6047a2cd54e
+  ms.translationtype: HT
+  ms.contentlocale: ko-KR
+  ms.lasthandoff: 11/12/2017
+- title: "앱 생성"
+  durationInMinutes: 6
+  content: >
+    > [!Video https://www.youtube.com/embed/Gi5TQF7_pz8?rel=0]
 
-      [!INCLUDE [](includes/learning-case-app-generate.md)]
-  - title: 생성된 앱 탐색
-    durationInMinutes: 5
-    content: |
-      > [!Video https://www.youtube.com/embed/98d6SZueEek?rel=0]
 
-      [!INCLUDE [](includes/learning-case-app-explore-controls.md)]
-  - title: 앱 사용자 지정
-    durationInMinutes: 12
-    content: |
-      > [!Video https://www.youtube.com/embed/wHy72cOe8Os?rel=0]
+    [!INCLUDE [](includes/learning-case-app-generate.md)]
+- title: "생성된 앱 탐색"
+  durationInMinutes: 5
+  content: >
+    > [!Video https://www.youtube.com/embed/98d6SZueEek?rel=0]
 
-      [!INCLUDE [](includes/learning-case-app-customize.md)]
-  - title: 데이터 원본 및 흐름 추가
-    durationInMinutes: 11
-    content: |
-      > [!Video https://www.youtube.com/embed/Y057qUJ2NNk?rel=0]
 
-      [!INCLUDE [](includes/learning-case-app-add-source.md)]
-  - content: |
-      Microsoft PowerApps 단계별 학습의 **Common Data Service에서 앱 만들기** 섹션을 완료했습니다.
+    [!INCLUDE [](includes/learning-case-app-explore-controls.md)]
+- title: "앱 사용자 지정"
+  durationInMinutes: 12
+  content: >
+    > [!Video https://www.youtube.com/embed/wHy72cOe8Os?rel=0]
+
+
+    [!INCLUDE [](includes/learning-case-app-customize.md)]
+- title: "데이터 원본 및 흐름 추가"
+  durationInMinutes: 11
+  content: >
+    > [!Video https://www.youtube.com/embed/Y057qUJ2NNk?rel=0]
+
+
+    [!INCLUDE [](includes/learning-case-app-add-source.md)]
+- content: "Microsoft PowerApps 단계별 학습의 **Common Data Service에서 앱 만들기** 섹션을 완료했습니다.\0"
