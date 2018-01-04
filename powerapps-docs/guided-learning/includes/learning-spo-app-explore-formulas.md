@@ -48,8 +48,8 @@ PowerApps의 주요 이점 중 하나로서 기존 응용 프로그램 코드를
 
 이제 SharePoint 앱 섹션을 살펴보았으므로 다음으로 이동할 위치를 선택할 수 있습니다.
 
-* [앱 관리](../manage-apps#step-1)
-* [Common Data Service에서 앱 만들기 및 사용자 지정](../create-app-cds#step-1)
+* [앱 관리](https://docs.microsoft.com/powerapps/guided-learning/manage-apps#step-1)
+* [Common Data Service에서 앱 만들기 및 사용자 지정](https://docs.microsoft.com/powerapps/guided-learning/create-app-cds#step-1)
 
 관리 섹션에서는 앱을 공유하고 버전을 지정하는 방법을 보여 주고 앱, 데이터 및 기타 리소스의 컨테이너인 환경을 소개합니다. 모든 사람들이 어느 시점에서 관리 섹션으로 이동하는 것이 좋지만 Common Data Service 섹션에는 자세한 앱 사용자 지정을 포함하여 몇 가지 중요한 정보가 있습니다. 
 
