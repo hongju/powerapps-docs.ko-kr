@@ -13,13 +13,13 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/13/2017
+ms.date: 01/02/2018
 ms.author: sharik
-ms.openlocfilehash: dbcafbc8d77aa427e5d129cb1d5760e10b1a106c
-ms.sourcegitcommit: e1572ad0f9e1f1e6149551e91a9bc1fed45e3132
+ms.openlocfilehash: 8c46d7c5e8677d37b0a50b0c60dab4b81bd54c44
+ms.sourcegitcommit: 1083f55a35cee22920460d3d91d3ccae306a5754
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 01/04/2018
 ---
 # <a name="customize-a-sharepoint-list-form-using-powerapps"></a>PowerApps를 사용하여 SharePoint 목록 양식을 사용자 지정
 
@@ -164,7 +164,7 @@ PowerApps에서는 필드 숨기기가 쉽습니다. 양식 사용자 지정 옵
 
 **A:** 아니요. 이 기능은 현재 지원되지 않습니다.
 
-### <a name="administering-your-custom-list-form"></a>사용자 지정 목록 양식 관리
+### <a name="administering-custom-list-forms"></a>사용자 지정 목록 양식 관리
 
 **Q:** 사용자 지정 목록 양식을 다른 사람과 어떻게 공유하나요?
 
@@ -173,6 +173,10 @@ PowerApps에서는 필드 숨기기가 쉽습니다. 양식 사용자 지정 옵
 **Q:** 어떤 사람이 목록 양식을 사용자 지정할 수 있나요?
 
 **A:** 연결된 목록을 관리, 디자인 또는 편집할 수 있는 SharePoint 권한을 가진 사람이면 가능합니다.
+
+**Q:** 사용자 지정 목록 양식을 만들거나 사용하는 데 PowerApps 라이선스가 필요한가요?
+
+**A:** [PowerApps를 포함하는 Office 365 플랜](pricing-billing-skus.md#licenses)이 있는 경우 사용자 지정 목록 양식을 만들거나 사용할 수 있습니다.
 
 **Q:** 게스트 사용자가 사용자 지정 양식이 있는 목록에 액세스하면 어떻게 되나요?
 
