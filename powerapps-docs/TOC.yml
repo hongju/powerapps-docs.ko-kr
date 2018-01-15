@@ -150,29 +150,31 @@
       href: data-platform-interactive-excel.md
     - name: 샘플 및 리소스
       href: samples-resources.md
-- name: 통합 시나리오
+- name: 다른 기술로 통합
   items:
-    - name: SharePoint Online을 사용하여 통합(자습서 시리즈)
-      href: sharepoint-scenario-intro.md
-    - name: SharePoint Online 목록 설정
-      href: sharepoint-scenario-setup.md
-    - name: 앱 생성
-      href: sharepoint-scenario-generate-app.md
-    - name: 승인에 대한 흐름 만들기
-      href: sharepoint-scenario-approval-flow.md
-    - name: 앱을 처음부터 만들기
-      href: sharepoint-scenario-build-app.md
-    - name: Power BI 보고서 만들기
-      href: sharepoint-scenario-build-report.md
-    - name: Power BI 보고서 게시
-      href: sharepoint-scenario-publish-report.md
-    - name: Power BI 보고서 포함
-      href: sharepoint-scenario-embed-report.md
-    - name: 경고에 대한 흐름 만들기
-      href: sharepoint-scenario-alerts-flow.md
-    - name: 완료된 시나리오 살펴보기
-      href: sharepoint-scenario-summary.md
-    - name: Cognitive Services 통합
+    - name: SharePoint Online을 사용하여 통합
+      items:
+        - name: SharePoint Online 통합 개요
+          href: sharepoint-scenario-intro.md
+        - name: SharePoint Online 목록 설정
+          href: sharepoint-scenario-setup.md
+        - name: 앱 생성
+          href: sharepoint-scenario-generate-app.md
+        - name: 승인에 대한 흐름 만들기
+          href: sharepoint-scenario-approval-flow.md
+        - name: 앱을 처음부터 만들기
+          href: sharepoint-scenario-build-app.md
+        - name: Power BI 보고서 만들기
+          href: sharepoint-scenario-build-report.md
+        - name: Power BI 보고서 게시
+          href: sharepoint-scenario-publish-report.md
+        - name: Power BI 보고서 포함
+          href: sharepoint-scenario-embed-report.md
+        - name: 경고에 대한 흐름 만들기
+          href: sharepoint-scenario-alerts-flow.md
+        - name: 완료된 시나리오 살펴보기
+          href: sharepoint-scenario-summary.md
+    - name: Cognitive Services를 사용하여 통합
       href: cognitive-services-api.md
 - name: '개발: 엔터프라이즈 개발자'
   items:
