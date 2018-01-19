@@ -13,14 +13,13 @@ metadata:
   ms.date: 10/27/2017
   ms.author: mblythe
   ms.openlocfilehash: 774d21575a25a8b2b0ee620b3faa681f0afc28e5
-  ms.sourcegitcommit: 9137e8800421a6623cb277d7f480d3d4f0da1a64
+  ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 12/09/2017
+  ms.lasthandoff: 01/12/2018
 items:
 - durationInMinutes: 1
-  content: >
-    Understand how to store and model data in the Common Data Service. Define and use entities that map to your business data and processes, and extend the common data model with custom entities. Use role-based security to control access to entities. Work with data directly in the service, and in Excel.
+  content: "Common Data Service에서 데이터를 저장하고 모델링하는 방법을 이해합니다. 비즈니스 데이터 및 프로세스에 매핑되는 엔터티를 정의 및 사용하고 사용자 지정 엔터티를 사용하여 공용 데이터 모델을 확장합니다. 역할 기반 보안을 사용하여 엔터티에 대한 액세스를 제어합니다. 서비스 및 Excel에서 직접 데이터로 작업합니다.\n"
 - title: Common Data Service
   durationInMinutes: 5
   content: >
@@ -56,4 +55,4 @@ items:
 
 
     [!INCLUDE [](includes/learning-common-data-service-security.md)]
-- content: "You've completed the **Managing data** section of Microsoft PowerApps Guided Learning.\0"
+- content: "Microsoft PowerApps 단계별 학습의 **데이터 관리하기** 섹션을 완료했습니다.\0"

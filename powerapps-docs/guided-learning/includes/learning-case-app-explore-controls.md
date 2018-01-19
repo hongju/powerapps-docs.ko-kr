@@ -1,7 +1,7 @@
 이 항목에서는 생성된 앱을 자세히 살펴보고 앱 동작을 정의하는 화면과 컨트롤을 검토합니다. 세부 정보를 모두 다루지는 않겠지만 이 앱의 작동 방식에 대해 자세히 알아보면 앱을 직접 빌드할 수 있습니다. 이후의 항목에서는 화면과 컨트롤을 사용하는 수식을 살펴보겠습니다.
 
 ## <a name="run-the-app-in-preview-mode"></a>미리 보기 모드에서 앱 실행
-오른쪽 위를 클릭하거나 탭하여 ![앱 미리 보기 시작 화살표](./media/learning-case-app-explore-controls/f5-arrow-sm.png) 앱을 실행합니다. 앱을 탐색하면 엔터티의 데이터를 포함하고 있고 양호한 기본 환경을 제공하고 있음을 알 수 있습니다.
+종 모양 아이콘을 ![앱 미리 보기 시작 화살표](./media/learning-case-app-explore-controls/f5-arrow-sm.png) 앱을 실행합니다. 앱을 탐색하면 엔터티의 데이터를 포함하고 있고 양호한 기본 환경을 제공하고 있음을 알 수 있습니다.
 
 ![미리 보기 모드에서 앱 실행](./media/learning-case-app-explore-controls/run-app.png)
 

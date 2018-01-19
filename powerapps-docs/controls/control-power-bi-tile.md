@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 07/07/2016
 ms.author: fikaradz
 ms.openlocfilehash: a2a8d7df48403a5d8d480619bd01c59510ae9899
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="power-bi-tile-control-in-powerapps"></a>PowerApps의 Power BI 타일 컨트롤
 앱 내부에 있는 [Power BI](https://powerbi.microsoft.com) 타일을 보여주는 컨트롤입니다.
@@ -54,9 +54,9 @@ ms.lasthandoff: 11/07/2017
 
 **[Width](properties-size-location.md)** – 컨트롤의 왼쪽 및 오른쪽 가장자리 사이의 간격입니다.
 
-**[X](properties-size-location.md)**  – 컨트롤의 왼쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 왼쪽 가장자리 사이의 거리입니다.
+**[X](properties-size-location.md)** – 컨트롤의 왼쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 왼쪽 가장자리 사이의 거리입니다.
 
-**[Y](properties-size-location.md)**  – 컨트롤의 상단 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 상단 가장자리 사이의 거리입니다.
+**[Y](properties-size-location.md)** – 컨트롤의 위쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 위쪽 가장자리 사이의 거리입니다.
 
 ## <a name="example"></a>예
 1. **삽입** 탭, **컨트롤** 메뉴에서 **Power BI 타일** 컨트롤을 추가합니다.  

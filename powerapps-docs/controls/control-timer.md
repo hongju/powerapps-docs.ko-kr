@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
 ms.openlocfilehash: c84eec1bdd541429d4524640d9e1ffa649b895fd
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="timer-control-in-powerapps"></a>PowerApps의 타이머 컨트롤
 일정 시간이 지난 후 앱이 응답하는 방식을 결정할 수 있는 컨트롤입니다.
@@ -39,9 +39,9 @@ ms.lasthandoff: 11/07/2017
 ## <a name="additional-properties"></a>추가 속성
 **[Align](properties-text.md)** - 컨트롤의 가로 가운데를 기준으로 한 텍스트의 위치입니다.
 
-**AutoPause** – 사용자가 다른 화면으로 이동할 경우 오디오 또는 동영상 클립을 자동으로 일시 중지할지 여부를 선택합니다.
+**AutoPause** – 사용자가 다른 화면으로 이동하는 경우 오디오 또는 비디오 클립을 자동으로 일시 중지할지 여부입니다.
 
-**자동 시작** - 사용자가 해당 컨트롤이 있는 화면으로 이동할 때 오디오 또는 동영상 컨트롤이 클립 재생을 자동으로 시작할지 여부를 선택합니다.
+**AutoStart** - 사용자가 해당 컨트롤이 포함된 화면으로 이동할 때 오디오 또는 비디오 컨트롤에서 클립을 자동으로 재생할지 여부입니다.
 
 **[BorderColor](properties-color-border.md)** - 컨트롤의 테두리 색입니다.
 
@@ -85,17 +85,17 @@ ms.lasthandoff: 11/07/2017
 
 **[PressedFill](properties-color-border.md)** – 사용자가 컨트롤을 탭하거나 클릭하는 경우 컨트롤의 배경색입니다.
 
-**[Reset](properties-core.md)** – 컨트롤을 기본값으로 되돌릴지 여부를 선택합니다.
+**[Reset](properties-core.md)** – 컨트롤이 기본값으로 되돌아가는지 여부입니다.
 
 **[Size](properties-text.md)** -컨트롤에 표시되는 텍스트의 글꼴 크기입니다.
 
-**Start** – 오디오 또는 동영상 클립의 재생 여부를 선택합니다.
+**Start** – 오디오 또는 비디오 클립의 재생 여부입니다.
 
 **[Strikethrough](properties-text.md)** - 컨트롤에 표시되는 텍스트 중앙에 선을 표시할지 여부를 선택합니다.
 
 **[Text](properties-core.md)** – 컨트롤에 표시되는 텍스트 또는 사용자가 컨트롤에 입력하는 텍스트입니다.
 
-**[Tooltip](properties-core.md)** – 사용자가 컨트롤을 마우스로 가리킬 때 나타나는 설명 텍스트입니다.
+**[Tooltip](properties-core.md)** – 사용자가 마우스로 컨트롤을 가리킬 때 표시되는 설명 텍스트입니다.
 
 **[Underline](properties-text.md)** – 컨트롤에 표시되는 텍스트 아래에 선을 표시할지 여부를 선택합니다.
 
@@ -105,7 +105,7 @@ ms.lasthandoff: 11/07/2017
 
 **[X](properties-size-location.md)** – 컨트롤의 왼쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 왼쪽 가장자리 사이의 거리입니다.
 
-**[Y](properties-size-location.md)** – 컨트롤의 상단 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 상단 가장자리 사이의 거리입니다.
+**[Y](properties-size-location.md)** – 컨트롤의 위쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 위쪽 가장자리 사이의 거리입니다.
 
 ## <a name="related-functions"></a>관련된 함수
 [**Refresh**( *DataSource* )](../functions/function-refresh.md)

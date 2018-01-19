@@ -15,10 +15,10 @@ ms.workload: na
 ms.date: 06/05/2017
 ms.author: kfend
 ms.openlocfilehash: 0e9c04c4786ff4cee11d7aae75245054e93391fa
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="column-control-in-powerapps"></a>PowerApps의 열 컨트롤
 [**데이터 테이블**](control-data-table.md) 컨트롤에서 단일 필드에 대한 디스플레이 경험을 제공합니다.

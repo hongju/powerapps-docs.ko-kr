@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 05/23/2017
 ms.author: gregli
 ms.openlocfilehash: 9fdae99e280e088139882271db7328490b3d4fcc
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="dateadd-datediff-and-timezoneoffset-functions-in-powerapps"></a>PowerApps의 DateAdd, DateDiff, TimeZoneOffset 함수
 날짜/시간 값의 차이를 추가하거나 찾아서 현지 시간과 UTC 사이의 변환을 수행합니다.
@@ -40,7 +40,7 @@ ms.lasthandoff: 11/07/2017
 ## <a name="syntax"></a>구문
 **DateAdd**( *DateTime*, *Addition* [, *Units* ] )
 
-* *DateTime* - 필수 항목입니다. 연산을 수행할 날짜/시간 값입니다.
+* *DateTime* - 필수 항목이며, 연산을 수행할 날짜/시간 값입니다.
 * *Addition* - 필수 항목입니다. *DateTime*에 추가할 *Units*에 해당하는 숫자입니다.
 * *Units* - 선택 사항입니다. 추가할 *단위* 유형: **밀리초**, **초**, **분**, **시간**, **일**, **월**, **분기** 또는 **연도**.  지정하지 않으면 **일**이 사용됩니다.
 

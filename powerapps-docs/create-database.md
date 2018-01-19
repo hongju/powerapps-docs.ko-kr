@@ -15,10 +15,10 @@ ms.workload: na
 ms.date: 12/06/2016
 ms.author: kfend
 ms.openlocfilehash: a2224d97c9cfc1261e43f7d30c8d8bdd2dd6e86b
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="create-a-common-data-service-database"></a>Common Data Service 데이터베이스 만들기
 Common Data Service를 데이터 저장소로 사용하여 데이터베이스를 만들고 앱을 빌드할 수 있습니다. 사용자 고유의 사용자 지정 엔터티를 만들거나 미리 정의된 엔터티를 사용할 수 있습니다. 데이터베이스를 만들려면 먼저 환경을 만들거나 관리자 권한으로 기존 환경에 할당해야 합니다. 또한 적절한 라이선스를 할당 받아야 합니다. Common Data Service 사용을 위한 계획 구매에 대한 자세한 내용은 [가격 책정 정보](pricing-billing-skus.md)를 참조하세요.
@@ -52,7 +52,7 @@ Common Data Service를 데이터 저장소로 사용하여 데이터베이스를
 5. **만들기**를 클릭합니다.
 
 ## <a name="create-a-database-in-the-entities-pane-of-powerappscom"></a>powerapps.com의 엔터티 창에서 데이터베이스 만들기
-1. [powerapps.com](https://web.powerapps.com)에서 **Common Data Service** 섹션을 확장하고 왼쪽 탐색 창에서 **엔터티**를 클릭하거나 탭합니다.
+1. [powerapps.com](https://web.powerapps.com)에서 **Common Data Service** 섹션을 확장하고 왼쪽 탐색 창에서 **엔터티**를 클릭하거나 누릅니다.
 2. **시작**을 클릭합니다. 데이터베이스는 개방형 액세스 모드에서 만들어집니다.
 
 ## <a name="open-and-restricted-databases"></a>개방형 및 제한된 데이터베이스

@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
 ms.openlocfilehash: 51b0045bd8b5e83f754c4d68e1dfe63566371ae1
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="pdf-viewer-control-in-powerapps"></a>PowerApps의 PDF 뷰어
 PDF 파일의 내용을 표시하는 컨트롤입니다.
@@ -63,13 +63,13 @@ PDF 파일의 내용을 표시하는 컨트롤입니다.
 
 **OnStateChange** – 컨트롤의 상태가 변할 때 앱이 응답하는 방식입니다.
 
-**[PaddingBottom](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 하단 가장자리 사이의 거리입니다.
+**[PaddingBottom](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 아래쪽 가장자리 사이의 거리입니다.
 
-**[PaddingBottom](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 왼쪽 가장자리 사이의 거리입니다.
+**[PaddingLeft](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 왼쪽 가장자리 사이의 거리입니다.
 
-**[PaddingBottom](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 오른쪽 가장자리 사이의 거리입니다.
+**[PaddingRight](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 오른쪽 가장자리 사이의 거리입니다.
 
-**[PaddingBottom](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 상단 가장자리 사이의 거리입니다.
+**[PaddingTop](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 위쪽 가장자리 사이의 거리입니다.
 
 **Page** – 표시하려고 하는 페이지 수입니다.
 
@@ -77,9 +77,9 @@ PDF 파일의 내용을 표시하는 컨트롤입니다.
 
 **[PressedBorderColor](properties-color-border.md)** – 사용자가 컨트롤을 탭하거나 클릭하는 경우 컨트롤의 테두리 색입니다.
 
-**ShowControls** - 오디오 또는 동영상 플레이어에서 재생 단추, 볼륨 슬라이더 등을 표시할지, 그리고 펜 컨트롤이 그리기, 삭제 및 지우기 아이콘 등을 표시할지 여부를 선택합니다.
+**ShowControls** - 오디오 또는 비디오 플레이어에서 재생 단추, 볼륨 슬라이더 등을 표시하는지 및 펜 컨트롤에서 그리기, 삭제 및 지우기 아이콘 등을 표시하는지 여부입니다.
 
-**[Tooltip](properties-core.md)** – 사용자가 컨트롤을 마우스로 가리킬 때 나타나는 설명 텍스트입니다.
+**[Tooltip](properties-core.md)** – 사용자가 마우스로 컨트롤을 가리킬 때 표시되는 설명 텍스트입니다.
 
 **[Visible](properties-core.md)** – 컨트롤을 표시하거나 숨길지 여부를 선택합니다.
 
@@ -87,9 +87,9 @@ PDF 파일의 내용을 표시하는 컨트롤입니다.
 
 **[X](properties-size-location.md)** – 컨트롤의 왼쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 왼쪽 가장자리 사이의 거리입니다.
 
-**[Y](properties-size-location.md)** – 컨트롤의 상단 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 상단 가장자리 사이의 거리입니다.
+**[Y](properties-size-location.md)** – 컨트롤의 위쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 위쪽 가장자리 사이의 거리입니다.
 
-**Zoom** – 카메라의 이미지가 확대되는 비율 또는 PDF 뷰어에서 파일의 보기입니다.
+**Zoom** – 카메라의 이미지 확대 비율 또는 PDF 뷰어의 파일 보기입니다.
 
 ## <a name="example"></a>예
 * 다음 예와 같이 **PDF 뷰어** 컨트롤을 추가하고 **Document** 속성을 PDF 파일의 URL(큰따옴표로 묶인)로 설정합니다.<br>

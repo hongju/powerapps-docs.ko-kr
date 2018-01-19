@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 11/07/2015
 ms.author: gregli
 ms.openlocfilehash: d04899e4557379f07b9f434b928b35e406a9e9ca
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="calendar-and-clock-functions-in-powerapps"></a>PowerApps의 Calendar 및 Clock 함수
 현재 로캘에 대한 달력 및 시계 정보를 검색합니다.

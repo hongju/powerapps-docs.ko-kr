@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/11/2016
 ms.author: sharik
 ms.openlocfilehash: be3b366ae1e3b957b715edcb3e32e776246938cd
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="open-app-from-a-sharepoint-online-list"></a>SharePoint Online 목록에서 앱 열기
 SharePoint Online 내에서 기존 앱을 열고 목록을 관리할 수 있습니다.

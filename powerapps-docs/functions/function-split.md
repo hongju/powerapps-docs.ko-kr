@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 08/28/2017
 ms.author: gregli
 ms.openlocfilehash: e1953767c40edbe27a232678bdeaab8cebfdea17
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="split-function-in-powerapps"></a>PowerApps의 Split 함수
 텍스트 문자열을 하위 문자열의 테이블로 분할합니다.

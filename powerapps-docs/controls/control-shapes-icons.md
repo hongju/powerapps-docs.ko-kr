@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
 ms.openlocfilehash: 7a71695460453816dd5c63dad8477cb7ccc703d7
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="shape-controls-and-icon-controls-in-powerapps"></a>PowerApps의 도형 컨트롤 및 아이콘 컨트롤
 모양 및 동작 속성을 구성할 수 있는 그래픽입니다.
@@ -41,15 +41,15 @@ ms.lasthandoff: 11/07/2017
 
 **[PressedBorderColor](properties-color-border.md)** – 사용자가 컨트롤을 탭하거나 클릭하는 경우 컨트롤의 테두리 색입니다.
 
-**[FocusedBorderThickness](properties-color-border.md)**  -키보드 포커스가 있을 때 컨트롤의 테두리 두께입니다.
+**[FocusedBorderThickness](properties-color-border.md)** - 키보드 포커스가 있을 때 컨트롤의 테두리 두께입니다.
 
 **[Visible](properties-core.md)** – 컨트롤을 표시하거나 숨길지 여부를 선택합니다.
 
 **[Width](properties-size-location.md)** – 컨트롤의 왼쪽 및 오른쪽 가장자리 사이의 간격입니다.
 
-**[X](properties-size-location.md)**  – 컨트롤의 왼쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 왼쪽 가장자리 사이의 거리입니다.
+**[X](properties-size-location.md)** – 컨트롤의 왼쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 왼쪽 가장자리 사이의 거리입니다.
 
-**[Y](properties-size-location.md)**  – 컨트롤의 상단 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 상단 가장자리 사이의 거리입니다.
+**[Y](properties-size-location.md)** – 컨트롤의 위쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 위쪽 가장자리 사이의 거리입니다.
 
 ## <a name="related-functions"></a>관련된 함수
 [**Navigate**( *ScreenName*, *ScreenTransition* )](../functions/function-navigate.md)

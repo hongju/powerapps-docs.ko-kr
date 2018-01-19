@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/28/2016
 ms.author: litran
 ms.openlocfilehash: 1d32873009c337a835a047df38b9ef18d5bf2064
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="share-an-app-in-powerapps"></a>PowerApps에서 앱 공유
 자신의 비즈니스 요구 사항을 해결하는 앱을 빌드하는 것이 좋지만 PowerApps의 진정한 마법은 해당 앱을 다른 사람들과 공유하는 데 있습니다. 이 항목에서는 특정 사용자 또는 보안 그룹과 앱을 공유하는 방법을 알아보거나 전체 조직과 공유할 수 있습니다.

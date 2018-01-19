@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 11/07/2015
 ms.author: gregli
 ms.openlocfilehash: fe8f1e1cc8e54c3abf4b44bbfe46d9f96a7adfe7
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="replace-and-substitute-functions-in-powerapps"></a>PowerApps의 Replace 및 Substitute 함수
 텍스트 문자열의 일부를 다른 문자열로 바꿉니다.
@@ -34,14 +34,14 @@ ms.lasthandoff: 11/07/2017
 ## <a name="syntax"></a>구문
 **Replace**( *String*, *StartingPosition*, *NumberOfCharacters*, *NewString* )
 
-* *String* - 필수 항목입니다. 연산을 수행할 문자열입니다.
+* *String* - 필수 항목이며, 연산을 수행할 문자열입니다.
 * *StartingPosition* - 필수 항목입니다.  교체를 시작할 문자 위치입니다. *String*의 첫 번째 문자는 위치 1입니다.
 * *NumberOfCharacters* - 필수 항목입니다.  *String*에서 교체할 문자 수입니다.
 * *NewString* - 필수 항목입니다.  대체 문자열입니다. 이 인수의 문자 수는 *NumberOfCharacters* 인수와 다를 수 있습니다.
 
 **Substitute**( *String*, *OldString*, *NewString* [, *InstanceNumber* ] )
 
-* *String* - 필수 항목입니다. 연산을 수행할 문자열입니다.
+* *String* - 필수 항목이며, 연산을 수행할 문자열입니다.
 * *OldString* - 필수 항목입니다.  교체할 문자열입니다.
 * *NewString* - 필수 항목입니다.  대체 문자열입니다. *OldString* 및 *NewString*은 길이가 다를 수 있습니다.
 * *InstanceNumber* -선택 사항입니다. 기본적으로 *OldString*의 첫 번째 인스턴스가 대체됩니다. *String*에 둘 이상의 인스턴스가 포함되어 있는 경우 교체할 인스턴스를 지정할 수 있습니다.

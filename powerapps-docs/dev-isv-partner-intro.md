@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 05/01/2017
 ms.author: mblythe
 ms.openlocfilehash: 225f4d79cee5a960116cb29efd06a8a5d229673c
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="powerapps-for-microsoft-partners-and-isvs"></a>Microsoft 파트너 및 ISV용 PowerApps
 Microsoft 파트너 또는 ISV(독립 소프트웨어 공급 업체)로써, 고객의 데이터 및 비즈니스 프로세스와 통합하도록 제품을 확장하여 고객 유입을 가속화할 수 있습니다. Common Data Service에 저장된 데이터로 작업하고, 고객이 PowerApps에서 빌드한 앱을 통해 사용자 제품에 연결될 수 있도록 하는 커넥터를 빌드합니다. PowerApps를 사용하여 앱을 빌드하고, 새 고객이 평가판을 사용해 볼 수 있도록 AppSource에 게시함으로써 비즈니스의 새로운 우위를 만듭니다.

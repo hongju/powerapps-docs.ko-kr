@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 11/07/2015
 ms.author: gregli
 ms.openlocfilehash: 2ed6a9f1d52da1818eaaec50194740fb55a09f8e
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="lower-upper-and-proper-functions-in-powerapps"></a>PowerApps에서 Lower, Upper 및 Proper 함수
 텍스트 문자열의 문자를 모두 소문자, 모두 대문자 또는 적절한 대소문자로 변환합니다.
@@ -38,7 +38,7 @@ ms.lasthandoff: 11/07/2017
 ## <a name="syntax"></a>구문
 **Lower**( *String* )<br>**Upper**( *String* )<br>**Proper**( *String* )
 
-* *String* - 필수 항목입니다. 변환할 문자열입니다.
+* *String* - 필수 항목이며, 변환할 문자열입니다.
 
 **Lower**( *SingleColumnTable* )<br>**Upper**( *SingleColumnTable* )<br>**Proper**( *SingleColumnTable* )
 

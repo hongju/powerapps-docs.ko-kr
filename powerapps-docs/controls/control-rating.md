@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
 ms.openlocfilehash: 4dd23b8c94ee4760e40b4513e7a88667f85c3a4b
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="rating-control-in-powerapps"></a>PowerApps의 등급 컨트롤
 사용자가 1과 사용자가 지정하는 최대 숫자 사이의 값을 나타낼 수 있는 컨트롤입니다.
@@ -28,9 +28,9 @@ ms.lasthandoff: 11/07/2017
 이 컨트롤에서 사용자는 몇 개의 별을 선택하여 좋아하는 정도 등을 나타낼 수 있습니다.
 
 ## <a name="key-properties"></a>주요 속성
-**[기본값](properties-core.md)**  – 사용자가 변경하기 전에 컨트롤의 초기 값입니다.
+**[Default](properties-core.md)** – 사용자가 컨트롤을 변경하기 전의 초기 값입니다.
 
-**최대** – 사용자가 슬라이더 또는 등급을 설정할 수 있는 최대 값입니다.
+**Max** – 사용자가 슬라이더 또는 등급을 설정할 수 있는 최대값입니다.
 
 ## <a name="additional-properties"></a>추가 속성
 **[BorderColor](properties-color-border.md)** - 컨트롤의 테두리 색입니다.
@@ -39,7 +39,7 @@ ms.lasthandoff: 11/07/2017
 
 **[BorderThickness](properties-color-border.md)** - 컨트롤의 테두리 굵기입니다.
 
-**[FocusedBorderThickness](properties-color-border.md)**  -키보드 포커스가 있을 때 컨트롤의 테두리 두께입니다.
+**[FocusedBorderThickness](properties-color-border.md)** - 키보드 포커스가 있을 때 컨트롤의 테두리 두께입니다.
 
 **[DisplayMode](properties-core.md)** – 컨트롤이 사용자 입력을 허용(**편집**)하거나, 데이터만 표시(**보기**)하거나 사용 안 하도록(**사용 안 함**) 설정할지 선택합니다.
 
@@ -55,21 +55,21 @@ ms.lasthandoff: 11/07/2017
 
 **ReadOnly** – 사용자가 슬라이더 또는 등급 컨트롤을 변경할 수 있는지 여부를 선택합니다.
 
-**[Reset](properties-core.md)** – 컨트롤을 기본값으로 되돌릴지 여부를 선택합니다.
+**[Reset](properties-core.md)** – 컨트롤이 기본값으로 되돌아가는지 여부입니다.
 
 **ShowValue** – 사용자가 해당 값을 변경하거나 컨트롤을 마우스로 가리킬 때 슬라이더 또는 등급의 값이 나타나는지 여부를 선택합니다.
 
 **[TabIndex](properties-accessibility.md)** – 0 이외의 값으로 설정된 경우 런타임 시 컨트롤의 탭 순서를 사용자 지정합니다.
 
-**[Tooltip](properties-core.md)** – 사용자가 컨트롤을 마우스로 가리킬 때 나타나는 설명 텍스트입니다.
+**[Tooltip](properties-core.md)** – 사용자가 마우스로 컨트롤을 가리킬 때 표시되는 설명 텍스트입니다.
 
 **[Visible](properties-core.md)** – 컨트롤을 표시하거나 숨길지 여부를 선택합니다.
 
 **[Width](properties-size-location.md)** – 컨트롤의 왼쪽 및 오른쪽 가장자리 사이의 간격입니다.
 
-**[X](properties-size-location.md)**  – 컨트롤의 왼쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 왼쪽 가장자리 사이의 거리입니다.
+**[X](properties-size-location.md)** – 컨트롤의 왼쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 왼쪽 가장자리 사이의 거리입니다.
 
-**[Y](properties-size-location.md)**  – 컨트롤의 상단 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 상단 가장자리 사이의 거리입니다.
+**[Y](properties-size-location.md)** – 컨트롤의 위쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 위쪽 가장자리 사이의 거리입니다.
 
 ## <a name="related-functions"></a>관련된 함수
 [**평균**(*Value1*, *Value2,* ... )](../functions/function-aggregates.md)

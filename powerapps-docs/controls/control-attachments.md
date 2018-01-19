@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 09/29/2017
 ms.author: fikaradz
 ms.openlocfilehash: 2fd5db380eead5403d4cc7d927da5a24aa24abc9
-ms.sourcegitcommit: ce66ba8eadc41d5f260217d164f8317b90ae1504
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="attachments-control-in-powerapps"></a>PowerApps의 첨부 파일 컨트롤
 사용자가 파일을 자신의 장치에 다운로드하도록 해주는 컨트롤입니다.  업로드 기능은 곧 제공됩니다.

@@ -15,10 +15,10 @@ ms.workload: na
 ms.date: 05/08/2017
 ms.author: kfend
 ms.openlocfilehash: a8c13158ab2c3f152aa99357684c818f48e637ae
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="configure-database-security"></a>데이터베이스 보안 구성
 Common Data Service는 데이터베이스에 대한 보안 액세스를 위해 역할 기반 보안 모델을 사용합니다. 이 항목에서는 앱의 보안을 유지하기 위해 필요한 보안 아티팩트를 만드는 방법을 설명합니다. 사용자 역할은 데이터에 대한 런타임 액세스를 제어하며 환경 관리자 및 환경 작성자가 제어하는 환경 역할과는 별개입니다. 환경 개요는 [환경 개요](environments-overview.md)를 참조하세요.

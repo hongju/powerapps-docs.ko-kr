@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 11/07/2015
 ms.author: gregli
 ms.openlocfilehash: b2f79c55724d9dc0bc9cfaf9e2e462c646cddb85
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="hashtags-function-in-powerapps"></a>PowerApps의 HashTags 함수
 텍스트 문자열에서 해시태그(#strings)를 추출합니다.
@@ -37,7 +37,7 @@ ms.lasthandoff: 11/07/2017
 ## <a name="syntax"></a>구문
 **HashTags**( *String* )
 
-* *String* - 필수 항목입니다.  해시태그를 검색할 문자열입니다.
+* *String* - 필수 항목이며,  해시태그를 검색할 문자열입니다.
 
 ## <a name="examples"></a>예
 ### <a name="step-by-step"></a>단계별 가이드

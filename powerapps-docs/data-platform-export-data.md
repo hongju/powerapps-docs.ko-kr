@@ -15,10 +15,10 @@ ms.workload: na
 ms.date: 12/06/2016
 ms.author: kfend
 ms.openlocfilehash: 880881b31362d38ed0d44126245dd96d2a74150f
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="import-or-export-data-from-the-common-data-service"></a>Common Data Service의 데이터 가져오기 또는 내보내기
 두 가지 방법 중 하나로 Common Data Service 안팎으로 데이터를 이동할 수 있습니다.
@@ -28,7 +28,7 @@ ms.lasthandoff: 11/07/2017
 
 ## <a name="import-or-export-data-once"></a>한 번 데이터 가져오기 또는 내보내기
 ### <a name="import-data-from-excel"></a>Excel에서 데이터 가져오기
-1. [powerapps.com](https://web.powerapps.com)에서 **Common Data Service** 섹션을 확장하고 왼쪽 탐색 창에서 **엔터티**를 클릭하거나 탭합니다.
+1. [powerapps.com](https://web.powerapps.com)에서 **Common Data Service** 섹션을 확장하고 왼쪽 탐색 창에서 **엔터티**를 클릭하거나 누릅니다.
 2. **새 엔터티** 옆의 줄임표(...)를 클릭하거나 탭한 후 **데이터 가져오기**를 클릭하거나 탭합니다.
 3. 데이터를 가져와 저장할 엔터티를 선택한 후 **다음**을 클릭하거나 탭합니다.
 4. **검색**을 클릭하거나 탭합니다. 데이터를 가져오려는 파일을 선택합니다.

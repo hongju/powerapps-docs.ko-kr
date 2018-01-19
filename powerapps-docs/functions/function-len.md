@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 11/07/2015
 ms.author: gregli
 ms.openlocfilehash: 06f8e7a80adc7a2175f2da7ab98fb1966d8cf015
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="len-function-in-powerapps"></a>PowerApps의 Len 함수
 텍스트 문자열의 길이를 반환합니다.
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/07/2017
 ## <a name="syntax"></a>구문
 **Len**( *String* )
 
-* *String* - 필수 항목입니다. 측정할 문자열입니다.
+* *String* - 필수 항목이며, 측정할 문자열입니다.
 
 **Len**( *SingleColumnTable* )
 
@@ -40,7 +40,7 @@ ms.lasthandoff: 11/07/2017
 
 ## <a name="examples"></a>예
 ### <a name="single-string"></a>단일 문자열
-이 섹션의 예제에서 [데이터 원본](../working-with-data-sources.md)은 이름이 **Author**이고 문자열 “E. E. Cummings”를 포함하는 텍스트 입력 컨트롤입니다.
+이 섹션의 예제에서 [데이터 원본](../working-with-data-sources.md)은 이름이 **Author**이고 문자열 “E. E. Cummings" 문자열을 포함합니다.
 
 | 수식 | 설명 | 결과 |
 | --- | --- | --- |

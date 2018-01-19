@@ -15,10 +15,10 @@ ms.workload: na
 ms.date: 06/02/2015
 ms.author: lonu
 ms.openlocfilehash: 4c4c859afe5591bc317064d662e4a1da96412b81
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="show-sort-and-filter-data-in-a-powerapps-gallery"></a>PowerApps 갤러리에서 데이터 표시, 정렬 및 필터링
 갤러리를 만들어 여러 제품에 대한 이미지와 텍스트를 표시하고 해당 정보를 정렬 및 필터링합니다.

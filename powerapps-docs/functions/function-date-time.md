@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 11/07/2015
 ms.author: gregli
 ms.openlocfilehash: bed2bc9b13b4d167d6852b7029e4e69d54d50413
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="date-and-time-functions-in-powerapps"></a>PowerApps의 Date 및 Time 함수
 날짜 및 시간 구성 요소를 날짜/시간 값으로 변환합니다.

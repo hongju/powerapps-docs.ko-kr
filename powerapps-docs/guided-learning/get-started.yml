@@ -6,7 +6,7 @@ metadata:
   audience: Business User
   level: Beginner
   nextTutorialHref: create-app-sharepoint
-  nextTutorialTitle: Creating an app from SharePoint
+  nextTutorialTitle: "SharePoint에서 앱 만들기"
   displayType: one-column
   author: mgblythe
   manager: anneta
@@ -15,14 +15,13 @@ metadata:
   ms.date: 10/27/2017
   ms.author: mblythe
   ms.openlocfilehash: 7e4e120e7165608fc0cee43f01edfc9a4acc54d3
-  ms.sourcegitcommit: 9137e8800421a6623cb277d7f480d3d4f0da1a64
+  ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 12/09/2017
+  ms.lasthandoff: 01/12/2018
 items:
 - durationInMinutes: 1
-  content: >
-    Understand what PowerApps is - its software elements, and related technologies. Look at the different ways you can create apps, and generate an app from a SharePoint list.
+  content: "PowerApps가 무엇인지, 해당 소프트웨어 요소와 관련 기술을 이해합니다. SharePoint 목록에서 앱을 만들고 앱을 생성할 수 있는 여러 가지 방법을 살펴봅니다.\n"
 - title: "PowerApps 소개"
   durationInMinutes: 5
   content: >
@@ -62,4 +61,4 @@ items:
   durationInMinutes: 2
   content: >
     [!INCLUDE [](includes/learning-review-section-one.md)]
-- content: "You've completed the **Getting started** section of Microsoft PowerApps Guided Learning.\0"
+- content: "Microsoft PowerApps 단계별 학습의 **시작** 섹션을 완료했습니다.\0"

@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 05/01/2017
 ms.author: mblythe
 ms.openlocfilehash: 7dcc4a37ac8b3ba00d03baac58c9a12b388860bb
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="powerapps-for-enterprise-developers"></a>엔터프라이즈 개발자용 PowerApps
 엔터프라이즈 개발자는 PowerApps에서 강력한 맞춤형 솔루션을 빌드하도록 조직을 강화합니다. 데이터 및 웹 서비스에 연결하는 사용자 지정 커넥터를 사용하고, 조직의 웹 사이트에서 앱을 포함하며, Common Data Service의 데이터로 작업합니다.

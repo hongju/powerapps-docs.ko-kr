@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 11/01/2015
 ms.author: gregli
 ms.openlocfilehash: d337b554be850ae1d62597fa212b72f901633849
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="isnumeric-function-in-powerapps"></a>PowerApps의 IsNumeric 함수
 값이 숫자인지 테스트합니다.
@@ -32,5 +32,5 @@ ms.lasthandoff: 11/07/2017
 ## <a name="syntax"></a>구문
 **IsNumeric**( *Value* )
 
-* *Value* – 필수 항목입니다. 테스트할 값입니다.
+* *Value* – 필수 항목이며, 테스트할 값입니다.
 

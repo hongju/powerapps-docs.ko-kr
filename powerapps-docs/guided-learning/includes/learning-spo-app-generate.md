@@ -25,7 +25,7 @@ PowerApps Studio에서 새로운 3화면 앱이 열립니다. 데이터에서 �
 ![생성된 앱](./media/learning-spo-app-generate/generate-finished-app.png)
 
 ## <a name="run-the-app-in-preview-mode"></a>미리 보기 모드에서 앱 실행
-오른쪽 위 모서리에서 앱 ![미리 보기 시작 화살표를](./media/learning-spo-app-generate/f5-arrow-sm.png) 클릭하거나 탭하여 앱을 실행합니다. 앱을 탐색하는 경우 목록의 모든 데이터를 포함하고 있고 양호한 기본 환경을 제공하고 있음을 알 수 있습니다.
+종 모양 아이콘을 ![앱 미리 보기 시작 화살표](./media/learning-spo-app-generate/f5-arrow-sm.png) 맨 위 오른쪽 모서리에서 앱을 실행합니다. 앱을 탐색하는 경우 목록의 모든 데이터를 포함하고 있고 양호한 기본 환경을 제공하고 있음을 알 수 있습니다.
 
 ![미리 보기 모드에서 앱 실행](./media/learning-spo-app-generate/generate-run-app.png)
 

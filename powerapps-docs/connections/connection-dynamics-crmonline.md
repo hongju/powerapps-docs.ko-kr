@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 07/12/2017
 ms.author: matp
 ms.openlocfilehash: 59ca97b77d7024aee797ddd54472ce7c276cd4b8
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="connect-to-dynamics-365-from-powerapps"></a>PowerApps에서 Dynamics 365 연결
 PowerApps를 사용하면 약간의 코드 또는 전혀 없이 모바일 앱을 신속하게 생성, 사용자 지정, 공유 및 실행할 수 있습니다. Dynamics 365 커넥터를 사용하여 몇 분 만에 사용자의 조직과 공유할 수 있는 유용한 모바일 앱을 만들 수 있습니다.

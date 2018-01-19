@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 11/07/2015
 ms.author: gregli
 ms.openlocfilehash: a511d731c8dd94c57ec9846d853fec1bef10ab0a
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="encodeurl-and-plaintext-functions-in-powerapps"></a>PowerApps의 EncodeUrl 및 PlainText 함수
 문자열을 인코딩하고 디코딩합니다.
@@ -41,7 +41,7 @@ ms.lasthandoff: 11/07/2017
 
 **PlainText**( *String* )
 
-* *String* - 필수 항목입니다. HTML 및 XML 태그를 제거할 문자열입니다.
+* *String* - 필수 항목이며, HTML 및 XML 태그를 제거할 문자열입니다.
 
 ## <a name="examples"></a>예
 텍스트 갤러리에 RSS 피드를 표시한 다음 해당 갤러리의 레이블에 있는 **[Text](../controls/properties-core.md)** 속성을 **ThisItem.description**으로 설정하면 레이블에 다음 예제와 같이 원시 HTML 또는 XML 코드가 표시됩니다.

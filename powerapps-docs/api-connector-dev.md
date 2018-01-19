@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 05/06/2017
 ms.author: astay
 ms.openlocfilehash: 68a0be6c6be91ff5b89b3e06aecc242f987a4cf4
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="develop-an-api-connector-powerapps"></a>API 커넥터 개발(PowerApps)
 커넥터를 빌드하기 위한 프로세스에는 여러 단계가 포함됩니다. 시작하려면 [PowerApps](https://web.powerapps.com/)에서 페이지의 오른쪽 위에 있는 **설정** 단추(기어 아이콘)를 클릭하거나 탭합니다. 그런 다음, **사용자 지정 커넥터**를 클릭하거나 탭합니다.

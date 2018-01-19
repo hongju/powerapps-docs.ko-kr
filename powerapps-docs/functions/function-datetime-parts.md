@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/25/2016
 ms.author: gregli
 ms.openlocfilehash: 68514c498e4737fdc5a8b78ea6bdfbb16811ba65
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="day-month-year-hour-minute-second-and-weekday-functions-in-powerapps"></a>PowerApps의 Day, Month, Year, Hour, Minute, Second, Weekday 함수
 날짜/시간 값의 개별 구성 요소를 반환합니다.
@@ -57,7 +57,7 @@ ms.lasthandoff: 11/07/2017
 ## <a name="syntax"></a>구문
 **Day**( *DateTime* )<br>**Month**( *DateTime* )<br>**Year**( *DateTime* )<br>**Hour**( *DateTime* )<br>**Minute**( *DateTime* )<br>**Second**( *DateTime* )
 
-* *DateTime* - 필수 항목입니다.  연산을 수행할 날짜/시간 값입니다.  
+* *DateTime* - 필수 항목이며,  연산을 수행할 날짜/시간 값입니다.  
 
 **Weekday**( *DateTime* [, *WeekdayFirst* ] )<br>
 

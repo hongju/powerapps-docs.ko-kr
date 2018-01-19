@@ -30,7 +30,7 @@ PowerApps Studio에는 데이터 또는 템플릿에서 시작하거나 처음�
 
 ![생성된 앱](./media/learning-create-first-app-powerapps/generate-finished-app.png)
 
-오른쪽 위를 클릭하거나 탭하여 ![앱 미리 보기 시작 화살표](./media/learning-create-first-app-powerapps/f5-arrow-sm.png) 앱을 실행합니다. 앱을 탐색하는 경우 목록의 모든 데이터를 포함하고 있고 양호한 기본 환경을 제공하고 있음을 알 수 있습니다.
+종 모양 아이콘을 ![앱 미리 보기 시작 화살표](./media/learning-create-first-app-powerapps/f5-arrow-sm.png) 앱을 실행합니다. 앱을 탐색하는 경우 목록의 모든 데이터를 포함하고 있고 양호한 기본 환경을 제공하고 있음을 알 수 있습니다.
 
 와우! 매우 쉽지요? 몇 분 안에 데이터 원본에 연결하고, 앱을 생성하며, PowerApps Studio 및 3개 앱 화면에 익숙해지는 방법에 대해 알아보았습니다. 이후 섹션에서는 생성된 앱을 사용자 지정하는 방법에 대해 살펴보겠습니다. 다음 항목에서는 이러한 과정의 섹션을 검토하고 다음 학습을 준비합니다.
 

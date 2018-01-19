@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/25/2016
 ms.author: gregli
 ms.openlocfilehash: e85b7ce4c51e693d566fb50b51be48f9ab3edadd
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="card-control-in-powerapps"></a>PowerApps의 카드 컨트롤
 **[표시 양식](control-form-detail.md)** 또는 **[편집 양식](control-form-detail.md)** 컨트롤의 단일 필드에 대한 표시 및 편집 경험을 제공합니다.
@@ -47,7 +47,7 @@ ms.lasthandoff: 11/07/2017
 * 이름을 수식이 아닌 큰따옴표로 묶은 단일 정적 문자열로 지정합니다(예: **"Name"**).
 * **DataField** 속성을 *blank*로 설정하여 카드의 바인딩을 해제합니다. **Valid** 및 **Update** 속성은 바인딩 해제된 카드에는 무시됩니다.
 
-**[Default](properties-core.md)** – 사용자가 변경하기 전에 컨트롤의 초기 값입니다.
+**[Default](properties-core.md)** – 사용자가 컨트롤을 변경하기 전의 초기 값입니다.
 
 * 카드의 각 컨트롤은 데이터 원본에 따라 필드의 기본값을 참조하도록 이 속성을 **Parent.Default**로 설정하세요. 예를 들어, 사용자가 해당 슬라이더에 대한 일반 값으로 시작할 수 있도록 슬라이더의 **[Default](properties-core.md)** 속성을 **Parent.Default**로 설정합니다.
 
@@ -77,7 +77,7 @@ ms.lasthandoff: 11/07/2017
 
 **[Width](properties-size-location.md)** – 컨트롤의 왼쪽 및 오른쪽 가장자리 사이의 간격입니다.
 
-**[WidthFit](properties-size-location.md)** – **[편집 양식](control-form-detail.md)** 컨트롤처럼 컨테이너 컨트롤의 빈 공간을 채우기 위해 컨트롤의 가로가 자동으로 커지는지 여부입니다. 여러 카드에서 이 속성이 **true**로 설정되면 카드 사이에 공간이 나뉩니다. 자세한 내용은 [데이터 양식 레이아웃 이해](../working-with-form-layout.md)를 참조하세요.
+**[WidthFit](properties-size-location.md)** – **[편집 양식](control-form-detail.md)** 컨트롤처럼 컨테이너 컨트롤의 빈 공간을 채우기 위해 컨트롤의 가로가 자동으로 커지는지 여부입니다. 여러 카드에서 이 속성이 **true**로 설정되면 카드 사이의 공간이 분할됩니다. 자세한 내용은 [데이터 양식 레이아웃 이해](../working-with-form-layout.md)를 참조하세요.
 
 ## <a name="additional-properties"></a>추가 속성
 **[BorderColor](properties-color-border.md)** - 컨트롤의 테두리 색입니다.
@@ -94,9 +94,9 @@ ms.lasthandoff: 11/07/2017
 
 **[Visible](properties-core.md)** – 컨트롤을 표시하거나 숨길지 여부를 선택합니다.
 
-**[X](properties-size-location.md)** – 컨트롤의 왼쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 왼쪽 가장자리 사이의 거리입니다. 여러 열이 있는 컨테이너의 **[카드](control-card.md)** 컨트롤의 경우 이 속성은 카드가 표시되는 열을 결정합니다.
+**[X](properties-size-location.md)** – 컨트롤의 왼쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 왼쪽 가장자리 사이의 거리입니다. 여러 열이 있는 컨테이너의 **[카드](control-card.md)** 컨트롤에서 이 속성은 카드가 표시되는 열을 결정합니다.
 
-**[Y](properties-size-location.md)** – 컨트롤의 상단 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 상단 가장자리 사이의 거리입니다. 여러 행이 있는 컨테이너의 **[카드](control-card.md)** 컨트롤의 경우 이 속성은 카드가 표시되는 행을 결정합니다.
+**[Y](properties-size-location.md)** – 컨트롤의 위쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 위쪽 가장자리 사이의 거리입니다. 여러 행이 있는 컨테이너의 **[카드](control-card.md)** 컨트롤에서 이 속성은 카드가 표시되는 행을 결정합니다.
 
 ## <a name="examples"></a>예
 [데이터 카드 이해](../working-with-cards.md) 및 [데이터 양식 레이아웃 이해](../working-with-form-layout.md)에서 예를 참조하세요.
