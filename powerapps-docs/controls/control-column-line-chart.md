@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
 ms.openlocfilehash: 039b267394ef6be5e3038fa0b07149f69fee6a51
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="column-chart-and-line-chart-controls-in-powerapps"></a>PowerApps의 세로 막대형 차트 및 꺾은선형 차트 컨트롤
 데이터를 x 및 축이 있는 그래프로 표시하는 컨트롤입니다.
@@ -28,7 +28,7 @@ ms.lasthandoff: 11/07/2017
 기본적으로는 **세로 막대형 차트** 컨트롤 또는 **꺾은선형 차트** 컨트롤은 함께 그룹으로 지정된 여러 컨트롤을 구성합니다. 이러한 컨트롤은 제목, 데이터 및 범례를 표시합니다.
 
 ## <a name="key-properties"></a>주요 속성
-**[Items](properties-core.md)** – 갤러리, 목록 또는 차트 등의 컨트롤에서 나타나는 데이터 원본입니다.
+**[Items](properties-core.md)** – 갤러리, 목록 또는 차트와 같은 컨트롤에 표시되는 데이터 원본입니다.
 
 **NumberOfSeries** – 세로 막대형 또는 꺾은선형 차트에 반영되는 데이터의 열 수입니다.
 
@@ -53,7 +53,7 @@ ms.lasthandoff: 11/07/2017
 
 **[HoverBorderColor](properties-color-border.md)** – 사용자가 해당 컨트롤에 마우스 포인터를 올려두는 경우 컨트롤의 테두리 색입니다.
 
-**ItemColorSet** – 차트에서 각 데이터 요소의 색입니다.
+**ItemColorSet** – 차트의 각 데이터 요소에 대한 색입니다.
 
 **ItemsGap** – 세로 막대형 차트에서 막대 사이의 거리입니다.
 
@@ -71,13 +71,13 @@ ms.lasthandoff: 11/07/2017
 
 **[OnSelect](properties-core.md)** – 사용자가 앱을 클릭하거나 탭할 때 앱이 응답하는 방법입니다.
 
-**[PaddingBottom](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 하단 가장자리 사이의 거리입니다.
+**[PaddingBottom](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 아래쪽 가장자리 사이의 거리입니다.
 
 **[PaddingLeft](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 왼쪽 가장자리 사이의 거리입니다.
 
 **[PaddingRight](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 오른쪽 가장자리 사이의 거리입니다.
 
-**[PaddingTop](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 상단 가장자리 사이의 거리입니다.
+**[PaddingTop](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 위쪽 가장자리 사이의 거리입니다.
 
 **[PressedBorderColor](properties-color-border.md)** – 사용자가 컨트롤을 탭하거나 클릭하는 경우 컨트롤의 테두리 색입니다.
 
@@ -99,7 +99,7 @@ ms.lasthandoff: 11/07/2017
 
 **XLabelAngle** - 세로 막대형 또는 꺾은선형 차트의 x-축 아래에 레이블의 각도입니다.
 
-**[Y](properties-size-location.md)** – 컨트롤의 상단 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 상단 가장자리 사이의 거리입니다.
+**[Y](properties-size-location.md)** – 컨트롤의 위쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 위쪽 가장자리 사이의 거리입니다.
 
 **YAxisMax** - 꺾은선형 차트에 대한 y-축의 최대 값입니다.
 

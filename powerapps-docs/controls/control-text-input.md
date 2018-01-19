@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
 ms.openlocfilehash: 4082034d843765025bb6e40cab83705582417d51
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="text-input-control-in-powerapps"></a>PowerApps의 텍스트 입력 컨트롤
 사용자가 텍스트, 숫자 및 기타 데이터를 입력할 수 있는 상자입니다.
@@ -28,7 +28,7 @@ ms.lasthandoff: 11/07/2017
 사용자는 텍스트 입력 컨트롤에 입력하여 데이터를 지정할 수 있습니다. 앱 구성 방식에 따라, 해당 데이터는 임시 값을 계산하는 데 사용하는 데이터 원본에 추가되거나 다른 방식으로 통합될 수 있습니다.
 
 ## <a name="key-properties"></a>주요 속성
-**[Default](properties-core.md)**  – 사용자가 변경하기 전에 컨트롤의 초기 값입니다.
+**[Default](properties-core.md)** – 사용자가 컨트롤을 변경하기 전의 초기 값입니다.
 
 **[Text](properties-core.md)** – 컨트롤에 표시되는 텍스트 또는 사용자가 컨트롤에 입력하는 텍스트입니다.
 
@@ -77,7 +77,7 @@ ms.lasthandoff: 11/07/2017
 
 **[Italic](properties-text.md)** - 컨트롤의 텍스트를 기울임꼴로 설정할지 여부를 선택합니다.
 
-**[LineHeight](properties-text.md)** - 텍스트 선 또는 목록의 항목 등, 항목 사이의 거리입니다.
+**[LineHeight](properties-text.md)** - 예를 들어 텍스트 선 또는 목록의 항목 사이의 거리입니다.
 
 **MaxLength** – 사용자가 텍스트 입력 컨트롤에 입력할 수 있는 문자 수입니다.
 
@@ -87,13 +87,13 @@ ms.lasthandoff: 11/07/2017
 
 **[OnSelect](properties-core.md)** – 사용자가 앱을 클릭하거나 탭할 때 앱이 응답하는 방법입니다.
 
-**[PaddingBottom](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 하단 가장자리 사이의 거리입니다.
+**[PaddingBottom](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 아래쪽 가장자리 사이의 거리입니다.
 
 **[PaddingLeft](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 왼쪽 가장자리 사이의 거리입니다.
 
 **[PaddingRight](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 오른쪽 가장자리 사이의 거리입니다.
 
-**[PaddingTop](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 상단 가장자리 사이의 거리입니다.
+**[PaddingTop](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 위쪽 가장자리 사이의 거리입니다.
 
 **[PressedBorderColor](properties-color-border.md)** – 사용자가 컨트롤을 탭하거나 클릭하는 경우 컨트롤의 테두리 색입니다.
 
@@ -109,7 +109,7 @@ ms.lasthandoff: 11/07/2017
 
 **[RadiusTopRight](properties-size-location.md)** – 컨트롤 오른쪽 위 모서리의 둥근 정도입니다.
 
-**[Reset](properties-core.md)** – 컨트롤을 기본값으로 되돌릴지 여부를 선택합니다.
+**[Reset](properties-core.md)** – 컨트롤이 기본값으로 되돌아가는지 여부입니다.
 
 **[Size](properties-text.md)** -컨트롤에 표시되는 텍스트의 글꼴 크기입니다.
 
@@ -117,7 +117,7 @@ ms.lasthandoff: 11/07/2017
 
 **[TabIndex](properties-accessibility.md)** – 0 이외의 값으로 설정된 경우 런타임 시 컨트롤의 탭 순서를 사용자 지정합니다.
 
-**[Tooltip](properties-core.md)** – 사용자가 컨트롤을 마우스로 가리킬 때 나타나는 설명 텍스트입니다.
+**[Tooltip](properties-core.md)** – 사용자가 마우스로 컨트롤을 가리킬 때 표시되는 설명 텍스트입니다.
 
 **[Underline](properties-text.md)** – 컨트롤에 표시되는 텍스트 아래에 선을 표시할지 여부를 선택합니다.
 
@@ -127,7 +127,7 @@ ms.lasthandoff: 11/07/2017
 
 **[X](properties-size-location.md)** – 컨트롤의 왼쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 왼쪽 가장자리 사이의 거리입니다.
 
-**[Y](properties-size-location.md)** – 컨트롤의 상단 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 상단 가장자리 사이의 거리입니다.
+**[Y](properties-size-location.md)** – 컨트롤의 위쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 위쪽 가장자리 사이의 거리입니다.
 
 ## <a name="related-functions"></a>관련된 함수
 [**DateTimeValue**( *String* )](../functions/function-datevalue-timevalue.md)

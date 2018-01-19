@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 11/11/2015
 ms.author: gregli
 ms.openlocfilehash: 92eb12ccff46fcce5aed1c7a3e39bf02c2c07b4b
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="errors-function-in-powerapps"></a>PowerApps의 Errors 함수
 [데이터 원본](../working-with-data-sources.md)의 이전 변경에 대한 오류 정보를 제공합니다.

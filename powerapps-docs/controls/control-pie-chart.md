@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
 ms.openlocfilehash: 1388eac45e5086f677cb83c8db9593fe01a9819f
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="pie-chart-control-in-powerapps"></a>PowerApps의 원형 차트
 서로 비교하는 상대 값을 보여주는 컨트롤입니다.
@@ -28,7 +28,7 @@ ms.lasthandoff: 11/07/2017
 맨 왼쪽 열의 레이블과 왼쪽에서 두 번째 열에 값을 포함한 표에서 상대적 데이터를 표시하려는 경우 **원형 차트** 컨트롤을 추가합니다.
 
 ## <a name="key-properties"></a>주요 속성
-**[Items](properties-core.md)**  – 갤러리, 목록 또는 차트 등의 컨트롤에서 나타나는 데이터 원본입니다.
+**[Items](properties-core.md)** – 갤러리, 목록 또는 차트와 같은 컨트롤에 표시되는 데이터 원본입니다.
 
 **ShowLabels** – 원형 차트에서 각 웨지가 연결되어 있는 값을 표시할지 여부를 선택합니다.
 
@@ -57,7 +57,7 @@ ms.lasthandoff: 11/07/2017
 
 **ItemBorderThickness** – 원형 차트에서 각 웨지 둘레의 테두리 두께입니다.
 
-**ItemColorSet** – 차트에서 각 데이터 요소의 색입니다.
+**ItemColorSet** – 차트의 각 데이터 요소에 대한 색입니다.
 
 **LabelPosition** – 원형 차트에서 웨지와 상대적인 레이블의 위치입니다.
 
@@ -71,9 +71,9 @@ ms.lasthandoff: 11/07/2017
 
 **[Width](properties-size-location.md)** – 컨트롤의 왼쪽 및 오른쪽 가장자리 사이의 간격입니다.
 
-**[X](properties-size-location.md)**  – 컨트롤의 왼쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 왼쪽 가장자리 사이의 거리입니다.
+**[X](properties-size-location.md)** – 컨트롤의 왼쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 왼쪽 가장자리 사이의 거리입니다.
 
-**[Y](properties-size-location.md)**  – 컨트롤의 상단 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 상단 가장자리 사이의 거리입니다.
+**[Y](properties-size-location.md)** – 컨트롤의 위쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 위쪽 가장자리 사이의 거리입니다.
 
 ## <a name="related-functions"></a>관련된 함수
 [**Max**( *DataSource*, *ColumnName* )](../functions/function-aggregates.md)

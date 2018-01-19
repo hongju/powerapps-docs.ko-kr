@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
 ms.openlocfilehash: 6a7c60755f5623803d20bec4ec9881108b1116c6
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="add-picture-control-in-powerapps"></a>PowerApps의 그림 컨트롤 추가
 사진을 촬영하거나 로컬 장치에서 이미지를 로드 합니다.
@@ -54,7 +54,7 @@ ms.lasthandoff: 11/07/2017
 
 **[HoverFill](properties-color-border.md)** – 사용자가 해당 컨트롤에 마우스 포인터를 올려두는 경우 컨트롤의 배경색입니다.
 
-**Media** – 오디오 또는 동영상 컨트롤이 재생하는 클립에 대한 식별자입니다.
+**Media** – 오디오 또는 비디오 컨트롤에서 재생하는 클립에 대한 식별자입니다.
 
 **[OnSelect](properties-core.md)** – 사용자가 앱을 클릭하거나 탭할 때 앱이 응답하는 방법입니다.
 
@@ -68,7 +68,7 @@ ms.lasthandoff: 11/07/2017
 
 **[X](properties-size-location.md)** – 컨트롤의 왼쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 왼쪽 가장자리 사이의 거리입니다.
 
-**[Y](properties-size-location.md)** – 컨트롤의 상단 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 상단 가장자리 사이의 거리입니다.
+**[Y](properties-size-location.md)** – 컨트롤의 위쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 위쪽 가장자리 사이의 거리입니다.
 
 ## <a name="inner-text-properties"></a>내부 텍스트 속성
 이러한 속성은 기본적으로 "탭 하거나 클릭 그림을 추가하려면" 라고 표시하는 내부 레이블 컨트롤에 적용 됩니다.  이 내부 컨트롤을 선택하려면 **그림 추가** 컨트롤 창을 누르거나 탭합니다.

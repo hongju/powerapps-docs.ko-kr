@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
 ms.openlocfilehash: 7e5be9b68b501279329c23f9afe5d451487fa8d1
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="pen-input-control-in-powerapps"></a>PowerApps의 펜 입력 컨트롤
 사용자가 그리고 삭제하고 이미지의 영역을 강조 표시할 수 있는 컨트롤입니다.
@@ -49,23 +49,23 @@ ms.lasthandoff: 11/07/2017
 
 **[OnSelect](properties-core.md)** – 사용자가 앱을 클릭하거나 탭할 때 앱이 응답하는 방법입니다.
 
-**[SelectionColor](properties-color-border.md)** – 목록에서 선택한 항목의 텍스트 색 또는 펜 컨트롤에서 선택 도구의 색입니다.
+**[SelectionColor](properties-color-border.md)** – 목록에서 선택한 항목의 텍스트 색 또는 펜 컨트롤에 있는 선택 도구의 색입니다.
 
 **SelectionThickness** – 펜 입력 컨트롤에 대한 선택 도구의 두께입니다.
 
-**ShowControls** - 오디오 또는 동영상 플레이어에서 재생 단추, 볼륨 슬라이더 등을 표시할지, 그리고 펜 컨트롤이 그리기, 삭제 및 지우기 아이콘 등을 표시할지 여부를 선택합니다.
+**ShowControls** - 오디오 또는 비디오 플레이어에서 재생 단추, 볼륨 슬라이더 등을 표시하는지 및 펜 컨트롤에서 그리기, 삭제 및 지우기 아이콘 등을 표시하는지 여부입니다.
 
 **[Size](properties-text.md)** -컨트롤에 표시되는 텍스트의 글꼴 크기입니다.
 
-**[Tooltip](properties-core.md)** – 사용자가 컨트롤을 마우스로 가리킬 때 나타나는 설명 텍스트입니다.
+**[Tooltip](properties-core.md)** – 사용자가 마우스로 컨트롤을 가리킬 때 표시되는 설명 텍스트입니다.
 
 **[Visible](properties-core.md)** – 컨트롤을 표시하거나 숨길지 여부를 선택합니다.
 
 **[Width](properties-size-location.md)** – 컨트롤의 왼쪽 및 오른쪽 가장자리 사이의 간격입니다.
 
-**[X](properties-size-location.md)**  – 컨트롤의 왼쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 왼쪽 가장자리 사이의 거리입니다.
+**[X](properties-size-location.md)** – 컨트롤의 왼쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 왼쪽 가장자리 사이의 거리입니다.
 
-**[Y](properties-size-location.md)**  – 컨트롤의 상단 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 상단 가장자리 사이의 거리입니다.
+**[Y](properties-size-location.md)** – 컨트롤의 위쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 위쪽 가장자리 사이의 거리입니다.
 
 ## <a name="related-functions"></a>관련된 함수
 [**Collect**( *CollectionName*, *DatatoCollect* )](../functions/function-clear-collect-clearcollect.md)
@@ -76,7 +76,7 @@ ms.lasthandoff: 11/07/2017
    
     [컨트롤을 추가, 이름을 지정하고, 구성](../add-configure-controls.md)하는 방법을 모르시나요?
 2. **[단추](control-button.md)** 컨트롤을 추가하고 **MyDoodles** 아래로 이동하며 **추가**를 표시하도록 **[단추](control-button.md)** 컨트롤의 **[Text](properties-core.md)** 속성을 설정합니다.
-3. **[단추](control-button.md)** 컨트롤의 **[OnSelect](properties-core.md)** 속성을 이 서식으로 설정합니다.<br>
+3. **[단추](control-button.md)** 컨트롤의 **[OnSelect](properties-core.md)** 속성을 이 수식으로 설정합니다.<br>
    **Collect(Doodles, {Sketch:MyDoodles.Image})**
 4. **이미지 갤러리** 컨트롤을 추가하고 **[단추](control-button.md)** 컨트롤 아래로 이동한 다음, 세 개 항목이 표시될 때까지 **이미지 갤러리** 컨트롤의 너비를 축소합니다.
 5. **이미지 갤러리** 컨트롤의 **[항목](properties-core.md)** 속성을 **Doodles**로 설정하고 F5 키를 누릅니다.
