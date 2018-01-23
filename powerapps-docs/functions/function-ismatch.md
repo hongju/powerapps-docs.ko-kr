@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 02/05/2017
 ms.author: gregli
 ms.openlocfilehash: b15a394db060617aeae8324094a70aa8cadf6755
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="ismatch-function-in-powerapps"></a>PowerApps의 IsMatch 함수
 텍스트 문자열이 패턴과 일치하는지 여부를 테스트합니다.
@@ -63,7 +63,7 @@ ms.lasthandoff: 11/07/2017
 | **&#124;** |세로 막대 또는 파이프 |
 | **\\** |백슬래시 |
 
-예를 들어, 물음표 앞에 백슬러시로 패턴 **"Hello\\?" ** 를 사용하여 "Hello?"를 일치시킬 수 있습니다.
+예를 들어 "Hello?"를 찾아 볼 수 있습니다. 패턴을 사용 하 여 **"Hello\\?"** 물음표 앞에 백슬래시와.
 
 ### <a name="predefined-patterns"></a>미리 정의된 패턴
 미리 정의된 패턴은 문자 집합 중 하나 또는 여러 문자의 시퀀스와 일치시키는 간단한 방법을 제공합니다. [문자열 연결 연산자 **&**](operators.md)를 사용하여 **Match** 열거의 구성원과 사용자 고유의 텍스트 문자열을 결합합니다.

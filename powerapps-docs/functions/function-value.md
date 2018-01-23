@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 11/07/2015
 ms.author: gregli
 ms.openlocfilehash: ce377c87347b2ee027271b94eb623a58d7f58bd1
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="value-function-in-powerapps"></a>PowerApps의 Value 함수
 텍스트의 문자열을 숫자로 변환합니다.
@@ -27,7 +27,7 @@ ms.lasthandoff: 11/07/2017
 ## <a name="description"></a>설명
 **Value** 함수는 숫자 값으로 숫자 문자를 포함하는 텍스트의 문자열을 변환합니다. 사용자가 텍스트로 입력한 숫자에 대해 계산을 수행해야 할 경우 이 함수를 사용합니다.
 
-다른 언어는 **,** 및 **,** 를 다르게 해석합니다.  기본적으로 텍스트는 현재 사용자의 언어로 해석됩니다.  **[Language](function-language.md)** 함수로 반환되는 동일한 언어 태그를 사용하는 언어 태그로 사용할 언어를 지정할 수 있습니다.
+다른 언어는 **,**  및 **로 해석합니다.** 다르게 합니다.  기본적으로 텍스트는 현재 사용자의 언어로 해석됩니다.  **[Language](function-language.md)** 함수로 반환되는 동일한 언어 태그를 사용하는 언어 태그로 사용할 언어를 지정할 수 있습니다.
 
 문자열의 형식에 대한 참고 사항:
 
@@ -42,7 +42,7 @@ ms.lasthandoff: 11/07/2017
 ## <a name="syntax"></a>구문
 **Value**( *String* [, *LanguageTag* ] )
 
-* *String* - 필수 항목입니다. 숫자 값으로 변환할 문자열입니다.
+* *String* - 필수 항목이며, 숫자 값으로 변환할 문자열입니다.
 * *LanguageTag* - 선택 항목입니다.  문자열을 구문 분석하는 언어 태그입니다.  지정되지 않은 경우 현재 사용자의 언어를 사용합니다.
 
 ## <a name="examples"></a>예

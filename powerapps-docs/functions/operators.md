@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 07/24/2017
 ms.author: gregli
 ms.openlocfilehash: 3250251e02170d2dd7bab441bc3c94705216ec00
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="operators-and-data-types-in-powerapps"></a>PowerApps의 연산자 및 데이터 형식
 일부 연산자는 제작자의 언어에 따라 달라집니다.  자세한 내용은 [글로벌 앱](../global-apps.md)을 참조하세요.
@@ -86,8 +86,8 @@ PowerApps의 컨트롤은 앱 내부의 어디서나 이름을 통해 참조할 
 ## <a name="disambiguation-operator"></a>명확성 연산자 
 일부 함수는 각 레코드를 처리하는 동안 테이블의 필드에 액세스하기 위해 **Filter**, **AddColumns** 및 **Sum** 등과 같은 [범위 기록](../working-with-tables.md#record-scope)을 만듭니다.  레코드 범위에 추가된 필드 이름은 앱 어디에서나 동일한 이름을 재정의합니다.  이 경우 **@** 명확성 연산자를 사용하여 레코드 범위 밖에서 값에 계속 액세스할 수 있습니다.
 
-* 중첩된 레코드 범위로부터 값에 액세스하려면 ***Table*[@*FieldName*]** 패턴을 사용할 때 연산 대상 테이블의 이름과 **@** 연산자를 사용합니다.  
-* 데이터 원본, 컬렉션 및 컨텍스트 변수 등의 전역 값에 액세스하려면 **[@*ObjectName*]**(테이블 지정 없음) 패턴을 사용합니다.
+* 중첩된 레코드 범위의 값에 액세스하려면 **Table*[@*FieldName*]** 패턴을 사용하여 작업 중인 테이블의 이름에 **@** 연산자를 사용합니다.  
+* 데이터 원본, 컬렉션 및 컨텍스트 변수와 같은 전역 값에 액세스하려면 **[@*ObjectName*]** (테이블 지정 없음) 패턴을 사용합니다.
 
 자세한 내용 및 예제는 [레코드 범위](../working-with-tables.md#record-scope)를 참조하세요.
 

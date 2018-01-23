@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 09/13/2016
 ms.author: gregli
 ms.openlocfilehash: 25d9b49c7f527d7510e31dd937e1d8a580bb31cf
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="abs-exp-ln-power-and-sqrt-functions-in-powerapps"></a>Microsoft PowerApps의 Abs, Exp, Ln, Power 및 Sqrt 함수
 절대 값, 자연 로그, 제곱근 및 *e* 또는 지정된 숫자로 거듭제곱했을 때 결과를 계산합니다.
@@ -77,7 +77,7 @@ ms.lasthandoff: 11/07/2017
 
 ### <a name="step-by-step-example"></a>단계별 예제
 1. **[텍스트 입력](../controls/control-text-input.md)** 컨트롤을 추가하고 이름을 **Source**로 지정합니다.
-2. **레이블** 컨트롤을 추가하고 **[Text](../controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.
+2. **Label** 컨트롤을 추가하고 **[Text](../controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.
    <br>
    **Sqrt( Value( Source.Text ) )**
 3. **Source**에 숫자를 입력하고 **레이블** 컨트롤에서 입력한 숫자의 제곱근이 표시되는지 확인합니다.

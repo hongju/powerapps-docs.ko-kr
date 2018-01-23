@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 11/07/2015
 ms.author: gregli
 ms.openlocfilehash: ff908d29efa02a3ebed2b2fa5517da35322518b8
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="and-or-and-not-functions-in-powerapps"></a>PowerApps의 And, Or, Not 함수
 일반적으로 비교 및 테스트 결과를 조작하는 데 사용되는 부울 논리 함수입니다.
@@ -29,7 +29,7 @@ ms.lasthandoff: 11/07/2017
 
 **Or** 함수는 인수 중 **true**인 항목이 있으면 **true**를 반환합니다.  **||** 연산자가 **Or**과 동일합니다.
 
-**Not** 함수는 인수가 **false**이면 **true**를 반환하고 인수가 **true**이면 **false**를 반환합니다.  **!**  연산자가 **Not**과 동일합니다.
+**Not** 함수는 인수가 **false**이면 **true**를 반환하고 인수가 **true**이면 **false**를 반환합니다.  **!** 연산자가 **Not**과 동일합니다.
 
 이러한 함수는 논리 값에 작동합니다. 숫자 또는 문자열로 직접 전달할 수 없고 대신 비교 또는 테스트를 수행해야 합니다. 예를 들어 **x > 1**과 같은 비교는 **x** 가 **1**보다 크면 부울 값 **true**로 계산되는 논리식입니다. **x**가 **1**보다 작으면 수식은 **false**로 계산됩니다.
 
