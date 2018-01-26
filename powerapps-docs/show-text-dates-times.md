@@ -14,18 +14,18 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/16/2016
 ms.author: anneta
-ms.openlocfilehash: 0fcfb90de55c0504a7a7ff5e7d75cd782b8f56e6
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 1f87b952378c64ec7c67d98b5dfc194cb62be767
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="show-text-and-format-dates-and-times-in-powerapps"></a>PowerApps에서 날짜/시간 텍스트 표시 및 형식 지정
 날짜와 시간을 추가하고 형식을 지정하여 적절한 수준의 세부 정보를 표시하거나 로캘을 반영합니다. 두 날짜 사이의 시간을 계산하거나 지정한 날짜 이전 또는 이후의 특정 시간에 해당하는 날짜를 계산합니다. 날짜를 일, 월 및 연도에 대한 별도의 값으로 변환하고 시, 분 및 초에 대한 별도의 값으로 변환합니다.
 
 예를 들어 주식 거래 또는 고객 상담과 관련된 사용자의 데이터, 외부 원본의 데이터 또는 PowerApps에서 만든 다른 앱의 데이터를 추가합니다. 해당 데이터에 밀리초까지의 시간이 포함되어 있는 경우 간단히 하기 위해 가장 가까운 분으로 반올림합니다. 중요 시점까지 남아 있는 일 수를 계산합니다. 5일마다 고객 상담을 예약하려면 해당 날짜를 자동으로 계산합니다. 1985년 5월 10일이 일, 월 및 연도에 대한 별도의 필드에 저장되는 경우 단일 값으로 통합합니다. 반대로 앱에서 별도로 관리하는 경우 각 날짜를 별도의 값으로 구분합니다.
 
-**필수 조건**
+## <a name="prerequisites"></a>필수 조건
 
 * PowerApps에 [등록](signup-for-powerapps.md)하여 [설치](http://aka.ms/powerappsinstall)하고 연 다음 등록 시 사용했던 동일한 자격 증명으로 로그인합니다.
 * PowerApps에서 앱을 만들거나 기존 앱을 엽니다.
@@ -56,7 +56,9 @@ ms.lasthandoff: 11/07/2017
    * **Today** - 현재 날짜를 값으로 계산합니다.
    * **DateValue** - 큰따옴표 사이에 표시된 리터럴 문자열을 계산할 수 있는 값으로 변환합니다.
 3. **BirthDate**라는 **[텍스트 입력](controls/control-text-input.md)** 컨트롤을 추가하고 **ShowText** 아래로 이동합니다.
+
 4. **BirthDate**에서 생년월일의 월과 일을 입력합니다(예: **05/18**).
+
 5. **ShowText**의 **[Text](controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.
    <br>**DateDiff(Today(), DateValue(BirthDate.Text))**
    
@@ -122,7 +124,9 @@ ms.lasthandoff: 11/07/2017
    > 
 
 ## <a name="format-a-date-by-using-datevalue"></a>DateValue를 사용하여 날짜 서식 지정
+
 1. **ArrivalDate**라는 **[텍스트 입력](controls/control-text-input.md)** 컨트롤을 추가한 다음 날짜를 입력합니다(예:  **5/10/85** ).
+
 2. **FormatDate**라는 **[레이블](controls/control-text-box.md)** 컨트롤을 추가하고, **[Text](controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.
    <br>**DateValue(ArrivalDate.Text)**
    
@@ -141,8 +145,11 @@ ms.lasthandoff: 11/07/2017
     **FormatDate**는 사용자가 지정한 형식으로 날짜를 표시합니다.
 
 ## <a name="format-a-time-using-datetimevalue"></a>DateTimeValue를 사용하여 시간 형식 지정
+
 1. **ArrivalTime** 이라는 이름의 **[텍스트 입력](controls/control-text-input.md)** 컨트롤을 추가한 다음 **6:15 AM**을 입력합니다.
+
 2. **ShowTime**이라는 **[레이블](controls/control-text-box.md)** 컨트롤을 추가합니다.
+
 3. 여러 기본 제공 형식 중 하나를 사용하려면 **ShowTime**의 **[Text](controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.
    <br>**Text(DateTimeValue(ArrivalTime.Text), DateTimeFormat.LongTime)**
    
@@ -158,8 +165,11 @@ ms.lasthandoff: 11/07/2017
    > 
 
 ## <a name="show-the-time-between-dates"></a>날짜 사이의 시간 표시
+
 1. **Start**와 **End**라는 두 개의 **[텍스트 입력](controls/control-text-input.md)** 컨트롤을 추가합니다.
+
 2. **Start**에서 **4/1/2015**를 입력하고, **End**에서 **1/1/2016**을 입력합니다.
+
 3. **DateDiff**라는 **[레이블](controls/control-text-box.md)** 컨트롤을 추가하고, **[Text](controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.
    <br>**DateDiff(DateValue(Start.Text), DateValue(End.Text))**
    
@@ -171,7 +181,9 @@ ms.lasthandoff: 11/07/2017
     **DateDiff**는 2015년 4월 1일 및 2016년 1월 1일 사이의 개월 수인 **9**를 표시합니다. 시간을 해당 단위로 표시하려면 **Months**를 **Quarters** 또는 **Years**로 바꿉니다.
 
 ## <a name="identify-a-date-before-or-after-another-date"></a>다른 날짜 이전 또는 이후의 날짜 식별
+
 1. **Start**라는 **[텍스트 입력](controls/control-text-input.md)** 컨트롤을 추가하고 **5/10/1985**를 입력합니다.
+
 2. **DateAdd**라는 이름의 **[레이블](controls/control-text-box.md)** 컨트롤을 추가하고, **[Text](controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.
    <br>**DateAdd(DateValue(Start.Text), 3)**
    
@@ -192,13 +204,18 @@ ms.lasthandoff: 11/07/2017
     레이블에서 **Start**에 있는 날짜로부터 3개월 후인 **8/10/1985**를 표시합니다. **Months**를 **Quarters** 또는 **Years**로 바꿔 **Start**에 있는 날짜 전후로부터 지정된 분기 수 또는 년 수에 해당하는 날짜를 식별합니다.
 
 ## <a name="calculate-dates-based-on-years-months-and-days"></a>년, 월, 일을 기준으로 날짜 계산
+
 1. **Year**, **Month** 및 **Day**라는 3개의 **[드롭다운](controls/control-drop-down.md)** 컨트롤을 추가합니다.
+
 2. **Year**의 **[Items](controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.
    <br>**Table({Year:"2014"}, {Year:"2015"}, {Year:"2016"})**
+
 3. **Month**의 **[Items](controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.
    <br>**Table({Month:"1"}, {Month:"2"}, {Month:"3"}, {Month:"4"}, {Month:"5"}, {Month:"6"}, {Month:"7"}, {Month:"8"}, {Month:"9"}, {Month:"10"}, {Month:"11"}, {Month:"12"})**
+
 4. **Day**의 **[Items](controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.
    <br>**Table({Day:"1"}, {Day:"2"}, {Day:"3"}, {Day:"4"}, {Day:"5"}, {Day:"6"}, {Day:"7"}, {Day:"8"}, {Day:"9"}, {Day:"10"}, {Day:"11"}, {Day:"12"}, {Day:"13"}, {Day:"14"}, {Day:"15"}, {Day:"16"}, {Day:"17"}, {Day:"18"}, {Day:"19"}, {Day:"20"}, {Day:"21"}, {Day:"22"}, {Day:"23"}, {Day:"24"}, {Day:"25"}, {Day:"26"}, {Day:"27"}, {Day:"28"}, {Day:"29"}, {Day:"30"}, {Day:"31"})**
+
 5. **[레이블](controls/control-text-box.md)** 컨트롤을 추가하고, **[Text](controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.
    <br>**Text(Date(Value(Year.Selected.Value), Value(Month.Selected.Value), Value(Day.Selected.Value)), DateTimeFormat.LongDate)**
    
@@ -215,13 +232,18 @@ ms.lasthandoff: 11/07/2017
 * 일 값이 1 미만이면 함수에서 지정한 월의 첫 번째 일에서 며칠+1을 뺍니다.
 
 ## <a name="calculate-times-based-on-hours-minutes-and-seconds"></a>시간, 분 및 초를 기준으로 시간 계산
+
 1. **Hour** 및 **Minute**이라는 두 개의 **드롭다운** 목록을 추가합니다.
+
 2. **Hour**의 **[Items](controls/properties-core.md)** 속성을 다음 수식으로 설정합니다:
    <br>**Table({Hour:"9"}, {Hour:"10"}, {Hour:"11"}, {Hour:"12"}, {Hour:"13"}, {Hour:"14"}, {Hour:"15"}, {Hour:"16"}, {Hour:"17"})**
+
 3. **Minute**의 **[Items](controls/properties-core.md)** 속성을 다음 수식으로 설정합니다:
    <br>**Table({Minute:"0"}, {Minute:"15"}, {Minute:"30"}, {Minute:"45"})**
+
 4. **[레이블](controls/control-text-box.md)** 컨트롤을 추가하고, **[Text](controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.  
    <br>**Text(Time(Value(Hour.Selected.Value), Value(Minute.Selected.Value), 0), DateTimeFormat.ShortTime)**
+
 5. **Hour**에서 **15**, **Minute**에서 **45**를 선택합니다.
    
     **[레이블](controls/control-text-box.md)** 컨트롤에서 **3:45 PM**을 표시합니다.

@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 08/15/2017
 ms.author: archanan
-ms.openlocfilehash: 94e4eaa5209bbcaf6cd191ed2dfdf27d9eab1d5f
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: e073c0a8c471dc8b863894e2d229b15b66b3ce60
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="delegable-data-sources"></a>위임 가능한 데이터 원본
 [위임 이해](delegation-overview.md) 문서에서 자세히 설명했듯이 PowerApps는 로컬에서 처리하기 위해 데이터를 앱으로 이동하기보다는 데이터 처리를 데이터 원본에 위임합니다.
@@ -31,7 +31,6 @@ ms.lasthandoff: 11/07/2017
 * SQL Server - **예**
 * Dynamics 365 - **예**
 * Salesforce - **예**
-* Excel - **서비스 예정**
 * Dynamics 365 for Operations - 아직 서비스되지 않음
 * Dynamics 365 for Financials - 아직 서비스되지 않음
 * Dynamics NAV - 아직 서비스되지 않음
@@ -41,7 +40,7 @@ ms.lasthandoff: 11/07/2017
 
 이 문서는 데이터 원본마다 지원되는 위임의 현재 상태를 나열합니다.
 
-**필수 조건**
+## <a name="prerequisites"></a>필수 조건
 
 * [위임 이해](delegation-overview.md) 문서에 대한 이해
 
@@ -77,4 +76,3 @@ ms.lasthandoff: 11/07/2017
 | StartsWith |아니요 |예 |아니요 |아니요 |아니요 |
 
 <sup>2</sup>연산자만. And/Or/Not 함수는 위임되지 않습니다.
-

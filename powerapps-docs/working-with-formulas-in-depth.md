@@ -15,14 +15,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 11/10/2015
 ms.author: gregli
-ms.openlocfilehash: 69e2252b60b559e68191399196b4957f77e51ee4
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 7bb0d9f3db9353511e8a5ed85f016049a96f7dae
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="understand-behavior-formulas-in-powerapps"></a>PowerApps 동작 수식에 대한 이해
-## <a name="behavior-formulas"></a>동작 수식
+
 대부분의 수식은 값을 계산합니다.  Excel 스프레드시트와 마찬가지로 값이 변경될 때마다 다시 계산이 자동으로 수행됩니다.  예를 들어 **[레이블](controls/control-text-box.md)** 컨트롤의 값은 0보다 작으면 빨간색으로 표시하고, 그렇지 않으면 검정색으로 표시할 수 있습니다. 따라서 해당 컨트롤의 **[Color](controls/properties-color-border.md)** 속성을 다음 수식으로 설정할 수 있습니다.
 <br>**If( Value(TextBox1.Text) >= 0, Color.Black, Color.Red )**
 

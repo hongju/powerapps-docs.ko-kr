@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 05/09/2017
 ms.author: mblythe
-ms.openlocfilehash: 95dad93f75503415f714cc36c0f9413b66223353
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 0c06b24c0ed253a6589c4eb073a6d01595ed5b59
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="develop-offline-capable-apps-with-powerapps"></a>PowerApps를 사용하여 오프라인에서 사용 가능한 앱 개발
 모바일 앱 개발자 권한으로 직면하는 가장 일반적인 시나리오 중 하나는 제한된 연결 또는 연결되지 않았을 때 사용자가 생산성을 사용해야 하는 경우입니다. PowerApps에는 오프라인에서 사용 가능한 앱을 개발하는 데 도움이 되는 기능 및 동작의 집합이 있습니다. 다음이 가능합니다.
@@ -59,8 +59,11 @@ PowerApps의 가장 흥미로운 측면 중 하나는 데이터 원본에 관계
     ![비어 있는 앱, 휴대폰 레이아웃](media/offline-apps/blank-app.png)
 
 ### <a name="step-2-add-a-twitter-connection"></a>2단계: Twitter 연결 추가
+
 1. **콘텐츠** > **데이터 원본**을 클릭하거나 누르고 **데이터 원본** 패널에서 **데이터 원본 추가**를 선택합니다.
+
 2. **새 연결**을 클릭하거나 누르고, **Twitter**를 선택하고, **만들기**를 클릭하거나 누릅니다.
+
 3. 자격 증명을 입력하고 연결을 만듭니다.
    
     ![Twitter 연결 추가](media/offline-apps/twitter-connection.png)
@@ -96,8 +99,11 @@ SaveData(LocalTweets, "Tweets")
 * 장치가 오프라인 상태인 경우 사용할 수 있다면 "트윗"이라는 파일에서 로컬 캐시를 로드합니다.
 
 ### <a name="step-4-add-a-gallery-and-bind-it-to-the-localtweets-collection"></a>4단계: 갤러리 추가 및 LocalTweets 컬렉션에 바인딩
+
 1. 새로운 높이 조정 가능 갤러리를 삽입합니다. **삽입** > **갤러리** > **높이 조정 가능(비어 있음)**
+
 2. **항목** 속성을 **LocalTweets**으로 설정합니다.
+
 3. 4개의 **레이블**을 추가하고, 각 트윗에서 데이터를 표시하고, **텍스트** 속성을 다음으로 설정합니다.
    * **ThisItem.TweetText**
    * **ThisItem.UserDetails.FullName & " @" & ThisItem.UserDetails.UserName**
@@ -115,7 +121,9 @@ If (Connection.Connected, "Connected", "Offline")
 이 수식은 장치가 온라인 상태인지를 확인합니다. 이러한 경우 레이블 텍스트가 "연결됨"이고, 그렇지 않으면 "오프라인"입니다.
 
 ### <a name="step-6-add-a-text-input-to-compose-new-tweets"></a>6단계: 새 트윗을 작성하는 텍스트 입력 추가
+
 1. "NewTweetTextInput"이라는 새 **텍스트 입력** 컨트롤을 삽입합니다.
+
 2. 텍스트 입력의 **재설정** 속성을 **resetNewTweet**으로 설정합니다.
 
 ### <a name="step-7-add-a-button-to-post-the-tweet"></a>7단계: 트윗을 게시하는 단추 추가
@@ -149,7 +157,9 @@ If (Connection.Connected, "Connected", "Offline")
 새 **타이머** 컨트롤을 추가합니다.
 
 * **기간** 속성을 300000으로 설정합니다.
+
 * **자동 시작** 속성을 true로 설정합니다.
+
 * **OnTimerEnd**를 다음 수식으로 설정합니다.
   
     ```
@@ -176,16 +186,12 @@ If (Connection.Connected, "Connected", "Offline")
 ## <a name="testing-the-app"></a>앱 테스트
 다음 단계를 사용하여 앱을 테스트합니다.
 
-1. 온라인 상태인 모바일 장치에서 PowerApps를 실행합니다.
-   
-    장치에 앱을 다운로드할 수 있도록 온라인 상태가 되면 앱을 한 번 이상 실행해야 합니다.
+1. 온라인 상태인 모바일 장치에서 PowerApps를 실행합니다. 장치에 앱을 다운로드할 수 있도록 온라인 상태가 되면 앱을 한 번 이상 실행해야 합니다.
 2. Twitter 앱을 시작합니다.
 3. 트윗이 로드되면 상태가 **연결됨**으로 표시됩니다.
 4. PowerApps를 완전히 닫습니다.
 5. 장치를 비행기 모드로 설정하여 오프라인 상태인지 확인합니다.
-6. PowerApps를 실행합니다.
-   
-    이제 Twitter 앱을 오프라인으로 실행할 수 있고 온라인 상태로 이 장치에서 이전에 실행한 다른 모든 앱에 액세스할 수 있습니다. (예: PowerApps은 장치에 아직 다운로드되지 않은 앱을 숨깁니다.)
+6. PowerApps를 실행합니다. 이제 Twitter 앱을 오프라인으로 실행할 수 있고 온라인 상태로 이 장치에서 이전에 실행한 다른 모든 앱에 액세스할 수 있습니다. (예: PowerApps은 장치에 아직 다운로드되지 않은 앱을 숨깁니다.)
 7. 앱을 다시 실행합니다.
 8. **오프라인** 상태에서 연결 상태를 올바르게 반영하는 방법을 확인합니다.
 9. 새 트윗을 작성합니다. 로컬로 **LocalTweetsToPost** 컬렉션에 저장됩니다.

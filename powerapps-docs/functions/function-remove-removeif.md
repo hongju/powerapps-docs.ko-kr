@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/21/2015
 ms.author: gregli
-ms.openlocfilehash: 76b41c6dc3b23a3d1f30425b9eac1011406a8757
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 736d634e9db5bc97ceb69852c59b229c7478863b
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="remove-and-removeif-functions-in-powerapps"></a>PowerApps의 Remove 및 RemoveIf 함수
 [데이터 원본](../working-with-data-sources.md)에서 [레코드](../working-with-tables.md#records)를 제거합니다.
@@ -33,12 +33,12 @@ ms.lasthandoff: 11/07/2017
 ### <a name="removeif-function"></a>RemoveIf 함수
 조건 또는 조건 집합을 기반으로 레코드를 제거하려면 **RemoveIf** 함수를 사용합니다. 각 조건은 결과가 **true** 또는 **false**가 되는 수식이 될 수 있고 이름으로 데이터 원본의 [열](../working-with-tables.md#columns)을 참조할 수 있습니다. 각 조건은 각 레코드에 대해 개별적으로 계산되며 모든 조건이 **true**로 평가되면 레코드가 제거됩니다.
 
-**Remove** 및 **RemoveIf**는 수정된 데이터 원본을 [테이블](../working-with-tables.md)로 반환합니다. 두 함수는 [동작 수식](../working-with-formulas-in-depth.md#behavior-formulas)에만 사용할 수 있습니다.
+**Remove** 및 **RemoveIf**는 수정된 데이터 원본을 [테이블](../working-with-tables.md)로 반환합니다. 두 함수는 [동작 수식](../working-with-formulas-in-depth.md)에만 사용할 수 있습니다.
 
 **[Clear](function-clear-collect-clearcollect.md)** 함수를 사용하여 데이터 원본의 모든 레코드를 제거할 수도 있습니다.
 
 ### <a name="delegation"></a>위임
-[!INCLUDE [delegation-no](../../includes/delegation-no.md)]
+[!INCLUDE [delegation-no](../includes/delegation-no.md)]
 
 ## <a name="syntax"></a>구문
 **Remove**( *DataSource*, *Record1* [, *Record2*, ... ] [, **All** ] )

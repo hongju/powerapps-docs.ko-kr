@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 11/07/2015
 ms.author: gregli
-ms.openlocfilehash: 37261f710ffd13cb9eae4aa6aa9eb551e7964fb9
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: bbd440528e3af9e199e5e37bc5c4e9f4d36dbe21
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="addcolumns-dropcolumns-renamecolumns-and-showcolumns-functions-in-powerapps"></a>PowerApps에서 AddColumns, DropColumns, RenameColumns 및 ShowColumns 함수
 해당 [열](../working-with-tables.md#columns)을 추가, 삭제, 이름 바꾸기 및 선택하여 [테이블](../working-with-tables.md)을 셰이프합니다.
@@ -39,7 +39,7 @@ ms.lasthandoff: 11/07/2017
 **AddColumns** 함수는 열을 테이블에 추가하고, 수식은 해당 열의 값을 정의합니다. 기존 열은 수정되지 않고 유지됩니다.
 
 수식은 각 테이블의 레코드에 대해 평가됩니다.
-[!INCLUDE [record-scope](../../includes/record-scope.md)]
+[!INCLUDE [record-scope](../includes/record-scope.md)]
 
 **DropColumns** 함수는 테이블에서 열을 제외합니다.  다른 모든 열은 수정되지 않고 유지됩니다. **DropColumns**는 열을 제외하고 **ShowColumns**는 열을 포함합니다.
 
@@ -49,7 +49,7 @@ ms.lasthandoff: 11/07/2017
 
 이러한 모든 함수의 경우 적용된 변환을 사용하는 새 테이블이 만들어집니다.  원래 테이블은 수정되지 않습니다.
 
-[!INCLUDE [delegation-no](../../includes/delegation-no.md)]
+[!INCLUDE [delegation-no](../includes/delegation-no.md)]
 
 ## <a name="syntax"></a>구문
 **AddColumns**( *Table*, *ColumnName1*, *Formula1* [, *ColumnName2*, *Formula2*, ... ] )

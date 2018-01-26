@@ -15,14 +15,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: gregli
-ms.openlocfilehash: a5dbc7be8840e1fa596594262cf03de358a14225
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 56cfcc2e19620f5acd8c0fcc4c207020f1a453c1
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="image-properties-in-powerapps"></a>PowerApps의 이미지 속성
-## <a name="overview"></a>개요
 이미지, 사진 및 펜 컨트롤의 요소를 포함하여 앱에서 그래픽 요소를 구성합니다.
 
 **BackgroundImage** – 화면의 배경에 나타나는 이미지 파일의 이름입니다.

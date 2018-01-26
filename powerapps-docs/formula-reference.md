@@ -15,16 +15,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 08/28/2017
 ms.author: gregli
-ms.openlocfilehash: 9a3aade41bd375a937d68e7da5881d4475693727
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: dac61ab9ce4195f6336fe1625cea12f728eb3e41
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="formula-reference-for-powerapps"></a>PowerApps에 대한 수식 참조
 수식은 많은 요소를 결합합니다.  아래 나열되어 있습니다.
 
-* **함수**는 매개 변수를 받아 작업을 수행하고 값을 반환합니다. 예를 들어 **Sqrt(25)**는 **5**를 반환합니다. 함수는 Microsoft Excel 함수를 본떠 만듭니다.  **SubmitForm**과 같은 일부 함수에는 파생 작업이 있으며 **Button.OnSelect**와 같은 [동작 수식](working-with-formulas-in-depth.md#behavior-formulas)에서만 적합합니다.
+* **함수**는 매개 변수를 받아 작업을 수행하고 값을 반환합니다. 예를 들어 **Sqrt(25)**는 **5**를 반환합니다. 함수는 Microsoft Excel 함수를 본떠 만듭니다.  **SubmitForm**과 같은 일부 함수에는 파생 작업이 있으며 **Button.OnSelect**와 같은 [동작 수식](working-with-formulas-in-depth.md)에서만 적합합니다.
 * **신호**는 환경에 대한 정보를 반환합니다. 예를 들어 **[위치](functions/signals.md)**는 장치의 현재 GPS 좌표를 반환합니다. 신호는 매개 변수를 받지 않거나 파생 작업이 있습니다.
 * **열거형**은 미리 정의된 상수 값을 반환합니다. 예를 들어 **[색](functions/function-colors.md)**은 **Color.Red**, **Color.Blue** 및 등에 대해 미리 정의된 값을 포함하는 열거형입니다.  공통 열거형은 여기에 포함되며 함수별 열거형이 함수와 함께 설명됩니다.
 * **[ThisItem](functions/operators.md#thisitem-operator)** 및 **[Parent](functions/operators.md#parent-operator)**와 같은 **명명된 연산자**는 컨테이너 내에서 정보에 대한 액세스를 제공합니다.

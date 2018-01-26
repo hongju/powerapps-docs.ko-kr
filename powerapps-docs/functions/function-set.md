@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/29/2017
 ms.author: gregli
-ms.openlocfilehash: ddd772b8db016c69001d2d19f33863fe65fbd25a
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: ef44d704d16892c7c37ac4fbf7c3eebc0ffcb966
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="set-function-in-powerapps"></a>PowerApps의 Set 함수
 전역 변수의 값을 설정합니다.
@@ -32,9 +32,9 @@ ms.lasthandoff: 11/07/2017
 PowerApps는 사용자가 앱과 상호 작용할 때 자동으로 다시 계산되는 수식을 기반으로 합니다.  전역 변수는 이러한 이점이 활용되지 않기 때문에 앱을 만들고 이해하기 어려울 수 있습니다.  변수를 사용하기 전에 [변수 작업](../working-with-variables.md)을 검토하세요.
 
 ## <a name="description"></a>설명
-전역 변수는 **Set** 함수를 사용하여 암시적으로 생성됩니다.  명시적 선언은 필요하지 않습니다.  전역 변수에 대한 **Set** 함수를 모두 제거하면 해당 전역 변수가 사라집니다.  변수를 지우려면 변수의 값을 [**Blank** 함수](function-blank.md)의 결과로 설정하십시오. 
+전역 변수는 **Set** 함수를 사용하여 암시적으로 생성됩니다.  명시적 선언은 필요하지 않습니다.  전역 변수에 대한 **Set** 함수를 모두 제거하면 해당 전역 변수가 사라집니다.  변수를 지우려면 변수의 값을 [**Blank** 함수](function-isblank-isempty.md)의 결과로 설정하십시오.
 
-변수의 값, 정의 및 용도는 제작 환경의 파일 메뉴에 있는 변수 보기를 사용하여 볼 수 있습니다. 
+변수의 값, 정의 및 용도는 제작 환경의 파일 메뉴에 있는 변수 보기를 사용하여 볼 수 있습니다.
 
 이 문서의 뒷부분에 나오는 예제에서 보듯이 전역 변수는 다음을 비롯한 여러 가지 정보를 보유할 수 있습니다.
 
@@ -48,7 +48,7 @@ PowerApps는 사용자가 앱과 상호 작용할 때 자동으로 다시 계산
 
 전역 변수는 기존 컬렉션이나 컨트롤과 동일한 이름을 사용할 수 없습니다.  컨텍스트 변수와 동일한 이름을 사용할 수 있습니다.  둘 사이의 모호함을 해결하려면 [명확성 연산자](operators.md#disambiguation-operator)를 사용하십시오.
 
-**Set**에는 반환 값이 없으며 [동작 수식](../working-with-formulas-in-depth.md#behavior-formulas) 내에만 사용할 수 있습니다.
+**Set**에는 반환 값이 없으며 [동작 수식](../working-with-formulas-in-depth.md) 내에만 사용할 수 있습니다.
 
 ## <a name="syntax"></a>구문
 **Set**( *VariableName*, *Value* )

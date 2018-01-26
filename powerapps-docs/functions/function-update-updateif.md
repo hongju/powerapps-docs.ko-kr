@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/21/2015
 ms.author: gregli
-ms.openlocfilehash: 36f259989c01d295dd1e6d3894032748133483d3
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 71732f7d2785dba42ba2a6e05b70ce16d3f017a5
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="update-and-updateif-functions-in-powerapps"></a>PowerApps에서 Update 및 UpdateIf 함수
 [데이터 원본](../working-with-data-sources.md)의 [레코드](../working-with-tables.md#records)를 업데이트합니다.
@@ -39,10 +39,10 @@ ms.lasthandoff: 11/07/2017
 
 **UpdateIf**와 유사하게 **[Patch](function-patch.md)** 함수를 사용하여 다른 열에 영향을 주지 않으면서 레코드의 특정 열을 변경할 수 있습니다.
 
-**Update** 및 **UpdateIf**는 모두 수정된 데이터 원본을 [테이블](../working-with-tables.md)로 반환합니다. 두 함수 모두 [동작 수식](../working-with-formulas-in-depth.md#behavior-formulas)에서 사용해야 합니다.
+**Update** 및 **UpdateIf**는 모두 수정된 데이터 원본을 [테이블](../working-with-tables.md)로 반환합니다. 두 함수 모두 [동작 수식](../working-with-formulas-in-depth.md)에서 사용해야 합니다.
 
 ### <a name="delegation"></a>위임
-[!INCLUDE [delegation-no](../../includes/delegation-no.md)]
+[!INCLUDE [delegation-no](../includes/delegation-no.md)]
 
 ## <a name="syntax"></a>구문
 **Update**( *DataSource*, *OldRecord*, *NewRecord* [, **All** ] )

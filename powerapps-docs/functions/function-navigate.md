@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 11/08/2015
 ms.author: gregli
-ms.openlocfilehash: 710e48f8619c44082d81907e64896b15425e4531
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 58f8c4bf55167e7c891a614a2bfb98ef20dcfd7c
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="back-and-navigate-functions-in-powerapps"></a>PowerApps에서 Back 및 Navigate 함수
 표시되는 화면을 변경합니다.
@@ -53,7 +53,7 @@ ms.lasthandoff: 11/07/2017
 
 **Back**은 일반적으로 **true**를 반환하지만, 해당 사용자가 표시된 첫 번째 화면에 있고 이전 화면이 없는 경우 **false**를 반환합니다.  **Navigate**는 일반적으로 **true**를 반환하지만, 인수 중 하나에 문제가 있으면 **false**를 반환합니다.
 
-[동작 수식](../working-with-formulas-in-depth.md#behavior-formulas) 내에서만 이러한 함수를 사용할 수 있습니다.
+[동작 수식](../working-with-formulas-in-depth.md) 내에서만 이러한 함수를 사용할 수 있습니다.
 
 ## <a name="syntax"></a>구문
 **Back**()

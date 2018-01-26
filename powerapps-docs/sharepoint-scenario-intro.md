@@ -13,13 +13,13 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/12/2017
+ms.date: 12/19/2017
 ms.author: mblythe
-ms.openlocfilehash: 98998b30eb4c407c6c2dcaa61c04c75d5b92e4f9
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 58f05d42968394283c7d2fc78bfd8a2aa7baf571
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="integrate-powerapps-microsoft-flow-and-power-bi-with-sharepoint-online"></a>SharePoint Online과 PowerApps, Microsoft Flow 및 Power BI 통합
 SharePoint Online을 가지고 있고 비즈니스 프로세스를 더 효율적으로 자동화하고 간소화하고 싶습니까? PowerApps, Microsoft Flow 또는 Power BI를 사용해 보았습니까? 아니면 SharePoint Online에서 사용하는 방법에 대해 잘 알고 있지 않으십니까? 그렇다면 제대로 찾아오셨습니다! 이 시리즈의 자습서에서는 SharePoint 목록을 기반으로 하는 기본 프로젝트 관리 앱 및 SharePoint Online과 통합되는 세 가지 핵심 기술인 PowerApps, Microsoft Flow 및 Power BI를 구축하는 방법에 대해 설명합니다. 이러한 기술을 함께 사용하면 비즈니스를 *측정*하고 결과에서 *작동*하고 워크플로를 *자동화*할 수 있습니다. 이 시리즈를 마치면 다음과 같이 멋진 시나리오를 갖게 됩니다.
@@ -33,8 +33,8 @@ SharePoint Online을 가지고 있고 비즈니스 프로세스를 더 효율적
 이 시리즈의 자습서에서 소개하는 시나리오는 완전한 프로젝트 관리 및 분석 앱에 비해 간단하지만, 모든 작업을 완료하는 데 약간의 시간이 걸립니다. SharePoint를 사용하여 PowerApps, Microsoft Flow 및 Power BI를 간단히 소개하려면 다음 문서를 확인하세요.
 
 * **PowerApps**: [PowerApps를 사용하여 SharePoint 내에서 앱 생성](generate-app-from-sharepoint-list-interface.md) 및 [SharePoint 목록의 데이터를 관리하는 앱 생성](app-from-sharepoint.md)
-* **Microsoft Flow**: [Microsoft Flow에서 승인 대기](https://flow.microsoft.com/documentation/wait-for-approvals)
-* **Power BI**: [SharePoint Online에서 보고서 웹 파트 포함](https://powerbi.microsoft.com/documentation/powerbi-service-embed-report-spo)
+* **Microsoft Flow**: [Microsoft Flow에서 승인 대기](https://docs.microsoft.com/flow/wait-for-approvals)
+* **Power BI**: [SharePoint Online에서 보고서 웹 파트 포함](https://docs.microsoft.com/power-bi/service-embed-report-spo)
 
 완료되었으면 이 전체 시나리오를 다시 확인하시기 바랍니다.
 
@@ -46,16 +46,15 @@ SharePoint Online을 가지고 있고 비즈니스 프로세스를 더 효율적
 | **구독 또는 도구** | **링크** |
 | --- | --- |
 | Office 365 Business Premium 구독 |[평가판 구독](https://signup.microsoft.com/Signup?OfferId=467eab54-127b-42d3-b046-3844b860bebf&dl=O365_BUSINESS_PREMIUM&ali=1) |
-| PowerApps Studio |웹용 PowerApps Studio(다운로드 필요 없음) 또는 [Windows용 PowerApps Studio](https://aka.ms/powerappswin) 사용 |
 | Power BI Pro 구독 |[평가판 구독](https://powerbi.microsoft.com/get-started/)(**평가판 사용해 보기** 클릭) |
 | Power BI Desktop |[무료 다운로드](https://powerbi.microsoft.com/get-started/)(**무료 다운로드** 클릭) |
 
 이론적으로는 각 기술에 대한 기본 지식이 있지만, 이러한 기술 중 일부를 처음 사용하는 경우에도 시나리오를 완료할 수 있습니다. 속도를 높이려면 다음 콘텐츠를 사용합니다.
 
 * [SharePoint 시작](https://support.office.com/article/Get-started-with-SharePoint-909ec2f0-05c8-4e92-8ad3-3f8b0b6cf261)
-* [PowerApps 학습 도우미](https://powerapps.microsoft.com/guided-learning/)
-* [Microsoft Flow 단계별 학습](https://flow.microsoft.com/guided-learning/)
-* [Power BI 단계별 학습](https://powerbi.microsoft.com/guided-learning/)
+* [PowerApps 학습 도우미](guided-learning/index.md)
+* [Microsoft Flow 단계별 학습](https://docs.microsoft.com/flow/guided-learning/)
+* [Power BI 단계별 학습](https://docs.microsoft.com/power-bi/guided-learning/)
 
 ## <a name="next-steps"></a>다음 단계
 이 자습서 시리즈의 다음 단계에서는 시리즈 전체에서 사용하는 [SharePoint Online 목록을 설정합니다](sharepoint-scenario-setup.md).

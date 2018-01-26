@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 11/01/2015
 ms.author: gregli
-ms.openlocfilehash: 532b30b2a8740dc3f4adf879029608c6f764c6e2
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: cc12241861a1dd6a0242810bb1a6faab70a2de27
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="collect-clear-and-clearcollect-functions-in-powerapps"></a>PowerApps의 Collect, Clear, ClearCollect 함수
 [컬렉션](../working-with-data-sources.md#collections)을 만들고 지우고 [데이터 원본](../working-with-data-sources.md)에 [레코드](../working-with-tables.md#records)를 추가합니다.
@@ -40,7 +40,7 @@ ms.lasthandoff: 11/07/2017
 
 **[Patch](function-patch.md)** 함수를 사용하여 데이터 원본에 레코드를 생성할 수도 있습니다.
 
-**Collect**는 수정된 데이터 원본을 테이블로 반환합니다.  **Collect**는 [동작 수식](../working-with-formulas-in-depth.md#behavior-formulas)에만 사용할 수 있습니다.
+**Collect**는 수정된 데이터 원본을 테이블로 반환합니다.  **Collect**는 [동작 수식](../working-with-formulas-in-depth.md)에만 사용할 수 있습니다.
 
 ### <a name="clear"></a>지우기
 **Clear** 함수는 컬렉션의 모든 레코드를 삭제합니다.  컬렉션의 열은 그대로 유지됩니다.

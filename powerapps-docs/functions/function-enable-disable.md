@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 11/07/2015
 ms.author: gregli
-ms.openlocfilehash: b4051bdb312707cfafe63a97b5e77a2860feb60c
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 3b9801e804284cb52d389aa0c57d1247a008dd0d
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="enable-and-disable-functions-in-powerapps"></a>PowerApps의 Enable 및 Disable 함수
 [신호](signals.md)를 켜거나 끕니다.
@@ -34,7 +34,7 @@ ms.lasthandoff: 11/07/2017
 
 이 함수는 현재 **[위치](signals.md)** 신호에서만 작동합니다.
 
-이 함수에는 반환 값이 없습니다. [동작 수식](../working-with-formulas-in-depth.md#behavior-formulas)에만 사용할 수 있습니다.
+이 함수에는 반환 값이 없습니다. [동작 수식](../working-with-formulas-in-depth.md)에만 사용할 수 있습니다.
 
 ## <a name="syntax"></a>구문
 **Enable**( *Signal* )<br>**Disable**( *Signal* )

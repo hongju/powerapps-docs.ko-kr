@@ -14,12 +14,12 @@ ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/13/2016
-ms.author: kuntalme
-ms.openlocfilehash: da8b5bc5f71a3d0c52ad9a0e41a28aeb50841a6b
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.author: sharik
+ms.openlocfilehash: edbf16982dfff5c8bda8abe314a8f211af362093
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="connect-from-microsoft-powerapps-to-dynamics-ax"></a>Microsoft PowerApps에서 Dynamics AX에 연결
 ![Dynamics AX Online](./media/connection-dynamicsax/dynamics-ax.png)
@@ -36,7 +36,7 @@ Dynamics AX에서 기존 앱에 데이터를 추가하는 방법에 대 한 자�
 
 [사용 가능한 연결 목록](../connections-list.md)을 참조하고 PowerApps에서 [연결 관리](../add-manage-connections.md) 방법을 알아보세요.
 
-## <a name="next-steps"></a>다음 단계
+### <a name="next-steps"></a>다음 단계
 * [데이터 원본에서 데이터 표시](../add-gallery.md) 방법 알아보기
 * [세부 정보 보기 및 레코드 만들기 또는 업데이트](../add-form.md) 방법 알아보기
 

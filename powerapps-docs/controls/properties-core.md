@@ -15,17 +15,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: gregli
-ms.openlocfilehash: 25094d77809e754afbc54fe5e7b2cd644497ff3e
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: cad53141d6896ad71caaca77b7bf07fee2ac0600
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="core-properties-in-powerapps"></a>PowerApps의 핵심 속성
-## <a name="overview"></a>개요
 사용자가 컨트롤을 보고 상호 작용할 수 있는지 여부를 구성합니다.
 
-## <a name="properties"></a>속성
+### <a name="properties"></a>속성
 **Default** – 사용자가 변경하기 전에 컨트롤의 초기 값입니다.
 
 * **[Card](control-card.md)**, **[Check box](control-check-box.md)**, **[Drop down](control-drop-down.md)**, **[Gallery](control-gallery.md)**, **[List Box](control-list-box.md)**, **[Radio](control-radio.md)**, **[Rating](control-rating.md)**, **[Slider](control-slider.md)**, **[Text input](control-text-input.md)** 및 **[Toggle](control-toggle.md)** 컨트롤에 적용됩니다.

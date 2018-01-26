@@ -15,14 +15,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: gregli
-ms.openlocfilehash: 1f3d05d98755e8f0eff8af5e3dde5921d0de0301
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 6d79f5a93fd89de1c3994f43c285e9d96cb00af6
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="text-properties-in-powerapps"></a>PowerApps의 텍스트 속성
-## <a name="overview"></a>개요
 사용자가 데이터를 입력하면 힌트로서 도구 설명의 컨트롤에 나타나는 텍스트를 구성하며 다른 텍스트 관련 특징을 지정합니다.
 
 ## <a name="text-appearance"></a>텍스트 모양

@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/26/2016
 ms.author: gregli
-ms.openlocfilehash: 944d6d8bf8c02790af7fa6726c15a94587c6af24
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: c0ca5547f433aea1bee8d5d0d430c3e11a7f4caa
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="forall-function-in-powerapps"></a>PowerApps의 ForAll 함수
 [테이블](../working-with-tables.md)의 모든 [레코드](../working-with-tables.md#records)에 대해 값을 계산하고 작업을 수행합니다.
@@ -27,7 +27,7 @@ ms.lasthandoff: 11/07/2017
 ## <a name="description"></a>설명
 **ForAll** 함수는 테이블의 모든 레코드에 대한 수식을 계산합니다.  수식은 값을 계산하고 데이터 수정이나 연결 작업과 같은 작업을 수행할 수 있습니다.
 
-[!INCLUDE [record-scope](../../includes/record-scope.md)]
+[!INCLUDE [record-scope](../includes/record-scope.md)]
 
 ### <a name="return-value"></a>반환 값
 각 수식 평가의 결과는 입력 테이블과 동일한 순서로 테이블에 반환됩니다.
@@ -49,7 +49,7 @@ PowerApps의 많은 함수는 단일 열 테이블을 사용하여 한 번에 �
 또 다른 고려 사항은, **ForAll**은 위임이 불가능한 반면 **Filter**와 같은 다른 함수는 위임이 가능하다는 점입니다.  
 
 ### <a name="delegation"></a>위임
-[!INCLUDE [delegation-no-one](../../includes/delegation-no-one.md)]
+[!INCLUDE [delegation-no-one](../includes/delegation-no-one.md)]
 
 ## <a name="syntax"></a>구문
 **ForAll**( *Table*, *Formula* )

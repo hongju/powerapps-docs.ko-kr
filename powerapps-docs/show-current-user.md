@@ -14,11 +14,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/16/2016
 ms.author: lonu
-ms.openlocfilehash: c5d4780908ebd20989649df14dec51d70e8eecde
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: ce4d0db7a82e87d25df950c99da718bf8c84b9bd
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="show-information-about-a-powerapps-user"></a>PowerApps 사용자에 대한 정보 표시
 User 함수는 전체 이름, 이메일 주소 및 로그인한 사용자와 관련된 그림을 표시할 수 있습니다. 이 정보를 사용하여 양식을 자동으로 채울 수 있습니다.
@@ -30,8 +30,6 @@ User 함수는 전체 이름, 이메일 주소 및 로그인한 사용자와 관
 * 지원 센터에 문의할 때 이메일 주소를 자동으로 입력합니다.
 
 기본적으로 사용자가 자동으로 채워지는 양식이나 레이블의 이점을 얻을 수 있는 위치이면 어디서든 이와 같이 사용할 수 있습니다.
-
-&nbsp;
 
 [!INCLUDE [app-customization-requirements](includes/app-customization-requirements.md)]
 

@@ -14,18 +14,18 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 12/06/2016
 ms.author: kfend
-ms.openlocfilehash: f3cc5a8116f84d61576d75b22a8e3197d6ec7e42
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 214b11c4f23db29d097b2d97052473d8f436d533
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="create-an-app-from-scratch-using-a-common-data-service-database"></a>Common Data Service 데이터베이스를 사용하여 앱을 처음부터 만들기
 표준 엔터티(기본 제공), 사용자 지정 엔터티(사용자 조직에서 만듦), 또는 모두를 사용하여 Common Data Service에 저장된 데이터를 관리하는 앱을 빌드합니다.
 
 Common Data Service에서 앱을 빌드하면, SharePoint, Dynamics 365 및 Salesforce와 같은 데이터 원본으로 만들기 때문에 Microsoft PowerApps에서 연결을 만들지 않아도 됩니다. 앱에서 두 활동 모두에 대해 표시, 관리 또는 사용하려는 엔터티를 지정하기만 하면 됩니다.
 
-[!VIDEO nb:cid:UUID:5db63c4d-6aeb-45c5-9609-8f4bbdd37bc6]
+
 
 
 1. Common Data Service 데이터베이스를 만듭니다. 자세한 내용은 [ Common Data Service 데이터베이스 만들기](create-database.md)를 참조하세요.

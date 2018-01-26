@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: gregli
-ms.openlocfilehash: 11eb01c2476d06f11299bd91e34f353f5b1075d2
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 57f2b9a23207c2c866738ac40f46a37747fcd54d
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="global-support"></a>글로벌 지원
 PowerApps는 글로벌 제품입니다.  많은 다양한 언어와 지역에서 앱을 빌드하고 사용할 수 있습니다.
@@ -79,11 +79,11 @@ PowerApps 목록 구분 기호의 변경 사항이 Excel 목록 구분 기호의
 
 예를 들어, "en-US"에서 다음 수식을 고려하세요.
 
-* **If( Slider1.Value > 12.59, UpdateContext( { Validation: true, MovingOn: 1 } ); Navigate( "NextScreen", "" ), UpdateContext( { Validation: false } ) )**
+**If( Slider1.Value > 12.59, UpdateContext( { Validation: true, MovingOn: 1 } ); Navigate( "NextScreen", "" ), UpdateContext( { Validation: false } ) )**
 
 ","가 소수 구분 기호로 사용된 언어에서는 제작 환경에서 다음으로 나타납니다.
 
-* **If( Slider1.Value > 12,59; UpdateContext( { Validation: true; MovingOn: 1 } );; Navigate( "NextScreen", "" ); UpdateContext( { Validation: false } ) )**
+**If( Slider1.Value > 12,59; UpdateContext( { Validation: true; MovingOn: 1 } );; Navigate( "NextScreen", "" ); UpdateContext( { Validation: false } ) )**
 
 속성 선택 연산자 **.** (**Slider1.Value**)는 소수 구분 기호가 무엇이든지 항상 동일합니다.
 
@@ -101,7 +101,7 @@ PowerApps 목록 구분 기호의 변경 사항이 Excel 목록 구분 기호의
 
 그런 후 다음과 같은 수식을 사용하여 번역된 문자열을 테이블에서 끌어옵니다.
 
-* **LookUp( Table1, TextID = "Hello" && (LanguageTag = Left( Language(), 2 ) || IsBlank( LanguageTag ))).LocalizedText**  
+**LookUp( Table1, TextID = "Hello" && (LanguageTag = Left( Language(), 2 ) || IsBlank( LanguageTag ))).LocalizedText**  
 
 다른 언어로 번역된 문자열은 자신의 언어보다 훨씬 오래 걸릴 수 있습니다.  대부분의 경우 사용자 인터페이스에 문자열을 표시하는 레이블 및 기타 요소가 더 넓어져야 합니다.
 
@@ -153,4 +153,3 @@ Excel을 사용한 경우 이러한 모든 함수가 단일한 **Value** 함수�
 특히, 이러한 함수를 사용하여 선택 옵션이 있는 **드롭다운** 컨트롤을 제공합니다.  
 
 자세한 내용은 **[Calendar](functions/function-clock-calendar.md)** 및 **[Clock](functions/function-clock-calendar.md)** 함수에 대한 문서를 참조하세요.
-

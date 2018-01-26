@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 07/24/2017
 ms.author: gregli
-ms.openlocfilehash: fc575ff16f190f85b50ef056430354e32d0ab907
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 2ffc183221e399ee978ac9a600b400e96a00f704
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="endswith-and-startswith-functions-in-powerapps"></a>PowerApps의 EndsWith 및 StartsWith 함수
 텍스트 문자열이 다른 텍스트 문자열로 시작되거나 끝나는지 테스트합니다.
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/07/2017
 
 두 함수 모두, 테스트에서 대/소문자를 구분하지 않습니다.  두 함수의 반환 값은 부울 **true** 또는 **false**입니다.  
 
-**EndsWith**와 **StartsWith**를 **[Filter](function-filter-lookup.md)** 함수와 함께 사용하여 앱 내의 데이터를 검색합니다. **[in](operators.md#in-and-exactin-operators)** 연산자나 **[Search](function-fitler-lookup.md)** 함수를 사용하면 시작이나 끝뿐만 아니라 텍스트 문자열 내 어디든지 볼 수 있습니다.  함수의 선택은 앱의 필요에 따라 달라지며 특정 데이터 원본에 대해 [위임](../delegation-overview.md)할 수 있는 함수에 따라 달라집니다.  이러한 함수 중 위임할 수 없는 함수가 있으면 이러한 제한 사항을 경고하기 위해 수식 작성 시 파란 점이 표시됩니다.
+**EndsWith**와 **StartsWith**를 **[Filter](function-filter-lookup.md)** 함수와 함께 사용하여 앱 내의 데이터를 검색합니다. **[in](operators.md#in-and-exactin-operators)** 연산자나 **[Search](function-filter-lookup.md)** 함수를 사용하면 시작이나 끝뿐만 아니라 텍스트 문자열 내 어디든지 볼 수 있습니다.  함수의 선택은 앱의 필요에 따라 달라지며 특정 데이터 원본에 대해 [위임](../delegation-overview.md)할 수 있는 함수에 따라 달라집니다.  이러한 함수 중 위임할 수 없는 함수가 있으면 이러한 제한 사항을 경고하기 위해 수식 작성 시 파란 점이 표시됩니다.
 
 ## <a name="syntax"></a>구문
 **EndsWith**( *Text*, *EndText* )

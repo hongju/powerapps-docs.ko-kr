@@ -14,12 +14,12 @@ ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 05/25/2017
-ms.author: ricksal
-ms.openlocfilehash: a85c0f3e0468c249641e40c3a0b7fb7f1d32a916
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.author: sharik
+ms.openlocfilehash: 9839059cca741e47f5f519a45e7291847c1bc792
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="gallery-control-in-powerapps"></a>PowerApps의 갤러리 컨트롤
 다른 컨트롤을 포함하고 데이터 집합을 보여주는 컨트롤입니다.
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/07/2017
 ## <a name="key-properties"></a>주요 속성
 **[Default](properties-core.md)**  – 앱이 시작하면 갤러리에서 선택할 데이터 원본의 항목 또는 레코드입니다.
 
-**[Items](properties-core.md)**  – 갤러리, 목록 또는 차트 등의 컨트롤에서 나타나는 데이터 원본입니다.
+**[Items](properties-core.md)** – 갤러리, 목록 또는 차트와 같은 컨트롤에 표시되는 데이터 원본입니다.
 
 **Selected** – 선택한 항목입니다.
 
@@ -51,7 +51,7 @@ ms.lasthandoff: 11/07/2017
 
 **[Height](properties-size-location.md)** – 컨트롤의 위쪽 및 아래쪽 가장자리 사이의 간격입니다.
 
-**Layout** – 사용자는 갤러리를 스크롤하거나 슬라이더를 상하(**세로**) 또는 좌우(**가로**)로 조정할지 여부를 선택합니다.
+**Layout** – 사용자가 위에서 아래로(**Vertical**) 또는 왼쪽에서 오른쪽으로(**Horizontal**) 갤러리를 스크롤하거나 슬라이더를 조정할지 여부입니다.
 
 **NavigationStep** – **ShowNavigation** 속성이 **true**로 설정되어 있고 사용자가 해당 갤러리 한쪽 끝에서 탐색 화살표를 선택할 경우 갤러리를 스크롤하는 정도입니다.
 
@@ -75,9 +75,9 @@ ms.lasthandoff: 11/07/2017
 
 **WrapCount** – 가로 또는 세로 레이아웃에 따라 각 행 또는 열당 표시되는 항목 수입니다.
 
-**[X](properties-size-location.md)**  – 컨트롤의 왼쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 왼쪽 가장자리 사이의 거리입니다.
+**[X](properties-size-location.md)** – 컨트롤의 왼쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 왼쪽 가장자리 사이의 거리입니다.
 
-**[Y](properties-size-location.md)**  – 컨트롤의 상단 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 상단 가장자리 사이의 거리입니다.
+**[Y](properties-size-location.md)** – 컨트롤의 위쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 위쪽 가장자리 사이의 거리입니다.
 
 ## <a name="related-functions"></a>관련된 함수
 [**Filter**( *DataSource*, *Formula* )](../functions/function-filter-lookup.md)

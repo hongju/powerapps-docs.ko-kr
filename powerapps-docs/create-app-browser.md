@@ -14,17 +14,17 @@ ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/06/2017
-ms.author: karthikb
-ms.openlocfilehash: 3c675e84f03e008a7f478d358a99fe3fff602002
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.author: sharik
+ms.openlocfilehash: 2622fe53fe45c1b4e46a515ba89d2caee5bf1ab3
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="create-or-edit-apps-in-powerapps-studio-for-web"></a>웹용 PowerApps Studio에서 앱 만들기 또는 편집
 웹용 PowerApps Studio에서 앱을 만들고 편집하면 Windows 또는 기타 플랫폼의 브라우저 창에서 열립니다.
 
-**필수 조건**
+## <a name="prerequisites"></a>필수 조건
 
 * PowerApps에 [등록](signup-for-powerapps.md)합니다.
 * Windows 또는 Mac을 실행 중인 컴퓨터의 Microsoft Edge, Google Chrome 또는 Internet Explorer 11입니다.

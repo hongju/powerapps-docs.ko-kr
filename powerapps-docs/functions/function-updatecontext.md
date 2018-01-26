@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 11/08/2015
 ms.author: gregli
-ms.openlocfilehash: 16d2ed94b44b8b0e521aa5690885fcd1617dc024
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: bcade879bfad04a50f80c26638f994897d9b42c0
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="updatecontext-function-in-powerapps"></a>PowerApps의 UpdateContext 함수
 현재 화면의 [컨텍스트 변수](../working-with-variables.md#create-a-context-variable)를 만들거나 업데이트합니다.
@@ -38,9 +38,9 @@ PowerApps는 사용자가 앱과 상호 작용할 때 자동으로 다시 계산
 * 아직 존재하지 않는 변수의 이름을 지정하면 **UpdateContext**는 해당 이름의 변수를 만들고 해당 변수의 값을 사용자가 지정한 값으로 설정합니다.
 * 이전에 변수를 정의했지만 이 특정 **UpdateContext** 수식에 지정하지 않은 경우 해당 값은 동일하게 유지됩니다.
 
-컨텍스트 변수는 **UpdateContext** 또는 [**Navigate** 함수](function-navigate.md)를 사용하여 암시적으로 생성합니다.  명시적 선언은 필요하지 않습니다.  컨텍스트 변수에 대한 모든 **UpdateContext** 및 **Navigate** 참조를 제거하는 경우 컨텍스트 변수가 사라집니다.  변수를 지우려면 변수의 값을 [**Blank** 함수](function-blank.md)의 결과로 설정하십시오. 
+컨텍스트 변수는 **UpdateContext** 또는 [**Navigate** 함수](function-navigate.md)를 사용하여 암시적으로 생성합니다.  명시적 선언은 필요하지 않습니다.  컨텍스트 변수에 대한 모든 **UpdateContext** 및 **Navigate** 참조를 제거하는 경우 컨텍스트 변수가 사라집니다.  변수를 지우려면 변수의 값을 [**Blank** 함수](function-isblank-isempty.md)의 결과로 설정하십시오.
 
-변수의 값, 정의 및 용도는 제작 환경의 파일 메뉴에 있는 변수 보기를 사용하여 볼 수 있습니다. 
+변수의 값, 정의 및 용도는 제작 환경의 파일 메뉴에 있는 변수 보기를 사용하여 볼 수 있습니다.
 
 변수의 열 이름을 사용하여 수식에서 컨텍스트 변수를 참조합니다. 예를 들어 **UpdateContext( { ShowLogo: true } )**는 **ShowLogo**라는 컨텍스트 변수를 만들고 해당 값을 **true**로 설정합니다. 그러면 수식에서 **ShowLogo**라는 이름을 사용하여 이 컨텍스트 변수 값을 사용할 수 있습니다.  이미지 컨트롤의 **Visible** 속성에 대한 수식으로 **ShowLogo**를 쓰고 컨텍스트 변수의 값이 **true** 또는 **false**인지 여부에 따라 해당 컨트롤을 표시하거나 숨길 수 있습니다.
 
@@ -56,7 +56,7 @@ PowerApps는 사용자가 앱과 상호 작용할 때 자동으로 다시 계산
 
 모든 컨텍스트 변수는 범위가 화면으로 한정됩니다. 한 화면에서 컨텍스트 변수를 정의하고 해당 변수를 다른 화면에서 수정하려면 **[Navigate](function-navigate.md)** 함수를 기반으로 수식을 작성해야 합니다.  또는 전역 변수를 사용합니다.
 
-**UpdateContext**에는 반환 값이 없으며 [동작 수식](../working-with-formulas-in-depth.md#behavior-formulas) 내에만 사용할 수 있습니다.
+**UpdateContext**에는 반환 값이 없으며 [동작 수식](../working-with-formulas-in-depth.md) 내에만 사용할 수 있습니다.
 
 ## <a name="syntax"></a>구문
 **UpdateContext**(*UpdateRecord*)

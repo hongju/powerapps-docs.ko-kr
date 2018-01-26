@@ -15,18 +15,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: lonu
-ms.openlocfilehash: 8441ac93c1d3f96e0316ff1f044dc58b800d4dd5
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 02e45c98aa991c14ad99d3bf3f11d02dbc0752aa
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="add-a-scrolling-screen-in-powerapps"></a>PowerApps에서 스크롤 화면 추가
 다른 항목을 표시하도록 사용자가 스크롤할 수 있는 화면을 만듭니다. 예를 들어 세로 막대형 차트와 꺾은선형 차트로 데이터를 표시하는 앱을 만들고자 할 수도 있습니다. 스크롤 화면을 추가하면 사용자가 스크롤하여 표시할 수 있는 여러 개의 컨트롤을 추가할 수 있습니다.
 
 이 섹션에서 여러 컨트롤을 추가하는 경우 휴대폰 앱이든 태블릿 앱이든 상관 없이 컨트롤은 해당 섹션 내 관련 있는 위치를 유지합니다. 화면 크기와 방향에 따라 섹션이 정렬되는 방식이 결정될 수 있습니다.  
-
-&nbsp;
 
 [!INCLUDE [app-customization-requirements](includes/app-customization-requirements.md)]
 

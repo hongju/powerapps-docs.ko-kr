@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 07/06/2017
 ms.author: gregli
-ms.openlocfilehash: fb1154a80bc60b8d645fdeef8c40dcdb2d2b4baf
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: c08776071e694bfe1a9b4a8263ab9eead2547024
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="reset-function-in-powerapps"></a>PowerApps의 Reset 함수
 사용자 변경 내용을 삭제하면서 해당 기본값에 대한 컨트롤을 다시 설정합니다.  
@@ -33,7 +33,7 @@ ms.lasthandoff: 11/07/2017
 
 또한 입력 컨트롤은 자신의 **Default** 속성이 변경될 때 다시 설정됩니다.
 
-**Reset**은 반환 값이 없으며 [동작 수식](../working-with-formulas-in-depth.md#behavior-formulas)에만 사용할 수 있습니다.
+**Reset**은 반환 값이 없으며 [동작 수식](../working-with-formulas-in-depth.md)에만 사용할 수 있습니다.
 
 ## <a name="syntax"></a>구문
 **Reset**( *Control* )
