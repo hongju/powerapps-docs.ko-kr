@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 11/07/2015
 ms.author: gregli
-ms.openlocfilehash: b3473d0dcf1462648f39c3dbbdedd12d1cfce08c
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: f7f8ec5c63b3d0936a1123d547b5c19097f1e04b
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="count-counta-countif-and-countrows-functions-in-powerapps"></a>PowerApps의 Count, CountA, CountIf 및 CountRows 함수
 [테이블](../working-with-tables.md)에 있는 모든 [레코드](../working-with-tables.md#records)의 수를 계산하거나 조건을 충족하는 모든 레코드의 수를 계산합니다.
@@ -35,7 +35,7 @@ ms.lasthandoff: 11/07/2017
 
 이러한 함수 각각은 숫자를 반환합니다.
 
-[!INCLUDE [delegation-no](../../includes/delegation-no.md)]
+[!INCLUDE [delegation-no](../includes/delegation-no.md)]
 
 ## <a name="syntax"></a>구문
 **Count**( *SingleColumnTable* )<br>
@@ -64,7 +64,7 @@ ms.lasthandoff: 11/07/2017
     **CountA(Inventory.UnitsInStock)**
    
     레이블에 **UnitsInStock** 열에서 비어 있지 않은 셀의 수로 **5**가 표시됩니다.
-4. 다른 레이블을 추가하고 **[Text](../controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.
+4. 다른 레이블을 추가하고, **[Text](../controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.
    
     **CountRows(Inventory)**
    

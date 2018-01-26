@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 08/28/2017
 ms.author: gregli
-ms.openlocfilehash: a30d66dd62750ca0f606ea529fffa4d681bd6870
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 2277d7f9252f8ce4df7552b6eb5f7bf4ac94ff63
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="concat-and-concatenate-functions-in-powerapps"></a>PowerApps의 Concat 및 Concatenate 함수
 [테이블](../working-with-tables.md)에 있는 텍스트와 문자열의 개별 문자열을 연결합니다.
@@ -27,7 +27,7 @@ ms.lasthandoff: 11/07/2017
 ## <a name="description"></a>설명
 **Concat** 함수는 테이블의 모든 [레코드](../working-with-tables.md#records)에 적용된 수식의 결과를 연결하여 하나의 문자열을 생성합니다. **[Sum](function-aggregates.md)** 함수가 숫자를 요약하듯 테이블의 문자열을 요약하려면 이 함수를 사용합니다.
 
-[!INCLUDE [record-scope](../../includes/record-scope.md)]
+[!INCLUDE [record-scope](../includes/record-scope.md)]
 
 문자열을 하위 문자열 테이블로 분할하려면 **[Split](function-split.md)** 함수를 사용합니다.
 
@@ -49,7 +49,7 @@ ms.lasthandoff: 11/07/2017
    
     **Collect(Products, {String:"Violin", Wind:"Trombone", Percussion:"Bongos"}, {String:"Cello", Wind:"Trumpet", Percussion:"Tambourine"})**
 2. F5 키를 누르고 단추를 클릭한 다음 Esc 키를 눌러서 디자인 작업 영역으로 돌아갑니다.
-3. **[레이블](../controls/control-text-box.md)** 컨트롤을 추가하고 **[Text](../controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.
+3. **[레이블](../controls/control-text-box.md)** 컨트롤을 추가하고, **[Text](../controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.
    
     **Concat(Products, String & " ")**
    
@@ -57,7 +57,7 @@ ms.lasthandoff: 11/07/2017
 
 #### <a name="concatenate"></a>Concatenate
 1. **[텍스트 입력](../controls/control-text-input.md)** 컨트롤을 추가하고 **AuthorName**이라고 이름을 지정합니다.
-2. **[레이블](../controls/control-text-box.md)** 컨트롤을 추가하고 **[Text](../controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.<br>
+2. **[레이블](../controls/control-text-box.md)** 컨트롤을 추가하고, **[Text](../controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.<br>
    **Concatenate("By ", AuthorName.Text)**
 3. **AuthorName**에 이름을 입력합니다.
    
