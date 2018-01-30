@@ -13,13 +13,13 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/25/2017
+ms.date: 10/20/2017
 ms.author: archanan
-ms.openlocfilehash: 45b43f8d1518c09ffcd584f055391e442899dfa3
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 637cccf5a5a88d012657172a9e312e232915a615
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="connect-to-office-365-outlook-from-powerapps"></a>PowerApps에서 Office 365 Outlook연결
 ![Office 365 Outlook](./media/connection-office365-outlook/office365icon.png)
@@ -30,11 +30,10 @@ Office 365 Outlook에 연결하면 다른 작업 외에도 이메일 메시지�
 
 이 토픽에서는 앱에 Office 365 Outlook을 연결로 추가하고, 데이터 원본으로 앱에 Office 365 Outlook을 추가하며, 이 데이터를 다양한 컨트롤에서 사용하는 방법을 설명합니다.
 
-**중요**: 이 문서의 작성 시점 현재 캘린더 작업은 반복 이벤트를 지원하지 않습니다.
+> [!IMPORTANT]
+> 이 문서를 작성할 당시, 캘린더 작업은 반복 이벤트를 지원하지 않습니다.
 
-&nbsp;
-
-[!INCLUDE [connection-requirements](../../includes/connection-requirements.md)]
+[!INCLUDE [connection-requirements](../includes/connection-requirements.md)]
 
 ## <a name="connect-to-office-365-outlook"></a>Office 365 Outlook 연결
 1. [데이터 연결을 추가](../add-data-connection.md)하고 **Office 365 Outlook**을 선택합니다.  
@@ -51,7 +50,7 @@ Office 365 Outlook 연결이 만들어지고 앱에 추가됩니다. 이제 사�
     `Office365.GetEmails({fetchOnlyUnread:false})`
    
     갤러리 컨트롤에 일부 이메일이 자동으로 채워집니다.
-3. 갤러리에서 첫 번째 레이블의 **텍스트** 속성을 `ThisItem.From`으로 설정합니다. 두 번째 레이블을 `ThisItem.Subject`로 설정합니다. 세 번째 레이블을 `ThisItem.Body`로 설정합니다. 레이블의 크기를 조정할 수도 있습니다.
+3. 갤러리에서 첫 번째 레이블의 **Text** 속성을 `ThisItem.From`로 설정합니다. 두 번째 레이블을 `ThisItem.Subject`로 설정합니다. 세 번째 레이블을 `ThisItem.Body`로 설정합니다. 레이블의 크기를 조정할 수도 있습니다.
    
     갤러리 컨트롤에 새 속성이 자동으로 채워집니다.
 4. 이 함수에는 사용 가능한 몇 가지 선택적 매개 변수가 있습니다. 갤러리의 **Items** 속성을 다음 수식 중 하나로 설정합니다.
@@ -66,7 +65,7 @@ Office 365 Outlook 연결이 만들어지고 앱에 추가됩니다. 이제 사�
 1. **삽입** 메뉴에서 **텍스트 상자**를 선택한 다음 **텍스트 입력**을 선택합니다.
 2. 이전 단계를 두 번 더 반복하여 세 상자를 만들고 한 열에 정렬합니다.  
    
-    ![](./media/connection-office365-outlook/threetextinput.png)
+    ![열의 세 상자](./media/connection-office365-outlook/threetextinput.png)
 3. 컨트롤을 이름을 다음으로 바꿉니다.  
    
    * **inputTo**
@@ -76,8 +75,8 @@ Office 365 Outlook 연결이 만들어지고 앱에 추가됩니다. 이제 사�
    
     `Office365.SendEmail(inputTo.Text, inputSubject.Text, inputBody.Text)`
 5. 버튼을 움직여 모든 다른 컨트롤 아래 표시되게 하고 **[Text](../controls/properties-core.md)** 속성을 **"이메일 보내기"**로 설정합니다.
-6. F5를 누르거나 미리 보기 단추(![](./media/connection-office365-outlook/preview.png))를 선택합니다. **inputTo**에 올바른 이메일 주소를 입력한 다음 다른 두 **텍스트 입력** 컨트롤을 표시할 순서를 입력합니다.
-7. **이메일 보내기**를 선택하여 메시지를 보냅니다. 기본 작업 영역으로 돌아가려면 Esc를 누릅니다.
+6. F5 키를 누르거나 미리 보기 단추(![미리 보기 단추](./media/connection-office365-outlook/preview.png))를 선택합니다. **inputTo**에 올바른 이메일 주소를 입력한 다음 다른 두 **텍스트 입력** 컨트롤을 표시할 순서를 입력합니다.
+7. **이메일 보내기**를 선택하여 메시지를 보냅니다. 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
 
 ## <a name="send-a-message-with-an-attachment"></a>첨부 파일이 있는 메시지 보내기
 예를 들어, 장치의 카메라를 사용하여 사진을 촬영한 다음 첨부 파일로 보내는 앱을 만들 수 있습니다. 사용자가 여러 종류의 파일을 이메일 앱에 첨푸할 수도 있습니다.
@@ -88,7 +87,8 @@ Office 365 Outlook 연결이 만들어지고 앱에 추가됩니다. 이제 사�
 * ContentBytes
 * @odata.type
 
-**참고**: 한 첨부 파일에 @odata.type 속성만 지정하고 빈 문자열로 설정할 수 있습니다.
+> [!NOTE]
+> 한 첨부 파일에 @odata.type 속성만 지정하고 빈 문자열로 설정할 수 있습니다.
 
 이 예제에서는 사진을 **file1.jpg**로 보냅니다.
 
@@ -108,21 +108,24 @@ Office 365 Outlook 연결이 만들어지고 앱에 추가됩니다. 이제 사�
 3. 갤러리에서 첫 번째 레이블의 **Text** 속성을 `ThisItem.Id`로 설정합니다. 두 번째 레이블을 `ThisItem.Subject`로 설정합니다. 세 번째 레이블을 `ThisItem.Body`로 설정합니다.
 4. 갤러리에서 첫 번째 레이블을 선택하고 이름을 **EmailID**로 변경합니다.
    
-    ![옵션 창 닫기](./media/connection-office365-outlook/renameheading.png)
+    ![첫 번째 레이블 이름 변경](./media/connection-office365-outlook/renameheading.png)
 5. 갤러리에서 세 번째 레이블을 선택 하고 **단추**를 추가합니다(**삽입** 메뉴). 단추의 **OnSelect** 속성을 다음 수식으로 설정합니다.  
    
     `Office365.DeleteEmail(EmailID.Text)`
-6. F5를 누르거나 미리 보기 단추(![](./media/connection-office365-outlook/preview.png))를 선택합니다. 갤러리에서 이메일 중 하나를 선택하고 단추를 클릭합니다. <br/><br/> **참고** 그러면 받은 편지함에서 선택한 이메일이 삭제됩니다. 그러니 신중하게 선택해야 합니다.
-7. 기본 작업 영역으로 돌아가려면 Esc를 누릅니다.
+6. F5 키를 누르거나 미리 보기 단추(![미리 보기 단추](./media/connection-office365-outlook/preview.png))를 선택합니다. 갤러리에서 이메일 중 하나를 선택하고 단추를 클릭합니다. 
+    
+    > [!NOTE]
+    > 그러면 받은 편지함에서 선택한 이메일이 삭제됩니다. 그러니 신중하게 선택해야 합니다.
+7. 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
 
 ## <a name="mark-a-message-as-read"></a>메시지를 읽은 상태로 표시
-이 섹션에서는 [이메일 삭제](connection-office365-outlook.md#delete-email)와 같은 컨트롤을 사용합니다.
+이 섹션에서는 [메시지 삭제](connection-office365-outlook.md#delete-a-message)와 같은 컨트롤을 사용합니다.
 
 1. 단추의 **OnSelect** 속성을 다음 수식으로 설정합니다.  
    
     `Office365.MarkAsRead(EmailID.Text)`
-2. F5를 누르거나 미리 보기 단추(![](./media/connection-office365-outlook/preview.png))를 선택합니다. 읽지 않은 메일 중 하나를 선택하 고 단추를 클릭합니다.
-3. 기본 작업 영역으로 돌아가려면 Esc를 누릅니다.
+2. F5 키를 누르거나 미리 보기 단추(![미리 보기 단추](./media/connection-office365-outlook/preview.png))를 선택합니다. 읽지 않은 메일 중 하나를 선택하 고 단추를 클릭합니다.
+3. 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
 
 ## <a name="helpful-links"></a>유용한 링크
 * 모든 함수 및 매개 변수 목록은 [Office 365 Outlook 참조](https://docs.microsoft.com/en-us/connectors/office365connector/)에서 확인하세요.

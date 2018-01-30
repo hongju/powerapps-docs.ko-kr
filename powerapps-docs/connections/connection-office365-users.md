@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/07/2016
 ms.author: archanan
-ms.openlocfilehash: c6f4d61728d41df880e595e74e91ff6012bc29aa
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: ca6a91359f04aa54dfb9db146dc08b098763cc2d
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="connect-to-office-365-users-connection-from-powerapps"></a>PowerApps에서 Office 365 사용자 연결
 ![Office 365 사용자](./media/connection-office365-users/office365icon.png)
@@ -30,9 +30,7 @@ Office 365 사용자를 통해 Office 365 계정을 사용하여 조직의 사�
 
 이 토픽에서는 앱에 Office 365 사용자를 연결 및 데이터 원본으로 추가하는 방법과 갤러리 컨트롤에서 테이블 데이터를 사용하는 방법을 설명합니다.
 
-&nbsp;
-
-[!INCLUDE [connection-requirements](../../includes/connection-requirements.md)]
+[!INCLUDE [connection-requirements](../includes/connection-requirements.md)]
 
 ## <a name="add-a-connection"></a>연결 추가
 1. [데이터 연결을 추가](../add-data-connection.md)하고 **Office 365 사용자**를 선택합니다.  
@@ -97,7 +95,8 @@ Office 365 사용자 연결이 만들어지고 앱에 추가됩니다. 이제 �
 
 레이블에 지정한 사용자 또는 해당 사용자의 관리자에 대해 입력한 정보가 표시됩니다.
 
-**참고**: Common Data Service에서 엔터티를 기반으로 하는 앱을 개발하는 경우 전자 메일 주소 대신 ID를 기준으로 사용자를 지정할 수 있습니다.
+> [!NOTE]
+> Common Data Service에서 엔터티를 기반으로 하는 앱을 개발하는 경우 이메일 주소 대신 ID를 기준으로 사용자를 지정할 수 있습니다.
 
 예를 들어, [앱을 자동으로 만들고](../data-platform-create-app.md), **레이블** 컨트롤이 포함된 화면을 추가하고, 이 수식에 컨트롤의 **Text** 속성을 설정할 수 있습니다.
 <br>**Office365Users.UserProfile(BrowseGallery1.Selected.CreatedByUser).DisplayName**
@@ -116,7 +115,8 @@ Office 365 사용자 연결이 만들어지고 앱에 추가됩니다. 이제 �
     선택한 갤러리의 오른쪽 창에는 해당 갤러리 옵션이 나와 있습니다.
 4. 두 번째 목록에서 **JobTitle**을 선택합니다. 세 번째 목록에서 **DisplayName**을 선택합니다. 갤러리에서 이러한 값을 표시하도록 업데이트됩니다.  
    
-    <br/>**참고** 실제로 첫 번째 상자는 이미지 컨트롤입니다. 이미지를 설정하지 않은 경우 이미지 컨트롤을 삭제하고 그 자리에 레이블을 추가할 수 있습니다. [컨트롤을 추가하고 구성](../add-configure-controls.md)하는 것은 좋은 리소스입니다.
+> [!NOTE]
+> 실제로 첫 번째 상자는 이미지 컨트롤입니다. 이미지를 설정하지 않은 경우 이미지 컨트롤을 삭제하고 그 자리에 레이블을 추가할 수 있습니다. [컨트롤을 추가하고 구성](../add-configure-controls.md)하는 것은 좋은 리소스입니다.
 
 ### <a name="search-for-users"></a>사용자 검색
 1. **텍스트 입력** 컨트롤을 추가하고(**삽입** 메뉴 > **텍스트**), **SearchTerm**으로 이름을 바꿉니다. 검색할 이름을 입력합니다. 예를 들어 성을 제외한 이름을 입력합니다.

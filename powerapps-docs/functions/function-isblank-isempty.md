@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 07/24/2017
 ms.author: gregli
-ms.openlocfilehash: b9d93fe540d32bc547cec3254b5aa3968b460660
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 1c5972d35f98d15f1cad45e74763320011ab98c6
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="blank-coalesce-isblank-and-isempty-functions-in-powerapps"></a>PowerApps의 Blank, Coalesce, IsBlank 및 IsEmpty 함수
 값이 비어 있거나 [테이블](../working-with-tables.md)에 [레코드](../working-with-tables.md#records)가 없는지 여부를 테스트하고 *공백* 값을 만드는 방법을 제공합니다.
@@ -27,7 +27,8 @@ ms.lasthandoff: 11/07/2017
 ## <a name="overview"></a>개요
 *공백*은 "값 없음" 또는 "알 수 없는 값"에 대한 자리 표시자입니다. 사용자가 문자를 입력하지 않으면 **[텍스트 입력](../controls/control-text-input.md)** 컨트롤은 *공백*입니다. 사용자가 문자를 입력하는 즉시 동일한 컨트롤은 더 이상 *공백*이 아닙니다.  일부 데이터 원본에서 NULL 값을 저장하고 반환할 수 있으며, 이 값은 PowerApps에서 *공백*으로 표현됩니다.
 
-**참고**: *공백* 값 저장은 현재 로컬 컬렉션에만 지원됩니다. 많은 데이터 원본에서 *공백*(NULL) 값을 지원하며, 이 제한을 제거하기 위해 노력하고 있습니다.
+> [!NOTE]
+> *공백* 값 저장은 현재 로컬 컬렉션에만 지원됩니다. 많은 데이터 원본에서 *공백*(NULL) 값을 지원하며, 이 제한을 제거하기 위해 노력하고 있습니다.
 
 속성 또는 계산 값은 *공백*일 수 있습니다.  예를 들어 부울 값은 일반적으로 **true** 또는 **false** 값 중 하나입니다.  하지만 이 두 가지 값 외에도 *공백*일 수도 있습니다.  이는 워크시트 셀이 공백으로 시작하지만 **TRUE** 또는 **FALSE** 값을 포함할 수 있는 Microsoft Excel과 비슷합니다. 셀의 내용은 언제든지 제거할 수 있으며, 이 경우 *공백* 상태로 돌아갑니다.
 
@@ -70,7 +71,8 @@ ms.lasthandoff: 11/07/2017
 
 ## <a name="examples"></a>예
 ### <a name="blank"></a>비어 있음
-참고: 다음 예제는 현재 로컬 컬렉션에서만 작동합니다.  많은 데이터 원본에서 *공백*(NULL) 값을 지원하며, 이 제한을 제거하기 위해 노력하고 있습니다.
+> [!NOTE]
+> 다음 예제는 현재 로컬 컬렉션에서만 작동합니다.  많은 데이터 원본에서 *공백*(NULL) 값을 지원하며, 이 제한을 제거하기 위해 노력하고 있습니다.
 
 1. 앱을 처음부터 만들고 **단추** 컨트롤을 추가합니다.
 2. 단추의 **[OnSelect](../controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.

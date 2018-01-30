@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 01/11/2017
 ms.author: jamesol
-ms.openlocfilehash: 1eeb79d0c109181ae75b86a78cecdb4babe058ab
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: f26c97681a4af40e042d1c943e108a424861f810
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="environments-administration-in-powerapps"></a>PowerApps의 환경 관리
 [PowerApps 관리 센터][1]에서 사용자가 만든 환경은 물론, 환경 관리자 역할에 추가한 환경을 관리합니다. 관리 센터에서 다음 관리 작업을 수행할 수 있습니다.
@@ -35,19 +35,22 @@ ms.lasthandoff: 11/07/2017
 ## <a name="access-the-powerapps-admin-center"></a>PowerApps 관리 센터에 액세스
 PowerApps 관리 센터에 액세스하려면 다음 작업을 수행합니다.
 
-* [admin.powerapps.com][1]으로 직접 이동하거나 또는
+* [admin.powerapps.com][1]으로 직접 이동하거나
+
 * [powerapps.com][2]으로 이동한 다음, 탐색 헤더에서 기어 아이콘을 선택합니다.
   
     ![](./media/environment-admin/powerapps-gear-dropdown.png)
 
 PowerApps 관리 센터에서 환경을 관리하려면 이러한 역할 중 하나가 있어야 있습니다.
 
-* 해당 환경에 대한 Environment Admin 역할 또는
+* 환경에 대한 환경 관리자 역할 또는
+
 * Azure AD 또는 Office 365 테넌트의 전역 관리자 역할
 
 또한, 관리 센터에 액세스하려면 PowerApps 요금제 2 또는 Flow 요금제 2도 필요합니다. 자세한 내용은 [PowerApps 가격 페이지][3]를 참조하세요.
 
-**중요**: PowerApps 관리 센터에서 적용한 변경 사항은 [Flow 관리 센터][4], 그리고 그 반대로 영향을 미칩니다.
+> [!IMPORTANT]
+> PowerApps 관리 센터에서 변경한 내용은 [Flow 관리 센터][4]에 영향을 미치고 그 반대의 경우도 마찬가지입니다.
 
 ## <a name="create-an-environment"></a>환경 만들기
 먼저, 클릭 **+ 새 환경**을 클릭하여 대화 상자를 열고 환경을 만듭니다.
@@ -120,18 +123,20 @@ Azure AD 또는 Office 365 테넌트의 전역 관리자 역할의 멤버인 경
 데이터베이스를 만든 후 보안 모델을 선택합니다. 자세한 내용은 [데이터베이스 보안 구성](database-security.md)을 참조하세요.
 
 ## <a name="manage-security-for-your-environments"></a>환경에 대한 보안 관리
+
 ### <a name="environment-permissions"></a>환경 사용 권한
 환경에서 Azure AD 테넌트의 모든 사용자는 해당 환경의 사용자입니다. 그러나 권한이 많은 역할을 수행하려면 특정 환경 역할에 추가되어야 합니다. 환경에는 환경 내의 사용 권한에 대한 액세스를 제공하는 두 가지 기본 제공 역할이 있습니다.
 
 * **Environment Admin** 역할은 다음을 포함하는 환경에서 모든 관리 작업을 수행할 수 있습니다.
   
-  o   Environment Admin 또는 Environment Maker 역할에서 사용자나 그룹을 추가 또는 제거
+    * Environment Admin 또는 Environment Maker 역할에서 사용자나 그룹을 추가 또는 제거.
   
-  o   환경에 대한 Common Data Service 데이터베이스 프로비전
+    * 환경에 대한 Common Data Service 데이터베이스 프로비전.
   
-  o   환경 내에서 만든 모든 리소스 보기 및 관리
+    * 환경 내에서 만든 모든 리소스를 보고 관리합니다.
   
-  o    데이터 손실 방지 정책 설정 자세한 내용은 [데이터 손실 방지 정책](prevent-data-loss.md)을 참조하세요.
+    * 데이터 손실 방지 정책을 설정합니다. 자세한 내용은 [데이터 손실 방지 정책](prevent-data-loss.md)을 참조하세요.
+
 * **Environment Maker** 역할은 앱, 연결, 사용자 지정 커넥터, 게이트웨이 및 Microsoft Flow를 사용한 흐름을 포함하는 환경 내에서 리소스를 만들 수 있습니다. 또한 환경에서 빌드한 앱을 조직의 다른 사용자에게 배포할 수 있습니다. 개별 사용자, 보안 그룹 또는 조직의 모든 사용자와 앱을 공유할 수 있습니다. 자세한 내용은 [PowerApps에서 앱 공유](share-app.md)를 참조하세요.
 
 사용자 또는 보안 그룹을 환경 역할에 할당하기 위해 Environment Admin는 [PowerApps 관리 센터][1]에서 다음 단계를 취할 수 있습니다.

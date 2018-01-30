@@ -13,13 +13,13 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/12/2017
+ms.date: 10/20/2017
 ms.author: mblythe
-ms.openlocfilehash: 541de1bcea9b76262d4f2d1cbe79c76b1c117245
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: a5c0e2c69ccf5e7359318794e4c39bb66bba9dac
+ms.sourcegitcommit: faaf9adebd72794d2988fba1b27a31d70b5268f8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="integrate-powerapps-into-websites-and-other-services"></a>웹 사이트 및 기타 서비스로 PowerApps 통합
 빌드하는 앱은 종종 사용자가 작업하는 위치에서 바로 사용할 수 있을 때 가장 유용합니다. PowerApps를 사용하면 해당 앱을 웹 사이트와 Power BI 또는 SharePoint와 같은 다른 서비스에 통합할 수 있도록 iframe에 앱을 포함할 수 있습니다.
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/07/2017
 다음과 같은 제한 사항을 염두에 두십시오.
 
 * 동일한 테넌트의 PowerApps 사용자만 포함된 앱에 액세스할 수 있습니다.
-* PowerApps는 호환성 보기를 해제한 Internet Explorer 11만 지원합니다.
+* Internet Explorer 11을 사용하여 PowerApps에 액세스하려면 호환성 보기를 해제해야 합니다.
 
 PowerApps를 SharePoint Online에 통합할 수도 있습니다(iframe을 사용하지 않고). 자세한 내용은 [PowerApps를 사용하여 SharePoint 내에서 앱 생성](generate-app-from-sharepoint-list-interface.md)을 참조하세요.
 
@@ -43,7 +43,8 @@ https://web.powerapps.com/webplayer/iframeapp?source=iframe
 &appId=/providers/Microsoft.PowerApps/apps/[AppID]
 ```
 
-**참고**: URI가 페이지에 더 잘 표시하도록 줄 바꿈을 추가했습니다.
+> [!NOTE]
+> URI가 페이지에 더 잘 표시되도록 줄 바꿈을 추가했습니다.
 
 수행해야 하는 유일한 작업은 URI에서 [AppID]에 대한 앱 ID를 대체하는 것입니다('[' & ']' 포함). 해당 값을 가져오는 방법을 곧 보여 줄 예정이지만 먼저 URI에서 사용할 수 있는 모든 매개 변수는 다음과 같습니다.
 
@@ -55,7 +56,7 @@ https://web.powerapps.com/webplayer/iframeapp?source=iframe
 ### <a name="get-the-app-id"></a>앱 ID 가져오기
 앱 ID는 powerapps.com에서 제공됩니다. 포함하려는 앱의 경우:
 
-1. [powerapps.com](https://powerapps.microsoft.com)의 **앱** 탭에서 줄임표( **. . .** )를 클릭하거나 탭한 다음 **세부 정보**를 클릭하거나 탭합니다. ), then <bpt id="p1">**</bpt>Details<ept id="p1">**</ept>.
+1. [powerapps.com](https://powerapps.microsoft.com)의 **앱** 탭에서 줄임표( **. . .** )를 클릭하거나 탭합니다. 다음 **세부 정보**.
    
     ![앱 세부 정보로 이동](media/embed-apps-dev/details.png)
 2. **앱 ID**를 복사합니다.
@@ -64,16 +65,14 @@ https://web.powerapps.com/webplayer/iframeapp?source=iframe
 3. URI에서 `[AppID]` 값을 대체합니다. 자산 순서 지정 앱의 경우 URI는 다음과 같습니다.
    
     ```
-    https://web.powerapps.com/webplayer/iframeapp?hideNavBar=true&
-    source=iframe&appId=/providers/Microsoft.PowerApps/apps/76897698-91a8-b2de-756e-fe2774f114f2
+    https://web.powerapps.com/webplayer/iframeapp?source=iframe&appId=/providers/Microsoft.PowerApps/apps/76897698-91a8-b2de-756e-fe2774f114f2
     ```
 
 ## <a name="embed-your-app-in-a-website"></a>웹 사이트에 앱 포함
 앱을 포함하는 것은 이제 사이트(또는 Power BI 또는 SharePoint와 같은 iframe을 지원하는 다른 서비스)에 대한 HTML 코드에 iframe을 포함하는 것만큼 간단합니다.
 
 ```
-<iframe width="[W]" height="[H]" src="https://web.powerapps.com/webplayer/iframeapp?hideNavBar=true&
-source=website&screenColor=rgba(165,34,55,1)&appId=/providers/Microsoft.PowerApps/apps/[AppID]"/>
+<iframe width="[W]" height="[H]" src="https://web.powerapps.com/webplayer/iframeapp?source=website&screenColor=rgba(165,34,55,1)&appId=/providers/Microsoft.PowerApps/apps/[AppID]"/>
 ```
 
 iframe 너비 및 높이에 대한 값을 지정하고 `[AppID]`에 대해 앱의 ID를 대체합니다.

@@ -14,12 +14,12 @@ ms.topic: get-started-article
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/16/2016
-ms.author: karthikb
-ms.openlocfilehash: e6ad4896beb28b5b38b22706838fec5f6a6840ec
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.author: sharik
+ms.openlocfilehash: cf90156292985e58e2d68d2828d7c943b45facdf
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="generate-an-app-from-excel-data"></a>Excel 데이터에서 앱 생성
 OneDrive와 같은 클라우드 저장소 계정에 업로드하는 Excel 파일에서 데이터에 따라 자동으로 앱을 만듭니다. 앱을 생성한 후에 필요에 더 잘 맞도록 사용자 지정한 다음 예상대로 작동하는지 확인하도록 실행합니다.
@@ -30,7 +30,8 @@ OneDrive와 같은 클라우드 저장소 계정에 업로드하는 Excel 파일
 * **DetailsScreen1**은 특정 레코드에 대한 더 많은 또는 모든 필드를 표시합니다.
 * **EditScreen1**은 사용자가 레코드를 만들거나 업데이트하고 변경 내용을 저장할 수 있도록 하는 UI 요소를 제공합니다.
 
-**참고**: [사용자 지정 SharePoint 목록](app-from-sharepoint.md)을 기준으로 앱을 생성할 수도 있습니다.
+> [!NOTE]
+> [사용자 지정 SharePoint 목록](app-from-sharepoint.md)을 기반으로 앱을 생성할 수도 있습니다.
 
 ## <a name="prerequisites"></a>필수 조건
 * PowerApps에 [등록](signup-for-powerapps.md)하고 다음 단계 중 하나를 수행합니다.
@@ -39,7 +40,8 @@ OneDrive와 같은 클라우드 저장소 계정에 업로드하는 Excel 파일
 * 등록 시 사용한 동일한 자격 증명을 사용하여 PowerApps에 로그인합니다.
 * 이 자습서를 정확하게 수행하려면 이 [Excel 파일](https://az787822.vo.msecnd.net/documentation/get-started-from-data/FlooringEstimates.xlsx)을 다운로드합니다.
   
-    **중요**: 데이터가 테이블로 포맷된 경우 사용자 고유의 Excel 파일을 사용할 수 있습니다. 자세한 내용은 [워크시트에서 Excel 테이블 만들기](https://support.office.com/en-us/article/Create-an-Excel-table-in-a-worksheet-E81AA349-B006-4F8A-9806-5AF9DF0AC664)를 참조하세요.
+    > [!IMPORTANT]
+> 데이터가 테이블 형식인 경우 사용자 고유의 Excel 파일을 사용할 수 있습니다. 자세한 내용은 [워크시트에서 Excel 테이블 만들기](https://support.office.com/en-us/article/Create-an-Excel-table-in-a-worksheet-E81AA349-B006-4F8A-9806-5AF9DF0AC664)를 참조하세요.
 * Excel 파일을 OneDrive 또는 다른 [클라우드 저장소 계정](connections/cloud-storage-blob-connections.md)에 업로드합니다.
 
 ## <a name="create-an-app"></a>앱 만들기
@@ -66,7 +68,8 @@ OneDrive와 같은 클라우드 저장소 계정에 업로드하는 Excel 파일
    
     ![둘러보기를 위해 다음 선택](./media/get-started-create-from-data/quick-tour.png)
    
-    **참고**: 항상 오른쪽 위 모서리의 물음표 아이콘을 클릭하거나 탭한 다음 **소개 둘러보기**를 클릭하거나 탭하면 나중에 둘러보기를 시작할 수 있습니다.
+    > [!NOTE]
+> 나중에 오른쪽 위 모서리의 물음표 아이콘을 클릭하거나 탭한 다음 **소개 둘러보기**를 클릭하거나 탭하면 언제든지 둘러보기를 시작할 수 있습니다.
 
 ## <a name="change-the-gallery-layout"></a>갤러리 레이아웃 변경
 앱을 만든 경우 데이터를 기반으로 하는 기본 레이아웃을 포함하지만 필요에 맞게 갤러리 레이아웃을 사용자 지정할 수 있습니다.
@@ -103,7 +106,8 @@ OneDrive와 같은 클라우드 저장소 계정에 업로드하는 Excel 파일
    
     ![새 콘텐츠가 있는 BrowseScreen1](./media/get-started-create-from-data/browse-content.png)
    
-    **참고**: 기본적으로 마우스 휠을 사용하거나 터치 화면에서 위아래로 밀어서 목록(갤러리라고도 함)을 스크롤할 수 있습니다. 휠 없이 트랙패드 또는 마우스 중 하나를 사용하려면 갤러리를 선택하고, 속성 목록에서 **스크롤 막대 표시**를 클릭하거나 탭한 다음 수식 입력줄에서 **false**를 **true**로 바꿉니다.
+    > [!NOTE]
+> 기본적으로 마우스 휠을 사용하거나 터치 화면에서 위아래로 살짝 밀어서 목록(갤러리라고도 함)을 스크롤할 수 있습니다. 휠 없이 트랙패드 또는 마우스 중 하나를 사용하려면 갤러리를 선택하고, 속성 목록에서 **스크롤 막대 표시**를 클릭하거나 탭한 다음 수식 입력줄에서 **false**를 **true**로 바꿉니다.
 
 ## <a name="change-the-order-of-fields-in-a-form"></a>양식의 필드 순서 변경
 1. 왼쪽 탐색 모음에서 중간 썸네일을 클릭하거나 탭하여 세부 정보 화면(**DetailsScreen1**)을 엽니다.
@@ -155,7 +159,7 @@ OneDrive와 같은 클라우드 저장소 계정에 업로드하는 Excel 파일
    
     ![미리 보기 모드 닫기](./media/get-started-create-from-data/close-preview.png)
 
-## <a name="known-limitations"></a>알려진 제한 사항
+### <a name="known-limitations"></a>알려진 제한 사항
 조직 내에서 Excel 데이터를 공유하는 방법에 대한 자세한 내용은 [이러한 제한 사항을 검토](connections/cloud-storage-blob-connections.md#sharing-excel-tables)하세요.
 
 ## <a name="next-steps"></a>다음 단계

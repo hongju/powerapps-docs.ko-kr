@@ -13,30 +13,31 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/12/2017
+ms.date: 01/16/2018
 ms.author: litran
-ms.openlocfilehash: 1cdd7fbf5b5940550e6e7c98ecaf2262940baa1c
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 0aff680aa5b8840330ee3a1758a895785f05da6f
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="use-powerapps-in-a-web-browser"></a>웹 브라우저에서 PowerApps 사용
 PowerApps에서 앱을 만드는 경우 [Dynamics 365](https://home.dynamics.com)를 열고 홈페이지에서 앱의 타일을 클릭하거나 눌러서 이러한 브라우저에서 해당 앱을 실행할 수 있습니다.
 
-**참고**: 판매와 같이 Dynamics 365 앱에 대한 질문이 있는 경우 [Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/) 또는 [지원에 문의](https://www.microsoft.com/en-us/dynamics365/contact-us)에 대한 일반 정보를 찾을 수 있습니다.
+> [!NOTE]
+> 판매와 같이 Dynamics 365 앱에 대한 질문이 있는 경우 [Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/) 또는 [지원 문의](https://www.microsoft.com/en-us/dynamics365/contact-us)에 대한 일반 정보를 찾을 수 있습니다.
 
 다음과 같은 브라우저 및 운영 체제가 지원됩니다.
 
 | **브라우저** | **운영 체제** |
 | --- | --- |
-| Google Chrome(최신 버전) |Windows 7 SP1, 8.1 및 10 <br>macOS <br>iOS 8 이상<br>Android |
-| Microsoft Edge |Windows 10 |
+| Google Chrome(최신 버전)<br>(권장) |Windows 7 SP1, 8.1 및 10 <br>macOS <br>iOS 8 이상<br>Android |
+| Microsoft Edge(최신 버전)<br>(권장) |Windows 10 |
 | Microsoft Internet Explorer 11(호환성 보기 해제) |Windows 7 SP1, 8.1 및 10 |
 | Mozilla Firefox(최신 버전) |Windows 7 SP1, 8.1 및 10 <br> Android <br>macOS |
 | Apple Safari(최신 버전) |macOS <br> iOS 8 이상 |
 
-브라우저가 앱에서 사용되는 모든 컨트롤을 지원하지 않는 경우 모바일 장치(예: 휴대폰)에서 iOS, Android 또는 Windows용 PowerApps 모바일을 다운로드하여 사용합니다.
+브라우저가 앱에서 사용되는 모든 컨트롤을 지원하지 않는 경우 모바일 장치(예: 휴대폰)에서 iOS 또는 Android용 PowerApps를 다운로드하여 사용합니다.
 
 ## <a name="find-an-app-on-the-home-page"></a>홈페이지에서 앱 찾기
 홈페이지에서는 여러 형식의 비즈니스 앱을 표시할 수 있지만 검색 상자에 해당 이름의 일부를 입력하여 특정 앱을 찾을 수 있습니다. PowerApps에서 생성된 해당 앱만을 표시하도록 목록을 필터링할 수도 있습니다.
@@ -68,4 +69,3 @@ PowerApps에서 앱을 만드는 경우 [Dynamics 365](https://home.dynamics.com
 
 ## <a name="close-an-app"></a>앱 닫기
 앱을 닫으려면 Dynamics 365 홈페이지에서 로그아웃하거나 다른 앱을 엽니다.
-

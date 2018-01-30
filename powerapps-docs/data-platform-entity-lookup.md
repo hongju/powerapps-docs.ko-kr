@@ -14,11 +14,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 12/09/2016
 ms.author: kfend
-ms.openlocfilehash: 1aff4df6e314f50a67aff6a08298d3d7aa4a9cfa
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 21f33f8810b545b11f611b86261227c9443be5de
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="build-a-relationship-between-entities"></a>엔터티 간 관계 빌드
 한 엔터티의 데이터는 다른 엔터티의 데이터와 자주 관련됩니다. 예를 들어, **고객** 엔터티 및 **주문** 엔터티, 및 **주문** 엔터티에는 주문을 한 고객을 표시하는 **고객** 엔터티에 대한 조회 관계가 있을 수 있습니다. 조회 필드를 사용하여 주문한 고객에 대한 **고객** 엔터티의 데이터를 표시할 수 있습니다. 자세한 내용은 [엔터티 관계 및 조회 필드](https://docs.microsoft.com/en-us/common-data-service/entity-reference/relationships)를 참조하세요.
@@ -50,7 +50,8 @@ ms.lasthandoff: 11/07/2017
 * 제한 없이 엔터티 A에서 모든 레코드를 삭제할 수 있습니다.
 * 엔터티 B의 레코드가 엔터티 A의 하나 이상의 레코드와 일치하는 경우, 엔터티 B의 레코드를 삭제하기 전에 엔터티 A에서 일치하는 모든 레코드를 삭제해야 합니다.
 
-**참고**: 엔터티 B가 엔터티 A에 대한 부모 관계가 있는 표준 엔터티이고 엔터티 A에서 레코드를 삭제하는 경우, 엔터티 B에 있는 모든 일치된 레코드도 삭제됩니다.
+> [!NOTE]
+> 엔터티 B가 엔터티 A에 대한 부모 관계가 있는 표준 엔터티이고 엔터티 A에서 레코드를 삭제하는 경우, 엔터티 B에 있는 모든 일치된 레코드도 삭제됩니다.
 
 필드를 삭제하는 방법에 대한 정보는 [필드 관리](data-platform-manage-fields.md)를 참조하세요.
 

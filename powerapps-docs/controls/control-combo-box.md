@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/13/2017
 ms.author: fikaradz
-ms.openlocfilehash: 7220771d9798e6bb5481bbc86c430a357aeab7d2
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 4d298e24ea967cbf5cb47638d4296f6efbd758c7
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="combo-box-control-in-powerapps"></a>PowerApps의 콤보 박스 컨트롤
 사용자가 제공된 선택 항목 중에서 선택할 수 있습니다.  검색과 다중 선택을 지원합니다.
@@ -30,6 +30,9 @@ ms.lasthandoff: 11/07/2017
 단일 또는 다중 선택 모드는 SelectMultiple 속성을 통해 구성됩니다.
 
 선택할 항목을 검색할 때 각 항목에 대해 데이터 창의 레이아웃 설정을 수정하여 단일 데이터 값, 두 개의 값 또는 그림과 두 개의 값(사람)을 표시하도록 선택할 수 있습니다.
+
+## <a name="people-picker"></a>상대 선택
+**콤보 상자**를 상대 선택으로 사용하려면, 데이터 창의 레이아웃 설정에서 **사람** 템플릿을 선택하고, 아래 사람에게 표시할 관련 데이터 속성을 구성합니다.
 
 ## <a name="key-properties"></a>주요 속성
 **[Items](properties-core.md)**  – 선택 항목을 만들 수 있는 데이터의 원본입니다.
@@ -69,17 +72,16 @@ ms.lasthandoff: 11/07/2017
 
 **[Width](properties-size-location.md)** – 컨트롤의 왼쪽 및 오른쪽 가장자리 사이의 간격입니다.
 
-**[X](properties-size-location.md)**  – 컨트롤의 왼쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 왼쪽 가장자리 사이의 거리입니다.
+**[X](properties-size-location.md)** – 컨트롤의 왼쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 왼쪽 가장자리 사이의 거리입니다.
 
-**[Y](properties-size-location.md)**  – 컨트롤의 상단 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 상단 가장자리 사이의 거리입니다.
+**[Y](properties-size-location.md)** – 컨트롤의 위쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 위쪽 가장자리 사이의 거리입니다.
 
 ## <a name="example"></a>예
 1. 삽입 탭, 컨트롤 메뉴에서 **콤보 상자** 컨트롤을 추가합니다.  
 2. 속성 옵션 탭에서 데이터를 클릭합니다.  
 3. 데이터 원본, 레이아웃 및 아래의 관련 속성을 선택합니다.
 4. 고급 탭에서 **SelectMultiple** 속성을 설정합니다.
-   
-    기능적인 **콤보 상자**가 앱에 나타납니다.
-   
-    [컨트롤을 추가하고 구성](../add-configure-controls.md)하는 방법을 모르시나요?
 
+    기능적인 **콤보 상자**가 앱에 나타납니다.
+
+    [컨트롤을 추가하고 구성](../add-configure-controls.md)하는 방법을 모르시나요?

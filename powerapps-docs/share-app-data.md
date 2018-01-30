@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/16/2016
 ms.author: jamesol
-ms.openlocfilehash: e6bae4500d3c3ac81c12da3c5b509dc1ea9e711e
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: b413bd52e9bbdd328ca5197ff5d5a76348298fe9
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="share-excel-data-used-by-your-app"></a>앱에서 사용하는 Excel 데이터 공유
 OneDrive와 같은 [클라우드 계정](connections/cloud-storage-blob-connections.md)에서 앱 사용자와 Excel 데이터를 공유할 수 있습니다.
@@ -49,7 +49,8 @@ OneDrive와 같은 [클라우드 계정](connections/cloud-storage-blob-connecti
    
     ![공유 명령](./media/share-app-data/onedrive-share.png)
    
-    **참고**: 비즈니스용 OneDrive에서 파일이 포함된 폴더가 아니라 파일 자체를 공유합니다.
+    > [!NOTE]
+> 비즈니스용 OneDrive에서 파일이 포함된 폴더가 아니라 파일 자체를 공유합니다.
 3. 대화 상자에서 **전자 메일**을 선택합니다.
    
     ![메일로 공유](./media/share-app-data/onedrive-email.png)
@@ -72,6 +73,6 @@ OneDrive와 같은 [클라우드 계정](connections/cloud-storage-blob-connecti
 
 자세한 내용은 [Google 드라이브 파일 및 폴더 공유](https://support.google.com/drive/answer/2494822)를 참조하세요.
 
-## <a name="known-limitations"></a>알려진 제한 사항
+### <a name="known-limitations"></a>알려진 제한 사항
 조직 내에서 Excel 데이터를 공유하는 방법에 대한 자세한 내용은 [이러한 제한 사항을 검토](connections/cloud-storage-blob-connections.md#sharing-excel-tables)하세요.
 

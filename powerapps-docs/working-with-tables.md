@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/26/2016
 ms.author: gregli
-ms.openlocfilehash: 6af28020810394c90c86f87fc40e3cbe9c75a877
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 794263448bc067ef8bf44ae46480865c56fdbdf8
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="understand-tables-and-records-in-powerapps"></a>PowerApps 테이블 및 레코드에 대한 이해
 Microsoft Excel, SharePoint, SQL Server 및 레코드와 테이블에 데이터를 저장하는 다른 여러 원본의 정보에 액세스하는 앱을 만들 수 있습니다. 이러한 종류의 데이터로 가장 효과적으로 작업하려면 이러한 구조의 기반이 되는 개념을 검토합니다.
@@ -63,7 +63,8 @@ Excel 수식에서 하나 이상의 셀 참조를 인수로 사용하는 것처�
 
 다른 도구에서 열을 "필드"로 참조했을 수도 있습니다.
 
-**참고:** 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 PowerApps는 공백을 **"\_x0020\_"**으로 바꿉니다. 예를 들어 SharePoint 또는 Excel의 **"Column Name"**은 데이터 레이아웃에 표시되거나 수식에 사용될 때 PowerApps에 **"Column_x0020_Name"**으로 나타납니다.
+> [!NOTE]
+> 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 PowerApps는 공백을 **"\_x0020\_"**으로 바꿉니다. 예를 들어 SharePoint 또는 Excel의 **"Column Name"**은 데이터 레이아웃에 표시되거나 수식에 사용될 때 PowerApps에 **"Column_x0020_Name"**으로 나타납니다.
 
 ### <a name="table"></a>테이블
 테이블은 하나 이상의 레코드로 구성되며, 각 레코드에는 레코드 간에 일관된 이름을 갖는 여러 필드가 있습니다.
@@ -96,7 +97,8 @@ Excel 및 PowerApps에서는 수식을 사용하여 숫자와 텍스트 문자�
    
     기본적으로 갤러리에는 **TextualGallerySample** 테이블의 자리 표시자 텍스트가 표시됩니다. 갤러리의 **[Items](controls/properties-core.md)** 속성이 자동으로 해당 테이블로 설정됩니다.
    
-    **참고:** 일부 컨트롤은 이해를 돕기 위해 다시 정렬되고 확대되었습니다.
+    > [!NOTE]
+> 일부 컨트롤은 이해를 돕기 위해 다시 정렬되고 확대되었습니다.
    
     ![](media/working-with-tables/gallery-items.png)
 2. **[Items](controls/properties-core.md)** 속성을 테이블 이름으로 설정하는 대신 다음 예제와 같이 테이블 이름을 인수로 포함하는 수식으로 설정합니다.<br>
@@ -149,16 +151,19 @@ Excel 및 PowerApps에서는 수식을 사용하여 숫자와 텍스트 문자�
 
 1. 단추 하나를 추가하고 이 수식에 **[OnSelect](controls/properties-core.md)** 속성을 설정합니다.<br>
     **Collect( SelectedRecord, Gallery1.Selected )**
+
 2. 단추가 선택되지 않은 경우 단추를 클릭하여 선택한 다음 다시 클릭하여 수식을 실행합니다.
+
 3. **파일** 메뉴에서 **컬렉션**을 선택합니다.
 
 ![](media/working-with-tables/selected-collection.png)
 
 이 수식은 갤러리에서 현재 선택한 레코드의 데이터뿐만 아니라 해당 갤러리의 각 컨트롤도 포함한 레코드를 반환합니다. 예를 들어 원래 테이블의 **Body** 열과 일치하는 **Body** 열 및 해당 열의 데이터가 표시되는 레이블을 나타내는 **Body1** 열이 레코드에 모두 포함됩니다. **Body1** 열에서 테이블 아이콘을 선택하여 해당 데이터를 드릴합니다.
 
-이제 선택한 레코드가 있으므로 **.** 연산자를 사용하여 해당 레코드에서 개별 필드를 추출할 수 있습니다.
+이제 선택한 레코드가 있으므로 **.** 연산자를 사용하여 해당 레코드에서 개별 필드를 추출할 수 액세스합니다.
 
 1. Esc 키를 눌러 기본 작업 영역으로 돌아간 다음 갤러리 아래에 레이블을 추가합니다.
+
 2. 레이블의 **[Text](controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.<br>
     **Gallery.Selected.Heading**
    
@@ -232,8 +237,8 @@ Excel 및 PowerApps에서는 수식을 사용하여 숫자와 텍스트 문자�
 ### <a name="disambiguation"></a>명확성
 레코드 범위에 추가된 필드 이름은 앱의 다른 위치에서 동일한 이름을 재정의합니다.  이 경우 [**@** 명확성](functions/operators.md) 연산자를 사용하여 레코드 범위 외부의 값에 계속 액세스할 수 있습니다.
 
-* 중첩된 레코드 범위의 값에 액세스하려면 ***Table*[@*FieldName*]** 패턴을 사용하여 작업 중인 테이블의 이름에 **@** 연산자를 사용합니다.  
-* 데이터 원본, 컬렉션 및 컨텍스트 변수와 같은 전역 값에 액세스하려면 **[@*ObjectName*]**(테이블 지정 없음) 패턴을 사용합니다.
+* 중첩된 레코드 범위의 값에 액세스하려면 **Table*[@*FieldName*]** 패턴을 사용하여 작업 중인 테이블의 이름에 **@** 연산자를 사용합니다.  
+* 데이터 원본, 컬렉션 및 컨텍스트 변수와 같은 전역 값에 액세스하려면 **[@*ObjectName*]** (테이블 지정 없음) 패턴을 사용합니다.
 
 작업 중인 테이블이 **Filter( *table*, ... )**과 같은 식이면 명확성 연산자를 사용할 수 없습니다.  가장 안쪽의 레코드 범위만 명확성 연산자를 사용하지 않고 이 테이블 식의 필드에 액세스할 수 있습니다.
 

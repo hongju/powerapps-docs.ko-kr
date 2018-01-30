@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 11/11/2015
 ms.author: gregli
-ms.openlocfilehash: 51608399a03716972a02d414d47dad46a8676bef
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 2c45649938ad769203cbcab25c8b81689c633657
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="datasourceinfo-function-in-powerapps"></a>PowerApps의 DataSourceInfo 함수
 [데이터 원본](../working-with-data-sources.md)에 대한 정보를 제공합니다.
@@ -65,7 +65,8 @@ ms.lasthandoff: 11/07/2017
 * *Information* – 필수 항목입니다. 검색할 정보 유형입니다.
 * *ColumnName* – 선택 항목입니다. 열 수준 정보의 경우 열 이름은 문자열 형식입니다. **Phone** 열은 큰따옴표를 포함하여 **"Phone"**으로 전달됩니다. 데이터 원본 레벨에 대한 정보는 *ColumnName* 인수를 사용할 수 없습니다.
   
-    **참고:** 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 각 공백을 **"\_x0020\_"**으로 지정합니다. 예를 들어 **"Column Name"**은 **"Column_x0020_Name"**으로 지정합니다.
+    > [!NOTE]
+> 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 각 공백을 **"\_x0020\_"**으로 지정합니다. 예를 들어, **"Column Name"**은 **"Column_x0020_Name"**으로 지정합니다.
 
 ## <a name="examples"></a>예
 이 섹션의 예제에서는 **IceCream**이라는 데이터 원본을 사용합니다.

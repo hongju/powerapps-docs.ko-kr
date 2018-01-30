@@ -12,17 +12,15 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/24/2017
+ms.date: 10/20/2017
 ms.author: kfend
-ms.openlocfilehash: 9078daccfd3d72ab5cbf3b26a67ffc2a27af1332
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: bbc501542e634fab925654734cf709fe87248883
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="understand-entities-in-the-common-data-service"></a>Common Data Service의 엔터티 이해
-[!VIDEO nb:cid:UUID:beec68e8-1541-41fb-8fc6-28714ccaca68]
-
 
 Common Data Service를 통해 표준 및 사용자 지정 엔터티 집합 내에서 데이터를 안전하게 저장하고 관리할 수 있습니다. 엔터티는 데이터베이스 내의 테이블과 유사한 데이터를 저장하는 데 사용되는 필드의 집합입니다. 데이터가 저장된 후 데이터를 사용하여 다양한 응용 프로그램을 빌드하는 데 Microsoft PowerApps를 사용할 수 있습니다.
 
@@ -50,20 +48,20 @@ Common Data Service 내에서 두 표준 및 사용자 지정 엔터티는 데�
 * **선택 목록** - 다양한 표준 선택 목록 집합에서 선택 목록을 포함하여 엔터티와 앱 내에서 드롭다운을 빠르게 제공합니다.
 
 ## <a name="standard-and-custom-entities"></a>표준 및 사용자 지정 엔터티
-앱 개발 시 표준 엔터티, 사용자 지정 엔터티, 또는 두 가지 모두를 사용할 수 있습니다. 앱에서 특정 목적을 제공할 수 있는 표준 엔터티인 경우 동일한 작업을 수행하는 사용자 지정 엔터티를 개발하는 것보다 그냥 사용하는 것이 더 좋습니다. 해당 목적에서 일부만 변경된 표준 엔터티의 경우 필요에 맞게 필드를 추가할 수 있습니다. 
+앱 개발 시 표준 엔터티, 사용자 지정 엔터티, 또는 두 가지 모두를 사용할 수 있습니다. 앱에서 특정 목적을 제공할 수 있는 표준 엔터티인 경우 동일한 작업을 수행하는 사용자 지정 엔터티를 개발하는 것보다 그냥 사용하는 것이 더 좋습니다. 해당 목적에서 일부만 변경된 표준 엔터티의 경우 필요에 맞게 필드를 추가할 수 있습니다.
 
 * Common Data Service는 기본적으로 표준 엔터티를 제공합니다. 모범 사례에 따라 연락처, 계정, 제품 등 조직에 대한 가장 일반적인 개념을 파악할 수 있도록 설계되었습니다. 엔터티의 전체 목록은 [표준 엔터티](data-platform-intro.md#standard-entities)를 참조하세요.
 * 고유한 정보를 조직에 저장하기 위해 하나 이상의 사용자 지정 엔터티를 만들어 표준 엔터티의 기능을 확장할 수 있습니다. 자세한 내용은 [사용자 지정 엔터티를 만드는 방법](data-platform-create-entity.md)을 참조하세요.
 
-> **참고:** 가능하면 표준 엔터티를 사용합니다(필요한 경우 사용자 지정 필드를 추가하여). 이렇게 하면 나중에 이러한 엔터티를 활용하는 새로운 기능 또는 앱에서 혜택을 받을 수 있습니다.
-> 
-> 
+> [!NOTE]
+> 가능하면 표준 엔터티를 사용합니다(필요한 경우 사용자 지정 필드를 추가하여). 이렇게 하면 나중에 이러한 엔터티를 활용하는 새로운 기능 또는 앱에서 혜택을 받을 수 있습니다.
+
 
 ## <a name="fields"></a>필드
 각 필드에는 이름, 표시 이름, 데이터 형식 및 몇 가지 간단한 유효성 검사가 포함되어 있습니다. 데이터 형식은 예를 들어, **텍스트**, **날짜** 또는 **숫자**를 포함합니다. 유효성 검사를 통해 해당 엔터티에 필요할 경우, 필수 필드에 데이터가 있는지와 레코드가 고유한지 등을 확인할 수 있습니다. 모든 필드는 3가지 범주인 시스템 필드, 표준 필드, 사용자 지정 필드 중에서 하나로 분류됩니다.
 
 ### <a name="system-fields"></a>시스템 필드
-모든 엔터티는 표준이든 사용자 지정이든 변경하거나, 삭제하거나, 값으로 설정할 수 없는 읽기 전용 필드의 집합으로 생성됩니다. 자세한 내용은 [시스템 및 레코드 제목 필드](data-platform-create-entity.md#system-and-record-title-fields)를 참조하세요. 다음은 가장 중요한 시스템 필드입니다.
+모든 엔터티는 표준이든 사용자 지정이든 변경하거나, 삭제하거나, 값으로 설정할 수 없는 읽기 전용 필드의 집합으로 생성됩니다. 자세한 내용은 [시스템 및 레코드 제목 필드](data-platform-create-entity.md#system-fields-and-the-record-title-field)를 참조하세요. 다음은 가장 중요한 시스템 필드입니다.
 
 * **Created Record Date** - 레코드를 생성한 날짜와 시간입니다.
 * **Created By** - 레코드를 만든 사용자입니다.

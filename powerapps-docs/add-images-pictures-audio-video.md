@@ -13,12 +13,12 @@ ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 07/12/2017
-ms.author: karthikb
-ms.openlocfilehash: f0d55882938d3251e5b8164e8f5f4b035880273b
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.author: sharik
+ms.openlocfilehash: 849bde71d8f5dcf6505721758e2edca0921146bb
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="using-multimedia-files-in-powerapps"></a>PowerApps에서 멀티미디어 파일 사용
 이 토픽에서는 앱에 멀티미디어 파일을 포함하고, 데이터 원본에 펜 드로잉을 업로드하고, 앱에서 데이터 원본의 이미지를 표시하는 방법을 보여 줍니다. 이 토픽에 사용된 데이터 원본은 비즈니스용 OneDrive에서 Excel 파일입니다.
@@ -30,127 +30,156 @@ PowerApps에 [가입](signup-for-powerapps.md)하고 [설치](http://aka.ms/powe
 추가할 미디어 파일의 종류를 선택할 수 있습니다(예: 이미지, 비디오 또는 오디오).
 
 1. **콘텐츠** 탭에서 **미디어**를 선택합니다.
+
 2. **미디어** 아래에서 **이미지**, **비디오** 또는 **오디오**를 선택한 다음 **찾아보기**를 선택합니다.
-   
-    ![][1]
+
+    ![미디어 찾아보기][1]
+
 3. 추가하려는 파일을 선택한 다음 **열기**를 선택합니다.
-   
+
     컴퓨터에서 **그림** 폴더가 열리고 여기에서 이미지를 선택하거나 다른 폴더로 이동할 수 있습니다.
+
 4. 파일 추가가 완료되면 Esc 키를 눌러 기본 작업 영역으로 돌아갑니다.
+
 5. **삽입** 탭에서 **미디어**를 선택한 다음 **이미지**, **비디오** 또는 **오디오**를 선택합니다.
-   
-    ![][8]
+
+    ![미디어 유형 선택][8]
+
 6. 이미지 컨트롤을 추가한 경우 해당 **[Items](controls/properties-visual.md)** 속성을 추가한 파일로 설정합니다.  
-   
+
     ![이미지 속성 설정](./media/add-images-pictures-audio-video/imageproperty.png)
-   
-    **참고** 작은따옴표 안에 확장명 없이 파일 이름만 지정합니다.
+
+    > [!NOTE]
+> 작은따옴표 안에 확장명 없이 파일 이름만 지정합니다.
+
 7. 비디오 또는 오디오 컨트롤을 추가한 경우 해당 **Media** 속성을 추가한 파일로 설정합니다.  
-   
+
     ![미디어 속성 설정](./media/add-images-pictures-audio-video/mediaproperty.png)
-   
-    **참고** 비디오 컨트롤의 **미디어** 속성을 큰따옴표로 묶인 적절한 URL로 설정하여 YouTube 비디오를 재생합니다.
+
+    > [!NOTE]
+> 비디오 컨트롤의 **Media** 속성을 큰따옴표로 묶인 적절한 URL로 설정하여 YouTube 비디오를 재생합니다.
 
 ## <a name="add-media-from-azure-media-services"></a>Azure Media Services에서 미디어 추가
 1. Azure Media Services 계정에서 **AMS > 설정 > 자산**에서 비디오 자산을 업로드하고 게시합니다.
+
 2. 비디오를 게시한 후 해당 URL을 복사합니다.
+
 3. PowerApps의 **삽입 > 미디어**에서 **비디오** 컨트롤을 추가합니다.
+
 4. **미디어** 속성을 복사한 URL로 설정합니다.
 
-이 그림에서 볼 수 있듯이 Azure Media Services가 지원하는 모든 스트리밍 URL을 선택할 수 있습니다.
+    이 그림에서 볼 수 있듯이 Azure Media Services가 지원하는 모든 스트리밍 URL을 선택할 수 있습니다.
 
-![미디어 속성 설정](./media/add-images-pictures-audio-video/ams-with-powerapps.png)
+    ![미디어 속성 설정](./media/add-images-pictures-audio-video/ams-with-powerapps.png)
 
 ## <a name="add-images-from-the-cloud-to-your-app"></a>앱에 클라우드의 이미지 추가
 이 시나리오에서는 클라우드 저장소 계정, 비즈니스용 OneDrive에 이미지를 저장합니다. Excel 테이블을 사용하여 이미지에 대한 경로를 포함하고 앱의 갤러리 컨트롤에서 이미지를 표시합니다.
 
 이 시나리오에서는 일부 .jpeg 파일을 포함하는 [CreateFirstApp.zip](http://pwrappssamples.blob.core.windows.net/samples/CreateFirstApp.zip)을 사용합니다.
 
-**참고**: Excel 파일에서 이러한 이미지에 대한 경로는 슬래시를 사용해야 합니다. PowerApps에서 Excel 테이블에 이미지 경로를 저장할 때 경로는 백슬래시를 사용합니다. 이러한 테이블에서 이미지 경로를 사용하는 경우 백슬래시 대신 슬래시를 사용하도록 Excel 테이블에서 경로를 변경합니다. 그렇지 않으면 이미지가 표시되지 않습니다.  
+> [!NOTE]
+> Excel 파일에서 이러한 이미지에 대한 경로는 슬래시를 사용해야 합니다. PowerApps에서 Excel 테이블에 이미지 경로를 저장할 때 경로는 백슬래시를 사용합니다. 이러한 테이블에서 이미지 경로를 사용하는 경우 백슬래시 대신 슬래시를 사용하도록 Excel 테이블에서 경로를 변경합니다. 그렇지 않으면 이미지가 표시되지 않습니다.  
 
 1. [CreateFirstApp.zip](http://pwrappssamples.blob.core.windows.net/samples/CreateFirstApp.zip)을 다운로드하고 **자산** 폴더를 클라우드 저장소 계정에 압축 해제합니다.
+
 2. **자산** 폴더의 이름을 **Assets_images**로 바꿉니다.
+
 3. Excel 스프레드시트에서 1열 테이블을 만들고 다음 데이터로 채웁니다.
-   
+
     ![Jackets 테이블](./media/add-images-pictures-audio-video/jackets.png)
+
 4. 테이블의 이름을 **Jackets**로 지정하고 Excel 파일의 이름을 **Assets.xlsx**로 지정합니다.
+
 5. 앱에서 데이터 원본으로 **Jackets** 테이블을 추가합니다.  
+
 6. **이미지만** 컨트롤을 추가하고(**삽입** 탭 > **갤러리**) 해당 **Items** 속성을 `Jackets`로 설정합니다.  
-   
+
     ![항목 속성](./media/add-images-pictures-audio-video/items-jackets.png)
-   
-    갤러리는 이미지로 자동으로 업데이트됩니다.  
-   
+
+    갤러리가 해당 이미지로 자동으로 업데이트됩니다.  
+
     ![Jacket 이미지](./media/add-images-pictures-audio-video/images.png)
-   
+
     **Items** 속성을 설정하는 경우 **PowerAppsId**라는 열은 Excel 테이블에 자동으로 추가됩니다.
-   
+
     Excel 테이블에서 이미지 경로는 이미지에 대한 URL일 수도 있습니다. 예는 [바닥재 견적](http://pwrappssamples.blob.core.windows.net/samples/FlooringEstimates.xlsx) 샘플 파일입니다. 클라우드 저장소 계정으로 다운로드하고, 앱에 데이터 원본으로 `FlooringEstimates` 테이블을 추가한 다음 갤러리 컨트롤을 `FlooringEstimates`로 설정할 수 있습니다. 갤러리는 이미지로 자동으로 업데이트됩니다.
 
 ## <a name="upload-pen-drawings-to-the-cloud"></a>클라우드로 펜 드로잉 업로드
 이 시나리오에서는 데이터 원본, 비즈니스용 OneDrive에 펜 드로잉을 업로드하는 방법을 알아보고 드로잉이 저장되는 방식을 확인합니다.
 
 1. Excel에서 **Image [image]**를 셀 A1에 추가합니다.
-2. 다음 단계를 사용하여 테이블을 만듭니다.    
-   
-   a. 셀 A1을 선택합니다.
-   
-   b. **삽입** 탭에서 **테이블**을 선택합니다.
-   
-   c. 대화 상자에서 **내 테이블에 헤더 포함**을 선택한 다음 **확인**을 선택합니다.
-   
-   ![테이블 만들기](./media/add-images-pictures-audio-video/create-table.png)
-   
-   Excel 파일은 이제 테이블 형식입니다. Excel에서 테이블 서식 지정에 대한 자세한 내용은 [데이터를 테이블로 서식 지정](https://support.office.com/en-us/article/Format-an-Excel-table-6789619F-C889-495C-99C2-2F971C0E2370)을 참조하세요.
-   
-   d. 테이블의 이름을 **Drawings**로 지정합니다.
-   
-   ![Drawings로 테이블 이름 바꾸기](./media/add-images-pictures-audio-video/name-media-table.png)
+
+2. 다음 단계에 따라 테이블를 만듭니다.    
+
+   1. 셀 A1을 선택합니다.
+
+   2. **삽입** 리본에서 **테이블**을 선택합니다.
+
+   3. 대화 상자에서 **내 테이블에 헤더 포함**을 선택한 다음 **확인**을 선택합니다.
+
+       ![테이블 만들기](./media/add-images-pictures-audio-video/create-table.png)
+
+       Excel 파일은 이제 테이블 형식입니다. Excel에서 테이블 서식 지정에 대한 자세한 내용은 [데이터를 테이블로 서식 지정](https://support.office.com/en-us/article/Format-an-Excel-table-6789619F-C889-495C-99C2-2F971C0E2370)을 참조하세요.
+
+   4. 테이블 이름을 **Drawings**로 지정합니다.
+
+       ![Drawings로 테이블 이름 바꾸기](./media/add-images-pictures-audio-video/name-media-table.png)
+
 3. Excel 파일을 **SavePen.xlsx**로 비즈니스용 OneDrive에 저장합니다.
+
 4. PowerApps에서 [비어 있는 앱](get-started-create-from-blank.md)을 만듭니다.
+
 5. 앱에서 비즈니스용 OneDrive 계정을 [데이터 원본](add-data-connection.md)으로 추가합니다.
-   
-   a.    **보기** 탭을 클릭하거나 탭한 다음 **데이터 원본**을 클릭하거나 탭합니다.
-   
-   ![](./media/add-images-pictures-audio-video/choose-data-sources.png)
-   
-   b.    **데이터 원본 추가**를 클릭하거나 탭한 다음 **비즈니스용 OneDrive**를 클릭하거나 탭합니다.
-   
-   ![](./media/add-images-pictures-audio-video/select-source.png)
-   
-   c.    **SavePen.xlsx**를 클릭하거나 탭합니다.
-   
-   d.    **Drawings** 테이블을 선택한 다음 **연결**을 클릭하거나 탭합니다.
-   
-   ![연결](./media/add-images-pictures-audio-video/savepen.png)  
-   
-   이제 Drawings 테이블은 데이터 원본으로 나열됩니다.
+
+   1. **보기** 탭을 클릭하거나 탭한 다음 **데이터 원본**을 클릭하거나 탭합니다.
+
+       ![](./media/add-images-pictures-audio-video/choose-data-sources.png)
+
+   2. **데이터 원본 추가**를 클릭하거나 탭한 다음 **비즈니스용 OneDrive**를 클릭하거나 탭합니다.
+
+       ![](./media/add-images-pictures-audio-video/select-source.png)
+
+   3. **SavePen.xlsx**를 클릭하거나 탭합니다.
+
+   4. **Drawings** 테이블을 선택한 다음 **연결**을 클릭하거나 탭합니다.
+
+       ![연결](./media/add-images-pictures-audio-video/savepen.png)  
+
+       이제 Drawings 테이블은 데이터 원본으로 나열됩니다.
+
 6. **삽입** 탭에서 **텍스트**를 선택한 다음  **펜 입력**을 선택합니다.
+
 7. 새 컨트롤의 이름을 **MyPen**으로 변경합니다.  
-   
+
     ![이름 바꾸기](./media/add-images-pictures-audio-video/rename-mypen.png)
+
 8. **삽입** 탭에서 **단추** 컨트롤을 추가하고 이 수식에 해당 **OnSelect** 속성을 설정합니다.
-   
-        Patch(Drawings, Defaults(Drawings), {Image:MyPen.Image})
+
+    **Patch(Drawings, Defaults(Drawings), {Image:MyPen.Image})**
+
 9. **이미지 갤러리** 컨트롤을 추가하고(**삽입** 탭 > **갤러리**) 해당 **Items** 속성을 `Drawings`로 설정합니다. 갤러리 컨트롤의 **Image** 속성은 자동으로 `ThisItem.Image`로 설정됩니다.
-   
-   화면이 다음과 같이 표시되도록 컨트롤을 정렬합니다.  
-   
-   ![샘플 화면](./media/add-images-pictures-audio-video/screen.png)
-10. F5 키를 누르거나 미리 보기( ![](./media/add-images-pictures-audio-video/preview.png) )를 선택합니다.
+
+    화면이 다음과 같이 표시되도록 컨트롤을 정렬합니다.  
+
+    ![샘플 화면](./media/add-images-pictures-audio-video/screen.png)
+
+10. F5 키를 누르거나 미리 보기( ![미리 보기 단추](./media/add-images-pictures-audio-video/preview.png) )를 선택합니다.
+
 11. MyPen에 무언가를 그린 다음 단추를 선택합니다.
-    
-     갤러리 컨트롤의 첫 번째 이미지가 그린 내용을 표시합니다.
-12. 드로잉에 다른 것을 추가하고 단추를 선택합니다.
-    
+
+    갤러리 컨트롤의 첫 번째 이미지가 그린 내용을 표시합니다.
+
+12. 이 그림에 다른 것을 추가하고 단추를 선택합니다.
+
     갤러리 컨트롤의 두 번째 이미지가 그린 내용을 표시합니다.
+
 13. Esc 키를 눌러 미리 보기 창을 닫습니다.
-    
+
     클라우드 저장소 계정에서 **SavePen_images** 폴더가 자동으로 생성되었습니다. 이 폴더는 해당 파일 이름에 대한 ID로 저장된 이미지를 포함합니다. 폴더를 표시하려면 예를 들어, F5 키를 눌러 브라우저 창을 새로 고쳐야 합니다.
-    
+
     **SavePen.xlsx**에서 **Image** 열은 새 이미지에 대한 경로를 지정합니다.
 
-## <a name="known-limitations"></a>알려진 제한 사항
+### <a name="known-limitations"></a>알려진 제한 사항
 조직 내에서 Excel 데이터를 공유하는 방법에 대한 자세한 내용은 [이러한 제한 사항을 검토](connections/cloud-storage-blob-connections.md#sharing-excel-tables)하세요.
 
 ## <a name="for-more-information"></a>자세한 내용

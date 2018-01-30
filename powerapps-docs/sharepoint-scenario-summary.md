@@ -15,14 +15,15 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/12/2017
 ms.author: mblythe
-ms.openlocfilehash: 064ff0778cbc02a81fb64214dbed64f32c04aa15
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 4e5c34c557e165625c23e78f86e5cbb1c0faacba
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="walk-end-to-end-through-the-completed-sharepoint-online-integration-scenario"></a>완료된 SharePoint Online 통합 시나리오 종단 간 연습
-**참고:** 이 문서는 SharePoint Online에서 PowerApps, Microsoft Flow 및 Power BI를 사용하는 방법에 대한 자습서 시리즈의 일부입니다. [시리즈 소개](sharepoint-scenario-intro.md)를 참고하여 관련된 다운로드뿐만 아니라 전체적인 내용을 파악해야 합니다.
+> [!NOTE]
+> 이 문서는 SharePoint Online에서 PowerApps, Microsoft Flow 및 Power BI를 사용하는 방법에 대한 자습서 시리즈의 일부입니다. [시리즈 소개](sharepoint-scenario-intro.md)를 참고하여 관련된 다운로드뿐만 아니라 전체적인 내용을 파악해야 합니다.
 
 이 시리즈의 자습서에서는 앱 및 흐름 빌드, 보고서 생성 및 SharePoint에 포함과 같은 막대한 양의 정보를 설명했습니다. 지금까지 많은 내용을 알아보고 이러한 기술을 통합하는 방법을 충분히 알아보았으므로 고유한 필요에 따라 SharePoint에 앱, 흐름 및 보고서를 통합할 수 있습니다. 마무리하기 전에 시나리오를 끝까지 살펴보고 모든 파트가 함께 작동하는 방법을 확인하려고 합니다.
 
@@ -37,11 +38,17 @@ ms.lasthandoff: 11/07/2017
 4. 다음 값으로 양식을 작성합니다.
    
    * **Title** = "Mobile devices for design team"
+
    * **Approved** = "Pending"
+
    * **Description** = "The design team will now use Contoso-supplied devices"
+
    * **EstimatedDays** = "30"
+
    * **ProjectType** = "New hardware"
+
    * **RequestDate** = "03/01/2017"
+
    * **Requestor** = "Emily Braun"
      
      ![프로젝트 요청 편집 양식](./media/sharepoint-scenario-summary/09-01-01-app-new.png)
@@ -100,12 +107,15 @@ ms.lasthandoff: 11/07/2017
 4. **세부 정보 업데이트** 화면에서 다음 값을 설정합니다.
    
    * **상태** 필드 = "시작 안 함"
+
    * **ProjectedStartDate** 필드 = "3/6/2017"
+
    * **ProjectedEndDate** 필드 = "3/24/2017"
+
    * **ProjectedDays** 필드 = "15"
      
      ![프로젝트 업데이트 세부 정보](./media/sharepoint-scenario-summary/09-04-03-update.png)
-5. 확인 표시 아이콘을 ![클릭하거나 누른](./media/sharepoint-scenario-summary/icon-check-mark.png) 변경 내용을 SharePoint 목록에 적용합니다.
+5. 종 모양 아이콘을 ![클릭하거나 누른](./media/sharepoint-scenario-summary/icon-check-mark.png) 변경 내용을 SharePoint 목록에 적용합니다.
 6. 앱을 닫고 목록으로 돌아갑니다. 이제 프로젝트 항목이 변경된 날짜 및 일 수로 업데이트됩니다.
    
    ![SharePoint 목록에서 업데이트된 세부 정보](./media/sharepoint-scenario-summary/09-04-04-updated-list.png)

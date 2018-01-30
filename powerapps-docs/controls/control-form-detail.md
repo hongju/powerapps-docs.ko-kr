@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 07/06/2017
 ms.author: gregli
-ms.openlocfilehash: 4121593bb34fe135262d925ae6c9f381d0fcd9f7
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: e8234526c73f6d55494334a386e8dbd7442c8d62
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="edit-form-and-display-form-controls-in-powerapps"></a>PowerApps의 편집 양식 및 표시 양식 컨트롤
 데이터 원본에서 레코드를 표시하고, 편집하고, 만듭니다.
@@ -60,7 +60,8 @@ ms.lasthandoff: 11/07/2017
 
 일부 데이터 원본에서 두 사람이 동시에 동일한 레코드 업데이트를 시도하는 것을 탐지할 수 있습니다. 이 경우 **ErrorKind**가 **ErrorKind.Conflict**로 설정되며 다른 사용자의 변경 내용으로 데이터 원본을 새로 고친 다음 해당 사용자의 변경 내용을 다시 적용하는 조치를 취합니다.
 
-**팁:** 사용자가 진행 중인 변경 내용을 취소할 수 있게 양식에 **취소** 단추를 제공할 경우, 이 속성이 화면 변경을 위한 **[Navigate](../functions/function-navigate.md)** 함수를 포함한다 하더라도 **[ResetForm](../functions/function-form.md)** 함수를 버튼의 **[OnSelect](properties-core.md)** 속성에 추가합니다.  그렇지 않으면 양식이 사용자의 변경 내용을 유지합니다.
+> [!TIP]
+> 사용자가 진행 중인 변경 내용을 취소할 수 있게 양식에 **취소** 단추를 제공할 경우, 이 속성이 화면 변경을 위한 **[Navigate](../functions/function-navigate.md)** 함수를 포함한다 하더라도 **[ResetForm](../functions/function-form.md)** 함수를 단추의 **[OnSelect](properties-core.md)** 속성에 추가합니다. 그렇지 않으면 양식이 사용자의 변경 내용을 유지합니다.
 
 ### <a name="layout"></a>레이아웃
 기본적으로 카드는 전화 앱의 한 열, 테이블 앱의 세 열에 놓입니다. 양식을 구성할 때 양식에 있는 열 수와, 카드가 해당 값에 맞출지 여부를 지정할 수 있습니다.  이 설정은 카드의 **X**, **Y** 및 **Width** 속성을 설정하는 데만 사용되므로 속성으로 노출되지 않습니다. 
@@ -173,7 +174,7 @@ ms.lasthandoff: 11/07/2017
 
 **[X](properties-size-location.md)** – 컨트롤의 왼쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 왼쪽 가장자리 사이의 거리입니다.
 
-**[Y](properties-size-location.md)** – 컨트롤의 상단 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 상단 가장자리 사이의 거리입니다.
+**[Y](properties-size-location.md)** – 컨트롤의 위쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 위쪽 가장자리 사이의 거리입니다.
 
 ## <a name="more-information"></a>자세한 정보
 양식이 작동하는 방법에 대한 포괄적인 개요는 [데이터 양식 이해](../working-with-forms.md)를 참조하세요.

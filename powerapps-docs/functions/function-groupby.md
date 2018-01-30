@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/26/2016
 ms.author: gregli
-ms.openlocfilehash: a3f2698eb0df8861bccf3221f53f5458f6e1b307
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 7f7a3f1add6f91d920ed38308e577d14386f81ec
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="groupby-and-ungroup-functions-in-powerapps"></a>PowerApps의 GroupBy 및 Ungroup 함수
 [테이블](../working-with-tables.md)의 [레코드](../working-with-tables.md#records)를 그룹화하고 그룹을 해제합니다.
@@ -52,14 +52,16 @@ ms.lasthandoff: 11/07/2017
 * *ColumnName(s)* - 필수 항목입니다.  레코드를 그룹화할 기준이 되는 *테이블*의 열 이름입니다.  이 열은 결과 테이블의 열이 됩니다.
 * *GroupColumnName* - 필수 항목입니다.  *ColumnName(s)*에 없는 레코드 데이터의 저장소에 대한 열 이름입니다.
   
-    **참고:** 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 각 공백을 **"\_x0020\_"**으로 지정합니다. 예를 들어 **"Column Name"**은 **"Column_x0020_Name"**으로 지정합니다.
+    > [!NOTE]
+> 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 각 공백을 **"\_x0020\_"**으로 지정합니다. 예를 들어, **"Column Name"**은 **"Column_x0020_Name"**으로 지정합니다.
 
 **Ungroup**( *Table*, *GroupColumnName* )
 
 * *Table* - 필수 항목입니다. 그룹을 해제할 테이블입니다.
 * *GroupColumnName* - 필수 항목입니다. **GroupBy** 함수를 사용하여 레코드 데이터 설정을 포함하는 열입니다.
   
-    **참고:** 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 각 공백을 **"\_x0020\_"**으로 지정합니다. 예를 들어 **"Column Name"**은 **"Column_x0020_Name"**으로 지정합니다.
+    > [!NOTE]
+> 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 각 공백을 **"\_x0020\_"**으로 지정합니다. 예를 들어, **"Column Name"**은 **"Column_x0020_Name"**으로 지정합니다.
 
 ## <a name="examples"></a>예
 ### <a name="create-a-collection"></a>컬렉션 만들기

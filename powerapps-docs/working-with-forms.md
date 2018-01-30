@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/27/2016
 ms.author: gregli
-ms.openlocfilehash: f9a4a274146373acd22fd4fdcebf9a83b252958c
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: d9664b490970f7eada757b83d6c9934753af3ad5
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="understand-data-forms-in-microsoft-powerapps"></a>Microsoft PowerApps 데이터 양식에 대한 이해
 세 가지 유형의 컨트롤을 추가하여 사용자가 레코드를 찾아보고, 해당 레코드에 대한 세부 정보를 표시하고, 레코드를 편집하거나 만들 수 있습니다.
@@ -36,7 +36,7 @@ ms.lasthandoff: 11/07/2017
 
 이 항목에서 설명한 대로 이러한 컨트롤을 수식과 결합하여 전체 사용자 환경을 만듭니다.
 
-**필수 조건**
+## <a name="prerequisites"></a>필수 조건
 
 * PowerApps에 [등록](signup-for-powerapps.md)하여 [설치](http://aka.ms/powerappsinstall)하고 연 다음 등록 시 사용했던 동일한 자격 증명으로 로그인합니다.
 * PowerApps에서 [컨트롤 구성](add-configure-controls.md)을 어떻게 하는지 알아봅니다.
@@ -59,7 +59,8 @@ PowerApps는 지정한 데이터 원본을 기반으로 하는 앱을 자동으�
 
 데이터 원본의 레코드를 표시하도록 갤러리의 **[Items](controls/properties-core.md)** 속성을 설정합니다. 예를 들어 해당 속성을 **Assets**로 설정하여 해당 이름의 데이터 원본에 있는 레코드를 표시합니다.
 
-**참고**: 생성된 앱에서 사용자가 레코드를 정렬하고 검색할 수 있도록 **[Items](controls/properties-core.md)**가 기본적으로 훨씬 더 복잡한 수식으로 설정됩니다. 이 항목의 뒷부분에서 해당 수식을 작성하는 방법을 알아보겠지만, 지금은 간단한 버전으로도 충분합니다.
+> [!NOTE]
+> 생성된 앱에서 사용자가 레코드를 정렬하고 검색할 수 있도록 **[Items](controls/properties-core.md)**가 기본적으로 훨씬 더 복잡한 수식으로 설정됩니다. 이 항목의 뒷부분에서 해당 수식을 작성하는 방법을 알아보겠지만, 지금은 간단한 버전으로도 충분합니다.
 
 사용자는 표시하거나 편집할 레코드를 찾는 대신 갤러리 위쪽에 있는 "+" 기호를 선택하여 레코드를 만들 수 있습니다. 이 효과는 **[이미지](controls/control-image.md)** 컨트롤을 추가하고, 그 안에 "+" 기호를 표시하고, **[OnSelect](controls/properties-core.md)** 속성을 다음 수식으로 설정하여 만듭니다.
 <br>**NewForm( EditForm1 ); Navigate( EditScreen1, None )**
@@ -148,7 +149,8 @@ PowerApps에서 앱을 생성하는 방법을 이해하면 이 항목의 앞부�
 ## <a name="identify-test-data"></a>테스트 데이터 식별
 이 항목을 최대한 활용하려면 실험할 수 있는 데이터 원본으로 시작합니다. 걱정할 필요 없이 읽고 업데이트할 수 있는 테스트 데이터가 있어야 합니다.
 
-**참고:** 공백이 있는 열 이름이 데이터 원본으로 포함된 SharePoint 목록 또는 Excel 테이블을 사용하는 경우 PowerApps는 공백을 **"\_x0020\_"**으로 바꿉니다. 예를 들어 SharePoint 또는 Excel의 **"Column Name"**은 데이터 레이아웃에 표시되거나 수식에 사용될 때 PowerApps에 **"Column_x0020_Name"**으로 나타납니다.
+> [!NOTE]
+> 공백이 있는 열 이름이 데이터 원본으로 포함된 SharePoint 목록 또는 Excel 테이블을 사용하는 경우 PowerApps는 공백을 **"\_x0020\_"**으로 바꿉니다. 예를 들어 SharePoint 또는 Excel의 **"Column Name"**은 데이터 레이아웃에 표시되거나 수식에 사용될 때 PowerApps에 **"Column_x0020_Name"**으로 나타납니다.
 
 이 항목의 나머지 부분을 정확하게 수행하려면 다음 데이터가 포함된 "아이스크림"이라는 SharePoint 목록을 만듭니다.
 
@@ -156,7 +158,8 @@ PowerApps에서 앱을 생성하는 방법을 이해하면 이 항목의 앞부�
 
 * 비어 있는 전화 앱을 만들고 [데이터 원본에 연결합니다](add-data-connection.md).
   
-    **참고:** 태블릿 앱은 매우 비슷하지만, 추가 화면 공간을 최대한 활용하기 위해 별도의 [화면 레이아웃](#screen-design)이 필요할 수 있습니다.
+    > [!NOTE]
+> 태블릿 앱은 매우 비슷하지만, 추가 화면 공간을 최대한 활용하기 위해 별도의 [화면 레이아웃](#screen-design)이 필요할 수 있습니다.
   
     항목의 나머지 부분에 있는 예제는 **아이스크림**이라는 데이터 원본을 기반으로 합니다.
 
@@ -201,7 +204,7 @@ PowerApps에서 앱을 생성하는 방법을 이해하면 이 항목의 앞부�
 
 마지막으로 특정 레코드의 세부 정보를 볼 수 있도록 **[표시 양식](controls/control-form-detail.md)** 컨트롤을 **[갤러리](controls/control-gallery.md)** 컨트롤에 연결해야 합니다.  **[Item](controls/control-form-detail.md)** 속성 설정이 완료되는 즉시 갤러리의 첫 번째 레코드가 양식에 표시됩니다.
 
-1. **[표시 양식](controls/control-form-detail.md)** 컨트롤의 **[Item](controls/control-form-detail.md)** 속성을 **Gallery1.Selected**로 설정합니다.
+* **[표시 양식](controls/control-form-detail.md)** 컨트롤의 **[Item](controls/control-form-detail.md)** 속성을 **Gallery1.Selected**로 설정합니다.
    
     선택한 항목의 세부 정보가 양식에 표시됩니다.
    
@@ -209,20 +212,23 @@ PowerApps에서 앱을 생성하는 방법을 이해하면 이 항목의 앞부�
 
 잘 했습니다!  이제 사용자가 갤러리 화면에서 세부 정보 화면을 열고, 세부 정보 화면에서 갤러리 화면을 여는 방법을 탐색해 볼 시간입니다.
 
-1. **[단추](controls/control-button.md)** 컨트롤을 화면에 추가하고, **[뒤로](functions/function-navigate.md)**를 표시하도록 **[Text](controls/properties-core.md)** 속성을 설정하고, **[OnSelect](controls/properties-core.md)** 속성을 **Back()**으로 설정합니다.
+* **[단추](controls/control-button.md)** 컨트롤을 화면에 추가하고, **[뒤로](functions/function-navigate.md)**를 표시하도록 **[Text](controls/properties-core.md)** 속성을 설정하고, **[OnSelect](controls/properties-core.md)** 속성을 **Back()**으로 설정합니다.
    
     이 수식은 사용자가 세부 정보 보기를 마치면 갤러리로 돌아갑니다.
 
-![뒤로 단추가 있는 아이스크림 데이터 원본에 대한 표시 양식](./media/working-with-forms/viewform-icecream-back.png)
+    ![뒤로 단추가 있는 아이스크림 데이터 원본에 대한 표시 양식](./media/working-with-forms/viewform-icecream-back.png)
 
 이제 **[갤러리](controls/control-gallery.md)** 컨트롤로 돌아가서 세부 정보 화면에 일부 탐색을 추가해 보겠습니다.
 
 1. **[갤러리](controls/control-gallery.md)** 컨트롤을 호스팅하는 첫 번째 화면으로 전환하고 갤러리의 첫 번째 항목에 있는 화살표를 선택합니다.
+
 2. 도형의 **[OnSelect](controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.
    <br>**Navigate( Screen2, None )**
    
     ![뒤로 단추가 있는 아이스크림 데이터 원본에 대한 표시 양식](./media/working-with-forms/gallery-icecream-nav-new.png)
+
 3. F5 키를 누른 다음 갤러리에 있는 화살표를 선택하여 항목에 대한 세부 정보를 표시합니다.
+
 4. **[뒤로](functions/function-navigate.md)** 단추를 선택하여 제품 갤러리로 돌아간 다음 Esc 키를 누릅니다.
 
 ## <a name="editing-details"></a>세부 정보 편집
@@ -302,12 +308,11 @@ PowerApps에서 앱을 생성하는 방법을 이해하면 이 항목의 앞부�
 
 어떤 이유로든 **[SubmitForm](functions/function-form.md)**이 실패하면 **[편집 양식](controls/control-form-detail.md)** 컨트롤의 **Error** 속성에 사용자에게 표시할 오류 메시지가 포함됩니다. 이 정보를 사용하면 사용자는 문제를 해결하고 변경 내용을 다시 제출하거나 업데이트를 취소할 수 있습니다.
 
-1. 편집 및 만들기 화면에서 **[레이블](controls/control-text-box.md)** 컨트롤을 추가하고 **저장** 단추 바로 아래로 이동합니다.
-   
-    사용자가 이 컨트롤을 선택하여 변경 내용을 저장한 후에는 모든 오류를 쉽게 확인할 수 있습니다.
+1. 편집 및 만들기 화면에서 **[레이블](controls/control-text-box.md)** 컨트롤을 추가하고 **저장** 단추 바로 아래로 이동합니다. 사용자가 이 컨트롤을 선택하여 변경 내용을 저장한 후에는 모든 오류를 쉽게 확인할 수 있습니다.
+
 2. **Form1.Error**를 표시하도록 **[레이블](controls/control-text-box.md)** 컨트롤의 **[Text](controls/properties-core.md)** 속성을 설정합니다.
 
-!["편집" 단추가 추가된 표시 양식](./media/working-with-forms/edit-icecream-error.png)
+    !["편집" 단추가 추가된 표시 양식](./media/working-with-forms/edit-icecream-error.png)
 
 PowerApps가 데이터에서 생성하는 앱에서 이 컨트롤의 **[AutoHeight](controls/control-text-box.md)** 속성이 *true*로 설정되므로 오류가 발생하지 않으면 공백이 사용되지 않습니다. 또한 **[편집 양식](controls/control-form-detail.md)** 컨트롤의 **[Height](controls/properties-size-location.md)** 및 **[Y](controls/properties-size-location.md)** 속성은 오류가 발생할 때 이 컨트롤의 증가를 고려하여 동적으로 조정됩니다. 자세한 내용을 알아보려면 기존 데이터에서 앱을 생성하고 이러한 속성을 검사합니다. 오류가 발생하지 않은 경우 오류의 텍스트 상자 컨트롤은 매우 짧습니다. **고급** 보기(**보기** 탭에서 사용 가능)를 열어 이 컨트롤을 선택해야 할 수도 있습니다.
 
@@ -319,9 +324,10 @@ PowerApps가 데이터에서 생성하는 앱에서 이 컨트롤의 **[AutoHeig
 사용자가 앱을 열 때마다 데이터 원본을 새로 고치지만, 사용자가 앱을 닫지 않고 갤러리의 레코드를 새로 고쳐야 할 수도 있습니다. 사용자가 수동으로 데이터를 새로 고칠 수 있도록 **새로 고침** 단추를 추가합니다.
 
 1. **[갤러리](controls/control-gallery.md)** 컨트롤이 있는 화면에서 **[단추](controls/control-button.md)** 컨트롤을 추가하고, **새로 고침**을 표시하도록 **[Text](controls/properties-core.md)** 속성을 설정합니다.
+
 2. 이 컨트롤의 **[OnSelect](controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.<br> **Refresh( 'Ice Cream' )**
 
-![데이터 원본 새로 고침](./media/working-with-forms/browse-icecream-refresh.png)
+    ![데이터 원본 새로 고침](./media/working-with-forms/browse-icecream-refresh.png)
 
 ## <a name="search-and-sort-the-gallery"></a>갤러리 검색 및 정렬
 PowerApps가 데이터에서 생성한 앱에서 찾아보기 화면의 위쪽에 있는 두 가지 컨트롤에 대해 논의하지 않았습니다. 사용자는 이러한 컨트롤을 사용하여 하나 이상의 레코드를 검색하거나 레코드 목록을 오름차순 또는 내림차순으로 정렬하거나 둘 다 정렬할 수 있습니다.

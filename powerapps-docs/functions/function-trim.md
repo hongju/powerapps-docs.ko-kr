@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/09/2016
 ms.author: gregli
-ms.openlocfilehash: 9f829e8c98b03bc47bc36f26273267265819f4ae
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: b40f44f8bdcb319191221d0f2cee39e15d5b3b49
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="trim-and-trimends-functions-in-powerapps"></a>PowerApps의 Trim 및 TrimEnds 함수
 텍스트 문자열에서 여분의 공백을 제거합니다.
@@ -36,7 +36,7 @@ ms.lasthandoff: 11/07/2017
 ## <a name="syntax"></a>구문
 **Trim**( *String* )<br>**TrimEnds**( *String* )
 
-* *String* - 필수 항목입니다. 공백을 제거할 텍스트 문자열입니다.
+* *String* - 필수 항목이며, 공백을 제거할 텍스트 문자열입니다.
 
 **Trim**( *SingleColumnTable* )<br>**TrimEnds**( *SingleColumnTable* )
 
@@ -60,5 +60,6 @@ ms.lasthandoff: 11/07/2017
 | **Trim(&nbsp;Spaces&nbsp;)** |**Spaces** 컬렉션의 각 문자열 내에서 여분의 공백을 제거하고 각 문자열의 시작과 끝에 있는 모든 공백을 제거합니다. |<style> img { max-width: none } </style> ![](media/function-trim/output-trim.png) |
 | **TrimEnds(&nbsp;Spaces&nbsp;)** |**Spaces** 컬렉션에 있는 각 문자열의 시작과 끝에서 모든 공백을 제거합니다. |<style> img { max-width: none } </style> ![](media/function-trim/output-trimends.png) |
 
-**참고**: **파일** 메뉴에서 **컬렉션** 클릭하거나 탭하여 컬렉션을 표시하면 여분의 공백이 나타나지 않습니다. 문자열 길이를 확인하려면 **[Len](function-len.md)** 함수를 사용하십시오.
+> [!NOTE]
+> **파일** 메뉴에서 **컬렉션**을 클릭하거나 탭하여 컬렉션을 표시하면 여분의 공백이 나타나지 않습니다. 문자열 길이를 확인하려면 **[Len](function-len.md)** 함수를 사용하십시오.
 

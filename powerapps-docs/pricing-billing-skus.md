@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 01/19/2017
 ms.author: jamesol
-ms.openlocfilehash: ebe54d21ffc55024e1af7ab81fb2835835f39e6f
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: f3b53905bb335cf61eae3e184d4984d56907fe4c
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="licensing-overview"></a>라이선스 개요
 PowerApps는 사용자별로 사용이 허가됩니다. 앱을 만들고 실행하기 위해 서비스에 액세스하는 각 사용자에게는 라이선스가 필요합니다. Office 365 및 Dynamics 365 고객은 해당 제품에 포함된 PowerApps 및 Microsoft Flow 기능을 즉시 이용할 수 있습니다. Office 365 및 Dynamics 365 외부의 데이터 원본에 액세스하거나 추가 기능이 필요한 앱 및 흐름을 작성하려는 고객은 PowerApps 및 Microsoft Flow에 대한 독립 실행형 구독을 구입할 수 있습니다. 이러한 라이선스 그룹 간의 기능에는 중요한 차이점이 있습니다.
@@ -80,7 +80,8 @@ PowerApps는 무료 계정을 제공하지 않지만, 사용자가 90일 동안 
 * Office 365 또는 Dynamics 365를 통해 PowerApps 또는 Microsoft Flow에 액세스할 수 있는 사용자는 PowerApps 또는 Microsoft Flow에 계속 액세스할 수 있습니다.  그러나 이러한 사용자는 [PowerApps 가격 책정 페이지][2]에서 설명한 대로 요금제 2에만 적용되는 기능 모두에 대한 액세스 권한을 잃게 됩니다.
 * Office 365 또는 Dynamics 365를 통해 액세스할 수 없는 사용자는 평가판 사용을 연장하도록 요청하거나 독립 실행형 요금제를 구입할 수 있습니다. 자세한 내용은 [조직용 PowerApps 구매하기][4]를 참조하세요.
 
-> **참고** 조직용 PowerApps를 구매하려면 테넌트의 Office 365 전역 또는 청구 관리자여야 하거나, 그렇지 않은 경우 테넌트를 만들어야 합니다.
+> [!NOTE]
+>   조직용 PowerApps를 구매하려면 테넌트의 Office 365 전역 또는 청구 관리자여야 하며, 그렇지 않은 경우 테넌트를 만들어야 합니다.
 > 
 > 
 

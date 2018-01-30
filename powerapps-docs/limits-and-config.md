@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/06/2017
 ms.author: sharik
-ms.openlocfilehash: 337f3fc00fe52e0008190e2144f21f40d1632f52
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 4012439f121a212f6117aa18c1d906cab893248f
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="limits-and-configuration-in-microsoft-powerapps"></a>Microsoft PowerApps의 제한 사항 및 구성
 이 항목에는 PowerApps에 대한 현재 제한 사항 및 구성 세부 정보에 대한 정보가 포함됩니다.
@@ -32,7 +32,8 @@ ms.lasthandoff: 11/07/2017
 | 시간 제한 |180초 |
 | 재시도 횟수 |4 |
 
-**참고**: 재시도 값은 달라질 수 있습니다. 특정 오류 조건의 경우 재시도하지 않는 것이 좋습니다.
+> [!NOTE]
+> 재시도 값은 달라질 수 있습니다. 특정 오류 조건의 경우 재시도하지 않는 것이 좋습니다.
 
 ## <a name="ip-addresses"></a>IP 주소
 PowerApps의 요청은 앱이 위치한 [환경](environments-overview.md)의 지역에 따라 다른 IP 주소를 사용합니다. PowerApps 시나리오에 사용할 수 있는 정규화된 도메인 이름을 게시하지 않습니다.

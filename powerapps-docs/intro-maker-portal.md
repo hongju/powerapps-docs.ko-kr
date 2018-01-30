@@ -15,14 +15,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/28/2016
 ms.author: litran
-ms.openlocfilehash: 0d580471b5dc70852468f6571d356dddd5ca172c
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: a6ec814d057f85b39f794bd7c0c100c5a28f652f
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="introduction-to-powerappscom"></a>powerapps.com 소개
-11월에 접어들면서 PowerApps 팀은 [powerapps.com](http://web.powerapps.com)을 앱 제작자를 위한 새 홈으로 다시 소개하고 있습니다. 제작자가 쉽게 앱 제작을 시작하고 Microsoft Common Data Service를 사용하며 하나의 위치에서 앱을 모두 관리할 수 있도록 이 페이지를 기본 사이트로 다시 설계했습니다. 이 문서에서는 다음 사항을 안내하려고 합니다.
+PowerApps 팀은 [powerapps.com](http://web.powerapps.com)을 앱 제작자를 위한 새 홈으로 다시 도입하고 있습니다. 제작자가 쉽게 앱 제작을 시작하고 Microsoft Common Data Service를 사용하며 하나의 위치에서 앱을 모두 관리할 수 있도록 이 페이지를 기본 사이트로 다시 설계했습니다. 이 문서에서는 다음 사항을 안내하려고 합니다.
 
 * 헤더
 * 홈 페이지
@@ -111,7 +111,7 @@ ms.lasthandoff: 11/07/2017
 
 목록 보기는 선택한 환경의 앱만 표시합니다. 다른 환경에서 앱을 보려면 헤더에서 환경 전환기를 사용하여 전환하세요. [환경 전환에 대한 자세한 정보](working-with-environments.md)
 
-새로운 기능
+## <a name="whats-new"></a>새로운 기능
 
 * 이제 앱을 클릭하거나 탭하면 웹용 PowerApps Studio로 새 탭에 열립니다.
 * 기본적으로는 **앱** 페이지에 편집 권한이 있는 모든 앱이 표시됩니다. **모든 앱**(사용자만 사용할 수 있는 앱 포함)을 보려면 **모든 앱** 필터를 선택하세요.

@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 05/04/2017
 ms.author: sharik
-ms.openlocfilehash: 1ffa79a35d93249756316e52876922ce1d850c49
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 114aa01bd745ed501e209e314e75904751aad3f5
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="regions-overview-in-powerapps"></a>PowerApps의 지역 개요
 ## <a name="how-do-i-find-out-where-my-app-is-deployed"></a>내 앱을 배포한 위치를 찾으려면 어떻게 할까요?
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/07/2017
   
     관리 센터에 모든 기존 환경은 **환경** 탭에 나열됩니다. 이 목록은 앱을 배포한 **지역**을 보여줍니다.
   
-   ![](./media/regions-overview/environment-list.png)
+   ![환경 탭](./media/regions-overview/environment-list.png)
 
 ## <a name="what-regions-are-available"></a>사용 가능한 지역은 어디인가요?
 * 미국
@@ -47,5 +47,6 @@ ms.lasthandoff: 11/07/2017
 
 최적의 성능을 위해서는 사용자가 유럽에 있는 경우 유럽 지역에서 환경을 만들고 사용합니다. 사용자가 미국에 있는 경우 미국에서 환경을 만들고 사용합니다.
 
-**참고**: 온-프레미스 데이터 게이트웨이는 인도 지역 또는 사용자 정의 환경에서 사용할 수 없습니다. 기본 환경에서 게이트웨이를 만들어야 합니다.
+> [!NOTE]
+> 온-프레미스 데이터 게이트웨이는 인도 지역 또는 사용자 지정 환경에서 사용할 수 없습니다. 기본 환경에서 게이트웨이를 만들어야 합니다.
 

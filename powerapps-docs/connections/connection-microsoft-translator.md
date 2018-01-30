@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 07/12/2017
 ms.author: archanan
-ms.openlocfilehash: 9d5ccfd11399188e739353e2994f779347377de4
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 104afc3d2a5b243b7315b1638f23b7778d049370
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="connect-to-microsoft-translator-from-powerapps"></a>PowerApps에서 Microsoft Translator에 연결
 ![Microsoft Translator](./media/connection-microsoft-translator/translatoricon.png)
@@ -28,11 +28,10 @@ Microsoft Translator 커넥터를 추가하여 앱의 **레이블** 컨트롤에
 
 이 토픽에서는 앱에서 Microsoft Translator 연결을 만들고 Microsoft Translator 연결을 사용하는 방법을 보여 주며 사용 가능한 함수를 나열합니다.
 
-**참고**:이 커넥터는 매일 사용자당 150개 호출로 제한됩니다.
+> [!NOTE]
+> 이 커넥터는 매일 사용자당 150개 호출로 제한됩니다.
 
-&nbsp;
-
-[!INCLUDE [connection-requirements](../../includes/connection-requirements.md)]
+[!INCLUDE [connection-requirements](../includes/connection-requirements.md)]
 
 ## <a name="connect-to-microsoft-translator"></a>Microsoft Translator 연결
 1. PowerApps를 열고 **새로 만들기**를 선택한 다음 **비어 있는 앱**을 만듭니다. 전화나 태블릿 레이아웃을 선택합니다. 태블릿 레이아웃의 작업 영역이 더 넓습니다.  

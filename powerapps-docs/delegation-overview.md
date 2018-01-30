@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 08/15/2017
 ms.author: gregli
-ms.openlocfilehash: d4305884c14a4b85b2ed992a5df13a7d3bb2baa7
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: b6410a6b392f074c5e5a240e471fa2591e1e135d
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="understand-delegation"></a>위임 이해
 PowerApps에는 데이터의 테이블을 필터링, 정렬 및 형성하는 강력함 함수 집합이 포함되어 있습니다(단 시간에 **[Filter](functions/function-filter-lookup.md)**, **[Sort](functions/function-sort.md)** 및 **[AddColumns](functions/function-table-shaping.md)** 함수 이름 지정).  이러한 함수를 사용하여 사용자에게 필요한 정보에 대한 집중된 액세스 권한을 제공할 수 있습니다.  데이터베이스 배경 지식이 있는 사람들에게 이러한 함수를 사용하는 것은 데이터베이스 쿼리를 작성하는 것과 같습니다.  
@@ -95,7 +95,7 @@ PowerApps에는 데이터의 테이블을 필터링, 정렬 및 형성하는 강
 
 공통 패턴은 **AddColumns** 및 **LookUp**을 사용하여 하나의 테이블을 다른 테이블로 병합하는 것입니다(일반적인 데이터베이스 용어로 조인).  예:
 
-* **AddColumns( Products, "Supplier Name", LookUp( Suppliers, Suppliers.ID = Product.SupplierID ).Name )**
+**AddColumns( Products, "Supplier Name", LookUp( Suppliers, Suppliers.ID = Product.SupplierID ).Name )**
 
 **Products**와 **Suppliers**가 위임 가능한 데이터 원본이고 **LookUp**이 위임 가능한 함수지만, **AddColumns** 함수는 위임 가능하지 않습니다.  전체 수식의 결과는 **Products** 데이터 원본의 첫 부분으로 제한됩니다.  
 
@@ -118,27 +118,26 @@ PowerApps에는 데이터의 테이블을 필터링, 정렬 및 형성하는 강
 ## <a name="examples"></a>예
 이 예에서는 제품, 특히 과일, **[dbo].[Products]** 이름이 포함된 SQL Server 테이블을 사용합니다.  새 화면에서 PowerApps는 이 데이터 원본과 연결된 기본적인 3개 화면 앱을 만들 수 있습니다.
 
-![](media/delegation-overview/products-afd.png)
+![3개 화면 앱](media/delegation-overview/products-afd.png)
 
 갤러리의 **Items** 속성에 대해 이 수식을 참고하세요.  **SortByColumns**와 **Search** 함수를 사용하고 있으며, 둘 다 위임 가능합니다.
 
 검색 텍스트 입력 컨트롤에 **"Apple"**을 입력해 보겠습니다.  자세히 관찰해 보니 새 검색에서 새 입력 항목이 처리되는 동안 화면 맨 위에 순간적으로 행진하는 점이 보일 것입니다.  행진하는 점은 SQL Server와 통신하고 있음을 나타냅니다.
 
-![](media/delegation-overview/products-apple.png)
+![검색 텍스트 입력 컨트롤](media/delegation-overview/products-apple.png)
 
 모두 위임 가능하므로, **[dbo].[Products]** 테이블에 수백만 개의 레코드가 포함되어 있는 경우에도 사용자가 결과를 스크롤할 때 갤러리에서 페이지를 넘기면서 모두 찾을 수 있습니다.
 
 "Apple"과 "Pineapple"이 둘 다 일치하는 검색을 보려고 합니다.  **Search** 함수는 텍스트 열의 어디에서나 검색어를 찾아냅니다.  대신 그렇다면, 과일 이름으로 시작하는 검색어만 찾길 원했다고 말해 보겠습니다.  더 복잡한 검색어로 다른 위임 가능한 함수 **Filter**를 사용할 수 있습니다(간단하게 **SortByColumns** 호출을 제거하려고 합니다).
 
-![](media/delegation-overview/products-apple-bluedot.png)
+![SortByColumns 호출 제거](media/delegation-overview/products-apple-bluedot.png)
 
 작동하는 것처럼 보이지만, **"Apples"**만 올바르게 표시되고 **"Pineapple"**은 아닙니다.  그러나 갤러리 옆에 파랑 점이 표시되며 수식 부분에 파란 물결선이 있습니다.  화면 썸네일에서도 파랑 점이 보입니다.  갤러리 옆에 있는 파랑 점 위을 마우스로 가리키면 다음 사항이 보입니다.
 
-![](media/delegation-overview/products-apple-bluepopup.png)
+![파란색 점을 마우스로 가리키기](media/delegation-overview/products-apple-bluepopup.png)
 
 위임 가능한 데이터 원본인 SQL Server에 위임 가능한 함수인 **Filter**를 사용하고 있더라도 **Filter** 내부에서 사용한 수식은 위임 가능하지 않습니다.  **Mid** 및 **Len**은 어떠한 데이터 원본에도 위임할 수 없습니다.
 
 하지만 가능했습니다.  가능했다고 봐야죠.  그리고 이것이 바로 노랑 위험 아이콘과 빨강 물결 오류 대신 파랑 점인 이유입니다.  **[dbo].[Products]** 테이블에 500개 미만의 레코드가 포함되어 있다면 완벽하게 작용했습니다.   모든 레코드를 장치로 불러 왔으며 **Filter**가 로컬에 적용되었습니다.  
 
 대신 이 테이블에 500개 이상의 레코드가 포함되어 있는 경우에는 *테이블의 첫 500개 레코드에서* **"Apple"** 로 시작하는 과일만 갤러리에 표시됩니다.  **"Apple, Fuji"**가 레코드 501 또는 500,001에 이름으로 나타나면 검색되지 않습니다.
-

@@ -14,24 +14,26 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/11/2017
 ms.author: aneesa
-ms.openlocfilehash: f8962ea7ea89892b834541aba25653759212a652
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 33c113441bd9842ec267cc658ffd955decde86c0
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="use-the-entity-form-control"></a>엔터티 양식 컨트롤 사용
-**엔터티 양식** 컨트롤을 사용하여 [Common Data Service 엔터티](guided-learning/learning-common-data-service-entities.md)에 대한 서식 있는 양식을 추가하여 앱을 보다 빠르게 만들 수 있습니다.
+**엔터티 양식** 컨트롤을 사용하여 [Common Data Service 엔터티](guided-learning/manage-data.yml#step-2)에 대한 서식 있는 양식을 추가하여 앱을 보다 빠르게 만들 수 있습니다.
 
 **엔터티 양식** 컨트롤에 대한 소개는 이 블로그 게시물([Common Data Service에 대한 새 엔터티 양식 컨트롤(실험적인 기능)](https://powerapps.microsoft.com/blog/new-entity-form-control-experimental-feature-for-common-data-service/))을 참조하세요.
 
-**중요**: 이 블로그 게시물에 요약된 대로 **엔터티 양식** 컨트롤의 실험적인 기능을 알아두고 적어도 지금은 프로덕션 앱에서 **엔터티 양식** 컨트롤 사용에 대해 주의하세요.
+> [!IMPORTANT]
+> 이 블로그 게시물에 요약된 대로 **엔터티 양식** 컨트롤의 실험적인 기능을 알아두고 적어도 지금은 프로덕션 앱에서 **엔터티 양식** 컨트롤 사용에 대해 주의하세요.
 
 ## <a name="key-properties"></a>주요 속성
 **엔터티 양식** 컨트롤의 주요 속성을 소개합니다.
 
 **DataSource** – 표시할 레코드가 포함된 데이터 원본을 지정합니다.   
-**참고**: 현재는 Common Data Service의 엔터티만 **엔터티 양식** 컨트롤에 대한 데이터 원본으로 지원됩니다.  
+> [!NOTE]
+> 현재는 Common Data Service의 엔터티만 **엔터티 양식** 컨트롤에 대한 데이터 원본으로 지원됩니다.  
 
 **Pattern** – **엔터티 양식** 컨트롤에서 표시하려는 양식의 스타일을 지정합니다. **FormPattern** 열거를 사용하여 이 속성을 설정합니다.
 
@@ -82,7 +84,8 @@ ms.lasthandoff: 11/07/2017
 
 이제 다양한 속성과 함수의 개요가 있으므로 실제 작동을 확인하세요.
 
-**참고**: Common Data Service 데이터베이스에 대한 액세스 권한이 없을 경우 다음 단계에 따라 [하나를 만든](guided-learning/learning-common-data-service.md) 후 시작하세요.
+> [!NOTE]
+> Common Data Service 데이터베이스에 대한 액세스 권한이 없는 경우 다음 단계를 수행하기 전에 [하나를 만듭니다](guided-learning/manage-data.yml#step-1).
 
 ## <a name="display-a-list-of-records"></a>레코드 목록 표시
 다음 다섯 개의 절차는 **엔터티 양식** 컨트롤 사용 방법에 대한 단일하고 포괄적인 예를 제공합니다. 이 절차에서는 판매 주문 목록을 표시하는 양식을 추가합니다.  
@@ -125,7 +128,7 @@ ms.lasthandoff: 11/07/2017
       
       ![](media/entity-form-control/entityform-tutorial-01-08.png)   
       
-      **Common Data Service**에서 사용지 지정 엔터티([표준 엔터티](guided-learning/learning-common-data-service-entities.md) 제외)에 대한 [필드 그룹을 수정](field-groups.md)하여 **엔터티 양식** 컨트롤에서 표시하는 해당 양식에 나타나는 필드를 변경할 수 있습니다. 무엇보다 필드 그룹에 대한 변경 사항은 **엔터티 양식** 컨트롤을 사용하여 해당 양식을 표시하는 모든 앱에서 자동으로 반영됩니다.
+      **Common Data Service**에서 사용지 지정 엔터티([표준 엔터티](guided-learning/manage-data.yml#step-2) 제외)에 대한 [필드 그룹을 수정](field-groups.md)하여 **엔터티 양식** 컨트롤에서 표시하는 해당 양식에 나타나는 필드를 변경할 수 있습니다. 무엇보다 필드 그룹에 대한 변경 사항은 **엔터티 양식** 컨트롤을 사용하여 해당 양식을 표시하는 모든 앱에서 자동으로 반영됩니다.
 
 ## <a name="display-the-details-of-a-record"></a>레코드의 세부 정보 표시
 앞부분에서 만든 목록에서 선택된 판매 주문의 세부 정보를 표시하도록 다른 **엔터티 양식** 컨트롤을 추가해 보겠습니다.  
@@ -206,7 +209,8 @@ ms.lasthandoff: 11/07/2017
 
 ![](media/entity-form-control/entityform-tutorial-01-21.png)  
 
-**참고**: 양식 사용자 지정 창을 열면 **NavigationContext**가 적절하게 판단됩니다. 사용자가 **SalesOrderId**를 클릭하거나 탭하면 이전 공식에서 보여준 것처럼 **NavigationContext**가 **SalesOrderListForm.Selected**로 설정됩니다. 대신 탐색에 **Account** 필드를 지정했다면 **NavigationContext**는 올바른 컨텍스트가 전달되도록 **SalesOrderListForm.Selected.Account**로 설정되었을 것입니다. 그러나 컨텍스트를 소비하려면 Common Data Service에서 **Account** 엔터티에 연결된 **엔터티 양식** 컨트롤이 필요합니다.
+> [!NOTE]
+> 양식 사용자 지정 창을 사용하면 **NavigationContext**가 지능적으로 결정됩니다. 사용자가 **SalesOrderId**를 클릭하거나 탭하면 이전 공식에서 보여준 것처럼 **NavigationContext**가 **SalesOrderListForm.Selected**로 설정됩니다. 대신 탐색에 **Account** 필드를 지정했다면 **NavigationContext**는 올바른 컨텍스트가 전달되도록 **SalesOrderListForm.Selected.Account**로 설정되었을 것입니다. 그러나 컨텍스트를 소비하려면 Common Data Service에서 **Account** 엔터티에 연결된 **엔터티 양식** 컨트롤이 필요합니다.
 
 ## <a name="edit-and-save-a-record"></a>레코드 편집 및 저장
 마지막으로 **엔터티 양식** 컨트롤에서 레코드를 편집하고 저장하는 방법을 살펴 보겠습니다.  

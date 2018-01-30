@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/14/2016
 ms.author: litran
-ms.openlocfilehash: e7252415f6f5839a7531f1264615dc5ed39dca10
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: ea9bd30ea9007800511e0f194c6f9f460773305e
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="working-with-environments-and-microsoft-powerapps"></a>환경 및 Microsoft PowerApps 관련 작업하기
 PowerApps를 통해 다양한 환경에서 작업하고 환경을 쉽게 전환할 수 있습니다. 환경 개요에 대한 내용은 환경을 사용하는 이유와 환경을 만들고 관리하는 방법이 자세히 설명된 [환경 개요](environments-overview.md)를 참조하세요. 이 문서의 범위에서는 환경에 대해 다음 토픽을 다룹니다.
@@ -43,20 +43,26 @@ PowerApps를 통해 다양한 환경에서 작업하고 환경을 쉽게 전환�
 액세스할 수 있는 기존 환경이나 새 환경에서 앱을 제작할 수 있습니다. 하지만 자신만의 환경을 만들려면 특정 플랜이 필요합니다. 자세한 내용은 [이 토픽](pricing-billing-skus.md)을 참조하세요. 앱을 만들기 전에 항상 **앱이 속하는 환경을 선택**해야 합니다. 그렇지 않으면 환경 간에 앱을 이동해야 합니다.
 
 1. [powerapps.com](http://web.powerapps.com)을 사용하는 경우 앱을 만들 환경을 선택합니다. PowerApps Studio 또는 웹용 PowerApps Studio를 사용하는 경우 4단계로 건너뜁니다.
+
 2. **+ 새 앱**을 선택합니다.
+
 3. **PowerApps Studio 열기** 또는 **웹용 PowerApps Studio**를 선택합니다.
+
 4. PowerApps Studio 또는 웹용 PowerApps Studio 를 열 때 오른쪽 위 모서리에서 환경을 다시 선택합니다. 차후에 이 환경을 개선할 수 있지만 현재 버전에서는 새 환경에서 앱을 만들 때마다 이 환경을 선택해야 합니다.
-   
-   ![Studio 환경 전환](./media/working-with-environments/studio-switch-env.PNG)
+
+    ![Studio 환경 전환](./media/working-with-environments/studio-switch-env.PNG)
+
 5. **계정** 페이지에서 현재 환경 이름 옆에 있는 **변경**을 선택합니다.
-   
-   ![Studio 환경 전환](./media/working-with-environments/studio-env-dropdown.PNG)
+
+    ![Studio 환경 전환](./media/working-with-environments/studio-env-dropdown.PNG)
+
 6. 앱을 만들 환경을 선택합니다.
-   
-   ![Studio 환경 전환](./media/working-with-environments/studio-env-dropdown2.PNG)
+
+    ![Studio 환경 전환](./media/working-with-environments/studio-env-dropdown2.PNG)
+
 7. **신규**를 선택하여 앱을 제작합니다. 그러면 앱이 6단계에서 선택한 환경에 있게 됩니다.
-   
-   ![Studio 환경 전환](./media/working-with-environments/new-app.PNG)
+
+    ![Studio 환경 전환](./media/working-with-environments/new-app.PNG)
 
 ## <a name="view-apps-in-the-right-environment"></a>적합한 환경에서 앱 보기
 [powerapps.com](http://web.powerapps.com), Windows용 PowerApps Studio에서나 웹용 PowerApps Studio에서 작업 중인지와 관계없이 보이는 앱 목록, 연결 등은 항상 드롭다운 목록에서 선택된 환경에 따라 필터링됩니다. 찾고자 하는 앱이 보이지 않으면 항상 적합한 환경이 선택되어 있는지 확인하세요.
@@ -67,7 +73,6 @@ PowerApps를 통해 다양한 환경에서 작업하고 환경을 쉽게 전환�
 
 Windows용 PowerApps Studio 또는 웹용 PowerApps Studio에서 환경 전환:
 
-  ![Studio 환경 전환](./media/working-with-environments/studio-switch-env.PNG)
+![Studio 환경 전환](./media/working-with-environments/studio-switch-env.PNG)
 
 환경에 대한 자세한 내용은 [이 개요](environments-overview.md)를 참조하세요.
-

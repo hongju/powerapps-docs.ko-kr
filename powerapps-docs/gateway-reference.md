@@ -13,13 +13,13 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/01/2016
+ms.date: 10/20/2017
 ms.author: sharik
-ms.openlocfilehash: 5ca84afd86144bec23c66825e72ef72694428df1
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 3d5ae546d10c0713fe346db1fbe49a6f6701f7a1
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="understand-on-premises-data-gateways-for-microsoft-powerapps"></a>Microsoft PowerApps에 대한 온-프레미스 데이터 게이트웨이 이해
 ## <a name="installation-and-configuration"></a>설치 및 구성
@@ -44,27 +44,33 @@ ms.lasthandoff: 11/07/2017
 **게이트웨이 설치**
 
 1. [설치 관리자를 다운로드](http://go.microsoft.com/fwlink/?LinkID=820931)한 후 실행합니다.
-   
+
     ![설치 관리자 실행](./media/gateway-reference/run-installer.png)
+
 2. 설치 마법사의 첫 번째 화면에서 **다음**을 클릭하거나 탭하여 노트북에 게이트웨이를 설치하는 것에 대한 미리 알림을 확인합니다.
-   
+
     ![미리 알림 화면](./media/gateway-reference/laptop-reminder.png)
+
 3. 게이트웨이를 설치할 위치를 지정하고 사용 약관 및 개인정보처리방침에 동의하는 확인란을 선택한 다음 **설치**를 클릭하거나 탭합니다.
+
 4. **사용자 계정 컨트롤** 대화 상자에서 **예**를 클릭하거나 탭하여 계속합니다.
+
 5. 마법사의 다음 화면에서 **로그인**을 클릭하거나 탭합니다.
-   
+
     ![로그인](./media/gateway-reference/sign-in.png)
+
 6. 새 게이트웨이를 등록하거나 기존 게이트웨이를 마이그레이션, 복원 또는 인수하는 옵션을 클릭하거나 탭한 후 **다음**을 클릭하거나 탭합니다.
-   
+
     ![새 또는 기존 게이트웨이 선택](./media/gateway-reference/new-existing.png)
-   
+
    * 게이트웨이를 구성하려면 **이름** 및 **복구 키**를 입력하고 **구성**을 클릭하거나 탭한 후 **닫기**를 클릭하거나 탭합니다.
-     
+
        ![새 게이트웨이 구성](./media/gateway-reference/configure-new.png)
-     
+
        8자 이상을 포함하는 복구 키를 지정하고 안전한 곳에 보관합니다. 게이트웨이를 마이그레이션, 복원 또는 인수하려는 경우 이 키가 필요합니다.
+
    * 기존 게이트웨이를 마이그레이션, 복원 또는 인수하려면 게이트웨이 이름과 복구 키를 입력하고 **구성**을 클릭하거나 탭한 후 추가 프롬프트를 따릅니다.
-     
+
        ![기존 게이트웨이 복구](./media/gateway-reference/recover-existing.png)
 
 **게이트웨이 다시 시작**
@@ -73,6 +79,7 @@ ms.lasthandoff: 11/07/2017
 
 * 서비스를 중지하려면 다음 명령을 실행합니다.<br>
   **net stop PBIEgwService**
+
 * 서비스를 시작하려면 다음 명령을 실행합니다.<br>
   **net start PBIEgwService**
 
@@ -82,7 +89,7 @@ ms.lasthandoff: 11/07/2017
 
 PowerShell 프롬프트에서 다음 명령을 실행하여 방화벽 또는 프록시가 연결을 차단하는지 여부를 확인할 수 있습니다. 이 명령은 Azure Service Bus에 대 한 연결을 테스트합니다. 이는 네트워크 연결을 테스트하는 데만 사용되며 클라우드 서버 서비스 또는 게이트웨이와 관련이 없습니다. 컴퓨터가 실제로 인터넷에 액세스할 수 있는지 여부를 확인하는 데 도움이 됩니다.
 
-    Test-NetConnection -ComputerName watchdog.servicebus.windows.net -Port 9350
+**Test-NetConnection -ComputerName watchdog.servicebus.windows.net -Port 9350**
 
 결과는 다음 예와 유사해야 합니다. **TcpTestSucceeded**가 **True**가 아니면 방화벽에 의해 차단될 수 있습니다.
 
@@ -107,7 +114,8 @@ PowerShell 프롬프트에서 다음 명령을 실행하여 방화벽 또는 프
 
 방화벽에서 데이터 영역에 대한 IP 주소를 허용 목록에 추가하는 것이 좋습니다. 매주 업데이트되는 [Microsoft Azure 데이터 센터 IP 목록](https://www.microsoft.com/download/details.aspx?id=41653)을 다운로드할 수 있습니다.
 
-**참고:** Azure 데이터 센터 IP 목록에서 주소는 [CIDR 표기법](http://whatismyipaddress.com/cidr)으로 나열됩니다. 예를 들어 10.0.0.0/24는 10.0.0.0~10.0.0.24를 의미하지 않습니다.
+> [!NOTE]
+> Azure 데이터 센터 IP 목록에서 주소는 [CIDR 표기법](http://whatismyipaddress.com/cidr)으로 나열됩니다. 예를 들어 10.0.0.0/24는 10.0.0.0~10.0.0.24를 의미하지 않습니다.
 
 게이트웨이에서 사용되는 정규화된 도메인 이름 목록은 다음과 같습니다.
 
@@ -156,7 +164,7 @@ PowerShell 프롬프트에서 다음 명령을 실행하여 방화벽 또는 프
 **답변:** 아니요. 게이트웨이는 Azure Service Bus로 아웃바운드 연결을 사용합니다.
 
 **질문:** 아웃바운드 연결이 차단되면 어떻게 되나요? 어떻게 해야 하나요?  
-**답변:** 게이트웨이에서 사용하는 [포트](gateway-reference.md#ports) 및 호스트를 확인하세요.
+**답변:** 위에서 게이트웨이에 사용된 포트 및 호스트 목록을 참조하세요.
 
 **질문:** 게이트웨이를 데이터 원본과 동일한 컴퓨터에 설치해야 하나요?  
 **답변:** 아니요. 게이트웨이는 제공된 연결 정보를 사용하여 데이터 원본에 연결합니다. 이 의미에서 게이트웨이를 클라이언트 응용 프로그램으로 생각합니다. 제공된 서버 이름에만 연결할 수 있어야 합니다.
@@ -206,10 +214,15 @@ PowerShell 프롬프트에서 다음 명령을 실행하여 방화벽 또는 프
 사용자가 온-프레미스 데이터 원본에 연결된 요소와 상호 작용할 때:  
 
 1. 클라우드 서비스는 데이터 원본에 대해 암호화된 자격 증명과 함께 쿼리를 만들고 게이트웨이가 처리할 수 있도록 쿼리를 큐에 보냅니다.
+
 2. 게이트웨이 클라우드 서비스는 쿼리를 분석하고 요청을 [Azure Service Bus](https://azure.microsoft.com/documentation/services/service-bus/)로 푸시합니다.
+
 3. 온-프레미스 데이터 게이트웨이는 대기 중인 요청에 대해 Azure Service Bus를 폴링합니다.
+
 4. 게이트웨이는 쿼리를 가져와서 자격 증명을 암호 해독하고 해당 자격 증명을 사용하여 데이터 원본에 연결합니다.
+
 5. 게이트웨이는 실행을 위해 쿼리를 데이터 원본으로 보냅니다.
+
 6. 결과는 데이터 원본에서 게이트웨이로 다시 전송된 후 클라우드로 전송됩니다. 그런 다음 서비스에서 결과를 사용합니다.
 
 ## <a name="troubleshooting"></a>문제 해결
@@ -225,15 +238,15 @@ PowerShell 프롬프트에서 다음 명령을 실행하여 방화벽 또는 프
 
 **설치 관리자 로그**
 
-    %localappdata%\Temp\On-premises_data_gateway_*.log
+%localappdata%\Temp\On-premises_data_gateway_*.log
 
 **구성 로그**
 
-    %localappdata%\Microsoft\on-premises data gateway\GatewayConfigurator*.log
+%localappdata%\Microsoft\on-premises data gateway\GatewayConfigurator*.log
 
 **엔터프라이즈 게이트웨이 서비스 로그**
 
-    C:\Users\PBIEgwService\AppData\Local\Microsoft\on-premises data gateway\Gateway*.log
+C:\Users\PBIEgwService\AppData\Local\Microsoft\on-premises data gateway\Gateway*.log
 
 **이벤트 로그**
 
@@ -243,4 +256,3 @@ PowerShell 프롬프트에서 다음 명령을 실행하여 방화벽 또는 프
 
 #### <a name="fiddler-trace"></a>Fiddler 추적
 [Fiddler](http://www.telerik.com/fiddler)는 HTTP 트래픽을 모니터링하는 Telerik의 무료 도구입니다.  클라이언트 컴퓨터에서 Power BI 서비스를 사용하여 앞뒤로 볼 수 있습니다. 오류 및 기타 관련된 정보를 표시할 수 있습니다.
-

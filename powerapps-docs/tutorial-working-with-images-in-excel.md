@@ -14,18 +14,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/15/2016
 ms.author: anneta
-ms.openlocfilehash: 13b15a29cf2f9e211328b815b8419799024e481e
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 5ba6f02db0de796cb75c57d914abf41caa259cbf
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="how-to-save-images-in-an-excel-file-and-then-add-these-images-to-your-app"></a>이미지를 Excel 파일에 저장한 다음 앱에 추가하는 방법
-&nbsp;
-
-[!INCLUDE [app-customization-requirements](includes/app-customization-requirements.md)]
-
-* [데이터 원본을 추가](add-data-connection.md)하는 방법을 알아봅니다.
 
 이 자습서에서는 다음 작업을 수행합니다.
 
@@ -35,7 +30,11 @@ ms.lasthandoff: 11/07/2017
 * 펜 입력 컨트롤에서 만든 이미지를 Excel 파일에 저장합니다.
 * 앱에서 Excel 파일의 이미지를 표시합니다.
 
+[!INCLUDE [app-customization-requirements](includes/app-customization-requirements.md)]
+* [데이터 원본을 추가](add-data-connection.md)하는 방법을 알아봅니다.
+
 ## <a name="create-the-excel-file-as-a-table"></a>Excel 파일을 테이블로 만들기
+
 1. 빈 Excel 파일에서 열 이름을 **Image [image]**로 지정합니다.
 2. 다음 단계에 따라 테이블를 만듭니다.    
    
@@ -77,7 +76,8 @@ ms.lasthandoff: 11/07/2017
 
 이 예제에서는 일부 .jpeg 파일이 포함된 [CreateFirstApp.zip](http://pwrappssamples.blob.core.windows.net/samples/CreateFirstApp.zip)을 사용합니다.
 
-**참고** Excel 파일의 이미지를 표시할 때 이러한 이미지에 대한 경로에는 슬래시를 사용해야 합니다. PowerApps에서 이미지를 Excel 테이블에 저장하면(이전 단계와 마찬가지로) 경로에는 백슬래시가 사용됩니다. 따라서 이전 예제의 **SavePen_images**를 사용할 수도 있습니다. 이 경우 Excel 테이블의 경로에서 백슬래시 대신 슬래시를 사용하도록 변경합니다. 그렇지 않으면 이미지가 표시되지 않습니다.  
+> [!NOTE]
+> Excel 파일의 이미지를 표시할 때 이러한 이미지에 대한 경로에는 슬래시를 사용해야 합니다. PowerApps에서 이미지를 Excel 테이블에 저장하면(이전 단계와 마찬가지로) 경로에는 백슬래시가 사용됩니다. 따라서 이전 예제의 **SavePen_images**를 사용할 수도 있습니다. 이 경우 Excel 테이블의 경로에서 백슬래시 대신 슬래시를 사용하도록 변경합니다. 그렇지 않으면 이미지가 표시되지 않습니다.  
 
 1. [CreateFirstApp.zip](http://pwrappssamples.blob.core.windows.net/samples/CreateFirstApp.zip)을 다운로드하고 **Assets** 폴더를 클라우드 저장소 계정으로 압축 해제합니다.
 2. Excel 스프레드시트에서 다음과 비슷한 테이블을 만듭니다.

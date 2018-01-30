@@ -12,28 +12,29 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 12/06/2016
+ms.date: 10/20/2017
 ms.author: kfend
-ms.openlocfilehash: 5d927e84144da8e3b011bb4e4a7ac107aedac74f
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: e02a423f6a951c1c479b3941c6f361383244cafc
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="create-a-custom-entity"></a>사용자 지정 엔터티 만들기
 귀하의 조직에 관련된 데이터를 저장하는 사용자 지정 엔터티를 만들 수 있습니다. 그런 다음 엔터티를 참조하는 앱을 개발하여 해당 데이터를 표시할 수 있습니다.
 
 엔터티를 만드는 데에는 다음 두 가지 방법이 있습니다.
 
-* 처음부터 엔터티를 만듭니다. 기본적으로 엔터티는 [네 개의 시스템 필드와 레코드 제목 필드](data-platform-create-entity.md#system-and-record-title-fields)만 포함합니다.
+* 처음부터 엔터티를 만듭니다. 기본적으로 엔터티는 [네 개의 시스템 필드와 레코드 제목 필드](data-platform-create-entity.md#system-fields-and-the-record-title-field)만 포함합니다.
 * 해당 엔터티의 필드와 설정은 복사하지만 데이터는 복사하지 않고 다른 엔터티를 기반으로 하는 엔터티를 만듭니다.
 
 두 경우 모두 Microsoft PowerApps는 자동으로 데이터를 저장하고 보안에 도움이 됩니다. 엔터티를 만든 다음 [하나 이상의 필드를 만들거나 수정](data-platform-manage-fields.md)하고 [엔터티 간의 관계를 빌드](data-platform-entity-lookup.md)할 수 있습니다.
 
-**참고:** 엔터티를 만들기 전에 [표준 엔터티 목록](data-platform-intro.md#standard-entities)을 참조하세요. 이러한 엔터티는 계정 및 연락처와 같은 일반적인 시나리오를 설명합니다. 이러한 엔터티 중 하나가 즉시 또는 약간 변경된 후에 요구 사항을 충족하는 경우 해당 엔터티부터 시작하여 약간의 시간을 줄일 수 있습니다.
+> [!NOTE]
+> 엔터티를 만들기 전에 [표준 엔터티 목록](data-platform-intro.md#standard-entities)을 참조하세요. 이러한 엔터티는 계정 및 연락처와 같은 일반적인 시나리오를 설명합니다. 이러한 엔터티 중 하나가 즉시 또는 약간 변경된 후에 요구 사항을 충족하는 경우 해당 엔터티부터 시작하여 약간의 시간을 줄일 수 있습니다.
 
 ## <a name="create-an-entity"></a>엔터티 만들기
-1. 1. [powerapps.com](https://web.powerapps.com)에서 **Common Data Service** 섹션을 확장하고 왼쪽 탐색 창에서 **엔터티**를 클릭하거나 탭합니다.
+1. [powerapps.com](https://web.powerapps.com)에서 **Common Data Service** 섹션을 확장하고 왼쪽 탐색 창에서 **엔터티**를 클릭하거나 누릅니다.
 2. 데이터베이스를 만들지 않은 경우 하나를 만들어야 합니다. 자세한 내용은 [ Common Data Service 데이터베이스 만들기](create-database.md)를 참조하세요.
 3. 오른쪽 위 모서리 근처에서 **새 엔터티**를 클릭하거나 탭합니다.
 4. **엔터티 이름** 필드에 엔터티에 대한 이름을 입력합니다. 엔터티를 만든 후에는 이름을 변경할 수 없으므로 이름이 명확하고 의미 있도록 합니다. 앱을 개발할 때 수식에서 이 이름으로 엔터티를 참조하게 됩니다.

@@ -15,17 +15,19 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/17/2016
 ms.author: gregli
-ms.openlocfilehash: 0565bba26f9ab78437dd4b5a7729ff518a89e6e8
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 8aa5fb671878af21fa483dde348460bf7c05fc70
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="controls-and-properties-in-powerapps"></a>PowerApps 컨트롤 및 속성
 속성 중 하나를 설정하여 컨트롤의 모양과 동작을 구성합니다. 각 유형의 컨트롤에는 서로 다른 속성 집합이 있습니다. **Height** 및 **Width**와 같은 일부 속성은 거의 모든 유형의 컨트롤에 공통으로 적용되지만, **CheckboxSize**와 같은 다른 속성은 한 유형의 컨트롤에만 적용됩니다.
 
 ## <a name="controls"></a>컨트롤
 **[그림 추가](controls/control-add-picture.md)** – 로컬 장치에서 이미지를 로드하여 데이터 원본에 업로드합니다.
+
+**[첨부 파일](controls/control-attachments.md)** – 로컬 장치에서 데이터 원본으로 파일을 다운로드하고 업로드합니다.
 
 **[오디오](controls/control-audio-video.md)** – 오디오 클립 또는 비디오 클립의 오디오 부분을 재생합니다.
 
@@ -507,12 +509,11 @@ ms.lasthandoff: 11/07/2017
 ### <a name="y"></a>Y
 **[Y](controls/properties-size-location.md)** – 컨트롤의 위쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 위쪽 가장자리 사이의 거리입니다. 많은 컨트롤에 적용됩니다. 여러 행이 있는 컨테이너의 **[카드](controls/control-card.md)** 컨트롤에서 이 속성은 카드가 표시되는 행을 결정합니다.
 
-**[YAxisMax](controls/control-column-line-chart.md)** - 꺾은선형 차트에 대한 y-축의 최대값입니다.  **[세로 막대형 차트](controls/control-column-line-chart.md)** 컨트롤에 적용됩니다.
+**[YAxisMax](controls/control-column-line-chart.md)** - 꺾은선형 차트에 대한 y-축의 최대값입니다.  **[꺾은선형 차트](controls/control-column-line-chart.md)** 컨트롤에 적용됩니다.
 
-**[YAxisMin](controls/control-column-line-chart.md)** - 꺾은선형 차트에 대한 y-축의 최소값입니다.  **[세로 막대형 차트](controls/control-column-line-chart.md)** 컨트롤에 적용됩니다.
+**[YAxisMin](controls/control-column-line-chart.md)** - 꺾은선형 차트에 대한 y-축의 최소값입니다.  **[꺾은선형 차트](controls/control-column-line-chart.md)** 컨트롤에 적용됩니다.
 
 **[YLabelAngle](controls/control-column-line-chart.md)** – 꺾은선형 차트 또는 세로 막대형 차트의 y-축 옆에 있는 레이블의 각도입니다.  **[세로 막대형 차트](controls/control-column-line-chart.md)** 및 **[꺾은선형 차트](controls/control-column-line-chart.md)** 컨트롤에 적용됩니다.
 
 ### <a name="z"></a>Z
 **Zoom** – 카메라의 이미지 확대 비율 또는 PDF 뷰어의 파일 보기입니다.  **[카메라](controls/control-camera.md)** 및 **[PDF 뷰어](controls/control-pdf-viewer.md)** 컨트롤에 적용됩니다.
-

@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/17/2017
 ms.author: gregli
-ms.openlocfilehash: fc64817566f30f0370538c6e5d1619a1d54c0be3
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: f75eeddf5a3a7b693e81f561ffd227f95e41cc5f
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="understand-data-form-layout-in-microsoft-powerapps"></a>Microsoft PowerApps 데이터 양식 레이아웃에 대한 이해
 PowerApps에서 매력적이고 효율적으로 사용할 수 있는 양식을 쉽게 만들 수 있습니다. 예를 들어 판매 주문을 기록하기 위해 다음 기본 양식을 고려해 보세요.
@@ -59,12 +59,17 @@ PowerApps를 처음 사용하거나 앱을 자동으로만 생성한 경우에�
     갤러리에서 선택한 레코드의 판매 주문 번호가 레이블에 표시됩니다.
 3. (선택 사항) 레이블의 서식을 다음과 같이 지정합니다.
    
-   1. **Align** 속성을 **Center**로 설정합니다.
-   2. **Size** 속성을 **20**으로 설정합니다.
-   3. **Fill** 속성을 **Navy**로 설정합니다.
-   4. **Color** 속성을 **White**로 설정합니다.
-   5. **Width** 속성을 **Parent.Width**로 설정합니다.
-   6. **X** 및 **Y** 속성을 **0**으로 설정합니다.
+    1. **Align** 속성을 **Center**로 설정합니다.
+   
+    2. **Size** 속성을 **20**으로 설정합니다.
+   
+    3. **Fill** 속성을 **Navy**로 설정합니다.
+   
+    4. **Color** 속성을 **White**로 설정합니다.
+   
+    5. **Width** 속성을 **Parent.Width**로 설정합니다.
+   
+    6. **X** 및 **Y** 속성을 **0**으로 설정합니다.
       
       ![제목 표시줄](media/working-with-form-layout/title-bar.png)
 
@@ -97,7 +102,8 @@ PowerApps를 처음 사용하거나 앱을 자동으로만 생성한 경우에�
 
 ![데이터 카드 선택](media/working-with-form-layout/sales-order-data-card-selection.png)
 
-**참고**: 카드를 숨기지 않고 삭제하려면 해당 카드를 선택한 다음 [삭제]를 누릅니다.
+> [!NOTE]
+> 카드를 숨기지 않고 삭제하려면 해당 카드를 선택한 다음 [삭제]를 누릅니다.
 
 ## <a name="arrange-cards-in-columns"></a>열에서 카드 정렬
 태블릿 앱의 양식에는 기본적으로 세 개의 열이 있고, 전화 앱의 양식에는 하나의 열이 있습니다. 양식에 있는 열의 수뿐만 아니라 모든 카드가 열 테두리 내에 맞춰지는지 여부도 지정할 수 있습니다.
@@ -124,7 +130,9 @@ PowerApps를 처음 사용하거나 앱을 자동으로만 생성한 경우에�
 3. **주문 상태** 및 **고객 구매 주문 참조** 카드로 이전 단계를 반복합니다.
    
     ![첫 번째 행에 3개 카드](media/working-with-form-layout/card-resize-2.png)
+
 4. 양식의 6개 열(또는 1/2)을 차지하도록 **이름** 및 **설명** 카드의 크기를 조정합니다.
+
 5. 배달 주소의 처음 두 줄을 양식 전체에 걸쳐 늘립니다.
 
 모두 완료되었습니다. 서로 다른 수의 열로 행을 혼합하여 원하는 양식을 갖췄습니다.

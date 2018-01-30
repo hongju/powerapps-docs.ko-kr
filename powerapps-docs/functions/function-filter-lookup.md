@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 02/05/2017
 ms.author: gregli
-ms.openlocfilehash: f06c242d7eed3d7519af829400708362ab1a77d6
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: f55b66e615b79852b86cc5ea88ee9fbef321f8aa
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="filter-search-and-lookup-functions-in-powerapps"></a>PowerApps의 Filter, Search 및 LookUp 함수
 [테이블](../working-with-tables.md)에서 하나 이상의 [레코드](../working-with-tables.md#records)를 찾습니다.
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/07/2017
 
 둘 다 수식은 각 테이블의 레코드에 대해 평가됩니다.  *true*가 되는 레코드는 결과에 포함됩니다.  일반적인 수식 [연산자](operators.md) 이외에도 하위 문자열 일치에 **[in](operators.md#in-and-exactin-operators)** 및 **[exactin](operators.md#in-and-exactin-operators)** 연산자를 사용할 수 있습니다.
 
-[!INCLUDE [record-scope](../../includes/record-scope.md)]
+[!INCLUDE [record-scope](../includes/record-scope.md)]
 
 **Search** 함수는 해당 열 중 하나에 문자열을 포함하는 테이블의 레코드를 찾습니다. 문자열은 열 내의 아무 곳에서나 발생할 수 있습니다. 예를 들어, "rob" 또는 "bert" 검색으로 "Robert"를 포함하는 열에서 일치 항목을 찾습니다. 검색은 대/소문자를 구분합니다. **Filter** 및 **LookUp**과 달리 **Search** 함수는 단일 문자열을 사용하여 수식 대신 일치하도록 합니다.
 
@@ -39,7 +39,7 @@ ms.lasthandoff: 11/07/2017
 
 [Table](../working-with-tables.md)은 PowerApps에서 문자열이나 숫자와 같은 값입니다. 테이블을 함수로 전달하거나 함수로부터 반환할 수 있습니다.  **Filter**, **Search** 및 **LookUp**은 테이블을 수정하지 않습니다. 대신 테이블을 인수로 사용하며 여기에서 테이블, 레코드 또는 단일 값을 반환합니다. 자세한 내용은 [테이블 작업](../working-with-tables.md)을 참조하세요.
 
-[!INCLUDE [delegation](../../includes/delegation.md)]
+[!INCLUDE [delegation](../includes/delegation.md)]
 
 ## <a name="syntax"></a>구문
 **Filter**( *Table*, *Formula1* [, *Formula2*, ... ] )
@@ -53,7 +53,8 @@ ms.lasthandoff: 11/07/2017
 * *SearchString* -필수 항목입니다. 검색할 문자열입니다. *공백* 또는 빈 문자열인 경우 모든 레코드가 반환됩니다.
 * *Column(s)* - 필수 항목입니다. 찾을 *테이블* 내의 열의 이름입니다. 검색할 열은 텍스트를 포함해야 합니다. 열 이름은 문자열이어야 하며 큰따옴표로 묶여야 합니다. 그러나 열 이름은 정적이어야 하며 수식으로 계산될 수 없습니다. 이러한 열의 데이터 내에서 부분 일치 항목으로 *SearchString*이 발견되는 경우 전체 레코드가 반환됩니다.
 
-**참고:** 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 각 공백을 **"\_x0020\_"**으로 지정합니다. 예를 들어, **"Column Name"**은 **"Column_x0020_Name"**으로 지정합니다.
+> [!NOTE]
+> 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 각 공백을 **"\_x0020\_"**으로 지정합니다. 예를 들어, **"Column Name"**은 **"Column_x0020_Name"**으로 지정합니다.
 
 **LookUp**( *Table*, *Formula* [, *ReductionFormula* ] )
 
@@ -103,8 +104,8 @@ ms.lasthandoff: 11/07/2017
 
 | 수식 | 설명 | 결과 |
 | --- | --- | --- |
-| **Filter( Customers, StartsWith( Name, SearchInput.Text ) )** |**Customers** 데이터 소스를 **Name** 열의 시작 부분에 검색 문자열이 나타나는 레코드로 필터링합니다. 이 테스트는 대/소문자를 구분하지 않습니다. 사용자가 검색 창에 **co**를 입력하면 갤러리에 **Colleen Jones**와 **Cole Miller**가 표시됩니다. **Mike Collins**는 레코드의 **Name** 열이 검색 문자열로 시작하지 않기 때문에 갤러리에 표시되지 않습니다. |<style> img { max-width: none } </style> ![](media/function-filter-lookup/customers-name-co-startswith.png) |
-| **Filter( Customers, SearchInput.Text in Name )** |**Customers** 데이터 소스를 **Name** 열의 아무 곳에나 검색 문자열이 나타나는 레코드로 필터링합니다. 이 테스트는 대/소문자를 구분하지 않습니다. 사용자가 검색 상자에 **co**를 입력하면 **Colleen Jones,** **Cole Miller,** **Mike Collins**가 갤러리에 표시됩니다. 이러한 레코드의 **Name** 열 어딘가에 검색 문자열이 나타나기 때문입니다. |<style> img { max-width: none } </style> ![](media/function-filter-lookup/customers-name-co-contains.png) |
+| **Filter( Customers, StartsWith( Name, SearchInput.Text ) )** |**Customers** 데이터 원본을 **Name** 열의 시작 부분에 검색 문자열이 나타나는 레코드로 필터링합니다. 이 테스트는 대/소문자를 구분하지 않습니다. 사용자가 검색 창에 **co**를 입력하면 갤러리에 **Colleen Jones**와 **Cole Miller**가 표시됩니다. **Mike Collins**는 레코드의 **Name** 열이 검색 문자열로 시작하지 않기 때문에 갤러리에 표시되지 않습니다. |<style> img { max-width: none } </style> ![](media/function-filter-lookup/customers-name-co-startswith.png) |
+| **Filter( Customers, SearchInput.Text in Name )** |**Customers** 데이터 원본을 **Name** 열의 아무 곳에나 검색 문자열이 나타나는 레코드로 필터링합니다. 이 테스트는 대/소문자를 구분하지 않습니다. 사용자가 검색 상자에 **co**를 입력하면 **Colleen Jones,** **Cole Miller,** **Mike Collins**가 갤러리에 표시됩니다. 이러한 레코드의 **Name** 열 어딘가에 검색 문자열이 나타나기 때문입니다. |<style> img { max-width: none } </style> ![](media/function-filter-lookup/customers-name-co-contains.png) |
 | **Search( Customers, SearchInput.Text, "Name" )** |**in** 연산자를 사용하는 경우와 유사하게, **Search** 함수는 각 레코드의 **Name** 열 내에서 일치하는 항목을 검색합니다. 열 이름은 큰따옴표로 묶어야 합니다. |<style> img { max-width: none } </style> ![](media/function-filter-lookup/customers-name-co-contains.png) |
 
 **Company** 열과 **Name** 열을 포함하도록 검색 범위를 확장할 수 있습니다.

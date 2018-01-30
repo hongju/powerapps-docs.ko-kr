@@ -14,11 +14,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/11/2017
 ms.author: aneesa
-ms.openlocfilehash: 023282c31ea90cd391d425faaf036603b5521d08
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: d791d04965873c133be85013feb181dc5a1e1bad
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="use-field-groups"></a>필드 그룹 사용
 필드 그룹에서는 하나 이상의 엔터티 필드를 그룹화하는 방법을 제공합니다. 필드 그룹을 통해 앱의 생성 및 유지 관리를 신속하게 만들고 간소화할 수 있습니다. 필드 그룹에는 하나 이상의 필드가 있으며 필드는 여러 필드 그룹에 표시될 수 있습니다. 필드는 하나의 필드 그룹에 두 번 이상 표시될 수 없습니다.
@@ -50,7 +50,8 @@ Common Data Service에는 엔터티에 대한 몇 가지 기본 필드 그룹이
 3. 필드 그룹을 제거하려면 **필드 그룹 필드** 목록에서 필드 이름 옆에 있는 **X**를 클릭합니다.
 4. **저장** 단추를 클릭하거나 누릅니다.
 
-*참고: 현재 [표준 엔터티](guided-learning/learning-common-data-service-entities.md)의 필드 그룹을 수정하는 작업이 지원되지 않지만 사용자 정의 엔터티에 대한 필드 그룹을 수정할 수 있습니다.*
+> [!NOTE]
+> 현재는 [표준 엔터티](guided-learning/manage-data.yml#step-2)의 필드 그룹을 수정하는 기능이 지원되지 않지만 사용자 지정 엔터티에 대한 필드 그룹은 수정할 수 있습니다.*
 
 ## <a name="creating-a-field-group"></a>필드 그룹 만들기
 엔터티를 만들 때 기본 필드 그룹이 자동으로 만들어집니다. 추가 필드 그룹을 만드는 작업은 현재 지원되지 않습니다.

@@ -15,14 +15,15 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/12/2017
 ms.author: mblythe
-ms.openlocfilehash: 1dea5c714b231bb94edb7d61423b6a89d8f733da
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: fb750e6345c6aa576e378134ed98be92c234a86b
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="set-up-data-alerts-for-the-power-bi-dashboard"></a>Power BI 대시보드에 대한 데이터 경고 설정
-**참고:** 이 문서는 SharePoint Online에서 PowerApps, Microsoft Flow 및 Power BI를 사용하는 방법에 대한 자습서 시리즈의 일부입니다. [시리즈 소개](sharepoint-scenario-intro.md)를 참고하여 관련된 다운로드뿐만 아니라 전체적인 내용을 파악해야 합니다.
+> [!NOTE]
+> 이 문서는 SharePoint Online에서 PowerApps, Microsoft Flow 및 Power BI를 사용하는 방법에 대한 자습서 시리즈의 일부입니다. [시리즈 소개](sharepoint-scenario-intro.md)를 참고하여 관련된 다운로드뿐만 아니라 전체적인 내용을 파악해야 합니다.
 
 이 작업에서는 보류 중인 프로젝트를 승인하는 데 너무 오래 걸리는지를 알리는 Power BI의 경고 및 해당 경고가 발생할 때 응답하는 흐름을 추가합니다. 경고에 대한 자세한 내용은 [Power BI 서비스의 데이터 경고](https://powerbi.microsoft.com/documentation/powerbi-service-set-data-alerts)를 참조하세요.
 

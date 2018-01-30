@@ -13,20 +13,22 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/12/2017
+ms.date: 01/10/2018
 ms.author: mblythe
-ms.openlocfilehash: c576f71532049405b879cc904c4232e297478cac
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 1b22885a6ff97b1ffcf67da291ab89d091863981
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="create-a-power-bi-report-to-analyze-projects"></a>프로젝트를 분석하는 Power BI 보고서 만들기
-**참고:** 이 문서는 SharePoint Online에서 PowerApps, Microsoft Flow 및 Power BI를 사용하는 방법에 대한 자습서 시리즈의 일부입니다. [시리즈 소개](sharepoint-scenario-intro.md)를 참고하여 관련된 다운로드뿐만 아니라 전체적인 내용을 파악해야 합니다.
+> [!NOTE]
+> 이 문서는 SharePoint Online에서 PowerApps, Microsoft Flow 및 Power BI를 사용하는 방법에 대한 자습서 시리즈의 일부입니다. [시리즈 소개](sharepoint-scenario-intro.md)를 참고하여 관련된 다운로드뿐만 아니라 전체적인 내용을 파악해야 합니다.
 
 이 작업에서는 두 가지 SharePoint 목록을 기반으로 하여 Power BI 보고서를 만듭니다. 목록 데이터를 Power BI Desktop으로 가져오고, 약간 정리하고, 몇 가지 기본 데이터 모델링을 수행하고, 데이터에 대한 중요한 의미를 알려주는 일단의 시각적 개체를 만듭니다.
 
-**팁:** 이 시나리오에 대한 [다운로드 패키지](https://aka.ms/o4ia0f)에는 이 보고서의 완성된 버전인 project-analysis.pbix가 포함되어 있습니다.
+> [!TIP]
+> 이 시나리오에 대한 [다운로드 패키지](https://aka.ms/o4ia0f)에는 이 보고서의 완성된 버전인 project-analysis.pbix가 포함되어 있습니다.
 
 ## <a name="quick-review-of-power-bi-desktop"></a>Power BI Desktop에 대한 빠른 검토
 보고서를 만드는 방법을 살펴보기 전에 Power BI Desktop을 검토해 보겠습니다. 이는 많은 기능을 갖춘 강력한 도구이므로 이 작업에서 사용할 영역의 개요에 대해 중점적으로 설명합니다. Power BI Desktop에는 세 가지 기본 작업 영역(또는 '보기'), 즉 **보고서** 보기, **데이터** 보기 및 **관계** 보기가 있습니다. 또한 Power BI Desktop에는 별개의 창에서 열리는 **쿼리 편집기**도 있습니다.
@@ -93,11 +95,13 @@ ms.lasthandoff: 11/07/2017
 2. 가운데 창에서 **FileSystemObjectType** 열을 선택한 다음 **열 제거**를 클릭하거나 탭합니다.
    
     ![열 제거](./media/sharepoint-scenario-build-report/05-01-07-remove-column.png)
-3. **ID** 열 뒤에 있는 두 열, 즉 **ServerRedirectedEmbedURL** 및 **ContentTypeId**를 제거합니다. 팁: Shift 키를 사용하여 두 열을 선택한 다음 **열 제거**를 클릭하거나 탭합니다.
+3. **ID** 열 뒤에 있는 두 열, 즉 **ServerRedirectedEmbedURL** 및 **ContentTypeId**를 제거합니다. 
+> [!TIP]
+> Shift 키를 사용하여 두 열을 선택한 다음 **열 제거**를 클릭하거나 탭합니다.
 4. **PMAssigned** 열(총 22열)의 오른쪽에 있는 모든 열을 제거합니다. 테이블은 다음 이미지와 같습니다.
    
     ![쿼리 편집기의 프로젝트 세부 정보 테이블](./media/sharepoint-scenario-build-report/05-01-08-table-details.png)
-5. **프로젝트 세부 정보**에 대해 수행한 프로세스를 반복하고 **Approved** 열(총 22열)의 오른쪽에 있는 모든 열을 제거합니다. 테이블은 다음 이미지와 같습니다.
+5. 방금 진행한 과정을 **프로젝트 요청**에 대해 반복합니다. **FileSystemObjectType**, **ServerRedirectedEmbedURL**, **ContentTypeId** 및 모든 열을 **승인됨** 열 오른쪽으로 제거합니다(총 22열). 테이블은 다음 이미지와 같습니다.
    
     ![ 쿼리 편집기의 프로젝트 요청 테이블](./media/sharepoint-scenario-build-report/05-01-09-table-requests.png)
 
@@ -109,16 +113,21 @@ ms.lasthandoff: 11/07/2017
 3. **ApprovedDate** 열을 선택하고 **데이터 형식: 모두**, **날짜**를 차례로 클릭하거나 탭합니다.
    
     ![ 데이터 형식을 날짜로 변경](./media/sharepoint-scenario-build-report/05-01-11-datatype-date.png)
+
 4. **ProjectedStartDate** 및 **ProjectedEndDate** 열에 대해 이전 단계를 반복합니다.
 
 ### <a name="change-the-data-type-on-project-requests-columns"></a>프로젝트 요청 열의 데이터 형식 변경
+
 1. **EstimatedDays** 열을 선택하고 **데이터 형식: 모두**, **정수**를 차례로 클릭하거나 탭합니다.
+
 2. **RequestDate** 열을 선택하고 **데이터 형식: 모두**, **날짜**를 차례로 클릭하거나 탭합니다.
 
 ### <a name="apply-and-save-changes"></a>변경 내용 적용 및 저장
+
 1. **홈** 탭에서 **닫기 및 적용**을 클릭하여 쿼리 편집기를 닫고 기본 Power BI Desktop 창으로 돌아갑니다.
    
     ![변경 내용 닫기 및 적용](./media/sharepoint-scenario-build-report/05-01-12-close-apply.png)
+
 2. **파일**, **저장**을 차례로 클릭하거나 탭하고 project-analysis.pbix라는 이름으로 저장합니다.
 
 ## <a name="step-2-improve-the-data-model"></a>2단계: 데이터 모델 향상
@@ -137,18 +146,24 @@ Power BI Desktop에서 목록을 가져올 때 두 테이블의 **ID** 열을 �
 1. **데이터 보기** 아이콘을 클릭하거나 탭합니다.
    
     ![데이터 보기](./media/sharepoint-scenario-build-report/05-02-01-data-view.png)
+
 2. **모델링** 탭에서 **관계 관리**를 클릭하거나 탭합니다. 모든 데이터 모델링 단계에 대해 **데이터** 보기에서 이 탭을 유지합니다.
    
     ![관계 관리](./media/sharepoint-scenario-build-report/05-02-02-manage-relationships.png)
+
 3. 기존 관계가 선택되어 있는지 확인하고, **삭제**를 클릭하거나 탭한 다음, **삭제**를 다시 클릭하거나 탭하여 확인합니다.
    
     ![관계 삭제](./media/sharepoint-scenario-build-report/05-02-03-delete-relationship.png)
+
 4. **새로 만들기**를 클릭하여 다른 관계를 만듭니다.
+
 5. **관계 만들기** 대화 상자에서 다음을 수행합니다.
    
    1. 첫 번째 테이블의 경우 **프로젝트 요청** 및 **ID** 열을 선택합니다.
+   
    2. 두 번째 테이블의 경우 **프로젝트 세부 정보** 및 **RequestId** 열을 선택합니다.
-   3. 화면은 다음 이미지와 같습니다. 준비가 되면 **확인**을 클릭하거나 탭합니다.
+   
+   3. 화면은 다음 이미지와 같습니다. 준비가 되면 **확인**과 **닫기**를 차례로 클릭하거나 탭합니다.
       
        ![관계 만들기](./media/sharepoint-scenario-build-report/05-02-04-create-relationship.png)
 
@@ -160,7 +175,7 @@ Power BI Desktop에서 목록을 가져올 때 두 테이블의 **ID** 열을 �
    
     ![Dates = CALENDARAUTO()가 있는 수식 입력줄](./media/sharepoint-scenario-build-report/05-02-06-formula-bar.png)
    
-    이 수식은 단일 날짜 열이 있는 **Dates**라는 테이블을 만듭니다. 이 테이블은 다른 테이블의 모든 날짜를 포함하고 있으며, 추가 날짜가 추가되면(예: 데이터를 새로 고친 경우) 자동으로 업데이트됩니다.
+    이 수식은 단일 날짜 열이 있는 **Dates**라는 테이블을 만듭니다. 이 테이블은 다른 테이블의 모든 날짜를 포함하고 있으며, 날짜가 더 추가되면(예: 데이터를 새로 고친 경우) 자동으로 업데이트됩니다.
    
     이 수식과 이 섹션의 다른 수식에서는 Power BI 및 기타 기술의 수식 언어인 DAX(Data Analysis Expressions)를 사용합니다. 자세한 내용은 [Power BI Desktop의 DAX 기본 사항](https://powerbi.microsoft.com/documentation/powerbi-desktop-quickstart-learn-dax-basics/)을 참조하세요.
 3. Enter 키를 눌러 **Dates** 테이블을 만듭니다.
@@ -363,16 +378,16 @@ Power BI Desktop에서 이러한 보고서 시각화를 만들면, Power BI 서�
 4. **ProjectedStartDate**를 **필드** 창의 **프로젝트 세부 정보**에서 **시각화** 창의 **필터** 영역으로 끌어간 다음, **(비어 있음)**을 제외한 모든 날짜를 선택합니다.
    
     ![ProjectedStartDate별 필터링](./media/sharepoint-scenario-build-report/05-03-17-filters-diff.png)
-5. 모든 데이터가 표시될 수 있도록 테이블의 열 크기를 조정합니다. 이제 시각화는 다음 이미지와 같습니다.
+5. 모든 데이터가 표시되도록 테이블 열의 크기를 조정하고 **ApprovedStartDiff**를 기준으로 내림차순으로 정렬합니다. 이제 시각화는 다음 이미지와 같습니다.
    
     ![ApprovedStartDiff 값이 있는 테이블](./media/sharepoint-scenario-build-report/05-03-18-chart-diff.png)
-6. **ApprovedStartDiff**에 대한 아래쪽 화살표, **평균**을 차례로 클릭하거나 탭하면, 프로젝트의 승인 날짜와 예상 시작 날짜 사이의 평균 기간을 확인할 수 있습니다.
+6. **값** 영역에서 **ApprovedStartDiff**의 아래쪽 화살표를 클릭하거나 탭한 다음 **평균**을 클릭하거나 탭합니다. 이제 프로젝트 승인과 예상 시작 날짜 사이의 평균 기간이 표시됩니다.
    
     ![평균 계산](./media/sharepoint-scenario-build-report/05-03-20a-average-menu.png)
-7. **ApprovedStartDiff**에 대한 아래쪽 화살표, **조건부 서식**을 차례로 클릭하거나 탭합니다.
+7. **ApprovedStartDiff**의 아래쪽 화살표를 다시 클릭하거나 탭하고, **조건부 서식**을 클릭하거나 탭한 다음 **배경색 눈금**을 클릭하거나 탭합니다.
    
    ![조건부 서식](./media/sharepoint-scenario-build-report/05-03-20b-conditional-menu.png)
-8. 기본 설정을 사용하고 **확인**을 클릭합니다.
+8. **최소** 및 **최대** 필드의 색을 아래와 같이 설정한 다음 **확인**을 클릭하거나 탭합니다.
    
    ![조건부 서식 옵션](./media/sharepoint-scenario-build-report/05-03-21-conditional-dialog.png)
    

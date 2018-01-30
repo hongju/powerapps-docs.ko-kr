@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 05/08/2017
 ms.author: litran
-ms.openlocfilehash: 39cf496539a1db041a0ba025bd46a9f858200aee
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: ff2c45b1d15bdb6d937756b5e7ed00e5c9e9fdfa
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="let-customers-test-drive-your-apps-on-appsource"></a>AppSource에서 고객이 앱을 시험 사용할 수 있도록 하기
 PowerApps에서 앱을 빌드하는 데 열중하고 있나요? 고객과 공유하려는 앱이 있나요? 고객과 앱을 공유하고 비즈니스 잠재 고객을 창출할 수 있도록 [AppSource.com](https://appsource.microsoft.com)에서 PowerApps 시험 사용 솔루션이 지원됩니다.
@@ -93,7 +93,8 @@ UpdateIf(SiteInspectorCollect,ID=record.ID,
 RemoveIf(SiteInspectorCollect,ID=record.ID)
 ```
 
-**참고**: 컬렉션은 앱이 실행되는 동안만 데이터를 보관합니다. 앱이 닫힐 때 모든 변경 내용은 삭제됩니다.
+> [!NOTE]
+> 컬렉션은 앱이 실행되는 동안만 데이터를 보관합니다. 앱이 닫힐 때 모든 변경 내용은 삭제됩니다.
 
 요약하자면, 외부 데이터에 연결하는 앱의 경험을 시뮬레이션하는 포함된 데이터로 앱의 버전을 만들 수 있습니다. 데이터가 포함된 후 AppSource.com에서 시험 사용으로 이 앱을 게시할 준비가 됩니다.
 

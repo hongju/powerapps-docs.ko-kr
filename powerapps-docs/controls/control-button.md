@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 86329003ee2f5e6e4ffbe91714be290eacd04ad7
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: dfb50597af4012fe6145664fb645439a54686825
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="button-control-in-powerapps"></a>PowerApps의 단추 컨트롤
 사용자가 클릭하거나 탭하여 앱과 상호 작용할 수 있는 컨트롤입니다.
@@ -71,13 +71,13 @@ ms.lasthandoff: 11/07/2017
 
 **[Italic](properties-text.md)** - 컨트롤의 텍스트를 기울임꼴로 설정할지 여부를 선택합니다.
 
-**[PaddingBottom](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 하단 가장자리 사이의 거리입니다.
+**[PaddingBottom](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 아래쪽 가장자리 사이의 거리입니다.
 
-**[PaddingBottom](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 왼쪽 가장자리 사이의 거리입니다.
+**[PaddingLeft](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 왼쪽 가장자리 사이의 거리입니다.
 
-**[PaddingBottom](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 오른쪽 가장자리 사이의 거리입니다.
+**[PaddingRight](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 오른쪽 가장자리 사이의 거리입니다.
 
-**[PaddingBottom](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 상단 가장자리 사이의 거리입니다.
+**[PaddingTop](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 위쪽 가장자리 사이의 거리입니다.
 
 **Pressed** – 컨트롤을 누른 상태이면 *True*, 그렇지 않으면 *false*입니다.
 
@@ -101,7 +101,7 @@ ms.lasthandoff: 11/07/2017
 
 **[TabIndex](properties-accessibility.md)** – 0 이외의 값으로 설정된 경우 런타임 시 컨트롤의 탭 순서를 사용자 지정합니다.
 
-**[Tooltip](properties-core.md)** – 사용자가 컨트롤을 마우스로 가리킬 때 나타나는 설명 텍스트입니다.
+**[Tooltip](properties-core.md)** – 사용자가 마우스로 컨트롤을 가리킬 때 표시되는 설명 텍스트입니다.
 
 **[Underline](properties-text.md)** – 컨트롤에 표시되는 텍스트 아래에 선을 표시할지 여부를 선택합니다.
 
@@ -113,7 +113,7 @@ ms.lasthandoff: 11/07/2017
 
 **[X](properties-size-location.md)** – 컨트롤의 왼쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 왼쪽 가장자리 사이의 거리입니다.
 
-**[Y](properties-size-location.md)** – 컨트롤의 상단 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 상단 가장자리 사이의 거리입니다.
+**[Y](properties-size-location.md)** – 컨트롤의 위쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 위쪽 가장자리 사이의 거리입니다.
 
 ## <a name="related-functions"></a>관련된 함수
 **[Navigate( *ScreenName*, *ScreenTransitionValue* )](../functions/function-navigate.md)**
@@ -145,7 +145,8 @@ ms.lasthandoff: 11/07/2017
    
     **UpdateContext({Total:Total + Value(Source.Text)});<br>UpdateContext({ClearInput: ""})**
    
-    **참고:** 여러 수식은 세미콜론 “**;**”으로 구분합니다.
+    > [!NOTE]
+> 여러 수식은 세미콜론 “**;**”으로 구분합니다.
 3. **원본**의 **[기본](properties-core.md)** 속성을 **ClearInput**으로 설정합니다.
 4. **F5** 키를 누른 다음 여러 숫자를 동시에 추가하여 앱을 테스트합니다.
 
@@ -161,7 +162,8 @@ ms.lasthandoff: 11/07/2017
 #### <a name="change-a-buttons-shape"></a>단추 모양 변경
 기본적으로 PowerApps는 모서리가 둥근 직사각 **단추** 컨트롤을 만듭니다. **단추** 컨트롤의 **[Height](properties-size-location.md)**, **[Width](properties-size-location.md)** 및 **[Radius](properties-size-location.md)** 속성을 설정하여 기본적인 모양을 수정할 수 있습니다.
 
-**참고: [아이콘 및 셰이프](control-shapes-icons.md)**는 다양한 디자인을 제공하며 **단추** 컨트롤이 수행하는 것과 동일한 기본 함수 중 일부를 수행할 수 있습니다. 그러나  **[아이콘 및 셰이프](control-shapes-icons.md)**에는 **[Text](properties-core.md)** 속성이 없습니다.
+> [!NOTE]
+> [아이콘 및 셰이프](control-shapes-icons.md)는 다양한 디자인을 제공하며 **단추** 컨트롤이 수행하는 것과 동일한 기본 함수 중 일부를 수행할 수 있습니다. 그러나  **[아이콘 및 셰이프](control-shapes-icons.md)**에는 **[Text](properties-core.md)** 속성이 없습니다.
 
 1. **단추** 컨트롤을 추가하고 **[Height](properties-size-location.md)** 및 **[Width](properties-size-location.md)** 속성을 **300**으로 설정하여 큰 정사각 단추를 만듭니다.
 2. **[RadiusTopLeft](properties-size-location.md)**, **[RadiusTopRight](properties-size-location.md)**, **[RadiusBottomLeft](properties-size-location.md)** 및 **[RadiusBottomRight](properties-size-location.md)** 속성을 수정하여 각 모서리의 곡률 정도를 조절합니다. 각각 300 x 300 정사각 단추에서 시작하는 다양한 셰이프의 예는 다음과 같습니다.
@@ -177,7 +179,8 @@ ms.lasthandoff: 11/07/2017
 
 **ColorValue("Red")**에서처럼 **[ColorFade](../functions/function-colors.md)** 함수 대신 **[HoverFill](properties-color-border.md)** 속성을 **[ColorValue](../functions/function-colors.md)** 함수가 포함된 수식으로 설정하여 **단추** 색을 지정할 수도 있습니다. 
 
-**참고:** 색 값은 이름 또는 16진 값의 CSS 색 정의가 될 수 있습니다.
+> [!NOTE]
+> 색 값은 이름 또는 16진 값의 CSS 색 정의가 될 수 있습니다.
 
 * 만든 버튼 중 하나에서 **[ColorFade](../functions/function-colors.md)** 함수를 **[ColorValue](../functions/function-colors.md)** 함수로 대체하고 결과를 확인합니다.
 

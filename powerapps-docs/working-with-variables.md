@@ -15,18 +15,18 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 07/06/2017
 ms.author: gregli
-ms.openlocfilehash: 2131e964626bee5b90062002619b7f46f7910ae0
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: eb7bb74362a810487e88efb1177b3c1dfa7a694d
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="understand-variables-in-powerapps"></a>PowerApps 변수에 대한 이해
 Visual Basic 또는 JavaScript와 같은 다른 프로그래밍 도구를 사용한 경우 **변수가 어디에 있나요?**라고 물어볼 수 있습니다. PowerApps는 약간 다르며 다른 접근 방식이 필요합니다. 변수에 도달하는 대신 자신에게 **Excel에서 무엇을 할 수 있나요?**라고 물어보세요.
 
 다른 도구에서는 명시적으로 계산을 수행하여 결과를 변수에 저장했습니다. 그러나 PowerApps와 Excel에서는 모두 입력 데이터가 변경될 때 수식을 자동으로 다시 계산하므로 일반적으로 변수를 만들고 업데이트할 필요가 없습니다. 가능한 경우 언제든지 이 방법을 사용하면 앱을 더 쉽게 만들고, 이해하고, 유지 관리할 수 있습니다.
 
-어떤 경우에는 [동작 수식](working-with-formulas-in-depth.md#behavior-formulas)을 추가하여 Excel 모델을 확장하는 PowerApps에서 변수를 사용해야 합니다. 예를 들어 사용자가 단추를 선택할 때 이러한 수식이 실행됩니다. 종종 동작 수식 내에서 다른 수식에 사용할 변수를 설정하는 것이 유용합니다.
+어떤 경우에는 [동작 수식](working-with-formulas-in-depth.md)을 추가하여 Excel 모델을 확장하는 PowerApps에서 변수를 사용해야 합니다. 예를 들어 사용자가 단추를 선택할 때 이러한 수식이 실행됩니다. 종종 동작 수식 내에서 다른 수식에 사용할 변수를 설정하는 것이 유용합니다.
 
 일반적으로 변수를 사용하지 마세요. 그러나 때로는 변수만 사용하여 원하는 환경을 설정할 수 있습니다.
 
@@ -94,13 +94,15 @@ PowerApps에서 수식을 사용하여 컨트롤의 기본값뿐만 아니라 �
 전역 변수의 작동 방식은 다음과 같습니다.
 
 * **[Set](functions/function-set.md)** 함수를 사용하여 전역 변수의 값을 설정합니다.  **Set( MyVar, 1 )**은 **MyVar** 전역 변수를 **1**의 값으로 설정합니다.
-* **Set** 함수와 함께 사용할 이름을 참조하여 전역 변수를 사용합니다.  이 경우 **MyVar**는 **1**을 반환합니다. 
+* **Set** 함수와 함께 사용할 이름을 참조하여 전역 변수를 사용합니다.  이 경우 **MyVar**는 **1**을 반환합니다.
 * 전역 변수에는 문자열, 숫자, 레코드 및 [테이블](working-with-tables.md)을 포함한 모든 값이 포함될 수 있습니다.
 
 전역 변수를 사용하여 계산기를 다시 빌드해 보겠습니다.
 
 1. **TextInput1**이라는 텍스트 입력 컨트롤과 **Button1** 및  **Button2**라는 두 개의 단추를 추가합니다.
+
 2. **Button1**의 **[Text](controls/properties-core.md)** 속성을 **"추가"**로 설정하고, **Button2**의 **Text** 속성을**"지우기"**로 설정합니다.
+
 3. 사용자가 **추가** 단추를 선택할 때마다 누계를 업데이트하려면 **[OnSelect](controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.
    
     **Set( RunningTotal, RunningTotal + Text1 )**
@@ -131,11 +133,11 @@ PowerApps에서 수식을 사용하여 컨트롤의 기본값뿐만 아니라 �
 ## <a name="types-of-variables"></a>변수 유형
 PowerApps에는 다음과 같은 세 가지 유형의 변수가 있습니다.
 
-| 변수 유형 | 범위 | 설명 | 기능 |
+| 변수 유형 | 범위 | 설명 | Functions |
 | --- | --- | --- | --- |
 | 전역 변수 |앱 |사용이 가장 간편합니다.  앱의 모든 위치에서 참조할 수 있는 숫자, 텍스트 문자열, 부울, 레코드, 테이블 등을 보유합니다. |[**Set**](functions/function-set.md) |
 | 컨텍스트 변수 |화면 |다른 언어의 프로시저에 대한 매개 변수와 마찬가지로 화면에 값을 전달하는 데 매우 유용합니다.  한 화면에서만 참조할 수 있습니다. |[**UpdateContext**](functions/function-updatecontext.md)<br>[**Navigate**](functions/function-navigate.md) |
-| 컬렉션 |앱 |앱의 모든 위치에서 참조할 수 있는 테이블을 보유합니다.  테이블의 내용을 전체적으로 설정하지 않고 수정할 수 있습니다. 나중에 사용하기 위해 로컬 장치에 저장할 수 있습니다. |[**Collect**](functions/function-clear-collect-clearcollect.md)<br>[**ClearCollect**](functions/function-clear-collect-clearcollect.md)<br>[**Patch**](functions/function-patch.md)<br>[**Update**](functions/function-update.md)<br>[**Remove**](functions/function-remove.md)<br>[**SaveData**](functions/function-savedata-loaddata.md)<br>[**LoadData**](functions/function-savedata-loaddata.md)<br>등 |
+| 컬렉션 |앱 |앱의 모든 위치에서 참조할 수 있는 테이블을 보유합니다.  테이블의 내용을 전체적으로 설정하지 않고 수정할 수 있습니다. 나중에 사용하기 위해 로컬 장치에 저장할 수 있습니다. |[**Collect**](functions/function-clear-collect-clearcollect.md)<br>[**ClearCollect**](functions/function-clear-collect-clearcollect.md)<br>[**Patch**](functions/function-patch.md)<br>[**Update**](functions/function-update-updateif.md)<br>[**Remove**](functions/function-remove-removeif.md)<br>[**SaveData**](functions/function-savedata-loaddata.md)<br>[**LoadData**](functions/function-savedata-loaddata.md)<br>등 |
 
 **Set**, **UpdateContext**, **Navigate** 또는 **Collect** 함수를 사용할 때 모든 변수가 암시적으로 만들어집니다.  다른 프로그래밍 도구에서 수행되는 것과 같이 변수에 대한 명시적 선언이 없습니다.  또한 변수 유형은 변수에 배치된 값에서 암시적으로 파생됩니다.
 
@@ -157,7 +159,9 @@ PowerApps에는 다음과 같은 세 가지 유형의 변수가 있습니다.
 컨텍스트 변수를 사용하여 계산기를 다시 빌드해 보겠습니다.
 
 1. **TextInput1**이라는 텍스트 입력 컨트롤과 **Button1** 및  **Button2**라는 두 개의 단추를 추가합니다.
+
 2. **Button1**의 **[Text](controls/properties-core.md)** 속성을 **"추가"**로 설정하고, **Button2**의 **Text** 속성을**"지우기"**로 설정합니다.
+
 3. 사용자가 **추가** 단추를 선택할 때마다 누계를 업데이트하려면 **[OnSelect](controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.
    
     **UpdateContext( { RunningTotal: RunningTotal + Text1 } )**
@@ -182,7 +186,7 @@ PowerApps에는 다음과 같은 세 가지 유형의 변수가 있습니다.
     ![](media/working-with-variables/context-variable-4.png)
 7. 화면을 이동하면서 컨텍스트 변수의 값을 설정할 수 있습니다.  이 경우 한 화면에서 다른 화면으로 "컨텍스트" 또는 "매개 변수"를 전달할 때 유용합니다.  이를 확인하려면 새 화면을 삽입하고 **OnSelect** 속성이 다음과 같이 설정된 단추를 삽입합니다.
    
-    **Navigate( Screen1, None, { RunningTotal: -1000 } )** 
+    **Navigate( Screen1, None, { RunningTotal: -1000 } )**
    
     ![](media/working-with-variables/context-variable-5.png)
    
@@ -207,7 +211,9 @@ PowerApps에는 다음과 같은 세 가지 유형의 변수가 있습니다.
 컬렉션을 사용하여 계산기를 다시 만들어 보겠습니다.
 
 1. **TextInput1**이라는 **[텍스트 입력](controls/control-text-input.md)** 컨트롤과 **Button1** 및 **Button2**라는 두 개의 단추를 추가합니다.
+
 2. **Button1**의 **[Text](controls/properties-core.md)** 속성을 **"추가"**로 설정하고 **Button2**의 **Text** 속성을 **"지우기"**로 설정합니다.
+
 3. 사용자가 **추가** 단추를 선택할 때마다 누계를 업데이트하려면 **[OnSelect](controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.
    
     **Collect( PaperTape, TextInput1.Text )**
@@ -253,5 +259,6 @@ PowerApps에는 다음과 같은 세 가지 유형의 변수가 있습니다.
      ![](media/working-with-variables/papertape-6.png)
 12. F5 키를 눌러 다시 한 번 미리 보고, 텍스트 입력 컨트롤에서 숫자를 입력하고, 단추를 선택합니다.  **저장** 단추를 선택합니다.  앱을 닫고 다시 로드하고, **로드** 단추를 선택하여 컬렉션을 다시 로드합니다.  
     
-     참고: **SaveData** 및 **LoadData**는 웹 브라우저에서 실행할 때 작동하지 않으므로 Windows에 설치된 스튜디오 또는 모바일 장치용 플레이어 중 하나를 사용해야 합니다.  
+    > [!NOTE]
+    > **SaveData** 및 **LoadData**는 웹 브라우저에서 실행 시 작동하지 않습니다. Windows에 설치된 스튜디오 또는 모바일 장치용 플레이어 중 하나를 사용해야 합니다.  
 

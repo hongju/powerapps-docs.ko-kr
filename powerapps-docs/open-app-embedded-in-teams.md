@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 05/20/2017
 ms.author: ankitsar
-ms.openlocfilehash: 64c14c7e3a6ab599aa14d2200679134cc3fcc7d2
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 19d6a2718a39e3426fc0fcb4aca3223825f29a07
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="add-and-open-an-app-in-microsoft-teams"></a>Microsoft 팀에서 앱 추가 및 열기
 앱을 공유하는 모든 사용자가 채널 내에서 앱을 열 수 있도록 Microsoft 팀 채널에 앱을 추가합니다. 빌드한 앱을 추가할 수 있습니다. 또는 **사용 가능** 또는 **편집 가능** 사용 권한이 있는 경우 브라우저에서 앱 또는 Microsoft 팀에 대한 데스크톱 앱을 추가하고 열 수 있습니다.
@@ -37,7 +37,8 @@ ms.lasthandoff: 11/07/2017
     ![](./media/open-app-embedded-in-teams/add-a-tab.png)
 5. 추가하려는 앱을 클릭하거나 누릅니다.
    
-    **참고**: 이름, 작성자 또는 환경별로 앱을 검색할 수 있습니다.
+    > [!NOTE]
+> 이름, 작성자 또는 환경별로 앱을 검색할 수 있습니다.
    
     ![](./media/open-app-embedded-in-teams/select-an-app.png)
 6. **저장** 단추를 클릭하거나 누릅니다.

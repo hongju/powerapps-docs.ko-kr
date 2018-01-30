@@ -13,16 +13,17 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/12/2017
+ms.date: 01/09/18
 ms.author: mblythe
-ms.openlocfilehash: 5fd4448eba2429dc7bd5027327b132c1b0ff5dd8
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 4af1571bb72c713c6186f5237d6b3791eb95808b
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="create-a-flow-to-manage-project-approvals"></a>프로젝트 승인을 관리하는 흐름 만들기
-**참고:** 이 문서는 SharePoint Online에서 PowerApps, Microsoft Flow 및 Power BI를 사용하는 방법에 대한 자습서 시리즈의 일부입니다. [시리즈 소개](sharepoint-scenario-intro.md)를 참고하여 관련된 다운로드뿐만 아니라 전체적인 내용을 파악해야 합니다.
+> [!NOTE]
+> 이 문서는 SharePoint Online에서 PowerApps, Microsoft Flow 및 Power BI를 사용하는 방법에 대한 자습서 시리즈의 일부입니다. [시리즈 소개](sharepoint-scenario-intro.md)를 참고하여 관련된 다운로드뿐만 아니라 전체적인 내용을 파악해야 합니다.
 
 이 작업에서는 프로젝트 승인 프로세스를 구동하는 흐름을 만듭니다. Microsoft Flow는 SharePoint와 통합되어 있으므로 목록에서 직접 흐름을 쉽게 만들 수 있습니다. **프로젝트 요청** 목록에 항목을 추가할 때 만드는 흐름이 트리거됩니다. 흐름은 프로젝트 승인자에게 전자 메일을 보내고, 프로젝트 승인자는 전자 메일에서 직접 요청을 승인하거나 거부합니다. 그런 다음 승인 요청 또는 거부 전자 메일을 프로젝트 요청자에게 보내고, SharePoint 목록을 적절하게 업데이트합니다.
 
@@ -123,25 +124,33 @@ ms.lasthandoff: 11/07/2017
 8. **승인됨** 상자에서 "아니요"를 입력합니다. 흐름의 이 부분은 이제 다음 이미지와 같습니다.
    
     ![목록 업데이트](./media/sharepoint-scenario-approval-flow/03-01-08-no-update-complete.png)
-9. 화면의 오른쪽 위에서 **흐름 만들기**, **완료**를 차례로 클릭하거나 탭합니다.
-   
-    ![완료 단추](./media/sharepoint-scenario-approval-flow/03-01-15a-done-button.png)
+9. 화면의 오른쪽 위에서 **흐름 만들기**를 클릭하거나 탭합니다.
    
     이제 흐름이 완성되었으며 상자를 접으면 다음 이미지와 같습니다.
    
     ![완성된 흐름](./media/sharepoint-scenario-approval-flow/03-01-16-flow-complete.png)
 
+10. 화면의 오른쪽 위에서 **완료**를 클릭하거나 탭합니다.
+   
+    ![완료 단추](./media/sharepoint-scenario-approval-flow/03-01-15a-done-button.png)
+
 ## <a name="step-4-run-the-approval-flow"></a>4단계: 승인 흐름 실행
 1. **프로젝트 요청** 목록에서 **빠른 편집**을 클릭하고 다음과 같은 항목을 추가합니다.
    
    * **Title** = "Megan을 위한 새 모니터"
-   * **Approved** = "보류 중"
+
    * **Description** = "Megan은 24" 모니터가 필요합니다."
-   * **EstimatedDays** = "1"
+
    * **ProjectType** = "새 하드웨어"
+
    * **RequestDate** = "02/03/2017"
+
    * **Requestor** = "Megan Bowen"
-     
+
+   * **EstimatedDays** = "1"
+
+   * **Approved** = "보류 중"
+
      ![목록에 추가된 항목](./media/sharepoint-scenario-approval-flow/03-02-01-list-add.png)
 2. 완료되면 페이지 위쪽의 **완료**를 클릭합니다.
    

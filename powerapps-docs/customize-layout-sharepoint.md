@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 05/02/2017
 ms.author: sharik
-ms.openlocfilehash: c581abad70012eb66413a31bd765437df69b7a70
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: ce0f0693298977ca991636d0a9bf18e238e8368e
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="customize-a-gallery-layout-in-powerapps"></a>PowerApps에서 갤러리 레이아웃 사용자 지정
 PowerApps에서 자동으로 앱을 생성한 후 기본으로 표시되는 찾아보기 화면을 사용자 지정합니다. 사용할 레이아웃, 표시할 열, 레코드를 정렬하고 필터링할 때 사용할 열을 지정합니다.
@@ -97,7 +97,8 @@ PowerApps에서 자동으로 앱을 생성한 후 기본으로 표시되는 찾�
     이제 수식 입력줄은 이 예제와 비슷한 수식을 포함해야 합니다.<br>
     **SortByColumns(Filter(AppGen, StartsWith(Title, TextSearchBox1.Text)), "Title", If(SortDescending1, Descending, Ascending))**
    
-    **참고**: 이전에 수행한 작업에 따라 **TextSearchBox** 다음에 나타나는 숫자는 더 높을 수 있습니다. 하지만 수식은 여전히 예상대로 작동해야 합니다.
+    > [!NOTE]
+> 이전에 수행한 작업에 따라 **TextSearchBox** 다음에 나타나는 숫자는 더 높을 수 있습니다. 하지만 수식은 여전히 예상대로 작동해야 합니다.
 
 ## <a name="test-sorting-and-searching"></a>정렬 및 검색 테스트
 1. F5 키를 눌러 (또는 오른쪽 위 모서리의 재생 단추를 클릭하거나 탭하기) 미리 보기 모드를 엽니다.

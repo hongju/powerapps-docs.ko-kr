@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/26/2016
 ms.author: gregli
-ms.openlocfilehash: 780c72323e4b0d406d89ba35201c78456bb0dbca
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 72bbbc882250d25ddabc8086e81bfc7779e26b60
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="sort-and-sortbycolumns-functions-in-powerapps"></a>PowerApps의 Sort 및 SortByColumns 함수
 [테이블](../working-with-tables.md)을 정렬합니다.
@@ -29,7 +29,7 @@ ms.lasthandoff: 11/07/2017
 
 해당 수식은 해당 테이블의 각 [레코드](../working-with-tables.md#records)를 계산하고, 그 결과는 테이블을 정렬하는 데 사용됩니다.  수식은 숫자, 문자열 또는 부울 값이 되어야 하며, 테이블 또는 레코드가 될 수 없습니다.
 
-[!INCLUDE [record-scope](../../includes/record-scope.md)]
+[!INCLUDE [record-scope](../includes/record-scope.md)]
 
 하나의 열로 먼저 정렬 후 다른 열로 정렬하려면 **Sort** 수식을 다른 열에 삽입합니다. 예를 들어, **Contacts** 테이블을 **LastName** 열로 먼저 정렬한 다음 **FirstName** 열로 정렬하려면 이 수식(**Sort( Sort( Contacts, LastName ), FirstName )**)을 사용할 수 있습니다.
 
@@ -43,7 +43,7 @@ ms.lasthandoff: 11/07/2017
 
 [Table](../working-with-tables.md)은 PowerApps에서 문자열이나 숫자와 같은 값입니다.  테이블을 함수로 전달하거나 함수로부터 반환할 수 있습니다.  **Sort** 및 **SortByColumn**은 테이블을 변경하지 않는 대신 테이블을 인수로 가져오고 정렬된 새 테이블을 반환합니다.  자세한 내용은 [테이블 작업](../working-with-tables.md)을 참조하세요.
 
-[!INCLUDE [delegation](../../includes/delegation.md)]
+[!INCLUDE [delegation](../includes/delegation.md)]
 
 ## <a name="syntax"></a>구문
 **Sort**( *Table*, *Formula* [, *SortOrder* ] )
@@ -58,7 +58,8 @@ ms.lasthandoff: 11/07/2017
 * *ColumnName(s)* - 필수 항목입니다. 문자열로서 정렬할 열 이름입니다.
 * *SortOrder(s)* - 선택 항목입니다.  **SortOrder.Ascending** 또는 **SortOrder.Descending**이 있습니다.  **SortOrder.Ascending**이 기본값입니다.  다양한 *ColumnNames*가 제공되면 마지막 열을 제외한 모든 열에는 *SortOrder*가 포함되어야 합니다.
   
-    **참고:** 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 각 공백을 **"\_x0020\_"**으로 지정합니다. 예를 들어, **"Column Name"**은 **"Column_x0020_Name"**으로 지정합니다.
+    > [!NOTE]
+> 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 각 공백을 **"\_x0020\_"**으로 지정합니다. 예를 들어, **"Column Name"**은 **"Column_x0020_Name"**으로 지정합니다.
 
 **SortByColumns**( *Table*, *ColumnName*, *SortOrderTable* )
 
@@ -66,7 +67,8 @@ ms.lasthandoff: 11/07/2017
 * *ColumnName* - 필수 항목입니다. 문자열로서 정렬할 열 이름입니다.
 * *SortOrderTable* - 필수 항목입니다.  정렬할 값들의 단일 열 테이블입니다.
   
-    **참고:** 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 각 공백을 **"\_x0020\_"**으로 지정합니다. 예를 들어, **"Column Name"**은 **"Column_x0020_Name"**으로 지정합니다.
+    > [!NOTE]
+> 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 각 공백을 **"\_x0020\_"**으로 지정합니다. 예를 들어, **"Column Name"**은 **"Column_x0020_Name"**으로 지정합니다.
 
 ## <a name="examples"></a>예
 다음 예제에서는 이 테이블의 데이터가 포함된 **IceCream** [데이터 원본](../working-with-data-sources.md)을 사용합니다.

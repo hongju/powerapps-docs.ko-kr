@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/07/2016
 ms.author: jamesol
-ms.openlocfilehash: 661483b6d240785f2945011005b4e552e04ac075
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 3ea0d8a3f10a1b9dad7641c1291bae3aef40000a
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="powerapps-in-your-organization-qa"></a>사용자 조직 Q&A에서의 PowerApps
 이 항목에서는 조직의 사용자가 PowerApps를 사용하는 방법 및 PowerApps 서비스를 제어하는 방법을 설명합니다.
@@ -65,9 +65,13 @@ Microsoft PowerApps를 사용하면 Windows, iOS 및 Android 모바일 장치용
 사용자에게 PowerApps 계획 1 또는 PowerApps 계획 2 라이선스가 할당된 경우 다음 단계를 수행하여 해당 사용자에게서 PowerApps 라이선스를 제거할 수 있습니다.
 
 1. [Office 365 관리 포털](https://portal.microsoftonline.com/)로 이동합니다.
+
 2. 왼쪽 탐색 모음에서 **사용자**를 선택한 다음 **활성 사용자**를 선택합니다.
+
 3. 라이선스를 제거하려는 사용자를 찾은 다음 해당 이름을 선택합니다.
+
 4. 사용자 세부 정보 창의 **제품 라이선스** 섹션에서 **편집**을 선택합니다.
+
 5. **Microsoft PowerApps 계획 1** 또는 **Microsoft PowerApps 계획 2**라는 라이선스를 찾고 토글을 **끄기**로 설정한 다음 **저장**을 선택합니다.
    
     ![](./media/signup-question-and-answer/remove-license.png)
@@ -75,9 +79,13 @@ Microsoft PowerApps를 사용하면 Windows, iOS 및 Android 모바일 장치용
 사용자가 Office 365 및 Dynamics 365 계획 라이선스를 통해 PowerApps에 액세스할 수 있으면 다음 단계를 수행하여 PowerApps 서비스에 대한 액세스를 비활성화할 수 있습니다.
 
 1. [Office 365 관리 포털](https://portal.microsoftonline.com/)로 이동합니다.
+
 2. 왼쪽 탐색 모음에서 **사용자**를 선택한 다음 **활성 사용자**를 선택합니다.
+
 3. 액세스를 제거하려는 사용자를 찾은 다음 해당 이름을 선택합니다.
+
 4. 사용자 세부 정보 창의 **제품 라이선스** 섹션에서 **편집**을 선택합니다.
+
 5. 사용자의 Office 365 또는 Dynamics 365 라이선스를 확장하고, **Office 365용 PowerApps** 또는 **Dynamics 365용 PowerApps**라는 서비스에 대한 액세스를 비활성화한 다음, **저장**을 선택합니다.
    
     ![](./media/signup-question-and-answer/remove-service-plan.png)
@@ -93,7 +101,7 @@ Microsoft PowerApps를 사용하면 Windows, iOS 및 Android 모바일 장치용
   
     ![](./media/signup-question-and-answer/office-waffle.png)
 
-### <a name="how-can-restrict-my-users-ability-to-access-my-organizations-business-data-using-powerapps"></a>PowerApps를 사용하여 조직의 비즈니스 데이터에 액세스하는 사용자의 기능을 제한하려면 어떻게 하나요?
+### <a name="how-can-i-restrict-my-users-ability-to-access-my-organizations-business-data-using-powerapps"></a>PowerApps를 사용하여 조직의 비즈니스 데이터에 액세스하는 사용자의 기능을 제한하려면 어떻게 하나요?
 아래와 같이 PowerApps를 사용하면 비즈니스 및 비즈니스 이외의 데이터에 데이터 영역을 만들 수 있습니다.  이러한 데이터 손실 방지 정책이 구현되면 사용자는 비즈니스 및 비즈니스 이외의 데이터를 결합하는 PowerApps를 실행하거나 디자인하지 않도록 방지됩니다. 자세한 내용은 [DLP(데이터 손실 방지) 정책](prevent-data-loss.md)을 참조하세요.
 
 ![](./media/signup-question-and-answer/data-loss-prevention-policy.png)
@@ -129,7 +137,8 @@ Microsoft에서 테넌트를 만든 경우 다음 단계를 사용하여 해당 
 4. 왼쪽 위 모서리에서 앱 시작 관리자 아이콘을 선택하고 관리자를 선택합니다
 5. **관리자 되기** 페이지의 지침을 읽고 **예, 관리자가 되겠습니다.**를 선택합니다.  
 
-**참고**: 이 옵션이 표시되지 않으면 Office 365 관리자가 이미 설정되어 있습니다.
+> [!NOTE]
+> 이 옵션이 표시되지 않으면 Office 365 관리자가 이미 설정되어 있습니다.
 
 ### <a name="if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-are-added-to"></a>여러 도메인이 있는 경우 사용자를 추가할 Office 365 테넌트를 제어할 수 있나요?
 아무 작업을 수행하지 않은 경우 각 사용자 전자 메일 도메인 및 하위 도메인에 테넌트가 만들어집니다.
@@ -138,5 +147,6 @@ Microsoft에서 테넌트를 만든 경우 다음 단계를 사용하여 해당 
 
 * 미리 대상 테넌트를 만들거나 기존 테넌트를 사용합니다. 해당 테넌트 내에 통합하려는 모든 기존 도메인 및 하위 도메인을 추가합니다. 그런 다음 해당 도메인 및 하위 도메인에서 끝나는 전자 메일 주소를 가진 모든 사용자는 등록할 때 자동으로 대상 테넌트에 조인합니다.
 
-**중요**: 테넌트가 생성되면 해당 테넌트에서 사용자를 이동하도록 지원되는 자동화된 메커니즘이 없습니다. 단일 Office 365 테넌트에 도메인을 추가하는 방법에 대한 자세한 내용은 [Office 365에 사용자 및 도메인 추가](https://support.office.com/article/Add-your-users-and-domain-to-Office-365-ffdb2216-330d-4d73-832b-3e31bcb5b2a7)를 참조하세요.
+> [!IMPORTANT]
+> 테넌트가 생성되면 해당 테넌트에서 사용자를 이동하도록 지원되는 자동화된 메커니즘이 없습니다. 단일 Office 365 테넌트에 도메인을 추가하는 방법에 대한 자세한 내용은 [Office 365에 사용자 및 도메인 추가](https://support.office.com/article/Add-your-users-and-domain-to-Office-365-ffdb2216-330d-4d73-832b-3e31bcb5b2a7)를 참조하세요.
 

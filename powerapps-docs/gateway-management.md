@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/30/2016
 ms.author: archanan
-ms.openlocfilehash: ede3111f322aaff0e29679db2d730684ec18fd44
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 96ac4f52eac738297934ad286a32f15f3164a61d
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="manage-an-on-premises-data-gateway-in-powerapps"></a>PowerApps의 온-프레미스 데이터 게이트웨이를 관리합니다.
 빠르고 안전하게 PowerApps 및 온-프레미스 SQL Server 데이터베이스 또는 온-프레미스 SharePoint 사이트와 같은 클라우드에 없는 데이터 원본 간에 데이터를 전송하는 온-프레미스 데이터 게이트웨이를 설치합니다. 관리 권한이 있는 모든 게이트웨이를 보고 해당 게이트웨이에 대한 권한과 연결을 관리합니다.
@@ -41,18 +41,20 @@ ms.lasthandoff: 11/07/2017
 
 ## <a name="install-a-gateway"></a>게이트웨이 설치
 1. [Powerapps.com](https://web.powerapps.com)의 왼쪽 탐색 창에서, **게이트웨이**를 클릭하거나 탭합니다.
-   
+
     ![왼쪽 탐색 창의 게이트웨이](./media/gateway-management/manage-gateway.png)
+
 2. 게이트웨이 대한 관리 권한이 없으면, [지금 게이트웨이 설치](http://go.microsoft.com/fwlink/?LinkID=820931)(또는 오른쪽 위 모서리에서 **새 게이트웨이**)를 클릭하거나 탭한 후, 표시되는 마법사의 안내를 따릅니다.
-   
+
     ![게이트웨이 설치](./media/gateway-management/no-gateway-installed.png)
-   
+
     게이트웨이 설치 방법에 대한 자세한 내용은 [온-프레미스 데이터 게이트웨이 이해](gateway-reference.md)를 참조하세요.
 
 ## <a name="view-and-manage-gateway-permissions"></a>게이트웨이 권한 보기 및 관리
 1. [Powerapps.com](https://web.powerapps.com)의 왼쪽 탐색 창에서, **게이트웨이**를 클릭하거나 탭한 후, 게이트웨이를 클릭하거나 탭합니다.
+
 2. **사용자**를 클릭하거나 탭하고, 사용자나 그룹을 지정한 후 권한 수준을 지정하여 게이트웨이에 사용자를 추가합니다.
-   
+
    * **사용 가능**:앱 및 흐름에 사용하기 위해 게이트웨이에 대한 연결을 만들 수 있지만, 해당 게이트웨이를 공유할 수 없는 사용자입니다. 앱을 실행하지만 공유하지 않는 사용자에 대해 이 권한을 사용합니다.
    * **사용 가능 + 공유**: 앱 및 흐름에 사용하기 위해 게이트웨이에 대한 연결을 만들어 앱을 공유할 때 게이트웨이를 자동으로 공유할 수 있는 사용자입니다. 다른 사용자 또는 조직과 앱을 공유해야 하는 사용자에 대해 이 권한을 사용합니다.
    * **관리자**: 사용자 추가, 권한 설정, 모든 사용 가능한 데이터 원본에 대한 연결 만들기 및 게이트웨이 삭제를 포함해 게이트웨이를 완전히 제어할 수 있는 관리자입니다.
@@ -61,10 +63,13 @@ ms.lasthandoff: 11/07/2017
 
 ## <a name="view-and-manage-gateway-connections"></a>게이트웨이 연결 보기 및 관리
 1. [Powerapps.com](https://web.powerapps.com)의 왼쪽 탐색 창에서, **게이트웨이**를 클릭하거나 탭한 후, 게이트웨이를 클릭하거나 탭합니다.
+
 2. **연결**을 클릭하거나 탭한 다음, 연결을 클릭하거나 탭하여 해당 세부 정보를 보거나 설정을 편집 또는 삭제합니다.
+
 3. 연결을 공유하려면, **공유**를 클릭하거나 탭한 다음, 사용자를 추가하거나 제거합니다.
-   
-    **참고**: SQL Server와 같은 일부 형식의 연결만을 공유할 수 있습니다. 자세한 정보는 [앱 리소스 공유](share-app-resources.md)를 참조하세요.
+
+    > [!NOTE]
+> SQL Server와 같은 일부 형식의 연결만 공유할 수 있습니다. 자세한 정보는 [앱 리소스 공유](share-app-resources.md)를 참조하세요.
 
 연결을 관리하는 방법에 대한 자세한 내용은 [연결 관리](add-manage-connections.md)를 참조하세요.
 
@@ -74,4 +79,3 @@ ms.lasthandoff: 11/07/2017
 ## <a name="next-steps"></a>다음 단계
 * [SQL Server](connections/connection-azure-sqldatabase.md) 또는 [SharePoint](connections/connection-sharepoint-online.md)와 같은 온-프레미스 데이터 원본에 연결하는 앱을 만듭니다.
 * 온-프레미스 데이터 원본에 연결하는 [앱을 공유](share-app.md)합니다.
-

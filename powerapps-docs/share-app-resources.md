@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/28/2016
 ms.author: archanan
-ms.openlocfilehash: 75cd4137babde948ea70d8ee48a938c9acc092cc
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: fbd108d1a089072a89f8e6cb06ded07c8493bb4d
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="share-app-resources"></a>앱 리소스 공유
 [앱을 공유](share-app.md)하기 전에 다음 중 한 개 이상과 같이 주로 사용하려는 리소스 유형을 고려합니다.
@@ -47,7 +47,8 @@ SQL Server와 같은 일부 유형의 연결은 자동으로 공유되지만 사
 1. [powerapps.com](https://web.powerapps.com)을 열고 왼쪽 탐색 창에서 **관리**를 클릭하거나 탭한 후 **게이트웨이**를 클릭하거나 탭합니다.
 2. 게이트웨이를 클릭하거나 탭한 다음 **연결**을 클릭하거나 탭합니다.
 
-**참고**: 수동으로 하나 이상의 연결을 공유하는 경우 이러한 상황을 다시 공유해야 할 수 있습니다.
+> [!NOTE]
+> 수동으로 하나 이상의 연결을 공유하는 경우 이러한 상황을 다시 공유해야 할 수 있습니다.
 
 * 온-프레미스 데이터 게이트웨이를 이미 공유한 앱에 추가합니다.
 * 공유한 앱 중 온-프레미스 데이터 게이트웨이가 있는 사용자 집합 또는 그룹을 변경합니다.

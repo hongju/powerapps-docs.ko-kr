@@ -14,11 +14,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 05/05/2017
 ms.author: mblythe
-ms.openlocfilehash: 80f56a849dca7488f5b38908a7ec87b3a0916187
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 2eac422675fc8741848ab90777824a10ec9e0e1e
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="register-and-use-custom-connectors-in-powerapps"></a>PowerApps에서 사용자 지정 커넥터 등록 및 사용
 PowerApps를 사용하면 기존 응용 프로그램 코드 없이 모든 기능을 갖춘 앱을 빌드할 수 있습니다. 하지만 경우에 따라 PowerApps 기능을 확장해야 하고 웹 서비스가 적합할 수 있습니다. 사용자 앱은 서비스에 연결하고, 작업을 수행하고, 데이터를 다시 가져올 수 있습니다. PowerApps를 사용하여 연결하려는 웹 서비스가 있는 경우 서비스를 사용자 지정 커넥터로 등록합니다. 이 프로세스를 사용하여 PowerApps에서 필요한 인증, 지원 작업 및 해당 작업의 매개 변수 및 출력을 비롯한 웹 API의 특성을 이해할 수 있습니다.
@@ -49,12 +49,12 @@ PowerApps를 사용하면 기존 응용 프로그램 코드 없이 모든 기능
    * 기본 인증
 3. 해당 PowerApps가 데이터베이스에 연결할 수 있도록 업계 표준의 두 가지 방법 중 하나에서 **API를 설명**합니다.
    
-   * OpenAPI 파일(Swagger 파일이라고도 함)
+   * OpenAPI 파일(Swagger 파일이라고도 함) - 등록 프로세스의 일부로 4단계에서 OpenAPI 파일을 빌드할 수 있습니다.
    * Postman 컬렉션
-     
-     등록 프로세스의 일부로 4단계에서 OpenAPI 파일을 빌드할 수 있습니다.
 4. PowerApps에서 마법사를 사용하여 **사용자 지정 커넥터를 등록**합니다. 여기서 API 설명, 보안 정보 및 기타 정보를 지정합니다.
+
 5. 앱에서 **사용자 지정 커넥터를 사용**합니다. 앱에서 API에 대한 연결을 만들고 PowerApps에서 네이티브 함수를 호출하는 것처럼 API에서 제공하는 모든 작업을 호출합니다.
+
 6. PowerApps에서 다른 데이터를 연결하는 것처럼 **사용자 지정 커넥터를 공유**합니다. 이 단계는 옵션이지만 여러 앱 작성자가 사용자 지정 커넥터를 공유하는 것이 효율적입니다.
 
 ## <a name="describe-your-api"></a>API 설명
@@ -70,7 +70,8 @@ OpenAPI 파일 및 Postman 컬렉션은 다른 형식을 사용하지만 둘 다
 * 아직 API에 OpenAPI 파일이 없고 새로 만들지 않으려는 경우 Postman 컬렉션을 사용하여 사용자 지정 커넥터를 쉽게 만들 수 있습니다. 자세한 정보는 [Postman 컬렉션 만들기](postman-collection.md)를 참조하세요.
 * PowerApps는 이면에서 궁극적으로 OpenAPI를 사용하므로 Postman 컬렉션을 구문 분석하고 OpenAPI 정의 파일로 변환합니다.
 
-**참고**: 파일 크기는 1MB 미만이어야 합니다.
+> [!NOTE]
+> 파일 크기는 1MB 미만이어야 합니다.
 
 ### <a name="getting-started-with-openapi-and-postman"></a>OpenAPI 및 Postman 시작
 * OpenAPI를 처음 사용하는 경우 swagger.io 사이트에서 [OpenAPI 시작](http://swagger.io/getting-started/)을 참조하세요.
@@ -82,7 +83,8 @@ OpenAPI 파일 및 Postman 컬렉션은 다른 형식을 사용하지만 둘 다
 
 1. [powerapps.com](https://web.powerapps.com)의 왼쪽 메뉴에서 **연결**을 선택합니다. 줄임표(**...**)를 선택한 다음 오른쪽 위 모서리에서 **사용자 지정 커넥터 관리**를 선택합니다.
    
-     **팁**: 모바일 브라우저에서 사용자 지정 커넥터를 관리할 수 있는 위치를 찾을 수 없는 경우 왼쪽 위 모서리의 메뉴 아래에 있을 수 있습니다.
+     > [!TIP]
+> 모바일 브라우저에서 사용자 지정 커넥터를 관리할 위치를 찾을 수 없는 경우 왼쪽 위 모서리의 메뉴 아래에 있을 수 있습니다.
    
     ![사용자 지정 커넥터 만들기](./media/register-custom-api/managecustomapi.png)  
 2. **사용자 지정 커넥터 만들기**를 선택합니다.
@@ -91,7 +93,9 @@ OpenAPI 파일 및 Postman 컬렉션은 다른 형식을 사용하지만 둘 다
 3. **일반** 탭에서 사용자 지정 커넥터를 만드는 방법을 선택합니다.
    
    * OpenAPI 파일 업로드
+
    * OpenAPI URL 사용
+
    * Postman 컬렉션 V1 업로드
      
      ![사용자 지정 커넥터를 만드는 방법](./media/register-custom-api/choosehowtocreate.png)
@@ -126,6 +130,7 @@ OpenAPI 파일 및 Postman 컬렉션은 다른 형식을 사용하지만 둘 다
    2. **요청** 섹션의 오른쪽 위에 있는 **샘플에서 가져오기**를 선택합니다. 오른쪽의 양식에서 샘플 요청을 붙여넣습니다. 샘플 요청은 일반적으로 API 설명서에서 지원됩니다. 여기서 **동사**, **요청 URL**, **헤더** 및 **본문** 필드를 채울 정보를 가져올 수 있습니다. 예제는 [텍스트 분석 API 설명서](https://westus.dev.cognitive.microsoft.com/docs/services/TextAnalytics.V2.0/operations/56f30ceeeda5650db055a3c6)를 참조하세요.
       
        ![샘플에서 가져오기](./media/register-custom-api/importfromsample.png)
+
    3. **가져오기**를 선택하여 요청 정의를 완성합니다. 비슷한 방법으로 응답을 정의합니다.
 6. 모든 작업을 정의하면 **만들기**를 선택하여 사용자 지정 커넥터를 만듭니다.
 7. 사용자 지정 커넥터를 만들면 **테스트** 탭으로 이동하여 API에서 정의된 작업을 테스트합니다. 연결을 선택하고 입력 매개 변수를 제공하여 작업을 테스트합니다.

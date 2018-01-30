@@ -1,5 +1,5 @@
 ---
-title: "# <a name=\"powerapps-community-plan-a-free-development-environment-for-individual-use--microsoft-docs\"></a>PowerApps 커뮤니티 플랜: 개인 사용을 위한 무료 개발 환경 | Microsoft Docs"
+title: "# PowerApps 커뮤니티 플랜: 개인 사용을 위한 무료 개발 환경 | Microsoft Docs"
 description: "PowerApps, Microsoft Flow 및 Common Data Service에 대해 자세히 알아보고 기술을 구축하려면 등록하세요."
 services: 
 suite: powerapps
@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 05/01/2016
 ms.author: mblythe
-ms.openlocfilehash: 4fea217638bdcff52f626694f5b43662f89dbe9b
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: bbde4b033afcd530128f330432f262257f5d771c
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="powerapps-community-plan-a-free-development-environment-for-individual-use"></a>PowerApps 커뮤니티 플랜: 개인 사용을 위한 무료 개발 환경
 PowerApps 커뮤니티 플랜은 PowerApps, Microsoft Flow 및 Common Data Service에 대한 기술을 구축하고 자세한 내용을 알아보기에 가장 적합한 플랜입니다. PowerApps 커뮤니티 플랜에는 개인 사용을 위한 무료 개발 환경이 제공되며, 다음과 같은 작업이 가능합니다.
@@ -69,8 +69,8 @@ Visual Studio Dev Essentials 사용자에게는 PowerApps가 혜택에 포함됩
 | 일반 데이터 서비스에 데이터 모델링 |예 |
 | Common Data Service에서 데이터베이스 만들기 |예 |
 | **관리** | |
-| 환경 제작자 및 관리자로 동료를 추가 |아니요 |
-| 데이터베이스 역할에 동료 추가 |아니요 |
+| 동료를 환경 작성자 및 관리자로 추가 |아니요 |
+| 동료를 데이터베이스 역할에 추가 |아니요 |
 | Office 365 관리자가 설정한 데이터 정책 지원 |예 |
 | 개별 환경에 대한 데이터 정책 수립 |예 |
 
@@ -85,43 +85,49 @@ Visual Studio Dev Essentials 사용자에게는 PowerApps가 혜택에 포함됩
 
 포함된 수량에 추가 기능을 적용할 수 없습니다. 용량 한도에 도달하면 PowerApps Plan 2를 구입하는 것이 좋습니다. 자세한 내용은 [PowerApps 가격 책정 페이지](https://powerapps.microsoft.com/pricing/)를 참조하세요.
 
-**참고**: 개인 환경의 용량은 사용 여부에 상관없이 회사의 전체 할당량에 적용되지 않습니다.
+> [!NOTE]
+> 개별 환경의 용량은 사용 여부에 관계없이 회사의 전체 할당량에 포함되지 않습니다.
 
 ## <a name="publishing-to-appsource"></a>AppSource에 게시
 고객과 공유하려는 앱이 있나요? 고객과 앱 및 플로우를 공유하고 비즈니스 잠재 고객을 창출할 수 있도록 [AppSource.com](https://appsource.microsoft.com)에서 PowerApps Test Drive 솔루션이 지원됩니다. 자세한 내용은 [AppSource에서 고객이 앱을 시험 사용할 수 있도록 하기](dev-appsource-test-drive.md)를 참조하세요.
 
 ## <a name="frequently-asked-questions"></a>질문과 대답
-1. **Q:** 환경의 용량 제한에 도달하면 어떻게 해야 하나요?
-   
-    **A:** 이 환경은 팀 또는 프로덕션 용도가 아닌 개인 용도로 사용되기 때문에 제한된 용량만 제공됩니다. 제공되는 용량은 다음과 같습니다.
-   
-   | **용량** |  |
-   | --- | --- |
-   | 흐름 실행/월 |750 |
-   | 데이터베이스 크기 |200MB |
-   | 파일 저장소 |2GB |
-   
-    하나 이상의 용량 한도에 도달하면, 프로덕션 사용을 지원하는 플랜을 구입하는 것이 좋습니다. 플랜 및 한도에 대한 자세한 내용은 [PowerApps 가격 책정 페이지](https://powerapps.microsoft.com/pricing/)를 참조하세요.
-2. **Q:** 개인 환경에서 생성한 앱, 흐름 및 기타 리소스를 다른 환경으로 전송할 수 있나요?
-   
-    **A:** 예,이 환경의 리소스를 다른 환경으로 내보낼 수 있습니다. 자세한 내용은 [환경 및 테넌트 앱 마이그레이션](environment-and-tenant-migration.md)을 참조하세요.
-3. **Q:** PowerApps 커뮤니티 플랜 구독이 만료될 수 있나요?
-   
-    **A:** PowerApps 커뮤니티 플랜 구독은 영구적으로 무료로 사용할 수 있습니다. 개인 환경을 적극적으로 사용하는 경우에는 해당 환경의 리소스나 기능에 대한 액세스 권한이 손실되지 않습니다. 단, 장기간 사용하지 않다가 Common Data Service 데이터베이스에 처음으로 액세스할 때는 지연이 발생할 수 있습니다.  이러한 지연은 Common Data Service에 저장된 데이터나 엔터티에 영향을 미치지 않습니다.
-4. **Q:** 개인 환경을 여러 개 갖거나 만들 수 있나요?
-   
-    **A:** 아니요, 커뮤니티 플랜에 등록할 때 PowerApps에서 생성한 개인 환경은 하나만 가질 수 있습니다.
-5. **Q:** PowerApps 플랜 2 평가판과 PowerApps 커뮤니티 플랜의 차이는 무엇이며 어디에 등록해야 하나요?
-   
-    **A:** PowerApps 플랜 2 평가판과 PowerApps 커뮤니티 플랜 모두 무료이지만 용도는 다릅니다.
-   
-    **PowerApps 플랜 2 평가판**은 90일 동안 PowerApps 플랜 2를 제공합니다. PowerApps, Common Data Service 및 Microsoft Flow를 시험 사용하기 위한 용도입니다. 평가판이 만료되면 요금제를 구입할 수 있습니다. Office 365 또는 Dynamics 365에서 PowerApps를 이미 사용하고 있는 경우, 이 플랜에서 PowerApps 플랜 2에 제공되는 PowerApps의 프리미엄 기능을 시험해 볼 수 있습니다.
-   
-    **PowerApps 커뮤니티 플랜**은 개인 용도로 PowerApps의 프리미엄 기능, Common Data Service 및 Microsoft Flow에 대한 액세스를 제공합니다. 이 플랜은 주로 학습 목적이나 [AppSource Test Drive](dev-appsource-test-drive.md)에 배포할 비즈니스 솔루션을 만드는 용도입니다. 이 플랜은 영구적으로 사용할 수 있지만 PowerApps, Common Data Services 및 Microsoft Flow에 대한 기술을 배우고 구축하는 경우에만 가능합니다.
-6. **Q:** 개인 계정으로 등록할 수 있나요?
-   
-    **A:** 아니요, [직장이나 학교 계정](signup-for-powerapps.md#what-email-addresses-can-you-use)으로만 등록할 수 있습니다. 현재 개인 계정으로 등록하는 것은 지원되지 않습니다.
-7. **Q:** 개인 환경을 삭제할 수 있나요?
-   
-    **A:** 이 환경은 직접 삭제할 수 없습니다. 환경을 삭제할 권한은 테넌트 관리자에게 있습니다.
+**Q:** 환경의 용량 제한에 도달하면 어떻게 해야 하나요?
 
+**A:** 이 환경은 팀 또는 프로덕션 용도가 아닌 개인 용도로 사용되기 때문에 제한된 용량만 제공됩니다. 제공되는 용량은 다음과 같습니다.
+
+| **용량** |  |
+| --- | --- |
+| 흐름 실행/월 |750 |
+| 데이터베이스 크기 |200MB |
+| 파일 저장소 |2GB |
+
+하나 이상의 용량 한도에 도달하면, 프로덕션 사용을 지원하는 플랜을 구입하는 것이 좋습니다. 플랜 및 한도에 대한 자세한 내용은 [PowerApps 가격 책정 페이지](https://powerapps.microsoft.com/pricing/)를 참조하세요.
+
+**Q:** 개인 환경에서 생성한 앱, 흐름 및 기타 리소스를 다른 환경으로 전송할 수 있나요?
+
+**A:** 예,이 환경의 리소스를 다른 환경으로 내보낼 수 있습니다. 자세한 내용은 [환경 및 테넌트 앱 마이그레이션](environment-and-tenant-migration.md)을 참조하세요.
+
+**Q:** PowerApps 커뮤니티 플랜 구독이 만료될 수 있나요?
+
+**A:** PowerApps 커뮤니티 플랜 구독은 영구적으로 무료로 사용할 수 있습니다. 개인 환경을 적극적으로 사용하는 경우에는 해당 환경의 리소스나 기능에 대한 액세스 권한이 손실되지 않습니다. 단, 장기간 사용하지 않다가 Common Data Service 데이터베이스에 처음으로 액세스할 때는 지연이 발생할 수 있습니다.  이러한 지연은 Common Data Service에 저장된 데이터나 엔터티에 영향을 미치지 않습니다.
+
+**Q:** 개인 환경을 여러 개 갖거나 만들 수 있나요?
+
+**A:** 아니요, 커뮤니티 플랜에 등록할 때 PowerApps에서 생성한 개인 환경은 하나만 가질 수 있습니다.
+
+**Q:** PowerApps 플랜 2 평가판과 PowerApps 커뮤니티 플랜의 차이는 무엇이며 어디에 등록해야 하나요?
+
+**A:** PowerApps 플랜 2 평가판과 PowerApps 커뮤니티 플랜 모두 무료이지만 용도는 다릅니다.
+
+**PowerApps 플랜 2 평가판**은 90일 동안 PowerApps 플랜 2를 제공합니다. PowerApps, Common Data Service 및 Microsoft Flow를 시험 사용하기 위한 용도입니다. 평가판이 만료되면 요금제를 구입할 수 있습니다. Office 365 또는 Dynamics 365에서 PowerApps를 이미 사용하고 있는 경우, 이 플랜에서 PowerApps 플랜 2에 제공되는 PowerApps의 프리미엄 기능을 시험해 볼 수 있습니다.
+
+**PowerApps 커뮤니티 플랜**은 개인 용도로 PowerApps의 프리미엄 기능, Common Data Service 및 Microsoft Flow에 대한 액세스를 제공합니다. 이 플랜은 주로 학습 목적이나 [AppSource Test Drive](dev-appsource-test-drive.md)에 배포할 비즈니스 솔루션을 만드는 용도입니다. 이 플랜은 영구적으로 사용할 수 있지만 PowerApps, Common Data Services 및 Microsoft Flow에 대한 기술을 배우고 구축하는 경우에만 가능합니다.
+
+**Q:** 개인 계정으로 등록할 수 있나요?
+
+**A:** 아니요, [직장이나 학교 계정](signup-for-powerapps.md#what-email-addresses-can-you-use)으로만 등록할 수 있습니다. 현재 개인 계정으로 등록하는 것은 지원되지 않습니다.
+
+**Q:** 개인 환경을 삭제할 수 있나요?
+
+**A:** 이 환경은 직접 삭제할 수 없습니다. 환경을 삭제할 권한은 테넌트 관리자에게 있습니다.
