@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/12/2016
 ms.author: sirsu
-ms.openlocfilehash: 59b19a81a7c3bfca059adb00e2b3140c122f53eb
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 62dbb11d167155d7f0c47b889674a61b1b1047f3
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="connect-to-power-bi-from-powerapps"></a>PowerApps에서 Power BI에 연결
 ![Power BI](./media/connection-powerbi/powerbiicon.png)
@@ -28,7 +28,7 @@ Power BI는 데이터를 분석하고 정보 활용을 공유하는 비즈니스
 
 이 토픽에서는 앱에서 Power BI 연결을 사용하는 방법과 사용할 수 있는 함수를 나열합니다.
 
-## <a name="what-you-need-to-get-started"></a>시작하는 데 필요한 작업
+## <a name="prerequisites"></a>필수 조건
 * [powerapps.com](https://powerapps.com)에 액세스하거나 [PowerApps](http://aka.ms/powerappsinstall)를 설치합니다.
 * Power BI [연결](https://powerapps.microsoft.com/tutorials/add-manage-connections/)을 추가합니다.
 * [템플릿](https://powerapps.microsoft.com/tutorials/get-started-test-drive/), [데이터](https://powerapps.microsoft.com/tutorials/get-started-create-from-data/)에서 앱을 만들거나 [처음부터](https://powerapps.microsoft.com/tutorials/get-started-create-from-blank/)만듭니다.
@@ -78,7 +78,8 @@ Power BI 서비스에서 설정한 경고를 나열합니다.
 ## <a name="checkalertstatus"></a>CheckAlertStatus
 경고 상태를 봅니다.
 
-**참고:** 너무 자주 호출하는 경우 경고 당 기준에 따라 이 끝점에 대한 요청이 정체됩니다.
+> [!NOTE]
+> 너무 자주 호출하는 경우 경고 당 기준에 따라 이 끝점에 대한 요청이 정체됩니다.
 
 #### <a name="input-properties"></a>입력 속성
 | 속성 이름 | 데이터 형식 | 필수 | 설명 |

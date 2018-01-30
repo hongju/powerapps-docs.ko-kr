@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 08/15/2017
 ms.author: gregli
-ms.openlocfilehash: e3eac64ddfc7c4e029c970367b81331722985861
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 40cc6703b2f3467365b6fab36e390fa9ff0f1659
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="average-max-min-stdevp-sum-and-varp-functions-in-powerapps"></a>PowerApps의 Average, Max, Min, StdevP, Sum, VarP 함수
 일련의 숫자를 요약하는 집계 함수입니다.
@@ -42,7 +42,7 @@ ms.lasthandoff: 11/07/2017
 * 별도의 인수. 예를 들어 **Sum( 1, 2, 3 )**은 6을 반환합니다.
 * [테이블](../working-with-tables.md) 및 이 테이블에 연산을 수행할 수식.  집계는 각 [레코드](../working-with-tables.md#records)에 대한 수식의 값에 따라 계산됩니다.  
 
-[!INCLUDE [record-scope](../../includes/record-scope.md)]
+[!INCLUDE [record-scope](../includes/record-scope.md)]
 
 이러한 함수는 숫자 값에 대해서만 작동합니다. 문자열이나 레코드와 같은 다른 유형의 값은 무시됩니다. 문자열을 숫자로 변환하려면 **[Value](function-value.md)** 함수를 사용합니다.
 

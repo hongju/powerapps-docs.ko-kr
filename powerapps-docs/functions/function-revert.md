@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/21/2015
 ms.author: gregli
-ms.openlocfilehash: 4a0b39a9b247a6d410ac1a705234f90833ec707a
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: e61566077ccdf9f3b2913ec0293868c1863c26fa
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="revert-function-in-powerapps"></a>PowerApps의 Revert 함수
 [데이터 원본](../working-with-data-sources.md)의 [레코드](../working-with-tables.md#records)를 새로 고치고 오류를 지웁니다.
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/07/2017
 
 **[Errors](function-errors.md)** 함수가 **[Patch](function-patch.md)**나 기타 데이터 작업 후에 충돌을 보고하면 충돌하는 버전으로 시작하도록 레코드를 **되돌리고** 변경 사항을 다시 적용합니다.
 
-**Revert**는 반환 값이 없습니다. [동작 수식](../working-with-formulas-in-depth.md#behavior-formulas)에만 사용할 수 있습니다.
+**Revert**는 반환 값이 없습니다. [동작 수식](../working-with-formulas-in-depth.md)에만 사용할 수 있습니다.
 
 ## <a name="syntax"></a>구문
 **Revert**( *DataSource* [, *Record* ] )

@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/09/2017
 ms.author: archanan
-ms.openlocfilehash: 9336df54dab2f95114367267408aec6b500a131f
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 7739607b103d98b934805e62cb9a2bfdf1cc14e6
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="manage-your-connections-in-powerapps"></a>PowerApps에서 연결 관리
 [powerapps.com](https://web.powerapps.com)에서 PowerApps에서 하나 이상의 데이터 원본으로의 연결을 만들거나, 연결을 삭제하거나, 해당 자격 증명을 업데이트합니다.
@@ -40,7 +40,7 @@ ms.lasthandoff: 11/07/2017
 2. 등록 시 사용한 동일한 자격 증명을 사용하여 [powerapps.com](https://web.powerapps.com)에 로그인합니다.
 
 ## <a name="background-on-data-connections"></a>데이터 연결에 대한 배경
-대부분의 PowerApps 앱은 클라우드 서비스에 저장된 **데이터 원본**이라는 외부 정보를 사용합니다. 비즈니스용 OneDrive에 저장된 Excel 파일의 테이블이 일반적인 예입니다. 앱에서 **연결**을 사용하여 이러한 데이터 원본에 액세스할 수 있습니다.
+대부분의 PowerApps 앱은 클라우드 서비스에 저장된 **데이터 원본**이라는 외부 정보를 사용합니다. 일반적인 예로 비즈니스용 OneDrive에 저장된 Excel 파일의 테이블이 있습니다. 앱에서 **연결**을 사용하여 이러한 데이터 원본에 액세스할 수 있습니다.
 
 데이터 원본의 commonest 형식은 정보 검색 및 저장에 사용할 수 있는 테이블입니다. 데이터 원본에 대한 연결을 사용하여 데이터를 비즈니스용 OneDrive, DropBox, SQL Server 등과 같은 클라우드 서비스에 저장할 수 있는 Microsoft Excel 통합 문서, SharePoint 목록, SQL 테이블 및 다른 많은 형식으로 읽고 쓸 수 있습니다.
 
@@ -54,7 +54,8 @@ ms.lasthandoff: 11/07/2017
 * 기존 앱을 업데이트하거나, [연결 추가](add-data-connection.md)에서 설명하는 대로 처음부터 다시 만듭니다.
 * 다른 사용자가 생성하여 [사용자와 공유](share-app.md)한 앱을 엽니다.
 
-**참고**: 대신 PowerApps Studio를 사용하려는 경우 **파일** 메뉴를 열고 **연결**을 클릭하거나 탭하면 사용자가 연결을 만들고 관리할 수 있는 [powerapps.com](https://web.powerapps.com)이 열립니다.
+> [!NOTE]
+> 대신 PowerApps Studio를 사용하려는 경우 **파일** 메뉴를 열고 **연결**을 클릭하거나 탭하면 사용자가 연결을 만들고 관리할 수 있는 [powerapps.com](https://web.powerapps.com)이 열립니다.
 
 ## <a name="create-a-new-connection"></a>새 연결 만들기
 1. 아직 수행하지 않은 경우 [powerapps.com](https://web.powerapps.com)에 로그인합니다.
@@ -77,7 +78,7 @@ ms.lasthandoff: 11/07/2017
    * [SharePoint](connections/connection-sharepoint-online.md)
    * [SQL Server](connections/connection-azure-sqldatabase.md)
 
-**연결** 아래에 새 커넥터가 표시되면 [앱으로 연결 추가](add-data-connection.md)를 실행하면 됩니다.
+**연결** 아래에 새 커넥터가 표시되면 [앱으로 연결 추가](add-data-connection.md)를 실행할하면 됩니다.
 
 ## <a name="update-or-delete-a-connection"></a>연결 업데이트 또는 삭제
 연결 목록에서 업데이트 또는 삭제할 연결을 찾은 다음, 연결의 오른쪽에 있는 줄임표(점 기호 3개)를 클릭하거나 탭합니다.

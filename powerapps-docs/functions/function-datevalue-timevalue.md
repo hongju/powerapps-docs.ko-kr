@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 11/07/2015
 ms.author: gregli
-ms.openlocfilehash: fe4bf1a01711c35cda4566ed02bb3bc1297076ed
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: d171cc5de26d1dd6e6caa91b0205771707d8048c
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="datevalue-timevalue-and-datetimevalue-functions-in-powerapps"></a>PowerApps의 DateValue, TimeValue, DateTimeValue 함수
 문자열의 날짜, 시간 또는 둘 다를 날짜/시간 값으로 변환합니다.
@@ -51,7 +51,7 @@ ms.lasthandoff: 11/07/2017
 ## <a name="syntax"></a>구문
 **DateValue**( *String* [, *Language* ])<br>**DateTimeValue**( *String* [, *Language* ])<br>**TimeValue**( *String* [, *Language* ])
 
-* *String* - 필수 항목입니다.  날짜, 시간 또는 날짜와 시간의 조합 값이 포함된 텍스트 문자열입니다.
+* *String* - 필수 항목이며,  날짜, 시간 또는 날짜와 시간의 조합 값이 포함된 텍스트 문자열입니다.
 * *Language* - 선택 항목입니다.  **[Language](function-language.md)** 함수의 첫 두 문자로 반환되는, 언어 문자열입니다.  제공되지 않으면 현재 사용자의 클라이언트 언어가 사용됩니다.  
 
 ## <a name="examples"></a>예
@@ -62,7 +62,8 @@ ms.lasthandoff: 11/07/2017
   
     컴퓨터가 **en** 로캘로 설정된 경우 레이블에 **Saturday, October 11, 2014**가 표시됩니다.
   
-    **참고:** **LongDateTime** 이외의 여러 옵션을 **DateTimeFormat** 매개 변수와 함께 사용할 수 있습니다. 이러한 옵션 목록을 표시하려면 함수 상자에 매개 변수를 입력하고 바로 뒤에 느낌표를 입력하십시오.
+    > [!NOTE]
+> **LongDateTime** 이외의 여러 옵션을 **DateTimeFormat** 매개 변수와 함께 사용할 수 있습니다. 이러한 옵션 목록을 표시하려면 함수 상자에 매개 변수를 입력하고 바로 뒤에 느낌표를 입력하십시오.
 * **Text(DateValue(Startdate.Text, "fr"), DateTimeFormat.LongDate)**
   
     레이블에 **Monday, November 10, 2014**가 표시됩니다.
@@ -80,7 +81,8 @@ ms.lasthandoff: 11/07/2017
   
     컴퓨터가 en 로캘로 설정된 경우 레이블에 **Saturday, October 11, 2014 1:50:24 PM**이 표시됩니다.
   
-    **참고:** **LongDateTime** 이외의 여러 옵션을 **DateTimeFormat** 매개 변수와 함께 사용할 수 있습니다. 이러한 옵션 목록을 표시하려면 함수 상자에 매개 변수를 입력하고 바로 뒤에 느낌표를 입력하십시오.
+    > [!NOTE]
+> **LongDateTime** 이외의 여러 옵션을 **DateTimeFormat** 매개 변수와 함께 사용할 수 있습니다. 이러한 옵션 목록을 표시하려면 함수 상자에 매개 변수를 입력하고 바로 뒤에 느낌표를 입력하십시오.
 * **Text(DateTimeValue(Start.Text, "fr"), DateTimeFormat.LongDateTime)**
   
     레이블에 **Monday, November 10, 2014 1:50:24 PM**이 표시됩니다.

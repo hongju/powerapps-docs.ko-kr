@@ -14,12 +14,12 @@ ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 05/19/2017
-ms.author: karthikb
-ms.openlocfilehash: 7015a224d2ed914f84d4b56c58addd5f0fd88f8b
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.author: sharik
+ms.openlocfilehash: daa1aa994f13c9e79171b4c34101e397aaf5eff7
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="edit-an-app-in-powerapps"></a>PowerApps에서 앱 편집
 빌드하거나 소유하거나 **편집할 수 있는** 사용 권한이 있는 앱을 편집합니다. 웹용 PowerApps Studio 또는 Windows용 PowerApps Studio에서 앱을 편집할 수 있습니다. 다른 위치에서 편집을 위해 열려 있는 앱을 편집하려고 하면 이미 열려 있거나 다른 사용자가 사용 중인지 여부를 알리는 메시지가 표시됩니다.
@@ -34,7 +34,8 @@ ms.lasthandoff: 11/07/2017
    
     표시되는 목록에서 원하는 앱을 편집할 수 있습니다. 또한 오른쪽 위 모서리 근처에 있는 검색 상자에 하나 이상의 문자를 입력하여 앱을 검색할 수 있습니다.
    
-    **참고**: 편집하려는 앱이 여전히 표시되지 않으면 오른쪽 위 모서리 근처에서 올바른 환경을 선택했는지 확인합니다.
+    > [!NOTE]
+> 편집하려는 앱이 여전히 표시되지 않으면 오른쪽 위 모서리 근처에서 올바른 환경을 선택했는지 확인합니다.
    
     ![환경 목록](./media/edit-app/environment-list.png)
 

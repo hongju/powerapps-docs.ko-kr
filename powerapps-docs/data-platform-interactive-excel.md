@@ -14,19 +14,20 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 12/06/2016
 ms.author: kfend
-ms.openlocfilehash: 2a72bfa21c8d4cb7eab0a3cb2292a61d5c036696
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: d559774c65ee2db99f891e41472f6110e330bfc1
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="open-entity-data-in-excel"></a>Excel에서 엔터티 데이터 열기
 Microsoft Excel에서 엔터티 데이터를 열어서 Microsoft PowerApps Excel 추가 기능을 사용하여 데이터를 빠르고 쉽게 보고 편집할 수 있습니다. PowerApps Excel 추가 기능은 Microsoft Excel 2016에서 사용할 수 있습니다.
 
-**참고**: AD FS(Active Directory Federation Services)를 사용하도록 Microsoft Azure AD(Azure Active Directory) 테넌트가 구성된 경우 올바르게 Excel 추가 기능으로 로그인이 되도록 2016년 5월자로 업데이트가 적용되어 있는지 확인해야 합니다.
+> [!NOTE]
+> AD FS(Active Directory Federation Services)를 사용하도록 Microsoft Azure AD(Azure Active Directory) 테넌트가 구성된 경우 올바르게 Excel 추가 기능으로 로그인이 되도록 2016년 5월자로 업데이트가 적용되어 있는지 확인해야 합니다.
 
 ## <a name="open-entity-data-in-excel"></a>Excel에서 엔터티 데이터 열기
-1. [powerapps.com](https://web.powerapps.com)에서 **Common Data Service** 섹션을 확장하고 왼쪽 탐색 창에서 **엔터티**를 클릭하거나 탭합니다. 모든 엔터티가 표시됩니다.
+1. [powerapps.com](https://web.powerapps.com)에서 **Common Data Service** 섹션을 확장하고 왼쪽 탐색 창에서 **엔터티**를 클릭하거나 누릅니다. 모든 엔터티가 표시됩니다.
 2. 관심이 있는 엔터티의 오른쪽에 있는 줄임표(...)를 클릭합니다.
 3. **Excel에서 열기**를 클릭한 다음 생성된 통합 문서를 엽니다. 이 통합 문서에는 엔터티에 대한 바인딩 정보, 사용자 환경에 대한 포인터 및 PowerApps Excel 추가 기능에 대한 포인터가 포함되어 있습니다.  
 4. Excel에서 PowerApps Excel 추가 기능을 실행하려면 **편집 사용**을 클릭합니다. Excel 추가 기능은 Excel 창 오른쪽의 창에서 실행됩니다.

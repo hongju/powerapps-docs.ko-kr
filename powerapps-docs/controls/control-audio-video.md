@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: b3eafd9f37537a083212e9ecbb92c6928ae0f773
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 7aa3c2e2e6b0e6baaaec9666fc7b4e56c9568317
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="audio-and-video-controls-in-powerapps"></a>PowerApps의 오디오 및 동영상
 오디오 파일, 동영상 파일 또는 YouTube의 동영상을 재생하는 컨트롤입니다.
@@ -32,12 +32,12 @@ ms.lasthandoff: 11/07/2017
 
 **Media** – 오디오 또는 동영상 컨트롤이 재생하는 클립에 대한 식별자입니다.
 
-**ShowControls** - 오디오 또는 동영상 플레이어에서 재생 단추, 볼륨 슬라이더 등을 표시할지, 그리고 펜 컨트롤이 그리기, 삭제 및 지우기 아이콘 등을 표시할지 여부를 선택합니다.
+**ShowControls** - 오디오 또는 비디오 플레이어에서 재생 단추, 볼륨 슬라이더 등을 표시하는지 및 펜 컨트롤에서 그리기, 삭제 및 지우기 아이콘 등을 표시하는지 여부입니다.
 
 ## <a name="additional-properties"></a>추가 속성
-**AutoPause** – 사용자가 다른 화면으로 이동할 경우 오디오 또는 동영상 클립을 자동으로 일시 중지할지 여부를 선택합니다.
+**AutoPause** – 사용자가 다른 화면으로 이동하는 경우 오디오 또는 비디오 클립을 자동으로 일시 중지할지 여부입니다.
 
-**자동 시작** - 사용자가 해당 컨트롤이 있는 화면으로 이동할 때 오디오 또는 동영상 컨트롤이 클립 재생을 자동으로 시작할지 여부를 선택합니다.
+**AutoStart** - 사용자가 해당 컨트롤이 포함된 화면으로 이동할 때 오디오 또는 비디오 컨트롤에서 클립을 자동으로 재생할지 여부입니다.
 
 **[BorderColor](properties-color-border.md)** - 컨트롤의 테두리 색입니다.
 
@@ -51,9 +51,9 @@ ms.lasthandoff: 11/07/2017
 
 **[Height](properties-size-location.md)** – 컨트롤의 위쪽 및 아래쪽 가장자리 사이의 간격입니다.
 
-**[이미지](properties-visual.md)** – 이미지, 오디오 또는 마이크 컨트롤에 나타나는 이미지의 이름입니다.
+**[Image](properties-visual.md)** – 이미지, 오디오 또는 마이크 컨트롤에 표시되는 이미지의 이름입니다.
 
-**[ImagePosition](properties-visual.md)** – 이미지와 같은 크기가 아닐 경우 컨트롤 또는 화면의 이미지 위치입니다(**채우기**, **맞춤**, **늘이기**, **타일** 또는 **가운데**).
+**[ImagePosition](properties-visual.md)** – 이미지와 같은 크기가 아닌 경우 컨트롤 또는 화면에 있는 이미지의 위치입니다(**채우기**, **맞춤**, **늘이기**, **타일** 또는 **가운데**).
 
 **OnEnd** - 오디오 또는 동영상 클립이 재생을 마칠 때 앱이 응답하는 방식입니다
 
@@ -63,7 +63,7 @@ ms.lasthandoff: 11/07/2017
 
 **Paused** – 미디어 재생 컨트롤이 현재 일시 중지되면 *True*이고 그렇지 않으면 *false*입니다.
 
-**[Reset](properties-core.md)** – 컨트롤을 기본값으로 되돌릴지 여부를 선택합니다.
+**[Reset](properties-core.md)** – 컨트롤이 기본값으로 되돌아가는지 여부입니다.
 
 **Start** – 오디오 또는 동영상 클립의 재생 여부를 선택합니다.
 
@@ -71,7 +71,7 @@ ms.lasthandoff: 11/07/2017
 
 **Time** – 미디어 컨트롤의 현재 위치입니다.
 
-**[Tooltip](properties-core.md)** – 사용자가 컨트롤을 마우스로 가리킬 때 나타나는 설명 텍스트입니다.
+**[Tooltip](properties-core.md)** – 사용자가 마우스로 컨트롤을 가리킬 때 표시되는 설명 텍스트입니다.
 
 **[Visible](properties-core.md)** – 컨트롤을 표시하거나 숨길지 여부를 선택합니다.
 
@@ -79,7 +79,7 @@ ms.lasthandoff: 11/07/2017
 
 **[X](properties-size-location.md)** – 컨트롤의 왼쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 왼쪽 가장자리 사이의 거리입니다.
 
-**[Y](properties-size-location.md)** – 컨트롤의 상단 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 상단 가장자리 사이의 거리입니다.
+**[Y](properties-size-location.md)** – 컨트롤의 위쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 위쪽 가장자리 사이의 거리입니다.
 
 ## <a name="related-functions"></a>관련된 함수
 [**First**( *TableName* )](../functions/function-first-last.md)
@@ -93,7 +93,8 @@ ms.lasthandoff: 11/07/2017
     [컨트롤을 추가하고 구성](../add-configure-controls.md)하는 방법을 모르시나요?
 4. F5 키를 누르고 사용자가 추가한 컨트롤의 재생 단추를 클릭하거나 탭하여 클립을 재생합니다.
    
-    **팁:** **동영상** 컨트롤의 재생 단추는 컨트롤을 마우스로 가리킬 때 나타납니다.
+    > [!TIP]
+> **동영상** 컨트롤의 재생 단추는 컨트롤을 마우스로 가리킬 때 나타납니다.
 5. 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
 
 ### <a name="play-a-youtube-video"></a>YouTube 동영상을 재생합니다

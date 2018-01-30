@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 07/12/2016
 ms.author: archanan
-ms.openlocfilehash: 379b9773033245ba5e2a88486a7738f51f000e6b
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 1f437b91ef20412dab3238bea7f5488e148c7c29
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="connect-to-cloud-storage-from-powerapps"></a>PowerApps에서 클라우드 저장소에 연결
 PowerApps에서 여러 클라우드 저장소 연결을 제공합니다. 이러한 연결을 사용하여 Excel 파일을 저장하고 앱 전체에서 해당 정보를 사용할 수 있습니다. 이러한 연결 항목은 다음과 같습니다.  
@@ -28,7 +28,7 @@ PowerApps에서 여러 클라우드 저장소 연결을 제공합니다. 이러�
 | --- | --- | --- | --- | --- | --- |
 | ![아이콘](./media/cloud-storage-blob-connections/blobicon.png) |![API 아이콘][boxicon] |![API 아이콘][dropboxicon] |![API 아이콘][googledriveicon] |![API 아이콘][onedriveicon] |![API 아이콘][onedriveforbusinessicon] |
 
-[!INCLUDE [connection-requirements](../../includes/connection-requirements.md)]
+[!INCLUDE [connection-requirements](../includes/connection-requirements.md)]
 
 * 데이터가 [표로 서식이 지정된](https://support.office.com/en-us/article/Create-an-Excel-table-in-a-worksheet-E81AA349-B006-4F8A-9806-5AF9DF0AC664) Excel 파일:
   
@@ -53,7 +53,8 @@ PowerApps에서 여러 클라우드 저장소 연결을 제공합니다. 이러�
    
     ![Excel 표를 선택합니다.](./media/cloud-storage-blob-connections/selecttable.png)
    
-    **참고** Excel 데이터는 표 형식으로 작성되어야 합니다.
+    > [!NOTE]
+> Excel 데이터는 테이블 형식으로 작성되어야 합니다.
 
 ## <a name="using-the-excel-data-in-your-app"></a>앱에서 Excel 데이터 사용
 1. **삽입** 탭에서 **갤러리**를 선택하고 **텍스트 추가** 갤러리 컨트롤을 선택합니다.
@@ -73,7 +74,8 @@ PowerApps에서 여러 클라우드 저장소 연결을 제공합니다. 이러�
     샘플 출력:  
     ![두 번째 및 세 번째 레이블](./media/cloud-storage-blob-connections/secondthirdtextboxes.png)
    
-    <br/>**참고** 실제로 첫 번째 상자는 이미지 컨트롤입니다. Excel 표에 이미지가 없는 경우 이미지 컨트롤을 삭제하고 그 자리에 레이블을 추가할 수 있습니다. [컨트롤을 추가하고 구성](../add-configure-controls.md)하는 것은 좋은 리소스입니다.
+> [!NOTE]
+> 실제로 첫 번째 상자는 이미지 컨트롤입니다. Excel 표에 이미지가 없는 경우 이미지 컨트롤을 삭제하고 그 자리에 레이블을 추가할 수 있습니다. [컨트롤을 추가하고 구성](../add-configure-controls.md)하는 것은 좋은 리소스입니다.
 
 [테이블 및 레코드 이해](../working-with-tables.md)는 자세한 세부 정보와 일부 예제를 제공합니다.  
 

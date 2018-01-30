@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 08/08/2017
 ms.author: jamesol
-ms.openlocfilehash: f588a6fa9952f3d40d51fbedbd672031b9c837f5
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 1e51ca684129c538ced47863c73269284cc13719
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="send-a-push-notification-in-powerapps"></a>PowerApps에서 푸시 알림 보내기
 푸시 알림은 앱 사용자의 관심을 끌고 주요 작업의 우선 순위를 지정하는 데 도움이 되도록 소비자 및 비즈니스 시나리오에 대한 모바일 앱에 주로 사용됩니다. PowerApps에서 PowerApps 알림 커넥터를 사용하여 알림을 보낼 수 있습니다. PowerApps에서 만드는 모든 앱에 네이티브 푸시 알림을 보낼 수 있습니다. 나중에 더 많은 알림 유형을 추가할 예정입니다.
@@ -32,13 +32,15 @@ ms.lasthandoff: 11/07/2017
 * 사용자가 미리 로드된 컨텍스트에서 앱을 사용하여 중요한 작업을 완료해야 하는 경우
 * 특정 간격으로 사용자의 관심을 끌길 원하거나 사용자가 특정 컨텍스트에서 앱을 입력하도록 해야 하는 경우
 
-**참고**: 푸시 알림을 받으려면 각 사용자는 PowerApps Mobile에서 앱을 한 번 열거나 [Dynamics 365](https://home.dynamics.com/)의 AppSource에서 앱을 가져와야 합니다.
+> [!NOTE]
+> 푸시 알림을 받으려면 각 사용자는 PowerApps Mobile에서 앱을 한 번 열거나 [Dynamics 365](https://home.dynamics.com/)의 AppSource에서 앱을 가져와야 합니다.
 
 ## <a name="before-you-start"></a>시작하기 전에
 **참가자** 권한이 있는 앱에서 PowerApps 알림 연결을 추가합니다. 아직 앱이 없는 경우 [템플릿에서 앱을 신속하게 만들](get-started-test-drive.md) 수 있으며 기본적으로 필요한 사용 권한을 갖습니다. 해당 자습서 및 이 문서는 사례 관리 템플릿을 기반으로 하는 앱을 사용합니다.
 
 ## <a name="send-a-notification-from-a-flow"></a>흐름에서 알림 보내기
-**참고**: 흐름에서 푸시 알림을 트리거하는 경우 현재 한 번에 한 명의 사용자 또는 보안 그룹에만 알림을 보낼 수 있습니다.
+> [!NOTE]
+> 흐름에서 푸시 알림을 트리거하는 경우 현재 한 번에 한 명의 사용자 또는 보안 그룹에만 알림을 보낼 수 있습니다.
 
 1. [Microsoft Flow](https://flow.microsoft.com)에서 푸시 알림이 전송되는 시기를 지정하는 트리거를 만듭니다.
    
@@ -89,10 +91,11 @@ ms.lasthandoff: 11/07/2017
 2. (선택 사항) 해당 **Visible** 속성을 **false**로 설정하여 **타이머** 컨트롤을 숨깁니다.
 3. 화면의 **OnVisible** 속성을 **Timer.Start()**로 설정합니다.
 
-**팁**: 알림을 위해 앱에서 고유한 첫 번째 페이지를 만드는 것이 좋습니다.
+> [!TIP]
+> 알림을 위해 앱에서 고유한 첫 번째 페이지를 만드는 것이 좋습니다.
 
-1. 앱이 아직 열리지 않은 빈 페이지를 만들고, **Text Input** 컨트롤을 추가하고, 해당 **timer.Duration** 값을 설정합니다.
-2. 앱을 만들 때 0이 아닌 값으로 타이머를 설정합니다. 앱을 게시할 준비가 되면 타이머를 즉시 트리거하도록 값을 **0**으로 설정합니다.
+>1. 앱이 아직 열리지 않은 빈 페이지를 만들고, **Text Input** 컨트롤을 추가하고, 해당 **timer.Duration** 값을 설정합니다.
+>2. 앱을 만들 때 0이 아닌 값으로 타이머를 설정합니다. 앱을 게시할 준비가 되면 타이머를 즉시 트리거하도록 값을 **0**으로 설정합니다.
 
 ## <a name="syntax"></a>구문
 | 이름 | 설명 |

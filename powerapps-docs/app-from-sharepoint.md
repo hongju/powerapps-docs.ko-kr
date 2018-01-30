@@ -15,14 +15,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/05/2017
 ms.author: sharik
-ms.openlocfilehash: 5d47366fafa137d8e5b0311f8820b11ff60f648a
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 36a9188615c14262de0bfdea21d58010a053e01f
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="generate-an-app-to-manage-data-in-a-sharepoint-list"></a>SharePoint 목록의 데이터를 관리하는 앱 생성
-[!VIDEO nb:cid:UUID:34ccfd46-7826-49ce-90d8-cf6a144b6968]
+
 
 
 PowerApps에서 사이트가 온-프레미스에 있거나 클라우드에 있을 때 SharePoint 목록의 데이터를 관리하는 세 화면 앱을 자동으로 생성합니다.
@@ -33,7 +33,8 @@ PowerApps에 대해 잘 모르는 경우 [PowerApps 소개](getting-started.md)�
 
 이 문서가 작성된 시점부터 PowerApps는 라이브러리가 아닌 사용자 지정 목록을 지원합니다. 또한 데이터를 열에서 **선택** 및 **그림**과 같은 일부 형식으로 표시할 수 있지만 해당 데이터를 업데이트할 수 없습니다. 자세한 내용은 [알려진 문제](connections/connection-sharepoint-online.md#known-issues)를 참조하세요.
 
-**참고:** 열 이름에 공백이 있으면 PowerApps에서 **“\_x0020\_”**으로 표시됩니다. 예를 들어 **“Column Name”**은 **“Column_x0020_Name”**으로 표시됩니다.
+> [!NOTE]
+> 열 이름에 공백이 있으면 PowerApps에서 **“\_x0020\_”**으로 표시됩니다. 예를 들어 **“Column Name”**은 **“Column_x0020_Name”**으로 표시됩니다.
 
 ## <a name="specify-a-sharepoint-app"></a>SharePoint 앱 지정
 1. 아직 [SharePoint에 연결](connect-to-sharepoint.md)을 만들지 않은 경우 하나를 만듭니다.
@@ -52,7 +53,8 @@ PowerApps에 대해 잘 모르는 경우 [PowerApps 소개](getting-started.md)�
 ## <a name="specify-a-site-and-a-list"></a>사이트 및 목록 지정
 1. **SharePoint 사이트에 연결** 아래에서 사용하려는 목록이 포함된 사이트에 URL을 입력하거나 붙여넣기한 다음 **이동**을 클릭하거나 탭합니다.
    
-    **참고**: URL에는 특정 목록을 포함하지 않습니다.
+    > [!NOTE]
+> URL에는 특정 목록을 포함하지 않습니다.
    
     ![](./media/app-from-sharepoint/specify-site.png)
 2. **목록 선택** 아래에서 사용하려는 목록의 이름을 클릭하거나 탭합니다.

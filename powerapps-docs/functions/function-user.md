@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 11/07/2016
 ms.author: gregli
-ms.openlocfilehash: 6fee690b849a305d1dd97361cd76b74889f258d9
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 2a2adaf10a9d78bb2a899e68d5c33948aae88d1b
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="user-function-in-powerapps"></a>PowerApps의 사용자 함수
 현재 사용자에 대한 정보를 반환합니다.
@@ -33,7 +33,8 @@ ms.lasthandoff: 11/07/2017
 | **User().FullName** |현재 사용자의 성과 이름이 포함된 전체 이름입니다. |
 | **User().Image** |현재 사용자의 이미지입니다. 이미지의 URL 형식은 "blob:*identifier*"입니다. 앱에서 해당 이미지를 표시하려면 **[이미지](../controls/control-image.md)** 컨트롤의 **[이미지](../controls/properties-visual.md)** 속성을 이 값으로 설정합니다. |
 
-**참고:** 반환된 정보는 현재 PowerApps 사용자에 대한 내용입니다.  PowerApps 플레이어와 스튜디오에 표시되는 "계정" 정보와 일치하며, 작성된 모든 앱 외부에서 찾을 수 있습니다.  이는 Office 365 또는 다른 서비스의 현재 사용자의 정보와 일치하지 않을 수 있습니다.
+> [!NOTE]
+> 반환된 정보는 현재 PowerApps 사용자에 대한 내용입니다.  PowerApps 플레이어와 스튜디오에 표시되는 "계정" 정보와 일치하며, 작성된 모든 앱 외부에서 찾을 수 있습니다.  이는 Office 365 또는 다른 서비스의 현재 사용자의 정보와 일치하지 않을 수 있습니다.
 
 ## <a name="syntax"></a>구문
 **User**()

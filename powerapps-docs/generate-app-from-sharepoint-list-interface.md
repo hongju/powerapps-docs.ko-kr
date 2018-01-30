@@ -15,14 +15,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 01/21/2017
 ms.author: sharik
-ms.openlocfilehash: 62f46339e2136494225bf218d372f539c389e1ad
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 8ac8fb34f9cdeb0c9e0ce6172938cef33ecccbc5
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="generate-an-app-from-within-sharepoint-using-powerapps"></a>PowerApps를 사용하여 SharePoint 내에서 앱 생성
-[!VIDEO nb:cid:UUID:639d7eaf-bae5-447c-a34b-ec539a01a15c]
+
 
 
 PowerApps에서는 사용자가 사용자 지정 SharePoint Online 목록의 항목을 관리할 수 있는 앱이 자동으로 생성됩니다. 앱에는 사용자가 다음을 수행할 수 있는 세 개의 화면이 있습니다.
@@ -33,7 +33,8 @@ PowerApps에서는 사용자가 사용자 지정 SharePoint Online 목록의 항
 
 SharePoint Online 명령 모음에서 사용자 지정 목록의 앱을 만들 경우 앱이 해당 목록의 보기로 나타납니다. 웹 브라우저뿐 아니라 Windows Phone, iOS 또는 Android 장치에서도 앱을 실행할 수 있습니다.
 
-**중요**: PowerApps는 모든 종류의 SharePoint 데이터를 지원하지는 않습니다. 자세한 내용은 [알려진 문제](connections/connection-sharepoint-online.md#known-issues)를 참조하세요.
+> [!IMPORTANT]
+> PowerApps는 모든 형식의 SharePoint 데이터를 지원하지는 않습니다. 자세한 내용은 [알려진 문제](connections/connection-sharepoint-online.md#known-issues)를 참조하세요.
 
 ## <a name="generate-an-app"></a>앱 생성
 1. SharePoint Online의 사용자 지정 목록을 열고, 명령 모음에서 **PowerApps**를 클릭하거나 탭한 다음 **앱 만들기**를 클릭하거나 탭합니다.
@@ -48,7 +49,8 @@ SharePoint Online 명령 모음에서 사용자 지정 목록의 앱을 만들 �
     ![](./media/generate-app-from-sharepoint-list-interface/powerapp-studio-for-web.png)  
 3. SharePoint 목록에 대한 브라우저 탭을 클릭하거나 탭한 다음, **열기**를 클릭하거나 탭합니다.
    
-    **참고**: 앱을 열기 전에 브라우저 창을 새로 고쳐야 할 수 있습니다(예: F5 키 누르기).
+    > [!NOTE]
+> 앱을 열기 전에 브라우저 창을 새로 고쳐야 할 수 있습니다(예: F5 키 누르기).
    
     ![](./media/generate-app-from-sharepoint-list-interface/open-app-in-browser.png)
    
