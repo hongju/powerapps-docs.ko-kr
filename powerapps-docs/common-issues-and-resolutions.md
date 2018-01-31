@@ -13,16 +13,20 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 12/08/2017
+ms.date: 01/24/2018
 ms.author: sharik
-ms.openlocfilehash: b359a4f5dcc930b344ded68d5ffcd3ae72c007c6
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: f6b91bcc8b5e4c9d0128c2cba1eb3f772c6f7451
+ms.sourcegitcommit: faaf9adebd72794d2988fba1b27a31d70b5268f8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="common-issues-and-resolutions-for-powerapps"></a>PowerApps의 일반적인 문제 및 해결 방법
 ## <a name="recently-addedchanged"></a>최근에 추가/변경된 내용
+1. **앱이 작동하지 않음**
+
+    만든 앱이 경고 없이 작동을 멈추는 경우 지난 6개월 동안 앱을 업데이트하거나 다시 게시하지 않았기 때문일 수 있습니다. 이 문제를 해결하려면 앱을 업데이트 및/또는 다시 게시하여 최신 버전의 PowerApps와 동기화한 다음, 게시 후 6개월 이내에 앱을 계속 업데이트하거나 다시 게시해야 합니다.
+
 1. **데이터 테이블 컨트롤**
 
     **Items** 속성이 **Filter** 함수가 포함된 수식으로 설정된 **데이터 테이블** 컨트롤을 복사하여 붙여넣으면, 새 **데이터 테이블** 컨트롤의 **Items** 속성에 대한 수식은 **_1** 접미사가 포함된 필드 이름으로 끝납니다. 그러면 필드 이름이 유효하지 않게 되어 데이터 테이블에 데이터가 표시되지 않습니다. 이 문제를 해결하려면 컨트롤을 복사하기 전에 **Filter** 함수가 **데이터 테이블** 컨트롤의 열과 이름이 동일한 데이터 원본의 필드를 참조하지 않는지 확인합니다. 그런 경우에는 **데이터 테이블** 컨트롤에 포함된 열의 이름을 변경합니다. 아니면, 엔터티의 이름과 일치하도록 잘못된 필드 이름에서 **_1** 접미사를 제거합니다.
