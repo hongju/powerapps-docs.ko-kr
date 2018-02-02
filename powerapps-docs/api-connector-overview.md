@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 05/06/2017
 ms.author: astay
 ms.openlocfilehash: 74bac3b0f5bad2b95ab9b6b312fc5209bf5da3a2
-ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
+ms.sourcegitcommit: 68eee592c351688e5d0bd458f33a70be507fa53f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="api-connector-overview-powerapps"></a>API 커넥터 개요(PowerApps)
 **API 커넥터**는 기본 서비스가 [Microsoft Flow](https://flow.microsoft.com), [PowerApps](https://powerapps.microsoft.com) 및 [Logic Apps](https://docs.microsoft.com/azure/logic-apps/)와 통신할 수 있도록 하는 REST API의 OpenAPI(Swagger) 기반 래퍼입니다. 사용자가 자신의 계정을 연결하고 미리 작성된 **트리거** 및 **작업**의 집합을 활용하여 자신의 앱 및 워크플로를 작성하는 방법을 제공합니다.
