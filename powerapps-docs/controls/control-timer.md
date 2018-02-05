@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: c84eec1bdd541429d4524640d9e1ffa649b895fd
-ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
+ms.openlocfilehash: 008c992ad3452c1844064335a51593c222fb1ac1
+ms.sourcegitcommit: 68eee592c351688e5d0bd458f33a70be507fa53f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="timer-control-in-powerapps"></a>PowerApps의 타이머 컨트롤
 일정 시간이 지난 후 앱이 응답하는 방식을 결정할 수 있는 컨트롤입니다.
@@ -30,7 +30,7 @@ ms.lasthandoff: 01/12/2018
 타이머가 디자이너에서 실행되려면 앱을 미리 보아야 합니다.  이렇게 하면 사용자가 시간 제한 없이 디자이너에서 타이머를 구성할 수 있습니다.
 
 ## <a name="key-properties"></a>주요 속성
-**Duration** – 타이머가 실행되는 기간입니다.
+**Duration** – 타이머가 실행되는 시간(밀리초)입니다.  최대 값이 없습니다.
 
 **OnTimerEnd** - 타이머 실행이 완료될 때 앱이 응답하는 방식입니다.
 
@@ -113,29 +113,28 @@ ms.lasthandoff: 01/12/2018
 ## <a name="examples"></a>예
 ### <a name="show-a-countdown"></a>카운트다운 표시
 1. 타이머를 추가하고 이름을 **Countdown**으로 지정합니다.
-   
+
     [컨트롤을 추가, 이름을 지정하고, 구성](../add-configure-controls.md)하는 방법을 모르시나요?
 2. 타이머의 **Duration** 속성을 **10000**, **Repeat** 및 **Autostart** 속성을 **true**로 설정합니다.
 3. (선택 사항) 타이머를 더 판독하기 쉽게 **[Height](properties-size-location.md)** 속성을 **160**, **[Width](properties-size-location.md)** 속성을 **600**, **[Size](properties-text.md)** 속성을 **60**으로 설정합니다.
 4. 레이블을 추가하고 **[Text](properties-core.md)** 속성을 다음 수식으로 설정합니다.
    <br>**"Number of seconds remaining: " & RoundUp(10-Countdown.Value/1000, 0)**
-   
+
     **[RoundUp](../functions/function-round.md)** 함수 또는 [다른 함수](../formula-reference.md)에 대해 더 알고 싶으신가요?
-   
+
     레이블은 타이머를 다시 시작하기 전까지 남은 시간(초)을 표시합니다.
 5. (선택 사항) 타이머의 **[Visible](properties-core.md)** 속성을 **false**로 설정합니다.
 
 ### <a name="animate-a-control"></a>컨트롤 애니메이션
 1. 타이머를 추가하고 이름을 **FadeIn**으로 지정합니다.
-   
+
     [컨트롤을 추가, 이름을 지정하고, 구성](../add-configure-controls.md)하는 방법을 모르시나요?
 2. 타이머의 **Duration** 속성을 **5000**, **Repeat** 및 **Autostart** 속성을 **true**로 설정합니다.
 3. (선택 사항) 타이머를 더 판독하기 쉽게 **[Height](properties-size-location.md)** 속성을 **160**, **[Width](properties-size-location.md)** 속성을 **600**, **[Size](properties-text.md)** 속성을 **60**으로 설정합니다.
 4. 레이블을 추가하고 **[Text](properties-core.md)** 속성을 **Welcome!**을 표시하도록 설정하며 **[Color](properties-color-border.md)** 속성을 다음 수식으로 설정합니다.
    <br>**ColorFade(Color.BlueViolet, FadeIn.Value/5000)**
-   
+
     **[ColorFade](../functions/function-colors.md)** 함수 또는 [다른 함수](../formula-reference.md)에 대해 더 알고 싶으신가요?
-   
+
     레이블의 텍스트가 흰색으로 흐려지며 전체 강도로 돌아가는 프로세스를 반복합니다.
 5. (선택 사항) 타이머의 **[Visible](properties-core.md)** 속성을 **false**로 설정합니다.
-

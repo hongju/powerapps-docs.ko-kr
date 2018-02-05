@@ -15,17 +15,21 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 51b0045bd8b5e83f754c4d68e1dfe63566371ae1
-ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
+ms.openlocfilehash: 8a67a071a19bae57f022fe960a0b29296b58cf5d
+ms.sourcegitcommit: 68eee592c351688e5d0bd458f33a70be507fa53f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="pdf-viewer-control-in-powerapps"></a>PowerApps의 PDF 뷰어
 PDF 파일의 내용을 표시하는 컨트롤입니다.
 
 ## <a name="description"></a>설명
 이 형식의 컨트롤을 추가하고, **Document** 속성을 표시하려는 파일의 URL(큰따옴표로 묶은)로 설정하여 PDF 파일에 있는 텍스트, 그래픽 및 기타 콘텐츠를 표시합니다.
+
+## <a name="limitations"></a>제한 사항
+PowerApps의 보안 아키텍처로 인해 PDF 뷰어는 HTTP가 아닌 HTTPS 링크만을 지원합니다.  
+PDF 문서가 제한적인 CORS 설정을 사용하는 서버에 존재하는 경우 앱 내에서 볼 수 없습니다.  PowerApps에서 문서를 열 수 없는 경우 외부 브라우저에서 문서를 여는 옵션은 최종 사용자에게 표시됩니다.
 
 ## <a name="key-properties"></a>주요 속성
 **Document** – PDF 파일의 URL(큰따옴표로 묶은)입니다.
@@ -94,8 +98,7 @@ PDF 파일의 내용을 표시하는 컨트롤입니다.
 ## <a name="example"></a>예
 * 다음 예와 같이 **PDF 뷰어** 컨트롤을 추가하고 **Document** 속성을 PDF 파일의 URL(큰따옴표로 묶인)로 설정합니다.<br>
   **"http://www.who.int/gho/publications/world_health_statistics/EN_WHS2015_TOC.pdf?ua=1"**
-  
-    컨트롤은 PDF 파일을 보여줍니다.
-  
-    [컨트롤을 추가하고 구성](../add-configure-controls.md)하는 방법을 모르시나요?
 
+    컨트롤은 PDF 파일을 보여줍니다.
+
+    [컨트롤을 추가하고 구성](../add-configure-controls.md)하는 방법을 모르시나요?
