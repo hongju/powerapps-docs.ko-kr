@@ -59,7 +59,7 @@ ms.lasthandoff: 01/23/2018
 
 이러한 환경 역할에 할당된 사용자 또는 그룹은 환경 데이터베이스(있는 경우)에 대해 자동으로 액세스가 제공되지 않으므로 데이터베이스 소유자가 별도로 액세스를 부여해야 합니다. 자세한 내용은 [데이터베이스 보안 구성](database-security.md)을 참조하세요.
 
-[PowerApps 관리 센터][11]의 Environment Admin은 사용자 또는 보안 그룹을 두 역할 중 하나에 할당할 수 있습니다. 자세한 내용은 [환경 관리](environments-administration.md)를 참조하세요.
+[PowerApps 관리 센터][1]의 Environment Admin은 사용자 또는 보안 그룹을 두 역할 중 하나에 할당할 수 있습니다. 자세한 내용은 [환경 관리](environments-administration.md)를 참조하세요.
 
 ![](./media/environments-overview/EnvironmentRoles.png)
 
