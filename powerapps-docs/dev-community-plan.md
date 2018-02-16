@@ -15,18 +15,18 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 05/01/2016
 ms.author: mblythe
-ms.openlocfilehash: bbde4b033afcd530128f330432f262257f5d771c
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: 40feb1f2412408e732be91e649ab2b4c54e4ba98
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="powerapps-community-plan-a-free-development-environment-for-individual-use"></a>PowerApps 커뮤니티 플랜: 개인 사용을 위한 무료 개발 환경
 PowerApps 커뮤니티 플랜은 PowerApps, Microsoft Flow 및 Common Data Service에 대한 기술을 구축하고 자세한 내용을 알아보기에 가장 적합한 플랜입니다. PowerApps 커뮤니티 플랜에는 개인 사용을 위한 무료 개발 환경이 제공되며, 다음과 같은 작업이 가능합니다.
 
 * PowerApps 및 Microsoft Flow의 모든 기능을 사용하여 비즈니스 앱 및 워크플로를 만드는 방법을 알아봅니다.
 * 100개가 넘는 [기본 제공 커넥터](connections-list.md)를 사용하거나 자신만의 [사용자 지정 커넥터](register-custom-api.md)를 만들어서 데이터 원본에 연결합니다.
-* [Common Data Service](https://docs.microsoft.com/en-us/common-data-service/entity-reference/introduction)를 사용하여 공통 데이터 모델 및 [SDK](https://aka.ms/eek20s)를 사용하여 강력한 비즈니스 앱을 빌드하는 방법을 알아봅니다.
+* [Common Data Service](https://docs.microsoft.com/common-data-service/entity-reference/introduction)를 사용하여 공통 데이터 모델 및 [SDK](https://aka.ms/eek20s)를 사용하여 강력한 비즈니스 앱을 빌드하는 방법을 알아봅니다.
 * 개인 환경에서 작성한 솔루션을 내보내서 여러분의 고객이 시험 사용할 수 있도록 [AppSource에 나열](dev-appsource-test-drive.md)합니다.
 
 ## <a name="who-can-sign-up-for-the-powerapps-community-plan"></a>누가 PowerApps 커뮤니티 플랜에 등록할 수 있나요?

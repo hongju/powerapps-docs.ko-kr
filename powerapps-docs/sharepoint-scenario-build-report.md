@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 01/10/2018
 ms.author: mblythe
-ms.openlocfilehash: 1b22885a6ff97b1ffcf67da291ab89d091863981
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: 6f3045a67de492866c3db7d9238a5c4c2111bcb6
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="create-a-power-bi-report-to-analyze-projects"></a>프로젝트를 분석하는 Power BI 보고서 만들기
 > [!NOTE]
@@ -177,7 +177,7 @@ Power BI Desktop에서 목록을 가져올 때 두 테이블의 **ID** 열을 �
    
     이 수식은 단일 날짜 열이 있는 **Dates**라는 테이블을 만듭니다. 이 테이블은 다른 테이블의 모든 날짜를 포함하고 있으며, 날짜가 더 추가되면(예: 데이터를 새로 고친 경우) 자동으로 업데이트됩니다.
    
-    이 수식과 이 섹션의 다른 수식에서는 Power BI 및 기타 기술의 수식 언어인 DAX(Data Analysis Expressions)를 사용합니다. 자세한 내용은 [Power BI Desktop의 DAX 기본 사항](https://powerbi.microsoft.com/documentation/powerbi-desktop-quickstart-learn-dax-basics/)을 참조하세요.
+    이 수식과 이 섹션의 다른 수식에서는 Power BI 및 기타 기술의 수식 언어인 DAX(Data Analysis Expressions)를 사용합니다. 자세한 내용은 [Power BI Desktop의 DAX 기본 사항](https://docs.microsoft.com/power-bi/desktop-quickstart-learn-dax-basics)을 참조하세요.
 3. Enter 키를 눌러 **Dates** 테이블을 만듭니다.
    
     ![Dates 테이블](./media/sharepoint-scenario-build-report/05-02-07-date-table.png)

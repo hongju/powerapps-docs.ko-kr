@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/16/2016
 ms.author: sharik
-ms.openlocfilehash: 7a81e7287f2891e428062241d747ea451dff9e10
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: d530fb5f77f00cb37322383a3817e9c38533ca1d
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="create-an-app-from-scratch"></a>앱을 처음부터 만들기
 다양한 데이터 원본 중 하나를 사용하고 원하는 경우 더 많은 원본을 추가하여 처음부터 사용자 고유 앱을 만듭니다. 정확한 목표와 워크플로에 대한 결과를 최적화할 수 있도록 각 UI 요소의 동작과 모양을 지정합니다. 이 접근 방식은 [앱을 자동으로 생성](get-started-create-from-data.md)하는 것보다 훨씬 시간 집약적이지만, 노력한 앱 제작자는 요구 사항에 맞는 최고의 앱을 빌드할 수 있습니다.
@@ -51,7 +51,7 @@ ms.lasthandoff: 01/23/2018
 
 2. PowerApps에서 정보를 구문 분석할 수 있도록 해당 데이터를 **Schedule**이라는 테이블로 형식을 지정합니다.
 
-    자세한 내용은 [워크시트에서 Excel 테이블 만들기](https://support.office.com/en-us/article/Create-an-Excel-table-in-a-worksheet-E81AA349-B006-4F8A-9806-5AF9DF0AC664)를 참조하세요.
+    자세한 내용은 [워크시트에서 Excel 테이블 만들기](https://support.office.com/article/Create-an-Excel-table-in-a-worksheet-E81AA349-B006-4F8A-9806-5AF9DF0AC664)를 참조하세요.
 
 3. **eventsignup.xls** 이름으로 저장한 다음, OneDrive와 같은 [클라우드 저장소 계정](connections/cloud-storage-blob-connections.md)으로 업로드합니다.
 

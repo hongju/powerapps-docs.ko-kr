@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 07/12/2016
 ms.author: archanan
-ms.openlocfilehash: 1f437b91ef20412dab3238bea7f5488e148c7c29
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: 665a772807179b2a33d6d47bb09483ebed69ed45
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="connect-to-cloud-storage-from-powerapps"></a>PowerApps에서 클라우드 저장소에 연결
 PowerApps에서 여러 클라우드 저장소 연결을 제공합니다. 이러한 연결을 사용하여 Excel 파일을 저장하고 앱 전체에서 해당 정보를 사용할 수 있습니다. 이러한 연결 항목은 다음과 같습니다.  
@@ -30,7 +30,7 @@ PowerApps에서 여러 클라우드 저장소 연결을 제공합니다. 이러�
 
 [!INCLUDE [connection-requirements](../includes/connection-requirements.md)]
 
-* 데이터가 [표로 서식이 지정된](https://support.office.com/en-us/article/Create-an-Excel-table-in-a-worksheet-E81AA349-B006-4F8A-9806-5AF9DF0AC664) Excel 파일:
+* 데이터가 [표로 서식이 지정된](https://support.office.com/article/Create-an-Excel-table-in-a-worksheet-E81AA349-B006-4F8A-9806-5AF9DF0AC664) Excel 파일:
   
   1. Excel 파일을 열고 사용하려는 데이터의 모든 셀을 선택합니다.
   2. **삽입** 탭에서 **표**를 선택합니다.
@@ -87,7 +87,7 @@ Dropbox의 폴더를 공유하려는 경우 공유 폴더를 사용자의 Dropbo
 Excel 파일과 관련된 커넥터에 [특정 제한 사항](#sharing-excel-tables)이 있습니다.
 
 ## <a name="known-limitations"></a>알려진 제한 사항
-앱에서 Excel 연결을 사용하려는 경우 **Data type unsupported**(지원되지 않는 데이터 형식) 또는 **Not formatted as a table**(표로 서식 지정 안 됨)이 나타날 경우 [표로 데이터를 서식 지정](https://support.office.com/en-us/article/Create-an-Excel-table-in-a-worksheet-E81AA349-B006-4F8A-9806-5AF9DF0AC664)합니다.
+앱에서 Excel 연결을 사용하려는 경우 **Data type unsupported**(지원되지 않는 데이터 형식) 또는 **Not formatted as a table**(표로 서식 지정 안 됨)이 나타날 경우 [표로 데이터를 서식 지정](https://support.office.com/article/Create-an-Excel-table-in-a-worksheet-E81AA349-B006-4F8A-9806-5AF9DF0AC664)합니다.
 
 Excel 데이터에 계산 열이 포함된 경우에는 앱을 빌드하는 데 사용할 수 없으며, 해당 데이터를 기존 앱에 추가할 수도 없습니다.
 

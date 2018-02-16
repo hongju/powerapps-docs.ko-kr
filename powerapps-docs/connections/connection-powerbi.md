@@ -15,16 +15,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/12/2016
 ms.author: sirsu
-ms.openlocfilehash: 62dbb11d167155d7f0c47b889674a61b1b1047f3
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: a9d625f5c30d2619eeb6376aae6076125789cd2c
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="connect-to-power-bi-from-powerapps"></a>PowerApps에서 Power BI에 연결
 ![Power BI](./media/connection-powerbi/powerbiicon.png)
 
-Power BI는 데이터를 분석하고 정보 활용을 공유하는 비즈니스 분석 도구 제품군입니다. 비즈니스를 모니터링하고 모든 장치에서 사용할 수 있는 다양한 대시보드에 대해 신속하게 답변 받을 수 있습니다. 앱에서 Power BI 서비스에서 설정한 데이터 경고의 상태를 확인할 수 있습니다. Power BI의 데이터 경고에 대한 자세한 내용은 [설명서 페이지](https://powerbi.microsoft.com/documentation/powerbi-service-set-data-alerts/)를 참조하세요.
+Power BI는 데이터를 분석하고 정보 활용을 공유하는 비즈니스 분석 도구 제품군입니다. 비즈니스를 모니터링하고 모든 장치에서 사용할 수 있는 다양한 대시보드에 대해 신속하게 답변 받을 수 있습니다. 앱에서 Power BI 서비스에서 설정한 데이터 경고의 상태를 확인할 수 있습니다. Power BI의 데이터 경고에 대한 자세한 내용은 [설명서 페이지](https://https://docs.microsoft.com/power-bi/service-set-data-alerts)를 참조하세요.
 
 이 토픽에서는 앱에서 Power BI 연결을 사용하는 방법과 사용할 수 있는 함수를 나열합니다.
 

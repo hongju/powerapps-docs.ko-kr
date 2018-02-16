@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/20/2017
 ms.author: archanan
-ms.openlocfilehash: 637cccf5a5a88d012657172a9e312e232915a615
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: 7af7e2dc89e96501b3d8f12c71bc17112ee9d2e9
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="connect-to-office-365-outlook-from-powerapps"></a>PowerApps에서 Office 365 Outlook연결
 ![Office 365 Outlook](./media/connection-office365-outlook/office365icon.png)
@@ -128,7 +128,7 @@ Office 365 Outlook 연결이 만들어지고 앱에 추가됩니다. 이제 사�
 3. 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
 
 ## <a name="helpful-links"></a>유용한 링크
-* 모든 함수 및 매개 변수 목록은 [Office 365 Outlook 참조](https://docs.microsoft.com/en-us/connectors/office365connector/)에서 확인하세요.
+* 모든 함수 및 매개 변수 목록은 [Office 365 Outlook 참조](https://docs.microsoft.com/connectors/office365connector/)에서 확인하세요.
 * [사용 가능한 연결](../connections-list.md)을 모두 보세요.  
 * [연결 관리](../add-manage-connections.md) 방법을 알아보세요.
 

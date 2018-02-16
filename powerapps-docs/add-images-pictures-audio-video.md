@@ -14,11 +14,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 07/12/2017
 ms.author: sharik
-ms.openlocfilehash: 849bde71d8f5dcf6505721758e2edca0921146bb
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: 49ff8b15b3697afb7367aa5d4a587b389c9b538c
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="using-multimedia-files-in-powerapps"></a>PowerApps에서 멀티미디어 파일 사용
 이 토픽에서는 앱에 멀티미디어 파일을 포함하고, 데이터 원본에 펜 드로잉을 업로드하고, 앱에서 데이터 원본의 이미지를 표시하는 방법을 보여 줍니다. 이 토픽에 사용된 데이터 원본은 비즈니스용 OneDrive에서 Excel 파일입니다.
@@ -119,7 +119,7 @@ PowerApps에 [가입](signup-for-powerapps.md)하고 [설치](http://aka.ms/powe
 
        ![테이블 만들기](./media/add-images-pictures-audio-video/create-table.png)
 
-       Excel 파일은 이제 테이블 형식입니다. Excel에서 테이블 서식 지정에 대한 자세한 내용은 [데이터를 테이블로 서식 지정](https://support.office.com/en-us/article/Format-an-Excel-table-6789619F-C889-495C-99C2-2F971C0E2370)을 참조하세요.
+       Excel 파일은 이제 테이블 형식입니다. Excel에서 테이블 서식 지정에 대한 자세한 내용은 [데이터를 테이블로 서식 지정](https://support.office.com/article/Format-an-Excel-table-6789619F-C889-495C-99C2-2F971C0E2370)을 참조하세요.
 
    4. 테이블 이름을 **Drawings**로 지정합니다.
 

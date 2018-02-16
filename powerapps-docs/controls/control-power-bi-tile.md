@@ -15,20 +15,20 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 07/07/2016
 ms.author: fikaradz
-ms.openlocfilehash: a2a8d7df48403a5d8d480619bd01c59510ae9899
-ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
+ms.openlocfilehash: 1f351877e3c05b83b4bd9cfa104a7eb22cef5028
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="power-bi-tile-control-in-powerapps"></a>PowerApps의 Power BI 타일 컨트롤
 앱 내부에 있는 [Power BI](https://powerbi.microsoft.com) 타일을 보여주는 컨트롤입니다.
 
 ## <a name="description"></a>설명
-앱 내부에 있는 **[Power BI 타일](https://powerbi.microsoft.com/documentation/powerbi-service-dashboard-tiles/)**을 표시하여 기존 데이터 분석 및 보고를 활용합니다.  옵션 패널의 **데이터** 탭에서 **작업 영역**, **대시보드** 및 **타일**을 설정하여 표시하려는 타일을 선택합니다.
+앱 내부에 있는 **[Power BI 타일](https://docs.microsoft.com/power-bi/service-dashboard-tiles)**을 표시하여 기존 데이터 분석 및 보고를 활용합니다.  옵션 패널의 **데이터** 탭에서 **작업 영역**, **대시보드** 및 **타일**을 설정하여 표시하려는 타일을 선택합니다.
 
 ## <a name="sharing-and-security"></a>공유 및 보안
-공유되면 PowerApp은 해당 앱에 액세스 권한이 있는 모든 사용자가 액세스하게 됩니다.  하지만 이러한 사용자에게 Power BI 콘텐츠를 표시하려면 타일을 제공하는 대시보드를 Power BI의 사용자와 [공유](https://powerbi.microsoft.com/documentation/powerbi-service-how-should-i-share-my-dashboard/)해야 합니다.  이를 통해 앱에서 Power BI 콘텐츠에 액세스할 때 Power BI 공유 권한이 존중됩니다.
+공유되면 PowerApp은 해당 앱에 액세스 권한이 있는 모든 사용자가 액세스하게 됩니다.  하지만 이러한 사용자에게 Power BI 콘텐츠를 표시하려면 타일을 제공하는 대시보드를 Power BI의 사용자와 [공유](https://docs.microsoft.com/power-bi/service-how-to-collaborate-distribute-dashboards-reports)해야 합니다.  이를 통해 앱에서 Power BI 콘텐츠에 액세스할 때 Power BI 공유 권한이 존중됩니다.
 
 ## <a name="key-properties"></a>주요 속성
 **작업 영역** – 타일이 제공되는 Power BI 작업 영역입니다.
@@ -66,5 +66,5 @@ ms.lasthandoff: 01/12/2018
    
     [컨트롤을 추가하고 구성](../add-configure-controls.md)하는 방법을 모르시나요?
    
-   Power BI가 없나요? [가입](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-self-service-signup-for-power-bi/)하세요.
+   Power BI가 없나요? [가입](https://docs.microsoft.com/power-bi/service-self-service-signup-for-power-bi)하세요.
 

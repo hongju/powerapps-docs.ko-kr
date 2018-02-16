@@ -14,11 +14,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: sharik
-ms.openlocfilehash: f3e5fdce6948928cdd393e7a9933b3261af4e3f6
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: 75b3315833fc6ced9ef3d8eb252d0f8639ccd696
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="add-images-to-excel-from-powerapps"></a>PowerApps에서 Excel에 이미지 추가
 사용자가 파일의 이미지 또는 **펜** 컨트롤의 그림을 표시, 추가 또는 삭제할 수 있는 앱을 자동으로 만듭니다. 앱은 클라우드 저장소 계정에 만들고 업로드하는 Excel 파일을 기반으로 합니다.
@@ -26,7 +26,7 @@ ms.lasthandoff: 01/23/2018
 ## <a name="prerequisites"></a>필수 조건
 
 * [컨트롤 추가 및 구성](add-configure-controls.md)에 익숙합니다.
-* [Excel 데이터를 테이블로 구성](https://support.office.com/en-us/article/Format-an-Excel-table-6789619F-C889-495C-99C2-2F971C0E2370?ui=en-US&rs=en-US&ad=US)하는 것에 익숙합니다.
+* [Excel 데이터를 테이블로 구성](https://support.office.com/article/Format-an-Excel-table-6789619F-C889-495C-99C2-2F971C0E2370?ui=en-US&rs=en-US&ad=US)하는 것에 익숙합니다.
 * Excel 파일을 저장할 수 있는 클라우드 저장소 계정(예: Dropbox, OneDrive 또는 Google Drive)에 대한 [PowerApps 연결](add-data-connection.md).
 
 ## <a name="create-the-data-source-and-the-app"></a>데이터 원본 및 앱 만들기

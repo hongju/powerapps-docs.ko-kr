@@ -15,17 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 01/16/2018
 ms.author: litran
-ms.openlocfilehash: 0aff680aa5b8840330ee3a1758a895785f05da6f
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: a833bc4a0364ccf427815cd75b43fad0f971c3e6
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="use-powerapps-in-a-web-browser"></a>웹 브라우저에서 PowerApps 사용
 PowerApps에서 앱을 만드는 경우 [Dynamics 365](https://home.dynamics.com)를 열고 홈페이지에서 앱의 타일을 클릭하거나 눌러서 이러한 브라우저에서 해당 앱을 실행할 수 있습니다.
 
 > [!NOTE]
-> 판매와 같이 Dynamics 365 앱에 대한 질문이 있는 경우 [Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/) 또는 [지원 문의](https://www.microsoft.com/en-us/dynamics365/contact-us)에 대한 일반 정보를 찾을 수 있습니다.
+> 판매와 같이 Dynamics 365 앱에 대한 질문이 있는 경우 [Microsoft Dynamics 365](https://docs.microsoft.com/dynamics365/) 또는 [지원 문의](https://www.microsoft.com/dynamics365/contact-us)에 대한 일반 정보를 찾을 수 있습니다.
 
 다음과 같은 브라우저 및 운영 체제가 지원됩니다.
 

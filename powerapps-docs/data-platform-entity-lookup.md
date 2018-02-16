@@ -14,14 +14,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 12/09/2016
 ms.author: kfend
-ms.openlocfilehash: 21f33f8810b545b11f611b86261227c9443be5de
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: 51138467e93dc4ef3fd2a08163536971c3811d23
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="build-a-relationship-between-entities"></a>엔터티 간 관계 빌드
-한 엔터티의 데이터는 다른 엔터티의 데이터와 자주 관련됩니다. 예를 들어, **고객** 엔터티 및 **주문** 엔터티, 및 **주문** 엔터티에는 주문을 한 고객을 표시하는 **고객** 엔터티에 대한 조회 관계가 있을 수 있습니다. 조회 필드를 사용하여 주문한 고객에 대한 **고객** 엔터티의 데이터를 표시할 수 있습니다. 자세한 내용은 [엔터티 관계 및 조회 필드](https://docs.microsoft.com/en-us/common-data-service/entity-reference/relationships)를 참조하세요.
+한 엔터티의 데이터는 다른 엔터티의 데이터와 자주 관련됩니다. 예를 들어, **고객** 엔터티 및 **주문** 엔터티, 및 **주문** 엔터티에는 주문을 한 고객을 표시하는 **고객** 엔터티에 대한 조회 관계가 있을 수 있습니다. 조회 필드를 사용하여 주문한 고객에 대한 **고객** 엔터티의 데이터를 표시할 수 있습니다. 자세한 내용은 [엔터티 관계 및 조회 필드](https://docs.microsoft.com/common-data-service/entity-reference/relationships)를 참조하세요.
 
 ## <a name="define-a-relationship"></a>관계 정의
 다른 엔터티(또는 엔터티 자체) 간에 여러 형식의 관계를 만들 수 있습니다. 각 엔터티는 둘 이상의 엔터티와 관계가 있을 수 있으며, 각 엔터티는 다른 엔터티에 대해 둘 이상의 관계가 있을 수 있습니다. 몇 가지 일반적인 관계 형식은 다음과 같습니다.

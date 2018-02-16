@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/16/2016
 ms.author: sharik
-ms.openlocfilehash: cf90156292985e58e2d68d2828d7c943b45facdf
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: 1558dba59f4b755ded709329c099feb94b55fac6
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="generate-an-app-from-excel-data"></a>Excel 데이터에서 앱 생성
 OneDrive와 같은 클라우드 저장소 계정에 업로드하는 Excel 파일에서 데이터에 따라 자동으로 앱을 만듭니다. 앱을 생성한 후에 필요에 더 잘 맞도록 사용자 지정한 다음 예상대로 작동하는지 확인하도록 실행합니다.
@@ -41,7 +41,7 @@ OneDrive와 같은 클라우드 저장소 계정에 업로드하는 Excel 파일
 * 이 자습서를 정확하게 수행하려면 이 [Excel 파일](https://az787822.vo.msecnd.net/documentation/get-started-from-data/FlooringEstimates.xlsx)을 다운로드합니다.
   
     > [!IMPORTANT]
-> 데이터가 테이블 형식인 경우 사용자 고유의 Excel 파일을 사용할 수 있습니다. 자세한 내용은 [워크시트에서 Excel 테이블 만들기](https://support.office.com/en-us/article/Create-an-Excel-table-in-a-worksheet-E81AA349-B006-4F8A-9806-5AF9DF0AC664)를 참조하세요.
+> 데이터가 테이블 형식인 경우 사용자 고유의 Excel 파일을 사용할 수 있습니다. 자세한 내용은 [워크시트에서 Excel 테이블 만들기](https://support.office.com/article/Create-an-Excel-table-in-a-worksheet-E81AA349-B006-4F8A-9806-5AF9DF0AC664)를 참조하세요.
 * Excel 파일을 OneDrive 또는 다른 [클라우드 저장소 계정](connections/cloud-storage-blob-connections.md)에 업로드합니다.
 
 ## <a name="create-an-app"></a>앱 만들기

@@ -14,11 +14,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 05/08/2017
 ms.author: kfend
-ms.openlocfilehash: a8c13158ab2c3f152aa99357684c818f48e637ae
-ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
+ms.openlocfilehash: ea4fc21eb98ddb4861739559062f01190fb14819
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="configure-database-security"></a>데이터베이스 보안 구성
 Common Data Service는 데이터베이스에 대한 보안 액세스를 위해 역할 기반 보안 모델을 사용합니다. 이 항목에서는 앱의 보안을 유지하기 위해 필요한 보안 아티팩트를 만드는 방법을 설명합니다. 사용자 역할은 데이터에 대한 런타임 액세스를 제어하며 환경 관리자 및 환경 작성자가 제어하는 환경 역할과는 별개입니다. 환경 개요는 [환경 개요](environments-overview.md)를 참조하세요.
@@ -32,7 +32,7 @@ Common Data Service는 데이터베이스에 대한 보안 액세스를 위해 �
 
 가장 자주 사용되는 두 사용 권한 수준은 읽기 전용 액세스 권한과 모든 권한입니다. Common Data Service는 모든 해당 엔터티에 대해 이러한 두 사용 권한 수준에서 권한 집합을 포함합니다. 보기 권한 집합은 엔터티에 대한 읽기 권한을 제공합니다. 유지 관리 권한 집합은 엔터티에 대한 모든 권한을 제공합니다.
 
-보안 모델을 통해 이러한 사용 권한의 조합을 사용자 역할에 할당할 수 있습니다. 역할은 역할에 추가되는 권한 집합 간에 부여되는 다양한 사용 권한을 결합합니다. 따라서 역할의 멤버는 역할에 포함된 권한 집합이 액세스할 수 있는 모든 데이터에 액세스할 수 있습니다. Common Data Service 보안 모델에 대한 자세한 내용은 [보안 모델](https://docs.microsoft.com/en-us/common-data-service/entity-reference/security-model)을 참조하세요.
+보안 모델을 통해 이러한 사용 권한의 조합을 사용자 역할에 할당할 수 있습니다. 역할은 역할에 추가되는 권한 집합 간에 부여되는 다양한 사용 권한을 결합합니다. 따라서 역할의 멤버는 역할에 포함된 권한 집합이 액세스할 수 있는 모든 데이터에 액세스할 수 있습니다. Common Data Service 보안 모델에 대한 자세한 내용은 [보안 모델](https://docs.microsoft.com/common-data-service/entity-reference/security-model)을 참조하세요.
 
 ## <a name="identify-the-entities"></a>엔터티 식별
 앱에 대한 올바른 액세스 제어를 구성하려면 앱이 사용하는 엔터티를 알고 있어야 합니다. 앱에서 사용하는 엔터티 목록을 보려면 다음 단계를 수행합니다.

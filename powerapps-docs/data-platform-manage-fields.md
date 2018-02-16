@@ -14,14 +14,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/20/2017
 ms.author: kfend
-ms.openlocfilehash: 87be6f571688fd040c5f2578015e1a3393ca9ea1
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: f5d769459f9d10e1d0f4bab2c1cc182407865053
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="manage-custom-fields"></a>사용자 지정 필드 관리
-모든 엔터티 내 하나 이상의 사용자 지정 필드를 만들고 업데이트할 수 있습니다. 사용자 지정 필드를 만들려면 필드의 이름, 필드의 표시 이름, 포함할 데이터 형식 등과 같은 속성 집합을 지정해야 합니다. 자세한 내용은 [엔터티 필드 데이터 형식](https://docs.microsoft.com/en-us/common-data-service/entity-reference/field-data-types) 및 [엔터티 필드 속성](https://docs.microsoft.com/en-us/common-data-service/entity-reference/field-properties)을 참조하세요.
+모든 엔터티 내 하나 이상의 사용자 지정 필드를 만들고 업데이트할 수 있습니다. 사용자 지정 필드를 만들려면 필드의 이름, 필드의 표시 이름, 포함할 데이터 형식 등과 같은 속성 집합을 지정해야 합니다. 자세한 내용은 [엔터티 필드 데이터 형식](https://docs.microsoft.com/common-data-service/entity-reference/field-data-types) 및 [엔터티 필드 속성](https://docs.microsoft.com/common-data-service/entity-reference/field-properties)을 참조하세요.
 
 > [!NOTE]
 > 모든 엔터티에는 레코드가 마지막으로 업데이트된 날짜 및 업데이트한 사람을 나타내는 필드와 같은 [시스템 필드](data-platform-create-entity.md#system-fields-and-the-record-title-field)가 있습니다. 또한 [표준 엔터티](data-platform-intro.md#standard-entities)에는 표준(기본값) 필드가 있습니다. 시스템 필드 또는 표준 필드를 수정하거나 삭제할 수 없습니다. 사용자 지정 필드를 만들 경우 이러한 기본 제공 필드를 기반으로 기능을 제공해야 합니다.

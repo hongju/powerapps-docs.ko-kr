@@ -14,11 +14,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/20/2017
 ms.author: kfend
-ms.openlocfilehash: bbc501542e634fab925654734cf709fe87248883
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: da01fe6e89e64e07b5ce4eb0350bc2ac1f54ff30
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="understand-entities-in-the-common-data-service"></a>Common Data Service의 엔터티 이해
 
@@ -72,7 +72,7 @@ Common Data Service 내에서 두 표준 및 사용자 지정 엔터티는 데�
 각 표준 엔터티에는 변경 또는 삭제할 수 없는 기본 필드 집합이 포함되어 있습니다. 엔터티 및 해당 필드의 목록, 선택 목록의 목록은 [표준 엔터티](https://docs.microsoft.com/common-data-service/entity-reference/standard-entities)를 참조하세요.
 
 ### <a name="custom-fields"></a>사용자 지정 필드
-표준 엔터티나 사용자 지정 엔터티 중 하나에서 사용자 지정 필드를 만들 수 있습니다. 이름, 표시 이름 및 각 사용자 지정 필드의 데이터 형식을 지정해야 합니다. 지원되는 형식의 전체 목록은 [엔터티 필드 데이터 형식](https://docs.microsoft.com/en-us/common-data-service/entity-reference/field-data-types)을 참조하세요.
+표준 엔터티나 사용자 지정 엔터티 중 하나에서 사용자 지정 필드를 만들 수 있습니다. 이름, 표시 이름 및 각 사용자 지정 필드의 데이터 형식을 지정해야 합니다. 지원되는 형식의 전체 목록은 [엔터티 필드 데이터 형식](https://docs.microsoft.com/common-data-service/entity-reference/field-data-types)을 참조하세요.
 
 ## <a name="lookup-relationships"></a>관계 조회
 **조회** 데이터 형식의 필드로 정의된 관계가 존재하면 엔터티 내에서 레코드 간 이동이 가능합니다. 조회 관계를 만들려면 하나의 엔터티 내에서 **조회** 데이터 형식의 필드를 추가하고, 정보를 조회하려는 엔터티를 지정합니다. 자세한 내용은 [조회 필드를 통한 엔터티 관계](data-platform-entity-lookup.md)를 참조하세요.

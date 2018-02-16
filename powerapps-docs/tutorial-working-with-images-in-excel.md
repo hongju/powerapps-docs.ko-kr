@@ -14,11 +14,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/15/2016
 ms.author: anneta
-ms.openlocfilehash: 5ba6f02db0de796cb75c57d914abf41caa259cbf
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: e789a253a2c1d52cc85dadc6f532604021f6b004
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="how-to-save-images-in-an-excel-file-and-then-add-these-images-to-your-app"></a>이미지를 Excel 파일에 저장한 다음 앱에 추가하는 방법
 
@@ -42,7 +42,7 @@ ms.lasthandoff: 01/23/2018
    2. **삽입** 리본에서 **테이블**을 선택합니다.
    3. 대화 상자 창에서 **테이블에 머리글 있음**을 선택하고 **확인**을 선택합니다.
       
-      이제 Excel 파일이 테이블 형식으로 되었습니다. [데이터를 테이블 형식으로 지정](https://support.office.com/en-us/article/Format-an-Excel-table-6789619F-C889-495C-99C2-2F971C0E2370)에서 Excel의 테이블 형식 지정에 대한 추가 세부 정보를 제공합니다.
+      이제 Excel 파일이 테이블 형식으로 되었습니다. [데이터를 테이블 형식으로 지정](https://support.office.com/article/Format-an-Excel-table-6789619F-C889-495C-99C2-2F971C0E2370)에서 Excel의 테이블 형식 지정에 대한 추가 세부 정보를 제공합니다.
    4. 테이블 이름을 **Drawings**로 지정합니다.  
       
       ![테이블 이름을 Drawings로 바꾸기](./media/tutorial-working-with-images-in-excel/drawings-table.png)

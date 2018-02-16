@@ -13,13 +13,13 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/02/2018
+ms.date: 02/05/2018
 ms.author: sharik
-ms.openlocfilehash: 8c46d7c5e8677d37b0a50b0c60dab4b81bd54c44
-ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
+ms.openlocfilehash: a1ebe4011619b0a2baaa3b9a98579bb22d02774e
+ms.sourcegitcommit: 290e81488ec5c2e0bb820ef0e3b7f5c0f54c80eb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="customize-a-sharepoint-list-form-using-powerapps"></a>PowerApps를 사용하여 SharePoint 목록 양식을 사용자 지정
 
@@ -30,9 +30,6 @@ PowerApps는 SharePoint와 직접 통합되어 있기 때문에 컴퓨터에 다
 또한 PowerApps는 SharePoint에 완벽하게 통합되기 때문에 양식을 두 곳에서 관리할 필요가 없습니다. 사용 권한은 SharePoint를 통해 상속되고 관리됩니다. 무엇보다, PowerApps를 SharePoint와 통합하면 분석 보고서, 조건부 서식 지정을 위한 간편한 가리킨 다음 클릭(point-and-click) 규칙 및 다른 데이터 소스에 연결과 같은 여러 가지 강력한 기능에 액세스할 수 있습니다.
 
 사용자 지정을 시작할 준비가 되셨나요? 이제 시작하겠습니다.
-
-> [!NOTE]
-> 이 기능은 SharePoint 고객에게 단계적으로 제공됩니다. 현재 SharePoint 목록에 **양식 사용자 지정** 옵션이 표시되지 않더라도 곧 표시될 예정입니다.
 
 ## <a name="create-a-custom-list-form-app-in-powerapps"></a>PowerApps에서 사용자 지정 목록 양식 앱 만들기
 

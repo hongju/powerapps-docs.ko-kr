@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/20/2017
 ms.author: sharik
-ms.openlocfilehash: 3d5ae546d10c0713fe346db1fbe49a6f6701f7a1
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: e5bcf28febb2d37284203a4856a8fea590637aed
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="understand-on-premises-data-gateways-for-microsoft-powerapps"></a>Microsoft PowerApps에 대한 온-프레미스 데이터 게이트웨이 이해
 ## <a name="installation-and-configuration"></a>설치 및 구성
@@ -85,7 +85,7 @@ ms.lasthandoff: 01/23/2018
 
 **방화벽 또는 프록시 구성**
 
-게이트웨이에 대한 프록시 정보를 제공하는 방법에 대한 자세한 내용은 [프록시 설정 구성](https://powerbi.microsoft.com/en-us/documentation/powerbi-gateway-proxy/)을 참조하세요.
+게이트웨이에 대한 프록시 정보를 제공하는 방법에 대한 자세한 내용은 [프록시 설정 구성](https://docs.microsoft.com/power-bi/service-gateway-proxy)을 참조하세요.
 
 PowerShell 프롬프트에서 다음 명령을 실행하여 방화벽 또는 프록시가 연결을 차단하는지 여부를 확인할 수 있습니다. 이 명령은 Azure Service Bus에 대 한 연결을 테스트합니다. 이는 네트워크 연결을 테스트하는 데만 사용되며 클라우드 서버 서비스 또는 게이트웨이와 관련이 없습니다. 컴퓨터가 실제로 인터넷에 액세스할 수 있는지 여부를 확인하는 데 도움이 됩니다.
 
@@ -140,7 +140,7 @@ PowerShell 프롬프트에서 다음 명령을 실행하여 방화벽 또는 프
 
 온-프레미스 데이터 원본 또는 클라우드 서비스에 로그인하는 회사 또는 학교 계정에 연결하는 데 사용되는 계정이 아닙니다.
 
-인증으로 인해 프록시 서버에 문제가 발생하면 [프록시 구성](https://powerbi.microsoft.com/documentation/powerbi-gateway-proxy/#changing-the-gateway-service-account-to-a-domain-user)에서 설명하는대로 Windows 서비스 계정을 도메인 사용자 또는 관리 서비스 계정으로 변경할 수 있습니다.
+인증으로 인해 프록시 서버에 문제가 발생하면 [프록시 구성](https://docs.microsoft.com/power-bi/service-gateway-proxy#changing-the-gateway-service-account-to-a-domain-user)에서 설명하는대로 Windows 서비스 계정을 도메인 사용자 또는 관리 서비스 계정으로 변경할 수 있습니다.
 
 ## <a name="frequently-asked-questions"></a>질문과 대답
 #### <a name="general"></a>일반

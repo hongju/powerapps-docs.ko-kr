@@ -14,11 +14,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 12/06/2016
 ms.author: kfend
-ms.openlocfilehash: 156a213fbf2bb1d5c7d4f032331ce4ca91f2641c
-ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
+ms.openlocfilehash: f8fb8da441c037e47f508282e9677fdda35874a0
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="samples-and-other-resources--for-the-common-data-service"></a>Common Data Service의 샘플 및 기타 리소스
 ## <a name="samples"></a>샘플
@@ -36,5 +36,5 @@ YouTube의 [MS PowerApps](https://www.youtube.com/channel/UCGfWR2ekfRFckLjev6eQY
 Microsoft Ignite 컨퍼런스의 많은 세션은 [Microsoft Ignite On-Demand](https://myignite.microsoft.com/videos)에 기록되어 제공됩니다. "PowerApps" 및 "일반 데이터 모델"을 검색합니다.
 
 ## <a name="overview"></a>개요
-[Common Data Service 및 공통 데이터 모델 개요](https://docs.microsoft.com/en-us/common-data-service/entity-reference/security-model)에서 Common Data Service 및 공통 데이터 모델에 대해 자세히 알아봅니다.
+[Common Data Service 및 공통 데이터 모델 개요](https://docs.microsoft.com/common-data-service/entity-reference/security-model)에서 Common Data Service 및 공통 데이터 모델에 대해 자세히 알아봅니다.
 
