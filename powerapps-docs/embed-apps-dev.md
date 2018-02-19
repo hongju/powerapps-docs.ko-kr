@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/20/2017
 ms.author: mblythe
-ms.openlocfilehash: a5c0e2c69ccf5e7359318794e4c39bb66bba9dac
-ms.sourcegitcommit: faaf9adebd72794d2988fba1b27a31d70b5268f8
+ms.openlocfilehash: 9d0248cde622fbb153549cc94101352416822258
+ms.sourcegitcommit: 290e81488ec5c2e0bb820ef0e3b7f5c0f54c80eb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="integrate-powerapps-into-websites-and-other-services"></a>웹 사이트 및 기타 서비스로 PowerApps 통합
 빌드하는 앱은 종종 사용자가 작업하는 위치에서 바로 사용할 수 있을 때 가장 유용합니다. PowerApps를 사용하면 해당 앱을 웹 사이트와 Power BI 또는 SharePoint와 같은 다른 서비스에 통합할 수 있도록 iframe에 앱을 포함할 수 있습니다.
@@ -72,10 +72,13 @@ https://web.powerapps.com/webplayer/iframeapp?source=iframe
 앱을 포함하는 것은 이제 사이트(또는 Power BI 또는 SharePoint와 같은 iframe을 지원하는 다른 서비스)에 대한 HTML 코드에 iframe을 포함하는 것만큼 간단합니다.
 
 ```
-<iframe width="[W]" height="[H]" src="https://web.powerapps.com/webplayer/iframeapp?source=website&screenColor=rgba(165,34,55,1)&appId=/providers/Microsoft.PowerApps/apps/[AppID]"/>
+<iframe width="[W]" height="[H]" src="https://web.powerapps.com/webplayer/iframeapp?source=website&screenColor=rgba(165,34,55,1)&appId=/providers/Microsoft.PowerApps/apps/[AppID]" allow="geolocation; microphone; camera"/>
 ```
 
 iframe 너비 및 높이에 대한 값을 지정하고 `[AppID]`에 대해 앱의 ID를 대체합니다.
+
+> [!NOTE]
+> 앱이 Google Chrome에서 이러한 기능을 사용할 수 있도록 허용하려면 iframe HTML 코드에 `allow="geolocation; microphone; camera"`를 포함하세요.
 
 다음 이미지는 Contoso 샘플 웹 사이트에 포함된 자산 순서 지정 앱을 보여 줍니다.
 

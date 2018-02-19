@@ -13,16 +13,27 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/31/2018
+ms.date: 02/13/2018
 ms.author: sharik
-ms.openlocfilehash: f98d8f3dd19d39a31f6f8e7ca2551efb6de18e34
-ms.sourcegitcommit: 19a83f07ad11e630e6b85b3540d78a2d2428d7b9
+ms.openlocfilehash: b8d06bb8ffbe1446f4c918e6cf1c6657c1890e65
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="whats-new-in-powerapps"></a>PowerApps의 새로운 기능
 알려진 제한 사항에 대한 정보는 [일반적인 문제 및 해결 방법](common-issues-and-resolutions.md)을 참조하세요.
+
+> [!NOTE]
+> 릴리스는 며칠 동안 배포됩니다. 새 기능 또는 업데이트된 기능이 즉시 나타나지 않을 수 있습니다.
+
+## <a name="feb-12"></a>2월 12일
+* 포함된 [비디오](controls/control-audio-video.md) 및 [오디오](controls/control-audio-video.md) 재생에 대한 볼륨 컨트롤이 이제 인라인으로 제공됩니다. 재생을 음소거하려면, 단추를 클릭하거나 탭하는 대신 이제 볼륨 컨트롤을 사용하여 볼륨을 줄여야 합니다.
+
+## <a name="feb-7"></a>2월 7일
+1. [카메라](controls/control-camera.md) 및 [바코드 스캐너](controls/control-barcodescanner.md) 컨트롤에서 확대/축소, 밝기 및 대비 속성을 제거했습니다.
+2. [텍스트 입력](controls/control-text-input.md) 컨트롤의 [지우기] 단추가 사용자 입력에 할당된 공간을 제한하는 문제를 해결했습니다. 이러한 수정으로 인해, 텍스트 입력 컨트롤의 [지우기](controls/control-text-input.md#additional-properties) 속성은 Microsoft Edge(최신 버전) 및 Internet Explorer 11 웹 브라우저에서만 지원됩니다.
+3. [멀티미디어](add-images-pictures-audio-video.md) 컨트롤에 접근성 개선 사항이 추가되었습니다.
 
 ## <a name="jan-31"></a>1월 31일
 1. [비디오](controls/control-audio-video.md) 컨트롤에 선택 캡션을 추가합니다.
@@ -63,7 +74,3 @@ ms.lasthandoff: 02/01/2018
 ## <a name="sept-6"></a>9월 6일
 1. 사용자가 작성한 앱에 대 Power BI에 포함된 대시보드에서 [사용을 추적](app-analytics.md)합니다.
 2. **[Split](functions/function-split.md)** 함수를 사용하여 텍스트 문자열을 여러 부분으로 나누려면 구분 기호를 사용합니다.
-
-## <a name="aug-15"></a>8월 15일
-1. 조직에서 사용되는 [앱 목록](admin-view-apps.md)을 다운로드합니다.
-2. SQL Server에 대한 **Sum**, **Average**, **Min**, **Max** 함수를 위임합니다.
