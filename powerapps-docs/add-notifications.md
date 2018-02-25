@@ -15,14 +15,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 08/08/2017
 ms.author: jamesol
-ms.openlocfilehash: 6b3bab666ddd842c868dfdac752cd8897a5427b2
-ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
+ms.openlocfilehash: 0492f5559f5ec575a3161e693e728c1caa95ed3c
+ms.sourcegitcommit: 6a56c3fdba1c7f95fe4b286e041cc307610e279f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 02/21/2018
 ---
-# <a name="send-a-push-notification-in-powerapps"></a>PowerApps에서 푸시 알림 보내기
-푸시 알림은 앱 사용자의 관심을 끌고 주요 작업의 우선 순위를 지정하는 데 도움이 되도록 소비자 및 비즈니스 시나리오에 대한 모바일 앱에 주로 사용됩니다. PowerApps에서 PowerApps 알림 커넥터를 사용하여 알림을 보낼 수 있습니다. PowerApps에서 만드는 모든 앱에 네이티브 푸시 알림을 보낼 수 있습니다. 나중에 더 많은 알림 유형을 추가할 예정입니다.
+# <a name="send-a-pull-notification-in-powerapps"></a>PowerApps에서 끌어오기 알림 보내기
+푸시 알림은 앱 사용자의 관심을 끌고 주요 작업의 우선 순위를 지정하는 데 도움이 되도록 소비자 및 비즈니스 시나리오에 대한 데스크톱 앱에 주로 사용됩니다. PowerApps에서 PowerApps 알림 커넥터를 사용하여 알림을 보낼 수 있습니다. PowerApps에서 만드는 모든 앱에 네이티브 푸시 알림을 보낼 수 있습니다. 나중에 더 많은 알림 유형을 추가할 예정입니다.
 
 ![푸시 알림 모양의 예](./media/add-notifications/pic1-notification-screenshot.png)
 
