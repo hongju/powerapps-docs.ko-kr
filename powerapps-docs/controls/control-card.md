@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/25/2016
 ms.author: gregli
 ms.openlocfilehash: e85b7ce4c51e693d566fb50b51be48f9ab3edadd
-ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
+ms.sourcegitcommit: 85fadbb6881e1c097970e0566b5832f733cbe9b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 03/06/2018
 ---
 # <a name="card-control-in-powerapps"></a>PowerApps의 카드 컨트롤
 **[표시 양식](control-form-detail.md)** 또는 **[편집 양식](control-form-detail.md)** 컨트롤의 단일 필드에 대한 표시 및 편집 경험을 제공합니다.

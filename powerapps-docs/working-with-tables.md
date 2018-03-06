@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 04/26/2016
 ms.author: gregli
 ms.openlocfilehash: 794263448bc067ef8bf44ae46480865c56fdbdf8
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.sourcegitcommit: 85fadbb6881e1c097970e0566b5832f733cbe9b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/06/2018
 ---
 # <a name="understand-tables-and-records-in-powerapps"></a>PowerApps 테이블 및 레코드에 대한 이해
 Microsoft Excel, SharePoint, SQL Server 및 레코드와 테이블에 데이터를 저장하는 다른 여러 원본의 정보에 액세스하는 앱을 만들 수 있습니다. 이러한 종류의 데이터로 가장 효과적으로 작업하려면 이러한 구조의 기반이 되는 개념을 검토합니다.
@@ -237,7 +237,7 @@ Excel 및 PowerApps에서는 수식을 사용하여 숫자와 텍스트 문자�
 ### <a name="disambiguation"></a>명확성
 레코드 범위에 추가된 필드 이름은 앱의 다른 위치에서 동일한 이름을 재정의합니다.  이 경우 [**@** 명확성](functions/operators.md) 연산자를 사용하여 레코드 범위 외부의 값에 계속 액세스할 수 있습니다.
 
-* 중첩된 레코드 범위의 값에 액세스하려면 **Table*[@*FieldName*]** 패턴을 사용하여 작업 중인 테이블의 이름에 **@** 연산자를 사용합니다.  
+* 중첩된 레코드 범위의 값에 액세스하려면 ***Table*[@*FieldName*]** 패턴을 사용하여 작업 중인 테이블의 이름에 **@** 연산자를 사용합니다.  
 * 데이터 원본, 컬렉션 및 컨텍스트 변수와 같은 전역 값에 액세스하려면 **[@*ObjectName*]** (테이블 지정 없음) 패턴을 사용합니다.
 
 작업 중인 테이블이 **Filter( *table*, ... )**과 같은 식이면 명확성 연산자를 사용할 수 없습니다.  가장 안쪽의 레코드 범위만 명확성 연산자를 사용하지 않고 이 테이블 식의 필드에 액세스할 수 있습니다.

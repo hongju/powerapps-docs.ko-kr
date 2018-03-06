@@ -15,10 +15,10 @@ ms.workload: na
 ms.date: 03/11/2017
 ms.author: aneesa
 ms.openlocfilehash: d791d04965873c133be85013feb181dc5a1e1bad
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.sourcegitcommit: 85fadbb6881e1c097970e0566b5832f733cbe9b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/06/2018
 ---
 # <a name="use-field-groups"></a>필드 그룹 사용
 필드 그룹에서는 하나 이상의 엔터티 필드를 그룹화하는 방법을 제공합니다. 필드 그룹을 통해 앱의 생성 및 유지 관리를 신속하게 만들고 간소화할 수 있습니다. 필드 그룹에는 하나 이상의 필드가 있으며 필드는 여러 필드 그룹에 표시될 수 있습니다. 필드는 하나의 필드 그룹에 두 번 이상 표시될 수 없습니다.

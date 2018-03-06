@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 08/15/2017
 ms.author: gregli
 ms.openlocfilehash: b6410a6b392f074c5e5a240e471fa2591e1e135d
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.sourcegitcommit: 85fadbb6881e1c097970e0566b5832f733cbe9b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/06/2018
 ---
 # <a name="understand-delegation"></a>위임 이해
 PowerApps에는 데이터의 테이블을 필터링, 정렬 및 형성하는 강력함 함수 집합이 포함되어 있습니다(단 시간에 **[Filter](functions/function-filter-lookup.md)**, **[Sort](functions/function-sort.md)** 및 **[AddColumns](functions/function-table-shaping.md)** 함수 이름 지정).  이러한 함수를 사용하여 사용자에게 필요한 정보에 대한 집중된 액세스 권한을 제공할 수 있습니다.  데이터베이스 배경 지식이 있는 사람들에게 이러한 함수를 사용하는 것은 데이터베이스 쿼리를 작성하는 것과 같습니다.  
