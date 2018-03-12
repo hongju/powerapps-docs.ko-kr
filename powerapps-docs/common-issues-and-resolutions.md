@@ -5,7 +5,7 @@ services:
 suite: powerapps
 documentationcenter: na
 author: skjerland
-manager: anneta
+manager: kfile
 editor: 
 tags: 
 ms.service: powerapps
@@ -13,16 +13,20 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/24/2018
+ms.date: 03/05/2018
 ms.author: sharik
-ms.openlocfilehash: f6b91bcc8b5e4c9d0128c2cba1eb3f772c6f7451
-ms.sourcegitcommit: faaf9adebd72794d2988fba1b27a31d70b5268f8
+ms.openlocfilehash: c2faa505e62e4460e2fe65707946e3190b5b0350
+ms.sourcegitcommit: c76ec82db5d261be1fb7fdeeec3e119cdfada57f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="common-issues-and-resolutions-for-powerapps"></a>PowerApps의 일반적인 문제 및 해결 방법
 ## <a name="recently-addedchanged"></a>최근에 추가/변경된 내용
+1. **SharePoint 폼의 레이아웃 변경**
+
+    특정 언어의 SharePoint 목록 폼을 사용자 지정하는 동안 레이아웃을 세로(기본값)에서 가로로 변경하려고 하면 앱에 여러 오류가 표시될 수 있습니다(컨트롤에 노란색 삼각형). 이러한 오류를 해결하고 가로 레이아웃을 유지하려면 **실행 취소**를 클릭합니다.
+
 1. **앱이 작동하지 않음**
 
     만든 앱이 경고 없이 작동을 멈추는 경우 지난 6개월 동안 앱을 업데이트하거나 다시 게시하지 않았기 때문일 수 있습니다. 이 문제를 해결하려면 앱을 업데이트 및/또는 다시 게시하여 최신 버전의 PowerApps와 동기화한 다음, 게시 후 6개월 이내에 앱을 계속 업데이트하거나 다시 게시해야 합니다.

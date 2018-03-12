@@ -13,19 +13,23 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/13/2018
+ms.date: 03/05/2018
 ms.author: sharik
-ms.openlocfilehash: b8d06bb8ffbe1446f4c918e6cf1c6657c1890e65
-ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
+ms.openlocfilehash: e259c4c235809f75c03b3ea87df580b9b17a790c
+ms.sourcegitcommit: c76ec82db5d261be1fb7fdeeec3e119cdfada57f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="whats-new-in-powerapps"></a>PowerApps의 새로운 기능
 알려진 제한 사항에 대한 정보는 [일반적인 문제 및 해결 방법](common-issues-and-resolutions.md)을 참조하세요.
 
 > [!NOTE]
 > 릴리스는 며칠 동안 배포됩니다. 새 기능 또는 업데이트된 기능이 즉시 나타나지 않을 수 있습니다.
+
+## <a name="mar-5"></a>3월 5일
+1. SharePoint 목록에 [첨부 파일](controls/control-attachments.md)을 추가(및 삭제)합니다.
+2. 외부 [PDF](controls/control-pdf-viewer.md) 파일을 웹 브라우저에서 엽니다. (실험적 기능)
 
 ## <a name="feb-12"></a>2월 12일
 * 포함된 [비디오](controls/control-audio-video.md) 및 [오디오](controls/control-audio-video.md) 재생에 대한 볼륨 컨트롤이 이제 인라인으로 제공됩니다. 재생을 음소거하려면, 단추를 클릭하거나 탭하는 대신 이제 볼륨 컨트롤을 사용하여 볼륨을 줄여야 합니다.
@@ -64,13 +68,3 @@ ms.lasthandoff: 02/14/2018
 1. 앱의 [모든 규칙 표시](working-with-rules.md)는 선택한 컨트롤을 위한 것만은 아닙니다.
 2. 앱 작성자가 가장 많이 요청한 아이콘을 추가합니다.
 3. Android 및 iOS 장치용 앱의 성능이 향상되었습니다.
-
-## <a name="sept-20"></a>9월 20일
-1. 처음으로 [앱을 저장](save-publish-app.md)하면 기본적으로 2분마다 자동으로 추가적인 변경 사항이 저장됩니다.
-2. 식을 작성하지 않고 조건을 설정한 후 PowerApps 캔버스에서 바로 결과를 설계하는 방식으로 손쉽게 조건부 서식에 대한 [규칙을 생성](working-with-rules.md)할 수 있습니다.
-3. 컨트롤이 추가되면 표시되는 전체 높이의 데이터 팝업 창을 사용하여 양식, 갤러리 및 데이터 테이블을 더욱 손쉽게 구성할 수 있습니다.
-4. 새 앱, 템플릿, 데이터 원본 또는 SharePoint 중 어느 것으로 시작하든 관계없이 앱을 만드는 데 도움을 주는 상황에 맞는 빠른 팁을 확인하세요.
-
-## <a name="sept-6"></a>9월 6일
-1. 사용자가 작성한 앱에 대 Power BI에 포함된 대시보드에서 [사용을 추적](app-analytics.md)합니다.
-2. **[Split](functions/function-split.md)** 함수를 사용하여 텍스트 문자열을 여러 부분으로 나누려면 구분 기호를 사용합니다.

@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/17/2016
 ms.author: gregli
-ms.openlocfilehash: 8aa5fb671878af21fa483dde348460bf7c05fc70
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: 11f3a29989057a3dc1a75c40877314596a62859d
+ms.sourcegitcommit: c76ec82db5d261be1fb7fdeeec3e119cdfada57f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="controls-and-properties-in-powerapps"></a>PowerApps 컨트롤 및 속성
 속성 중 하나를 설정하여 컨트롤의 모양과 동작을 구성합니다. 각 유형의 컨트롤에는 서로 다른 속성 집합이 있습니다. **Height** 및 **Width**와 같은 일부 속성은 거의 모든 유형의 컨트롤에 공통으로 적용되지만, **CheckboxSize**와 같은 다른 속성은 한 유형의 컨트롤에만 적용됩니다.
@@ -31,7 +31,7 @@ ms.lasthandoff: 01/23/2018
 
 **[오디오](controls/control-audio-video.md)** – 오디오 클립 또는 비디오 클립의 오디오 부분을 재생합니다.
 
-**[바코드 스캐너](controls/control-barcodescanner.md)** – 카메라가 있는 장치를 사용하여 바코드를 스캔합니다.
+**[바코드 스캐너(실험적)](controls/control-barcodescanner.md)** – 카메라가 있는 장치를 사용하여 바코드를 스캔합니다.
 
 **[단추](controls/control-button.md)** – 클릭하거나 탭하여 앱과 상호 작용합니다.
 
@@ -77,7 +77,7 @@ ms.lasthandoff: 01/23/2018
 
 **[마이크](controls/control-microphone.md)** – 앱 또는 데이터 원본에 소리를 녹음하고 저장합니다.
 
-**[PDF 뷰어](controls/control-pdf-viewer.md)** – 인터넷에서 PDF 파일의 내용을 표시합니다.
+**[PDF 뷰어(실험적)](controls/control-pdf-viewer.md)** – 인터넷에서 PDF 파일의 내용을 표시합니다.
 
 **[펜 입력](controls/control-pen-input.md)** – 이미지 또는 텍스트를 그리고, 앱 또는 데이터 원본에 저장합니다.
 

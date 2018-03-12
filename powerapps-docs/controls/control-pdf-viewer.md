@@ -15,21 +15,23 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 8a67a071a19bae57f022fe960a0b29296b58cf5d
-ms.sourcegitcommit: 68eee592c351688e5d0bd458f33a70be507fa53f
+ms.openlocfilehash: c3ed17faae5963f71531b2fdc2ef9b08ee2569cc
+ms.sourcegitcommit: c76ec82db5d261be1fb7fdeeec3e119cdfada57f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 03/08/2018
 ---
-# <a name="pdf-viewer-control-in-powerapps"></a>PowerApps의 PDF 뷰어
-PDF 파일의 내용을 표시하는 컨트롤입니다.
+# <a name="pdf-viewer-control-experimental-in-powerapps"></a>PowerApps의 PDF 뷰어 컨트롤(실험)
+PDF 파일의 콘텐츠를 표시하는 실험적 컨트롤입니다.
 
 ## <a name="description"></a>설명
 이 형식의 컨트롤을 추가하고, **Document** 속성을 표시하려는 파일의 URL(큰따옴표로 묶은)로 설정하여 PDF 파일에 있는 텍스트, 그래픽 및 기타 콘텐츠를 표시합니다.
 
 ## <a name="limitations"></a>제한 사항
 PowerApps의 보안 아키텍처로 인해 PDF 뷰어는 HTTP가 아닌 HTTPS 링크만을 지원합니다.  
-PDF 문서가 제한적인 CORS 설정을 사용하는 서버에 존재하는 경우 앱 내에서 볼 수 없습니다.  PowerApps에서 문서를 열 수 없는 경우 외부 브라우저에서 문서를 여는 옵션은 최종 사용자에게 표시됩니다.
+PDF 문서가 제한적인 CORS 설정을 사용하는 서버에 존재하는 경우 앱 내에서 볼 수 없습니다.  이 문제를 해결하려면 PDF 문서를 호스팅하는 서버에서 powerapps.com에서 오는 CORS(교차 원본 요청)를 허용해야 합니다.
+
+PowerApps에서 문서를 열 수 없는 경우 외부 브라우저에서 문서를 여는 옵션은 최종 사용자에게 표시됩니다.  이 옵션은 모든 외부 문서에 대한 컨트롤 메뉴에서 사용할 수 있습니다.
 
 ## <a name="key-properties"></a>주요 속성
 **Document** – PDF 파일의 URL(큰따옴표로 묶은)입니다.
