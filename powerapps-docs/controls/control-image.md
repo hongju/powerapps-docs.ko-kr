@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 6266e8b59f19862e4b4a7f2364785da8e7547e73
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: 0ab25713976e9f89fa74b5f7664b13dca447841e
+ms.sourcegitcommit: 87327f99636c68c62c755c4eb48861249a5a3add
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="image-control-in-powerapps"></a>PowerApps의 이미지 컨트롤
 로컬 파일이나 데이터 원본 등으로부터 이미지를 표시하는 컨트롤입니다.
@@ -110,9 +110,9 @@ ms.lasthandoff: 01/23/2018
 
 ## <a name="examples"></a>예
 ### <a name="show-an-image-from-a-local-file"></a>로컬 파일에서 이미지 표시
-1. **콘텐츠** 탭에서 **미디어**를 클릭하거나 터치한 다음 **찾아보기**를 클릭하거나 터치합니다.
+1. **파일** 메뉴에서 **미디어**를 클릭하거나 탭한 다음, **찾아보기**를 클릭하거나 탭합니다.
 2. 추가할 이미지 파일을 클릭하거나 터치하고, **열기**를 클릭하거나 터치한 다음 기본 작업 영역으로 돌아가려면 Esc를 누릅니다.
-3. **이미지** 컨트롤을추가하고 **[Items](properties-core.md)** 속성을 추가한 파일의 이름으로 설정합니다.
+3. **이미지** 컨트롤을 추가하고 **이미지** 속성을 추가한 파일의 이름으로 설정합니다.
 
     [컨트롤을 추가하고 구성](../add-configure-controls.md)하는 방법을 모르시나요?
 
