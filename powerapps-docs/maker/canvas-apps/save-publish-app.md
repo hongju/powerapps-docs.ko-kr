@@ -1,13 +1,13 @@
 ---
-title: "앱 저장 및 게시 | Microsoft Docs"
-description: "앱을 저장하고 게시하는 앱 결정자를 위한 단계별 지침"
-services: 
+title: 앱 저장 및 게시 | Microsoft Docs
+description: 앱을 저장하고 게시하는 앱 결정자를 위한 단계별 지침
+services: ''
 suite: powerapps
 documentationcenter: na
 author: SKjerland
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 09/14/2017
 ms.author: sharik
 ms.openlocfilehash: 739813b2b4905653543461008986901d4e2ee95b
-ms.sourcegitcommit: faaf9adebd72794d2988fba1b27a31d70b5268f8
+ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="save-and-publish-an-app-in-powerapps"></a>PowerApps에서 앱 저장 및 게시
 앱에 대한 변경 내용을 저장할 때마다 앱을 편집하는 사용 권한이 있는 자신 및 다른 모든 사용자에 대해서만 자동으로 게시합니다. 변경이 끝나면 앱이 공유된 모든 사용자가 사용할 수 있도록 명시적으로 게시해야 합니다.

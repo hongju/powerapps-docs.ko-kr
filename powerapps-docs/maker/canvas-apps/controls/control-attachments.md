@@ -1,13 +1,13 @@
 ---
-title: "첨부 파일 컨트롤: 참조 | Microsoft Docs"
-description: "첨부 파일 컨트롤에 대한 속성 및 예제를 포함한 정보"
-services: 
+title: '첨부 파일 컨트롤: 참조 | Microsoft Docs'
+description: 첨부 파일 컨트롤에 대한 속성 및 예제를 포함한 정보
+services: ''
 suite: powerapps
 documentationcenter: na
 author: fikaradz
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 09/29/2017
 ms.author: fikaradz
 ms.openlocfilehash: b58e99e4775ed5c18d3498864c6e652e814ddf19
-ms.sourcegitcommit: c76ec82db5d261be1fb7fdeeec3e119cdfada57f
+ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="attachments-control-in-powerapps"></a>PowerApps의 첨부 파일 컨트롤
 사용자가 자신의 장치에 파일을 다운로드하고, SharePoint 목록에서 파일을 업로드 및 삭제할 수 있는 컨트롤입니다.

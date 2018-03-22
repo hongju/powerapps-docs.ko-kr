@@ -1,13 +1,13 @@
 ---
-title: "Value 함수 | Microsoft Docs"
-description: "PowerApps에서 Value 함수에 대한 구문을 포함한 참조 정보"
-services: 
+title: Value 함수 | Microsoft Docs
+description: PowerApps에서 Value 함수에 대한 구문을 포함한 참조 정보
+services: ''
 suite: powerapps
 documentationcenter: na
 author: gregli-msft
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 11/07/2015
 ms.author: gregli
 ms.openlocfilehash: ce377c87347b2ee027271b94eb623a58d7f58bd1
-ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
+ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="value-function-in-powerapps"></a>PowerApps의 Value 함수
 텍스트의 문자열을 숫자로 변환합니다.

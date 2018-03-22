@@ -1,13 +1,13 @@
 ---
-title: "Power BI 프로젝트 보고서 게시 및 대시보드 만들기 | Microsoft Docs"
-description: "이 작업에서는 데이터 집합을 게시하고 Power BI 서비스에 보고합니다. 그런 다음 보고서를 기반으로 하여 대시보드를 만듭니다."
-services: 
+title: Power BI 프로젝트 보고서 게시 및 대시보드 만들기 | Microsoft Docs
+description: 이 작업에서는 데이터 집합을 게시하고 Power BI 서비스에 보고합니다. 그런 다음 보고서를 기반으로 하여 대시보드를 만듭니다.
+services: ''
 suite: powerapps
 documentationcenter: na
 author: mgblythe
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 01/30/2018
 ms.author: mblythe
 ms.openlocfilehash: 6f54274af043964f02ef02a5ce97c261a410391d
-ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
+ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="publish-the-power-bi-project-report-and-create-a-dashboard"></a>Power BI 프로젝트 보고서 게시 및 대시보드 만들기
 > [!NOTE]

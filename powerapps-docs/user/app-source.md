@@ -1,13 +1,13 @@
 ---
-title: "AppSource를 통한 앱 검색 | Microsoft Docs"
-description: "AppSource를 통해 사용자 조직과 공유하는 앱 검색"
-services: 
+title: AppSource를 통한 앱 검색 | Microsoft Docs
+description: AppSource를 통해 사용자 조직과 공유하는 앱 검색
+services: ''
 suite: powerapps
 documentationcenter: na
 author: linhtranms
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/28/2016
 ms.author: litran
 ms.openlocfilehash: 805a74da29a97902eb700bb949f37cca491c05a0
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="discover-apps-via-appsource"></a>AppSource를 통한 앱 검색
 PowerApps로 빌드하고 게시한 앱은 웹의 Dynamics 365에서 검색되며 사용됩니다. 사용자가 사용을 구체적으로 지정한 앱(즉, 공유 이메일에서 시작 또는 AppSource에서 열기) 또는 관리자가 사용자를 위해 프로비전한 앱과 같이 사용자의 모든 앱이 표시됩니다. 여기에는 PowerApps의 모든 사용자 앱과 함께 Microsoft에서의 Dynamics 365 응용 프로그램이 포함됩니다. 앱을 검색하고, 환경별로 필터링하고, 가장 자주 사용하는 앱을 페이지 상단에 고정할 수 있습니다.

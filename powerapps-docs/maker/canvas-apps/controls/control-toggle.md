@@ -1,13 +1,13 @@
 ---
-title: "토글 컨트롤: 참조 | Microsoft Docs"
-description: "속성 및 예제를 포함한 토글 컨트롤에 관한 정보"
-services: 
+title: '토글 컨트롤: 참조 | Microsoft Docs'
+description: 속성 및 예제를 포함한 토글 컨트롤에 관한 정보
+services: ''
 suite: powerapps
 documentationcenter: na
 author: fikaradz
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
 ms.openlocfilehash: dac1f8ea99746f04d2d3305e279a4bc5faf67903
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="toggle-control-in-powerapps"></a>PowerApps의 토글 컨트롤
 핸들을 움직여 사용자가 켜거나 끌 수 있는 컨트롤입니다.

@@ -1,13 +1,13 @@
 ---
-title: "Power BI 타일 컨트롤: 참조 | Microsoft Docs"
-description: "속성 및 예제를 비롯한 Power BI 타일 컨트롤에 관한 정보"
-services: 
+title: 'Power BI 타일 컨트롤: 참조 | Microsoft Docs'
+description: 속성 및 예제를 비롯한 Power BI 타일 컨트롤에 관한 정보
+services: ''
 suite: powerapps
 documentationcenter: na
 author: fikaradz
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 07/07/2016
 ms.author: fikaradz
 ms.openlocfilehash: 1f351877e3c05b83b4bd9cfa104a7eb22cef5028
-ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
+ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="power-bi-tile-control-in-powerapps"></a>PowerApps의 Power BI 타일 컨트롤
 앱 내부에 있는 [Power BI](https://powerbi.microsoft.com) 타일을 보여주는 컨트롤입니다.

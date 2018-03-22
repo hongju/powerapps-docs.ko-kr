@@ -1,13 +1,13 @@
 ---
-title: "프로젝트를 관리하는 앱 만들기 | Microsoft Docs"
-description: "이 작업에서는 앱을 처음부터 빌드합니다. 이 앱을 통해 사용자는 관리자를 프로젝트에 할당하고 프로젝트 세부 정보를 업데이트할 수 있습니다."
-services: 
+title: 프로젝트를 관리하는 앱 만들기 | Microsoft Docs
+description: 이 작업에서는 앱을 처음부터 빌드합니다. 이 앱을 통해 사용자는 관리자를 프로젝트에 할당하고 프로젝트 세부 정보를 업데이트할 수 있습니다.
+services: ''
 suite: powerapps
 documentationcenter: na
 author: mgblythe
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 06/12/2017
 ms.author: mblythe
 ms.openlocfilehash: da64b3b8f5453c41bf5e9c6fcf61ce335b47ff71
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="create-an-app-to-manage-projects"></a>프로젝트를 관리하는 앱 만들기
 > [!NOTE]
@@ -58,7 +58,7 @@ PowerPoint에서 슬라이드 모음을 만드는 것처럼 PowerApps Studio에�
    
     ![클라우드에 저장](./media/sharepoint-scenario-build-app/04-01-03-save-to-cloud.png)
 
-4. 앱으로 돌아가기 아이콘을 ![클릭하거나 탭하여](./media/sharepoint-scenario-build-app/icon-back-to-app.png) 앱으로 돌아갑니다.
+4. 종 모양 아이콘을 ![클릭하거나 탭하여](./media/sharepoint-scenario-build-app/icon-back-to-app.png) 앱으로 돌아갑니다.
 
 ### <a name="add-four-screens-to-the-app"></a>앱에 4개 화면 추가
 이 단계에서는 앱에 대한 4개의 빈 화면을 만듭니다. 화면의 용도에 따라 별개의 화면 레이아웃을 사용합니다. 이후 단계에서 이러한 화면을 추가합니다.
@@ -166,11 +166,11 @@ PowerPoint에서 슬라이드 모음을 만드는 것처럼 PowerApps Studio에�
 
 1. **SelectTask** 화면을 클릭하거나 탭합니다(앱은 항상 PowerApps Studio의 미리 보기 모드에서 선택한 화면에서 시작합니다).
 
-2. 오른쪽 위 모서리에서 ![앱 실행 아이콘을 클릭하거나 탭하여](./media/sharepoint-scenario-build-app/icon-run-arrow.png) 앱을 실행합니다.
+2. 종 모양 아이콘을 ![앱 실행 아이콘을 클릭하여](./media/sharepoint-scenario-build-app/icon-run-arrow.png) 앱을 실행합니다.
 
 3. 단추 중 하나를 클릭하거나 탭하여 다른 화면으로 이동합니다.
 
-4. 오른쪽 위 모서리에서 ![앱 미리 보기 닫기 아이콘을 클릭하거나 탭하여](./media/sharepoint-scenario-build-app/icon-close-preview.png) 앱을 닫습니다.
+4. 종 모양 아이콘을 ![앱 미리 보기 닫기 아이콘을 클릭하거나 탭하여](./media/sharepoint-scenario-build-app/icon-close-preview.png) 앱을 닫습니다.
 
 ## <a name="step-4-build-the-assignmanager-screen"></a>4단계: AssignManager 화면 빌드
 이 단계에서는 갤러리를 사용하여 승인되었지만 아직 관리자가 없는 모든 프로젝트를 표시합니다. 다른 컨트롤을 추가하여 관리자를 지정할 수 있습니다.

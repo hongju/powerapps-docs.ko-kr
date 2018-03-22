@@ -1,13 +1,13 @@
 ---
-title: "If 및 Switch 함수 | Microsoft Docs"
-description: "PowerApps의 If 및 Switch 함수에 대한 구문과 예제를 포함한 참조 정보"
-services: 
+title: If 및 Switch 함수 | Microsoft Docs
+description: PowerApps의 If 및 Switch 함수에 대한 구문과 예제를 포함한 참조 정보
+services: ''
 suite: powerapps
 documentationcenter: na
 author: gregli-msft
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 04/24/2017
 ms.author: gregli
 ms.openlocfilehash: 9254eaf63d816fc8ac9890026f74bdeaeaa9b1a4
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="if-and-switch-functions-in-powerapps"></a>PowerApps의 If 및 Switch 함수
 집합의 조건이 참 인지(**If**) 또는 수식의 결과가 집합의 값과 일치하는지(**Switch**) 확인한 다음 결과를 반환하거나 작업을 실행합니다.

@@ -1,13 +1,13 @@
 ---
-title: "프로젝트를 분석하는 Power BI 보고서 만들기 | Microsoft Docs"
-description: "이 작업에서는 두 가지 SharePoint 목록을 기반으로 하여 Power BI 보고서를 만듭니다."
-services: 
+title: 프로젝트를 분석하는 Power BI 보고서 만들기 | Microsoft Docs
+description: 이 작업에서는 두 가지 SharePoint 목록을 기반으로 하여 Power BI 보고서를 만듭니다.
+services: ''
 suite: powerapps
 documentationcenter: na
 author: mgblythe
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 01/10/2018
 ms.author: mblythe
 ms.openlocfilehash: 6f3045a67de492866c3db7d9238a5c4c2111bcb6
-ms.sourcegitcommit: 397a968f57ce5aaaf2b86e804dfedda8cf34f307
+ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="create-a-power-bi-report-to-analyze-projects"></a>프로젝트를 분석하는 Power BI 보고서 만들기
 > [!NOTE]

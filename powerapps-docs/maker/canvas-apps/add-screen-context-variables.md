@@ -1,13 +1,13 @@
 ---
-title: "화면 추가 및 화면 간 탐색 | Microsoft Docs"
-description: "앱에 화면을 추가하고 다음 및 뒤로 화살표를 사용하여 PowerApps에서 화면 사이를 탐색"
-services: 
+title: 화면 추가 및 화면 간 탐색 | Microsoft Docs
+description: 앱에 화면을 추가하고 다음 및 뒤로 화살표를 사용하여 PowerApps에서 화면 사이를 탐색
+services: ''
 suite: powerapps
 documentationcenter: na
 author: skjerland
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 07/10/2017
 ms.author: sharik
 ms.openlocfilehash: 64c38e561be90cbebabe17f73377e4d754d99c54
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="add-a-screen-and-navigate-between-screens"></a>화면 추가 및 화면 간 탐색
 여러 화면이 있는 앱을 만들고 사용자가 이들 사이를 탐색하는 방법을 추가합니다.

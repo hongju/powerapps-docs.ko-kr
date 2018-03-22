@@ -1,13 +1,13 @@
 ---
-title: "연산자 | Microsoft Docs"
-description: "PowerApps의 연산자에 대한 구문과 예제를 포함한 참조 정보"
-services: 
+title: 연산자 | Microsoft Docs
+description: PowerApps의 연산자에 대한 구문과 예제를 포함한 참조 정보
+services: ''
 suite: powerapps
 documentationcenter: na
 author: gregli-msft
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 07/24/2017
 ms.author: gregli
 ms.openlocfilehash: 3250251e02170d2dd7bab441bc3c94705216ec00
-ms.sourcegitcommit: 397a968f57ce5aaaf2b86e804dfedda8cf34f307
+ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="operators-and-data-types-in-powerapps"></a>PowerApps의 연산자 및 데이터 형식
 일부 연산자는 제작자의 언어에 따라 달라집니다.  자세한 내용은 [글로벌 앱](../global-apps.md)을 참조하세요.

@@ -1,13 +1,13 @@
 ---
-title: "가속, 앱, 나침반, 연결 및 위치 신호 | Microsoft Docs"
-description: "PowerApps의 가속, 앱, 나침반, 연결 및 위치 센서 등, 구문 및 예제를 포함한 참조 정보"
-services: 
+title: 가속, 앱, 나침반, 연결 및 위치 신호 | Microsoft Docs
+description: PowerApps의 가속, 앱, 나침반, 연결 및 위치 센서 등, 구문 및 예제를 포함한 참조 정보
+services: ''
 suite: powerapps
 documentationcenter: na
 author: gregli-msft
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 11/07/2015
 ms.author: gregli
 ms.openlocfilehash: ae649c4935a92d9db800dcd75fddf848eccbfcc1
-ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
+ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="acceleration-app-compass-connection-and-location-signals-in-powerapps"></a>PowerApps의 가속, 앱, 나침반, 연결 및 위치 신호 
 전 세계에서 사용자의 위치, 표시할 화면 등과 같이 앱 환경 관련 정보를 반환합니다.  

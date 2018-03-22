@@ -1,13 +1,13 @@
 ---
-title: "텍스트 입력 컨트롤: 참조 | Microsoft Docs"
-description: "속성 및 예제를 비롯한 텍스트 입력 컨트롤에 관한 정보"
-services: 
+title: '텍스트 입력 컨트롤: 참조 | Microsoft Docs'
+description: 속성 및 예제를 비롯한 텍스트 입력 컨트롤에 관한 정보
+services: ''
 suite: powerapps
 documentationcenter: na
 author: fikaradz
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
 ms.openlocfilehash: 4082034d843765025bb6e40cab83705582417d51
-ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
+ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="text-input-control-in-powerapps"></a>PowerApps의 텍스트 입력 컨트롤
 사용자가 텍스트, 숫자 및 기타 데이터를 입력할 수 있는 상자입니다.

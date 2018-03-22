@@ -1,13 +1,13 @@
 ---
-title: "처음부터 앱 만들기 | Microsoft Docs"
-description: "비즈니스에 활력을 넣는 일상적인 데이터를 관리하도록 각 UI 요소와 동작을 구성하여 처음부터 앱을 만듭니다."
-services: 
+title: 처음부터 앱 만들기 | Microsoft Docs
+description: 비즈니스에 활력을 넣는 일상적인 데이터를 관리하도록 각 UI 요소와 동작을 구성하여 처음부터 앱을 만듭니다.
+services: ''
 suite: powerapps
 documentationcenter: na
 author: karthik-1
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/16/2016
 ms.author: sharik
 ms.openlocfilehash: d530fb5f77f00cb37322383a3817e9c38533ca1d
-ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
+ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="create-an-app-from-scratch"></a>앱을 처음부터 만들기
 다양한 데이터 원본 중 하나를 사용하고 원하는 경우 더 많은 원본을 추가하여 처음부터 사용자 고유 앱을 만듭니다. 정확한 목표와 워크플로에 대한 결과를 최적화할 수 있도록 각 UI 요소의 동작과 모양을 지정합니다. 이 접근 방식은 [앱을 자동으로 생성](get-started-create-from-data.md)하는 것보다 훨씬 시간 집약적이지만, 노력한 앱 제작자는 요구 사항에 맞는 최고의 앱을 빌드할 수 있습니다.

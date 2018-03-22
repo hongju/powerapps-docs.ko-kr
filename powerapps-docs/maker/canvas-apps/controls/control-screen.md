@@ -1,13 +1,13 @@
 ---
-title: "화면 컨트롤: 참조 | Microsoft Docs"
-description: "속성 및 예제를 포함한 화면 컨트롤 관련 정보"
-services: 
+title: '화면 컨트롤: 참조 | Microsoft Docs'
+description: 속성 및 예제를 포함한 화면 컨트롤 관련 정보
+services: ''
 suite: powerapps
 documentationcenter: na
 author: fikaradz
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
 ms.openlocfilehash: cd2e2a8c28fb894b1935b29bf80bf65eb631a266
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="screen-control-in-powerapps"></a>PowerApps의 화면 컨트롤
 앱에서 하나 이상의 다른 컨트롤을 포함하는 UI 요소입니다.
