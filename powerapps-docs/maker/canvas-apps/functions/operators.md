@@ -1,0 +1,93 @@
+---
+title: "연산자 | Microsoft Docs"
+description: "PowerApps의 연산자에 대한 구문과 예제를 포함한 참조 정보"
+services: 
+suite: powerapps
+documentationcenter: na
+author: gregli-msft
+manager: anneta
+editor: 
+tags: 
+ms.service: powerapps
+ms.devlang: na
+ms.topic: article
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.date: 07/24/2017
+ms.author: gregli
+ms.openlocfilehash: 3250251e02170d2dd7bab441bc3c94705216ec00
+ms.sourcegitcommit: 397a968f57ce5aaaf2b86e804dfedda8cf34f307
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 03/19/2018
+---
+# <a name="operators-and-data-types-in-powerapps"></a>PowerApps의 연산자 및 데이터 형식
+일부 연산자는 제작자의 언어에 따라 달라집니다.  자세한 내용은 [글로벌 앱](../global-apps.md)을 참조하세요.
+
+| 기호 | 유형 | 구문 | 설명 |
+| --- | --- | --- | --- |
+| **.** |속성 선택기 |**Slider1.Value<br>Color.Red<br>Acceleration.X** |[테이블](../working-with-tables.md), 컨트롤, [신호](signals.md), 또는 열거에서 속성을 추출합니다.  이전 버전과의 호환성을 위해 **!**를 사용할 수도 있습니다. |
+| **.**<br>[또는 **,** [언어에 따라](../global-apps.md)] |소수 구분 기호 |**1.23**<br>[또는 **1,23** 언어에 따라] |숫자의 정수 부분과 소수 부분 사이의 구분 기호입니다.  이 문자는 언어에 따라 다릅니다. |
+| **( )** |괄호 |**필터(T, A &lt; 10)**<br><br>**(1 + 2) * 3** |우선 순위를 적용하고 하위 식을 더 큰 식으로 그룹화합니다. |
+| **+** |산술 연산자 |**1 + 2** |더하기 |
+| **-** |&nbsp; |**2 - 1** |빼기와 부호 |
+| **\*** |&nbsp; |**2 * 3** |곱하기 |
+| **/** |&nbsp; |**2 / 3** |나누기(**[Mod](function-mod.md)** 함수도 참조) |
+| **^** |&nbsp; |**2 ^ 3** |지수, **[거듭제곱](function-numericals.md)**에 해당 |
+| **%** |&nbsp; |**20%** |백분율(&quot;* 1/100&quot;에 해당) |
+| **=** |비교 연산자 |**Price = 100** |같음 |
+| **&gt;** |&nbsp; |**Price &gt; 100** |보다 큼 |
+| **&gt;=** |&nbsp; |**Price &gt;= 100** |보다 크거나 같음 |
+| **&lt;** |&nbsp; |**Price &lt; 100** |보다 작음 |
+| **&lt;=** |&nbsp; |**Price &lt;= 100** |보다 작거나 같음 |
+| **&lt;&gt;** |&nbsp; |**Price &lt;&gt; 100** |같지 않음 |
+| **&amp;** |문자열 연결 연산자 |**&quot;hello&quot; &amp; &quot; &quot; &amp; &quot;world&quot;** |여러 문자열을 연속하여 표시 |
+| **&amp;&amp;** 또는 **And** |논리 연산자  |**Price &lt; 100 &amp;&amp; Slider1.Value = 20**<br>또는 **Price &lt; 100 And Slider1.Value = 20** |논리 결합, **[And](function-logicals.md)** 함수에 해당 |
+| **&#124;&#124;** 또는 **Or** |&nbsp; |**Price &lt; 100 &#124;&#124; Slider1.Value = 20** 또는 **Price &lt; 100 Or Slider1.Value = 20** |논리 분리, **[Or](function-logicals.md)** 함수에 해당 |
+| **!** 또는 **Not** |&nbsp; |**!(Price &lt; 100)** 또는 **Not (Price &lt; 100)** |논리 부정, **[Not](function-logicals.md)** 함수에 해당 |
+| **exactin** |[멤버 자격 연산자](#in-and-exactin-operators) |**Gallery1.Selected exactin SavedItems** |[컬렉션](../working-with-data-sources.md#collections) 또는 테이블에 속함 |
+| **exactin** |&nbsp; |**&quot;Windows&quot; exactin “To display windows in the Windows operating system...”** |부분 문자열 테스트(대/소문자 구분) |
+| **in** |&nbsp; |**Gallery1.Selected in SavedItems** |컬렉션 또는 테이블에 속함 |
+| **in** |&nbsp; |**&quot;The&quot; in &quot;The keyboard and the monitor...&quot;** |부분 문자열 테스트(대/소문자 구분 안 함) |
+| **@** |[명확성 연산자](#disambiguation-operator) |**MyTable[@fieldname]** |필드 명확성 |
+| **@** |&nbsp; |**[@MyVariable]** |글로벌 명확성 |
+| **,**<br>[또는 **;** [언어에 따라](../global-apps.md)] |목록 구분 기호 |**If( X < 10, "Low", "Good" )**<br>**{X: 12, Y: 32}**<br>**[ 1, 2, 3 ]**<br>[or **If( X < 10; "Low"; "Good" )<br>{ FirstName: "Jane"; LastName: "Doe" }<br>[ 1; 2; 3 ]** ] |분리: <ul><li>함수 호출의 인수</li><li>[레코드](../working-with-tables.md#elements-of-a-table)의 필드</li><li>[값 테이블](../working-with-tables.md#inline-syntax)의 레코드</li></ul>줄임표(...)를 클릭한 다음  이 문자는 언어에 따라 다릅니다. |
+| **;**<br>[또는 **;;** [언어에 따라](../global-apps.md)] |수식 체인 |**Collect(T, A); Navigate(S1, &quot;&quot;)**<br>[또는 **Collect(T; A);; Navigate(S1; &quot;&quot;)**] |동작 속성의 함수 분리 호출.  연결 문자는 언어에 따라 다릅니다. |
+| **Parent** |[부모 연산자](#parent-operator) |**Parent.Fill** |컨트롤 컨테이너의 속성에 대한 액세스 |
+| **ThisItem** |[ThisItem 연산자](#thisitem-operator) |**ThisItem.FirstName** |갤러리 또는 양식 컨트롤의 필드에 대한 액세스 |
+
+## <a name="in-and-exactin-operators"></a>in 및 exactin 연산자
+**[in](operators.md#in-and-exactin-operators)** 및 **[exactin](operators.md#in-and-exactin-operators)** 연산자를 사용하여 컬렉션이나 가져온 테이블 등의 [데이터 원본](../working-with-data-sources.md)에서 문자열을 찾을 수 있습니다. **[in](operators.md#in-and-exactin-operators)** 연산자는 대소문자에 관계없이, **[exactin](operators.md#in-and-exactin-operators)** 연산자는 대소문자가 같은 경우에만 일치 항목을 식별합니다. 예를 들면 다음과 같습니다.
+
+1. [갤러리에서 이미지 및 텍스트 표시](../show-images-text-gallery-sort-filter.md)에서 설명하는 첫 번째 절차에 따라 **Inventory**라는 컬렉션을 만들거나 가져와 갤러리에 표시합니다.
+2. 갤러리의 **[Items](../controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.
+   <br>**Filter(Inventory, "E" in ProductName)**
+   
+    갤러리는 Callisto를 제외한 모든 제품을 표시합니다. 이 제품의 이름은 사용자가 지정한 문자를 포함하지 않는 것뿐이기 때문입니다.
+3. 갤러리의 **[Items](../controls/properties-core.md)** 속성을 다음 수식으로 변경합니다.
+   <br>**Filter(Inventory, "E" exactin ProductName)**
+   
+    갤러리는 Europa만 표시합니다. 이 이름만 사용자가 지정한 대소문자대로 문자를 포함하기 때문입니다.
+
+## <a name="thisitem-operator"></a>ThisItem 연산자
+테이블이나 컬렉션에 데이터를 바인딩하여 **[갤러리](../controls/control-gallery.md)**, **[편집 양식](../controls/control-form-detail.md)** 또는 **[표시 양식](../controls/control-form-detail.md)** 컨트롤에 데이터를 표시할 수 있습니다.  이러한 컨트롤은 다른 카드 및 컨트롤에 대한 컨테이너입니다.  컨테이너 안의 각 카드 또는 컨트롤은  **[ThisItem](operators.md#thisitem-operator)**  연산자를 통해 바인딩된 데이터에 액세스할 수 있습니다.   
+
+**[ThisItem](operators.md#thisitem-operator)** 연산자를 사용하여 외부 컨트롤 내부에 있는 각 카드 또는 컨트롤의 데이터 [열](../working-with-tables.md#columns)을 지정합니다. 예를 들어 [갤러리에 이미지 및 텍스트 표시](../show-images-text-gallery-sort-filter.md)를 위한 제품 갤러리의 연산자가 이미지 컨트롤이 제품 설계, 위쪽 레이블이 제품 이름, 아래쪽 레이블이 묶음의 단위 수를 표시하도록 지정했습니다.
+
+중첩된 갤러리에 대해 **[ThisItem](operators.md#thisitem-operator)**은 가장 안쪽의 갤러리 항목을 참조합니다. 내부 및 외부 갤러리의 행이 충돌하지 않다는다고 가정하면 정규화되지 않은 필드(열) 이름을 직접 사용할 수도 있습니다. 이 방법을 사용하면 내부 갤러리에서 규칙을 활성화하여 외부 갤러리의 항목을 참조하게 할 수 있습니다.
+
+## <a name="parent-operator"></a>부모 연산자
+일부 컨트롤은 다른 컨트롤을 호스팅합니다. 예를 들어 **[화면](../controls/control-screen.md)**, **[갤러리](../controls/control-gallery.md)**, **[카드](../controls/control-card.md)**, **[편집 양식](../controls/control-form-detail.md)** 및 **[표시 양식](../controls/control-form-detail.md)** 컨트롤은 모두 컨트롤에 대한 컨테이너입니다. 호스팅하는 컨트롤을 그 안에 담긴 컨트롤의 "부모"라고 합니다.
+
+PowerApps의 컨트롤은 앱 내부의 어디서나 이름을 통해 참조할 수 있습니다. **Screen1**은 앱의 화면 이름일 수 있습니다. 이 화면의 배경색을 검색하기 위해 **Screen1.Fill**을 사용할 수 있습니다.
+
+이 화면의 컨트롤에는 다른 옵션이 있습니다. 상대 참조 **Parent.Fill**을 사용할 수 있습니다. **[Parent](operators.md#parent-operator)** 연산자는 이 컨트롤이 호스팅하는 컨트롤을 참조하여 그 속성을 모두 사용할 수 있게 합니다. **[Parent](operators.md#parent-operator)**를 사용하면 컨트롤의 이름에 종속되지 않기 때문에 유용합니다. 컨테이너 안에서 참조를 조정할 필요 없이 컨테이너 컨트롤을 복사하여 붙여 넣을 수 있습니다. 이 연산자는 수식을 읽을 때 자식과 부모 컨트롤 간의 관계를 분명히 하기도 합니다.
+
+## <a name="disambiguation-operator"></a>명확성 연산자 
+일부 함수는 각 레코드를 처리하는 동안 테이블의 필드에 액세스하기 위해 **Filter**, **AddColumns** 및 **Sum** 등과 같은 [범위 기록](../working-with-tables.md#record-scope)을 만듭니다.  레코드 범위에 추가된 필드 이름은 앱 어디에서나 동일한 이름을 재정의합니다.  이 경우 **@** 명확성 연산자를 사용하여 레코드 범위 밖에서 값에 계속 액세스할 수 있습니다.
+
+* 중첩된 레코드 범위의 값에 액세스하려면 ***Table*[@*FieldName*]** 패턴을 사용하여 작업 중인 테이블의 이름에 **@** 연산자를 사용합니다.  
+* 데이터 원본, 컬렉션 및 컨텍스트 변수와 같은 전역 값에 액세스하려면 **[@*ObjectName*]** (테이블 지정 없음) 패턴을 사용합니다.
+
+자세한 내용 및 예제는 [레코드 범위](../working-with-tables.md#record-scope)를 참조하세요.
+
