@@ -1,13 +1,13 @@
 ---
-title: "핵심 속성 | Microsoft Docs"
-description: "Disabled, Visible 및 ReadOnly 속성에 관한 참조 정보"
-services: 
+title: 핵심 속성 | Microsoft Docs
+description: Disabled, Visible 및 ReadOnly 속성에 관한 참조 정보
+services: ''
 suite: powerapps
 documentationcenter: na
 author: gregli-msft
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/25/2016
 ms.author: gregli
 ms.openlocfilehash: cad53141d6896ad71caaca77b7bf07fee2ac0600
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="core-properties-in-powerapps"></a>PowerApps의 핵심 속성
 사용자가 컨트롤을 보고 상호 작용할 수 있는지 여부를 구성합니다.

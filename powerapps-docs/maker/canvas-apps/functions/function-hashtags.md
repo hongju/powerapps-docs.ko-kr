@@ -1,13 +1,13 @@
 ---
-title: "HashTags 함수 | Microsoft Docs"
-description: "PowerApps HashTags 함수에 대한 구문과 예제를 포함한 참조 정보"
-services: 
+title: HashTags 함수 | Microsoft Docs
+description: PowerApps HashTags 함수에 대한 구문과 예제를 포함한 참조 정보
+services: ''
 suite: powerapps
 documentationcenter: na
 author: gregli-msft
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 11/07/2015
 ms.author: gregli
 ms.openlocfilehash: b2f79c55724d9dc0bc9cfaf9e2e462c646cddb85
-ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
+ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="hashtags-function-in-powerapps"></a>PowerApps의 HashTags 함수
 텍스트 문자열에서 해시태그(#strings)를 추출합니다.

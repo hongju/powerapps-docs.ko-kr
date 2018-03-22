@@ -1,13 +1,13 @@
 ---
-title: "라이선스 개요 | Microsoft Docs"
-description: "Microsoft PowerApps 라이선스에 대한 개요입니다."
-services: 
+title: 라이선스 개요 | Microsoft Docs
+description: Microsoft PowerApps 라이선스에 대한 개요입니다.
+services: ''
 suite: powerapps
 documentationcenter: na
 author: jamesol-msft
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 01/19/2017
 ms.author: jamesol
 ms.openlocfilehash: f3b53905bb335cf61eae3e184d4984d56907fe4c
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="licensing-overview"></a>라이선스 개요
 PowerApps는 사용자별로 사용이 허가됩니다. 앱을 만들고 실행하기 위해 서비스에 액세스하는 각 사용자에게는 라이선스가 필요합니다. Office 365 및 Dynamics 365 고객은 해당 제품에 포함된 PowerApps 및 Microsoft Flow 기능을 즉시 이용할 수 있습니다. Office 365 및 Dynamics 365 외부의 데이터 원본에 액세스하거나 추가 기능이 필요한 앱 및 흐름을 작성하려는 고객은 PowerApps 및 Microsoft Flow에 대한 독립 실행형 구독을 구입할 수 있습니다. 이러한 라이선스 그룹 간의 기능에는 중요한 차이점이 있습니다.

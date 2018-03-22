@@ -1,13 +1,13 @@
 ---
-title: "앱 분석 | Microsoft Docs"
-description: "보고서를 확인하여 사용자 앱의 사용 현황 및 성능을 검토합니다."
-services: 
+title: 앱 분석 | Microsoft Docs
+description: 보고서를 확인하여 사용자 앱의 사용 현황 및 성능을 검토합니다.
+services: ''
 suite: powerapps
 documentationcenter: na
 author: jamesol-msft
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 08/29/2017
 ms.author: jamesol
 ms.openlocfilehash: e66978f6134919b18f4cfba913f1bb34394d8832
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="view-analytics-reports-for-your-app"></a>사용자 앱에 대한 분석 보고서 보기
 앱을 빌드하고 조직과 공유해 본 적 있으세요?  매일 얼마나 많은 동료가 앱을 사용하고 있는지 궁금하신가요?

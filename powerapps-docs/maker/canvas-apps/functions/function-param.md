@@ -1,13 +1,13 @@
 ---
-title: "Download, Launch 및 Param 함수 | Microsoft Docs"
-description: "PowerApps의 Download, Launch 및 Param 함수에 대한 참조 정보이며, 구문과 예제를 포함하고 있습니다."
-services: 
+title: Download, Launch 및 Param 함수 | Microsoft Docs
+description: PowerApps의 Download, Launch 및 Param 함수에 대한 참조 정보이며, 구문과 예제를 포함하고 있습니다.
+services: ''
 suite: powerapps
 documentationcenter: na
 author: gregli-msft
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 11/07/2015
 ms.author: gregli
 ms.openlocfilehash: 4ed646431263e96a079483bc514c8154b6d9b653
-ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
+ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="download-launch-and-param-functions-in-powerapps"></a>PowerApps의 Download, Launch 및 Param 함수
 매개 변수를 사용하여 웹 페이지 또는 앱을 다운로드하거나 시작합니다.  

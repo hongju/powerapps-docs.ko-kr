@@ -1,13 +1,13 @@
 ---
-title: "시각 속성 | Microsoft Docs"
-description: "이미지, ImagePosition, 및 BackgroundImage 속성에 대한 참조 정보"
-services: 
+title: 시각 속성 | Microsoft Docs
+description: 이미지, ImagePosition, 및 BackgroundImage 속성에 대한 참조 정보
+services: ''
 suite: powerapps
 documentationcenter: na
 author: gregli-msft
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/25/2016
 ms.author: gregli
 ms.openlocfilehash: 56cfcc2e19620f5acd8c0fcc4c207020f1a453c1
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="image-properties-in-powerapps"></a>PowerApps의 이미지 속성
 이미지, 사진 및 펜 컨트롤의 요소를 포함하여 앱에서 그래픽 요소를 구성합니다.
