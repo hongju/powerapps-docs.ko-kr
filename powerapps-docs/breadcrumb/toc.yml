@@ -5,3 +5,7 @@
     - name: PowerApps
       tocHref: /powerapps/
       topicHref: /powerapps/
+      items:
+        - name: 학습 도우미
+          tocHref: /powerapps/guided-learning/
+          topicHref: /powerapps/guided-learning/index
