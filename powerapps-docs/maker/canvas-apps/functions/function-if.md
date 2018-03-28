@@ -71,7 +71,7 @@ ms.lasthandoff: 03/22/2018
 | **Switch( Slider1.Value, 20, "Result1", 10, "Result2", 0, "Result3", "DefaultResult" )** |슬라이더의 값이 검사할 모든 값과 일치하지 않습니다.  *DefaultResult*가 제공되었으므로 반환됩니다. |"DefaultResult" |
 
 ### <a name="branching-in-behavior-formulas"></a>동작 수식에서 분기
-이 예제는 **FirstName**이라는 **[텍스트 입력](../controls/control-text-input.md)** 컨트롤에 "John"이라는 값이 입력되어 있습니다.
+이 예제는 **FirstName**이라는 **[Text input](../controls/control-text-input.md)** 컨트롤에 "John"이라는 값이 입력되어 있습니다.
 
 | 수식 | 설명 | 결과 |
 | --- | --- | --- |
@@ -80,7 +80,7 @@ ms.lasthandoff: 03/22/2018
 | **Switch( FirstName.Text, "Carlos", Navigate(&nbsp;Screen1, ScreenTransition.None ), "Kirstin", Navigate( Screen2, ScreenTransition.None ), "John", Navigate( Screen3, ScreenTransition.None ) )** |**FirstName.Text**의 값이 "Carlos", "Kirstin", "John" 순서로 비교됩니다. 'John'과 일치하는 항목이 있으므로 앱이 **Screen3**으로 이동합니다. |**true**<br><br>화면이 **Screen3**으로 변경됩니다. |
 
 ### <a name="step-by-step"></a>단계별 가이드
-1. **[텍스트 입력](../controls/control-text-input.md)** 컨트롤을 추가하고 기본적으로 해당 이름이 없는 경우 이름을 **Text1**로 지정합니다.
+1. **[Text input](../controls/control-text-input.md)** 컨트롤을 추가하고 기본적으로 해당 이름이 없는 경우 이름을 **Text1**로 지정합니다.
 2. **Text1**에 **30**을 입력합니다.
 3. **Label** 컨트롤을 추가하고 **[Text](../controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.<br>
    **If( Value(Text1.Text) < 20, "Order MANY more!", Value(Text1.Text) < 40, "Order more!", Text1.Text )**
