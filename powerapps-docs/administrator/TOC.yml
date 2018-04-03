@@ -1,0 +1,40 @@
+- name: PowerApps 관리
+  href: index.md
+- name: 퀵 스타트
+  items:
+    - name: 환경 만들기
+      href: create-environment.md
+    - name: DLP 정책 만들기
+      href: create-dlp-policy.md
+    - name: 테넌트의 활성 사용자 보기
+      href: admin-view-user-licenses.md
+    - name: 환경에서 앱 보기
+      href: admin-view-apps.md
+- name: 개념
+  items:
+    - name: 라이선스 개요
+      href: pricing-billing-skus.md
+    - name: 환경 개요
+      href: environments-overview.md
+    - name: 데이터 그룹 소개
+      href: introduction-to-data-groups.md
+    - name: 지역 개요
+      href: regions-overview.md
+- name: 방법 가이드
+  items:
+    - name: PowerApps 구매
+      href: signup-for-powerapps-admin.md
+    - name: 조직의 라이선스 관리
+      href: signup-question-and-answer.md
+    - name: DLP 정책 관리
+      href: prevent-data-loss.md
+    - name: 데이터베이스 만들기
+      href: create-database.md
+    - name: 환경 관리
+      href: environments-administration.md
+    - name: 환경 보안 구성
+      href: database-security.md
+    - name: 조직의 앱 관리
+      href: admin-manage-apps.md
+    - name: 테넌트 또는 환경 간에 앱 이동
+      href: environment-and-tenant-migration.md

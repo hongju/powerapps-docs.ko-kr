@@ -1,0 +1,19 @@
+- name: 개요
+  href: overview.md
+- name: 솔루션 소개
+  href: introduction-solutions.md
+- name: '앱 데이터 엔터티용 Common Data Service '
+  href: entities.md
+  items:
+    - name: 엔터티 메타데이터
+      href: entity-metadata.md
+    - name: 특성 메타데이터
+      href: entity-attribute-metadata.md
+    - name: 엔터티 관계 메타데이터
+      href: entity-relationship-metadata.md
+    - name: 엔터티 참조
+      href: reference/entities/toc.yml
+- name: 코드로 비즈니스 논리 적용
+  href: apply-business-logic-with-code.md
+- name: '앱 웹 서비스에 Common Data Service 사용 '
+  href: use-web-services.md
