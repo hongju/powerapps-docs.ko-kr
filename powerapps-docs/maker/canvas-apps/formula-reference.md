@@ -15,18 +15,18 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 08/28/2017
 ms.author: gregli
-ms.openlocfilehash: dac61ab9ce4195f6336fe1625cea12f728eb3e41
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 3ceb9eae42e88e7cfb78492f9e58812481a0881d
+ms.sourcegitcommit: a9d33322228c398d29964429602dc3fe19fa67d2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="formula-reference-for-powerapps"></a>PowerApps에 대한 수식 참조
 수식은 많은 요소를 결합합니다.  아래 나열되어 있습니다.
 
 * **함수**는 매개 변수를 받아 작업을 수행하고 값을 반환합니다. 예를 들어 **Sqrt(25)**는 **5**를 반환합니다. 함수는 Microsoft Excel 함수를 본떠 만듭니다.  **SubmitForm**과 같은 일부 함수에는 파생 작업이 있으며 **Button.OnSelect**와 같은 [동작 수식](working-with-formulas-in-depth.md)에서만 적합합니다.
-* **신호**는 환경에 대한 정보를 반환합니다. 예를 들어 **[Location](functions/signals.md)**는 장치의 현재 GPS 좌표를 반환합니다. 신호는 매개 변수를 받지 않거나 파생 작업이 있습니다.
-* **열거형**은 미리 정의된 상수 값을 반환합니다. 예를 들어 **[Color](functions/function-colors.md)**은 **Color.Red**, **Color.Blue** 및 등에 대해 미리 정의된 값을 포함하는 열거형입니다.  공통 열거형은 여기에 포함되며 함수별 열거형이 함수와 함께 설명됩니다.
+* **신호**는 환경에 대한 정보를 반환합니다. 예를 들어 **[위치](functions/signals.md)**는 장치의 현재 GPS 좌표를 반환합니다. 신호는 매개 변수를 받지 않거나 파생 작업이 있습니다.
+* **열거형**은 미리 정의된 상수 값을 반환합니다. 예를 들어 **[색](functions/function-colors.md)**은 **Color.Red**, **Color.Blue** 및 등에 대해 미리 정의된 값을 포함하는 열거형입니다.  공통 열거형은 여기에 포함되며 함수별 열거형이 함수와 함께 설명됩니다.
 * **[ThisItem](functions/operators.md#thisitem-operator)** 및 **[Parent](functions/operators.md#parent-operator)**와 같은 **명명된 연산자**는 컨테이너 내에서 정보에 대한 액세스를 제공합니다.
 
 기타 요소는 다음과 같습니다.
@@ -122,7 +122,7 @@ ms.lasthandoff: 03/22/2018
 
 **[Degrees](functions/function-trig.md)** - 라디안을 각도로 변환합니다.
 
-**[Disable](functions/function-enable-disable.md)** – GPS 판독 중에 **[Location](functions/signals.md)**와 같은 신호를 사용하지 않습니다.
+**[Disable](functions/function-enable-disable.md)** – GPS 판독 중에 **[위치](functions/signals.md)**와 같은 신호를 사용하지 않습니다.
 
 **[Distinct](functions/function-distinct.md)** – 테이블의 레코드를 요약하여 중복을 제거합니다.  
 
@@ -133,7 +133,7 @@ ms.lasthandoff: 03/22/2018
 ## <a name="e"></a>E
 **[EditForm](functions/function-form.md)** – 항목 편집을 위해 Form 컨트롤을 다시 설정합니다.
 
-**[Enable](functions/function-enable-disable.md)** – GPS 판독 중에 **[Location](functions/signals.md)**와 같은 신호를 사용합니다.
+**[Enable](functions/function-enable-disable.md)** – GPS 판독 중에 **[위치](functions/signals.md)**와 같은 신호를 사용합니다.
 
 **[EndsWith](functions/function-startswith.md)** – 텍스트 문자열이 다른 텍스트 문자열로 끝나는지 확인합니다.
 
@@ -165,7 +165,9 @@ ms.lasthandoff: 03/22/2018
 **[Hour](functions/function-datetime-parts.md)** – 날짜/시간 값의 시간 부분을 반환합니다.
 
 ## <a name="i"></a>I
-**[If](functions/function-if.md)** – 조건이 true이면 한 값을 반환하고 그렇지 않으면 다른 값을 반환합니다.  
+**[If](functions/function-if.md)** – 조건이 true이면 한 값을 반환하고 그렇지 않으면 다른 값을 반환합니다. 
+
+**[IfError](functions/function-iferror.md)** - 오류를 감지하고 대체 값을 제공하거나 작업을 수행합니다. 
 
 **[IsBlank](functions/function-isblank-isempty.md)** – [공백](functions/function-isblank-isempty.md) 값을 확인합니다.
 
@@ -281,6 +283,8 @@ ms.lasthandoff: 03/22/2018
 **[Set](functions/function-set.md)** – 전역 변수의 값을 설정합니다.
 
 **[ShowColumns](functions/function-table-shaping.md)** – 선택한 열만 포함하는 테이블을 반환합니다.
+
+**[ShowError](functions/function-showerror.md)** – 사용자에게 오류 메시지를 표시합니다.
 
 **[Shuffle](functions/function-shuffle.md)** – 테이블의 레코드를 무작위로 다시 정렬합니다.
 
