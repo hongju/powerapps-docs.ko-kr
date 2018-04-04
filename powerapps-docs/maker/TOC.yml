@@ -13,6 +13,10 @@
       items:
         - name: 샘플 앱 열기
           href: ./canvas-apps/open-and-run-a-sample-app.md
+        - name: 템플릿에서 앱 만들기
+          href: ./canvas-apps/get-started-test-drive.md
+        - name: SharePoint 내에서 앱 만들기
+          href: ./canvas-apps/generate-app-from-sharepoint-list-interface.md
         - name: 앱 생성
           items:
             - name: '앱용 Common Data Service 사용 '
@@ -21,10 +25,6 @@
               href: ./canvas-apps/app-from-sharepoint.md
             - name: Excel 사용
               href: ./canvas-apps/get-started-create-from-data.md
-        - name: SharePoint 목록 양식 사용자 지정
-          href: ./canvas-apps/customize-list-form.md
-        - name: SharePoint 내에서 앱 만들기
-          href: ./canvas-apps/generate-app-from-sharepoint-list-interface.md
     - name: 자습서
       items:
         - name: 생성된 앱 사용자 지정
@@ -79,8 +79,8 @@
               href: ./canvas-apps/dev-appsource-test-drive.md
     - name: 방법 가이드
       items:
-        - name: 템플릿에서 앱 만들기
-          href: ./canvas-apps/get-started-test-drive.md
+        - name: SharePoint 목록 양식 사용자 지정
+          href: ./canvas-apps/customize-list-form.md
         - name: Excel 앱 새로 빌드
           href: ./canvas-apps/get-started-create-from-blank.md
         - name: 앱을 사용자 지정하기
@@ -145,6 +145,8 @@
               href: ./canvas-apps/gateway-management.md
             - name: 게이트웨이 이해
               href: ./canvas-apps/gateway-reference.md
+            - name: 파워 쿼리 문제 해결
+              href: ./common-data-service/data-platform-cds-newentity-troubleshooting-mashup.md
         - name: 다른 기술로 통합
           items:
             - name: SharePoint Online
@@ -198,8 +200,8 @@
       href: ./model-driven-apps/overview-model-driven-samples.md
     - name: 모델 기반 앱 공유
       href: ./model-driven-apps/share-model-driven-app.md
-    - name: 모바일 장치에서 모델 기반 앱 실행
-      href: ./model-driven-apps/run-app-client-model-driven.md
+    - name: 개발자용
+      href: ../developer/model-driven-apps/TOC.yml
 - name: 앱용 Common Data Service
   href: ./common-data-service/data-platform-intro.md
   items:

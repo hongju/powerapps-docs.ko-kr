@@ -4,6 +4,8 @@
   href: run-app-browser.md
 - name: 휴대폰에서(캔버스)
   href: run-app-client.md
+- name: 휴대폰에서(모델 기반)
+  href: run-app-client-model-driven.md
 - name: Microsoft 팀에서
   href: open-app-embedded-in-teams.md
 - name: AppSource에서

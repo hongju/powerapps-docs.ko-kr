@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/21/2018
 ms.author: sharik
-ms.openlocfilehash: 302e64eb4668e16a26d391ac49b4057ca688f8cc
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: bc8b69c482bd8266b0915d079db05aacc847be19
+ms.sourcegitcommit: a9d33322228c398d29964429602dc3fe19fa67d2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="find-and-run-apps-overview"></a>앱 찾기 및 실행 개요
 앱 작성자는 사용자가 현장의 모바일 작업자이든, 바쁜 병원의 의사이든 상관없이 자신의 방식대로 작동하는 사용자 지정된 작업 및 역할 기반 *캔버스* 앱을 만들 수 있습니다. 캔버스 앱 작성자는 캔버스 앱의 거의 모든 측면을 사용자 지정할 수 있으며 여러 데이터 원본에 연결하여 사용자가 포커스된 작업을 완료하는 데 도움을 줄 수 있습니다.
@@ -40,4 +40,4 @@ ms.lasthandoff: 03/22/2018
 ## <a name="next-steps"></a>다음 단계
 * [지원되는 장치 플랫폼 및 브라우저](../maker/canvas-apps/limits-and-config.md)를 사용 중인지 확인합니다.
 * 캔버스 앱을 실행하려면 [App Store](https://itunes.apple.com/app/powerapps/id1047318566?mt=8) 또는 [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.msapps)에서 PowerApps를 다운로드하여 설치합니다.
-* 휴대폰에서 모델 기반 앱을 실행하려면 [App Store](https://itunes.apple.com/app/dynamics-crm-for-phones/id1003997947?ls=1&mt=8) 또는 [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.crm.crmphone)에서 휴대폰용 Dynamics 365를 다운로드하여 설치합니다. 태블릿에서 모델 기반 앱을 실행하려면 [App Store](https://itunes.apple.com/app/microsoft-dynamics-crm/id678800460?mt=8), [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.crm.crmtablet) 또는 [Windows Store](https://www.microsoft.com/store/p/microsoft-dynamics-365/9nblggh4rfqp)에서 태블릿용 Dynamics 365를 다운로드합니다. 자세한 내용은 [모바일 장치에서 모델 기반 앱 실행](../maker/model-driven-apps/run-app-client-model-driven.md)을 참조하세요.
+* 휴대폰에서 모델 기반 앱을 실행하려면 [App Store](https://itunes.apple.com/app/dynamics-crm-for-phones/id1003997947?ls=1&mt=8) 또는 [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.crm.crmphone)에서 휴대폰용 Dynamics 365를 다운로드하여 설치합니다. 태블릿에서 모델 기반 앱을 실행하려면 [App Store](https://itunes.apple.com/app/microsoft-dynamics-crm/id678800460?mt=8), [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.crm.crmtablet) 또는 [Windows Store](https://www.microsoft.com/store/p/microsoft-dynamics-365/9nblggh4rfqp)에서 태블릿용 Dynamics 365를 다운로드합니다. 자세한 내용은 [빠른 시작: 모바일 장치에서 모델 기반 앱 실행](run-app-client-model-driven.md)을 참조하세요.
