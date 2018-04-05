@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/21/2018
 ms.author: matp
-ms.openlocfilehash: cf484054928a34eb3f3383acbfc9490bc95a0aa3
-ms.sourcegitcommit: a9d33322228c398d29964429602dc3fe19fa67d2
+ms.openlocfilehash: 73b8aca29af2e9ee5fa117a7e7b79a8d3dbaca9f
+ms.sourcegitcommit: a9ac8a3ed734cb5f70b61476168d1bff5de844f8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="quickstart-run-a-model-driven-app-on-a-mobile-device"></a>빠른 시작: 모바일 장치에서 모델 기반 앱 실행
 
@@ -49,4 +49,4 @@ ms.lasthandoff: 03/28/2018
 이 빠른 시작에서는 모바일 장치에서 모델 기반 앱을 실행하는 방법을 알아보았습니다. 모바일 장치에서 캔버스 앱도 실행할 수 있습니다.
 
 > [!div class="nextstepaction"]
-> [모바일 장치에서 모델 기반 앱 실행](run-app-client.md)
+> [모바일 장치에서 캔버스 앱 실행](run-app-client.md)
