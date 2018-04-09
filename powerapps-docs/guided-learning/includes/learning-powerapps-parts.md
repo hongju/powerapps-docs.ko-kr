@@ -4,6 +4,7 @@
 * **PowerApps Studio** - 사용하기 쉬운 시각적 도구로 강력한 앱 빌드
 * **PowerApps Mobile** - Windows, iOS 및 Android 장치에서 앱 실행
 * **PowerApps 관리 센터** - PowerApps 환경 및 기타 구성 요소 관리
+* **Common Data Service for Apps** - 공통 데이터 모델을 사용하여 비즈니스 데이터를 통합합니다.
 
 PowerApps가 *무엇인지* 알기 위해 많은 시간을 보내지는 않겠지만 좀 더 많은 것들에 도움이 된다고 생각합니다.
 
@@ -33,6 +34,11 @@ PowerApps가 *무엇인지* 알기 위해 많은 시간을 보내지는 않겠�
 **PowerApps 관리 센터**는 조직의 PowerApps를 한 곳에서 관리하는 위치입니다. 여기서 앱, 데이터 연결 및 기타 요소를 보관하는 다양한 **환경**을 정의합니다. 또한 관리 센터에서는 Common Data Service 데이터베이스를 만들고 권한과 데이터 정책을 관리합니다.
 
 ![PowerApps 관리 센터](./media/learning-powerapps-parts/powerapps-admin-center.png)
+
+### <a name="microsoft-common-data-service-for-apps"></a>Microsoft Common Data Service for Apps
+**Common Data Service for Apps**를 사용하면 여러 원본의 비즈니스 데이터를 쉽게 통합할 수 있습니다. 서비스에는 앱 및 비즈니스 프로세스에 공통적인 여러 **엔터티**를 포함하고 있는 **공통 데이터 모델**이 있습니다. 이 서비스는 확장성과 안정성이 뛰어난 방식으로 데이터를 저장하고 여러 응용 프로그램에서 사용할 수 있도록 데이터를 제공합니다. 응용 프로그램은 PowerApps, Dynamics 365, 다른 Microsoft 응용 프로그램 또는 타사 응용 프로그램에서 빌드한 앱일 수 있습니다. 아래 이미지는 web.powerapps.com의 엔터티 중 일부를 보여줍니다.
+
+![PowerApps 연락처 엔터티](./media/learning-powerapps-parts/powerapps-contact.png)
 
 다음 항목에서는 PowerApps와 함께 작동하여 앱 개발을 위한 강력한 에코시스템을 만드는 일단의 관련 기술에 대해 살펴보겠습니다.
 

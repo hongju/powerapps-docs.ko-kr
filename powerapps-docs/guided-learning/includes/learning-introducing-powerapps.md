@@ -12,7 +12,7 @@
 PowerApps는 이미 사용 중인 **클라우드 서비스 및 데이터 원본**에 연결하여 이미 보유한 기술에 기반하여 특정 요구 사항에 맞는 **앱을 빠르게 빌드**할 수 있습니다. 웹, 태블릿 및 모바일 장치에서 동료와 즉시 앱을 공유할 수 있습니다. 또한 PowerApps는 **Microsoft Flow**와 통합되어 앱 내에서 워크플로를 트리거할 수도 있습니다. PowerApps는 **간단하고 빠르며**, Excel 또는 클라우드 서비스에서 데이터를 가져오는 앱을 단 몇 분만에 생성할 수 있습니다. 그러나 PowerApps는 회사 전체의 자산을 추적하고 백 엔드 시스템과 결합하는 등 복잡한 요구 사항에 대비할 수 있는 강력한 **엔터프라이즈급** 응용 프로그램입니다.
 
 ## <a name="the-parts-of-powerapps"></a>PowerApps 구성 요소
-PowerApps는 앱을 만들고, 공유하고, 관리하는 구성 요소와 이러한 앱을 실행하는 구성 요소로 구성됩니다. 앱에 필요한 **데이터 연결**을 사용하여 **웹용 PowerApps Studio** 또는 **Windows용 PowerApps Studio**에서 앱을 만듭니다. **web.powerapps.com**을 사용하여 데이터 연결 및 온-프레미스 게이트웨이를 구성 및 관리하고 Common Data Service를 통해 작동합니다. 이에 대해서는 이후 섹션에서 살펴보겠습니다. 앱을 만든 후에는 종종 **Microsoft AppSource**에서 공유하고 **관리 센터**에서 관리합니다.
+PowerApps는 앱을 만들고, 공유하고, 관리하는 구성 요소와 이러한 앱을 실행하는 구성 요소로 구성됩니다. 앱에 필요한 **데이터 연결**을 사용하여 **웹용 PowerApps Studio** 또는 **Windows용 PowerApps Studio**에서 앱을 만듭니다. **web.powerapps.com**을 사용하여 데이터 연결 및 온-프레미스 게이트웨이를 구성 및 관리하고, Common Data Service for Apps를 작업합니다. 앱을 만든 후에는 종종 **Microsoft AppSource**에서 공유하고 **관리 센터**에서 관리합니다.
 
 브라우저에서 **Microsoft Dynamics 365** 또는 Windows, iOS 및 Android 장치에서 사용할 수 있는 **PowerApps Mobile**을 사용하여 앱을 실행합니다.
 

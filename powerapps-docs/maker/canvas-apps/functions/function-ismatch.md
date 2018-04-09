@@ -1,13 +1,13 @@
 ---
-title: "IsMatch 함수 | Microsoft Docs"
-description: "PowerApps에서 IsMatch 함수에 대한 구문을 포함한 참조 정보"
-services: 
+title: IsMatch 함수 | Microsoft Docs
+description: PowerApps에서 IsMatch 함수에 대한 구문을 포함한 참조 정보
+services: ''
 suite: powerapps
 documentationcenter: na
 author: gregli-msft
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 02/05/2017
 ms.author: gregli
 ms.openlocfilehash: b15a394db060617aeae8324094a70aa8cadf6755
-ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
+ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="ismatch-function-in-powerapps"></a>PowerApps의 IsMatch 함수
 텍스트 문자열이 패턴과 일치하는지 여부를 테스트합니다.
