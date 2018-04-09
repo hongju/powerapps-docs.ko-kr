@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: 19b341d72ccc29194b2987b8489ff74ad7798f37
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 1adf0f4888d57b2d5636864e9bdd18e00848b9d8
+ms.sourcegitcommit: c5e3991e0e4e9f22a1e094d699f35adabfb97c6c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="learn-all-about-data-groups"></a>데이터 그룹에 대해 모두 알아보기
 데이터 그룹은 [DLP(데이터 손실 방지) 정책](prevent-data-loss.md) 내에서 서비스를 범주화하는 단순한 방법입니다. 사용 가능한 두 데이터 그룹에는 **비즈니스 데이터만**과 **비즈니스 데이터 허용 안 됨** 그룹이 있습니다. 조직은 특정 데이터 그룹에 배치되는 서비스를 자유롭게 결정할 수 있습니다. 서비스를 분류하는 좋은 방법은 조직에 미치는 영향력에 따라 그룹에 배치하는 것입니다. 기본적으로 모든 서비스는 **비즈니스 데이터 허용 안 됨** 데이터 그룹에 배치됩니다. 관리 센터에서 DLP 정책의 수정을 만들거나 수정할 때 데이터 그룹의 서비스를 관리합니다.
@@ -27,7 +27,9 @@ ms.lasthandoff: 03/22/2018
 ## <a name="how-data-is-shared-between-data-groups"></a>데이터 그룹 간에 데이터를 공유하는 방식
 서로 다른 그룹에 있는 서비스 간에 데이터를 공유할 수 없습니다. 예를 들어 SharePoint와 Salesforce를 **비즈니스 데이터만** 그룹에 배치하고 Facebook과 Twitter를 **비즈니스 데이터 허용 안 됨** 그룹에 배치하면 SharePoint와 Facebook 사이에 데이터를 이동하는 PowerApp을 만들 수 없습니다. 서로 다른 그룹의 서비스 간에 데이터를 공유할 수 없지만, 특정 그룹 내 서비스 간에 데이터는 공유할 수 있습니다. 따라서 이전 예로 돌아가서 SharePoint와 Salesforce가 동일한 데이터 그룹에 배치되었으므 최종 사용자가 만드는 PowerApps는 SharePoint와 Salesforce 간에 데이터를 공유할 수 있습니다. 핵심 요점은 다른 그룹의 서비스는 데이터를 공유할 수 없지만, 특정 그룹의 서비스는 데이터를 공유할 수 있다는 것입니다.
 
-또한, 하나는 데이터 그룹이 *기본* 그룹으로 지정되어야 합니다. 처음에 **비즈니스 데이터 허용 안 됨** 그룹은 *기본* 그룹이며 모든 서비스가 데이터 그룹에 있습니다. 관리자는 기본 데이터 그룹을 **비즈니스 데이터만** 데이터 그룹으로 변경할 수 있습니다. > [!NOTE]
+또한, 하나는 데이터 그룹이 *기본* 그룹으로 지정되어야 합니다. 처음에 **비즈니스 데이터 허용 안 됨** 그룹은 *기본* 그룹이며 모든 서비스가 데이터 그룹에 있습니다. 관리자는 기본 데이터 그룹을 **비즈니스 데이터만** 데이터 그룹으로 변경할 수 있습니다. 
+
+> [!NOTE]
 > PowerApps에 추가되는 새로운 서비스는 지정된 *기본* 그룹에 배치됩니다. 이러한 이유로 **비즈니스 데이터 허용 안 됨**을 기본 그룹으로 유지하고 조직이 데이터 데이터를 새 서비스와 공유하도록 허용함으로써 발생하는 영향을 평가한 후에 서비스를 **비즈니스 데이터만** 그룹으로 수동으로 추가하는 것이 좋습니다.
 
 ## <a name="add-services-to-a-data-group"></a>데이터 그룹에 서비스 추가
