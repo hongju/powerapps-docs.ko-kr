@@ -41,6 +41,12 @@
           href: ./canvas-apps/share-app.md
         - name: Power BI에 앱 포함
           href: ./canvas-apps/embed-powerapps-powerbi.md
+    - name: 샘플
+      items:
+        - name: 비용 보고서 앱
+          href: ./canvas-apps/expense-report-install.md
+        - name: 지원 센터 앱
+          href: ./canvas-apps/help-desk-install.md
     - name: 개념
       items:
         - name: 수식 시작
@@ -65,6 +71,8 @@
           href: ./canvas-apps/sharepoint-form-integration.md
         - name: PowerApps 사용자 지정 시각적 개체
           href: ./canvas-apps/powerapps-custom-visual.md
+        - name: InfoPath 양식을 PowerApps로 변환
+          href: ./canvas-apps/transform-infopath.md
         - name: 캔버스 앱 개발
           items:
             - name: '엔터프라이즈 개발자, 파트너 및 ISV용 PowerApps'
@@ -139,6 +147,8 @@
               href: ./canvas-apps/add-manage-connections.md
             - name: SharePoint에 연결
               href: ./canvas-apps/connect-to-sharepoint.md
+            - name: Excel 데이터 준비
+              href: ./canvas-apps/how-to-excel-tips.md
             - name: 위임
               href: ./canvas-apps/delegation-overview.md
             - name: 위임 가능한 데이터 원본
