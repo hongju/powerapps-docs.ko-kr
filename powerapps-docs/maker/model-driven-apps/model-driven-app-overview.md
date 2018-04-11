@@ -15,15 +15,15 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/21/2018
 ms.author: matp
-ms.openlocfilehash: 94ae54308f49838159ff06e0e642ab9f2503eab1
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 872e06e3d260480f09f66c52b592540bae44bdda
+ms.sourcegitcommit: a9ac8a3ed734cb5f70b61476168d1bff5de844f8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="overview-of-building-a-model-driven-app"></a>모델 기반 앱 빌드에 대한 개요
 
-모델 기반 앱 디자인은 앱 개발에서 코드가 없거나 코드 구성 요소에 대한 집중도가 낮습니다. 디자이너 앱 레이아웃을 완전히 제어하는 캔버스 앱 개발과 달리, 모델 기반 앱을 사용하면 레이아웃의 대부분은 주로 사용자가 앱에 추가하는 구성 요소에 따라 지정되거나 결정됩니다. 
+모델 기반 앱 디자인은 앱 개발에 대해 구성 요소에 중점을 두는 방법입니다. 모델 기반 앱 디자인에는 코드가 필요하지 않으며 앱을 단순하거나 매우 복잡하게 만들 수 있습니다.  디자이너 앱 레이아웃을 완전히 제어하는 캔버스 앱 개발과 달리, 모델 기반 앱을 사용하면 레이아웃의 대부분은 주로 사용자가 앱에 추가하는 구성 요소에 따라 지정되거나 결정됩니다. 
 
 ![샘플 모델 기반 앱](media/model-driven-app-overview/model-app-sample.png)
 
@@ -44,12 +44,12 @@ ms.lasthandoff: 03/22/2018
 - 앱의 작성
 
 ### <a name="modeling-business-data"></a>비즈니스 데이터의 모델링
-비즈니스 데이터를 모델링하려면 앱에서 필요한 데이터가 무엇인지와 해당 데이터가 어떻게 다른 데이터와 관련되는지를 결정합니다. 디자이너가 코드를 작성하지 않고 응용 프로그램을 사용자 지정할 수 있도록 모델 기반 디자인은 메타데이터 기반 아키텍처를 사용합니다. 메타데이터란 “데이터에 대한 데이터”를 의미하며 시스템에 저장된 데이터의 구조를 정의합니다.
+비즈니스 데이터를 모델링하려면 앱에서 필요한 데이터가 무엇인지와 해당 데이터가 어떻게 다른 데이터와 관련되는지를 결정합니다. 디자이너가 코드를 작성하지 않고 응용 프로그램을 사용자 지정할 수 있도록 모델 기반 디자인은 메타데이터 기반 아키텍처를 사용합니다. 메타데이터란 “데이터에 대한 데이터”를 의미하며 시스템에 저장된 데이터의 구조를 정의합니다. [자습서: PowerApps에 구성 요소가 있는 사용자 지정 엔터티 만들기](../common-data-service/create-custom-entity.md)
 
 ### <a name="defining-business-processes"></a>비즈니스 프로세스의 정의
 일관된 비즈니스 프로세스를 정의하고 강화하는 것은 모델 기반 앱 디자인에서 중요한 요소입니다. 일관된 프로세스로 인해 앱 사용자는 일련의 수동 단계를 수행해야 함을 기억하기보다 자신의 작업에 집중할 수 있습니다. 프로세스는 간단하거나 복잡할 수 있으며 시간이 지나면서 자주 변경될 수 있습니다. 프로세스를 만들려면 **고급**을 선택하여 [솔루션 탐색기](#advanced-model-driven-app-making)를 엽니다. 다음으로, 솔루션 탐색기의 왼쪽 탐색 창에서 **프로세스**를 선택한 다음, **새로 만들기**를 선택합니다. 자세한 내용: [비즈니스 논리 작업](#working-with-business-logic)  
 
-### <a name="composing-the-app"></a>앱의 작성
+### <a name="composing-the-model-driven-app"></a>모델 기반 앱 작성
 데이터를 모델링하고 프로세스를 정의한 후, 앱 디자이너를 사용하여 필요한 구성 요소를 선택 및 구성하여 앱을 빌드합니다.
 
 ![앱 디자이너](media/model-driven-app-overview/app-designer.png)
@@ -119,14 +119,16 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="model-driven-app-development-resources"></a>모델 기반 앱 개발 리소스
 모델 기반 앱 개발에 대한 자세한 내용은 다음 항목을 참조하세요.
-### <a name="modeling-and-composing-your-app"></a>앱 모델링 및 작성
+### <a name="modeling-your-data"></a>데이터 모델링
 - [앱 디자이너를 사용하여 사용자 지정 비즈니스 앱 디자인](https://docs.microsoft.com/dynamics365/customer-engagement/customize/design-custom-business-apps-using-app-designer)
+- [양식 만들기 및 설계](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-design-forms)
+- [뷰 만들기 또는 편집](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-edit-views)  
+
+### <a name="modeling-and-composing-your-app"></a>앱 모델링 및 작성
 - [엔터티 만들기 또는 편집](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-edit-entities)
-- [폼 만들기 및 디자인](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-design-forms)
+- [관계 만들기 및 편집](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-edit-entity-relationships) 
 - [필드 만들기 및 편집](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-edit-fields)
 - [전역 옵션 집합 만들기 및 편집](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-edit-global-option-sets)
-- [뷰 만들기 또는 편집](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-edit-views)  
-- [관계 만들기 및 편집](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-edit-entity-relationships) 
 
 ### <a name="working-with-business-logic"></a>비즈니스 논리 작업
 - [비즈니스 프로세스 흐름 개요](https://docs.microsoft.com/dynamics365/customer-engagement/customize/business-process-flows-overview)
@@ -143,5 +145,7 @@ ms.lasthandoff: 03/22/2018
 [솔루션 만들기](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-solution)
 
 ## <a name="next-steps"></a>다음 단계
-[PowerApps에서 사용자 지정 엔터티 만들기](../common-data-service/create-custom-entity.md)
+[빠른 시작: 사용자 지정 엔터티 만들기](../common-data-service/data-platform-create-entity.md)
+
+[자습서: PowerApps에 구성 요소가 있는 사용자 지정 엔터티 만들기](../common-data-service/create-custom-entity.md)
 

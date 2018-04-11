@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/21/2018
 ms.author: sharik
-ms.openlocfilehash: ecfcc5ca60ac453d1cbeb252d6ad97085934c3b2
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: debe9dd0ab3aa948537820cccd3304a6b4225c54
+ms.sourcegitcommit: c5e3991e0e4e9f22a1e094d699f35adabfb97c6c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="quickstart-download-a-list-of-apps-created-in-your-environments"></a>빠른 시작: 환경에 만들어진 앱 목록 다운로드
 환경 관리자인 경우 자신이 관리하는 환경에 만들어진 앱 목록을 살펴보고 다운로드할 수 있습니다. Office 365 전역 관리자 또는 Azure Active Directory 테넌트 관리자인 경우 조직 내 모든 환경에 만들어진 앱 목록을 살펴보고 다운로드할 수 있습니다.
@@ -28,7 +28,7 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="prerequisites"></a>필수 조건
  이 빠른 시작을 수행하려면 다음 항목이 필요합니다.
- * PowerApps 계획 2 또는 Flow 계획 2. 또는 [평가판 PowerApps 계획 2](https://web.powerapps.com/signup?redirect=marketing&email=)에 등록할 수 있습니다.
+ * PowerApps 요금제 2 또는 Microsoft Flow 요금제 2 라이선스. 또는 [평가판 PowerApps 계획 2](https://web.powerapps.com/signup?redirect=marketing&email=)에 등록할 수 있습니다.
  * PowerApps 환경 관리자, Office 365 전역 관리자 또는 Azure Active Directory 테넌트 관리자 권한이 필요합니다. 자세한 내용은 [PowerApps에서 환경 관리](environments-administration.md)를 참조하세요.
 
 ## <a name="sign-in-to-the-powerapps-admin-center"></a>PowerApps 관리 센터에 로그인

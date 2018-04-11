@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/21/2018
 ms.author: anneta
-ms.openlocfilehash: def53153d3db75b0f56d7878324fa1391c8c58a8
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 77906602fad6708857a6c34f44d1bc3c7c258f6c
+ms.sourcegitcommit: a9d33322228c398d29964429602dc3fe19fa67d2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="quickstart-add-data-to-an-entity-in-the-common-data-service-by-using-power-query"></a>빠른 시작: 파워 쿼리를 사용하여 Common Data Service의 엔터티에 데이터 추가
 이 절차에서는 [앱용 Common Data Service](data-platform-intro.md)에서 엔터티를 만들고 파워 쿼리를 사용하여 OData 피드에서 해당 엔터티를 데이터로 채웁니다. 일부 기술을 사용하여 이러한 온라인 및 온-프레미스 원본의 데이터를 다음 항목 간에 통합할 수 있습니다.
@@ -35,7 +35,7 @@ ms.lasthandoff: 03/22/2018
 
 또한 새로운 엔터티 또는 기존 엔터티에 로드하기 전에 데이터를 필터링, 변환 및 결합할 수 있습니다.
 
-PowerApps에 대한 라이선스가 없는 경우 [무료로 등록](../signup-for-powerapps.md)할 수 있습니다.
+PowerApps에 대한 라이선스가 없으면 [무료로 등록](../signup-for-powerapps.md)할 수 있습니다.
 
 ## <a name="prerequisites"></a>필수 조건
 이 토픽을 수행하려면 엔터티를 만들 수 있는 [환경](../canvas-apps/working-with-environments.md)으로 전환해야 합니다.
@@ -91,3 +91,4 @@ PowerApps에 대한 라이선스가 없는 경우 [무료로 등록](../signup-f
 
 이 기능에 대해 매우 기대하고 있으며 사용자의 의견을 기다리고 있습니다. 이 기능에 대한 [제안 및 의견을 보내주세요](https://powerusers.microsoft.com/t5/PowerApps-Community/ct-p/PowerApps1).
 
+[사용 권한에 대한 오류 메시지](data-platform-cds-newentity-troubleshooting-mashup.md)가 표시되면 관리자에게 문의하세요.

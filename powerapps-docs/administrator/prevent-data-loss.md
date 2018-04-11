@@ -4,7 +4,7 @@ description: PowerApps에 대한 데이터 손실 방지 정책을 관리하는 
 services: powerapps
 suite: powerapps
 documentationcenter: na
-author: SKjerland
+author: manasmams
 manager: kfile
 editor: ''
 tags: ''
@@ -14,17 +14,17 @@ ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/21/2018
-ms.author: sharik
-ms.openlocfilehash: f901b3db8d10fbfe8d4d25bb972f4da72d6897f3
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.author: manasma
+ms.openlocfilehash: f02e9023deb2bc0d11e9d94414f9e78651cab2b5
+ms.sourcegitcommit: c5e3991e0e4e9f22a1e094d699f35adabfb97c6c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="manage-data-loss-prevention-dlp-policies"></a>DLP(데이터 손실 방지) 정책 관리
 조직의 데이터는 해당 조직의 성공에 중요합니다. 해당 데이터는 의사 결정을 위해 손쉽게 사용할 수 있어야 하지만, 액세스할 수 없는 대상과 공유되지 않도록 보호해야 합니다. 이 데이터를 보호하기 위해 PowerApps를 사용하여 공유 가능한 소비자 커넥터 관련 비즈니스 데이터를 정의하는 DLP(데이터 손실 방지) 정책을 만들고 적용할 수 있습니다. 예를 들어 PowerApps를 사용하는 조직은 SharePoint에 저장된 비즈니스 데이터가 Twitter 피드에 자동으로 게시되기를 원하지 않을 수 있습니다.
 
-DLP 정책을 만들고, 편집하고, 삭제하려면 환경 관리자 또는 테넌트 관리자 권한이 있어야 합니다. 자세한 내용은 [PowerApps에서 환경 관리](environments-administration.md)를 참조하세요.
+DLP 정책을 만들고, 편집하고, 삭제하려면 환경 관리자 또는 Azure Active Directory 테넌트 관리자 권한이 있어야 합니다. 자세한 내용은 [PowerApps에서 환경 관리](environments-administration.md)를 참조하세요.
 
 DLP 정책을 만드는 방법에 대한 지침은 [빠른 시작: DLP(데이터 손실 방지) 정책 만들기](create-dlp-policy.md)를 참조하세요.
 
@@ -39,6 +39,11 @@ DLP 정책을 만드는 방법에 대한 지침은 [빠른 시작: DLP(데이터
 
     ![로그인](./media/prevent-data-loss/3.png)
 2. 변경한 후 **정책 저장**을 클릭하거나 탭합니다.
+
+    > [!NOTE]
+    > 환경 DLP 정책은 테넌트 전체 DLP 정책을 재정의할 수 없습니다.
+    >
+    >
 
     변경 내용을 검토하려면 데이터 손실 방지 정책 목록에서 DLP 정책을 찾아 클릭하거나 탭하여 속성을 검토합니다.
 

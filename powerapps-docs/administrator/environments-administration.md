@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: 0a6080b7ceb14de14b7ad6ae2f851843bac0c73b
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: d94ebeeada15f5e7f176b20575f7570c73e28c08
+ms.sourcegitcommit: c5e3991e0e4e9f22a1e094d699f35adabfb97c6c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="administer-environments-in-powerapps"></a>PowerApps에서 환경 관리
 [PowerApps 관리 센터][1]에서 사용자가 만든 환경은 물론, Environment Admin 또는 System Administrator 역할에 추가된 환경을 관리합니다. 관리 센터에서 다음 관리 작업을 수행할 수 있습니다.
@@ -47,10 +47,10 @@ PowerApps 관리 센터에서 환경을 관리하려면 이러한 역할 중 하
 
 * Azure AD 또는 Office 365 테넌트의 전역 관리자 역할
 
-또한, 관리 센터에 액세스하려면 PowerApps 요금제 2 또는 Flow 요금제 2도 필요합니다. 자세한 내용은 [PowerApps 가격 페이지][3]를 참조하세요.
+또한, 관리 센터에 액세스하려면 PowerApps 요금제 2 또는 Microsoft Flow 요금제 2 라이선스가 필요합니다. 자세한 내용은 [PowerApps 가격 페이지][3]를 참조하세요.
 
 > [!IMPORTANT]
-> PowerApps 관리 센터에서 변경한 내용은 [Flow 관리 센터][4]에 영향을 미치고 그 반대의 경우도 마찬가지입니다.
+> PowerApps 관리 센터에서 변경한 내용은 [Microsoft Flow 관리 센터][4]에 영향을 미치고 그 반대의 경우도 마찬가지입니다.
 
 ## <a name="create-an-environment"></a>환경 만들기
 환경을 만드는 방법에 대한 지침은 [빠른 시작: 환경 만들기](create-environment.md)를 참조하세요.
@@ -66,7 +66,7 @@ Azure AD 또는 Office 365 테넌트의 전역 관리자 역할의 멤버인 경
 1. [PowerApps 관리 센터][1]를 열고 목록에서 이름을 바꿀 환경을 찾은 다음 클릭하거나 탭합니다.
 
     ![](./media/environment-admin/environment-list-updated3.png)
- 
+
 2. **세부 정보**를 클릭하거나 탭합니다.
 
     ![](./media/environment-admin/environment-rename-details-2.png)

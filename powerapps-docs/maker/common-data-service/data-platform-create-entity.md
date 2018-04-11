@@ -14,11 +14,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 3/21/2018
 ms.author: clwesene
-ms.openlocfilehash: d26b7a086e75a52d9da3369196f59d3fb439f50b
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: e22a18bacb258ca46c8f36d647f9ebcc45282929
+ms.sourcegitcommit: a9d33322228c398d29964429602dc3fe19fa67d2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="quickstart-create-a-custom-entity"></a>빠른 시작: 사용자 지정 엔터티 만들기
 귀하의 조직에 관련된 데이터를 저장하는 사용자 지정 엔터티를 만들 수 있습니다. 그런 다음 엔터티를 참조하는 앱을 개발하여 해당 데이터를 표시할 수 있습니다. 엔터티를 만든 다음 [하나 이상의 필드를 만들거나 수정](data-platform-manage-fields.md)하고 [엔터티 간의 관계를 빌드](data-platform-entity-lookup.md)할 수 있습니다.
@@ -59,7 +59,7 @@ ms.lasthandoff: 03/22/2018
 6. **완료**를 클릭하여 필드를 추가하고, 5단계를 반복하여 추가 필드를 추가합니다.
 7. **엔터티 저장**을 클릭하여 엔터티를 저장하고 앱에서 사용할 수 있도록 합니다.
 
-    데이터베이스의 엔터티 목록에 엔터티가 나타납니다. 만든 엔터티를 보기 위해 "기본"에서 "사용자 지정"으로 명령 모음의 필터를 변경할 수 있습니다.
+    데이터베이스의 엔터티 목록에 엔터티가 나타납니다. 만든 엔터티를 보기 위해 “기본”에서 “사용자 지정”으로 명령 모음의 필터를 변경할 수 있습니다.
 
 ## <a name="system-fields"></a>시스템 필드
 모든 엔터티에는 시스템 필드가 있습니다. 이러한 필드는 읽기 전용입니다. 따라서 이러한 필드는 변경 또는 삭제할 수 없으며 값을 할당하지 않습니다. 기본적으로 시스템 필드는 엔터티에 있는 경우에도 필드 목록에 표시되지 않습니다. 모든 필드를 표시하려면 **기본**에서 **모두**로 명령 모음의 필터를 변경할 수 있습니다.

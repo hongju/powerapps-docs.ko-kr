@@ -1,7 +1,7 @@
 ---
 title: PowerApps의 새로운 기능 | Microsoft Docs
 description: 릴리스 날짜별로 정리된 PowerApps 업데이트
-services: ''
+services: powerapps
 suite: powerapps
 documentationcenter: na
 author: skjerland
@@ -15,17 +15,24 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/21/2018
 ms.author: sharik
-ms.openlocfilehash: 83a04905de797cb25012a05244dfae59ef54c5ae
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: e9e5c156e9cb3ad47375be9a237a757a6db1158b
+ms.sourcegitcommit: a9d33322228c398d29964429602dc3fe19fa67d2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="whats-new-in-powerapps"></a>PowerApps의 새로운 기능
 알려진 제한 사항에 대한 정보는 [일반적인 문제 및 해결 방법](common-issues-and-resolutions.md)을 참조하세요.
 
+
 > [!NOTE]
 > 릴리스는 며칠 동안 배포됩니다. 새 기능 또는 업데이트된 기능이 즉시 나타나지 않을 수 있습니다.
+
+## <a name="announcing-the-business-applications-spring-18-release-notes"></a>2018년 봄 비즈니스 응용 프로그램 릴리스 정보 발표
+
+플랫폼을 기반으로 고유한 응용 프로그램 및 확장을 빌드하는 새로운 기능의 호스트뿐만 아니라 비즈니스 응용 프로그램에 대한 최신 업데이트를 확인하세요. Dynamics 365, PowerApps, Microsoft Flow, Power BI를 다루는 [2018년 봄 릴리스 정보 PDF](https://aka.ms/businessappsreleasenotes)를 다운로드하세요.
+
+**서비스 예정:** 기능이 출시되면 릴리스 정보 PDF를 계속 업데이트하고 웹 페이지에서도 릴리스 정보를 제공할 예정입니다.
 
 ## <a name="mar-21"></a>3월 21일
 1. 데이터 모델로 시작하여 Common Data Service의 핵심 비즈니스 데이터와 프로세스의 모양을 모델로 하여 양식, 뷰 및 기타 구성 요소를 작성하는 [모델 기반 앱](../model-driven-apps/model-driven-app-overview.md)을 만듭니다. 모델 기반 앱은 여러 장치에서 반응하는 우수한 UI를 자동으로 생성합니다.
@@ -33,11 +40,11 @@ ms.lasthandoff: 03/22/2018
 3. 앱용 Common Data Service는 이제 다음을 포함합니다.
 
     - **추가 데이터 형식**은 더 복잡한 엔터티 정의를 지원하고 더 풍부한 환경을 제공합니다. (캔버스 및 모델 기반 앱에 적용됩니다.)
-    - PowerApps 사이트에서 직접 앱용 Common Data Service에 [엔터티를 만들고 사용자 지정합니다](../common-data-service/data-platform-create-entity.md). **새로 고친 환경**은 향상된 성능과 더 친숙한 UI 및 옵션 집합의 인라인 만들기 등의 유용한 기능을 포함합니다. (캔버스 및 모델 기반 앱에 적용됩니다.) 
+    - PowerApps 사이트에서 직접 앱용 Common Data Service에 [엔터티를 만들고 사용자 지정합니다](../common-data-service/data-platform-create-entity.md). **새로 고친 환경**은 향상된 성능과 더 친숙한 UI 및 옵션 집합의 인라인 만들기 등의 유용한 기능을 포함합니다. (캔버스 및 모델 기반 앱에 적용됩니다.)
     - 앱용 Common Data Service에 입력된 데이터의 유효성을 검사하기 위한 **서버 쪽 비즈니스 규칙**을 만듭니다. (캔버스 및 모델 기반 앱에 적용됩니다.)
     - PowerApps 사이트에서 직접 앱용 Common Data Service 엔터티에 **계산된 필드 및 롤업 필드**를 만듭니다. (캔버스 및 모델 기반 앱에 적용됩니다.)  
-    - 개발자는 앱용 Common Data Service SDK(**소프트웨어 개발 키트**)를 사용하여 Common Data Service에 대한 코드 기반 사용자 지정을 만들 수 있습니다. 
-    - 고급 사용자는 새 **OData Web API**를 통해 앱용 Common Data Service에 저장된 데이터에 액세스할 수 있습니다. 
+    - 개발자는 앱용 Common Data Service SDK(**소프트웨어 개발 키트**)를 사용하여 Common Data Service에 대한 코드 기반 사용자 지정을 만들 수 있습니다.
+    - 고급 사용자는 새 **OData Web API**를 통해 앱용 Common Data Service에 저장된 데이터에 액세스할 수 있습니다.
     - **파워 쿼리**를 사용하여 Common Data Service로 [데이터를 가져옵니다](../common-data-service/data-platform-cds-newentity-pq.md). 웹에서 파워 쿼리를 사용하여 여러 원본에서 앱용 Common Data Service로 데이터를 직접 가져옵니다.
 
 ## <a name="mar-5"></a>3월 5일

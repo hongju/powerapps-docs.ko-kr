@@ -14,16 +14,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: 2215d02af78d0983292cfca8c9f8ac4f6737a3d0
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: cc068fc475643ae68e74d22981679dd9b038eb83
+ms.sourcegitcommit: c5e3991e0e4e9f22a1e094d699f35adabfb97c6c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="create-a-common-data-service-database"></a>Common Data Service 데이터베이스 만들기
 Common Data Service를 데이터 저장소로 사용하여 데이터베이스를 만들고 앱을 빌드할 수 있습니다. 사용자 고유의 사용자 지정 엔터티를 만들거나 미리 정의된 엔터티를 사용할 수 있습니다. 데이터베이스를 만들려면 먼저 환경을 만들거나 기존 환경에 **환경 관리자**로 할당되어야 합니다. 또한 적절한 라이선스를 할당 받아야 합니다. Common Data Service 사용을 위한 계획 구매에 대한 자세한 내용은 [가격 책정 정보](pricing-billing-skus.md)를 참조하세요.
 
-세 가지 방법으로 데이터베이스를 만들 수 있습니다.
+다양한 방법으로 데이터베이스를 만들 수 있습니다.
 
 * PowerApps 관리 센터에서
 * powerapps.com의 **엔터티** 창에서
