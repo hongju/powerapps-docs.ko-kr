@@ -14,20 +14,24 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/18/2018
 ms.author: anneta
-ms.openlocfilehash: 6556e16fef3908a77be02f270fdb25f2f01ed4b4
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: a2bbcead313961e064a57d2ea567b5596ece4f7a
+ms.sourcegitcommit: 078ba325480147e6e4da61e319ed53219f1c5cfc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="generate-an-app-from-excel-in-powerapps"></a>PowerApps의 Excel에서 앱 생성
 이 항목에서는 Excel 테이블의 데이터를 사용하여 PowerApps에서 첫 번째 앱을 자동으로 생성합니다. Excel 파일을 선택하고, 앱을 생성한 다음, 생성하는 앱을 실행합니다. 생성된 모든 앱은 레코드를 검색하고, 레코드 세부 정보를 표시하고, 레코드를 만들거나 업데이트하는 화면을 포함합니다. 앱을 생성하여 Excel 데이터를 사용하는 작업 중인 앱을 신속하게 가져온 다음, 필요에 맞게 앱을 사용자 지정할 수 있습니다. 
 
 Excel 파일은 OneDrive, Google Drive 또는 Dropbox와 같은 클라우드 저장소 계정에 있어야 합니다. 이 항목에서는 비즈니스용 OneDrive를 사용합니다.
 
-이 항목을 수행하려면 Excel에서 [바닥재 견적](https://az787822.vo.msecnd.net/documentation/get-started-from-data/FlooringEstimates.xlsx) 파일을 다운로드하고, [클라우드 저장소 계정](connections/cloud-storage-blob-connections.md)에 저장합니다. 또는 데이터가 [테이블로 포맷](https://support.office.com/article/Create-an-Excel-table-in-a-worksheet-E81AA349-B006-4F8A-9806-5AF9DF0AC664)된 경우 사용자 고유의 Excel 파일을 사용할 수 있습니다. 
-
 PowerApps에 대한 라이선스가 없으면 [무료로 등록](../signup-for-powerapps.md)할 수 있습니다.
+
+## <a name="prerequisites"></a>필수 조건 ##
+이 항목을 정확히 수행하려면 Excel에서 [바닥재 견적](https://az787822.vo.msecnd.net/documentation/get-started-from-data/FlooringEstimates.xlsx) 파일을 다운로드하고, [클라우드 저장소 계정](connections/cloud-storage-blob-connections.md)에 저장합니다.
+
+> [!IMPORTANT]
+> 사용자 고유의 Excel 파일을 사용할 수 있지만 데이터는 테이블로 형식이 지정돼야 합니다. 자세한 내용은 [테이블 형식 지정](how-to-excel-tips.md)을 참조합니다. 
 
 ## <a name="generate-the-app"></a>앱 생성
 1. [PowerApps](https://web.powerapps.com)에 로그인합니다.

@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/21/2018
 ms.author: jamesol
-ms.openlocfilehash: 01614846f0b1172e23e2399aa0f1f03f646df84d
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 5d6db5bded909387b5bc4ef15dc0bf6c163bfa7a
+ms.sourcegitcommit: 078ba325480147e6e4da61e319ed53219f1c5cfc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="manage-licenses-in-my-org"></a>조직의 라이선스 관리
 이 항목에서는 조직의 사용자가 PowerApps에 액세스하여 사용하는 방법 및 PowerApps 서비스에 대한 액세스를 제어하는 방법을 설명합니다.
@@ -60,9 +60,9 @@ Microsoft PowerApps를 사용하면 Windows, iOS 및 Android 모바일 장치용
 
 ## <a name="administration-of-powerapps"></a>PowerApps의 관리
 ### <a name="why-has-the-powerapps-icon-appeared-in-the-office-365-app-launcher"></a>Office 365 앱 시작 관리자에서 PowerApps 아이콘을 표시하는 이유
-8월에 발표한 대로 Microsoft PowerApps는 이제 Office 365 Suite의 핵심 부분입니다. 발표 3개월 이후에 Microsoft PowerApps는 기존 Office 365 SKU의 일부인 서비스로 사용되고 있습니다. 전 세계에 있는 사용자는 이제 Microsoft PowerApps를 사용할 수 있습니다. 해당 기능은 앱 시작 관리자에서 표시됩니다. [라이선스 개요](pricing-billing-skus.md)를 참조하면 Office 365 SKU에 이제 PowerApps가 포함됩니다.
+Microsoft PowerApps는 Office 365 Suite의 핵심 부분이며 기존 Office 365 SKU의 일부인 서비스로 사용되도록 설정합니다. 전 세계에 있는 사용자는 이제 Microsoft PowerApps를 사용할 수 있습니다. 해당 기능은 앱 시작 관리자 화면의 ‘모든 앱’에 표시됩니다. [라이선스 개요](pricing-billing-skus.md)를 참조하면 Office 365 SKU에 이제 PowerApps가 포함됩니다.
 
-기본적으로 앱 시작 관리자에서 PowerApps 타일을 제거하려는 경우 다음 섹션을 참조하세요.
+기본적으로 ‘모든 앱’에서 PowerApps 타일을 제거하려는 경우 다음 섹션을 참조하세요.
 
 ### <a name="how-do-i-remove-powerapps-from-existing-users"></a>기존 사용자에게서 PowerApps를 제거하려면 어떻게 할까요?
 사용자에게 PowerApps 계획 1 또는 PowerApps 계획 2 라이선스가 할당된 경우 다음 단계를 수행하여 해당 사용자에게서 PowerApps 라이선스를 제거할 수 있습니다.

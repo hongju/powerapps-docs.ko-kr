@@ -4,8 +4,8 @@ description: 비즈니스에 활력을 넣는 일상적인 데이터를 관리�
 services: ''
 suite: powerapps
 documentationcenter: na
-author: karthik-1
-manager: anneta
+author: AFTOwen
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
@@ -14,18 +14,15 @@ ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/16/2016
-ms.author: sharik
-ms.openlocfilehash: d530fb5f77f00cb37322383a3817e9c38533ca1d
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.author: anneta
+ms.openlocfilehash: efc965d607198ed6366f3390960ccdf44b2ea210
+ms.sourcegitcommit: 078ba325480147e6e4da61e319ed53219f1c5cfc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="create-an-app-from-scratch"></a>앱을 처음부터 만들기
 다양한 데이터 원본 중 하나를 사용하고 원하는 경우 더 많은 원본을 추가하여 처음부터 사용자 고유 앱을 만듭니다. 정확한 목표와 워크플로에 대한 결과를 최적화할 수 있도록 각 UI 요소의 동작과 모양을 지정합니다. 이 접근 방식은 [앱을 자동으로 생성](get-started-create-from-data.md)하는 것보다 훨씬 시간 집약적이지만, 노력한 앱 제작자는 요구 사항에 맞는 최고의 앱을 빌드할 수 있습니다.
-
-> [!NOTE]
-> 이 항목은 Windows용 PowerApps Studio용으로 작성되었지만, [브라우저에서 PowerApps를 여는](create-app-browser.md) 경우 단계가 유사합니다.
 
 이 자습서를 따라 두 화면을 포함하는 앱을 만듭니다. 한 화면에서 사용자는 레코드 집합을 통해 찾아볼 수 있습니다.
 
@@ -36,7 +33,9 @@ ms.lasthandoff: 03/22/2018
 ![사용자가 데이터를 추가하거나 업데이트할 수 있는 화면](./media/get-started-create-from-blank/changescreen-final.png)
 
 ## <a name="prerequisites"></a>필수 조건
-자습서에서 일반적인 개념을 살펴볼 수 있습니다. 또는 이 단계를 완료하면 자습서의 내용을 정확하게 따를 수 있습니다.
+사용자의 Excel 파일을 사용할 수 있으며 일반 개념에 대해서만 이 자습서를 검토할 수 있습니다. 그러나 Excel 파일의 데이터는 테이블로 형식이 지정돼야 합니다. 자세한 내용은 [Excel에서 테이블 형식 지정](how-to-excel-tips.md)을 참조합니다.
+
+아래 단계를 정확하게 수행하려면 먼저 이 샘플 데이터를 사용하여 Excel 파일을 만듭니다.
 
 1. 이 데이터를 복사한 다음 Excel 파일에 붙여넣습니다.
 
@@ -51,7 +50,7 @@ ms.lasthandoff: 03/22/2018
 
 2. PowerApps에서 정보를 구문 분석할 수 있도록 해당 데이터를 **Schedule**이라는 테이블로 형식을 지정합니다.
 
-    자세한 내용은 [워크시트에서 Excel 테이블 만들기](https://support.office.com/article/Create-an-Excel-table-in-a-worksheet-E81AA349-B006-4F8A-9806-5AF9DF0AC664)를 참조하세요.
+    자세한 내용은 [Excel에서 테이블 형식 지정](how-to-excel-tips.md)을 참조합니다.
 
 3. **eventsignup.xls** 이름으로 저장한 다음, OneDrive와 같은 [클라우드 저장소 계정](connections/cloud-storage-blob-connections.md)으로 업로드합니다.
 

@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: d94ebeeada15f5e7f176b20575f7570c73e28c08
-ms.sourcegitcommit: c5e3991e0e4e9f22a1e094d699f35adabfb97c6c
+ms.openlocfilehash: c11c1d2122cf4306aede621e3c98a95a6ec9a967
+ms.sourcegitcommit: 078ba325480147e6e4da61e319ed53219f1c5cfc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="administer-environments-in-powerapps"></a>PowerApps에서 환경 관리
 [PowerApps 관리 센터][1]에서 사용자가 만든 환경은 물론, Environment Admin 또는 System Administrator 역할에 추가된 환경을 관리합니다. 관리 센터에서 다음 관리 작업을 수행할 수 있습니다.
@@ -175,26 +175,57 @@ Azure AD 또는 Office 365 테넌트의 전역 관리자 역할의 멤버인 경
 ![](./media/environment-admin/data-policies.png)
 
 ## <a name="frequently-asked-questions"></a>질문과 대답
-### <a name="how-many-environments-can-i-create"></a>몇 개의 환경을 만들 수 있나요?
-각 사용자는 라이선스에 따라 최대 2개의 평가판 환경과 2개의 프로덕션 환경을 만들 수 있습니다.
+### <a name="how-many-environments-and-databases-can-i-create"></a>몇 개의 환경 및 데이터베이스를 만들 수 있나요?
+사용자는 라이선스에 따라 최대 2개의 평가판 환경과 2개의 프로덕션 환경을 만들 수 있습니다. 자세한 내용은 [여기를 참조하세요](environments-overview.md#creating-an-environment). 각 사용자는 라이선스에 따라 2개의 평가판 환경과 2개의 프로덕션 환경에 데이터베이스를 프로비전할 수 있습니다. 
 
-### <a name="how-many-databases-can-i-provision"></a>몇 개의 데이터베이스를 프로비전할 수 있나요?
-각 사용자는 라이선스에 따라 2개의 평가판 환경과 2개의 프로덕션 환경에 데이터베이스를 프로비전할 수 있습니다. 사용자는 환경에 **환경 관리자**가 필요합니다.
+### <a name="which-license-includes-common-data-service"></a>Common Data Service에는 어떤 라이선스가 포함되나요?
+PowerApps 요금제 2.  이 라이선스가 포함된 모든 요금제에 대한 자세한 내용은 [PowerApps 가격 페이지][3]를 참조하세요.
+
+### <a name="while-trying-to-create-a-new-environment-i-am-getting-an-error-how-should-i-resolve-it"></a>새 환경을 만드는 동안 오류가 나타납니다. 이를 해결하려면 어떻게 해야 하나요?
+"사용자의 계획이 선택한 환경 형식을 지원하지 않거나 해당 유형의 환경에 대한 제한에 도달했습니다"라는 오류 메시지가 표시되는 경우 두 가지 중 하나를 의미
+
+1. 특정 유형의 환경을 만들기 위한 할당량을 이미 사용 했습니다. 평가판 환경을 만들고 있는 경우 이 오류 메시지가 나타납니다. 즉, 두 가지 평가판 환경을 이미 프로비전했습니다. [PowerApps 관리 센터][1]에서 모든 환경을 볼 수 있습니다.
+원하는 경우 해당 형식의 기존 환경을 삭제하고 새 환경을 만들 수 있습니다. 그러나 유지하려는 데이터, 앱, 흐름 및 기타 리소스를 손실하지 않는지 확인하십시오.
+
+2. 해당 특정 유형의 환경을 만들기 위한 할당량이 없습니다. [여기에서](environments-overview.md#creating-an-environment) 어떤 유형의 환경을 만들 수 있는지 확인합니다.
+
+다른 오류 메시지가 나타나거나 추가 질문이 있는 경우 [여기][5]에 연결 하십시오.
+
+### <a name="while-trying-to-create-a-database-in-an-environment-i-am-getting-an-error-how-should-i-resolve-it"></a>환경에서 새 데이터베이스를 만드는 동안 오류가 나타납니다. 이를 해결하려면 어떻게 해야 하나요?
+다음 시나리오에서 데이터베이스를 만드는 동안 오류가 나타날 수 있습니다.
+
+1. **기본 환경**: 현재 데이터베이스 만들기는 테넌트의 기본 환경에서 지원되지 않습니다. 
+
+2. **개별 사용을 위한 환경**: PowerApps 커뮤니티 계획에서 로그인하여 개별 사용을 위한 환경을 가져옵니다. 데이터베이스를 아직 만들지 못한 경우 현재로서는 개별 사용을 위한 환경에서 데이터베이스를 프로비전할 수 없습니다. 
+
+3. **AAD 테넌트의 소속 지역과 다른 지역의 환경**: 현재 Azure Active Directory 테넌트 소속 지역에서 만들어진 환경에서 데이터베이스만 프로비전할 수 있습니다. 다른 지역에서 데이터베이스를 프로비전하기 위한 기능이 곧 서비스될 예정입니다. 따라서 테넌트의 기본 위치와 동일한 지역에서 데이터베이스를 만들려는 경우 해당 지역을 유지하도록 확인하십시오.
+
+4. **특정 지역에서 지원되지 않는 데이터베이스 만들기**: 데이터베이스 만들기를 아직 사용할 수 없는 특정 지역이 있습니다. 예: 남아메리카 국가. 테넌트의 소속 위치가 남아메리카인 경우 현재 모든 환경에서 데이터베이스를 프로비전할 수 없습니다. 
+    
+위 시나리오를 모두 사용하도록 노력하고 있습니다.
+다른 오류 메시지가 나타나거나 추가 질문이 있는 경우 [여기][5]에 연결 하십시오.
+
+### <a name="when-will-my-trial-environment-expire"></a>내 평가판 환경은 언제 만료됩니까?   
+평가판 환경은 만든 후 30일에 만료됩니다. 환경이 만료되기를 원하지 않는 경우 프로덕션 환경으로 변환하는 방법이 있습니다. 이 기능은 곧 서비스될 예정이며 그 때까지는 평가판 환경이 만료되지 않습니다.
+
+### <a name="does-my-current-database-created-with-previous-version-of-the-common-data-service-also-gets-counted-in-the-quota"></a>나의 현재 데이터베이스(이전 버전의 Common Data Service를 사용하여 만든)도 할당량으로 계산됩니까?
+데이터베이스(이전 버전의 Common Data Service를 사용하여 만든)가 있는 경우 프로덕션 환경 할당량을 사용하여 계산됩니다. 이제 환경(2018년 3월 15일 이전에 만들어진)에서 데이터베이스를 만드는 경우 프로덕션 환경으로 계산됩니다.
 
 ### <a name="can-i-rename-an-environment"></a>환경 이름을 바꿀 수 있나요?
 예, 이 기능은 PowerApps 관리 센터에서 사용 가능합니다. 자세한 내용은 [환경 관리](environments-administration.md#rename-your-environment)를 참조하세요.
 
 ### <a name="can-i-delete-an-environment"></a>환경을 삭제할 수 있나요?
 예, 이 기능은 PowerApps 관리 센터에서 사용 가능합니다. 자세한 내용은 [환경 관리](environments-administration.md#delete-your-environment)를 참조하세요.
+현재 데이터베이스(Common Data Service의 최신 버전)를 사용하여 프로덕션 환경을 삭제할 수 없습니다. 곧 서비스될 예정입니다!
 
 ### <a name="as-an-environment-admin-can-i-view-and-manage-all-resources-apps-flows-apis-etc-for-an-environment"></a>Environment Admin은 환경에 대한 모든 리소스(앱, 흐름, API 등)를 보고 관리할 수 있나요?
 예, 환경에 대한 앱 및 환경을 볼 수 있는 기능은 PowerApps 관리 센터에서 사용 가능합니다. 자세한 내용은 [앱 보기](admin-view-apps.md)를 참조하세요.
 
-### <a name="which-license-includes-common-data-service"></a>Common Data Service에는 어떤 라이선스가 포함되나요?
-PowerApps 요금제 2.  이 라이선스가 포함된 모든 요금제에 대한 자세한 내용은 [PowerApps 가격 페이지][3]를 참조하세요.
+
 
 <!--Reference links in article-->
 [1]: https://admin.powerapps.com
 [2]: https://web.powerapps.com
 [3]: https://powerapps.microsoft.com/pricing/
 [4]: https://admin.flow.microsoft.com
+[5]: https://go.microsoft.com/fwlink/?linkid=871628

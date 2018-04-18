@@ -15,17 +15,19 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/29/2017
 ms.author: fikaradz
-ms.openlocfilehash: b58e99e4775ed5c18d3498864c6e652e814ddf19
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 5bb7e4f27ed7ee0a30fb028d4d8dfd20a5fc250b
+ms.sourcegitcommit: 078ba325480147e6e4da61e319ed53219f1c5cfc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="attachments-control-in-powerapps"></a>PowerApps의 첨부 파일 컨트롤
 사용자가 자신의 장치에 파일을 다운로드하고, SharePoint 목록에서 파일을 업로드 및 삭제할 수 있는 컨트롤입니다.
 
 ## <a name="limitations"></a>제한 사항
 첨부 파일 컨트롤에는 다음과 같은 임시 제한이 있습니다.
+1. 첨부 파일 다운로드는 Internet Explorer에서 지원되지 않습니다.
+
 1. 첨부 파일 업로드는 SharePoint 목록 데이터 원본에서만 작동합니다.  다른 데이터 원본에 대한 지원은 CDS부터 점진적으로 도입될 예정입니다.
 
 1. 업로드 및 삭제 기능은 폼 내부에서만 작동합니다.  첨부 파일 컨트롤은 편집 모드와 폼 외부에서는 비활성화된 것처럼 보입니다.   파일 추가 및 삭제를 백 엔드에 저장하려면 최종 사용자가 폼을 저장해야 합니다.

@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: d2c9b027506ef460fa9ed7a38f35b71e1ebfb401
-ms.sourcegitcommit: c5e3991e0e4e9f22a1e094d699f35adabfb97c6c
+ms.openlocfilehash: 4b71f931aa3e8263166d52b68ba375917405c2b8
+ms.sourcegitcommit: 078ba325480147e6e4da61e319ed53219f1c5cfc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="environments-overview"></a>환경 개요
 환경은 조직의 비즈니스 데이터, 앱 및 흐름을 저장, 관리 및 공유하는 공간입니다. 또한 각기 다른 역할, 보안 요구 사항 또는 대상 그룹에 따라 앱을 구분하는 컨테이너 기능도 제공합니다. 환경 활용을 선택하는 방식은 해당 조직 및 빌드하려는 앱에 따라 달라집니다. 예:
@@ -97,15 +97,14 @@ ms.lasthandoff: 04/03/2018
 
 | 라이선스 | 환경을 만들 수 있는 경우 |
 | --- | --- |
-| PowerApps P2 |√ |
-| PowerApps P2 평가판 |√ |
+| PowerApps P2 |√ (2개의 프로덕션 및 2개의 평가판 환경)|
+| PowerApps P2 평가판 |√ (두 개의 평가판 환경)|
 | PowerApps P1 |x |
 | PowerApps P1 평가판 |x |
 | Dynamics 365 플랜 |x |
 | Office 365 플랜 |x |
 | Dynamics 365 앱 및 팀 플랜 |x |
 
-각 사용자는 최대 2개의 평가판 환경을 만들 수 있습니다. PowerApps P2도 최대 2개의 프로덕션 환경을 만들 수 있습니다.
 
 ### <a name="where-can-environments-be-created"></a>환경을 어디에 만들 수 있나요?
 [PowerApps.com][2] 및 [PowerApps 관리 센터][1]에서 새 환경을 만들 수 있습니다. 환경을 만들면 사용자는 해당 환경의 Environment Admin 역할에 자동으로 추가됩니다. Environment Admin 또는 Environment Maker 역할의 구성원으로 참여할 수 있는 환경 수는 제한이 없습니다. 환경에 대한 자세한 내용은 [PowerApps에서 환경 관리](environments-administration.md)를 참조하세요. 환경을 만드는 방법에 대한 지침은 [환경 만들기](create-environment.md)를 참조하세요.
