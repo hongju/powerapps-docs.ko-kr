@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 08/18/2017
 ms.author: millopis
 ms.openlocfilehash: dafed76565a4bd3fb3e2822319d344f49376b4fc
-ms.sourcegitcommit: a9d33322228c398d29964429602dc3fe19fa67d2
+ms.sourcegitcommit: d7ed5144f96d1ecc17084c30ed0e2ba3c6b03c26
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/19/2018
 ---
 # <a name="troubleshooting-power-query"></a>파워 쿼리 문제 해결
 파워 쿼리를 사용하여 외부 소스의 데이터를 포함하는 사용자 지정 엔터티를 만들 때 이 오류는 다음과 같은 경우에 나타날 수 있습니다.

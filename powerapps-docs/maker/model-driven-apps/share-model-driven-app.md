@@ -16,10 +16,10 @@ ms.topic: article
 ms.date: 03/21/2018
 ms.author: matp
 ms.openlocfilehash: 4f971668b506776cfd1a9cce2f61d591a4a0db5e
-ms.sourcegitcommit: a9d33322228c398d29964429602dc3fe19fa67d2
+ms.sourcegitcommit: d7ed5144f96d1ecc17084c30ed0e2ba3c6b03c26
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/19/2018
 ---
 # <a name="tutorial-share-a-model-driven-app-with-powerapps"></a>자습서: PowerApps와 모델 기반 앱 공유
 
@@ -121,13 +121,13 @@ ms.lasthandoff: 03/28/2018
 
 |보안 역할  |*권한  |설명 |
 |---------|---------|---------|
-|환경 작성자     |  없음       | Microsoft Flow를 사용하여 앱, 연결, 사용자 지정 API, 게이트웨이 및 흐름을 포함한 환경과 관련된 새 리소스를 만들 수 있습니다. 그러나 환경 내의 데이터에 액세스할 수 있는 권한은 없습니다. 추가 정보: [환경 개요](https://powerapps.microsoft.com/blog/powerapps-environments/)        |
-|시스템 관리자     |  만들기, 읽기, 쓰기, 삭제, 사용자 지정, 보안 역할       | 보안 역할 만들기, 수정 및 할당을 포함하여 환경을 사용자 지정하거나 관리하기 위한 모든 권한을 가집니다. 환경의 모든 데이터를 볼 수 있습니다. 추가 정보: [사용자 지정에 필요한 권한](https://docs.microsoft.com/dynamics365/customer-engagement/customize/privileges-required-customization)        |
+|환경 작성자     |  없음       | Microsoft Flow를 사용하여 앱, 연결, 사용자 지정 API, 게이트웨이 및 흐름을 포함한 환경과 관련된 새 리소스를 만들 수 있습니다. 그러나 환경 내의 데이터에 액세스할 수 있는 권한은 없습니다. 자세한 정보: [환경 개요](https://powerapps.microsoft.com/blog/powerapps-environments/)        |
+|시스템 관리자     |  만들기, 읽기, 쓰기, 삭제, 사용자 지정, 보안 역할       | 보안 역할 만들기, 수정 및 할당을 포함하여 환경을 사용자 지정하거나 관리하기 위한 모든 권한을 가집니다. 환경의 모든 데이터를 볼 수 있습니다. 자세한 정보: [사용자 지정에 필요한 권한](https://docs.microsoft.com/dynamics365/customer-engagement/customize/privileges-required-customization)        |
 |시스템 사용자 지정자     | 만들기(자체), 읽기(자체), 쓰기(자체), 삭제(자체), 사용자 지정         | 환경을 사용자 지정하기 위한 전체 권한을 가집니다. 그러나 작성한 환경 엔터티에 대한 레코드만 볼 수 있습니다. 추가 정보: [사용자 지정에 필요한 권한](https://docs.microsoft.com/dynamics365/customer-engagement/customize/privileges-required-customization)        |
 |Common Data Service 사용자     |  읽기, 만들기(자체), 쓰기(자체), 삭제(자체)       | 환경 내에서 앱을 실행하고 자신이 소유한 레코드에 대한 일반적인 작업을 수행할 수 있습니다.        |
 |대리자     | 다른 사용자를 대신하여 작업 수행        | 코드가 다른 사용자의 권한으로 실행되거나 다른 사용자를 가장할 수 있습니다.  일반적으로 레코드에 대한 액세스를 허용하기 위해 다른 보안 역할과 함께 사용됩니다. 추가 정보: [다른 사용자 가장](https://docs.microsoft.com/dynamics365/customer-engagement/developer/org-service/impersonate-another-user)        |
 
-* 권한은 달리 지정되지 않는 한 전역 범위입니다.
+*권한은 달리 지정되지 않는 한 전역 범위입니다.
 
 ## <a name="next-steps"></a>다음 단계
 [빠른 시작: 모바일 장치에서 모델 기반 앱 실행](../../user/run-app-client-model-driven.md)

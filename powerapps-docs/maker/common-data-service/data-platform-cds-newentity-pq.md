@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 03/21/2018
 ms.author: anneta
 ms.openlocfilehash: 77906602fad6708857a6c34f44d1bc3c7c258f6c
-ms.sourcegitcommit: a9d33322228c398d29964429602dc3fe19fa67d2
+ms.sourcegitcommit: d7ed5144f96d1ecc17084c30ed0e2ba3c6b03c26
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/19/2018
 ---
 # <a name="quickstart-add-data-to-an-entity-in-the-common-data-service-by-using-power-query"></a>빠른 시작: 파워 쿼리를 사용하여 Common Data Service의 엔터티에 데이터 추가
 이 절차에서는 [앱용 Common Data Service](data-platform-intro.md)에서 엔터티를 만들고 파워 쿼리를 사용하여 OData 피드에서 해당 엔터티를 데이터로 채웁니다. 일부 기술을 사용하여 이러한 온라인 및 온-프레미스 원본의 데이터를 다음 항목 간에 통합할 수 있습니다.

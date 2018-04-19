@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 03/21/2018
 ms.author: sharik
 ms.openlocfilehash: a9138c636d70ea4701cbf685c3d7c7965c0e8469
-ms.sourcegitcommit: c5e3991e0e4e9f22a1e094d699f35adabfb97c6c
+ms.sourcegitcommit: d7ed5144f96d1ecc17084c30ed0e2ba3c6b03c26
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/19/2018
 ---
 # <a name="quickstart-create-an-environment"></a>빠른 시작: 환경 만들기
 환경은 조직의 비즈니스 데이터, 앱 및 흐름을 저장, 관리 및 공유하는 공간입니다. 또한 각기 다른 역할, 보안 요구 사항 또는 대상 그룹에 따라 앱을 구분하는 컨테이너 기능도 제공합니다. PowerApps는 자동으로 각 테넌트의 단일 기본 환경을 만들며, 이 환경은 해당 테넌트의 모든 사용자 간에 공유됩니다.
