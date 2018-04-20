@@ -13,13 +13,13 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/21/2018
+ms.date: 04/09/2018
 ms.author: sharik
-ms.openlocfilehash: e9e5c156e9cb3ad47375be9a237a757a6db1158b
-ms.sourcegitcommit: a9d33322228c398d29964429602dc3fe19fa67d2
+ms.openlocfilehash: 92438c37b870ace2ed5b2ec086cf6c5fb1548fdc
+ms.sourcegitcommit: d7ed5144f96d1ecc17084c30ed0e2ba3c6b03c26
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/19/2018
 ---
 # <a name="whats-new-in-powerapps"></a>PowerApps의 새로운 기능
 알려진 제한 사항에 대한 정보는 [일반적인 문제 및 해결 방법](common-issues-and-resolutions.md)을 참조하세요.
@@ -34,18 +34,20 @@ ms.lasthandoff: 03/28/2018
 
 **서비스 예정:** 기능이 출시되면 릴리스 정보 PDF를 계속 업데이트하고 웹 페이지에서도 릴리스 정보를 제공할 예정입니다.
 
-## <a name="mar-21"></a>3월 21일
-1. 데이터 모델로 시작하여 Common Data Service의 핵심 비즈니스 데이터와 프로세스의 모양을 모델로 하여 양식, 뷰 및 기타 구성 요소를 작성하는 [모델 기반 앱](../model-driven-apps/model-driven-app-overview.md)을 만듭니다. 모델 기반 앱은 여러 장치에서 반응하는 우수한 UI를 자동으로 생성합니다.
-2. 환경에서 Common Data Service의 최신 버전에서 [데이터베이스를 만듭니다](../../administrator/create-database.md).
-3. 앱용 Common Data Service는 이제 다음을 포함합니다.
+## <a name="apr-9"></a>4월 9일
+* 웹 브라우저의 앱에서 잘라내기(Ctrl+X), 복사(Ctrl+C) 및 붙여넣기(Ctrl+V) 컨트롤&mdash;컨트롤의 스타일, 수식 및 속성 포함&mdash;.
 
+## <a name="mar-21"></a>3월 21일
+1. 데이터 모델로 시작하여 앱용 Common Data Service의 핵심 비즈니스 데이터와 프로세스의 모양을 모델로 하여 양식, 뷰 및 기타 구성 요소를 작성하는 [모델 기반 앱](../model-driven-apps/model-driven-app-overview.md)을 만듭니다. 모델 기반 앱은 여러 장치에서 뛰어난 반응 속도를 제공하는 우수한 UI를 자동으로 생성합니다.
+2. 환경에서 앱용 CDS의 최신 버전에서 [데이터베이스를 만듭니다](../../administrator/create-database.md).
+3. 이제 앱용 CDS에는 다음이 포함됩니다.
     - **추가 데이터 형식**은 더 복잡한 엔터티 정의를 지원하고 더 풍부한 환경을 제공합니다. (캔버스 및 모델 기반 앱에 적용됩니다.)
-    - PowerApps 사이트에서 직접 앱용 Common Data Service에 [엔터티를 만들고 사용자 지정합니다](../common-data-service/data-platform-create-entity.md). **새로 고친 환경**은 향상된 성능과 더 친숙한 UI 및 옵션 집합의 인라인 만들기 등의 유용한 기능을 포함합니다. (캔버스 및 모델 기반 앱에 적용됩니다.)
-    - 앱용 Common Data Service에 입력된 데이터의 유효성을 검사하기 위한 **서버 쪽 비즈니스 규칙**을 만듭니다. (캔버스 및 모델 기반 앱에 적용됩니다.)
-    - PowerApps 사이트에서 직접 앱용 Common Data Service 엔터티에 **계산된 필드 및 롤업 필드**를 만듭니다. (캔버스 및 모델 기반 앱에 적용됩니다.)  
-    - 개발자는 앱용 Common Data Service SDK(**소프트웨어 개발 키트**)를 사용하여 Common Data Service에 대한 코드 기반 사용자 지정을 만들 수 있습니다.
-    - 고급 사용자는 새 **OData Web API**를 통해 앱용 Common Data Service에 저장된 데이터에 액세스할 수 있습니다.
-    - **파워 쿼리**를 사용하여 Common Data Service로 [데이터를 가져옵니다](../common-data-service/data-platform-cds-newentity-pq.md). 웹에서 파워 쿼리를 사용하여 여러 원본에서 앱용 Common Data Service로 데이터를 직접 가져옵니다.
+    - PowerApps 사이트에서 직접 앱용 CDS에 [엔터티를 만들고 사용자 지정합니다](../common-data-service/data-platform-create-entity.md). **새로 고친 환경**은 향상된 성능과 더 친숙한 UI 및 옵션 집합의 인라인 만들기 등의 유용한 기능을 포함합니다. (캔버스 및 모델 기반 앱에 적용됩니다.)
+    - 앱용 CDS에 입력된 데이터의 유효성을 검사하기 위한 **서버 쪽 비즈니스 규칙**을 만듭니다. (캔버스 및 모델 기반 앱에 적용됩니다.)
+    - PowerApps 사이트에서 직접 앱용 CDS 엔터티에 **계산된 필드 및 롤업 필드**를 만듭니다. (캔버스 및 모델 기반 앱에 적용됩니다.)  
+    - 개발자는 앱용 CDS SDK(**소프트웨어 개발 키트**)를 사용하여 앱용 CDS에 대한 코드 기반 사용자 지정을 만들 수 있습니다.
+    - 고급 사용자는 새 **OData Web API**를 통해 앱용 CDS에 저장된 데이터에 액세스할 수 있습니다.
+    - **파워 쿼리**를 사용하여 앱용 CDS로 [데이터를 가져옵니다](../common-data-service/data-platform-cds-newentity-pq.md). 웹에서 파워 쿼리를 사용하여 여러 원본에서 앱용 CDS로 데이터를 직접 가져옵니다.
 
 ## <a name="mar-5"></a>3월 5일
 1. SharePoint 목록에 [첨부 파일](controls/control-attachments.md)을 추가(및 삭제)합니다.
@@ -83,8 +85,3 @@ ms.lasthandoff: 03/28/2018
 
 ## <a name="nov-10"></a>11월 10일
 * 앱에서 [규칙 이름을 바꾸고](working-with-rules.md) 선택한 컨트롤이 규칙 조건에 들면 규칙을 표시합니다.
-
-## <a name="oct-30"></a>10월 30일
-1. 앱의 [모든 규칙 표시](working-with-rules.md)는 선택한 컨트롤을 위한 것만은 아닙니다.
-2. 앱 작성자가 가장 많이 요청한 아이콘을 추가합니다.
-3. Android 및 iOS 장치용 앱의 성능이 향상되었습니다.
