@@ -15,10 +15,10 @@ ms.workload: na
 ms.date: 3/21/2018
 ms.author: clwesene
 ms.openlocfilehash: e22a18bacb258ca46c8f36d647f9ebcc45282929
-ms.sourcegitcommit: d7ed5144f96d1ecc17084c30ed0e2ba3c6b03c26
+ms.sourcegitcommit: aa2d0166dccb38100183c093f293233b46f3669d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/19/2018
+ms.lasthandoff: 04/23/2018
 ---
 # <a name="quickstart-create-a-custom-entity"></a>빠른 시작: 사용자 지정 엔터티 만들기
 귀하의 조직에 관련된 데이터를 저장하는 사용자 지정 엔터티를 만들 수 있습니다. 그런 다음 엔터티를 참조하는 앱을 개발하여 해당 데이터를 표시할 수 있습니다. 엔터티를 만든 다음 [하나 이상의 필드를 만들거나 수정](data-platform-manage-fields.md)하고 [엔터티 간의 관계를 빌드](data-platform-entity-lookup.md)할 수 있습니다.
