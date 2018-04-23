@@ -14,11 +14,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: cc068fc475643ae68e74d22981679dd9b038eb83
-ms.sourcegitcommit: d7ed5144f96d1ecc17084c30ed0e2ba3c6b03c26
+ms.openlocfilehash: 68ce23ae4b4a961a69cc60173b4f98ec18f05dd2
+ms.sourcegitcommit: aa2d0166dccb38100183c093f293233b46f3669d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/19/2018
+ms.lasthandoff: 04/23/2018
 ---
 # <a name="create-a-common-data-service-database"></a>Common Data Service 데이터베이스 만들기
 Common Data Service를 데이터 저장소로 사용하여 데이터베이스를 만들고 앱을 빌드할 수 있습니다. 사용자 고유의 사용자 지정 엔터티를 만들거나 미리 정의된 엔터티를 사용할 수 있습니다. 데이터베이스를 만들려면 먼저 환경을 만들거나 기존 환경에 **환경 관리자**로 할당되어야 합니다. 또한 적절한 라이선스를 할당 받아야 합니다. Common Data Service 사용을 위한 계획 구매에 대한 자세한 내용은 [가격 책정 정보](pricing-billing-skus.md)를 참조하세요.
@@ -57,7 +57,7 @@ Common Data Service를 데이터 저장소로 사용하여 데이터베이스를
 데이터베이스가 만들어지면 환경 역할이 할당된 사용자는 계속해서 해당 권한이 유지됩니다.  
     이제 **환경 관리자** 역할을 갖고 있는 사용자에게 **시스템 관리자** 역할이 할당됩니다. **환경 작성자** 역할을 갖고 있는 사용자는 계속해서 동일한 역할을 보유합니다.
 
-미리 정의된 역할에 추가 사용자를 할당하거나 [사용자 정의 역할][1]을 만들 수 있습니다. 자세한 내용은 [데이터베이스 보안](create-database.md)을 참조하세요.
+미리 정의된 역할에 추가 사용자를 할당하거나 [사용자 정의 역할][1]을 만들 수 있습니다. 자세한 내용은 [데이터베이스 보안](database-security.md)을 참조하세요.
 
 > [!NOTE]
 > 데이터베이스를 만드는 즉시, 환경 관리자 또는 환경 작성자 역할에 할당된 모든 보안 그룹이 더 이상 적용되지 않습니다. 현재 AAD 보안 그룹은 데이터베이스에서 권한을 할당할 수 없습니다.
