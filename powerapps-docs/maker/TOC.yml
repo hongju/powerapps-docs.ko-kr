@@ -6,6 +6,12 @@
       href: signup-for-powerapps.md
     - name: PowerApps 커뮤니티 계획 등록
       href: dev-community-plan.md
+    - name: 새로운 기능
+      href: ./canvas-apps/release-notes.md
+    - name: 일반적인 문제 및 해결 방법
+      href: ./canvas-apps/common-issues-and-resolutions.md
+    - name: 예정되거나 최근에 진행된 웹 세미나
+      href: ./canvas-apps/webinars-listing.md
 - name: 캔버스 앱
   href: ./canvas-apps/getting-started.md
   items:
@@ -19,7 +25,7 @@
           href: ./canvas-apps/generate-app-from-sharepoint-list-interface.md
         - name: 앱 생성
           items:
-            - name: '앱용 Common Data Service 사용 '
+            - name: 앱용 Common Data Service 사용
               href: ./canvas-apps/data-platform-create-app.md
             - name: SharePoint 사용
               href: ./canvas-apps/app-from-sharepoint.md
@@ -129,6 +135,8 @@
           items:
             - name: powerapps.com 소개
               href: ./canvas-apps/intro-maker-portal.md
+            - name: 환경에서 작업
+              href: ./canvas-apps/working-with-environments.md
             - name: 앱 편집
               href: ./canvas-apps/edit-app.md
             - name: 화면 크기 및 방향 변경
@@ -183,7 +191,7 @@
                   href: ./canvas-apps/sharepoint-scenario-alerts-flow.md
                 - name: 완료된 시나리오 살펴보기
                   href: ./canvas-apps/sharepoint-scenario-summary.md
-            - name: Cognitive 서비스
+            - name: Cognitive Services
               href: ./canvas-apps/cognitive-services-api.md
     - name: 참조
       items:
@@ -195,21 +203,13 @@
           href: ./canvas-apps/connections-list.md
         - name: '시스템 요구 사항, 제한 및 구성'
           href: ./canvas-apps/limits-and-config.md
-    - name: 리소스
-      items:
-        - name: 환경에서 작업
-          href: ./canvas-apps/working-with-environments.md
-        - name: 새로운 기능
-          href: ./canvas-apps/release-notes.md
-        - name: 일반적인 문제 및 해결 방법
-          href: ./canvas-apps/common-issues-and-resolutions.md
-        - name: 예정되거나 최근에 진행된 웹 세미나
-          href: ./canvas-apps/webinars-listing.md
 - name: 모델 기반 앱
   href: ./model-driven-apps/model-driven-app-overview.md
   items:
     - name: 샘플 앱 개요
       href: ./model-driven-apps/overview-model-driven-samples.md
+    - name: 첫 번째 모델 기반 앱 빌드
+      href: .//model-driven-apps/build-first-model-driven-app.md
     - name: 모델 기반 앱 공유
       href: ./model-driven-apps/share-model-driven-app.md
     - name: 개발자용
