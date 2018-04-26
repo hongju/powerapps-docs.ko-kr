@@ -1,25 +1,22 @@
 ---
 title: 프로젝트를 분석하는 Power BI 보고서 만들기 | Microsoft Docs
 description: 이 작업에서는 두 가지 SharePoint 목록을 기반으로 하여 Power BI 보고서를 만듭니다.
-services: ''
-suite: powerapps
 documentationcenter: na
 author: mgblythe
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 01/10/2018
 ms.author: mblythe
-ms.openlocfilehash: 6f3045a67de492866c3db7d9238a5c4c2111bcb6
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 4863ee2c19c17eb8afcc8913dcfb5f3831af828c
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="create-a-power-bi-report-to-analyze-projects"></a>프로젝트를 분석하는 Power BI 보고서 만들기
 > [!NOTE]
@@ -70,7 +67,7 @@ ms.lasthandoff: 03/22/2018
 이 단계에서는 먼저 두 목록에 연결합니다. 그런 다음 데이터 분석에 필요하지 않은 열을 제거하여 데이터를 정리합니다. 또한 계산이 제대로 작동하도록 나머지 열 중 일부의 데이터 형식을 변경합니다. Power BI Desktop에서 데이터를 가져오고 정리하는 방법에 대한 자세한 내용은 단계별 학습 과정의 [데이터 가져오기](https://powerbi.microsoft.com/guided-learning/powerbi-learning-1-1-overview-of-power-bi-desktop) 섹션을 참조하세요.
 
 ### <a name="connect-to-sharepoint-lists"></a>SharePoint 목록에 연결
-1. Power BI Desktop의 **홈** 탭에서 **데이터 가져오기**, **자세히...**를 차례로 클릭하거나 탭합니다.
+1. Power BI Desktop의 **홈** 탭에서 **데이터 가져오기**, **자세히...** 를 차례로 클릭하거나 탭합니다.
    
     ![데이터 가져오기](./media/sharepoint-scenario-build-report/05-01-01-get-data.png)
 2. **데이터 가져오기** 대화 상자에서 **SharePoint Online 목록**, **연결**을 차례로 클릭하거나 탭합니다.
@@ -375,7 +372,7 @@ Power BI Desktop에서 이러한 보고서 시각화를 만들면, Power BI 서�
 3. **PMAssigned** **Title** 및 **ApprovedStartDiff**를 **필드** 창의 **프로젝트 세부 정보**에서 **시각화** 창의 **값**으로 끌어갑니다.
    
     ![시각화 창의 값](./media/sharepoint-scenario-build-report/05-03-16-value-diff.png)
-4. **ProjectedStartDate**를 **필드** 창의 **프로젝트 세부 정보**에서 **시각화** 창의 **필터** 영역으로 끌어간 다음, **(비어 있음)**을 제외한 모든 날짜를 선택합니다.
+4. **ProjectedStartDate**를 **필드** 창의 **프로젝트 세부 정보**에서 **시각화** 창의 **필터** 영역으로 끌어간 다음, **(비어 있음)** 을 제외한 모든 날짜를 선택합니다.
    
     ![ProjectedStartDate별 필터링](./media/sharepoint-scenario-build-report/05-03-17-filters-diff.png)
 5. 모든 데이터가 표시되도록 테이블 열의 크기를 조정하고 **ApprovedStartDiff**를 기준으로 내림차순으로 정렬합니다. 이제 시각화는 다음 이미지와 같습니다.

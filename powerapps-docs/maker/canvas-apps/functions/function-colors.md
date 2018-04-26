@@ -1,25 +1,22 @@
 ---
 title: Color 열거 및 ColorFade, ColorValue 및 RGBA 함수 | Microsoft Docs
 description: 구문 및 예제를 포함하여 PowerApps에서 Color 열거 및 ColorFade, ColorValue 및 RGBA 함수에 대한 참조 정보
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/25/2015
 ms.author: gregli
-ms.openlocfilehash: da456de295f3b4fe38c98d4482e57372e3fc59a3
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: f4eeabf5708fffa6881b84402280d5639d96cc0a
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="color-enumeration-and-colorfade-colorvalue-and-rgba-functions-in-powerapps"></a>PowerApps에서 Color 열거 및 ColorFade, ColorValue 및 RGBA 함수
 기본 제공 색 값 사용, 사용자 지정 색 정의 및 알파 혼합

@@ -1,25 +1,22 @@
 ---
 title: Filter, Search 및 LookUp 함수 | Microsoft Docs
 description: PowerApps에서 Filter 및 LookUp 함수에 대한 구문과 예제를 포함한 참조 정보
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 02/05/2017
 ms.author: gregli
-ms.openlocfilehash: 2a9fa8c08423cfdfb5094547602041b8dda571f2
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 35dec320b52dd934d616ba067932228b0e15ee3d
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="filter-search-and-lookup-functions-in-powerapps"></a>PowerApps의 Filter, Search 및 LookUp 함수
 [테이블](../working-with-tables.md)에서 하나 이상의 [레코드](../working-with-tables.md#records)를 찾습니다.
@@ -54,7 +51,7 @@ ms.lasthandoff: 03/22/2018
 * *Column(s)* - 필수 항목입니다. 찾을 *테이블* 내의 열의 이름입니다. 검색할 열은 텍스트를 포함해야 합니다. 열 이름은 문자열이어야 하며 큰따옴표로 묶여야 합니다. 그러나 열 이름은 정적이어야 하며 수식으로 계산될 수 없습니다. 이러한 열의 데이터 내에서 부분 일치 항목으로 *SearchString*이 발견되는 경우 전체 레코드가 반환됩니다.
 
 > [!NOTE]
-> 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 각 공백을 **"\_x0020\_"**으로 지정합니다. 예를 들어, **"Column Name"**은 **"Column_x0020_Name"**으로 지정합니다.
+> 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 각 공백을 **"\_x0020\_"** 으로 지정합니다. 예를 들어, **"Column Name"** 은 **"Column_x0020_Name"** 으로 지정합니다.
 
 **LookUp**( *Table*, *Formula* [, *ReductionFormula* ] )
 

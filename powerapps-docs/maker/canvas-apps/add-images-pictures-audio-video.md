@@ -1,24 +1,21 @@
 ---
 title: 앱으로 멀티미디어 파일 포함 및 업로드 | Microsoft Docs
 description: 앱에서 멀티미디어 파일 표시 및 데이터 원본에 업로드
-services: ''
-suite: powerapps
 documentationcenter: ''
 author: karthik-1
-manager: anneta
+manager: kfile
 editor: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 07/12/2017
 ms.author: sharik
-ms.openlocfilehash: 75ec8131a4e9a4be796f06669d8d25ff559eaf69
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 7ee752f5606f10f66ad7c8dc49e05233225c0a89
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="using-multimedia-files-in-powerapps"></a>PowerApps에서 멀티미디어 파일 사용
 이 토픽에서는 앱에 멀티미디어 파일을 포함하고, 데이터 원본에 펜 드로잉을 업로드하고, 앱에서 데이터 원본의 이미지를 표시하는 방법을 보여 줍니다. 이 토픽에 사용된 데이터 원본은 비즈니스용 OneDrive에서 Excel 파일입니다.
@@ -107,7 +104,7 @@ PowerApps에 [가입](../signup-for-powerapps.md)하고 [설치](http://aka.ms/p
 ## <a name="upload-pen-drawings-to-the-cloud"></a>클라우드로 펜 드로잉 업로드
 이 시나리오에서는 데이터 원본, 비즈니스용 OneDrive에 펜 드로잉을 업로드하는 방법을 알아보고 드로잉이 저장되는 방식을 확인합니다.
 
-1. Excel에서 **Image [image]**를 셀 A1에 추가합니다.
+1. Excel에서 **Image [image]** 를 셀 A1에 추가합니다.
 
 2. 다음 단계에 따라 테이블를 만듭니다.    
 

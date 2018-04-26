@@ -1,25 +1,22 @@
 ---
 title: Sort 및 SortByColumns 함수 | Microsoft Docs
 description: PowerApps에서 Sort 및 SortByColumns 함수에 대한 구문과 예제를 포함한 참조 정보
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 04/26/2016
 ms.author: gregli
-ms.openlocfilehash: 95cb5176b72c676e10f410c4fc3e01fd99568e59
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 6ba2186e7f6618cdaa6eef8073e5f3897628ae8f
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="sort-and-sortbycolumns-functions-in-powerapps"></a>PowerApps의 Sort 및 SortByColumns 함수
 [테이블](../working-with-tables.md)을 정렬합니다.
@@ -35,11 +32,11 @@ ms.lasthandoff: 03/22/2018
 
 **SortByColumns** 함수는 하나 이상의 열을 기준으로 테이블을 정렬하는 데 사용할 수도 있습니다.
 
-**SortByColumns**에 대한 매개 변수 목록은 정렬할 열의 이름 및 열당 정렬 방향을 제공합니다.  정렬 작업은 (첫 번째 열로 먼저 정렬한 후 두 번째 열로 정렬된) 매개 변수의 순서대로 수행됩니다.  열 이름은 매개 변수 목록에 직접 포함될 경우 큰따옴표가 필요한 문자열로 지정됩니다.  예를 들어, **SortByColumns( CustomerTable, "LastName" )**입니다.
+**SortByColumns**에 대한 매개 변수 목록은 정렬할 열의 이름 및 열당 정렬 방향을 제공합니다.  정렬 작업은 (첫 번째 열로 먼저 정렬한 후 두 번째 열로 정렬된) 매개 변수의 순서대로 수행됩니다.  열 이름은 매개 변수 목록에 직접 포함될 경우 큰따옴표가 필요한 문자열로 지정됩니다.  예를 들어, **SortByColumns( CustomerTable, "LastName" )** 입니다.
 
 **SortByColumns**를 **[드롭다운](../controls/control-drop-down.md)** 또는 **[목록 상자](../controls/control-list-box.md)** 컨트롤과 결합하면 사용자가 어떤 열로 정렬할지 선택할 수 있게 됩니다.
 
-**SortByColumns**는 오름차순 또는 내림차순의 정렬 방식 외에도, 테이블 값을 하나의 열로 정렬할 수 있습니다.  예를 들어, **["월요일", "화요일", "수요일", "목요일", "금요일", "토요일", "일요일"]**을 정렬 순서로 제공하여 해당 주의 요일 이름을 기준으로 레코드를 정렬할 수 있습니다.  모든 레코드에는 **월요일**이 먼저 오고, **화요일**이 다음에 옵니다.  정렬 테이블에 표시되지 않지만 찾은 레코드는 해당 목록의 끝에 배치됩니다.
+**SortByColumns**는 오름차순 또는 내림차순의 정렬 방식 외에도, 테이블 값을 하나의 열로 정렬할 수 있습니다.  예를 들어, **["월요일", "화요일", "수요일", "목요일", "금요일", "토요일", "일요일"]** 을 정렬 순서로 제공하여 해당 주의 요일 이름을 기준으로 레코드를 정렬할 수 있습니다.  모든 레코드에는 **월요일**이 먼저 오고, **화요일**이 다음에 옵니다.  정렬 테이블에 표시되지 않지만 찾은 레코드는 해당 목록의 끝에 배치됩니다.
 
 [Table](../working-with-tables.md)은 PowerApps에서 문자열이나 숫자와 같은 값입니다.  테이블을 함수로 전달하거나 함수로부터 반환할 수 있습니다.  **Sort** 및 **SortByColumn**은 테이블을 변경하지 않는 대신 테이블을 인수로 가져오고 정렬된 새 테이블을 반환합니다.  자세한 내용은 [테이블 작업](../working-with-tables.md)을 참조하세요.
 
@@ -59,7 +56,7 @@ ms.lasthandoff: 03/22/2018
 * *SortOrder(s)* - 선택 항목입니다.  **SortOrder.Ascending** 또는 **SortOrder.Descending**이 있습니다.  **SortOrder.Ascending**이 기본값입니다.  다양한 *ColumnNames*가 제공되면 마지막 열을 제외한 모든 열에는 *SortOrder*가 포함되어야 합니다.
   
     > [!NOTE]
-> 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 각 공백을 **"\_x0020\_"**으로 지정합니다. 예를 들어, **"Column Name"**은 **"Column_x0020_Name"**으로 지정합니다.
+> 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 각 공백을 **"\_x0020\_"** 으로 지정합니다. 예를 들어, **"Column Name"** 은 **"Column_x0020_Name"** 으로 지정합니다.
 
 **SortByColumns**( *Table*, *ColumnName*, *SortOrderTable* )
 
@@ -68,7 +65,7 @@ ms.lasthandoff: 03/22/2018
 * *SortOrderTable* - 필수 항목입니다.  정렬할 값들의 단일 열 테이블입니다.
   
     > [!NOTE]
-> 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 각 공백을 **"\_x0020\_"**으로 지정합니다. 예를 들어, **"Column Name"**은 **"Column_x0020_Name"**으로 지정합니다.
+> 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 각 공백을 **"\_x0020\_"** 으로 지정합니다. 예를 들어, **"Column Name"** 은 **"Column_x0020_Name"** 으로 지정합니다.
 
 ## <a name="examples"></a>예
 다음 예제에서는 이 테이블의 데이터가 포함된 **IceCream** [데이터 원본](../working-with-data-sources.md)을 사용합니다.

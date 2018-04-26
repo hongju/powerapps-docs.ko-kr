@@ -1,24 +1,22 @@
 ---
 title: 엔터티 양식 컨트롤 사용 | Microsoft Docs
 description: 엔터티 양식 컨트롤을 사용하여 Common Data Service 엔터티에 대한 서식 있는 양식을 추가하여 앱을 보다 빠르게 만들 수 있습니다.
-services: powerapps
 documentationcenter: na
 author: aneesmsft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 03/11/2017
 ms.author: aneesa
-ms.openlocfilehash: 9e9241db35928437651d79b1bc18649e9c5d90ed
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: fd3c3c002ab877b78a2065e37c6a8f2ddcb91fb6
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="use-the-entity-form-control"></a>엔터티 양식 컨트롤 사용
 **엔터티 양식** 컨트롤을 사용하여 Common Data Service 엔터티에 대한 서식 있는 양식을 추가하여 앱을 보다 빠르게 만들 수 있습니다.
@@ -53,7 +51,7 @@ ms.lasthandoff: 03/22/2018
 **{SalesOrderId : true, Account : true}**
 
 **SelectedField** – 클릭 또는 탭되는 필드를 결정합니다. **SelectableFields**로 지정된 필드에만 적용됩니다.  
-예: **SelectableFields** 속성을 **{SalesOrderId : true, Account : true}**로 설정하고 사용자가 **Account** 필드를 클릭 또는 탭할 경우 **SelectedField.Account**는 true로 설정됩니다.
+예: **SelectableFields** 속성을 **{SalesOrderId : true, Account : true}** 로 설정하고 사용자가 **Account** 필드를 클릭 또는 탭할 경우 **SelectedField.Account**는 true로 설정됩니다.
 
 **OnFieldSelect** – 사용자가 필드를 클릭하거나 탭할 때 앱이 응답하는 방식입니다. **SelectableFields**로 지정된 필드에만 적용됩니다.
 
@@ -96,7 +94,7 @@ ms.lasthandoff: 03/22/2018
 2. 첫 번째 화면의 이름을 **SalesOrderListScreen**으로 바꿉니다.
    
     ![](media/entity-form-control/entityform-tutorial-01-02.png)
-3. **삽입** 탭에서 **양식**을 클릭하거나 탭한 다음, **엔터티 양식(실험적)**을 클릭하거나 탭합니다.  
+3. **삽입** 탭에서 **양식**을 클릭하거나 탭한 다음, **엔터티 양식(실험적)** 을 클릭하거나 탭합니다.  
    
     **엔터티 양식** 컨트롤이 화면에 추가됩니다.  
    

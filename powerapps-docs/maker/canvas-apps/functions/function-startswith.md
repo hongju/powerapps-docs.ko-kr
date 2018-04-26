@@ -1,25 +1,22 @@
 ---
 title: EndsWith 및 StartsWith 함수 | Microsoft Docs
 description: PowerApps의 EndsWith 및 StartsWith 함수에 대한 구문과 예제를 포함한 참조 정보
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 07/24/2017
 ms.author: gregli
-ms.openlocfilehash: 2ffc183221e399ee978ac9a600b400e96a00f704
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: c01a69f311378e8e818036c866b96a78f223baf9
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="endswith-and-startswith-functions-in-powerapps"></a>PowerApps의 EndsWith 및 StartsWith 함수
 텍스트 문자열이 다른 텍스트 문자열로 시작되거나 끝나는지 테스트합니다.
@@ -47,17 +44,17 @@ ms.lasthandoff: 03/22/2018
 ## <a name="examples"></a>예
 | 수식 | 설명 | 결과 |
 | --- | --- | --- |
-| **EndsWith( "Hello World", "world" )** |**"Hello World"**가 **"world"**로 끝나는지 테스트합니다.  이 테스트는 대/소문자를 구분하지 않습니다. |**true** |
-| **EndsWith( "Good bye", "good" )** |**"Good bye"**가 **"good"**으로 끝나는지 테스트합니다.  *EndText* 인수(**"good"**)가 텍스트에 나타나지만 끝에 나타나지는 않습니다. |**false** |
-| **EndsWith( "Always say hello", "hello" )** |**"Always say hello"**가 **"hello"**로 끝나는지 테스트합니다. |**true** |
-| **Endswith( "Bye bye", "" )** |**"Bye bye"**가 빈 텍스트 문자열(**Len**이 0을 반환함)로 끝나는지 테스트합니다.  **필터** 식에서 사용을 줄이면, 이런 경우 **EndsWith**가 **true**를 반환하도록 정의됩니다. |**true** |
+| **EndsWith( "Hello World", "world" )** |**"Hello World"** 가 **"world"** 로 끝나는지 테스트합니다.  이 테스트는 대/소문자를 구분하지 않습니다. |**true** |
+| **EndsWith( "Good bye", "good" )** |**"Good bye"** 가 **"good"** 으로 끝나는지 테스트합니다.  *EndText* 인수(**"good"**)가 텍스트에 나타나지만 끝에 나타나지는 않습니다. |**false** |
+| **EndsWith( "Always say hello", "hello" )** |**"Always say hello"** 가 **"hello"** 로 끝나는지 테스트합니다. |**true** |
+| **Endswith( "Bye bye", "" )** |**"Bye bye"** 가 빈 텍스트 문자열(**Len**이 0을 반환함)로 끝나는지 테스트합니다.  **필터** 식에서 사용을 줄이면, 이런 경우 **EndsWith**가 **true**를 반환하도록 정의됩니다. |**true** |
 
 | 수식 | 설명 | 결과 |
 | --- | --- | --- |
-| **StartsWith( "Hello World", "hello" )** |**"Hello World"**가 **"hello"**로 시작하는지 테스트합니다.  이 테스트는 대/소문자를 구분하지 않습니다. |**true** |
-| **StartsWith( "Good bye", "hello" )** |**"Good bye"**가 **"hello"**로 시작하는지 테스트합니다. |**false** |
-| **StartsWith( "Always say hello", "hello" )** |**"Always say hello"**가 **"hello"**로 시작하는지 테스트합니다.  **"hello"**가 텍스트에 나타나지만 처음에 나타나지는 않습니다. |**false** |
-| **StartsWith( "Bye bye", "" )** |**"Bye bye"**가 빈 텍스트 문자열(**Len**이 0을 반환함)로 시작하는지 테스트합니다.  **필터** 식에서 사용을 줄이면, 이런 경우 **StartsWith**가 **true**를 반환하도록 정의됩니다. |**true** |
+| **StartsWith( "Hello World", "hello" )** |**"Hello World"** 가 **"hello"** 로 시작하는지 테스트합니다.  이 테스트는 대/소문자를 구분하지 않습니다. |**true** |
+| **StartsWith( "Good bye", "hello" )** |**"Good bye"** 가 **"hello"** 로 시작하는지 테스트합니다. |**false** |
+| **StartsWith( "Always say hello", "hello" )** |**"Always say hello"** 가 **"hello"** 로 시작하는지 테스트합니다.  **"hello"** 가 텍스트에 나타나지만 처음에 나타나지는 않습니다. |**false** |
+| **StartsWith( "Bye bye", "" )** |**"Bye bye"** 가 빈 텍스트 문자열(**Len**이 0을 반환함)로 시작하는지 테스트합니다.  **필터** 식에서 사용을 줄이면, 이런 경우 **StartsWith**가 **true**를 반환하도록 정의됩니다. |**true** |
 
 ### <a name="search-user-experience"></a>검색 사용자 환경
 많은 앱에서 하나 이상의 문자를 검색 상자에 입력하면 큰 데이터 집합의 레코드 목록을 필터링할 수 있습니다. 입력하는 동안 검색 조건과 일치하는 레코드만 목록에 표시됩니다.

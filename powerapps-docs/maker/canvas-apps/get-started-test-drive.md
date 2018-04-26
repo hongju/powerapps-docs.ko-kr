@@ -1,8 +1,6 @@
 ---
 title: 템플릿에서 앱 만들기 | Microsoft Docs
 description: PowerApps 템플릿 기반의 앱을 자동으로 만들기 위한 단계별 지침입니다.
-services: ''
-suite: powerapps
 documentationcenter: na
 author: AFTOwen
 manager: kfile
@@ -10,16 +8,15 @@ editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 03/19/2018
 ms.author: anneta
-ms.openlocfilehash: 809856ca0139377a86894c6a5b8d3be4f2d99c1b
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 29010630412de78945d9d35212210b7ce1a8407f
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="create-an-app-from-a-powerapps-template"></a>PowerApps 템플릿에서 앱 만들기
 예산 추적 및 휴가 일정 예약과 같은 특정 시나리오에 대한 템플릿 기반의 앱을 자동으로 만든 다음, 앱을 실행하여 해당 기본 동작을 이해합니다.

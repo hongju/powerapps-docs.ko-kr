@@ -1,25 +1,22 @@
 ---
 title: 푸시 알림 보내기 | Microsoft Docs
 description: PowerApps에서 앱에 네이티브 푸시 알림을 보내는 방법을 알아봅니다.
-services: ''
-suite: powerapps
 documentationcenter: na
 author: jamesol-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 08/08/2017
 ms.author: jamesol
-ms.openlocfilehash: 29199a60004f2cf77e4c4eaea3d812c4d98fcc20
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 0792a47db2174dc440488eb854987bca80c8b363
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="send-a-pull-notification-in-powerapps"></a>PowerApps에서 끌어오기 알림 보내기
 푸시 알림은 앱 사용자의 관심을 끌고 주요 작업의 우선 순위를 지정하는 데 도움이 되도록 소비자 및 비즈니스 시나리오에 대한 모바일 앱에 주로 사용됩니다. PowerApps에서 PowerApps 알림 커넥터를 사용하여 알림을 보낼 수 있습니다. PowerApps에서 만드는 모든 앱에 네이티브 푸시 알림을 보낼 수 있습니다. 나중에 더 많은 알림 유형을 추가할 예정입니다.
@@ -81,7 +78,7 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="load-a-specific-page-and-context-when-a-user-taps-the-notification"></a>사용자가 알림을 탭하는 경우 특정 페이지 및 컨텍스트 로드
 ### <a name="pass-parameters"></a>매개 변수 전달
-푸시 알림은 앱에 특정 매개 변수를 전달할 수 있습니다. 예를 들어, **CaseID** 값을 읽으려면 *Param("CaseID")*을 사용합니다. 이 매개 변수를 신속하게 식별하려면 앱에 **레이블** 컨트롤을 추가합니다. 해당 컨트롤의 **Text** 속성을 **Param("CaseID")**으로 설정합니다. 사용자가 **모든 앱** 목록에서 앱을 여는 경우 값은 비어 있습니다. 사용자가 장치의 다른 위치에서 앱을 여는 경우 값은 **CaseID** 값으로 채워집니다.
+푸시 알림은 앱에 특정 매개 변수를 전달할 수 있습니다. 예를 들어, **CaseID** 값을 읽으려면 *Param("CaseID")* 을 사용합니다. 이 매개 변수를 신속하게 식별하려면 앱에 **레이블** 컨트롤을 추가합니다. 해당 컨트롤의 **Text** 속성을 **Param("CaseID")** 으로 설정합니다. 사용자가 **모든 앱** 목록에서 앱을 여는 경우 값은 비어 있습니다. 사용자가 장치의 다른 위치에서 앱을 여는 경우 값은 **CaseID** 값으로 채워집니다.
 
 ### <a name="set-the-start-page"></a>시작 페이지 설정
 앱에서 열도록 설정할 수 있습니다. 예를 들어, 앱이 열리면 **사례 세부 정보** 페이지가 열리도록 설정할 수 있습니다.
@@ -89,7 +86,7 @@ ms.lasthandoff: 03/22/2018
 1. **Timer** 컨트롤을 추가하고 이 수식에 해당 **OnTimerEnd** 속성을 설정합니다.
    <br>**Navigate(EditCase, ScreenTransition.None)**
 2. (선택 사항) 해당 **Visible** 속성을 **false**로 설정하여 **타이머** 컨트롤을 숨깁니다.
-3. 화면의 **OnVisible** 속성을 **Timer.Start()**로 설정합니다.
+3. 화면의 **OnVisible** 속성을 **Timer.Start()** 로 설정합니다.
 
 > [!TIP]
 > 알림을 위해 앱에서 고유한 첫 번째 페이지를 만드는 것이 좋습니다.

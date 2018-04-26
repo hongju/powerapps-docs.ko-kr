@@ -1,25 +1,22 @@
 ---
 title: EditForm, NewForm, SubmitForm, ResetForm, ViewForm 함수 | Microsoft Docs
 description: PowerApps의 EditForm, NewForm, SubmitForm, ResetForm, ViewForm 함수에 대한 구문과 예제를 포함한 참조 정보
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 07/06/2017
 ms.author: gregli
-ms.openlocfilehash: 7e64426cfee2b72cd8fda51b889b99b285147fcc
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 6a32068d0de49ea0a6cf752fde0fd486159f39e9
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="editform-newform-submitform-resetform-and-viewform-functions-in-powerapps"></a>PowerApps의 EditForm, NewForm, SubmitForm, ResetForm, ViewForm 함수
 **[편집 양식](../controls/control-form-detail.md)** 컨트롤의 항목을 보거나 편집하거나 생성하고 콘텐츠를 저장하고 컨트롤을 다시 설정합니다.
@@ -34,7 +31,7 @@ ms.lasthandoff: 03/22/2018
 | **FormMode.View** |양식에 기존 레코드가 채워지지만 사용자가 필드 값을 수정할 수 없습니다. |
 
 ## <a name="description"></a>설명
-이러한 함수는 사용자가 편집 내용을 저장하거나 편집 내용을 취소하거나 레코드를 만들 수 있도록 **[Button](../controls/control-button.md)**이나 **[Image](../controls/control-image.md)** 컨트롤의 **[OnSelect](../controls/properties-core.md)** 수식에서 호출됩니다. [컨트롤과 이러한 함수를 함께 사용](../working-with-forms.md)하여 완벽한 솔루션을 만들 수 있습니다.
+이러한 함수는 사용자가 편집 내용을 저장하거나 편집 내용을 취소하거나 레코드를 만들 수 있도록 **[Button](../controls/control-button.md)** 이나 **[Image](../controls/control-image.md)** 컨트롤의 **[OnSelect](../controls/properties-core.md)** 수식에서 호출됩니다. [컨트롤과 이러한 함수를 함께 사용](../working-with-forms.md)하여 완벽한 솔루션을 만들 수 있습니다.
 
 이 함수는 값을 반환하지 않습니다.
 

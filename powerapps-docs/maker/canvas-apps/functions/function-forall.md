@@ -1,25 +1,22 @@
 ---
 title: ForAll 함수 | Microsoft Docs
 description: PowerApps의 ForAll 함수에 대한 구문과 예제를 포함한 참조 정보
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 04/26/2016
 ms.author: gregli
-ms.openlocfilehash: e2e0a0d638f8f0ff5f9924604a43fa38a556f8fe
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 7df5e270e92930fa494ec8a30a59d46d022fd915
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="forall-function-in-powerapps"></a>PowerApps의 ForAll 함수
 [테이블](../working-with-tables.md)의 모든 [레코드](../working-with-tables.md#records)에 대해 값을 계산하고 작업을 수행합니다.
@@ -39,7 +36,7 @@ ms.lasthandoff: 03/22/2018
 ### <a name="taking-action"></a>작업 수행
 수식에는 작업(예: **[Patch](function-patch.md)** 및 **[Collect](function-clear-collect-clearcollect.md)** 함수를 사용하여 데이터 원본의 레코드를 수정하는 작업)을 수행하는 함수가 포함될 수 있습니다.  수식은 연결에 관한 메서드를 호출할 수도 있습니다.  [**;** 연산자](operators.md)를 사용하면 레코드당 여러 작업을 수행할 수 있습니다. **ForAll** 함수의 대상인 테이블은 수정할 수 없습니다.
 
-수식을 작성할 때는 레코드가 임의의 순서로 처리될 수 있고 가능한 경우에는 병렬로 처리될 수 있음에 유의하십시오.  테이블의 첫 번째 레코드는 마지막 레코드 다음에 처리될 수 있습니다.  순서 종속성을 피하도록 주의하십시오.  이러한 이유로 인해, **ForAll** 함수 내에서 **[UpdateContext](function-updatecontext.md)**, **[Clear](function-clear-collect-clearcollect.md)**, **[ClearCollect](function-clear-collect-clearcollect.md)** 함수를 사용할 수 업습니다. 해당 함수는 이러한 효과에 영향을 받기 쉬운 변수를 보유하는 데 쉽게 사용될 수 있기 때문입니다.  **[Collect](function-clear-collect-clearcollect.md)**를 사용할 수 있지만 레코드가 추가되는 순서는 정의되지 않습니다.
+수식을 작성할 때는 레코드가 임의의 순서로 처리될 수 있고 가능한 경우에는 병렬로 처리될 수 있음에 유의하십시오.  테이블의 첫 번째 레코드는 마지막 레코드 다음에 처리될 수 있습니다.  순서 종속성을 피하도록 주의하십시오.  이러한 이유로 인해, **ForAll** 함수 내에서 **[UpdateContext](function-updatecontext.md)**, **[Clear](function-clear-collect-clearcollect.md)**, **[ClearCollect](function-clear-collect-clearcollect.md)** 함수를 사용할 수 업습니다. 해당 함수는 이러한 효과에 영향을 받기 쉬운 변수를 보유하는 데 쉽게 사용될 수 있기 때문입니다.  **[Collect](function-clear-collect-clearcollect.md)** 를 사용할 수 있지만 레코드가 추가되는 순서는 정의되지 않습니다.
 
 데이터 원본을 수정하는 **Collect**, **Remove**, **Update**를 비롯한 몇 가지 함수는 변경된 데이터 원본을 반환 값으로 반환합니다.  이러한 반환 값이 **ForAll** 테이블의 모든 레코드에 대해 반환되면 커지고 상당한 리소스를 소비할 수 있습니다.  또한 이러한 반환 값이 필요한 값이 아닐 수도 있습니다. **ForAll**은 병렬 작업이 가능하고 이러한 함수의 파생 작업을 그 결과를 얻는 것으로부터 분리할 수 있기 때문입니다.  다행이 **ForAll**의 반환 값이 실제로 사용되지 않으면(데이터 수정 함수의 경우) 반환 값이 생성되지 않아서 리소스나 순서 관련 문제가 없습니다.  하지만 **ForAll**의 결과를 사용하고 데이터 원본을 반환하는 함수 중 하나를 사용하는 경우, 결과를 구조화하는 방법에 대해 신중히 생각하고, 작은 데이터 집합부터 먼저 시도해보십시오.  
 

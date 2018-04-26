@@ -1,25 +1,22 @@
 ---
 title: IfError 함수 | Microsoft Docs
 description: PowerApps의 IfError 함수에 대한 구문과 예제를 포함한 참조 정보
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 03/21/2018
 ms.author: gregli
-ms.openlocfilehash: c0da6a00f1176c8f44db6e508cca92b0cbf99beb
-ms.sourcegitcommit: a9d33322228c398d29964429602dc3fe19fa67d2
+ms.openlocfilehash: 2bd8ba7dc9b764399165c75361215cee2edb4e7b
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="iferror-function-in-powerapps"></a>PowerApps의 IfError 함수
 오류를 감지하고 대체 값을 제공하거나 작업을 수행합니다.

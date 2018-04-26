@@ -1,24 +1,21 @@
 ---
 title: 사용자 지정 커넥터 콘텐츠 링크 | Microsoft Docs
 description: 사용자 지정 커넥터를 만들고, 사용하고, 공유하고, 인증하는 콘텐츠에 대한 링크입니다.
-services: ''
-suite: powerapps
 documentationcenter: ''
 author: mgblythe
-manager: anneta
+manager: kfile
 editor: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 05/05/2017
 ms.author: mblythe
-ms.openlocfilehash: 2f8908241c03c5c0fd9a2d254aead52e29087387
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 9f8e64efc3f7ff91fad0eba1cf20274c89aaeabe
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="custom-connectors-in-powerapps"></a>PowerApps의 사용자 지정 커넥터
 

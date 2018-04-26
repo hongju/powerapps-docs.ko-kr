@@ -1,25 +1,22 @@
 ---
 title: 크기 및 위치 속성 | Microsoft Docs
 description: 높이 및 너비 같은 속성의 참조 자료
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/25/2016
 ms.author: gregli
-ms.openlocfilehash: 991262698ee12d4149dee95e27ecc3df311a849e
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 7df2782bc18d1c999383226e31033035fb59cea1
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="size-and-location-properties-in-powerapps"></a>PowerApps의 크기 및 위치 속성
 ## <a name="overview"></a>개요
@@ -41,7 +38,7 @@ ms.lasthandoff: 03/22/2018
 
 **AutoHeight** – **[Text](properties-core.md)** 속성에 컨트롤이 표시할 수 있는 것보다 많은 문자가 있으면 레이블이 자동으로 높이를 증대할지 여부입니다.  
 
-* **[레이블](control-text-box.md)**에 적용
+* **[레이블](control-text-box.md)** 에 적용
 
 **Width** – 컨트롤의 왼쪽 및 오른쪽 가장자리 사이의 간격입니다.
 
@@ -49,7 +46,7 @@ ms.lasthandoff: 03/22/2018
 
 **WidthFit** – **[편집 양식](control-form-detail.md)** 컨트롤처럼 컨테이너 컨트롤의 빈 공간을 채우기 위해 컨트롤의 가로가 자동으로 커지는지 여부입니다. 여러 카드에서 이 속성이 **true**로 설정되면 카드 사이에 공간이 나뉩니다. 자세한 내용은 [데이터 양식 레이아웃 이해](../working-with-form-layout.md)를 참조하세요.
 
-* **[카드](control-card.md)**에 적용
+* **[카드](control-card.md)** 에 적용
 
 ## <a name="padding"></a>안쪽 여백
 **Padding** – 가져오기 또는 내보내기 단추의 텍스트와 단추의 가장자리 사이의 간격입니다.

@@ -1,25 +1,22 @@
 ---
 title: Average, Max, Min, StdevP, Sum, VarP 함수 | Microsoft Docs
 description: PowerApps의 Average, Max, Min, StdevP, Sum, VarP 함수에 대한 구문과 예제를 포함한 참조 정보
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 08/15/2017
 ms.author: gregli
-ms.openlocfilehash: e30526f7132f3dabf5e54a51daf8a01b2f431a68
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: e488383acbd163383079b5078e464cab89e677ad
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="average-max-min-stdevp-sum-and-varp-functions-in-powerapps"></a>PowerApps의 Average, Max, Min, StdevP, Sum, VarP 함수
 일련의 숫자를 요약하는 집계 함수입니다.
@@ -39,7 +36,7 @@ ms.lasthandoff: 03/22/2018
 
 이러한 함수의 값은 다음과 같이 지정할 수 있습니다.
 
-* 별도의 인수. 예를 들어 **Sum( 1, 2, 3 )**은 6을 반환합니다.
+* 별도의 인수. 예를 들어 **Sum( 1, 2, 3 )** 은 6을 반환합니다.
 * [테이블](../working-with-tables.md) 및 이 테이블에 연산을 수행할 수식.  집계는 각 [레코드](../working-with-tables.md#records)에 대한 수식의 값에 따라 계산됩니다.  
 
 [!INCLUDE [record-scope](../../../includes/record-scope.md)]

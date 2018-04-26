@@ -1,25 +1,22 @@
 ---
 title: Collect, Clear, ClearCollect 함수 | Microsoft Docs
 description: PowerApps의 Collect, Clear, ClearCollect 함수에 대한 구문과 예제를 포함한 참조 정보
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 11/01/2015
 ms.author: gregli
-ms.openlocfilehash: cc12241861a1dd6a0242810bb1a6faab70a2de27
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 9d67db7829361565072362b6ac37125dc0dc673a
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="collect-clear-and-clearcollect-functions-in-powerapps"></a>PowerApps의 Collect, Clear, ClearCollect 함수
 [컬렉션](../working-with-data-sources.md#collections)을 만들고 지우고 [데이터 원본](../working-with-data-sources.md)에 [레코드](../working-with-tables.md#records)를 추가합니다.
@@ -45,7 +42,7 @@ ms.lasthandoff: 03/22/2018
 ### <a name="clear"></a>지우기
 **Clear** 함수는 컬렉션의 모든 레코드를 삭제합니다.  컬렉션의 열은 그대로 유지됩니다.
 
-**Clear**는 컬렉션에서만 작동하며 다른 데이터 원본에는 작동하지 않습니다.  이런 용도에는 **[RemoveIf](function-remove-removeif.md)( *DataSource*, true )**를 사용할 수 있습니다.  데이터 원본의 저장소에서 모든 레코드를 제거하고 다른 사용자에게 영향을 줄 수 있으므로 주의해서 사용해야 합니다.
+**Clear**는 컬렉션에서만 작동하며 다른 데이터 원본에는 작동하지 않습니다.  이런 용도에는 **[RemoveIf](function-remove-removeif.md)( *DataSource*, true )** 를 사용할 수 있습니다.  데이터 원본의 저장소에서 모든 레코드를 제거하고 다른 사용자에게 영향을 줄 수 있으므로 주의해서 사용해야 합니다.
 
 **[Remove](function-remove-removeif.md)** 함수를 사용하면 레코드를 선택적으로 제거할 수 있습니다.
 

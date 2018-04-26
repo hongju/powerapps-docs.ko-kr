@@ -1,25 +1,22 @@
 ---
 title: Set 함수 | Microsoft Docs
 description: PowerApps의 Set 함수에 대한 구문과 예제를 포함한 참조 정보
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 06/29/2017
 ms.author: gregli
-ms.openlocfilehash: ef44d704d16892c7c37ac4fbf7c3eebc0ffcb966
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 3615328bf1c272425779998545b0d16ac5626297
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="set-function-in-powerapps"></a>PowerApps의 Set 함수
 전역 변수의 값을 설정합니다.
@@ -63,6 +60,6 @@ PowerApps는 사용자가 앱과 상호 작용할 때 자동으로 다시 계산
 | **Set(&nbsp;Counter,&nbsp;2&nbsp;)** |앞 예제의 **Counter** 전역 변수 값을 **2**로 설정합니다. |**Counter**의 값은 **2**입니다. |
 | **Set(&nbsp;Counter,&nbsp;Counter + 1&nbsp;)** |앞 예제의 **Counter** 전역 변수 값을 **3**으로 증가시킵니다. |**Counter**의 값은 **3**입니다. |
 | **Set(&nbsp;Name,&nbsp;"Lily" )** |전역 변수 **Name**를 생성하거나 수정하고 값을 **Lily**로 설정합니다. |**Name**의 값은 **Lily**입니다. |
-| **Set(&nbsp;Person,&nbsp;{&nbsp;Name:&nbsp;"Milton", Address:&nbsp;"1&nbsp;Main&nbsp;St"&nbsp;} )** |전역 변수 **Person**을 생성하거나 수정하고 값을 레코드로 설정합니다. 이 레코드는 **Name**과 **Address**라는 두 개의 열을 포함합니다. **Name** 열의 값은 **Milton**이고 **Address** 열의 값은 **1 Main St**입니다. |**Person** 의 값은 **{&nbsp;Name:&nbsp;"Milton", Address:&nbsp;"1&nbsp;Main&nbsp;St"&nbsp;}**라는 레코드입니다.<br><br>이 레코드 전체를 **Person**이라는 이름으로 참조하거나 이 레코드의 개별 열을 **Person.Name** 또는 **Person.Address**로 참조합니다. |
-| **Set(&nbsp;Person, Patch(&nbsp;Person,&nbsp;{Address:&nbsp;"2&nbsp;Main&nbsp;St"&nbsp;}&nbsp;)&nbsp;)** |**[Patch](function-patch.md)** 함수로 **Address** 열의 값을 **2 Main St**로 설정하여 **Person** 전역 변수를 업데이트합니다. |이제 **Person**의 값은 **{&nbsp;Name:&nbsp;"Milton", Address:&nbsp;"2&nbsp;Main&nbsp;St"&nbsp;}**라는 레코드입니다. |
+| **Set(&nbsp;Person,&nbsp;{&nbsp;Name:&nbsp;"Milton", Address:&nbsp;"1&nbsp;Main&nbsp;St"&nbsp;} )** |전역 변수 **Person**을 생성하거나 수정하고 값을 레코드로 설정합니다. 이 레코드는 **Name**과 **Address**라는 두 개의 열을 포함합니다. **Name** 열의 값은 **Milton**이고 **Address** 열의 값은 **1 Main St**입니다. |**Person** 의 값은 **{&nbsp;Name:&nbsp;"Milton", Address:&nbsp;"1&nbsp;Main&nbsp;St"&nbsp;}** 라는 레코드입니다.<br><br>이 레코드 전체를 **Person**이라는 이름으로 참조하거나 이 레코드의 개별 열을 **Person.Name** 또는 **Person.Address**로 참조합니다. |
+| **Set(&nbsp;Person, Patch(&nbsp;Person,&nbsp;{Address:&nbsp;"2&nbsp;Main&nbsp;St"&nbsp;}&nbsp;)&nbsp;)** |**[Patch](function-patch.md)** 함수로 **Address** 열의 값을 **2 Main St**로 설정하여 **Person** 전역 변수를 업데이트합니다. |이제 **Person**의 값은 **{&nbsp;Name:&nbsp;"Milton", Address:&nbsp;"2&nbsp;Main&nbsp;St"&nbsp;}** 라는 레코드입니다. |
 

@@ -1,25 +1,22 @@
 ---
 title: 테이블 이해 | Microsoft Docs
 description: 테이블, 열 및 레코드 작업에 대한 참조 정보입니다.
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 04/26/2016
 ms.author: gregli
-ms.openlocfilehash: 794263448bc067ef8bf44ae46480865c56fdbdf8
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 42a7c0db6aaf46d8cdbd112cf72c6f95f58dc9ec
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="understand-tables-and-records-in-powerapps"></a>PowerApps 테이블 및 레코드에 대한 이해
 Microsoft Excel, SharePoint, SQL Server 및 레코드와 테이블에 데이터를 저장하는 다른 여러 원본의 정보에 액세스하는 앱을 만들 수 있습니다. 이러한 종류의 데이터로 가장 효과적으로 작업하려면 이러한 구조의 기반이 되는 개념을 검토합니다.
@@ -64,7 +61,7 @@ Excel 수식에서 하나 이상의 셀 참조를 인수로 사용하는 것처�
 다른 도구에서 열을 "필드"로 참조했을 수도 있습니다.
 
 > [!NOTE]
-> 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 PowerApps는 공백을 **"\_x0020\_"**으로 바꿉니다. 예를 들어 SharePoint 또는 Excel의 **"Column Name"**은 데이터 레이아웃에 표시되거나 수식에 사용될 때 PowerApps에 **"Column_x0020_Name"**으로 나타납니다.
+> 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 PowerApps는 공백을 **"\_x0020\_"** 으로 바꿉니다. 예를 들어 SharePoint 또는 Excel의 **"Column Name"** 은 데이터 레이아웃에 표시되거나 수식에 사용될 때 PowerApps에 **"Column_x0020_Name"** 으로 나타납니다.
 
 ### <a name="table"></a>테이블
 테이블은 하나 이상의 레코드로 구성되며, 각 레코드에는 레코드 간에 일관된 이름을 갖는 여러 필드가 있습니다.
@@ -87,7 +84,7 @@ Excel 및 PowerApps에서는 수식을 사용하여 숫자와 텍스트 문자�
 
 두 경우 모두 인수 값(예: **A1** 셀의 숫자 또는 **Slider1**의 값)을 변경하면 계산된 값이 자동으로 변경됩니다.
 
-마찬가지로 수식을 사용하여 테이블과 레코드의 데이터에 액세스하고 조작할 수 있습니다. **Min(Catalog, Price)**와 같은 일부 수식에서는 **Catalog** 테이블의 **Price** 열에 있는 가장 낮은 값을 표시하기 위해 테이블 이름을 인수로 사용할 수 있습니다. **RenameColumns(Catalog, "Price", "Cost")**와 같은 다른 수식은 전체 테이블을 반환 값으로 사용하여 **Catalog** 테이블의 모든 레코드를 반환하지만 **Price** 열의 이름을 **Cost**로 변경합니다.
+마찬가지로 수식을 사용하여 테이블과 레코드의 데이터에 액세스하고 조작할 수 있습니다. **Min(Catalog, Price)** 와 같은 일부 수식에서는 **Catalog** 테이블의 **Price** 열에 있는 가장 낮은 값을 표시하기 위해 테이블 이름을 인수로 사용할 수 있습니다. **RenameColumns(Catalog, "Price", "Cost")** 와 같은 다른 수식은 전체 테이블을 반환 값으로 사용하여 **Catalog** 테이블의 모든 레코드를 반환하지만 **Price** 열의 이름을 **Cost**로 변경합니다.
 
 숫자와 마찬가지로 테이블과 레코드를 포함한 수식은 기본 테이블 또는 레코드가 변경되면 자동으로 다시 계산됩니다. **Catalog** 테이블의 제품 원가가 이전 최소값 아래로 낮아지면 **[Min](functions/function-aggregates.md)** 수식의 반환 값이 이러한 변경과 일치하도록 자동으로 변경됩니다.
 
@@ -110,7 +107,7 @@ Excel 및 PowerApps에서는 수식을 사용하여 숫자와 텍스트 문자�
 3. **[Items](controls/properties-core.md)** 속성을 다음 예제와 같이 이전 단계의 수식을 인수로 사용하고 테이블을 반환하는 수식으로 설정합니다.<br>
    **FirstN(Sort(TextualGallerySample, Heading, Descending), 2)**
    
-    이 수식에서는 **[FirstN](functions/function-first-last.md)** 함수를 사용하여 테이블에 있는 특정 수의 레코드를 표시합니다. **[Sort](functions/function-sort.md)** 함수를 **[FirstN](functions/function-first-last.md)**의 첫 번째 인수로, 숫자(이 경우 **2**)를 두 번째 인수로 사용하여 표시할 레코드 수를 지정합니다.
+    이 수식에서는 **[FirstN](functions/function-first-last.md)** 함수를 사용하여 테이블에 있는 특정 수의 레코드를 표시합니다. **[Sort](functions/function-sort.md)** 함수를 **[FirstN](functions/function-first-last.md)** 의 첫 번째 인수로, 숫자(이 경우 **2**)를 두 번째 인수로 사용하여 표시할 레코드 수를 지정합니다.
    
     전체 수식은 **TextualGallerySample** 테이블에서 **Heading** 열 기준 내림차순으로 정렬된 처음 두 레코드가 포함된 테이블을 반환합니다.
    
@@ -237,22 +234,22 @@ Excel 및 PowerApps에서는 수식을 사용하여 숫자와 텍스트 문자�
 ### <a name="disambiguation"></a>명확성
 레코드 범위에 추가된 필드 이름은 앱의 다른 위치에서 동일한 이름을 재정의합니다.  이 경우 [**@** 명확성](functions/operators.md) 연산자를 사용하여 레코드 범위 외부의 값에 계속 액세스할 수 있습니다.
 
-* 중첩된 레코드 범위의 값에 액세스하려면 ***Table*[@*FieldName*]** 패턴을 사용하여 작업 중인 테이블의 이름에 **@** 연산자를 사용합니다.  
+* 중첩된 레코드 범위의 값에 액세스하려면 ***Table *[@* FieldName*]** 패턴을 사용하여 작업 중인 테이블의 이름에 **@** 연산자를 사용합니다.  
 * 데이터 원본, 컬렉션 및 컨텍스트 변수와 같은 전역 값에 액세스하려면 **[@*ObjectName*]** (테이블 지정 없음) 패턴을 사용합니다.
 
-작업 중인 테이블이 **Filter( *table*, ... )**과 같은 식이면 명확성 연산자를 사용할 수 없습니다.  가장 안쪽의 레코드 범위만 명확성 연산자를 사용하지 않고 이 테이블 식의 필드에 액세스할 수 있습니다.
+작업 중인 테이블이 **Filter( *table*, ... )** 과 같은 식이면 명확성 연산자를 사용할 수 없습니다.  가장 안쪽의 레코드 범위만 명확성 연산자를 사용하지 않고 이 테이블 식의 필드에 액세스할 수 있습니다.
 
 예를 들어 **X** 컬렉션이 있다고 가정해 보겠습니다.
 
 ![](media/working-with-tables/X.png)
 
-**ClearCollect( X, \[1, 2\] )**를 사용하여 이 컬렉션을 만들 수 있습니다.
+**ClearCollect( X, \[1, 2\] )** 를 사용하여 이 컬렉션을 만들 수 있습니다.
 
 그리고 또 다른 **Y** 컬렉션이 있습니다.
 
 ![](media/working-with-tables/Y.png)
 
-**ClearCollect( Y, ["A", "B"] )**를 사용하여 이 컬렉션을 만들 수 있습니다.
+**ClearCollect( Y, ["A", "B"] )** 를 사용하여 이 컬렉션을 만들 수 있습니다.
 
 또한 **UpdateContext( {Value: "!"} )** 수식을 사용하여 **Value**라는 컨텍스트 변수를 정의합니다.
 
@@ -264,7 +261,7 @@ Excel 및 PowerApps에서는 수식을 사용하여 숫자와 텍스트 문자�
 
 ![](media/working-with-tables/XY.png)
 
-여기서는 무슨 일이 있나요?  가장 바깥쪽의 **ForAll** 함수는 **X**에 대한 레코드 범위를 정의하므로 처리되는 각 레코드의 **Value** 필드에 대한 액세스를 허용합니다.  단순히 **Value** 단어를 사용하거나 **X[@Value]**를 사용하여 액세스할 수 있습니다.
+여기서는 무슨 일이 있나요?  가장 바깥쪽의 **ForAll** 함수는 **X**에 대한 레코드 범위를 정의하므로 처리되는 각 레코드의 **Value** 필드에 대한 액세스를 허용합니다.  단순히 **Value** 단어를 사용하거나 **X[@Value]** 를 사용하여 액세스할 수 있습니다.
 
 가장 안쪽의 **ForAll** 함수는 **Y**에 대한 다른 레코드 범위를 정의합니다.  이 테이블에는 **Value** 필드가 정의되어 있으므로 여기서 **Value**를 사용하면, **Y** 레코드의 필드를 참조하고 더 이상 **X**의 필드는 참조하지 않습니다.  여기서 **X**의 **Value** 필드에 액세스하려면 명확성 연산자와 함께 더 긴 버전을 사용해야 합니다.
 
@@ -272,7 +269,7 @@ Excel 및 PowerApps에서는 수식을 사용하여 숫자와 텍스트 문자�
 
 * **Ungroup( ForAll( X, ForAll( Y, Value & Text( X[@Value] ) & [@Value] ) ), "Value" )**
 
-모든 **ForAll** 레코드 범위는 전역 범위를 재정의합니다.  정의한 **Value** 컨텍스트 변수는 명확성 연산자가 없이 이름으로 사용할 수 없습니다.   이 값에 액세스하려면 **[@Value]**을 사용해야 합니다.
+모든 **ForAll** 레코드 범위는 전역 범위를 재정의합니다.  정의한 **Value** 컨텍스트 변수는 명확성 연산자가 없이 이름으로 사용할 수 없습니다.   이 값에 액세스하려면 **[@Value]** 을 사용해야 합니다.
 
 중첩된 **ForAll** 함수에서 중첩된 결과 테이블을 생성하므로 **Ungroup**은 결과를 평면화합니다.
 
@@ -306,7 +303,7 @@ Excel 및 PowerApps에서는 수식을 사용하여 숫자와 텍스트 문자�
 ### <a name="value-tables"></a>Value 테이블
 대괄호 안에 값을 지정하여 단일 열 테이블을 만들 수 있습니다. 결과 테이블에는 **Value**라는 단일 열이 있습니다.
 
-예를 들어 **[ 1, 2, 3, 4 ]**는 **Table( { Value: 1 }, { Value: 2 }, { Value: 3 }, { Value: 4 } )**와 동일하며 다음 테이블을 반환합니다.
+예를 들어 **[ 1, 2, 3, 4 ]** 는 **Table( { Value: 1 }, { Value: 2 }, { Value: 3 }, { Value: 4 } )** 와 동일하며 다음 테이블을 반환합니다.
 
 ![](media/working-with-tables/inline-table.png)
 

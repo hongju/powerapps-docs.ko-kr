@@ -1,25 +1,22 @@
 ---
 title: PowerApps에서 SharePoint에 대한 연결 만들기 | Microsoft Docs
 description: powerapps.com에서 앱을 자동으로 생성하거나 처음부터 새로 빌드하는 데 사용하도록 SharePoint에 대한 연결을 만듭니다.
-services: ''
-suite: powerapps
 documentationcenter: na
-author: skjerland
-manager: anneta
+author: aftowen
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 09/03/2016
-ms.author: sharik
-ms.openlocfilehash: 2b058fc1fd3b3af24485aa20bdab9511aa5d0b79
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.author: anneta
+ms.openlocfilehash: 16c585f553373faee609683774e7938e8bd165f1
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="create-a-connection-to-sharepoint-from-powerapps"></a>PowerApps에서 SharePoint에 대한 연결 만들기
 SharePoint Online 또는 온-프레미스 SharePoint 중 하나에 대한 연결을 만들면 앱을 자동으로 생성하거나 처음부터 새로 빌드할 수 있습니다.
@@ -51,7 +48,7 @@ PowerApps에 대해 잘 모르는 경우 [PowerApps 소개](getting-started.md)�
    * [온-프레미스 SharePoint 사이트에 연결](connect-to-sharepoint.md#connect-to-an-on-premises-sharepoint-site)합니다.
 
 ## <a name="connect-to-a-sharepoint-online-site"></a>SharePoint Online 사이트에 연결
-1. **직접 연결(클라우드 서비스)**을 클릭하거나 탭한 다음 **연결 추가**를 클릭하거나 탭합니다.
+1. **직접 연결(클라우드 서비스)** 을 클릭하거나 탭한 다음 **연결 추가**를 클릭하거나 탭합니다.
 
     ![SharePoint Online 선택](./media/connect-to-sharepoint/choose-online.png)
 

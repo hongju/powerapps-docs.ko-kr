@@ -1,8 +1,6 @@
 ---
 title: 무료 평가판 라이선스에 등록 | Microsoft Docs
 description: 개인적으로 PowerApps 30일 체험 라이선스에 등록합니다.
-services: ''
-suite: powerapps
 documentationcenter: na
 author: AFTOwen
 manager: kfile
@@ -10,16 +8,15 @@ editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 03/12/2018
 ms.author: anneta
-ms.openlocfilehash: a982e888e19fecd835a45f0e72e7c02ac4387897
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 485dfcf47f76a042afab80c769f994c6cbf1ceac
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="sign-up-for-a-free-license-to-try-powerapps"></a>PowerApps 체험 라이선스에 등록
 PowerApps에서 앱을 만들려면 서로 다른 수준의 기능을 제공하는 라이선스의 여러 유형 중 하나가 필요합니다. 조직에서 Office 365 또는 Dynamics 365의 여러 버전 중 하나를 구매하였거나 조직에서 PowerApps 요금제 1 또는 요금제 2를 구매한 경우에는 이미 PowerApps에 대한 라이선스가 있습니다.

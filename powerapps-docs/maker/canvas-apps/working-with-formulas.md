@@ -1,25 +1,22 @@
 ---
 title: 수식 시작 | Microsoft Docs
 description: 수식을 사용하여 앱을 사용자 지정합니다.
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 04/26/2016
 ms.author: gregli
-ms.openlocfilehash: 076b9a67d700cc318491471182fe273b2edaaff9
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: bf87535f31e214119bc59eca89e50d78a51637e6
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="get-started-with-formulas"></a>수식 시작
 Excel에서 작업하는 것처럼 값을 계산하고 다른 작업을 수행하는 것 외에도 앱에서 요구하는 사용자의 입력 값에 응답하는 등 수식을 사용하여 앱을 구성할 수 있습니다.
@@ -62,27 +59,27 @@ Excel의 경우 숫자 **42**나 문구 **Hello World**와 같이 같단한 특�
    
     ![텍스트 상자 컨트롤이 추가됩니다.](./media/working-with-formulas/add-a-label.png)
    
-    레이블을 추가하면 속성 목록에 컨트롤이 표시하는 항목을 구동하는 **[Text](controls/properties-core.md)** 속성이 자동으로 표시됩니다. 기본적으로 이 속성의 값은 **"텍스트"**입니다.  
-4. 수식 입력줄에 이중 따옴표로 묶은 문자열을 입력하여 **[텍스트](controls/properties-core.md)** 속성 값을 **"Hello World"**로 설정합니다.
+    레이블을 추가하면 속성 목록에 컨트롤이 표시하는 항목을 구동하는 **[Text](controls/properties-core.md)** 속성이 자동으로 표시됩니다. 기본적으로 이 속성의 값은 **"텍스트"** 입니다.  
+4. 수식 입력줄에 이중 따옴표로 묶은 문자열을 입력하여 **[텍스트](controls/properties-core.md)** 속성 값을 **"Hello World"** 로 설정합니다.
    
     !["Hello World" 레이블 사용](./media/working-with-formulas/label-hello-world.png)
    
     입력하는 대로 새 값이 레이블에 바로 반영됩니다.  입력하는 동안 노란색 느낌표 아이콘이 화면에 나타날 수 있습니다. 이 아이콘은 입력한 값에 오류가 있음을 나타내며, 유효한 값이 입력되면 바로 사라집니다. 예를 들어, 양쪽에 큰따옴표가 없는 문자열은 유효하지가 않습니다.
    
-    Excel의 경우 해당 숫자를 셀에 입력하거나 **=SUM(30,12)**와 같이 해당 숫자가 나오는 수식을 입력하여 **42**와 같은 숫자를 표시할 수 있습니다. PowerApps에서는 레이블과 같은 컨트롤의 **Text** 속성을 **42** 또는 **Sum(30,12)**에 설정하여 동일한 효과를 얻을 수 있습니다. 셀과 레이블은 워크시트 또는 앱의 변경에 관계 없이 항상 해당 숫자를 표시합니다.
+    Excel의 경우 해당 숫자를 셀에 입력하거나 **=SUM(30,12)** 와 같이 해당 숫자가 나오는 수식을 입력하여 **42**와 같은 숫자를 표시할 수 있습니다. PowerApps에서는 레이블과 같은 컨트롤의 **Text** 속성을 **42** 또는 **Sum(30,12)** 에 설정하여 동일한 효과를 얻을 수 있습니다. 셀과 레이블은 워크시트 또는 앱의 변경에 관계 없이 항상 해당 숫자를 표시합니다.
    
     > [!NOTE]
 > PowerApps의 경우도 Excel에서와 마찬가지로 등호 또는 더하기 기호가 있는 수식은 앞에 오지 않아야 합니다. 수식 입력줄은 입력하는 모든 내용은 기본적으로 수식으로 간주합니다. 또한 텍스트 문자열을 지정할 때 이전과 마찬가지로 큰따옴표(")로 수식을 묶지 않아야 합니다.
-5. 레이블의 **[Text](controls/properties-core.md)** 속성에서 **"Hello World"**를 **Sum(1,2,3)**으로 바꿉니다.
+5. 레이블의 **[Text](controls/properties-core.md)** 속성에서 **"Hello World"** 를 **Sum(1,2,3)** 으로 바꿉니다.
    
     ![닫는 괄호 없이 부분 함수 Sum(1,2,3을 입력하여 오류가 나타나는 경우](./media/working-with-formulas/label-sum-partial.png)
    
-    사용자가 입력하는 동안 수식 입력줄은 이 함수에 필요한 설명과 예상되는 인수를 표시합니다.  **"Hello World"**의 오른쪽 큰따옴표와 마찬가지로, 화면은 이 식의 오른쪽 괄호를 입력할 때까지 오류를 나타내는 노란색 느낌표를 표시합니다.
+    사용자가 입력하는 동안 수식 입력줄은 이 함수에 필요한 설명과 예상되는 인수를 표시합니다.  **"Hello World"** 의 오른쪽 큰따옴표와 마찬가지로, 화면은 이 식의 오른쪽 괄호를 입력할 때까지 오류를 나타내는 노란색 느낌표를 표시합니다.
    
     ![완전한 수식 Sum(1,2,3) 사용](./media/working-with-formulas/label-sum.png)
 
 ## <a name="change-a-value-based-on-input"></a>입력에 따라 값 변경
-Excel의 경우 셀 A1과 A2가 포함하는 모든 값의 합계를 표시하려면 셀에 **=SUM(A1:A2)**를 입력합니다. 하나 또는 모든 셀의 값을 변경하면 수식이 포함된 셀은 업데이트된 결과를 자동으로 보여줍니다.
+Excel의 경우 셀 A1과 A2가 포함하는 모든 값의 합계를 표시하려면 셀에 **=SUM(A1:A2)** 를 입력합니다. 하나 또는 모든 셀의 값을 변경하면 수식이 포함된 셀은 업데이트된 결과를 자동으로 보여줍니다.
 
 ![숫자 2개를 같이 더하여 다시 계산한 Excel의 그림](./media/working-with-formulas/excel-recalc.png)
 
@@ -141,7 +138,7 @@ Excel의 경우 조건부 서식을 사용하여 음수 값을 빨간색으로 �
 ## <a name="manage-app-behavior"></a>앱 동작 관리
 수식을 사용하여 계산을 수행하고 모양을 변경하며 작업을 수행할 수 있습니다. 예를 들어, **[OnSelect](controls/properties-core.md)** 속성 단추에 **[Navigate](functions/function-navigate.md)** 함수가 포함된 수식을 설정할 수 있습니다. 사용자가 해당 단추를 선택할 경우 해당 수식에서 사용자가 지정한 화면이 나타납니다.
 
-**[Navigate](functions/function-navigate.md)** 및 **[Collect](functions/function-clear-collect-clearcollect.md)**와 같은 일부 함수는 동작 수식에서만 사용할 수 있습니다.  이 컨텍스트에 한해 함수를 사용할 경우 수식 참조가 호출됩니다.  
+**[Navigate](functions/function-navigate.md)** 및 **[Collect](functions/function-clear-collect-clearcollect.md)** 와 같은 일부 함수는 동작 수식에서만 사용할 수 있습니다.  이 컨텍스트에 한해 함수를 사용할 경우 수식 참조가 호출됩니다.  
 
 세미콜론(;)으로 함수를 분리하면 동작 수식에서 하나 이상의 작업을 수행할 수 있습니다. 예를 들어, 컨텍스트 변수를 업데이트하여 데이터를 데이터 원본으로 푸시하고 마지막으로 다른 화면으로 이동할 수 있습니다.
 

@@ -1,25 +1,22 @@
 ---
 title: 핵심 속성 | Microsoft Docs
 description: Disabled, Visible 및 ReadOnly 속성에 관한 참조 정보
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/25/2016
 ms.author: gregli
-ms.openlocfilehash: cad53141d6896ad71caaca77b7bf07fee2ac0600
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 9631d197824b516f90d493c9db4aee75f3f7ce0d
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="core-properties-in-powerapps"></a>PowerApps의 핵심 속성
 사용자가 컨트롤을 보고 상호 작용할 수 있는지 여부를 구성합니다.
@@ -31,7 +28,7 @@ ms.lasthandoff: 03/22/2018
 
 **DelayOutput** – 텍스트를 입력하는 동안 작업을 지연하려면 true로 설정합니다.
 
-* **[Text input](control-text-input.md)**, **[Card](control-card.md)**에 적용됩니다.
+* **[Text input](control-text-input.md)**, **[Card](control-card.md)** 에 적용됩니다.
 
 **DisplayMode** – 값은 **Edit, View,** 또는 **Disabled**가 될 수 있습니다. 컨트롤이 사용자 입력을 허용(**편집**)하거나, 데이터만 표시(**보기**)하거나 사용 안 하도록(**사용 안 함**) 설정할지 구성합니다.  **보기** 모드에서 **[텍스트 입력](control-text-input.md)**, **[드롭다운](control-drop-down.md)**, **[날짜 선택기](control-date-picker.md)** 등의 입력 컨트롤은 텍스트 값만 표시하고 다른 대화형 요소 또는 장식을 렌더링하지 않습니다.  따라서 양식 또는 읽기 가능한 출력으로 표시하기에 적합해집니다.
 

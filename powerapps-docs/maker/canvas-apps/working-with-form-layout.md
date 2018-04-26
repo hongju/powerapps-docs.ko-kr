@@ -1,25 +1,22 @@
 ---
 title: 데이터 양식 레이아웃 이해 | Microsoft Docs
 description: 행과 열을 사용하여 멋진 양식 레이아웃을 만듭니다.
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 06/17/2017
 ms.author: gregli
-ms.openlocfilehash: 79b14972d5900b7a84e7634eb57fac24e243bd46
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 2b64ebdf91effe812d3fd81d0d1e0bb854147a19
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="understand-data-form-layout-in-microsoft-powerapps"></a>Microsoft PowerApps 데이터 양식 레이아웃에 대한 이해
 PowerApps에서 매력적이고 효율적으로 사용할 수 있는 양식을 쉽게 만들 수 있습니다. 예를 들어 판매 주문을 기록하기 위해 다음 기본 양식을 고려해 보세요.
@@ -38,7 +35,7 @@ PowerApps를 처음 사용하거나 앱을 자동으로만 생성한 경우에�
 2. [Common Data Service](../common-data-service/data-platform-intro.md)의 **판매 주문** 엔터티를 앱의 데이터 원본으로 추가합니다.
    
     이 자습서 외부에서 SharePoint 목록 및 Excel 표를 포함하여 모든 데이터 원본을 사용할 수 있습니다.
-3. 세로 **갤러리** 컨트롤을 추가하고, **Items** 속성을 **'판매 주문'**으로 설정합니다.
+3. 세로 **갤러리** 컨트롤을 추가하고, **Items** 속성을 **'판매 주문'** 으로 설정합니다.
    
     (선택 사항) 이 자습서의 예제에 맞게 갤러리의 **레이아웃**을 **제목 및 부제목**만 표시하도록 변경합니다.
    

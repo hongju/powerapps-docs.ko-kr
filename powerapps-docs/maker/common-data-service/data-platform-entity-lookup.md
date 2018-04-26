@@ -1,7 +1,6 @@
 ---
 title: 조회 필드를 통한 엔터티 관계를 위한 빠른 시작 | Microsoft Docs
 description: 조회 필드를 사용하여 엔터티 간의 관계를 만들기 위한 빠른 시작
-services: powerapps
 documentationcenter: na
 author: clwesene
 manager: kfile
@@ -9,16 +8,15 @@ editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: cds
 ms.date: 3/21/2018
 ms.author: clwesene
-ms.openlocfilehash: 37450b6e9f43780deaed4ff34b005472501bdb23
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: a607058d1e26f37a4bffa054d9dc148be8b6b011
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="quickstart-create-a-relationship"></a>빠른 시작: 관계 만들기
 한 엔터티의 데이터는 다른 엔터티의 데이터와 자주 관련됩니다. 예를 들어, **Teachers** 엔터티 및 **Class** 엔터티가 있을 수 있으며, **Class** 엔터티에는 클래스를 가르치는 교사를 표시하는 **Teachers** 엔터티에 대한 조회 관계가 있을 수 있습니다. 조회 필드를 사용하여 **Teachers** 엔터티의 데이터를 표시할 수 있습니다. 이는 일반적으로 조회 필드라고 합니다.

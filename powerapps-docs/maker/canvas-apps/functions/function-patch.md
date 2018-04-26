@@ -1,25 +1,22 @@
 ---
 title: Patch 함수 | Microsoft Docs
 description: PowerApps의 Patch 함수에 대한 구문과 예제를 포함한 참조 정보
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/21/2015
 ms.author: gregli
-ms.openlocfilehash: 44d4c9e15b63cfbbd2f5304e6df7bd70fe748a04
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: d0b2ff351f7026967359f1b4d386a71d7ed5441f
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="patch-function-in-powerapps"></a>PowerApps의 Patch 함수
 [데이터 원본](../working-with-data-sources.md)의 [레코드](../working-with-tables.md#records)를 하나 이상 수정 또는 생성하거나 데이터 원본 외부의 레코드를 병합합니다.
@@ -73,14 +70,14 @@ ms.lasthandoff: 03/22/2018
 **Patch**( *DataSource*, *BaseRecord*, *ChangeRecord1* [, *ChangeRecord2*, … ])
 
 * *DataSource* – 필수 항목입니다. 수정할 레코드를 포함하거나 만들려는 레코드가 포함될 데이터 원본입니다.
-* *BaseRecord* – 필수 항목입니다. 수정하거나 만들 레코드입니다.  데이터 원본에서 레코드를 받으면 레코드가 발견되고 수정됩니다. **[Defaults](function-defaults.md)**의 결과가 사용되면 레코드가 생성됩니다.
+* *BaseRecord* – 필수 항목입니다. 수정하거나 만들 레코드입니다.  데이터 원본에서 레코드를 받으면 레코드가 발견되고 수정됩니다. **[Defaults](function-defaults.md)** 의 결과가 사용되면 레코드가 생성됩니다.
 * *ChangeRecord(s)* – 필수 항목입니다.  *BaseRecord*에서 수정할 속성이 포함된 하나 이상의 레코드입니다.  변경 레코드는 인수 목록의 처음부터 끝까지 순서대로 처리되며, 이후 속성 값이 이전 속성 값보다 우선합니다.
 
 #### <a name="modify-or-create-a-set-of-records-in-a-data-source"></a>데이터 원본의 레코드 집합 수정 또는 만들기
 **Patch**( *DataSource*, *BaseRecordsTable*, *ChageRecordTable1*, [, *ChangeRecordTable2*, … ] )
 
 * *DataSource* – 필수 항목입니다. 수정할 레코드를 포함하거나 만들려는 레코드가 포함될 데이터 원본입니다.
-* *BaseRecordTable* – 필수 항목입니다. 수정하거나 만들 레코드 테이블입니다.  데이터 원본에서 레코드를 받으면 레코드가 발견되고 수정됩니다. **[Defaults](function-defaults.md)**의 결과가 사용되면 레코드가 생성됩니다.
+* *BaseRecordTable* – 필수 항목입니다. 수정하거나 만들 레코드 테이블입니다.  데이터 원본에서 레코드를 받으면 레코드가 발견되고 수정됩니다. **[Defaults](function-defaults.md)** 의 결과가 사용되면 레코드가 생성됩니다.
 * *ChangeRecordTable(s)* – 필수 항목입니다.  *BaseRecordTable*의 각 레코드에 대해 수정할 속성이 포함된 하나 이상의 레코드 테이블입니다.  변경 레코드는 인수 목록의 처음부터 끝까지 순서대로 처리되며, 이후 속성 값이 이전 속성 값보다 우선합니다.
 
 #### <a name="merge-records"></a>레코드 병합

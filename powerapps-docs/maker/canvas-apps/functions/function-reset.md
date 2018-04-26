@@ -1,25 +1,22 @@
 ---
 title: Reset 함수 | Microsoft Docs
 description: PowerApps의 Reset 함수에 대한 구문과 예제를 포함한 참조 정보
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 07/06/2017
 ms.author: gregli
-ms.openlocfilehash: c08776071e694bfe1a9b4a8263ab9eead2547024
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: bc87fd823b37869298b453aba439bda6aabbb112
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="reset-function-in-powerapps"></a>PowerApps의 Reset 함수
 사용자 변경 내용을 삭제하면서 해당 기본값에 대한 컨트롤을 다시 설정합니다.  
@@ -44,7 +41,7 @@ ms.lasthandoff: 03/22/2018
 1. 화면에서 **Text input** 컨트롤을 삽입합니다.  기본적으로의 이름은 **TextInput1**이 되며, 해당 **Default** 속성은 **“Text input”**으로 설정됩니다.
 2. 텍스트 상자에 새 값을 입력합니다.  
 3. 화면에서 **Button** 컨트롤을 삽입합니다.
-4. 단추의 **OnSelect** 속성을 **Reset( TextInput1 )**으로 설정합니다.
+4. 단추의 **OnSelect** 속성을 **Reset( TextInput1 )** 으로 설정합니다.
 5. 단추를 선택합니다.  컨트롤의 끝 쪽을 선택하여 작성할 때에도 수행할 수 있습니다.
 6. 텍스트 상자의 콘텐츠는 **Default** 속성의 값으로 반환됩니다.
 

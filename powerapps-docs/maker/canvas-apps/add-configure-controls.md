@@ -1,25 +1,22 @@
 ---
 title: 컨트롤 추가 및 구성 | Microsoft Docs
 description: 도구 모음의 속성 탭 또는 수식 입력줄에서 직접 컨트롤을 추가 및 구성하기 위한 단계별 지침입니다.
-services: ''
-suite: powerapps
 documentationcenter: na
-author: skjerland
-manager: anneta
+author: aftowen
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 07/10/2017
-ms.author: sharik
-ms.openlocfilehash: e16513c9ce4ec1a4274993640a3e0690d552f07c
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.author: anneta
+ms.openlocfilehash: 90689d708d5b86d243647a14282c6599e51f7450
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="add-and-configure-a-control-in-powerapps"></a>PowerApps에서 컨트롤 추가 및 구성
 도구 모음, **속성** 탭 또는 수식 입력줄에서 직접 앱에 다양한 UI 요소를 추가하고 모양과 동작의 측면을 구성합니다. 이러한 UI 요소는 컨트롤이라고 하며, 구성하는 측면은 속성이라고 합니다.
@@ -162,13 +159,13 @@ ms.lasthandoff: 03/22/2018
 
 **속성** 탭, 또는 도구 모음에서 컨트롤을 직접 구성하는 대신, 속성 목록에서 선택한 다음 수식 입력줄에서 값을 지정하여 속성의 값을 업데이트할 수도 있습니다. 이 접근 방법을 사용하여 속성을 알파벳 순서로 검색하고, 값의 추가 유형을 지정할 수 있습니다.
 
-1. 나머지 **레이블** 컨트롤이 선택된 상태에서 속성 목록의 **[텍스트](controls/properties-core.md)**를 클릭하거나 탭한 다음, 수식 입력줄에 **"My Company Name"**(큰따옴표 포함)을 입력합니다.
+1. 나머지 **레이블** 컨트롤이 선택된 상태에서 속성 목록의 **[텍스트](controls/properties-core.md)** 를 클릭하거나 탭한 다음, 수식 입력줄에 **"My Company Name"**(큰따옴표 포함)을 입력합니다.
 
     ![레이블의 리터럴 문자열](./media/add-configure-controls/text-literal.png)
 
     큰따옴표 안에 텍스트 문자열을 넣으면 입력한 것과 정확히 처리되어야 한다는 것을 지정합니다. 또는, 수식에 속성의 값을 설정할 수 있습니다.
 
-2. **레이블** 컨트롤이 선택된 상태에서 속성 목록에서 **[텍스트](controls/properties-core.md)**를 클릭하거나 탭한 다음, 수식 입력줄에 **Today()**(큰따옴표 제외)를 입력합니다.
+2. **레이블** 컨트롤이 선택된 상태에서 속성 목록에서 **[텍스트](controls/properties-core.md)** 를 클릭하거나 탭한 다음, 수식 입력줄에 **Today()**(큰따옴표 제외)를 입력합니다.
 
     이 컨트롤은 현재 날짜를 보여줍니다.
 
@@ -206,7 +203,7 @@ ms.lasthandoff: 03/22/2018
 
     **If(MyCheckbox.Value = true, true, false)**
 
-    이 **[If 함수](functions/function-if.md)**는 해당 확인란을 선택한 경우에만 레이블이 나타나도록 명시합니다. 해당 확인란이 지워졌으므로 **레이블** 컨트롤이 사라집니다(선택 상자 제외).
+    이 **[If 함수](functions/function-if.md)** 는 해당 확인란을 선택한 경우에만 레이블이 나타나도록 명시합니다. 해당 확인란이 지워졌으므로 **레이블** 컨트롤이 사라집니다(선택 상자 제외).
 
     ![Visible 수식](./media/add-configure-controls/visible-formula.png)
 

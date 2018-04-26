@@ -1,24 +1,21 @@
 ---
 title: 목록 상자, 드롭다운 목록 및 라디오 단추 추가 | Microsoft Docs
 description: PowerApps에서 다중 선택 옵션 만들기 또는 구성
-services: ''
-suite: powerapps
 documentationcenter: ''
 author: lonu
-manager: anneta
+manager: kfile
 editor: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 10/23/2016
 ms.author: lonu
-ms.openlocfilehash: 8eacac89f7578a83757299b8e627cf757fb1c6d7
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 1fbaf4f9d740084a1ed0d630b94d1cd41713ba03
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="add-a-list-box-a-drop-down-list-or-radio-buttons"></a>목록 상자, 드롭다운 목록 또는 라디오 단추 추가
 PowerApps에는 목록 상자, 드롭다운 목록 및 라디오 단추를 포함하는 다중 선택 및 단일 선택 옵션이 포함되어 있습니다. 이 토픽에서는 이러한 컨트롤을 추가하고 **테이블** 수식을 사용하여 목록을 빌드합니다. 목록에서 항목을 선택하면 다른 컨트롤을 업데이트합니다.

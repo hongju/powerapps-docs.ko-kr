@@ -1,7 +1,6 @@
 ---
 title: 앱용 Common Data Service란 무엇인가요? | Microsoft Docs
 description: 앱, 엔터티 및 서버 쪽 논리를 위한 Common Data Service에 대한 소개입니다.
-services: powerapps
 documentationcenter: na
 author: clwesene
 manager: kfile
@@ -9,16 +8,15 @@ editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: overview
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: cds
 ms.date: 3/21/2018
 ms.author: clwesene
-ms.openlocfilehash: eae2e1ec4761415096cb4171c55d2c86d096d578
-ms.sourcegitcommit: d7ed5144f96d1ecc17084c30ed0e2ba3c6b03c26
+ms.openlocfilehash: cc7eb07b45db1271607ffb65d37258ec6f88f38b
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/19/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="what-is-common-data-service-for-apps"></a>앱용 Common Data Service란 무엇인가요?
 

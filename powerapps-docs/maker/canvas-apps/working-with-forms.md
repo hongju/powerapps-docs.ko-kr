@@ -1,25 +1,22 @@
 ---
 title: 양식 이해 | Microsoft Docs
 description: 양식을 사용하여 데이터 원본에서 정보를 수집하고 표시합니다.
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 04/27/2016
 ms.author: gregli
-ms.openlocfilehash: 983eec5b3a6aa0f90ffe3f8460646bb92955e424
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: c0e0595fc3e3025ca345e1415fbd3da99f090063
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="understand-data-forms-in-microsoft-powerapps"></a>Microsoft PowerApps 데이터 양식에 대한 이해
 세 가지 유형의 컨트롤을 추가하여 사용자가 레코드를 찾아보고, 해당 레코드에 대한 세부 정보를 표시하고, 레코드를 편집하거나 만들 수 있습니다.
@@ -60,7 +57,7 @@ PowerApps는 지정한 데이터 원본을 기반으로 하는 앱을 자동으�
 데이터 원본의 레코드를 표시하도록 갤러리의 **[Items](controls/properties-core.md)** 속성을 설정합니다. 예를 들어 해당 속성을 **Assets**로 설정하여 해당 이름의 데이터 원본에 있는 레코드를 표시합니다.
 
 > [!NOTE]
-> 생성된 앱에서 사용자가 레코드를 정렬하고 검색할 수 있도록 **[Items](controls/properties-core.md)**가 기본적으로 훨씬 더 복잡한 수식으로 설정됩니다. 이 항목의 뒷부분에서 해당 수식을 작성하는 방법을 알아보겠지만, 지금은 간단한 버전으로도 충분합니다.
+> 생성된 앱에서 사용자가 레코드를 정렬하고 검색할 수 있도록 **[Items](controls/properties-core.md)** 가 기본적으로 훨씬 더 복잡한 수식으로 설정됩니다. 이 항목의 뒷부분에서 해당 수식을 작성하는 방법을 알아보겠지만, 지금은 간단한 버전으로도 충분합니다.
 
 사용자는 표시하거나 편집할 레코드를 찾는 대신 갤러리 위쪽에 있는 "+" 기호를 선택하여 레코드를 만들 수 있습니다. 이 효과는 **[이미지](controls/control-image.md)** 컨트롤을 추가하고, 그 안에 "+" 기호를 표시하고, **[OnSelect](controls/properties-core.md)** 속성을 다음 수식으로 설정하여 만듭니다.
 <br>**NewForm( EditForm1 ); Navigate( EditScreen1, None )**
@@ -102,7 +99,7 @@ PowerApps는 지정한 데이터 원본을 기반으로 하는 앱을 자동으�
 
 **[카드](controls/control-card.md)** 컨트롤의 **[DataField](controls/control-card.md)** 속성은 카드에서 표시하는 필드를 결정합니다. 이 경우 해당 속성은 **AssetID**로 설정됩니다. 카드에는 **[Text](controls/properties-core.md)** 속성이 **Parent.Default**로 설정된 **[레이블](controls/control-text-box.md)** 컨트롤이 있습니다. 이 컨트롤은 카드에 대한 **Default** 값을 표시하며, 이 값은 **[DataField](controls/control-card.md)** 속성을 통해 설정됩니다.
 
-생성된 앱에서 **[카드](controls/control-card.md)** 컨트롤은 기본적으로 잠겨 있습니다. 카드가 잠겨 있으면 **[DataField](controls/control-card.md)**와 같은 일부 속성을 수정할 수 없으며 해당 속성에는 수식 입력줄을 사용할 수 없습니다. 이 제한은 사용자 지정이 생성된 앱의 기본 기능을 손상시키지 않도록 합니다. 그러나 오른쪽 창에서 카드 및 해당 컨트롤의 속성 일부를 변경할 수 있습니다.
+생성된 앱에서 **[카드](controls/control-card.md)** 컨트롤은 기본적으로 잠겨 있습니다. 카드가 잠겨 있으면 **[DataField](controls/control-card.md)** 와 같은 일부 속성을 수정할 수 없으며 해당 속성에는 수식 입력줄을 사용할 수 없습니다. 이 제한은 사용자 지정이 생성된 앱의 기본 기능을 손상시키지 않도록 합니다. 그러나 오른쪽 창에서 카드 및 해당 컨트롤의 속성 일부를 변경할 수 있습니다.
 
 ![옵션 창이 열려 있는 세부 정보 화면](./media/working-with-forms/detail-screen-new.png)
 
@@ -150,7 +147,7 @@ PowerApps에서 앱을 생성하는 방법을 이해하면 이 항목의 앞부�
 이 항목을 최대한 활용하려면 실험할 수 있는 데이터 원본으로 시작합니다. 걱정할 필요 없이 읽고 업데이트할 수 있는 테스트 데이터가 있어야 합니다.
 
 > [!NOTE]
-> 공백이 있는 열 이름이 데이터 원본으로 포함된 SharePoint 목록 또는 Excel 테이블을 사용하는 경우 PowerApps는 공백을 **"\_x0020\_"**으로 바꿉니다. 예를 들어 SharePoint 또는 Excel의 **"Column Name"**은 데이터 레이아웃에 표시되거나 수식에 사용될 때 PowerApps에 **"Column_x0020_Name"**으로 나타납니다.
+> 공백이 있는 열 이름이 데이터 원본으로 포함된 SharePoint 목록 또는 Excel 테이블을 사용하는 경우 PowerApps는 공백을 **"\_x0020\_"** 으로 바꿉니다. 예를 들어 SharePoint 또는 Excel의 **"Column Name"** 은 데이터 레이아웃에 표시되거나 수식에 사용될 때 PowerApps에 **"Column_x0020_Name"** 으로 나타납니다.
 
 이 항목의 나머지 부분을 정확하게 수행하려면 다음 데이터가 포함된 "아이스크림"이라는 SharePoint 목록을 만듭니다.
 
@@ -196,7 +193,7 @@ PowerApps에서 앱을 생성하는 방법을 이해하면 이 항목의 앞부�
 **[표시 양식](controls/control-form-detail.md)** 컨트롤을 추가하려면 다음을 수행합니다.
 
 1. 화면을 추가한 다음 이 화면에 **[표시 양식](controls/control-form-detail.md)** 컨트롤을 추가합니다
-2. 양식 컨트롤의 **[DataSource](controls/control-form-detail.md)** 속성을 **'아이스크림'**으로 설정합니다.
+2. 양식 컨트롤의 **[DataSource](controls/control-form-detail.md)** 속성을 **'아이스크림'** 으로 설정합니다.
 
 오른쪽 창에서 화면에 표시할 필드와 각 필드에 표시할 카드 유형을 선택할 수 있습니다. 오른쪽 창에서 변경하면 각 **[카드](controls/control-card.md)** 컨트롤의 **[DataField](controls/control-card.md)** 속성이 사용자가 상호 작용할 필드로 설정됩니다. 화면은 다음 예제와 비슷합니다.
 
@@ -212,7 +209,7 @@ PowerApps에서 앱을 생성하는 방법을 이해하면 이 항목의 앞부�
 
 잘 했습니다!  이제 사용자가 갤러리 화면에서 세부 정보 화면을 열고, 세부 정보 화면에서 갤러리 화면을 여는 방법을 탐색해 볼 시간입니다.
 
-* **[단추](controls/control-button.md)** 컨트롤을 화면에 추가하고, **[뒤로](functions/function-navigate.md)**를 표시하도록 **[Text](controls/properties-core.md)** 속성을 설정하고, **[OnSelect](controls/properties-core.md)** 속성을 **Back()**으로 설정합니다.
+* **[단추](controls/control-button.md)** 컨트롤을 화면에 추가하고, **[뒤로](functions/function-navigate.md)** 를 표시하도록 **[Text](controls/properties-core.md)** 속성을 설정하고, **[OnSelect](controls/properties-core.md)** 속성을 **Back()** 으로 설정합니다.
    
     이 수식은 사용자가 세부 정보 보기를 마치면 갤러리로 돌아갑니다.
 
@@ -241,7 +238,7 @@ PowerApps에서 앱을 생성하는 방법을 이해하면 이 항목의 앞부�
 
 **[편집 양식](controls/control-form-detail.md)** 컨트롤을 추가하려면 다음을 수행합니다.
 
-1. 화면을 추가하고, **[편집 양식](controls/control-form-detail.md)** 컨트롤을 추가한 다음, 양식의 **[DataSource](controls/control-form-detail.md)** 속성을 **'아이스크림'**으로 설정합니다.
+1. 화면을 추가하고, **[편집 양식](controls/control-form-detail.md)** 컨트롤을 추가한 다음, 양식의 **[DataSource](controls/control-form-detail.md)** 속성을 **'아이스크림'** 으로 설정합니다.
 2. **[Item](controls/control-form-detail.md)** 속성을 **Gallery1.Selected**로 설정합니다.
 
 이제 화면에 표시할 필드를 선택할 수 있습니다. 또한 각 필드에 표시할 카드 유형도 선택할 수 있습니다. 오른쪽 창에서 변경하면 각 **[카드](controls/control-card.md)** 컨트롤의 **[DataField](controls/control-card.md)** 속성이 사용자가 상호 작용할 필드로 설정됩니다.  화면은 다음 예제와 비슷합니다.
@@ -264,7 +261,7 @@ PowerApps에서 앱을 생성하는 방법을 이해하면 이 항목의 앞부�
     이 수식은 저장되지 않은 편집 내용을 삭제하고 이전 화면을 엽니다.
    
     ![아이스크림 데이터 원본에 대한 표시 양식](./media/working-with-forms/edit-icecream-cancel.png)
-2. 양식의 **[OnSuccess](controls/control-form-detail.md)** 속성을 **Back()**으로 설정합니다.
+2. 양식의 **[OnSuccess](controls/control-form-detail.md)** 속성을 **Back()** 으로 설정합니다.
    
     업데이트가 성공적으로 저장되면 이전 화면(이 경우 세부 정보 화면)이 자동으로 열립니다.
    
@@ -282,7 +279,7 @@ PowerApps에서 앱을 생성하는 방법을 이해하면 이 항목의 앞부�
 
 양식이 **New** 모드에 있으면 각 필드의 값은 데이터 원본의 기본값으로 설정됩니다. 양식의 **[Item](controls/control-form-detail.md)** 속성에 제공된 레코드는 무시됩니다.  
 
-사용자가 새 레코드를 저장할 준비가 되면 **[SubmitForm](functions/function-form.md)**이 실행됩니다. 양식이 성공적으로 제출되면 양식은 **EditMode**로 다시 전환됩니다.  
+사용자가 새 레코드를 저장할 준비가 되면 **[SubmitForm](functions/function-form.md)** 이 실행됩니다. 양식이 성공적으로 제출되면 양식은 **EditMode**로 다시 전환됩니다.  
 
 첫 번째 화면에서 **새로 만들기** 단추가 추가됩니다.
 
@@ -306,7 +303,7 @@ PowerApps에서 앱을 생성하는 방법을 이해하면 이 항목의 앞부�
 ## <a name="handling-errors"></a>오류 처리
 이 앱에서 필드의 값이 유효하지 않거나, 필수 필드가 비어 있거나, 네트워크 연결이 끊어졌거나, 다른 문제가 발생하면 오류가 발생합니다.  
 
-어떤 이유로든 **[SubmitForm](functions/function-form.md)**이 실패하면 **[편집 양식](controls/control-form-detail.md)** 컨트롤의 **Error** 속성에 사용자에게 표시할 오류 메시지가 포함됩니다. 이 정보를 사용하면 사용자는 문제를 해결하고 변경 내용을 다시 제출하거나 업데이트를 취소할 수 있습니다.
+어떤 이유로든 **[SubmitForm](functions/function-form.md)** 이 실패하면 **[편집 양식](controls/control-form-detail.md)** 컨트롤의 **Error** 속성에 사용자에게 표시할 오류 메시지가 포함됩니다. 이 정보를 사용하면 사용자는 문제를 해결하고 변경 내용을 다시 제출하거나 업데이트를 취소할 수 있습니다.
 
 1. 편집 및 만들기 화면에서 **[레이블](controls/control-text-box.md)** 컨트롤을 추가하고 **저장** 단추 바로 아래로 이동합니다. 사용자가 이 컨트롤을 선택하여 변경 내용을 저장한 후에는 모든 오류를 쉽게 확인할 수 있습니다.
 
@@ -368,6 +365,6 @@ PowerApps가 데이터에서 생성한 앱에서 찾아보기 화면의 위쪽�
 
 태블릿에서 두 화면 또는 한 화면에서도 찾아보기, 표시 및 편집/만들기를 수행할 수 있습니다. 후자의 경우 **[Navigate](functions/function-navigate.md)** 또는 **[Back](functions/function-navigate.md)** 함수가 필요하지 않습니다.
 
-사용자가 동일한 화면에서 작업하는 경우 **[갤러리](controls/control-gallery.md)**에서 선택 항목을 변경할 수 없으며, **[편집 양식](controls/control-form-detail.md)** 컨트롤에서 편집 내용을 잃을 수 있으므로 주의해야 합니다.  다른 레코드 변경 내용이 아직 저장되지 않은 경우 사용자가 다른 레코드를 선택하지 못하게 하려면 갤러리의 **[Disabled](controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.<br>
+사용자가 동일한 화면에서 작업하는 경우 **[갤러리](controls/control-gallery.md)** 에서 선택 항목을 변경할 수 없으며, **[편집 양식](controls/control-form-detail.md)** 컨트롤에서 편집 내용을 잃을 수 있으므로 주의해야 합니다.  다른 레코드 변경 내용이 아직 저장되지 않은 경우 사용자가 다른 레코드를 선택하지 못하게 하려면 갤러리의 **[Disabled](controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.<br>
 **EditForm.Unsaved**
 

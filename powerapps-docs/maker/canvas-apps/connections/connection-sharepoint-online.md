@@ -1,25 +1,22 @@
 ---
 title: SharePoint 연결 개요 | Microsoft Docs
 description: SharePoint의 사용 가능한 함수, 응답 및 예제 참조
-services: ''
-suite: powerapps
 documentationcenter: ''
 author: sarafankit
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 07/12/2017
-ms.author: sharik
-ms.openlocfilehash: f79809b2eb74d4cea2ee9719a3a76e8149a533dc
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.author: ankitsar
+ms.openlocfilehash: fe6017ee402f0026aab3ef281a02b472b6a503ad
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="connect-to-sharepoint-from-powerapps"></a>PowerApps에서 SharePoint 연결
 ![SharePoint](./media/connection-sharepoint-online/sharepointicon.png)
@@ -49,7 +46,7 @@ SharePoint 사이트에 연결하여 목록에서 앱을 자동으로 만들고 
 | 관리되는 메타데이터 |예(읽기 전용) | |
 | 등급 |아니요 | |
 
-공백을 포함한 열은 PowerApps에서 읽을 수 있지만 공백은 16진 이스케이프 코드 **"\_x0020\_"**으로 대체됩니다. 예를 들어 SharePoint의 **"Column Name"**은 데이터 레이아웃에 표시되거나 수식에 사용될 때 PowerApps에 **"Column_x0020_Name"**으로 나타납니다.
+공백을 포함한 열은 PowerApps에서 읽을 수 있지만 공백은 16진 이스케이프 코드 **"\_x0020\_"** 으로 대체됩니다. 예를 들어 SharePoint의 **"Column Name"** 은 데이터 레이아웃에 표시되거나 수식에 사용될 때 PowerApps에 **"Column_x0020_Name"** 으로 나타납니다.
 
 ## <a name="prerequisites"></a>필수 조건
 다음 중 *한* 단계를 통해 PowerApps를 엽니다.
@@ -86,7 +83,7 @@ SharePoint 사이트에 연결하여 목록에서 앱을 자동으로 만들고 
 
     ![연결 유형 지정](./media/connection-sharepoint-online/choose-type.png)
 
-   * **직접 연결(클라우드 서비스)**을 클릭하거나 탭하여 SharePoint Online에 연결합니다.
+   * **직접 연결(클라우드 서비스)** 을 클릭하거나 탭하여 SharePoint Online에 연결합니다.
 
    * **온-프레미스 데이터 게이트웨이를 사용하여 연결**을 클릭하거나 탭하여 온-프레미스 SharePoint 사이트에 연결합니다.
 
@@ -129,7 +126,7 @@ SharePoint 사이트에 연결하여 목록에서 앱을 자동으로 만들고 
 
     예를 들어 이름이 **Manager**인 **개인 또는 그룹**을 표시하려면 **ThisItem.Manager.DisplayName**을 지정합니다.
 
-    이메일 주소나 직함 등과 같은 다른 사용자 정보를 표시할 수도 있습니다. 전체 옵션 목록을 표시하려면 **ThisItem.[ColumnName].**을 지정합니다 (맨 마지막에 마침표 있음).
+    이메일 주소나 직함 등과 같은 다른 사용자 정보를 표시할 수도 있습니다. 전체 옵션 목록을 표시하려면 **ThisItem.[ColumnName].** 을 지정합니다 (맨 마지막에 마침표 있음).
 
     **참고**: **CreatedBy** 열에 대해 목록에서 항목을 만든 사용자의 표시 이름을 표시하려면 **ThisItem.Author.DisplayName**을 지정합니다. **ModifiedBy** 열에 대해 목록에서 항목을 변경한 사용자의 표시 이름을 표시하려면 **ThisItem.Editor.DisplayName**을 지정합니다.
 

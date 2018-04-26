@@ -1,25 +1,22 @@
 ---
 title: GroupBy 및 Ungroup 함수 | Microsoft Docs
 description: PowerApps의 GroupBy 및 Ungroup 함수에 대한 구문과 예제를 포함한 참조 정보
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 04/26/2016
 ms.author: gregli
-ms.openlocfilehash: 9fcd60593fe89f54dcd65f4d440d9d78b4b220e1
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: b47e1b36ec86b2bf4ee2167b2599d583b97a0fbc
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="groupby-and-ungroup-functions-in-powerapps"></a>PowerApps의 GroupBy 및 Ungroup 함수
 [테이블](../working-with-tables.md)의 [레코드](../working-with-tables.md#records)를 그룹화하고 그룹을 해제합니다.
@@ -50,10 +47,10 @@ ms.lasthandoff: 03/22/2018
 
 * *Table* - 필수 항목입니다. 그룹화할 테이블입니다.
 * *ColumnName(s)* - 필수 항목입니다.  레코드를 그룹화할 기준이 되는 *테이블*의 열 이름입니다.  이 열은 결과 테이블의 열이 됩니다.
-* *GroupColumnName* - 필수 항목입니다.  *ColumnName(s)*에 없는 레코드 데이터의 저장소에 대한 열 이름입니다.
+* *GroupColumnName* - 필수 항목입니다.  *ColumnName(s)* 에 없는 레코드 데이터의 저장소에 대한 열 이름입니다.
   
     > [!NOTE]
-> 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 각 공백을 **"\_x0020\_"**으로 지정합니다. 예를 들어, **"Column Name"**은 **"Column_x0020_Name"**으로 지정합니다.
+> 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 각 공백을 **"\_x0020\_"** 으로 지정합니다. 예를 들어, **"Column Name"** 은 **"Column_x0020_Name"** 으로 지정합니다.
 
 **Ungroup**( *Table*, *GroupColumnName* )
 
@@ -61,7 +58,7 @@ ms.lasthandoff: 03/22/2018
 * *GroupColumnName* - 필수 항목입니다. **GroupBy** 함수를 사용하여 레코드 데이터 설정을 포함하는 열입니다.
   
     > [!NOTE]
-> 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 각 공백을 **"\_x0020\_"**으로 지정합니다. 예를 들어, **"Column Name"**은 **"Column_x0020_Name"**으로 지정합니다.
+> 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 각 공백을 **"\_x0020\_"** 으로 지정합니다. 예를 들어, **"Column Name"** 은 **"Column_x0020_Name"** 으로 지정합니다.
 
 ## <a name="examples"></a>예
 ### <a name="create-a-collection"></a>컬렉션 만들기
@@ -79,7 +76,7 @@ ms.lasthandoff: 03/22/2018
     ![](media/function-groupby/citypopulations-collection.png)
 
 ### <a name="group-records"></a>레코드 그룹화
-1. 또 다른 단추를 추가하고 **[Text](../controls/properties-core.md)** 속성을 **"그룹"**으로 설정합니다.
+1. 또 다른 단추를 추가하고 **[Text](../controls/properties-core.md)** 속성을 **"그룹"** 으로 설정합니다.
 2. 이 단추의 **[OnSelect](../controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.
    
     **ClearCollect( CitiesByCountry, GroupBy( CityPopulations, "Country", "Cities" ) )**
@@ -96,7 +93,7 @@ ms.lasthandoff: 03/22/2018
     ![](media/function-groupby/population-germany.png)
 
 ### <a name="filter-and-ungroup-records"></a>레코드 필터링 및 그룹 해제
-1. 단추를 추가하고 단추가 **"필터"**로 표시되도록 **[Text](../controls/properties-core.md)** 속성을 설정합니다.
+1. 단추를 추가하고 단추가 **"필터"** 로 표시되도록 **[Text](../controls/properties-core.md)** 속성을 설정합니다.
 2. 이 단추의 **[OnSelect](../controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.
    
     **ClearCollect( CitiesByCountryFiltered, Filter( CitiesByCountry, "e" in Country ) )**
@@ -105,7 +102,7 @@ ms.lasthandoff: 03/22/2018
     **CitiesByCountryFiltered**라는 세 번째 컬렉션이 생성되었습니다. 이 컬렉션에는 이름에 "e"가 포함된 국가(즉, Spain 또는 Italy 제외)만 포함됩니다.
    
     ![](media/function-groupby/cities-grouped-hase.png)
-4. 단추를 추가하고 단추가 **"그룹 해제"**로 표시되도록 **[Text](../controls/properties-core.md)** 속성을 설정합니다.
+4. 단추를 추가하고 단추가 **"그룹 해제"** 로 표시되도록 **[Text](../controls/properties-core.md)** 속성을 설정합니다.
 5. 이 단추의 **[OnSelect](../controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.
    
     **ClearCollect( CityPopulationsUngrouped, Ungroup( CitiesByCountryFiltered, "Cities" ) )**
@@ -117,7 +114,7 @@ ms.lasthandoff: 03/22/2018
 ### <a name="aggregate-results"></a>결과 집계
 그룹화된 테이블로 수행할 수 있는 다른 작업은 결과를 집계하는 것입니다.  다음 예제에서는 각 국가의 주요 도시 인구를 합산합니다.
 
-1. 단추를 추가하고 단추가 **"합계"**로 표시되도록 **[Text](../controls/properties-core.md)** 속성을 설정합니다.
+1. 단추를 추가하고 단추가 **"합계"** 로 표시되도록 **[Text](../controls/properties-core.md)** 속성을 설정합니다.
 2. **"합계"** 단추의 **[OnSelect](../controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.
    
     **ClearCollect( CityPopulationsSum, AddColumns( CitiesByCountry, "Sum of City Populations", Sum( Cities, Population ) ) )**
@@ -126,8 +123,8 @@ ms.lasthandoff: 03/22/2018
    
     ![](media/function-groupby/cities-sum.png)
    
-    **[AddColumns](function-table-shaping.md)**는 기본 **CitiesByCountry** 컬렉션으로 시작하여 **Sum of City Populations**라는 새 열을 추가합니다.  이 열의 값은 **Sum( Cities, Population )** 수식을 기반으로 행 단위로 계산됩니다.  **AddColumns**은 각 행에 대한 **Cities** 열(테이블)의 값을 제공하고 **[Sum](function-aggregates.md)**은 하위 테이블의 각 행에 대한 **Population**을 합산합니다.
-3. 원하는 합계를 얻었으니 **[DropColumns](function-table-shaping.md)**를 사용하여 하위 테이블을 제거할 수 있습니다.  다음 수식을 사용하도록 **[OnSelect](../controls/properties-core.md)** 속성을 수정합니다.
+    **[AddColumns](function-table-shaping.md)** 는 기본 **CitiesByCountry** 컬렉션으로 시작하여 **Sum of City Populations**라는 새 열을 추가합니다.  이 열의 값은 **Sum( Cities, Population )** 수식을 기반으로 행 단위로 계산됩니다.  **AddColumns**은 각 행에 대한 **Cities** 열(테이블)의 값을 제공하고 **[Sum](function-aggregates.md)** 은 하위 테이블의 각 행에 대한 **Population**을 합산합니다.
+3. 원하는 합계를 얻었으니 **[DropColumns](function-table-shaping.md)** 를 사용하여 하위 테이블을 제거할 수 있습니다.  다음 수식을 사용하도록 **[OnSelect](../controls/properties-core.md)** 속성을 수정합니다.
    
     **ClearCollect( CityPopulationsSumOnly, DropColumns( CityPopulationsSum, "Cities" ) )**
    

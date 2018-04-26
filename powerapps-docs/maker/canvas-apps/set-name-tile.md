@@ -1,25 +1,22 @@
 ---
 title: 앱 이름 및 타일 변경 | Microsoft Docs
 description: 앱 이름 및 아이콘 등 설정 변경에 대한 단계별 지침
-services: ''
-suite: powerapps
 documentationcenter: na
 author: lonu
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 10/16/2016
 ms.author: lonu
-ms.openlocfilehash: 257de970a8a9e68f30bcea858622761b08977f3f
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 386ecbd360dc13c21d48e0c134a87e8b7d007547
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="change-app-name-and-icon-in-powerapps"></a>PowerApps에서 앱 이름 및 아이콘 변경
 이름과 타일을 변경하여 앱을 사용자 지정합니다.

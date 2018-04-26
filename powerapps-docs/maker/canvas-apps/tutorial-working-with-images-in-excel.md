@@ -1,24 +1,21 @@
 ---
 title: Excel 파일에 이미지 저장 | Microsoft Docs
 description: 클라우드 저장소 계정의 Excel 테이블에 이미지를 저장하는 방법입니다.
-services: ''
-suite: powerapps
 documentationcenter: ''
 author: AFTOwen
-manager: anneta
+manager: kfile
 editor: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 06/15/2016
 ms.author: anneta
-ms.openlocfilehash: 40d4688ffd0f9afd703077cbf61c6908a7a31c5b
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: c9a70a362071558e415b3077e8ff536088edd2db
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="how-to-save-images-in-an-excel-file-and-then-add-these-images-to-your-app"></a>이미지를 Excel 파일에 저장한 다음 앱에 추가하는 방법
 
@@ -35,7 +32,7 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="create-the-excel-file-as-a-table"></a>Excel 파일을 테이블로 만들기
 
-1. 빈 Excel 파일에서 열 이름을 **Image [image]**로 지정합니다.
+1. 빈 Excel 파일에서 열 이름을 **Image [image]** 로 지정합니다.
 2. 다음 단계에 따라 테이블를 만듭니다.    
    
    1. 행과 열의 데이터에 대한 모든 부분을 선택합니다. 예를 들어 **Image**를 선택합니다.

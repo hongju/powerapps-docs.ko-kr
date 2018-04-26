@@ -1,25 +1,22 @@
 ---
 title: If 및 Switch 함수 | Microsoft Docs
 description: PowerApps의 If 및 Switch 함수에 대한 구문과 예제를 포함한 참조 정보
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 04/24/2017
 ms.author: gregli
-ms.openlocfilehash: 9254eaf63d816fc8ac9890026f74bdeaeaa9b1a4
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: f4e5510224d5abc7a6d2ccaa286d08c8f170fa10
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="if-and-switch-functions-in-powerapps"></a>PowerApps의 If 및 Switch 함수
 집합의 조건이 참 인지(**If**) 또는 수식의 결과가 집합의 값과 일치하는지(**Switch**) 확인한 다음 결과를 반환하거나 작업을 실행합니다.
@@ -42,7 +39,7 @@ ms.lasthandoff: 03/22/2018
 ## <a name="syntax"></a>구문
 **If**( *Condition*, *ThenResult* [, *DefaultResult* ] )<br>**If**( *Condition1*, *ThenResult1* [, *Condition2*, *ThenResult2*, ... [ , *DefaultResult* ] ] )
 
-* *Condition(s)* - 필수 항목입니다. **true**가 있는지 테스트할 수식입니다. 이러한 수식에는 일반적으로 비교 [연산자](operators.md)(예: **<**, **>** 및 **=**)와 **[IsBlank](function-isblank-isempty.md)** 및 **[IsEmpty](function-isblank-isempty.md)**와 같은 테스트 함수가 포함됩니다.
+* *Condition(s)* - 필수 항목입니다. **true**가 있는지 테스트할 수식입니다. 이러한 수식에는 일반적으로 비교 [연산자](operators.md)(예: **<**, **>** 및 **=**)와 **[IsBlank](function-isblank-isempty.md)** 및 **[IsEmpty](function-isblank-isempty.md)** 와 같은 테스트 함수가 포함됩니다.
 * *ThenResult(s)* - 필수 항목입니다. **true**로 평가되는 조건에 대해 반환할 해당 값입니다.
 * *DefaultResult* - 선택 항목입니다. **true**로 평가되는 조건이 없는 경우 반환할 값입니다.  이 인수를 지정하지 않으면 *공백*이 반환됩니다.
 
@@ -85,10 +82,10 @@ ms.lasthandoff: 03/22/2018
 3. **Label** 컨트롤을 추가하고 **[Text](../controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.<br>
    **If( Value(Text1.Text) < 20, "Order MANY more!", Value(Text1.Text) < 40, "Order more!", Text1.Text )**
    
-    **레이블** 컨트롤에 **Order more!**가 표시됩니다. **Text1**의 값이 20보다 크지만 40보다 작기 때문입니다.
+    **레이블** 컨트롤에 **Order more!** 가 표시됩니다. **Text1**의 값이 20보다 크지만 40보다 작기 때문입니다.
 4. **Text1**에 **15**를 입력합니다.
    
-    **레이블** 컨트롤에 **Order MANY more!**가 표시됩니다. **Text1**의 값이 20보다 작기 때문입니다.
+    **레이블** 컨트롤에 **Order MANY more!** 가 표시됩니다. **Text1**의 값이 20보다 작기 때문입니다.
 5. **Text1**에 **50**을 입력합니다.
    
     입력한 값이 40 이상이기 때문에 **레이블** 컨트롤에 이 값이 표시됩니다.

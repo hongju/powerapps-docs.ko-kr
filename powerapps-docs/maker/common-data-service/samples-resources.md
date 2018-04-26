@@ -1,7 +1,6 @@
 ---
 title: Common Data Service의 샘플 및 기타 리소스 | Microsoft Docs
 description: 앱을 만드는 데 사용할 수 있는 샘플 및 기타 리소스입니다.
-services: powerapps
 documentationcenter: na
 author: clwesene
 manager: kfile
@@ -9,16 +8,15 @@ editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: cds
 ms.date: 3/17/2018
 ms.author: clwesene
-ms.openlocfilehash: 6ff8ae7007a37f30957f9a3873c2457ac3210002
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 90453f3f560d063cadc2ef331e9de62d0406e1ff
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="samples-and-other-resources--for-the-common-data-service"></a>Common Data Service의 샘플 및 기타 리소스
 ## <a name="samples"></a>샘플

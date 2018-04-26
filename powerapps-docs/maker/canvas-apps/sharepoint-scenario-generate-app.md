@@ -1,25 +1,22 @@
 ---
 title: 프로젝트 요청을 처리할 앱 생성 | Microsoft Docs
 description: 이 작업에서는 SharePoint 목록에서 직접 기본 *3개 화면 앱*을 생성합니다.
-services: ''
-suite: powerapps
 documentationcenter: na
 author: mgblythe
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 06/12/2017
 ms.author: mblythe
-ms.openlocfilehash: 021a323fbb5a1a3331c4eb92ce0b47427b5562b4
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 9f0b01c8bdb2043c1f1c219a4163f790c14b4e46
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="generate-an-app-to-handle-project-requests"></a>프로젝트 요청을 처리할 앱 생성
 > [!NOTE]
@@ -86,7 +83,7 @@ SharePoint 목록을 저장했으므로 첫 번째 앱을 빌드하고 사용자
    
     ![항목 속성](./media/sharepoint-scenario-generate-app/02-03-03-items.png)
 
-6. 수식을 **SortByColumns(Filter('Project Requests', StartsWith(Title, TextSearchBox1.Text)), "Title", If(SortDescending1, Descending, Ascending))**으로 변경합니다.
+6. 수식을 **SortByColumns(Filter('Project Requests', StartsWith(Title, TextSearchBox1.Text)), "Title", If(SortDescending1, Descending, Ascending))** 으로 변경합니다.
    
     ![수식 입력줄](./media/sharepoint-scenario-generate-app/02-03-04-formula.png)
    

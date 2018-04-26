@@ -1,24 +1,21 @@
 ---
 title: 앱에서 흐름 시작 | Microsoft Docs
 description: 앱에서 사용자의 단추 선택과 같은 이벤트가 발생한 후 하나 이상의 작업을 수행하는 흐름을 만듭니다.
-services: ''
-suite: powerapps
 documentationcenter: ''
 author: stepsic-microsoft-com
-manager: anneta
+manager: kfile
 editor: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 06/05/2017
 ms.author: sharik
-ms.openlocfilehash: 378394fe0c42d0418a62974c26b217ab473d40ed
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: bf9cbe451cc9ac5fa0ef98ba3e32963e240c0b5e
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="start-a-flow-in-an-app"></a>앱에서 흐름 시작
 Microsoft Flow를 사용하여 앱에서 이벤트가 발생할 때 하나 이상의 작업을 수행하는 논리를 만들 수 있습니다. 예를 들어 사용자가 단추를 선택하면 SharePoint 목록에 항목을 만들거나, 전자 메일 또는 모임 요청을 보내거나, 클라우드에 파일을 추가하거나, 이러한 모든 작업을 추가하도록 해당 단추를 구성합니다. 흐름을 시작하도록 앱에서 모든 컨트롤을 구성하여 PowerApps를 닫은 경우에도 계속 실행되도록 할 수 있습니다.
@@ -95,7 +92,7 @@ Microsoft Flow를 사용하여 앱에서 이벤트가 발생할 때 하나 이�
 
     ![사용자 지정 창에서 흐름 추가](./media/using-logic-flows/add-flow-from-pane.png)
 
-7. 수식 입력줄에서 자동으로 추가된 수식 끝에 **(RecordTitle.Text)**를 입력하거나 붙여넣습니다.
+7. 수식 입력줄에서 자동으로 추가된 수식 끝에 **(RecordTitle.Text)** 를 입력하거나 붙여넣습니다.
 
     ![흐름이 포함된 OnSelect 속성](./media/using-logic-flows/onselect-with-flow.png)
 

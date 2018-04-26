@@ -1,22 +1,20 @@
 ---
 title: PowerApps에서 SharePoint로부터 앱을 생성하는 빠른 시작 | Microsoft Docs
 description: SharePoint 목록의 데이터를 관리하는 앱을 PowerApps에서 자동으로 생성합니다.
-services: powerapps
 documentationcenter: na
 author: AFTOwen
 manager: kfile
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 03/12/2018
 ms.author: anneta
-ms.openlocfilehash: 86e255f6c3fbb77b60820108c4a21dd8c0cba532
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 314fa5a1a49aba3bc3d7f0f59d583f81283a67a0
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="quickstart-for-generating-an-app-in-powerapps-from-sharepoint"></a>PowerApps에서 SharePoint로부터 앱을 생성하는 빠른 시작
 

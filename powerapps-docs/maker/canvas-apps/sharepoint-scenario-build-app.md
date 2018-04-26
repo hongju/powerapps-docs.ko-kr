@@ -1,25 +1,22 @@
 ---
 title: 프로젝트를 관리하는 앱 만들기 | Microsoft Docs
 description: 이 작업에서는 앱을 처음부터 빌드합니다. 이 앱을 통해 사용자는 관리자를 프로젝트에 할당하고 프로젝트 세부 정보를 업데이트할 수 있습니다.
-services: ''
-suite: powerapps
 documentationcenter: na
 author: mgblythe
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 06/12/2017
 ms.author: mblythe
-ms.openlocfilehash: da64b3b8f5453c41bf5e9c6fcf61ce335b47ff71
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 6f9ef24f4ab6f0009c7020008e299f09ecb0762e
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="create-an-app-to-manage-projects"></a>프로젝트를 관리하는 앱 만들기
 > [!NOTE]
@@ -102,7 +99,7 @@ PowerPoint에서 슬라이드 모음을 만드는 것처럼 PowerApps Studio에�
 4. **SharePoint**를 클릭하거나 탭합니다.
    
     ![SharePoint 연결](./media/sharepoint-scenario-build-app/04-02-03-sharepoint-connection.png)
-5. **직접 연결(클라우드 서비스)**을 선택한 다음 **만들기**를 클릭하거나 탭합니다.
+5. **직접 연결(클라우드 서비스)** 을 선택한 다음 **만들기**를 클릭하거나 탭합니다.
    
     ![직접 연결(클라우드 서비스)](./media/sharepoint-scenario-build-app/04-02-03a-sharepoint-cloud.png)
 6. SharePoint URL을 입력한 다음을 클릭하거나 **이동**을 클릭하거나 탭합니다.
@@ -121,7 +118,7 @@ PowerPoint에서 슬라이드 모음을 만드는 것처럼 PowerApps Studio에�
 
 ### <a name="update-the-title-and-insert-introductory-text"></a>제목 업데이트 및 설명 텍스트 삽입
 1. 왼쪽 탐색 모음에서 **SelectTask** 화면을 선택합니다.
-2. 가운데 창에서 기본 **[제목]**을 선택한 다음, 수식 입력줄에서 **Text** 속성을 "Contoso 프로젝트 관리"로 업데이트합니다.
+2. 가운데 창에서 기본 **[제목]** 을 선택한 다음, 수식 입력줄에서 **Text** 속성을 "Contoso 프로젝트 관리"로 업데이트합니다.
    
     ![수식 입력줄의 Text 속성](./media/sharepoint-scenario-build-app/04-03-02-text-property.png)
 3. **삽입** 탭에서 **레이블**을 클릭하거나 탭한 다음, 레이블을 위쪽 배너 아래로 끕니다.
@@ -184,7 +181,7 @@ PowerPoint에서 슬라이드 모음을 만드는 것처럼 PowerApps Studio에�
 
 ### <a name="update-the-title-and-insert-introductory-text"></a>제목 업데이트 및 설명 텍스트 삽입
 
-1. **[제목]**을 **관리자 할당**으로 변경합니다.
+1. **[제목]** 을 **관리자 할당**으로 변경합니다.
 
 2. 다음 속성이 있는 레이블을 추가합니다.
    
@@ -260,7 +257,7 @@ PowerPoint에서 슬라이드 모음을 만드는 것처럼 PowerApps Studio에�
 
 ### <a name="change-the-color-of-an-item-if-its-selected"></a>선택한 항목의 색 변경
 
-1. 갤러리를 선택한 다음 **TemplateFill** 속성을 **If (ThisItem.IsSelected=true, Orange, White)**로 설정합니다.
+1. 갤러리를 선택한 다음 **TemplateFill** 속성을 **If (ThisItem.IsSelected=true, Orange, White)** 로 설정합니다.
 
 2. 갤러리에서 항목을 선택합니다. 이제 화면은 다음 이미지와 같습니다.
    
@@ -315,7 +312,7 @@ PowerPoint에서 슬라이드 모음을 만드는 것처럼 PowerApps Studio에�
 
 1. 왼쪽 탐색 모음에서 **ViewProjects** 화면을 클릭하거나 탭합니다.
 
-2. **[제목]**을 **"프로젝트 보기"**로 변경합니다.
+2. **[제목]** 을 **"프로젝트 보기"** 로 변경합니다.
 
 3. 왼쪽 탐색 모음에서 **ViewProjects** 아래의 **BrowserGallery1**을 클릭하거나 탭합니다.
 
@@ -327,9 +324,9 @@ PowerPoint에서 슬라이드 모음을 만드는 것처럼 PowerApps Studio에�
    
     ![기본 텍스트가 있는 갤러리](./media/sharepoint-scenario-build-app/04-04-04b-gallery-default.png)
 
-5. 새로 고침 단추 ![새로 고침 아이콘](./media/sharepoint-scenario-build-app/icon-refresh.png)을 선택하고, **OnSelect** 속성을 **Refresh('프로젝트 세부 정보')**로 설정합니다.
+5. 새로 고침 단추 ![새로 고침 아이콘](./media/sharepoint-scenario-build-app/icon-refresh.png)을 선택하고, **OnSelect** 속성을 **Refresh('프로젝트 세부 정보')** 로 설정합니다.
 
-6. 새 항목 단추 ![새 아이콘 추가](./media/sharepoint-scenario-build-app/icon-add-item.png)를 선택하고, **OnSelect** 속성을 **NewForm(EditForm1); Navigate(UpdateDetails, ScreenTransition.None)**으로 설정합니다.
+6. 새 항목 단추 ![새 아이콘 추가](./media/sharepoint-scenario-build-app/icon-add-item.png)를 선택하고, **OnSelect** 속성을 **NewForm(EditForm1); Navigate(UpdateDetails, ScreenTransition.None)** 으로 설정합니다.
 
 ### <a name="add-a-back-arrow-to-return-to-the-selecttask-screen"></a>SelectTask 화면으로 돌아가는 뒤로 화살표 추가
 
@@ -341,15 +338,15 @@ PowerPoint에서 슬라이드 모음을 만드는 것처럼 PowerApps Studio에�
    
     ![뒤로 단추](./media/sharepoint-scenario-build-app/04-05-04-left-arrow-v.png)
    
-    **Navigate(SelectTask, Fade)**의 **OnSelect** 속성을 포함하여 모든 속성이 함께 제공됩니다.
+    **Navigate(SelectTask, Fade)** 의 **OnSelect** 속성을 포함하여 모든 속성이 함께 제공됩니다.
 
 ### <a name="change-the-data-source-for-the-browsegallery1-gallery"></a>BrowseGallery1 갤러리에 대한 데이터 원본 변경
 
-1. **BrowseGallery1** 갤러리를 선택하고, 갤러리의 **Items** 속성을 **SortByColumns(Filter('프로젝트 세부 정보', StartsWith(Title, TextSearchBox1.Text)), "제목", If(SortDescending1, Descending, Ascending))**으로 설정합니다.
+1. **BrowseGallery1** 갤러리를 선택하고, 갤러리의 **Items** 속성을 **SortByColumns(Filter('프로젝트 세부 정보', StartsWith(Title, TextSearchBox1.Text)), "제목", If(SortDescending1, Descending, Ascending))** 으로 설정합니다.
    
     이렇게 하면 갤러리의 데이터 원본이 **프로젝트 세부 정보** 목록에 설정되고 **Title** 필드가 검색 및 정렬에 사용됩니다.
 
-2. 첫 번째 갤러리 항목에서 ![세부 정보 화살표 아이콘](./media/sharepoint-scenario-build-app/icon-details-arrow.png)을 선택하고, **OnSelect** 속성을 **Navigate(UpdateDetails, None)**으로 설정합니다.
+2. 첫 번째 갤러리 항목에서 ![세부 정보 화살표 아이콘](./media/sharepoint-scenario-build-app/icon-details-arrow.png)을 선택하고, **OnSelect** 속성을 **Navigate(UpdateDetails, None)** 으로 설정합니다.
    
     ![ 프로젝트 보기 갤러리 - 선택된 첫 번째 항목](./media/sharepoint-scenario-build-app/04-05-05b-gallery-arrow-v.png)
 
@@ -372,7 +369,7 @@ PowerPoint에서 슬라이드 모음을 만드는 것처럼 PowerApps Studio에�
 
 1. 왼쪽 탐색 모음에서 **UpdateDetails** 화면을 클릭하거나 탭합니다.
 
-2. **[제목]**을 **"세부 정보 업데이트"**로 변경합니다.
+2. **[제목]** 을 **"세부 정보 업데이트"** 로 변경합니다.
 
 3. 왼쪽 탐색 모음에서 **UpdateDetails** 아래의 **EditForm1**을 클릭하거나 탭합니다.
 
@@ -399,9 +396,9 @@ PowerPoint에서 슬라이드 모음을 만드는 것처럼 PowerApps Studio에�
    * **ActualDays**
      
      ![양식 편집 필드](./media/sharepoint-scenario-build-app/04-06-03-edit-fields.png)
-6. 취소 단추 ![취소 아이콘](./media/sharepoint-scenario-build-app/icon-cancel.png)을 선택하고, **OnSelect** 속성을 **ResetForm(EditForm1); Back()**으로 설정합니다.
+6. 취소 단추 ![취소 아이콘](./media/sharepoint-scenario-build-app/icon-cancel.png)을 선택하고, **OnSelect** 속성을 **ResetForm(EditForm1); Back()** 으로 설정합니다.
 
-7. 저장 단추 ![저장 확인 표시 아이콘](./media/sharepoint-scenario-build-app/icon-check-mark.png)을 선택하고, **OnSelect** 수식 - **SubmitForm(EditForm1)**을 확인 표시합니다. 편집 양식 컨트롤을 사용하므로 이전처럼 **Patch()** 대신 **Submit()**을 사용할 수 있습니다.
+7. 저장 단추 ![저장 확인 표시 아이콘](./media/sharepoint-scenario-build-app/icon-check-mark.png)을 선택하고, **OnSelect** 수식 - **SubmitForm(EditForm1)** 을 확인 표시합니다. 편집 양식 컨트롤을 사용하므로 이전처럼 **Patch()** 대신 **Submit()** 을 사용할 수 있습니다.
 
 이제 완성된 화면은 다음 이미지와 같습니다(필드가 비어 있으면 **프로젝트 보기** 화면에서 항목을 선택했는지 확인합니다).
 

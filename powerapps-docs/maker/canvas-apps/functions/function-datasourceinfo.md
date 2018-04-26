@@ -1,25 +1,22 @@
 ---
 title: DataSourceInfo 함수 | Microsoft Docs
 description: PowerApps의 DataSourceInfo 함수에 대한 구문과 예제를 포함한 참조 정보
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 11/11/2015
 ms.author: gregli
-ms.openlocfilehash: 10429496b189caba32c012b001d3f51865750b4f
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 9747bef986587da7e7a66fe6fc165b4d15e80aed
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="datasourceinfo-function-in-powerapps"></a>PowerApps의 DataSourceInfo 함수
 [데이터 원본](../working-with-data-sources.md)에 대한 정보를 제공합니다.
@@ -45,7 +42,7 @@ ms.lasthandoff: 03/22/2018
 | **DataSourceInfo.MinValue** |번호 |열이 보유할 수 있는 최소 숫자 값입니다. 숫자가 포함된 열에만 적용됩니다. 최소값을 설정하지 않으면 *공백*이 반환됩니다. |
 | **DataSourceInfo.Required** |부울 |이 열에 값이 필요한가요? 데이터 원본에 설정하지 않으면 **false**가 반환됩니다. |
 
-세 번째 인수는 문자열 형식의 열 이름입니다.  예를 들어 **People** 컬렉션의 **Phone** 열은 큰따옴표를 포함하여 **"Phone"**으로 전달됩니다.
+세 번째 인수는 문자열 형식의 열 이름입니다.  예를 들어 **People** 컬렉션의 **Phone** 열은 큰따옴표를 포함하여 **"Phone"** 으로 전달됩니다.
 
 ### <a name="data-source-information"></a>데이터 원본 정보
 **DataSourceInfo**를 사용하여 데이터 원본 전체에 대한 정보를 얻을 수도 있습니다.  
@@ -63,10 +60,10 @@ ms.lasthandoff: 03/22/2018
 
 * *DataSource* – 필수 항목입니다. 사용할 데이터 원본입니다.
 * *Information* – 필수 항목입니다. 검색할 정보 유형입니다.
-* *ColumnName* – 선택 항목입니다. 열 수준 정보의 경우 열 이름은 문자열 형식입니다. **Phone** 열은 큰따옴표를 포함하여 **"Phone"**으로 전달됩니다. 데이터 원본 레벨에 대한 정보는 *ColumnName* 인수를 사용할 수 없습니다.
+* *ColumnName* – 선택 항목입니다. 열 수준 정보의 경우 열 이름은 문자열 형식입니다. **Phone** 열은 큰따옴표를 포함하여 **"Phone"** 으로 전달됩니다. 데이터 원본 레벨에 대한 정보는 *ColumnName* 인수를 사용할 수 없습니다.
   
     > [!NOTE]
-> 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 각 공백을 **"\_x0020\_"**으로 지정합니다. 예를 들어, **"Column Name"**은 **"Column_x0020_Name"**으로 지정합니다.
+> 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 각 공백을 **"\_x0020\_"** 으로 지정합니다. 예를 들어, **"Column Name"** 은 **"Column_x0020_Name"** 으로 지정합니다.
 
 ## <a name="examples"></a>예
 이 섹션의 예제에서는 **IceCream**이라는 데이터 원본을 사용합니다.

@@ -1,25 +1,22 @@
 ---
 title: 텍스트 속성 | Microsoft Docs
 description: Text, Tooltip 및 HintText와 같은 속성의 참조 자료
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/25/2016
 ms.author: gregli
-ms.openlocfilehash: 6d79f5a93fd89de1c3994f43c285e9d96cb00af6
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 1331cbbab185656929ebede7c804a8c3dfee52ab
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="text-properties-in-powerapps"></a>PowerApps의 텍스트 속성
 사용자가 데이터를 입력하면 힌트로서 도구 설명의 컨트롤에 나타나는 텍스트를 구성하며 다른 텍스트 관련 특징을 지정합니다.
@@ -52,7 +49,7 @@ ms.lasthandoff: 03/22/2018
 ## <a name="text-placement"></a>텍스트 배치
 **Align** - 컨트롤의 가로 가운데를 기준으로 한 텍스트의 위치입니다.
 
-* **[Add picture](control-add-picture.md)**, **[Button](control-button.md)**, **[Export](control-export-import.md)**, **[Import](control-export-import.md)**, **[Label](control-text-box.md)**, **[Radio](control-radio.md)**, **[Text input](control-text-input.md)** 및 **[Timer](control-timer.md)**에 적용됩니다.
+* **[Add picture](control-add-picture.md)**, **[Button](control-button.md)**, **[Export](control-export-import.md)**, **[Import](control-export-import.md)**, **[Label](control-text-box.md)**, **[Radio](control-radio.md)**, **[Text input](control-text-input.md)** 및 **[Timer](control-timer.md)** 에 적용됩니다.
 
 **LineHeight** - 텍스트 선 또는 목록의 항목 등, 항목 사이의 거리입니다.
 

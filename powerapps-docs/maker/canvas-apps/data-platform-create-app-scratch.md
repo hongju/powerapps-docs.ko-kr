@@ -1,7 +1,6 @@
 ---
 title: Common Data Service 데이터베이스를 사용하여 앱을 처음부터 만들기 | Microsoft Docs
 description: 앱을 만들어 레코드를 추가, 업데이트 및 삭제합니다.
-services: powerapps
 documentationcenter: na
 author: AFTOwen
 manager: kfile
@@ -9,16 +8,15 @@ editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 03/18/2018
 ms.author: anneta
-ms.openlocfilehash: cb60ea139be12e51ea9faac7f61ca769d80c1af7
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: a0aab890e52b49bb0cac382338a8fa02eec736a0
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="create-an-app-from-scratch-using-a-common-data-service-database"></a>Common Data Service 데이터베이스를 사용하여 앱을 처음부터 만들기
 표준 엔터티(기본 제공), 사용자 지정 엔터티(사용자 조직에서 만듦), 또는 모두를 사용하여 Common Data Service에 저장된 데이터를 관리하는 앱을 빌드합니다.
@@ -41,7 +39,6 @@ Common Data Service에서 앱을 빌드하면, SharePoint, Dynamics 365 및 Sale
     전화 또는 다른 장치(예: 태블릿)에 사용할 앱을 처음부터 디자인할 수 있습니다. 이 항목에서는 전화용 앱 디자인에 대해 중점적으로 설명합니다.
 
 ## <a name="specify-an-entity"></a>엔터티 지정
-
 1. 화면 가운데에서 **데이터에 연결**을 클릭하거나 탭한 다음, **데이터** 창에서 **Common Data Service** 연결을 클릭하거나 탭합니다.
 
 1. 검색 상자에서 **Accounts**의 처음 몇 글자를 입력하거나 붙여넣어 엔터티 목록을 필터링하고, **Accounts** 확인란을 선택한 다음, **연결**을 클릭하거나 탭합니다.
@@ -122,7 +119,7 @@ Common Data Service에서 앱을 빌드하면, SharePoint, Dynamics 365 및 Sale
     ![다음 아이콘](./media/data-platform-create-app-scratch/next-icon.png)
 
 1. **FormScreen**에서 취소 아이콘을 클릭하거나 탭하고, **OnSelect** 속성을 다음 수식으로 설정합니다.<br>
-`ResetForm(EditForm1);Navigate(FormScreen, ScreenTransition.None)`
+`ResetForm(EditForm1);Navigate(BrowseScreen, ScreenTransition.None)`
 
     ![취소 아이콘](./media/data-platform-create-app-scratch/cancel-icon.png)
 

@@ -1,7 +1,6 @@
 ---
 title: 사용자 지정 엔터티 삭제 및 데이터 지우기에 대한 빠른 시작 | Microsoft Docs
 description: 사용자 지정 엔터티 삭제 및 모든 데이터 지우기에 대한 빠른 시작
-services: powerapps
 documentationcenter: na
 author: clwesene
 manager: kfile
@@ -9,16 +8,15 @@ editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: cds
 ms.date: 3/21/2018
 ms.author: clwesene
-ms.openlocfilehash: 399d3e8bac215df7612ac12d922dfe644dc59f96
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 971016233578c4eadf397d662a0ea74187548635
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="quickstart-delete-a-custom-entity"></a>빠른 시작: 사용자 지정 엔터티 삭제
 사용자 지정 엔터티를 삭제할 수 있으나, 표준 엔터티는 삭제할 수 없습니다.

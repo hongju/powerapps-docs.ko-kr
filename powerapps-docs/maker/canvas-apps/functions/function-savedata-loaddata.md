@@ -1,25 +1,22 @@
 ---
 title: SaveData 및 LoadData 함수 | Microsoft Docs
 description: PowerApps의 SaveData 및 LoadData 함수에 대한 구문을 비롯한 참조 정보
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 11/07/2015
 ms.author: gregli
-ms.openlocfilehash: aa62882841ee4d585720a2241dff8b9f35c88059
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 8dc68646808e40792d3e55aa9ac547aa43a78efb
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="savedata-and-loaddata-functions-in-powerapps"></a>PowerApps의 SaveData 및 LoadData 함수
 [컬렉션](../working-with-data-sources.md#collections)을 저장하고 다시 로드합니다.
@@ -29,7 +26,7 @@ ms.lasthandoff: 03/22/2018
 
 **LoadData** 함수는 이전에 **SaveData**를 사용하여 저장한 이름으로 컬렉션을 다시 로드합니다. 이 함수는 다른 원본에서 컬렉션을 로드하는 데 사용할 수 없습니다.  
 
-**LoadData**는 컬렉션을 만들지 않습니다. 함수는 기존 컬렉션을 채우기만 합니다. 먼저 **[Collect](function-clear-collect-clearcollect.md)**를 사용하여 올바른 [열](../working-with-tables.md#columns)이 있는 컬렉션을 만들어야 합니다.
+**LoadData**는 컬렉션을 만들지 않습니다. 함수는 기존 컬렉션을 채우기만 합니다. 먼저 **[Collect](function-clear-collect-clearcollect.md)** 를 사용하여 올바른 [열](../working-with-tables.md#columns)이 있는 컬렉션을 만들어야 합니다.
 
 저장소는 암호화되어 로컬 장치의 비공개 위치에 다른 사용자 및 다른 앱과 격리되어 있습니다.  
 

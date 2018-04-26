@@ -1,25 +1,22 @@
 ---
 title: 데이터 카드 이해 | Microsoft Docs
 description: 양식 카드를 사용하여 데이터 원본에서 정보를 수집하고 표시합니다.
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 04/26/2016
 ms.author: gregli
-ms.openlocfilehash: 64a7132151ea9df7071c21427d2554bd12bb026c
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 074e40dd2fc19279bef36ac91196c61b050abda3
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="understand-data-cards"></a>데이터 카드 이해
 **[카드](controls/control-card.md)**  컨트롤은 **[편집 양식](controls/control-form-detail.md)** 및 **[표시 양식](controls/control-form-detail.md)** 컨트롤의 구성 요소입니다. 양식은 전체 레코드를 나타내며 각 카드는 해당 레코드의 단일 필드를 나타냅니다.
@@ -75,7 +72,7 @@ PowerApps는 문자열, 숫자 및 기타 데이터 형식에 미리 정의된 �
 
 ![](./media/working-with-cards/unlocked-card.png)
 
-**[DisplayName](controls/control-card.md)**을 수정하여 **자산**과 **ID** 간에 공백을 만들겠습니다. 이렇게 변경하여 생성된 내용을 변경하고 있습니다.  오른쪽 창에서 이 카드에는 다른 레이블이 있습니다.
+**[DisplayName](controls/control-card.md)** 을 수정하여 **자산**과 **ID** 간에 공백을 만들겠습니다. 이렇게 변경하여 생성된 내용을 변경하고 있습니다.  오른쪽 창에서 이 카드에는 다른 레이블이 있습니다.
 
 ![](./media/working-with-cards/change-display-name.png)
 
@@ -165,5 +162,5 @@ Alt 키를 누르고 있으면 이 카드를 구성하는 컨트롤의 이름을
 | 컨트롤 이름 | 수식 | 설명 |
 | --- | --- | --- |
 | **DataCard.DataField** |**"ApproverEmail"** |사용자가 이 카드에서 표시하고 편집할 수 있는 필드의 이름입니다. |
-| **DataCard.Update** |**InputText.Text** |**[SubmitForm](functions/function-form.md)**을 실행할 때 유효성을 검사하고 데이터 원본에 다시 푸시할 값입니다. |
+| **DataCard.Update** |**InputText.Text** |**[SubmitForm](functions/function-form.md)** 을 실행할 때 유효성을 검사하고 데이터 원본에 다시 푸시할 값입니다. |
 

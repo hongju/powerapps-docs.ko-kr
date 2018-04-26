@@ -1,25 +1,22 @@
 ---
 title: Blank, Coalesce, IsBlank 및 IsEmpty 함수 | Microsoft Docs
 description: PowerApps의 Blank, Coalesce, IsBlank 및 IsEmpty 함수에 대한 참조 정보이며, 구문과 예제를 포함하고 있습니다.
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 07/24/2017
 ms.author: gregli
-ms.openlocfilehash: f4e104456cd1ae60bfb60b49e3cf28dca89926d8
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 80d06a30dbe334f7fa9691d2a56805d53876693c
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="blank-coalesce-isblank-and-isempty-functions-in-powerapps"></a>PowerApps의 Blank, Coalesce, IsBlank 및 IsEmpty 함수
 값이 비어 있거나 [테이블](../working-with-tables.md)에 [레코드](../working-with-tables.md#records)가 없는지 여부를 테스트하고 *공백* 값을 만드는 방법을 제공합니다.
@@ -42,13 +39,13 @@ ms.lasthandoff: 03/22/2018
 * **Blank** 함수의 반환 값입니다.
 * 컨트롤 속성에 수식이 설정되어 있지 않습니다.
 * 텍스트 입력 컨트롤에 입력된 값이 없거나 목록 상자에서 아무 것도 선택하지 않았습니다. **IsBlank**를 사용하여 필수 필드임을 알려주는 피드백을 제공할 수 있습니다.
-* 문자가 없는 문자열에는 **[Len](function-len.md)**의 0이 있습니다.
+* 문자가 없는 문자열에는 **[Len](function-len.md)** 의 0이 있습니다.
 * 함수에서 오류가 발생했습니다. 종종 함수에 대한 인수 중 하나가 유효하지 않습니다. 인수의 값이 *공백*이면 많은 함수에서 *공백*을 반환합니다.
 * 연결된 [데이터 원본](../working-with-data-sources.md)(예: SQL Server)에서 "null" 값을 사용할 수 있습니다. 이 값은 PowerApps에서 *공백*으로 표시됩니다.
 * **[If](function-if.md)** 함수의 *else* 부분은 지정되지 않았으며 모든 조건이 **false**입니다.
 * **[Update](function-update-updateif.md)** 함수를 사용했지만 모든 열에 대한 값을 지정하지 않았습니다. 이에 따라 지정하지 않은 열에는 값이 배치되지 않았습니다.
 
-**Coalesce** 함수는 인수를 순서대로 평가하고 *공백*이 아닌 첫 번째 값을 반환합니다.  이 함수를 사용하여 *공백* 값을 다른 값으로 바꾸지만 *공백*이 아닌 값은 변경하지 않고 그대로 둡니다.  모든 인수가 *공백*이면 함수에서 *공백*을 반환합니다.  **Coalesce**에 대한 모든 인수는 같은 형식이어야 합니다. 예를 들어 숫자와 텍스트 문자열을 함께 사용할 수 없습니다.  **Coalesce( value1, value2 )**는 **If( IsBlank( value1 ) value1, value2 )**와 동등한 간결한 구문이며, **value1**을 두 번 평가할 필요가 없습니다.  
+**Coalesce** 함수는 인수를 순서대로 평가하고 *공백*이 아닌 첫 번째 값을 반환합니다.  이 함수를 사용하여 *공백* 값을 다른 값으로 바꾸지만 *공백*이 아닌 값은 변경하지 않고 그대로 둡니다.  모든 인수가 *공백*이면 함수에서 *공백*을 반환합니다.  **Coalesce**에 대한 모든 인수는 같은 형식이어야 합니다. 예를 들어 숫자와 텍스트 문자열을 함께 사용할 수 없습니다.  **Coalesce( value1, value2 )** 는 **If( IsBlank( value1 ) value1, value2 )** 와 동등한 간결한 구문이며, **value1**을 두 번 평가할 필요가 없습니다.  
 
 **IsEmpty** 함수는 테이블에 레코드가 있는지 여부를 테스트합니다. **[CountRows](function-table-counts.md)** 함수를 사용하여 0을 확인하는 것과 같습니다. **IsEmpty**를 **[Errors](function-errors.md)** 함수와 결합하여 데이터 원본 오류를 확인할 수 있습니다.
 
@@ -113,10 +110,10 @@ ms.lasthandoff: 03/22/2018
    
     **If( IsBlank( FirstName.Text ), "First Name은 필수 필드입니다." )**
    
-    텍스트 입력 컨트롤의 **[Text](../controls/properties-core.md)** 속성은 기본적으로 **"텍스트 입력"**으로 설정됩니다. 속성에 값이 포함되어 있으므로 공백이 아니며 레이블에 메시지가 표시되지 않습니다.
+    텍스트 입력 컨트롤의 **[Text](../controls/properties-core.md)** 속성은 기본적으로 **"텍스트 입력"** 으로 설정됩니다. 속성에 값이 포함되어 있으므로 공백이 아니며 레이블에 메시지가 표시되지 않습니다.
 3. 텍스트 입력 컨트롤에서 모든 공백을 포함하여 모든 문자를 제거합니다.
    
-    **[Text](../controls/properties-core.md)** 속성에 더 이상 문자가 없으므로 이 속성은 *공백*이고, **IsBlank( FirstName.Text )**는 **true**가 됩니다. 필수 필드 메시지가 표시됩니다.
+    **[Text](../controls/properties-core.md)** 속성에 더 이상 문자가 없으므로 이 속성은 *공백*이고, **IsBlank( FirstName.Text )** 는 **true**가 됩니다. 필수 필드 메시지가 표시됩니다.
 
 다른 도구를 사용하여 유효성 검사를 수행하는 방법에 대한 자세한 내용은 **[Validate](function-validate.md)** 함수 및 [데이터 원본 작업](../working-with-data-sources.md)을 참조하세요.  
 
@@ -128,8 +125,8 @@ ms.lasthandoff: 03/22/2018
 | **IsBlank( "" )** |문자가 없는 문자열입니다. |**true** |
 | **IsBlank( "Hello" )** |하나 이상의 문자가 포함된 문자열입니다. |**false** |
 | **IsBlank( *AnyCollection* )** |[컬렉션](../working-with-data-sources.md#collections)이 있으므로 레코드가 없더라도 공백이 아닙니다. 빈 컬렉션을 확인하려면 **IsEmpty**를 대신 사용합니다. |**false** |
-| **IsBlank( Mid( "Hello", 17, 2 ) )** |**[Mid](function-left-mid-right.md)**에 대한 시작 문자가 문자열의 끝을 벗어납니다.  결과는 빈 문자열입니다. |**true** |
-| **IsBlank( If( false, false ) )** |*ElseResult*가 없는 **[If](function-if.md)** 함수입니다.  조건이 항상 **false**이므로 이 **[If](function-if.md)**는 항상 *공백*을 반환합니다. |**true** |
+| **IsBlank( Mid( "Hello", 17, 2 ) )** |**[Mid](function-left-mid-right.md)** 에 대한 시작 문자가 문자열의 끝을 벗어납니다.  결과는 빈 문자열입니다. |**true** |
+| **IsBlank( If( false, false ) )** |*ElseResult*가 없는 **[If](function-if.md)** 함수입니다.  조건이 항상 **false**이므로 이 **[If](function-if.md)** 는 항상 *공백*을 반환합니다. |**true** |
 
 ### <a name="isempty"></a>IsEmpty
 1. 앱을 처음부터 만들고 **단추** 컨트롤을 추가합니다.
@@ -142,7 +139,7 @@ ms.lasthandoff: 03/22/2018
    
     ![](media/function-isblank-isempty/icecream-strawberry-chocolate.png)
    
-    이 컬렉션에는 두 개의 레코드가 있으며 비어 있지 않습니다. **IsEmpty( IceCream )**는 **false**를 반환하고, **CountRows( IceCream )**는 **2**를 반환합니다.
+    이 컬렉션에는 두 개의 레코드가 있으며 비어 있지 않습니다. **IsEmpty( IceCream )** 는 **false**를 반환하고, **CountRows( IceCream )** 는 **2**를 반환합니다.
 4. 두 번째 단추를 추가하고 **[OnSelect](../controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.
    
     **Clear( IceCream )**
@@ -152,7 +149,7 @@ ms.lasthandoff: 03/22/2018
    
     ![](media/function-isblank-isempty/icecream-clear.png)
    
-    **[Clear](function-clear-collect-clearcollect.md)** 함수는 컬렉션에서 모든 레코드를 제거하여 빈 컬렉션을 만듭니다. **IsEmpty( IceCream )**는 **true**를 반환하고, **CountRows( IceCream )**는 **0**을 반환합니다.
+    **[Clear](function-clear-collect-clearcollect.md)** 함수는 컬렉션에서 모든 레코드를 제거하여 빈 컬렉션을 만듭니다. **IsEmpty( IceCream )** 는 **true**를 반환하고, **CountRows( IceCream )** 는 **0**을 반환합니다.
 
 또한 다음 예제와 같이 **IsEmpty**를 사용하여 계산된 테이블이 비어 있는지 여부를 테스트할 수 있습니다.
 

@@ -1,25 +1,22 @@
 ---
 title: 글로벌 지원 | Microsoft Docs
 description: 전 세계에 사용되는 앱을 빌드합니다.
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 10/25/2016
 ms.author: gregli
-ms.openlocfilehash: 57f2b9a23207c2c866738ac40f46a37747fcd54d
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 68f81dffa4ba861978dacb1b7ad6830b0736ed6e
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="global-support"></a>글로벌 지원
 PowerApps는 글로벌 제품입니다.  많은 다양한 언어와 지역에서 앱을 빌드하고 사용할 수 있습니다.
@@ -93,7 +90,7 @@ PowerApps 목록 구분 기호의 변경 사항이 Excel 목록 구분 기호의
 사용자가 만드는 앱은 다른 언어로 변경되어 전 세계 사용자에게 훌륭한 사용자 경험을 제공할 수 있습니다.
 
 ### <a name="language-function"></a>Language 함수
-**[Language](functions/function-language.md)** 함수는 현재 사용자의 언어 태그를 반환합니다.  예를 들어 이 함수는 영국의 사용자에게 **"en-GB"**, 독일의 사용자에게 **"de-DE"**를 반환합니다.  
+**[Language](functions/function-language.md)** 함수는 현재 사용자의 언어 태그를 반환합니다.  예를 들어 이 함수는 영국의 사용자에게 **"en-GB"**, 독일의 사용자에게 **"de-DE"** 를 반환합니다.  
 
 무엇 보다도 **Language**를 사용하여 사용자를 위해 번역된 텍스트를 표시할 수 있습니다.  앱은 번역된 값의 테이블을 앱에 포함할 수 있으며
 
@@ -115,7 +112,7 @@ PowerApps 목록 구분 기호의 변경 사항이 Excel 목록 구분 기호의
 **Text**는 숫자 또는 날짜의 형식을 지정하려는 방식을 알기 위해 형식 문자열이 필요합니다.  이 형식 문자열은 두 가지 형태 중 하나를 사용할 수 있습니다.
 
 * **전역 인식 열거형.**  예를 들어, **Text( Now(), DateTimeFormat.LongDate )**  이 수식은 현재 날짜를 언어에 적절한 형식으로 지정합니다.  이 형태는 형식 문자열을 지정하는 위해 선호하는 방식입니다.
-* **사용자 지정 형식 문자열.**  예를 들어 **Text( Now(), "[$-en-US]dddd, mmmm dd, yyyy" )**는 언어 "en-US"에서 사용 시 열거형과 동일한 텍스트를 표시합니다.  사용자 지정 형식 문자열의 이점은 원하는 내용을 정확하게 지정할 수 있다는 것입니다.
+* **사용자 지정 형식 문자열.**  예를 들어 **Text( Now(), "[$-en-US]dddd, mmmm dd, yyyy" )** 는 언어 "en-US"에서 사용 시 열거형과 동일한 텍스트를 표시합니다.  사용자 지정 형식 문자열의 이점은 원하는 내용을 정확하게 지정할 수 있다는 것입니다.
 
 사용자 지정 형식의 앞에 있는 "[$-en-US]"는 사용자 지정 형식 문자열을 해석할 언어로 **Text**를 알려 줍니다.  이것은 사용자를 위해 넣은 것이며 제작 언어로 기본 설정됩니다.  일반적으로, 변경할 필요가 없습니다.  다른 언어의 제작자가 동일한 앱을 편집할 때 유용합니다.
 

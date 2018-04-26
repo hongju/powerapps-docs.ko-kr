@@ -1,25 +1,22 @@
 ---
 title: 위임 이해 | Microsoft Docs
 description: 위임을 사용하여 큰 데이터 집합을 효율적으로 처리합니다.
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 03/27/2018
 ms.author: gregli
-ms.openlocfilehash: 98cf32e1b379812e1d3175e6403b7c6fd7fb794b
-ms.sourcegitcommit: a9d33322228c398d29964429602dc3fe19fa67d2
+ms.openlocfilehash: 0800adf43f5a7d74d0334e9f39216a70b9350d6d
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="understand-delegation"></a>위임 이해
 PowerApps에는 데이터의 테이블을 필터링, 정렬 및 형성하는 강력함 함수 집합이 포함되어 있습니다(단 시간에 **[Filter](functions/function-filter-lookup.md)**, **[Sort](functions/function-sort.md)** 및 **[AddColumns](functions/function-table-shaping.md)** 함수 이름 지정).  이러한 함수를 사용하여 사용자에게 필요한 정보에 대한 집중된 액세스 권한을 제공할 수 있습니다.  데이터베이스 배경 지식이 있는 사람들에게 이러한 함수를 사용하는 것은 데이터베이스 쿼리를 작성하는 것과 같습니다.  
@@ -45,7 +42,7 @@ PowerApps에는 데이터의 테이블을 필터링, 정렬 및 형성하는 강
 이러한 목록은 시간이 지남에 따라 변경됩니다. 위임에 더 많은 함수와 연산자를 지원하기 위해 노력하고 있습니다.
 
 ### <a name="filter-functions"></a>Filter 함수
-**[Filter](functions/function-filter-lookup.md)**, **[Search](functions/function-filter-lookup.md)** 및 **[LookUp](functions/function-filter-lookup.md)**을 위임할 수 있습니다.  
+**[Filter](functions/function-filter-lookup.md)**, **[Search](functions/function-filter-lookup.md)** 및 **[LookUp](functions/function-filter-lookup.md)** 을 위임할 수 있습니다.  
 
 **Filter** 및 **LookUp** 함수 내에서 적합한 레코드를 선택하기 위해 테이블의 열에 다음을 사용할 수 있습니다.
 
@@ -58,7 +55,7 @@ PowerApps에는 데이터의 테이블을 필터링, 정렬 및 형성하는 강
 * **[StartsWith](functions/function-startswith.md)**
 * 컨트롤 속성과 [전역 및 컨텍스트 변수](working-with-variables.md) 등의 모든 레코드 전체에서 동일한 상수 값입니다.
 
-모든 레코드에 대한 상수 값으로 평가하는 수식의 일부를 사용할 수도 있습니다.  예를 들어 **Left( Language(), 2 )**는 레코드의 어떠한 열에도 종속되지 않으므로 모든 레코드에 동일한 값을 반환합니다.  사실상 상수입니다.  컨텍스트 변수, 컬렉션 및 신호의 사용은 상수가 될 수 없으며, **Filter** 및 **LookUp**은 위임되지 않습니다.  
+모든 레코드에 대한 상수 값으로 평가하는 수식의 일부를 사용할 수도 있습니다.  예를 들어 **Left( Language(), 2 )** 는 레코드의 어떠한 열에도 종속되지 않으므로 모든 레코드에 동일한 값을 반환합니다.  사실상 상수입니다.  컨텍스트 변수, 컬렉션 및 신호의 사용은 상수가 될 수 없으며, **Filter** 및 **LookUp**은 위임되지 않습니다.  
 
 일부 중요한 항목이 위의 목록에서 누락되었습니다.
 
@@ -72,12 +69,12 @@ PowerApps에는 데이터의 테이블을 필터링, 정렬 및 형성하는 강
 * [컬렉션](working-with-variables.md)
 
 ### <a name="sorting-functions"></a>정렬 함수
-**[Sort](functions/function-sort.md)** 및 **[SortByColumns](functions/function-sort.md)**를 위임할 수 있습니다.  
+**[Sort](functions/function-sort.md)** 및 **[SortByColumns](functions/function-sort.md)** 를 위임할 수 있습니다.  
 
 **Sort**에서 이 수식은 단일 열의 이름에 불과하며 다른 연산자 또는 함수를 포함할 수 없습니다.
 
 ### <a name="aggregate-functions"></a>집계 함수
-**[Sum](functions/function-aggregates.md)**, **[Average](functions/function-aggregates.md)**, **[Min](functions/function-aggregates.md)** 및 **[Max](functions/function-aggregates.md)**를 위임할 수 있습니다.  지금은 제한된 수의 데이터 원본만 이 위임을 지원합니다. 자세한 내용은 [위임 목록](delegation-list.md)을 확인하세요.
+**[Sum](functions/function-aggregates.md)**, **[Average](functions/function-aggregates.md)**, **[Min](functions/function-aggregates.md)** 및 **[Max](functions/function-aggregates.md)** 를 위임할 수 있습니다.  지금은 제한된 수의 데이터 원본만 이 위임을 지원합니다. 자세한 내용은 [위임 목록](delegation-list.md)을 확인하세요.
 
 **[CountRows](functions/function-table-counts.md)**, **[CountA](functions/function-table-counts.md)** 및 **[Count](functions/function-table-counts.md)** 등의 계산 함수는 위임할 수 없습니다.
 
@@ -130,7 +127,7 @@ PowerApps에는 데이터의 테이블을 필터링, 정렬 및 형성하는 강
 
 갤러리의 **Items** 속성에 대해 이 수식을 참고하세요.  **SortByColumns**와 **Search** 함수를 사용하고 있으며, 둘 다 위임 가능합니다.
 
-검색 텍스트 입력 컨트롤에 **"Apple"**을 입력해 보겠습니다.  자세히 관찰해 보니 새 검색에서 새 입력 항목이 처리되는 동안 화면 맨 위에 순간적으로 행진하는 점이 보일 것입니다.  행진하는 점은 SQL Server와 통신하고 있음을 나타냅니다.
+검색 텍스트 입력 컨트롤에 **"Apple"** 을 입력해 보겠습니다.  자세히 관찰해 보니 새 검색에서 새 입력 항목이 처리되는 동안 화면 맨 위에 순간적으로 행진하는 점이 보일 것입니다.  행진하는 점은 SQL Server와 통신하고 있음을 나타냅니다.
 
 ![검색 텍스트 입력 컨트롤](./media/delegation-overview/products-apple.png)
 
@@ -140,7 +137,7 @@ PowerApps에는 데이터의 테이블을 필터링, 정렬 및 형성하는 강
 
 ![SortByColumns 호출 제거](./media/delegation-overview/products-apple-bluedot.png)
 
-작동하는 것처럼 보이지만, **"Apples"**만 올바르게 표시되고 **"Pineapple"**은 아닙니다.  그러나 갤러리 옆에 파랑 점이 표시되며 수식 부분에 파란 물결선이 있습니다.  화면 썸네일에서도 파랑 점이 보입니다.  갤러리 옆에 있는 파랑 점 위을 마우스로 가리키면 다음 사항이 보입니다.
+작동하는 것처럼 보이지만, **"Apples"** 만 올바르게 표시되고 **"Pineapple"** 은 아닙니다.  그러나 갤러리 옆에 파랑 점이 표시되며 수식 부분에 파란 물결선이 있습니다.  화면 썸네일에서도 파랑 점이 보입니다.  갤러리 옆에 있는 파랑 점 위을 마우스로 가리키면 다음 사항이 보입니다.
 
 ![파란색 점을 마우스로 가리키기](./media/delegation-overview/products-apple-bluepopup.png)
 
@@ -148,4 +145,4 @@ PowerApps에는 데이터의 테이블을 필터링, 정렬 및 형성하는 강
 
 하지만 가능했습니다.  가능했다고 봐야죠.  그리고 이것이 바로 노랑 위험 아이콘과 빨강 물결 오류 대신 파랑 점인 이유입니다.  **[dbo].[Products]** 테이블에 500개 미만의 레코드가 포함되어 있다면 완벽하게 작용했습니다.   모든 레코드를 장치로 불러 왔으며 **Filter**가 로컬에 적용되었습니다.  
 
-대신 이 테이블에 500개 이상의 레코드가 포함되어 있는 경우에는 *테이블의 첫 500개 레코드에서* **"Apple"** 로 시작하는 과일만 갤러리에 표시됩니다.  **"Apple, Fuji"**가 레코드 501 또는 500,001에 이름으로 나타나면 검색되지 않습니다.
+대신 이 테이블에 500개 이상의 레코드가 포함되어 있는 경우에는 *테이블의 첫 500개 레코드에서* **"Apple"** 로 시작하는 과일만 갤러리에 표시됩니다.  **"Apple, Fuji"** 가 레코드 501 또는 500,001에 이름으로 나타나면 검색되지 않습니다.

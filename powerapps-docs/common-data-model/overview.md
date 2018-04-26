@@ -1,29 +1,25 @@
 ---
 title: 공용 데이터 모델 개요 | Microsoft Docs
 description: 공용 데이터 모델이 Common Data Service for Apps를 Common Data Service for Analytics에 연결하는 방법을 알아봅니다.
-services: ''
-suite: powerapps
 documentationcenter: na
 author: RobertBruckner
-manager: lmollico
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.date: 03/14/2018
 ms.author: jdaly
-ms.openlocfilehash: 5fb747d94b5af47717debba2341a9914664a27bd
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: ed7a1bfd7e3d3439cdcf2f20d1026c69a9abce4d
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="common-data-model-overview"></a>공통 데이터 모델 개요
 
-**CDM(공용 데이터 모델)**은 다양한 비즈니스 및 응용 프로그램 도메인에서 일반적으로 사용되는 개념과 활동을 나타내는 표준 엔터티의 오픈 소스 정의입니다. 공용 데이터 모델은 계정, 사업부, 사례, 연락처, 잠재 고객, 영업 기회, 제품 등과 같은 *잘 정의되고 확장 가능한 모듈식* 비즈니스 엔터티뿐 아니라 공급업체, 작업자, 고객 간의 활동이나 서비스 수준 계약 같은 상호 작용 및 관계를 제공합니다. 
+**CDM(공용 데이터 모델)** 은 다양한 비즈니스 및 응용 프로그램 도메인에서 일반적으로 사용되는 개념과 활동을 나타내는 표준 엔터티의 오픈 소스 정의입니다. 공용 데이터 모델은 계정, 사업부, 사례, 연락처, 잠재 고객, 영업 기회, 제품 등과 같은 *잘 정의되고 확장 가능한 모듈식* 비즈니스 엔터티뿐 아니라 공급업체, 작업자, 고객 간의 활동이나 서비스 수준 계약 같은 상호 작용 및 관계를 제공합니다. 
 
 Microsoft의 [Common Data Service for Apps](../maker/common-data-service/data-platform-intro.md) 및 Common Data Service for Analytics<!-- TODO add link when available  -->는 공용 데이터 모델을 구현합니다. 이러한 서비스는 공용 데이터 모델 정의를 따르는 데이터를 보관합니다. 이러한 서비스를 기반으로 빌드하면 데이터가 어디서 오는지 또는 어디서 사용되는지에 관계없이 패키지에 포함된 응용 프로그램 및 분석 솔루션이 잘 정의된 엔터티 셰이프와 함께 작동하고 데이터를 공유할 수 있습니다. 사용자 지정 기간 업무 앱 및 분석 솔루션은 데이터 공유에 동일한 엔터티를 활용할 수 있으며, 그렇게 함으로써 특정 요구 사항 및 비즈니스 요구 사항을 지원할 수 있습니다. 
 

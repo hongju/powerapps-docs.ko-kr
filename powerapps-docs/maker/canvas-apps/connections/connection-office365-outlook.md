@@ -1,25 +1,22 @@
 ---
 title: Office 365 Outlook 연결 개요 | Microsoft Docs
 description: Powerapps에 대한 Office 365 Outlook 연결을 위한 예제 등의 참조 정보
-services: ''
-suite: powerapps
-documentationcenter: na
-author: archnair
-manager: anneta
+documentationcenter: ''
+author: lancedMicrosoft
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/20/2017
-ms.author: archanan
-ms.openlocfilehash: 2932e3145d38bd0b82c0c56882861e7976572c62
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.author: lanced
+ms.openlocfilehash: 728aa61c2ae082b1c6a3cd2d9d663bbe5ac77d9b
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="connect-to-office-365-outlook-from-powerapps"></a>PowerApps에서 Office 365 Outlook연결
 ![Office 365 Outlook](./media/connection-office365-outlook/office365icon.png)
@@ -74,7 +71,7 @@ Office 365 Outlook 연결이 만들어지고 앱에 추가됩니다. 이제 사�
 4. **삽입** 메뉴에서 **컨트롤**을 선택한 다음 **단추**를 선택합니다. **[OnSelect](../controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.  
    
     `Office365.SendEmail(inputTo.Text, inputSubject.Text, inputBody.Text)`
-5. 버튼을 움직여 모든 다른 컨트롤 아래 표시되게 하고 **[Text](../controls/properties-core.md)** 속성을 **"이메일 보내기"**로 설정합니다.
+5. 버튼을 움직여 모든 다른 컨트롤 아래 표시되게 하고 **[Text](../controls/properties-core.md)** 속성을 **"이메일 보내기"** 로 설정합니다.
 6. F5 키를 누르거나 미리 보기 단추(![미리 보기 단추](./media/connection-office365-outlook/preview.png))를 선택합니다. **inputTo**에 올바른 이메일 주소를 입력한 다음 다른 두 **텍스트 입력** 컨트롤을 표시할 순서를 입력합니다.
 7. **이메일 보내기**를 선택하여 메시지를 보냅니다. 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
 

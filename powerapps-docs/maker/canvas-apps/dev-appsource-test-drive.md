@@ -1,25 +1,22 @@
 ---
 title: AppSource에서 고객이 앱을 시험 사용할 수 있도록 하기 | Microsoft Docs
 description: AppSource를 사용하여 고객과 앱을 공유하고 비즈니스를 위해 잠재 고객을 창출합니다.
-services: ''
-suite: powerapps
 documentationcenter: na
 author: linhtranms
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 05/08/2017
 ms.author: litran
-ms.openlocfilehash: 5e2a14a2c453dc1aabe8657f7c0ae13c388abb4a
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 11f0e0b8a0aa0dce59588c2e1eea21885f19b741
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="let-customers-test-drive-your-apps-on-appsource"></a>AppSource에서 고객이 앱을 시험 사용할 수 있도록 하기
 PowerApps에서 앱을 빌드하는 데 열중하고 있나요? 고객과 공유하려는 앱이 있나요? 고객과 앱을 공유하고 비즈니스 잠재 고객을 창출할 수 있도록 [AppSource.com](https://appsource.microsoft.com)에서 PowerApps 시험 사용 솔루션이 지원됩니다.

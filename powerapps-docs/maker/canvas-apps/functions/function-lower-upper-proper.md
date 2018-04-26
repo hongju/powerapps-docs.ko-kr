@@ -1,25 +1,22 @@
 ---
 title: Lower, Upper 및 Proper 함수 | Microsoft Docs
 description: PowerApps에서 Lower, Upper 및 Proper 함수에 대한 구문과 예제를 포함한 참조 정보
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 11/07/2015
 ms.author: gregli
-ms.openlocfilehash: 2ed6a9f1d52da1818eaaec50194740fb55a09f8e
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: e57ea9208f0ea3b7dd9ada7ebd9055a99ddc141c
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="lower-upper-and-proper-functions-in-powerapps"></a>PowerApps에서 Lower, Upper 및 Proper 함수
 텍스트 문자열의 문자를 모두 소문자, 모두 대문자 또는 적절한 대소문자로 변환합니다.
@@ -70,5 +67,5 @@ ms.lasthandoff: 03/22/2018
 ### <a name="step-by-step-example"></a>단계별 예제
 1. **[텍스트 입력](../controls/control-text-input.md)** 컨트롤을 추가하고 이름을 **Source**로 지정합니다.
 2. 레이블을 추가하고 **[Text](../controls/properties-core.md)** 속성을 다음 함수로 설정합니다.<br>**Proper(Source.Text)**
-3. F5 키를 누른 다음 **WE ARE THE BEST!**를 **Source** 상자에 입력합니다.<br>레이블이 **WE ARE THE BEST!**로 표시됩니다.
+3. F5 키를 누른 다음 **WE ARE THE BEST!** 를 **Source** 상자에 입력합니다.<br>레이블이 **WE ARE THE BEST!** 로 표시됩니다.
 

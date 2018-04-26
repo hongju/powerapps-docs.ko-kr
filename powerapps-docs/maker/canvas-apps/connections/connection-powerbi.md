@@ -1,25 +1,22 @@
 ---
 title: Power BI 연결 개요 | Microsoft Docs
 description: 사용 가능한 Power BI 연결을 참조하세요.
-services: ''
-suite: powerapps
-documentationcenter: na
-author: sirui-sun
-manager: anneta
+documentationcenter: ''
+author: lancedMicrosoft
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/12/2016
-ms.author: sirsu
-ms.openlocfilehash: 593e22f042945bd64a0a54e197325cbcf74f3400
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.author: lanced
+ms.openlocfilehash: 3eb91d8903caff9af812943697cf317ee7379316
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="connect-to-power-bi-from-powerapps"></a>PowerApps에서 Power BI에 연결
 ![Power BI](./media/connection-powerbi/powerbiicon.png)

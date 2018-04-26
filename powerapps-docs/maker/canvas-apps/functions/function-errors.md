@@ -1,25 +1,22 @@
 ---
 title: Errors 함수 | Microsoft Docs
 description: PowerApps의 Errors 함수에 대한 참조 정보이며, 구문과 예제를 포함하고 있습니다.
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 11/11/2015
 ms.author: gregli
-ms.openlocfilehash: 92eb12ccff46fcce5aed1c7a3e39bf02c2c07b4b
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 9e68b7580092c70f7e40ddd1d0b57118f6d592d8
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="errors-function-in-powerapps"></a>PowerApps의 Errors 함수
 [데이터 원본](../working-with-data-sources.md)의 이전 변경에 대한 오류 정보를 제공합니다.
@@ -81,7 +78,7 @@ ms.lasthandoff: 03/22/2018
 
 * **Patch( IceCream, EditRecord, Gallery.Updates )**
 
-여기서 **Gallery.Updates**는 **Quantity** 속성만 수정되었으므로 **{ Quantity: 90 }**으로 평가됩니다.
+여기서 **Gallery.Updates**는 **Quantity** 속성만 수정되었으므로 **{ Quantity: 90 }** 으로 평가됩니다.
 
 아쉽게도 **[Patch](function-patch.md)** 함수가 호출되기 직전에 다른 사람이 초콜릿에 대한 **Quantity**를 80으로 수정했습니다.  PowerApps는 이를 감지하고 충돌하는 변경이 발생하지 않도록 합니다.  다음 수식을 사용하여 이 상황을 확인할 수 있습니다.
 

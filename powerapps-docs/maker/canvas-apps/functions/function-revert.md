@@ -1,25 +1,22 @@
 ---
 title: Revert 함수 | Microsoft Docs
 description: PowerApps의 Revert 함수에 대한 구문과 예제를 포함한 참조 정보
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/21/2015
 ms.author: gregli
-ms.openlocfilehash: e61566077ccdf9f3b2913ec0293868c1863c26fa
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 08cb0690904a4b63645828678232769b66a439a1
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="revert-function-in-powerapps"></a>PowerApps의 Revert 함수
 [데이터 원본](../working-with-data-sources.md)의 [레코드](../working-with-tables.md#records)를 새로 고치고 오류를 지웁니다.
@@ -29,7 +26,7 @@ ms.lasthandoff: 03/22/2018
 
 되돌린 레코드에 대해 **Revert**는 **[Errors](function-errors.md)** 함수가 반환한 [테이블](../working-with-tables.md)에 오류가 있으면 지웁니다.
 
-**[Errors](function-errors.md)** 함수가 **[Patch](function-patch.md)**나 기타 데이터 작업 후에 충돌을 보고하면 충돌하는 버전으로 시작하도록 레코드를 **되돌리고** 변경 사항을 다시 적용합니다.
+**[Errors](function-errors.md)** 함수가 **[Patch](function-patch.md)** 나 기타 데이터 작업 후에 충돌을 보고하면 충돌하는 버전으로 시작하도록 레코드를 **되돌리고** 변경 사항을 다시 적용합니다.
 
 **Revert**는 반환 값이 없습니다. [동작 수식](../working-with-formulas-in-depth.md)에만 사용할 수 있습니다.
 

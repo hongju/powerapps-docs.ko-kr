@@ -1,25 +1,22 @@
 ---
 title: Power BI 프로젝트 보고서 게시 및 대시보드 만들기 | Microsoft Docs
 description: 이 작업에서는 데이터 집합을 게시하고 Power BI 서비스에 보고합니다. 그런 다음 보고서를 기반으로 하여 대시보드를 만듭니다.
-services: ''
-suite: powerapps
 documentationcenter: na
 author: mgblythe
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 01/30/2018
 ms.author: mblythe
-ms.openlocfilehash: 6f54274af043964f02ef02a5ce97c261a410391d
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: cc738334cc20f2911e17404faf679c0ed6bc2832
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="publish-the-power-bi-project-report-and-create-a-dashboard"></a>Power BI 프로젝트 보고서 게시 및 대시보드 만들기
 > [!NOTE]
@@ -43,11 +40,11 @@ ms.lasthandoff: 03/22/2018
 5. 게시가 완료되면 **Power BI에서 'project-analysis.pbx' 열기**를 클릭하거나 탭합니다.
    
     ![게시 성공](./media/sharepoint-scenario-publish-report/06-01-05-open-report.png)
-6. Power BI 서비스는 브라우저에서 보고서를 로드합니다. 왼쪽 탐색 창이 확장되지 않는 경우 왼쪽 위 **(a)**에 있는 메뉴를 클릭하거나 탭하여 확장합니다.
+6. Power BI 서비스는 브라우저에서 보고서를 로드합니다. 왼쪽 탐색 창이 확장되지 않는 경우 왼쪽 위 **(a)** 에 있는 메뉴를 클릭하거나 탭하여 확장합니다.
    
     ![Power BI 서비스의 보고서](./media/sharepoint-scenario-publish-report/06-01-06-service-report.png)
    
-    게시할 때 Power BI Desktop에서 데이터 집합**(d)**과 보고서**(c)**를 업로드했음을 알 수 있습니다. Power BI Desktop이 아닌 서비스에서 대시보드를 만든 경우 이 작업 영역에는 아직 대시보드**(b)**가 없습니다. 곧 대시보드를 만들겠습니다.
+    게시할 때 Power BI Desktop에서 데이터 집합 **(d)** 과 보고서 **(c)** 를 업로드했음을 알 수 있습니다. Power BI Desktop이 아닌 서비스에서 대시보드를 만든 경우 이 작업 영역에는 아직 대시보드 **(b)** 가 없습니다. 곧 대시보드를 만들겠습니다.
 
 ## <a name="step-2-configure-credentials-for-refresh"></a>2단계: 새로 고침에 대한 자격 증명 구성
 1. 서비스의 오른쪽 위 모서리에서 ![기어 아이콘](./media/sharepoint-scenario-publish-report/icon-gear.png), **설정**을 차례로 클릭하거나 탭합니다.

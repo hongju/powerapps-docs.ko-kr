@@ -1,24 +1,21 @@
 ---
 title: Excel에 이미지 추가 | Microsoft Docs
 description: 클라우드 저장소 계정에서 Excel로 이미지 파일 및 펜 그림을 추가하기 위한 단계별 지침
-services: ''
-suite: powerapps
 documentationcenter: ''
-author: skjerland
-manager: anneta
+author: aftowen
+manager: kfile
 editor: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 10/25/2016
-ms.author: sharik
-ms.openlocfilehash: 75b3315833fc6ced9ef3d8eb252d0f8639ccd696
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.author: anneta
+ms.openlocfilehash: b15584a1b53625544711f04d074c688ce75eac9c
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="add-images-to-excel-from-powerapps"></a>PowerApps에서 Excel에 이미지 추가
 사용자가 파일의 이미지 또는 **펜** 컨트롤의 그림을 표시, 추가 또는 삭제할 수 있는 앱을 자동으로 만듭니다. 앱은 클라우드 저장소 계정에 만들고 업로드하는 Excel 파일을 기반으로 합니다.
@@ -30,7 +27,7 @@ ms.lasthandoff: 03/22/2018
 * Excel 파일을 저장할 수 있는 클라우드 저장소 계정(예: Dropbox, OneDrive 또는 Google Drive)에 대한 [PowerApps 연결](add-data-connection.md).
 
 ## <a name="create-the-data-source-and-the-app"></a>데이터 원본 및 앱 만들기
-1. Excel에서 **자막** 및 **이미지 [이미지]**를 두 개의 빈 셀 바로 위 두 개의 셀에 나란히(예: A1, B1) 추가합니다.
+1. Excel에서 **자막** 및 **이미지 [이미지]** 를 두 개의 빈 셀 바로 위 두 개의 셀에 나란히(예: A1, B1) 추가합니다.
 2. 업데이트한 셀 및 바로 밑에 있는 셀의 서식을 테이블로 지정하고 테이블 이름을 지정합니다(예: **Images**).
    
     ![테이블 만들기](./media/add-images-to-excel/create-table.png)

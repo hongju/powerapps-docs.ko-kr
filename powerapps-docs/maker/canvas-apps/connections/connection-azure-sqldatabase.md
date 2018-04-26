@@ -1,25 +1,22 @@
 ---
 title: SQL Server 연결 개요 | Microsoft Docs
 description: Azure SQL 또는 온-프레미스 SQL Server 데이터베이스에 연결하는 방법에 대한 단계별 지침
-services: ''
-suite: powerapps
 documentationcenter: ''
-author: archnair
-manager: anneta
+author: lancedMicrosoft
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 07/12/2016
-ms.author: archanan
-ms.openlocfilehash: 26bae9c6407ce168eaa06ce29034452a48a1b846
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.author: lanced
+ms.openlocfilehash: 33b3f85d3cd2dbe59684eccc208ebec4cdd09549
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="connect-to-sql-server-from-powerapps"></a>PowerApps에서 SQL Server 연결
 ![SQL Server 아이콘](./media/connection-azure-sqldatabase/sqlicon.png)
@@ -53,7 +50,7 @@ PowerApps에서 정보를 표시할 수 있도록 Azure 또는 온-프레미스 
     ![SQL Server 연결 추가](./media/connection-azure-sqldatabase/add-sql-connection.png)
 5. 다음의 단계 중 하나를 수행합니다.
    
-   * **직접 연결(클라우스 서비스)**을 지정하고 서버 이름, 데이터베이스 이름, 사용자 이름, 그리고 사용하려는 데이터베이스의 암호를 입력하거나 붙여 넣습니다.
+   * **직접 연결(클라우스 서비스)** 을 지정하고 서버 이름, 데이터베이스 이름, 사용자 이름, 그리고 사용하려는 데이터베이스의 암호를 입력하거나 붙여 넣습니다.
      
        ![Azure에서 데이터베이스에 연결](./media/connection-azure-sqldatabase/connect-azure.png)
    * **온-프레미스 데이터 게이트웨이를 사용한 연결**을 지정하고 서버 이름, 데이터베이스 이름, 사용자 이름, 그리고 사용하려는 데이터베이스의 암호를 입력하거나 붙어 넣고 인증 유형과 게이트웨이를 지정합니다.
@@ -76,7 +73,7 @@ PowerApps에서 정보를 표시할 수 있도록 Azure 또는 온-프레미스 
 3. 오른쪽 위 모서리에서 **새 연결**을 클릭하거나 탭하고 **SQL Server**를 클릭하거나 탭합니다.
 4. 다음의 단계 중 하나를 수행합니다.
    
-   * **직접 연결(클라우스 서비스)**을 지정하고 서버 이름, 데이터베이스 이름, 사용자 이름, 그리고 사용하려는 데이터베이스의 암호를 입력하거나 붙여 넣습니다.
+   * **직접 연결(클라우스 서비스)** 을 지정하고 서버 이름, 데이터베이스 이름, 사용자 이름, 그리고 사용하려는 데이터베이스의 암호를 입력하거나 붙여 넣습니다.
      
        ![Azure에서 데이터베이스에 연결](./media/connection-azure-sqldatabase/connect-azure-portal.png)
    * **온-프레미스 데이터 게이트웨이를 사용한 연결**을 지정하고 서버 이름, 데이터베이스 이름, 사용자 이름, 그리고 사용하려는 데이터베이스의 암호를 입력하거나 붙어 넣고 인증 유형과 게이트웨이를 지정합니다.
@@ -97,7 +94,7 @@ PowerApps에서 정보를 표시할 수 있도록 Azure 또는 온-프레미스 
 4. **새 연결**, **SQL Server**, **연결**을 차례로 클릭하거나 탭합니다.
 5. 다음의 단계 중 하나를 수행합니다.
    
-   * **직접 연결(클라우스 서비스)**을 지정하고 서버 이름, 데이터베이스 이름, 사용자 이름, 그리고 사용하려는 데이터베이스의 암호를 입력하거나 붙여 넣습니다.
+   * **직접 연결(클라우스 서비스)** 을 지정하고 서버 이름, 데이터베이스 이름, 사용자 이름, 그리고 사용하려는 데이터베이스의 암호를 입력하거나 붙여 넣습니다.
      
        ![Azure에서 데이터베이스에 연결](./media/connection-azure-sqldatabase/connect-azure-fromblank.png)
    * **온-프레미스 데이터 게이트웨이를 사용한 연결**을 지정하고 서버 이름, 데이터베이스 이름, 사용자 이름, 그리고 사용하려는 데이터베이스의 암호를 입력하거나 붙어 넣고 인증 유형과 게이트웨이를 지정합니다.

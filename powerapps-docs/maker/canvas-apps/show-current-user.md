@@ -1,24 +1,21 @@
 ---
 title: 현재 사용자에 대한 세부 정보 표시 | Microsoft Docs
 description: User 함수를 삽입하여 PowerApps에 로그인한 사용자의 이름과 이메일 주소를 표시합니다.
-services: ''
-suite: powerapps
 documentationcenter: ''
 author: lonu
-manager: anneta
+manager: kfile
 editor: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 10/16/2016
 ms.author: lonu
-ms.openlocfilehash: b337188360ba592d504a7364fdbeb3a2973b8ee0
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 11177ffa8913afe4d0245708dd8c9b2b0b50c8c2
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="show-information-about-a-powerapps-user"></a>PowerApps 사용자에 대한 정보 표시
 User 함수는 전체 이름, 이메일 주소 및 로그인한 사용자와 관련된 그림을 표시할 수 있습니다. 이 정보를 사용하여 양식을 자동으로 채울 수 있습니다.

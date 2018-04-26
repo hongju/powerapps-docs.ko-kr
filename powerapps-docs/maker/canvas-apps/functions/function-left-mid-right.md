@@ -1,25 +1,22 @@
 ---
 title: Left, Mid 및 Right 함수 | Microsoft Docs
 description: PowerApps의 Left, Mid 및 Right 함수에 대한 참조 정보이며, 구문과 예제를 포함하고 있습니다.
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 11/07/2015
 ms.author: gregli
-ms.openlocfilehash: 2cf54b1225578b2bb2bdefa8c0bd02dc0c9c0283
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 419c272b68c356d4f1cefd5868dd8a15ca1027de
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="left-mid-and-right-functions-in-powerapps"></a>PowerApps의 Left, Mid 및 Right 함수
 텍스트 문자열의 왼쪽, 가운데 또는 오른쪽 부분을 추출합니다.

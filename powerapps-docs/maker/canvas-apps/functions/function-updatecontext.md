@@ -1,25 +1,22 @@
 ---
 title: UpdateContext 함수 | Microsoft Docs
 description: PowerApps에서 UpdateContext 함수에 대한 구문과 예제를 포함한 참조 정보
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 11/08/2015
 ms.author: gregli
-ms.openlocfilehash: bcade879bfad04a50f80c26638f994897d9b42c0
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: a784251899e7c51ef8213b6d6f31c2830b08e2dc
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="updatecontext-function-in-powerapps"></a>PowerApps의 UpdateContext 함수
 현재 화면의 [컨텍스트 변수](../working-with-variables.md#create-a-context-variable)를 만들거나 업데이트합니다.
@@ -42,7 +39,7 @@ PowerApps는 사용자가 앱과 상호 작용할 때 자동으로 다시 계산
 
 변수의 값, 정의 및 용도는 제작 환경의 파일 메뉴에 있는 변수 보기를 사용하여 볼 수 있습니다.
 
-변수의 열 이름을 사용하여 수식에서 컨텍스트 변수를 참조합니다. 예를 들어 **UpdateContext( { ShowLogo: true } )**는 **ShowLogo**라는 컨텍스트 변수를 만들고 해당 값을 **true**로 설정합니다. 그러면 수식에서 **ShowLogo**라는 이름을 사용하여 이 컨텍스트 변수 값을 사용할 수 있습니다.  이미지 컨트롤의 **Visible** 속성에 대한 수식으로 **ShowLogo**를 쓰고 컨텍스트 변수의 값이 **true** 또는 **false**인지 여부에 따라 해당 컨트롤을 표시하거나 숨길 수 있습니다.
+변수의 열 이름을 사용하여 수식에서 컨텍스트 변수를 참조합니다. 예를 들어 **UpdateContext( { ShowLogo: true } )** 는 **ShowLogo**라는 컨텍스트 변수를 만들고 해당 값을 **true**로 설정합니다. 그러면 수식에서 **ShowLogo**라는 이름을 사용하여 이 컨텍스트 변수 값을 사용할 수 있습니다.  이미지 컨트롤의 **Visible** 속성에 대한 수식으로 **ShowLogo**를 쓰고 컨텍스트 변수의 값이 **true** 또는 **false**인지 여부에 따라 해당 컨트롤을 표시하거나 숨길 수 있습니다.
 
 이 항목의 뒷부분에 나오는 예제에서 보듯이 컨텍스트 변수는 다음을 비롯한 여러 가지 정보를 보유할 수 있습니다.
 
@@ -75,8 +72,8 @@ PowerApps는 사용자가 앱과 상호 작용할 때 자동으로 다시 계산
 | **UpdateContext( {&nbsp;Counter:&nbsp;1&nbsp;} )** |컨텍스트 변수 **Counter**를 생성하거나 수정하고 값을 **1**로 설정합니다. |**Counter**의 값은 **1**입니다. 수식에 **Counter**라는 이름을 사용하여 해당 변수를 참조할 수 있습니다. |
 | **UpdateContext( {&nbsp;Counter:&nbsp;2&nbsp;} )** |앞 예제의 **Counter** 컨텍스트 변수 값을 **2**로 설정합니다. |**Counter**의 값은 **2**입니다. |
 | **UpdateContext( {&nbsp;Name:&nbsp;"Lily",&nbsp;Score:&nbsp;10&nbsp;} )** |컨텍스트 변수 **Name** 및 **Score**를 생성하거나 수정하고 값을 각각 **Lily** 및 **10**으로 설정합니다. |**Name**에는 **Lily** 값이 있고 **Score**에는 **10** 값이 있습니다. |
-| **UpdateContext( {&nbsp;Person:&nbsp;{&nbsp;Name:&nbsp;"Milton", Address:&nbsp;"1&nbsp;Main&nbsp;St"&nbsp;}&nbsp;} )** |컨텍스트 변수 **Person**을 생성하거나 수정하고 값을 레코드로 설정합니다. 이 레코드는 **Name**과 **Address**라는 두 개의 열을 포함합니다. **Name** 열의 값은 **Milton**이고 **Address** 열의 값은 **1 Main St**입니다. |**Person**의 값은 **{&nbsp;Name:&nbsp;"Milton", Address:&nbsp;"1&nbsp;Main&nbsp;St"&nbsp;}&nbsp;}**라는 레코드입니다.<br><br>이 레코드 전체를 **Person**이라는 이름으로 참조하거나 이 레코드의 개별 열을 **Person.Name** 또는 **Person.Address**로 참조합니다. |
-| **UpdateContext( {&nbsp;Person: Patch(&nbsp;Person,&nbsp;{Address:&nbsp;"2&nbsp;Main&nbsp;St"&nbsp;}&nbsp;) }&nbsp;)** |**[Patch](function-patch.md)** 함수로 **Address** 열의 값을 **2 Main St**로 설정하여 **Person** 컨텍스트 변수를 업데이트합니다. |이제 **Person**의 값은 **{&nbsp;Name:&nbsp;"Milton", Address:&nbsp;"2&nbsp;Main&nbsp;St"&nbsp;}&nbsp;}**라는 레코드입니다. |
+| **UpdateContext( {&nbsp;Person:&nbsp;{&nbsp;Name:&nbsp;"Milton", Address:&nbsp;"1&nbsp;Main&nbsp;St"&nbsp;}&nbsp;} )** |컨텍스트 변수 **Person**을 생성하거나 수정하고 값을 레코드로 설정합니다. 이 레코드는 **Name**과 **Address**라는 두 개의 열을 포함합니다. **Name** 열의 값은 **Milton**이고 **Address** 열의 값은 **1 Main St**입니다. |**Person**의 값은 **{&nbsp;Name:&nbsp;"Milton", Address:&nbsp;"1&nbsp;Main&nbsp;St"&nbsp;}&nbsp;}** 라는 레코드입니다.<br><br>이 레코드 전체를 **Person**이라는 이름으로 참조하거나 이 레코드의 개별 열을 **Person.Name** 또는 **Person.Address**로 참조합니다. |
+| **UpdateContext( {&nbsp;Person: Patch(&nbsp;Person,&nbsp;{Address:&nbsp;"2&nbsp;Main&nbsp;St"&nbsp;}&nbsp;) }&nbsp;)** |**[Patch](function-patch.md)** 함수로 **Address** 열의 값을 **2 Main St**로 설정하여 **Person** 컨텍스트 변수를 업데이트합니다. |이제 **Person**의 값은 **{&nbsp;Name:&nbsp;"Milton", Address:&nbsp;"2&nbsp;Main&nbsp;St"&nbsp;}&nbsp;}** 라는 레코드입니다. |
 
 ### <a name="step-by-step-example"></a>단계별 예제
 1. 기본 화면 이름을 **Source**로 지정하고 다른 화면을 추가한 후 이름을 **Target**으로 지정합니다.

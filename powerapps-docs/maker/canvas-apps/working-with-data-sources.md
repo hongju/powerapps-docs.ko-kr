@@ -1,25 +1,22 @@
 ---
 title: 데이터 원본 이해 | Microsoft Docs
 description: Microsoft PowerApps 연결 및 데이터 원본 작업에 대한 참조 정보입니다.
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 03/08/2017
 ms.author: gregli
-ms.openlocfilehash: ae53ebb6c0ae4743ffd4e978e680920a56452a7d
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 5e9b9ec980e6dd4aeacfef42b40fe7f52c19d558
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="understand-data-sources-in-powerapps"></a>PowerApps 데이터 원본에 대한 이해
 대부분의 PowerApps 앱에서는 **데이터 원본**이라는 클라우드 서비스에 저장된 외부 정보를 사용합니다. 일반적인 예로 비즈니스용 OneDrive에 저장된 Excel 파일의 테이블이 있습니다. 앱에서 **연결**을 사용하여 이러한 데이터 원본에 액세스합니다.
@@ -56,7 +53,7 @@ PowerApps 내부 테이블을 사용하는 것과 동일한 방식으로 테이�
 * 데이터 원본은 연결의 기본 테이블과 동일한 열 이름 및 데이터 형식을 갖습니다.
   
     > [!NOTE]
-> 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 PowerApps는 공백을 **"\_x0020\_"**으로 바꿉니다. 예를 들어 SharePoint 또는 Excel의 **"Column Name"**은 데이터 레이아웃에 표시되거나 수식에 사용될 때 PowerApps에 **"Column_x0020_Name"**으로 나타납니다.
+> 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 PowerApps는 공백을 **"\_x0020\_"** 으로 바꿉니다. 예를 들어 SharePoint 또는 Excel의 **"Column Name"** 은 데이터 레이아웃에 표시되거나 수식에 사용될 때 PowerApps에 **"Column_x0020_Name"** 으로 나타납니다.
 * 데이터 원본은 앱이 로드될 때 서비스에서 자동으로 로드됩니다.  **[Refresh](functions/function-refresh.md)** 함수를 사용하여 강제로 데이터를 새로 고칠 수 있습니다.
 * 사용자가 앱을 실행하면 레코드를 생성, 수정 및 삭제하고, 변경 내용을 서비스의 기본 테이블로 다시 푸시할 수 있습니다.
   * 레코드는 **[Patch](functions/function-patch.md)** 및 **[Collect](functions/function-clear-collect-clearcollect.md)** 함수로 만들 수 있습니다.  
@@ -87,9 +84,9 @@ PowerApps는 연결된 데이터 원본을 만들거나 구조를 수정하는 �
 ![](media/working-with-data-sources/writing-to-a-datasource.png) 위의 다이어그램에서는 데이터 원본을 업데이트하는 정보의 흐름을 보여 줍니다.
 
 * **[편집 양식](controls/control-form-detail.md)** 컨트롤은 텍스트 입력 컨트롤 또는 슬라이더와 같은 사용자 입력 컨트롤로 구성된 입력 카드에 대한 컨테이너를 제공합니다.  **[DataSource](controls/control-form-detail.md)** 및 **[Item](controls/control-form-detail.md)** 속성은 편집할 레코드를 식별하는 데 사용됩니다.
-* 각 입력 카드에는 일반적으로 **[Default](controls/properties-core.md)** 속성이 있으며, 이 속성은 대개 양식의 **ThisItem** 레코드 필드로 설정됩니다.  그러면 입력 카드 내의 컨트롤이 **[Default](controls/properties-core.md)**에서 입력 값을 가져옵니다.  일반적으로 이 속성은 수정할 필요가 없습니다.
+* 각 입력 카드에는 일반적으로 **[Default](controls/properties-core.md)** 속성이 있으며, 이 속성은 대개 양식의 **ThisItem** 레코드 필드로 설정됩니다.  그러면 입력 카드 내의 컨트롤이 **[Default](controls/properties-core.md)** 에서 입력 값을 가져옵니다.  일반적으로 이 속성은 수정할 필요가 없습니다.
 * 각 입력 카드는 **[Update](controls/control-card.md)** 속성을 노출합니다.  이 속성은 사용자 입력을 레코드의 특정 필드에 매핑하여 데이터 원본에 다시 씁니다.  일반적으로 이 속성은 수정할 필요가 없습니다.
-* 화면의 단추 또는 이미지 컨트롤을 사용하여 레코드 변경 내용을 저장할 수 있습니다.  컨트롤의 **[OnSelect](controls/properties-core.md)** 수식은 **[SubmitForm](functions/function-form.md)** 함수를 호출하여 이 작업을 수행합니다.  **[SubmitForm](functions/function-form.md)**은 카드의 **[Update](controls/control-card.md)** 속성을 모두 읽고 이를 사용하여 데이터 원본에 쓰기 저장합니다.
+* 화면의 단추 또는 이미지 컨트롤을 사용하여 레코드 변경 내용을 저장할 수 있습니다.  컨트롤의 **[OnSelect](controls/properties-core.md)** 수식은 **[SubmitForm](functions/function-form.md)** 함수를 호출하여 이 작업을 수행합니다.  **[SubmitForm](functions/function-form.md)** 은 카드의 **[Update](controls/control-card.md)** 속성을 모두 읽고 이를 사용하여 데이터 원본에 쓰기 저장합니다.
 * 때로는 문제가 있을 수 있습니다.  네트워크 연결이 중단되거나 앱에서 인식하지 못하는 서비스에서 유효성 검사가 수행될 수 있습니다.  양식 컨트롤의 **Error** 및 **[ErrorKind](controls/control-form-detail.md)** 속성을 통해 이 정보를 사용할 수 있으므로 해당 정보가 사용자에게 표시될 수 있습니다.  
 
 프로세스에 대해 더 자세히 제어하려면 **[Patch](functions/function-patch.md)** 및 **[Errors](functions/function-errors.md)** 함수를 사용할 수도 있습니다.  **[편집 양식](controls/control-form-detail.md)** 컨트롤은 **[Updates](controls/control-form-detail.md)** 속성을 노출하므로 양식의 필드 값을 읽을 수 있습니다.  또한 이 속성을 사용하여 **Patch** 및 **SubmitForm** 함수를 완전히 무시하고 연결에서 사용자 지정 커넥터를 호출할 수도 있습니다.
@@ -106,13 +103,13 @@ PowerApps는 유효성 검사를 위한 두 가지 도구를 제공합니다.
 * **[Validate](functions/function-validate.md)** 함수는 이 동일한 정보를 사용하여 단일 열 또는 전체 레코드의 값을 확인합니다.
 
 ### <a name="error-handling"></a>오류 처리
-아주 멋지게 레코드에 대한 유효성을 검사했군요.  이제는 **[Patch](functions/function-patch.md)**를 사용하여 해당 레코드를 업데이트할 시간입니다!
+아주 멋지게 레코드에 대한 유효성을 검사했군요.  이제는 **[Patch](functions/function-patch.md)** 를 사용하여 해당 레코드를 업데이트할 시간입니다!
 
 그러나 슬프게도 아직 문제가 있을 수 있습니다.  네트워크가 중단되었거나, 서비스에서 유효성 검사가 실패했거나, 사용자에게 앱에 발생할 수 있는 몇 가지 오류의 이름을 지정하는 데 있어 적절한 권한이 없습니다.  오류 상황에 적절하게 대응하여 사용자에게 피드백을 제공하고 올바르게 만들 수 있는 수단을 제공해야 합니다.  
 
 데이터 원본에 오류가 발생하면 앱에서 자동으로 오류 정보를 기록하고 **[Errors](functions/function-errors.md)** 함수를 통해 이 오류 정보를 사용할 수 있도록 합니다.  오류는 문제가 있는 레코드와 관련이 있습니다.  사용자가 해결할 수 있는 문제(예: 유효성 검사 문제)이면 레코드를 다시 제출할 수 있으며 오류가 지워집니다.
 
-**[Patch](functions/function-patch.md)** 또는 **[Collect](functions/function-clear-collect-clearcollect.md)**를 사용하여 레코드를 만들 때 오류가 발생하면 오류와 관련된 레코드가 없습니다.  이 경우 *공백*이 **[Patch](functions/function-patch.md)**에서 반환되고 **[Errors](functions/function-errors.md)**에 대한 레코드 인수로 사용될 수 있습니다.  만들기 오류는 다음 작업을 수행하면 지워집니다.
+**[Patch](functions/function-patch.md)** 또는 **[Collect](functions/function-clear-collect-clearcollect.md)** 를 사용하여 레코드를 만들 때 오류가 발생하면 오류와 관련된 레코드가 없습니다.  이 경우 *공백*이 **[Patch](functions/function-patch.md)** 에서 반환되고 **[Errors](functions/function-errors.md)** 에 대한 레코드 인수로 사용될 수 있습니다.  만들기 오류는 다음 작업을 수행하면 지워집니다.
 
 **[Errors](functions/function-errors.md)** 함수는 오류 정보 테이블을 반환합니다.  특정 열로 인해 오류가 발생하면 이 정보에 열 정보가 포함될 수 있습니다.  편집 화면에서 열이 있는 위치에 가까운 레이블 컨트롤에서 열 수준 오류 메시지를 사용합니다.  오류 테이블의 **열**이 *공백*이고 전체 레코드에 대한 **저장** 단추에 가까운 위치에서 레코드 수준 오류 메시지를 사용합니다.  
 
@@ -128,7 +125,7 @@ PowerApps는 유효성 검사를 위한 두 가지 도구를 제공합니다.
 
 * 컬렉션은 **[Collect](functions/function-clear-collect-clearcollect.md)** 함수를 사용하여 동적으로 만들 수 있습니다.  연결 기반 데이터 원본에서 수행하는 것처럼 미리 설정할 필요가 없습니다.
 * 컬렉션의 열은 **[Collect](functions/function-clear-collect-clearcollect.md)** 함수를 사용하여 언제든지 수정할 수 있습니다.
-* 컬렉션에서는 중복 레코드가 허용됩니다.  컬렉션에 동일한 레코드의 복사본이 둘 이상 있을 수 있습니다.  **[Remove](functions/function-remove-removeif.md)**와 같은 함수는 **All** 인수가 제공되지 않으면 찾은 첫 번째 일치 항목에서 작동합니다.
+* 컬렉션에서는 중복 레코드가 허용됩니다.  컬렉션에 동일한 레코드의 복사본이 둘 이상 있을 수 있습니다.  **[Remove](functions/function-remove-removeif.md)** 와 같은 함수는 **All** 인수가 제공되지 않으면 찾은 첫 번째 일치 항목에서 작동합니다.
 * **[SaveData](functions/function-savedata-loaddata.md)** 및 **[LoadData](functions/function-savedata-loaddata.md)** 함수를 사용하여 컬렉션의 복사본을 저장하고 다시 로드할 수 있습니다.  정보는 다른 사용자, 앱 또는 장치에서 액세스할 수 없는 개인 위치에 저장됩니다.
 * **[내보내기](controls/control-export-import.md)** 및 **[가져오기](controls/control-export-import.md)** 컨트롤을 사용하여 컬렉션의 복사본을 사용자가 상호 작용할 수 있는 파일로 저장하고 다시 로드할 수 있습니다.  
 

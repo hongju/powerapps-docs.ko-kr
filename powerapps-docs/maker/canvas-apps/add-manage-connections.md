@@ -1,25 +1,22 @@
 ---
 title: 클라우드 서비스의 데이터 원본에 대한 연결 추가 및 관리 | Microsoft Docs
 description: SharePoint, SQL Server, 비즈니스용 OneDrive, Salesforce 및 Office 365와 같은 데이터 원본으로의 연결 추가, 삭제 및 업데이트
-services: ''
-suite: powerapps
 documentationcenter: na
-author: archnair
-manager: anneta
+author: lancedMicrosoft
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 03/09/2017
-ms.author: archanan
-ms.openlocfilehash: 890bf55524189abb7b4d5c9c62a8318ae1637546
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.author: lanced
+ms.openlocfilehash: 63db86984ef68571329aa953cb6bbaac505d834e
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="manage-your-connections-in-powerapps"></a>PowerApps에서 연결 관리
 [powerapps.com](https://web.powerapps.com)에서 PowerApps에서 하나 이상의 데이터 원본으로의 연결을 만들거나, 연결을 삭제하거나, 해당 자격 증명을 업데이트합니다.

@@ -1,28 +1,25 @@
 ---
 title: 변수 이해 | Microsoft Docs
 description: 상태, 컨텍스트 변수 및 컬렉션 작업에 대한 참조 정보입니다.
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 07/06/2017
 ms.author: gregli
-ms.openlocfilehash: 1372e8e92e0263d82b3b25c77f063c6fc1bb2ac4
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 74ab73d78e87c25adf0cd300bb8a6321a578d749
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="understand-variables-in-powerapps"></a>PowerApps 변수에 대한 이해
-Visual Basic 또는 JavaScript와 같은 다른 프로그래밍 도구를 사용한 경우 **변수가 어디에 있나요?**라고 물어볼 수 있습니다. PowerApps는 약간 다르며 다른 접근 방식이 필요합니다. 변수에 도달하는 대신 자신에게 **Excel에서 무엇을 할 수 있나요?**라고 물어보세요.
+Visual Basic 또는 JavaScript와 같은 다른 프로그래밍 도구를 사용한 경우 **변수가 어디에 있나요?** 라고 물어볼 수 있습니다. PowerApps는 약간 다르며 다른 접근 방식이 필요합니다. 변수에 도달하는 대신 자신에게 **Excel에서 무엇을 할 수 있나요?** 라고 물어보세요.
 
 다른 도구에서는 명시적으로 계산을 수행하여 결과를 변수에 저장했습니다. 그러나 PowerApps와 Excel에서는 모두 입력 데이터가 변경될 때 수식을 자동으로 다시 계산하므로 일반적으로 변수를 만들고 업데이트할 필요가 없습니다. 가능한 경우 언제든지 이 방법을 사용하면 앱을 더 쉽게 만들고, 이해하고, 유지 관리할 수 있습니다.
 
@@ -93,7 +90,7 @@ PowerApps에서 수식을 사용하여 컨트롤의 기본값뿐만 아니라 �
 
 전역 변수의 작동 방식은 다음과 같습니다.
 
-* **[Set](functions/function-set.md)** 함수를 사용하여 전역 변수의 값을 설정합니다.  **Set( MyVar, 1 )**은 **MyVar** 전역 변수를 **1**의 값으로 설정합니다.
+* **[Set](functions/function-set.md)** 함수를 사용하여 전역 변수의 값을 설정합니다.  **Set( MyVar, 1 )** 은 **MyVar** 전역 변수를 **1**의 값으로 설정합니다.
 * **Set** 함수와 함께 사용할 이름을 참조하여 전역 변수를 사용합니다.  이 경우 **MyVar**는 **1**을 반환합니다.
 * 전역 변수에는 문자열, 숫자, 레코드 및 [테이블](working-with-tables.md)을 포함한 모든 값이 포함될 수 있습니다.
 
@@ -101,13 +98,13 @@ PowerApps에서 수식을 사용하여 컨트롤의 기본값뿐만 아니라 �
 
 1. **TextInput1**이라는 텍스트 입력 컨트롤과 **Button1** 및  **Button2**라는 두 개의 단추를 추가합니다.
 
-2. **Button1**의 **[Text](controls/properties-core.md)** 속성을 **"추가"**로 설정하고, **Button2**의 **Text** 속성을**"지우기"**로 설정합니다.
+2. **Button1**의 **[Text](controls/properties-core.md)** 속성을 **"추가"** 로 설정하고, **Button2**의 **Text** 속성을 **"지우기"** 로 설정합니다.
 
 3. 사용자가 **추가** 단추를 선택할 때마다 누계를 업데이트하려면 **[OnSelect](controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.
    
     **Set( RunningTotal, RunningTotal + Text1 )**
    
-    사용자가 처음으로 **추가** 단추를 선택하고 **[Set](functions/function-set.md)**이 호출되면 **RunningTotal**이 기본값인 '공백'으로 만들어집니다.  또한 이는 0으로 처리됩니다.
+    사용자가 처음으로 **추가** 단추를 선택하고 **[Set](functions/function-set.md)** 이 호출되면 **RunningTotal**이 기본값인 '공백'으로 만들어집니다.  또한 이는 0으로 처리됩니다.
    
     ![](media/working-with-variables/global-variable-1.png)
 4. 사용자가 **지우기** 단추를 선택할 때마다 누계를 **0**으로 설정하려면 **[OnSelect](controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.
@@ -143,7 +140,7 @@ PowerApps에는 다음과 같은 세 가지 유형의 변수가 있습니다.
 
 모든 변수는 앱이 실행되는 동안 메모리에서 유지됩니다.  앱을 닫으면 변수에 보유된 값이 손실됩니다.  **Patch** 또는 **Collect** 함수를 사용하여 데이터 원본에 변수의 내용을 저장하거나, 컬렉션의 경우 **SaveData** 함수를 사용하여 로컬 장치에 저장할 수 있습니다.  앱을 처음 로드하는 경우 모든 변수에 '공백' 값이 있습니다.
 
-변수 이름을 사용하여 해당 값을 읽습니다.  예를 들어 **Set( MyColor, Red )**로 정의된 경우 색상 값을 사용할 수 있는 곳이면 어디서든 **MyVar**를 간단히 사용할 수 있으며 **Red**로 바뀝니다.  컨텍스트 변수와 이름이 같은 전역 변수 또는 컬렉션을 사용할 수 있습니다.  이 경우 컨텍스트 변수가 우선 적용됩니다.  **@[MyColor]** [명확성 연산자](functions/operators.md#disambiguation-operator)를 사용하여 전역 변수 또는 컬렉션을 계속 참조할 수 있습니다.
+변수 이름을 사용하여 해당 값을 읽습니다.  예를 들어 **Set( MyColor, Red )** 로 정의된 경우 색상 값을 사용할 수 있는 곳이면 어디서든 **MyVar**를 간단히 사용할 수 있으며 **Red**로 바뀝니다.  컨텍스트 변수와 이름이 같은 전역 변수 또는 컬렉션을 사용할 수 있습니다.  이 경우 컨텍스트 변수가 우선 적용됩니다.  **@[MyColor]** [명확성 연산자](functions/operators.md#disambiguation-operator)를 사용하여 전역 변수 또는 컬렉션을 계속 참조할 수 있습니다.
 
 ## <a name="create-a-context-variable"></a>컨텍스트 변수 만들기
 전역 변수 대신 컨텍스트 변수를 사용하여 계산기를 만드는 방법을 살펴보겠습니다.    
@@ -151,29 +148,29 @@ PowerApps에는 다음과 같은 세 가지 유형의 변수가 있습니다.
 컨텍스트 변수의 작동 방식은 다음과 같습니다.
 
 * **[UpdateContext](functions/function-updatecontext.md)** 함수를 사용하여 컨텍스트 변수를 만들고 설정합니다.  컨텍스트 변수가 처음 업데이트될 때 아직 존재하지 않으면 기본값인 '공백'으로 만들어집니다.
-* 컨텍스트 변수를 만들고 레코드로 업데이트합니다. 다른 프로그래밍 도구에서는 일반적으로 "x = 1"에서와 같이 할당에 "="를 사용합니다.  컨텍스트 변수의 경우 **{ x: 1 }**을 대신 사용합니다. 컨텍스트 변수를 사용하는 경우 해당 이름을 직접 사용합니다.  
+* 컨텍스트 변수를 만들고 레코드로 업데이트합니다. 다른 프로그래밍 도구에서는 일반적으로 "x = 1"에서와 같이 할당에 "="를 사용합니다.  컨텍스트 변수의 경우 **{ x: 1 }** 을 대신 사용합니다. 컨텍스트 변수를 사용하는 경우 해당 이름을 직접 사용합니다.  
 * **[Navigate](functions/function-navigate.md)** 함수를 사용하여 화면이 표시될 때 컨텍스트 변수를 설정할 수도 있습니다. 화면이 일종의 프로시저 또는 서브루틴으로 간주되면 다른 프로그래밍 도구에서 전달하는 매개 변수와 비슷합니다.
-* **[Navigate](functions/function-navigate.md)**를 제외하고 컨텍스트 변수는 단일 화면의 컨텍스트로 제한되며, 여기에서 컨텍스트 변수의 이름을 얻습니다.  이 컨텍스트 외부에서는 사용하거나 설정할 수 없습니다.
+* **[Navigate](functions/function-navigate.md)** 를 제외하고 컨텍스트 변수는 단일 화면의 컨텍스트로 제한되며, 여기에서 컨텍스트 변수의 이름을 얻습니다.  이 컨텍스트 외부에서는 사용하거나 설정할 수 없습니다.
 * 컨텍스트 변수에는 문자열, 숫자, 레코드 및 [테이블](working-with-tables.md)을 포함한 모든 값이 포함될 수 있습니다.
 
 컨텍스트 변수를 사용하여 계산기를 다시 빌드해 보겠습니다.
 
 1. **TextInput1**이라는 텍스트 입력 컨트롤과 **Button1** 및  **Button2**라는 두 개의 단추를 추가합니다.
 
-2. **Button1**의 **[Text](controls/properties-core.md)** 속성을 **"추가"**로 설정하고, **Button2**의 **Text** 속성을**"지우기"**로 설정합니다.
+2. **Button1**의 **[Text](controls/properties-core.md)** 속성을 **"추가"** 로 설정하고, **Button2**의 **Text** 속성을 **"지우기"** 로 설정합니다.
 
 3. 사용자가 **추가** 단추를 선택할 때마다 누계를 업데이트하려면 **[OnSelect](controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.
    
     **UpdateContext( { RunningTotal: RunningTotal + Text1 } )**
    
-    사용자가 처음으로 **추가** 단추를 선택하고 **[UpdateContext](functions/function-updatecontext.md)**가 호출되면 **RunningTotal**이 기본값인 '공백'으로 만들어집니다 .  또한 이는 0으로 처리됩니다.
+    사용자가 처음으로 **추가** 단추를 선택하고 **[UpdateContext](functions/function-updatecontext.md)** 가 호출되면 **RunningTotal**이 기본값인 '공백'으로 만들어집니다 .  또한 이는 0으로 처리됩니다.
    
     ![](media/working-with-variables/context-variable-1.png)
 4. 사용자가 **지우기** 단추를 선택할 때마다 누계를 **0**으로 설정하려면 **[OnSelect](controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.
    
     **UpdateContext( { RunningTotal: 0 } )**
    
-    다시 말하지만 **[UpdateContext](functions/function-updatecontext.md)**는 **UpdateContext( { RunningTotal: 0 } )** 수식과 함께 사용됩니다.
+    다시 말하지만 **[UpdateContext](functions/function-updatecontext.md)** 는 **UpdateContext( { RunningTotal: 0 } )** 수식과 함께 사용됩니다.
    
     ![](media/working-with-variables/context-variable-2.png)
 5. **[레이블](controls/control-text-box.md)** 컨트롤을 추가하고 **[Text](controls/properties-core.md)** 속성을 **RunningTotal**로 설정합니다.
@@ -206,13 +203,13 @@ PowerApps에는 다음과 같은 세 가지 유형의 변수가 있습니다.
 컬렉션의 작동 방식은 다음과 같습니다.
 
 * **[ClearCollect](functions/function-clear-collect-clearcollect.md)** 함수를 사용하여 컬렉션을 만들고 설정합니다.  **[Collect](functions/function-clear-collect-clearcollect.md)** 함수를 대신 사용할 수 있지만, 실질적으로 이전 변수를 바꾸는 대신 다른 변수가 필요합니다.  
-* 컬렉션은 일종의 데이터 원본이며, 따라서 테이블입니다. 컬렉션의 단일 값에 액세스하려면 **[First](functions/function-first-last.md)** 함수를 사용하고 결과 레코드에서 하나의 필드를 추출합니다. **[ClearCollect](functions/function-clear-collect-clearcollect.md)**에서 단일 값을 사용한 경우 이 예제와 같이 **Value** 필드가 됩니다.<br>**First(** *VariableName* **).Value**
+* 컬렉션은 일종의 데이터 원본이며, 따라서 테이블입니다. 컬렉션의 단일 값에 액세스하려면 **[First](functions/function-first-last.md)** 함수를 사용하고 결과 레코드에서 하나의 필드를 추출합니다. **[ClearCollect](functions/function-clear-collect-clearcollect.md)** 에서 단일 값을 사용한 경우 이 예제와 같이 **Value** 필드가 됩니다.<br>**First(** *VariableName* **).Value**
 
 컬렉션을 사용하여 계산기를 다시 만들어 보겠습니다.
 
 1. **TextInput1**이라는 **[텍스트 입력](controls/control-text-input.md)** 컨트롤과 **Button1** 및 **Button2**라는 두 개의 단추를 추가합니다.
 
-2. **Button1**의 **[Text](controls/properties-core.md)** 속성을 **"추가"**로 설정하고 **Button2**의 **Text** 속성을 **"지우기"**로 설정합니다.
+2. **Button1**의 **[Text](controls/properties-core.md)** 속성을 **"추가"** 로 설정하고 **Button2**의 **Text** 속성을 **"지우기"** 로 설정합니다.
 
 3. 사용자가 **추가** 단추를 선택할 때마다 누계를 업데이트하려면 **[OnSelect](controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.
    

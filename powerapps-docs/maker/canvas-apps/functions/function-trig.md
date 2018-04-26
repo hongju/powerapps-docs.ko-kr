@@ -1,25 +1,22 @@
 ---
 title: Acos, Acot, Asin, Atan, Atan2, Cos, Cot, Degrees, Pi, Radians, Sin 및 Tan 함수 | Microsoft Docs
 description: PowerApps에서 Abs 및 Sqrt 함수에 대한 구문과 예제를 포함한 참조 정보
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 09/13/2016
 ms.author: gregli
-ms.openlocfilehash: 245c2a41254c244daa79a082d041231340c40872
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 4d255ec8015caaec1ce066e646c6506c182dc722
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="acos-acot-asin-atan-atan2-cos-cot-degrees-pi-radians-sin-and-tan-functions-in-powerapps"></a>PowerApps에서 Acos, Acot, Asin, Atan, Atan2, Cos, Cot, Degrees, Pi, Radians, Sin 및 Tan 함수
 삼각 값을 계산합니다.
@@ -43,7 +40,7 @@ ms.lasthandoff: 03/22/2018
 
 **Atan** 함수는 인수의 아크탄젠트 또는 역탄젠트를 반환합니다. 아크탄젠트는 탄젠트가 인수인 각도입니다. 반환된 각도는 -&pi;/2~&pi;/2 범위의 라디안 단위로 지정됩니다.
 
-**Atan2** 함수는 인수로 지정된 *x* 및 *y* 좌표의 아크탄젠트 또는 역탄젠트를 반환합니다. 아크탄젠트는 *x*축부터 원점(0, 0)과 좌표(*x*, *y*)가 있는 점을 지나는 선까지의 각도입니다. 각도는 -&pi; 및 &pi; 사이의 라디안으로 지정되며 -&pi;는 제외합니다.  양수 결과는 *x*축에서 시계 반대 방향 각도를 나타내며 음수 결과는 시계 방향의 각도를 나타냅니다.  **Atan2(&nbsp;*a*,&nbsp;*b*&nbsp;)**는 **Atan(&nbsp;*b*/*a*&nbsp;)**와 같으며 단, ***a***는 **Atan2** 함수의 0(영)과 같을 수 있습니다.
+**Atan2** 함수는 인수로 지정된 *x* 및 *y* 좌표의 아크탄젠트 또는 역탄젠트를 반환합니다. 아크탄젠트는 *x*축부터 원점(0, 0)과 좌표(*x*, *y*)가 있는 점을 지나는 선까지의 각도입니다. 각도는 -&pi; 및 &pi; 사이의 라디안으로 지정되며 -&pi;는 제외합니다.  양수 결과는 *x*축에서 시계 반대 방향 각도를 나타내며 음수 결과는 시계 방향의 각도를 나타냅니다.  **Atan2(&nbsp;*a*,&nbsp;*b*&nbsp;)** 는 **Atan(&nbsp;*b*/*a*&nbsp;)** 와 같으며 단, ***a***는 **Atan2** 함수의 0(영)과 같을 수 있습니다.
 
 ### <a name="helper-functions"></a>도우미 함수
 **Degrees** 함수는 라디안을 각도로 변환합니다.  &pi; 라디안은 180도입니다.

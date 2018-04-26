@@ -1,25 +1,22 @@
 ---
 title: Language 함수 | Microsoft Docs
 description: PowerApps에서 Language 함수에 대한 구문과 예제를 포함한 참조 정보
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/16/2016
 ms.author: gregli
-ms.openlocfilehash: 35f6b462a57a29e6989d6a635425c981b705eaaf
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: ec12bef225c59474fbc15a3ab0556694d206edd3
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="language-function-in-powerapps"></a>PowerApps의 Language 함수
 현재 사용자의 언어 태그를 반환합니다.
@@ -77,7 +74,7 @@ PowerApps는 [IETF BCP-47 언어 태그](https://tools.ietf.org/html/bcp47) 형�
 5. **앱에 정적 데이터 추가**를 클릭하거나 탭하고, 저장한 Excel 파일을 클릭하거나 탭한 다음 **열기**를 클릭하거나 탭합니다.
 6. 생성한 테이블을 선택한 후 **연결**을 클릭하거나 탭합니다.
 
-앱에서 텍스트 **"Hello"**를 사용했던 위치마다 대신 다음 수식을 사용합니다.
+앱에서 텍스트 **"Hello"** 를 사용했던 위치마다 대신 다음 수식을 사용합니다.
 
 * **LookUp( Table1, TextID = "Hello" && (LanguageTag = Left( Language(), 2 ) || IsBlank( LanguageTag ))).LocalizedText**  
 
@@ -91,7 +88,7 @@ Microsoft Translator 서비스와 같은 번역 서비스를 사용하여 필요
 1. 오른쪽 창의 PowerApps에서, **데이터 원본** 탭을 클릭하거나 탭한 후 **데이터 원본 추가**를 클릭하거나 탭합니다.
 2. **Microsoft Translator**를 클릭하거나 탭합니다.
 
-앱에서 텍스트 **"Hello"**를 사용했던 위치마다 대신 다음 수식을 사용합니다.
+앱에서 텍스트 **"Hello"** 를 사용했던 위치마다 대신 다음 수식을 사용합니다.
 
 * **MicrosoftTranslator.Translate( "Hello", Language() )**
 

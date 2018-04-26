@@ -1,8 +1,6 @@
 ---
 title: 앱 공유 | Microsoft Docs
 description: 다른 사용자에게 앱 실행 또는 수정 권한을 부여하여 앱 공유
-services: ''
-suite: powerapps
 documentationcenter: na
 author: AFTOwen
 manager: kfile
@@ -10,16 +8,15 @@ editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 03/18/2018
 ms.author: anneta
-ms.openlocfilehash: 22950d866ed8e61dd0824701ef8af86f5bed2dc6
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 5a469c875d82670e30d0be8bef86cc476ca5ea19
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="share-an-app-in-powerapps"></a>PowerApps에서 앱 공유
 자신의 비즈니스 요구 사항을 해결하는 앱을 빌드하는 것이 좋지만 PowerApps의 진정한 마법은 해당 앱을 다른 사람들과 공유하는 데 있습니다. 이 토픽에서는 특정 사용자 또는 보안 그룹과 앱을 공유하는 방법을 알아보거나 전체 조직과 공유할 수 있습니다.

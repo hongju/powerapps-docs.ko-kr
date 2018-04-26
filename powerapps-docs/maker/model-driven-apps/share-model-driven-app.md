@@ -1,25 +1,22 @@
 ---
 title: PowerApps와 모델 기반 앱 공유를 위한 자습서 | Microsoft Docs
 description: 이 자습서에서는 모델 기반 앱을 공유하는 방법을 알아봅니다.
-services: ''
-suite: powerapps
 documentationcenter: ''
 author: Mattp123
-manager: brycho
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
-ms.workload: na
-ms.tgt_pltfrm: na
 ms.devlang: na
-ms.topic: article
+ms.topic: conceptual
+ms.component: model
 ms.date: 03/21/2018
 ms.author: matp
-ms.openlocfilehash: 4f971668b506776cfd1a9cce2f61d591a4a0db5e
-ms.sourcegitcommit: d7ed5144f96d1ecc17084c30ed0e2ba3c6b03c26
+ms.openlocfilehash: 43a31d0fe4f77b47425d2df4f98caf611625f696
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/19/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="tutorial-share-a-model-driven-app-with-powerapps"></a>자습서: PowerApps와 모델 기반 앱 공유
 
@@ -93,7 +90,7 @@ ms.lasthandoff: 04/19/2018
 ## <a name="add-security-roles-to-the-app"></a>앱에 보안 역할 추가
 그런 다음, 하나 이상의 보안 역할을 앱에 할당해야 합니다. 사용자는 할당된 보안 역할을 기반으로 앱에 액세스할 수 있습니다.
 1. **이 앱 공유** 대화 상자의 **앱에 보안 역할 추가** 아래에서 **내 앱**을 선택합니다.
-2. Contoso 애완 동물 미용 앱의 앱 타일 오른쪽 아래에서 **더 많은 옵션(...)**을 선택한 다음, **역할 관리**를 선택합니다.
+2. Contoso 애완 동물 미용 앱의 앱 타일 오른쪽 아래에서 **더 많은 옵션(...)** 을 선택한 다음, **역할 관리**를 선택합니다.
 
     ![앱의 역할 관리](media/share-model-driven-app/manage-roles.png)
 

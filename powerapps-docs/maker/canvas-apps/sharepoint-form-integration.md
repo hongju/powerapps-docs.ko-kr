@@ -1,25 +1,22 @@
 ---
 title: SharePoint 양식 통합 이해 | Microsoft Docs
 description: SharePoint와 사용자 지정 양식의 작업 방식 이해
-services: ''
-suite: powerapps
 documentationcenter: na
 author: sarafankit
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 11/11/2017
 ms.author: ankitsar
-ms.openlocfilehash: 75d8f98644d45fb713c0bc7df46439351577a6a2
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 8ae6bd0e576abd3a4115e452b286607b5c695acb
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="understand-sharepoint-forms-integration"></a>SharePoint 양식 통합 이해
 PowerApps에서 [SharePoint 목록 양식을 쉽게 사용자 지정](customize-list-form.md)할 수 있습니다. 이 문서에서는 이러한 양식의 작업 방식과 사용자 지정하는 방법을 자세히 설명합니다.
@@ -108,6 +105,6 @@ SharePoint 목록의 양식을 사용자 지정한 경험이 있다면 기본 �
     >[!TIP]
      **OnNew**, **OnView** 및 **OnEdit** 수식의 변수에 다른 값을 설정합니다. **OnSave** 수식에 이 변수를 사용하면 어떤 양식을 사용 중인지 확인할 수 있습니다.
 
-* 모든 양식의 **OnSuccess** 수식에 **RequestHide()**를 포함해야 합니다. 이 항목을 잊어 버리면 SharePoint에서 양식을 언제 숨길지 알 수 없게 됩니다.
+* 모든 양식의 **OnSuccess** 수식에 **RequestHide()** 를 포함해야 합니다. 이 항목을 잊어 버리면 SharePoint에서 양식을 언제 숨길지 알 수 없게 됩니다.
 
 * 사용자가 SharePoint에서 **취소**를 클릭하거나 탭할 때 양식 숨기기를 제어할 수 없으므로, **SharePointIntegration** 컨트롤의 **OnCancel** 수식에서 양식을 다시 설정해야 합니다.

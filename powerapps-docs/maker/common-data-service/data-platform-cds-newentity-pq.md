@@ -1,8 +1,6 @@
 ---
 title: 파워 쿼리를 사용하여 Common Data Service의 엔터티에 데이터를 추가하기 위한 빠른 시작 | Microsoft Docs
 description: 파워 쿼리를 사용하여 다른 데이터 원본에서 앱용 Common Data Service의 새로운 엔터티 또는 기존 엔터티에 데이터를 추가하는 것에 대한 단계별 지침이 포함된 빠른 시작입니다.
-services: ''
-suite: powerapps
 documentationcenter: na
 author: AFTOwen
 manager: kfile
@@ -10,16 +8,15 @@ editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: cds
 ms.date: 03/21/2018
 ms.author: anneta
-ms.openlocfilehash: 77906602fad6708857a6c34f44d1bc3c7c258f6c
-ms.sourcegitcommit: aa2d0166dccb38100183c093f293233b46f3669d
+ms.openlocfilehash: e54553467714bad1f4bc17963f1011c0decc1963
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="quickstart-add-data-to-an-entity-in-the-common-data-service-by-using-power-query"></a>빠른 시작: 파워 쿼리를 사용하여 Common Data Service의 엔터티에 데이터 추가
 이 절차에서는 [앱용 Common Data Service](data-platform-intro.md)에서 엔터티를 만들고 파워 쿼리를 사용하여 OData 피드에서 해당 엔터티를 데이터로 채웁니다. 일부 기술을 사용하여 이러한 온라인 및 온-프레미스 원본의 데이터를 다음 항목 간에 통합할 수 있습니다.

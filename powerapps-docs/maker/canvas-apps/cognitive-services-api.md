@@ -1,25 +1,22 @@
 ---
 title: PowerApps에서 Cognitive Services 사용 | Microsoft Docs
 description: Microsoft Cognitive Services Text Analytics API를 사용하여 텍스트를 분석하는 기본 앱을 빌드합니다.
-services: ''
-suite: powerapps
 documentationcenter: na
 author: mgblythe
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 12/08/2017
 ms.author: mblythe
-ms.openlocfilehash: 2e82feb9df4121b24ffd1f5cad7669c6aa58c8e8
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 375738cd5481430f06307b4c98b342c377d9bc4c
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="use-cognitive-services-in-powerapps"></a>PowerApps에서 Cognitive Services 사용
 이 문서는 [Microsoft Cognitive Services Text Analytics API](https://docs.microsoft.com/azure/cognitive-services/text-analytics/overview)를 사용하여 텍스트를 분석하는 기본 앱 빌드 방법을 보여줍니다. Text Analytics API를 설정하고 [Text Analytics 커넥터](https://docs.microsoft.com/connectors/cognitiveservicestextanalytics/)와 연결하는 방식을 보여주고, 그런 다음 API를 호출하는 앱을 빌드하는 방법을 보여주려고 합니다.
@@ -97,7 +94,7 @@ API는 무료 미리 보기로 사용 가능하며 Azure 구독과 연결되어 
 
 1. **홈** 탭에서 **새 화면**, **스크롤 가능 화면**을 차례로 클릭하거나 탭합니다. 
 
-2. **Screen2**에서 **[Title]**을 선택하고 **텍스트 분석**으로 변경합니다.
+2. **Screen2**에서 **[Title]** 을 선택하고 **텍스트 분석**으로 변경합니다.
 
 3. 소개 텍스트에 대한 **레이블** 컨트롤을 추가합니다.
 
@@ -160,9 +157,9 @@ If(chkSentiment.Value=true,
 
   * 세 개의 호출 모두에서 **tiTextToAnalyze.Text**를 입력 텍스트로 지정합니다.
 
-  * **DetectLanguage()**에서 **numberOfLanguagesToDetect**는 1로 하드 코딩되지만, 앱의 일부 논리에 따라 이 매개 변수를 전달할 수 있습니다.
+  * **DetectLanguage()** 에서 **numberOfLanguagesToDetect**는 1로 하드 코딩되지만, 앱의 일부 논리에 따라 이 매개 변수를 전달할 수 있습니다.
 
-  * **KeyPhrases()** 및 **DetectSentiment()**에서 **언어**는 "en"으로 하드 코딩되지만, 앱의 일부 논리를 기반으로 이 매개 변수를 전달할 수 있습니다. 예를 들어 언어를 먼저 감지한 다음, **DetectLanguage()**에서 반환하는 내용에 따라 이 매개 변수를 설정할 수 있습니다.
+  * **KeyPhrases()** 및 **DetectSentiment()** 에서 **언어**는 "en"으로 하드 코딩되지만, 앱의 일부 논리를 기반으로 이 매개 변수를 전달할 수 있습니다. 예를 들어 언어를 먼저 감지한 다음, **DetectLanguage()** 에서 반환하는 내용에 따라 이 매개 변수를 설정할 수 있습니다.
 
 * 각 호출에 대해 결과를 적합한 컬렉션에 추가합니다.
 
