@@ -38,17 +38,19 @@
       href: admin-manage-apps.md
     - name: 테넌트 또는 환경 간에 앱 이동
       href: environment-and-tenant-migration.md
-    - name: 시스템 생성 로그에 대한 DSR 요청에 응답
-      href: powerapps-gdpr-dsr-guide-systemlogs.md
-    - name: PowerApps 고객 데이터에 대한 DSR 요청에 응답
-      href: powerapps-gdpr-dsr-guide.md
+    - name: DSR 요청에 응답
       items:
-        - name: DSR 내보내기 요청에 응답
-          href: powerapps-gdpr-export-dsr.md
-        - name: DSR 삭제 요청에 응답
-          href: powerapps-gdpr-delete-dsr.md
-    - name: 앱용 CDS 고객 데이터에 대한 DSR 요청에 응답
-      href: common-data-service-gdpr-dsr-guide.md
+        - name: 시스템 생성 로그
+          href: powerapps-gdpr-dsr-guide-systemlogs.md
+        - name: PowerApps 고객 데이터
+          href: powerapps-gdpr-dsr-guide.md
+          items:
+            - name: 데이터 내보내기
+              href: powerapps-gdpr-export-dsr.md
+            - name: 데이터 삭제
+              href: powerapps-gdpr-delete-dsr.md
+        - name: 앱용 CDS 고객 데이터
+          href: common-data-service-gdpr-dsr-guide.md
 - name: 참조
   items:
     - name: PowerApps(미리 보기)에 대한 PowerShell 지원

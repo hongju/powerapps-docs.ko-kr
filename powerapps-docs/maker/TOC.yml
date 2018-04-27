@@ -35,14 +35,18 @@
       items:
         - name: 생성된 앱 사용자 지정
           items:
-            - name: 찾아보기 화면 사용자 지정
+            - name: 1 - 갤러리
               href: ./canvas-apps/customize-layout-sharepoint.md
-            - name: 양식 사용자 지정
+            - name: 2 - 양식
               href: ./canvas-apps/customize-forms-sharepoint.md
-            - name: 카드 사용자 지정
+            - name: 3 - 카드
               href: ./canvas-apps/customize-card.md
         - name: 앱을 처음부터 만들기
-          href: ./canvas-apps/data-platform-create-app-scratch.md
+          items:
+            - name: 앱용 Common Data Service
+              href: ./canvas-apps/data-platform-create-app-scratch.md
+            - name: Excel
+              href: ./canvas-apps/get-started-create-from-blank.md
         - name: 앱 공유
           href: ./canvas-apps/share-app.md
         - name: Power BI에 앱 포함
@@ -95,8 +99,6 @@
       items:
         - name: SharePoint 목록 양식 사용자 지정
           href: ./canvas-apps/customize-list-form.md
-        - name: Excel 앱 새로 빌드
-          href: ./canvas-apps/get-started-create-from-blank.md
         - name: 앱을 사용자 지정하기
           items:
             - name: 컨트롤 추가 및 구성
@@ -131,6 +133,9 @@
               href: ./canvas-apps/global-apps.md
             - name: 액세스 가능한 앱 만들기
               href: ./canvas-apps/accessible-apps.md
+              items:
+                - name: 컬러
+                  href: ./canvas-apps/accessible-apps-color.md
         - name: 앱 관리
           items:
             - name: powerapps.com 소개
