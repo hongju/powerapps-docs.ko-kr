@@ -1,25 +1,22 @@
 ---
 title: '슬라이더 컨트롤: 참조 | Microsoft Docs'
 description: 속성 및 예제를 비롯한 슬라이더 컨트롤에 관한 정보
-services: ''
-suite: powerapps
 documentationcenter: na
 author: fikaradz
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 81465979cce5adf0596cf8c95f8887e0170007a9
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.openlocfilehash: 672a3d9a96545bf695128fcc823ec1d3437ae4a4
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="slider-control-in-powerapps"></a>PowerApps의 슬라이더 컨트롤
 사용자가 핸들을 끌어 값을 지정할 수 있는 컨트롤입니다.
@@ -109,7 +106,7 @@ ms.lasthandoff: 04/16/2018
     [컨트롤을 추가, 이름을 지정하고, 구성](../add-configure-controls.md)하는 방법을 모르시나요?
    
     **[ClearCollect](../functions/function-clear-collect-clearcollect.md)** 함수 또는 [다른 함수](../formula-reference.md)에 대해 더 알고 싶으신가요?
-2. F5 키를 누르고 단추를 선택한 다음 Esc 키를 누릅니다.
+2. F5 키를 누르고 단추를 선택한 다음, Esc 키를 누릅니다.
 3. 슬라이더를 추가하고 단추 아래로 이동한 다음 슬라이더의 이름을 **MinPopulation**으로 지정합니다.
 4. 슬라이더의 **Max** 속성을 **5000000**, **Min** 속성을 **1000000**으로 설정합니다.
 5. 텍스트 갤러리를 세로 방향으로 추가하고 슬라이더 아래로 이동한 다음, 갤러리의 **[Items](properties-core.md)** 속성을 다음 수식으로 설정합니다.<br>

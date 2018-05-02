@@ -1,25 +1,22 @@
 ---
 title: 경비 보고서 PowerApps 샘플 설치 및 구성 | Microsoft Docs
 description: 경비 보고서 PowerApps 샘플 설치 및 구성에 대한 단계별 지침입니다.
-services: ''
-suite: powerapps
 documentationcenter: na
 author: caburk
-manager: ''
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: sample
+ms.component: canvas
 ms.date: 04/08/2018
 ms.author: caburk
-ms.openlocfilehash: a63504b0438f50584da6739b9f397300e36d4ce6
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.openlocfilehash: 1454b995b50d2bb5d990ef57f91da6fb9105e660
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="install-and-configure-the-expense-report-powerapps-sample"></a>경비 보고서 PowerApps 샘플 설치 및 구성
 

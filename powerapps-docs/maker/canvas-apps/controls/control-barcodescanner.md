@@ -1,25 +1,22 @@
 ---
 title: '바코드 스캐너 컨트롤: 참조 | Microsoft Docs'
 description: 속성 및 예제를 포함한 바코드 스캐너 컨트롤에 관한 정보
-services: ''
-suite: powerapps
 documentationcenter: na
 author: fikaradz
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 98357cb2f6d829906dfcdd4ecaa4acc3afdef26d
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.openlocfilehash: 8cd0c84f508c13e8064b0e5bc93b01024cf22120
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="barcode-scanner-control-experimental-in-powerapps"></a>PowerApps의 바코드 스캐너 컨트롤(실험)
 사용자가 장치에서 바코드 스캐너를 사용하여 사진을 촬영할 수 있는 실험적 컨트롤입니다.
@@ -92,5 +89,6 @@ ms.lasthandoff: 04/16/2018
 
 ### <a name="screen-reader-support"></a>화면 판독기 지원
 * **[AccessibleLabel](properties-accessibility.md)** 이 있어야 합니다.
-> [!NOTE]
+
+    > [!NOTE]
 > 새 바코드가 발견되면 화면 읽기 프로그램이 이를 알립니다. 값은 알리지 않습니다. 바코드가 보기에 있는 동안에는 화면 읽기 프로그램이 동일한 바코드가 아직 식별되고 있음을 5초마다 다시 알립니다.

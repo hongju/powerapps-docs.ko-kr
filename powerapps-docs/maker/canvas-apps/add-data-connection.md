@@ -1,25 +1,22 @@
 ---
 title: 앱에서 데이터 연결 추가 | Microsoft Docs
 description: 기존 앱 또는 새 앱에서 데이터 연결 추가
-services: ''
-suite: powerapps
 documentationcenter: na
-author: archnair
+author: lancedMicrosoft
 manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 04/06/2018
-ms.author: archanan
-ms.openlocfilehash: e4d2e881a058ea8f265a858f54af81674d8c1296
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.author: lanced
+ms.openlocfilehash: 44ee7b992f5817a5d6b8d791b05e1db671d3e6ba
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="add-a-data-connection-in-powerapps"></a>PowerApps에서 데이터 연결 추가
 PowerApps에서 처음부터 앱을 빌드할 때 또는 기존 앱에서 데이터 연결을 추가합니다. 앱은 SharePoint, Salesforce, OneDrive 또는 [다른 많은 데이터 원본](connections-list.md)에 연결할 수 있습니다.

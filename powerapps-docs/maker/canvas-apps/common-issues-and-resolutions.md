@@ -1,8 +1,6 @@
 ---
 title: PowerApps의 일반적인 문제 및 해결 방법 | Microsoft Docs
 description: PowerApps의 문제 및 해결 방법 읽기
-services: ''
-suite: powerapps
 documentationcenter: na
 author: skjerland
 manager: kfile
@@ -10,16 +8,15 @@ editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 04/12/2018
 ms.author: sharik
-ms.openlocfilehash: 8a241ff41abf5f3fe804330d6678b70cf0576ceb
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.openlocfilehash: 369bbc445d54152f5b6319922d79a58c9b79121c
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="common-issues-and-resolutions-for-powerapps"></a>PowerApps의 일반적인 문제 및 해결 방법
 ## <a name="recently-addedchanged"></a>최근에 추가/변경된 내용

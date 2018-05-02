@@ -1,25 +1,22 @@
 ---
 title: 'HTML 텍스트 컨트롤: 참조 | Microsoft Docs'
 description: 속성 및 예제를 포함한 HTML 텍스트 컨트롤에 관한 정보
-services: ''
-suite: powerapps
 documentationcenter: na
 author: fikaradz
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 194f00a670f3c879325603f519c1c86e9ba6cf2c
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.openlocfilehash: aacd47621148c03eef88dea31763ab4af2658bfc
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="html-text-control-in-powerapps"></a>PowerApps의 HTML 텍스트 컨트롤
 텍스트를 표시하고 HTML 태그를 서식 지정으로 변환하는 상자입니다.

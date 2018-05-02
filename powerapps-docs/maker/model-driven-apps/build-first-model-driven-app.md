@@ -1,25 +1,22 @@
 ---
 title: PowerApps를 사용하여 처음부터 첫 번째 모델 기반 앱을 빌드하기 위한 빠른 시작 | Microsoft Docs
 description: 간단한 모델 기반 앱을 빌드하는 방법 알아보기
-services: ''
-suite: powerapps
 documentationcenter: ''
 author: Mattp123
 manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
-ms.workload: na
-ms.tgt_pltfrm: na
 ms.devlang: na
-ms.topic: article
+ms.topic: conceptual
+ms.component: model
 ms.date: 04/18/2018
 ms.author: matp
-ms.openlocfilehash: 23521a1512a971e5f298c944fc8219cef5f7fadd
-ms.sourcegitcommit: d7ed5144f96d1ecc17084c30ed0e2ba3c6b03c26
+ms.openlocfilehash: ad11ce81544095c5730e326325b4b5bf6b136e93
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/19/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="quickstart-build-your-first-model-driven-app-from-scratch"></a>빠른 시작: 처음부터 첫 번째 모델 기반 앱 빌드
 모델 기반 앱 디자인은 앱 개발에 대해 구성 요소에 중점을 두는 방법입니다. 이 빠른 시작에서는 [!INCLUDE [powerapps](../../includes/powerapps.md)] 환경에서 사용할 수 있는 표준 엔터티 중 하나를 사용하여 모델 기반 앱을 만드는 방법을 간소화합니다. 

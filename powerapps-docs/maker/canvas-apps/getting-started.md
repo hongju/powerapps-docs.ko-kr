@@ -1,8 +1,6 @@
 ---
 title: 캔버스 앱이란 무엇인가요? | Microsoft Docs
 description: PowerApps의 캔버스에서 사용자 지정 기간 업무 앱을 디자인 및 빌드하는 방법
-services: ''
-suite: powerapps
 documentationcenter: na
 author: AFTOwen
 manager: kfile
@@ -10,16 +8,15 @@ editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: hero-article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 03/14/2018
 ms.author: anneta
-ms.openlocfilehash: 984c53417f8684add431dffc6d7c7d89d707eaf2
-ms.sourcegitcommit: d7ed5144f96d1ecc17084c30ed0e2ba3c6b03c26
+ms.openlocfilehash: 224f75e4254807163ffdb646e9ea109af5f50db5
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/19/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="what-are-canvas-apps-in-powerapps"></a>PowerApps의 캔버스 앱이란 무엇인가요?
 PowerApps를 시작합니다! PowerApps는 브라우저나 휴대폰 또는 태블릿에서 실행되는 비즈니스 앱을 빌드할 수 있는 서비스이며 코딩 경험이 필요하지 않습니다. PowerApps는 PowerPoint의 시각적 개체 끌어서 놓기 개념과 논리 및 데이터 작업에 대한 Excel과 같은 식을 결합합니다.
@@ -67,7 +64,7 @@ PowerApps에 대한 질문이 있는 경우 다음과 같은 방법을 통해 �
 * 왼쪽의 탐색 창에서 단계별 지침, 개념 및 참조 항목을 탐색합니다.
 * 자가 학습을 위한 [단계별 학습 과정](https://docs.microsoft.com/powerapps/guided-learning/)을 통해 학습합니다.
 * PowerApps를 사용하는 모든 이가 질문을 게시하고 답변할 수 있는 공간인 [PowerApps 커뮤니티](https://aka.ms/powerapps-community)에서 정보를 읽고 게시합니다. 질문을 게시하기 전에는 커뮤니티를 검색하여 같은 질문이 게시되어 답변한 내용이 있는지 확인하세요.
-* [예정된 웨비나](webinars-listing.md#upcoming-webinars)를 확인하세요. PowerApps의 특징과 기능을 활용하는 데 도움이 될 수 있습니다. 필요 시 [이전 웨비나](webinars-listing.md#past-webinars)에 액세스할 수도 있습니다.
+* [예정된 웨비나](webinars-listing.md#upcoming-webinars)를 확인하세요. PowerApps의 특징과 기능을 활용하는 데 도움이 될 수 있습니다. 필요 시 [이전 웹 세미나](webinars-listing.md#past-webinars)에 액세스할 수도 있습니다.
 * 기술 지원을 받으려면 [지원 티켓](https://powerapps.microsoft.com/support/pro/)을 만드세요. 조직의 PowerApps 관리자인 경우 [PowerApps 관리 센터](https://portal.office.com/Support/Support.aspx)에서 지원 티켓을 열 수도 있습니다.
 
 또한 PowerApps가 더욱 발전하려면 여러분의 도움이 필요합니다!

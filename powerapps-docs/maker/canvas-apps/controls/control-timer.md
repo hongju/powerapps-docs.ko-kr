@@ -1,25 +1,22 @@
 ---
 title: '타이머 컨트롤: 참조 | Microsoft Docs'
 description: 속성 및 예제를 비롯한 타이머 컨트롤에 관한 정보
-services: ''
-suite: powerapps
 documentationcenter: na
 author: fikaradz
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 092e6c76b581027e711dbe0a8109f507a2bba292
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.openlocfilehash: 6d4f8f0393b7cb2d6471f159193327f07e648357
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="timer-control-in-powerapps"></a>PowerApps의 타이머 컨트롤
 일정 시간이 지난 후 앱이 응답하는 방식을 결정할 수 있는 컨트롤입니다.
@@ -165,6 +162,8 @@ ms.lasthandoff: 04/16/2018
 ### <a name="screen-reader-support"></a>화면 판독기 지원
 * **[Text](properties-core.md)** 가 있어야 합니다.
 * 시간에 민감한 중요 정보에는 **[Text](properties-core.md)** 를 사용하지 마세요. 화면 읽기 프로그램 사용자는 **[Text](properties-core.md)** 변경 내용의 알림을 받지 않습니다.
-> [!NOTE]
-> * 화면 읽기 프로그램은 5초마다 경과된 시간을 알립니다. 그러나 타이머 **[Text](properties-core.md)** 는 알림에 포함되지 않습니다.
+
+    > [!NOTE]
+> 화면 읽기 프로그램은 5초마다 경과된 시간을 알립니다. 그러나 타이머 **[Text](properties-core.md)** 는 알림에 포함되지 않습니다.
+
 * 경과된 시간을 표시하는 **[레이블](control-text-box.md)** 을 추가하는 것이 좋습니다. 타이머의 **[Text](properties-core.md)** 를 사용하여 사용자에게 타이머를 시작하거나 중지하도록 지시합니다.

@@ -1,25 +1,22 @@
 ---
 title: Excel에서 테이블 형식 지정 | Microsoft Docs
 description: Excel 데이터를 사용하려면 테이블로 데이터 형식을 지정하는 것이 필요합니다. 열 이름에 "이미지" 키워드 추가
-services: ''
-suite: powerapps
 documentationcenter: na
 author: yifwang
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 04/03/2018
 ms.author: yifwang
-ms.openlocfilehash: 69e46e1e55b3f1dd4b1e0df20ef274a56e657809
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.openlocfilehash: fd458fe6c8962bbc4443c1de7aad0f1c4eea7fac
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="format-a-table-in-excel-and-naming-tips"></a>Excel에서 테이블 형식 지정 및 팁 이름 지정
 PowerApps에서 사용하려면 Excel 데이터를 테이블로 형식 지정하는 것이 필수 조건입니다. 이 콘텐츠를 따라가면 Excel 열의 이름을 지정하는 몇 가지 팁 및 Excel에서 테이블의 형식을 지정하는 방법을 알게 됩니다.

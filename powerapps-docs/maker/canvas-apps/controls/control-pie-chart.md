@@ -1,25 +1,22 @@
 ---
 title: '원형 차트 컨트롤: 참조 | Microsoft Docs'
 description: 속성 및 예제를 비롯한 원형 차트 컨트롤에 관한 정보
-services: ''
-suite: powerapps
 documentationcenter: na
 author: fikaradz
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 5307370df49eeb783a401e2b7c2f0564bb27c3f4
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.openlocfilehash: bda839765d797bf87590f037221b116bad781657
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="pie-chart-control-in-powerapps"></a>PowerApps의 원형 차트
 서로 비교하는 상대 값을 보여주는 컨트롤입니다.
@@ -104,7 +101,8 @@ ms.lasthandoff: 04/16/2018
 
 ### <a name="screen-reader-support"></a>화면 판독기 지원
 * 제목으로 사용할 차트 그래픽 바로 앞에 **[레이블](control-text-box.md)** 이 있어야 합니다.
-> [!NOTE]
+
+    > [!NOTE]
 > 차트 그래픽 및 **범례**는 화면 읽기 프로그램 사용자에게 숨겨집니다. 대신 데이터의 테이블 형식으로 표시됩니다. 차트에서 데이터를 선택하는 단추를 순환할 수도 있습니다.
 
 ### <a name="low-vision-support"></a>저시력 사용자 지원
@@ -114,5 +112,6 @@ ms.lasthandoff: 04/16/2018
 
 ### <a name="keyboard-support"></a>키보드 지원
 * 키보드 사용자가 탐색할 수 있도록 **[TabIndex](properties-accessibility.md)** 가 0 이상이어야 합니다.
-> [!NOTE]
+
+    > [!NOTE]
 > 키보드 사용자가 차트로 이동하면 차트에서 데이터를 선택하는 단추를 순환할 수 있습니다.

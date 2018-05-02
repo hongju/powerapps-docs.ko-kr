@@ -1,25 +1,22 @@
 ---
 title: '화면 컨트롤: 참조 | Microsoft Docs'
 description: 속성 및 예제를 포함한 화면 컨트롤 관련 정보
-services: ''
-suite: powerapps
 documentationcenter: na
 author: fikaradz
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 715b329f7756f35b6053199ae0c88ce2d0b967f2
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.openlocfilehash: d03e587d86262bcecf59012e36af0c3dc27b29a3
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="screen-control-in-powerapps"></a>PowerApps의 화면 컨트롤
 앱에서 하나 이상의 다른 컨트롤을 포함하는 UI 요소입니다.
@@ -83,5 +80,6 @@ ms.lasthandoff: 04/16/2018
 
 ### <a name="screen-reader-support"></a>화면 판독기 지원
 * 각 **화면**에 대한 의미 있는 이름이 있어야 합니다. [컨트롤] 창의 트리 뷰 또는 [속성] 창의 헤더에서 다른 컨트롤과 동일한 방법으로 화면 이름을 보고 편집할 수 있습니다.
-> [!NOTE]
+
+    > [!NOTE]
 > 새 **화면**이 로드되면 화면 읽기 프로그램이 해당 이름을 알립니다. 

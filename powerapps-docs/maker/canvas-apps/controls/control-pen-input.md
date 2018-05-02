@@ -1,25 +1,22 @@
 ---
 title: '펜 입력 컨트롤: 참조 | Microsoft Docs'
 description: 속성 및 예제를 포함한 펜 입력 컨트롤에 관한 정보
-services: ''
-suite: powerapps
 documentationcenter: na
 author: fikaradz
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 6084572dd9a60fc4194e1eff912e22cb656f0207
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.openlocfilehash: 84981a00a516f553d3f1b318f12a6f68064c66b2
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="pen-input-control-in-powerapps"></a>PowerApps의 펜 입력 컨트롤
 사용자가 그리고 삭제하고 이미지의 영역을 강조 표시할 수 있는 컨트롤입니다.
@@ -101,9 +98,11 @@ ms.lasthandoff: 04/16/2018
 
 ### <a name="screen-reader-support"></a>화면 판독기 지원
 * **[AccessibleLabel](properties-accessibility.md)** 이 있어야 합니다.
-> [!IMPORTANT]
+
+    > [!IMPORTANT]
 > 화면 읽기 프로그램 사용자는 **펜 입력**에 액세스할 수 없습니다. 항상 대체 입력 양식을 제공하세요. 예를 들어 스케치가 필요한 경우 사용자가 이미지를 업로드할 수 있는 **[그림 추가](control-add-picture.md)** 컨트롤을 추가하는 것이 좋습니다. 두 가지 방법을 모두 제공할 수 있고 사용자가 더 익숙한 방법을 선택할 수 있습니다.
 
 ### <a name="keyboard-support"></a>키보드 지원
+
 > [!IMPORTANT]
 > 키보드 사용자는 **펜 입력**에 액세스할 수 없습니다. 항상 대체 입력 양식을 제공하세요. 예를 들어 서명이 필요한 경우 사용자가 이름을 입력할 수 있는 **[텍스트 입력](control-text-input.md)** 을 추가하는 것이 좋습니다. 두 가지 방법을 모두 제공할 수 있고 사용자가 더 익숙한 방법을 선택할 수 있습니다.

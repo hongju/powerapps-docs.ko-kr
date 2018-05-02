@@ -1,25 +1,22 @@
 ---
 title: PowerApps 커뮤니티 요금제 - 개인 사용을 위한 무료 개발 환경 | Microsoft Docs
 description: PowerApps, Microsoft Flow 및 Common Data Service에 대해 자세히 알아보고 기술을 구축하려면 등록하세요.
-services: ''
-suite: powerapps
 documentationcenter: na
 author: mgblythe
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 05/01/2016
 ms.author: mblythe
-ms.openlocfilehash: 13952338015fd6ec6f951cb9447cc5203f7159e0
-ms.sourcegitcommit: aa2d0166dccb38100183c093f293233b46f3669d
+ms.openlocfilehash: fe346f5e85f37e68d2424298184d3f09615a5ac8
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="powerapps-community-plan-a-free-development-environment-for-individual-use"></a>PowerApps 커뮤니티 플랜: 개인 사용을 위한 무료 개발 환경
 PowerApps 커뮤니티 플랜은 PowerApps, Microsoft Flow 및 Common Data Service에 대한 기술을 구축하고 자세한 내용을 알아보기에 가장 적합한 플랜입니다. PowerApps 커뮤니티 플랜에는 개인 사용을 위한 무료 개발 환경이 제공되며, 다음과 같은 작업이 가능합니다.
