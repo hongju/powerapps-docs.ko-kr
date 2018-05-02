@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/29/2017
 ms.author: fikaradz
-ms.openlocfilehash: 5bb7e4f27ed7ee0a30fb028d4d8dfd20a5fc250b
-ms.sourcegitcommit: 078ba325480147e6e4da61e319ed53219f1c5cfc
+ms.openlocfilehash: 6b46cfd778dcb29553dce252988b8b6a049ba12d
+ms.sourcegitcommit: d7ed5144f96d1ecc17084c30ed0e2ba3c6b03c26
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2018
+ms.lasthandoff: 04/19/2018
 ---
 # <a name="attachments-control-in-powerapps"></a>PowerApps의 첨부 파일 컨트롤
 사용자가 자신의 장치에 파일을 다운로드하고, SharePoint 목록에서 파일을 업로드 및 삭제할 수 있는 컨트롤입니다.
@@ -33,6 +33,8 @@ ms.lasthandoff: 04/06/2018
 1. 업로드 및 삭제 기능은 폼 내부에서만 작동합니다.  첨부 파일 컨트롤은 편집 모드와 폼 외부에서는 비활성화된 것처럼 보입니다.   파일 추가 및 삭제를 백 엔드에 저장하려면 최종 사용자가 폼을 저장해야 합니다.
 
 1. 최대 10MB의 파일만 업로드할 수 있습니다.  
+
+1. 현재 iOS 장치는 문서 및 클라우드 저장소 계정의 파일만 업로드할 수 있습니다. 사진/비디오를 첨부하려면 iOS 장치에서 웹 브라우저를 사용하여 앱을 실행합니다.
 
 ## <a name="description"></a>설명
 **첨부 파일** 컨트롤을 사용하면 데이터 원본에 저장된 파일을 열고, SharePoint 목록에서 파일을 추가하고 삭제할 수 있습니다.
@@ -51,7 +53,7 @@ ms.lasthandoff: 04/06/2018
 **[OnSelect](properties-core.md)** – 사용자가 첨부 파일을 클릭할 때 앱이 응답하는 방식입니다.
 
 ## <a name="additional-properties"></a>추가 속성
-**AccessibleLabel** - 화면 판독기에서 표시하는 레이블입니다.
+**[AccessibleLabel](properties-accessibility.md)** – 화면 읽기 프로그램의 레이블입니다. 첨부 파일의 목적을 설명해야 합니다.
 
 **AddAttachmentText** – 새 첨부 파일을 추가하는 데 사용되는 링크의 레이블 텍스트입니다.
 
@@ -63,11 +65,17 @@ ms.lasthandoff: 04/06/2018
 
 **[DisplayMode](properties-core.md)** – 컨트롤이 파일 추가 및 삭제(**편집**)하거나, 데이터만 표시(**보기**)하거나 사용 안 하도록(**사용 안 함**) 설정할지 선택합니다.
 
+**[FocusedBorderColor](properties-color-border.md)** – 컨트롤에 포커스가 있을 때 컨트롤의 테두리 색입니다.
+
+**[FocusedBorderThickness](properties-color-border.md)** – 컨트롤에 포커스가 있을 때 컨트롤의 테두리 두께입니다.
+
 **[Height](properties-size-location.md)** – 컨트롤의 위쪽 및 아래쪽 가장자리 사이의 간격입니다.
 
 **MaxAttachmentsText** – 컨트롤이 허용되는 파일의 최대 수를 포함하는 경우 “첨부 파일” 링크를 대체하는 텍스트입니다.
 
 **NoAttachmentsText** – 첨부된 파일이 없는 경우 사용자에게 표시되는 설명 텍스트입니다.
+
+**[TabIndex](properties-accessibility.md)** – 다른 컨트롤에 관련된 키보드 탐색 순서입니다.
 
 **[Visible](properties-core.md)** – 컨트롤을 표시할지 또는 숨길지 여부입니다.
 
@@ -89,4 +97,31 @@ ms.lasthandoff: 04/06/2018
 
     SharePoint 목록과 연결된 첨부 파일 필드가 양식에 표시됩니다.
 
-[컨트롤을 추가하고 구성](../add-configure-controls.md)하는 방법을 모르시나요?
+[컨트롤을 추가하고 구성하는 방법을 알아봅니다.](../add-configure-controls.md)
+
+
+## <a name="accessibility-guidelines"></a>접근성 지침
+### <a name="color-contrast"></a>색 대비
+다음 사이에 적절한 색 대비가 있어야 합니다.
+* **ItemColor** 및 **ItemFill**
+* **ItemHoverColor** 및 **ItemHoverFill**
+* **ItemPressedColor** 및 **ItemPressedFill**
+* **AddedItemColor** 및 **AddedItemFill**
+* **RemovedItemColor** 및 **RemovedItemFill**
+* **ItemErrorColor** 및 **ItemErrorFill**
+* **AddAttachmentColor** 및 **Fill**
+* **MaxAttachmentsColor** 및 **Fill**
+* **NoAttachmentsColor** 및 **Fill**
+
+이는 표준 색 대비 요구 사항에 추가됩니다.
+
+### <a name="screen-reader-support"></a>화면 판독기 지원
+다음 속성이 있어야 합니다.
+* **[AccessibleLabel](properties-accessibility.md)**
+* **AddAttachmentsText**
+* **MaxAttachmentsText**
+* **NoAttachmentsText**
+
+### <a name="keyboard-support"></a>키보드 지원
+* 키보드 사용자가 탐색할 수 있도록 **[TabIndex](properties-accessibility.md)** 가 0 이상이어야 합니다.
+* 포커스 표시기가 명확하게 표시되어야 합니다. **[FocusedBorderColor](properties-color-border.md)** 및 **[FocusedBorderThickness](properties-color-border.md)** 를 사용하여 이를 달성합니다.

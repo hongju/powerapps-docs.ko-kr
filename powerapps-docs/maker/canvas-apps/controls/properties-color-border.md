@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: gregli
-ms.openlocfilehash: 913e9b78445db03fbd59fedbdd0bf9d992175bf1
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: e9ddbc3e413b99fd7afb8d483a161d50f9034673
+ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="color-and-border-properties-in-powerapps"></a>PowerApps에서 색 및 테두리 속성
 ## <a name="overview"></a>개요
@@ -48,9 +48,14 @@ ms.lasthandoff: 03/22/2018
 
 * **[Add picture](control-add-picture.md)**, **[Audio](control-audio-video.md)**, **[Button](control-button.md)**, **[Card](control-card.md)**, **[Check box](control-check-box.md)**, **[Date Picker](control-date-picker.md)**, **[Display form](control-form-detail.md)**, **[Drop down](control-drop-down.md)**, **[Edit form](control-form-detail.md)**, **[Export](control-export-import.md)**, **[Gallery](control-gallery.md)**, **[HTML text](control-html-text.md)**, **[Icon](control-shapes-icons.md)**, **[Image](control-image.md)**, **[Import](control-export-import.md)**, **[Label](control-text-box.md)**, **[List Box](control-list-box.md)**, **[Microphone](control-microphone.md)**, **[PDF viewer](control-pdf-viewer.md)**, **[Pen input](control-pen-input.md)**, **[Radio](control-radio.md)**, **[Rating](control-rating.md)**, **[Screen](control-screen.md)**, **[Shape](control-shapes-icons.md)**, **[Text input](control-text-input.md)**, **[Timer](control-timer.md)**, **[Toggle](control-toggle.md)** 및 **[Video](control-audio-video.md)** 컨트롤에 적용됩니다.
 
-**FocusedBorderThickness** - 키보드 포커스가 있을 때 컨트롤의 테두리 두께입니다.
+## <a name="focused"></a>Focused
+이러한 속성은 컨트롤에 포커스가 있을 때 적용됩니다.
 
-* **[Add picture](control-add-picture.md)**, **[Audio](control-audio-video.md)**, **[Button](control-button.md)**, **[Card](control-card.md)**, **[Check box](control-check-box.md)**, **[Date Picker](control-date-picker.md)**, **[Display form](control-form-detail.md)**, **[Drop down](control-drop-down.md)**, **[Edit form](control-form-detail.md)**, **[Export](control-export-import.md)**, **[Gallery](control-gallery.md)**, **[HTML text](control-html-text.md)**, **[Icon](control-shapes-icons.md)**, **[Image](control-image.md)**, **[Import](control-export-import.md)**, **[Label](control-text-box.md)**, **[List Box](control-list-box.md)**, **[Microphone](control-microphone.md)**, **[PDF viewer](control-pdf-viewer.md)**, **[Pen input](control-pen-input.md)**, **[Radio](control-radio.md)**, **[Rating](control-rating.md)**, **[Screen](control-screen.md)**, **[Shape](control-shapes-icons.md)**, **[Text input](control-text-input.md)**, **[Toggle](control-toggle.md)** 및 **[Video](control-audio-video.md)** 컨트롤에 적용됩니다.
+**FocusedBorderColor** – 컨트롤에 포커스가 있을 때 컨트롤 테두리의 색입니다.
+
+**FocusedBorderThickness** - 컨트롤에 포커스가 있을 때 컨트롤의 테두리 두께입니다.
+
+* 이러한 속성은 **[그림 추가](control-add-picture.md)**, **[첨부 파일](control-attachments.md)**, **[오디오](control-audio-video.md)**, **[단추](control-button.md)**, **[카메라](control-camera.md)**, **[확인란](control-check-box.md)**, **[콤보 상자](control-combo-box.md)**, **[날짜 선택기](control-date-picker.md)**, **[드롭다운](control-drop-down.md)**, **[내보내기](control-export-import.md)**, **[갤러리](control-gallery.md)**, **[아이콘](control-shapes-icons.md)**, **[이미지](control-image.md)**, **[가져오기](control-export-import.md)**, **[레이블](control-text-box.md)**, **[목록 상자](control-list-box.md)**, **[마이크](control-microphone.md)**, **[라디오](control-radio.md)**, **[평가](control-rating.md)**, **[셰이프](control-shapes-icons.md)**, **[슬라이더](control-slider.md)**, **[텍스트 입력](control-text-input.md)**, **[타이머](control-timer.md)**, **[토글](control-toggle.md)** 및 **[비디오](control-audio-video.md)** 컨트롤에 적용됩니다.
 
 ## <a name="disabled"></a>사용 안 함
 이러한 속성은 컨트롤이 사용하지 않도록 설정된 경우 적용됩니다.  **[Disabled](properties-core.md)** 속성이 *true*로 설정된 경우 컨트롤은 비활성화될 수 있습니다.

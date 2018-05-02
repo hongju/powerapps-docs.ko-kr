@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 05/01/2016
 ms.author: mblythe
-ms.openlocfilehash: 3a7407f0f93ee5cd6bb749f79c258a1cf6c20b96
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 13952338015fd6ec6f951cb9447cc5203f7159e0
+ms.sourcegitcommit: aa2d0166dccb38100183c093f293233b46f3669d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/23/2018
 ---
 # <a name="powerapps-community-plan-a-free-development-environment-for-individual-use"></a>PowerApps 커뮤니티 플랜: 개인 사용을 위한 무료 개발 환경
 PowerApps 커뮤니티 플랜은 PowerApps, Microsoft Flow 및 Common Data Service에 대한 기술을 구축하고 자세한 내용을 알아보기에 가장 적합한 플랜입니다. PowerApps 커뮤니티 플랜에는 개인 사용을 위한 무료 개발 환경이 제공되며, 다음과 같은 작업이 가능합니다.
@@ -55,8 +55,8 @@ Visual Studio Dev Essentials 사용자에게는 PowerApps가 혜택에 포함됩
 | **주요 기능** | |
 | 앱 만들기 및 실행 |예. 무제한으로 앱을 만들 수 있습니다. |
 | 앱 공유\* |아니요 |
-| 일반 데이터 서비스 사용 |예 |
-| 일반 데이터 서비스를 사용하여 데이터 모델링 |예 |
+| 일반 데이터 서비스 사용 |예** |
+| 일반 데이터 서비스를 사용하여 데이터 모델링 |예** |
 | 환경 및 사용자 정책에 대한 엔터프라이즈급 관리 |예 |
 | **연결** | |
 | Office 365, Dynamics 365 및 기타 커넥터에 연결 |예 |
@@ -65,9 +65,9 @@ Visual Studio Dev Essentials 사용자에게는 PowerApps가 혜택에 포함됩
 | 온-프레미스 게이트웨이를 사용하여 온-프레미스 데이터에 액세스 |예 |
 | 자체 시스템에 연결하기 위한 사용자 지정 커넥터 만들기 |예. 무제한으로 사용자 지정 커넥터를 만들 수 있습니다. |
 | **Common Data Service** | |
-| Common Data Service에서 응용 프로그램 만들기 및 실행 |예 |
-| 일반 데이터 서비스에 데이터 모델링 |예 |
-| Common Data Service에서 데이터베이스 만들기 |예 |
+| Common Data Service에서 응용 프로그램 만들기 및 실행 |예** |
+| 일반 데이터 서비스에 데이터 모델링 |예** |
+| Common Data Service에서 데이터베이스 만들기 |예** |
 | **관리** | |
 | 동료를 환경 작성자 및 관리자로 추가 |아니요 |
 | 동료를 데이터베이스 역할에 추가 |아니요 |
@@ -75,6 +75,8 @@ Visual Studio Dev Essentials 사용자에게는 PowerApps가 혜택에 포함됩
 | 개별 환경에 대한 데이터 정책 수립 |예 |
 
 * 테넌트의 다른 사용자와 앱, 흐름, 연결 등을 공유할 수 없습니다. 또한 다른 사용자를 환경 관리자 또는 제작자로 추가하거나 관리 센터의 데이터베이스 역할에 추가할 수 없습니다.
+
+** Common Data Service를 사용하여 데이터베이스 만들기는 현재 개별 환경에서 사용할 수 없으며 곧 다시 제공될 예정입니다. 이전에 데이터베이스를 만든 경우 문제없이 계속 사용할 수 있습니다. 
 
 ## <a name="what-are-the-capacity-limits-for-the-individual-environment"></a>개인 환경에 대한 용량 제한은 얼마나 되나요?
 | **용량** |  |

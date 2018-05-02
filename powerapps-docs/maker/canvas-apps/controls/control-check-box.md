@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 3784e90bbf6ed45d2b67b6211efaab279e37feca
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 9b51e1cf59c5df163027e8768c21d6ae544d7ba1
+ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="check-box-control-in-powerapps"></a>PowerApps의 확인란 컨트롤
 사용자가 값을 **true** 또는 **false**로 설정하기 위해 선택 또는 지울 수 있는 컨트롤입니다.
@@ -61,6 +61,10 @@ ms.lasthandoff: 03/22/2018
 
 **[Fill](properties-color-border.md)** - 컨트롤의 배경색입니다.
 
+**[FocusedBorderColor](properties-color-border.md)** – 컨트롤에 포커스가 있을 때 컨트롤의 테두리 색입니다.
+
+**[FocusedBorderThickness](properties-color-border.md)** – 컨트롤에 포커스가 있을 때 컨트롤의 테두리 두께입니다.
+
 **[Font](properties-text.md)** – 텍스트가 표시되는 글꼴의 제품군 이름입니다.
 
 **[FontWeight](properties-text.md)** - 컨트롤의 텍스트 굵기입니다. **Bold**, **Semibold**, **Normal** 또는 **Lighter**로 설정합니다.
@@ -101,6 +105,8 @@ ms.lasthandoff: 03/22/2018
 
 **[Strikethrough](properties-text.md)** - 컨트롤에 표시되는 텍스트 중앙에 선을 표시할지 여부를 선택합니다.
 
+**[TabIndex](properties-accessibility.md)** – 다른 컨트롤에 관련된 키보드 탐색 순서입니다.
+
 **[Tooltip](properties-core.md)** – 사용자가 마우스로 컨트롤을 가리킬 때 표시되는 설명 텍스트입니다.
 
 **[Underline](properties-text.md)** – 컨트롤에 표시되는 텍스트 아래에 선을 표시할지 여부를 선택합니다.
@@ -128,6 +134,24 @@ ms.lasthandoff: 03/22/2018
     **[If](../functions/function-if.md)** 함수 또는 [다른 함수](../formula-reference.md)에 대해 더 알고 싶으신가요?
 3. F5 키를 누르고 **chkReserve**를 클릭하거나 탭하여 **[Value](properties-core.md)** 속성을 **true**로 설정한 다음, **chkReserve**를 다시 클릭하거나 탭하여 **[Value](properties-core.md)** 속성을 **false**로 설정합니다.
    
-    **[날짜 선택기](control-date-picker.md)**는 **chkReserve**의 **[Value](properties-core.md)** 속성이 **false**가 아닌 **true**인 경우에 나타납니다.
+    **[날짜 선택기](control-date-picker.md)** 는 **chkReserve**의 **[Value](properties-core.md)** 속성이 **false**가 아닌 **true**인 경우에 나타납니다.
 4. 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
 
+
+## <a name="accessibility-guidelines"></a>접근성 지침
+### <a name="color-contrast"></a>색 대비
+다음 사이에 적절한 색 대비가 있어야 합니다.
+* **CheckmarkFill** 및 **CheckboxBackgroundFill**
+* **CheckboxBackgroundFill** 및 **[Fill](properties-color-border.md)**
+* **CheckboxBackgroundFill** 및 **[PressedFill](properties-color-border.md)**
+* **CheckboxBackgroundFill** 및 **[HoverFill](properties-color-border.md)**
+
+이는 표준 색 대비 요구 사항에 추가됩니다.
+
+### <a name="screen-reader-support"></a>화면 판독기 지원
+* **[Text](properties-core.md)** 가 있어야 합니다.
+
+### <a name="keyboard-support"></a>키보드 지원
+* 키보드 사용자가 탐색할 수 있도록 **[TabIndex](properties-accessibility.md)** 가 0 이상이어야 합니다.
+* 포커스 표시기가 명확하게 표시되어야 합니다. **[FocusedBorderColor](properties-color-border.md)** 및 **[FocusedBorderThickness](properties-color-border.md)** 를 사용하여 이를 달성합니다.
+ 

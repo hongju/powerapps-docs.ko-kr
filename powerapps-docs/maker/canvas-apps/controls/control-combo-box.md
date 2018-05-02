@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/13/2017
 ms.author: fikaradz
-ms.openlocfilehash: 4d298e24ea967cbf5cb47638d4296f6efbd758c7
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 5fb4ca1a8c3618a81940ef953e2e7d1c9b04dd7e
+ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="combo-box-control-in-powerapps"></a>PowerApps의 콤보 박스 컨트롤
 사용자가 제공된 선택 항목 중에서 선택할 수 있습니다.  검색과 다중 선택을 지원합니다.
@@ -46,6 +46,8 @@ ms.lasthandoff: 03/22/2018
 **IsSearchable** – 사용자가 선택하기 전에 항목을 검색할 수 있는지 선택합니다.
 
 ## <a name="additional-properties"></a>추가 속성
+**[AccessibleLabel](properties-accessibility.md)** – 화면 읽기 프로그램의 레이블입니다.
+
 **[BorderColor](properties-color-border.md)** - 컨트롤의 테두리 색입니다.
 
 **[BorderStyle](properties-color-border.md)** - 컨트롤의 테두리는 **Solid**, **Dashed**, **Dotted**, **None**입니다.
@@ -58,6 +60,10 @@ ms.lasthandoff: 03/22/2018
 
 **[DisplayMode](properties-core.md)** – 컨트롤이 사용자 입력을 허용(**편집**)하거나, 데이터만 표시(**보기**)하거나 사용 안 하도록(**사용 안 함**) 설정할지 선택합니다.
 
+**[FocusedBorderColor](properties-color-border.md)** – 컨트롤에 포커스가 있을 때 컨트롤의 테두리 색입니다.
+
+**[FocusedBorderThickness](properties-color-border.md)** – 컨트롤에 포커스가 있을 때 컨트롤의 테두리 두께입니다.
+
 **[Height](properties-size-location.md)** – 컨트롤의 위쪽 및 아래쪽 가장자리 사이의 간격입니다.
 
 **InputTextPlaceholder** – 선택된 항목이 없을 경우 최종 사용자에게 표시되는 지침 텍스트입니다.
@@ -67,6 +73,8 @@ ms.lasthandoff: 03/22/2018
 **OnNavigate** - 사용자가 항목을 클릭할 때 앱이 응답하는 방법입니다.
 
 **[OnSelect](properties-core.md)** – 사용자가 앱을 클릭하거나 탭할 때 앱이 응답하는 방법입니다.
+
+**[TabIndex](properties-accessibility.md)** – 다른 컨트롤에 관련된 키보드 탐색 순서입니다.
 
 **[Visible](properties-core.md)** – 컨트롤을 표시하거나 숨길지 여부를 선택합니다.
 
@@ -85,3 +93,26 @@ ms.lasthandoff: 03/22/2018
     기능적인 **콤보 상자**가 앱에 나타납니다.
 
     [컨트롤을 추가하고 구성](../add-configure-controls.md)하는 방법을 모르시나요?
+
+
+## <a name="accessibility-guidelines"></a>접근성 지침
+### <a name="color-contrast"></a>색 대비
+다음 사이에 적절한 색 대비가 있어야 합니다.
+* **ChevronFill** 및 **ChevronBackground**
+* **ChevronHoverFill** 및 **ChevronHoverBackground**
+* **SelectionColor** 및 **SelectionFill**
+* **SelectionFill** 및 **[Fill](properties-color-border.md)**
+* **SelectionTagColor** 및 **SelectionTagFill**
+
+이는 표준 색 대비 요구 사항에 추가됩니다.
+
+### <a name="screen-reader-support"></a>화면 판독기 지원
+* **[AccessibleLabel](properties-accessibility.md)** 이 있어야 합니다.
+> [!NOTE]
+> 터치 스크린에서 화면 읽기 프로그램 사용자는 콤보 상자의 콘텐츠를 순차적으로 탐색할 수 있습니다. 콤보 상자는 선택 시 해당 콘텐츠를 표시하거나 숨기는 단추 역할을 합니다.
+
+### <a name="keyboard-support"></a>키보드 지원
+* 키보드 사용자가 탐색할 수 있도록 **[TabIndex](properties-accessibility.md)** 가 0 이상이어야 합니다.
+* 포커스 표시기가 명확하게 표시되어야 합니다. **[FocusedBorderColor](properties-color-border.md)** 및 **[FocusedBorderThickness](properties-color-border.md)** 를 사용하여 이를 달성합니다.
+> [!NOTE]
+> Tab 키는 콤보 상자로 이동하거나 멀어지도록 이동합니다. 화살표 키는 콤보 상자의 콘텐츠를 탐색합니다. Esc 키는 열려 있는 드롭다운을 닫습니다.

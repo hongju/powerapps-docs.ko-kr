@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: cd2e2a8c28fb894b1935b29bf80bf65eb631a266
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 715b329f7756f35b6053199ae0c88ce2d0b967f2
+ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="screen-control-in-powerapps"></a>PowerApps의 화면 컨트롤
 앱에서 하나 이상의 다른 컨트롤을 포함하는 UI 요소입니다.
@@ -50,11 +50,11 @@ ms.lasthandoff: 03/22/2018
 [**Distinct**( *DataSource*, *ColumnName* )](../functions/function-distinct.md)
 
 ## <a name="example"></a>예
-1. **[라디오](control-radio.md)** 컨트롤을 추가하고 이름을 **ScreenFills**로 지정한 다음 **[Items](properties-core.md)** 속성을 다음 값으로 설정합니다.<br>
+1. **[라디오](control-radio.md)** 컨트롤을 추가하고 이름을 **ScreenFills**로 지정한 다음, **[Items](properties-core.md)** 속성을 다음 값으로 설정합니다.<br>
    **["Red", "Green"]**
    
     [컨트롤을 추가, 이름을 지정하고, 구성](../add-configure-controls.md)하는 방법을 모르시나요?
-2. 기본 **화면** 컨트롤의 이름을 **Source**로 지정한 다음 다른 **화면** 컨트롤을 추가하고 이름을 **Target**으로 지정합니다.
+2. 기본 **화면** 컨트롤의 이름을 **Source**로 지정한 다음, 다른 **화면** 컨트롤을 추가하고 이름을 **Target**으로 지정합니다.
 3. **Source**에서 **[셰이프](control-shapes-icons.md)** 컨트롤(예: 화살표)을 추가하고 **[OnSelect](properties-core.md)** 속성을 다음 수식으로 설정합니다.<br>
    **Navigate(Target, ScreenTransition.Fade)**
    
@@ -63,10 +63,25 @@ ms.lasthandoff: 03/22/2018
    **Navigate(Source, ScreenTransition.Fade)**
 5. **Target**의 **[Fill](properties-color-border.md)** 속성을 다음 수식으로 설정합니다.<br>
    **If("Red" in ScreenFills.Selected.Value, RGBA(255, 0, 0, 1), RGBA(54, 176, 75, 1))**
-6. **Source**에서 F5를 누르고 **[라디오](control-radio.md)** 컨트롤의 옵션을 하나 클릭하거나 탭한 다음 **[셰이프](control-shapes-icons.md)** 컨트롤을 클릭하거나 탭합니다.
+6. **Source**에서 F5 키를 누르고 **[라디오](control-radio.md)** 컨트롤의 옵션을 하나 클릭하거나 탭한 다음, **[셰이프](control-shapes-icons.md)** 컨트롤을 클릭하거나 탭합니다.
    
     **Target**이 선택한 색으로 나타납니다.
 7. **Target**에서 **[셰이프](control-shapes-icons.md)** 컨트롤을 클릭하거나 탭하여 **Source**로 돌아갑니다.
 8. (선택 사항) **[라디오](control-radio.md)** 컨트롤의 다른 옵션을 클릭하거나 탭한 다음 **[세이프](control-shapes-icons.md)** 컨트롤을 클릭하거나 탭하여 다른 색으로 **Target**이 표시되는지 확인합니다.
-9. 기본 작업 영역으로 돌아가려면 Esc를 누릅니다.
+9. 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
 
+
+## <a name="accessibility-guidelines"></a>접근성 지침
+### <a name="color-contrast"></a>색 대비
+**화면**이 텍스트의 효과적인 배경인 경우 다음 사이에 적절한 색 대비가 있어야 합니다.
+* **[채우기](properties-color-border.md)** 및 텍스트
+* **[BackgroundImage](properties-visual.md)** 및 텍스트(해당하는 경우)
+
+예를 들어 **화면**에 **[레이블](control-text-box.md)** 이 포함되어 있고 레이블에 투명한 채우기가 있는 경우 화면의 **[채우기](properties-color-border.md)** 는 효과적으로 레이블의 배경색이 됩니다.
+
+텍스트 외에도 **[평가](control-rating.md)** 컨트롤의 별표 이미지 같은 필수 그래픽 개체에 대한 색 대비를 확인하는 것이 좋습니다.
+
+### <a name="screen-reader-support"></a>화면 판독기 지원
+* 각 **화면**에 대한 의미 있는 이름이 있어야 합니다. [컨트롤] 창의 트리 뷰 또는 [속성] 창의 헤더에서 다른 컨트롤과 동일한 방법으로 화면 이름을 보고 편집할 수 있습니다.
+> [!NOTE]
+> 새 **화면**이 로드되면 화면 읽기 프로그램이 해당 이름을 알립니다. 

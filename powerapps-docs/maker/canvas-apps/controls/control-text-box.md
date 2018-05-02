@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: f0547963060d31f86b32cc2aaff38b116d35036b
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: e3cae08695af7a4625fd4deb58c8cf7cfe71fdd0
+ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="label-control-in-powerapps"></a>PowerApps의 레이블 컨트롤
 텍스트, 숫자, 날짜 또는 통화와 같은 데이터를 표시하는 상자입니다.
@@ -59,6 +59,10 @@ ms.lasthandoff: 03/22/2018
 
 **[Fill](properties-color-border.md)** - 컨트롤의 배경색입니다.
 
+**[FocusedBorderColor](properties-color-border.md)** – 컨트롤에 포커스가 있을 때 컨트롤의 테두리 색입니다.
+
+**[FocusedBorderThickness](properties-color-border.md)** – 컨트롤에 포커스가 있을 때 컨트롤의 테두리 두께입니다.
+
 **[FontWeight](properties-text.md)** - 컨트롤의 텍스트 굵기입니다. **Bold**, **Semibold**, **Normal** 또는 **Lighter**로 설정합니다.
 
 **[Height](properties-size-location.md)** – 컨트롤의 위쪽 및 아래쪽 가장자리 사이의 간격입니다.
@@ -94,6 +98,8 @@ ms.lasthandoff: 03/22/2018
 **[Size](properties-text.md)** -컨트롤에 표시되는 텍스트의 글꼴 크기입니다.
 
 **[Strikethrough](properties-text.md)** - 컨트롤에 표시되는 텍스트 중앙에 선을 표시할지 여부를 선택합니다.
+
+**[TabIndex](properties-accessibility.md)** – 다른 컨트롤에 관련된 키보드 탐색 순서입니다.
 
 **[Tooltip](properties-core.md)** – 사용자가 마우스로 컨트롤을 가리킬 때 표시되는 설명 텍스트입니다.
 
@@ -134,9 +140,33 @@ ms.lasthandoff: 03/22/2018
 
 1. 단추 하나를 추가하고 이 수식에 **[OnSelect](properties-core.md)** 속성을 설정합니다.<br>
    **ClearCollect(CityPopulations, {City:"London", Country:"United Kingdom", Population:8615000}, {City:"Berlin", Country:"Germany", Population:3562000}, {City:"Madrid", Country:"Spain", Population:3165000}, {City:"Rome", Country:"Italy", Population:2874000}, {City:"Paris", Country:"France", Population:2273000}, {City:"Hamburg", Country:"Germany", Population:1760000}, {City:"Barcelona", Country:"Spain", Population:1602000}, {City:"Munich", Country:"Germany", Population:1494000}, {City:"Milan", Country:"Italy", Population:1344000})**
-2. F5 키를 누르고 단추를 선택한 다음 Esc 키를 누릅니다.
+2. F5 키를 누르고 단추를 선택한 다음, Esc 키를 누릅니다.
 3. 텍스트 갤러리를 추가하고 **[Items](properties-core.md)** 속성을 **CityPopulations**로 설정합니다.
    
     갤러리를 선택하면 오른쪽 창에는 해당 갤러리 옵션이 나와 있습니다.
 4. **Gallery1** 창에서 맨 위 목록을 **Population**로, 중간 목록을 **City**로, 맨 아래 목록을  **Country**로 설정합니다.
 
+
+## <a name="accessibility-guidelines"></a>접근성 지침
+**레이블** 컨트롤은 그 이름과 달리 다른 컨트롤의 레이블로 사용하지 않아도 되며, 텍스트의 일부를 표시하는 데 사용할 수 있습니다.
+
+**레이블**은 **[OnSelect](properties-core.md)** 동작을 지정하여 단추 또는 링크로 사용할 수 있습니다. 이 방법을 사용하는 경우에는 단추와 유사한 접근성 고려 사항이 있습니다.
+
+### <a name="color-contrast"></a>색 대비
+다음 사이에 적절한 색 대비가 있어야 합니다.
+* **[Color](properties-color-border.md)** 및 **[Fill](properties-color-border.md)**
+* 기타 표준 색 대비 요구 사항이 적용됨(단추 또는 링크로 사용되는 경우)
+
+### <a name="screen-reader-support"></a>화면 판독기 지원
+* **[Text](properties-core.md)** 가 있어야 합니다.
+> [!NOTE]
+> 화면 읽기 프로그램은 **[TabIndex](properties-accessibility.md)** 가 0 이상이면 **레이블**을 단추로 처리합니다.
+
+### <a name="low-vision-support"></a>저시력 사용자 지원
+* **레이블**은 링크로 사용되는 경우 링크처럼 표시되어야 합니다.
+    * **[Underline](properties-text.md)** 을 **true**로 설정합니다.
+    * **[HoverColor](properties-color-border.md)** 는 **[Color](properties-color-border.md)** 와 달라야 합니다.
+
+### <a name="keyboard-support"></a>키보드 지원
+* 텍스트가 단추 또는 링크로 사용되는 경우 **[TabIndex](properties-accessibility.md)** 는 0 이상이어야 합니다. 이 경우 키보드 사용자가 이미지로 이동할 수 있습니다.
+* 텍스트가 단추 또는 링크로 사용되는 경우 포커스 표시기는 명확하게 표시되어야 합니다. **[FocusedBorderColor](properties-color-border.md)** 및 **[FocusedBorderThickness](properties-color-border.md)** 를 사용하여 이를 달성합니다.

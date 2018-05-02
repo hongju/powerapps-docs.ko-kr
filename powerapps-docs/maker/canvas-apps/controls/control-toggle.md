@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: dac1f8ea99746f04d2d3305e279a4bc5faf67903
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 709da9e7b3e80e370488e9bdfb45f40d68dae856
+ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="toggle-control-in-powerapps"></a>PowerApps의 토글 컨트롤
 핸들을 움직여 사용자가 켜거나 끌 수 있는 컨트롤입니다.
@@ -33,13 +33,13 @@ ms.lasthandoff: 03/22/2018
 **[Value](properties-core.md)** – 입력 컨트롤의 값입니다.
 
 ## <a name="additional-properties"></a>추가 속성
+**[AccessibleLabel](properties-accessibility.md)** – 화면 읽기 프로그램의 레이블입니다.
+
 **[BorderColor](properties-color-border.md)** - 컨트롤의 테두리 색입니다.
 
 **[BorderStyle](properties-color-border.md)** - 컨트롤의 테두리는 **Solid**, **Dashed**, **Dotted**, **None**입니다.
 
 **[BorderThickness](properties-color-border.md)** - 컨트롤의 테두리 굵기입니다.
-
-**[FocusedBorderThickness](properties-color-border.md)** - 키보드 포커스가 있을 때 컨트롤의 테두리 두께입니다.
 
 **[DisplayMode](properties-core.md)** – 컨트롤이 사용자 입력을 허용(**편집**)하거나, 데이터만 표시(**보기**)하거나 사용 안 하도록(**사용 안 함**) 설정할지 선택합니다.
 
@@ -52,6 +52,12 @@ ms.lasthandoff: 03/22/2018
 **FalseText** – 토글이 꺼진 경우 표시되는 텍스트입니다.
 
 **[Fill](properties-color-border.md)** - 컨트롤의 배경색입니다.
+
+**[FocusedBorderColor](properties-color-border.md)** – 컨트롤에 포커스가 있을 때 컨트롤의 테두리 색입니다.
+
+**[FocusedBorderThickness](properties-color-border.md)** – 컨트롤에 포커스가 있을 때 컨트롤의 테두리 두께입니다.
+
+**HandleFill** - 토글 핸들의 채우기 색입니다.
 
 **[Height](properties-size-location.md)** – 컨트롤의 위쪽 및 아래쪽 가장자리 사이의 간격입니다.
 
@@ -75,7 +81,7 @@ ms.lasthandoff: 03/22/2018
 
 **ShowLabel** – 토글 컨트롤 옆에 텍스트 레이블을 표시할지 여부입니다.
 
-**[TabIndex](properties-accessibility.md)** – 0 이외의 값으로 설정된 경우 런타임 시 컨트롤의 탭 순서를 사용자 지정합니다.
+**[TabIndex](properties-accessibility.md)** – 다른 컨트롤에 관련된 키보드 탐색 순서입니다.
 
 **TextPosition** – 레이블을 토클 컨트롤의 왼쪽에 둘지 또는 오른쪽에 둘지 여부입니다.
 
@@ -114,3 +120,30 @@ ms.lasthandoff: 03/22/2018
 
     레이블에 **MemberDiscount**의 설정 여부에 따라 다른 가격이 표시됩니다.
 4. 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
+
+
+## <a name="accessibility-guidelines"></a>접근성 지침
+### <a name="color-contrast"></a>색 대비
+다음 사이에 적절한 색 대비가 있어야 합니다.
+* **HandleFill** 및 **FalseFill**
+* **HandleFill** 및 **FalseHoverFill**
+* **HandleFill** 및 **TrueFill**
+* **HandleFill** 및 **TrueHoverFill**
+* **FalseFill** 및 컨트롤 외부 색
+* **FalseHoverFill** 및 컨트롤 외부 색
+* **TrueFill** 및 컨트롤 외부 색
+* **TrueHoverFill** 및 컨트롤 외부 색
+
+이는 표준 색 대비 요구 사항에 추가됩니다.
+
+### <a name="screen-reader-support"></a>화면 판독기 지원
+* **[AccessibleLabel](properties-accessibility.md)** 이 있어야 합니다.
+* **FalseText**가 있어야 합니다.
+* **TrueText**가 있어야 합니다.
+
+### <a name="low-vision-support"></a>저시력 사용자 지원
+* 사용자가 토글 값을 빠르게 확인할 수 있도록 **ShowLabel**을 **true**로 설정하는 것이 좋습니다.
+
+### <a name="keyboard-support"></a>키보드 지원
+* 키보드 사용자가 탐색할 수 있도록 **[TabIndex](properties-accessibility.md)** 가 0 이상이어야 합니다.
+* 포커스 표시기가 명확하게 표시되어야 합니다. **[FocusedBorderColor](properties-color-border.md)** 및 **[FocusedBorderThickness](properties-color-border.md)** 를 사용하여 이를 달성합니다.

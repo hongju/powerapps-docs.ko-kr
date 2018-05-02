@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 1388eac45e5086f677cb83c8db9593fe01a9819f
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 5307370df49eeb783a401e2b7c2f0564bb27c3f4
+ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="pie-chart-control-in-powerapps"></a>PowerApps의 원형 차트
 서로 비교하는 상대 값을 보여주는 컨트롤입니다.
@@ -27,12 +27,14 @@ ms.lasthandoff: 03/22/2018
 ## <a name="description"></a>설명
 맨 왼쪽 열의 레이블과 왼쪽에서 두 번째 열에 값을 포함한 표에서 상대적 데이터를 표시하려는 경우 **원형 차트** 컨트롤을 추가합니다.
 
-## <a name="key-properties"></a>주요 속성
+이 컨트롤은 세 가지 컨트롤 **[레이블](control-text-box.md)**(제목), 차트 그래픽 및 **범례**를 포함하는 그룹화된 컨트롤입니다.
+
+## <a name="chart-key-properties"></a>차트 키 속성
 **[Items](properties-core.md)** – 갤러리, 목록 또는 차트와 같은 컨트롤에 표시되는 데이터 원본입니다.
 
 **ShowLabels** – 원형 차트에서 각 웨지가 연결되어 있는 값을 표시할지 여부를 선택합니다.
 
-## <a name="additional-properties"></a>추가 속성
+## <a name="additional-chart-properties"></a>추가 차트 속성
 **[BorderColor](properties-color-border.md)** - 컨트롤의 테두리 색입니다.
 
 **[BorderStyle](properties-color-border.md)** - 컨트롤의 테두리는 **Solid**, **Dashed**, **Dotted**, **None**입니다.
@@ -67,6 +69,8 @@ ms.lasthandoff: 03/22/2018
 
 **[Size](properties-text.md)** -컨트롤에 표시되는 텍스트의 글꼴 크기입니다.
 
+**[TabIndex](properties-accessibility.md)** – 다른 컨트롤에 관련된 키보드 탐색 순서입니다.
+
 **[Visible](properties-core.md)** – 컨트롤을 표시하거나 숨길지 여부를 선택합니다.
 
 **[Width](properties-size-location.md)** – 컨트롤의 왼쪽 및 오른쪽 가장자리 사이의 간격입니다.
@@ -90,3 +94,25 @@ ms.lasthandoff: 03/22/2018
    
     **원형 차트** 컨트롤은 다른 제품과 관련하여 각 제품에 대한 수입 데이터를 보여줍니다.
 
+
+## <a name="accessibility-guidelines"></a>접근성 지침
+### <a name="color-contrast"></a>색 대비
+다음 사이에 적절한 색 대비가 있어야 합니다.
+* **ItemColorSet**의 각 항목
+* **ItemColorSet**의 모든 항목 및 배경색
+* **[Color](properties-color-border.md)** 및 배경색
+
+### <a name="screen-reader-support"></a>화면 판독기 지원
+* 제목으로 사용할 차트 그래픽 바로 앞에 **[레이블](control-text-box.md)** 이 있어야 합니다.
+> [!NOTE]
+> 차트 그래픽 및 **범례**는 화면 읽기 프로그램 사용자에게 숨겨집니다. 대신 데이터의 테이블 형식으로 표시됩니다. 차트에서 데이터를 선택하는 단추를 순환할 수도 있습니다.
+
+### <a name="low-vision-support"></a>저시력 사용자 지원
+* **범례**가 있어야 합니다.
+* **ShowLabels**를 **true**로 설정하는 것이 좋습니다. 이렇게 하면 저시력 사용자가 각 원형 조각이 나타내는 부분을 빠르게 확인할 수 있습니다.
+* **LabelPosition**을 **LabelPosition.Outside**로 설정하는 것이 좋습니다. 이렇게 하면 더 일관된 색 대비로 인해 레이블의 가독성이 향상됩니다.
+
+### <a name="keyboard-support"></a>키보드 지원
+* 키보드 사용자가 탐색할 수 있도록 **[TabIndex](properties-accessibility.md)** 가 0 이상이어야 합니다.
+> [!NOTE]
+> 키보드 사용자가 차트로 이동하면 차트에서 데이터를 선택하는 단추를 순환할 수 있습니다.

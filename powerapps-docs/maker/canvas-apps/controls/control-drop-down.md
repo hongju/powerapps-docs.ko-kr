@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 828292cc888d26f2060260826296960f1bd4f98f
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 9d723fb7377d6ab3e5ea2bd9d4805cff8f157243
+ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="drop-down-control-in-powerapps"></a>PowerApps의 드롭다운 컨트롤
 사용자가 열지 않는 한 첫 번째 항목만 표시하는 목록입니다.
@@ -37,13 +37,13 @@ ms.lasthandoff: 03/22/2018
 **Selected** – 선택한 항목입니다.
 
 ## <a name="additional-properties"></a>추가 속성
+**[AccessibleLabel](properties-accessibility.md)** – 화면 읽기 프로그램의 레이블입니다.
+
 **[BorderColor](properties-color-border.md)** - 컨트롤의 테두리 색입니다.
 
 **[BorderStyle](properties-color-border.md)** - 컨트롤의 테두리는 **Solid**, **Dashed**, **Dotted**, **None**입니다.
 
 **[BorderThickness](properties-color-border.md)** - 컨트롤의 테두리 굵기입니다.
-
-**[FocusedBorderThickness](properties-color-border.md)** - 키보드 포커스가 있을 때 컨트롤의 테두리 두께입니다.
 
 **ChevronBackground** – 드롭다운 목록에서 아래쪽 화살표의 배경색입니다.
 
@@ -60,6 +60,10 @@ ms.lasthandoff: 03/22/2018
 **[DisabledFill](properties-color-border.md)** – 컨트롤의 **[DisplayMode](properties-core.md)** 속성이 **Disabled**로 설정된 경우 컨트롤의 배경색입니다.
 
 **[Fill](properties-color-border.md)** - 컨트롤의 배경색입니다.
+
+**[FocusedBorderColor](properties-color-border.md)** – 컨트롤에 포커스가 있을 때 컨트롤의 테두리 색입니다.
+
+**[FocusedBorderThickness](properties-color-border.md)** – 컨트롤에 포커스가 있을 때 컨트롤의 테두리 두께입니다.
 
 **[Font](properties-text.md)** – 텍스트가 표시되는 글꼴의 제품군 이름입니다.
 
@@ -103,7 +107,7 @@ ms.lasthandoff: 03/22/2018
 
 **[Strikethrough](properties-text.md)** - 컨트롤에 표시되는 텍스트 중앙에 선을 표시할지 여부를 선택합니다.
 
-**[TabIndex](properties-accessibility.md)** – 0 이외의 값으로 설정된 경우 런타임 시 컨트롤의 탭 순서를 사용자 지정합니다.
+**[TabIndex](properties-accessibility.md)** – 다른 컨트롤에 관련된 키보드 탐색 순서입니다.
 
 **[Tooltip](properties-core.md)** – 사용자가 마우스로 컨트롤을 가리킬 때 표시되는 설명 텍스트입니다.
 
@@ -136,3 +140,20 @@ ms.lasthandoff: 03/22/2018
    
     **텍스트 갤러리** 컨트롤은 사용자가 선택한 국가의 도시만 표시합니다.
 
+
+## <a name="accessibility-guidelines"></a>접근성 지침
+### <a name="color-contrast"></a>색 대비
+다음 사이에 적절한 색 대비가 있어야 합니다.
+* **ChevronFill** 및 **ChevronBackground**
+* **ChevronHoverFill** 및 **ChevronHoverBackground**
+* **SelectionColor** 및 **SelectionFill**
+* **SelectionFill** 및 **[Fill](properties-color-border.md)**
+
+이는 표준 색 대비 요구 사항에 추가됩니다.
+
+### <a name="screen-reader-support"></a>화면 판독기 지원
+* **[AccessibleLabel](properties-accessibility.md)** 이 있어야 합니다.
+
+### <a name="keyboard-support"></a>키보드 지원
+* 키보드 사용자가 탐색할 수 있도록 **[TabIndex](properties-accessibility.md)** 가 0 이상이어야 합니다.
+* 포커스 표시기가 명확하게 표시되어야 합니다. **[FocusedBorderColor](properties-color-border.md)** 및 **[FocusedBorderThickness](properties-color-border.md)** 를 사용하여 이를 달성합니다.

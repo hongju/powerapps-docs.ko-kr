@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 9cf051ba94e9d43b4c263d627c25affa66e6b843
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: f28247ab3fce610571e2d5c27106bcf15c00cc8b
+ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="radio-control-in-powerapps"></a>PowerApps의 라디오 컨트롤
 사용자가 한 번에 하나만 선택할 수 있는 모든 옵션을 표시하는 목록입니다.
@@ -45,8 +45,6 @@ ms.lasthandoff: 03/22/2018
 
 **[BorderThickness](properties-color-border.md)** - 컨트롤의 테두리 굵기입니다.
 
-**[FocusedBorderThickness](properties-color-border.md)** - 키보드 포커스가 있을 때 컨트롤의 테두리 두께입니다.
-
 **[Color](properties-color-border.md)** – 컨트롤의 텍스트 색입니다.
 
 **[DisplayMode](properties-core.md)** – 컨트롤이 사용자 입력을 허용(**편집**)하거나, 데이터만 표시(**보기**)하거나 사용 안 하도록(**사용 안 함**) 설정할지 선택합니다.
@@ -58,6 +56,10 @@ ms.lasthandoff: 03/22/2018
 **[DisabledFill](properties-color-border.md)** – 컨트롤의 **[DisplayMode](properties-core.md)** 속성이 **Disabled**로 설정된 경우 컨트롤의 배경색입니다.
 
 **[Fill](properties-color-border.md)** - 컨트롤의 배경색입니다.
+
+**[FocusedBorderColor](properties-color-border.md)** – 컨트롤에 포커스가 있을 때 컨트롤의 테두리 색입니다.
+
+**[FocusedBorderThickness](properties-color-border.md)** – 컨트롤에 포커스가 있을 때 컨트롤의 테두리 두께입니다.
 
 **[Font](properties-text.md)** – 텍스트가 표시되는 글꼴의 제품군 이름입니다.
 
@@ -103,7 +105,7 @@ ms.lasthandoff: 03/22/2018
 
 **[Strikethrough](properties-text.md)** - 컨트롤에 표시되는 텍스트 중앙에 선을 표시할지 여부를 선택합니다.
 
-**[TabIndex](properties-accessibility.md)** – 0 이외의 값으로 설정된 경우 런타임 시 컨트롤의 탭 순서를 사용자 지정합니다.
+**[TabIndex](properties-accessibility.md)** – 다른 컨트롤에 관련된 키보드 탐색 순서입니다.
 
 **[Tooltip](properties-core.md)** – 사용자가 마우스로 컨트롤을 가리킬 때 표시되는 설명 텍스트입니다.
 
@@ -121,11 +123,11 @@ ms.lasthandoff: 03/22/2018
 [**Distinct**( *DataSource*, *ColumnName* )](../functions/function-distinct.md)
 
 ## <a name="example"></a>예
-1. **라디오** 컨트롤을 추가하고 이름을 **Pricing**으로 지정한 다음 **[Items](properties-core.md)** 속성을 다음 수식으로 설정합니다.
+1. **라디오** 컨트롤을 추가하고 이름을 **Pricing**으로 지정한 후, **[Items](properties-core.md)** 속성을 다음 수식으로 설정합니다.
    <br>**["Standard", "Premium"]**
    
     [컨트롤을 추가, 이름을 지정하고, 구성](../add-configure-controls.md)하는 방법을 모르시나요?
-2. **[레이블](control-text-box.md)** 컨트롤을 추가하고 **라디오** 컨트롤 아래로 이동한 다음 **[레이블](control-text-box.md)** 컨트롤의 **[Text](properties-core.md)** 속성을 다음 수식으로 설정합니다.
+2. **[레이블](control-text-box.md)** 컨트롤을 추가하고 **라디오** 컨트롤 아래로 이동한 후, **[레이블](control-text-box.md)** 컨트롤의 **[Text](properties-core.md)** 속성을 다음 수식으로 설정합니다.
    <br>**If("Premium" in Pricing.Selected.Value, "$200 per day", "$150 per day")**
    
     **[If](../functions/function-if.md)** 함수 또는 [다른 함수](../formula-reference.md)에 대해 더 알고 싶으신가요?
@@ -135,3 +137,20 @@ ms.lasthandoff: 03/22/2018
 4. (선택 사항) **라디오** 컨트롤에서 다른 옵션을 선택하여 적합한 텍스트가 표시되는지 확인합니다.
 5. 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
 
+
+## <a name="accessibility-guidelines"></a>접근성 지침
+### <a name="color-contrast"></a>색 대비
+다음 사이에 적절한 색 대비가 있어야 합니다.
+* **RadioSelectionFill** 및 **RadioBackgroundFill**
+* **RadioBackgroundFill** 및 **[Fill](properties-color-border.md)**
+
+이는 표준 색 대비 요구 사항에 추가됩니다.
+
+### <a name="screen-reader-support"></a>화면 판독기 지원
+* 모든 라디오 옵션에 대한 **[Value](properties-core.md)** 가 있어야 합니다.
+* 제목으로 사용할 **라디오** 컨트롤 바로 앞에 **[레이블](control-text-box.md)** 을 추가하는 것이 좋습니다.
+
+### <a name="keyboard-support"></a>키보드 지원
+* 키보드 사용자가 탐색할 수 있도록 **[TabIndex](properties-accessibility.md)** 가 0 이상이어야 합니다.
+* 포커스 표시기가 명확하게 표시되어야 합니다. **[FocusedBorderColor](properties-color-border.md)** 및 **[FocusedBorderThickness](properties-color-border.md)** 를 사용하여 이를 달성합니다.
+ 

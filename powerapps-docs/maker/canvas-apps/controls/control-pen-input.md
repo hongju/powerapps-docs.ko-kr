@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 7e5be9b68b501279329c23f9afe5d451487fa8d1
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 6084572dd9a60fc4194e1eff912e22cb656f0207
+ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="pen-input-control-in-powerapps"></a>PowerApps의 펜 입력 컨트롤
 사용자가 그리고 삭제하고 이미지의 영역을 강조 표시할 수 있는 컨트롤입니다.
@@ -33,6 +33,8 @@ ms.lasthandoff: 03/22/2018
 **Mode** – 컨트롤이 **그리기** 또는 **삭제** 모드 상태입니다.  선택 모드는 사용되지 않습니다.
 
 ## <a name="additional-properties"></a>추가 속성
+**[AccessibleLabel](properties-accessibility.md)** – 화면 읽기 프로그램의 레이블입니다. 컨트롤의 목적과 대체 입력 방법을 설명하는 데 사용할 수 있습니다.
+
 **[BorderColor](properties-color-border.md)** - 컨트롤의 테두리 색입니다.
 
 **[BorderStyle](properties-color-border.md)** - 컨트롤의 테두리는 **Solid**, **Dashed**, **Dotted**, **None**입니다.
@@ -90,3 +92,18 @@ ms.lasthandoff: 03/22/2018
 
 **[SaveData](../functions/function-savedata-loaddata.md)** 함수를 사용하여 드로잉을 로컬에서 저장하거나, **[Patch](../functions/function-patch.md)** 함수를 사용하여 데이터 원본에 저장합니다.
 
+
+## <a name="accessibility-guidelines"></a>접근성 지침
+### <a name="color-contrast"></a>색 대비
+다음 사이에 적절한 색 대비가 있어야 합니다.
+* **[BorderColor](properties-color-border.md)** 및 컨트롤 외부 색(테두리가 있는 경우)
+* **[Fill](properties-color-border.md)** 및 컨트롤 외부 색(테두리가 없는 경우)
+
+### <a name="screen-reader-support"></a>화면 판독기 지원
+* **[AccessibleLabel](properties-accessibility.md)** 이 있어야 합니다.
+> [!IMPORTANT]
+> 화면 읽기 프로그램 사용자는 **펜 입력**에 액세스할 수 없습니다. 항상 대체 입력 양식을 제공하세요. 예를 들어 스케치가 필요한 경우 사용자가 이미지를 업로드할 수 있는 **[그림 추가](control-add-picture.md)** 컨트롤을 추가하는 것이 좋습니다. 두 가지 방법을 모두 제공할 수 있고 사용자가 더 익숙한 방법을 선택할 수 있습니다.
+
+### <a name="keyboard-support"></a>키보드 지원
+> [!IMPORTANT]
+> 키보드 사용자는 **펜 입력**에 액세스할 수 없습니다. 항상 대체 입력 양식을 제공하세요. 예를 들어 서명이 필요한 경우 사용자가 이름을 입력할 수 있는 **[텍스트 입력](control-text-input.md)** 을 추가하는 것이 좋습니다. 두 가지 방법을 모두 제공할 수 있고 사용자가 더 익숙한 방법을 선택할 수 있습니다.

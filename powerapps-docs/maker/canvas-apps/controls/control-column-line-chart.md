@@ -15,24 +15,24 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 039b267394ef6be5e3038fa0b07149f69fee6a51
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 0804ea7140c4c2e6ab174a214d05be7d06b5e1a6
+ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="column-chart-and-line-chart-controls-in-powerapps"></a>PowerApps의 세로 막대형 차트 및 꺾은선형 차트 컨트롤
 데이터를 x 및 축이 있는 그래프로 표시하는 컨트롤입니다.
 
 ## <a name="description"></a>설명
-기본적으로는 **세로 막대형 차트** 컨트롤 또는 **꺾은선형 차트** 컨트롤은 함께 그룹으로 지정된 여러 컨트롤을 구성합니다. 이러한 컨트롤은 제목, 데이터 및 범례를 표시합니다.
+**세로 막대형 차트** 및 **꺾은선형 차트**는 그룹화된 컨트롤입니다. 각 그룹에는 세 가지 컨트롤 **[레이블](control-text-box.md)**(제목), 차트 그래픽 및 **범례**가 포함됩니다.
 
-## <a name="key-properties"></a>주요 속성
+## <a name="chart-key-properties"></a>차트 키 속성
 **[Items](properties-core.md)** – 갤러리, 목록 또는 차트와 같은 컨트롤에 표시되는 데이터 원본입니다.
 
 **NumberOfSeries** – 세로 막대형 또는 꺾은선형 차트에 반영되는 데이터의 열 수입니다.
 
-## <a name="all-properties"></a>모든 속성
+## <a name="additional-chart-properties"></a>추가 차트 속성
 **[BorderColor](properties-color-border.md)** - 컨트롤의 테두리 색입니다.
 
 **[BorderStyle](properties-color-border.md)** - 컨트롤의 테두리는 **Solid**, **Dashed**, **Dotted**, **None**입니다.
@@ -41,9 +41,9 @@ ms.lasthandoff: 03/22/2018
 
 **[Color](properties-color-border.md)** – 컨트롤의 텍스트 색입니다.
 
-**[DisplayMode](properties-core.md)** – 컨트롤이 사용자 입력을 허용(**편집**)하거나, 데이터만 표시(**보기**)하거나 사용 안 하도록(**사용 안 함**) 설정할지 선택합니다.
-
 **[DisabledBorderColor](properties-color-border.md)** – 컨트롤의 **[DisplayMode](properties-core.md)** 속성이 **Disabled**로 설정된 경우 컨트롤의 테두리 색입니다.
+
+**[DisplayMode](properties-core.md)** – 컨트롤이 사용자 입력을 허용(**편집**)하거나, 데이터만 표시(**보기**)하거나 사용 안 하도록(**사용 안 함**) 설정할지 선택합니다.
 
 **[Font](properties-text.md)** – 텍스트가 표시되는 글꼴의 제품군 이름입니다.
 
@@ -91,6 +91,8 @@ ms.lasthandoff: 03/22/2018
 
 **[Size](properties-text.md)** -컨트롤에 표시되는 텍스트의 글꼴 크기입니다.
 
+**[TabIndex](properties-accessibility.md)** – 다른 컨트롤에 관련된 키보드 탐색 순서입니다.
+
 **[Visible](properties-core.md)** – 컨트롤을 표시하거나 숨길지 여부를 선택합니다.
 
 **[Width](properties-size-location.md)** – 컨트롤의 왼쪽 및 오른쪽 가장자리 사이의 간격입니다.
@@ -103,11 +105,11 @@ ms.lasthandoff: 03/22/2018
 
 **YAxisMax** - 꺾은선형 차트에 대한 y-축의 최대 값입니다.
 
-* **YAxisMax** 속성은 **꺾은선형 차트**를 제외한 **세로 막대형 차트** 컨트롤에 사용 가능합니다.
+* **YAxisMax** 속성은 **세로 막대형 차트** 컨트롤을 제외한 **꺾은선형 차트** 컨트롤에 사용 가능합니다.
 
 **YAxisMin** - 꺾은선형 차트에 대한 y-축의 최소 값입니다.
 
-* **YAxisMin** 속성은 **꺾은선형 차트** 컨트롤을 제외한 **세로 막대형 차트** 컨트롤에 사용 가능합니다.
+* **YAxisMin** 속성은 **세로 막대형 차트** 컨트롤을 제외한 **꺾은선형 차트** 컨트롤에 사용 가능합니다.
 
 **YLabelAngle** – 꺾은선형 또는 세로 막대형 차트의 y-축 옆에 있는 레이블의 각도입니다.
 
@@ -126,3 +128,26 @@ ms.lasthandoff: 03/22/2018
    
     이 컨트롤은 3년 동안 각 제품에 대한 수익 데이터를 표시합니다.
 
+
+## <a name="accessibility-guidelines"></a>접근성 지침
+### <a name="color-contrast"></a>색 대비
+다음 사이에 적절한 색 대비가 있어야 합니다.
+* **ItemColorSet**의 각 항목
+* **ItemColorSet**의 모든 항목 및 배경색
+* **[Color](properties-color-border.md)** 및 배경색
+
+### <a name="screen-reader-support"></a>화면 판독기 지원
+* 제목으로 사용할 차트 그래픽 바로 앞에 **[레이블](control-text-box.md)** 이 있어야 합니다.
+* 차트 그래픽의 요약을 추가하는 것이 좋습니다. 예를 들어 “꺾은선형 차트는 올해 3월과 8월 사이의 지속적인 판매 증가세를 보여줍니다.”를 추가합니다.
+> [!NOTE]
+> 차트 그래픽 및 **범례**는 화면 읽기 프로그램 사용자에게 숨겨집니다. 대신 데이터의 테이블 형식으로 표시됩니다. 차트에서 데이터를 선택하는 단추를 순환할 수도 있습니다.
+
+### <a name="low-vision-support"></a>저시력 사용자 지원
+* 둘 이상의 계열이 표시되는 경우 **범례**가 있어야 합니다.
+* **GridStyle**을 두 축을 모두 표시하는 GridStyle.All로 설정하는 것이 좋습니다. 이렇게 하면 모든 사용자가 데이터의 소수 자릿수를 정확하게 확인할 수 있습니다.
+* **세로 막대형 차트**의 경우 **Markers**를 **true**로 설정하는 것이 좋습니다. 이렇게 하면 저시력 사용자가 열 값을 확인할 수 있습니다.
+
+### <a name="keyboard-support"></a>키보드 지원
+* 키보드 사용자가 탐색할 수 있도록 **[TabIndex](properties-accessibility.md)** 가 0 이상이어야 합니다.
+> [!NOTE]
+> 키보드 사용자가 차트로 이동하면 차트에서 데이터를 선택하는 단추를 순환할 수 있습니다.

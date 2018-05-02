@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: c3ed17faae5963f71531b2fdc2ef9b08ee2569cc
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 4b71bc87dd302f83854a79a03ffb41cb98a99f5e
+ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="pdf-viewer-control-experimental-in-powerapps"></a>PowerApps의 PDF 뷰어 컨트롤(실험)
 PDF 파일의 콘텐츠를 표시하는 실험적 컨트롤입니다.
@@ -104,3 +104,12 @@ PowerApps에서 문서를 열 수 없는 경우 외부 브라우저에서 문서
     컨트롤은 PDF 파일을 보여줍니다.
 
     [컨트롤을 추가하고 구성](../add-configure-controls.md)하는 방법을 모르시나요?
+
+
+## <a name="accessibility-guidelines"></a>접근성 지침
+**PDF 뷰어**가 여전히 실험 단계에 있기 때문에 PDF 문서의 일부 접근성 기능이 지원되지 않습니다. 따라서 사용자가 외부 응용 프로그램에서 문서를 열 수 있으려면 **ShowControls**를 **true**로 설정해야 합니다.
+
+[WCAG 2.0](https://www.w3.org/TR/WCAG-TECHS/pdf.html) 및 [PDF/UA](https://www.pdfa.org/pdfua-the-iso-standard-for-universal-accessibility/) 표준을 사용하여 접근성 있는 PDF 문서를 만드는 방법을 알아봅니다.
+
+### <a name="screen-reader-support"></a>화면 판독기 지원
+* PDF 문서에 제목이 없는 경우 **[레이블](control-text-box.md)** 을 제목을 추가하는 것이 좋습니다. 제목은 **PDF 뷰어** 바로 앞에 배치할 수 있습니다.

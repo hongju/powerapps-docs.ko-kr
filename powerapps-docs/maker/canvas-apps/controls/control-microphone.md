@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 3ffede0018a371b3c3a4cf4a3a1f9fc8115140de
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 8f49b7dbe6186c9c984b27f4c5b07273e88f1963
+ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="microphone-control-in-powerapps"></a>PowerApps의 마이크 컨트롤
 사용자가 사운드를 녹음할 수 있는 컨트롤입니다.
@@ -33,6 +33,8 @@ ms.lasthandoff: 03/22/2018
 **OnStop** – 사용자가 마이크 컨트롤로 녹음을 중지할 때 앱이 응답하는 방식입니다.
 
 ## <a name="additional-properties"></a>추가 속성
+**[AccessibleLabel](properties-accessibility.md)** – 화면 읽기 프로그램의 레이블입니다. 마이크의 목적을 설명해야 합니다.
+
 **[BorderColor](properties-color-border.md)** - 컨트롤의 테두리 색입니다.
 
 **[BorderStyle](properties-color-border.md)** - 컨트롤의 테두리는 **Solid**, **Dashed**, **Dotted**, **None**입니다.
@@ -50,6 +52,10 @@ ms.lasthandoff: 03/22/2018
 **[DisabledFill](properties-color-border.md)** – 컨트롤의 **[DisplayMode](properties-core.md)** 속성이 **Disabled**로 설정된 경우 컨트롤의 배경색입니다.
 
 **[Fill](properties-color-border.md)** - 컨트롤의 배경색입니다.
+
+**[FocusedBorderColor](properties-color-border.md)** – 컨트롤에 포커스가 있을 때 컨트롤의 테두리 색입니다.
+
+**[FocusedBorderThickness](properties-color-border.md)** – 컨트롤에 포커스가 있을 때 컨트롤의 테두리 두께입니다.
 
 **[Height](properties-size-location.md)** – 컨트롤의 위쪽 및 아래쪽 가장자리 사이의 간격입니다.
 
@@ -75,6 +81,8 @@ ms.lasthandoff: 03/22/2018
 
 **[Reset](properties-core.md)** – 컨트롤이 기본값으로 되돌아가는지 여부입니다.
 
+**[TabIndex](properties-accessibility.md)** – 다른 컨트롤에 관련된 키보드 탐색 순서입니다.
+
 **[Tooltip](properties-core.md)** – 사용자가 마우스로 컨트롤을 가리킬 때 표시되는 설명 텍스트입니다.
 
 **[Visible](properties-core.md)** – 컨트롤을 표시하거나 숨길지 여부를 선택합니다.
@@ -90,7 +98,7 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="example"></a>예
 ### <a name="add-sounds-to-a-custom-gallery-control"></a>사운드를 사용자 지정 갤러리 컨트롤에 추가
-1. **마이크**를 추가하고 이름을 **MyMic**로 지정한 다음, **OnStop** 속성을 다음 서식으로 지정합니다.<br>
+1. **마이크**를 추가하고 이름을 **MyMic**로 지정한 후, **OnStop** 속성을 다음 서식으로 지정합니다.<br>
    **Collect(MySounds, MyMic.Audio)**
    
     [컨트롤을 추가, 이름을 지정하고, 구성](../add-configure-controls.md)하는 방법을 모르시나요?
@@ -101,7 +109,22 @@ ms.lasthandoff: 03/22/2018
 4. F5 키를 누르고 녹음을 시작하려면 **MyMic**를 클릭하거나 탭하고, 녹음을 중지하려면 다시 클릭하거나 탭합니다.
 5. **사용자 지정 갤러리** 컨트롤에서 녹음을 재생하려면 **[오디오](control-audio-video.md)** 컨트롤의 재생 단추를 클릭하거나 탭합니다.
 6. 원하는 만큼 녹음을 추가한 다음 Esc 키를 눌러 기본 작업 영역으로 돌아갑니다.
-7. (선택 사항) **사용자 지정 갤러리** 컨트롤에 대한 템플릿에서 **[단추](control-button.md)** 컨트롤을 추가하고 **[OnSelect](properties-core.md)** 속성을 **Remove(MySounds, ThisItem)**로 설정한 다음, F5 키를 누르고 해당 **단추** 컨트롤을 클릭하거나 탭하여 녹음을 제거합니다.
+7. (선택 사항) **사용자 지정 갤러리** 컨트롤에 대한 템플릿에서 **[단추](control-button.md)** 컨트롤을 추가하고 **[OnSelect](properties-core.md)** 속성을 **Remove(MySounds, ThisItem)** 로 설정한 다음, F5 키를 누르고 해당 **단추** 컨트롤을 클릭하거나 탭하여 녹음을 제거합니다.
 
 **[SaveData](../functions/function-savedata-loaddata.md)** 함수를 사용하여 녹음을 로컬에서 저장하거나, **[Patch](../functions/function-patch.md)** 함수를 사용하여 데이터 원본을 업데이트합니다.
 
+
+## <a name="accessibility-guidelines"></a>접근성 지침
+**마이크**는 특수화된 단추이므로 **[단추](control-button.md)** 에 대한 동일한 지침이 적용됩니다. 또한 다음을 고려하세요.
+
+### <a name="audio-alternatives"></a>오디오 대체 항목
+* 언어 장애가 있거나 마이크가 없는 사용자를 위한 대체 입력 양식을 추가하는 것이 좋습니다. 예를 들어 사용자가 텍스트를 입력할 수 있는 **[텍스트 입력](control-text-input.md)** 이 있습니다.
+
+### <a name="color-contrast"></a>색 대비
+다음 사이에 적절한 색 대비가 있어야 합니다.
+* **[Image](properties-visual.md)** 및 단추 텍스트/아이콘(해당하는 경우)
+
+이는 표준 색 대비 요구 사항에 추가됩니다.
+
+### <a name="screen-reader-support"></a>화면 판독기 지원
+* **[AccessibleLabel](properties-accessibility.md)** 이 있어야 합니다.

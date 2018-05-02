@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 07/06/2017
 ms.author: gregli
-ms.openlocfilehash: c238a441c147c148fa619e6068579b75d643339a
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 9a82f23206c635733f519a67c83f864709f98c42
+ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="edit-form-and-display-form-controls-in-powerapps"></a>PowerApps의 편집 양식 및 표시 양식 컨트롤
 데이터 원본에서 레코드를 표시하고, 편집하고, 만듭니다.
@@ -49,16 +49,16 @@ ms.lasthandoff: 03/22/2018
 * 단추의 **[Text](properties-core.md)** 속성을 **변경 내용 저장**으로 표시하고 그 **[OnSelect](properties-core.md)** 속성은 **[SubmitForm](../functions/function-form.md)** 함수를 포함하는 수식으로 설정할 수 있습니다.  사용자가 해당 단추를 선택하고 데이터 원본이 업데이트되면 양식의 값이 데이터 원본의 기본값으로 재설정됩니다.
 
 ### <a name="save-changes"></a>변경 내용 저장
-앞 섹션에서 설명한 것처럼 **변경 내용 저장** 단추를 만들면 사용자가 해당 단추를 선택하여 레코드를 만들거나 업데이트한 다음 변경 내용을 데이터 원본에 저장할 수 있습니다. 또는 **[SubmitForm](../functions/function-form.md)** 함수를 사용하여 구성하기만 한다면 **[이미지](control-image.md)** 컨트롤이나 다른 컨트롤이 동일한 작업을 수행하도록 구성할 수 있습니다.  어느 경우에나 **Error**, **ErrorKind**, **OnSuccess** 및 **OnFailure** 속성은 결과에 대한 피드백을 제공합니다.
+앞 섹션에서 설명한 것처럼 **변경 내용 저장** 단추를 만들면 사용자가 해당 단추를 선택하여 레코드를 만들거나 업데이트한 다음, 변경 내용을 데이터 원본에 저장할 수 있습니다. 또는 **[SubmitForm](../functions/function-form.md)** 함수를 사용하여 구성하기만 한다면 **[이미지](control-image.md)** 컨트롤이나 다른 컨트롤이 동일한 작업을 수행하도록 구성할 수 있습니다.  어느 경우에나 **Error**, **ErrorKind**, **OnSuccess** 및 **OnFailure** 속성은 결과에 대한 피드백을 제공합니다.
 
 **[SubmitForm](../functions/function-form.md)** 함수가 실행되면 먼저 사용자가 제출하려는 데이터의 유효성을 검사합니다. 필수 필드에 값이 없거나 다른 값이 어떤 제약 조건에 부합하지 않는 경우 **ErrorKind** 속성이 설정되고 **OnFailure** 수식이 실행됩니다. 데이터가 올바른 경우에만(즉 양식의 **Valid** 속성이 **true**인 경우) 사용자가 선택할 수 있게 **변경 내용 저장** 단추 또는 기타 컨트롤을 구성할 수 있습니다. 사용자는 문제를 해결할 뿐 아니라 **변경 내용 저장** 단추를 다시 선택하여(또는 앞서 설명한 대로 **취소** 단추를 선택하여 변경 내용 취소) **Error** 및 **ErrorKind** 속성을 다시 설정해야 합니다.
 
-데이터가 유효성 검사를 통과할 경우 **[SubmitForm](../functions/function-form.md)**이 데이터를 데이터 원본에 보내며 여기서 네트워크 대기 시간에 따라 다소 시간이 걸릴 수 있습니다.
+데이터가 유효성 검사를 통과할 경우 **[SubmitForm](../functions/function-form.md)** 이 데이터를 데이터 원본에 보내며 여기서 네트워크 대기 시간에 따라 다소 시간이 걸릴 수 있습니다.
 
 * 제출에 성공하면 **Error** 속성이 지워지고 **ErrorKind** 속성이 **ErrorKind.None**으로 설정되며 **OnSuccess** 수식이 실행됩니다. 사용자라 레코드를 만든 경우(즉 양식이 이전에 **새로 만들기** 모드였음) 양식이 **편집** 모드로 전환되어 사용자가 새로 만든 레코드나 다른 레코드를 편집할 수 있게 됩니다.
 * 제출에 실패하면 **Error** 속성에 사용자에게 친숙한 데이터 원본의 오류 메시지가 표시되어 문제를 설명합니다. **ErrorKind** 속성은 문제에 따라 적합하게 설정되며 **OnFailure** 수식이 실행됩니다.
 
-일부 데이터 원본에서 두 사람이 동시에 동일한 레코드 업데이트를 시도하는 것을 탐지할 수 있습니다. 이 경우 **ErrorKind**가 **ErrorKind.Conflict**로 설정되며 다른 사용자의 변경 내용으로 데이터 원본을 새로 고친 다음 해당 사용자의 변경 내용을 다시 적용하는 조치를 취합니다.
+일부 데이터 원본에서 두 사람이 동시에 동일한 레코드 업데이트를 시도하는 것을 탐지할 수 있습니다. 이 경우 **ErrorKind**가 **ErrorKind.Conflict**로 설정되며 다른 사용자의 변경 내용으로 데이터 원본을 새로 고친 다음, 해당 사용자의 변경 내용을 다시 적용하는 조치를 취합니다.
 
 > [!TIP]
 > 사용자가 진행 중인 변경 내용을 취소할 수 있게 양식에 **취소** 단추를 제공할 경우, 이 속성이 화면 변경을 위한 **[Navigate](../functions/function-navigate.md)** 함수를 포함한다 하더라도 **[ResetForm](../functions/function-form.md)** 함수를 단추의 **[OnSelect](properties-core.md)** 속성에 추가합니다. 그렇지 않으면 양식이 사용자의 변경 내용을 유지합니다.
@@ -141,13 +141,13 @@ ms.lasthandoff: 03/22/2018
 **Unsaved** – **편집 양식** 컨트롤에 저장하지 않은 사용자 변경 내용이 있으면 True입니다.
 
 * 이 속성은 **편집 양식** 컨트롤에만 적용됩니다.
-* 저장되지 않은 변경 내용이 사라지기 전에 이 속성을 사용하여 사용자에게 경고합니다.  사용자가 현재 레코드에 변경 내용을 저장하기 전에 **[갤러리](control-gallery.md)**의 다른 레코드를 선택하지 않게 하려면 갤러리의 **[Disabled](properties-core.md)** 속성을 **Form.Unsaved**로 설정하고 새로 고침 작업도 사용하지 않게 설정합니다.
+* 저장되지 않은 변경 내용이 사라지기 전에 이 속성을 사용하여 사용자에게 경고합니다.  사용자가 현재 레코드에 변경 내용을 저장하기 전에 **[갤러리](control-gallery.md)** 의 다른 레코드를 선택하지 않게 하려면 갤러리의 **[Disabled](properties-core.md)** 속성을 **Form.Unsaved**로 설정하고 새로 고침 작업도 사용하지 않게 설정합니다.
 
 **Updates** – 양식 컨트롤에 로드한 레코드에 대한 데이터 원본에 다시 쓸 값입니다.  
 
 * 이 속성은 **편집 양식** 컨트롤에만 적용됩니다.
 * 이 속성을 사용하여 컨트롤 내의 카드에서 필드 값을 추출합니다.  그런 다음 이 값을 사용하여 **[Patch](../functions/function-patch.md)** 함수 호출이나 연결에서 노출된 다른 메서드로 데이터 원본을 수동으로 업데이트할 수 있습니다.  **[SubmitForm](../functions/function-form.md)** 함수를 사용하는 경우 이 속성이 필요하지 않습니다.
-* 이 속성은 값 레코드를 반환합니다.  예를 들어 양식 컨트롤에 **Name** 및 **Quantity** 필드의 카드 컨트롤이 있고 이 카드에 대한 **[Update](control-card.md)** 속성이 각각 "Widget"과 10이라면 양식 컨트롤에 대한 **Updates** 속성은 **{ Name: "Widget", Quantity: 10 }**를 반환합니다.
+* 이 속성은 값 레코드를 반환합니다.  예를 들어 양식 컨트롤에 **Name** 및 **Quantity** 필드의 카드 컨트롤이 있고 이 카드에 대한 **[Update](control-card.md)** 속성이 각각 "Widget"과 10이라면 양식 컨트롤에 대한 **Updates** 속성은 **{ Name: "Widget", Quantity: 10 }** 를 반환합니다.
 
 **Valid** – **[Card](control-card.md)** 또는 **Edit form** 컨트롤에 올바른 항목이 있고 데이터 원본에 제출할 수 있는지의 여부입니다.
 
@@ -179,3 +179,6 @@ ms.lasthandoff: 03/22/2018
 ## <a name="more-information"></a>자세한 정보
 양식이 작동하는 방법에 대한 포괄적인 개요는 [데이터 양식 이해](../working-with-forms.md)를 참조하세요.
 
+## <a name="accessibility-guidelines"></a>접근성 지침
+### <a name="screen-reader-support"></a>화면 판독기 지원
+* **[레이블](control-text-box.md)** 을 사용하여 양식에 제목을 추가해 보세요.

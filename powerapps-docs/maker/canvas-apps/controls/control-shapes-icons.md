@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 7a71695460453816dd5c63dad8477cb7ccc703d7
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 922a34c4acdaa82313edb9bf55bcb24d42af7fed
+ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="shape-controls-and-icon-controls-in-powerapps"></a>PowerApps의 도형 컨트롤 및 아이콘 컨트롤
 모양 및 동작 속성을 구성할 수 있는 그래픽입니다.
@@ -33,7 +33,13 @@ ms.lasthandoff: 03/22/2018
 **[OnSelect](properties-core.md)** – 사용자가 앱을 클릭하거나 탭할 때 앱이 응답하는 방법입니다.
 
 ## <a name="additional-properties"></a>추가 속성
+**[AccessibleLabel](properties-accessibility.md)** – 화면 읽기 프로그램의 레이블입니다.
+
 **[DisplayMode](properties-core.md)** – 컨트롤이 사용자 입력을 허용(**편집**)하거나, 데이터만 표시(**보기**)하거나 사용 안 하도록(**사용 안 함**) 설정할지 선택합니다.
+
+**[FocusedBorderColor](properties-color-border.md)** – 컨트롤에 포커스가 있을 때 컨트롤의 테두리 색입니다.
+
+**[FocusedBorderThickness](properties-color-border.md)** – 컨트롤에 포커스가 있을 때 컨트롤의 테두리 두께입니다.
 
 **[Height](properties-size-location.md)** – 컨트롤의 위쪽 및 아래쪽 가장자리 사이의 간격입니다.
 
@@ -41,7 +47,9 @@ ms.lasthandoff: 03/22/2018
 
 **[PressedBorderColor](properties-color-border.md)** – 사용자가 컨트롤을 탭하거나 클릭하는 경우 컨트롤의 테두리 색입니다.
 
-**[FocusedBorderThickness](properties-color-border.md)** - 키보드 포커스가 있을 때 컨트롤의 테두리 두께입니다.
+**[PressedFill](properties-color-border.md)** – 사용자가 컨트롤을 탭하거나 클릭하는 경우 컨트롤의 배경색입니다.
+
+**[TabIndex](properties-accessibility.md)** – 다른 컨트롤에 관련된 키보드 탐색 순서입니다.
 
 **[Visible](properties-core.md)** – 컨트롤을 표시하거나 숨길지 여부를 선택합니다.
 
@@ -67,3 +75,34 @@ ms.lasthandoff: 03/22/2018
 5. (선택 사항) Esc 키를 눌러 기본 작업 영역으로 돌아가고 **도형** 컨트롤을 **Target**에 추가한 다음, **도형** 컨트롤의 **[OnSelect](properties-core.md)** 속성을 다음 서식으로 설정합니다.
    <br>**Navigate(Source, ScreenTransition.Fade)**
 
+
+## <a name="accessibility-guidelines"></a>접근성 지침
+### <a name="color-contrast"></a>색 대비
+다음은 단추로 사용되거나 장식용으로만 사용되지 않는 그래픽에만 적용됩니다.
+
+아이콘:
+* **[Color](properties-color-border.md)** 및 **[Fill](properties-color-border.md)**
+* 기타 표준 색 대비 요구 사항이 적용됨(단추로 사용되는 경우)
+
+테두리가 있는 셰이프:
+* **[BorderColor](properties-color-border.md)** 및 컨트롤 외부 색
+* **[FocusedBorderColor](properties-color-border.md)** 및 컨트롤 외부 색(단추로 사용되는 경우)
+
+테두리가 없는 셰이프:
+* **[Fill](properties-color-border.md)** 및 컨트롤 외부 색
+* **[PressedFill](properties-color-border.md)** 및 컨트롤 외부 색(단추로 사용되는 경우)
+* **[HoverFill](properties-color-border.md)** 및 컨트롤 외부 색(단추로 사용되는 경우)
+
+### <a name="screen-reader-support"></a>화면 판독기 지원
+* 그래픽이 단추로 사용되거나 장식용으로만 사용되지 않는 경우에는 **[AccessibleLabel](properties-accessibility.md)** 이 있어야 합니다.
+* 그래픽이 장식용으로만 사용되는 경우 **[AccessibleLabel](properties-accessibility.md)** 은 비어 있거나 빈 문자열 **""** 이어야 합니다. 이렇게 하면 화면 읽기 프로그램이 그래픽을 무시합니다.
+* 그래픽이 중복 정보를 제공하는 경우 **[AccessibleLabel](properties-accessibility.md)** 은 비어 있거나 빈 문자열 **""** 일 수 있습니다.
+    * 예를 들어 **[AccessibleLabel](properties-accessibility.md)** 이 **설정**으로 설정된 **설정** 아이콘이 있습니다. 이 아이콘은 단추로 사용되지 않습니다. **설정**으로도 표시된 **[레이블](control-text-box.md)** 옆에 있습니다. 화면 읽기 프로그램은 아이콘을 **설정**으로 읽고 레이블을 다시 **설정**으로 읽습니다. 이는 불필요하게 자세한 정보입니다. 이 경우 아이콘에는 **[AccessibleLabel](properties-accessibility.md)** 이 필요하지 않습니다.
+> [!IMPORTANT]
+> 화면 읽기 프로그램은 **[AccessibleLabel](properties-accessibility.md)** 이 비어 있는 경우에도 항상 0 이상의 **[TabIndex](properties-accessibility.md)** 가 있는 아이콘 또는 셰이프를 읽습니다. 이는 이미지가 단추로 렌더링되기 때문입니다. **[AccessibleLabel](properties-accessibility.md)** 이 제공되지 않으면 화면 읽기 프로그램은 그래픽을 **단추**로만 읽습니다.
+
+### <a name="keyboard-support"></a>키보드 지원
+* 그래픽이 단추로 사용되는 경우 **[TabIndex](properties-accessibility.md)** 는 0 이상이어야 합니다. 이 경우 키보드 사용자가 이미지로 이동할 수 있습니다.
+* 그래픽이 단추로 사용되는 경우 포커스 표시기는 명확하게 표시되어야 합니다. **[FocusedBorderColor](properties-color-border.md)** 및 **[FocusedBorderThickness](properties-color-border.md)** 를 사용하여 이를 달성합니다.
+> [!NOTE]
+> **[TabIndex](properties-accessibility.md)** 가 0 이상이면 아이콘 또는 셰이프가 단추로 렌더링됩니다. 시각적 모양은 변경되지 않지만 화면 읽기 프로그램은 이미지를 단추로 올바르게 식별합니다. **[TabIndex](properties-accessibility.md)** 가 0보다 작으면 아이콘 또는 셰이프가 이미지로 식별됩니다.

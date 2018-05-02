@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: dc10ac44c1c14f182c39176a6b0216f3ede3816d
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 81465979cce5adf0596cf8c95f8887e0170007a9
+ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="slider-control-in-powerapps"></a>PowerApps의 슬라이더 컨트롤
 사용자가 핸들을 끌어 값을 지정할 수 있는 컨트롤입니다.
@@ -37,23 +37,29 @@ ms.lasthandoff: 03/22/2018
 **[Value](properties-core.md)** – 입력 컨트롤의 값입니다.
 
 ## <a name="additional-properties"></a>추가 속성
+**[AccessibleLabel](properties-accessibility.md)** – 화면 읽기 프로그램의 레이블입니다.
+
 **[BorderColor](properties-color-border.md)** - 컨트롤의 테두리 색입니다.
 
 **[BorderStyle](properties-color-border.md)** - 컨트롤의 테두리는 **Solid**, **Dashed**, **Dotted**, **None**입니다.
 
 **[BorderThickness](properties-color-border.md)** - 컨트롤의 테두리 굵기입니다.
 
-**[FocusedBorderThickness](properties-color-border.md)** - 키보드 포커스가 있을 때 컨트롤의 테두리 두께입니다.
-
 **[DisplayMode](properties-core.md)** – 컨트롤이 사용자 입력을 허용(**편집**)하거나, 데이터만 표시(**보기**)하거나 사용 안 하도록(**사용 안 함**) 설정할지 선택합니다.
 
 **[DisabledBorderColor](properties-color-border.md)** – 컨트롤의 **[DisplayMode](properties-core.md)** 속성이 **Disabled**로 설정된 경우 컨트롤의 테두리 색입니다.
+
+**[FocusedBorderColor](properties-color-border.md)** – 컨트롤에 포커스가 있을 때 컨트롤의 테두리 색입니다.
+
+**[FocusedBorderThickness](properties-color-border.md)** – 컨트롤에 포커스가 있을 때 컨트롤의 테두리 두께입니다.
 
 **HandleActiveFill** – 사용자가 값 변경 시 슬라이더에 대한 핸들의 색입니다.
 
 **HandleFill** – 토클 또는 슬라이더 컨트롤에서 핸들(위치를 바꾸는 요소)의 색입니다.
 
 **HandleHoverFill** – 사용자가 해당 컨트롤에 마우스 포인터를 올려두는 경우 슬라이더의 핸들 색입니다.
+
+**HandleSize** - 핸들의 지름입니다.
 
 **[Height](properties-size-location.md)** – 컨트롤의 위쪽 및 아래쪽 가장자리 사이의 간격입니다.
 
@@ -75,9 +81,9 @@ ms.lasthandoff: 03/22/2018
 
 **[Reset](properties-core.md)** – 컨트롤이 기본값으로 되돌아가는지 여부입니다.
 
-**ShowValue** – 사용자가 해당 값을 변경하거나 컨트롤을 마우스로 가리킬 때 슬라이더 또는 등급의 값이 나타나는지 여부를 선택합니다.
+**ShowValue** – 사용자가 해당 값을 변경하거나 마우스로 컨트롤을 가리킬 때 슬라이더 또는 등급의 값을 표시하는지 여부입니다.
 
-**[TabIndex](properties-accessibility.md)** – 0 이외의 값으로 설정된 경우 런타임 시 컨트롤의 탭 순서를 사용자 지정합니다.
+**[TabIndex](properties-accessibility.md)** – 다른 컨트롤에 관련된 키보드 탐색 순서입니다.
 
 **[Tooltip](properties-core.md)** – 사용자가 마우스로 컨트롤을 가리킬 때 표시되는 설명 텍스트입니다.
 
@@ -112,3 +118,24 @@ ms.lasthandoff: 03/22/2018
 7. F5 키를 누르고 사용자가 지정한 값보다 큰 인구가 있는 도시만 표시하도록 **MinPopulation**을 조정합니다.
 8. 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
 
+
+## <a name="accessibility-guidelines"></a>접근성 지침
+### <a name="color-contrast"></a>색 대비
+다음 사이에 적절한 색 대비가 있어야 합니다.
+* **ValueFill** 및 **RailFill**
+* **ValueHoverFill** 및 **RailHoverFill**
+* **[FocusedBorderColor](properties-color-border.md)** 및 컨트롤 외부 색
+* **ValueFill** 및 배경색
+* **RailFill** 및 배경색
+* **ValueHoverFill** 및 배경색
+* **RailHoverFill** 및 배경색
+
+### <a name="screen-reader-support"></a>화면 판독기 지원
+* **[AccessibleLabel](properties-accessibility.md)** 이 있어야 합니다.
+
+### <a name="keyboard-support"></a>키보드 지원
+* 키보드 사용자가 탐색할 수 있도록 **[TabIndex](properties-accessibility.md)** 가 0 이상이어야 합니다.
+* 포커스 표시기가 명확하게 표시되어야 합니다. **[FocusedBorderColor](properties-color-border.md)** 및 **[FocusedBorderThickness](properties-color-border.md)** 를 사용하여 이를 달성합니다.
+* 슬라이더 값은 키보드를 조작할 때 표시되어야 합니다. 이 작업은 다음 방법 중 하나로 수행할 수 있습니다.
+    * **ShowValue**를 **true**로 설정합니다.
+    * 슬라이더에 인접한 **[레이블](control-text-box.md)** 을 추가합니다. 레이블의 **[텍스트](properties-core.md)** 를 슬라이더의 **[값](properties-core.md)** 으로 설정합니다.

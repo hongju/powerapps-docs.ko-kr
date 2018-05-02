@@ -13,16 +13,24 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/05/2018
+ms.date: 04/12/2018
 ms.author: sharik
-ms.openlocfilehash: 6df3a0d92f8dd8352f93bdb377ac9c4b446e1e99
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 8a241ff41abf5f3fe804330d6678b70cf0576ceb
+ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="common-issues-and-resolutions-for-powerapps"></a>PowerApps의 일반적인 문제 및 해결 방법
 ## <a name="recently-addedchanged"></a>최근에 추가/변경된 내용
+1. **사용자 지정 이미지를 앱 아이콘으로 사용**
+
+    Windows용 PowerApps Studio 버전 3.18043에서는 앱 아이콘으로 사용할 사용자 지정 이미지를 업로드할 수 없습니다. 이 문제를 해결하려면 [웹용 PowerApps Studio](https://web.powerapps.com)를 사용하여 사용자 지정 이미지를 업로드합니다. 또는 Windows용 PowerApps Studio에 포함된 아이콘 중 하나를 사용하고 배경색을 사용자 지정할 수 있습니다.
+
+1. **앱 간에 화면 복사 및 붙여넣기**
+
+    앱 간에 화면 복사 및 붙여넣기는 현재 지원되지 않습니다. 이 문제를 해결하려면 대상 앱에 새 화면을 추가하고, 원본 앱의 화면에서 컨트롤을 복사한 다음, 대상 앱의 화면에 붙여넣습니다.
+
 1. **SharePoint 폼의 레이아웃 변경**
 
     특정 언어의 SharePoint 목록 폼을 사용자 지정하는 동안 레이아웃을 세로(기본값)에서 가로로 변경하려고 하면 앱에 여러 오류가 표시될 수 있습니다(컨트롤에 노란색 삼각형). 이러한 오류를 해결하고 가로 레이아웃을 유지하려면 **실행 취소**를 클릭합니다.
@@ -61,7 +69,7 @@ ms.lasthandoff: 03/22/2018
 
 7. **공백이 포함된 열 이**
 
-    열 이름에 공백이 포함된 SharePoint 목록 또는 Excel 테이블을 사용하는 경우 PowerApps에서 공백이 **"\_x0020\_"**으로 바뀝니다. 예를 들어 SharePoint 또는 Excel의 **"Column Name"**은 데이터 레이아웃에 표시되거나 수식에 사용될 때 PowerApps에 **"Column_x0020_Name"**으로 나타납니다.
+    열 이름에 공백이 포함된 SharePoint 목록 또는 Excel 테이블을 사용하는 경우 PowerApps에서 공백이 **"\_x0020\_"** 으로 바뀝니다. 예를 들어 SharePoint 또는 Excel의 **"Column Name"** 은 데이터 레이아웃에 표시되거나 수식에 사용될 때 PowerApps에 **"Column_x0020_Name"** 으로 나타납니다.
 
 ## <a name="older"></a>이전 버전
 1. **공유 앱의 흐름 변경**

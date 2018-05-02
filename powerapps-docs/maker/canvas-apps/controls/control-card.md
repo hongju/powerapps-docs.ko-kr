@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: gregli
-ms.openlocfilehash: e85b7ce4c51e693d566fb50b51be48f9ab3edadd
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 1874d03f5bf01adca9969bd74e7dbed1007d86e2
+ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="card-control-in-powerapps"></a>PowerApps의 카드 컨트롤
 **[표시 양식](control-form-detail.md)** 또는 **[편집 양식](control-form-detail.md)** 컨트롤의 단일 필드에 대한 표시 및 편집 경험을 제공합니다.
@@ -101,3 +101,11 @@ ms.lasthandoff: 03/22/2018
 ## <a name="examples"></a>예
 [데이터 카드 이해](../working-with-cards.md) 및 [데이터 양식 레이아웃 이해](../working-with-form-layout.md)에서 예를 참조하세요.
 
+
+## <a name="accessibility-guidelines"></a>접근성 지침
+### <a name="color-contrast"></a>색 대비
+다음 사이에 적절한 색 대비가 있어야 합니다.
+* **[Fill](properties-color-border.md)** 및 자식 컨트롤. 예를 들어 카드에 **[레이블](control-text-box.md)** 이 포함되어 있고 레이블에 투명한 채우기가 있는 경우 카드의 **[Fill](properties-color-border.md)** 은 효과적으로 레이블의 배경색이 됩니다. 따라서 카드의 **[Fill](properties-color-border.md)** 과 레이블의 **[Color](properties-color-border.md)** 사이에 적절한 대비가 있어야 합니다.
+
+### <a name="screen-reader-support"></a>화면 판독기 지원
+* **DisplayName**이 있어야 합니다.

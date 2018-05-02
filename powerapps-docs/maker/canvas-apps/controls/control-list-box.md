@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 71f3493064e7b877a501f9b91f93adedb0c68f6a
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: d68e0e08b42bf0342e27c14ab7d53c746c468992
+ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="list-box-control-in-powerapps"></a>PowerApps의 목록 상자 컨트롤
 사용자가 하나 또는 여러 개의 항목을 선택할 수 있는 목록입니다.
@@ -35,13 +35,13 @@ ms.lasthandoff: 03/22/2018
 [!INCLUDE [long-items](../../../includes/long-items.md)]
 
 ## <a name="additional-properties"></a>추가 속성
+**[AccessibleLabel](properties-accessibility.md)** – 화면 읽기 프로그램의 레이블입니다.
+
 **[BorderColor](properties-color-border.md)** - 컨트롤의 테두리 색입니다.
 
 **[BorderStyle](properties-color-border.md)** - 컨트롤의 테두리는 **Solid**, **Dashed**, **Dotted**, **None**입니다.
 
 **[BorderThickness](properties-color-border.md)** - 컨트롤의 테두리 굵기입니다.
-
-**[FocusedBorderThickness](properties-color-border.md)** - 키보드 포커스가 있을 때 컨트롤의 테두리 두께입니다.
 
 **[Color](properties-color-border.md)** – 컨트롤의 텍스트 색입니다.
 
@@ -54,6 +54,10 @@ ms.lasthandoff: 03/22/2018
 **[DisabledFill](properties-color-border.md)** – 컨트롤의 **[DisplayMode](properties-core.md)** 속성이 **Disabled**로 설정된 경우 컨트롤의 배경색입니다.
 
 **[Fill](properties-color-border.md)** - 컨트롤의 배경색입니다.
+
+**[FocusedBorderColor](properties-color-border.md)** – 컨트롤에 포커스가 있을 때 컨트롤의 테두리 색입니다.
+
+**[FocusedBorderThickness](properties-color-border.md)** – 컨트롤에 포커스가 있을 때 컨트롤의 테두리 두께입니다.
 
 **[Font](properties-text.md)** – 텍스트가 표시되는 글꼴의 제품군 이름입니다.
 
@@ -103,7 +107,7 @@ ms.lasthandoff: 03/22/2018
 
 **[Strikethrough](properties-text.md)** - 컨트롤에 표시되는 텍스트 중앙에 선을 표시할지 여부를 선택합니다.
 
-**[TabIndex](properties-accessibility.md)** – 0 이외의 값으로 설정된 경우 런타임 시 컨트롤의 탭 순서를 사용자 지정합니다.
+**[TabIndex](properties-accessibility.md)** – 다른 컨트롤에 관련된 키보드 탐색 순서입니다.
 
 **[Tooltip](properties-core.md)** – 사용자가 마우스로 컨트롤을 가리킬 때 표시되는 설명 텍스트입니다.
 
@@ -121,7 +125,7 @@ ms.lasthandoff: 03/22/2018
 [**Distinct**( *DataSource*, *ColumnName* )](../functions/function-distinct.md)
 
 ## <a name="example"></a>예
-1. **목록 상자** 컨트롤을 추가하고 이름을 **CategoryList**로 지정한 다음 **[Items](properties-core.md)** 속성을 다음 수식으로 설정합니다.<br>
+1. **목록 상자** 컨트롤을 추가하고 이름을 **CategoryList**로 지정한 다음, **[Items](properties-core.md)** 속성을 다음 수식으로 설정합니다.<br>
    **["Carpet","Hardwood","Tile"]**
    
     [컨트롤을 추가, 이름을 지정하고, 구성](../add-configure-controls.md)하는 방법을 모르시나요?
@@ -149,3 +153,22 @@ ms.lasthandoff: 03/22/2018
     ![드롭다운 목록의 바닥재 이름](./media/control-list-box/selected-lists.png)
 6. (선택 사항) 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
 
+
+## <a name="accessibility-guidelines"></a>접근성 지침
+### <a name="color-contrast"></a>색 대비
+다음 사이에 적절한 색 대비가 있어야 합니다.
+* **SelectionColor** 및 **SelectionFill**
+* **SelectionFill** 및 **[Fill](properties-color-border.md)**
+* **[HoverFill](properties-color-border.md)** 및 **[Fill](properties-color-border.md)**
+* **[PressedFill](properties-color-border.md)** 및 **[Fill](properties-color-border.md)**
+
+이는 표준 색 대비 요구 사항에 추가됩니다.
+
+### <a name="screen-reader-support"></a>화면 판독기 지원
+* **[AccessibleLabel](properties-accessibility.md)** 이 있어야 합니다.
+
+### <a name="keyboard-support"></a>키보드 지원
+* 키보드 사용자가 탐색할 수 있도록 **[TabIndex](properties-accessibility.md)** 가 0 이상이어야 합니다.
+* 포커스 표시기가 명확하게 표시되어야 합니다. **[FocusedBorderColor](properties-color-border.md)** 및 **[FocusedBorderThickness](properties-color-border.md)** 를 사용하여 이를 달성합니다.
+> [!NOTE]
+> Tab 키는 **목록 상자**로 이동하거나 멀어지도록 이동합니다. 화살표 키는 **목록 상자**의 콘텐츠를 탐색합니다.

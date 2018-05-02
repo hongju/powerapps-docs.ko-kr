@@ -1,10 +1,10 @@
 ---
-title: 웹 세미나 목록 | Microsoft Docs
-description: 과거 및 미래의 웹 세미나 목록을 시간/날짜 및 주제와 함께 보여줍니다.
+title: 웨비나 목록 | Microsoft Docs
+description: 과거 및 미래의 웨비나 목록을 시간/날짜 및 주제와 함께 보여줍니다.
 services: ''
 suite: powerapps
 documentationcenter: na
-author: anhthuchang
+author: audrieMSFT
 manager: anneta
 editor: ''
 tags: ''
@@ -13,57 +13,54 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 3/1/2018
-ms.author: v-malyng
-ms.openlocfilehash: 824f15ba3747ae5788aaa230787cf68993be2ee4
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.date: 4/18/2018
+ms.author: audrie
+ms.openlocfilehash: e26afdee008b54285e0c20e869f8ccabb8aae215
+ms.sourcegitcommit: e3a2819c14ad67cc4ca6640b9064550d0f553d8f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/20/2018
 ---
-# <a name="powerapps-webinar-listing"></a>PowerApps 웹 세미나 목록 #
-웹 세미나는 Microsoft PowerApps의 기능을 활용하는 데 도움이 됩니다. 의견이 있으시면 이 문서의 아래쪽에 제안을 추가해 주세요.
+# <a name="powerapps-webinar-listing"></a>PowerApps 웨비나 목록 #
+웨비나는 Microsoft PowerApps의 기능을 활용하는 데 도움이 됩니다. 의견이 있으시면 이 문서의 아래쪽에 제안을 추가해 주세요.
 
-## <a name="upcoming-webinars"></a>예정된 웹 세미나 ##
-**커넥터 시리즈 | Project Online(PWA)**
-<br>주체: Audrie Gordon
-<br>*3월 12일, 오전 10:00 태평양 표준시, 오후 1:00 동부 표준시*
+## <a name="upcoming-webinars"></a>예정된 웨비나 ##
+**시작하기 | Casey Burke와 함께 모델 기반 앱 템플릿 이해하기**
+<br>작성자: Casey Burke
+<br>4월 19일, 오전 10시 태평양 표준시, 오후 12시 동부 표준시
 
-이 커넥터 시리즈 데모에서는 Project Online(일명 PWA) 커넥터 옵션의 사용을 연습해 봅니다. 무료로 가입하여 포트폴리오 관리 도구와 Project Online을 활용하는 앱 빌드에 관해 질문해 보세요.
+Microsoft 프로그램 관리자 Casey Burke가 모델 기반 앱 템플릿의 아키텍처를 보여주고 분석합니다. 이러한 템플릿을 사용하고 비즈니스 목표를 해결하도록 템플릿을 사용자 지정하는 방법을 알아봅니다.
 
-[3월 12일 내용을 보려면 여기를 클릭하세요.](https://www.youtube.com/watch?v=oncGxlmFqy8)
+[4월 19일 내용을 보려면 여기를 클릭하세요.](https://www.youtube.com/watch?v=FShakkXKiS8) 
 
+**자세히 알아보기 | Dawid van Heerden이 진행하는 BPM(비즈니스 프로세스 관리)에 PowerApps 사용**
+<br>작성자: Audrie Gordon 및 Dawid van Heerden
+<br>4월 23일, 오전 10시 태평양 표준시, 오후 12시 동부 표준시
 
-**심층 분석 | PowerApps를 사용하여 서버 패치 솔루션 빌드, 작성자: Brian Blanchard(2부)**
-<br>- Brian Blanchard, Audrie Gordon
-<br>*3월 19일, 오전 10:00 태평양 표준시, 오후 1:00 동부 표준시*
-
-Brian Blanchard가 서버 패치 일정을 관리하기 위해 자신의 팀을 위한 앱을 어떻게 빌드하였는지 설명하며, 두 부분으로 이루어져 있습니다. Azure Automation 설정 및 Microsoft Flow의 고급 워크플로에 대한 자세한 뒷이야기를 풀어냅니다. PowerApps 및 Flow를 활용하여 팀을 위해 시간과 비용을 절감한 Brian을 칭찬합니다.
-
-[3월 19일 내용을 보려면 여기를 클릭하세요.](https://www.youtube.com/watch?v=oncGxlmFqy8)
-
-**심층 분석 | 클릭 광고 PowerApps 분석, 작성자: Vivek Bavishi**
-<br>작성자: Vivek Bavishi 및 Audrie Gordon
-<br>*4월 17일, 오전 10:00 태평양 표준시, 오후 1:00 동부 표준시*
-
-국제 PowerApps Champions 그룹의 Vivek Bavishi가 PowerApps 팀의 Audrie Gordon과 함께 PowerApps 및 Flow를 사용하여 사용자 고유의 클릭 광고 분석을 만들기 위한 간단한 방법을 설명합니다. 앱 소비자가 응용 프로그램을 탐색하는 방법에 대한 이해도를 높여주는 통계를 포함하도록 보고 옵션을 확장하며, 데이터를 사용하여 앱 사용량 및 디자인에 대한 가정의 유효성을 검사할 수 있습니다. 중요한 앱 결정권자인 경우 Vivek의 프레젠테이션을 놓치지 마세요.
-
-[4월 17일 내용을 보려면 여기를 클릭하세요.](https://www.youtube.com/watch?v=OM-rlhKJFTA)
-
-**커넥터 시리즈 | Common Data Service 활용의 장점**
-<br>주체: Audrie Gordon
-<br>*4월 23일 오전 10시 30분 태평양 표준시, 오후 1시 30분 동부 표준시*
-
-Common Data Service(일명 CDS) 탐색을 시작하셨나요? 비즈니스 응용 프로그램 전반에서 공통 데이터 스키마의 장점에 대해 알고 계신가요? 해당 공간에서 새롭고 흥미로운 항목에 대한 소식을 들어보셨나요?
-
-이 웹 세미나에서는 Microsoft 클라우드 구독 전반에서 Common Data Service 활용의 장점에 대해 살펴봅니다(Office 365, Azure 및 Dynamics 365 앱 사용). 이 라이브 웹 세미나를 통해 CDS와 함께 이 플랫폼을 사용하여 사용자 앱을 얼마나 강력히 모델링하는지에 대해 간략히 알아보세요. 무한한 가능성 가운데 일부를 어서 확인해 보세요!
+PowerApps는 비즈니스 응용 프로그램을 빠르게 만드는 데 아주 적합합니다. 이 비디오에서는 다양한 역할, 단계 및 라우팅 옵션과 관련된 다단계 비즈니스 프로세스를 구동하는 데 이 동일한 플랫폼을 사용하는 기능을 보여줍니다.
 
 [4월 23일 내용을 보려면 여기를 클릭하세요.](https://www.youtube.com/watch?v=JY8r46HnHoI)
 
-## <a name="past-webinars"></a>지난 웹 세미나 ##
-웹 세미나는 실시간 방송 후에 주문형으로 제공됩니다. 등록 세부 정보를 다시 입력하면 동영상 링크가 이메일로 전송됩니다.
+**자세히 알아보기 | IWMentor의 Laura Rogers가 프로덕션 앱에 대한 모범 사례를 공유함**
+<br>작성자: Audrie Gordon 및 Laura Rodgers
+<br>5월 14일, 오전 10시 태평양 표준시, 오후 12시 동부 표준시
 
-### <a name="getting-started-webinar-series"></a>웹 세미나 시리즈 시작 ###
+IW Mentor의 Laura Rogers는 교육을 받았고 수년 동안 여러 기업에 프로덕션 앱을 제공하고 있습니다. Microsoft의 구성원은 모두 Laura Rogers로부터 많은 것을 배웠고, 특히 SharePoint 기술을 작업하는 구성원이 그렇습니다. 이 웨비나 중에 Laura는 PowerApps 및 비즈니스 응용 프로그램 플랫폼을 사용하여 프로덕션 수준 앱을 빌드하기 위한 모범 사례와 진행 중 얻은 개선 사항을 공유합니다. 또한 Laura는 청구서와 측정값을 추적하기 위한 놀라운 프로덕션 앱을 보여줍니다. 이 이벤트를 놓치지 마세요. IW Mentor 웹 사이트: https://www.iwmentor.com/
+
+[5월 14일 내용을 보려면 여기를 클릭하세요.](https://www.youtube.com/watch?v=I50GtV9w7Os)
+
+**범용 감사 앱 살펴보기: Paul Culmsee와 함께 PowerApps 및 Flow에서 할 수 있는 작업 알아보기**
+<br>작성자: Paul Culmsee
+<br>6월 14일, 오후 6시 태평양 표준시, 오후 9시 동부 표준시
+
+PowerApps 쇼케이스의 이 인기 앱에 대해 한 주 동안 3~5개 요청이 생성되었습니다. 결과적으로 이 앱은 전 세계에 배포되었습니다. 이 세션에서는 이 앱이 어떻게 계획되었는지, Microsoft가 가능성을 최대화하기 위해 PowerApps 및 Flow를 어떻게 이용했는지, 그리고 클라이언트를 위해 어떤 사용자 지정이 수행되었는지 설명할 것입니다. 전 세계에서 사용 중인 전체 솔루션을 보여주며 시작하려는 사용자가 함께하면 좋을 세션입니다. 
+
+[6월 14일 내용을 보려면 여기를 클릭하세요.](https://www.youtube.com/watch?v=6Wn47bDOMEE)
+
+## <a name="past-webinars"></a>지난 웨비나 ##
+웨비나는 실시간 방송 후에 주문형으로 제공됩니다. 등록 세부 정보를 다시 입력하면 동영상 링크가 이메일로 전송됩니다.
+
+### <a name="getting-started-webinar-series"></a>웨비나 시리즈 시작 ###
 **갤러리 컨트롤 시작**
 <br>주체: Audrie Gordon [등록하고 시청하기](https://info.microsoft.com/US-EAD-WBNR-FY17-02Feb-28-GettingStartedwithPowerAppsGalleries300759_01Registration-ForminBody.html)
 
@@ -79,15 +76,19 @@ Common Data Service(일명 CDS) 탐색을 시작하셨나요? 비즈니스 응�
 **PowerApps 컨트롤 시작**
 <br>주체: Audrie Gordon [시청하기](https://www.youtube.com/watch?v=lUo0DXvJENI)
 
+**시작 | 제품 통합: 팀 + PowerApps에 대한 팁과 요령**
+<br>주체: Audrie Gordon [시청하기](https://www.youtube.com/watch?v=obBQk-aSElI)
+
 **Common Data Service 시작**
 <br>주체: Jono Luk [시청하기](https://info.microsoft.com/US-PowerBI-WBNR-FY17-04Apr-18-GettingStartedwiththeCommonDataServices312618_01Registration-ForminBody.html)
+
+**모델 기반 앱 시작**
+<br>작성자: Adrian Orth [지금 보기](https://www.youtube.com/watch?v=buDDSzJTgns)
+
 
 ### <a name="pro-topics"></a>전문가 토픽 ###
 **PowerApps 응용프로그램 배포하기**
 <br>주체: James Oleinik [시청하기](https://www.youtube.com/watch?v=LF49hFB14Cs)
-
-**PowerApps 수식 심화 과정**
-<br>주체: Greg Lindhorst [시청하기](https://www.youtube.com/watch?v=PuePMMuj5ps)
 
 **PowerApps에서 InfoPath Designer 양식 다시 작성**
 <br>주체: Daniel Christian [시청하기](https://www.youtube.com/watch?v=ohQcxcVZSK4)
@@ -131,17 +132,30 @@ Common Data Service(일명 CDS) 탐색을 시작하셨나요? 비즈니스 응�
 **PowerApps 및 Flow를 사용하여 LOB(기간 업무) "포털" 만들기**
 <br>작성자: Vishwas Lele [지금 보기](http://www.youtube.com/watch?v=eSMAAFHK44c)
 
-**커넥터 작업: 플래너 커넥터 사용**
-<br> 작성자: Audrie Gordon [지금 보기](https://www.youtube.com/watch?v=NBPL9Uw7qzg)
 
-**시작 | 제품 통합: 팀 + PowerApps에 대한 팁과 요령**
-<br>주체: Audrie Gordon [시청하기](https://www.youtube.com/watch?v=obBQk-aSElI)
+### <a name="deep-dives"></a>자세히 알아보기 ###
+**자세히 알아보기 | PowerApps 수식**
+<br>주체: Greg Lindhorst [시청하기](https://www.youtube.com/watch?v=PuePMMuj5ps)
+
+**심층 분석 | PowerApps를 사용하여 서버 패치 솔루션 빌드, 작성자 Brian Blanchard**
+<br>작성자: Brian Blanchard 및 Audrie Gordon [지금 보기](https://www.youtube.com/watch?v=QAe0oBecowU)
+
+**심층 분석 | PowerApps를 사용하여 서버 패치 솔루션 빌드, 작성자: Brian Blanchard(2부)**
+<br>작성자: Brian Blanchard 및 Audrie Gordon [지금 보기](https://www.youtube.com/watch?v=FDU7ONCN4_U)
+
+**심층 분석 | 클릭 광고 PowerApps 분석, 작성자: Vivek Bavishi**
+<br>작성자: Vivek Bavishi 및 Audrie Gordon [지금 보기](https://www.youtube.com/watch?v=OM-rlhKJFTA)
+
+
+### <a name="connector-series"></a>커넥터 시리즈 ###
+**커넥터 시리즈 | 커넥터 작업: 플래너 커넥터 사용**
+<br> 작성자: Audrie Gordon [지금 보기](https://www.youtube.com/watch?v=NBPL9Uw7qzg)
 
 **커넥터 시리즈 | PowerApps를 통한 Office Graph의 힘**
 <br>주체: Audrie Gordon [시청하기](https://www.youtube.com/watch?v=AOGGyoElGaQ)
 
-**심층 분석 | PowerApps를 사용하여 서버 패치 솔루션 빌드, 작성자 Brian Blanchard**
-<br>작성자: Brian Blanchard 및 Audrie Gordon [지금 보기](https://www.youtube.com/watch?v=QAe0oBecowU)
+**커넥터 시리즈 | Project Online(PWA)**
+<br>주체: Audrie Gordon [시청하기](https://www.youtube.com/watch?v=oncGxlmFqy8)
 
 
 ### <a name="app-designer-topics"></a>앱 디자이너 토픽 ###

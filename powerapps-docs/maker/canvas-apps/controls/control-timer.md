@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 008c992ad3452c1844064335a51593c222fb1ac1
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 092e6c76b581027e711dbe0a8109f507a2bba292
+ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="timer-control-in-powerapps"></a>PowerApps의 타이머 컨트롤
 일정 시간이 지난 후 앱이 응답하는 방식을 결정할 수 있는 컨트롤입니다.
@@ -61,6 +61,10 @@ ms.lasthandoff: 03/22/2018
 
 **[Fill](properties-color-border.md)** - 컨트롤의 배경색입니다.
 
+**[FocusedBorderColor](properties-color-border.md)** – 컨트롤에 포커스가 있을 때 컨트롤의 테두리 색입니다.
+
+**[FocusedBorderThickness](properties-color-border.md)** – 컨트롤에 포커스가 있을 때 컨트롤의 테두리 두께입니다.
+
 **[Font](properties-text.md)** – 텍스트가 표시되는 글꼴의 제품군 이름입니다.
 
 **[FontWeight](properties-text.md)** - 컨트롤의 텍스트 굵기입니다. **Bold**, **Semibold**, **Normal** 또는 **Lighter**로 설정합니다.
@@ -93,6 +97,8 @@ ms.lasthandoff: 03/22/2018
 
 **[Strikethrough](properties-text.md)** - 컨트롤에 표시되는 텍스트 중앙에 선을 표시할지 여부를 선택합니다.
 
+**[TabIndex](properties-accessibility.md)** – 다른 컨트롤에 관련된 키보드 탐색 순서입니다.
+
 **[Text](properties-core.md)** – 컨트롤에 표시되는 텍스트 또는 사용자가 컨트롤에 입력하는 텍스트입니다.
 
 **[Tooltip](properties-core.md)** – 사용자가 마우스로 컨트롤을 가리킬 때 표시되는 설명 텍스트입니다.
@@ -123,18 +129,42 @@ ms.lasthandoff: 03/22/2018
     **[RoundUp](../functions/function-round.md)** 함수 또는 [다른 함수](../formula-reference.md)에 대해 더 알고 싶으신가요?
 
     레이블은 타이머를 다시 시작하기 전까지 남은 시간(초)을 표시합니다.
-5. (선택 사항) 타이머의 **[Visible](properties-core.md)** 속성을 **false**로 설정합니다.
 
 ### <a name="animate-a-control"></a>컨트롤 애니메이션
 1. 타이머를 추가하고 이름을 **FadeIn**으로 지정합니다.
 
     [컨트롤을 추가, 이름을 지정하고, 구성](../add-configure-controls.md)하는 방법을 모르시나요?
-2. 타이머의 **Duration** 속성을 **5000**, **Repeat** 및 **Autostart** 속성을 **true**로 설정합니다.
+2. 타이머의 **Duration** 속성을 **5000**으로 설정하고, **Repeat** 속성을 **true**로 설정하고, **[Text](properties-core.md)** 속성을 **Toggle animation**으로 설정합니다.
 3. (선택 사항) 타이머를 더 판독하기 쉽게 **[Height](properties-size-location.md)** 속성을 **160**, **[Width](properties-size-location.md)** 속성을 **600**, **[Size](properties-text.md)** 속성을 **60**으로 설정합니다.
-4. 레이블을 추가하고 **[Text](properties-core.md)** 속성을 **Welcome!**을 표시하도록 설정하며 **[Color](properties-color-border.md)** 속성을 다음 수식으로 설정합니다.
+4. 레이블을 추가하고 **[Text](properties-core.md)** 속성을 **Welcome!** 을 표시하도록 설정하며 **[Color](properties-color-border.md)** 속성을 다음 수식으로 설정합니다.
    <br>**ColorFade(Color.BlueViolet, FadeIn.Value/5000)**
 
     **[ColorFade](../functions/function-colors.md)** 함수 또는 [다른 함수](../formula-reference.md)에 대해 더 알고 싶으신가요?
 
-    레이블의 텍스트가 흰색으로 흐려지며 전체 강도로 돌아가는 프로세스를 반복합니다.
-5. (선택 사항) 타이머의 **[Visible](properties-core.md)** 속성을 **false**로 설정합니다.
+5. 타이머 단추를 선택하여 애니메이션을 시작 또는 중지합니다. 레이블의 텍스트가 흰색으로 흐려지며 전체 강도로 돌아가는 프로세스를 반복합니다.
+
+
+## <a name="accessibility-guidelines"></a>접근성 지침
+**타이머**는 특수화된 단추이므로 **[단추](control-button.md)** 에 대한 동일한 지침이 적용됩니다.
+
+> [!IMPORTANT]
+> 직접적인 사용자 개입 없이 **타이머**를 제어하는 기능은 접근성을 위해 지원되지 않습니다. 예를 들어 위의 다른 컨트롤을 배치하거나 **[Visible](properties-core.md)** 속성을 **false**로 설정하여 타이머를 시각적으로 숨길 수 있습니다. 타이머는 화면이 표시되면 자동으로 시작되고 몇 시간 후에 일부 작업이 자동으로 실행됩니다. 현재 이 시나리오에 액세스할 수 있는 일반적인 방법은 없습니다.
+
+기타 접근성 지침은 다음과 같습니다.
+
+### <a name="timing"></a>타이밍
+**타이머**가 자동으로 시작되거나 중지될 경우 사용자에게 콘텐츠를 읽고 사용할 충분한 시간이 있는지를 고려하세요. 키보드 및 화면 읽기 프로그램 사용자는 시간 초과 이벤트에 반응하는 데 시간이 더 필요할 수 있습니다.
+
+이러한 전략 중 하나면 충분합니다.
+* 사용자가 시간 초과 이벤트를 취소할 수 있음
+* 사용자가 시작되기 전에 시간 제한을 조정할 수 있음
+* 시간 제한이 만료되기 전에 20초 동안 경고하고 제한을 쉽게 연장할 방법 제공
+
+일부 시나리오는 이러한 요구 사항에서 제외됩니다. [WCAG 2.0 guideline for time limits](https://www.w3.org/TR/WCAG20/#time-limits)(시간 제한에 대한 WCAG 2.0 지침)에서 자세히 알아보세요.
+
+### <a name="screen-reader-support"></a>화면 판독기 지원
+* **[Text](properties-core.md)** 가 있어야 합니다.
+* 시간에 민감한 중요 정보에는 **[Text](properties-core.md)** 를 사용하지 마세요. 화면 읽기 프로그램 사용자는 **[Text](properties-core.md)** 변경 내용의 알림을 받지 않습니다.
+> [!NOTE]
+> * 화면 읽기 프로그램은 5초마다 경과된 시간을 알립니다. 그러나 타이머 **[Text](properties-core.md)** 는 알림에 포함되지 않습니다.
+* 경과된 시간을 표시하는 **[레이블](control-text-box.md)** 을 추가하는 것이 좋습니다. 타이머의 **[Text](properties-core.md)** 를 사용하여 사용자에게 타이머를 시작하거나 중지하도록 지시합니다.

@@ -14,11 +14,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/05/2017
 ms.author: kfend
-ms.openlocfilehash: 431fb0233fa58d59a62a9d5d2cf07bfdd23d6271
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 117d55cedb7c11bcdb6f69f8c10a8df2f2512b89
+ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="data-table-control-in-powerapps"></a>PowerApps의 데이터 테이블 컨트롤
 테이블 형식으로 데이터 집합을 보여 줍니다.
@@ -121,7 +121,7 @@ PowerApps에는 2017년 5월 5일 **데이터 테이블**이 도입되었습니�
 
 ### <a name="restyle-the-header-for-the-data-table-control"></a>데이터 테이블 컨트롤의 제목 스타일 변경
 1. **데이터 테이블** 컨트롤을 선택한 상태로 오른쪽 창에서 **고급** 탭을 클릭하거나 탭합니다.
-2. **HeadingFill** 속성에 대한 필드를 클릭하거나 탭한 다음 이 값을 **RGBA(62,96,170,1)**로 변경합니다.
+2. **HeadingFill** 속성에 대한 필드를 클릭하거나 탭한 다음 이 값을 **RGBA(62,96,170,1)** 로 변경합니다.
 3. **HeadingColor** 속성에 대한 필드를 클릭하거나 탭한 다음 이 값을 **White**로 변경합니다.
 4. **HeadingSize** 속성에 대한 필드를 클릭하거나 탭한 다음 이 값을 **14**로 변경합니다.
    
@@ -145,3 +145,16 @@ PowerApps에는 2017년 5월 5일 **데이터 테이블**이 도입되었습니�
    
     ![데이터 테이블에 연결된 편집 양식](./media/control-data-table/connected-form-data-table.png)
 
+
+## <a name="accessibility-guidelines"></a>접근성 지침
+### <a name="color-contrast"></a>색 대비
+다음 사이에 적절한 색 대비가 있어야 합니다.
+* [**Color**](properties-color-border.md) 및 [**Fill**](properties-color-border.md)
+* **HeadingColor** 및 **HeadingFill**
+* **SelectedColor** 및 **SelectedFill**
+* [**HoverColor**](properties-color-border.md) 및 [**HoverFill**](properties-color-border.md)
+
+이는 표준 색 대비 요구 사항에 추가됩니다.
+
+### <a name="screen-reader-support"></a>화면 판독기 지원
+* **NoDataText**가 있어야 합니다.

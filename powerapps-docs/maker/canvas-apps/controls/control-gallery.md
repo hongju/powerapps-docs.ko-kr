@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 05/25/2017
 ms.author: sharik
-ms.openlocfilehash: 9839059cca741e47f5f519a45e7291847c1bc792
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 501dfbba3e01efe55c76d7af234e2f9064096728
+ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="gallery-control-in-powerapps"></a>PowerApps의 갤러리 컨트롤
 다른 컨트롤을 포함하고 데이터 집합을 보여주는 컨트롤입니다.
@@ -37,6 +37,8 @@ ms.lasthandoff: 03/22/2018
 **Selected** – 선택한 항목입니다.
 
 ## <a name="additional-properties"></a>추가 속성
+**[AccessibleLabel](properties-accessibility.md)** – 화면 읽기 프로그램의 레이블입니다. 항목 목록의 개념을 설명해야 합니다.
+
 **AllItems** – 갤러리의 템플릿에 속해 있는 추가 컨트롤 값을 포함하는 갤러리에 있는 모든 항목입니다.
 
 **[BorderColor](properties-color-border.md)** - 컨트롤의 테두리 색입니다.
@@ -96,3 +98,20 @@ ms.lasthandoff: 03/22/2018
 * [사운드 가져오기](control-microphone.md#example)
 * [드로잉 가져오기](control-pen-input.md#create-a-set-of-images)
 
+
+## <a name="accessibility-guidelines"></a>접근성 지침
+### <a name="color-contrast"></a>색 대비
+갤러리 항목의 아무 곳이나 클릭하면 선택되어야 하는 경우 다음 사이에 적절한 색 대비가 있어야 합니다.
+* **[BorderColor](properties-color-border.md)** 및 갤러리 외부 색(테두리가 있는 경우)
+* **[Fill](properties-color-border.md)** 및 갤러리 외부 색(테두리가 없는 경우)
+
+### <a name="screen-reader-support"></a>화면 판독기 지원
+* **[AccessibleLabel](properties-accessibility.md)** 이 있어야 합니다.
+> [!NOTE]
+> 갤러리의 항목이 변경되면 화면 읽기 프로그램이 이를 알립니다. **AccessibleLabel**도 언급됩니다. 이 언급은 알림에 대한 컨텍스트를 제공하고 동일한 화면에 여러 개의 갤러리가 있는 경우 더욱 중요합니다.
+
+### <a name="keyboard-support"></a>키보드 지원
+* **ShowScrollbar**를 **true**로 설정하는 것이 좋습니다. 대부분의 터치 스크린 장치에서 스크롤 막대는 스크롤이 시작될 때까지 표시되지 않습니다.
+* 갤러리 항목의 아무 곳이나 클릭하면 선택되어야 하는 경우에는 키보드 사용자가 갤러리 항목을 선택할 수 있는 방법도 있어야 합니다. 예를 들어 **OnSelect** 속성이 **Select(Parent)** 로 설정된 **[단추](control-button.md)** 를 추가합니다.
+> [!NOTE]
+> 갤러리 외부의 컨트롤은 갤러리 내의 키보드 탐색 순서에서 고려되지 않습니다. 갤러리 내부 컨트롤의 **[TabIndex](properties-accessibility.md)** 는 범위가 지정됩니다. 자세한 내용은 [접근성 속성](properties-accessibility.md)을 참조하세요.

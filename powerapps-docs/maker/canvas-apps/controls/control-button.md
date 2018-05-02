@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 3bab51ee290d779cd01789f55ee7c5908395537a
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: aec9071cf5cc7cbe451bae32dedc2ba119e21189
+ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="button-control-in-powerapps"></a>PowerApps의 단추 컨트롤
 사용자가 클릭하거나 탭하여 앱과 상호 작용할 수 있는 컨트롤입니다.
@@ -43,8 +43,6 @@ ms.lasthandoff: 03/22/2018
 
 **[BorderThickness](properties-color-border.md)** - 컨트롤의 테두리 굵기입니다.
 
-**[FocusedBorderThickness](properties-color-border.md)** - 키보드 포커스가 있을 때 컨트롤의 테두리 두께입니다.
-
 **[Color](properties-color-border.md)** – 컨트롤의 텍스트 색입니다.
 
 **[DisplayMode](properties-core.md)** – 컨트롤이 사용자 입력을 허용(**편집**)하거나, 데이터만 표시(**보기**)하거나 사용 안 하도록(**사용 안 함**) 설정할지 선택합니다.
@@ -54,6 +52,10 @@ ms.lasthandoff: 03/22/2018
 **[DisabledColor](properties-color-border.md)** – 컨트롤의 **[DisplayMode](properties-core.md)** 속성이 **Disabled**로 설정된 경우 컨트롤의 텍스트 색입니다.
 
 **[DisabledFill](properties-color-border.md)** – 컨트롤의 **[DisplayMode](properties-core.md)** 속성이 **Disabled**로 설정된 경우 컨트롤의 배경색입니다.
+
+**[FocusedBorderColor](properties-color-border.md)** – 컨트롤에 포커스가 있을 때 컨트롤의 테두리 색입니다.
+
+**[FocusedBorderThickness](properties-color-border.md)** – 컨트롤에 포커스가 있을 때 컨트롤의 테두리 두께입니다.
 
 **[Fill](properties-color-border.md)** - 컨트롤의 배경색입니다.
 
@@ -99,7 +101,7 @@ ms.lasthandoff: 03/22/2018
 
 **[Strikethrough](properties-text.md)** - 컨트롤에 표시되는 텍스트 중앙에 선을 표시할지 여부를 선택합니다.
 
-**[TabIndex](properties-accessibility.md)** – 0 이외의 값으로 설정된 경우 런타임 시 컨트롤의 탭 순서를 사용자 지정합니다.
+**[TabIndex](properties-accessibility.md)** – 다른 컨트롤에 관련된 키보드 탐색 순서입니다.
 
 **[Tooltip](properties-core.md)** – 사용자가 마우스로 컨트롤을 가리킬 때 표시되는 설명 텍스트입니다.
 
@@ -163,24 +165,36 @@ ms.lasthandoff: 03/22/2018
 기본적으로 PowerApps는 모서리가 둥근 직사각 **단추** 컨트롤을 만듭니다. **단추** 컨트롤의 **[Height](properties-size-location.md)**, **[Width](properties-size-location.md)** 및 **[Radius](properties-size-location.md)** 속성을 설정하여 기본적인 모양을 수정할 수 있습니다.
 
 > [!NOTE]
-> [아이콘 및 셰이프](control-shapes-icons.md)는 다양한 디자인을 제공하며 **단추** 컨트롤이 수행하는 것과 동일한 기본 함수 중 일부를 수행할 수 있습니다. 그러나  **[아이콘 및 셰이프](control-shapes-icons.md)**에는 **[Text](properties-core.md)** 속성이 없습니다.
+> [아이콘 및 셰이프](control-shapes-icons.md)는 다양한 디자인을 제공하며 **단추** 컨트롤이 수행하는 것과 동일한 기본 함수 중 일부를 수행할 수 있습니다. 그러나  **[아이콘 및 셰이프](control-shapes-icons.md)** 에는 **[Text](properties-core.md)** 속성이 없습니다.
 
 1. **단추** 컨트롤을 추가하고 **[Height](properties-size-location.md)** 및 **[Width](properties-size-location.md)** 속성을 **300**으로 설정하여 큰 정사각 단추를 만듭니다.
 2. **[RadiusTopLeft](properties-size-location.md)**, **[RadiusTopRight](properties-size-location.md)**, **[RadiusBottomLeft](properties-size-location.md)** 및 **[RadiusBottomRight](properties-size-location.md)** 속성을 수정하여 각 모서리의 곡률 정도를 조절합니다. 각각 300 x 300 정사각 단추에서 시작하는 다양한 셰이프의 예는 다음과 같습니다.
    
    * 4개 **[Radius](properties-size-location.md)** 값을 모두 **150**으로 설정하여 원을 만듭니다.
-   * **[RadiusTopLeft](properties-size-location.md)** 및**[RadiusBottomRight](properties-size-location.md)**의 값을 **300**으로 설정하여 리프형 **단추**를 만듭니다.
-   * **[RadiusTopLeft](properties-size-location.md)** 및**[RadiusTopRight](properties-size-location.md)**의 값을 **300**, **[RadiusBottomLeft](properties-size-location.md)** 및 **[RadiusBottomRight](properties-size-location.md)**의 값을 **100**으로 설정하여 탭 모양 단추를 만듭니다.
+   * **[RadiusTopLeft](properties-size-location.md)** 및**[RadiusBottomRight](properties-size-location.md)** 의 값을 **300**으로 설정하여 리프형 **단추**를 만듭니다.
+   * **[RadiusTopLeft](properties-size-location.md)** 및**[RadiusTopRight](properties-size-location.md)** 의 값을 **300**, **[RadiusBottomLeft](properties-size-location.md)** 및 **[RadiusBottomRight](properties-size-location.md)** 의 값을 **100**으로 설정하여 탭 모양 단추를 만듭니다.
 
 #### <a name="change-a-buttons-color-when-you-hover-over-it"></a>마우스로 가리킬 때 단추의 색 변경
 기본적으로 **단추** 컨트롤의 채우기 색은 마우스로 가리킬 때 20% 흐려집니다. **[ColorFade](../functions/function-colors.md)** 함수를 사용하는**[HoverFill](properties-color-border.md)** 속성을 변경하여 이 동작을 조정할 수 있습니다. **[ColorFade](../functions/function-colors.md)** 수식을 양의 백분율로 설정하면 마우스를 단추에 가져갔을 때 색이 더 밝아지며 음수로 설정하면 더 어두워집니다.
 
-* 만든 단추 중 하나의 **[HoverFill](properties-color-border.md)** 속성에서 **[ColorFade](../functions/function-colors.md)**를 변경하고 결과를 확인합니다.
+* 만든 단추 중 하나의 **[HoverFill](properties-color-border.md)** 속성에서 **[ColorFade](../functions/function-colors.md)** 를 변경하고 결과를 확인합니다.
 
-**ColorValue("Red")**에서처럼 **[ColorFade](../functions/function-colors.md)** 함수 대신 **[HoverFill](properties-color-border.md)** 속성을 **[ColorValue](../functions/function-colors.md)** 함수가 포함된 수식으로 설정하여 **단추** 색을 지정할 수도 있습니다. 
+**ColorValue("Red")** 에서처럼 **[ColorFade](../functions/function-colors.md)** 함수 대신 **[HoverFill](properties-color-border.md)** 속성을 **[ColorValue](../functions/function-colors.md)** 함수가 포함된 수식으로 설정하여 **단추** 색을 지정할 수도 있습니다. 
 
 > [!NOTE]
 > 색 값은 이름 또는 16진 값의 CSS 색 정의가 될 수 있습니다.
 
 * 만든 버튼 중 하나에서 **[ColorFade](../functions/function-colors.md)** 함수를 **[ColorValue](../functions/function-colors.md)** 함수로 대체하고 결과를 확인합니다.
 
+
+## <a name="accessibility-guidelines"></a>접근성 지침
+### <a name="color-contrast"></a>색 대비
+* 표준 색 대비 요구 사항이 적용됩니다.
+
+### <a name="screen-reader-support"></a>화면 판독기 지원
+* **[Text](properties-core.md)** 가 있어야 합니다.
+
+### <a name="keyboard-support"></a>키보드 지원
+* 키보드 사용자가 탐색할 수 있도록 **[TabIndex](properties-accessibility.md)** 가 0 이상이어야 합니다.
+* 포커스 표시기가 명확하게 표시되어야 합니다. **[FocusedBorderColor](properties-color-border.md)** 및 **[FocusedBorderThickness](properties-color-border.md)** 를 사용하여 이를 달성합니다.
+ 

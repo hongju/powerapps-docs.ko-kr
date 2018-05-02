@@ -14,11 +14,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/05/2017
 ms.author: kfend
-ms.openlocfilehash: 0e9c04c4786ff4cee11d7aae75245054e93391fa
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: cf9a1f71215a2c58d12a726ed88bdd9fe8b9c970
+ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="column-control-in-powerapps"></a>PowerApps의 열 컨트롤
 [**데이터 테이블**](control-data-table.md) 컨트롤에서 단일 필드에 대한 디스플레이 경험을 제공합니다.
@@ -64,3 +64,7 @@ ms.lasthandoff: 03/22/2018
    
     ![열 컨트롤 크기 조정됨](./media/control-column/post-resize-column.png)
 
+
+## <a name="accessibility-guidelines"></a>접근성 지침
+### <a name="screen-reader-support"></a>화면 판독기 지원
+* **DisplayName**이 있어야 합니다.

@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: bb652f3ba6decad7cb6f93007eaec6340f230ca1
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 194f00a670f3c879325603f519c1c86e9ba6cf2c
+ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="html-text-control-in-powerapps"></a>PowerApps의 HTML 텍스트 컨트롤
 텍스트를 표시하고 HTML 태그를 서식 지정으로 변환하는 상자입니다.
@@ -32,7 +32,7 @@ ms.lasthandoff: 03/22/2018
 
 **[Font](properties-text.md)** – 텍스트가 표시되는 글꼴의 제품군 이름입니다.
 
-**HTMLText** – HTML 텍스트 컨트롤에 표시되며 HTML 태그를 포함할 수 있는 텍스트입니다.
+**HtmlText** – HTML 텍스트 컨트롤에 표시되며 HTML 태그를 포함할 수 있는 텍스트입니다.
 
 ## <a name="additional-properties"></a>추가 속성
 **[BorderColor](properties-color-border.md)** - 컨트롤의 테두리 색입니다.
@@ -79,14 +79,28 @@ ms.lasthandoff: 03/22/2018
 [**Find**( *FindString*, *WithinString* )](../functions/function-find.md)
 
 ## <a name="example"></a>예
-1. **[레이블](control-text-box.md)** 컨트롤을 추가하고 이름을 **Source**로 지정한 다음 **[Text](properties-core.md)** 속성을 다음 문자열로 지정합니다.
+1. **[레이블](control-text-box.md)** 컨트롤을 추가하고 이름을 **Source**로 지정한 후, **[Text](properties-core.md)** 속성을 다음 문자열로 지정합니다.
 
 \<p> We have done an unusually \&nbsp; \&quot; deep \&quot; globalization and localization. \<p>
 
 [컨트롤을 추가, 이름을 지정하고, 구성](../add-configure-controls.md)하는 방법을 모르시나요?
 
-1. **HTML 텍스트** 컨트롤을 추가하고 **HTMLText** 속성을 다음 값으로 설정합니다.<br>
+1. **HTML 텍스트** 컨트롤을 추가하고 **HtmlText** 속성을 다음 값으로 설정합니다.<br>
    **Source.Text**
    
      **HTML 텍스트** 컨트롤에 **[레이블](control-text-box.md)** 컨트롤과 같은 텍스트가 표시되나 태그가 적합한 문자로 변환됩니다.
 
+
+## <a name="accessibility-guidelines"></a>접근성 지침
+**HTML 텍스트**는 대화형으로 사용할 수 없습니다. 텍스트 표시에만 사용해야 합니다.
+
+### <a name="color-contrast"></a>색 대비
+다음 사이에 적절한 색 대비가 있어야 합니다.
+* **[Color](properties-color-border.md)** 및 **[Fill](properties-color-border.md)**
+* 사용자 지정 색 및 배경이 있는 텍스트
+
+### <a name="screen-reader-support"></a>화면 판독기 지원
+* **HtmlText**가 있어야 합니다.
+
+### <a name="keyboard-support"></a>키보드 지원
+* **HtmlText**는 `<button>`, `<a>` 또는 `<input>`과 같은 대화형 요소를 포함해서는 안 됩니다. PowerApps의 **[TabIndex](properties-accessibility.md)** 시스템은 **HtmlText** 내부의 요소를 고려하지 않습니다.

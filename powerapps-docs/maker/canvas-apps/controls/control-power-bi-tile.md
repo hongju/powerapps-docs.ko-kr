@@ -15,17 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 07/07/2016
 ms.author: fikaradz
-ms.openlocfilehash: 1f351877e3c05b83b4bd9cfa104a7eb22cef5028
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: a760dd47cfe703cdf829037d0090c99fc215831e
+ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="power-bi-tile-control-in-powerapps"></a>PowerApps의 Power BI 타일 컨트롤
 앱 내부에 있는 [Power BI](https://powerbi.microsoft.com) 타일을 보여주는 컨트롤입니다.
 
 ## <a name="description"></a>설명
-앱 내부에 있는 **[Power BI 타일](https://docs.microsoft.com/power-bi/service-dashboard-tiles)**을 표시하여 기존 데이터 분석 및 보고를 활용합니다.  옵션 패널의 **데이터** 탭에서 **작업 영역**, **대시보드** 및 **타일**을 설정하여 표시하려는 타일을 선택합니다.
+앱 내부에 있는 **[Power BI 타일](https://docs.microsoft.com/power-bi/service-dashboard-tiles)** 을 표시하여 기존 데이터 분석 및 보고를 활용합니다.  옵션 패널의 **데이터** 탭에서 **작업 영역**, **대시보드** 및 **타일**을 설정하여 표시하려는 타일을 선택합니다.
 
 ## <a name="sharing-and-security"></a>공유 및 보안
 공유되면 PowerApp은 해당 앱에 액세스 권한이 있는 모든 사용자가 액세스하게 됩니다.  하지만 이러한 사용자에게 Power BI 콘텐츠를 표시하려면 타일을 제공하는 대시보드를 Power BI의 사용자와 [공유](https://docs.microsoft.com/power-bi/service-how-to-collaborate-distribute-dashboards-reports)해야 합니다.  이를 통해 앱에서 Power BI 콘텐츠에 액세스할 때 Power BI 공유 권한이 존중됩니다.
@@ -68,3 +68,9 @@ ms.lasthandoff: 03/22/2018
    
    Power BI가 없나요? [가입](https://docs.microsoft.com/power-bi/service-self-service-signup-for-power-bi)하세요.
 
+
+## <a name="accessibility-guidelines"></a>접근성 지침
+**Power BI 타일**은 단순히 Power BI 콘텐츠용 컨테이너입니다. 이러한 [Power BI 접근성 팁](https://docs.microsoft.com/power-bi/desktop-accessibility)을 사용하여 접근성 있는 콘텐츠를 만드는 방법을 알아봅니다.
+
+### <a name="screen-reader-support"></a>화면 판독기 지원
+* Power BI 콘텐츠에 제목이 없는 경우 **[레이블](control-text-box.md)** 을 사용하여 제목을 추가하세요. 제목은 **Power BI 타일** 바로 앞에 배치할 수 있습니다.
