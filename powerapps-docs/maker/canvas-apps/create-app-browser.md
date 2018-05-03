@@ -12,18 +12,18 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 03/08/2018
 ms.author: anneta
-ms.openlocfilehash: 4c8b100e4993921c651590c80eda4297345cdd40
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 4add1e15c1a85b27b83295422dbb6472ac02ad9f
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="create-or-edit-apps-in-powerapps-studio-for-web"></a>웹용 PowerApps Studio에서 앱 만들기 또는 편집
 웹용 PowerApps Studio에서 앱을 만들고 편집하면 Windows 또는 기타 플랫폼의 브라우저 창에서 열립니다.
 
 ## <a name="prerequisites"></a>필수 조건
 * PowerApps에 [등록](../signup-for-powerapps.md)합니다.
-* [지원되는 브라우저](limits-and-config.md#supported-browsers-for-powerapps-studio-for-web)를 사용하고 있는지 확인합니다.
+* [지원되는 브라우저](limits-and-config.md#supported-browsers-for-powerapps-studio)를 사용하고 있는지 확인합니다.
 
 ## <a name="open-powerapps-studio-for-web"></a>웹용 PowerApps Studio 열기
 1. [powerapps.com](http://go.microsoft.com/fwlink/p/?LinkId=708209)에 로그인합니다.

@@ -12,11 +12,11 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 07/12/2016
 ms.author: lanced
-ms.openlocfilehash: 33b3f85d3cd2dbe59684eccc208ebec4cdd09549
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 65fa5cff5d3b9c9595cc3f9338a7e7af43256f86
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="connect-to-sql-server-from-powerapps"></a>PowerApps에서 SQL Server 연결
 ![SQL Server 아이콘](./media/connection-azure-sqldatabase/sqlicon.png)
@@ -25,7 +25,7 @@ PowerApps에서 정보를 표시할 수 있도록 Azure 또는 온-프레미스 
 
 ## <a name="prerequisites"></a>필수 조건
 
-* PowerApps에 [가입](../../signup-for-powerapps.md)하여 PowerApps Studio를 [설치](http://aka.ms/powerappsinstall)하고 연 다음 가입 시 사용했던 동일한 자격 증명으로 로그인합니다.
+* PowerApps에 [등록](../../signup-for-powerapps.md)한 다음, 등록에 사용한 동일한 자격 증명을 입력하여 [로그인](http://web.powerapps.com)합니다.
 * 기본 키와 함께 최소 1개 이상의 테이블을 포함한 데이터베이스에 대한 다음 정보를 수집합니다.
   
   * 데이터베이스 이름

@@ -15,18 +15,15 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/21/2018
 ms.author: matp
-ms.openlocfilehash: 73b8aca29af2e9ee5fa117a7e7b79a8d3dbaca9f
-ms.sourcegitcommit: a9ac8a3ed734cb5f70b61476168d1bff5de844f8
+ms.openlocfilehash: a538eb1b6046c4cfd27e969613b44574cec8ff7e
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="quickstart-run-a-model-driven-app-on-a-mobile-device"></a>빠른 시작: 모바일 장치에서 모델 기반 앱 실행
 
 앱을 만들고 공유한 후에는 Windows, iOS, Android 또는 웹 브라우저와 같이 많이 사용되는 다양한 장치에서 앱을 실행할 수 있습니다. 이 빠른 시작에서는 모바일 장치에서 모델 기반 앱을 실행하는 방법을 알아봅니다. 
-
-> [!IMPORTANT]
-> [!INCLUDE [cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
 빠른 시작을 수행하려면 PowerApps에 등록되어 있지 않은 경우 시작하기 전에 [무료로 등록](https://web.powerapps.com/signup?redirect=marketing&email=)하세요. 또한, 자신이 만들거나 다른 사용자가 만들고 공유한 앱에 대한 액세스 권한이 있는지 확인합니다.
 

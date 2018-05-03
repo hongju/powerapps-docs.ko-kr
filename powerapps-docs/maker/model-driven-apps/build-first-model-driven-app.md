@@ -12,17 +12,14 @@ ms.topic: conceptual
 ms.component: model
 ms.date: 04/18/2018
 ms.author: matp
-ms.openlocfilehash: ad11ce81544095c5730e326325b4b5bf6b136e93
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 3a9696a025608de3c142277da4059e7e8c5ec5ad
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="quickstart-build-your-first-model-driven-app-from-scratch"></a>빠른 시작: 처음부터 첫 번째 모델 기반 앱 빌드
 모델 기반 앱 디자인은 앱 개발에 대해 구성 요소에 중점을 두는 방법입니다. 이 빠른 시작에서는 [!INCLUDE [powerapps](../../includes/powerapps.md)] 환경에서 사용할 수 있는 표준 엔터티 중 하나를 사용하여 모델 기반 앱을 만드는 방법을 간소화합니다. 
-
-> [!IMPORTANT]
-> [!INCLUDE [cc-preview-features-definition](../../includes/cc-preview-features-definition.md)]
 
 ## <a name="sign-in-to-powerapps"></a>PowerApps에 로그인
 [PowerApps](https://web.powerapps.microsoft.com/)에 로그인합니다. [!INCLUDE [powerapps](../../includes/powerapps.md)] 계정이 아직 없다면 **무료 시작** 링크를 선택합니다. 

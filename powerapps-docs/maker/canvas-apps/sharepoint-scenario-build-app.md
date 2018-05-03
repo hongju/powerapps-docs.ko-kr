@@ -12,11 +12,11 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 06/12/2017
 ms.author: mblythe
-ms.openlocfilehash: 6f9ef24f4ab6f0009c7020008e299f09ecb0762e
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: fca166ef388921e08bf71149a8b1274a31a7dc52
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="create-an-app-to-manage-projects"></a>프로젝트를 관리하는 앱 만들기
 > [!NOTE]
@@ -28,8 +28,6 @@ ms.lasthandoff: 04/26/2018
 > 이 시나리오에 대한 [다운로드 패키지](https://aka.ms/o4ia0f)에는 이 앱의 완성된 버전인 project-details-app.msapp이 포함되어 있습니다.
 
 ## <a name="quick-review-of-powerapps-studio"></a>PowerApps Studio에 대한 빠른 검토
-마지막 작업에서 웹용 PowerApps Studio를 사용했지만 계속 진행하기 전에 모든 부분을 이해해야 합니다. 웹용 PowerApps Studio에서 계속 작업하거나 [Windows용 PowerApps Studio](https://aka.ms/powerappswin)를 사용할 수 있습니다.
-
 PowerPoint에서 슬라이드 모음을 만드는 것처럼 PowerApps Studio에는 앱을 만들 수 있는 3개 창 및 리본 메뉴가 있습니다.
 
 1. 왼쪽 탐색 모음 - 화면의 썸네일뿐만 아니라 앱의 모든 화면과 컨트롤에 대한 계층적 보기를 보여 줍니다.

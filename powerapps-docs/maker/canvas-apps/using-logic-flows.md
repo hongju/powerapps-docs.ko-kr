@@ -11,21 +11,18 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 06/05/2017
 ms.author: sharik
-ms.openlocfilehash: bf9cbe451cc9ac5fa0ef98ba3e32963e240c0b5e
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 19e30477b7015061a4e4b781e1c53a55d1fda1a7
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="start-a-flow-in-an-app"></a>앱에서 흐름 시작
 Microsoft Flow를 사용하여 앱에서 이벤트가 발생할 때 하나 이상의 작업을 수행하는 논리를 만들 수 있습니다. 예를 들어 사용자가 단추를 선택하면 SharePoint 목록에 항목을 만들거나, 전자 메일 또는 모임 요청을 보내거나, 클라우드에 파일을 추가하거나, 이러한 모든 작업을 추가하도록 해당 단추를 구성합니다. 흐름을 시작하도록 앱에서 모든 컨트롤을 구성하여 PowerApps를 닫은 경우에도 계속 실행되도록 할 수 있습니다.
 
 ## <a name="prerequisites"></a>필수 조건
 
-* PowerApps에 [등록](../signup-for-powerapps.md)하고 다음 단계 중 하나를 수행합니다.
-
-  * [Windows Store](http://aka.ms/powerappsinstall)에서 Windows용 PowerApps Studio를 설치하고 연 다음 등록 시에 사용한 것과 동일한 자격 증명으로 로그인합니다.
-  * [powerapps.com](http://web.powerapps.com)에서 왼쪽 아래에 있는 **새 앱**을 클릭하거나 탭하여 웹용 PowerApps Studio를 엽니다.
+* PowerApps에 [등록](../signup-for-powerapps.md)합니다.
 * [컨트롤을 구성](add-configure-controls.md)하는 방법을 알아봅니다.
 
 ## <a name="create-a-flow"></a>흐름 만들기
