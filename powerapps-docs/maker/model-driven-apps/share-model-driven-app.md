@@ -12,11 +12,11 @@ ms.topic: conceptual
 ms.component: model
 ms.date: 03/21/2018
 ms.author: matp
-ms.openlocfilehash: 43a31d0fe4f77b47425d2df4f98caf611625f696
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 4068bbc4e67adee344544c0ba69895244d3dab83
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="tutorial-share-a-model-driven-app-with-powerapps"></a>자습서: PowerApps와 모델 기반 앱 공유
 
@@ -26,9 +26,6 @@ ms.lasthandoff: 04/26/2018
 - 사용자 지정 보안 역할 만들기
 - 사용자 지정 보안 역할에 사용자 할당
 - 앱에 보안 역할 할당
-
-> [!IMPORTANT]
-> [!INCLUDE [cc-preview-features-definition](../../includes/cc-preview-features-definition.md)]
 
 ## <a name="prerequisites"></a>필수 조건
 앱을 공유하려면 [!INCLUDE [powerapps](../../includes/powerapps.md)] 환경 관리자 또는 시스템 관리자 역할이 있어야 합니다. 

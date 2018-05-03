@@ -12,20 +12,17 @@ ms.topic: conceptual
 ms.component: model
 ms.date: 03/21/2018
 ms.author: matp
-ms.openlocfilehash: 1b9ee344192d84933d25a3208d2feb0873a298c1
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 76571a53c95661d853b7fb326e3c1087a6f432c4
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="overview-of-building-a-model-driven-app"></a>모델 기반 앱 빌드에 대한 개요
 
 모델 기반 앱 디자인은 앱 개발에 대해 구성 요소에 중점을 두는 방법입니다. 모델 기반 앱 디자인에는 코드가 필요하지 않으며 앱을 단순하거나 매우 복잡하게 만들 수 있습니다.  디자이너 앱 레이아웃을 완전히 제어하는 캔버스 앱 개발과 달리, 모델 기반 앱을 사용하면 레이아웃의 대부분은 주로 사용자가 앱에 추가하는 구성 요소에 따라 지정되거나 결정됩니다. 
 
 ![샘플 모델 기반 앱](media/model-driven-app-overview/model-app-sample.png)
-
-> [!IMPORTANT]
-> [!INCLUDE [cc-preview-features-definition](../../includes/cc-preview-features-definition.md)]
 
 모델 기반 앱 디자인은 다음과 같은 이점을 제공합니다.
 - 다양한 구성 요소 중심의 코드 없는 디자인 환경 
