@@ -1,25 +1,22 @@
 ---
-title: 접근성 있는 앱 만들기 | Microsoft Docs
+title: 액세스 가능한 앱 만들기 | Microsoft Docs
 description: 장애가 있는 사용자가 앱에 액세스할 수 있도록 하는 방법
-services: ''
-suite: powerapps
 documentationcenter: na
 author: fikaradz
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 04/03/2018
 ms.author: fikaradz
-ms.openlocfilehash: bc8a014909ceb817397107b4f64b59aa0c2013f2
-ms.sourcegitcommit: 97c0db2968dc07d1bcb21d02e6a6a5c345daa2d2
+ms.openlocfilehash: 2cd381eaa02829a8db7b4bf64e0ddf097f86abc6
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="create-accessible-apps"></a>액세스 가능한 앱 만들기
 액세스 가능한 앱에서는 시각, 청각 및 기타 장애가 있는 사용자가 앱을 사용할 수 있습니다.  여러 정부 및 조직의 요구 사항인 점을 별개로 하더라도 아래 지침을 따르면 사용자의 능력에 상관없이 모든 사용자의 사용 편의성이 개선됩니다.
@@ -51,9 +48,9 @@ ms.lasthandoff: 04/05/2018
 만족스러운 화면 판독기 환경을 위해서는 다음을 수행하는 것이 좋습니다.
 
 - 모든 입력 컨트롤의 **[AccessibilityLabel](controls/properties-accessibility.md)** 속성을 설정해야 합니다.
-- 이미지의 경우 **[AccessibilityLabel](controls/properties-accessibility.md)**을 적절한 설명으로 설정합니다.
-  - 사진이 단추 또는 링크로 사용되지 않고(즉, 아이콘이 장식용으로만 사용됨) 화면 판독기에서 일지 않아야 하는 경우 **[AccessibilityLabel](controls/properties-accessibility.md)**이 비어 있거나 설정되어 있지 않아야 합니다.
-  - 사진이나 아이콘이 단추로 사용되는 경우에는 **[TabIndex](controls/properties-accessibility.md)**를 0으로, **[AccessibilityLabel](controls/properties-accessibility.md)**을 링크 설명으로 설정합니다.
+- 이미지의 경우 **[AccessibilityLabel](controls/properties-accessibility.md)** 을 적절한 설명으로 설정합니다.
+  - 사진이 단추 또는 링크로 사용되지 않고(즉, 아이콘이 장식용으로만 사용됨) 화면 판독기에서 일지 않아야 하는 경우 **[AccessibilityLabel](controls/properties-accessibility.md)** 이 비어 있거나 설정되어 있지 않아야 합니다.
+  - 사진이나 아이콘이 단추로 사용되는 경우에는 **[TabIndex](controls/properties-accessibility.md)** 를 0으로, **[AccessibilityLabel](controls/properties-accessibility.md)** 을 링크 설명으로 설정합니다.
 
 
 ## <a name="multimedia"></a>멀티미디어

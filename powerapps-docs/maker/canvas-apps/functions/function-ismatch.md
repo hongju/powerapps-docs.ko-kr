@@ -1,25 +1,22 @@
 ---
 title: IsMatch 함수 | Microsoft Docs
 description: PowerApps에서 IsMatch 함수에 대한 구문을 포함한 참조 정보
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 02/05/2017
 ms.author: gregli
-ms.openlocfilehash: b15a394db060617aeae8324094a70aa8cadf6755
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 26bbef6e61845708e20efb3bd201ae61867d1026
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="ismatch-function-in-powerapps"></a>PowerApps의 IsMatch 함수
 텍스트 문자열이 패턴과 일치하는지 여부를 테스트합니다.
@@ -36,16 +33,16 @@ ms.lasthandoff: 03/22/2018
 ## <a name="patterns"></a>패턴
 **IsMatch**를 사용하는 핵심은 일치시킬 패턴을 설명하는 것에 있습니다. 다음의 조합으로 텍스트 문자열에서 패턴을 설명합니다.
 
-* **"abc"** 또는 **"123"**과 같은 일반 문자
+* **"abc"** 또는 **"123"** 과 같은 일반 문자
 * **Letter**, **MultipleDigits** 또는 **Email**과 같은 미리 정의된 패턴 (**Match** 열거는 이러한 패턴을 정의합니다.)
-* **"\d+\s+\d+"** 또는 **"[a-z]+"**와 같은 정규식 코드
+* **"\d+\s+\d+"** 또는 **"[a-z]+"** 와 같은 정규식 코드
 
-[문자열 연결 연산자 **&**](operators.md)를 사용하여 이러한 요소를 결합합니다. 예를 들어, **"abc" & Digit & "\s+"**는 "a", "b" 및 "c", 그 뒤에 0~9의 숫자, 그 뒤에 최소 하나의 공백 문자가 오는 문자와 일치하는 유효한 패턴입니다.
+[문자열 연결 연산자 **&**](operators.md)를 사용하여 이러한 요소를 결합합니다. 예를 들어, **"abc" & Digit & "\s+"** 는 "a", "b" 및 "c", 그 뒤에 0~9의 숫자, 그 뒤에 최소 하나의 공백 문자가 오는 문자와 일치하는 유효한 패턴입니다.
 
 ### <a name="ordinary-characters"></a>일반 문자
 가장 간단한 패턴은 정확히 일치되는 일반 문자의 시퀀스입니다.
 
-예를 들어, 문자열 "Hello"는 패턴 **"Hello"**와 정확하게 일치합니다. 그 이상 그 이하도 아닙니다. 문자열 "hello!" 는 끝에 느낌표가 오고 문자 "h"에 대한 대/소문자가 잘못됐으므로 패턴과 일치하지 않습니다. (이 동작을 수정하는 방법은 [MatchOptions](#match-options)를 참조하세요.)
+예를 들어, 문자열 "Hello"는 패턴 **"Hello"** 와 정확하게 일치합니다. 그 이상 그 이하도 아닙니다. 문자열 "hello!" 는 끝에 느낌표가 오고 문자 "h"에 대한 대/소문자가 잘못됐으므로 패턴과 일치하지 않습니다. (이 동작을 수정하는 방법은 [MatchOptions](#match-options)를 참조하세요.)
 
 패턴 언어에서 특정 문자는 특별한 용도로 예약되어 있습니다. 이러한 문자를 사용하려면 문자가 문자 그대로 해석되어야 하거나 미리 정의된 패턴 중 하나를 사용해야 함을 나타내도록 **\\**(백슬래시)로 문자에 접두사를 덧붙입니다. 이 테이블은 특수 문자를 나열합니다.
 
@@ -108,10 +105,10 @@ ms.lasthandoff: 03/22/2018
 
 | MatchOptions 열거 | 설명 | 정규식에 대한 영향 |
 | --- | --- | --- |
-| **BeginsWith** |패턴은 텍스트의 시작 부분에서 일치해야 합니다. |**^**를 정규식의 시작 부분에 추가합니다. |
-| **Complete** |기본값입니다.  패턴은 처음부터 끝까지 전체 텍스트와 일치해야 합니다. |**^**를 정규식의 시작 부분에 **$**를 끝 부분에 추가합니다. |
+| **BeginsWith** |패턴은 텍스트의 시작 부분에서 일치해야 합니다. |**^** 를 정규식의 시작 부분에 추가합니다. |
+| **Complete** |기본값입니다.  패턴은 처음부터 끝까지 전체 텍스트와 일치해야 합니다. |**^** 를 정규식의 시작 부분에 **$** 를 끝 부분에 추가합니다. |
 | **Contains** |패턴은 텍스트의 어딘가에 나타나야 하지만 시작 또는 끝일 필요가 없습니다. |정규식을 수정하지 않습니다. |
-| **EndsWith** |패턴은 텍스트의 끝과 일치해야 합니다. |**$**를 정규식의 끝 부분에 추가합니다. |
+| **EndsWith** |패턴은 텍스트의 끝과 일치해야 합니다. |**$** 를 정규식의 끝 부분에 추가합니다. |
 | **IgnoreCase** |대/소문자 구분 방식으로 문자의 일치를 처리합니다. 기본적으로 일치는 대/소문자 구분입니다. |정규식을 수정하지 않습니다. |
 | **Multiline** |여러 줄과 일치합니다. |정규식을 수정하지 않습니다. |
 

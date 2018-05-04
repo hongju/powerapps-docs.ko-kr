@@ -14,11 +14,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: 68ce23ae4b4a961a69cc60173b4f98ec18f05dd2
-ms.sourcegitcommit: aa2d0166dccb38100183c093f293233b46f3669d
+ms.openlocfilehash: c32be4dd25da1c2267043b061102b2714a109cc5
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="create-a-common-data-service-database"></a>Common Data Service 데이터베이스 만들기
 Common Data Service를 데이터 저장소로 사용하여 데이터베이스를 만들고 앱을 빌드할 수 있습니다. 사용자 고유의 사용자 지정 엔터티를 만들거나 미리 정의된 엔터티를 사용할 수 있습니다. 데이터베이스를 만들려면 먼저 환경을 만들거나 기존 환경에 **환경 관리자**로 할당되어야 합니다. 또한 적절한 라이선스를 할당 받아야 합니다. Common Data Service 사용을 위한 계획 구매에 대한 자세한 내용은 [가격 책정 정보](pricing-billing-skus.md)를 참조하세요.
@@ -52,6 +52,8 @@ Common Data Service를 데이터 저장소로 사용하여 데이터베이스를
 
     ![](./media/create-database/Create-DB-From-Entities.png)
 
+> [!NOTE]
+> 현재 Azure AD 지역 외부에서는 데이터베이스를 만들 수 없습니다. 곧 Azure AD 홈 지역과 다른 지역에서 데이터베이스를 만들 수 있게 되지만, 지금은 Azure AD 홈 지역과 동일한 지역이 있는 환경에서 데이터베이스를 만들어야 합니다.
 
 ## <a name="security-model-for-the-databases"></a>데이터베이스의 보안 모델
 데이터베이스가 만들어지면 환경 역할이 할당된 사용자는 계속해서 해당 권한이 유지됩니다.  

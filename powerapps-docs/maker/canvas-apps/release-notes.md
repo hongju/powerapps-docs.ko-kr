@@ -1,8 +1,6 @@
 ---
 title: PowerApps의 새로운 기능 | Microsoft Docs
 description: 릴리스 날짜별로 정리된 PowerApps 업데이트
-services: powerapps
-suite: powerapps
 documentationcenter: na
 author: skjerland
 manager: kfile
@@ -10,16 +8,15 @@ editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.date: 04/09/2018
+ms.topic: conceptual
+ms.component: canvas
+ms.date: 04/23/2018
 ms.author: sharik
-ms.openlocfilehash: 92438c37b870ace2ed5b2ec086cf6c5fb1548fdc
-ms.sourcegitcommit: d7ed5144f96d1ecc17084c30ed0e2ba3c6b03c26
+ms.openlocfilehash: 00b80bd5b9e0953366dd58d6e3b3266ffe7956bd
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/19/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="whats-new-in-powerapps"></a>PowerApps의 새로운 기능
 알려진 제한 사항에 대한 정보는 [일반적인 문제 및 해결 방법](common-issues-and-resolutions.md)을 참조하세요.
@@ -33,6 +30,9 @@ ms.lasthandoff: 04/19/2018
 플랫폼을 기반으로 고유한 응용 프로그램 및 확장을 빌드하는 새로운 기능의 호스트뿐만 아니라 비즈니스 응용 프로그램에 대한 최신 업데이트를 확인하세요. Dynamics 365, PowerApps, Microsoft Flow, Power BI를 다루는 [2018년 봄 릴리스 정보 PDF](https://aka.ms/businessappsreleasenotes)를 다운로드하세요.
 
 **서비스 예정:** 기능이 출시되면 릴리스 정보 PDF를 계속 업데이트하고 웹 페이지에서도 릴리스 정보를 제공할 예정입니다.
+
+## <a name="apr-23"></a>4월 23일
+* Internet Explorer의 SharePoint 사용자 지정 목록 양식 내에 [첨부 파일](controls/control-attachments.md)을 다운로드합니다.
 
 ## <a name="apr-9"></a>4월 9일
 * 웹 브라우저의 앱에서 잘라내기(Ctrl+X), 복사(Ctrl+C) 및 붙여넣기(Ctrl+V) 컨트롤&mdash;컨트롤의 스타일, 수식 및 속성 포함&mdash;.

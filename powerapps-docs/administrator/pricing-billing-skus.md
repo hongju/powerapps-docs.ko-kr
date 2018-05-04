@@ -5,7 +5,7 @@ services: ''
 suite: powerapps
 documentationcenter: na
 author: jamesol-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
@@ -13,13 +13,13 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/19/2017
+ms.date: 04/24/2018
 ms.author: jamesol
-ms.openlocfilehash: f3b53905bb335cf61eae3e184d4984d56907fe4c
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: e74f75df09c22bd37e5459ec720324faf061e2e9
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="licensing-overview"></a>라이선스 개요
 PowerApps는 사용자별로 사용이 허가됩니다. 앱을 만들고 실행하기 위해 서비스에 액세스하는 각 사용자에게는 라이선스가 필요합니다. Office 365 및 Dynamics 365 고객은 해당 제품에 포함된 PowerApps 및 Microsoft Flow 기능을 즉시 이용할 수 있습니다. Office 365 및 Dynamics 365 외부의 데이터 원본에 액세스하거나 추가 기능이 필요한 앱 및 흐름을 작성하려는 고객은 PowerApps 및 Microsoft Flow에 대한 독립 실행형 구독을 구입할 수 있습니다. 이러한 라이선스 그룹 간의 기능에는 중요한 차이점이 있습니다.
@@ -35,7 +35,7 @@ Office 365 및 Dynamics 365용 PowerApps 기능을 사용하면 사용자는 이
 |  | 포함된 요금제 |
 | --- | --- |
 | 어떤 Microsoft Office 365 요금제에 PowerApps가 포함되어 있나요? |Office 365용 PowerApps가 포함된 계획: <br><br>Office 365 Business Essentials <br>Office 365 Business Premium <br>Office 365 Education <br>Office 365 Education Plus <br>Office 365 Enterprise E1 <br>Office 365 Enterprise E3 <br>Office 365 Enterprise E5<br><br>*Office 365 Enterprise E2에는 Office 365 Enterprise E1과 동일한 기능이 포함되어 있으며, Office 365 Enterprise E4에는 Office 365 Enterprise E3과 동일한 기능이 포함되어 있습니다.*<br><br>Office 365 Enterprise F1에는 Office 365 Enterprise F1용 PowerApps가 포함되어 있습니다. |
-| 어떤 Microsoft Dynamics 365 앱 및 요금제에 PowerApps가 포함되어 있나요? |Dynamics 365용 PowerApps가 포함된 앱:<br><br>Dynamics 365 for Sales, Enterprise Edition <br>Dynamics 365 for Customer Service, Enterprise Edition <br>Dynamics 365 for Operations, Enterprise Edition <br>Dynamics 365 for Field Service, Enterprise Edition <br>Dynamics 365 for Project Service Automation, Enterprise Edition <br>Dynamics 365 for Team Members, Enterprise Edition <br>Dynamics 365 for Financials, Business Edition <br>Dynamics 365 for Team Members, Business Edition <br><br>PowerApps 계획 2가 포함된 요금제:<br><br>Dynamics 365, Enterprise Edition, 요금제 1<br>Dynamics 365, Enterprise Edition, 요금제 2 <br><br>*Dynamics 365용 PowerApps는 기존 CRM Online Enterprise, Professional, Basic 및 Essential 구독에도 포함되어 있습니다.* |
+| 어떤 Microsoft Dynamics 365 앱 및 요금제에 PowerApps가 포함되어 있나요? |Dynamics 365용 PowerApps가 포함된 앱:<br><br>Dynamics 365 for Sales, Enterprise Edition <br>Dynamics 365 for Customer Service, Enterprise Edition <br>Dynamics 365 for Operations, Enterprise Edition <br>Dynamics 365 for Field Service, Enterprise Edition <br>Dynamics 365 for Project Service Automation, Enterprise Edition <br>Dynamics 365 for Team Members, Enterprise Edition <br>Dynamics 365 for Financials, Business Edition <br>Dynamics 365 for Team Members, Business Edition <br>Dynamics 365 for Talent, Enterprise Edition <br>Dynamics 365 for Retail, Enterprise Edition <br><br>PowerApps 계획 2가 포함된 요금제:<br><br>Dynamics 365, Enterprise Edition, 요금제 1<br>Dynamics 365, Enterprise Edition, 요금제 2 <br><br>*Dynamics 365용 PowerApps는 기존 CRM Online Enterprise, Professional, Basic 및 Essential 구독에도 포함되어 있습니다.* |
 
 ### <a name="powerapps-for-office-365-enterprise-f1"></a>Office 365 Enterprise F1용 PowerApps
 PowerApps는 사용자가 앱을 실행하고 워크플로를 자동화할 수 있는 Office 365 Enterprise F1에 포함되어 있습니다. 그러나 Office 365 E1, E3 및 E5 요금제와 마찬가지로 이 요금제에서는 사용자가 앱을 만들 수 없습니다. 다음 표에는 사용자가 Office 365 Enterprise F1용 PowerApps로 수행할 수 있는 작업에 대한 구체적인 정보가 나와 있습니다.
