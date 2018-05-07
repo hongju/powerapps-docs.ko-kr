@@ -11,11 +11,11 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 10/25/2016
 ms.author: anneta
-ms.openlocfilehash: b15584a1b53625544711f04d074c688ce75eac9c
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 29da2a8814b0de7d34915f9992aeb963743785d2
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="add-images-to-excel-from-powerapps"></a>PowerApps에서 Excel에 이미지 추가
 사용자가 파일의 이미지 또는 **펜** 컨트롤의 그림을 표시, 추가 또는 삭제할 수 있는 앱을 자동으로 만듭니다. 앱은 클라우드 저장소 계정에 만들고 업로드하는 Excel 파일을 기반으로 합니다.
@@ -41,7 +41,7 @@ ms.lasthandoff: 04/26/2018
 6. **표 선택**에서 만든 테이블을 클릭하거나 탭한 다음, **연결**을 클릭하거나 탭합니다.
    
     ![테이블 선택](./media/add-images-to-excel/select-table.png)
-7. 방금 PowerApps를 설치하거나 업그레이드한 경우 둘러보기를 실행하거나 **건너뛰기**를 클릭하거나 탭합니다.
+7. 둘러보기가 표시되면 선택하거나 **건너뛰기**를 클릭하거나 탭합니다.
    
     ![둘러보기의 첫 번째 화면](./media/add-images-to-excel/quick-tour.png)
 

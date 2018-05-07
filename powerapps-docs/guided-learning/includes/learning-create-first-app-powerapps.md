@@ -1,11 +1,9 @@
 이제 PowerApps의 모든 구성요소와 앱을 만들기 위한 옵션에 익숙해졌으므로 실제로 앱을 빌드할 때입니다. 이 항목에서는 SharePoint Online 목록에서 휴대폰 앱을 생성하지만 Excel, 클라우드 서비스(예: Salesforce) 및 온-프레미스 원본(예: SQL Server)과 같이 많은 다른 원본의 데이터를 사용할 수 있습니다.
 
 ## <a name="connect-to-a-data-source"></a>데이터 원본에 연결
-데이터에서 앱을 생성하는 첫 번째 단계는 사용할 PowerApps Studio를 선택한 다음 데이터 원본에 연결하는 것입니다. web.powerapps.com에서 **새 앱**을 클릭하거나 탭한 다음 Windows용 PowerApps Studio 또는 웹용 PowerApps Studio 중 어느 것을 사용할지 선택합니다.
+web.powerapps.com에서 왼쪽 가장자리 근처의 **앱**을 클릭하거나 탭한 다음, 배너에서 **앱 만들기**를 클릭하거나 탭합니다.
 
-![web.powerapps.com에서 시작](./media/learning-create-first-app-powerapps/generate-choose-studio.png)
-
-PowerApps Studio에는 데이터 또는 템플릿에서 시작하거나 처음부터 시작할 수 있는 옵션이 있습니다. SharePoint 목록을 위한 휴대폰 앱을 빌드하므로 **SharePoint**에서 **휴대폰 레이아웃**을 클릭하거나 탭합니다.
+PowerApps에서 데이터 및 템플릿을 통해 또는 처음부터 다시 앱을 빌드할 수 있습니다. SharePoint 목록을 위한 휴대폰 앱을 빌드하므로 **SharePoint**에서 **휴대폰 레이아웃**을 클릭하거나 탭합니다.
 
 ![SharePoint 목록의 휴대폰 앱](./media/learning-create-first-app-powerapps/generate-sharepoint-phone.png)
 

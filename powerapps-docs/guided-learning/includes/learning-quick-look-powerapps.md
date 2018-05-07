@@ -10,7 +10,7 @@ web.powerapps.com에서는 웹 브라우저에서 사용할 수 있는 몇 가�
 ![PowerApps 바닥재 샘플 앱](./media/learning-quick-look-powerapps/powerapps-flooring-sample.png)
 
 ## <a name="create-an-app-from-a-template"></a>템플릿에서 앱 만들기
-시작하는 또 다른 좋은 방법은 **템플릿에서 앱을 빌드**하는 것입니다. 템플릿은 기본적으로 결합 방식을 이해하기 위해 열 수 있는 샘플 앱입니다. 이는 샘플 데이터를 사용하여 가능한 정보를 얻고 PowerApps Studio에서 열면 **앱을 빌드하는 방법을 직접 확인**하는 데 도움이 됩니다. 템플릿은 현재 웹용 PowerApps Studio가 아니라 Windows용 PowerApps Studio에서만 사용할 수 있습니다.
+시작하는 또 다른 좋은 방법은 **템플릿에서 앱을 빌드**하는 것입니다. 템플릿은 기본적으로 결합 방식을 이해하기 위해 열 수 있는 샘플 앱입니다. 이는 샘플 데이터를 사용하여 가능한 정보를 얻고 PowerApps Studio에서 열면 **앱을 빌드하는 방법을 직접 확인**하는 데 도움이 됩니다.
 
 ![PowerApps 앱 템플릿](./media/learning-quick-look-powerapps/powerapps-templates.png)
 
@@ -24,7 +24,7 @@ web.powerapps.com에서는 웹 브라우저에서 사용할 수 있는 몇 가�
 ![PowerApps 공유](./media/learning-quick-look-powerapps/powerapps-sharing.png)
 
 ## <a name="create-an-app-from-a-data-source"></a>데이터 원본에서 앱 만들기
-**웹용 PowerApps Studio** 또는 **Windows용 PowerApps Studio**에서 앱을 만듭니다. 또한 비주얼 디자이너에서 데이터 원본에 연결하고 앱 구성을 시작할 수 있습니다.
+**PowerApps Studio**에서 앱을 만듭니다. 또한 비주얼 디자이너에서 데이터 원본에 연결하고 앱 구성을 시작할 수 있습니다.
 
 ![데이터의 PowerApps 앱](./media/learning-quick-look-powerapps/powerapps-app-from-data.png)
 

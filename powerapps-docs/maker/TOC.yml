@@ -228,8 +228,6 @@
           href: ./common-data-service/data-platform-create-entity.md
         - name: 데이터에서 사용자 지정 엔터티 만들기
           href: ./common-data-service/data-platform-cds-newentity-pq.md
-        - name: 필드 관리
-          href: ./common-data-service/data-platform-manage-fields.md
         - name: 옵션 집합 만들기
           href: ./common-data-service/custom-picklists.md
         - name: 관계 만들기
@@ -244,6 +242,18 @@
           href: ./common-data-service/create-custom-entity.md
     - name: 샘플 및 리소스
       href: ./common-data-service/samples-resources.md
+    - name: 개념
+      items:
+        - name: 엔터티에 대한 라이선스 요구 사항
+          href: ./common-data-service/data-platform-entity-licenses.md
+    - name: 방법 가이드
+      items:
+        - name: 엔터티 내 사용자 지정 필드 관리
+          href: ./common-data-service/data-platform-manage-fields.md
+    - name: 참조
+      items:
+        - name: Dynamics 365 라이선스를 요구하는 제한된 엔터티
+          href: ./common-data-service/data-platform-restricted-entities.md
     - name: 개발자용
       href: ../developer/common-data-service/TOC.yml
 - name: 공통 데이터 모델

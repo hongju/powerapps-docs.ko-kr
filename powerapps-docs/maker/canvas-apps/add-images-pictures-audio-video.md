@@ -11,17 +11,17 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 07/12/2017
 ms.author: sharik
-ms.openlocfilehash: 7ee752f5606f10f66ad7c8dc49e05233225c0a89
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 4d622eb6cdfaed91547a59be8f5a5dc6651957e5
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="using-multimedia-files-in-powerapps"></a>PowerApps에서 멀티미디어 파일 사용
 이 토픽에서는 앱에 멀티미디어 파일을 포함하고, 데이터 원본에 펜 드로잉을 업로드하고, 앱에서 데이터 원본의 이미지를 표시하는 방법을 보여 줍니다. 이 토픽에 사용된 데이터 원본은 비즈니스용 OneDrive에서 Excel 파일입니다.
 
 ## <a name="prerequisites"></a>필수 조건
-PowerApps에 [가입](../signup-for-powerapps.md)하고 [설치](http://aka.ms/powerappsinstall)합니다. PowerApps를 열면 가입 시 사용한 동일한 자격 증명을 사용하여 로그인합니다.
+PowerApps에 [등록](../signup-for-powerapps.md)한 다음, 등록에 사용한 동일한 자격 증명을 사용하여 [로그인](https://web.powerapps.com)합니다.
 
 ## <a name="add-media-from-a-file-or-the-cloud"></a>파일 또는 클라우드에서 미디어 추가
 추가할 미디어 파일의 종류를 선택할 수 있습니다(예: 이미지, 비디오 또는 오디오).

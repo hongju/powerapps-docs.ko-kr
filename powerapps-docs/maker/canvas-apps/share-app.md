@@ -12,11 +12,11 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 03/18/2018
 ms.author: anneta
-ms.openlocfilehash: 5a469c875d82670e30d0be8bef86cc476ca5ea19
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: c87f0e644668e9b9804b001560402972fd3d4531
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="share-an-app-in-powerapps"></a>PowerApps에서 앱 공유
 자신의 비즈니스 요구 사항을 해결하는 앱을 빌드하는 것이 좋지만 PowerApps의 진정한 마법은 해당 앱을 다른 사람들과 공유하는 데 있습니다. 이 토픽에서는 특정 사용자 또는 보안 그룹과 앱을 공유하는 방법을 알아보거나 전체 조직과 공유할 수 있습니다.
@@ -57,13 +57,13 @@ ms.lasthandoff: 04/26/2018
 ### <a name="how-do-my-users-see-the-app-i-shared"></a>내 사용자가 공유한 앱을 보려면 어떻게 해야 할까요?
 하나 이상의 사용자 또는 보안 그룹과 앱을 공유한 후 앱을 볼 수 있는 방법은 앱을 공유한 권한에 따라 다릅니다.
 
-##### <a name="if-you-shared-an-app-with-user-permission"></a>*사용자* 권한으로 앱을 공유한 경우
+##### <a name="if-you-shared-an-app-with-can-use-permission"></a>*사용할 수 있는* 권한으로 앱을 공유한 경우
 앱을 공유한 사용자는 앱 공유 화면에서 해당 확인란을 선택하면 전자 메일 알림을 받게 됩니다. 전자 메일에서 링크를 클릭하거나 탭하여 [Dynamics 365](http://home.dynamics.com)에서 앱을 실행할 수 있습니다. 곧 유니버설 링크를 지원할 예정입니다. 즉, PowerApps Studio 또는 PowerApps Mobile이 설치되어 있는 경우 이 앱은 PowerApps Studio 또는 PowerApps Mobile에서 열립니다.
 
 또한 사용자는 [Dynamics 365](http://home.dynamics.com)의 AppSource에서 앱을 발견할 수도 있습니다(예: 전자 메일을 보내지 않은 경우). 사용자가 AppSource를 통해 앱을 얻을 수 있는 방법에 대해 [자세히 알아보세요](../../user/app-source.md).
 
-##### <a name="if-you-shared-an-app-with-contributor-permission"></a>'참가자' 권한으로 앱을 공유한 경우
-앱을 공유한 사용자는 앱 공유 화면에서 해당 확인란을 선택하면 전자 메일 알림을 받게 됩니다. 전자 메일에서는 웹용 PowerApps Studio를 사용하여 편집하기 위해 직접 앱을 여는 링크를 클릭하거나 탭할 수 있습니다. [Dynamics 365](http://home.dynamics.com)에서 앱을 실행하기 위한 링크도 있습니다. 곧 유니버설 링크를 지원할 예정입니다. 즉, PowerApps Studio 또는 PowerApps Mobile이 설치되어 있는 경우 이 앱은 PowerApps Studio 또는 PowerApps Mobile에서 열립니다.
+##### <a name="if-you-shared-an-app-with-can-edit-permission"></a>*편집할 수 있는* 권한으로 앱을 공유한 경우
+앱을 공유한 사용자는 앱 공유 화면에서 해당 확인란을 선택하면 전자 메일 알림을 받게 됩니다. 이메일에서는 PowerApps Studio를 사용하여 편집하기 위해 직접 앱을 여는 링크를 클릭하거나 탭할 수 있습니다. [Dynamics 365](http://home.dynamics.com)에서 앱을 실행하기 위한 링크도 있습니다. 곧 유니버설 링크를 지원할 예정입니다. 즉, PowerApps Studio 또는 PowerApps Mobile이 설치되어 있는 경우 이 앱은 PowerApps Studio 또는 PowerApps Mobile에서 열립니다.
 
 또한 사용자는 [powerapps.com](http://web.powerapps.com)에서 앱을 발견할 수 있습니다(예: 이메일을 보내지 않은 경우). 이는 앱 작성자가 자신이 만들었거나 **참가자** 권한으로 공유된 모든 앱을 탐색하는 홈입니다. 반면 [Dynamics 365](http://home.dynamics.com)는 사용자가 PowerApps 및 기타 비즈니스 앱에서 앱을 빠르게 실행할 수 있는 곳입니다.
 

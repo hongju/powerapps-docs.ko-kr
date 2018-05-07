@@ -12,11 +12,11 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 10/28/2016
 ms.author: litran
-ms.openlocfilehash: 288e28d50d335e75baa99f50b26975ad529cc88f
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: f29f75522eb01c61c3528e61018fb759980e79f9
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="introduction-to-powerappscom"></a>powerapps.com 소개
 PowerApps 팀은 [powerapps.com](http://web.powerapps.com)을 앱 제작자를 위한 새 홈으로 다시 도입하고 있습니다. 제작자가 쉽게 앱 제작을 시작하고 Microsoft Common Data Service를 사용하며 하나의 위치에서 앱을 모두 관리할 수 있도록 이 페이지를 기본 사이트로 다시 설계했습니다. 이 문서에서는 다음 사항을 안내하려고 합니다.
@@ -34,7 +34,7 @@ PowerApps 팀은 [powerapps.com](http://web.powerapps.com)을 앱 제작자를 �
 
 ![헤더 환경](./media/intro-maker-portal/environment.png)
 
-환경 드롭다운 옆에 다운로드 아이콘을 보입니다. PowerApps Mobile(iOS 또는 Android용) 또는 Windows용 PowerApps Studio를 다운로드하기 위해 이 링크가 포함된 대화 상자를 표시하려면 이 아이콘을 클릭하거나 탭합니다.
+환경 드롭다운 옆에 다운로드 아이콘을 보입니다. PowerApps Mobile(iOS 또는 Android용 장치)를 다운로드하기 위해 링크가 포함된 대화 상자를 표시하려면 이 아이콘을 클릭하거나 탭합니다.
 
 ![헤더 다운로드](./media/intro-maker-portal/downloads2.png)
 
@@ -59,7 +59,7 @@ PowerApps 팀은 [powerapps.com](http://web.powerapps.com)을 앱 제작자를 �
 
 ![앱 만들기](./media/intro-maker-portal/createapp.png)
 
-**Windows용 PowerApps Studio** 또는 **웹용 PowerApps Studio**를 사용하여 앱을 만드는 옵션을 표시하려면 이 배너의 **시작**을 클릭하거나 탭합니다.
+**PowerApps Studio**를 사용하여 앱을 만드는 옵션을 표시하려면 이 배너의 **시작**을 클릭하거나 탭합니다.
 
 ![앱 모델 만들기](./media/intro-maker-portal/createmodal2.png)
 
@@ -90,7 +90,7 @@ PowerApps 팀은 [powerapps.com](http://web.powerapps.com)을 앱 제작자를 �
 
 **Microsoft Common Data Service 사용** 배너 아래에 일련의 샘플 앱과 사용자가 사용하도록 만든 연결된 샘플 앱이 보입니다.
 
-* **샘플 앱** -샘플 앱은 휴대폰 또는 태블릿 레이아웃에서 서로 다른 비즈니스 시나리오를 위해 제작되었습니다. 앱을 클릭하여 앱의 기능, 앱 제작 레이아웃은 물론, 카메라, GPS 또는 라디오 단추 등, 앱의 대표적인 기능에 대한 설명을 빨리 볼 수 있습니다. 새 사용자가 PowerApps의 기능을 배울 수 있는 빠른 방법이며, 템플릿을 사용하여 Windows용 PowerApps Studio에서 동일한 앱을 만들 수 있습니다.
+* **샘플 앱** -샘플 앱은 휴대폰 또는 태블릿 레이아웃에서 서로 다른 비즈니스 시나리오를 위해 제작되었습니다. 앱을 클릭하여 앱의 기능, 앱 제작 레이아웃은 물론, 카메라, GPS 또는 라디오 단추 등, 앱의 대표적인 기능에 대한 설명을 빨리 볼 수 있습니다. 새 사용자가 PowerApps의 기능을 배울 수 있는 빠른 방법이며, 템플릿을 사용하여 PowerApps Studio에서 동일한 앱을 만들 수 있습니다.
   
     ![샘플 앱](./media/intro-maker-portal/sampleapps2.png)
 * **연결된 샘플 앱** - 이 앱은 Office 365, Salesforce, Trello 및 Wunderlist 등의 데이터 연결을 통해 데이터에 연결합니다. 이 앱 집합은 위의 샘플 앱과 다릅니다. 연결된 샘플 앱을 클릭하거나 탭하면 실제로 해당 앱의 새로운 인스턴스를 프로비전하는 것입니다(템플릿으로 생각). 그러면 데이터에 연결하려면 자격 증명을 입력하라는 메시지가 표시됩니다. 연결된 샘플 앱의 장점은 여기서 바로 인스턴스가 프로비전되므로 PowerApps Studio에서 열어 해당 앱이 제작된 방식을 알아 볼 수 있다는 것이고, 단점은 만드는 데 꽤 긴 시간(최대 1분)이 걸릴 수 있다는 것입니다. 그러므로 연결된 샘플 앱을 클릭하거나 탭할 때 브라우저가 열릴 때까지 기다려 주세요.
@@ -110,7 +110,7 @@ PowerApps 팀은 [powerapps.com](http://web.powerapps.com)을 앱 제작자를 �
 
 ## <a name="whats-new"></a>새로운 기능
 
-* 이제 앱을 클릭하거나 탭하면 웹용 PowerApps Studio로 새 탭에 열립니다.
+* 이제 앱을 클릭하거나 탭하면 PowerApps Studio로 새 탭에 열립니다.
 * 기본적으로는 **앱** 페이지에 편집 권한이 있는 모든 앱이 표시됩니다. **모든 앱**(사용자만 사용할 수 있는 앱 포함)을 보려면 **모든 앱** 필터를 선택하세요.
   
    ![앱 필터](./media/intro-maker-portal/allapps_filter.png)

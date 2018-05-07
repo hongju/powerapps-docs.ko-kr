@@ -11,11 +11,11 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 10/23/2016
 ms.author: lonu
-ms.openlocfilehash: 9a4daa7135f54ed3a0b3e1f206ce0d201c42da8b
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: f4b6f604ecd7557f7b7b54769d66da850e18ef4f
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="show-data-in-a-line-pie-or-bar-chart-in-powerapps"></a>PowerApps에서 꺾은선형, 원형 또는 막대형 차트로 데이터 표시
 꺾은선형 차트, 원형 차트 및 가로 막대형 차트를 사용하여 데이터를 표시합니다. 차트를 사용할 때 사용자가 가져온 데이터는 다음과 같이 구성되어야 합니다.
@@ -30,7 +30,7 @@ ms.lasthandoff: 04/26/2018
 PowerApps 내에서 이러한 차트를 만들고 사용할 수 없습니다. 이제 시작하겠습니다.
 
 ## <a name="prerequisites"></a>필수 조건
-* PowerApps에 [등록](../signup-for-powerapps.md)하고 PowerApps룰 [설치](http://aka.ms/powerappsinstall)합니다. PowerApps를 열면 가입 시 사용한 동일한 자격 증명을 사용하여 로그인합니다.
+* PowerApps에 [등록](../signup-for-powerapps.md)한 다음, 등록에 사용한 동일한 자격 증명을 사용하여 [로그인](https://web.powerapps.com)합니다.
 * [템플릿](get-started-test-drive.md), [데이터](get-started-create-from-data.md)에서 앱을 만들거나 [처음부터](get-started-create-from-blank.md)만듭니다.
 * PowerApps에서 [컨트롤 구성](add-configure-controls.md)을 어떻게 하는지 알아봅니다.
 * 샘플 데이터가 XML 파일로 포함된 [ChartData.zip](http://pwrappssamples.blob.core.windows.net/samples/ChartData.zip)을 다운로드합니다. 이 항목의 단계를 수행하여 앱에 직접 가져옵니다. 대신 .zip 파일의 압축을 풀고, Excel에서 XML 파일을 열고, [클라우드 저장소 계정](connections/cloud-storage-blob-connections.md)에 저장합니다.

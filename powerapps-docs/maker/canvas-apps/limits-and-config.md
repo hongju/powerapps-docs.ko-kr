@@ -12,11 +12,11 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 03/07/2018
 ms.author: sharik
-ms.openlocfilehash: 5cd2fdf5150d008f905e4c5c8177e6331545848e
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 5bf57ec96569751b3db656abdf04cebb1e13133a
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="system-requirements-limits-and-configuration-values"></a>시스템 요구 사항, 제한 및 구성 값
 이 항목은 장치 플랫폼 및 웹 브라우저 요구 사항뿐만 아니라 PowerApps에 대한 제한 사항 및 구성 값을 포함합니다.
@@ -37,7 +37,7 @@ ms.lasthandoff: 04/26/2018
 | Mozilla Firefox(최신 버전) |Windows 7 SP1, 8.1 및 10 <br> Android 5 이상 <br>iOS 8 이상 <br>macOS |
 | Apple Safari(최신 버전) |iOS 8 이상 <br>macOS |
 
-## <a name="supported-browsers-for-powerapps-studio-for-web"></a>웹용 PowerApps Studio에 대해 지원되는 브라우저
+## <a name="supported-browsers-for-powerapps-studio"></a>PowerApps Studio에 대해 지원되는 브라우저
 | **브라우저** | **운영 체제** |
 | --- | --- |
 | Google Chrome(최신 버전)<br>(권장) |Windows 7 SP1, 8.1 및 10 <br>macOS |

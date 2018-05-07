@@ -10,13 +10,13 @@ ms.service: powerapps
 ms.devlang: na
 ms.topic: conceptual
 ms.component: cds
-ms.date: 03/21/2018
+ms.date: 05/01/2018
 ms.author: matp
-ms.openlocfilehash: 685a275f496c631e6c784bde4e8b2b245507388f
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: dcd7acb9b6a7556e30cfa1aa46385024dcd0bcb5
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="tutorial-create-a-custom-entity-that-has-components-in-powerapps"></a>자습서: PowerApps에 구성 요소가 있는 사용자 지정 엔터티 만들기
 
@@ -30,9 +30,6 @@ ms.lasthandoff: 04/26/2018
 - 뷰 사용자 지정 
 - 양식 사용자 지정
 
-> [!IMPORTANT]
-> [!INCLUDE [cc-preview-features-definition](../../includes/cc-preview-features-definition.md)]
-
 이 자습서에서는 개와 고양이를 꾸미는 애완 동물 미용 사업을 하는 Contoso 회사를 다룹니다. Contoso는 직원이 다양한 장치에서 사용할 수 있는 클라이언트 및 애완 동물 추적용 앱이 필요합니다.
 
 ## <a name="prerequisites"></a>필수 조건
@@ -41,7 +38,7 @@ ms.lasthandoff: 04/26/2018
 
 ## <a name="create-a-custom-entity"></a>사용자 지정 엔터티 만들기
 
-1. **Common Data Service**의 왼쪽 탐색 창에서 **엔터티**를 선택한 다음, **새 엔터티**를 선택합니다.
+1. 왼쪽 탐색 창에서 **데이터**를 확장하고 **엔터티**를 선택한 다음, **새 엔터티**를 선택합니다.
     ![새 엔터티](media/create-custom-entity/create-new-entity.png)
 2. 오른쪽 창에서 다음 값을 입력한 후, **다음**을 선택합니다.
   - **표시 이름**: *애완 동물* 
@@ -49,18 +46,18 @@ ms.lasthandoff: 04/26/2018
 3. **엔터티 저장**을 선택합니다.
 
 ## <a name="add-and-customize-fields"></a>추가 및 사용자 지정 필드
-
+ 
 1. **필드** 탭에서 **기본 이름** 필드를 선택합니다.
 2. 오른쪽 창에서 **기본 이름** 필드를 다음과 같이 변경합니다. 
   - **표시 이름**을 **기본 이름**에서 *애완 동물 이름*으로 변경합니다.
-  - **검색 가능**을 선택합니다.
-
+  - **검색 가능**을 선택합니다.  
+  
     ![기본 필드 변경](media/create-custom-entity/primary-field.png)
 3. **완료**를 선택합니다.
-4. 엔터티 설계자 도구 모음에서 **추가** 필드를 선택합니다. **필드 속성** 창에서 다음 값과 옵션을 입력하거나 선택합니다.
+4. 엔터티 설계자 도구 모음의 **필드** 탭에서 **추가** 필드를 선택합니다. **필드 속성** 창에서 다음 값과 옵션을 입력하거나 선택합니다.
   - **표시 이름**. *종*
   - **데이터 형식**. *옵션 집합*
-  - **옵션 집합**. *새로 만들기*
+  - **옵션 집합**. *새 옵션 집합*
 5. 옵션 집합 만들기
 
   a. **새 항목 추가**를 선택합니다. 
@@ -92,15 +89,16 @@ ms.lasthandoff: 04/26/2018
 
 ## <a name="add-a-relationship"></a>관계 추가
 
-1. **관계** 탭을 선택한 다음, 엔터티 설계자 도구 모음에서 **관계 추가**를 선택합니다. 
-2. 오른쪽 창의 **관련 엔터티** 목록에서 **계정**을 선택한 다음, **완료**를 선택합니다.
-3. **엔터티 저장**을 선택합니다.
+1. **관계** 탭을 선택하고 엔터티 설계자 도구 모음에서 **관계 추가**를 선택한 다음, **다 대 일**을 선택합니다. 
+2. 오른쪽 창의 **관련** 목록에서 **계정**을 선택합니다.
+3. **완료**를 선택합니다.
+4. **엔터티 저장**을 선택합니다.
 
-관계를 추가할 때 데이터 형식이 **조회**인 필드는 **필드** 탭의 필드 목록에 자동으로 추가됩니다. ![계정 조회 필드](media/create-custom-entity/account-lookup-field.png)
+다 대 일 관계를 추가할 때 데이터 형식이 **조회**인 **계정** 필드는 **필드** 탭의 필드 목록에 자동으로 추가됩니다. ![계정 조회 필드](media/create-custom-entity/account-lookup-field.png)
 
 ## <a name="customize-a-view"></a>뷰 사용자 지정
 
-1. **뷰** 탭을 선택한 다음, **활성 애완 동물** 뷰를 선택합니다.
+1. **뷰** 탭을 선택한 다음, **활성 애완 동물** 뷰를 선택합니다. **활성 애완 동물** 뷰가 표시되지 않으면 **필터 제거**를 선택합니다.
 2. 뷰 설계자에서 **열 추가**를 선택하고 다음 열을 선택한 다음, **확인**을 선택합니다.
   - 계정
   - 약속 날짜 
@@ -110,22 +108,20 @@ ms.lasthandoff: 04/26/2018
 4. 열을 정렬하려면 이동하려는 열을 선택한 다음, 뷰가 다음과 같을 때까지 <- 및 -> 화살표 단추를 사용합니다.
     ![활성 애완 동물 뷰](media/create-custom-entity/active-pets-view.png)
 5. 뷰 설계자 도구 모음에서 **저장 후 닫기**를 선택합니다.  
-6. **엔터티 저장**을 선택합니다.
 
 ## <a name="model-driven-apps-only-customize-the-main-form"></a>모델 기반 앱만 해당: 기본 양식 사용자 지정
 
 캔버스 앱에서 애완 동물 엔터티만 사용하려면 이 단계를 건너뜁니다. 
 
 1. [!INCLUDE [powerapps](../../includes/powerapps.md)] 왼쪽 탐색 창에서 **모델 기반**을 선택합니다.
-2. 왼쪽 탐색 창에서 **고급**을 선택합니다.
-3. 솔루션 창의 왼쪽 탐색 창에서 **엔터티**를 선택하고 **애완 동물**을 확장한 다음, **양식**을 선택합니다.
-4. **기본** 양식 유형 옆의 **정보**를 선택하여 양식 편집기를 엽니다.
+2. 왼쪽 탐색 창에서 **데이터**를 확장하고 **엔터티**를 선택한 다음, **애완 동물**을 선택합니다.
+3. **양식** 탭을 선택한 다음, **기본** 양식 유형 옆의 **정보**를 선택합니다.
     ![기본 양식 편집](media/create-custom-entity/main-form-edit.png)
-5. 양식 편집기에서 필드 탐색기 창에 있는 **종**, **브리드**, **예약 날짜** 및 **계정** 필드를 다음과 같은 양식이 표시될 때까지 양식 캔버스의 일반 섹션으로 끌어다 놓습니다.
+4. 양식 편집기에서 필드 탐색기 창에 있는 **종**, **브리드**, **예약 날짜** 및 **계정** 필드를 다음과 같은 양식이 표시될 때까지 양식 캔버스의 일반 섹션으로 끌어다 놓습니다.
     ![기본 양식에 대한 필드 선택](media/create-custom-entity/main-form-edit2.png) 
-6. **저장 후 닫기**를 선택합니다.
-7. 솔루션 창에서 **모든 사용자 지정 게시**를 선택합니다.
-    ![모든 사용자 지정 게시](media/create-custom-entity/publish-all-customizations.png)
+5. **저장**을 선택합니다.
+6. **게시**를 선택합니다.
+7. **저장 및 닫기**를 선택하여 폼 디자이너를 닫습니다.
 
 ## <a name="add-the-custom-entity-to-an-app"></a>앱에 사용자 지정 엔터티 추가
 
@@ -133,4 +129,6 @@ ms.lasthandoff: 04/26/2018
 
 ## <a name="next-steps"></a>다음 단계
 
-이 자습서에서는 유용한 앱을 만드는 데 사용할 수 있는 엔터티를 만드는 방법을 배웠습니다. 캔버스 앱을 만드는 방법을 알아보려면 [새로 앱 만들기](../canvas-apps/get-started-create-from-blank.md)를 참조하세요.
+이 자습서에서는 유용한 앱을 만드는 데 사용할 수 있는 엔터티를 만드는 방법을 배웠습니다. 
+- 모델 기반 앱 만드는 방법을 알아보려면 [첫 번째 모델 기반 앱 빌드](../model-driven-apps/build-first-model-driven-app.md)를 참조합니다.
+- 캔버스 앱을 만드는 방법을 알아보려면 [새로 앱 만들기](../canvas-apps/get-started-create-from-blank.md)를 참조하세요.

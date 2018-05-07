@@ -12,11 +12,11 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 06/12/2017
 ms.author: mblythe
-ms.openlocfilehash: 9f0b01c8bdb2043c1f1c219a4163f790c14b4e46
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 4ae16517332864066f5b744e85ce3fe48c97a1df
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="generate-an-app-to-handle-project-requests"></a>프로젝트 요청을 처리할 앱 생성
 > [!NOTE]
@@ -33,7 +33,7 @@ SharePoint 목록을 저장했으므로 첫 번째 앱을 빌드하고 사용자
    
     ![앱 만들기](./media/sharepoint-scenario-generate-app/02-01-01-create-app.png)
 
-2. "프로젝트 요청 앱"과 같은 이름을 앱에 지정한 다음 **만들기**를 클릭하거나 누릅니다. 앱이 준비되면 웹에 PowerApps Studio가 열립니다.
+2. "프로젝트 요청 앱"과 같은 이름을 앱에 지정한 다음 **만들기**를 클릭하거나 누릅니다. 앱이 준비되면 PowerApps Studio가 열립니다.
    
     ![앱의 이름 지정](./media/sharepoint-scenario-generate-app/02-01-02-create-app-name.png)
 

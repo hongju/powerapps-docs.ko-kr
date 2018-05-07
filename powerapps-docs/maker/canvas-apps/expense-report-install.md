@@ -12,11 +12,11 @@ ms.topic: sample
 ms.component: canvas
 ms.date: 04/08/2018
 ms.author: caburk
-ms.openlocfilehash: 1454b995b50d2bb5d990ef57f91da6fb9105e660
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: bce21a5fe07cb5bf608c36371a7cbe45e845b2ad
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="install-and-configure-the-expense-report-powerapps-sample"></a>경비 보고서 PowerApps 샘플 설치 및 구성
 
@@ -60,7 +60,7 @@ ms.lasthandoff: 04/26/2018
 
 10. **만들기**를 클릭합니다.
 
-### <a name="create-costcenter-column"></a>비용 센터 열 만들기
+### <a name="create-cost-center-column"></a>비용 센터 열 만들기
 
 1. **경비** 목록을 클릭합니다.
 2. 웹 페이지의 오른쪽 맨 위 부분에 있는 **기어 아이콘**을 클릭합니다.
@@ -233,7 +233,7 @@ ms.lasthandoff: 04/26/2018
 ### <a name="create-sharepoint-connection"></a>SharePoint 연결 만들기
 
 1.  **+ 새 연결**을 클릭합니다.
-2.  **검색** 텍스트 상자에 **Outlook**을 입력합니다.
+2.  **검색** 텍스트 상자에 **SharePoint**을 입력합니다.
 3.  목록에서 **SharePoint**를 선택합니다.
 4.  **만들기**를 클릭합니다.
 5.  팝업 창에서 로그인하는 데 사용한 계정을 선택합니다.
@@ -259,7 +259,7 @@ ms.lasthandoff: 04/26/2018
     ![설정 가져오기 화면](./media/expense-report-install/import-settings-sharepoint.png)
 
 10. **저장**을 클릭합니다.
-11. **SharePoint 연결**의 **빨간색 아이콘**을 클릭합니다.
+11. **승인 연결**의 **빨간색 아이콘**을 클릭합니다.
 12. 연결 목록에서 사용자 이름이 있는 항목을 클릭합니다.
 
     ![설정 가져오기 화면](./media/expense-report-install/import-settings-approvals.png)

@@ -12,11 +12,11 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 03/18/2018
 ms.author: anneta
-ms.openlocfilehash: 50e897e9d75eec037039e81e6dbed524206b10d3
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 51a13472407c5483eed7cc2c202e46855905157d
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="generate-an-app-from-within-sharepoint-using-powerapps"></a>PowerApps를 사용하여 SharePoint 내에서 앱 생성
 
@@ -53,7 +53,7 @@ SharePoint Online 명령 모음에서 사용자 지정 목록의 앱을 만들 �
 ## <a name="manage-the-app"></a>앱 관리
 ![명령 모음](./media/generate-app-from-sharepoint-list-interface/command-bar.png)
 
-* **PowerApps에서 편집**을 클릭하거나 탭하면 웹용 PowerApps Studio에서 앱을 업데이트할 수 있는 별도 브라우저 탭에서 앱이 열립니다.
+* **PowerApps에서 편집**을 클릭하거나 탭하면 PowerApps Studio에서 앱을 업데이트할 수 있는 별도 브라우저 탭에서 앱이 열립니다.
 
 * **이 보기를 공개로 설정**을 클릭하거나 탭하면 조직의 다른 사람들이 해당 보기를 볼 수 있습니다. 기본적으로 사용자만 본인이 만든 보기를 볼 수 있습니다. 다른 사람이 앱을 편집하도록 허용하려는 경우 [이 항목을 공유](share-app.md)한 다음, **편집 가능** 사용 권한을 부여해야 합니다.
 

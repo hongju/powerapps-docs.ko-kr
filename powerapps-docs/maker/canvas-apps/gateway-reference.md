@@ -12,11 +12,11 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 10/20/2017
 ms.author: anneta
-ms.openlocfilehash: 77e47b79ece6149f7d9068fc4092e09fbdca77d2
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 2c754fa8e479494ae1002e5339d2d8d5eeb2480f
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="understand-on-premises-data-gateways-for-microsoft-powerapps"></a>Microsoft PowerApps에 대한 온-프레미스 데이터 게이트웨이 이해
 ## <a name="installation-and-configuration"></a>설치 및 구성
@@ -138,6 +138,10 @@ PowerShell 프롬프트에서 다음 명령을 실행하여 방화벽 또는 프
 온-프레미스 데이터 원본 또는 클라우드 서비스에 로그인하는 회사 또는 학교 계정에 연결하는 데 사용되는 계정이 아닙니다.
 
 인증으로 인해 프록시 서버에 문제가 발생하면 [프록시 구성](https://docs.microsoft.com/power-bi/service-gateway-proxy#changing-the-gateway-service-account-to-a-domain-user)에서 설명하는대로 Windows 서비스 계정을 도메인 사용자 또는 관리 서비스 계정으로 변경할 수 있습니다.
+
+## <a name="tenant-level-administration"></a>테넌트 수준 관리 
+
+테넌트 관리자가 다른 사용자가 설치 및 구성한 모든 게이트웨이를 관리할 수 있는 단일 장소는 없습니다.  테넌트 관리자인 경우 설치할 모든 게이트웨이에 관리자로 추가하도록 조직의 사용자에게 요청하는 것이 좋습니다. 이렇게 하면 게이트웨이 설정 페이지를 통해 또는 [PowerShell 명령](https://docs.microsoft.com/power-bi/service-gateway-high-availability-clusters#powershell-support-for-gateway-clusters)을 통해 조직의 모든 게이트웨이를 관리할 수 있습니다.
 
 ## <a name="frequently-asked-questions"></a>질문과 대답
 #### <a name="general"></a>일반

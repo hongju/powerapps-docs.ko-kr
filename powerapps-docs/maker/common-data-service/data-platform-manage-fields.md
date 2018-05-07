@@ -1,6 +1,6 @@
 ---
-title: 엔터티 내 사용자 지정 필드 관리 빠른 시작 | Microsoft Docs
-description: 엔터티에서 사용자 지정 필드를 만들고, 읽고, 업데이트하고, 삭제하기 위한 빠른 시작입니다.
+title: 엔터티 내 사용자 지정 필드 관리 | Microsoft Docs
+description: 앱용 CDS의 엔터티에서 사용자 지정 필드를 만들고, 읽고, 업데이트하고, 삭제하는 방법에 대한 연습입니다.
 documentationcenter: na
 author: clwesene
 manager: kfile
@@ -8,24 +8,23 @@ editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: conceptual
+ms.topic: article
 ms.component: cds
-ms.date: 3/21/2018
+ms.date: 03/21/2018
 ms.author: clwesene
-ms.openlocfilehash: a2dfe95cd9e858326a9f014aaac4e595fb27be48
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: ff522ee5d5614888c6cc0fcfb1e7d6658a36c6ae
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
-# <a name="quickstart-manage-custom-fields"></a>빠른 시작: 사용자 지정 필드 관리
+# <a name="manage-custom-fields-in-an-entity"></a>엔터티 내 사용자 지정 필드 관리
 모든 엔터티 내 하나 이상의 사용자 지정 필드를 만들고 업데이트할 수 있습니다. 사용자 지정 필드를 만들려면 필드의 이름, 필드의 표시 이름, 포함할 데이터 형식 등과 같은 속성 집합을 지정해야 합니다. 자세한 내용은 [엔터티 특성 메타데이터](../../developer/common-data-service/entity-attribute-metadata.md)를 참조하세요.
 
 > [!NOTE]
-> 모든 엔터티에는 레코드가 마지막으로 업데이트된 날짜 및 업데이트한 사람을 나타내는 필드와 같은 [시스템 필드]가 있습니다. 또한 [표준 엔터티](data-platform-intro.md#system-fields)에는 표준(기본값) 필드가 있습니다. 시스템 필드 또는 표준 필드를 수정하거나 삭제할 수 없습니다. 사용자 지정 필드를 만들 경우 이러한 기본 제공 필드를 기반으로 기능을 제공해야 합니다.
+> 모든 엔터티에는 레코드가 마지막으로 업데이트된 날짜 및 업데이트한 사람을 나타내는 필드와 같은 시스템 필드가 있습니다. 또한 표준 엔터티에는 표준(기본값) 필드가 있습니다. 시스템 필드 또는 표준 필드를 수정하거나 삭제할 수 없습니다. 사용자 지정 필드를 만들 경우 이러한 기본 제공 필드를 기반으로 기능을 제공해야 합니다.
 
 ## <a name="create-a-field"></a>필드 만들기
-
 1. [powerapps.com](https://web.powerapps.com)에서 **데이터** 섹션을 확장하고 왼쪽 탐색 창에서 **엔터티**를 클릭하거나 탭합니다.
 
     ![엔터티 세부 정보](./media/data-platform-cds-create-entity/entitylist.png "엔터티 목록")
@@ -62,7 +61,6 @@ ms.lasthandoff: 04/26/2018
     작업이 성공적으로 완료될 때 알림을 받습니다. 작업이 실패할 경우 오류 메시지가 발생한 문제 및 해결 방법을 표시합니다.
 
 ## <a name="create-a-calculated-or-roll-up-field"></a>계산됨 또는 롤업 필드 만들기
-
 계산됨 필드를 통해 비즈니스 프로세스에 사용되는 수동 계산을 자동화할 수 있습니다. 예를 들어 한 영업 직원은 확률을 곱한 기회에서 예상된 수익을 기반으로 하는 기회에 대해 가중된 수익을 알아야 할 수 있습니다. 또는 주문이 $500보다 많은 경우 자동으로 할인을 적용하려고 합니다. 계산된 필드는 단순한 수학 작업 또는 더 크거나 그렇지 않은 경우와 같은 조건부 작업의 결과 및 기타 작업에서 발생하는 값을 포함할 수 있습니다. 계산된 필드는 다음 데이터 형식을 사용하여 만들 수 있습니다.
 
 * 한 줄 텍스트
@@ -74,7 +72,6 @@ ms.lasthandoff: 04/26/2018
 * 날짜 및 시간
 
 지원되는 식의 형식 및 예제에 대한 자세한 내용은 [계산된 필드 정의](/dynamics365/customer-engagement/customize/define-calculated-fields)를 참조하세요.
-
 
 ## <a name="update-or-delete-a-field"></a>필드 업데이트 또는 삭제
 1. [powerapps.com](https://web.powerapps.com)에서 **데이터** 섹션을 확장하고 왼쪽 탐색 창에서 **엔터티**를 클릭하거나 탭한 다음, 엔터티를 클릭하거나 탭합니다.

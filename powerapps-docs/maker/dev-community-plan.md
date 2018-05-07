@@ -12,11 +12,11 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 05/01/2016
 ms.author: mblythe
-ms.openlocfilehash: fe346f5e85f37e68d2424298184d3f09615a5ac8
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 70200430b0cee7356d70795440b908a8837ba18d
+ms.sourcegitcommit: 6a75c4c499bcdbeb9d65d3a9af47dedcf900f38d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="powerapps-community-plan-a-free-development-environment-for-individual-use"></a>PowerApps 커뮤니티 플랜: 개인 사용을 위한 무료 개발 환경
 PowerApps 커뮤니티 플랜은 PowerApps, Microsoft Flow 및 Common Data Service에 대한 기술을 구축하고 자세한 내용을 알아보기에 가장 적합한 플랜입니다. PowerApps 커뮤니티 플랜에는 개인 사용을 위한 무료 개발 환경이 제공되며, 다음과 같은 작업이 가능합니다.
@@ -73,7 +73,7 @@ Visual Studio Dev Essentials 사용자에게는 PowerApps가 혜택에 포함됩
 
 * 테넌트의 다른 사용자와 앱, 흐름, 연결 등을 공유할 수 없습니다. 또한 다른 사용자를 환경 관리자 또는 제작자로 추가하거나 관리 센터의 데이터베이스 역할에 추가할 수 없습니다.
 
-** Common Data Service를 사용하여 데이터베이스 만들기는 현재 개별 환경에서 사용할 수 없으며 곧 다시 제공될 예정입니다. 이전에 데이터베이스를 만든 경우 문제없이 계속 사용할 수 있습니다. 
+\*\*Common Data Service를 사용하여 데이터베이스 만들기는 현재 개별 환경에서 사용할 수 없으며 곧 다시 제공될 예정입니다. 이전에 데이터베이스를 만든 경우 문제없이 계속 사용할 수 있습니다. 
 
 ## <a name="what-are-the-capacity-limits-for-the-individual-environment"></a>개인 환경에 대한 용량 제한은 얼마나 되나요?
 | **용량** |  |

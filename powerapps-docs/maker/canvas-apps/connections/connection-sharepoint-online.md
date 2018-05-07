@@ -12,11 +12,11 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 07/12/2017
 ms.author: ankitsar
-ms.openlocfilehash: fe6017ee402f0026aab3ef281a02b472b6a503ad
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 1be4a7a6f1d4080a715f88db8d48892641a19a1f
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="connect-to-sharepoint-from-powerapps"></a>PowerApps에서 SharePoint 연결
 ![SharePoint](./media/connection-sharepoint-online/sharepointicon.png)
@@ -49,13 +49,11 @@ SharePoint 사이트에 연결하여 목록에서 앱을 자동으로 만들고 
 공백을 포함한 열은 PowerApps에서 읽을 수 있지만 공백은 16진 이스케이프 코드 **"\_x0020\_"** 으로 대체됩니다. 예를 들어 SharePoint의 **"Column Name"** 은 데이터 레이아웃에 표시되거나 수식에 사용될 때 PowerApps에 **"Column_x0020_Name"** 으로 나타납니다.
 
 ## <a name="prerequisites"></a>필수 조건
-다음 중 *한* 단계를 통해 PowerApps를 엽니다.
+1. PowerApps에 [등록](../../signup-for-powerapps.md)합니다.
 
-* PowerApps에 [등록](../../signup-for-powerapps.md)하여 [PowerApps Studio for Windows를 설치하고](http://aka.ms/powerappsinstall) 연 다음 등록 시 사용했던 동일한 자격 증명으로 로그인합니다.
+1. 등록 시 사용한 동일한 자격 증명을 제공하여 PowerApps에 [로그인](http://web.powerapps.com)합니다.
 
-* 브라우저에서 [웹용 PowerApps Studio를 엽니다](https://create.powerapps.com/api/start).
-
-    웹용 PowerApps Studio의 미리 보기 릴리스에서 지원되는 브라우저 목록 및 제한 사항은 [브라우저에서 앱 생성 또는 편집](../create-app-browser.md)을 참조하세요.
+1. 왼쪽 가장자리 부근에서 **앱**을 선택한 다음, 배너에서 **앱 만들기**를 선택합니다.
 
 ## <a name="create-an-app"></a>앱 만들기
 * SharePoint 목록의 데이터를 기준으로 [앱을 자동으로 생성](../app-from-sharepoint.md)합니다.

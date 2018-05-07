@@ -1,73 +1,55 @@
 ---
 title: 캔버스 앱이란 무엇인가요? | Microsoft Docs
-description: PowerApps의 캔버스에서 사용자 지정 기간 업무 앱을 디자인 및 빌드하는 방법
-documentationcenter: na
+description: 사용자가 브라우저 또는 모바일 장치에서 LOB(기간 업무) 데이터를 관리할 수 있도록 PowerApps에서 캔버스 앱 설계 및 빌드
 author: AFTOwen
-manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
-ms.topic: conceptual
+ms.topic: overview
 ms.component: canvas
-ms.date: 03/14/2018
+ms.date: 04/26/2018
 ms.author: anneta
-ms.openlocfilehash: 224f75e4254807163ffdb646e9ea109af5f50db5
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: d520f47393c5462f36445e4c8df81617dfddafd2
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="what-are-canvas-apps-in-powerapps"></a>PowerApps의 캔버스 앱이란 무엇인가요?
-PowerApps를 시작합니다! PowerApps는 브라우저나 휴대폰 또는 태블릿에서 실행되는 비즈니스 앱을 빌드할 수 있는 서비스이며 코딩 경험이 필요하지 않습니다. PowerApps는 PowerPoint의 시각적 개체 끌어서 놓기 개념과 논리 및 데이터 작업에 대한 Excel과 같은 식을 결합합니다.
+C# 같은 일반적인 프로그래밍 언어로 코드를 작성하지 않고도 Microsoft PowerApps의 캔버스에서 비즈니스 앱을 설계하고 빌드합니다. Powerpoint에서 슬라이드를 디자인하는 것처럼 캔버스에 요소를 끌어 놓아 앱을 설계합니다. 논리를 지정하고 데이터로 작업하기 위해 Excel 같은 식을 만듭니다. [다양한 Microsoft 및 타사 원본](connections-list.md)에서 비즈니스 데이터를 통합하는 앱을 빌드합니다. 사용자가 브라우저 또는 모바일 장치에서 앱을 실행하도록 앱을 공유하고 사용자가 SharePoint, Power BI 또는 Teams에서 앱을 실행할 수 있도록 앱을 포함합니다.
 
-PowerApps를 사용하면 [다양한 Microsoft 및 타사 원본](connections-list.md)의 비즈니스 데이터를 하나의 강력한 앱으로 통합할 수 있습니다. 또한 사용자가 SharePoint, Power BI 및 Teams에서 실행할 수 있는 앱을 만들 수 있습니다.
+사용자 지정 설계가 필요없고 데이터가 앱용 CDS(Common Data Service)에 있는 경우 비즈니스 데이터 및 프로세스에서 모델 기반 앱을 자동으로 생성할 수 있습니다. 이러한 유형의 앱은 폼, 뷰 및 기타 구성 요소를 모델링할 수 있으며 기본 UI는 휴대폰, 노트북 및 기타 장치에 자동으로 조정됩니다. 이러한 유형의 앱에 대한 자세한 내용은 [모델 기반 앱 빌드 개요](../model-driven-apps/model-driven-app-overview.md)를 참조합니다.
 
-앱을 처음 빌드하는 경우, PowerApps에서 제공하는 템플릿 및 샘플 데이터를 사용하여 앱을 신속하게 빌드한 다음, 사용자의 비즈니스 요구에 맞게 사용자 지정할 수 있습니다. 약간의 경험과 창의성으로, 앱을 처음부터 직접 개발하는 것이 곧 가능해질 것입니다. 숙련된 개발자는 고급 기능을 활용할 수 있고 진정한 혁신이 가능합니다. 상상하는 것을 만들 수 있습니다!
+## <a name="build-an-app"></a>앱 빌드
+시작하려면 무엇보다 이러한 원본 중 하나에서 자동으로 앱을 생성 합니다.
+- [샘플 앱](open-and-run-a-sample-app.md)
+- [템플릿](get-started-test-drive.md)
+- [앱용 CDS](data-platform-create-app.md)
+- [SharePoint](app-from-sharepoint.md)
+- [Excel](get-started-create-from-data.md)
 
-## <a name="generate-an-app-automatically"></a>자동으로 앱 생성
-PowerApps에서는 다음과 같은 항목의 데이터 원본에서 자동으로 앱을 손쉽게 생성할 수 있습니다.
+PowerApps 사이트에서 **데이터에서 시작**을 선택하거나 **서비스 데스크** 또는 **예산 추적기** 같은 샘플 앱을 선택합니다.
 
-* [앱용 Common Data Service](data-platform-create-app.md)
-* [SharePoint](app-from-sharepoint.md)
-* [Excel](get-started-create-from-data.md)
-* [SQL Server](connections/connection-azure-sqldatabase.md)
-* [Salesforce](add-manage-connections.md)
-* [Dynamics 365](connections/connection-dynamics-crmonline.md)
+![PowerApps 사이트](./media/getting-started/sample-apps.png)
 
-또한 [템플릿에서 앱을 생성](get-started-test-drive.md)할 수 있습니다. 각 템플릿은 Dropbox와 같은 클라우드 계정의 가상 데이터를 기반으로 합니다. 특정 화면과 UI 요소(다른 이름: [컨트롤](reference-properties.md))를 탐색하여 어떻게 구성되는지 이해하고, 사용자 지정을 실험하면서 자신의 앱에 적용할 수 있는 기술을 알아보세요.
+앱을 자동으로 생성한 후에 사용자의 워크플로를 기반으로 기본 모양과 동작을 사용자 지정합니다. 예를 들어 표시할 데이터의 형식, 정렬하는 방법 또는 사용자가 수를 지정할 때 수를 입력할지 아니면 슬라이더를 조정할지 여부까지도 변경할 수 있습니다. [화면](add-screen-context-variables.md), [갤러리](customize-layout-sharepoint.md), [폼](customize-forms-sharepoint.md), 기타 컨트롤을 추가하고 사용자 지정합니다.
 
-## <a name="customize-an-app"></a>앱을 사용자 지정하기
-앱을 자동으로 생성하는 경우 PowerApps에서는 사용자 데이터에 대한 기본 인터페이스를 디자인하지만, 사용자의 워크플로에 따라 앱의 모양 및 동작을 사용자 지정할 수 있습니다. 예를 들어 표시할 데이터의 형식, 정렬하는 방법 또는 사용자가 수를 지정할 때 수를 입력할지 아니면 슬라이더를 조정할지 여부까지도 변경할 수 있습니다. 앱의 성능을 최적화하도록 [화면](add-screen-context-variables.md), [갤러리](customize-layout-sharepoint.md), [폼](customize-forms-sharepoint.md) 및 다른 컨트롤을 추가하고 사용자 지정할 수 있습니다.
-
-앱을 더욱 개선하는 방법에 대한 아이디어가 필요한 경우, [샘플 앱을 열어서](open-and-run-a-sample-app.md) 약간의 창의성과 몇 가지 경험으로 할 수 있는 것에 대해 알아볼 수 있습니다.
-
-![샘플 앱](./media/getting-started/sample-apps.png)
-
-## <a name="create-an-app-from-scratch"></a>앱을 처음부터 만들기
-앱을 자동으로 생성하고 사용자 지정으로 어느 정도의 경험을 얻은 다음, [처음부터 앱을 만들](get-started-create-from-blank.md) 수 있습니다. 처음부터 시작하면 앱 디자인, 흐름 및 컨트롤에 관한 유연성을 확보하고 보다 다양한 데이터 원본을 통합할 수 있습니다.
+앱을 자동으로 생성하고 사용자 지정으로 어느 정도의 경험을 얻은 다음, [앱용 CDS](data-platform-create-app-scratch.md), [Excel](get-started-create-from-blank.md) 또는 다른 데이터 원본을 기반으로 처음부터 앱을 만들 수 있습니다. 처음부터 시작하면 앱 디자인, 흐름 및 컨트롤에 관한 유연성을 확보하고 보다 다양한 데이터 원본을 통합할 수 있습니다.
 
 ## <a name="share-and-run-an-app"></a>앱 공유 및 실행
-앱을 완성하고 클라우드에 저장한 후에는 조직의 다른 사람들과 공유할 수 있습니다. 앱의 권한 수준을 제어할 수 있습니다. 즉, 앱을 실행할 수 있는 사용자나 그룹을 결정하고 이들이 앱을 사용자 지정하거나 조직 내의 또 다른 사람들과 공유할 수 있을지를 제어할 수 있습니다.
+앱을 완성하고 클라우드에 저장할 때는 조직의 [다른 사람들과 공유](share-app.md)합니다. 앱을 실행할 수 있는 사용자나 그룹을 지정하고 이들이 앱을 사용자 지정하거나 조직 내의 또 다른 사람들과 공유할 수 있는지 여부를 지정합니다.
 
-Windows, iOS, Android 또는 웹 브라우저에서 자신의 앱 및 나에게 공유된 앱을 실행할 수 있습니다.
+Windows, [웹 브라우저](../../user/run-app-browser.md) 또는 [iOS 또는 Android 장치](../../user/run-app-client.md)에서 자신의 앱 및 나에게 공유된 앱을 실행합니다.
 
-자세한 내용은 다음 항목을 확인하세요.
-
-* [다른 사람과 앱 공유](share-app.md)
-* [웹 브라우저에서 앱 실행](../../user/run-app-browser.md)
-* [휴대폰 또는 태블릿에서 앱 실행](../../user/run-app-client.md)
-
-## <a name="get-help-and-support"></a>도움말 및 지원
-PowerApps에 대한 질문이 있는 경우 다음과 같은 방법을 통해 도움을 얻을 수 있습니다.
-
+## <a name="learn-more"></a>자세한 정보
 * 왼쪽의 탐색 창에서 단계별 지침, 개념 및 참조 항목을 탐색합니다.
 * 자가 학습을 위한 [단계별 학습 과정](https://docs.microsoft.com/powerapps/guided-learning/)을 통해 학습합니다.
-* PowerApps를 사용하는 모든 이가 질문을 게시하고 답변할 수 있는 공간인 [PowerApps 커뮤니티](https://aka.ms/powerapps-community)에서 정보를 읽고 게시합니다. 질문을 게시하기 전에는 커뮤니티를 검색하여 같은 질문이 게시되어 답변한 내용이 있는지 확인하세요.
 * [예정된 웨비나](webinars-listing.md#upcoming-webinars)를 확인하세요. PowerApps의 특징과 기능을 활용하는 데 도움이 될 수 있습니다. 필요 시 [이전 웹 세미나](webinars-listing.md#past-webinars)에 액세스할 수도 있습니다.
+
+## <a name="share-your-experience"></a>사용자 경험 공유
+* PowerApps를 사용하는 모든 이가 질문을 게시하고 답변할 수 있는 공간인 [PowerApps 커뮤니티](https://aka.ms/powerapps-community)에서 정보를 읽고 게시합니다. 질문을 게시하기 전에는 커뮤니티를 검색하여 같은 질문이 게시되어 답변한 내용이 있는지 확인하세요.
+* [PowerApps Ideas](https://powerusers.microsoft.com/t5/PowerApps-Ideas/idb-p/PowerAppsIdeas)에서 PowerApps를 개선할 수 있는 방안에 대한 아이디어를 제출하십시오.
 * 기술 지원을 받으려면 [지원 티켓](https://powerapps.microsoft.com/support/pro/)을 만드세요. 조직의 PowerApps 관리자인 경우 [PowerApps 관리 센터](https://portal.office.com/Support/Support.aspx)에서 지원 티켓을 열 수도 있습니다.
 
-또한 PowerApps가 더욱 발전하려면 여러분의 도움이 필요합니다!
-
-* PowerApps를 개선할 수 있는 방안에 대한 아이디어를 제출하려면 [PowerApps Ideas](https://powerusers.microsoft.com/t5/PowerApps-Ideas/idb-p/PowerAppsIdeas)로 이동하여 자세한 내용을 알려주세요.
-* PowerApps에서 경험한 문제가 있다면 자세히 알아볼 수 있도록 [PowerApps 포럼](https://powerusers.microsoft.com/t5/General-Discussion/bd-p/PowerAppsForum1)으로 이동하여 자세한 내용을 알려주세요.
+## <a name="next-steps"></a>다음 단계
+- [무료 라이선스에 등록합니다.](../signup-for-powerapps.md)
+- [PowerApps에 로그인합니다.](https://web.powerapps.com)
+- [샘플 앱을 엽니다.](open-and-run-a-sample-app.md)

@@ -12,11 +12,11 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 10/12/2016
 ms.author: lanced
-ms.openlocfilehash: 3eb91d8903caff9af812943697cf317ee7379316
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 6e373bdf618bf9e59deef5d8bddf73c06d6f34fd
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="connect-to-power-bi-from-powerapps"></a>PowerApps에서 Power BI에 연결
 ![Power BI](./media/connection-powerbi/powerbiicon.png)
@@ -26,7 +26,7 @@ Power BI는 데이터를 분석하고 정보 활용을 공유하는 비즈니스
 이 토픽에서는 앱에서 Power BI 연결을 사용하는 방법과 사용할 수 있는 함수를 나열합니다.
 
 ## <a name="prerequisites"></a>필수 조건
-* [powerapps.com](https://powerapps.com)에 액세스하거나 [PowerApps](http://aka.ms/powerappsinstall)를 설치합니다.
+* [등록](https://web.powerapps.com)
 * Power BI [연결](https://powerapps.microsoft.com/tutorials/add-manage-connections/)을 추가합니다.
 * [템플릿](https://powerapps.microsoft.com/tutorials/get-started-test-drive/), [데이터](https://powerapps.microsoft.com/tutorials/get-started-create-from-data/)에서 앱을 만들거나 [처음부터](https://powerapps.microsoft.com/tutorials/get-started-create-from-blank/)만듭니다.
 

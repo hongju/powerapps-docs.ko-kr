@@ -9,12 +9,12 @@
 PowerApps가 *무엇인지* 알기 위해 많은 시간을 보내지는 않겠지만 좀 더 많은 것들에 도움이 된다고 생각합니다.
 
 ## <a name="webpowerappscom"></a>web.powerapps.com
-앱을 빌드하는 데 대부분의 시간을 보냅니다. **샘플 앱과 템플릿**에서 배울 수 있으며 만든 앱 모두를 여기서 볼 수 있습니다. **웹용 PowerApps Studio** 또는 **Windows용 PowerApps Studio**에서 앱을 만들고 이러한 앱을 개인 및 조직과 공유합니다. 데이터, 즉 **연결**, **게이트웨이** 및 **엔터티**를 관리합니다(모두 곧 다룰 예정임). 그리고 **flows.microsoft.com**에서 만든 **흐름**을 모두 볼 수 있으며, 이를 앱과 통합할 수 있습니다.
+앱을 빌드하는 데 대부분의 시간을 보냅니다. **샘플 앱과 템플릿**에서 배울 수 있으며 만든 앱 모두를 여기서 볼 수 있습니다. **PowerApps Studio**에서 앱을 만든 다음, 이러한 앱을 개인 및 조직과 공유합니다. 데이터, 즉 **연결**, **게이트웨이** 및 **엔터티**를 관리합니다(모두 곧 다룰 예정임). 그리고 **flows.microsoft.com**에서 만든 **흐름**을 모두 볼 수 있으며, 이를 앱과 통합할 수 있습니다.
 
 ![web.powerapps.com 사이트](./media/learning-powerapps-parts/powerapps-web-site.png)
 
 ## <a name="powerapps-studio"></a>PowerApps Studio
-**PowerApps Studio**는 모든 최신 브라우저에서 사용할 수 있는 웹 응용 프로그램으로, 그리고 Windows 응용 프로그램으로 사용할 수 있습니다. PowerApps Studio에는 3개 창과 리본 메뉴가 있어 **PowerPoint에서 슬라이드 모음을 만드는 것과 비슷하게** 앱을 만들 수 있습니다.
+**PowerApps Studio**는 모든 최신 브라우저에서 사용할 수 있는 웹 응용 프로그램으로 사용할 수 있습니다. PowerApps Studio에는 3개 창과 리본 메뉴가 있어 **PowerPoint에서 슬라이드 모음을 만드는 것과 비슷하게** 앱을 만들 수 있습니다.
 
 1. **왼쪽 탐색 모음**: 앱의 각 화면 썸네일이나 각 화면의 모든 컨트롤을 계층 구조로 볼 수 있습니다.
 2. **가운데 창**: 작업 중인 화면을 표시합니다.

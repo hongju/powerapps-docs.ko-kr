@@ -12,11 +12,11 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 02/05/2018
 ms.author: anneta
-ms.openlocfilehash: c5dafffba91f4e4ce8e4e27d4780e91bf5ddc415
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 34c4e4126015f9a5f53ef6f07c9c66e4a4141db0
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="customize-a-sharepoint-list-form-using-powerapps"></a>PowerApps를 사용하여 SharePoint 목록 양식을 사용자 지정
 
@@ -33,11 +33,11 @@ PowerApps는 SharePoint와 직접 통합되어 있기 때문에 컴퓨터에 다
 > [!NOTE]
 > PowerApps에서 지원하지 않는 데이터 형식이 SharePoint 목록에 포함되어 있으면 **양식 사용자 지정** 옵션을 사용할 수 없거나 제대로 작동하지 않을 수 있습니다.
 
-SharePoint 목록의 명령 모음에서 **PowerApps**를 클릭하거나 탭한 다음 **양식 사용자 지정**을 클릭하거나 탭합니다. 이렇게 하면 브라우저에 웹용 PowerApps Studio가 열리고 다음 예제와 같이 PowerApps에서 단일 화면 양식 앱이 생성됩니다.
+SharePoint 목록의 명령 모음에서 **PowerApps**를 클릭하거나 탭한 다음 **양식 사용자 지정**을 클릭하거나 탭합니다. 이렇게 하면 브라우저에 PowerApps Studio가 열리고 다음 예제와 같이 PowerApps에서 단일 화면 양식 앱이 생성됩니다.
 
 ![단일 화면 양식 앱](./media/customize-list-form/list-form-app.png)
 
-언제든지 SharePoint 목록으로 돌아가려면 웹용 PowerApps Studio의 왼쪽 위 모서리에서 **SharePoint로 돌아가기**를 클릭하거나 탭합니다.
+언제든지 SharePoint 목록으로 돌아가려면 PowerApps Studio의 왼쪽 위 모서리에서 **SharePoint로 돌아가기**를 클릭하거나 탭합니다.
 
 ## <a name="customize-the-list-form"></a>목록 양식 사용자 지정
 
@@ -88,7 +88,7 @@ PowerApps에서는 필드 숨기기가 쉽습니다. 양식 사용자 지정 옵
 
     * **기본 SharePoint 양식 사용** - SharePoint는 목록에 기본 SharePoint 양식을 사용합니다.
 
-    * **Use a custom form created in PowerApps**(PowerApps에서 만든 사용자 지정 양식 사용) - SharePoint는 PowerApps에서 사용자 지정한 양식을 사용합니다. (또는 웹용 PowerApps Studio의 **저장** 페이지에서 양식을 다시 게시할 수 있습니다.)
+    * **Use a custom form created in PowerApps**(PowerApps에서 만든 사용자 지정 양식 사용) - SharePoint는 PowerApps에서 사용자 지정한 양식을 사용합니다. (또는 PowerApps Studio의 **저장** 페이지에서 양식을 다시 게시할 수 있습니다.)
 
     필요에 따라 옵션을 앞뒤로 전환할 수 있습니다.
 
@@ -108,7 +108,7 @@ PowerApps에서는 필드 숨기기가 쉽습니다. 양식 사용자 지정 옵
 
 **Q:** 사용자 지정 목록 양식이 SharePoint나 PowerApps에서 만드는 독립 실행형 앱과 다른 점은 무엇인가요?
 
-**A:** SharePoint에서 만드는 목록 양식 앱은 SharePoint 목록에서만 사용할 수 있는 특별한 유형의 PowerApps 앱입니다. 이러한 목록 양식 앱은 웹용 PowerApps Studio나 PowerApps Mobile의 앱 목록에 표시되지 않으며 SharePoint 목록 외부에서는 실행할 수 없습니다.
+**A:** SharePoint에서 만드는 목록 양식 앱은 SharePoint 목록에서만 사용할 수 있는 특별한 유형의 PowerApps 앱입니다. 이러한 목록 양식 앱은 PowerApps Studio나 PowerApps Mobile의 앱 목록에 표시되지 않으며 SharePoint 목록 외부에서는 실행할 수 없습니다.
 
 **Q:** 사용자 지정 목록 양식은 언제 만들고 독립 실행형 앱은 언제 만들어야 하나요?
 
@@ -142,12 +142,12 @@ PowerApps에서는 필드 숨기기가 쉽습니다. 양식 사용자 지정 옵
 
 1. SharePoint 목록의 명령 모음에서 **PowerApps**를 클릭하거나 탭한 다음 **양식 사용자 지정**을 클릭하거나 탭합니다.
 
-1. 웹용 PowerApps Studio에서 **파일**을 클릭하거나 탭한 다음 **저장** 페이지에서 **모든 버전 보기**를 클릭하거나 탭합니다. **버전** 페이지가 새 브라우저 탭에 열립니다.
+1. PowerApps Studio에서 **파일**을 클릭하거나 탭한 다음, **저장** 페이지에서 **모든 버전 보기**를 클릭하거나 탭합니다. **버전** 페이지가 새 브라우저 탭에 열립니다.
 
     > [!NOTE]
     > **모든 버전 보기** 단추가 표시되지 않으면 **저장**을 클릭하거나 탭합니다. 그러면 단추가 표시됩니다.
 
-1. **버전** 페이지나 브라우저 탭을 닫지 않고 다른 브라우저 탭의 **저장** 페이지로 돌아가서 왼쪽 탐색 창의 맨 위에 있는 화살표를 클릭하거나 탭한 다음 **SharePoint로 돌아가기**를 클릭하거나 탭하여 양식의 잠금을 해제하고 웹용 PowerApps Studio을 종료합니다.
+1. **버전** 페이지나 브라우저 탭을 닫지 않고 다른 브라우저 탭의 **저장** 페이지로 돌아가서 왼쪽 탐색 창의 맨 위에 있는 화살표를 클릭하거나 탭한 다음, **SharePoint로 돌아가기**를 클릭하거나 탭하여 양식의 잠금을 해제하고 PowerApps Studio을 종료합니다.
 
 1. 다른 브라우저 탭의 **버전** 페이지로 돌아가서 복원할 버전을 찾은 다음 **복원**을 클릭합니다.
 
