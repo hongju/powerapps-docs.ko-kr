@@ -12,11 +12,11 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 10/23/2016
 ms.author: anneta
-ms.openlocfilehash: d8f41cc03f0cfac88ef356966c7d07b6cf088cda
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 6960b41effb109f6f2266ba279b4d51ea51e744f
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="scan-a-barcode-in-powerapps"></a>PowerApps에서 바코드 스캔
 앱을 만들고, 카메라가 있는 휴대폰과 같은 장치에서 이 앱을 실행하여 여러 유형의 바코드를 스캔합니다. 바코드에 해당하는 숫자는 **레이블** 컨트롤에 표시되며, 해당 데이터를 다양한 [데이터 원본](connections-list.md)에 업로드할 수 있습니다.
@@ -35,8 +35,7 @@ PowerApps에 익숙하지 않으면 [시작](getting-started.md)을 참조하세
 ## <a name="create-a-blank-app"></a>빈 앱 만들기
 1. [PowerApps에 등록](../signup-for-powerapps.md)한 후 다음 중 *하나*를 수행합니다.
 
-   * 카메라가 있는 장치의 브라우저에서 [PowerApps를 엽니다](https://create.powerapps.com/api/start).
-   * 카메라가 있는 장치의 Windows Store에서 [PowerApps를 설치합니다](http://aka.ms/powerappsinstall). PowerApps를 열고, 로그인한 다음 **파일** 메뉴(왼쪽 모서리를 따라)에서 **새로 만들기**를 클릭하거나 탭합니다.
+1. 카메라가 있는 장치의 브라우저에서 [PowerApps를 엽니다](https://create.powerapps.com).
 
 2. **빈 캔버스 또는 템플릿으로 시작** 아래에서 **빈 앱** 타일의 **전화 레이아웃**을 클릭하거나 탭합니다.
 
