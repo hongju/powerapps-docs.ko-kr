@@ -1,24 +1,22 @@
 ---
 title: '데이터 테이블 컨트롤: 참조 | Microsoft Docs'
 description: 속성 및 예제를 포함한 데이터 테이블 컨트롤 정보
-services: powerapps
 documentationcenter: na
 author: jasongre
-manager: kfend
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 06/05/2017
 ms.author: kfend
-ms.openlocfilehash: 117d55cedb7c11bcdb6f69f8c10a8df2f2512b89
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.openlocfilehash: aa6e778a1c0426c696aaf48c542eccc4887c0e36
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="data-table-control-in-powerapps"></a>PowerApps의 데이터 테이블 컨트롤
 테이블 형식으로 데이터 집합을 보여 줍니다.
@@ -154,7 +152,7 @@ PowerApps에는 2017년 5월 5일 **데이터 테이블**이 도입되었습니�
 * **SelectedColor** 및 **SelectedFill**
 * [**HoverColor**](properties-color-border.md) 및 [**HoverFill**](properties-color-border.md)
 
-이는 표준 색 대비 요구 사항에 추가됩니다.
+이는 [표준 색 대비 요구 사항](../accessible-apps-color.md)에 추가됩니다.
 
 ### <a name="screen-reader-support"></a>화면 판독기 지원
 * **NoDataText**가 있어야 합니다.

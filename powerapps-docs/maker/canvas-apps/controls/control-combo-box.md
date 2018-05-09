@@ -1,25 +1,22 @@
 ---
 title: '콤보 박스 컨트롤: 참조 | Microsoft Docs'
 description: 속성 및 예제를 비롯한 콤보 박스 컨트롤에 관한 정보
-services: ''
-suite: powerapps
 documentationcenter: na
 author: fikaradz
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 09/13/2017
 ms.author: fikaradz
-ms.openlocfilehash: 5fb4ca1a8c3618a81940ef953e2e7d1c9b04dd7e
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.openlocfilehash: 4fde158bbca9d132801236f418c8a7652444728e
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="combo-box-control-in-powerapps"></a>PowerApps의 콤보 박스 컨트롤
 사용자가 제공된 선택 항목 중에서 선택할 수 있습니다.  검색과 다중 선택을 지원합니다.
@@ -104,15 +101,17 @@ ms.lasthandoff: 04/16/2018
 * **SelectionFill** 및 **[Fill](properties-color-border.md)**
 * **SelectionTagColor** 및 **SelectionTagFill**
 
-이는 표준 색 대비 요구 사항에 추가됩니다.
+이는 [표준 색 대비 요구 사항](../accessible-apps-color.md)에 추가됩니다.
 
 ### <a name="screen-reader-support"></a>화면 판독기 지원
 * **[AccessibleLabel](properties-accessibility.md)** 이 있어야 합니다.
-> [!NOTE]
+
+    > [!NOTE]
 > 터치 스크린에서 화면 읽기 프로그램 사용자는 콤보 상자의 콘텐츠를 순차적으로 탐색할 수 있습니다. 콤보 상자는 선택 시 해당 콘텐츠를 표시하거나 숨기는 단추 역할을 합니다.
 
 ### <a name="keyboard-support"></a>키보드 지원
 * 키보드 사용자가 탐색할 수 있도록 **[TabIndex](properties-accessibility.md)** 가 0 이상이어야 합니다.
 * 포커스 표시기가 명확하게 표시되어야 합니다. **[FocusedBorderColor](properties-color-border.md)** 및 **[FocusedBorderThickness](properties-color-border.md)** 를 사용하여 이를 달성합니다.
-> [!NOTE]
+
+    > [!NOTE]
 > Tab 키는 콤보 상자로 이동하거나 멀어지도록 이동합니다. 화살표 키는 콤보 상자의 콘텐츠를 탐색합니다. Esc 키는 열려 있는 드롭다운을 닫습니다.

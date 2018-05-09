@@ -1,25 +1,22 @@
 ---
 title: '레이블 컨트롤: 참조 | Microsoft Docs'
 description: 속성 및 예제를 비롯한 레이블 컨트롤에 관한 정보
-services: ''
-suite: powerapps
 documentationcenter: na
 author: fikaradz
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: e3cae08695af7a4625fd4deb58c8cf7cfe71fdd0
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.openlocfilehash: caa8cf8678a509e4d66442f790b8d89905d48b92
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="label-control-in-powerapps"></a>PowerApps의 레이블 컨트롤
 텍스트, 숫자, 날짜 또는 통화와 같은 데이터를 표시하는 상자입니다.
@@ -155,11 +152,12 @@ ms.lasthandoff: 04/16/2018
 ### <a name="color-contrast"></a>색 대비
 다음 사이에 적절한 색 대비가 있어야 합니다.
 * **[Color](properties-color-border.md)** 및 **[Fill](properties-color-border.md)**
-* 기타 표준 색 대비 요구 사항이 적용됨(단추 또는 링크로 사용되는 경우)
+* 기타 [표준 색 대비 요구 사항](../accessible-apps-color.md)이 적용됨(단추 또는 링크로 사용되는 경우)
 
 ### <a name="screen-reader-support"></a>화면 판독기 지원
 * **[Text](properties-core.md)** 가 있어야 합니다.
-> [!NOTE]
+
+    > [!NOTE]
 > 화면 읽기 프로그램은 **[TabIndex](properties-accessibility.md)** 가 0 이상이면 **레이블**을 단추로 처리합니다.
 
 ### <a name="low-vision-support"></a>저시력 사용자 지원

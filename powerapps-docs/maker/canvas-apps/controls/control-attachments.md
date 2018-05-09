@@ -1,32 +1,29 @@
 ---
 title: '첨부 파일 컨트롤: 참조 | Microsoft Docs'
 description: 첨부 파일 컨트롤에 대한 속성 및 예제를 포함한 정보
-services: ''
-suite: powerapps
 documentationcenter: na
 author: fikaradz
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.date: 09/29/2017
+ms.topic: reference
+ms.component: canvas
+ms.date: 04/23/2018
 ms.author: fikaradz
-ms.openlocfilehash: 6b46cfd778dcb29553dce252988b8b6a049ba12d
-ms.sourcegitcommit: d7ed5144f96d1ecc17084c30ed0e2ba3c6b03c26
+ms.openlocfilehash: 24610e4d70f39f08eec1e828c1be20183d8de3af
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/19/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="attachments-control-in-powerapps"></a>PowerApps의 첨부 파일 컨트롤
 사용자가 자신의 장치에 파일을 다운로드하고, SharePoint 목록에서 파일을 업로드 및 삭제할 수 있는 컨트롤입니다.
 
 ## <a name="limitations"></a>제한 사항
 첨부 파일 컨트롤에는 다음과 같은 임시 제한이 있습니다.
-1. 첨부 파일 다운로드는 Internet Explorer에서 지원되지 않습니다.
+1. 첨부 파일 다운로드는 Internet Explorer의 SharePoint 사용자 지정 목록 양식 내에서만 지원됩니다.
 
 1. 첨부 파일 업로드는 SharePoint 목록 데이터 원본에서만 작동합니다.  다른 데이터 원본에 대한 지원은 CDS부터 점진적으로 도입될 예정입니다.
 
@@ -97,7 +94,7 @@ ms.lasthandoff: 04/19/2018
 
     SharePoint 목록과 연결된 첨부 파일 필드가 양식에 표시됩니다.
 
-[컨트롤을 추가하고 구성하는 방법을 알아봅니다.](../add-configure-controls.md)
+[컨트롤을 추가하고 구성하는 방법을 알아봅니다].(../add-configure-controls.md)
 
 
 ## <a name="accessibility-guidelines"></a>접근성 지침
@@ -113,7 +110,7 @@ ms.lasthandoff: 04/19/2018
 * **MaxAttachmentsColor** 및 **Fill**
 * **NoAttachmentsColor** 및 **Fill**
 
-이는 표준 색 대비 요구 사항에 추가됩니다.
+이는 [표준 색 대비 요구 사항](../accessible-apps-color.md)에 추가됩니다.
 
 ### <a name="screen-reader-support"></a>화면 판독기 지원
 다음 속성이 있어야 합니다.

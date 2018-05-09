@@ -7,11 +7,11 @@ ms.topic: tutorial
 ms.component: canvas
 ms.date: 04/24/2018
 ms.author: anneta
-ms.openlocfilehash: 6206d520e8bb07c0919f482700c1af861e41109d
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 3138969cc51d0d0964692d4c53101b6a145ba1cf
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="tutorial-customize-a-gallery-in-powerapps"></a>자습서: PowerApps에서 갤러리 사용자 지정
 이 자습서에서는 갤러리를 사용자 지정하고 Microsoft PowerApps에서 자동으로 생성된 앱의 다른 내용을 변경합니다. 이러한 변경 내용이 없어도 사용자는 앱에서 데이터를 관리할 수 있지만 조직의 요구 사항에 맞게 사용자 지정하면 앱을 더 쉽게 사용할 수 있습니다.
@@ -28,7 +28,7 @@ ms.lasthandoff: 04/26/2018
 PowerApps에 대한 라이선스가 없으면 [무료로 등록](../signup-for-powerapps.md)할 수 있습니다.
 
 ## <a name="prerequisites"></a>필수 조건
-이 항목에서 일반적인 개념만을 살펴보거나 처음 [이 앱을 생성](data-platform-create-app.md)하는 경우에는 각 단계를 따를 수 있습니다.
+앱용 CDS(Common Data Service)의 [계정](data-platform-create-app.md) 엔터티에서 **앱을 생성**합니다.
 
 ## <a name="open-the-generated-app"></a>생성된 앱 열기
 1. [PowerApps](https://web.powerapps.com)에 로그인한 다음, 왼쪽 가장자리 근처에서 **앱**을 선택합니다.

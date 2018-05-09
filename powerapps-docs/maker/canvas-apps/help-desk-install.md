@@ -1,25 +1,22 @@
 ---
 title: 지원 센터 PowerApps 샘플 설치 및 구성 | Microsoft Docs
 description: 지원 센터 PowerApps 샘플 설치 및 구성에 대한 단계별 지침입니다.
-services: ''
-suite: powerapps
 documentationcenter: na
 author: caburk
-manager: ''
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: sample
+ms.component: canvas
 ms.date: 04/08/2018
 ms.author: caburk
-ms.openlocfilehash: be5a2f1994a55abf6936ded4dfddf84d145115c5
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.openlocfilehash: e042230acec8bf70a2a99eee316d234cb5cdea15
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="install-and-configure-the-help-desk-powerapps-sample"></a>지원 센터 PowerApps 샘플 설치 및 구성
 
@@ -85,10 +82,10 @@ ms.lasthandoff: 04/16/2018
 7. **기본값** 텍스트 상자에서 **노트북 / PC 장비 문제**를 입력합니다.
 8. **확인**을 클릭합니다.
 
-### <a name="create--complete-column"></a>열 완료율(%) 만들기
+### <a name="create-percentcomplete-column"></a>PercentComplete 열 만들기
 
 1. **열 만들기**를 클릭합니다.
-2. **열 이름** 텍스트 상자에 **연 완료율(%)** 을 입력합니다.
+2. **열 이름** 텍스트 상자에 **PercentComplete**를 입력합니다.
 3. **이 열의 정보 유형** 라디오 단추 목록에서 **숫자(1, 10, 100)** 를 선택합니다.
 4. **이 열에 정보가 포함되어야 함** 라디오 단추 목록에서 **아니요**를 선택합니다.
 5. **확인**을 클릭합니다.
@@ -251,6 +248,7 @@ ms.lasthandoff: 04/16/2018
     
     > [!TIP] 
     > 1 초과 관리자가 있는 경우 관리자를 구분하려면 쉼표를 사용하세요.  예: "admin1@microsoft.com","admin2@microsoft.com".
+    > AdminList의 주소가 PowerApps에 필요한 형식과 일치하는지 확인하려면 [보기] > [변수] > [전역] > [MyProfile]을 선택하고 ‘메일’ 열에서 필요한 메일 형식을 확인합니다.
 
 5. **파일**을 클릭합니다.
 6. **저장**을 클릭합니다.

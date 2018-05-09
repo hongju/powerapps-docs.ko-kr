@@ -1,25 +1,22 @@
 ---
 title: '도형 컨트롤 및 아이콘 모양을: 참조 | Microsoft Docs'
 description: 속성 및 예제를 비롯하여 도형 컨트롤과 아이콘 컨트롤에 관한 정보
-services: ''
-suite: powerapps
 documentationcenter: na
 author: fikaradz
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 922a34c4acdaa82313edb9bf55bcb24d42af7fed
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.openlocfilehash: e2c5d384c29766d6c30db8aa85ad4d7d45b48e04
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="shape-controls-and-icon-controls-in-powerapps"></a>PowerApps의 도형 컨트롤 및 아이콘 컨트롤
 모양 및 동작 속성을 구성할 수 있는 그래픽입니다.
@@ -82,7 +79,7 @@ ms.lasthandoff: 04/16/2018
 
 아이콘:
 * **[Color](properties-color-border.md)** 및 **[Fill](properties-color-border.md)**
-* 기타 표준 색 대비 요구 사항이 적용됨(단추로 사용되는 경우)
+* 기타 [표준 색 대비 요구 사항](../accessible-apps-color.md)이 적용됨(단추로 사용되는 경우)
 
 테두리가 있는 셰이프:
 * **[BorderColor](properties-color-border.md)** 및 컨트롤 외부 색
@@ -98,11 +95,13 @@ ms.lasthandoff: 04/16/2018
 * 그래픽이 장식용으로만 사용되는 경우 **[AccessibleLabel](properties-accessibility.md)** 은 비어 있거나 빈 문자열 **""** 이어야 합니다. 이렇게 하면 화면 읽기 프로그램이 그래픽을 무시합니다.
 * 그래픽이 중복 정보를 제공하는 경우 **[AccessibleLabel](properties-accessibility.md)** 은 비어 있거나 빈 문자열 **""** 일 수 있습니다.
     * 예를 들어 **[AccessibleLabel](properties-accessibility.md)** 이 **설정**으로 설정된 **설정** 아이콘이 있습니다. 이 아이콘은 단추로 사용되지 않습니다. **설정**으로도 표시된 **[레이블](control-text-box.md)** 옆에 있습니다. 화면 읽기 프로그램은 아이콘을 **설정**으로 읽고 레이블을 다시 **설정**으로 읽습니다. 이는 불필요하게 자세한 정보입니다. 이 경우 아이콘에는 **[AccessibleLabel](properties-accessibility.md)** 이 필요하지 않습니다.
-> [!IMPORTANT]
+
+    > [!IMPORTANT]
 > 화면 읽기 프로그램은 **[AccessibleLabel](properties-accessibility.md)** 이 비어 있는 경우에도 항상 0 이상의 **[TabIndex](properties-accessibility.md)** 가 있는 아이콘 또는 셰이프를 읽습니다. 이는 이미지가 단추로 렌더링되기 때문입니다. **[AccessibleLabel](properties-accessibility.md)** 이 제공되지 않으면 화면 읽기 프로그램은 그래픽을 **단추**로만 읽습니다.
 
 ### <a name="keyboard-support"></a>키보드 지원
 * 그래픽이 단추로 사용되는 경우 **[TabIndex](properties-accessibility.md)** 는 0 이상이어야 합니다. 이 경우 키보드 사용자가 이미지로 이동할 수 있습니다.
 * 그래픽이 단추로 사용되는 경우 포커스 표시기는 명확하게 표시되어야 합니다. **[FocusedBorderColor](properties-color-border.md)** 및 **[FocusedBorderThickness](properties-color-border.md)** 를 사용하여 이를 달성합니다.
-> [!NOTE]
+
+    > [!NOTE]
 > **[TabIndex](properties-accessibility.md)** 가 0 이상이면 아이콘 또는 셰이프가 단추로 렌더링됩니다. 시각적 모양은 변경되지 않지만 화면 읽기 프로그램은 이미지를 단추로 올바르게 식별합니다. **[TabIndex](properties-accessibility.md)** 가 0보다 작으면 아이콘 또는 셰이프가 이미지로 식별됩니다.

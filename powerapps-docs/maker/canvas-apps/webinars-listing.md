@@ -1,45 +1,41 @@
 ---
 title: 웨비나 목록 | Microsoft Docs
 description: 과거 및 미래의 웨비나 목록을 시간/날짜 및 주제와 함께 보여줍니다.
-services: ''
-suite: powerapps
-documentationcenter: na
 author: audrieMSFT
-manager: anneta
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 4/18/2018
 ms.author: audrie
-ms.openlocfilehash: e26afdee008b54285e0c20e869f8ccabb8aae215
-ms.sourcegitcommit: e3a2819c14ad67cc4ca6640b9064550d0f553d8f
+ms.openlocfilehash: 4878f2de3bf023b9bf1c190a3695cb8ed1bc56b3
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="powerapps-webinar-listing"></a>PowerApps 웨비나 목록 #
 웨비나는 Microsoft PowerApps의 기능을 활용하는 데 도움이 됩니다. 의견이 있으시면 이 문서의 아래쪽에 제안을 추가해 주세요.
 
 ## <a name="upcoming-webinars"></a>예정된 웨비나 ##
-**시작하기 | Casey Burke와 함께 모델 기반 앱 템플릿 이해하기**
-<br>작성자: Casey Burke
-<br>4월 19일, 오전 10시 태평양 표준시, 오후 12시 동부 표준시
-
-Microsoft 프로그램 관리자 Casey Burke가 모델 기반 앱 템플릿의 아키텍처를 보여주고 분석합니다. 이러한 템플릿을 사용하고 비즈니스 목표를 해결하도록 템플릿을 사용자 지정하는 방법을 알아봅니다.
-
-[4월 19일 내용을 보려면 여기를 클릭하세요.](https://www.youtube.com/watch?v=FShakkXKiS8) 
-
 **자세히 알아보기 | Dawid van Heerden이 진행하는 BPM(비즈니스 프로세스 관리)에 PowerApps 사용**
 <br>작성자: Audrie Gordon 및 Dawid van Heerden
-<br>4월 23일, 오전 10시 태평양 표준시, 오후 12시 동부 표준시
+<br>4월 24일, 오전 10시 태평양 표준시, 오후 12시 동부 표준시
 
 PowerApps는 비즈니스 응용 프로그램을 빠르게 만드는 데 아주 적합합니다. 이 비디오에서는 다양한 역할, 단계 및 라우팅 옵션과 관련된 다단계 비즈니스 프로세스를 구동하는 데 이 동일한 플랫폼을 사용하는 기능을 보여줍니다.
 
-[4월 23일 내용을 보려면 여기를 클릭하세요.](https://www.youtube.com/watch?v=JY8r46HnHoI)
+[4월 23일 내용을 보려면 여기를 클릭하세요.](https://www.youtube.com/watch?v=Jj3hPkAf5KU)
+
+**모델 기반 앱 구성 요소 파트 1 | 엔터티 및 데이터 가져오기 관리**
+<br>작성자: Audrie Gordon 및 Clay Wesener
+<br>5월 1일, 오전 10시 태평양 표준시, 오후 12시 동부 표준시
+
+PowerApps 팀의 Clay Wesener가 함께 진행하며 앱용 CDS 데이터베이스를 빌드하는 과정을 안내합니다. 엔터티 및 필드를 만들고 탐색하는 방법을 알아봅니다. 또한 즉시 사용 가능한 기본 제공 항목을 다른 사람보다 먼저 사용할 수 있습니다! 
+
+이는 3파트 시리즈(파트 1: 엔터티, 파트 2: 양식 및 보기, 파트 3: 차트 및 대시보드) 중 파트 1입니다.
+
+표준 엔터티 및 필드를 다시 사용하는 방법과 사용자 지정 시나리오를 즉시 만드는 방법을 알아볼 좋은 기회입니다!
+
+[5월 1일 내용을 보려면 여기를 클릭하세요.](https://www.youtube.com/watch?v=02NWfHRYkeo)
 
 **자세히 알아보기 | IWMentor의 Laura Rogers가 프로덕션 앱에 대한 모범 사례를 공유함**
 <br>작성자: Audrie Gordon 및 Laura Rodgers
@@ -48,6 +44,24 @@ PowerApps는 비즈니스 응용 프로그램을 빠르게 만드는 데 아주 
 IW Mentor의 Laura Rogers는 교육을 받았고 수년 동안 여러 기업에 프로덕션 앱을 제공하고 있습니다. Microsoft의 구성원은 모두 Laura Rogers로부터 많은 것을 배웠고, 특히 SharePoint 기술을 작업하는 구성원이 그렇습니다. 이 웨비나 중에 Laura는 PowerApps 및 비즈니스 응용 프로그램 플랫폼을 사용하여 프로덕션 수준 앱을 빌드하기 위한 모범 사례와 진행 중 얻은 개선 사항을 공유합니다. 또한 Laura는 청구서와 측정값을 추적하기 위한 놀라운 프로덕션 앱을 보여줍니다. 이 이벤트를 놓치지 마세요. IW Mentor 웹 사이트: https://www.iwmentor.com/
 
 [5월 14일 내용을 보려면 여기를 클릭하세요.](https://www.youtube.com/watch?v=I50GtV9w7Os)
+
+**모델 기반 앱 구성 요소 파트 2 | 양식 및 보기 만들기**
+<br>작성자: Audrie Gordon 및 Clay Wesener
+<br>5월 15일, 오전 10시 태평양 표준시, 오후 12시 동부 표준시
+
+모델 기반 앱은 앱 작성자가 복잡한 양식 시나리오를 간편하게 디자인할 수 있도록 다양한 환경을 제공합니다. 새로운 Forms 디자이너를 사용하여 파트 1에서 시작한 모델 앱에 필요한 양식을 빌드하는 방법을 알아봅니다. Anees가 탭, 섹션 및 필드와 같은 양식 구성 요소를 안내합니다. 또한 비즈니스 논리 및 필터를 통합하는 방법에 대한 모범 사례를 공유합니다. 
+
+이는 3파트 시리즈(파트 1: 엔터티, 파트 2: 양식 및 보기, 파트 3: 차트 및 대시보드) 중 파트 1입니다.
+
+[5월 15일 내용을 보려면 여기를 클릭하세요.](https://www.youtube.com/watch?v=v7VoX-V2ek4)
+
+**모델 기반 앱 구성 요소 파트 3 | 차트 및 대시보드 살펴보기**
+<br>작성자: Audrie Gordon 및 Clay Wesener
+<br>*5월 29일, 오전 10시 태평양 표준시, 오후 12시 동부 표준시
+
+PowerApps는 다양한 보기 및 대시보드 기능을 사용하여 복합적인 보고 방법을 제공합니다. Microsoft의 모델 기반 앱 시리즈는 지금까지 작업해 온 솔루션을 최적화하고 현대화하기 위한 유용한 차트와 대시보드로 마무리됩니다. 오, 그렇군요! 높이 평가되고 재미로 가득 찬 앱입니다!
+
+[5월 29일 내용을 보려면 여기를 클릭하세요.](https://www.youtube.com/watch?v=kJ5eTWh7Hyg)
 
 **범용 감사 앱 살펴보기: Paul Culmsee와 함께 PowerApps 및 Flow에서 할 수 있는 작업 알아보기**
 <br>작성자: Paul Culmsee

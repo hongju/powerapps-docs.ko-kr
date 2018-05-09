@@ -1,6 +1,6 @@
 ---
-title: PowerApps, Microsoft Flow 및 Common Data Service에서 시스템 생성 로그에 대한 DSR에 응답 | Microsoft Docs
-description: PowerApps, Microsoft Flow 및 Common Data Service에서 시스템 생성 로그에 대한 DSR에 응답
+title: PowerApps, Microsoft Flow 및 앱용 Common Data Service에서 시스템 생성 로그에 대한 DSR 요청에 응답 | Microsoft Docs
+description: PowerApps, Microsoft Flow 및 앱용 Common Data Service에서 시스템 생성 로그에 대한 DSR 요청에 응답하는 방법 연습
 services: powerapps
 suite: powerapps
 documentationcenter: na
@@ -14,16 +14,16 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/18/2018
+ms.date: 04/23/2018
 ms.author: jamesol
-ms.openlocfilehash: 1b85ac81969407fe4e84c41fd93debeccddb0f05
-ms.sourcegitcommit: e3a2819c14ad67cc4ca6640b9064550d0f553d8f
+ms.openlocfilehash: c3086ce05ba748b5387ec4ae5a1e794658b5677a
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="responding-to-dsr-requests-for-system-generated-logs-in-powerapps-microsoft-flow-and-common-data-service-for-apps"></a>PowerApps, Microsoft Flow 및 앱용 Common Data Service에서 시스템 생성 로그에 대한 DSR 요청에 응답
-Microsoft에서는 GDPR(일반 데이터 보호 규정)의 광범위한 ‘개인 데이터’ 정의에 따라 사적인 것으로 간주할 수 있는 시스템 생성 로그에 액세스하고 이를 내보내고 삭제하는 기능을 제공합니다. GDPR에 따라 사적인 것으로 간주할 수 있는 시스템 생성 로그의 예는 다음과 같습니다.
+Microsoft에서는 EU(유럽 연합) GDPR(일반 데이터 보호 규정)의 광범위한 ‘개인 데이터’ 정의에 따라 사적인 것으로 간주할 수 있는 시스템 생성 로그에 액세스하고 이를 내보내고 삭제하는 기능을 제공합니다. GDPR에 따라 사적인 것으로 간주할 수 있는 시스템 생성 로그의 예는 다음과 같습니다.
 * 사용자 활동 로그와 같은 제품 및 서비스 사용 데이터
 * 사용자 검색 요청 및 쿼리 데이터
 * 사용자 또는 다른 시스템의 시스템 기능 및 상호 작용의 산물로 제품 및 서비스에서 생성되는 데이터
@@ -31,7 +31,9 @@ Microsoft에서는 GDPR(일반 데이터 보호 규정)의 광범위한 ‘개�
 시스템 생성 로그의 데이터를 제한하거나 수정하는 기능은 지원되지 않습니다. 시스템 생성 로그의 데이터는 Microsoft 클라우드 내에서 수행된 실제 작업을 구성하고 &mdash;해당 데이터의 수정 사항이 포함&mdash;된 진단 데이터는 작업의 기록 레코드를 손상하고 사기 및 보안 위험을 증가시킵니다.
 
 ## <a name="accessing-and-exporting-system-generated-logs"></a>시스템 생성 로그 액세스 및 내보내기
-관리자는 사용자의 PowerApps, Microsoft Flow 및 앱용 CDS 서비스/응용 프로그램 사용에 관련된 시스템 생성 로그에 액세스할 수 있습니다. 시스템 생성 로그에 액세스하고 이를 내보내려면:
+관리자는 사용자의 PowerApps, Microsoft Flow 및 앱용 CDS(Common Data Service) 서비스/응용 프로그램 사용에 관련된 시스템 생성 로그에 액세스할 수 있습니다.
+
+시스템 생성 로그에 액세스하고 이를 내보내려면 다음을 수행합니다.
 
 1. [Microsoft Service Trust Portal](https://servicetrust.microsoft.com/)로 이동하고 Office 365 전역 관리자의 자격 증명을 사용하여 로그인합니다.
 
@@ -55,7 +57,7 @@ Microsoft에서는 GDPR(일반 데이터 보호 규정)의 광범위한 ‘개�
 | 시스템 생성 로그의 데이터는 어떻게 표시되나요? |  JSON 형식 시스템 생성 로그 레코드의 예: <br> [{ <br>"DateTime": "2017-04- 28T12:09:29-07:00",  <br> "AppName": "SharePoint", <br> "Action": "OpenFile", "IP": "154.192.13.131", <br> "DevicePlatform": "Windows 1.0.1607" <br>}]
 
 > [!NOTE]
->  보안 및 감사상의 이유로 이러한 정보의 무결성을 유지 관리할 수 있도록 일부 기능에서는 개인 정보가 포함된 시스템 생성 로그의 내보내기 또는 삭제가 허용되지 않습니다.
+>  보안 및 감사 목적으로 일부 기능에서는 개인 정보의 무결성을 유지 관리하기 위해 시스템 생성 로그를 내보내거나 삭제할 수 없습니다.
 >
 >
 

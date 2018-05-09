@@ -1,25 +1,22 @@
 ---
 title: '단추 컨트롤: 참조 | Microsoft Docs'
 description: 속성 및 예제를 포함한 단추 컨트롤에 관한 정보
-services: ''
-suite: powerapps
 documentationcenter: na
 author: fikaradz
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: aec9071cf5cc7cbe451bae32dedc2ba119e21189
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.openlocfilehash: 8a22e1075d15d96b7e1a6383260d5b7ccb653c3a
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="button-control-in-powerapps"></a>PowerApps의 단추 컨트롤
 사용자가 클릭하거나 탭하여 앱과 상호 작용할 수 있는 컨트롤입니다.
@@ -189,7 +186,7 @@ ms.lasthandoff: 04/16/2018
 
 ## <a name="accessibility-guidelines"></a>접근성 지침
 ### <a name="color-contrast"></a>색 대비
-* 표준 색 대비 요구 사항이 적용됩니다.
+* [표준 색 대비 요구 사항](../accessible-apps-color.md)이 적용됩니다.
 
 ### <a name="screen-reader-support"></a>화면 판독기 지원
 * **[Text](properties-core.md)** 가 있어야 합니다.

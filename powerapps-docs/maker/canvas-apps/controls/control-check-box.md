@@ -1,25 +1,22 @@
 ---
 title: '확인란 컨트롤: 참조 | Microsoft Docs'
 description: 속성 및 예제를 비롯한 확인란 컨트롤에 관한 정보
-services: ''
-suite: powerapps
 documentationcenter: na
 author: fikaradz
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 9b51e1cf59c5df163027e8768c21d6ae544d7ba1
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.openlocfilehash: 649ebff0c6ce78d317cfeaf8978bcd97f4a68b11
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="check-box-control-in-powerapps"></a>PowerApps의 확인란 컨트롤
 사용자가 값을 **true** 또는 **false**로 설정하기 위해 선택 또는 지울 수 있는 컨트롤입니다.
@@ -146,7 +143,7 @@ ms.lasthandoff: 04/16/2018
 * **CheckboxBackgroundFill** 및 **[PressedFill](properties-color-border.md)**
 * **CheckboxBackgroundFill** 및 **[HoverFill](properties-color-border.md)**
 
-이는 표준 색 대비 요구 사항에 추가됩니다.
+이는 [표준 색 대비 요구 사항](../accessible-apps-color.md)에 추가됩니다.
 
 ### <a name="screen-reader-support"></a>화면 판독기 지원
 * **[Text](properties-core.md)** 가 있어야 합니다.

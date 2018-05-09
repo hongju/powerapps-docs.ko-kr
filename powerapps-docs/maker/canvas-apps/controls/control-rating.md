@@ -1,25 +1,22 @@
 ---
 title: '등급 컨트롤: 참조 | Microsoft Docs'
 description: 속성 및 예제를 비롯한 등급 컨트롤에 관한 정보
-services: ''
-suite: powerapps
 documentationcenter: na
 author: fikaradz
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 40f826a47c7ba447cc159c0ecf9c335603484a98
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.openlocfilehash: 1df75e5de1f0d8a2515b4dcf761593145d72f70a
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="rating-control-in-powerapps"></a>PowerApps의 등급 컨트롤
 사용자가 1과 사용자가 지정하는 최대 숫자 사이의 값을 나타낼 수 있는 컨트롤입니다.
@@ -101,16 +98,18 @@ ms.lasthandoff: 04/16/2018
 다음 사이에 적절한 색 대비가 있어야 합니다.
 * **RatingFill** 및 **[Fill](properties-color-border.md)**
 
-이는 표준 색 대비 요구 사항에 추가됩니다.
+이는 [표준 색 대비 요구 사항](../accessible-apps-color.md)에 추가됩니다.
 
 ### <a name="screen-reader-support"></a>화면 판독기 지원
 * **[AccessibleLabel](properties-accessibility.md)** 이 있어야 합니다.
-> [!NOTE]
+
+    > [!NOTE]
 > 화면 읽기 프로그램은 **등급** 컨트롤을 라디오 단추로 처리합니다.
 
 ### <a name="keyboard-support"></a>키보드 지원
 * 키보드 사용자가 탐색할 수 있도록 **[TabIndex](properties-accessibility.md)** 가 0 이상이어야 합니다.
 * 포커스 표시기가 명확하게 표시되어야 합니다. **[FocusedBorderColor](properties-color-border.md)** 및 **[FocusedBorderThickness](properties-color-border.md)** 를 사용하여 이를 달성합니다.
 * 별이 너무 많은 경우에는 다른 컨트롤을 사용하는 것이 좋습니다. 키보드로 탐색하는 것은 지루하고 터치 스크린으로 정확하게 선택하는 것은 어려울 수 있습니다.
-> [!NOTE]
+
+    > [!NOTE]
 > **등급**에서 라디오 단추에 대해 동일한 키보드 조작을 사용할 수 있습니다.

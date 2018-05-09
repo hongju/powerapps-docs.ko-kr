@@ -1,25 +1,22 @@
 ---
 title: '텍스트 입력 컨트롤: 참조 | Microsoft Docs'
 description: 속성 및 예제를 비롯한 텍스트 입력 컨트롤에 관한 정보
-services: ''
-suite: powerapps
 documentationcenter: na
 author: fikaradz
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: fca84b687f6e86905c6eeea18a7cd302f0c58b44
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.openlocfilehash: 3100ebae3d3f9b7cdef839d74e9d289b4059de5d
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="text-input-control-in-powerapps"></a>PowerApps의 텍스트 입력 컨트롤
 사용자가 텍스트, 숫자 및 기타 데이터를 입력할 수 있는 상자입니다.
@@ -166,7 +163,7 @@ ms.lasthandoff: 04/16/2018
 
 ## <a name="accessibility-guidelines"></a>접근성 지침
 ### <a name="color-contrast"></a>색 대비
-* 표준 색 대비 요구 사항이 적용됩니다.
+* [표준 색 대비 요구 사항](../accessible-apps-color.md)이 적용됩니다.
 
 ### <a name="screen-reader-support"></a>화면 판독기 지원
 * **[AccessibleLabel](properties-accessibility.md)** 이 있어야 합니다.

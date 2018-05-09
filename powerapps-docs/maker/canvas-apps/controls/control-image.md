@@ -1,25 +1,22 @@
 ---
 title: '이미지 컨트롤: 참조 | Microsoft Docs'
 description: 속성 및 예제를 포함한 이미지 컨트롤에 대한 정보
-services: ''
-suite: powerapps
 documentationcenter: na
 author: fikaradz
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 82a545279ed297d3faa14ad0db47c30dea2660aa
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.openlocfilehash: bd07c6ee0a0084171c928c6908c33caae974d765
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="image-control-in-powerapps"></a>PowerApps의 이미지 컨트롤
 로컬 파일이나 데이터 원본 등으로부터 이미지를 표시하는 컨트롤입니다.
@@ -140,7 +137,7 @@ ms.lasthandoff: 04/16/2018
 
 ## <a name="accessibility-guidelines"></a>접근성 지침
 ### <a name="color-contrast"></a>색 대비
-* 그래픽이 단추로 사용되는 경우 표준 색 대비 요구 사항이 적용됩니다.
+* 그래픽이 단추로 사용되는 경우 [표준 색 대비 요구 사항](../accessible-apps-color.md)이 적용됩니다.
 * 장식용으로만 사용되지 않는 경우 이미지 내에서 대비 문제를 확인하는 것이 좋습니다.
 
 ### <a name="screen-reader-support"></a>화면 판독기 지원
@@ -148,11 +145,13 @@ ms.lasthandoff: 04/16/2018
 * 그래픽이 장식용으로만 사용되는 경우 **[AccessibleLabel](properties-accessibility.md)** 은 비어 있거나 빈 문자열 **""** 이어야 합니다. 이렇게 하면 화면 읽기 프로그램이 그래픽을 무시합니다.
 * 그래픽이 중복 정보를 제공하는 경우 **[AccessibleLabel](properties-accessibility.md)** 은 비어 있거나 빈 문자열 **""** 일 수 있습니다.
     * 예를 들어 **[AccessibleLabel](properties-accessibility.md)** 이 **설정**으로 설정된 기어의 **이미지**가 있습니다. 이 이미지는 단추로 사용되지 않습니다. **설정**으로도 표시된 **[레이블](control-text-box.md)** 옆에 있습니다. 화면 읽기 프로그램은 이미지를 **설정**으로 읽고 레이블을 다시 **설정**으로 읽습니다. 이는 불필요하게 자세한 정보입니다. 이 경우 **이미지**에는 **[AccessibleLabel](properties-accessibility.md)** 이 필요하지 않습니다.
-> [!IMPORTANT]
+
+    > [!IMPORTANT]
 > 화면 읽기 프로그램은 **[AccessibleLabel](properties-accessibility.md)** 이 비어 있는 경우에도 항상 0 이상의 **[TabIndex](properties-accessibility.md)** 가 있는 **이미지**를 읽습니다. 이는 이미지가 단추로 렌더링되기 때문입니다. **[AccessibleLabel](properties-accessibility.md)** 이 제공되지 않으면 화면 읽기 프로그램은 그래픽을 **단추**로만 읽습니다.
 
 ### <a name="keyboard-support"></a>키보드 지원
 * 그래픽이 단추로 사용되는 경우 **[TabIndex](properties-accessibility.md)** 는 0 이상이어야 합니다. 이 경우 키보드 사용자가 이미지로 이동할 수 있습니다.
 * 그래픽이 단추로 사용되는 경우 포커스 표시기는 명확하게 표시되어야 합니다. **[FocusedBorderColor](properties-color-border.md)** 및 **[FocusedBorderThickness](properties-color-border.md)** 를 사용하여 이를 달성합니다.
-> [!NOTE]
+
+    > [!NOTE]
 > **[TabIndex](properties-accessibility.md)** 가 0 이상이면 **이미지**가 단추로 렌더링됩니다. 시각적 모양은 변경되지 않지만 화면 읽기 프로그램은 이미지를 단추로 올바르게 식별합니다. **[TabIndex](properties-accessibility.md)** 가 0보다 작으면 **이미지**가 이미지로 식별됩니다.
