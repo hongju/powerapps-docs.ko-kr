@@ -12,11 +12,11 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 09/13/2017
 ms.author: fikaradz
-ms.openlocfilehash: 4fde158bbca9d132801236f418c8a7652444728e
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 1a790627ad1dbd1bebecca84cb41ee29dcf148dd
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="combo-box-control-in-powerapps"></a>PowerApps의 콤보 박스 컨트롤
 사용자가 제공된 선택 항목 중에서 선택할 수 있습니다.  검색과 다중 선택을 지원합니다.
@@ -41,6 +41,8 @@ ms.lasthandoff: 04/26/2018
 **SelectMultiple** – 사용자가 단일 항목 또는 여러 항목을 선택할 수 있는지 여부입니다.
 
 **IsSearchable** – 사용자가 선택하기 전에 항목을 검색할 수 있는지 선택합니다.
+
+**SearchFields** - 사용자가 텍스트를 입력할 때 검색되는 데이터 원본의 데이터 필드입니다.  여러 필드를 검색하려면 ComboBox1.SearchFields = ["MyFirstColumn", "MySecondColumn"]으로 설정하세요.
 
 ## <a name="additional-properties"></a>추가 속성
 **[AccessibleLabel](properties-accessibility.md)** – 화면 읽기 프로그램의 레이블입니다.
