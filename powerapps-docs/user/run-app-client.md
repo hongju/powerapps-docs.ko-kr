@@ -1,25 +1,18 @@
 ---
 title: 모바일 장치에서 캔버스 기반 앱을 실행하기 위한 빠른 시작 | Microsoft Docs
 description: 이 빠른 시작에서는 모바일 장치에서 캔버스 앱을 실행하는 방법에 대해 알아봅니다.
-services: powerapps
-suite: powerapps
-documentationcenter: na
-author: skjerland
+author: SKjerland
 manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
+ms.component: pa-user
 ms.topic: quickstart
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.date: 03/21/2018
 ms.author: sharik
-ms.openlocfilehash: 555a33460109fdb1edc054cd58cb5e6f88126935
-ms.sourcegitcommit: d7ed5144f96d1ecc17084c30ed0e2ba3c6b03c26
+ms.openlocfilehash: e18035a999334cc9fdd5bea279e7f3ce501d5bb6
+ms.sourcegitcommit: 167fd8e589689be26101584ab1b3a26be61808f7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/19/2018
+ms.lasthandoff: 05/12/2018
 ---
 # <a name="quickstart-run-a-canvas-app-on-a-mobile-device"></a>빠른 시작: 모바일 장치에서 캔버스 앱 실행
 앱을 만들거나 다른 사용자가 앱을 공유하는 경우 Windows, iOS, Android 또는 웹 브라우저에서 해당 앱을 사용할 수 있습니다. 이 빠른 시작에서는 모바일 장치에서 캔버스 앱을 실행하는 방법에 대해 알아봅니다. 모바일 장치에서 실행되는 앱은 위치 서비스 및 카메라와 같은 장치 기능을 활용할 수 있습니다.
@@ -56,7 +49,7 @@ ms.lasthandoff: 04/19/2018
 
 실행하려는 앱의 이름을 알고 있는 경우, Powerapps 맨 위에 있는 검색 아이콘을 탭한 다음, 검색 상자에 해당 이름의 일부를 입력할 수 있습니다.
 
-![Search](./media/run-app-client/search.png)
+![검색](./media/run-app-client/search.png)
 
 앱을 필터링한 경우 필터링한 목록을 검색합니다.
 
