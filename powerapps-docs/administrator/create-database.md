@@ -1,27 +1,22 @@
 ---
-title: Common Data Service 데이터베이스 만들기 | Microsoft Docs
-description: Common Data Service 데이터베이스를 만듭니다.
+title: 앱용 CDS(Common Data Service) 데이터베이스 만들기 | Microsoft Docs
+description: 앱용 CDS(Common Data Service) 데이터베이스 만드는 방법을 연습합니다.
 services: powerapps
-documentationcenter: na
 author: manasmams
-manager: kfend
-editor: ''
-tags: ''
+manager: kfile
 ms.service: powerapps
-ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.component: pa-admin
+ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: c32be4dd25da1c2267043b061102b2714a109cc5
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 3343e8cd81e23d4938466d12ddca2e0a85dc12c8
+ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/15/2018
 ---
-# <a name="create-a-common-data-service-database"></a>Common Data Service 데이터베이스 만들기
-Common Data Service를 데이터 저장소로 사용하여 데이터베이스를 만들고 앱을 빌드할 수 있습니다. 사용자 고유의 사용자 지정 엔터티를 만들거나 미리 정의된 엔터티를 사용할 수 있습니다. 데이터베이스를 만들려면 먼저 환경을 만들거나 기존 환경에 **환경 관리자**로 할당되어야 합니다. 또한 적절한 라이선스를 할당 받아야 합니다. Common Data Service 사용을 위한 계획 구매에 대한 자세한 내용은 [가격 책정 정보](pricing-billing-skus.md)를 참조하세요.
+# <a name="create-a-common-data-service-for-apps-database"></a>앱용 CDS(Common Data Service) 데이터베이스 만들기
+앱용 CDS(Common Data Service)를 데이터 저장소로 사용하여 데이터베이스를 만들고 앱을 빌드할 수 있습니다. 사용자 고유의 사용자 지정 엔터티를 만들거나 미리 정의된 엔터티를 사용할 수 있습니다. 데이터베이스를 만들려면 먼저 환경을 만들거나 기존 환경에 **환경 관리자**로 할당되어야 합니다. 또한 적절한 라이선스를 할당 받아야 합니다. 앱용 CDS 사용을 위한 계획 구매에 대한 자세한 내용은 [가격 책정 정보](pricing-billing-skus.md)를 참조하세요.
 
 다양한 방법으로 데이터베이스를 만들 수 있습니다.
 
@@ -45,7 +40,7 @@ Common Data Service를 데이터 저장소로 사용하여 데이터베이스를
 
 
 
-## <a name="create-a-database-in-the-entities-pane-of-powerappscom"></a>powerapps.com의 엔터티 창에서 데이터베이스 만들기
+## <a name="create-a-database-in-the-entities-pane-of-powerapps"></a>PowerApps의 엔터티 창에서 데이터베이스 만들기
 1. [powerapps.com](https://web.powerapps.com)에서 **데이터** 섹션을 확장하고 왼쪽 탐색 창에서 **엔터티**를 클릭하거나 탭합니다.
 
 2. **데이터베이스 만들기**를 클릭하여 데이터베이스를 만듭니다.

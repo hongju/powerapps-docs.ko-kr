@@ -1,25 +1,18 @@
 ---
 title: 환경을 만드는 빠른 시작 | Microsoft Docs
 description: 이 빠른 시작에서는 환경을 만드는 방법을 배웁니다.
-services: powerapps
-suite: powerapps
-documentationcenter: na
 author: skjerland
 manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
+ms.component: pa-admin
 ms.topic: quickstart
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.date: 03/21/2018
 ms.author: sharik
-ms.openlocfilehash: a9138c636d70ea4701cbf685c3d7c7965c0e8469
-ms.sourcegitcommit: aa2d0166dccb38100183c093f293233b46f3669d
+ms.openlocfilehash: 322886a485a863d5ebf505ba2d1f5763dcfea60e
+ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2018
+ms.lasthandoff: 05/15/2018
 ---
 # <a name="quickstart-create-an-environment"></a>빠른 시작: 환경 만들기
 환경은 조직의 비즈니스 데이터, 앱 및 흐름을 저장, 관리 및 공유하는 공간입니다. 또한 각기 다른 역할, 보안 요구 사항 또는 대상 그룹에 따라 앱을 구분하는 컨테이너 기능도 제공합니다. PowerApps는 자동으로 각 테넌트의 단일 기본 환경을 만들며, 이 환경은 해당 테넌트의 모든 사용자 간에 공유됩니다.

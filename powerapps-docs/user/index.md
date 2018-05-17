@@ -1,25 +1,18 @@
 ---
-title: 앱 찾기 및 실행 개요 토픽 | Microsoft Docs
-description: 앱 찾기 및 실행 개요 토픽
-services: powerapps
-suite: powerapps
-documentationcenter: na
-author: skjerland
+title: 앱을 찾아 실행하려면 어떻게 해야 합니까? | Microsoft Docs
+description: PowerApps 앱을 찾고 실행하는 방법 개요.
+author: SKjerland
 manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.component: pa-user
+ms.topic: overview
 ms.date: 03/21/2018
 ms.author: sharik
-ms.openlocfilehash: cc1483fbaffaac51f3c0999996cb3f91fac9e64a
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.openlocfilehash: 484f6efb0c10bfa5a1d0e5ccdb0939422ddaf835
+ms.sourcegitcommit: 167fd8e589689be26101584ab1b3a26be61808f7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/12/2018
 ---
 # <a name="how-do-i-find-and-run-apps"></a>앱을 찾아 실행하려면 어떻게 해야 합니까?
 앱 작성자는 사용자가 현장의 모바일 작업자이든, 바쁜 병원의 의사이든 상관없이 자신의 방식대로 작동하는 사용자 지정된 작업 및 역할 기반 *캔버스* 앱을 만들 수 있습니다. 캔버스 앱 작성자는 캔버스 앱의 거의 모든 측면을 사용자 지정할 수 있으며 여러 데이터 원본에 연결하여 사용자가 포커스된 작업을 완료하는 데 도움을 줄 수 있습니다.

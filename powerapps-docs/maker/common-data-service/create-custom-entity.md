@@ -1,22 +1,18 @@
 ---
 title: PowerApps에 구성 요소가 있는 사용자 지정 엔터티를 만드는 자습서 | Microsoft Docs
 description: PowerApps 앱과 함께 사용할 엔터티를 만들고 구성하기 위한 단계별 지침이 포함된 자습서
-documentationcenter: na
 author: Mattp123
 manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
-ms.topic: conceptual
 ms.component: cds
+ms.topic: tutorial
 ms.date: 05/01/2018
 ms.author: matp
-ms.openlocfilehash: dcd7acb9b6a7556e30cfa1aa46385024dcd0bcb5
-ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
+ms.openlocfilehash: c587ed6488ae498e3ec662016ee1d028023e4095
+ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/15/2018
 ---
 # <a name="tutorial-create-a-custom-entity-that-has-components-in-powerapps"></a>자습서: PowerApps에 구성 요소가 있는 사용자 지정 엔터티 만들기
 

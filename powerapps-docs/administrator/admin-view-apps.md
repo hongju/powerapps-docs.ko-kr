@@ -1,25 +1,18 @@
 ---
 title: 환경에 만들어진 앱 목록을 다운로드하는 빠른 시작 | Microsoft Docs
 description: 이 빠른 시작에서는 환경에 만들어진 앱 목록을 다운로드하는 방법을 알아봅니다.
-services: powerapps
-suite: powerapps
-documentationcenter: na
-author: skjerland
+author: SKjerland
 manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
+ms.component: pa-admin
 ms.topic: quickstart
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.date: 03/21/2018
 ms.author: sharik
-ms.openlocfilehash: debe9dd0ab3aa948537820cccd3304a6b4225c54
-ms.sourcegitcommit: aa2d0166dccb38100183c093f293233b46f3669d
+ms.openlocfilehash: a51e6b0cb8e9af517d55f7bad39fbe83a1a55098
+ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2018
+ms.lasthandoff: 05/15/2018
 ---
 # <a name="quickstart-download-a-list-of-apps-created-in-your-environments"></a>빠른 시작: 환경에 만들어진 앱 목록 다운로드
 환경 관리자인 경우 자신이 관리하는 환경에 만들어진 앱 목록을 살펴보고 다운로드할 수 있습니다. Office 365 전역 관리자 또는 Azure Active Directory 테넌트 관리자인 경우 조직 내 모든 환경에 만들어진 앱 목록을 살펴보고 다운로드할 수 있습니다.

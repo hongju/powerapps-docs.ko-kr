@@ -12,11 +12,11 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 07/06/2017
 ms.author: gregli
-ms.openlocfilehash: d77bc3c90b16fae60fb0daf78376beaa31d67098
-ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
+ms.openlocfilehash: 66b3183f6b1215fc0de2a763da2388698501a9b7
+ms.sourcegitcommit: 99d50f9a79fe4f35ba56f365de6593abd893978e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/06/2018
 ---
 # <a name="understand-variables-in-powerapps"></a>PowerApps 변수에 대한 이해
 Visual Basic 또는 JavaScript와 같은 다른 프로그래밍 도구를 사용한 경우 **변수가 어디에 있나요?** 라고 물어볼 수 있습니다. PowerApps는 약간 다르며 다른 접근 방식이 필요합니다. 변수에 도달하는 대신 자신에게 **Excel에서 무엇을 할 수 있나요?** 라고 물어보세요.
@@ -257,5 +257,5 @@ PowerApps에는 다음과 같은 세 가지 유형의 변수가 있습니다.
 12. F5 키를 눌러 다시 한 번 미리 보고, 텍스트 입력 컨트롤에서 숫자를 입력하고, 단추를 선택합니다.  **저장** 단추를 선택합니다.  앱을 닫고 다시 로드하고, **로드** 단추를 선택하여 컬렉션을 다시 로드합니다.  
     
     > [!NOTE]
-    > **SaveData** 및 **LoadData**는 웹 브라우저에서 실행 시 작동하지 않습니다. PowerApps Mobile 또는 Windows 용 PowerApps Studio를 사용해야 합니다.
+    > **SaveData** 및 **LoadData**는 PowerApps Studio에서 작동하지 않지만 PowerApps Mobile에서는 작동합니다.
 

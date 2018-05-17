@@ -1,25 +1,18 @@
 ---
 title: 조직에서 만든 앱 관리 | Microsoft Docs
-description: 조직에서 만든 앱을 관리하는 방법의 연습
-services: powerapps
-suite: powerapps
-documentationcenter: na
-author: skjerland
+description: 조직에서 만든 PowerApps 앱을 관리하는 방법의 연습
+author: SKjerland
 manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.component: pa-admin
+ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: sharik
-ms.openlocfilehash: ccecf87da6ea93cf9764cce7fd9449e1e5c75934
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 32ac9582ef9319d1e48c309a700707a11fc455c0
+ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/15/2018
 ---
 # <a name="manage-apps-created-in-your-organization"></a>조직에서 만든 앱 관리
 환경 관리자, Office 365 전역 관리자 또는 Azure Active Directory 테넌트 관리자인 경우, 조직에서 만든 앱을 관리할 수 있습니다.

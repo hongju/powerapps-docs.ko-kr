@@ -1,6 +1,6 @@
 ---
 title: PowerApps의 일반적인 문제 및 해결 방법 | Microsoft Docs
-description: PowerApps의 문제 및 해결 방법 읽기
+description: PowerApps의 일반적인 문제 및 해결 방법에 대한 목록입니다.
 documentationcenter: na
 author: skjerland
 manager: kfile
@@ -10,16 +10,23 @@ ms.service: powerapps
 ms.devlang: na
 ms.topic: conceptual
 ms.component: canvas
-ms.date: 04/12/2018
+ms.date: 05/03/2018
 ms.author: sharik
-ms.openlocfilehash: 369bbc445d54152f5b6319922d79a58c9b79121c
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: b37672c4b78cf097eb49a05306ecf3eb8311476f
+ms.sourcegitcommit: 99d50f9a79fe4f35ba56f365de6593abd893978e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/06/2018
 ---
 # <a name="common-issues-and-resolutions-for-powerapps"></a>PowerApps의 일반적인 문제 및 해결 방법
+이 문서에서는 PowerApps를 사용하는 동안 발생할 수 있는 몇 가지 일반적인 문제가 나와 있습니다. 적용 가능한 경우 해결 방법이 제공됩니다.
+
 ## <a name="recently-addedchanged"></a>최근에 추가/변경된 내용
+1. **갤러리의 콤보 상자 컨트롤**
+
+    갤러리 내에서 **콤보 상자** 컨트롤을 사용하면 사용자가 갤러리를 스크롤할 때 해당 선택 항목이 유지되지 않습니다. 스크롤하지 않는 갤러리 내에서 **콤보 상자** 컨트롤을 사용하는 경우에는 문제가 되지 않습니다. 해결 방법은 현재 사용할 수 없습니다.
+
+
 1. **사용자 지정 이미지를 앱 아이콘으로 사용**
 
     Windows용 PowerApps Studio 버전 3.18043에서는 앱 아이콘으로 사용할 사용자 지정 이미지를 업로드할 수 없습니다. 이 문제를 해결하려면 [웹용 PowerApps Studio](https://web.powerapps.com)를 사용하여 사용자 지정 이미지를 업로드합니다. 또는 Windows용 PowerApps Studio에 포함된 아이콘 중 하나를 사용하고 배경색을 사용자 지정할 수 있습니다.

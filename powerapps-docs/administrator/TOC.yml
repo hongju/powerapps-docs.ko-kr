@@ -53,5 +53,5 @@
           href: common-data-service-gdpr-dsr-guide.md
 - name: 참조
   items:
-    - name: PowerApps(미리 보기)에 대한 PowerShell 지원
+    - name: PowerApps에 대한 PowerShell 지원(미리 보기)
       href: powerapps-powershell.md

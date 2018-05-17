@@ -1,25 +1,18 @@
 ---
 title: 테넌트의 활성 사용자 목록을 다운로드하는 빠른 시작 | Microsoft Docs
 description: 이 빠른 시작에서는 테넌트의 활성 사용자 목록을 다운로드하는 방법을 알아봅니다.
-services: powerapps
-suite: powerapps
-documentationcenter: na
 author: SKjerland
 manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
+ms.component: pa-admin
 ms.topic: quickstart
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.date: 03/21/2018
 ms.author: sharik
-ms.openlocfilehash: 8d1f04f5b559e179e1549c92e75c16dac79210df
-ms.sourcegitcommit: aa2d0166dccb38100183c093f293233b46f3669d
+ms.openlocfilehash: e36dcd767f2738feef32da0f28a56b8f3f014ecb
+ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2018
+ms.lasthandoff: 05/15/2018
 ---
 # <a name="quickstart-download-a-list-of-active-users-in-your-tenant"></a>빠른 시작: 테넌트의 활성 사용자 목록 다운로드
 365 전역 관리자 또는 Azure Active Directory 테넌트 관리자인 경우 테넌트의 활성 사용자 목록을 다운로드할 수 있으므로 PowerApps, Microsoft Flow 또는 둘 모두에 액세스한 사용자뿐 아니라 해당 사용자에게 할당된 라이선스까지 볼 수 있습니다.

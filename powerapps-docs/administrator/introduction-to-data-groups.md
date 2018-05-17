@@ -55,7 +55,7 @@ ms.lasthandoff: 04/03/2018
 > [!IMPORTANT]
 > PowerApps에 추가되는 새로운 서비스는 지정된 *기본* 그룹에 배치됩니다. 이러한 이유로 **비즈니스 데이터 허용 안 됨**을 기본 그룹으로 유지하고 서비스를 **비즈니스 데이터만** 그룹으로 수동으로 추가하는 것이 좋습니다.
 
-1. 기본 데이터 그룹으로 지정하려는 데이터 그룹의 오른쪽 모서리에 있는 **...**를 선택합니다.    
+1. 기본 데이터 그룹으로 지정하려는 데이터 그룹의 오른쪽 모서리에 있는 **...** 를 선택합니다.    
    ![기본 그룹 변경](./media/introduction-to-data-groups/default-data-group-0.png)  
 2. **기본 그룹으로 설정**을 선택합니다.  
    ![기본 그룹 변경](./media/introduction-to-data-groups/default-data-group-1.png)   

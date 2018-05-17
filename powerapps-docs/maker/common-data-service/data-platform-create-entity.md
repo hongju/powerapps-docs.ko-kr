@@ -1,23 +1,18 @@
 ---
 title: 사용자 지정 엔터티를 만드는 빠른 시작 | Microsoft Docs
 description: 이 빠른 시작에서는 PowerApps에서 사용자 지정 엔터티를 만드는 방법을 알아봅니다.
-services: ''
-suite: powerapps
 author: SKjerland
 manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
-ms.topic: quickstart
 ms.component: cds
+ms.topic: quickstart
 ms.date: 05/01/2018
 ms.author: sharik
-ms.openlocfilehash: 397fdea9f5257cf5a1062867d45a53d592a0909c
-ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
+ms.openlocfilehash: 55ebd94fb0c895a64323e948d421c758c6af7cc8
+ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/15/2018
 ---
 # <a name="quickstart-create-a-custom-entity"></a>빠른 시작: 사용자 지정 엔터티 만들기
 PowerApps에서 *엔터티*는 추적하려는 정보를 회사 이름, 위치, 제품, 메일 및 전화 등의 속성을 포함하는 레코드의 형태로 정의합니다. 그런 다음, 엔터티를 참조하는 앱을 개발하여 해당 데이터를 표시할 수 있습니다. PowerApps는 조직 내에서 일반적인 시나리오를 다루도록 표준 "기본 제공" 엔터티를 제공하지만 조직에 관련된 데이터를 저장하는 사용자 지정 엔터티를 만들어야 하는 경우가 있을 수 있습니다.

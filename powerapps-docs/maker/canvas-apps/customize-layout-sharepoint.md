@@ -7,11 +7,11 @@ ms.topic: tutorial
 ms.component: canvas
 ms.date: 04/24/2018
 ms.author: anneta
-ms.openlocfilehash: 3138969cc51d0d0964692d4c53101b6a145ba1cf
-ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
+ms.openlocfilehash: 7a51e2a734426973721fbcb21305f96e6ba7b222
+ms.sourcegitcommit: 99d50f9a79fe4f35ba56f365de6593abd893978e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/06/2018
 ---
 # <a name="tutorial-customize-a-gallery-in-powerapps"></a>자습서: PowerApps에서 갤러리 사용자 지정
 이 자습서에서는 갤러리를 사용자 지정하고 Microsoft PowerApps에서 자동으로 생성된 앱의 다른 내용을 변경합니다. 이러한 변경 내용이 없어도 사용자는 앱에서 데이터를 관리할 수 있지만 조직의 요구 사항에 맞게 사용자 지정하면 앱을 더 쉽게 사용할 수 있습니다.
@@ -33,16 +33,18 @@ PowerApps에 대한 라이선스가 없으면 [무료로 등록](../signup-for-p
 ## <a name="open-the-generated-app"></a>생성된 앱 열기
 1. [PowerApps](https://web.powerapps.com)에 로그인한 다음, 왼쪽 가장자리 근처에서 **앱**을 선택합니다.
 
-    ![PowerApps 홈페이지](./media/customize-layout-sharepoint/sign-in.png)
+    [![PowerApps 홈페이지](./media/customize-layout-sharepoint/sign-in.png)](./media/customize-layout-sharepoint/sign-in.png#lightbox)
 
 1. 생성한 앱을 찾고, 앱에 대한 줄임표 아이콘(**...**)을 선택한 다음, **편집**을 선택합니다.
 
+    ![편집할 앱 열기](./media/customize-layout-sharepoint/open-app.png)
+
 ## <a name="change-the-layout"></a>레이아웃 변경
-1. 찾아보기 화면에서 계정 목록의 첫 번째 항목을 제외하고 아무 항목이나 클릭하거나 탭하여 갤러리를 선택합니다.
+1. 왼쪽 탐색 창에서 **BrowseGallery1**을 선택합니다.
 
     갤러리가 선택되면 핸들이 있는 선택 상자가 갤러리를 둘러쌉니다.
 
-    ![선택한 갤러리](./media/customize-layout-sharepoint/select-gallery.png)
+    ![갤러리 선택](media/customize-layout-sharepoint/select-gallery-1.png)
 
 1. 오른쪽 가장자리 근처에서 **계정**을 선택하여 **데이터** 창을 엽니다.
 
@@ -56,7 +58,7 @@ PowerApps에 대한 라이선스가 없으면 [무료로 등록](../signup-for-p
 
     ![제목 전용 레이아웃 선택](./media/customize-layout-sharepoint/choose-layout.png)
 
-1. **데이터** 창에서 제목에 대한 옵션 목록을 엽니다.
+1. **데이터** 창에서 **Title2**에 대한 옵션 목록을 엽니다.
 
     ![제목 전용 레이아웃 선택](./media/customize-layout-sharepoint/show-title-options.png)
 
@@ -66,7 +68,7 @@ PowerApps에 대한 라이선스가 없으면 [무료로 등록](../signup-for-p
 
     ![최종 갤러리](./media/customize-layout-sharepoint/final-gallery.png)
 
-## <a name="change-the-sort-and-search-columns"></a>정렬 및 검색 열 변경
+## <a name="change-sort-and-search-columns"></a>열 정렬 및 검색 변경
 1. 이전 섹션에서 설명한 대로 갤러리를 선택합니다.
 
     ![갤러리 선택](./media/customize-layout-sharepoint/select-gallery-title.png)
@@ -88,7 +90,7 @@ PowerApps에 대한 라이선스가 없으면 [무료로 등록](../signup-for-p
 
     이러한 함수 및 다른 함수에 대한 자세한 내용은 [수식 참조](formula-reference.md)를 참조하세요.
 
-## <a name="test-sorting-and-searching"></a>정렬 및 검색 테스트
+### <a name="test-sorting-and-searching"></a>정렬 및 검색 테스트
 1. F5 키를 누르거나 오른쪽 위 모서리 근처에 있는 [재생] 단추를 선택하여 미리 보기 모드를 엽니다.
 
     ![미리 보기 모드 열기](./media/customize-layout-sharepoint/open-preview.png)

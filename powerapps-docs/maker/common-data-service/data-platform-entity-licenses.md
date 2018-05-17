@@ -1,22 +1,18 @@
 ---
 title: 엔터티에 대한 라이선스 요구 사항| Microsoft Docs
 description: 앱용 CDS(Common Data Service) 내의 엔터티에 대한 라이선스 요구 사항의 설명입니다.
-documentationcenter: na
 author: clwesene
 manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
-ms.topic: conceptual
 ms.component: cds
+ms.topic: conceptual
 ms.date: 05/01/2018
 ms.author: clwesene
-ms.openlocfilehash: 7fc98e359b5daf1a170b63990005121fc2520d53
-ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
+ms.openlocfilehash: 716e1c2b7e670d8a54e1106cd557bb509323ba8d
+ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/15/2018
 ---
 # <a name="license-requirements-for-entities"></a>엔터티에 대한 라이선스 요구 사항
 PowerApps 요금제 1 또는 Microsoft Flow 요금제 1 라이선스만이 있는 사용자에 대해 앱 및 흐름을 만들려면 앱 작성자는 앱용 CDS(Common Data Service) 내에서 사용할 수 있는 엔터티 대부분(사용자 지정 엔터티 및 CDS의 일부인 엔터티 포함)을 사용할 수 있습니다. 경우에 따라 엔터티는 복잡한 비즈니스 논리를 포함하거나 앱 사용자에게 특정 라이선스를 취득하도록 요구하는 Dynamics 365 제품에 연결됩니다. 사용가능한 요금제에 대한 자세한 내용은 [PowerApps 가격 페이지](https://powerapps.microsoft.com/pricing)를 참조하세요.
