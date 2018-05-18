@@ -1,27 +1,27 @@
 ---
 title: PowerApps의 일반적인 문제 및 해결 방법 | Microsoft Docs
 description: PowerApps의 일반적인 문제 및 해결 방법에 대한 목록입니다.
-documentationcenter: na
 author: skjerland
 manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
 ms.component: canvas
-ms.date: 05/03/2018
+ms.date: 05/10/2018
 ms.author: sharik
-ms.openlocfilehash: b37672c4b78cf097eb49a05306ecf3eb8311476f
-ms.sourcegitcommit: 99d50f9a79fe4f35ba56f365de6593abd893978e
+ms.openlocfilehash: 71e6d6977ff84ac8131acb9353f919c5ee80995b
+ms.sourcegitcommit: fe556abcfd6bdfeb5fdeea8f07b185b4b502d02f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="common-issues-and-resolutions-for-powerapps"></a>PowerApps의 일반적인 문제 및 해결 방법
 이 문서에서는 PowerApps를 사용하는 동안 발생할 수 있는 몇 가지 일반적인 문제가 나와 있습니다. 적용 가능한 경우 해결 방법이 제공됩니다.
 
 ## <a name="recently-addedchanged"></a>최근에 추가/변경된 내용
+1. **포함된 앱에서 웹 사이트 시작**
+
+    Internet Explorer와 Microsoft Edge 브라우저는 보호 모드에 있거나 앱이 로드된 웹 사이트보다 보안이 낮은 영역에 있는 URL 또는 웹 사이트의 시작을 차단할 수 있습니다. 이 문제를 해결하려면 사용하는 브라우저에 맞게 [보안 및 개인 정보 설정을 변경](https://support.microsoft.com/en-us/help/17479/windows-internet-explorer-11-change-security-privacy-settings)하세요.
+
 1. **갤러리의 콤보 상자 컨트롤**
 
     갤러리 내에서 **콤보 상자** 컨트롤을 사용하면 사용자가 갤러리를 스크롤할 때 해당 선택 항목이 유지되지 않습니다. 스크롤하지 않는 갤러리 내에서 **콤보 상자** 컨트롤을 사용하는 경우에는 문제가 되지 않습니다. 해결 방법은 현재 사용할 수 없습니다.
