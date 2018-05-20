@@ -9,11 +9,11 @@ ms.component: canvas
 ms.topic: landing-page
 ms.date: 10/27/2017
 ms.author: mblythe
-ms.openlocfilehash: afefa1fcf09cb9c4f732fa94e37bb148262eeb04
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: d79039fd70d2e214b269e0d5be97d208192a16fc
+ms.sourcegitcommit: dc689eb0bc0e60b6f8c2f78a18f7aa114bf84165
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/19/2018
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -38,27 +38,27 @@ ms.lasthandoff: 04/26/2018
 시작하기 </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="get-started.yml#step-1">PowerApps 소개</a>
+                                <a class="barLink" href="get-started.yml?tutorial-step=1">PowerApps 소개</a>
                                 <span style="margin-left: 32px; align-self: center;">5m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="get-started.yml#step-2">PowerApps 구성 요소</a>
+                                <a class="barLink" href="get-started.yml?tutorial-step=2">PowerApps 구성 요소</a>
                                 <span style="margin-left: 32px; align-self: center;">6m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="get-started.yml#step-3">관련 기술</a>
+                                <a class="barLink" href="get-started.yml?tutorial-step=3">관련 기술</a>
                                 <span style="margin-left: 32px; align-self: center;">6m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="get-started.yml#step-4">앱 만들기에 대한 간단한 설명</a>
+                                <a class="barLink" href="get-started.yml?tutorial-step=4">앱 만들기에 대한 간단한 설명</a>
                                 <span style="margin-left: 32px; align-self: center;">6m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="get-started.yml#step-5">첫 번째 앱 만들기</a>
+                                <a class="barLink" href="get-started.yml?tutorial-step=5">첫 번째 앱 만들기</a>
                                 <span style="margin-left: 32px; align-self: center;">5m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="get-started.yml#step-6">이 섹션 검토</a>
+                                <a class="barLink" href="get-started.yml?tutorial-step=6">이 섹션 검토</a>
                                 <span style="margin-left: 32px; align-self: center;">2m</span>
                               </li>
                           </ul>
@@ -81,19 +81,19 @@ ms.lasthandoff: 04/26/2018
 SharePoint에서 앱 만들기 </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="create-app-sharepoint.yml#step-1">앱 생성</a>
+                                <a class="barLink" href="create-app-sharepoint.yml?tutorial-step=1">앱 생성</a>
                                 <span style="margin-left: 32px; align-self: center;">3m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="create-app-sharepoint.yml#step-2">생성된 앱 탐색</a>
+                                <a class="barLink" href="create-app-sharepoint.yml?tutorial-step=2">생성된 앱 탐색</a>
                                 <span style="margin-left: 32px; align-self: center;">5m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="create-app-sharepoint.yml#step-3">앱 사용자 지정</a>
+                                <a class="barLink" href="create-app-sharepoint.yml?tutorial-step=3">앱 사용자 지정</a>
                                 <span style="margin-left: 32px; align-self: center;">5m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="create-app-sharepoint.yml#step-4">앱 수식 탐색</a>
+                                <a class="barLink" href="create-app-sharepoint.yml?tutorial-step=4">앱 수식 탐색</a>
                                 <span style="margin-left: 32px; align-self: center;">9m</span>
                               </li>
                             </ul>
@@ -116,15 +116,15 @@ SharePoint에서 앱 만들기 </h3>
 앱 관리하기 </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="manage-apps.yml#step-1">앱 공유</a>
+                                <a class="barLink" href="manage-apps.yml?tutorial-step=1">앱 공유</a>
                                 <span style="margin-left: 32px; align-self: center;">5m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="manage-apps.yml#step-2">앱 버전 관리</a>
+                                <a class="barLink" href="manage-apps.yml?tutorial-step=2">앱 버전 관리</a>
                                 <span style="margin-left: 32px; align-self: center;">1m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="manage-apps.yml#step-3">환경</a>
+                                <a class="barLink" href="manage-apps.yml?tutorial-step=3">환경</a>
                                 <span style="margin-left: 32px; align-self: center;">8m</span>
                               </li>
                           </ul>

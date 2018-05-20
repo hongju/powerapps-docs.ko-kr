@@ -1,6 +1,6 @@
 - name: 시작
-  href: 'get-started.yml#step-1'
+  href: get-started.yml?tutorial-step=1
 - name: SharePoint에서 앱 만들기
-  href: 'create-app-sharepoint.yml#step-1'
+  href: create-app-sharepoint.yml?tutorial-step=1
 - name: 앱 관리하기
-  href: 'manage-apps.yml#step-1'
+  href: manage-apps.yml?tutorial-step=1
