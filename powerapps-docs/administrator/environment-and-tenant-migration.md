@@ -1,26 +1,18 @@
 ---
 title: 환경 및 테넌트 간에 앱 마이그레이션 | Microsoft Docs
-description: 환경 및 테넌트 간에 앱 마이그레이션
-services: powerapps
-suite: powerapps
-documentationcenter: na
+description: 환경과 테넌트 간에 PowerApps 앱을 마이그레이션하는 방법 연습
 author: jamesol-msft
 manager: kfile
-editor: ''
-tags: ''
-ms-topic: article
+ms-topic: conceptual
 ms.service: powerapps
-ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.date: 03/21/2018
+ms.component: pa-admin
+ms.topic: conceptual
 ms.author: jamesol
-ms.openlocfilehash: 3a63f525a44d1b617ba872dce7936fc97b151967
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 3a064bdb3f75bf45047e3ae0ff465fde1d2b66fa
+ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/15/2018
 ---
 # <a name="environment-and-tenant-app-migration-through-packaging"></a>패키징을 통해 환경 및 테넌트 앱 마이그레이션
 패키징을 사용하여 한 환경에서 다른 환경으로 리소스를 마이그레이션하는 방법을 알아봅니다. 이러한 환경은 동일한 테넌트 내 또는 다른 테넌트 간일 수 있습니다.
@@ -53,7 +45,7 @@ ms.lasthandoff: 03/22/2018
 > 패키징이 미리 보기 상태인 동안 유효한 PowerApps 라이선스가 있는 사용자는 자신의 앱 및 환경에 대한 패키징을 시도해 볼 수 있습니다.
 
 ## <a name="exporting-an-app"></a>앱 내보내기
-1. http://web.powerapps.com에서 **앱**을 클릭하거나 탭하고, 마이그레이션하려는 앱에 대한 줄임표를 선택한 다음, **내보내기(미리 보기)**를 선택합니다.
+1. http://web.powerapps.com에서 **앱**을 클릭하거나 탭하고, 마이그레이션하려는 앱에 대한 줄임표를 선택한 다음, **내보내기(미리 보기)** 를 선택합니다.
 
     ![내보내기 선택](./media/environment-and-tenant-migration/select-export.png)
 2. 내보내기 패키지 페이지가 열릴 때 패키지에 대한 이름 및 설명을 입력합니다.
@@ -66,7 +58,7 @@ ms.lasthandoff: 03/22/2018
 4. **내보내기** 선택 작업을 완료하면 패키지 파일이 몇 초 내에 다운로드를 시작합니다.
 
 ## <a name="importing-an-app"></a>앱 가져오기
-1. http://web.powerapps.com에서 **앱**을 클릭하거나 탭한 다음, **패키지 가져오기(미리 보기)**를 선택합니다.
+1. http://web.powerapps.com에서 **앱**을 클릭하거나 탭한 다음, **패키지 가져오기(미리 보기)** 를 선택합니다.
 
     ![가져오기 선택](./media/environment-and-tenant-migration/select-import.png)
 2. **업로드**를 선택하고 가져오려는 앱 패키지 파일을 선택합니다.
@@ -96,36 +88,36 @@ https://web.powerapps.com에서 빌드한 엔터티 또는 옵션 집합 사용�
 
 1. http://web.powerapps.com에서 해당 환경의 **모델 기반(미리 보기)** 디자인 모드를 선택합니다.
 
-  ![모델 기반 디자인 모드 선택](./media/environment-and-tenant-migration/select-model-driven.png)
+    ![모델 기반 디자인 모드 선택](./media/environment-and-tenant-migration/select-model-driven.png)
 
 2. 왼쪽의 탐색 모음에서 **고급**을 선택하여 이 환경의 기본 솔루션에 대한 솔루션 탐색기를 시작합니다.
 
-  ![고급 선택](./media/environment-and-tenant-migration/select-advanced.png)
+    ![고급 선택](./media/environment-and-tenant-migration/select-advanced.png)
 
 3. **솔루션 내보내기**를 선택하고 필요한 단계를 완료합니다.  몇 초 안에 솔루션 패키지 파일 다운로드가 시작됩니다.
 
-  ![내보내기 선택](./media/environment-and-tenant-migration/select-export-solution.png)
+    ![내보내기 선택](./media/environment-and-tenant-migration/select-export-solution.png)
 
 ## <a name="importing-cds-customization-and-model-driven-apps"></a>CD 사용자 지정 및 모델 기반 앱 가져오기
 유감스럽게도 CDS 솔루션 패키지 가져오기는 환경에서 수동 작업이 필요하며, 현재 문제를 수정하기 위해 적극적으로 노력하는 중입니다.
 
 1. http://web.powerapps.com에서 해당 환경의 **모델 기반(미리 보기)** 디자인 모드를 선택합니다.
 
-  ![모델 기반 디자인 모드 선택](./media/environment-and-tenant-migration/select-model-driven.png)
+    ![모델 기반 디자인 모드 선택](./media/environment-and-tenant-migration/select-model-driven.png)
 
 2. 왼쪽의 탐색 모음에서 **고급**을 선택하여 이 환경의 기본 솔루션에 대한 솔루션 탐색기를 시작합니다.
 
-  ![고급 선택](./media/environment-and-tenant-migration/select-advanced.png)
+    ![고급 선택](./media/environment-and-tenant-migration/select-advanced.png)
 
 3. 브라우저에서 Url을 복사하고, 다음과 같이 변경한 후 브라우저에서 새 URL로 이동합니다.
 
-  - 현재 URL 구조: https://{orguniquename}.crm.dynamics.com/tools/solution/edit.aspx?id={solutionname}
+    * 현재 URL 구조: https://{orguniquename}.crm.dynamics.com/tools/solution/edit.aspx?id={solutionname}
 
-    ![url 편집](./media/environment-and-tenant-migration/edit-url.png)
+        ![url 편집](./media/environment-and-tenant-migration/edit-url.png)
 
-  - 새 URL 구조: https://{orguniquename}.crm.dynamics.com/tools/solution/SolutionImportWizard.aspx
+    * 새 URL 구조: https://{orguniquename}.crm.dynamics.com/tools/solution/SolutionImportWizard.aspx
 
-      ![패키지 선택](./media/environment-and-tenant-migration/select-package.png)
+        ![패키지 선택](./media/environment-and-tenant-migration/select-package.png)
 
 4. 가져오려는 CDS 솔루션 패키지 파일을 선택하고 마법사를 완료합니다.
 

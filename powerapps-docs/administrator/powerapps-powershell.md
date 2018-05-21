@@ -1,26 +1,18 @@
 ---
-title: PowerShell 지원 | Microsoft Docs
+title: PowerShell 지원(미리 보기) | Microsoft Docs
 description: 다양한 PowerShell cmdlet에 대한 설명 및 cmdlet을 설치 및 실행하는 방법에 대한 연습
-services: powerapps
-suite: powerapps
-documentationcenter: na
 author: jamesol-msft
 manager: kfile
-editor: ''
-tags: ''
-ms-topic: article
 ms.service: powerapps
-ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.component: pa-admin
+ms.topic: reference
 ms.date: 04/23/2018
 ms.author: jamesol
-ms.openlocfilehash: 69508b2127c5c919db4a334045c6eed3bb9374af
-ms.sourcegitcommit: 0a781b50a8551f2e61c22725ef1c43ba4fdf752a
+ms.openlocfilehash: 953efbabcdce55ac58376f927d5e399e69a40974
+ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2018
+ms.lasthandoff: 05/15/2018
 ---
 # <a name="powershell-support-for-powerapps-preview"></a>PowerApps에 대한 PowerShell 지원(미리 보기)
 최근에 앱 작성자 및 관리자용 PowerShell cmdlet 미리 보기가 제공되면서 [PowerApps](https://web.powerapps.com) 또는 [PowerApps 관리 센터](https://admin.powerapps.com)에서 현재는 수동으로만 가능한 다양한 모니터링 및 관리 작업을 자동화할 수 있습니다.

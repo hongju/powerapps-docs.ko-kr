@@ -1,26 +1,18 @@
 ---
 title: PowerApps 고객 데이터를 내보내기 위한 DSR(Data Subject Rights) 요청에 응답 | Microsoft Docs
-description: PowerApps 고객 데이터를 내보내기 위한 DSR(Data Subject Rights) 요청에 응답하는 방법 연습
-services: powerapps
-suite: powerapps
-documentationcenter: na
+description: PowerApps 고객 데이터를 내보내기 위한 DSR(Data Subject Rights) 요청에 응답하는 방법에 대한 연습입니다.
 author: jamesol-msft
 manager: kfile
-editor: ''
-tags: ''
-ms-topic: article
 ms.service: powerapps
-ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.component: pa-admin
+ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: jamesol
-ms.openlocfilehash: 97f5a6a970e07f9908c02074ef97234b58a52894
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 1b9318bcf4624af48e6be95fd22c12c14bf75dff
+ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/15/2018
 ---
 # <a name="responding-to-data-subject-rights-dsr-requests-to-export-powerapps-customer-data"></a>PowerApps 고객 데이터를 내보내기 위한 DSR(Data Subject Rights) 요청에 응답
 “데이터 이식성 권한”을 사용하면 데이터 주체가 다른 데이터 컨트롤러에게 전송될 수 있는 자신의 개인 데이터 복사본을 전자 형식(구조화되고, 일반적으로 사용되고, 컴퓨터에서 읽을 수 있고, 상호 운용 가능한 형식)으로 요청할 수 있습니다.
@@ -83,7 +75,7 @@ Get-PowerAppsEnvironment | ConvertTo-Json | Out-File -FilePath "UserDetails.json
 ~~~~
 
 ### <a name="powerapps-admin-powershell-cmdlets"></a>PowerApps 관리자 PowerShell cmdlet
-관리자는 [PowerApps 관리자 PowerShell cmdlet](https://go.microsoft.com/fwlink/?linkid=871804)의 **Get-AdminEnvironment** 함수를 사용하여 사용자가 만든 모든 환경을 내보낼 수 있습니다.
+관리자는 [PowerApps 관리자 PowerShell cdmlet](https://go.microsoft.com/fwlink/?linkid=871804)의 **Get-AdminEnvironment** 함수를 사용하여 사용자가 만든 모든 환경을 내보낼 수 있습니다.
 
 ~~~~
 Add-PowerAppsAccount
@@ -114,7 +106,7 @@ PowerApps에 ‘역할 할당’으로 저장된 특정 환경의 권한을 사�
 4. 사용자가 각 역할에 액세스할 수 있는 경우 **사용자** 페이지로 이동하여 세부 정보를 복사한 다음, Microsoft Word와 같은 문서 편집기에 붙여넣습니다.
 
 #### <a name="powerapps-admin-powershell-cmdlets"></a>PowerApps 관리자 PowerShell cmdlet
-관리자는 [PowerApps 관리자 PowerShell cmdlet](https://go.microsoft.com/fwlink/?linkid=871804)의 **Get-AdminEnvironmentRoleAssignment** 함수를 사용하여 앱용 CDS 데이터베이스가 없는 모든 환경에서 사용자에 대한 모든 환경 역할 할당을 내보낼 수 있습니다.
+관리자는 [PowerApps 관리자 PowerShell cdmlet](https://go.microsoft.com/fwlink/?linkid=871804)의 **Get-AdminEnvironmentRoleAssignment** 함수를 사용하여 앱용 CDS 데이터베이스가 없는 모든 환경에서 사용자에 대한 모든 환경 역할 할당을 내보낼 수 있습니다.
 
 ~~~~
 Add-PowerAppsAccount
@@ -157,7 +149,7 @@ Get-AdminEnvironmentRoleAssignment -UserId $userId | ConvertTo-Json | Out-File -
 5. 각 사용자의 앱에 액세스할 수 있으면 [PowerApps](https://web.powerapps.com)에서 앱을 내보낼 수 있습니다. 앱을 내보내는 방법에 대한 단계별 지침은 [앱 내보내기](environment-and-tenant-migration.md#exporting-an-app)를 참조하세요.
 
 ### <a name="powerapps-admin-powershell-cmdlets"></a>PowerApps 관리자 PowerShell cmdlet
-관리자는 [PowerApps 관리자 PowerShell cmdlet](https://go.microsoft.com/fwlink/?linkid=871804)의 **Get-AdminApp** 함수를 사용하여 사용자가 만든 앱을 내보낼 수 있습니다.
+관리자는 [PowerApps 관리자 PowerShell cdmlet](https://go.microsoft.com/fwlink/?linkid=871804)의 **Get-AdminApp** 함수를 사용하여 사용자가 만든 앱을 내보낼 수 있습니다.
 
 ~~~~
 Add-PowerAppsAccount
@@ -194,7 +186,7 @@ Get-AppRoleAssignment | ConvertTo-Json | Out-File -FilePath "UserDetails.json"
     ![앱 공유 관리 페이지](./media/powerapps-gdpr-export-dsr/admin-share-page.png)
 
 ### <a name="powerapps-admin-powershell-cmdlets"></a>PowerApps 관리자 PowerShell cmdlet
-관리자는 [PowerApps 관리자 PowerShell cmdlet](https://go.microsoft.com/fwlink/?linkid=871804)의 **Get-AdminAppRoleAssignment** 함수를 사용하여 해당 테넌트의 모든 앱에서 사용자에 대한 모든 앱 역할 할당을 내보낼 수 있습니다.
+관리자는 [PowerApps 관리자 PowerShell cdmlet](https://go.microsoft.com/fwlink/?linkid=871804)의 **Get-AdminAppRoleAssignment** 함수를 사용하여 해당 테넌트의 모든 앱에서 사용자에 대한 모든 앱 역할 할당을 내보낼 수 있습니다.
 
 ~~~~
 Add-PowerAppsAccount
@@ -214,7 +206,7 @@ Get-Connection | ConvertTo-Json | out-file -FilePath "UserDetails.json"
 ~~~~
 
 ### <a name="powerapps-admin-powershell-cmdlets"></a>PowerApps 관리자 PowerShell cmdlet
-[PowerApps 관리자 PowerShell cmdlet](https://go.microsoft.com/fwlink/?linkid=871804)을 사용하여 사용자가 만든 연결을 내보내는 관리자용 함수는 개발 중입니다.
+[PowerApps 관리자 PowerShell cdmlet](https://go.microsoft.com/fwlink/?linkid=871804)을 사용하여 사용자가 만든 연결을 내보내는 관리자용 함수는 개발 중입니다.
  
 ## <a name="step-6-export-the-users-permissions-to-shared-connections"></a>6단계: 공유 연결에 대한 사용자의 권한 내보내기
 
@@ -227,7 +219,7 @@ Get-ConnectionRoleAssignment | ConvertTo-Json | out-file -FilePath "UserDetails.
 ~~~~
 
 ### <a name="powerapps-admin-powershell-cmdlets"></a>PowerApps 관리자 PowerShell cmdlet
-[PowerApps 관리자 PowerShell cmdlet](https://go.microsoft.com/fwlink/?linkid=871804)을 사용하여 사용자에 대한 연결 역할 할당을 내보내는 관리자용 함수는 개발 중입니다.
+[PowerApps 관리자 PowerShell cdmlet](https://go.microsoft.com/fwlink/?linkid=871804)을 사용하여 사용자에 대한 연결 역할 할당을 내보내는 관리자용 함수는 개발 중입니다.
 
 ## <a name="step-7-export-personal-data-contained-within-custom-connectors-created-by-the-user"></a>7단계: 사용자가 만든 사용자 지정 커넥터 내에 포함된 개인 데이터 내보내기
 사용자 지정 커넥터는 기존의 기본 제공 커넥터를 보완하고 다른 API, SaaS 및 사용자 지정 개발 시스템에 대한 연결을 허용합니다.
@@ -241,7 +233,7 @@ Get-Connector -FilterNonCustomConnectors | ConvertTo-Json | Out-File -FilePath "
 ~~~~
 
 ### <a name="powerapps-admin-powershell-cmdlets"></a>PowerApps 관리자 PowerShell cmdlet
-[PowerApps 관리자 PowerShell cmdlet](https://go.microsoft.com/fwlink/?linkid=871804)을 사용하여 사용자가 만든 사용자 지정 커넥터를 내보내는 관리자용 함수는 개발 중입니다.
+[PowerApps 관리자 PowerShell cdmlet](https://go.microsoft.com/fwlink/?linkid=871804)을 사용하여 사용자가 만든 사용자 지정 커넥터를 내보내는 관리자용 함수는 개발 중입니다.
 
 ## <a name="step-8-export-the-users-permissions-to-custom-connectors"></a>8단계: 사용자의 권한을 사용자 지정 커넥터로 내보내기
 
@@ -254,7 +246,7 @@ Get-ConnectorRoleAssignment | ConvertTo-Json | Out-File -FilePath "UserDetails.j
 ~~~~
 
 ### <a name="powerapps-admin-powershell-cmdlets"></a>PowerApps 관리자 PowerShell cmdlet
-[PowerApps 관리자 PowerShell cmdlet](https://go.microsoft.com/fwlink/?linkid=871804)을 사용하여 사용자에 대한 사용자 지정 커넥터 역할 할당을 내보내는 관리자용 함수는 개발 중입니다.
+[PowerApps 관리자 PowerShell cdmlet](https://go.microsoft.com/fwlink/?linkid=871804)을 사용하여 사용자에 대한 사용자 지정 커넥터 역할 할당을 내보내는 관리자용 함수는 개발 중입니다.
  
 ## <a name="step-9-export-powerapps-notifications-user-settings-and-user-app-settings"></a>9단계: PowerApps 알림, 사용자 설정 및 사용자 앱 설정 내보내기
 PowerApps는 앱이 사용자와 공유될 경우 및 앱용 CDS 내보내기 작업이 완료될 경우를 포함하여 사용자에게 다양한 유형의 알림을 보냅니다. 사용자의 알림 기록은 [PowerApps](https://web.powerapps.com) 내에 표시됩니다.
@@ -262,10 +254,10 @@ PowerApps는 앱이 사용자와 공유될 경우 및 앱용 CDS 내보내기 �
 또한 PowerApps는 사용자가 응용 프로그램을 마지막으로 열거나, 앱을 고정할 경우 등을 포함하여 PowerApps 런타임 및 포털 환경을 전달하는 데 사용되는 다양한 사용자 기본 설정 및 설정도 저장합니다.
 
 ### <a name="powerapps-maker-powershell-cmdlets"></a>PowerApps 작성자 PowerShell cmdlet
-[PowerApps 관리자 PowerShell cmdlet](https://go.microsoft.com/fwlink/?linkid=871804)을 사용하여 사용자의 PowerApps 알림, 사용자 설정 및 사용자 앱 설정을 내보내는 함수는 개발 중입니다.
+[PowerApps 관리자 PowerShell cdmlet](https://go.microsoft.com/fwlink/?linkid=871804)을 사용하여 사용자의 PowerApps 알림, 사용자 설정 및 사용자 앱 설정을 내보내는 함수는 개발 중입니다.
 
 ### <a name="powerapps-admin-powershell-cmdlets"></a>PowerApps 관리자 PowerShell cmdlet
-[PowerApps 관리자 PowerShell cmdlet](https://go.microsoft.com/fwlink/?linkid=871804)을 사용하여 사용자의 PowerApps 알림, 사용자 설정 및 사용자 앱 설정을 내보내는 관리자용 함수는 개발 중입니다.
+[PowerApps 관리자 PowerShell cdmlet](https://go.microsoft.com/fwlink/?linkid=871804)을 사용하여 사용자의 PowerApps 알림, 사용자 설정 및 사용자 앱 설정을 내보내는 관리자용 함수는 개발 중입니다.
 
 ## <a name="step-10-export-personal-data-contained-for-a-user-stored-gateway-or-in-the-users-gateway-permissions"></a>10단계: 사용자가 저장한 게이트웨이에 대해 포함되거나 사용자 게이트웨이 권한에 포함된 개인 데이터 내보내기
 

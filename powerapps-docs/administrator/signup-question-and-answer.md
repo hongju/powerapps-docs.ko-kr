@@ -1,28 +1,21 @@
 ---
 title: 조직의 라이선스 관리 | Microsoft Docs
 description: Office 365 테넌트에서 PowerApps에 등록하는 라이선스, 관리 및 사용자에 대한 일반적인 질문 및 답변
-services: powerapps
-suite: powerapps
-documentationcenter: na
 author: jamesol-msft
 manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.component: pa-admin
+ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: jamesol
-ms.openlocfilehash: 5d6db5bded909387b5bc4ef15dc0bf6c163bfa7a
-ms.sourcegitcommit: 078ba325480147e6e4da61e319ed53219f1c5cfc
+ms.openlocfilehash: 8a734ef57a3820e38d52ad2bd87a2ab8979c0348
+ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2018
+ms.lasthandoff: 05/15/2018
 ---
-# <a name="manage-licenses-in-my-org"></a>조직의 라이선스 관리
-이 항목에서는 조직의 사용자가 PowerApps에 액세스하여 사용하는 방법 및 PowerApps 서비스에 대한 액세스를 제어하는 방법을 설명합니다.
+# <a name="manage-powerapps-licenses-in-your-organization"></a>조직의 PowerApps 라이선스 관리
+이 문서에서는 조직의 사용자가 PowerApps에 액세스하여 사용하는 방법 및 PowerApps 서비스에 대한 액세스를 제어하는 방법을 설명합니다.
 
 ## <a name="sign-up-for-powerapps"></a>PowerApps에 등록
 ### <a name="what-is-powerapps"></a>PowerApps란?
@@ -138,7 +131,7 @@ Microsoft에서 테넌트를 만든 경우 다음 단계를 사용하여 해당 
 2. 도메인 소유권을 확인하여 관리자 컨트롤을 클레임합니다. 사용자가 테넌트에 있는 경우 도메인 소유권을 확인하여 관리자 역할로 승격할 수 있습니다. 이렇게 하려면 다음 단계를 수행하세요.
 3. [https://portal.office.com](https://portal.office.com/Start?sku=powerapps)으로 이동합니다.
 4. 왼쪽 위 모서리에서 앱 시작 관리자 아이콘을 선택하고 관리자를 선택합니다
-5. **관리자 되기** 페이지의 지침을 읽고 **예, 관리자가 되겠습니다.**를 선택합니다.  
+5. **관리자 되기** 페이지의 지침을 읽고 **예, 관리자가 되겠습니다.** 를 선택합니다.  
 
 > [!NOTE]
 > 이 옵션이 표시되지 않으면 Office 365 관리자가 이미 설정되어 있습니다.

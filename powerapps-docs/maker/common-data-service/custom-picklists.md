@@ -1,24 +1,20 @@
 ---
-title: 옵션 집합 만들기를 위한 빠른 시작 | Microsoft Docs
-description: 이 빠른 시작에서 옵션 집합을 만듭니다.
-documentationcenter: na
+title: 옵션 집합 만들기 | Microsoft Docs
+description: 옵션 집합을 만드는 방법에 대한 단계별 지침입니다.
 author: clwesene
 manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
-ms.topic: conceptual
 ms.component: cds
-ms.date: 3/21/2018
+ms.topic: conceptual
+ms.date: 03/21/2018
 ms.author: clwesene
-ms.openlocfilehash: e31bec33a90a962e302e2bc92c0f2a676ce1a4cc
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 188add46a8e52cfeb75ef1bb670ca3b457963024
+ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/15/2018
 ---
-# <a name="quickstart-create-an-option-set"></a>빠른 시작: 옵션 집합 만들기
+# <a name="create-an-option-set"></a>옵션 집합 만들기
 
 옵션 집합을 통해 다른 응용 프로그램의 선택 목록 또는 선택 필드라고도 하는 데이터 일관성을 유지하기 위해 앱 내의 사용자에 대한 고정된 값의 드롭다운 목록을 포함할 수 있습니다. 엔터티와 마찬가지로, 표준 옵션 집합과 앱 내에서 사용하기 위해 사용자 지정 옵션 집합을 만드는 기능이 있습니다.
 

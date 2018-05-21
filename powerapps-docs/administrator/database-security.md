@@ -1,28 +1,21 @@
 ---
 title: 환경 보안 구성 | Microsoft Docs
 description: 이 항목에서는 환경 보안을 구성하는 방법에 대해 설명합니다.
-services: powerapps
-suite: powerapps
-documentationcenter: na
 author: manasmams
 manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.component: pa-admin
+ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: f90f7bcdf28388366015a5f5f981e0ab4118f162
-ms.sourcegitcommit: aebffb0bba30e786dd288fb1b79a8bcc4e0bdd9c
+ms.openlocfilehash: d9bd70acaacbbeda98c14337035a233b7c70c181
+ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/15/2018
 ---
 # <a name="configure-environment-security"></a>환경 보안 구성
-Common Data Service는 데이터베이스에 대한 보안 액세스를 위해 역할 기반 보안 모델을 사용합니다. 이 항목에서는 앱의 보안을 유지하기 위해 필요한 보안 아티팩트를 만드는 방법을 설명합니다. 사용자 역할은 데이터에 대한 런타임 액세스를 제어하며 환경 관리자 및 환경 작성자가 제어하는 환경 역할과는 별개입니다. 환경 개요는 [환경 개요](environments-overview.md)를 참조하세요.
+앱용 CDS(Common Data Service)는 데이터베이스에 대한 보안 액세스를 위해 역할 기반 보안 모델을 사용합니다. 이 항목에서는 앱의 보안을 유지하기 위해 필요한 보안 아티팩트를 만드는 방법을 설명합니다. 사용자 역할은 데이터에 대한 런타임 액세스를 제어하며 환경 관리자 및 환경 작성자가 제어하는 환경 역할과는 별개입니다. 환경 개요는 [환경 개요](environments-overview.md)를 참조하세요.
 
 ## <a name="assign-security-roles-to-users"></a>사용자에게 보안 역할 할당
 보안 역할은 액세스 수준 및 권한 집합을 통해 데이터에 대한 사용자의 액세스를 제어합니다. 특정 보안 역할에 포함된 액세스 수준 및 사용 권한의 조합은 사용자의 데이터 보기 및 사용자와 해당 데이터의 상호 작용에 대한 제한을 설정합니다.
@@ -58,9 +51,6 @@ Common Data Service는 데이터베이스에 대한 보안 액세스를 위해 �
 
 7. **확인**을 선택하여 환경 역할에 대한 할당을 업데이트합니다.
 
-
-
-
 ## <a name="predefined-security-roles"></a>미리 정의된 보안 역할
 PowerApps 환경에는 앱을 사용하는 데 필요한 최소한의 비즈니스 데이터에 대한 액세스를 제공하는 보안 모범 사례 목표에 맞게 정의된 액세스 수준으로 일반 사용자 작업을 반영하는 미리 정의된 보안 역할이 포함됩니다.
 
@@ -77,7 +67,6 @@ PowerApps 환경에는 앱을 사용하는 데 필요한 최소한의 비즈니�
 - 환경 작성자 역할은 환경 내에 리소스를 만들 수 있을 뿐 아니라 환경에서 빌드한 앱을 조직의 다른 사용자에게 배포할 수 있습니다. 앱을 개별 사용자와 공유할 수 있습니다. 자세한 내용은 [PowerApps에서 앱 공유](../maker/canvas-apps/share-app.md)를 참조하세요.
 
 - 데이터베이스에 연결되는 앱을 만들고 엔터티 및 보안 역할을 만들거나 업데이트해야 하는 사용자의 경우 데이터베이스에 대한 권한이 없는 환경 작성자 역할과 함께 시스템 사용자 지정자 역할이 할당되어야 합니다.
-
 
 ## <a name="create-or-configure-a-custom-security-role"></a>사용자 지정 보안 역할 만들기 또는 구성
 앱이 사용자 지정 엔터티를 기반으로 하는 경우 권한을 명시적으로 지정해야만 사용자가 작업할 수 있습니다. 이렇게 하려면 다음 중 하나를 수행하도록 선택할 수 있습니다.

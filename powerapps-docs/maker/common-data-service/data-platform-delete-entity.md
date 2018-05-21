@@ -1,24 +1,20 @@
 ---
-title: 사용자 지정 엔터티 삭제 및 데이터 지우기에 대한 빠른 시작 | Microsoft Docs
-description: 사용자 지정 엔터티 삭제 및 모든 데이터 지우기에 대한 빠른 시작
-documentationcenter: na
+title: 사용자 지정 엔터티 삭제 | Microsoft Docs
+description: PowerApps에서 사용자 지정 엔터티를 삭제하고 모든 데이터를 지우는 방법에 대한 단계별 지침
 author: clwesene
 manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
-ms.topic: conceptual
 ms.component: cds
-ms.date: 3/21/2018
+ms.topic: conceptual
+ms.date: 03/21/2018
 ms.author: clwesene
-ms.openlocfilehash: 971016233578c4eadf397d662a0ea74187548635
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 6ef9dc3a1c82fdee9927ffd533ed41386345eaf7
+ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/15/2018
 ---
-# <a name="quickstart-delete-a-custom-entity"></a>빠른 시작: 사용자 지정 엔터티 삭제
+# <a name="delete-a-custom-entity"></a>사용자 지정 엔터티 삭제
 사용자 지정 엔터티를 삭제할 수 있으나, 표준 엔터티는 삭제할 수 없습니다.
 
 1. [powerapps.com](https://web.powerapps.com)에서 **데이터** 섹션을 확장하고 왼쪽 탐색 창에서 **엔터티**를 클릭하거나 탭합니다.
@@ -26,6 +22,7 @@ ms.lasthandoff: 04/26/2018
     ![엔터티 세부 정보](./media/data-platform-cds-create-entity/entitylist.png "엔터티 목록")
 
 2. 엔터티 목록에서 삭제할 엔터티를 클릭하거나 탭한 다음, 명령 모음에서 **엔터티 삭제** 옵션을 클릭하거나 탭합니다.
+
 3. 나타나는 대화 상자에서 **삭제**를 클릭하거나 탭하여 엔터티를 삭제합니다.
 
 >[!NOTE]

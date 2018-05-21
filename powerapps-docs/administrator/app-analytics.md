@@ -1,25 +1,18 @@
 ---
-title: 앱 분석 | Microsoft Docs
-description: 보고서를 확인하여 사용자 앱의 사용 현황 및 성능을 검토합니다.
-services: ''
-suite: powerapps
-documentationcenter: na
+title: 앱에 대한 분석 보고서 보기 | Microsoft Docs
+description: 보고서를 보고 PowerApps 앱의 사용 현황 및 성능을 확인합니다.
 author: jamesol-msft
-manager: anneta
-editor: ''
-tags: ''
+manager: kfile
 ms.service: powerapps
-ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.component: pa-admin
+ms.topic: conceptual
 ms.date: 08/29/2017
 ms.author: jamesol
-ms.openlocfilehash: e66978f6134919b18f4cfba913f1bb34394d8832
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: ba4b518cdc1b965a26a7e3fc3722dd23d601e693
+ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/15/2018
 ---
 # <a name="view-analytics-reports-for-your-app"></a>사용자 앱에 대한 분석 보고서 보기
 앱을 빌드하고 조직과 공유해 본 적 있으세요?  매일 얼마나 많은 동료가 앱을 사용하고 있는지 궁금하신가요?

@@ -1,26 +1,18 @@
 ---
-title: PowerApps, Microsoft Flow 및 앱용 Common Data Service에서 시스템 생성 로그에 대한 DSR 요청에 응답 | Microsoft Docs
-description: PowerApps, Microsoft Flow 및 앱용 Common Data Service에서 시스템 생성 로그에 대한 DSR 요청에 응답하는 방법 연습
-services: powerapps
-suite: powerapps
-documentationcenter: na
+title: PowerApps, Microsoft Flow 및 앱용 CDS(Common Data Service)에서 시스템 생성 로그에 대한 DSR 요청에 응답 | Microsoft Docs
+description: PowerApps, Microsoft Flow 및 앱용 CDS(Common Data Service)에서 시스템 생성 로그에 대한 DSR 요청에 응답하는 방법 연습
 author: jamesol-msft
 manager: kfile
-editor: ''
-tags: ''
-ms-topic: article
 ms.service: powerapps
-ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.component: pa-admin
+ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: jamesol
-ms.openlocfilehash: c3086ce05ba748b5387ec4ae5a1e794658b5677a
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 970cf64f9312e1d9f820671d313ee497f3e27b61
+ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/15/2018
 ---
 # <a name="responding-to-dsr-requests-for-system-generated-logs-in-powerapps-microsoft-flow-and-common-data-service-for-apps"></a>PowerApps, Microsoft Flow 및 앱용 Common Data Service에서 시스템 생성 로그에 대한 DSR 요청에 응답
 Microsoft에서는 EU(유럽 연합) GDPR(일반 데이터 보호 규정)의 광범위한 ‘개인 데이터’ 정의에 따라 사적인 것으로 간주할 수 있는 시스템 생성 로그에 액세스하고 이를 내보내고 삭제하는 기능을 제공합니다. GDPR에 따라 사적인 것으로 간주할 수 있는 시스템 생성 로그의 예는 다음과 같습니다.

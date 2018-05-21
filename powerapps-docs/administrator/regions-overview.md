@@ -1,25 +1,18 @@
 ---
 title: 지역 개요 | Microsoft Docs
-description: 'PowerApps의 지역: 앱을 배포할 경우 사용 가능한 지역이며 지역에 특정된 기능입니다.'
-services: ''
-suite: powerapps
-documentationcenter: na
-author: skjerland
-manager: anneta
-editor: ''
-tags: ''
+description: PowerApps의 지역에 대해 알아보기
+author: manasmams
+manager: kfile
 ms.service: powerapps
-ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.component: pa-admin
+ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: ab5443ae628a80d52d5bbcb1fa46ceed05391794
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 920cee683dfdeaf55905e7d0973c8d822900cac2
+ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/15/2018
 ---
 # <a name="regions-overview-in-powerapps"></a>PowerApps의 지역 개요
 ## <a name="how-do-i-find-out-where-my-app-is-deployed"></a>내 앱을 배포한 위치를 찾으려면 어떻게 할까요?

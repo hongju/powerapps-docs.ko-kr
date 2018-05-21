@@ -1,25 +1,18 @@
 ---
-title: Microsoft 팀에 앱 추가 | Microsoft Docs
-description: 앱을 공유하는 사용자가 해당 채널에서 앱을 열 수 있도록 Microsoft 팀 채널에 앱을 추가합니다.
-services: ''
-suite: powerapps
-documentationcenter: na
+title: Microsoft Teams에 앱 추가 빠른 시작 | Microsoft Docs
+description: 이 빠른 시작에서는 앱을 공유한 사용자가 해당 채널에서 앱을 열 수 있도록 Microsoft Teams 채널에 앱을 추가하는 방법을 알아봅니다.
 author: mgblythe
-manager: anneta
-editor: ''
-tags: ''
+manager: kfile
 ms.service: powerapps
-ms.devlang: na
+ms.component: pa-user
 ms.topic: quickstart
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.date: 01/18/2018
 ms.author: mblythe
-ms.openlocfilehash: 02248cc3e98f256df36bb6a57fac6e66c684a8bf
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 9c670a61f89b8bf038bae117614895f18101fe0c
+ms.sourcegitcommit: 167fd8e589689be26101584ab1b3a26be61808f7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/12/2018
 ---
 # <a name="quickstart-add-an-app-to-microsoft-teams"></a>빠른 시작: Microsoft 팀에 앱 추가
 
@@ -43,7 +36,7 @@ PowerApps에 등록하지 않은 경우 시작하기 전에 [무료로 등록합
 
     ![](./media/open-app-embedded-in-teams/teams-select-channel.png)
 
-2. **+**를 선택하여 탭을 추가합니다.
+2. **+** 를 선택하여 탭을 추가합니다.
 
     ![](./media/open-app-embedded-in-teams/teams-add-tab.png)
 

@@ -1,24 +1,18 @@
 ---
 title: 고객 데이터를 삭제하기 위한 DSR(Data Subject Rights) 요청에 응답 | Microsoft Docs
-description: PowerApps 고객 데이터를 삭제하기 위한 DSR(Data Subject Rights) 요청에 응답하는 방법 연습
-suite: powerapps
-documentationcenter: na
+description: PowerApps 고객 데이터를 삭제하기 위한 DSR(Data Subject Rights) 요청에 응답하는 방법에 대한 연습입니다.
 author: jamesol-msft
 manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.component: pa-admin
+ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: jamesol
-ms.openlocfilehash: e4f555416aadb90d882717072f614ccb958fa733
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 724ac9217e1a336aaea8139375ff7d612eb83b53
+ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/15/2018
 ---
 # <a name="responding-to-data-subject-rights-dsr-requests-to-delete-powerapps-customer-data"></a>PowerApps 고객 데이터를 삭제하기 위한 DSR(Data Subject Rights) 요청에 응답
 
@@ -219,7 +213,7 @@ Get-AdminApp -Owner $deleteDsrUserId | Set-AdminAppOwner -AppOwner $newAppOwnerU
 5. **삭제**를 선택하여 각 앱을 삭제합니다.
 
 ### <a name="delete-a-users-canvas-app-using-the-powerapps-admin-powershell-cmdlets"></a>PowerApps 관리자 PowerShell cmdlet을 사용하여 사용자의 캔버스 앱 삭제
-관리자가 사용자가 소유한 모든 캔버스 앱을 삭제하도록 결정하면 [PowerApps 관리자 PowerShell cmdlet](https://go.microsoft.com/fwlink/?linkid=871804)의 **Remove-AdminApp** 함수를 사용하여 삭제할 수 있습니다.
+관리자가 사용자가 소유한 모든 캔버스 앱을 삭제하도록 결정하면 [PowerApps 관리자 PowerShell cdmlet](https://go.microsoft.com/fwlink/?linkid=871804)의 **Remove-AdminApp** 함수를 사용하여 삭제할 수 있습니다.
 
 ```
 Add-PowerAppsAccount
@@ -258,7 +252,7 @@ Get-AdminApp -Owner "0ecb1fcc-6782-4e46-a4c4-738c1d3accea" | Remove-AdminApp
     ![앱 공유 관리 페이지](./media/powerapps-gdpr-delete-dsr/admin-share-page.png)
 
 ### <a name="powerapps-admin-powershell-cmdlets"></a>PowerApps 관리자 PowerShell cmdlet
-관리자는 [PowerApps 관리자 PowerShell cmdlet](https://go.microsoft.com/fwlink/?linkid=871804)의 **Remove-AdminAppRoleAssignmnet** 함수를 사용하여 사용자의 캔버스 앱 역할 할당을 모두 삭제할 수 있습니다.
+관리자는 [PowerApps 관리자 PowerShell cdmlet](https://go.microsoft.com/fwlink/?linkid=871804)의 **Remove-AdminAppRoleAssignmnet** 함수를 사용하여 사용자의 캔버스 앱 역할 할당을 모두 삭제할 수 있습니다.
 
 ```
 Add-PowerAppsAccount

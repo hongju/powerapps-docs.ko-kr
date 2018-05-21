@@ -1,29 +1,24 @@
 ---
-title: 조회 필드를 통한 엔터티 관계를 위한 빠른 시작 | Microsoft Docs
-description: 조회 필드를 사용하여 엔터티 간의 관계를 만들기 위한 빠른 시작
-documentationcenter: na
+title: 조회 필드를 사용하여 엔터티 간 관계 만들기 | Microsoft Docs
+description: 조회 필드를 사용하여 PowerApps에서 엔터티 간 관계를 만드는 방법에 대한 단계별 지침입니다.
 author: clwesene
 manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
-ms.topic: conceptual
 ms.component: cds
-ms.date: 3/21/2018
+ms.topic: conceptual
+ms.date: 03/21/2018
 ms.author: clwesene
-ms.openlocfilehash: a607058d1e26f37a4bffa054d9dc148be8b6b011
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: f1952c2349eb54f2c6348f5abc4dee9a4645348a
+ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/15/2018
 ---
-# <a name="quickstart-create-a-relationship"></a>빠른 시작: 관계 만들기
+# <a name="create-a-relationship-between-entities"></a>엔터티 간 관계 만들기
 한 엔터티의 데이터는 다른 엔터티의 데이터와 자주 관련됩니다. 예를 들어, **Teachers** 엔터티 및 **Class** 엔터티가 있을 수 있으며, **Class** 엔터티에는 클래스를 가르치는 교사를 표시하는 **Teachers** 엔터티에 대한 조회 관계가 있을 수 있습니다. 조회 필드를 사용하여 **Teachers** 엔터티의 데이터를 표시할 수 있습니다. 이는 일반적으로 조회 필드라고 합니다.
 
 ## <a name="define-a-relationship"></a>관계 정의
 다른 엔터티(또는 엔터티 자체) 간에 여러 형식의 관계를 만들 수 있습니다. 각 엔터티는 둘 이상의 엔터티와 관계가 있을 수 있으며, 각 엔터티는 다른 엔터티에 대해 둘 이상의 관계가 있을 수 있습니다. 몇 가지 일반적인 관계 형식은 다음과 같습니다.
-
 
 * **다 대 일** - 이 형식의 관계에서 엔터티 A의 각 레코드는 엔터티에 B의 둘 이상의 레코드와 일치할 수 있지만, 엔터티 B의 각 레코드는 엔터티 A의 하나의 레코드와 일치할 수 있습니다. 예를 들어 클래스에는 단일 클래스룸이 있습니다. 이는 관계의 가장 일반적인 형식이며 **조회 필드**로 필드 목록에 표시됩니다.
 * **일 대 다**: 이 형식의 관계에서, 엔터티 B의 각 레코드는 엔터티에 A의 둘 이상의 레코드와 일치할 수 있지만, 엔터티 A의 각 레코드는 엔터티 B의 하나의 레코드와만 일치할 수 있습니다. 예를 들어 단일 교사는 많은 클래스를 가르칩니다.

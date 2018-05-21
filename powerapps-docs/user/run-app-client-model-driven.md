@@ -1,25 +1,18 @@
 ---
-title: PowerApps로 모바일 장치에서 모델 기반 앱 실행 | Microsoft Docs
-description: 모바일 장치에서 모델 기반 앱을 실행하는 연습
-services: ''
-suite: powerapps
-documentationcenter: na
+title: PowerApps를 사용하여 모바일 장치에서 모델 기반 앱을 실행하는 방법 빠른 시작 | Microsoft Docs
+description: 이 빠른 시작에서는 모바일 장치에서 모델 기반 앱을 실행하는 방법을 알아봅니다.
 author: Mattp123
-manager: brycho
-editor: ''
-tags: ''
+manager: kfile
 ms.service: powerapps
-ms.devlang: na
+ms.component: pa-user
 ms.topic: quickstart
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.date: 03/21/2018
 ms.author: matp
-ms.openlocfilehash: a538eb1b6046c4cfd27e969613b44574cec8ff7e
-ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
+ms.openlocfilehash: 5556739d0a067e9475cd253efdf733ae91218719
+ms.sourcegitcommit: 167fd8e589689be26101584ab1b3a26be61808f7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/12/2018
 ---
 # <a name="quickstart-run-a-model-driven-app-on-a-mobile-device"></a>빠른 시작: 모바일 장치에서 모델 기반 앱 실행
 
