@@ -250,6 +250,10 @@
           href: ./common-data-service/data-platform-create-business-rule.md
         - name: 사용자 지정 엔터티 삭제
           href: ./common-data-service/data-platform-delete-entity.md
+        - name: Excel에서 엔터티 데이터 열기
+          href: ./common-data-service/data-platform-excel-addin.md
+        - name: Power BI 보고서 만들기
+          href: ./common-data-service/data-platform-powerbi-connector.md
     - name: 참조
       items:
         - name: Dynamics 365 라이선스를 요구하는 제한된 엔터티

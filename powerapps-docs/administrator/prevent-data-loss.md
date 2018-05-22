@@ -8,11 +8,11 @@ ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: 0215e013f6879ea8d04de8fe74e077c983370bff
-ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
+ms.openlocfilehash: 158abc3969090e081df41b6b52036d71b6949150
+ms.sourcegitcommit: f236364ecb06dd86244cd9a607c31e0d716912e2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 05/22/2018
 ---
 # <a name="manage-data-loss-prevention-dlp-policies"></a>DLP(데이터 손실 방지) 정책 관리
 조직의 데이터는 해당 조직의 성공에 중요합니다. 해당 데이터는 의사 결정을 위해 손쉽게 사용할 수 있어야 하지만, 액세스할 수 없는 대상과 공유되지 않도록 보호해야 합니다. 이 데이터를 보호하기 위해 PowerApps를 사용하여 공유 가능한 소비자 커넥터 관련 비즈니스 데이터를 정의하는 DLP(데이터 손실 방지) 정책을 만들고 적용할 수 있습니다. 예를 들어 PowerApps를 사용하는 조직은 SharePoint에 저장된 비즈니스 데이터가 Twitter 피드에 자동으로 게시되기를 원하지 않을 수 있습니다.
@@ -22,7 +22,7 @@ DLP 정책을 만들고, 편집하고, 삭제하려면 환경 관리자 또는 A
 DLP 정책을 만드는 방법에 대한 지침은 [빠른 시작: DLP(데이터 손실 방지) 정책 만들기](create-dlp-policy.md)를 참조하세요.
 
 ## <a name="find-a-dlp-policy"></a>DLP 정책 찾기
-1. [https://admin.poweraps.com]([https://admin.powerapps.com)에서 관리 센터에 로그인합니다.
+1. [https://admin.powerapps.com]([https://admin.powerapps.com)에서 관리 센터에 로그인합니다.
 2. 탐색 창에서 **데이터 정책**을 클릭하거나 탭합니다. 정책 목록이 긴 경우 **검색** 상자를 사용하여 특정 DLP 정책을 찾을 수 있습니다.
 
     ![](./media/prevent-data-loss/data-policies.png)

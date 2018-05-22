@@ -8,11 +8,11 @@ ms.component: pa-admin
 ms.topic: quickstart
 ms.date: 03/21/2018
 ms.author: sharik
-ms.openlocfilehash: 322886a485a863d5ebf505ba2d1f5763dcfea60e
-ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
+ms.openlocfilehash: 50a3819d4a659d48e1372487c5b50dc8295ee398
+ms.sourcegitcommit: f236364ecb06dd86244cd9a607c31e0d716912e2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 05/22/2018
 ---
 # <a name="quickstart-create-an-environment"></a>빠른 시작: 환경 만들기
 환경은 조직의 비즈니스 데이터, 앱 및 흐름을 저장, 관리 및 공유하는 공간입니다. 또한 각기 다른 역할, 보안 요구 사항 또는 대상 그룹에 따라 앱을 구분하는 컨테이너 기능도 제공합니다. PowerApps는 자동으로 각 테넌트의 단일 기본 환경을 만들며, 이 환경은 해당 테넌트의 모든 사용자 간에 공유됩니다.
@@ -27,7 +27,7 @@ ms.lasthandoff: 05/15/2018
  * PowerApps 환경 관리자, Office 365 전역 관리자 또는 Azure Active Directory 테넌트 관리자 권한이 필요합니다. 자세한 내용은 [PowerApps에서 환경 관리](environments-administration.md)를 참조하세요.
 
 ## <a name="sign-in-to-the-powerapps-admin-center"></a>PowerApps 관리 센터에 로그인
-[https://admin.powerapps.com]([https://admin.powerapps.com)에서 관리 센터에 로그인합니다.
+[https://admin.powerapps.com](https://admin.powerapps.com)에서 관리 센터에 로그인합니다.
 
 ## <a name="create-an-environment-and-database"></a>환경 및 데이터베이스 만들기
 1. 탐색 창에서 **환경**을 클릭하거나 탭한 다음, **새 환경**을 클릭하거나 탭합니다.
