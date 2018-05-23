@@ -1,26 +1,21 @@
 ---
-title: PowerApps의 새로운 기능 | Microsoft Docs
+title: 새로운 기능 | Microsoft Docs
 description: 릴리스 날짜별로 정리된 PowerApps 업데이트
 documentationcenter: na
-author: skjerland
-manager: kfile
-editor: ''
-tags: ''
+author: AFTOwen
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
 ms.component: canvas
-ms.date: 04/23/2018
-ms.author: sharik
-ms.openlocfilehash: 00b80bd5b9e0953366dd58d6e3b3266ffe7956bd
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.date: 05/21/2018
+ms.author: anneta
+ms.openlocfilehash: dc4e4f9ae1cdb8cf9edf1c7a52343f6a5db1717c
+ms.sourcegitcommit: f236364ecb06dd86244cd9a607c31e0d716912e2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/22/2018
 ---
 # <a name="whats-new-in-powerapps"></a>PowerApps의 새로운 기능
 알려진 제한 사항에 대한 정보는 [일반적인 문제 및 해결 방법](common-issues-and-resolutions.md)을 참조하세요.
-
 
 > [!NOTE]
 > 릴리스는 며칠 동안 배포됩니다. 새 기능 또는 업데이트된 기능이 즉시 나타나지 않을 수 있습니다.
@@ -31,13 +26,18 @@ ms.lasthandoff: 04/26/2018
 
 **서비스 예정:** 기능이 출시되면 릴리스 정보 PDF를 계속 업데이트하고 웹 페이지에서도 릴리스 정보를 제공할 예정입니다.
 
-## <a name="apr-23"></a>4월 23일
+## <a name="may-21"></a>5월 21일
+1. 앱 사용자가 업그레이드된 Apps용 CDS(Common Data Service) 환경에 현재 사용할 수 있는 **Excel 파일에서 데이터 가져오기** 및 **데이터 내보내기** 기능을 사용하여 로컬로 저장된 Excel 또는 CSV 파일에서 데이터를 가져오고 내보낼 수 있습니다. 
+1. 앱 사용자가 PowerApps용 Excel 추가 기능을 사용하여 Apps용 CDS 내에 저장된 데이터를 만들고, 업데이트하고, 삭제하기 위해 [Excel에서 엔터티를 열](../common-data-service/data-platform-excel-addin.md) 수 있습니다. 
+1. Apps용 CDS에 연결된 Power BI Desktop을 사용하여 [Power BI 보고서를 만들고 게시](../common-data-service/data-platform-powerbi-connector.md)합니다. 
+
+## <a name="april-23"></a>4월 23일
 * Internet Explorer의 SharePoint 사용자 지정 목록 양식 내에 [첨부 파일](controls/control-attachments.md)을 다운로드합니다.
 
-## <a name="apr-9"></a>4월 9일
+## <a name="april-9"></a>4월 9일
 * 웹 브라우저의 앱에서 잘라내기(Ctrl+X), 복사(Ctrl+C) 및 붙여넣기(Ctrl+V) 컨트롤&mdash;컨트롤의 스타일, 수식 및 속성 포함&mdash;.
 
-## <a name="mar-21"></a>3월 21일
+## <a name="march-21"></a>3월 21일
 1. 데이터 모델로 시작하여 앱용 Common Data Service의 핵심 비즈니스 데이터와 프로세스의 모양을 모델로 하여 양식, 뷰 및 기타 구성 요소를 작성하는 [모델 기반 앱](../model-driven-apps/model-driven-app-overview.md)을 만듭니다. 모델 기반 앱은 여러 장치에서 뛰어난 반응 속도를 제공하는 우수한 UI를 자동으로 생성합니다.
 2. 환경에서 앱용 CDS의 최신 버전에서 [데이터베이스를 만듭니다](../../administrator/create-database.md).
 3. 이제 앱용 CDS에는 다음이 포함됩니다.
@@ -49,7 +49,7 @@ ms.lasthandoff: 04/26/2018
     - 고급 사용자는 새 **OData Web API**를 통해 앱용 CDS에 저장된 데이터에 액세스할 수 있습니다.
     - **파워 쿼리**를 사용하여 앱용 CDS로 [데이터를 가져옵니다](../common-data-service/data-platform-cds-newentity-pq.md). 웹에서 파워 쿼리를 사용하여 여러 원본에서 앱용 CDS로 데이터를 직접 가져옵니다.
 
-## <a name="mar-5"></a>3월 5일
+## <a name="march-5"></a>3월 5일
 1. SharePoint 목록에 [첨부 파일](controls/control-attachments.md)을 추가(및 삭제)합니다.
 2. 외부 [PDF](controls/control-pdf-viewer.md) 파일을 웹 브라우저에서 엽니다. (실험적 기능)
 
@@ -73,15 +73,3 @@ ms.lasthandoff: 04/26/2018
 
 ## <a name="jan-5"></a>1월 5일
 * Power BI 보고서에서 컨텍스트 데이터를 가져오는 [PowerApps 사용자 지정 시각적 개체(미리 보기 버전)](https://powerapps.microsoft.com/blog/powerbi-powerapps-visual/)를 통합하여 Power BI 보고서 또는 대시보드에서 바로 데이터에 조치를 취합니다.
-
-## <a name="dec-8"></a>12월 8일
-1. 규칙의 [조건 템플릿](working-with-rules.md)은 컨트롤(예: **텍스트** 또는 **값**)의 공통 속성을 유추합니다.
-2. 규칙 작업을 정의할 때 [**작업 정의** 확인 대화 상자](working-with-rules.md)를 그만 표시합니다.
-
-## <a name="nov-13"></a>11월 13일
-1. SharePoint 목록에서 동일한 필드에 대해 여러 값을 선택합니다.
-2. SharePoint 목록에서 [첨부 파일을 다운로드하고 봅니다](controls/control-attachments.md).
-3. PowerApps를 사용하여 [SharePoint 목록 양식을 사용자 지정합니다](customize-list-form.md).
-
-## <a name="nov-10"></a>11월 10일
-* 앱에서 [규칙 이름을 바꾸고](working-with-rules.md) 선택한 컨트롤이 규칙 조건에 들면 규칙을 표시합니다.
