@@ -8,11 +8,11 @@ ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: 920cee683dfdeaf55905e7d0973c8d822900cac2
-ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
+ms.openlocfilehash: 818d751a45eee6d746d4f318a98169a771787d92
+ms.sourcegitcommit: f236364ecb06dd86244cd9a607c31e0d716912e2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 05/22/2018
 ---
 # <a name="regions-overview-in-powerapps"></a>PowerApps의 지역 개요
 ## <a name="how-do-i-find-out-where-my-app-is-deployed"></a>내 앱을 배포한 위치를 찾으려면 어떻게 할까요?
@@ -46,5 +46,4 @@ ms.lasthandoff: 05/15/2018
 
 > [!NOTE]
 > 온-프레미스 데이터 게이트웨이는 인도 지역 또는 사용자 지정 환경에서 사용할 수 없습니다. 기본 환경에서 게이트웨이를 만들어야 합니다.
-
 

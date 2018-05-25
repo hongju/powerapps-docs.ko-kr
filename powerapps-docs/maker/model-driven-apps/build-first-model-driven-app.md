@@ -12,21 +12,21 @@ ms.topic: conceptual
 ms.component: model
 ms.date: 04/18/2018
 ms.author: matp
-ms.openlocfilehash: 3a9696a025608de3c142277da4059e7e8c5ec5ad
-ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
+ms.openlocfilehash: dfef87d9c85de3a8311081c3b99eaa9d072dc444
+ms.sourcegitcommit: f236364ecb06dd86244cd9a607c31e0d716912e2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/22/2018
 ---
 # <a name="quickstart-build-your-first-model-driven-app-from-scratch"></a>빠른 시작: 처음부터 첫 번째 모델 기반 앱 빌드
 모델 기반 앱 디자인은 앱 개발에 대해 구성 요소에 중점을 두는 방법입니다. 이 빠른 시작에서는 [!INCLUDE [powerapps](../../includes/powerapps.md)] 환경에서 사용할 수 있는 표준 엔터티 중 하나를 사용하여 모델 기반 앱을 만드는 방법을 간소화합니다. 
 
 ## <a name="sign-in-to-powerapps"></a>PowerApps에 로그인
-[PowerApps](https://web.powerapps.microsoft.com/)에 로그인합니다. [!INCLUDE [powerapps](../../includes/powerapps.md)] 계정이 아직 없다면 **무료 시작** 링크를 선택합니다. 
+[PowerApps](https://web.powerapps.com/)에 로그인합니다. [!INCLUDE [powerapps](../../includes/powerapps.md)] 계정이 아직 없다면 **무료 시작** 링크를 선택합니다. 
 
 ## <a name="create-your-model-driven-app"></a>모델 기반 앱 만들기
 
-1.  원하는 환경을 선택하거나 [PowerApps 관리 센터](https://admin.powerapps.microsoft.com/)로 이동하여 새 환경을 만듭니다.
+1.  원하는 환경을 선택하거나 [PowerApps 관리 센터](https://admin.powerapps.com/)로 이동하여 새 환경을 만듭니다.
 2.  왼쪽 탐색 창에서 **모델 기반**을 선택합니다. 
 
     ![모델 기반](media/build-first-model-driven-app/choose-design-mode.png)

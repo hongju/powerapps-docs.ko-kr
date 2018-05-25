@@ -8,11 +8,11 @@ ms.topic: overview
 ms.component: cds
 ms.date: 05/01/2018
 ms.author: sharik
-ms.openlocfilehash: a2dea7da0cc87ad016d5eff6e04b9e03e66341db
-ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
+ms.openlocfilehash: fb079689ef76e4ad7815b8410ecff4a475877810
+ms.sourcegitcommit: ba587b467044161d1dbcd73625b37aa52b057270
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="what-is-common-data-service-for-apps"></a>앱용 Common Data Service란 무엇인가요?
 앱용 CDS(Common Data Service)를 사용하면 비즈니스 응용 프로그램에서 사용되는 데이터를 안전하게 저장하고 관리할 수 있습니다. 앱용 CDS 내 데이터는 엔터티의 집합 내에 저장됩니다. *엔터티*는 테이블이 데이터베이스 내의 데이터를 저장하는 방법과 유사하게 데이터를 저장하는 데 사용되는 레코드의 집합입니다. 앱용 CDS는 일반적인 시나리오를 다루는 표준 엔터티의 기본 집합을 포함하고 있지만, 조직과 관련된 사용자 지정 엔터티를 만들고 파워 쿼리를 사용하여 데이터로 채울 수도 있습니다. 그런 다음, 앱 작성자는 PowerApps를 사용하여 이 데이터를 사용하는 다양한 응용 프로그램을 빌드할 수 있습니다.
@@ -34,7 +34,7 @@ ms.lasthandoff: 05/15/2018
 
 ![엔터티 목록을 보여주는 스크린샷.](./media/data-platform-cds-intro/entitylist.png "엔터티 목록")
 
-엔터티의 전체 목록은 [엔터티 참조](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/reference/about-entity-reference)를 참조하세요.
+엔터티의 전체 목록은 [엔터티 참조](https://docs.microsoft.com/powerapps/developer/common-data-service/reference/about-entity-reference)를 참조하세요.
 
 고유한 정보를 조직에 저장하기 위해 하나 이상의 사용자 지정 엔터티를 만들어 표준 엔터티의 기능을 확장할 수 있습니다. 자세한 내용은 [사용자 지정 엔터티를 만드는 방법](create-custom-entity.md)을 참조하세요.
 

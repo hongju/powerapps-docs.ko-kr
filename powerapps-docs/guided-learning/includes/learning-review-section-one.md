@@ -7,7 +7,7 @@ PowerApps는 이미 사용 중인 **클라우드 서비스 및 데이터 원본*
 PowerApps를 시작하는 가장 쉬운 방법은 샘플을 실행하고, 템플릿을 자유롭게 사용하고, 자신의 데이터에서 앱을 생성하는 것입니다. SharePoint 목록을 기반으로 하여 앱을 생성하는 방법을 알아보았습니다. 이제 기초를 탄탄하게 닦았으며 곧바로 앱을 만들고 공유할 수 있습니다. 
 
 ## <a name="whats-next"></a>다음은 무엇일까요?
-축하합니다! PowerApps 학습 도우미의 첫 번째 섹션을 마쳤습니다. 처음부터 얼마나 많은 경험이 있었는지에 관계 없이 PowerApps가 무엇인지, 그리고 어떻게 앱을 만들 수 있는지에 대한 명확한 그림을 갖추었기를 바랍니다. 몇 가지 유용한 자료와 다운로드가 아래에 나와 있지만, 학습 도우미의 자세한 내용은 반드시 살펴보아야 합니다. 자세한 내용을 보려면 [SharePoint 목록에서 앱을 만들고 사용자 지정](https://docs.microsoft.com/powerapps/guided-learning/create-app-sharepoint#step-1)하는 방법을 알아보세요.
+축하합니다! PowerApps 학습 도우미의 첫 번째 섹션을 마쳤습니다. 처음부터 얼마나 많은 경험이 있었는지에 관계 없이 PowerApps가 무엇인지, 그리고 어떻게 앱을 만들 수 있는지에 대한 명확한 그림을 갖추었기를 바랍니다. 몇 가지 유용한 자료와 다운로드가 아래에 나와 있지만, 학습 도우미의 자세한 내용은 반드시 살펴보아야 합니다. 자세한 내용을 보려면 [SharePoint 목록에서 앱을 만들고 사용자 지정](https://docs.microsoft.com/powerapps/guided-learning/create-app-sharepoint?tutorial-step=1)하는 방법을 알아보세요.
 
 ## <a name="powerapps-resources"></a>PowerApps 리소스
 * [PowerApps 설명서](https://docs.microsoft.com/powerapps/)를 자세히 살펴봅니다.
