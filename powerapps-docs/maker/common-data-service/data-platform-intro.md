@@ -1,18 +1,18 @@
 ---
 title: 앱용 Common Data Service란 무엇인가요? | Microsoft Docs
 description: 앱, 엔터티 및 서버 쪽 논리를 위한 CDS(Common Data Service)에 대한 소개입니다.
-author: SKjerland
+author: Mattp123
 manager: kfile
 ms.service: powerapps
 ms.topic: overview
 ms.component: cds
 ms.date: 05/01/2018
-ms.author: sharik
-ms.openlocfilehash: fb079689ef76e4ad7815b8410ecff4a475877810
-ms.sourcegitcommit: ba587b467044161d1dbcd73625b37aa52b057270
+ms.author: matp
+ms.openlocfilehash: b26f788a782e42125d6397d38b2d946f8188e475
+ms.sourcegitcommit: 3f5adf07cac1c798f3d4843ed5928505becde30e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/26/2018
 ---
 # <a name="what-is-common-data-service-for-apps"></a>앱용 Common Data Service란 무엇인가요?
 앱용 CDS(Common Data Service)를 사용하면 비즈니스 응용 프로그램에서 사용되는 데이터를 안전하게 저장하고 관리할 수 있습니다. 앱용 CDS 내 데이터는 엔터티의 집합 내에 저장됩니다. *엔터티*는 테이블이 데이터베이스 내의 데이터를 저장하는 방법과 유사하게 데이터를 저장하는 데 사용되는 레코드의 집합입니다. 앱용 CDS는 일반적인 시나리오를 다루는 표준 엔터티의 기본 집합을 포함하고 있지만, 조직과 관련된 사용자 지정 엔터티를 만들고 파워 쿼리를 사용하여 데이터로 채울 수도 있습니다. 그런 다음, 앱 작성자는 PowerApps를 사용하여 이 데이터를 사용하는 다양한 응용 프로그램을 빌드할 수 있습니다.

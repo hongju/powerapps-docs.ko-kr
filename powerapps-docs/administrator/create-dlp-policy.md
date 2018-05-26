@@ -1,18 +1,17 @@
 ---
 title: DLP(데이터 손실 방지) 정책을 만드는 방법에 대한 빠른 시작 | Microsoft Docs
 description: 이 빠른 시작에서는 PowerApps에서 DLP(데이터 손실 방지) 정책을 만드는 방법을 알아봅니다.
-author: SKjerland
-manager: kfile
+author: jimholtz
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: quickstart
 ms.date: 03/30/2018
-ms.author: sharik
-ms.openlocfilehash: 1a82b09c3a8b4463f6739222abb9e8ff516dcd18
-ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
+ms.author: jimh
+ms.openlocfilehash: da4be42ea0374d6cb50da2f9a9b17eef15d5b316
+ms.sourcegitcommit: 3f5adf07cac1c798f3d4843ed5928505becde30e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 05/26/2018
 ---
 # <a name="quickstart-create-a-data-loss-prevention-dlp-policy"></a>빠른 시작: DLP(데이터 손실 방지) 정책 만들기
 조직의 데이터를 보호하기 위해 PowerApps를 사용하여 공유 가능한 소비자 커넥터 관련 비즈니스 데이터를 정의하는 정책을 만들고 적용할 수 있습니다. 데이터를 공유할 수 있는 방법을 정의하는 이러한 정책을 DLP(데이터 손실 방지) 정책이라고 합니다. DLP 정책은 조직 전체에서 데이터가 일관적인 방법으로 관리되도록 보장하고, 중요한 비즈니스 데이터가 소셜 미디어 사이트 같은 커넥터에 실수로 게시되지 않도록 방지합니다.
