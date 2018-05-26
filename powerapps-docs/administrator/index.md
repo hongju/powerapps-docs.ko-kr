@@ -1,18 +1,17 @@
 ---
 title: PowerApps 관리자의 역할 개요 | Microsoft Docs
 description: PowerApps의 과정 채택 및 PowerApps 관리자의 역할 개요
-author: SKjerland
-manager: kfile
+author: jimholtz
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: overview
 ms.date: 04/27/2018
-ms.author: sharik
-ms.openlocfilehash: 0a2557ecd1da6c23d01883239df72a2c6ee8f3cc
-ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
+ms.author: jimh
+ms.openlocfilehash: d9bdbcc268a28f303a6cff90d9e9c2193c81bc29
+ms.sourcegitcommit: 3f5adf07cac1c798f3d4843ed5928505becde30e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 05/26/2018
 ---
 # <a name="whats-the-role-of-a-powerapps-administrator"></a>PowerApps 관리자의 역할은 무엇입니까?
 PowerApps, Microsoft Flow 및 앱용 CDS(Common Data Service)의 관리는 [PowerApps 관리 센터](https://admin.powerapps.com)를 통해 수행됩니다.
