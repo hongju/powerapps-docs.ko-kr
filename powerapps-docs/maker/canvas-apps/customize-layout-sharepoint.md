@@ -5,16 +5,26 @@ author: AFTOwen
 ms.service: powerapps
 ms.topic: tutorial
 ms.component: canvas
-ms.date: 04/24/2018
+ms.date: 05/06/2018
 ms.author: anneta
-ms.openlocfilehash: 7a51e2a734426973721fbcb21305f96e6ba7b222
-ms.sourcegitcommit: 99d50f9a79fe4f35ba56f365de6593abd893978e
+ms.openlocfilehash: 88170d5f727ff4e3cfe52ce31719bcbc79e33021
+ms.sourcegitcommit: e071ef560eef01c2b250ed50cf0e82f7263d5e4d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2018
+ms.lasthandoff: 05/23/2018
 ---
 # <a name="tutorial-customize-a-gallery-in-powerapps"></a>자습서: PowerApps에서 갤러리 사용자 지정
-이 자습서에서는 갤러리를 사용자 지정하고 Microsoft PowerApps에서 자동으로 생성된 앱의 다른 내용을 변경합니다. 이러한 변경 내용이 없어도 사용자는 앱에서 데이터를 관리할 수 있지만 조직의 요구 사항에 맞게 사용자 지정하면 앱을 더 쉽게 사용할 수 있습니다.
+이 자습서에서는 갤러리라고 하는 레코드의 목록을 사용자 지정하고 Microsoft PowerApps에서 자동으로 생성된 앱의 다른 내용을 변경합니다. 이러한 변경 내용이 없어도 사용자는 앱에서 데이터를 관리할 수 있지만 조직의 요구 사항에 맞게 사용자 지정하면 앱을 더 쉽게 사용할 수 있습니다.
+
+예를 들어 이 자습서에 나온 갤러리는 기본적으로 다음 그래픽과 일치합니다. 이메일 주소는 다른 데이터 유형에 비해 더 두드러지게 나타나며, 사용자는 해당 주소의 텍스트에 따라 갤러리를 정렬 및 필터링할 수 있습니다.
+
+![기본 갤러리](./media/customize-layout-sharepoint/gallery-before.png)
+
+그러나 사용자가 이메일 주소보다 계정 이름에 더 관심이 있을 수도 있으므로 조직에 대한 핵심 데이터를 기준으로 강조 표시, 정렬 및 필터링하도록 갤러리를 다시 구성할 수 있습니다. 또한 앱의 다른 화면과 구분되도록 기본 화면의 제목을 변경할 수도 있습니다.
+
+![최종 갤러리](./media/customize-layout-sharepoint/gallery-after.png)
+
+또한 터치 스크린 또는 마우스 휠이 없는 사용자가 전체 갤러리를 탐색할 수 있도록 스크롤 막대를 추가할 수 있습니다.
 
 > [!div class="checklist"]
 > * 갤러리 레이아웃 변경
@@ -23,9 +33,9 @@ ms.lasthandoff: 05/06/2018
 > * 화면 제목 변경
 > * 스크롤 막대 표시
 
-이 자습서는 특정 데이터 원본에서 생성된 앱으로 시작합니다. 그러나 SharePoint 목록, Excel 테이블 또는 다른 데이터 원본을 기반으로 PowerApps에서 생성하는 모든 앱에는 동일한 개념이 적용됩니다. 
+이 자습서는 특정 데이터 원본에서 생성된 앱으로 시작합니다. 그러나 SharePoint 목록, Excel 테이블 또는 다른 데이터 원본을 기반으로 PowerApps에서 생성하는 모든 앱에는 동일한 개념이 적용됩니다.
 
-PowerApps에 대한 라이선스가 없으면 [무료로 등록](../signup-for-powerapps.md)할 수 있습니다.
+PowerApps에 등록하지 않은 경우 시작하기 전에 [체험판으로 등록합니다](https://web.powerapps.com).
 
 ## <a name="prerequisites"></a>필수 조건
 앱용 CDS(Common Data Service)의 [계정](data-platform-create-app.md) 엔터티에서 **앱을 생성**합니다.
@@ -38,6 +48,8 @@ PowerApps에 대한 라이선스가 없으면 [무료로 등록](../signup-for-p
 1. 생성한 앱을 찾고, 앱에 대한 줄임표 아이콘(**...**)을 선택한 다음, **편집**을 선택합니다.
 
     ![편집할 앱 열기](./media/customize-layout-sharepoint/open-app.png)
+
+1. **PowerApps Studio 시작** 대화 상자에서 **건너뛰기**를 선택합니다.
 
 ## <a name="change-the-layout"></a>레이아웃 변경
 1. 왼쪽 탐색 창에서 **BrowseGallery1**을 선택합니다.
@@ -58,9 +70,11 @@ PowerApps에 대한 라이선스가 없으면 [무료로 등록](../signup-for-p
 
     ![제목 전용 레이아웃 선택](./media/customize-layout-sharepoint/choose-layout.png)
 
-1. **데이터** 창에서 **Title2**에 대한 옵션 목록을 엽니다.
+1. **데이터** 창에서 제목에 대한 옵션 목록을 엽니다.
 
-    ![제목 전용 레이아웃 선택](./media/customize-layout-sharepoint/show-title-options.png)
+    이 컨트롤의 이름은 **Title1**과 같이 숫자로 끝납니다. 단, 숫자는 사용자가 수행한 다른 작업에 따라 달라질 수 있습니다.
+
+    ![제목 레이블에 대한 옵션 목록 열기](./media/customize-layout-sharepoint/show-title-options.png)
 
 1. 옵션 목록에서 **계정 이름(이름)** 을 선택한 다음, **데이터** 창을 닫습니다.
 

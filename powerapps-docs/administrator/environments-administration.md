@@ -8,11 +8,11 @@ ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: cfc120cb135c9fe6007b4dc57382a2e4ade821af
-ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
+ms.openlocfilehash: 3e3cd3b7339303e23411f3ef977cc33db6e5e8e0
+ms.sourcegitcommit: f236364ecb06dd86244cd9a607c31e0d716912e2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 05/22/2018
 ---
 # <a name="administer-environments-in-powerapps"></a>PowerApps에서 환경 관리
 [PowerApps 관리 센터][1]에서 사용자가 만든 환경은 물론, Environment Admin 또는 System Administrator 역할에 추가된 환경을 관리합니다. 관리 센터에서 다음 관리 작업을 수행할 수 있습니다.
@@ -137,9 +137,9 @@ Azure AD 또는 Office 365 테넌트의 전역 관리자 역할의 멤버인 경
 
 4. 환경에 데이터베이스가 생성된 경우:
 
-    a. Dynamics 365에서 환경 역할을 관리할 링크를 클릭합니다.
+    a. 사용자를 환경에 추가하고 링크를 클릭하여 사용자를 역할에 할당합니다.
 
-    ![](./media/environment-admin/Security-Link-D365.png)
+    ![](./media/database-security/security-adduser.png)
 
     b. 환경/인스턴스의 사용자 목록에서 사용자를 선택합니다.
 

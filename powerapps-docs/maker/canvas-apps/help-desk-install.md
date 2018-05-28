@@ -12,11 +12,11 @@ ms.topic: sample
 ms.component: canvas
 ms.date: 04/08/2018
 ms.author: caburk
-ms.openlocfilehash: e042230acec8bf70a2a99eee316d234cb5cdea15
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 4601cabae10f3373f8d2ef18190d71af536811b5
+ms.sourcegitcommit: 8cc8d165c10644e02009011b66bc174c169c3b05
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/23/2018
 ---
 # <a name="install-and-configure-the-help-desk-powerapps-sample"></a>지원 센터 PowerApps 샘플 설치 및 구성
 
@@ -24,29 +24,29 @@ ms.lasthandoff: 04/26/2018
 
 이 단계를 완료하는 데 소요되는 예상 시간: **10-15분**
 
-이 프로세스의 데모를 보려면 이 비디오를 시청하세요.
+> [!TIP]
+> 이 프로세스의 데모를 보려면 이 [동영상](https://youtu.be/z4cdtD6hB_4)을 시청하세요.
 
-[![지원 센터 설치 비디오](./media/help-desk-install/help-desk-install-video.png)](https://youtu.be/z4cdtD6hB_4 )
 
 ## <a name="help-desk-powerapps-sample-overview"></a>지원 센터 PowerApps 샘플 개요
 지원 센터는 최종 사용자를 지원 전문가와 연결하는 사용자에게 친숙한 환경을 제공합니다. 신속하게 가장 중요한 질문에 대한 답변을 찾고 열려 있는 티켓의 진행 상황을 추적하고 이전 요청의 세부 정보를 검토하세요. 이 앱을 사용자에게 맞게 설정하려면 약간의 설정 작업이 필요합니다.
 
 ![지원 센터 PowerApp의 시작 화면](./media/help-desk-install/Login-screen.png)
 
-지원 센터 PowerApp 샘플을 사용하는 방법을 보려면 이 비디오를 시청하세요.
-
-[![지원 센터 데모 비디오](./media/help-desk-install/help-desk-demo-video.png)](https://youtu.be/sl5fXwwnvzI)
+> [!TIP]
+> 지원 센터 PowerApp 샘플을 사용하는 방법을 보려면 이 [동영상](https://youtu.be/sl5fXwwnvzI)을 시청하세요.
 
 ## <a name="prerequisites"></a>필수 조건
 
 - PowerApps에 [등록](https://web.powerapps.com/)합니다.
+- 올바른 SharePoint Online 라이선스 및 목록을 만들 수 있는 권한이 있어야 합니다.
 
 ## <a name="create-the-helpdesk-sharepoint-list"></a>지원 센터 SharePoint 목록 만들기
 
 이 목록은 지원 센터 티켓을 저장합니다.
 
 1. 웹 브라우저를 열고 https://portal.office.com으로 이동하세요.
-2. 목록을 만들 수 있는 권한을 가진 계정으로 로그인합니다.
+2. SharePoint 목록을 만들 수 있는 권한을 가진 계정으로 로그인합니다.
 3. 지원 센터 목록을 배치할 사이트 컬렉션으로 이동합니다.
 4. 웹 페이지의 오른쪽 맨 위 부분에 있는 **기어 아이콘**을 클릭합니다.
 5. **앱 추가**를 클릭합니다.
@@ -62,12 +62,13 @@ ms.lasthandoff: 04/26/2018
 
 ### <a name="create-description-column"></a>설명 열 만들기
 
-1. **열 만들기**를 클릭합니다.
-2. **열 이름** 텍스트 상자에 **설명**을 입력합니다.
-3. **이 열의 정보 유형** 라디오 단추 목록에서 **여러 줄의 텍스트**를 선택합니다.
-4. **이 열에 정보가 포함되어야 함** 라디오 단추 목록에서 **예**를 선택합니다.
-5. **허용할 텍스트 유형 지정** 라디오 단추 목록에서 **일반 텍스트**를 선택합니다.
-6. **확인**을 클릭합니다.
+1. 지원 센터 목록 옆에 있는 줄임표를 선택하고 **설정**을 클릭합니다.
+2. **열 만들기**를 클릭합니다.
+3. **열 이름** 텍스트 상자에 **설명**을 입력합니다.
+4. **이 열의 정보 유형** 라디오 단추 목록에서 **여러 줄의 텍스트**를 선택합니다.
+5. **이 열에 정보가 포함되어야 함** 라디오 단추 목록에서 **예**를 선택합니다.
+6. **허용할 텍스트 유형 지정** 라디오 단추 목록에서 **일반 텍스트**를 선택합니다.
+7. **확인**을 클릭합니다.
 
 ### <a name="create-category-column"></a>범주 열 만들기
 
@@ -137,14 +138,13 @@ ms.lasthandoff: 04/26/2018
 
 ## <a name="download-the-help-desk-powerapp"></a>지원 센터 PowerApp 다운로드
 
-1.  웹 브라우저에서 http://pappsfeprodwestuscontent.blob.core.windows.net/sampleapps/helpdesk/docs/HelpDesk(SP_List).zip으로 이동합니다.
-2.  PowerApps 패키지를 다운로드하여 컴퓨터에 저장 합니다.
+1.  PowerApps 패키지를 [다운로드](http://pappsfeprodwestuscontent.blob.core.windows.net/sampleapps/helpdesk/docs/HelpDesk(SP_List).zip)하여 컴퓨터에 저장합니다.
 
 ## <a name="create-connections"></a>연결 만들기
 
 1.  웹 브라우저에서 https://web.powerapps.com으로 이동합니다.
 2.  등록 시 사용한 동일한 자격 증명을 제공하여 로그인합니다.
-3.  왼쪽 메뉴에서 **연결**을 선택합니다.
+3.  왼쪽 메뉴에서 **데이터**를 선택한 다음, **연결**을 선택합니다.
     
 ### <a name="create-office-365-outlook-connection"></a>Office 365 Outlook 연결 만들기
 
@@ -157,7 +157,7 @@ ms.lasthandoff: 04/26/2018
 ### <a name="create-sharepoint-connection"></a>SharePoint 연결 만들기
 
 1.  **+ 새 연결**을 클릭합니다.
-2.  **검색** 텍스트 상자에 **Outlook**을 입력합니다.
+2.  **검색** 텍스트 상자에 **SharePoint**을 입력합니다.
 3.  목록에서 **SharePoint**를 선택합니다.
 4.  **만들기**를 클릭합니다.
 5.  팝업 창에서 로그인하는 데 사용한 계정을 선택합니다.
@@ -209,16 +209,14 @@ ms.lasthandoff: 04/26/2018
 
 ## <a name="configure-the-powerapp-to-use-the-sharepoint-list"></a>SharePoint 목록을 사용하도록 PowerApp 구성
 
-1. 웹 브라우저에서 **앱**을 클릭합니다.
-2. 지원 센터 PowerApps 옆에 있는 **줄임표**를 클릭합니다.
-3. **웹에서 편집**을 클릭합니다.
-4. **허용**을 클릭합니다.
+1. 다음 단계에서 **앱 열기**를 클릭합니다.
+2. 권한을 묻는 메시지가 표시되면 **허용**을 클릭합니다.
 
 ### <a name="delete-connections"></a>연결 삭제
 
 1. **보기**를 클릭합니다.
 2. **데이터 원본**을 클릭합니다.
-3. **데이터** 창에서 **지원 센터** 옆에 있는 **줄임표**를 클릭합니다.
+3. **데이터** 창에서 **지원 센터** SharePoint 연결 옆에 있는 **줄임표**를 클릭합니다.
 4. **제거**를 클릭합니다.
 
 ### <a name="helpdesk-list"></a>지원 센터 목록
@@ -274,7 +272,7 @@ ms.lasthandoff: 04/26/2018
 
 7.  **스위치**를 확장합니다.
 8.  **시작되지 않은** 경우를 확장합니다.
-9.  **이메일 보내기** 작업을 확장합니다.
+9.  **시작되지 않은 경우** 동작을 확장합니다.
 10. 지원 센터 관리자 이메일에 맞게 **수신자**를 변경합니다.
 
     ![흐름 편집 화면](./media/help-desk-install/edit-flow-condition-send-email.png) 
@@ -287,11 +285,11 @@ ms.lasthandoff: 04/26/2018
 2. 지원 센터 PowerApps 옆에 있는 **줄임표**를 클릭합니다.
 3. **열기**를 클릭합니다. 
 
-지원 센터 PowerApp 샘플을 사용하는 방법을 보려면 이 비디오를 시청하세요.
+> [!TIP]
+> 지원 센터 PowerApp 샘플을 사용하는 방법을 보려면 이 [동영상](https://youtu.be/sl5fXwwnvzI)을 시청하세요.
 
-[![지원 센터 데모 비디오](./media/help-desk-install/help-desk-demo-video.png)](https://youtu.be/sl5fXwwnvzI)
 
-##<a name="next-steps"></a>다음 단계
+## <a name="next-steps"></a>다음 단계
 - [SharePoint 목록 양식 사용자 지정](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/customize-list-form)
 - [컨트롤 추가 및 구성](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/add-configure-controls)
 - [SharePoint 목록 또는 라이브러리에 대한 권한 편집 및 관리](https://support.office.com/en-us/article/edit-and-manage-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782)
