@@ -8,10 +8,11 @@ ms.topic: quickstart
 ms.date: 03/21/2018
 ms.author: matp
 ms.openlocfilehash: 55fd0bb164fcbb552db68fb89d77c7a7d0807cdc
-ms.sourcegitcommit: 3f5adf07cac1c798f3d4843ed5928505becde30e
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34553039"
 ---
 # <a name="quickstart-run-a-canvas-app-on-a-mobile-device"></a>빠른 시작: 모바일 장치에서 캔버스 앱 실행
 앱을 만들거나 다른 사용자가 앱을 공유하는 경우 Windows, iOS, Android 또는 웹 브라우저에서 해당 앱을 사용할 수 있습니다. 이 빠른 시작에서는 모바일 장치에서 캔버스 앱을 실행하는 방법에 대해 알아봅니다. 모바일 장치에서 실행되는 앱은 위치 서비스 및 카메라와 같은 장치 기능을 활용할 수 있습니다.

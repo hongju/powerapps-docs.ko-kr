@@ -8,10 +8,11 @@ ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: jimh
 ms.openlocfilehash: 8ef92fec0245bbe27529be0acb214cad7d2b928e
-ms.sourcegitcommit: 3f5adf07cac1c798f3d4843ed5928505becde30e
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34552556"
 ---
 # <a name="manage-apps-created-in-your-organization"></a>조직에서 만든 앱 관리
 환경 관리자, Office 365 전역 관리자 또는 Azure Active Directory 테넌트 관리자인 경우, 조직에서 만든 앱을 관리할 수 있습니다.

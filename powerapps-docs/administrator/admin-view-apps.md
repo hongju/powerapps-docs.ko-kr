@@ -8,10 +8,11 @@ ms.topic: quickstart
 ms.date: 03/21/2018
 ms.author: jimh
 ms.openlocfilehash: d9c379ca95bb299c56639bb01803f45c1744d8f2
-ms.sourcegitcommit: 3f5adf07cac1c798f3d4843ed5928505becde30e
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34552602"
 ---
 # <a name="quickstart-download-a-list-of-apps-created-in-your-environments"></a>빠른 시작: 환경에 만들어진 앱 목록 다운로드
 환경 관리자인 경우 자신이 관리하는 환경에 만들어진 앱 목록을 살펴보고 다운로드할 수 있습니다. Office 365 전역 관리자 또는 Azure Active Directory 테넌트 관리자인 경우 조직 내 모든 환경에 만들어진 앱 목록을 살펴보고 다운로드할 수 있습니다.
