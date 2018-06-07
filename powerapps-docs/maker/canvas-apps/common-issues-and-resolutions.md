@@ -1,18 +1,18 @@
 ---
 title: PowerApps의 일반적인 문제 및 해결 방법 | Microsoft Docs
 description: PowerApps의 일반적인 문제 및 해결 방법에 대한 목록입니다.
-author: skjerland
-manager: kfile
+author: AFTOwen
 ms.service: powerapps
 ms.topic: conceptual
 ms.component: canvas
 ms.date: 05/10/2018
-ms.author: sharik
-ms.openlocfilehash: 71e6d6977ff84ac8131acb9353f919c5ee80995b
-ms.sourcegitcommit: fe556abcfd6bdfeb5fdeea8f07b185b4b502d02f
+ms.author: anneta
+ms.openlocfilehash: adbd727617d35b435592306e534a8f618046cc20
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34552878"
 ---
 # <a name="common-issues-and-resolutions-for-powerapps"></a>PowerApps의 일반적인 문제 및 해결 방법
 이 문서에서는 PowerApps를 사용하는 동안 발생할 수 있는 몇 가지 일반적인 문제가 나와 있습니다. 적용 가능한 경우 해결 방법이 제공됩니다.

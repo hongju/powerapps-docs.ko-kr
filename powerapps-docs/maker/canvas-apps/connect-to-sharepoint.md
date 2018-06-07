@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 09/03/2016
 ms.author: anneta
 ms.openlocfilehash: 16c585f553373faee609683774e7938e8bd165f1
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31824593"
 ---
 # <a name="create-a-connection-to-sharepoint-from-powerapps"></a>PowerApps에서 SharePoint에 대한 연결 만들기
 SharePoint Online 또는 온-프레미스 SharePoint 중 하나에 대한 연결을 만들면 앱을 자동으로 생성하거나 처음부터 새로 빌드할 수 있습니다.

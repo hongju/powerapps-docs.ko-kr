@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 03/07/2018
 ms.author: sharik
 ms.openlocfilehash: 5bf57ec96569751b3db656abdf04cebb1e13133a
-ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "32329850"
 ---
 # <a name="system-requirements-limits-and-configuration-values"></a>시스템 요구 사항, 제한 및 구성 값
 이 항목은 장치 플랫폼 및 웹 브라우저 요구 사항뿐만 아니라 PowerApps에 대한 제한 사항 및 구성 값을 포함합니다.
@@ -86,5 +87,5 @@ PowerApps의 요청은 앱이 위치한 [환경](../../administrator/environment
 | *.azure-apim.net |https |API 허브 - 각 로캘에 대해 다른 하위 도메인 |
 | *.powerapps.com |https |WebAuth + 포털 |
 | *.azureedge.net |https |WebAuth |
-| *.blob.core.windows.net |https |Blob 저장소 |
+| *.blob.core.windows.net |https |Blob Storage |
 | vortex.data.microsoft.com |https |원격 분석 |

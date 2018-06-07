@@ -9,10 +9,11 @@ ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: jamesol
 ms.openlocfilehash: 8a734ef57a3820e38d52ad2bd87a2ab8979c0348
-ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34168047"
 ---
 # <a name="manage-powerapps-licenses-in-your-organization"></a>조직의 PowerApps 라이선스 관리
 이 문서에서는 조직의 사용자가 PowerApps에 액세스하여 사용하는 방법 및 PowerApps 서비스에 대한 액세스를 제어하는 방법을 설명합니다.

@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 05/08/2017
 ms.author: litran
 ms.openlocfilehash: 11f0e0b8a0aa0dce59588c2e1eea21885f19b741
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31836382"
 ---
 # <a name="let-customers-test-drive-your-apps-on-appsource"></a>AppSource에서 고객이 앱을 시험 사용할 수 있도록 하기
 PowerApps에서 앱을 빌드하는 데 열중하고 있나요? 고객과 공유하려는 앱이 있나요? 고객과 앱을 공유하고 비즈니스 잠재 고객을 창출할 수 있도록 [AppSource.com](https://appsource.microsoft.com)에서 PowerApps 시험 사용 솔루션이 지원됩니다.

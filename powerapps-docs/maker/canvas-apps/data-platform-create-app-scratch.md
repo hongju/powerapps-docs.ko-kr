@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 03/18/2018
 ms.author: anneta
 ms.openlocfilehash: a0aab890e52b49bb0cac382338a8fa02eec736a0
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31838490"
 ---
 # <a name="create-an-app-from-scratch-using-a-common-data-service-database"></a>Common Data Service 데이터베이스를 사용하여 앱을 처음부터 만들기
 표준 엔터티(기본 제공), 사용자 지정 엔터티(사용자 조직에서 만듦), 또는 모두를 사용하여 Common Data Service에 저장된 데이터를 관리하는 앱을 빌드합니다.

@@ -12,10 +12,11 @@ ms.component: canvas
 ms.date: 11/30/2015
 ms.author: lonu
 ms.openlocfilehash: 01065fd1a12b3d55e8726582cead3d86a6e6a8ad
-ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "32330298"
 ---
 # <a name="create-and-update-a-collection-in-your-app"></a>앱에서 컬렉션 만들기 및 업데이트
 컬렉션을 사용하여 앱에 사용할 수 있는 데이터를 저장합니다. 컬렉션은 유사한 항목의 그룹입니다. 예를 들어, 회사에서 판매하는 모든 제품 이미지를 저장하는 MyImages 컬렉션을 만듭니다. PowerApps 내에서 MyImages 컬렉션을 추가하고 이러한 제품의 모든 그림을 표시하는 앱을 만들 수 있습니다. 또 다른 예로, 제품 및 각 제품의 가격을 나열하는 가격표 컬렉션을 만들 수 있습니다.

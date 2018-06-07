@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 07/10/2017
 ms.author: anneta
 ms.openlocfilehash: 19c06fa9bfc7098227e5f30a1c913522d9e6e7a3
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31825260"
 ---
 # <a name="add-a-screen-and-navigate-between-screens"></a>화면 추가 및 화면 간 탐색
 여러 화면이 있는 앱을 만들고 사용자가 이들 사이를 탐색하는 방법을 추가합니다.

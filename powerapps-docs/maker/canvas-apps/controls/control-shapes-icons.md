@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
 ms.openlocfilehash: e2c5d384c29766d6c30db8aa85ad4d7d45b48e04
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31838151"
 ---
 # <a name="shape-controls-and-icon-controls-in-powerapps"></a>PowerApps의 도형 컨트롤 및 아이콘 컨트롤
 모양 및 동작 속성을 구성할 수 있는 그래픽입니다.

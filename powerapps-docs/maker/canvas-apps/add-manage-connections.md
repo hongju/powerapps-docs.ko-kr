@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 03/09/2017
 ms.author: lanced
 ms.openlocfilehash: 63db86984ef68571329aa953cb6bbaac505d834e
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31828376"
 ---
 # <a name="manage-your-connections-in-powerapps"></a>PowerApps에서 연결 관리
 [powerapps.com](https://web.powerapps.com)에서 PowerApps에서 하나 이상의 데이터 원본으로의 연결을 만들거나, 연결을 삭제하거나, 해당 자격 증명을 업데이트합니다.

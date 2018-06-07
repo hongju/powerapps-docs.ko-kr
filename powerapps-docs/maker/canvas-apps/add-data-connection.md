@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 04/06/2018
 ms.author: lanced
 ms.openlocfilehash: 44ee7b992f5817a5d6b8d791b05e1db671d3e6ba
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31826985"
 ---
 # <a name="add-a-data-connection-in-powerapps"></a>PowerApps에서 데이터 연결 추가
 PowerApps에서 처음부터 앱을 빌드할 때 또는 기존 앱에서 데이터 연결을 추가합니다. 앱은 SharePoint, Salesforce, OneDrive 또는 [다른 많은 데이터 원본](connections-list.md)에 연결할 수 있습니다.

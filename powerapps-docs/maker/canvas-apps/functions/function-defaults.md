@@ -14,10 +14,11 @@ ms.component: canvas
 ms.date: 11/01/2015
 ms.author: gregli
 ms.openlocfilehash: b62b2b8575d1ff0e5a55a97db6e6650af5a593c1
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31825812"
 ---
 # <a name="defaults-function-in-powerapps"></a>PowerApps의 Defaults 함수
 [데이터 원본](../working-with-data-sources.md)의 기본값을 반환합니다.  

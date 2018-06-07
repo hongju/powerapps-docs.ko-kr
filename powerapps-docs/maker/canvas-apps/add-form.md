@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 10/06/2017
 ms.author: sharik
 ms.openlocfilehash: d24777ec34759a98421784995f5a73b0dfc1d2d2
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31826272"
 ---
 # <a name="show-edit-or-add-a-record-from-a-table-in-powerapps"></a>PowerApps에서 테이블의 레코드 표시, 편집 또는 추가
 레코드의 모든 필드를 표시하려면 **[폼 표시](controls/control-form-detail.md)** 컨트롤을 추가하고 구성합니다. 레코드의 모든 필드를 편집하고(또는 레코드를 추가) 변경 내용을 데이터 원본에 다시 저장하려면 **[폼 편집](controls/control-form-detail.md)** 컨트롤을 추가하고 구성합니다.

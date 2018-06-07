@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 11/07/2015
 ms.author: gregli
 ms.openlocfilehash: 07771027ea728d65bfb35d79fb67bdef1ac80f1a
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31825789"
 ---
 # <a name="round-rounddown-and-roundup-functions-in-powerapps"></a>PowerApps의 Round, RoundDown 및 RoundUp 함수
 숫자를 반올림합니다.

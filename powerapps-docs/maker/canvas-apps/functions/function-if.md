@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 04/24/2017
 ms.author: gregli
 ms.openlocfilehash: f4e5510224d5abc7a6d2ccaa286d08c8f170fa10
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31838398"
 ---
 # <a name="if-and-switch-functions-in-powerapps"></a>PowerApps의 If 및 Switch 함수
 집합의 조건이 참 인지(**If**) 또는 수식의 결과가 집합의 값과 일치하는지(**Switch**) 확인한 다음 결과를 반환하거나 작업을 실행합니다.

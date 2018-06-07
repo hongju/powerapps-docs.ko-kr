@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 11/01/2015
 ms.author: gregli
 ms.openlocfilehash: b21d0183af4ba6157ac95e98dbfc5008c5358709
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31829941"
 ---
 # <a name="isnumeric-function-in-powerapps"></a>PowerApps의 IsNumeric 함수
 값이 숫자인지 테스트합니다.

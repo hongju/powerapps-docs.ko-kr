@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 03/17/2018
 ms.author: anneta
 ms.openlocfilehash: 98162ce4d291b976c816326efc5d4c6d4d18c870
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31829599"
 ---
 # <a name="customize-forms-in-powerapps"></a>PowerApps 양식 사용자 지정
 **표시 양식** 컨트롤과 **편집 양식** 컨트롤을 사용자 지정하여 사용자가 데이터를 쉽게 파악하고 업데이트할 수 있도록 가장 직관적인 순서로 데이터를 표시합니다.
