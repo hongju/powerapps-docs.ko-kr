@@ -1,22 +1,18 @@
 ---
 title: Microsoft Translator 연결 개요 | Microsoft Docs
 description: Microsoft Translator에 연결하는 방법을 알아보고 몇 가지 예제를 진행하고, 모든 함수를 살펴봅니다.
-documentationcenter: ''
 author: lancedMicrosoft
-manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
 ms.component: canvas
 ms.date: 07/12/2017
 ms.author: lanced
-ms.openlocfilehash: 33b82bac0f4090db926c5cdb2e8e4345e7b6af70
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: c375429b7ac2341766c36ca58e1bbf3c78c9a6d1
+ms.sourcegitcommit: 7354a0c61578fcc0b9965bf557b9d7c553c73e96
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34803400"
 ---
 # <a name="connect-to-microsoft-translator-from-powerapps"></a>PowerApps에서 Microsoft Translator에 연결
 ![Microsoft Translator](./media/connection-microsoft-translator/translatoricon.png)

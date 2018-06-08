@@ -9,10 +9,11 @@ ms.topic: conceptual
 ms.date: 08/29/2017
 ms.author: jamesol
 ms.openlocfilehash: ba4b518cdc1b965a26a7e3fc3722dd23d601e693
-ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34168208"
 ---
 # <a name="view-analytics-reports-for-your-app"></a>사용자 앱에 대한 분석 보고서 보기
 앱을 빌드하고 조직과 공유해 본 적 있으세요?  매일 얼마나 많은 동료가 앱을 사용하고 있는지 궁금하신가요?

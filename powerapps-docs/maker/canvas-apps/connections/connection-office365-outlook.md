@@ -1,22 +1,18 @@
 ---
 title: Office 365 Outlook 연결 개요 | Microsoft Docs
 description: Powerapps에 대한 Office 365 Outlook 연결을 위한 예제 등의 참조 정보
-documentationcenter: ''
 author: lancedMicrosoft
-manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
 ms.component: canvas
 ms.date: 10/20/2017
 ms.author: lanced
-ms.openlocfilehash: 728aa61c2ae082b1c6a3cd2d9d663bbe5ac77d9b
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: f0e003821f17986438f07ff2f1b4a95b8ba4b454
+ms.sourcegitcommit: 7354a0c61578fcc0b9965bf557b9d7c553c73e96
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34803258"
 ---
 # <a name="connect-to-office-365-outlook-from-powerapps"></a>PowerApps에서 Office 365 Outlook연결
 ![Office 365 Outlook](./media/connection-office365-outlook/office365icon.png)
