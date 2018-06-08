@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 05/01/2016
 ms.author: mblythe
 ms.openlocfilehash: 70200430b0cee7356d70795440b908a8837ba18d
-ms.sourcegitcommit: 6a75c4c499bcdbeb9d65d3a9af47dedcf900f38d
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "33078423"
 ---
 # <a name="powerapps-community-plan-a-free-development-environment-for-individual-use"></a>PowerApps 커뮤니티 플랜: 개인 사용을 위한 무료 개발 환경
 PowerApps 커뮤니티 플랜은 PowerApps, Microsoft Flow 및 Common Data Service에 대한 기술을 구축하고 자세한 내용을 알아보기에 가장 적합한 플랜입니다. PowerApps 커뮤니티 플랜에는 개인 사용을 위한 무료 개발 환경이 제공되며, 다음과 같은 작업이 가능합니다.

@@ -12,10 +12,11 @@ ms.component: canvas
 ms.date: 10/16/2016
 ms.author: lonu
 ms.openlocfilehash: 11177ffa8913afe4d0245708dd8c9b2b0b50c8c2
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31826663"
 ---
 # <a name="show-information-about-a-powerapps-user"></a>PowerApps 사용자에 대한 정보 표시
 User 함수는 전체 이름, 이메일 주소 및 로그인한 사용자와 관련된 그림을 표시할 수 있습니다. 이 정보를 사용하여 양식을 자동으로 채울 수 있습니다.

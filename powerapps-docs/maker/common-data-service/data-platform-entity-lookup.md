@@ -9,10 +9,11 @@ ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: clwesene
 ms.openlocfilehash: f1952c2349eb54f2c6348f5abc4dee9a4645348a
-ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34168438"
 ---
 # <a name="create-a-relationship-between-entities"></a>엔터티 간 관계 만들기
 한 엔터티의 데이터는 다른 엔터티의 데이터와 자주 관련됩니다. 예를 들어, **Teachers** 엔터티 및 **Class** 엔터티가 있을 수 있으며, **Class** 엔터티에는 클래스를 가르치는 교사를 표시하는 **Teachers** 엔터티에 대한 조회 관계가 있을 수 있습니다. 조회 필드를 사용하여 **Teachers** 엔터티의 데이터를 표시할 수 있습니다. 이는 일반적으로 조회 필드라고 합니다.

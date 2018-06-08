@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 11/10/2017
 ms.author: sharik
 ms.openlocfilehash: f8578625ea3661a9070bddcc5b2ff63c6ecde4fd
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31828014"
 ---
 # <a name="create-a-rule-in-powerapps"></a>PowerApps에서 규칙 만들기
 지정된 조건에 따라 앱을 자동으로 수정하는 규칙을 만듭니다. 예를 들어 상태에 따라 빨강, 노랑 또는 녹색으로 목록 항목을 표시하거나 특정 사용자(예: 관리자)에 대한 승인 단추를 표시합니다.

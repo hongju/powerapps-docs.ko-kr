@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 03/12/2018
 ms.author: anneta
 ms.openlocfilehash: 485dfcf47f76a042afab80c769f994c6cbf1ceac
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31835958"
 ---
 # <a name="sign-up-for-a-free-license-to-try-powerapps"></a>PowerApps 체험 라이선스에 등록
 PowerApps에서 앱을 만들려면 서로 다른 수준의 기능을 제공하는 라이선스의 여러 유형 중 하나가 필요합니다. 조직에서 Office 365 또는 Dynamics 365의 여러 버전 중 하나를 구매하였거나 조직에서 PowerApps 요금제 1 또는 요금제 2를 구매한 경우에는 이미 PowerApps에 대한 라이선스가 있습니다.

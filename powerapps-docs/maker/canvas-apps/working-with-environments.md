@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 10/14/2016
 ms.author: litran
 ms.openlocfilehash: 4bf196041853e9f88c97aabcd3ff1c234b2608be
-ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "32329482"
 ---
 # <a name="working-with-environments-and-microsoft-powerapps"></a>환경 및 Microsoft PowerApps 관련 작업하기
 PowerApps를 통해 다양한 환경에서 작업하고 환경을 쉽게 전환할 수 있습니다. 환경 개요에 대한 내용은 환경을 사용하는 이유와 환경을 만들고 관리하는 방법이 자세히 설명된 [환경 개요](../../administrator/environments-overview.md)를 참조하세요. 이 문서의 범위에서는 환경에 대해 다음 토픽을 다룹니다.

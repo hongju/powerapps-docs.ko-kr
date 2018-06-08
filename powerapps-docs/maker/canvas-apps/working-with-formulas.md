@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 04/26/2016
 ms.author: gregli
 ms.openlocfilehash: e4c2f78fb00e726bd0b0bf3cde4fe4f42d40dddc
-ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "32330885"
 ---
 # <a name="get-started-with-formulas"></a>수식 시작
 Excel에서 작업하는 것처럼 값을 계산하고 다른 작업을 수행하는 것 외에도 앱에서 요구하는 사용자의 입력 값에 응답하는 등 수식을 사용하여 앱을 구성할 수 있습니다.

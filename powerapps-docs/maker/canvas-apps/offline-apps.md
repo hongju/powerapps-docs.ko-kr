@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 05/09/2017
 ms.author: mblythe
 ms.openlocfilehash: e73324d6cfce5edf7ece0350b2047dc7842373bb
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31836772"
 ---
 # <a name="develop-offline-capable-apps-with-powerapps"></a>PowerApps를 사용하여 오프라인에서 사용 가능한 앱 개발
 모바일 앱 개발자 권한으로 직면하는 가장 일반적인 시나리오 중 하나는 제한된 연결 또는 연결되지 않았을 때 사용자가 생산성을 사용해야 하는 경우입니다. PowerApps에는 오프라인에서 사용 가능한 앱을 개발하는 데 도움이 되는 기능 및 동작의 집합이 있습니다. 다음이 가능합니다.

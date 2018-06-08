@@ -1,21 +1,17 @@
 ---
 title: 공용 데이터 모델 개요 | Microsoft Docs
 description: 공용 데이터 모델이 Common Data Service for Apps를 Common Data Service for Analytics에 연결하는 방법을 알아봅니다.
-documentationcenter: na
 author: RobertBruckner
-manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
 ms.topic: article
 ms.date: 03/14/2018
 ms.author: jdaly
-ms.openlocfilehash: ed7a1bfd7e3d3439cdcf2f20d1026c69a9abce4d
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 4e9b929558de0b2451bb2df4add4b300d7115848
+ms.sourcegitcommit: 7354a0c61578fcc0b9965bf557b9d7c553c73e96
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34803245"
 ---
 # <a name="common-data-model-overview"></a>공통 데이터 모델 개요
 

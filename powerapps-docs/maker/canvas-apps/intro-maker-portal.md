@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 10/28/2016
 ms.author: litran
 ms.openlocfilehash: f29f75522eb01c61c3528e61018fb759980e79f9
-ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "32330218"
 ---
 # <a name="introduction-to-powerappscom"></a>powerapps.com 소개
 PowerApps 팀은 [powerapps.com](http://web.powerapps.com)을 앱 제작자를 위한 새 홈으로 다시 도입하고 있습니다. 제작자가 쉽게 앱 제작을 시작하고 Microsoft Common Data Service를 사용하며 하나의 위치에서 앱을 모두 관리할 수 있도록 이 페이지를 기본 사이트로 다시 설계했습니다. 이 문서에서는 다음 사항을 안내하려고 합니다.

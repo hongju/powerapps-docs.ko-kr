@@ -9,10 +9,11 @@ ms.topic: conceptual
 ms.date: 07/28/2017
 ms.author: nimak
 ms.openlocfilehash: 752bea42eee356e04c2ab72d28a669ccd2771f70
-ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34168536"
 ---
 # <a name="export-and-import-resources"></a>리소스 내보내기 및 가져오기
 데이터베이스 및 앱 개발을 지원하기 위해 여러 환경을 만든 경우 한 환경에서 다른 환경으로 변경 사항을 이동해야 합니다. **리소스 내보내기** 및 **리소스 가져오기**를 사용하여 환경 간에 리소스를 이동할 수 있습니다.

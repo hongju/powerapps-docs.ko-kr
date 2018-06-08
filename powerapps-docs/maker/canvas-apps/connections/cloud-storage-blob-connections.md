@@ -1,22 +1,18 @@
 ---
 title: 클라우드 저장소 연결 개요 | Microsoft Docs
 description: 클라우드 저장소 계정에 연결하고 앱에서 Excel 데이터를 표시하는 방법 참조
-documentationcenter: ''
 author: lancedMicrosoft
-manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
 ms.component: canvas
 ms.date: 07/12/2016
 ms.author: lanced
-ms.openlocfilehash: 7c3d88498c92d8e1d0e8490bfafc0654b044e98b
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: b0141315f041d81b929a53761952d9b5e355c82e
+ms.sourcegitcommit: 7354a0c61578fcc0b9965bf557b9d7c553c73e96
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34803032"
 ---
 # <a name="connect-to-cloud-storage-from-powerapps"></a>PowerApps에서 클라우드 저장소에 연결
 PowerApps에서 여러 클라우드 저장소 연결을 제공합니다. 이러한 연결을 사용하여 Excel 파일을 저장하고 앱 전체에서 해당 정보를 사용할 수 있습니다. 이러한 연결 항목은 다음과 같습니다.  

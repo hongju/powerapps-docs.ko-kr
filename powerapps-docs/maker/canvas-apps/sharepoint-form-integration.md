@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 11/11/2017
 ms.author: ankitsar
 ms.openlocfilehash: 8ae6bd0e576abd3a4115e452b286607b5c695acb
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31834839"
 ---
 # <a name="understand-sharepoint-forms-integration"></a>SharePoint 양식 통합 이해
 PowerApps에서 [SharePoint 목록 양식을 쉽게 사용자 지정](customize-list-form.md)할 수 있습니다. 이 문서에서는 이러한 양식의 작업 방식과 사용자 지정하는 방법을 자세히 설명합니다.

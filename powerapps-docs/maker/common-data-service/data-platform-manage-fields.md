@@ -9,10 +9,11 @@ ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: clwesene
 ms.openlocfilehash: a4ec386ef6a7eee02c2ac608bb6e00ed9ee39c19
-ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34168139"
 ---
 # <a name="manage-custom-fields-in-an-entity"></a>엔터티 내 사용자 지정 필드 관리
 모든 엔터티 내 하나 이상의 사용자 지정 필드를 만들고 업데이트할 수 있습니다. 사용자 지정 필드를 만들려면 필드의 이름, 필드의 표시 이름, 포함할 데이터 형식 등과 같은 속성 집합을 지정해야 합니다. 자세한 내용은 [엔터티 특성 메타데이터](../../developer/common-data-service/entity-attribute-metadata.md)를 참조하세요.

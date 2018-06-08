@@ -7,10 +7,11 @@ ms.component: canvas
 ms.date: 04/23/2018
 ms.author: anneta
 ms.openlocfilehash: 29f07162ec2815398cda5bcc359f7388df261bc0
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31836973"
 ---
 # <a name="create-an-excel-app-from-scratch"></a>처음부터 Excel 앱 만들기
 표 형식의 Excel 데이터를 기반으로 처음부터 고유한 앱을 만들고 나서 원하는 경우 다른 원본의 데이터를 추가합니다. 이 자습서를 따라 두 화면을 포함하는 앱을 만듭니다. 한 화면에서 사용자는 일련의 레코드를 찾아볼 수 있습니다. 다른 화면에서 사용자는 한 레코드를 만들거나, 한 레코드에서 하나 이상의 필드를 업데이트하거나, 전체 레코드를 삭제할 수 있습니다. 이 접근 방식은 [앱을 자동으로 생성](get-started-create-from-data.md)하는 것보다 시간이 더 걸리지만 숙련된 앱 제작자는 이 방법으로 요구 사항에 맞는 최고의 앱을 빌드할 수 있습니다.
@@ -20,7 +21,7 @@ ms.lasthandoff: 04/26/2018
 
 1. 이 데이터를 복사한 다음 Excel 파일에 붙여넣습니다.
 
-    | StartDay | StartTime | 자원봉사자 | Backup |
+    | StartDay | StartTime | 자원 봉사자 | Backup |
     | --- | --- | --- | --- |
     | 토요일 |오전 10시 정오 |Vasquez |Kumashiro |
     | 토요일 |정오~오후 2시 |Ice |Singhal |

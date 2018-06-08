@@ -12,10 +12,11 @@ ms.component: canvas
 ms.date: 06/05/2017
 ms.author: sharik
 ms.openlocfilehash: 19e30477b7015061a4e4b781e1c53a55d1fda1a7
-ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "32329620"
 ---
 # <a name="start-a-flow-in-an-app"></a>앱에서 흐름 시작
 Microsoft Flow를 사용하여 앱에서 이벤트가 발생할 때 하나 이상의 작업을 수행하는 논리를 만들 수 있습니다. 예를 들어 사용자가 단추를 선택하면 SharePoint 목록에 항목을 만들거나, 전자 메일 또는 모임 요청을 보내거나, 클라우드에 파일을 추가하거나, 이러한 모든 작업을 추가하도록 해당 단추를 구성합니다. 흐름을 시작하도록 앱에서 모든 컨트롤을 구성하여 PowerApps를 닫은 경우에도 계속 실행되도록 할 수 있습니다.

@@ -9,10 +9,11 @@ ms.topic: conceptual
 ms.date: 03/17/2018
 ms.author: clwesene
 ms.openlocfilehash: 405cafabd57ea234d5202076060ee0987b6904db
-ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34168461"
 ---
 # <a name="samples-and-other-resources-for-common-data-service-for-apps"></a>앱용 Common Data Service의 샘플 및 기타 리소스
 ## <a name="samples"></a>샘플

@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 10/20/2017
 ms.author: anneta
 ms.openlocfilehash: 2c754fa8e479494ae1002e5339d2d8d5eeb2480f
-ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "32330448"
 ---
 # <a name="understand-on-premises-data-gateways-for-microsoft-powerapps"></a>Microsoft PowerApps에 대한 온-프레미스 데이터 게이트웨이 이해
 ## <a name="installation-and-configuration"></a>설치 및 구성

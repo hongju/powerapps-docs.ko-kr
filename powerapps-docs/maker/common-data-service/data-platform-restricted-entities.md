@@ -9,10 +9,11 @@ ms.topic: reference
 ms.date: 05/01/2018
 ms.author: clwesene
 ms.openlocfilehash: 79b6e386154b15ae6c625afbebbed18a8a86c420
-ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34168001"
 ---
 # <a name="restricted-entities-requiring-dynamics-365-licenses"></a>Dynamics 365 라이선스를 요구하는 제한된 엔터티
 PowerApps 요금제 1 라이선스만 있는 사용자에 대해 앱과 흐름을 만들려면 앱 작성자는 앱용 CDS(Common Data Service) 내에서 사용할 수 있는 엔터티 대부분을 사용할 수 있습니다. 그러나 일부 엔터티에는 앱 사용자에게 PowerApps 요금제 2 또는 Microsoft Flow 요금제 2를 요구하는 복잡한 비즈니스 논리가 포함됩니다(자세한 내용은 [엔터티 라이선스 요구 사항](data-platform-entity-licenses.md)을 참조합니다). Dynamics 365 제품에 연결된 엔터티의 더 작은 집합은 엔터티 내의 레코드를 만들고 업데이트하고 삭제할 필요가 있는 경우 캔버스 및 모델 기반 앱 사용자에게 해당 Dynamics 365 제품에 대한 라이선스를 요구합니다. 이들은 *제한된* 엔터티라고 합니다.

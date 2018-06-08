@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 10/23/2016
 ms.author: anneta
 ms.openlocfilehash: 6960b41effb109f6f2266ba279b4d51ea51e744f
-ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "32328723"
 ---
 # <a name="scan-a-barcode-in-powerapps"></a>PowerApps에서 바코드 스캔
 앱을 만들고, 카메라가 있는 휴대폰과 같은 장치에서 이 앱을 실행하여 여러 유형의 바코드를 스캔합니다. 바코드에 해당하는 숫자는 **레이블** 컨트롤에 표시되며, 해당 데이터를 다양한 [데이터 원본](connections-list.md)에 업로드할 수 있습니다.

@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 04/26/2016
 ms.author: gregli
 ms.openlocfilehash: 42a7c0db6aaf46d8cdbd112cf72c6f95f58dc9ec
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31839180"
 ---
 # <a name="understand-tables-and-records-in-powerapps"></a>PowerApps 테이블 및 레코드에 대한 이해
 Microsoft Excel, SharePoint, SQL Server 및 레코드와 테이블에 데이터를 저장하는 다른 여러 원본의 정보에 액세스하는 앱을 만들 수 있습니다. 이러한 종류의 데이터로 가장 효과적으로 작업하려면 이러한 구조의 기반이 되는 개념을 검토합니다.

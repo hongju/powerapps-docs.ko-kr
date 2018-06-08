@@ -1,22 +1,18 @@
 ---
 title: 액세스 가능한 앱 만들기 | Microsoft Docs
 description: 장애가 있는 사용자가 앱에 액세스할 수 있도록 하는 방법
-documentationcenter: na
 author: fikaradz
-manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
 ms.component: canvas
 ms.date: 04/03/2018
 ms.author: fikaradz
-ms.openlocfilehash: 2cd381eaa02829a8db7b4bf64e0ddf097f86abc6
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 8a7139f6dbc39bc1585156802e30236aa2b68359
+ms.sourcegitcommit: 7354a0c61578fcc0b9965bf557b9d7c553c73e96
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34803078"
 ---
 # <a name="create-accessible-apps"></a>액세스 가능한 앱 만들기
 액세스 가능한 앱에서는 시각, 청각 및 기타 장애가 있는 사용자가 앱을 사용할 수 있습니다.  여러 정부 및 조직의 요구 사항인 점을 별개로 하더라도 아래 지침을 따르면 사용자의 능력에 상관없이 모든 사용자의 사용 편의성이 개선됩니다.

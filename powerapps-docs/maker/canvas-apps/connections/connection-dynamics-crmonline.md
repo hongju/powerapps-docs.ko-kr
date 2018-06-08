@@ -1,22 +1,18 @@
 ---
 title: Dynamics 365 연결 개요 | Microsoft Docs
 description: Dynamics 365에서 데이터를 관리하기 위한 앱 만들기
-documentationcenter: ''
 author: Mattp123
-manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
 ms.component: canvas
 ms.date: 07/12/2017
 ms.author: matp
-ms.openlocfilehash: ea5c5c655f4e7462178f1e79db6a3695c11d1556
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 425620f3e20af7945c0e1506cab23a90c5209973
+ms.sourcegitcommit: 7354a0c61578fcc0b9965bf557b9d7c553c73e96
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34803055"
 ---
 # <a name="connect-to-dynamics-365-from-powerapps"></a>PowerApps에서 Dynamics 365 연결
 PowerApps를 사용하면 약간의 코드 또는 전혀 없이 모바일 앱을 신속하게 생성, 사용자 지정, 공유 및 실행할 수 있습니다. Dynamics 365 커넥터를 사용하여 몇 분 만에 사용자의 조직과 공유할 수 있는 유용한 모바일 앱을 만들 수 있습니다.

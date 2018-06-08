@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 06/28/2016
 ms.author: archanan
 ms.openlocfilehash: f7943c5204dcab7c59e922bfb096f70d05b94e9b
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31829005"
 ---
 # <a name="share-app-resources"></a>앱 리소스 공유
 [앱을 공유](share-app.md)하기 전에 다음 중 한 개 이상과 같이 주로 사용하려는 리소스 유형을 고려합니다.

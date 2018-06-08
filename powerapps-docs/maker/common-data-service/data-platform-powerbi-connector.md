@@ -9,10 +9,11 @@ ms.topic: conceptual
 ms.date: 05/21/2018
 ms.author: clwesene
 ms.openlocfilehash: d8323eb103751a1be78aeea0093b9d6651ddc3e2
-ms.sourcegitcommit: f236364ecb06dd86244cd9a607c31e0d716912e2
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34445869"
 ---
 # <a name="create-a-power-bi-report"></a>Power BI 보고서 만들기
 앱용 Common Data Service를 사용하면 Power BI Desktop을 사용하여 사용자 데이터에 바로 연결하여 보고서를 만들고 Power BI에 게시할 수 있습니다. Power BI에서 보고서는 대시보드에서 사용하고, 다른 사용자와 공유하며, Power BI 모바일 앱의 플랫폼 간 액세스할 수 있습니다.

@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 09/14/2017
 ms.author: anneta
 ms.openlocfilehash: e265934336f3646f52b749ddcec5a5e734bd2c50
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31828896"
 ---
 # <a name="save-and-publish-an-app-in-powerapps"></a>PowerApps에서 앱 저장 및 게시
 앱에 대한 변경 내용을 저장할 때마다 앱을 편집하는 사용 권한이 있는 자신 및 다른 모든 사용자에 대해서만 자동으로 게시합니다. 변경이 끝나면 앱이 공유된 모든 사용자가 사용할 수 있도록 명시적으로 게시해야 합니다.

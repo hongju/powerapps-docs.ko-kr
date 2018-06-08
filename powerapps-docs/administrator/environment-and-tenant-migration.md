@@ -9,10 +9,11 @@ ms.component: pa-admin
 ms.topic: conceptual
 ms.author: jamesol
 ms.openlocfilehash: 3a064bdb3f75bf45047e3ae0ff465fde1d2b66fa
-ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34167840"
 ---
 # <a name="environment-and-tenant-app-migration-through-packaging"></a>패키징을 통해 환경 및 테넌트 앱 마이그레이션
 패키징을 사용하여 한 환경에서 다른 환경으로 리소스를 마이그레이션하는 방법을 알아봅니다. 이러한 환경은 동일한 테넌트 내 또는 다른 테넌트 간일 수 있습니다.

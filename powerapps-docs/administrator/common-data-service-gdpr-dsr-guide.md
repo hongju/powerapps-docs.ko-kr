@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: jamesol
 ms.openlocfilehash: ef5d646e30f5d09dbfe5f111a3ad018b030f79d9
-ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34168231"
 ---
 # <a name="responding-to-data-subject-rights-dsr-requests-for-common-data-service-for-apps-customer-data"></a>앱용 Common Data Service 고객 데이터에 대한 DSR(Data Subject Rights) 요청에 응답
 
@@ -173,7 +174,7 @@ Azure Active Directory를 사용하여 앱용 CDS 내에서 사용자의 ID(개�
 #### <a name="remove-a-users-personal-data-from-the-users-summary-page"></a>사용자의 요약 페이지에서 사용자 개인 데이터 제거
 Azure Active Directory에서 사용자 레코드를 삭제하면 사용자의 요약 페이지에 다음 메시지가 표시됩니다.
 
-이 사용자의 정보는 더 이상 Office 365에서 관리되지 않습니다. 이 사용자와 연결된 모든 개인 데이터를 제거하거나 바꿔서 DSR 요청에 응답하도록 이 레코드를 업데이트할 수 있습니다.
+이 사용자의 정보는 더 이상 Office 365에서 관리되지 않습니다. 이 사용자와 연결된 모든 개인 데이터를 제거하거나 바꿔서 DSR 요청에 응답하도록 이 레코드를 업데이트할 수 있습니다.*
 
 [PowerApps 관리 센터](https://admin.powerapps.com/)에서 다음을 수행합니다.
 
