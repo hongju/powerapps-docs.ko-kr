@@ -1,22 +1,24 @@
 ---
 title: 앱용 Common Data Service란 무엇인가요? | Microsoft Docs
 description: 앱, 엔터티 및 서버 쪽 논리를 위한 CDS(Common Data Service)에 대한 소개입니다.
-author: Mattp123
+author: clwesene
 manager: kfile
 ms.service: powerapps
 ms.topic: overview
 ms.component: cds
 ms.date: 05/01/2018
 ms.author: matp
-ms.openlocfilehash: b26f788a782e42125d6397d38b2d946f8188e475
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 586750edf476a9145e2822522cc0b4b5ad729539
+ms.sourcegitcommit: 7296649d03ebc33dc5ddb9e7c551869dc781f154
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34552832"
+ms.lasthandoff: 06/09/2018
+ms.locfileid: "35250826"
 ---
 # <a name="what-is-common-data-service-for-apps"></a>앱용 Common Data Service란 무엇인가요?
 앱용 CDS(Common Data Service)를 사용하면 비즈니스 응용 프로그램에서 사용되는 데이터를 안전하게 저장하고 관리할 수 있습니다. 앱용 CDS 내 데이터는 엔터티의 집합 내에 저장됩니다. *엔터티*는 테이블이 데이터베이스 내의 데이터를 저장하는 방법과 유사하게 데이터를 저장하는 데 사용되는 레코드의 집합입니다. 앱용 CDS는 일반적인 시나리오를 다루는 표준 엔터티의 기본 집합을 포함하고 있지만, 조직과 관련된 사용자 지정 엔터티를 만들고 파워 쿼리를 사용하여 데이터로 채울 수도 있습니다. 그런 다음, 앱 작성자는 PowerApps를 사용하여 이 데이터를 사용하는 다양한 응용 프로그램을 빌드할 수 있습니다.
+
+![비즈니스 응용 프로그램 플랫폼의 개요를 보여주는 스크린샷.](./media/data-platform-cds-intro/platform.png "플랫폼 개요")
 
 앱용 CDS를 사용하기 위한 계획 구매에 대한 자세한 내용은 [가격 책정 정보](../../administrator/pricing-billing-skus.md)를 참조하세요.
 
@@ -24,11 +26,31 @@ ms.locfileid: "34552832"
 앱용 CDS 내에서 표준 및 사용자 지정 엔터티는 데이터를 위한 안전한 클라우드 기반 저장소 옵션을 제공합니다. 엔터티를 통해 앱 내에서 사용할 조직 데이터의 비즈니스 중심 정의를 만들 수 있습니다. 엔터티를 사용하는 것이 가장 적합한 방법인지 확신이 들지 않는다면 이러한 이점을 고려해보세요.
 
 * **손쉬운 관리** &ndash; 메타데이터와 데이터는 모두 클라우드에 저장됩니다. 저장 방법에 대한 자세한 내용은 신경쓰지 않아도 됩니다.
-* **손쉬운 공유** &ndash; 동료와 데이터를 쉽게 공유할 수 있습니다.&mdash;PowerApps에서 권한을 관리합니다.
 * **손쉬운 보안** &ndash; 사용자가 액세스 권한을 부여 받은 경우에만 볼 수 있도록 데이터가 안전하게 저장됩니다. 역할 기반 보안을 통해 조직 내에서 여러 사용자의 엔터티에 대한 액세스를 제어할 수 있습니다.
-* **풍부한 메타데이터** &ndash; PowerApps에서 데이터 형식과 관계를 직접 활용합니다. 예를 들어 필드 형식 URL을 정의하면 데이터가 앱 내에서 하이퍼링크로 표시됩니다.
+* **Dynamics 365 데이터에 액세스** &ndash; 앱을 신속하게 작성할 수 있도록 앱용 Common Data Service 내에 Dynamics 365 응용 프로그램의 데이터가 저장됩니다. 그러면 PowerApps를 사용하여 Dynamics 365 데이터를 활용하고 앱을 확장하게 됩니다.
+* **풍부한 메타데이터** &ndash; PowerApps에서 데이터 형식과 관계를 직접 활용합니다.
 * **논리 및 유효성 검사** &ndash; 데이터 품질을 보장하고 드라이브 프로세스를 추진하기 위해 계산된 필드, 비즈니스 규칙, 워크플로 및 비즈니스 프로세스 흐름을 정의합니다.
 * **생산성 도구** &ndash; Microsoft Excel용 추가 기능에서 엔터티를 사용하여 생산성을 높이고 데이터 접근성을 보장할 수 있도록 합니다.
+
+## <a name="dynamics-365-and-the-common-data-service-for-apps"></a>Dynamics 365 및 앱용 Common Data Service
+
+Dynamics 365 for Sales, Service 또는 Talent와 같은 Dynamics 365 응용 프로그램은 앱용 Common Data Service를 사용하여 응용 프로그램에서 사용하는 데이터를 저장하고 보호합니다. 이렇게 하면 통합할 필요 없이 Dynamics 365 내에서 이미 사용되는 핵심 비즈니스 데이터에 대해 직접 PowerApps 및 앱용 Common Data Service를 사용하여 앱을 빌드할 수 있습니다.
+
+* **Dynamics 365 데이터에 대한 앱 빌드** &ndash; PowerApps 내에서 또는 Pro 개발자 SDK를 사용하여 비즈니스 데이터에 대해 신속하게 앱을 빌드합니다.
+* **다시 사용할 수 있는 비즈니스 논리 및 규칙 관리** &ndash; Dynamics 365 엔터티에 이미 정의된 비즈니스 규칙 및 논리를 PowerApps에 적용하여 사용자가 데이터에 액세스하는 방법 또는 사용하는 앱에 관계 없이 데이터 일관성을 보장합니다.
+* **Dynamics 365 및 PowerApps에서 다시 사용할 수 있는 기술** &ndash; PowerApps 또는 Dynamics 365를 이전에 다뤄본 사용자는 이제 새로운 앱용 Common Data Service 플랫폼에서 해당 기술을 활용할 수 있습니다. 엔터티, 양식, 차트 등을 만드는 작업은 이제 응용 프로그램에서 일반적입니다.
+
+    > [!NOTE]
+    > Dynamics 365 for Finance 및 Operations는 재무 및 작업 비즈니스 데이터를 앱용 Common Data Service 내에서 사용할 수 있도록 데이터 통합자를 구성해야 합니다.
+
+## <a name="integrating-data-into-the-common-data-service"></a>Common Data Service에 데이터 통합
+
+일반적으로 앱을 빌드하는 작업에는 둘 이상의 원본 데이터가 포함되는 반면 경우에 따라 응용 프로그램 수준에서 수행할 수 있습니다. 또한 데이터를 일반 저장소에 함께 통합하면 앱 빌드 환경을 용이하게 하고, 데이터에서 단일 논리 집합을 유지 관리하고 작동시킬 수 있습니다. 앱용 Common Data Service를 사용하면 데이터를 여러 원본에서 단일 저장소로 통합할 수 있습니다. 그러면 Dynamics 365 응용 프로그램에서 이미 사용할 수 있는 데이터와 함께 PowerApps, 흐름 및 Power BI에서 사용할 수 있습니다.
+
+* **다른 시스템과 예약된 통합** &ndash; 다른 응용 프로그램 내에서 유지되는 데이터는 앱용 Common Data Service와 정기적으로 동기화하여 사용자가 PowerApps의 다른 응용 프로그램 데이터를 활용할 수 있도록 합니다.
+* **PowerQuery를 사용하여 데이터 변환 및 가져오기** &ndash; 데이터를 Common Data Service로 가져오는 경우 변환 작업은 Excel 및 Power BI에서 사용되는 공통 도구인 여러 온라인 데이터 원본의 PowerQuery를 통해 수행할 수 있습니다.
+* **데이터 한 번 가져오기** &ndash; Excel 및 CSV 파일의 간단한 가져오기 및 내보내기를 한 번 사용하거나 앱용 Common Data Service로 빈번하지 않은 데이터 가져오기를 사용할 수 있습니다.
+
 
 ## <a name="interacting-with-entities"></a>엔터티와 상호 작용
 앱 개발 시 표준 엔터티, 사용자 지정 엔터티, 또는 두 가지 모두를 사용할 수 있습니다. 앱용 CDS는 기본적으로 표준 엔터티를 제공합니다. 모범 사례에 따라 조직 내의 가장 일반적인 개념 및 시나리오를 파악할 수 있도록 설계되었습니다.
