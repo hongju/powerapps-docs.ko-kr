@@ -6,13 +6,14 @@ manager: kfile
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: reference
-ms.date: 04/23/2018
+ms.date: 05/23/2018
 ms.author: jamesol
-ms.openlocfilehash: 953efbabcdce55ac58376f927d5e399e69a40974
-ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
+ms.openlocfilehash: 788f9ec1ce1ac8604606d2d2ad836a0cd12360d4
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34552993"
 ---
 # <a name="powershell-support-for-powerapps-preview"></a>PowerApps에 대한 PowerShell 지원(미리 보기)
 최근에 앱 작성자 및 관리자용 PowerShell cmdlet 미리 보기가 제공되면서 [PowerApps](https://web.powerapps.com) 또는 [PowerApps 관리 센터](https://admin.powerapps.com)에서 현재는 수동으로만 가능한 다양한 모니터링 및 관리 작업을 자동화할 수 있습니다.
@@ -39,19 +40,19 @@ ms.lasthandoff: 05/15/2018
     Import-Module .\Microsoft.PowerApps.PowerShell.psm1 -Force
     ```
 
-6. 명령에 액세스하기 전에 다음 명령을 사용하여 자격 증명을 제공합니다. cmdlet을 계속 사용하기 위해 다시 로그인하기 전에 이러한 자격 증명을 새로 고치는 데는 최대 8시간이 걸립니다.
+6.  현재 다음 명령을 사용하여 PowerShell 파일을 수동으로 차단 해제해야 할 수 있는 [알려진 문제](https://powerusers.microsoft.com/t5/Administering-PowerApps/Getting-errors-when-I-try-to-import-the-preview-powerapps/td-p/109036)가 있습니다.
+
+    ```
+    dir . | Unblock-File
+    ```
+7. 명령에 액세스하기 전에 다음 명령을 사용하여 자격 증명을 제공합니다. cmdlet을 계속 사용하기 위해 다시 로그인하기 전에 이러한 자격 증명을 새로 고치는 데는 최대 8시간이 걸립니다.
 
     ```
     Add-PowerAppsAccount
     ```
 
-7.  현재 다음 명령을 사용하여 PowerShell 파일을 수동으로 차단 해제해야 할 수 있는 [알려진 문제](https://powerusers.microsoft.com/t5/Administering-PowerApps/Getting-errors-when-I-try-to-import-the-preview-powerapps/td-p/109036)가 있습니다.
 
-    ```
-    dir . | Unblock-File
-    ```
-
-## <a name="powerapps-cmdlets-for-app-makers-preview"></a>앱 작성자용 PowerApps cmdlet(미리 보기)
+## <a name="powerapps-cmdlets-for-app-creators-preview"></a>앱 작성자용 PowerApps cmdlet(미리 보기)
 
 ### <a name="prerequisite"></a>필수 조건
 유효한 PowerApps 라이선스를 보유한 사용자는 이러한 cmdlet으로 작업을 수행할 수 있지만, 이러한 사용자는 함께 만들거나 자신과 공유된 리소스(예: 앱, 흐름 등)에만 액세스할 수 있습니다.
@@ -69,6 +70,7 @@ ms.lasthandoff: 05/15/2018
 | 연결 권한 읽기, 업데이트 및 삭제 | Get-ConnectionRoleAssignment <br> Set-ConnectionRoleAssignment <br> Remove-ConnectionRoleAssignment
 | 커넥터 읽기 및 삭제 | Get-Connector <br> Remove-Connector
 | 사용자 지정 커넥터 권한 읽기, 업데이트 및 삭제 | Get-ConnectorRoleAssignment <br> Set-ConnectorRoleAssignment <br> Remove-ConnectorRoleAssignment
+
 
 > [!NOTE]
 > 다음 명령을 사용하여 각 cmdlet에 대한 구문을 이해하고 샘플을 봅니다.
@@ -95,6 +97,13 @@ ms.lasthandoff: 05/15/2018
 | 캔버스 앱 읽기 및 제거 | Get-AdminApp <br> Remove-AdminApp
 | 캔버스 앱 권한 읽기, 업데이트 및 삭제 | Get-AdminAppRoleAssignment <br> Remove-AdminAppRoleAssignment <br> Set-AdminAppRoleAssignment <br> Set-AdminAppOwner
 | 흐름 읽기, 업데이트 및 삭제 | Get-AdminFlow <br> Enable-AdminFlow <br> Disable-AdminFlow <br> Remove-AdminFlow  <br> Remove-AdminFlowOwnerRole
+| 연결 읽기 및 삭제 | Get-AdminConnection <br> Remove-AdminConnection
+| 연결 권한 읽기, 업데이트 및 삭제 | Get-AdminConnectionRoleAssignment <br> Set-AdminConnectionRoleAssignment <br> Remove-AdminConnectionRoleAssignment
+| 사용자 지정 커넥터 읽기 및 삭제 | Get-AdminConnector <br> Remove-AdminConnector
+| 사용자 지정 커넥터 권한 읽기, 업데이트 및 삭제 | Get-AdminConnectorRoleAssignment <br> Set-AdminConnectorRoleAssignment <br> Remove-AdminConnectorRoleAssignment
+| 사용자의 PowerApps 사용자 설정, 사용자 앱 설정 및 알림 읽기 | Get-AdminPowerAppsUserDetails
+| 사용자에게 표시되지 않는 사용자의 Microsoft 흐름 설정을 읽고 삭제하지만 흐름 실행을 지원합니다. | Get-AdminFlowUserDetails <br> Remove-AdminFlowUserDetails
+| 조직에 대한 데이터 손실 방지 정책 만들기, 읽기, 업데이트 및 삭제 | Get-AdminApiPolicy <br> Add-AdminApiPolicy <br> Remove-AdminApiPolicy <br> Set-AdminApiPolicy <br> Add-ConnectorToBusinessDataGroup <br>  Remove-ConnectorFromBusinessDataGroup
 
 > [!NOTE]
 > 다음 명령을 사용하여 각 cmdlet에 대한 구문을 이해하고 샘플을 봅니다.

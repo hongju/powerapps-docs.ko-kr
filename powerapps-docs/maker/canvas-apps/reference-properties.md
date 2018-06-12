@@ -12,11 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 03/17/2016
 ms.author: gregli
-ms.openlocfilehash: ae72dad8143c747714e8573ecc3cc5a9644044b4
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 8d54c632780ac827704535af5d24881685a0e518
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34583604"
 ---
 # <a name="controls-and-properties-in-powerapps"></a>PowerApps 컨트롤 및 속성
 속성 중 하나를 설정하여 컨트롤의 모양과 동작을 구성합니다. 각 유형의 컨트롤에는 서로 다른 속성 집합이 있습니다. **Height** 및 **Width**와 같은 일부 속성은 거의 모든 유형의 컨트롤에 공통으로 적용되지만, **CheckboxSize**와 같은 다른 속성은 한 유형의 컨트롤에만 적용됩니다.
@@ -85,6 +86,8 @@ ms.lasthandoff: 04/26/2018
 **[라디오](controls/control-radio.md)** – 상호 배타적인 옵션을 표시합니다.
 
 **[등급](controls/control-rating.md)** – 1과 지정한 숫자 사이의 값을 나타냅니다.
+
+**[서식 있는 텍스트 편집기(실험적)](controls/control-richtexteditor.md)** – 앱 사용자가 지정한 서식 있는 텍스트를 허용합니다.
 
 **[화면](controls/control-screen.md)** – 특정 작업에 대한 데이터를 표시하고 업데이트합니다.
 

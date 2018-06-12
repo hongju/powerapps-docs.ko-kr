@@ -10,13 +10,14 @@ ms.service: powerapps
 ms.devlang: na
 ms.topic: reference
 ms.component: canvas
-ms.date: 08/28/2017
+ms.date: 06/05/2018
 ms.author: gregli
-ms.openlocfilehash: d7dd33954d337bbfc65b486333e89c4598b11305
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: af089f81b8fd96ec022fe32495cb14f2827f28b5
+ms.sourcegitcommit: 045c96df42405c60c7675edbadac93455270a021
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34822584"
 ---
 # <a name="formula-reference-for-powerapps"></a>PowerApps에 대한 수식 참조
 수식은 많은 요소를 결합합니다.  아래 나열되어 있습니다.
@@ -219,6 +220,8 @@ ms.lasthandoff: 04/26/2018
 
 **[Not](functions/function-logicals.md)** – 부울 논리 NOT입니다.  인수가 **false**이면 **true**를 반환하고 인수가 **true**이면 **false**를 반환합니다.  [**!** 연산자](functions/operators.md)를 사용할 수도 있습니다.
 
+**[알림](functions/function-showerror.md)** – 사용자에게 배너 메시지를 표시합니다.
+
 **[Now](functions/function-now-today-istoday.md)** – 현재 날짜/시간 값을 반환합니다.
 
 ## <a name="o"></a>O
@@ -280,8 +283,6 @@ ms.lasthandoff: 04/26/2018
 **[Set](functions/function-set.md)** – 전역 변수의 값을 설정합니다.
 
 **[ShowColumns](functions/function-table-shaping.md)** – 선택한 열만 포함하는 테이블을 반환합니다.
-
-**[ShowError](functions/function-showerror.md)** – 사용자에게 오류 메시지를 표시합니다.
 
 **[Shuffle](functions/function-shuffle.md)** – 테이블의 레코드를 무작위로 다시 정렬합니다.
 

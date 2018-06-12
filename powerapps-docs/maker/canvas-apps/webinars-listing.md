@@ -7,74 +7,25 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 4/18/2018
 ms.author: audrie
-ms.openlocfilehash: 9100aadcbe9b2b4c431fd91da448d859f1830f48
-ms.sourcegitcommit: f236364ecb06dd86244cd9a607c31e0d716912e2
+ms.openlocfilehash: a5cfa772ce4f7e9f5679164b9309baa31bfc6a96
+ms.sourcegitcommit: 7354a0c61578fcc0b9965bf557b9d7c553c73e96
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34803377"
 ---
 # <a name="powerapps-webinar-listing"></a>PowerApps 웹 세미나 목록 #
 웹 세미나는 Microsoft PowerApps의 기능을 활용하는 데 도움이 됩니다. 의견이 있으시면 이 문서의 아래쪽에 제안을 추가해 주세요.
 
 ## <a name="upcoming-webinars"></a>예정된 웹 세미나 ##
-**모델 기반 앱 시리즈 1부 | 엔터티 및 데이터 가져오기 관리**
-<br>작성자: Audrie Gordon 및 Clay Wesener
-<br>5월 1일, 오전 10시 태평양 표준시, 오후 12시 동부 표준시
-
-PowerApps 팀의 Clay Wesener가 함께 진행하며 앱용 CDS 데이터베이스를 빌드하는 과정을 안내합니다. 엔터티 및 필드를 만들고 탐색하는 방법을 알아봅니다. 또한 즉시 사용 가능한 기본 제공 항목을 다른 사람보다 먼저 사용할 수 있습니다! 
-
-3부작 시리즈 중 1부입니다.
-<br>**1부: 엔터티**
-<br>2부: 양식 및 보기
-<br>3부: 차트 및 대시보드
-
-표준 엔터티 및 필드를 다시 사용하는 방법과 사용자 지정 시나리오를 즉시 만드는 방법을 알아볼 좋은 기회입니다!
-
-[5월 1일 내용을 보려면 여기를 클릭하세요.](https://www.youtube.com/watch?v=02NWfHRYkeo)
-
-**모델 기반 앱 시리즈 2부 | 양식 및 보기 만들기**
-<br>작성자: Audrie Gordon & Anees Ansari
-<br>5월 15일, 오전 10시 태평양 표준시, 오후 12시 동부 표준시
-
-모델 기반 앱은 앱 작성자가 복잡한 양식 시나리오를 간편하게 디자인할 수 있도록 다양한 환경을 제공합니다. 새로운 Forms 디자이너를 사용하여 파트 1에서 시작한 모델 앱에 필요한 양식을 빌드하는 방법을 알아봅니다. Anees가 탭, 섹션 및 필드와 같은 양식 구성 요소를 안내합니다. 또한 비즈니스 논리 및 필터를 통합하는 방법에 대한 모범 사례를 공유합니다. 
-
-3부작 시리즈 중 2부입니다.
-<br>1부: 엔터티
-<br>**2부: 양식 및 보기**
-<br>3부: 차트 및 대시보드
-
-[5월 15일 내용을 보려면 여기를 클릭하세요.](https://www.youtube.com/watch?v=v7VoX-V2ek4)
-
-**모델 기반 앱 시리즈 3부 | 차트 및 대시보드 살펴보기**
-<br>작성자: Audrie Gordon 및 Casey Burke
-<br>*5월 29일, 오전 10시 태평양 표준시, 오후 12시 동부 표준시*
-
-PowerApps는 다양한 보기 및 대시보드 기능을 사용하여 복합적인 보고 방법을 제공합니다. Microsoft의 모델 기반 앱 시리즈는 지금까지 작업해 온 솔루션을 최적화하고 현대화하기 위한 유용한 차트와 대시보드로 마무리됩니다. 
-
-3부작 시리즈 중 3부입니다.
-<br>1부: 엔터티
-<br>2부: 양식 및 보기
-<br>**3부: 차트 및 대시보드**
-
-[5월 29일 내용을 보려면 여기를 클릭하세요.](https://www.youtube.com/watch?v=kJ5eTWh7Hyg)
 
 **커넥터 시리즈 | PowerApps를 사용한 Microsoft StaffHub(Shift Planning) 앱**
 <br>작성자: Marc-André Lépine
 <br>*6월 5일, 오전 10시 태평양 표준시, 오후 1시 동부 표준시*
-
+<br>
 PowerApps 및 흐름 Azure 관리자 그룹의 Marc André Lépine이 이 세션에 합류합니다. 그는 StaffHub 커넥터를 사용하여 가능한 것들을 보완 및 확장하기 위해 뛰어난 앱을 어떻게 빌드하였는지에 대해 설명합니다. 이번 주 후반에 사용자 지정 API를 사용하여 Connector를 어떻게 확장하였는지 설명할 예정입니다.  
 
 [6월 5일 내용을 보려면 여기를 클릭하세요.](https://www.youtube.com/watch?v=LAximnEnKy8)
-
-**확장성 | PowerApps 및 흐름을 사용한 JSON 기반 솔루션 빌드**
-<br>작성자: Marc-André Lépine
-<br>*6월 7일, 오전 10시 태평양 표준시, 오후 1시 동부 표준시*
-
-Marc André Lépine이 몇 가지 확장성 팁을 여러분과 공유하기 위해 돌아왔습니다. 그의 첫 번째 동영상을 놓치셨다면 여기에서(https://www.youtube.com/watch?v=LAximnEnKy8) 미리 동영상을 확인해 보세요.
-
-이 시간에는 Marc가 사용자 지정 커넥터를 통해 자신의 엔터프라이즈 요구 사항을 포함하도록 StaffHub 커넥터의 기능을 확장하여 PowerApps의 “절벽 없음” 기능을 설명합니다. (이건 정말 놀랍도록 쉽습니다! 전문 개발자가 아닌 분들도 절대 놓치지 마세요.) 
-
-[6월 7일 내용을 보려면 여기를 클릭하세요.](https://www.youtube.com/watch?v=ykNRxKvAirg)
 
 **PowerApps 관리 | 질문과 대답**
 <br>작성자: Manas Maheshwari
@@ -84,7 +35,7 @@ PowerApps 팀의 수석 프로그램 관리자인 Manas Maheshwari가 몇 가지
 
 [6월 12일 내용을 보려면 여기를 클릭하세요.](https://www.youtube.com/watch?v=9Sy_vT5kIts)
 
-**범용 감사 앱 살펴보기: Paul Culmsee와 함께 PowerApps 및 Flow에서 할 수 있는 작업 알아보기**
+**범용 감사 앱 살펴보기: PowerApps 및 Flow에서 할 수 있는 작업 알아보기, 작성자: Paul Culmsee**
 <br>작성자: Paul Culmsee
 <br>6월 14일, 오후 6시 태평양 표준시, 오후 9시 동부 표준시
 
@@ -92,8 +43,16 @@ PowerApps 쇼케이스의 이 인기 앱에 대해 한 주 동안 3~5개 요청�
 
 [6월 14일 내용을 보려면 여기를 클릭하세요.](https://www.youtube.com/watch?v=6Wn47bDOMEE)
 
+**시작 | PowerApps 학습 경로 - 빠르고 훌륭하게 앱을 빌드하는 방법!**
+<br>주체: Audrie Gordon
+<br>*6월 26일 오후 6시 태평양 표준시, 오후 9시 동부 표준시*
+
+PowerApps 팀의 Audrie Gordon은 조직에서 PowerApps를 학습하고 채택하기 위한 모범 사례 및 빠른 시작 전략을 공유합니다. YouTube에서 업무 시간 외 라이브 토론에 참여하세요. 
+
+[6월 26일 내용을 보려면 여기를 클릭하세요.](https://www.youtube.com/watch?v=ykNRxKvAirg)
+
 ## <a name="past-webinars"></a>지난 웹 세미나 ##
-웹 세미나는 실시간 방송 후에 주문형으로 제공됩니다. 등록 세부 정보를 다시 입력하면 동영상 링크가 이메일로 전송됩니다.
+웹 세미나는 실시간 방송 후에 주문형으로 제공됩니다. 일부 경우에 등록 세부 정보를 다시 입력하면 동영상 링크가 이메일로 전송됩니다. 
 
 ### <a name="beginner-webinar-series"></a>초보자 웹 세미나 시리즈 ###
 **비즈니스에 맞는 앱 디자인을 위한 5가지 팁**
@@ -196,6 +155,15 @@ PowerApps 쇼케이스의 이 인기 앱에 대해 한 주 동안 3~5개 요청�
 
 **모델 기반 앱 구성 요소 | 템플릿 시작**
 <br>작성자: Charles Sterling 및 Casey Burke [지금 보기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Understanding-Model-Driven-App-Templates/m-p/116833)
+
+**모델 기반 앱 시리즈 1부 | 엔터티 및 데이터 가져오기 관리**
+<br>작성자: Audrie Gordon 및 Clay Wesener [지금 시청하기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Model-Driven-App-Components-Part-1-Managing-Entities-and-Data/m-p/116837)
+
+**모델 기반 앱 시리즈 2부 | 양식 및 보기 만들기**
+<br>작성자: Audrie Gordon 및 Anees Ansari [지금 시청하기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Model-Driven-App-Components-Part-2-Creating-Forms-and-Views-with/m-p/116838)
+
+**모델 기반 앱 시리즈 3부 | 차트 및 대시보드 살펴보기**
+<br>작성자: Audrie Gordon 및 Casey Burke [지금 시청하기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Model-Driven-App-Components-Part-3-Exploring-Charts-and/m-p/119732)
 
 ### <a name="app-designer-series"></a>앱 디자이너 시리즈 ###
 **채택 및 유용성을 위한 앱 빌드**

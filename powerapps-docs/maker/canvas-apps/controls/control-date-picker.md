@@ -12,11 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 9f2aae06422a130e2976d0276536842c6d565db5
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: fe6fc6527348c6d38ba1d7934efb50ea071154d7
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34583558"
 ---
 # <a name="date-picker-control-in-powerapps"></a>PowerApps의 날짜 선택기 컨트롤
 사용자가 날짜를 지정하기 위해 클릭 또는 탭할 수 있는 컨트롤입니다.
@@ -69,6 +70,10 @@ ms.lasthandoff: 04/26/2018
 
 **[Height](properties-size-location.md)** – 컨트롤의 위쪽 및 아래쪽 가장자리 사이의 간격입니다.
 
+**IconFill** – 날짜 선택기 아이콘의 전경색입니다.
+
+**IconBackground** – 날짜 선택기 아이콘의 배경색입니다.
+
 **[Italic](properties-text.md)** - 컨트롤의 텍스트를 기울임꼴로 설정할지 여부를 선택합니다.
 
 **[OnSelect](properties-core.md)** – 사용자가 앱을 클릭하거나 탭할 때 앱이 응답하는 방법입니다.
@@ -100,14 +105,14 @@ ms.lasthandoff: 04/26/2018
 
 ## <a name="example"></a>예
 1. **날짜 선택기** 컨트롤을 추가하고 이름을 **Deadline**으로 지정합니다.
-   
+
     [컨트롤을 추가, 이름을 지정하고, 구성](../add-configure-controls.md)하는 방법을 모르시나요?
 2. **[레이블](control-text-box.md)** 컨트롤을 추가하고, **[Text](properties-core.md)** 속성을 다음 수식으로 설정합니다.
    <br>**DateDiff(Today(), Deadline.SelectedDate) & " 남은 일수!"**
-   
+
     **[DateDiff](../functions/function-dateadd-datediff.md)** 함수 또는 [다른 함수](../formula-reference.md)에 대해 더 알고 싶으신가요?
 3. F5 키를 누르고 **마감일**에서 날짜를 선택한 다음, **확인**을 클릭하거나 탭합니다.
-   
+
     **[레이블](control-text-box.md)** 컨트롤은 오늘과 사용자가 선택한 날짜 사이의 일수를 보여줍니다.
 4. 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
 
@@ -122,4 +127,3 @@ ms.lasthandoff: 04/26/2018
 ### <a name="keyboard-support"></a>키보드 지원
 * 키보드 사용자가 탐색할 수 있도록 **[TabIndex](properties-accessibility.md)** 가 0 이상이어야 합니다.
 * 포커스 표시기가 명확하게 표시되어야 합니다. **[FocusedBorderColor](properties-color-border.md)** 및 **[FocusedBorderThickness](properties-color-border.md)** 를 사용하여 이를 달성합니다.
- 

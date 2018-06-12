@@ -12,11 +12,12 @@ ms.topic: conceptual
 ms.component: model
 ms.date: 04/18/2018
 ms.author: matp
-ms.openlocfilehash: dfef87d9c85de3a8311081c3b99eaa9d072dc444
-ms.sourcegitcommit: f236364ecb06dd86244cd9a607c31e0d716912e2
+ms.openlocfilehash: 3d7aa26696adb187906c9c793c546abd1b97764f
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34583489"
 ---
 # <a name="quickstart-build-your-first-model-driven-app-from-scratch"></a>빠른 시작: 처음부터 첫 번째 모델 기반 앱 빌드
 모델 기반 앱 디자인은 앱 개발에 대해 구성 요소에 중점을 두는 방법입니다. 이 빠른 시작에서는 [!INCLUDE [powerapps](../../includes/powerapps.md)] 환경에서 사용할 수 있는 표준 엔터티 중 하나를 사용하여 모델 기반 앱을 만드는 방법을 간소화합니다. 
@@ -30,6 +31,9 @@ ms.lasthandoff: 05/22/2018
 2.  왼쪽 탐색 창에서 **모델 기반**을 선택합니다. 
 
     ![모델 기반](media/build-first-model-driven-app/choose-design-mode.png)
+
+  > [!IMPORTANT]
+  > **모델 기반** 디자인 모드를 사용할 수 없는 경우 [환경을 만들](https://docs.microsoft.com/powerapps/administrator/create-environment)어야 할 수 있습니다.   
 
 3. 왼쪽 창에서 **앱**을 선택한 다음, **앱 만들기**를 선택합니다.
 

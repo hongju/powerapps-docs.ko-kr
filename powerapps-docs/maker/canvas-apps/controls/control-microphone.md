@@ -12,17 +12,20 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: ae6a8afa71a150ad1b15f8ef0550f3d7412ff3be
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: c79e30a404b1e653f1df6547c9fcc818efc79433
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34583512"
 ---
 # <a name="microphone-control-in-powerapps"></a>PowerApps의 마이크 컨트롤
-사용자가 사운드를 녹음할 수 있는 컨트롤입니다.
+앱 사용자가 해당 장치의 사운드를 녹음할 수 있는 컨트롤입니다.
 
 ## <a name="description"></a>설명
-이 컨트롤을 추가하면 사용자는 앱이 실행 중일 때마다 하나 이상의 사운드로 데이터 원본을 업데이트할 수 있습니다.
+앱을 실행하는 장치에 마이크가 있으면 앱 사용자는 오디오를 녹음할 수 있습니다.
+
+오디오는 Android에서 3gp 형식으로 저장되고, iOS에서 AAC 형식으로 저장됩니다.
 
 ## <a name="key-properties"></a>주요 속성
 **Mic** – 여러 마이크가 있는 장치의 경우 앱이 사용하는 마이크의 숫자 ID입니다.
@@ -97,9 +100,9 @@ ms.lasthandoff: 04/26/2018
 ### <a name="add-sounds-to-a-custom-gallery-control"></a>사운드를 사용자 지정 갤러리 컨트롤에 추가
 1. **마이크**를 추가하고 이름을 **MyMic**로 지정한 후, **OnStop** 속성을 다음 서식으로 지정합니다.<br>
    **Collect(MySounds, MyMic.Audio)**
-   
+
     [컨트롤을 추가, 이름을 지정하고, 구성](../add-configure-controls.md)하는 방법을 모르시나요?
-   
+
     **[Collect](../functions/function-clear-collect-clearcollect.md)** 함수 또는 [다른 함수](../formula-reference.md)에 대해 더 알고 싶으신가요?
 2. **사용자 지정 갤러리** 컨트롤을 추가하고 **MyMic** 아래로 이동한 다음, **사용자 지정 갤러리** 컨트롤에 대한 **[Items](properties-core.md)** 속성을 **MySounds**로 설정합니다.
 3. **사용자 지정 갤러리** 컨트롤에 대한 템플릿에서 **[오디오](control-audio-video.md)** 컨트롤을 추가하고 **Media** 속성을 **ThisItem.Url**로 설정합니다.

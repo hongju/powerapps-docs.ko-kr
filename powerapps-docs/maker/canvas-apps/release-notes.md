@@ -8,23 +8,26 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 05/21/2018
 ms.author: anneta
-ms.openlocfilehash: dc4e4f9ae1cdb8cf9edf1c7a52343f6a5db1717c
-ms.sourcegitcommit: f236364ecb06dd86244cd9a607c31e0d716912e2
+ms.openlocfilehash: ef4360dda5d4003ff91389af78958052bbb1e052
+ms.sourcegitcommit: 68e2c696397f3002dd14e72a4c2054a603a5e2d7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "34851710"
 ---
 # <a name="whats-new-in-powerapps"></a>PowerApps의 새로운 기능
+> [!IMPORTANT]
+> **릴리스 정보 발표**<br>
+> PowerApps에서 예정되거나 최근에 릴리스된 기능에 대해 알고 있습니까?<br>
+[릴리스 정보를 봅니다](https://docs.microsoft.com/en-us/business-applications-release-notes/april18/powerapps/overview). 모든 세부 정보를 처음부터 끝까지 캡처했으므로 계획에 사용할 수 있습니다.
+
 알려진 제한 사항에 대한 정보는 [일반적인 문제 및 해결 방법](common-issues-and-resolutions.md)을 참조하세요.
 
 > [!NOTE]
 > 릴리스는 며칠 동안 배포됩니다. 새 기능 또는 업데이트된 기능이 즉시 나타나지 않을 수 있습니다.
 
-## <a name="announcing-the-business-applications-spring-18-release-notes"></a>2018년 봄 비즈니스 응용 프로그램 릴리스 정보 발표
-
-플랫폼을 기반으로 고유한 응용 프로그램 및 확장을 빌드하는 새로운 기능의 호스트뿐만 아니라 비즈니스 응용 프로그램에 대한 최신 업데이트를 확인하세요. Dynamics 365, PowerApps, Microsoft Flow, Power BI를 다루는 [2018년 봄 릴리스 정보 PDF](https://aka.ms/businessappsreleasenotes)를 다운로드하세요.
-
-**서비스 예정:** 기능이 출시되면 릴리스 정보 PDF를 계속 업데이트하고 웹 페이지에서도 릴리스 정보를 제공할 예정입니다.
+## <a name="may-30"></a>5월 30일
+1. [서식 있는 텍스트 편집기 컨트롤](controls/control-richtexteditor.md)(실험적) - 최종 사용자가 WYSIWYG 편집 영역 내의 텍스트 서식을 지정할 수 있습니다. 
 
 ## <a name="may-21"></a>5월 21일
 1. 앱 사용자가 업그레이드된 Apps용 CDS(Common Data Service) 환경에 현재 사용할 수 있는 **Excel 파일에서 데이터 가져오기** 및 **데이터 내보내기** 기능을 사용하여 로컬로 저장된 Excel 또는 CSV 파일에서 데이터를 가져오고 내보낼 수 있습니다. 

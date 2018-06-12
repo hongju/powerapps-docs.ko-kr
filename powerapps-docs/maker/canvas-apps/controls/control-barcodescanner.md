@@ -1,22 +1,18 @@
 ---
 title: '바코드 스캐너 컨트롤: 참조 | Microsoft Docs'
 description: 속성 및 예제를 포함한 바코드 스캐너 컨트롤에 관한 정보
-documentationcenter: na
 author: fikaradz
-manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
 ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 8cd0c84f508c13e8064b0e5bc93b01024cf22120
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 22b5cf081755f25b3aff33c36137547882fe3812
+ms.sourcegitcommit: 7354a0c61578fcc0b9965bf557b9d7c553c73e96
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34803475"
 ---
 # <a name="barcode-scanner-control-experimental-in-powerapps"></a>PowerApps의 바코드 스캐너 컨트롤(실험)
 사용자가 장치에서 바코드 스캐너를 사용하여 사진을 촬영할 수 있는 실험적 컨트롤입니다.
@@ -44,7 +40,7 @@ ms.lasthandoff: 04/26/2018
 
 **[Height](properties-size-location.md)** – 컨트롤의 위쪽 및 아래쪽 가장자리 사이의 간격입니다.
 
-**[OnSelect](properties-core.md)** – 사용자가 앱을 클릭하거나 탭할 때 앱이 응답하는 방법입니다.
+**[OnSelect](properties-core.md)** – 사용자가 컨트롤을 클릭하거나 누를 때 앱이 응답하는 방법입니다.
 
 **OnStream** – **Stream** 속성이 업데이트될 때 앱이 응답하는 방법입니다.
 
