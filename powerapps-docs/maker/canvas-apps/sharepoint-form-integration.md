@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 11/11/2017
 ms.author: ankitsar
-ms.openlocfilehash: 8ae6bd0e576abd3a4115e452b286607b5c695acb
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 69e3baaa769282ca8ac7372ba3360829a1624f3d
+ms.sourcegitcommit: 6bfb002180148a3f22a4d1d8d750fc442489ebe4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31834839"
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "35291746"
 ---
 # <a name="understand-sharepoint-forms-integration"></a>SharePoint 양식 통합 이해
 PowerApps에서 [SharePoint 목록 양식을 쉽게 사용자 지정](customize-list-form.md)할 수 있습니다. 이 문서에서는 이러한 양식의 작업 방식과 사용자 지정하는 방법을 자세히 설명합니다.
@@ -76,7 +76,7 @@ SharePoint 목록의 양식을 사용자 지정한 경험이 있다면 기본 �
 ![](./media/sharepoint-form-integration/sharepointintegration-object.png)
 
 >[!NOTE]
->**SharePointIntegration** 컨트롤의 속성은 SharePoint에서 양식을 실행하는 경우에만 사용할 수 있으며 PowerApps Studio에서 양식을 사용자 지정할 때는 액세스할 수 없습니다.
+>SharePoint에서 양식을 실행하는 경우에만 **SharePointIntegration** 컨트롤의 속성에 액세스할 수 있으며 PowerApps Studio에서 양식을 사용자 지정할 때는 액세스할 수 없습니다. 이러한 속성은 **OnStart** 또는 **OnVisible**에서 확인할 수 있습니다. 
 
 **SharePointIntegration** 컨트롤에는 다음과 같은 속성이 있습니다.
 
@@ -109,3 +109,5 @@ SharePoint 목록의 양식을 사용자 지정한 경험이 있다면 기본 �
 * 모든 양식의 **OnSuccess** 수식에 **RequestHide()** 를 포함해야 합니다. 이 항목을 잊어 버리면 SharePoint에서 양식을 언제 숨길지 알 수 없게 됩니다.
 
 * 사용자가 SharePoint에서 **취소**를 클릭하거나 탭할 때 양식 숨기기를 제어할 수 없으므로, **SharePointIntegration** 컨트롤의 **OnCancel** 수식에서 양식을 다시 설정해야 합니다.
+
+* **SharePointIntegration** 컨트롤의 속성은 **OnStart** 또는 **OnVisible**에서 지원되지 않을 수 있습니다. 또한 해당 이벤트는 목록을 로드할 때 한 번만 실행합니다. **OnNew**, **OnView** 또는 **OnEdit** 수식을 사용하여 양식이 매번 사용자에게 표시되기 전에 논리를 실행할 수 있습니다. 
