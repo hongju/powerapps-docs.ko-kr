@@ -233,6 +233,8 @@
               href: ./canvas-apps/functions/function-clock-calendar.md
             - name: Char
               href: ./canvas-apps/functions/function-char.md
+            - name: Choices
+              href: ./canvas-apps/functions/function-choices.md
             - name: 지우기
               href: ./canvas-apps/functions/function-clear-collect-clearcollect.md
             - name: ClearCollect
@@ -594,6 +596,8 @@
           href: ./canvas-apps/connections-list.md
         - name: '시스템 요구 사항, 제한 및 구성'
           href: ./canvas-apps/limits-and-config.md
+        - name: 세션 ID 가져오기
+          href: ./canvas-apps/get-sessionid.md
 - name: 모델 기반 앱
   href: ./model-driven-apps/model-driven-app-overview.md
   items:
