@@ -7,12 +7,12 @@ ms.component: cds
 ms.topic: quickstart
 ms.date: 05/01/2018
 ms.author: matp
-ms.openlocfilehash: 66c96f7496266e03491e404de2bb329f82b6a2bf
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: ecbdc81b2688ee9aabf5e0df6416212957ca2642
+ms.sourcegitcommit: 222df368f1f35e9357b0b1adf0e69d7206d8126e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34552924"
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "36298495"
 ---
 # <a name="quickstart-create-a-custom-entity"></a>빠른 시작: 사용자 지정 엔터티 만들기
 PowerApps에서 *엔터티*는 추적하려는 정보를 회사 이름, 위치, 제품, 메일 및 전화 등의 속성을 포함하는 레코드의 형태로 정의합니다. 그런 다음, 엔터티를 참조하는 앱을 개발하여 해당 데이터를 표시할 수 있습니다. PowerApps는 조직 내에서 일반적인 시나리오를 다루도록 표준 "기본 제공" 엔터티를 제공하지만 조직에 관련된 데이터를 저장하는 사용자 지정 엔터티를 만들어야 하는 경우가 있을 수 있습니다.
@@ -25,7 +25,7 @@ PowerApps에서 *엔터티*는 추적하려는 정보를 회사 이름, 위치, 
 * 앱용 Common Data Service 내에서 시스템 관리자 또는 시스템 사용자 지정자 보안 역할입니다.
 
 ## <a name="sign-in-to-powerapps"></a>PowerApps에 로그인
-[https://web.powerapps.com]([https://web.powerapps.com)에서 PowerApps에 로그인합니다.
+[https://web.powerapps.com](https://web.powerapps.com)에서 PowerApps에 로그인합니다.
 
 ## <a name="create-an-entity"></a>엔터티 만들기
 1. 탐색 창에서 **데이터**를 클릭하거나 탭하여 확장한 다음, **엔터티**를 클릭하거나 탭합니다.
