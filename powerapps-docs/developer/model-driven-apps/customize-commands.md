@@ -20,6 +20,7 @@ ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/22/2018
+ms.locfileid: "30024554"
 ---
 # <a name="customize-commands-with-model-driven-apps"></a>모델 기반 앱을 사용하여 명령 사용자 지정 
 

@@ -12,6 +12,7 @@ ms.sourcegitcommit: 3f5adf07cac1c798f3d4843ed5928505becde30e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/26/2018
+ms.locfileid: "34552418"
 ---
 # <a name="whats-the-role-of-a-powerapps-administrator"></a>PowerApps 관리자의 역할은 무엇입니까?
 PowerApps, Microsoft Flow 및 앱용 CDS(Common Data Service)의 관리는 [PowerApps 관리 센터](https://admin.powerapps.com)를 통해 수행됩니다.

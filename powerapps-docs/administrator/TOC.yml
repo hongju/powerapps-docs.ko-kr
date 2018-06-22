@@ -38,6 +38,8 @@
       href: admin-manage-apps.md
     - name: 테넌트 또는 환경 간에 앱 이동
       href: environment-and-tenant-migration.md
+    - name: 리소스 내보내기 및 가져오기
+      href: export-import-packages.md
     - name: DSR 요청에 응답
       items:
         - name: 시스템 생성 로그

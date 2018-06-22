@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/26/2018
+ms.locfileid: "31829679"
 ---
 # <a name="overview-of-creating-apps-in-powerapps"></a>PowerApps에서 앱 만들기 개요
 PowerApps는 생산성이 높은 비즈니스 앱 개발 플랫폼이며 세 가지 주요 구성 요소가 있습니다.

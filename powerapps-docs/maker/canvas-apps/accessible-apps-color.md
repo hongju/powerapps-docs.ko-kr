@@ -11,6 +11,7 @@ ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/03/2018
+ms.locfileid: "32329919"
 ---
 # <a name="accessible-colors-in-powerapps"></a>PowerApps의 액세스 가능한 색
 앱에서 사용되는 색은 색맹 및 저시력 사용자가 액세스할 수 있어야 합니다. 모든 PowerApps 테마는 기본적으로 액세스할 수 있습니다. 앱에서 사용되는 색을 수정할 경우 다음 지침에 따라 색에 계속 액세스할 수 있는지 확인합니다.

@@ -20,6 +20,7 @@ ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/22/2018
+ms.locfileid: "30024302"
 ---
 # <a name="use-web-resources"></a>웹 리소스 사용
 
