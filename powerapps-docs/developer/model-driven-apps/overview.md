@@ -15,11 +15,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/17/2018
 ms.author: jdaly
-ms.openlocfilehash: 4e8a935dbef2c46478f99ecbf82a7fc837feb284
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 1799f275ea777f031e260409f62fcab0667bae59
+ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36949251"
 ---
 # <a name="model-driven-apps-developer-overview"></a>모델 기반 앱 개발자 개요
 
@@ -27,7 +28,7 @@ PowerApps는 사용자, 비즈니스, 파트너, ISV(독립 소프트웨어 공�
 
 모델 기반 앱은 코드가 없거나 짧은 코드로 만든 구성 요소로서 주로 앱 개발 방법에 집중하고 있습니다. 개발자가 제공할 수 있는 값은 응용 프로그램을 확장하는 것입니다. 코드 작성을 시작하기 전에 먼저 모델 기반 앱을 빌드하는 방법과 코드 없이 적용할 수 있는 옵션을 알아보는 것으로 시작하겠습니다. 
 
-## <a name="get-started"></a>시작
+## <a name="get-started"></a>시작하기
 Dynamics 365 고객 관계 앱을 이미 경험한 경우 모델 기반 앱을 빌드한 환경을 적용할 수 있습니다. 몇 가지 새 디자이너를 사용할 수 있지만 일반적으로 개념은 동일 합니다.
 
 > [!NOTE]
@@ -37,7 +38,7 @@ Dynamics 365 고객 관계 앱을 이미 경험한 경우 모델 기반 앱을 �
 Dynamics 365 고객 관계 응용 프로그램을 처음 사용하는 경우 이 섹션의 주제는 개발자가 모델 기반 앱 작업을 시작하는 데 도움이 되는 주요 개념에 대해 개략적으로 설명합니다. 
 
 > [!NOTE]
-> Common Data Service for Apps 및 Dynamics 365 고객 관계는 동일한 플랫폼을 활용하므로 [Dynamics 365 고객 관계 개발자 가이드](/dynamics365/customer-engagement/developer/developer-guide)에서 개발자를 위한 더 완벽한 정보를 찾을 수 있습니다. 이러한 항목에서는 개발자 가이드 및 기타 가이드에 대한 링크가 포함된 개요를 제공하여 자세한 내용을 확인할 수 있도록 합니다.
+> Common Data Service for Apps 및 Dynamics 365 Customer Engagement는 동일한 플랫폼을 활용하므로 [Dynamics 365 Customer Engagement 개발자 가이드](/dynamics365/customer-engagement/developer/developer-guide)에서 개발자를 위한 더 완벽한 정보를 찾을 수 있습니다. 이러한 항목에서는 개발자 가이드 및 기타 가이드에 대한 링크가 포함된 개요를 제공하여 자세한 내용을 확인할 수 있도록 합니다.
 
 
 ## <a name="community-tools-for-model-driven-apps"></a>모델 기반 앱에 대한 커뮤니티 도구

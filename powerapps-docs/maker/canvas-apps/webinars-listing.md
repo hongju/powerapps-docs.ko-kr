@@ -7,54 +7,17 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 4/18/2018
 ms.author: audrie
-ms.openlocfilehash: a5cfa772ce4f7e9f5679164b9309baa31bfc6a96
-ms.sourcegitcommit: 7354a0c61578fcc0b9965bf557b9d7c553c73e96
+ms.openlocfilehash: c0711ed071c1635373a66f5b61259f56d468cc9a
+ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "34803377"
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "36311664"
 ---
 # <a name="powerapps-webinar-listing"></a>PowerApps 웹 세미나 목록 #
-웹 세미나는 Microsoft PowerApps의 기능을 활용하는 데 도움이 됩니다. 의견이 있으시면 이 문서의 아래쪽에 제안을 추가해 주세요.
+웹 세미나는 Microsoft PowerApps의 기능을 활용하는 데 도움이 됩니다. 웹 세미나는 실시간 방송 후에 주문형으로 제공됩니다. 일부 경우에 등록 세부 정보를 다시 입력하면 동영상 링크가 메일로 전송됩니다. 
 
-## <a name="upcoming-webinars"></a>예정된 웹 세미나 ##
-
-**커넥터 시리즈 | PowerApps를 사용한 Microsoft StaffHub(Shift Planning) 앱**
-<br>작성자: Marc-André Lépine
-<br>*6월 5일, 오전 10시 태평양 표준시, 오후 1시 동부 표준시*
-<br>
-PowerApps 및 흐름 Azure 관리자 그룹의 Marc André Lépine이 이 세션에 합류합니다. 그는 StaffHub 커넥터를 사용하여 가능한 것들을 보완 및 확장하기 위해 뛰어난 앱을 어떻게 빌드하였는지에 대해 설명합니다. 이번 주 후반에 사용자 지정 API를 사용하여 Connector를 어떻게 확장하였는지 설명할 예정입니다.  
-
-[6월 5일 내용을 보려면 여기를 클릭하세요.](https://www.youtube.com/watch?v=LAximnEnKy8)
-
-**PowerApps 관리 | 질문과 대답**
-<br>작성자: Manas Maheshwari
-<br>*6월 12일, 오전 9시 30분 태평양 표준시, 오후 12시 30분 동부 표준시*
-
-PowerApps 팀의 수석 프로그램 관리자인 Manas Maheshwari가 몇 가지 관리 모범 사례를 공유하고, PowerApps 관리, 환경 및 데이터베이스에 대한 질문에 실시간으로 답변해 드립니다! PowerApps 환경을 관리하기 위해 여러분이 알아야 할 모든 것을 빈틈없이 채워드릴 것입니다. 여러분을 뵙고 여러분들의 가장 긴급한 관리 질문에 대한 대답을 드릴 수 있기를 고대하겠습니다.
-
-[6월 12일 내용을 보려면 여기를 클릭하세요.](https://www.youtube.com/watch?v=9Sy_vT5kIts)
-
-**범용 감사 앱 살펴보기: PowerApps 및 Flow에서 할 수 있는 작업 알아보기, 작성자: Paul Culmsee**
-<br>작성자: Paul Culmsee
-<br>6월 14일, 오후 6시 태평양 표준시, 오후 9시 동부 표준시
-
-PowerApps 쇼케이스의 이 인기 앱에 대해 한 주 동안 3~5개 요청이 생성되었습니다. 결과적으로 이 앱은 전 세계에 배포되었습니다. 이 세션에서는 이 앱이 어떻게 계획되었는지, Microsoft가 가능성을 최대화하기 위해 PowerApps 및 Flow를 어떻게 이용했는지, 그리고 클라이언트를 위해 어떤 사용자 지정이 수행되었는지 설명할 것입니다. 전 세계에서 사용 중인 전체 솔루션을 보여주며 시작하려는 사용자가 함께하면 좋을 세션입니다. 
-
-[6월 14일 내용을 보려면 여기를 클릭하세요.](https://www.youtube.com/watch?v=6Wn47bDOMEE)
-
-**시작 | PowerApps 학습 경로 - 빠르고 훌륭하게 앱을 빌드하는 방법!**
-<br>주체: Audrie Gordon
-<br>*6월 26일 오후 6시 태평양 표준시, 오후 9시 동부 표준시*
-
-PowerApps 팀의 Audrie Gordon은 조직에서 PowerApps를 학습하고 채택하기 위한 모범 사례 및 빠른 시작 전략을 공유합니다. YouTube에서 업무 시간 외 라이브 토론에 참여하세요. 
-
-[6월 26일 내용을 보려면 여기를 클릭하세요.](https://www.youtube.com/watch?v=ykNRxKvAirg)
-
-## <a name="past-webinars"></a>지난 웹 세미나 ##
-웹 세미나는 실시간 방송 후에 주문형으로 제공됩니다. 일부 경우에 등록 세부 정보를 다시 입력하면 동영상 링크가 이메일로 전송됩니다. 
-
-### <a name="beginner-webinar-series"></a>초보자 웹 세미나 시리즈 ###
+## <a name="beginner-webinar-series"></a>초보자 웹 세미나 시리즈 ##
 **비즈니스에 맞는 앱 디자인을 위한 5가지 팁**
 <br>주체: Audrie Gordon [시청하기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Top-5-tips-for-designing-and-building-PowerApps-that-mean/m-p/116843)
 
@@ -82,7 +45,7 @@ PowerApps 팀의 Audrie Gordon은 조직에서 PowerApps를 학습하고 채택�
 **새 Office Graph 템플릿(2부)**
 <br>주체: Emma Cooper [시청하기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Getting-Started-New-Office-Graph-Templates-Part-2-by-Emma-Cooper/m-p/116840)
 
-### <a name="intermediate-webinar-series"></a>중급자 웹 세미나 시리즈 ###
+## <a name="intermediate-webinar-series"></a>중급자 웹 세미나 시리즈 ##
 **PowerApps의 새로운 저장 및 게시 옵션을 사용한 응용 프로그램 수명 주기**
 <br>주체: Karthik Bharathy [시청하기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Application-LIfecycle-with-the-new-Save-and-publish-options-in/m-p/116860)
 
@@ -95,7 +58,16 @@ PowerApps 팀의 Audrie Gordon은 조직에서 PowerApps를 학습하고 채택�
 **프로덕션 앱에 대한 모범 사례 공유 - IWMentor의 Laura Rogers**
 <br>작성자: Laura Rodgers [지금 보기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Laura-Rogers-from-IWMentor-Shares-Best-Practices-for-Production/m-p/116871)
 
-### <a name="advanced-webinar-series"></a>고급자 웹 세미나 시리즈 ###
+**커넥터 시리즈 | PowerApps를 사용한 Microsoft StaffHub(Shift Planning) 앱**
+<br>작성자: Marc-André Lépine [지금 보기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Connector-Series-Shift-Scheduling-Apps-with-PowerApps-StaffHub/m-p/122036)
+
+**PowerApps 관리 | 질문과 대답**
+<br>작성자: Manas Maheshwari [지금 보기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/PowerApps-Administration-FAQ/m-p/127369#M44)
+
+**범용 감사 앱 살펴보기: PowerApps 및 Flow에서 할 수 있는 작업 알아보기, 작성자: Paul Culmsee**
+<br>작성자: Paul Culmsee [지금 보기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Inside-the-Universal-Audit-App-See-what-PowerApps-and-Flow-are/m-p/127370#M45)
+
+## <a name="advanced-webinar-series"></a>고급자 웹 세미나 시리즈 ##
 **PowerApps 수식**
 <br>주체: Greg Lindhorst [시청하기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Deep-dive-on-formulas-by-Greg-Lindhorst/m-p/116899)
 
@@ -133,7 +105,7 @@ PowerApps 팀의 Audrie Gordon은 조직에서 PowerApps를 학습하고 채택�
 **커넥터 사용: Project Online(PWA)**
 <br>주체: Audrie Gordon [시청하기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Connecting-to-Project-Online-PWA/m-p/116889)
 
-### <a name="sharepoint-series"></a>SharePoint 시리즈 ###
+## <a name="sharepoint-series"></a>SharePoint 시리즈 ##
 **PowerApps Studio로 신속하게 응용 프로그램 구축**
 <br>주체: Karthik Bharathy [시청하기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Rapidly-build-applications-with-PowerApps-Studio/m-p/116849)
 
@@ -149,7 +121,7 @@ PowerApps 팀의 Audrie Gordon은 조직에서 PowerApps를 학습하고 채택�
 **SharePoint Online에서 목록 양식 소개**
 <br>주체: Ankit Saraf [지금 시청](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Introducing-List-Forms-in-SharePoint-Online/m-p/116916)
 
-### <a name="model-driven-series"></a>모델 기반 시리즈 ###
+## <a name="model-driven-series"></a>모델 기반 시리즈 ##
 **모델 기반 앱 구성 요소 | 모델 기반 앱 소개**
 <br>작성자: Charles Sterling 및 Adrian Orth [지금 보기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Model-Driven-App-Series-Introduction-to-Model-Driven-Apps/m-p/116820)
 
@@ -165,7 +137,7 @@ PowerApps 팀의 Audrie Gordon은 조직에서 PowerApps를 학습하고 채택�
 **모델 기반 앱 시리즈 3부 | 차트 및 대시보드 살펴보기**
 <br>작성자: Audrie Gordon 및 Casey Burke [지금 시청하기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Model-Driven-App-Components-Part-3-Exploring-Charts-and/m-p/119732)
 
-### <a name="app-designer-series"></a>앱 디자이너 시리즈 ###
+## <a name="app-designer-series"></a>앱 디자이너 시리즈 ##
 **채택 및 유용성을 위한 앱 빌드**
 <br>작성자: Veronica Ward [지금 보기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Building-Apps-for-Adoption-and-Usability-with-Veronica-Ward/m-p/117625#M38)
 
