@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 06/12/2017
 ms.author: mblythe
-ms.openlocfilehash: fca166ef388921e08bf71149a8b1274a31a7dc52
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: fcf1bcec976e34f07745c315d75569bbc86e583f
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "32330632"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37899528"
 ---
 # <a name="create-an-app-to-manage-projects"></a>프로젝트를 관리하는 앱 만들기
 > [!NOTE]
@@ -155,7 +155,7 @@ PowerPoint에서 슬라이드 모음을 만드는 것처럼 PowerApps Studio에�
      ![업데이트 단추 텍스트](./media/sharepoint-scenario-build-app/04-03-08-buttons-final.png)
      
      > [!NOTE]
-> 단추에는 **세부 정보 업데이트**라는 레이블이 있지만, 먼저 **ViewProjects** 화면으로 이동하여 업데이트할 프로젝트를 선택합니다.
+     > 단추에는 **세부 정보 업데이트**라는 레이블이 있지만, 먼저 **ViewProjects** 화면으로 이동하여 업데이트할 프로젝트를 선택합니다.
 
 ### <a name="run-the-app"></a>앱 실행
 아직은 많은 작업을 수행할 수 없는 앱이지만 원하는 경우 실행할 수 있습니다.

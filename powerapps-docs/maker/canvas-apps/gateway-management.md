@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 10/30/2016
 ms.author: archanan
-ms.openlocfilehash: d51d134878b04f3cb10ff876ef488f1390e4ef30
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 939758c1550f1006f00bd9a386eb4b9cbcd69af0
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31826801"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37899919"
 ---
 # <a name="manage-an-on-premises-data-gateway-in-powerapps"></a>PowerApps의 온-프레미스 데이터 게이트웨이를 관리합니다.
 빠르고 안전하게 PowerApps 및 온-프레미스 SQL Server 데이터베이스 또는 온-프레미스 SharePoint 사이트와 같은 클라우드에 없는 데이터 원본 간에 데이터를 전송하는 온-프레미스 데이터 게이트웨이를 설치합니다. 관리 권한이 있는 모든 게이트웨이를 보고 해당 게이트웨이에 대한 권한과 연결을 관리합니다.
@@ -67,7 +67,7 @@ ms.locfileid: "31826801"
 3. 연결을 공유하려면, **공유**를 클릭하거나 탭한 다음, 사용자를 추가하거나 제거합니다.
 
     > [!NOTE]
-> SQL Server와 같은 일부 형식의 연결만 공유할 수 있습니다. 자세한 정보는 [앱 리소스 공유](share-app-resources.md)를 참조하세요.
+   > SQL Server와 같은 일부 형식의 연결만 공유할 수 있습니다. 자세한 정보는 [앱 리소스 공유](share-app-resources.md)를 참조하세요.
 
 연결을 관리하는 방법에 대한 자세한 내용은 [연결 관리](add-manage-connections.md)를 참조하세요.
 

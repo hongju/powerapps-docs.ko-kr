@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: bda839765d797bf87590f037221b116bad781657
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: fe61a36278ce4f5fe2fb5ff16bdc0a86dc911e5e
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31833680"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37899114"
 ---
 # <a name="pie-chart-control-in-powerapps"></a>PowerApps의 원형 차트
 서로 비교하는 상대 값을 보여주는 컨트롤입니다.
@@ -104,7 +104,7 @@ ms.locfileid: "31833680"
 * 제목으로 사용할 차트 그래픽 바로 앞에 **[레이블](control-text-box.md)** 이 있어야 합니다.
 
     > [!NOTE]
-> 차트 그래픽 및 **범례**는 화면 읽기 프로그램 사용자에게 숨겨집니다. 대신 데이터의 테이블 형식으로 표시됩니다. 차트에서 데이터를 선택하는 단추를 순환할 수도 있습니다.
+  > 차트 그래픽 및 **범례**는 화면 읽기 프로그램 사용자에게 숨겨집니다. 대신 데이터의 테이블 형식으로 표시됩니다. 차트에서 데이터를 선택하는 단추를 순환할 수도 있습니다.
 
 ### <a name="low-vision-support"></a>저시력 사용자 지원
 * **범례**가 있어야 합니다.
@@ -115,4 +115,4 @@ ms.locfileid: "31833680"
 * 키보드 사용자가 탐색할 수 있도록 **[TabIndex](properties-accessibility.md)** 가 0 이상이어야 합니다.
 
     > [!NOTE]
-> 키보드 사용자가 차트로 이동하면 차트에서 데이터를 선택하는 단추를 순환할 수 있습니다.
+  > 키보드 사용자가 차트로 이동하면 차트에서 데이터를 선택하는 단추를 순환할 수 있습니다.

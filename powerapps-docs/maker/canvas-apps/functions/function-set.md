@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 06/29/2017
 ms.author: gregli
-ms.openlocfilehash: 3615328bf1c272425779998545b0d16ac5626297
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 1fdf6c92fb739f1293c90322b508b46f4ec5733e
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31832607"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37898033"
 ---
 # <a name="set-function-in-powerapps"></a>PowerApps의 Set 함수
 전역 변수의 값을 설정합니다.
@@ -55,6 +55,7 @@ PowerApps는 사용자가 앱과 상호 작용할 때 자동으로 다시 계산
 * *Value* - 필수 항목입니다.  컨텍스트 변수에 할당할 값입니다.
 
 ## <a name="examples"></a>예
+
 | 수식 | 설명 | 결과 |
 | --- | --- | --- |
 | **Set(&nbsp;Counter,&nbsp;1&nbsp;)** |전역 변수 **Counter**를 생성하거나 수정하고 값을 **1**로 설정합니다. |**Counter**의 값은 **1**입니다. 원하는 화면의 수식에 **Counter**라는 이름을 사용하여 해당 변수를 참조할 수 있습니다. |
