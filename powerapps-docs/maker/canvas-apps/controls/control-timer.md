@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 6d4f8f0393b7cb2d6471f159193327f07e648357
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: c175b1b35d063f4e20321c494d5472afa2776990
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31836910"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37899574"
 ---
 # <a name="timer-control-in-powerapps"></a>PowerApps의 타이머 컨트롤
 일정 시간이 지난 후 앱이 응답하는 방식을 결정할 수 있는 컨트롤입니다.
@@ -165,6 +165,6 @@ ms.locfileid: "31836910"
 * 시간에 민감한 중요 정보에는 **[Text](properties-core.md)** 를 사용하지 마세요. 화면 읽기 프로그램 사용자는 **[Text](properties-core.md)** 변경 내용의 알림을 받지 않습니다.
 
     > [!NOTE]
-> 화면 읽기 프로그램은 5초마다 경과된 시간을 알립니다. 그러나 타이머 **[Text](properties-core.md)** 는 알림에 포함되지 않습니다.
+  > 화면 읽기 프로그램은 5초마다 경과된 시간을 알립니다. 그러나 타이머 **[Text](properties-core.md)** 는 알림에 포함되지 않습니다.
 
 * 경과된 시간을 표시하는 **[레이블](control-text-box.md)** 을 추가하는 것이 좋습니다. 타이머의 **[Text](properties-core.md)** 를 사용하여 사용자에게 타이머를 시작하거나 중지하도록 지시합니다.

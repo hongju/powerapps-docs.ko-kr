@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 07/10/2017
 ms.author: anneta
-ms.openlocfilehash: 702be2a4f1747b6f3303d1add30d9157f5665ee7
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: c3b1fb9802541159726a33cacd07c6f9743de0e2
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "32330483"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37896699"
 ---
 # <a name="add-and-configure-a-control-in-powerapps"></a>PowerApps에서 컨트롤 추가 및 구성
 도구 모음, **속성** 탭 또는 수식 입력줄에서 직접 앱에 다양한 UI 요소를 추가하고 모양과 동작의 측면을 구성합니다. 이러한 UI 요소는 컨트롤이라고 하며, 구성하는 측면은 속성이라고 합니다.
@@ -68,7 +68,7 @@ ms.locfileid: "32330483"
     ![선택한 레이블](./media/add-configure-controls/selected-text-box.png)
 
     > [!IMPORTANT]
-> 다른 컨트롤이나 화면의 빈 영역을 선택할 때 컨트롤이 선택되면 첫 번째 요소가 더 이상 선택되지 않습니다.
+   > 다른 컨트롤이나 화면의 빈 영역을 선택할 때 컨트롤이 선택되면 첫 번째 요소가 더 이상 선택되지 않습니다.
 2. 선택 상자의 오른쪽 가장자리에 있는 핸들을 왼쪽으로 끌어 **레이블** 컨트롤을 좁게 만드세요. (가운데 핸들는 확대하는 경우에 나타납니다.)
 
     ![크기가 조정된 레이블](./media/add-configure-controls/shorter-text-box.png)
@@ -173,7 +173,7 @@ ms.locfileid: "32330483"
     ![Today 함수](./media/add-configure-controls/today-function.png)
 
     > [!TIP]
-> 계산을 수행할 뿐만 아니라 다양한 방식으로 [날짜와 시간의 형식을 지정](show-text-dates-times.md)할 수 있습니다.
+   > 계산을 수행할 뿐만 아니라 다양한 방식으로 [날짜와 시간의 형식을 지정](show-text-dates-times.md)할 수 있습니다.
 
 ## <a name="configure-two-controls-to-interact-with-each-other"></a>서로 상호 작용할 두 컨트롤 구성
 이 절차에서는 확인란을 추가한 다음, 해당 확인란을 선택한 경우에만 나타나야 하는 레이블을 구성합니다.

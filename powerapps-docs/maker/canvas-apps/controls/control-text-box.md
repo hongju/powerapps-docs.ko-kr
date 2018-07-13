@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: caa8cf8678a509e4d66442f790b8d89905d48b92
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: cfc47e95cff02dfcbcc2d3ff456e32a4ca2c675e
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31838605"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37899442"
 ---
 # <a name="label-control-in-powerapps"></a>PowerApps의 레이블 컨트롤
 텍스트, 숫자, 날짜 또는 통화와 같은 데이터를 표시하는 상자입니다.
@@ -129,7 +129,7 @@ ms.locfileid: "31838605"
   **Today()**
   
     > [!NOTE]
-> 식을 지정할 때 수식의 인수가 리터럴 문자열이 아닌 한 따옴표를 사용하지 않습니다. 이러한 경우에는 수식이 아닌 인수를 큰따옴표에 넣으세요.
+  > 식을 지정할 때 수식의 인수가 리터럴 문자열이 아닌 한 따옴표를 사용하지 않습니다. 이러한 경우에는 수식이 아닌 인수를 큰따옴표에 넣으세요.
   
     **[Today](../functions/function-now-today-istoday.md)** 함수 또는 [다른 함수](../formula-reference.md)에 대해 더 알고 싶으신가요?
 
@@ -159,7 +159,7 @@ ms.locfileid: "31838605"
 * **[Text](properties-core.md)** 가 있어야 합니다.
 
     > [!NOTE]
-> 화면 읽기 프로그램은 **[TabIndex](properties-accessibility.md)** 가 0 이상이면 **레이블**을 단추로 처리합니다.
+  > 화면 읽기 프로그램은 **[TabIndex](properties-accessibility.md)** 가 0 이상이면 **레이블**을 단추로 처리합니다.
 
 ### <a name="low-vision-support"></a>저시력 사용자 지원
 * **레이블**은 링크로 사용되는 경우 링크처럼 표시되어야 합니다.

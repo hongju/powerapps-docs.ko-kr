@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 11/08/2015
 ms.author: gregli
-ms.openlocfilehash: a784251899e7c51ef8213b6d6f31c2830b08e2dc
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: e7da24eec1a85a1d57ab83476734639ef0f5dd25
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31838858"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37898079"
 ---
 # <a name="updatecontext-function-in-powerapps"></a>PowerApps의 UpdateContext 함수
 현재 화면의 [컨텍스트 변수](../working-with-variables.md#create-a-context-variable)를 만들거나 업데이트합니다.
@@ -68,6 +68,7 @@ PowerApps는 사용자가 앱과 상호 작용할 때 자동으로 다시 계산
 * *ContextVariable2*: *Value2*, ... - 선택 사항. 만들거나 업데이트할 추가 컨텍스트 변수 및 값입니다.
 
 ## <a name="examples"></a>예
+
 | 수식 | 설명 | 결과 |
 | --- | --- | --- |
 | **UpdateContext( {&nbsp;Counter:&nbsp;1&nbsp;} )** |컨텍스트 변수 **Counter**를 생성하거나 수정하고 값을 **1**로 설정합니다. |**Counter**의 값은 **1**입니다. 수식에 **Counter**라는 이름을 사용하여 해당 변수를 참조할 수 있습니다. |
@@ -85,10 +86,10 @@ PowerApps는 사용자가 앱과 상호 작용할 때 자동으로 다시 계산
 6. **Target** 화면의 **Insert** 탭에서 **Shapes**를 선택한 후 뒤로 화살표를 선택합니다.
 7. 뒤로 화살표의 **[OnSelect](../controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.<br>**Navigate(Source, ScreenTransition.Fade)**
 8. **Source** 화면에서 F5 키를 누른 후 두 언어 중 하나에 대한 단추를 선택합니다.
-   
+
     **Target** 화면에 선택한 단추에 해당하는 언어로 레이블이 나타납니다.
 9. 뒤로 화살표를 선택하여 **Source** 화면으로 돌아간 후 다른 언어에 대한 단추를 선택합니다.
-   
+
     **Target** 화면에 선택한 단추에 해당하는 언어로 레이블이 나타납니다.
 10. 기본 작업 영역으로 돌아가려면 Esc를 누릅니다.
 

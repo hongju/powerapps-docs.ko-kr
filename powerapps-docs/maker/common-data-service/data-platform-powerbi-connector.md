@@ -8,12 +8,12 @@ ms.component: cds
 ms.topic: conceptual
 ms.date: 05/21/2018
 ms.author: clwesene
-ms.openlocfilehash: d8323eb103751a1be78aeea0093b9d6651ddc3e2
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: bb0bec7cf459eb9084aea4db7264350b7913e578
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34445869"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37898760"
 ---
 # <a name="create-a-power-bi-report"></a>Power BI 보고서 만들기
 앱용 Common Data Service를 사용하면 Power BI Desktop을 사용하여 사용자 데이터에 바로 연결하여 보고서를 만들고 Power BI에 게시할 수 있습니다. Power BI에서 보고서는 대시보드에서 사용하고, 다른 사용자와 공유하며, Power BI 모바일 앱의 플랫폼 간 액세스할 수 있습니다.
@@ -57,11 +57,11 @@ ms.locfileid: "34445869"
 
 4. 3개의 폴더로 그룹화된 사용자 환경에 사용할 수 있는 모든 엔터티가 탐색기에 표시됩니다. **공통 데이터 모델** 폴더를 확장합니다.
 
-    * 공통 데이터 모델 - 이는 일반적으로 사용되는 표준 엔터티이며 모든 환경에서 공통 데이터 모델의 일부로 사용할 수 있습니다.
-    * 사용자 지정 엔터티 - 환경에서 생성하거나 가져온 엔터티입니다.
-    * 시스템 - 공통 데이터 모델 및 사용자 정의 엔터티를 비롯한 사용자 환경의 모든 엔터티를 포함합니다.
+   * 공통 데이터 모델 - 이는 일반적으로 사용되는 표준 엔터티이며 모든 환경에서 공통 데이터 모델의 일부로 사용할 수 있습니다.
+   * 사용자 지정 엔터티 - 환경에서 생성하거나 가져온 엔터티입니다.
+   * 시스템 - 공통 데이터 모델 및 사용자 정의 엔터티를 비롯한 사용자 환경의 모든 엔터티를 포함합니다.
 
-    ![Power BI Desktop](./media/data-platform-cds-powerbi-connector/CreateReport4.png "Power BI Desktop")
+     ![Power BI Desktop](./media/data-platform-cds-powerbi-connector/CreateReport4.png "Power BI Desktop")
 
 5. 오른쪽 창에서 데이터의 미리 보기를 확인하려면 **계정** 엔터티를 선택하고 **로드**를 클릭합니다.
 

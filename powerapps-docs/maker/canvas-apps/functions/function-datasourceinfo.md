@@ -7,12 +7,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 11/11/2015
 ms.author: gregli
-ms.openlocfilehash: 5f156e5f7d0acb48090ac921aa92f31f3a6d20ea
-ms.sourcegitcommit: 222df368f1f35e9357b0b1adf0e69d7206d8126e
+ms.openlocfilehash: 67354776e7af05fb619033462c52665ce3aa046c
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "36298472"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37898631"
 ---
 # <a name="datasourceinfo-function-in-powerapps"></a>PowerApps의 DataSourceInfo 함수
 [데이터 원본](../working-with-data-sources.md)에 대한 정보를 제공합니다.
@@ -59,7 +59,7 @@ ms.locfileid: "36298472"
 * *ColumnName* – 선택 항목입니다. 열 수준 정보의 경우 열 이름은 문자열 형식입니다. **Phone** 열은 큰따옴표를 포함하여 **"Phone"** 으로 전달됩니다. 데이터 원본 레벨에 대한 정보는 *ColumnName* 인수를 사용할 수 없습니다.
   
     > [!NOTE]
-> 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 각 공백을 **"\_x0020\_"** 으로 지정합니다. 예를 들어, **"Column Name"** 은 **"Column_x0020_Name"** 으로 지정합니다.
+  > 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 각 공백을 **"\_x0020\_"** 으로 지정합니다. 예를 들어, **"Column Name"** 은 **"Column_x0020_Name"** 으로 지정합니다.
 
 ## <a name="examples"></a>예
 이 섹션의 예제에서는 **IceCream**이라는 데이터 원본을 사용합니다.

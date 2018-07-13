@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: e6a5df9283cc0d6f5ab30f27096ba3e7e9e5bff0
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 5397c99d02e824a86147af053e1f907f83ce3543
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31836273"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37898279"
 ---
 # <a name="column-chart-and-line-chart-controls-in-powerapps"></a>PowerApps의 세로 막대형 차트 및 꺾은선형 차트 컨트롤
 데이터를 x 및 축이 있는 그래프로 표시하는 컨트롤입니다.
@@ -139,7 +139,7 @@ ms.locfileid: "31836273"
 * 차트 그래픽의 요약을 추가하는 것이 좋습니다. 예를 들어 “꺾은선형 차트는 올해 3월과 8월 사이의 지속적인 판매 증가세를 보여줍니다.”를 추가합니다.
 
     > [!NOTE]
-> 차트 그래픽 및 **범례**는 화면 읽기 프로그램 사용자에게 숨겨집니다. 대신 데이터의 테이블 형식으로 표시됩니다. 차트에서 데이터를 선택하는 단추를 순환할 수도 있습니다.
+  > 차트 그래픽 및 **범례**는 화면 읽기 프로그램 사용자에게 숨겨집니다. 대신 데이터의 테이블 형식으로 표시됩니다. 차트에서 데이터를 선택하는 단추를 순환할 수도 있습니다.
 
 ### <a name="low-vision-support"></a>저시력 사용자 지원
 * 둘 이상의 계열이 표시되는 경우 **범례**가 있어야 합니다.
@@ -150,4 +150,4 @@ ms.locfileid: "31836273"
 * 키보드 사용자가 탐색할 수 있도록 **[TabIndex](properties-accessibility.md)** 가 0 이상이어야 합니다.
 
     > [!NOTE]
-> 키보드 사용자가 차트로 이동하면 차트에서 데이터를 선택하는 단추를 순환할 수 있습니다.
+  > 키보드 사용자가 차트로 이동하면 차트에서 데이터를 선택하는 단추를 순환할 수 있습니다.

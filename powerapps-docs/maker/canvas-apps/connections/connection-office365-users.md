@@ -7,12 +7,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 06/07/2016
 ms.author: lanced
-ms.openlocfilehash: a1e0ddd7dad50ec269a0946163cc7b822ddb0681
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: 679d9b905aa1b7d7b1b731de400e6e133787769b
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34803488"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37897113"
 ---
 # <a name="connect-to-office-365-users-connection-from-powerapps"></a>PowerApps에서 Office 365 사용자 연결
 ![Office 365 사용자](./media/connection-office365-users/office365icon.png)
@@ -27,7 +27,7 @@ Office 365 사용자를 통해 Office 365 계정을 사용하여 조직의 사�
 
 ## <a name="add-a-connection"></a>연결 추가
 1. [데이터 연결을 추가](../add-data-connection.md)하고 **Office 365 사용자**를 선택합니다.  
-   
+
     ![Office 365에 연결](./media/connection-office365-users/add-office.png)
 2. **연결**을 선택하고 로그인하라는 메시지가 표시되면 회사 계정을 입력합니다.
 
@@ -37,7 +37,7 @@ Office 365 사용자 연결이 만들어지고 앱에 추가됩니다. 이제 �
 ### <a name="show-information-about-the-current-user"></a>현재 사용자에 대한 정보 표시
 1. **삽입** 메뉴에서 **레이블**을 선택합니다.
 2. 함수 막대에서 다음 수식 중 하나에 **[Text](../controls/properties-core.md)** 속성을 설정합니다.
-   
+
     `Office365Users.MyProfile().Department`  
     `Office365Users.MyProfile().DisplayName`  
     `Office365Users.MyProfile().GivenName`  
@@ -54,13 +54,13 @@ Office 365 사용자 연결이 만들어지고 앱에 추가됩니다. 이제 �
 
 ### <a name="show-information-about-another-user"></a>다른 사용자에 대한 정보 표시
 1. **삽입** 메뉴에서 **텍스트 상자**를 선택한 다음 **텍스트 입력**을 선택합니다. **InfoAbout**로 이름을 바꿉니다.  
-   
+
     ![컨트롤 이름 바꾸기](./media/connection-office365-users/renameinfoabout.png)
 2. **InfoAbout**에 조직의 사용자 전자 메일 주소를 입력하거나 붙여넣습니다. 예를 들어 *yourName*@*yourCompany.com*으로 입력합니다.
 3. **레이블**(**삽입** 메뉴)를 추가하고 다음 수식 중 하나에 **[Text](../controls/properties-core.md)** 속성을 설정합니다.
-   
+
    * 다른 사용자에 대한 정보 표시:  
-     
+
        `Office365Users.UserProfile(InfoAbout.Text).Department`  
        `Office365Users.UserProfile(InfoAbout.Text).DisplayName`  
        `Office365Users.UserProfile(InfoAbout.Text).GivenName`  
@@ -73,7 +73,7 @@ Office 365 사용자 연결이 만들어지고 앱에 추가됩니다. 이제 �
        `Office365Users.UserProfile(InfoAbout.Text).UserPrincipalName`  
        `Office365Users.UserProfile(InfoAbout.Text).AccountEnabled`  
    * 다른 사용자의 관리자에 대한 정보 표시:  
-     
+
        `Office365Users.Manager(InfoAbout.Text).Department`  
        `Office365Users.Manager(InfoAbout.Text).DisplayName`  
        `Office365Users.Manager(InfoAbout.Text).GivenName`  
@@ -100,28 +100,28 @@ Office 365 사용자 연결이 만들어지고 앱에 추가됩니다. 이제 �
 1. **텍스트 입력** 컨트롤을 추가하고(**삽입** 메뉴 > **텍스트**), 이름을 **InfoAbout**으로 바꿉니다.
 2. **InfoAbout**에 조직의 사용자 전자 메일 주소를 입력합니다. 예를 들어 *yourManagersName*@*yourCompany.com*으로 입력합니다.
 3. **텍스트 추가** 갤러리를 추가하고(**삽입** 메뉴 > **갤러리**) 다음 수식에 **[Items](../controls/properties-core.md)** 속성을 설정합니다.
-   
+
     `Office365Users.DirectReports(InfoAbout.Text)`
-   
+
     갤러리에 사용자의 직속 부하에 대해 입력한 정보가 표시됩니다.
-   
+
     선택한 갤러리의 오른쪽 창에는 해당 갤러리 옵션이 나와 있습니다.
 4. 두 번째 목록에서 **JobTitle**을 선택합니다. 세 번째 목록에서 **DisplayName**을 선택합니다. 갤러리에서 이러한 값을 표시하도록 업데이트됩니다.  
-   
+
 > [!NOTE]
 > 실제로 첫 번째 상자는 이미지 컨트롤입니다. 이미지를 설정하지 않은 경우 이미지 컨트롤을 삭제하고 그 자리에 레이블을 추가할 수 있습니다. [컨트롤을 추가하고 구성](../add-configure-controls.md)하는 것은 좋은 리소스입니다.
 
 ### <a name="search-for-users"></a>사용자 검색
 1. **텍스트 입력** 컨트롤을 추가하고(**삽입** 메뉴 > **텍스트**), **SearchTerm**으로 이름을 바꿉니다. 검색할 이름을 입력합니다. 예를 들어 성을 제외한 이름을 입력합니다.
 2. **텍스트 추가** 갤러리를 추가하고(**삽입** 메뉴 > **갤러리**) 다음 수식에 **[Items](../controls/properties-core.md)** 속성을 설정합니다.
-   
+
     `Office365Users.SearchUser({searchTerm: SearchTerm.Text})`
-   
+
     갤러리에 입력한 검색 텍스트를 포함한 이름이 표시됩니다.
-   
+
     선택한 갤러리의 오른쪽 창에는 해당 갤러리 옵션이 나와 있습니다.
 3. 두 번째 목록에서 **Mail**을 선택합니다. 세 번째 목록에서 **DisplayName**을 선택합니다.
-   
+
     갤러리의 두 번째와 세 번째 레이블이 업데이트됩니다.
 
 ## <a name="view-the-available-functions"></a>사용할 수 있는 함수 보기
@@ -142,6 +142,7 @@ Office 365 사용자 연결이 만들어지고 앱에 추가됩니다. 이제 �
 없음
 
 #### <a name="output-properties"></a>출력 속성
+
 | 속성 이름 | 유형 | 설명 |
 | --- | --- | --- |
 | Department |문자열 |사용자의 부서입니다. |
@@ -160,11 +161,13 @@ Office 365 사용자 연결이 만들어지고 앱에 추가됩니다. 이제 �
 사용자 프로필 가져오기: 특정 사용자 프로필을 검색합니다.
 
 #### <a name="input-properties"></a>입력 속성
+
 | 이름 | 데이터 형식 | 필수 | 설명 |
 | --- | --- | --- | --- |
 | ID입니다. |문자열 |예 |사용자 계정 이름 또는 전자 메일 ID입니다. |
 
 #### <a name="output-properties"></a>출력 속성
+
 | 속성 이름 | 유형 | 설명 |
 | --- | --- | --- |
 | Department |문자열 |사용자의 부서입니다. |
@@ -183,11 +186,13 @@ Office 365 사용자 연결이 만들어지고 앱에 추가됩니다. 이제 �
 관리자 가져오기: 지정된 사용자의 관리자에 대한 사용자 프로필을 검색합니다.
 
 #### <a name="input-properties"></a>입력 속성
+
 | 이름 | 데이터 형식 | 필수 | 설명 |
 | --- | --- | --- | --- |
 | ID입니다. |문자열 |예 |사용자 계정 이름 또는 전자 메일 ID입니다. |
 
 #### <a name="output-properties"></a>출력 속성
+
 | 속성 이름 | 유형 | 설명 |
 | --- | --- | --- |
 | Department |문자열 |사용자의 부서입니다. |
@@ -206,11 +211,13 @@ Office 365 사용자 연결이 만들어지고 앱에 추가됩니다. 이제 �
 직속 부하 가져오기: 직속 부하를 가져옵니다.
 
 #### <a name="input-properties"></a>입력 속성
+
 | 이름 | 데이터 형식 | 필수 | 설명 |
 | --- | --- | --- | --- |
 | ID입니다. |문자열 |예 |사용자 계정 이름 또는 전자 메일 ID입니다. |
 
 #### <a name="output-properties"></a>출력 속성
+
 | 속성 이름 | 유형 | 설명 |
 | --- | --- | --- |
 | Department |문자열 |사용자의 부서입니다. |
@@ -229,11 +236,13 @@ Office 365 사용자 연결이 만들어지고 앱에 추가됩니다. 이제 �
 사용자 검색: 사용자 프로필의 검색 결과를 검색합니다.
 
 #### <a name="input-properties"></a>입력 속성
+
 | 이름 | 데이터 형식 | 필수 | 설명 |
 | --- | --- | --- | --- |
 | searchTerm |문자열 |아니요 |검색 문자열입니다. 적용 대상: 표시 이름, 지정된 이름, 성, 메일, 메일 애칭 및 사용자 계정 이름 |
 
 #### <a name="output-properties"></a>출력 속성
+
 | 속성 이름 | 유형 | 설명 |
 | --- | --- | --- |
 | Department |문자열 |사용자의 부서입니다. |

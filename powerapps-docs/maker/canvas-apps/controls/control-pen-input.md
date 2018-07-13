@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 84981a00a516f553d3f1b318f12a6f68064c66b2
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 697752312810473158b4f8cdfed4ef1d7618fdb7
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31832174"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37898355"
 ---
 # <a name="pen-input-control-in-powerapps"></a>PowerApps의 펜 입력 컨트롤
 사용자가 그리고 삭제하고 이미지의 영역을 강조 표시할 수 있는 컨트롤입니다.
@@ -101,7 +101,7 @@ ms.locfileid: "31832174"
 * **[AccessibleLabel](properties-accessibility.md)** 이 있어야 합니다.
 
     > [!IMPORTANT]
-> 화면 읽기 프로그램 사용자는 **펜 입력**에 액세스할 수 없습니다. 항상 대체 입력 양식을 제공하세요. 예를 들어 스케치가 필요한 경우 사용자가 이미지를 업로드할 수 있는 **[그림 추가](control-add-picture.md)** 컨트롤을 추가하는 것이 좋습니다. 두 가지 방법을 모두 제공할 수 있고 사용자가 더 익숙한 방법을 선택할 수 있습니다.
+  > 화면 읽기 프로그램 사용자는 **펜 입력**에 액세스할 수 없습니다. 항상 대체 입력 양식을 제공하세요. 예를 들어 스케치가 필요한 경우 사용자가 이미지를 업로드할 수 있는 **[그림 추가](control-add-picture.md)** 컨트롤을 추가하는 것이 좋습니다. 두 가지 방법을 모두 제공할 수 있고 사용자가 더 익숙한 방법을 선택할 수 있습니다.
 
 ### <a name="keyboard-support"></a>키보드 지원
 

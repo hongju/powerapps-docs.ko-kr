@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 01/10/2018
 ms.author: mblythe
-ms.openlocfilehash: 4863ee2c19c17eb8afcc8913dcfb5f3831af828c
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 7ab372f8e8a03da35752614905017e24672480b3
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31839111"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37897711"
 ---
 # <a name="create-a-power-bi-report-to-analyze-projects"></a>프로젝트를 분석하는 Power BI 보고서 만들기
 > [!NOTE]
@@ -94,8 +94,8 @@ ms.locfileid: "31839111"
    
     ![열 제거](./media/sharepoint-scenario-build-report/05-01-07-remove-column.png)
 3. **ID** 열 뒤에 있는 두 열, 즉 **ServerRedirectedEmbedURL** 및 **ContentTypeId**를 제거합니다. 
-> [!TIP]
-> Shift 키를 사용하여 두 열을 선택한 다음 **열 제거**를 클릭하거나 탭합니다.
+   > [!TIP]
+   > Shift 키를 사용하여 두 열을 선택한 다음 **열 제거**를 클릭하거나 탭합니다.
 4. **PMAssigned** 열(총 22열)의 오른쪽에 있는 모든 열을 제거합니다. 테이블은 다음 이미지와 같습니다.
    
     ![쿼리 편집기의 프로젝트 세부 정보 테이블](./media/sharepoint-scenario-build-report/05-01-08-table-details.png)

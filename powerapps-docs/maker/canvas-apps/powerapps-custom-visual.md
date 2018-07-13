@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 03/15/2018
 ms.author: mblythe
-ms.openlocfilehash: da3d21e3f4488f552568a95d856af175f9a042eb
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 9dbc59baf8970582b108ee588904437441107722
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31827100"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37896377"
 ---
 # <a name="powerapps-custom-visual-for-power-bi"></a>Power BI용 PowerApps 사용자 지정 시각적 개체
 
@@ -31,11 +31,11 @@ Power BI 보고서에서 PowerApps 사용자 지정 시각적 개체를 사용�
 
     ![마켓플레이스의 사용자 지정 시각적 개체](./media/powerapps-custom-visual/powerapps-store.png) 
 
-1. 보고서에 PowerApps 시각적 개체를 추가하고, 연결된 데이터 필드를 설정합니다.
+2. 보고서에 PowerApps 시각적 개체를 추가하고, 연결된 데이터 필드를 설정합니다.
 
     ![보고서 데이터 선택](./media/powerapps-custom-visual/add-visual-set-data.png)
 
-1. 기존 앱을 선택하거나 하나를 만들 수 있습니다. 앱을 만들도록 선택하는 경우 만들 각 환경에서 선택할 수 있습니다.
+3. 기존 앱을 선택하거나 하나를 만들 수 있습니다. 앱을 만들도록 선택하는 경우 만들 각 환경에서 선택할 수 있습니다.
 
     ![새 앱 또는 기존 앱](./media/powerapps-custom-visual/create-new-or-choose-app.png)
 
@@ -45,19 +45,19 @@ Power BI 보고서에서 PowerApps 사용자 지정 시각적 개체를 사용�
 
     ![새 앱](./media/powerapps-custom-visual/new-app.png)
 
-1. 이제 PowerApps Studio에서 2단계에서 설정한 데이터 필드를 사용할 수 있습니다. `PowerBIIntegration` 개체는 다른 PowerApps 읽기 전용 데이터 원본 또는 컬렉션처럼 작동합니다. 개체를 사용하여 모든 컨트롤을 채우거나 다른 데이터 원본으로 조인 및 필터링할 수 있습니다.
+4. 이제 PowerApps Studio에서 2단계에서 설정한 데이터 필드를 사용할 수 있습니다. `PowerBIIntegration` 개체는 다른 PowerApps 읽기 전용 데이터 원본 또는 컬렉션처럼 작동합니다. 개체를 사용하여 모든 컨트롤을 채우거나 다른 데이터 원본으로 조인 및 필터링할 수 있습니다.
 
     ![사용자 지정 수식](./media/powerapps-custom-visual/custom-formula.png)
 
     이 수식은 고객 데이터 원본과 Power BI 데이터를 조인합니다. `LookUp(Customer,Customer_x0020_Name=First(PowerBIIntegration.Data).Customer_Name)`
 
- Power BI 보고서와 실행된 PowerApps Studio의 인스턴스는 라이브 데이터 연결을 공유합니다. 둘 다 열려 있는 동안 보고서의 데이터를 필터링하거나 변경하여 업데이트된 데이터가 PowerApps Studio의 앱에 즉시 반영되는 것을 확인할 수 있습니다.
+   Power BI 보고서와 실행된 PowerApps Studio의 인스턴스는 라이브 데이터 연결을 공유합니다. 둘 다 열려 있는 동안 보고서의 데이터를 필터링하거나 변경하여 업데이트된 데이터가 PowerApps Studio의 앱에 즉시 반영되는 것을 확인할 수 있습니다.
 
-1. 앱에 대한 빌드 또는 변경을 완료한 후 PowerApps에 앱을 저장 및 게시하여 Power BI 보고서에서 앱을 봅니다.
+5. 앱에 대한 빌드 또는 변경을 완료한 후 PowerApps에 앱을 저장 및 게시하여 Power BI 보고서에서 앱을 봅니다.
 
-1. 변경 내용에 만족하면 보고서의 사용자와 PowerApps 앱을 공유한 다음, 보고서를 저장해야 합니다.
+6. 변경 내용에 만족하면 보고서의 사용자와 PowerApps 앱을 공유한 다음, 보고서를 저장해야 합니다.
 
-1. 또한 사용자가 데이터에서 통찰력을 얻음에 따라 작업을 수행할 수 있는 보고서를 만들었습니다.
+7. 또한 사용자가 데이터에서 통찰력을 얻음에 따라 작업을 수행할 수 있는 보고서를 만들었습니다.
 
     ![보고서 작업](./media/powerapps-custom-visual/working-report.gif)
 

@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 04/27/2016
 ms.author: gregli
-ms.openlocfilehash: a9cd26ad41ceaa5b94678a3ef87bf0ab6dda98a1
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: bf66c1f7596b8a3ef4c8495db3f0ac2af8165d8c
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "32330678"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37899689"
 ---
 # <a name="understand-data-forms-in-microsoft-powerapps"></a>Microsoft PowerApps 데이터 양식에 대한 이해
 세 가지 유형의 컨트롤을 추가하여 사용자가 레코드를 찾아보고, 해당 레코드에 대한 세부 정보를 표시하고, 레코드를 편집하거나 만들 수 있습니다.
@@ -157,7 +157,7 @@ PowerApps에서 앱을 생성하는 방법을 이해하면 이 항목의 앞부�
 * 비어 있는 전화 앱을 만들고 [데이터 원본에 연결합니다](add-data-connection.md).
   
     > [!NOTE]
-> 태블릿 앱은 매우 비슷하지만, 추가 화면 공간을 최대한 활용하기 위해 별도의 [화면 레이아웃](#screen-design)이 필요할 수 있습니다.
+  > 태블릿 앱은 매우 비슷하지만, 추가 화면 공간을 최대한 활용하기 위해 별도의 [화면 레이아웃](#screen-design)이 필요할 수 있습니다.
   
     항목의 나머지 부분에 있는 예제는 **아이스크림**이라는 데이터 원본을 기반으로 합니다.
 

@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: model
 ms.date: 03/21/2018
 ms.author: matp
-ms.openlocfilehash: 76571a53c95661d853b7fb326e3c1087a6f432c4
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: eceaf1886bf77b85d6d6b3faae3f32428223cb7e
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "32330931"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37899505"
 ---
 # <a name="overview-of-building-a-model-driven-app"></a>모델 기반 앱 빌드에 대한 개요
 
@@ -30,7 +30,7 @@ ms.locfileid: "32330931"
 - 데스크톱에서 모바일에 이르는 다양한 장치 간에 유사한 UI로 복잡한 응답성이 뛰어난 앱 생성
 - Dynamics 365 고객 참여 플랫폼에서 사용할 수 있는 것과 유사한 디자인 기능 
 - 앱을 솔루션으로 배포 가능
- 
+
 ## <a name="the-approach-to-model-driven-app-making"></a>모델 기반 앱을 만들기 위한 방법
 기본적인 수준에서 모델 기반 앱 만들기는 3가지 핵심 영역으로 이루어져 있습니다.
 
@@ -54,6 +54,7 @@ ms.locfileid: "32330931"
 
 ### <a name="data"></a>데이터
 이러한 구성 요소는 앱이 기반으로 하는 데이터를 결정합니다.
+
 
 
 |구성 요소  |설명  |디자이너  |

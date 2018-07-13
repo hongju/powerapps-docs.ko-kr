@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 10/06/2017
 ms.author: sharik
-ms.openlocfilehash: d24777ec34759a98421784995f5a73b0dfc1d2d2
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: a68986c39ffe251f55c10a26386c8430398d2718
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31826272"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37895825"
 ---
 # <a name="show-edit-or-add-a-record-from-a-table-in-powerapps"></a>PowerApps에서 테이블의 레코드 표시, 편집 또는 추가
 레코드의 모든 필드를 표시하려면 **[폼 표시](controls/control-form-detail.md)** 컨트롤을 추가하고 구성합니다. 레코드의 모든 필드를 편집하고(또는 레코드를 추가) 변경 내용을 데이터 원본에 다시 저장하려면 **[폼 편집](controls/control-form-detail.md)** 컨트롤을 추가하고 구성합니다.
@@ -36,7 +36,7 @@ ms.locfileid: "31826272"
     **FlooringEstimates.Name**
 
     > [!NOTE]
-> 컨트롤을 추가하거나, 이름을 바꾸거나, 속성을 설정하는 방법을 잘 모르는 경우 [컨트롤 추가 및 제어](add-configure-controls.md)를 참조하세요.
+   > 컨트롤을 추가하거나, 이름을 바꾸거나, 속성을 설정하는 방법을 잘 모르는 경우 [컨트롤 추가 및 제어](add-configure-controls.md)를 참조하세요.
 
     목록은 데이터 원본에서 바닥재 제품의 이름을 표시합니다.
 
@@ -45,7 +45,7 @@ ms.locfileid: "31826272"
     ![양식 추가](./media/add-form/add-a-form.png)
 
     > [!NOTE]
-> 이 토픽에서는 **폼 편집** 컨트롤을 설명하지만, 유사한 원칙이 **폼 표시** 컨트롤에도 적용됩니다.
+   > 이 토픽에서는 **폼 편집** 컨트롤을 설명하지만, 유사한 원칙이 **폼 표시** 컨트롤에도 적용됩니다.
 
 3. 폼의 **[DataSource](controls/control-form-detail.md)** 속성을 **FlooringEstimates**로, 폼의 **[Item](controls/control-form-detail.md)** 속성을 다음 수식으로 설정합니다.
 
@@ -56,7 +56,7 @@ ms.locfileid: "31826272"
 4. **데이터** 창에서 각 필드의 확인란을 클릭하거나 탭하여 표시합니다.
 
     > [!NOTE]
-> **데이터** 창이 닫히면 왼쪽 창에서 폼을 선택한 다음 오른쪽 창에서 **데이터**를 클릭하거나 탭하여 엽니다.
+   > **데이터** 창이 닫히면 왼쪽 창에서 폼을 선택한 다음 오른쪽 창에서 **데이터**를 클릭하거나 탭하여 엽니다.
 
     ![양식에 필드 표시](./media/add-form/checkbox.png)
 

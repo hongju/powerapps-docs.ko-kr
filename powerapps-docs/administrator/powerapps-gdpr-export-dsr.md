@@ -8,12 +8,12 @@ ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 05/23/2018
 ms.author: jamesol
-ms.openlocfilehash: 000f15ea7b1fa4e11cbe49b44e57017daf973a89
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: 8eb651bcd4ad9320dc8995864249f619bb76ab77
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34552970"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37896860"
 ---
 # <a name="responding-to-data-subject-rights-dsr-requests-to-export-powerapps-customer-data"></a>PowerApps 고객 데이터를 내보내기 위한 DSR(Data Subject Rights) 요청에 응답
 “데이터 이식성 권한”을 사용하면 데이터 주체가 다른 데이터 컨트롤러에게 전송될 수 있는 자신의 개인 데이터 복사본을 전자 형식(구조화되고, 일반적으로 사용되고, 컴퓨터에서 읽을 수 있고, 상호 운용 가능한 형식)으로 요청할 수 있습니다.
@@ -39,7 +39,7 @@ ms.locfileid: "34552970"
 PowerApps 사용자 설정, 사용자 앱 설정 및 알림 | | 앱 작성자: 사용 가능 <br> 관리자: 사용할 수 없음
 
 > ** 앱용 CDS(Common Data Service)가 도입됨에 따라 환경 내에서 데이터베이스를 만드는 경우 환경 권한 및 모델 기반 앱 권한은 앱용 CDS 데이터베이스 인스턴스 내에 레코드로 저장됩니다. 앱용 CDS를 사용하는 사용자에 대한 DSR 요청에 응답하는 방법에 대한 자세한 내용은 [앱용 Common Data Service 고객 데이터에 대한 DSR(Data Subject Rights) 요청에 응답](common-data-service-gdpr-dsr-guide.md)을 참조하세요.
-
+> 
 > *** 관리자는 리소스 소유자가 액세스 권한을 명시적으로 부여받은 경우에만 [PowerApps 포털](https://web.powerapps.com)에서 이 리소스에 액세스할 수 있습니다. 액세스 권한이 부여되지 않은 관리자는 [PowerApps 관리자 PowerShell cmdlet](https://go.microsoft.com/fwlink/?linkid=871804)을 이용해야 합니다.
 
 ## <a name="prerequisites"></a>필수 조건

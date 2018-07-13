@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 08/28/2017
 ms.author: lanced
-ms.openlocfilehash: dc68b0f404c2a8d636deb4e77c2ada4582ed3a37
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: baa4c71efb54cea6f04cd45b895009a3c3ce17c7
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31836749"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37899298"
 ---
 # <a name="overview-of-connectors-for-powerapps"></a>PowerApps용 커넥터의 개요
 데이터는 PowerApps에서 빌드하는 앱을 포함해 대부분 앱의 핵심입니다. 데이터는 *데이터 원본*에 저장되며 *연결*을 만들어 해당 데이터를 앱으로 구현합니다. 이 연결은 특정 *커넥터*를 사용하여 데이터 원본과 데이터를 교환합니다. PowerApps에는 SharePoint, SQL Server, Office 365, Salesforce, Twitter 등을 포함한 많은 인기 서비스 및 온-프레미스 데이터 원본용 커넥터가 있습니다. 앱에 데이터 추가를 시작하려면 [PowerApps에서 데이터 연결 추가](add-data-connection.md)를 참조하세요.
@@ -46,7 +46,7 @@ PowerApps에 두 가지 유형의 커넥터, 즉 위에 나와 있는 것과 같
     [앱을 처음부터 만들기](get-started-create-from-blank.md)
 
     > [!NOTE]
-> Excel에서 데이터에 연결하려면 통합 문서는 OneDrive와 같은 클라우드 저장소 서비스에서 호스팅해야 합니다. 자세한 내용은 [PowerApps에서 클라우드 저장소에 연결](connections/cloud-storage-blob-connections.md)을 참조하세요.
+  > Excel에서 데이터에 연결하려면 통합 문서는 OneDrive와 같은 클라우드 저장소 서비스에서 호스팅해야 합니다. 자세한 내용은 [PowerApps에서 클라우드 저장소에 연결](connections/cloud-storage-blob-connections.md)을 참조하세요.
 
 * 다른 커넥터는 Twitter, Facebook 및 Office 365 Outlook 등의 함수 기반 데이터 원본과 작용합니다. 이러한 데이터 원본 작업 시 데이터는 기본 서비스의 특정 함수 호출에 기반하여 PowerApps로 반환됩니다. 예를 들어 Twitter 커넥터를 통해 `Twitter.MyFollowers()`를 호출하여 팔로워 목록을 반환합니다. 이 데이터를 양식 또는 갤러리에서 사용할 수 있지만, 테이블 형식 데이터보다 약간 더 많은 작업이 필요합니다. 자세한 내용은 [PowerApps에서 Twitter에 연결](connections/connection-twitter.md)을 참조하세요.
 

@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 09/03/2016
 ms.author: anneta
-ms.openlocfilehash: 16c585f553373faee609683774e7938e8bd165f1
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: ca359f550d81a73f448ce18d94d0d36efceb839b
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31824593"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37897411"
 ---
 # <a name="create-a-connection-to-sharepoint-from-powerapps"></a>PowerApps에서 SharePoint에 대한 연결 만들기
 SharePoint Online 또는 온-프레미스 SharePoint 중 하나에 대한 연결을 만들면 앱을 자동으로 생성하거나 처음부터 새로 빌드할 수 있습니다.
@@ -61,7 +61,7 @@ PowerApps에 대해 잘 모르는 경우 [PowerApps 소개](getting-started.md)�
     ![온-프레미스 SharePoint 선택](./media/connect-to-sharepoint/choose-onprem.png)
 
     > [!NOTE]
-> 게이트웨이 및 온-프레미스 연결은 사용자의 [기본 환경](working-with-environments.md)에서만 생성하고 사용할 수 있습니다.
+   > 게이트웨이 및 온-프레미스 연결은 사용자의 [기본 환경](working-with-environments.md)에서만 생성하고 사용할 수 있습니다.
 
 2. 사용자 이름과 암호를 지정합니다.
 

@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 08/28/2017
 ms.author: gregli
-ms.openlocfilehash: 3cb894d044a1e6ac02234bc1fa4c5b9239959015
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 7989a795afc0085bfa0e78d4b9d0bebeb26619c6
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31830673"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37899275"
 ---
 # <a name="split-function-in-powerapps"></a>PowerApps의 Split 함수
 텍스트 문자열을 하위 문자열의 테이블로 분할합니다.
@@ -36,6 +36,7 @@ ms.locfileid: "31830673"
 * *Separator* - 필수 항목입니다.  문자열 분할에 사용할 구분 기호입니다.  0개, 1개 또는 더 많은 문자가 될 수 있습니다.
 
 ## <a name="examples"></a>예
+
 | 수식 | 설명 | 결과 |
 | --- | --- | --- |
 | **Split( "Apples,&nbsp;Oranges,&nbsp;Bananas", "," )** |쉼표 구분 기호에 따라 다른 과일을 분할합니다.  뒤의 공백이 아닌 쉼표에 따라 분할이 수행됩니다. "&nbsp;Oranges" 및 "&nbsp;Bananas"의 앞에 공백이 생깁니다. |<style> img { max-width: none; } </style> ![](media/function-split/fruit1.png) |

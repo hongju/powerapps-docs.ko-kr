@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 08/08/2017
 ms.author: jamesol
-ms.openlocfilehash: 0cf09528f83b2729e50139a3b5f9b5b9c00b6119
-ms.sourcegitcommit: 045c96df42405c60c7675edbadac93455270a021
+ms.openlocfilehash: 1ab3b17d03b2fd21fceb0675ca55d33302f67d31
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34822561"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37897762"
 ---
 # <a name="send-a-push-notification-in-powerapps"></a>PowerApps에서 푸시 알림 보내기
 푸시 알림은 앱 사용자의 관심을 끌고 주요 작업의 우선 순위를 지정하는 데 도움이 되도록 소비자 및 비즈니스 시나리오에 대한 모바일 앱에 주로 사용됩니다. PowerApps에서 PowerApps 알림 커넥터를 사용하여 알림을 보낼 수 있습니다. PowerApps에서 만드는 모든 앱에 네이티브 푸시 알림을 보낼 수 있습니다. 나중에 더 많은 알림 유형을 추가할 예정입니다.
@@ -41,19 +41,19 @@ ms.locfileid: "34822561"
 > 흐름에서 푸시 알림을 트리거하는 경우 현재 한 번에 한 명의 사용자 또는 보안 그룹에만 알림을 보낼 수 있습니다.
 
 1. [Microsoft Flow](https://flow.microsoft.com)에서 푸시 알림이 전송되는 시기를 지정하는 트리거를 만듭니다.
-   
+
     예를 들어, 레코드가 Common Data Service의 **사례** 엔터티에 추가될 때 알림을 보낼 수 있습니다.
-   
+
     ![Common Data Service 트리거를 사용하여 흐름 만들기의 스크린샷](./media/add-notifications/pic4-step1-flowupdated.png)
 2. **PowerApps 알림** 커넥터를 사용하여 흐름에 대한 작업을 만들고 알림을 보내려는 앱의 **앱 ID**를 입력합니다.
-   
+
     시나리오를 반영하도록 연결의 이름을 변경할 수도 있습니다.
-   
+
     ![이러한 푸시 알림을 받을 PowerApps에 대한 연결 만들기의 스크린샷](./media/add-notifications/pic5-step2-create-connection.jpg)
 3. (선택 사항) 열릴 때 앱에 매개 변수를 전달합니다(사용자가 푸시 알림을 탭한 후).
-   
+
     예제에서는 선택한 연락처에 대한 **사례 ID** 및 **초기 소유자** 필드를 전달합니다.
-   
+
     ![푸시 알림으로 선택적 매개 변수 전달의 스크린샷](./media/add-notifications/pic6-step3-configure-notif.jpg)
 
 ## <a name="send-a-notification-from-an-app"></a>앱에서 알림 보내기
@@ -61,20 +61,20 @@ ms.locfileid: "34822561"
 
 1. [PowerApps](https://web.powerapps.com/)에서 푸시 알림을 보내려는 앱으로 이동합니다.
 2. **세부 정보** 탭에서 해당 앱의 **앱 ID**를 복사합니다.
-   
+
     ![앱 ID 가져오기](./media/add-notifications/grab-id.png)
 3. **연결** 탭에서 PowerApps 알림 커넥터에 대한 연결을 만들고, 이전 단계의 앱 ID에 붙여넣습니다.
-   
+
     ![연결 만들기](./media/add-notifications/create-connection.png)
 4. 트리거 앱에 연결을 추가합니다.
-   
+
     예제에서는 트리거 앱과 동일한 앱을 사용합니다. 사례를 다시 할당하는 사용자도 새 사례 소유자에게 푸시 알림을 트리거합니다.
-   
+
     ![연결 추가](./media/add-notifications/add-connection.png)
 5. 푸시 알림 연결에서 **SendPushNotification** 메서드를 호출합니다.
-   
+
     예제에서는 **OnSuccess** 속성의 형태를 사용하여 이 알림을 트리거합니다.
-   
+
     ![PowerApps 수식](./media/add-notifications/powerapps-function.png)
 
 ## <a name="load-a-specific-page-and-context-when-a-user-taps-the-notification"></a>사용자가 알림을 탭하는 경우 특정 페이지 및 컨텍스트 로드
@@ -91,16 +91,18 @@ ms.locfileid: "34822561"
 
 > [!TIP]
 > 알림을 위해 앱에서 고유한 첫 번째 페이지를 만드는 것이 좋습니다.
-
->1. 앱이 아직 열리지 않은 빈 페이지를 만들고, **Text Input** 컨트롤을 추가하고, 해당 **timer.Duration** 값을 설정합니다.
->2. 앱을 만들 때 0이 아닌 값으로 타이머를 설정합니다. 앱을 게시할 준비가 되면 타이머를 즉시 트리거하도록 값을 **0**으로 설정합니다.
+> 
+> 1. 앱이 아직 열리지 않은 빈 페이지를 만들고, **Text Input** 컨트롤을 추가하고, 해당 **timer.Duration** 값을 설정합니다.
+> 2. 앱을 만들 때 0이 아닌 값으로 타이머를 설정합니다. 앱을 게시할 준비가 되면 타이머를 즉시 트리거하도록 값을 **0**으로 설정합니다.
 
 ## <a name="syntax"></a>구문
+
 | 이름 | 설명 |
 | --- | --- |
 | SendPushNotification |알림에 대한 연결 설정에 지정된 앱에 푸시 알림을 보냅니다. |
 
 ### <a name="parameters"></a>매개 변수
+
 | 이름 | 유형 | 설명 |
 | --- | --- | --- |
 | recipients |String array, 필수 항목 |목록: <ul> <li>사용자 또는 보안 그룹에 대한 전자 메일 주소</li> <li>Azure Active Directory에서 사용자 또는 보안 그룹에 대한 개체 ID</li></ul> |

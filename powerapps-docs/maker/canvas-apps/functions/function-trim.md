@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 09/09/2016
 ms.author: gregli
-ms.openlocfilehash: 38aa25c46bf8b29c413ca9c3df92f9528bfa97d5
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: f94144c0b279cc61c0af15c95e7cccf73bb124cd
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31831124"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37898424"
 ---
 # <a name="trim-and-trimends-functions-in-powerapps"></a>PowerApps의 Trim 및 TrimEnds 함수
 텍스트 문자열에서 여분의 공백을 제거합니다.
@@ -41,6 +41,7 @@ ms.locfileid: "31831124"
 * *SingleColumnTable* - 필수 항목입니다. 공백을 제거할 문자열의 단일 열 테이블입니다.
 
 ## <a name="example"></a>예
+
 | 수식 | 설명 | 결과 |
 | --- | --- | --- |
 | **Trim(&nbsp;"&nbsp;&nbsp;&nbsp;Hello&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;World&nbsp;&nbsp;&nbsp;"&nbsp;)** |문자열의 시작과 끝에서 모든 공백을 제거하고 문자열 내에서 여분의 공백을 제거합니다. |"Hello World" |

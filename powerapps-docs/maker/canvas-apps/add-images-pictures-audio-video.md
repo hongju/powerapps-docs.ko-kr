@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 07/12/2017
 ms.author: sharik
-ms.openlocfilehash: 4d622eb6cdfaed91547a59be8f5a5dc6651957e5
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: d193c2691f689e935a5dbb92767a16d393098770
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "32330908"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37896745"
 ---
 # <a name="using-multimedia-files-in-powerapps"></a>PowerApps에서 멀티미디어 파일 사용
 이 토픽에서는 앱에 멀티미디어 파일을 포함하고, 데이터 원본에 펜 드로잉을 업로드하고, 앱에서 데이터 원본의 이미지를 표시하는 방법을 보여 줍니다. 이 토픽에 사용된 데이터 원본은 비즈니스용 OneDrive에서 Excel 파일입니다.
@@ -48,14 +48,14 @@ PowerApps에 [등록](../signup-for-powerapps.md)한 다음, 등록에 사용한
     ![이미지 속성 설정](./media/add-images-pictures-audio-video/imageproperty.png)
 
     > [!NOTE]
-> 작은따옴표 안에 확장명 없이 파일 이름만 지정합니다.
+   > 작은따옴표 안에 확장명 없이 파일 이름만 지정합니다.
 
 7. 비디오 또는 오디오 컨트롤을 추가한 경우 해당 **Media** 속성을 추가한 파일로 설정합니다.  
 
     ![미디어 속성 설정](./media/add-images-pictures-audio-video/mediaproperty.png)
 
     > [!NOTE]
-> 비디오 컨트롤의 **Media** 속성을 큰따옴표로 묶인 적절한 URL로 설정하여 YouTube 비디오를 재생합니다.
+   > 비디오 컨트롤의 **Media** 속성을 큰따옴표로 묶인 적절한 URL로 설정하여 YouTube 비디오를 재생합니다.
 
 ## <a name="add-media-from-azure-media-services"></a>Azure Media Services에서 미디어 추가
 1. Azure Media Services 계정에서 **AMS > 설정 > 자산**에서 비디오 자산을 업로드하고 게시합니다.

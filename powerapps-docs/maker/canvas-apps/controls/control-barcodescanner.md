@@ -7,12 +7,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 22b5cf081755f25b3aff33c36137547882fe3812
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: b8b25f5bfa3ddbce7b1c541afb7a935a2fe4aa36
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34803475"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37898171"
 ---
 # <a name="barcode-scanner-control-experimental-in-powerapps"></a>PowerApps의 바코드 스캐너 컨트롤(실험)
 사용자가 장치에서 바코드 스캐너를 사용하여 사진을 촬영할 수 있는 실험적 컨트롤입니다.
@@ -32,19 +32,9 @@ ms.locfileid: "34803475"
 
 **[BorderThickness](properties-color-border.md)** - 컨트롤의 테두리 굵기입니다.
 
-**Brightness** – 사용자가 이미지에서 인지할 가능성이 높은 조명의 정도를 선택합니다.
-
-**Contrast** – 사용자가 한 이미지에 있는 유사한 색을 얼마나 쉽게 구별할 수 있는지 여부를 선택합니다.
-
 **[DisplayMode](properties-core.md)** – 컨트롤이 사용자 입력을 허용(**편집**)하거나, 데이터만 표시(**보기**)하거나 사용 안 하도록(**사용 안 함**) 설정할지 선택합니다.
 
 **[Height](properties-size-location.md)** – 컨트롤의 위쪽 및 아래쪽 가장자리 사이의 간격입니다.
-
-**[OnSelect](properties-core.md)** – 사용자가 컨트롤을 클릭하거나 누를 때 앱이 응답하는 방법입니다.
-
-**OnStream** – **Stream** 속성이 업데이트될 때 앱이 응답하는 방법입니다.
-
-**Photo** – 사용자가 촬영 시 캡처된 이미지입니다.
 
 **ShowLiveBarcodeDetection** – 바코드 검색 상태를 나타내기 위해 시각 신호를 표시할지 여부입니다. 노란색 사각형은 검사 중인 영역을 나타냅니다. 직사각형을 가로지르는 녹색 선은 바코드 식별 성공을 나타냅니다.
 
@@ -63,8 +53,6 @@ ms.locfileid: "34803475"
 **[X](properties-size-location.md)** – 컨트롤의 왼쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 왼쪽 가장자리 사이의 거리입니다.
 
 **[Y](properties-size-location.md)** – 컨트롤의 위쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 위쪽 가장자리 사이의 거리입니다.
-
-**Zoom** – 바코스 스캐너의 이미지가 확대되는 비율 또는 PDF 뷰어에서 파일의 보기입니다.
 
 ## <a name="related-functions"></a>관련된 함수
 [**Patch**( *DataSource*, *BaseRecord*, *ChangeRecord* )](../functions/function-patch.md)
@@ -87,4 +75,4 @@ ms.locfileid: "34803475"
 * **[AccessibleLabel](properties-accessibility.md)** 이 있어야 합니다.
 
     > [!NOTE]
-> 새 바코드가 발견되면 화면 읽기 프로그램이 이를 알립니다. 값은 알리지 않습니다. 바코드가 보기에 있는 동안에는 화면 읽기 프로그램이 동일한 바코드가 아직 식별되고 있음을 5초마다 다시 알립니다.
+  > 새 바코드가 발견되면 화면 읽기 프로그램이 이를 알립니다. 값은 알리지 않습니다. 바코드가 보기에 있는 동안에는 화면 읽기 프로그램이 동일한 바코드가 아직 식별되고 있음을 5초마다 다시 알립니다.

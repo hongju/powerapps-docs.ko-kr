@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 05/09/2017
 ms.author: mblythe
-ms.openlocfilehash: e73324d6cfce5edf7ece0350b2047dc7842373bb
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: d374ec8459f4182b11ecf91e28af24a31bb6c055
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31836772"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37896837"
 ---
 # <a name="develop-offline-capable-apps-with-powerapps"></a>PowerApps를 사용하여 오프라인에서 사용 가능한 앱 개발
 모바일 앱 개발자 권한으로 직면하는 가장 일반적인 시나리오 중 하나는 제한된 연결 또는 연결되지 않았을 때 사용자가 생산성을 사용해야 하는 경우입니다. PowerApps에는 오프라인에서 사용 가능한 앱을 개발하는 데 도움이 되는 기능 및 동작의 집합이 있습니다. 다음이 가능합니다.
@@ -41,19 +41,19 @@ PowerApps의 가장 흥미로운 측면 중 하나는 데이터 원본에 관계
 고급 수준에서 앱은 다음 작업을 수행합니다.
 
 1. 앱 시작 시(첫 번째 화면의 **OnVisible** 속성에 따라):
-   
+
    * 장치가 온라인 상태인 경우 직접 Twitter 커넥터에 액세스하여 데이터를 인출하고 해당 데이터를 사용하여 컬렉션을 채웁니다.
    * 장치가 오프라인 상태인 경우 [LoadData](../canvas-apps/functions/function-savedata-loaddata.md)를 사용하여 로컬 캐시 파일에서 데이터를 로드했습니다.
    * 온라인으로 Twitter에 직접 게시하고 로컬 캐시를 새로 고칠 경우 사용자가 트윗을 제출할 수 있습니다.
 2. 5분마다 온라인 상태인 경우:
-   
+
    * 로컬 캐시에 있는 모든 트윗을 게시합니다.
    * 로컬 캐시를 새로 고치고 [SaveData](../canvas-apps/functions/function-savedata-loaddata.md)를 사용하여 저장합니다.
 
 ### <a name="step-1-create-a-new-phone-app"></a>1단계: 새 휴대폰 앱 만들기
 1. PowerApps Studio를 엽니다.
 2. **새로 만들기** > **비어 있는 앱** > **휴대폰 레이아웃**을 클릭하거나 누릅니다.
-   
+
     ![비어 있는 앱, 휴대폰 레이아웃](./media/offline-apps/blank-app.png)
 
 ### <a name="step-2-add-a-twitter-connection"></a>2단계: Twitter 연결 추가
@@ -63,7 +63,7 @@ PowerApps의 가장 흥미로운 측면 중 하나는 데이터 원본에 관계
 2. **새 연결**을 클릭하거나 누르고, **Twitter**를 선택하고, **만들기**를 클릭하거나 누릅니다.
 
 3. 자격 증명을 입력하고 연결을 만듭니다.
-   
+
     ![Twitter 연결 추가](./media/offline-apps/twitter-connection.png)
 
 ### <a name="step-3-load-tweets-into-a-localtweets-collection-on-app-startup"></a>3단계: 앱 시작 시 LocalTweets 컬렉션으로 트윗 로드
@@ -127,20 +127,20 @@ If (Connection.Connected, "Connected", "Offline")
 ### <a name="step-7-add-a-button-to-post-the-tweet"></a>7단계: 트윗을 게시하는 단추 추가
 1. **단추** 컨트롤을 추가하고 **Text** 속성을 "트윗"으로 설정합니다.
 2. **OnSelect** 속성을 다음 수식으로 설정합니다.
-   
+
     ```
     If (Connection.Connected,
-   
+
         Twitter.Tweet("", {tweetText: NewTweetTextInput.Text}),
-   
+
         Collect(LocalTweetsToPost, {tweetText: NewTweetTextInput.Text});
-   
+
         SaveData(LocalTweetsToPost, "LocalTweetsToPost")
-   
+
     );
-   
+
     UpdateContext({resetNewTweet: true});
-   
+
     UpdateContext({resetNewTweet: false})
     ```  
 
@@ -159,18 +159,18 @@ If (Connection.Connected, "Connected", "Offline")
 * **자동 시작** 속성을 true로 설정합니다.
 
 * **OnTimerEnd**를 다음 수식으로 설정합니다.
-  
+
     ```
     If(Connection.Connected,
-  
+
         ForAll(LocalTweetsToPost, Twitter.Tweet("", {tweetText: tweetText}));
-  
+
         Clear(LocalTweetsToPost);
-  
+
         Collect(LocalTweetsToPost, {tweetText: NewTweetTextInput.Text});
-  
+
         SaveData(LocalTweetsToPost, "LocalTweetsToPost");
-  
+
         UpdateContext({statusText: "Online data"})
     )
     ```

@@ -7,12 +7,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 07/12/2016
 ms.author: lanced
-ms.openlocfilehash: b0141315f041d81b929a53761952d9b5e355c82e
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: 04bfdd2d59b870184e5e42ac06135d00f52dcc70
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34803032"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37895687"
 ---
 # <a name="connect-to-cloud-storage-from-powerapps"></a>PowerApps에서 클라우드 저장소에 연결
 PowerApps에서 여러 클라우드 저장소 연결을 제공합니다. 이러한 연결을 사용하여 Excel 파일을 저장하고 앱 전체에서 해당 정보를 사용할 수 있습니다. 이러한 연결 항목은 다음과 같습니다.  
@@ -47,7 +47,7 @@ PowerApps에서 여러 클라우드 저장소 연결을 제공합니다. 이러�
     ![Excel 표를 선택합니다.](./media/cloud-storage-blob-connections/selecttable.png)
    
     > [!NOTE]
-> Excel 데이터는 테이블 형식으로 작성되어야 합니다.
+   > Excel 데이터는 테이블 형식으로 작성되어야 합니다.
 
 ## <a name="using-the-excel-data-in-your-app"></a>앱에서 Excel 데이터 사용
 1. **삽입** 탭에서 **갤러리**를 선택하고 **텍스트 추가** 갤러리 컨트롤을 선택합니다.

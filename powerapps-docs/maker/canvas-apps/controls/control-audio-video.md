@@ -7,12 +7,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: aae87f408452cd83856c2e1c2e07065d4b8df49f
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: 43328f363926f20d91b49ba422c3bfdae30abbf6
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34803285"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37898759"
 ---
 # <a name="audio-and-video-controls-in-powerapps"></a>PowerApps의 오디오 및 동영상
 오디오 파일, 동영상 파일 또는 YouTube의 동영상을 재생하는 컨트롤입니다.
@@ -99,7 +99,7 @@ ms.locfileid: "34803285"
 4. F5 키를 누르고 사용자가 추가한 컨트롤의 재생 단추를 클릭하거나 탭하여 클립을 재생합니다.
 
     > [!TIP]
-> **동영상** 컨트롤의 재생 단추는 컨트롤을 마우스로 가리킬 때 나타납니다.
+   > **동영상** 컨트롤의 재생 단추는 컨트롤을 마우스로 가리킬 때 나타납니다.
 5. 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
 
 ### <a name="play-a-youtube-video"></a>YouTube 동영상을 재생합니다

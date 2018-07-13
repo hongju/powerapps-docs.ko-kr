@@ -8,12 +8,12 @@ ms.component: pa-admin
 ms.topic: reference
 ms.date: 05/23/2018
 ms.author: jamesol
-ms.openlocfilehash: 788f9ec1ce1ac8604606d2d2ad836a0cd12360d4
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: 2cb1e1b83cffee2ccea0a4d4b563de44aaa3e68c
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34552993"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37896193"
 ---
 # <a name="powershell-support-for-powerapps-preview"></a>PowerApps에 대한 PowerShell 지원(미리 보기)
 최근에 앱 작성자 및 관리자용 PowerShell cmdlet 미리 보기가 제공되면서 [PowerApps](https://web.powerapps.com) 또는 [PowerApps 관리 센터](https://admin.powerapps.com)에서 현재는 수동으로만 가능한 다양한 모니터링 및 관리 작업을 자동화할 수 있습니다.
@@ -58,6 +58,7 @@ ms.locfileid: "34552993"
 유효한 PowerApps 라이선스를 보유한 사용자는 이러한 cmdlet으로 작업을 수행할 수 있지만, 이러한 사용자는 함께 만들거나 자신과 공유된 리소스(예: 앱, 흐름 등)에만 액세스할 수 있습니다.
 
 ### <a name="cmdlet-list"></a>Cmdlet 목록
+
 | 용도 | Cmdlet |
 | --- | --- |
 | 환경 읽기 | Get-PowerAppsEnvironment <br> Get-FlowEnvironment
@@ -90,13 +91,15 @@ ms.locfileid: "34552993"
 * 다른 사용자의 리소스를 검색해야 하는 경우 [Office 365 전역 관리자](https://support.office.com/article/assign-admin-roles-in-office-365-for-business-eac4d046-1afd-4f1a-85fc-8219c79e1504) 또는 [Azure Active Directory 전역 관리자](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles-azure-portal) 권한. (환경 관리자는 권한이 있는 환경 및 환경 리소스에만 액세스할 수 있습니다.)
 
 ### <a name="cmdlet-list"></a>Cmdlet 목록
+
 | 용도 | Cmdlet
 | --- | ---
 | 환경 읽기 및 삭제 | Get-AdminEnvironment <br> Remove-AdminEnvironment
 | 환경 읽기, 업데이트 및 삭제 권한 <br><br> 이러한 cmdlet은 앱용 CDS(Common Data Service) 데이터베이스가 없는 환경에서만 작동합니다. | Get-AdminEnvironmentRoleAssignment <br> Set-AdminEnvironmentRoleAssignment <br> Remove-AdminEnvironmentRoleAssignment
 | 캔버스 앱 읽기 및 제거 | Get-AdminApp <br> Remove-AdminApp
 | 캔버스 앱 권한 읽기, 업데이트 및 삭제 | Get-AdminAppRoleAssignment <br> Remove-AdminAppRoleAssignment <br> Set-AdminAppRoleAssignment <br> Set-AdminAppOwner
-| 흐름 읽기, 업데이트 및 삭제 | Get-AdminFlow <br> Enable-AdminFlow <br> Disable-AdminFlow <br> Remove-AdminFlow  <br> Remove-AdminFlowOwnerRole
+| 흐름 읽기, 업데이트 및 삭제 | Get-AdminFlow <br> Enable-AdminFlow <br> Disable-AdminFlow <br> Remove-AdminFlow
+| 흐름 권한 읽기, 업데이트 및 삭제 | Get-AdminFlowOwnerRole <br> Set-AdminFlowOwnerRole <br> Remove-AdminFlowOwnerRole
 | 연결 읽기 및 삭제 | Get-AdminConnection <br> Remove-AdminConnection
 | 연결 권한 읽기, 업데이트 및 삭제 | Get-AdminConnectionRoleAssignment <br> Set-AdminConnectionRoleAssignment <br> Remove-AdminConnectionRoleAssignment
 | 사용자 지정 커넥터 읽기 및 삭제 | Get-AdminConnector <br> Remove-AdminConnector

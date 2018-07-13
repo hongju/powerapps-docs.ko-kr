@@ -13,12 +13,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 11/01/2015
 ms.author: gregli
-ms.openlocfilehash: b62b2b8575d1ff0e5a55a97db6e6650af5a593c1
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 0caa1c2cc4d9d1308255869fdb33149c8bb38139
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31825812"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37897067"
 ---
 # <a name="defaults-function-in-powerapps"></a>PowerApps의 Defaults 함수
 [데이터 원본](../working-with-data-sources.md)의 기본값을 반환합니다.  
@@ -38,6 +38,7 @@ ms.locfileid: "31825812"
 * *DataSource* – 필수 항목입니다. 기본값이 필요한 데이터 원본입니다.
 
 ## <a name="examples"></a>예
+
 | 수식 | 설명 | 결과 |
 | --- | --- | --- |
 | **Defaults(&nbsp;Scores&nbsp;)** |**점수** 데이터 원본의 기본값을 반환합니다. |**{ Score: 0 }** |

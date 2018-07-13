@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: d03e587d86262bcecf59012e36af0c3dc27b29a3
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 165b6544808da234773c2b7a2cdd0014d6fe5c2d
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31831426"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37898706"
 ---
 # <a name="screen-control-in-powerapps"></a>PowerApps의 화면 컨트롤
 앱에서 하나 이상의 다른 컨트롤을 포함하는 UI 요소입니다.
@@ -83,4 +83,4 @@ ms.locfileid: "31831426"
 * 각 **화면**에 대한 의미 있는 이름이 있어야 합니다. [컨트롤] 창의 트리 뷰 또는 [속성] 창의 헤더에서 다른 컨트롤과 동일한 방법으로 화면 이름을 보고 편집할 수 있습니다.
 
     > [!NOTE]
-> 새 **화면**이 로드되면 화면 읽기 프로그램이 해당 이름을 알립니다. 
+  > 새 **화면**이 로드되면 화면 읽기 프로그램이 해당 이름을 알립니다. 

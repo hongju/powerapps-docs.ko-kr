@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 10/16/2016
 ms.author: jamesol
-ms.openlocfilehash: e0186e0f1f8b1396f2fb90cfffae8e38aacb1ac1
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: ed454b6656971adb4c209d2dd9a59e5258ef8eac
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31827008"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37898148"
 ---
 # <a name="delete-an-app-from-powerapps"></a>PowerApps에서 앱 삭제
 이 문서에서는 PowerApps 계정 및 앱을 공유하는 사람의 계정에서 앱을 삭제하는 방법을 보여 줍니다.
@@ -31,7 +31,7 @@ ms.locfileid: "31827008"
     ![](./media/delete-app/filter-list.png)
    
     > [!NOTE]
-> 삭제하려는 앱이 표시되지 않는 경우 올바른 환경에 있는지 확인합니다.
+   > 삭제하려는 앱이 표시되지 않는 경우 올바른 환경에 있는지 확인합니다.
 3. 오른쪽 가장자리 근처에서 삭제할 앱에 대한 정보 아이콘을 클릭하거나 탭합니다.
    
     ![](./media/delete-app/app-options.png)
@@ -40,11 +40,11 @@ ms.locfileid: "31827008"
     ![](./media/delete-app/delete-icon.png)
    
     > [!NOTE]
-> 앱에 대한 **참가자** 권한이 있어야 삭제할 수 있습니다.
+   > 앱에 대한 **참가자** 권한이 있어야 삭제할 수 있습니다.
 5. 표시되는 대화 상자에서 **클라우드에서 삭제**를 클릭하거나 탭합니다.  
    
     > [!IMPORTANT]
-> 이 작업은 사용자 계정에서뿐만 아니라 이 앱을 공유하는 모든 사용자의 계정에서 이 앱을 영구적으로 삭제합니다.
+   > 이 작업은 사용자 계정에서뿐만 아니라 이 앱을 공유하는 모든 사용자의 계정에서 이 앱을 영구적으로 삭제합니다.
    
     ![](./media/delete-app/delete-button.png)
 

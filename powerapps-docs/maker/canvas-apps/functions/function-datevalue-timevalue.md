@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 11/07/2015
 ms.author: gregli
-ms.openlocfilehash: 396a2d5325b7b72f3637dba1edddeead49594167
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: a0f55de520a180a646e1e73aac423abc74bfed1d
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31832584"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37896239"
 ---
 # <a name="datevalue-timevalue-and-datetimevalue-functions-in-powerapps"></a>PowerApps의 DateValue, TimeValue, DateTimeValue 함수
 문자열의 날짜, 시간 또는 둘 다를 날짜/시간 값으로 변환합니다.
@@ -61,7 +61,7 @@ ms.locfileid: "31832584"
     컴퓨터가 **en** 로캘로 설정된 경우 레이블에 **Saturday, October 11, 2014**가 표시됩니다.
   
     > [!NOTE]
-> **LongDateTime** 이외의 여러 옵션을 **DateTimeFormat** 매개 변수와 함께 사용할 수 있습니다. 이러한 옵션 목록을 표시하려면 함수 상자에 매개 변수를 입력하고 바로 뒤에 느낌표를 입력하십시오.
+  > **LongDateTime** 이외의 여러 옵션을 **DateTimeFormat** 매개 변수와 함께 사용할 수 있습니다. 이러한 옵션 목록을 표시하려면 함수 상자에 매개 변수를 입력하고 바로 뒤에 느낌표를 입력하십시오.
 * **Text(DateValue(Startdate.Text, "fr"), DateTimeFormat.LongDate)**
   
     레이블에 **Monday, November 10, 2014**가 표시됩니다.
@@ -80,7 +80,7 @@ ms.locfileid: "31832584"
     컴퓨터가 en 로캘로 설정된 경우 레이블에 **Saturday, October 11, 2014 1:50:24 PM**이 표시됩니다.
   
     > [!NOTE]
-> **LongDateTime** 이외의 여러 옵션을 **DateTimeFormat** 매개 변수와 함께 사용할 수 있습니다. 이러한 옵션 목록을 표시하려면 함수 상자에 매개 변수를 입력하고 바로 뒤에 느낌표를 입력하십시오.
+  > **LongDateTime** 이외의 여러 옵션을 **DateTimeFormat** 매개 변수와 함께 사용할 수 있습니다. 이러한 옵션 목록을 표시하려면 함수 상자에 매개 변수를 입력하고 바로 뒤에 느낌표를 입력하십시오.
 * **Text(DateTimeValue(Start.Text, "fr"), DateTimeFormat.LongDateTime)**
   
     레이블에 **Monday, November 10, 2014 1:50:24 PM**이 표시됩니다.

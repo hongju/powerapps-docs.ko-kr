@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 05/23/2017
 ms.author: gregli
-ms.openlocfilehash: eaf538c1189dffd8fb2169f3eda3f525bcf623de
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 26991baa1feb1ef4821beaf791454def21960d4f
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31832031"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37896630"
 ---
 # <a name="dateadd-datediff-and-timezoneoffset-functions-in-powerapps"></a>PowerApps의 DateAdd, DateDiff, TimeZoneOffset 함수
 날짜/시간 값의 차이를 추가하거나 찾아서 현지 시간과 UTC 사이의 변환을 수행합니다.
@@ -56,6 +56,7 @@ ms.locfileid: "31832031"
 이 모든 예에서 현재 날짜와 시간이 **July 15, 2013, 1:02 PM**이라고 가정합니다.
 
 ### <a name="simple-dateadd"></a>간단한 DateAdd
+
 | 수식 | 설명 | 결과 |
 | --- | --- | --- |
 | **Text( DateAdd( Now(), 3 ),<br>"dd-mm-yyyy hh:mm" )** |현재 날짜 및 시간에 3일(기본 단위)을 추가합니다. |"18-07-2013 13:02" |
@@ -64,6 +65,7 @@ ms.locfileid: "31832031"
 | **Text( DateAdd( Now(), &#8209;30, Minutes ),<br>"dd-mm-yyyy hh:mm" )** |현재 날짜 및 시간에서 30분을 뺍니다. |"15-07-2013 12:32" |
 
 ### <a name="simple-datediff"></a>간단한 DateDiff
+
 | 수식 | 설명 | 결과 |
 | --- | --- | --- |
 | **DateDiff( Now(), DateValue("1/1/2014") )** |두 단위의 차이를 기본 단위인 **일**로 반환합니다. |170 |

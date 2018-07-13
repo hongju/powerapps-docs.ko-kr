@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 09/13/2017
 ms.author: fikaradz
-ms.openlocfilehash: 1a790627ad1dbd1bebecca84cb41ee29dcf148dd
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 1c8004fd615e5f706103ad4c364f7818dd1cb091
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "32329505"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37898269"
 ---
 # <a name="combo-box-control-in-powerapps"></a>PowerApps의 콤보 박스 컨트롤
 사용자가 제공된 선택 항목 중에서 선택할 수 있습니다.  검색과 다중 선택을 지원합니다.
@@ -110,11 +110,11 @@ ms.locfileid: "32329505"
 * **[AccessibleLabel](properties-accessibility.md)** 이 있어야 합니다.
 
     > [!NOTE]
-> 터치 스크린에서 화면 읽기 프로그램 사용자는 콤보 상자의 콘텐츠를 순차적으로 탐색할 수 있습니다. 콤보 상자는 선택 시 해당 콘텐츠를 표시하거나 숨기는 단추 역할을 합니다.
+  > 터치 스크린에서 화면 읽기 프로그램 사용자는 콤보 상자의 콘텐츠를 순차적으로 탐색할 수 있습니다. 콤보 상자는 선택 시 해당 콘텐츠를 표시하거나 숨기는 단추 역할을 합니다.
 
 ### <a name="keyboard-support"></a>키보드 지원
 * 키보드 사용자가 탐색할 수 있도록 **[TabIndex](properties-accessibility.md)** 가 0 이상이어야 합니다.
 * 포커스 표시기가 명확하게 표시되어야 합니다. **[FocusedBorderColor](properties-color-border.md)** 및 **[FocusedBorderThickness](properties-color-border.md)** 를 사용하여 이를 달성합니다.
 
     > [!NOTE]
-> Tab 키는 콤보 상자로 이동하거나 멀어지도록 이동합니다. 화살표 키는 콤보 상자의 콘텐츠를 탐색합니다. Esc 키는 열려 있는 드롭다운을 닫습니다.
+  > Tab 키는 콤보 상자로 이동하거나 멀어지도록 이동합니다. 화살표 키는 콤보 상자의 콘텐츠를 탐색합니다. Esc 키는 열려 있는 드롭다운을 닫습니다.

@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 04/23/2018
 ms.author: anneta
-ms.openlocfilehash: 29f07162ec2815398cda5bcc359f7388df261bc0
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: bf802668ff56729c1d28fc460495a680fc3c6570
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31836973"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37896814"
 ---
 # <a name="create-an-excel-app-from-scratch"></a>처음부터 Excel 앱 만들기
 표 형식의 Excel 데이터를 기반으로 처음부터 고유한 앱을 만들고 나서 원하는 경우 다른 원본의 데이터를 추가합니다. 이 자습서를 따라 두 화면을 포함하는 앱을 만듭니다. 한 화면에서 사용자는 일련의 레코드를 찾아볼 수 있습니다. 다른 화면에서 사용자는 한 레코드를 만들거나, 한 레코드에서 하나 이상의 필드를 업데이트하거나, 전체 레코드를 삭제할 수 있습니다. 이 접근 방식은 [앱을 자동으로 생성](get-started-create-from-data.md)하는 것보다 시간이 더 걸리지만 숙련된 앱 제작자는 이 방법으로 요구 사항에 맞는 최고의 앱을 빌드할 수 있습니다.
@@ -84,31 +84,31 @@ ms.locfileid: "31836973"
 
     ![데이터 창 열기](./media/get-started-create-from-blank/custom-gallery-sample.png)
 
-1. **데이터 원본** 아래에서 아래쪽 화살표를 선택하여 앱의 데이터 원본 목록을 연 다음, **일정**을 선택합니다.
+4. **데이터 원본** 아래에서 아래쪽 화살표를 선택하여 앱의 데이터 원본 목록을 연 다음, **일정**을 선택합니다.
 
     ![데이터 원본 선택](./media/get-started-create-from-blank/select-schedule.png)
 
-1. **레이아웃** 아래에서 아래쪽 화살표를 선택하여 레이아웃 목록을 연 다음, **제목, 부제목, 본문**을 선택합니다.
+5. **레이아웃** 아래에서 아래쪽 화살표를 선택하여 레이아웃 목록을 연 다음, **제목, 부제목, 본문**을 선택합니다.
 
     ![레이아웃 선택](./media/get-started-create-from-blank/select-layout.png)
 
-1. **Title2** 아래에서 표시된 열을 **Backup**에서 **Volunteer**로 변경합니다.
+6. **Title2** 아래에서 표시된 열을 **Backup**에서 **Volunteer**로 변경합니다.
 
      ![레이블에서 열 변경](./media/get-started-create-from-blank/change-title2.png)
 
-1. 오른쪽 위 모서리에 있는 닫기 아이콘을 선택하여 **데이터** 창을 닫습니다.
+7. 오른쪽 위 모서리에 있는 닫기 아이콘을 선택하여 **데이터** 창을 닫습니다.
 
     갤러리에는 각 자원봉사자의 이름과 해당 자원봉사자의 교대 근무 날짜 및 시간이 표시됩니다.
 
     ![정렬되지 않은 갤러리의 일정 데이터](./media/get-started-create-from-blank/show-data-unsorted.png)
 
-4. 갤러리를 선택하고 속성 목록에 **[Items](controls/properties-core.md)** 가 표시되는지 확인합니다.
+8. 갤러리를 선택하고 속성 목록에 **[Items](controls/properties-core.md)** 가 표시되는지 확인합니다.
 
     수식 입력줄이 표시될 때 해당 속성의 값은 **Schedule**입니다.
 
     ![정렬되지 않은 갤러리의 일정 데이터](./media/get-started-create-from-blank/set-property.png)
 
-1. 이 수식을 복사하고 수식 입력줄에 붙여넣어 **Items** 속성의 값을 변경합니다.
+9. 이 수식을 복사하고 수식 입력줄에 붙여넣어 **Items** 속성의 값을 변경합니다.
 
     **SortByColumns(Search(Schedule, TextSearchBox1.Text, "Volunteer"), "Volunteer", If(SortDescending1, SortOrder.Descending, SortOrder.Ascending))**
 
@@ -118,22 +118,22 @@ ms.locfileid: "31836973"
 
     사용자는 해당 수식의 **SortByColumns** 및 **Search** 함수를 기반으로 갤러리를 자원봉사자의 이름별로 정렬 및 필터링할 수 있습니다.
 
-    - 사용자가 검색 상자에 하나 이상의 문자를 입력하면 갤러리에는 **Volunteer** 필드에 사용자가 입력한 텍스트를 포함하는 레코드만 표시됩니다.
-    - 사용자가 정렬 단추를 선택하면 갤러리에는 **Volunteer** 필드를 기준으로 오름차순 또는 내림차순으로(사용자가 단추를 선택한 횟수에 따라) 레코드가 표시됩니다.
+   - 사용자가 검색 상자에 하나 이상의 문자를 입력하면 갤러리에는 **Volunteer** 필드에 사용자가 입력한 텍스트를 포함하는 레코드만 표시됩니다.
+   - 사용자가 정렬 단추를 선택하면 갤러리에는 **Volunteer** 필드를 기준으로 오름차순 또는 내림차순으로(사용자가 단추를 선택한 횟수에 따라) 레코드가 표시됩니다.
 
-    이러한 함수 및 다른 함수에 대한 자세한 내용은 [수식 참조](formula-reference.md)를 참조하세요.
+     이러한 함수 및 다른 함수에 대한 자세한 내용은 [수식 참조](formula-reference.md)를 참조하세요.
 
-5. 검색 상자에 **i**를 입력하고, [정렬] 단추를 클릭하거나 탭하여 선택한 다음, 단추를 한 번 더(또는 홀수 횟수로 추가로) 선택합니다.
+10. 검색 상자에 **i**를 입력하고, [정렬] 단추를 클릭하거나 탭하여 선택한 다음, 단추를 한 번 더(또는 홀수 횟수로 추가로) 선택합니다.
 
-    갤러리에 다음 결과가 표시됩니다.
+     갤러리에 다음 결과가 표시됩니다.
 
-    ![갤러리 정렬 및 필터링](./media/get-started-create-from-blank/sort-filter.png)
+     ![갤러리 정렬 및 필터링](./media/get-started-create-from-blank/sort-filter.png)
 
-1. 검색 상자에서 모든 텍스트를 지웁니다.
+11. 검색 상자에서 모든 텍스트를 지웁니다.
 
-6. 화면 위쪽에서 **[레이블](controls/control-text-box.md)** 컨트롤을 선택한 다음, **[Title]** 을 **레코드 보기**로 바꿉니다.
+12. 화면 위쪽에서 **[레이블](controls/control-text-box.md)** 컨트롤을 선택한 다음, **[Title]** 을 **레코드 보기**로 바꿉니다.
 
-    ![제목 표시줄 변경](./media/get-started-create-from-blank/change-title-bar.png)
+     ![제목 표시줄 변경](./media/get-started-create-from-blank/change-title-bar.png)
 
 ## <a name="create-the-change-screen"></a>변경 화면 만들기
 1. **홈** 탭에서 **새 화면** 옆에 있는 아래쪽 화살표를 선택한 다음, **양식 화면**을 선택합니다.

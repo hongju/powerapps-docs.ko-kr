@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 08/15/2017
 ms.author: archanan
-ms.openlocfilehash: 87f1895801ec7d1121b042d6baf097b79801f019
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: f1d9b6463cc597d13fa1b9c1389fbfcc6d5b5ded
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31830239"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37896285"
 ---
 # <a name="delegable-data-sources"></a>위임 가능한 데이터 원본
 [위임 이해](delegation-overview.md) 문서에서 자세히 설명했듯이 PowerApps는 로컬에서 처리하기 위해 데이터를 앱으로 이동하기보다는 데이터 처리를 데이터 원본에 위임합니다.
@@ -46,6 +46,7 @@ ms.locfileid: "31830239"
 이 데이터 원본 및 위임 가능한 함수 및 조건자 목록은 PowerApps에서 위임 지원의 현재 상태를 반영하여 주기적으로 업데이트됩니다.
 
 ### <a name="top-level-delegable-functions"></a>최상위 위임 가능 함수
+
 | &nbsp; | 일반 데이터 서비스 | SharePoint | SQL Server | Dynamics 365 | Salesforce |
 | --- | --- | --- | --- | --- | --- |
 | 평균 |아니요 |아니요 |예 |아니요 |아니요 |
@@ -61,6 +62,7 @@ ms.locfileid: "31830239"
 <sup>1</sup>문자열 필드만
 
 ### <a name="filter-and-lookup-delegable-predicates"></a>Filter 및 LookUp 위임 가능 조건자
+
 | &nbsp; | 일반 데이터 서비스 | SharePoint | SQL Server | Dynamics 365 | Salesforce |
 | --- | --- | --- | --- | --- | --- |
 | Not |예 |아니요 |예 |예 |예 |

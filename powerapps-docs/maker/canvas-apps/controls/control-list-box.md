@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 24fc5523b2f1d3cced7cdf4af8c30c65d28757a2
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: e43d786cf8eac8bb4ca6b13c953281614559c132
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31837875"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37899413"
 ---
 # <a name="list-box-control-in-powerapps"></a>PowerApps의 목록 상자 컨트롤
 사용자가 하나 또는 여러 개의 항목을 선택할 수 있는 목록입니다.
@@ -170,4 +170,4 @@ ms.locfileid: "31837875"
 * 포커스 표시기가 명확하게 표시되어야 합니다. **[FocusedBorderColor](properties-color-border.md)** 및 **[FocusedBorderThickness](properties-color-border.md)** 를 사용하여 이를 달성합니다.
 
     > [!NOTE]
-> Tab 키는 **목록 상자**로 이동하거나 멀어지도록 이동합니다. 화살표 키는 **목록 상자**의 콘텐츠를 탐색합니다.
+  > Tab 키는 **목록 상자**로 이동하거나 멀어지도록 이동합니다. 화살표 키는 **목록 상자**의 콘텐츠를 탐색합니다.

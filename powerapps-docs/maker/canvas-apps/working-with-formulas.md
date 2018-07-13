@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 04/26/2016
 ms.author: gregli
-ms.openlocfilehash: e4c2f78fb00e726bd0b0bf3cde4fe4f42d40dddc
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: ed4e83fab0cf5a08c4b274863f11070471fc44a4
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "32330885"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37898714"
 ---
 # <a name="get-started-with-formulas"></a>수식 시작
 Excel에서 작업하는 것처럼 값을 계산하고 다른 작업을 수행하는 것 외에도 앱에서 요구하는 사용자의 입력 값에 응답하는 등 수식을 사용하여 앱을 구성할 수 있습니다.
@@ -70,7 +70,7 @@ Excel의 경우 숫자 **42**나 문구 **Hello World**와 같이 같단한 특�
     Excel의 경우 해당 숫자를 셀에 입력하거나 **=SUM(30,12)** 와 같이 해당 숫자가 나오는 수식을 입력하여 **42**와 같은 숫자를 표시할 수 있습니다. PowerApps에서는 레이블과 같은 컨트롤의 **Text** 속성을 **42** 또는 **Sum(30,12)** 에 설정하여 동일한 효과를 얻을 수 있습니다. 셀과 레이블은 워크시트 또는 앱의 변경에 관계 없이 항상 해당 숫자를 표시합니다.
    
     > [!NOTE]
-> PowerApps의 경우도 Excel에서와 마찬가지로 등호 또는 더하기 기호가 있는 수식은 앞에 오지 않아야 합니다. 수식 입력줄은 입력하는 모든 내용은 기본적으로 수식으로 간주합니다. 또한 텍스트 문자열을 지정할 때 이전과 마찬가지로 큰따옴표(")로 수식을 묶지 않아야 합니다.
+   > PowerApps의 경우도 Excel에서와 마찬가지로 등호 또는 더하기 기호가 있는 수식은 앞에 오지 않아야 합니다. 수식 입력줄은 입력하는 모든 내용은 기본적으로 수식으로 간주합니다. 또한 텍스트 문자열을 지정할 때 이전과 마찬가지로 큰따옴표(")로 수식을 묶지 않아야 합니다.
 5. 레이블의 **[Text](controls/properties-core.md)** 속성에서 **"Hello World"** 를 **Sum(1,2,3)** 으로 바꿉니다.
    
     ![닫는 괄호 없이 부분 함수 Sum(1,2,3을 입력하여 오류가 나타나는 경우](./media/working-with-formulas/label-sum-partial.png)
@@ -98,7 +98,7 @@ Excel의 경우 조건부 서식을 사용하여 음수 값을 빨간색으로 �
 1. 레이블의 **[Color](controls/properties-color-border.md)** 속성을 다음 수식으로 설정합니다.<br>**If( Value(TextBox1.Text) < 0, Red, Black )**
    
     > [!NOTE]
-> 수식에서 컨트롤의 이름을 마침표 뒤에 입력하고 속성의 이름을 마지막으로 제공하여 컨트롤의 속성을 지정합니다. 예를 들어, **TextBox1.Text**를 입력하여 **TextBox1**의 **[텍스트](controls/properties-core.md)** 속성을 지정합니다.
+   > 수식에서 컨트롤의 이름을 마침표 뒤에 입력하고 속성의 이름을 마지막으로 제공하여 컨트롤의 속성을 지정합니다. 예를 들어, **TextBox1.Text**를 입력하여 **TextBox1**의 **[텍스트](controls/properties-core.md)** 속성을 지정합니다.
    
     ![해당 값을 기준으로 레이블 색상을 변경하여 다시 계산한 PowerApps의 그림](./media/working-with-formulas/recalc-color1.png)
 2. **TextInput1** 및 **TextInput2**에서 두 숫자를 함께 더했을 때 음수 값이 되도록 지정합니다.

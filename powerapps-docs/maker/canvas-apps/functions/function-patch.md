@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 10/21/2015
 ms.author: gregli
-ms.openlocfilehash: d0b2ff351f7026967359f1b4d386a71d7ed5441f
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 02664d3715b2e5b43a56a041e9de8b294559a862
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31838720"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37899160"
 ---
 # <a name="patch-function-in-powerapps"></a>PowerApps의 Patch 함수
 [데이터 원본](../working-with-data-sources.md)의 [레코드](../working-with-tables.md#records)를 하나 이상 수정 또는 생성하거나 데이터 원본 외부의 레코드를 병합합니다.
@@ -102,6 +102,7 @@ ms.locfileid: "31838720"
 ![](media/function-patch/icecream-after.png)
 
 #### <a name="merge-records-outside-of-a-data-source"></a>레코드 병합(데이터 원본 외부)
+
 | 수식 | 설명 | 결과 |
 | --- | --- | --- |
 | **Patch(&nbsp;{&nbsp;Name:&nbsp;"James",&nbsp;Score:&nbsp;90&nbsp;}, {&nbsp;Name:&nbsp;"Jim",&nbsp;Passed:&nbsp;true&nbsp;} )** |데이터 원본 외부의 두 레코드를 병합합니다.<br><ul><li>각 레코드의 **Name** 열 값은 일치하지 않습니다. 결과에는 인수 목록의 시작에 더 가까운 레코드의 값(**James**) 대신 인수 목록의 끝에 더 가까운 레코드의 값(**Jim**)이 포함됩니다.</li><li>첫 번째 레코드에 두 번째 레코드에 없는 열(**Score**)이 포함되어 있습니다. 결과에는 이 열이 해당하는 값(**90**)과 함께 포함됩니다.</li><li>두 번째 레코드에 첫 번째 레코드에 없는 열(**Passed**)이 포함되어 있습니다. 결과에는 이 열이 해당하는 값(**true**)과 함께 포함됩니다. |{&nbsp;Name:&nbsp;"Jim", Score:&nbsp;90, Passed:&nbsp;true&nbsp;} |

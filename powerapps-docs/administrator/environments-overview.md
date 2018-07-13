@@ -8,12 +8,12 @@ ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: 4973265baf701851ac5c2e8bca9da541b246c068
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 4e12faf91b0ce19a4d2ef2ba2e4d9bbca8fb7093
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34167795"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37896308"
 ---
 # <a name="environments-overview"></a>환경 개요
 환경은 조직의 비즈니스 데이터, 앱 및 흐름을 저장, 관리 및 공유하는 공간입니다. 또한 각기 다른 역할, 보안 요구 사항 또는 대상 그룹에 따라 앱을 구분하는 컨테이너 기능도 제공합니다. 환경 활용을 선택하는 방식은 해당 조직 및 빌드하려는 앱에 따라 달라집니다. 예:
@@ -39,13 +39,13 @@ ms.locfileid: "34167795"
 
 * Environment Admin 역할은 다음을 포함하는 환경에서 모든 관리 작업을 수행할 수 있습니다.
 
-    * Environment Admin 또는 Environment Maker 역할에서 사용자나 그룹을 추가 또는 제거
+  * Environment Admin 또는 Environment Maker 역할에서 사용자나 그룹을 추가 또는 제거
 
-    * 환경에 대한 Common Data Service 데이터베이스 프로비전
+  * 환경에 대한 Common Data Service 데이터베이스 프로비전
 
-    * 환경 내에서 만든 모든 리소스 보기 및 관리
+  * 환경 내에서 만든 모든 리소스 보기 및 관리
 
-    * 데이터 손실 방지 정책을 설정합니다. 자세한 내용은 [데이터 손실 방지 정책](prevent-data-loss.md)을 참조하세요.
+  * 데이터 손실 방지 정책을 설정합니다. 자세한 내용은 [데이터 손실 방지 정책](prevent-data-loss.md)을 참조하세요.
 
     환경에서 데이터베이스를 만든 후에는 Environment Admin 역할 대신 System Administrator 역할을 사용할 수 있습니다.
 

@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 3100ebae3d3f9b7cdef839d74e9d289b4059de5d
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 7f78cc61b4e6af34af7bf6944e70e783872bc255
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31838467"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37897504"
 ---
 # <a name="text-input-control-in-powerapps"></a>PowerApps의 텍스트 입력 컨트롤
 사용자가 텍스트, 숫자 및 기타 데이터를 입력할 수 있는 상자입니다.
@@ -149,17 +149,23 @@ ms.locfileid: "31838467"
 6. (선택 사항) 컬렉션에 이름을 더 추가한 다음, Esc 키를 눌러 기본 작업 영역으로 돌아갑니다.
 
 ### <a name="prompt-for-a-password"></a>암호를 묻는 메시지
+
 1. 텍스트 입력 컨트롤을 추가하고 이름을 **inputPassword**로 지정한 다음, **Mode** 속성을 **Password**로 설정합니다.
-2. 레이블을 추가하고 **[Text](properties-core.md)** 속성을 다음 수식으로 설정합니다.<br>
+
+1. 레이블을 추가하고 **[Text](properties-core.md)** 속성을 다음 수식으로 설정합니다.<br>
    **If(inputPassword.Text = "P@ssw0rd", "Access granted", "Access denied")**
-   
+
     **[If](../functions/function-if.md)** 함수 또는 [다른 함수](../formula-reference.md)에 대해 더 알고 싶으신가요?
-3. F5 키를 누르고 **inputPassword**에 **P@ssw0rd**를 입력합니다.
-   
+
+1. F5 키를 누르고 **inputPassword**에 **P@ssw0rd**를 입력합니다.
+
     암호 입력을 마치면 **Access denied**를 표시하는 레이블이 중지하고 **Access granted**를 표시하기 시작합니다.
-4. 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
-5. (선택 사항) 화살표와 같은 컨트롤을 추가하고, 다른 화면으로 이동하도록 구성하며 사용자가 암호를 입력한 후에만 표시합니다.
-6. (선택 사항) 단추를 추가하고 **Sign in**을 표시하도록 **[Text](properties-core.md)** 속성을 구성하며 사용자가 잘못된 암호를 입력한 다음, **Sign in** 단추를 클릭하거나 탭할 경우 일정 시간 동안 입력 텍스트 컨트롤을 비활성화합니다.
+
+1. 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
+
+1. (선택 사항) 화살표와 같은 컨트롤을 추가하고, 다른 화면으로 이동하도록 구성하며 사용자가 암호를 입력한 후에만 표시합니다.
+
+1. (선택 사항) 단추를 추가하고 **Sign in**을 표시하도록 **[Text](properties-core.md)** 속성을 구성하며 사용자가 잘못된 암호를 입력한 다음, **Sign in** 단추를 클릭하거나 탭할 경우 일정 시간 동안 입력 텍스트 컨트롤을 비활성화합니다.
 
 
 ## <a name="accessibility-guidelines"></a>접근성 지침

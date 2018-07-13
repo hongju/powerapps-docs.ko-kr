@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 4/18/2018
 ms.author: audrie
-ms.openlocfilehash: c0711ed071c1635373a66f5b61259f56d468cc9a
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: bffc102ad61a05ae8f2b6a26276cbeec718483f6
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "36311664"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37898194"
 ---
 # <a name="powerapps-webinar-listing"></a>PowerApps 웹 세미나 목록 #
 웹 세미나는 Microsoft PowerApps의 기능을 활용하는 데 도움이 됩니다. 웹 세미나는 실시간 방송 후에 주문형으로 제공됩니다. 일부 경우에 등록 세부 정보를 다시 입력하면 동영상 링크가 메일로 전송됩니다. 

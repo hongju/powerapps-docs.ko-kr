@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 04/26/2016
 ms.author: gregli
-ms.openlocfilehash: 6ba2186e7f6618cdaa6eef8073e5f3897628ae8f
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: c221bae846dba06f83705c52c9cbe2f236ab2007
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31838220"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37896791"
 ---
 # <a name="sort-and-sortbycolumns-functions-in-powerapps"></a>PowerApps의 Sort 및 SortByColumns 함수
 [테이블](../working-with-tables.md)을 정렬합니다.
@@ -57,7 +57,7 @@ ms.locfileid: "31838220"
 * *SortOrder(s)* - 선택 항목입니다.  **SortOrder.Ascending** 또는 **SortOrder.Descending**이 있습니다.  **SortOrder.Ascending**이 기본값입니다.  다양한 *ColumnNames*가 제공되면 마지막 열을 제외한 모든 열에는 *SortOrder*가 포함되어야 합니다.
   
     > [!NOTE]
-> 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 각 공백을 **"\_x0020\_"** 으로 지정합니다. 예를 들어, **"Column Name"** 은 **"Column_x0020_Name"** 으로 지정합니다.
+  > 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 각 공백을 **"\_x0020\_"** 으로 지정합니다. 예를 들어, **"Column Name"** 은 **"Column_x0020_Name"** 으로 지정합니다.
 
 **SortByColumns**( *Table*, *ColumnName*, *SortOrderTable* )
 
@@ -66,7 +66,7 @@ ms.locfileid: "31838220"
 * *SortOrderTable* - 필수 항목입니다.  정렬할 값들의 단일 열 테이블입니다.
   
     > [!NOTE]
-> 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 각 공백을 **"\_x0020\_"** 으로 지정합니다. 예를 들어, **"Column Name"** 은 **"Column_x0020_Name"** 으로 지정합니다.
+  > 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 각 공백을 **"\_x0020\_"** 으로 지정합니다. 예를 들어, **"Column Name"** 은 **"Column_x0020_Name"** 으로 지정합니다.
 
 ## <a name="examples"></a>예
 다음 예제에서는 이 테이블의 데이터가 포함된 **IceCream** [데이터 원본](../working-with-data-sources.md)을 사용합니다.

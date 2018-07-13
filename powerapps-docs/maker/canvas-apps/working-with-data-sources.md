@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 03/08/2017
 ms.author: gregli
-ms.openlocfilehash: 5e9b9ec980e6dd4aeacfef42b40fe7f52c19d558
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 4cdc1116de5882b69814bd91b4006debb8c5f5cf
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31838743"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37899344"
 ---
 # <a name="understand-data-sources-in-powerapps"></a>PowerApps 데이터 원본에 대한 이해
 대부분의 PowerApps 앱에서는 **데이터 원본**이라는 클라우드 서비스에 저장된 외부 정보를 사용합니다. 일반적인 예로 비즈니스용 OneDrive에 저장된 Excel 파일의 테이블이 있습니다. 앱에서 **연결**을 사용하여 이러한 데이터 원본에 액세스합니다.
@@ -54,7 +54,7 @@ PowerApps 내부 테이블을 사용하는 것과 동일한 방식으로 테이�
 * 데이터 원본은 연결의 기본 테이블과 동일한 열 이름 및 데이터 형식을 갖습니다.
   
     > [!NOTE]
-> 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 PowerApps는 공백을 **"\_x0020\_"** 으로 바꿉니다. 예를 들어 SharePoint 또는 Excel의 **"Column Name"** 은 데이터 레이아웃에 표시되거나 수식에 사용될 때 PowerApps에 **"Column_x0020_Name"** 으로 나타납니다.
+  > 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 PowerApps는 공백을 **"\_x0020\_"** 으로 바꿉니다. 예를 들어 SharePoint 또는 Excel의 **"Column Name"** 은 데이터 레이아웃에 표시되거나 수식에 사용될 때 PowerApps에 **"Column_x0020_Name"** 으로 나타납니다.
 * 데이터 원본은 앱이 로드될 때 서비스에서 자동으로 로드됩니다.  **[Refresh](functions/function-refresh.md)** 함수를 사용하여 강제로 데이터를 새로 고칠 수 있습니다.
 * 사용자가 앱을 실행하면 레코드를 생성, 수정 및 삭제하고, 변경 내용을 서비스의 기본 테이블로 다시 푸시할 수 있습니다.
   * 레코드는 **[Patch](functions/function-patch.md)** 및 **[Collect](functions/function-clear-collect-clearcollect.md)** 함수로 만들 수 있습니다.  

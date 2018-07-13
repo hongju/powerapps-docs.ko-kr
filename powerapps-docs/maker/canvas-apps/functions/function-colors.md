@@ -1,23 +1,19 @@
 ---
 title: Color 열거 및 ColorFade, ColorValue 및 RGBA 함수 | Microsoft Docs
 description: 구문 및 예제를 포함하여 PowerApps에서 Color 열거 및 ColorFade, ColorValue 및 RGBA 함수에 대한 참조 정보
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
 ms.component: canvas
 ms.date: 10/25/2015
 ms.author: gregli
-ms.openlocfilehash: f4eeabf5708fffa6881b84402280d5639d96cc0a
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 6615dfee8f7c867bb25c237633fe031d614d517d
+ms.sourcegitcommit: 6d9fe9967841e381b108a7fb53c9057e295336ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31838674"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37948644"
 ---
 # <a name="color-enumeration-and-colorfade-colorvalue-and-rgba-functions-in-powerapps"></a>PowerApps에서 Color 열거 및 ColorFade, ColorValue 및 RGBA 함수
 기본 제공 색 값 사용, 사용자 지정 색 정의 및 알파 혼합
@@ -51,6 +47,7 @@ ms.locfileid: "31838674"
 * *FadeAmount* - 필수 항목입니다.  -1에서 1 사이의 숫자입니다.  -1은 색을 검정으로 완전히 어둡게 하고, 0은 색에 어떠한 영향도 주지 않으며 1은 색을 흰색으로 완전히 밝게 합니다.  
 
 ## <a name="built-in-colors"></a>기본 제공 색
+
 | 색 열거 | 16진수 코드의 ColorValue | RGBA | 색 견본 |
 | --- | --- | --- | --- |
 | **Color.AliceBlue** |**ColorValue( "#f0f8ff" )** |**RGBA( 240, 248, 255, 1 )** |![aliceblue](./media/function-colors/color-aliceblue.png) |

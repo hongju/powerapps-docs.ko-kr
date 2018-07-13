@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 11/01/2015
 ms.author: gregli
-ms.openlocfilehash: 2b3d91a6da0e17ded435aec74a88ea1bbdd4fac1
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: d1c0a8bdcab3f8a3ba74414ab902092432a34fff
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31827738"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37899206"
 ---
 # <a name="validate-function-in-powerapps"></a>PowerApps의 Validate 함수
 **Validate** 함수는 단일 [열](../working-with-tables.md#columns) 또는 전체 [레코드](../working-with-tables.md#records)의 값이 [데이터 원본](../working-with-data-sources.md)에 대해 유효한지 여부를 확인합니다.  
@@ -55,12 +55,14 @@ ms.locfileid: "31827738"
 다음 예제의 경우 **Scores** 데이터 원본의 **Percentage** 열에 있는 값은 0과 100 사이여야 합니다. 데이터가 유효성 검사를 통과하면 함수는 *공백*을 반환합니다. 그렇지 않으면 함수는 오류 메시지를 반환합니다.
 
 ### <a name="validate-with-a-single-column"></a>단일 열로 유효성 검사
+
 | 수식 | 설명 | 결과 |
 | --- | --- | --- |
 | **Validate( Scores, Percentage, 10 )** |**10**이 **Scores** 데이터 원본의 **Percentage** 열에 유효한 값인지 확인합니다. |*공백* |
 | **Validate( Scores, Percentage, 120 )** |**120**이 **Scores** 데이터 원본의 **Percentage** 열에 유효한 값인지 확인합니다. |"값은 0과 100 사이여야 합니다." |
 
 ### <a name="validate-with-a-complete-record"></a>전체 레코드로 유효성 검사
+
 | 수식 | 설명 | 결과 |
 | --- | --- | --- |
 | **Validate( Scores, EditRecord, Gallery.Updates )** |**10**이 **Scores** 데이터 원본의 **Percentage** 열에 유효한 값인지 확인합니다. |*공백* |

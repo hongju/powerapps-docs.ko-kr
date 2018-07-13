@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 11/07/2015
 ms.author: gregli
-ms.openlocfilehash: 8dc68646808e40792d3e55aa9ac547aa43a78efb
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: c916784df877b1228fd8d9322a80ccccdc61967f
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31827347"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37897895"
 ---
 # <a name="savedata-and-loaddata-functions-in-powerapps"></a>PowerApps의 SaveData 및 LoadData 함수
 [컬렉션](../working-with-data-sources.md#collections)을 저장하고 다시 로드합니다.
@@ -39,6 +39,7 @@ ms.locfileid: "31827347"
 * *IgnoreNonexistentFile* - 선택 항목입니다. **LoadData** 함수가 일치하는 파일을 찾을 수 없을 때 오류를 표시하거나 무시할지 나타내는 부울(**true**/**false**) 값입니다. **false**를 지정하면 오류가 표시됩니다. **true**를 지정하면 오류가 무시되고, 오프라인 시나리오에 유용합니다. **SaveData**는 장치가 오프라인인 경우 (즉, **Connection.Connected** 상태가 **false**인 경우) 파일을 만들 수 있습니다.
 
 ## <a name="examples"></a>예
+
 | 수식 | 설명 | 결과 |
 | --- | --- | --- |
 | **If(Connection.Connected, ClearCollect(LocalTweets, Twitter.SearchTweet("PowerApps", {maxResults: 100})),LoadData(LocalTweets, "Tweets", true))** |장치가 연결되어 있으면 Twitter 서비스에서 LocalTweets 컬렉션을 로드하고, 그렇지 않으면 로컬 파일 캐시에서 컬렉션을 로드합니다. |콘텐츠는 장치가 온라인 또는 오프라인 상태인지 여부에 관계없이 렌더링됩니다. |

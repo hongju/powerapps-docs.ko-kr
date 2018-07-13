@@ -3,7 +3,7 @@ title: Back 및 Navigate 함수 | Microsoft Docs
 description: PowerApps에서 Back 및 Navigate 함수에 대한 구문과 예제를 포함한 참조 정보
 documentationcenter: na
 author: gregli-msft
-manager: kfile
+manager: kvivek
 editor: ''
 tags: ''
 ms.service: powerapps
@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 11/08/2015
 ms.author: gregli
-ms.openlocfilehash: ecb8b8176dd8489866a5ca88a6b69e1520c3ad69
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: e00ee9b3a58bf3255b9f581f405381af05aa07f9
+ms.sourcegitcommit: 6d9fe9967841e381b108a7fb53c9057e295336ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31834461"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37948575"
 ---
 # <a name="back-and-navigate-functions-in-powerapps"></a>PowerApps에서 Back 및 Navigate 함수
 표시되는 화면을 변경합니다.
@@ -63,6 +63,7 @@ ms.locfileid: "31834461"
 * *UpdateContextRecord* - 선택 사항입니다.  하나 이상의 열 이름 및 각 열에 대한 값을 포함하는 레코드입니다. 이 레코드는 **[UpdateContext](function-updatecontext.md)** 함수에 전달된 경우처럼 새 화면의 컨텍스트 변수를 업데이트합니다.
 
 ## <a name="examples"></a>예
+
 | 수식 | 설명 | 결과 |
 | --- | --- | --- |
 | **Navigate( Details, ScreenTransition.None )** |컨텍스트 변수에 대한 값으로 전환 또는 변경되지 않은 **Details** 화면을 표시합니다. |**Details** 화면이 빠르게 나타납니다. |

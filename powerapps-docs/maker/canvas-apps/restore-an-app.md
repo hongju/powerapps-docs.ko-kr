@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 10/16/2016
 ms.author: jamesol
-ms.openlocfilehash: e13f5c7fa73c0d95c5be5c755f2d482b1efc8a71
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: ee9b19f647258e57b434c42b5f50bd71fc2d4bb2
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31832128"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37895664"
 ---
 # <a name="restore-an-app-to-a-previous-version"></a>앱을 이전 버전으로 복원
 이 문서에서는 PowerApps 계정에서 클라우드로 저장된 이전 버전으로 앱을 복원하는 방법을 보여 줍니다.
@@ -32,7 +32,7 @@ ms.locfileid: "31832128"
     ![소유하는 앱에서 필터링](./media/restore-an-app/filter-list.png)
 
     > [!NOTE]
-> 복원하려는 앱이 표시되지 않는 경우 올바른 환경에 있는지 확인합니다.
+   > 복원하려는 앱이 표시되지 않는 경우 올바른 환경에 있는지 확인합니다.
 
 3. 오른쪽 가장자리 근처에서 복원할 앱에 대한 정보 아이콘을 클릭하거나 누릅니다.
 

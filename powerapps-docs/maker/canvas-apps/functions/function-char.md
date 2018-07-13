@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 11/07/2015
 ms.author: gregli
-ms.openlocfilehash: 2e8281f401088f43aa7785ac5dcf7b2f07bb6f96
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: b5d63b26498b94943f5340d9f57f3255390c7c94
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31826216"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37895986"
 ---
 # <a name="char-function-in-powerapps"></a>PowerApps의 Char 함수
 문자 코드를 문자열로 변환합니다.
@@ -31,6 +31,7 @@ ms.locfileid: "31826216"
 * *CharacterCode* - 필수 항목이며, 변환할 ASCII 문자 코드입니다.
 
 ## <a name="examples"></a>예
+
 | 수식 | 설명 | 결과 |
 | --- | --- | --- |
 | **Char( 65 )** |ASCII 코드 65에 해당하는 문자를 반환합니다. |A |

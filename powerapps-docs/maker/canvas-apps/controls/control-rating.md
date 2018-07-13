@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 1df75e5de1f0d8a2515b4dcf761593145d72f70a
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 2cdf88c21e9cd8dd957fa5cf704280df325e85fd
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31834656"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37898309"
 ---
 # <a name="rating-control-in-powerapps"></a>PowerApps의 등급 컨트롤
 사용자가 1과 사용자가 지정하는 최대 숫자 사이의 값을 나타낼 수 있는 컨트롤입니다.
@@ -105,7 +105,7 @@ ms.locfileid: "31834656"
 * **[AccessibleLabel](properties-accessibility.md)** 이 있어야 합니다.
 
     > [!NOTE]
-> 화면 읽기 프로그램은 **등급** 컨트롤을 라디오 단추로 처리합니다.
+  > 화면 읽기 프로그램은 **등급** 컨트롤을 라디오 단추로 처리합니다.
 
 ### <a name="keyboard-support"></a>키보드 지원
 * 키보드 사용자가 탐색할 수 있도록 **[TabIndex](properties-accessibility.md)** 가 0 이상이어야 합니다.
@@ -113,4 +113,4 @@ ms.locfileid: "31834656"
 * 별이 너무 많은 경우에는 다른 컨트롤을 사용하는 것이 좋습니다. 키보드로 탐색하는 것은 지루하고 터치 스크린으로 정확하게 선택하는 것은 어려울 수 있습니다.
 
     > [!NOTE]
-> **등급**에서 라디오 단추에 대해 동일한 키보드 조작을 사용할 수 있습니다.
+  > **등급**에서 라디오 단추에 대해 동일한 키보드 조작을 사용할 수 있습니다.

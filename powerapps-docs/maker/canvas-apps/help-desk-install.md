@@ -12,12 +12,12 @@ ms.topic: sample
 ms.component: canvas
 ms.date: 04/08/2018
 ms.author: caburk
-ms.openlocfilehash: 4601cabae10f3373f8d2ef18190d71af536811b5
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: e7ed897af79831f9d8db7ae6da6719b3e6977807
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34470046"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37896975"
 ---
 # <a name="install-and-configure-the-help-desk-powerapps-sample"></a>지원 센터 PowerApps 샘플 설치 및 구성
 
@@ -173,27 +173,27 @@ ms.locfileid: "34470046"
 
 ## <a name="import-the-help-desk-powerapp"></a>지원 센터 PowerApp 가져오기
 
-1.  웹 브라우저에서 https://web.powerapps.com으로 이동합니다.
-2.  등록 시 사용한 동일한 자격 증명을 제공하여 로그인합니다.
-3.  왼쪽 메뉴에서 **앱**을 선택합니다. 
-4.  **패키지(미리 보기) 가져오기**를 클릭합니다.
+1. 웹 브라우저에서 https://web.powerapps.com으로 이동합니다.
+2. 등록 시 사용한 동일한 자격 증명을 제공하여 로그인합니다.
+3. 왼쪽 메뉴에서 **앱**을 선택합니다. 
+4. **패키지(미리 보기) 가져오기**를 클릭합니다.
     
-    ![패키지 가져오기 화면](./media/help-desk-install/import-package.png)
+   ![패키지 가져오기 화면](./media/help-desk-install/import-package.png)
 
-5.  **업로드** 단추를 클릭하고 이전 단계에서 다운로드한 PowerApp 패키지를 선택합니다.
-6.  **앱** 및 **흐름** 리소스 유형의 **가져오기 설정**을 **새로 만들기**로 설정합니다.
-7.  **SharePoint** 및 **Outlook** 연결의 **가져오기 설정**을 **가져올 때 선택**으로 설정합니다.
+5. **업로드** 단추를 클릭하고 이전 단계에서 다운로드한 PowerApp 패키지를 선택합니다.
+6. **앱** 및 **흐름** 리소스 유형의 **가져오기 설정**을 **새로 만들기**로 설정합니다.
+7. **SharePoint** 및 **Outlook** 연결의 **가져오기 설정**을 **가져올 때 선택**으로 설정합니다.
     
-    ![설정 가져오기 화면](./media/help-desk-install/import-settings.png)
+   ![설정 가져오기 화면](./media/help-desk-install/import-settings.png)
 
-8.  **SharePoint 연결**의 **빨간색 아이콘**을 클릭합니다.
-9.  연결 목록에서 사용자 이름이 있는 항목을 클릭합니다.
+8. **SharePoint 연결**의 **빨간색 아이콘**을 클릭합니다.
+9. 연결 목록에서 사용자 이름이 있는 항목을 클릭합니다.
 
-    ![설정 가져오기 화면](./media/help-desk-install/import-settings-sharepoint.png)
+   ![설정 가져오기 화면](./media/help-desk-install/import-settings-sharepoint.png)
 
 10. **저장**을 클릭합니다.
-11.  **Office 365 Outlook 연결**의 **빨간색 아이콘**을 클릭합니다.
-12.  연결 목록에서 사용자 이름이 있는 항목을 클릭합니다.
+11. **Office 365 Outlook 연결**의 **빨간색 아이콘**을 클릭합니다.
+12. 연결 목록에서 사용자 이름이 있는 항목을 클릭합니다.
 
     ![설정 가져오기 화면](./media/help-desk-install/import-settings-office365outlook.png)
 
@@ -241,13 +241,13 @@ ms.locfileid: "34470046"
 1. **LoginScreen**을 선택합니다.
 2. 드롭다운 메뉴에서 **OnStart**를 선택합니다.
 3. 수식 창을 확장하고 **AdminList** 컬렉션을 찾습니다.
-4. **user@microsoft.com**을 지원 센터 관리자로 바꿉니다.
+4. <strong>user@microsoft.com</strong>을 지원 센터 관리자로 바꿉니다.
 
     ![업데이트 관리자 목록](./media/help-desk-install/Change-admin.png)
     
-    > [!TIP] 
-    > 1 초과 관리자가 있는 경우 관리자를 구분하려면 쉼표를 사용하세요.  예: "admin1@microsoft.com","admin2@microsoft.com".
-    > AdminList의 주소가 PowerApps에 필요한 형식과 일치하는지 확인하려면 [보기] > [변수] > [전역] > [MyProfile]을 선택하고 ‘메일’ 열에서 필요한 메일 형식을 확인합니다.
+   > [!TIP]
+   > 1 초과 관리자가 있는 경우 관리자를 구분하려면 쉼표를 사용하세요.  예: "admin1@microsoft.com","admin2@microsoft.com".
+   > AdminList의 주소가 PowerApps에 필요한 형식과 일치하는지 확인하려면 [보기] > [변수] > [전역] > [MyProfile]을 선택하고 ‘메일’ 열에서 필요한 메일 형식을 확인합니다.
 
 5. **파일**을 클릭합니다.
 6. **저장**을 클릭합니다.

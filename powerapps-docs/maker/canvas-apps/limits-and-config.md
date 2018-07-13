@@ -7,17 +7,18 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 03/07/2018
 ms.author: sharik
-ms.openlocfilehash: ffe1a027e378da3f9c505f4980681a4b5a11dbda
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: e76710bc800782624ca1190086cc19dd47d60939
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34851756"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37896101"
 ---
 # <a name="system-requirements-limits-and-configuration-values"></a>시스템 요구 사항, 제한 및 구성 값
 이 항목은 장치 플랫폼 및 웹 브라우저 요구 사항뿐만 아니라 PowerApps에 대한 제한 사항 및 구성 값을 포함합니다.
 
 ## <a name="supported-platforms-for-running-apps-using-the-powerapps-app"></a>PowerApps 앱을 사용하여 앱을 실행하는 데 지원되는 플랫폼
+
 | **필요한 최소 사항** | **권장** |
 | --- | --- |
 | iOS 9.3 이상 |최소 2GB의 RAM이 있는 iOS 10 이상 |
@@ -25,6 +26,7 @@ ms.locfileid: "34851756"
 | Windows 8.1 이상(PC만 해당) |최소 8GB의 RAM이 있는 Windows 10 Fall Creators Update|
 
 ## <a name="supported-browsers-for-running-apps"></a>앱 실행에 지원되는 브라우저
+
 | **브라우저** | **운영 체제** |
 | --- | --- |
 | Google Chrome(최신 버전)<br>(권장) |Windows 7 SP1, 8.1 및 10 <br>Android 5 이상 <br>iOS 8 이상<br>macOS |
@@ -34,6 +36,7 @@ ms.locfileid: "34851756"
 | Apple Safari(최신 버전) |iOS 8 이상 <br>macOS |
 
 ## <a name="supported-browsers-for-powerapps-studio"></a>PowerApps Studio에 대해 지원되는 브라우저
+
 | **브라우저** | **운영 체제** |
 | --- | --- |
 | Google Chrome(최신 버전)<br>(권장) |Windows 7 SP1, 8.1 및 10 <br>macOS |
@@ -58,7 +61,7 @@ PowerApps의 요청은 앱이 위치한 [환경](../../administrator/environment
 
 예를 들어, Azure SQL Database에 대한 IP 주소를 허용 목록에 추가해야 하는 경우 이러한 주소를 사용합니다.
 
->   [!IMPORTANT] 
+> [!IMPORTANT]
 >   PowerApps 앱이 위치한 지역의 경우 이 목록의 IP 주소를 포함하고 일치하도록 기존 구성이 있는 경우 2018년 9월 1일 전에 가능한 신속하게 업데이트하세요.
 
 | 지역 | 아웃바운드 IP |

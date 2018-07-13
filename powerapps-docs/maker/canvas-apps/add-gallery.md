@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 09/28/2017
 ms.author: sharik
-ms.openlocfilehash: 60ec1fc7f896aeb3391ed794920e987b232d09f3
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 9b2c07e8599ada76aa2f2195fc1240321ed02ef9
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31833491"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37898217"
 ---
 # <a name="show-a-list-of-items-in-powerapps"></a>PowerApps에서 항목 목록 표시
 **[갤러리](controls/control-gallery.md)** 컨트롤을 앱에 추가하여 모든 데이터 원본에서 항목 목록을 표시합니다. 이 토픽에서는 데이터 원본으로 Excel을 사용합니다. **[텍스트 입력](controls/control-text-input.md)** 컨트롤의 필터 조건과 일치하는 항목만 표시하도록 **갤러리** 컨트롤을 구성하여 목록을 필터링합니다.
@@ -52,7 +52,7 @@ ms.locfileid: "31833491"
 7. **목록 화면**을 클릭하거나 탭하여 **갤러리** 컨트롤 및 검색 표시줄과 같은 다른 컨트롤을 포함하는 화면을 추가합니다.
 
     > [!NOTE]
-> 새 화면 또는 기존 화면에 **갤러리** 컨트롤을 추가하는지 여부는 **갤러리** 컨트롤의 아래쪽 가까이에 있는 탭을 클릭하거나 탭하여 선택하고, 오른쪽 창에서 **바닥재 견적**을 클릭하거나 탭한 다음 **데이터** 창에서 다른 레이아웃을 클릭하거나 탭할 수 있습니다. 이 자습서의 경우 기본 레이아웃을 그대로 둡니다.
+   > 새 화면 또는 기존 화면에 **갤러리** 컨트롤을 추가하는지 여부는 **갤러리** 컨트롤의 아래쪽 가까이에 있는 탭을 클릭하거나 탭하여 선택하고, 오른쪽 창에서 **바닥재 견적**을 클릭하거나 탭한 다음 **데이터** 창에서 다른 레이아웃을 클릭하거나 탭할 수 있습니다. 이 자습서의 경우 기본 레이아웃을 그대로 둡니다.
 
     ![갤러리 레이아웃 선택](./media/add-gallery/select-layout.png)
 

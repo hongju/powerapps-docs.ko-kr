@@ -7,12 +7,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 10/12/2016
 ms.author: lanced
-ms.openlocfilehash: a3a5d24efffd7cd3c9430cafd5050dc96632ee76
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: 0666350b9c60fdd3a1ed9cb2a3e7fa7b46bdd683
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34803170"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37896883"
 ---
 # <a name="connect-to-power-bi-from-powerapps"></a>PowerApps에서 Power BI에 연결
 ![Power BI](./media/connection-powerbi/powerbiicon.png)
@@ -30,7 +30,7 @@ Power BI는 데이터를 분석하고 정보 활용을 공유하는 비즈니스
 ### <a name="list-the-alerts-that-youve-set-up-in-the-power-bi-service"></a>Power BI 서비스에서 설정한 경고를 나열합니다.
 1. **삽입** 메뉴에서 **갤러리**를 선택하고 **텍스트 갤러리** 하나를 추가합니다.
 2. 현재 사용자의 경고를 표시하려면 갤러리의 [항목](../controls/properties-core.md) 속성을 다음 수식에 설정합니다.
-   
+
    `PowerBI.GetAlerts()`
 
 갤러리가 경고 목록으로 업데이트됩니다. 사용자는 각 경고에 대한 경고 이름, 경고 ID 번호, 경고가 구성 된 그룹 작업 영역 ID를 받습니다. 경고 ID는 경고에 대해 자세한 정보를 얻고자 할 때 필요합니다.
@@ -64,6 +64,7 @@ Power BI 서비스에서 설정한 경고를 나열합니다.
 없음
 
 #### <a name="output-properties"></a>출력 속성
+
 | 속성 이름 | 데이터 형식 | 필수 | 설명 |
 | --- | --- | --- | --- |
 | 값 |배열 |아니요 |Power BI 서비스에서 설정한 데이터 경고의 배열입니다. 배열의 각 요소에는 다음이 포함됩니다. <ul><li>alertTitle: 경고의 제목</li><li>alertId: 경고의 ID</li><li>groupId: 경고가 만들어진 그룹의 ID</li></ul> |
@@ -75,11 +76,13 @@ Power BI 서비스에서 설정한 경고를 나열합니다.
 > 너무 자주 호출하는 경우 경고 당 기준에 따라 이 끝점에 대한 요청이 정체됩니다.
 
 #### <a name="input-properties"></a>입력 속성
+
 | 속성 이름 | 데이터 형식 | 필수 | 설명 |
 | --- | --- | --- | --- |
 | alertId |정수 |예 |GetAlerts가 반환한 경고 ID |
 
 #### <a name="output-properties"></a>출력 속성
+
 | 속성 이름 | 데이터 형식 | 필수 | 설명 |
 | --- | --- | --- | --- |
 | tileValue |숫자 |아니요 |경고가 트리거되는 경우 타일 값 |

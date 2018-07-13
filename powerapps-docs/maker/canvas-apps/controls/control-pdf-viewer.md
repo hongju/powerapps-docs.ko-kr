@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 7f6350a70bff19df0c83d2082fe8fb463d81d772
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: c47fb9a120f41166bbe23d55de6b502209a0f20d
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "32330839"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37898484"
 ---
 # <a name="pdf-viewer-control-experimental-in-powerapps"></a>PowerApps의 PDF 뷰어 컨트롤(실험)
 PDF 파일의 콘텐츠를 표시하는 실험적 컨트롤입니다.
@@ -96,15 +96,17 @@ PowerApps에서 문서를 열 수 없는 경우 외부 브라우저에서 문서
 **Zoom** – 카메라의 이미지 확대 비율 또는 PDF 뷰어의 파일 보기입니다.
 
 ## <a name="example"></a>예
-* 다음 예와 같이 **PDF 뷰어** 컨트롤을 추가하고 **Document** 속성을 PDF 파일의 URL(큰따옴표로 묶인)로 설정합니다.<br>
+
+다음 예와 같이 **PDF 뷰어** 컨트롤을 추가하고 **Document** 속성을 PDF 파일의 URL(큰따옴표로 묶인)로 설정합니다.
+
   **"https://blog.mozilla.org/security/files/2015/05/HTTPS-FAQ.pdf"**
 
-    컨트롤은 PDF 파일을 보여줍니다.
+    The control shows the PDF file.
 
-    [컨트롤을 추가하고 구성](../add-configure-controls.md)하는 방법을 모르시나요?
-
+    Don't know how to [add and configure a control](../add-configure-controls.md)?
 
 ## <a name="accessibility-guidelines"></a>접근성 지침
+
 **PDF 뷰어**가 여전히 실험 단계에 있기 때문에 PDF 문서의 일부 접근성 기능이 지원되지 않습니다. 따라서 사용자가 외부 응용 프로그램에서 문서를 열 수 있으려면 **ShowControls**를 **true**로 설정해야 합니다.
 
 [WCAG 2.0](https://www.w3.org/TR/WCAG-TECHS/pdf.html) 및 [PDF/UA](https://www.pdfa.org/pdfua-the-iso-standard-for-universal-accessibility/) 표준을 사용하여 접근성 있는 PDF 문서를 만드는 방법을 알아봅니다.

@@ -12,12 +12,12 @@ ms.topic: sample
 ms.component: canvas
 ms.date: 04/08/2018
 ms.author: caburk
-ms.openlocfilehash: bce21a5fe07cb5bf608c36371a7cbe45e845b2ad
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 9ce265df67dd980653766b7bf9d57376c671e18a
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "32330586"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37899965"
 ---
 # <a name="install-and-configure-the-expense-report-powerapps-sample"></a>경비 보고서 PowerApps 샘플 설치 및 구성
 
@@ -241,23 +241,23 @@ ms.locfileid: "32330586"
 
 ## <a name="import-the-expense-report-powerapp"></a>경비 보고서 PowerApps 가져오기
 
-1.  웹 브라우저에서 https://web.powerapps.com으로 이동합니다.
-2.  등록 시 사용한 동일한 자격 증명을 제공하여 로그인합니다.
-3.  왼쪽 메뉴에서 **앱**을 선택합니다. 
-4.  **패키지(미리 보기) 가져오기**를 클릭합니다.
+1. 웹 브라우저에서 https://web.powerapps.com으로 이동합니다.
+2. 등록 시 사용한 동일한 자격 증명을 제공하여 로그인합니다.
+3. 왼쪽 메뉴에서 **앱**을 선택합니다. 
+4. **패키지(미리 보기) 가져오기**를 클릭합니다.
     
-    ![패키지 가져오기 화면](./media/expense-report-install/import-package.png)
+   ![패키지 가져오기 화면](./media/expense-report-install/import-package.png)
 
-5.  **업로드** 단추를 클릭하고 이전 단계에서 다운로드한 PowerApp 패키지를 선택합니다.
-6.  **앱** 및 **흐름** 리소스 유형의 **가져오기 설정**을 **새로 만들기**로 설정합니다.
-7.  **SharePoint** 및 **Outlook** 연결의 **가져오기 설정**을 **가져올 때 선택**으로 설정합니다.
+5. **업로드** 단추를 클릭하고 이전 단계에서 다운로드한 PowerApp 패키지를 선택합니다.
+6. **앱** 및 **흐름** 리소스 유형의 **가져오기 설정**을 **새로 만들기**로 설정합니다.
+7. **SharePoint** 및 **Outlook** 연결의 **가져오기 설정**을 **가져올 때 선택**으로 설정합니다.
     
-    ![설정 가져오기 화면](./media/expense-report-install/import-settings.png)
+   ![설정 가져오기 화면](./media/expense-report-install/import-settings.png)
 
-8.  **SharePoint 연결**의 **빨간색 아이콘**을 클릭합니다.
-9.  연결 목록에서 사용자 이름이 있는 항목을 클릭합니다.
+8. **SharePoint 연결**의 **빨간색 아이콘**을 클릭합니다.
+9. 연결 목록에서 사용자 이름이 있는 항목을 클릭합니다.
 
-    ![설정 가져오기 화면](./media/expense-report-install/import-settings-sharepoint.png)
+   ![설정 가져오기 화면](./media/expense-report-install/import-settings-sharepoint.png)
 
 10. **저장**을 클릭합니다.
 11. **승인 연결**의 **빨간색 아이콘**을 클릭합니다.
@@ -265,9 +265,9 @@ ms.locfileid: "32330586"
 
     ![설정 가져오기 화면](./media/expense-report-install/import-settings-approvals.png)
 
-13.  **저장**을 클릭합니다.
-14.  **Office 365 Outlook 연결**의 **빨간색 아이콘**을 클릭합니다.
-15.  연결 목록에서 사용자 이름이 있는 항목을 클릭합니다.
+13. **저장**을 클릭합니다.
+14. **Office 365 Outlook 연결**의 **빨간색 아이콘**을 클릭합니다.
+15. 연결 목록에서 사용자 이름이 있는 항목을 클릭합니다.
 
     ![설정 가져오기 화면](./media/expense-report-install/import-settings-office365outlook.png)
 
@@ -383,7 +383,7 @@ ms.locfileid: "32330586"
 
 [![경비 보고서 설치 비디오](./media/expense-report-install/expense-report-demo-video.png)](https://youtu.be/h6E9cdrOvMU)
 
-##<a name="next-steps"></a>다음 단계
+## <a name="next-steps"></a>다음 단계
 - [SharePoint 목록 양식 사용자 지정](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/customize-list-form)
 - [컨트롤 추가 및 구성](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/add-configure-controls)
 - [SharePoint 목록 또는 라이브러리에 대한 권한 편집 및 관리](https://support.office.com/en-us/article/edit-and-manage-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782)

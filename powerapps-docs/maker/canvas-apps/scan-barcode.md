@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 10/23/2016
 ms.author: anneta
-ms.openlocfilehash: 6960b41effb109f6f2266ba279b4d51ea51e744f
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 3e1bc218e6be8dcbbb1a72672aedf1de5d1cd7e9
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "32328723"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37895940"
 ---
 # <a name="scan-a-barcode-in-powerapps"></a>PowerApps에서 바코드 스캔
 앱을 만들고, 카메라가 있는 휴대폰과 같은 장치에서 이 앱을 실행하여 여러 유형의 바코드를 스캔합니다. 바코드에 해당하는 숫자는 **레이블** 컨트롤에 표시되며, 해당 데이터를 다양한 [데이터 원본](connections-list.md)에 업로드할 수 있습니다.
@@ -36,18 +36,18 @@ PowerApps에 익숙하지 않으면 [시작](getting-started.md)을 참조하세
 ## <a name="create-a-blank-app"></a>빈 앱 만들기
 1. [PowerApps에 등록](../signup-for-powerapps.md)한 후 다음 중 *하나*를 수행합니다.
 
-1. 카메라가 있는 장치의 브라우저에서 [PowerApps를 엽니다](https://create.powerapps.com).
+2. 카메라가 있는 장치의 브라우저에서 [PowerApps를 엽니다](https://create.powerapps.com).
 
-2. **빈 캔버스 또는 템플릿으로 시작** 아래에서 **빈 앱** 타일의 **전화 레이아웃**을 클릭하거나 탭합니다.
+3. **빈 캔버스 또는 템플릿으로 시작** 아래에서 **빈 앱** 타일의 **전화 레이아웃**을 클릭하거나 탭합니다.
 
     ![앱을 처음부터 만들기](./media/scan-barcode/create-from-blank.png)
 
-3. 이전에 PowerApps를 사용하지 않았으면 소개 둘러보기를 통해 앱의 주요 영역에 대해 알아봅니다. 그렇지 않으면 **건너뛰기**를 클릭하거나 탭합니다.
+4. 이전에 PowerApps를 사용하지 않았으면 소개 둘러보기를 통해 앱의 주요 영역에 대해 알아봅니다. 그렇지 않으면 **건너뛰기**를 클릭하거나 탭합니다.
 
     ![둘러보기 화면 열기](./media/scan-barcode/quick-tour.png)
 
     > [!NOTE]
-> 나중에 오른쪽 위 모서리의 물음표 아이콘을 클릭하거나 탭한 다음 **소개 둘러보기**를 클릭하거나 탭하면 언제든지 둘러보기를 시작할 수 있습니다.
+   > 나중에 오른쪽 위 모서리의 물음표 아이콘을 클릭하거나 탭한 다음 **소개 둘러보기**를 클릭하거나 탭하면 언제든지 둘러보기를 시작할 수 있습니다.
 
 ## <a name="add-a-barcode-control"></a>바코드 컨트롤 추가
 1. **삽입** 탭에서 **미디어**, **바코드**를 차례로 클릭하거나 탭합니다.
@@ -61,7 +61,7 @@ PowerApps에 익숙하지 않으면 [시작](getting-started.md)을 참조하세
 3. **홈** 탭에서 **Barcode1**을 클릭하거나 탭한 다음, **이름 바꾸기** 아래에서 **MyScanner**를 입력하거나 붙여넣습니다.
 
     > [!TIP]
-> 추가한 첫 번째 **바코드** 컨트롤의 이름은 기본적으로 **Barcode1**입니다. 해당 컨트롤을 삭제하고 다른 **바코드** 컨트롤을 추가하면 **Barcode2**라는 이름이 기본적으로 지정됩니다. 수동으로 컨트롤의 이름을 변경하면 수식에서 올바른 이름으로 해당 컨트롤을 참조하도록 합니다.
+   > 추가한 첫 번째 **바코드** 컨트롤의 이름은 기본적으로 **Barcode1**입니다. 해당 컨트롤을 삭제하고 다른 **바코드** 컨트롤을 추가하면 **Barcode2**라는 이름이 기본적으로 지정됩니다. 수동으로 컨트롤의 이름을 변경하면 수식에서 올바른 이름으로 해당 컨트롤을 참조하도록 합니다.
 
     ![바코드 컨트롤 이름 바꾸기](./media/scan-barcode/rename-barcode.png)
 

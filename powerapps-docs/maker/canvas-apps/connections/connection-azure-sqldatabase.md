@@ -7,12 +7,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 07/12/2016
 ms.author: lanced
-ms.openlocfilehash: e11521219fcd368801a6e943f45dbc713309ec36
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: d8d5e29fc7f1c551ac637d86886bc658e7414110
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34803423"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37898010"
 ---
 # <a name="connect-to-sql-server-from-powerapps"></a>PowerApps에서 SQL Server 연결
 ![SQL Server 아이콘](./media/connection-azure-sqldatabase/sqlicon.png)
@@ -33,7 +33,7 @@ PowerApps에서 정보를 표시할 수 있도록 Azure 또는 온-프레미스 
 * 온-프레미스 데이터베이스의 경우 사용자와 공유한 [데이터 게이트웨이](../gateway-management.md)를 식별하거나 하나 만듭니다.
   
     > [!NOTE]
-> 게이트웨이 및 온-프레미스 연결은 사용자의 [기본 환경](../working-with-environments.md)에서만 생성하고 사용할 수 있습니다.
+  > 게이트웨이 및 온-프레미스 연결은 사용자의 [기본 환경](../working-with-environments.md)에서만 생성하고 사용할 수 있습니다.
 
 ## <a name="generate-an-app-automatically"></a>자동으로 앱 생성
 1. PowerApps Studio에서 **파일** 메뉴(왼쪽 모서리를 따라)에서 **새로 만들기**를 클릭하거나 탭합니다.
@@ -54,7 +54,7 @@ PowerApps에서 정보를 표시할 수 있도록 Azure 또는 온-프레미스 
        ![온-프레미스 데이터베이스에 연결](./media/connection-azure-sqldatabase/connect-onprem.png)
      
        > [!NOTE]
-> 게이트웨이가 없는 경우 [하나 설치](../gateway-reference.md)하고 **게이트웨이 목록 새로 고침**을 클릭하거나 탭합니다.
+     > 게이트웨이가 없는 경우 [하나 설치](../gateway-reference.md)하고 **게이트웨이 목록 새로 고침**을 클릭하거나 탭합니다.
 6. **연결**을 클릭 하거나 탭합니다.
 7. **데이터 집합 선택**에서 옵션을 클릭하거나 탭하고 **테이블 선택**에서 옵션을 클릭하거나 탭한 다음, **연결**을 클릭하거나 탭합니다.
    
@@ -77,7 +77,7 @@ PowerApps에서 정보를 표시할 수 있도록 Azure 또는 온-프레미스 
        ![Azure에서 데이터베이스에 연결](./media/connection-azure-sqldatabase/connect-onprem-portal.png)
      
        > [!NOTE]
-> 게이트웨이가 없는 경우 [하나 설치](../gateway-reference.md)하고 시계 방향 아이콘을 클릭하거나 탭하여 목록을 새로 고칩니다.
+     > 게이트웨이가 없는 경우 [하나 설치](../gateway-reference.md)하고 시계 방향 아이콘을 클릭하거나 탭하여 목록을 새로 고칩니다.
 5. **만들기**를 클릭하거나 탭하여 연결을 만듭니다.
 6. [처음부터 앱 만들기](../get-started-create-from-blank.md)에서 설명한 것과 비슷한 기법을 사용하여 앱을 만듭니다.
 
@@ -98,7 +98,7 @@ PowerApps에서 정보를 표시할 수 있도록 Azure 또는 온-프레미스 
        ![Azure에서 데이터베이스에 연결](./media/connection-azure-sqldatabase/connect-onprem-fromblank.png)
      
        > [!NOTE]
-> 게이트웨이가 없는 경우 [하나 설치](../gateway-reference.md)하고 원형 아이콘을 클릭하거나 탭하여 목록을 새로 고칩니다.
+     > 게이트웨이가 없는 경우 [하나 설치](../gateway-reference.md)하고 원형 아이콘을 클릭하거나 탭하여 목록을 새로 고칩니다.
 6. **연결**을 클릭 하거나 탭합니다.
 7. **데이터 집합 선택**에서 옵션을 클릭하거나 탭합니다.
 8. **표 선택**에서 하나 이상의 확인란을 선택한 다음 **연결**을 클릭하거나 탭합니다.

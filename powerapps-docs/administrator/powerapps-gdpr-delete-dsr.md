@@ -8,12 +8,12 @@ ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 05/23/2018
 ms.author: jamesol
-ms.openlocfilehash: 495d9976b1daa6e7adb20d97c0840b3a1ba90c4b
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: d518cbf398d0f29b25da9dafcfa6e9026fcee88e
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34552694"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37897182"
 ---
 # <a name="responding-to-data-subject-rights-dsr-requests-to-delete-powerapps-customer-data"></a>PowerApps 고객 데이터를 삭제하기 위한 DSR(Data Subject Rights) 요청에 응답
 
@@ -72,15 +72,15 @@ PowerApps를 통해 사용자는 조직의 일상 업무에 중요한 부분인 
 1. 브라우저에서 다음과 같은 URL(https://login.windows.net/common/userrealm/foobar@contoso.com?api-version=2.1)을 열고, URL에서 이메일 주소를 바꿉니다.
 
 2. **관리되지 않는 테넌트**의 멤버인 경우 응답에서 `"IsViral": true`이 표시됩니다.
-```
-{
-  ...
-  "Login": "foobar@unmanagedcontoso.com",
-  "DomainName": "unmanagedcontoso.com",
-  "IsViral": true,
-  ...
-}
-```
+   ```
+   {
+   ...
+   "Login": "foobar@unmanagedcontoso.com",
+   "DomainName": "unmanagedcontoso.com",
+   "IsViral": true,
+   ...
+   }
+   ```
 
 3. 그렇지 않은 경우 **관리 테넌트**에 속해 있습니다.
 

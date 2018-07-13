@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 10/16/2016
 ms.author: lonu
-ms.openlocfilehash: 386ecbd360dc13c21d48e0c134a87e8b7d007547
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: a4bafb954b5723e813fade2ee633a51f4d8385e0
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31830182"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37895871"
 ---
 # <a name="change-app-name-and-icon-in-powerapps"></a>PowerApps에서 앱 이름 및 아이콘 변경
 이름과 타일을 변경하여 앱을 사용자 지정합니다.
@@ -46,7 +46,7 @@ ms.locfileid: "31830182"
 * **파일 찾아보기**를 클릭하거나 탭하고, 사용하려는 이미지를 클릭하거나 탭한 다음 **열기**를 클릭하거나 탭합니다.
 
     > [!NOTE]
-> 최상의 결과를 얻으려면 정사각형 모양의 아이콘을 사용하세요.
+  > 최상의 결과를 얻으려면 정사각형 모양의 아이콘을 사용하세요.
 
 ## <a name="next-step"></a>다음 단계
 **파일** 메뉴에서 **저장**을 클릭하거나 탭하여 새롭게 설정된 앱을 다시 게시합니다.
