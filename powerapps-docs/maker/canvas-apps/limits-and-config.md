@@ -1,18 +1,20 @@
 ---
 title: 시스템 요구 사항, 제한 및 구성 값 | Microsoft Docs
 description: PowerApps에 대한 시스템 요구 사항, 제한 및 구성 값
-author: skjerland
-ms.service: PowerApps
+author: AFTOwen
+manager: kvivek
+ms.service: powerapps
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: ''
 ms.date: 03/07/2018
-ms.author: sharik
-ms.openlocfilehash: e76710bc800782624ca1190086cc19dd47d60939
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.author: anneta
+ms.openlocfilehash: 082b2735fdc2034a807e746d8c230163adf6b569
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37896101"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39016539"
 ---
 # <a name="system-requirements-limits-and-configuration-values"></a>시스템 요구 사항, 제한 및 구성 값
 이 항목은 장치 플랫폼 및 웹 브라우저 요구 사항뿐만 아니라 PowerApps에 대한 제한 사항 및 구성 값을 포함합니다.

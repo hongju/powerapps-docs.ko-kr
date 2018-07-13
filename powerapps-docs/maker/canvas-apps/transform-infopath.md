@@ -2,17 +2,19 @@
 title: InfoPath 양식을 PowerApps로 변환 | Microsoft Docs
 description: PowerApps에서 이러한 항목을 만드는 방법과 일반적인 InfoPath 시나리오에 대한 자세한 정보를 사용하여 InfoPath 양식을 PowerApps로 변환하기를 시작합니다.
 author: richardriley99
+manager: kvivek
 ms.service: powerapps
 ms.topic: article
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 04/05/2018
 ms.author: rriley
-ms.openlocfilehash: 10fe4e9052b9c029046c515c229e95075988597a
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: 74445d4a9398afe00407e7b1a1eae5b7d773dd22
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34803515"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39020403"
 ---
 # <a name="transform-your-infopath-forms-to-powerapps"></a>InfoPath 양식을 PowerApps로 변환
 

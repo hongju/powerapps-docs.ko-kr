@@ -1,23 +1,20 @@
 ---
 title: 속성 찾기 | Microsoft Docs
 description: 컨트롤별, 범주별 또는 사전순으로 속성을 찾습니다.
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
-ms.topic: conceptual
-ms.component: canvas
+ms.topic: reference
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 03/17/2016
 ms.author: gregli
-ms.openlocfilehash: 8d54c632780ac827704535af5d24881685a0e518
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: d1cda8d13faa0c20786f8f7f466951b2fe5eb95e
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34583604"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39018103"
 ---
 # <a name="controls-and-properties-in-powerapps"></a>PowerApps 컨트롤 및 속성
 속성 중 하나를 설정하여 컨트롤의 모양과 동작을 구성합니다. 각 유형의 컨트롤에는 서로 다른 속성 집합이 있습니다. **Height** 및 **Width**와 같은 일부 속성은 거의 모든 유형의 컨트롤에 공통으로 적용되지만, **CheckboxSize**와 같은 다른 속성은 한 유형의 컨트롤에만 적용됩니다.

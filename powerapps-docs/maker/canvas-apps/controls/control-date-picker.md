@@ -1,23 +1,20 @@
 ---
 title: '날짜 선택기 컨트롤: 참조 | Microsoft Docs'
 description: 속성 및 예제를 비롯한 날짜 선택기 컨트롤에 관한 정보
-documentationcenter: na
 author: fikaradz
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: fe6fc6527348c6d38ba1d7934efb50ea071154d7
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: d34761b836f25fcb88d2f77d778501eafd78d511
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34583558"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39017781"
 ---
 # <a name="date-picker-control-in-powerapps"></a>PowerApps의 날짜 선택기 컨트롤
 사용자가 날짜를 지정하기 위해 클릭 또는 탭할 수 있는 컨트롤입니다.

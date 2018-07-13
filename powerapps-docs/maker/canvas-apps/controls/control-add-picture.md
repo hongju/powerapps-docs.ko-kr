@@ -2,17 +2,19 @@
 title: '그림 컨트롤: 참조 | Microsoft Docs'
 description: 속성 및 예제를 비롯한 그림 컨트롤에 관한 정보
 author: fikaradz
+manager: kvivek
 ms.service: powerapps
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: e20d76c9e8913197d4b59380a5f91dea3851c959
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.reviewer: anneta
+ms.openlocfilehash: 694222de50280325e6648362fbe9e745131b716b
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34803538"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39014883"
 ---
 # <a name="add-picture-control-in-powerapps"></a>PowerApps의 그림 컨트롤 추가
 사진을 촬영하거나 로컬 장치에서 이미지를 로드 합니다.

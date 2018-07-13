@@ -1,23 +1,20 @@
 ---
 title: 'Microphone 컨트롤: 참조 | Microsoft Docs'
 description: 속성 및 예제를 비롯한 마이크 컨트롤에 관한 정보
-documentationcenter: na
 author: fikaradz
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: c79e30a404b1e653f1df6547c9fcc818efc79433
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: e0c0c67ab4681eac8c63ceb860a760053547bf24
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34583512"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39015044"
 ---
 # <a name="microphone-control-in-powerapps"></a>PowerApps의 마이크 컨트롤
 앱 사용자가 해당 장치의 사운드를 녹음할 수 있는 컨트롤입니다.

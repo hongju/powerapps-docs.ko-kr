@@ -2,17 +2,19 @@
 title: '바코드 스캐너 컨트롤: 참조 | Microsoft Docs'
 description: 속성 및 예제를 포함한 바코드 스캐너 컨트롤에 관한 정보
 author: fikaradz
+manager: kvivek
 ms.service: powerapps
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: b8b25f5bfa3ddbce7b1c541afb7a935a2fe4aa36
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.reviewer: anneta
+ms.openlocfilehash: feafd1f7e659cc9d0aa8965e430d567e006180ef
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37898171"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39015251"
 ---
 # <a name="barcode-scanner-control-experimental-in-powerapps"></a>PowerApps의 바코드 스캐너 컨트롤(실험)
 사용자가 장치에서 바코드 스캐너를 사용하여 사진을 촬영할 수 있는 실험적 컨트롤입니다.

@@ -2,17 +2,19 @@
 title: '오디오 및 동영상 컨트롤: 참조 | Microsoft Docs'
 description: 속성 및 예제를 비롯하여 오디오 및 동영상 컨트롤에 관한 정보
 author: fikaradz
+manager: kvivek
 ms.service: powerapps
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 43328f363926f20d91b49ba422c3bfdae30abbf6
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.reviewer: anneta
+ms.openlocfilehash: d4fbcafb7c566af224869ad0ce4233e580b20029
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37898759"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39017367"
 ---
 # <a name="audio-and-video-controls-in-powerapps"></a>PowerApps의 오디오 및 동영상
 오디오 파일, 동영상 파일 또는 YouTube의 동영상을 재생하는 컨트롤입니다.
