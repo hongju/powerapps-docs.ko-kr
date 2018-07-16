@@ -2,20 +2,24 @@
 title: 액세스 가능한 앱 만들기 | Microsoft Docs
 description: 장애가 있는 사용자가 앱에 액세스할 수 있도록 하는 방법
 author: fikaradz
+manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 04/03/2018
 ms.author: fikaradz
-ms.openlocfilehash: 8a7139f6dbc39bc1585156802e30236aa2b68359
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: 909f71a61ca3df73b41eb9e1fe0f3dc3f52d1527
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34803078"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39018724"
 ---
 # <a name="create-accessible-apps"></a>액세스 가능한 앱 만들기
 액세스 가능한 앱에서는 시각, 청각 및 기타 장애가 있는 사용자가 앱을 사용할 수 있습니다.  여러 정부 및 조직의 요구 사항인 점을 별개로 하더라도 아래 지침을 따르면 사용자의 능력에 상관없이 모든 사용자의 사용 편의성이 개선됩니다.
+
+**[접근성 검사기](accessibility-checker.md)** 를 사용하여 앱의 잠재적인 접근성 문제를 검토하십시오. 
 
 ## <a name="layout-and-color"></a>레이아웃 및 색
 상식적이고 복잡하지 않은 디자인을 사용하면 모든 사용자가 앱에 쉽게 액세스하는 데 도움이 됩니다.  앱의 사용자 지정을 많이 수행하는 경우 아래 제안 사항에 유의하세요.  PowerApps 테마는 기본적으로 접근성이 좋습니다.
@@ -59,4 +63,7 @@ PenInput 컨트롤을 사용하는 서명 필드가 있는 경우 서명 입력�
 
 
 
-관련 항목: 손쉬운 **[접근성 속성](controls/properties-accessibility.md)**
+관련:
+- [접근성 속성](controls/properties-accessibility.md)
+- [접근성 검사기 사용](accessibility-checker.md)
+- [PowerApps의 액세스 가능한 색](accessible-apps-color.md)
