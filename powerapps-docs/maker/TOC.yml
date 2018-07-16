@@ -257,6 +257,8 @@
               href: ./canvas-apps/functions/function-concatenate.md
             - name: Concatenate
               href: ./canvas-apps/functions/function-concatenate.md
+            - name: 동시
+              href: ./canvas-apps/functions/function-concurrent.md
             - name: 연결
               href: ./canvas-apps/functions/signals.md
             - name: 카운트
