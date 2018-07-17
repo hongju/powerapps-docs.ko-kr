@@ -134,7 +134,9 @@
             - name: 액세스 가능한 앱 만들기
               href: ./canvas-apps/accessible-apps.md
               items:
-                - name: 컬러
+                - name: 접근성 문제 찾기
+                  href: ./canvas-apps/accessibility-checker.md
+                - name: 색을 사용하여 접근성 높이기
                   href: ./canvas-apps/accessible-apps-color.md
         - name: 앱 관리
           items:
