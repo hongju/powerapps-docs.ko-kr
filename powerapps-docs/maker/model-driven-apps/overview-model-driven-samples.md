@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.component: model
 ms.date: 03/08/2018
 ms.author: caburk
-ms.openlocfilehash: c9525827c7e8e48c0f5e68e3608c9b6b9f630121
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 36e5efec10a3f849b6366368eed7b3b9e7af3f8c
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31831266"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37898378"
 ---
 # <a name="model-driven-sample-apps"></a>모델 기반 샘플 앱
 
@@ -70,7 +70,7 @@ ms.locfileid: "31831266"
 
     ![솔루션삭제](media/overview-model-driven-samples/delete-solution.png)
 
-*Maker 포털에서 **고급**을 클릭하여 솔루션 목록으로 이동하고 .dynamics.com/ 뒤에 있는 URL에서 모든 항목을 삭제합니다.*
+<em>Maker 포털에서 **고급</em>* 을 클릭하여 솔루션 목록으로 이동하고 .dynamics.com/ 뒤에 있는 URL에서 모든 항목을 삭제합니다.*
 
 > [!IMPORTANT]
 > 영향에 대해 알지 못하는 경우 다른 시스템 솔루션을 삭제하지 마십시오.

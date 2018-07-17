@@ -1,23 +1,19 @@
 ---
 title: 함수, 신호 및 열거형 | Microsoft Docs
 description: PowerApps에서 함수, 신호 및 열거형에 대한 참조 정보
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
 ms.component: canvas
 ms.date: 06/05/2018
 ms.author: gregli
-ms.openlocfilehash: af089f81b8fd96ec022fe32495cb14f2827f28b5
-ms.sourcegitcommit: 045c96df42405c60c7675edbadac93455270a021
+ms.openlocfilehash: b131f9da9dbf0624185fc837c5582c9ef0477089
+ms.sourcegitcommit: 6d9fe9967841e381b108a7fb53c9057e295336ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34822584"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37948599"
 ---
 # <a name="formula-reference-for-powerapps"></a>PowerApps에 대한 수식 참조
 수식은 많은 요소를 결합합니다.  아래 나열되어 있습니다.
@@ -65,6 +61,8 @@ ms.locfileid: "34822584"
 
 **[Char](functions/function-char.md)** – 문자 코드를 문자열로 변환합니다.
 
+**[Choices](functions/function-choices.md)** – 조회 열에 대해 가능한 값의 테이블을 반환합니다.
+
 **[Clear](functions/function-clear-collect-clearcollect.md)** – [컬렉션](working-with-data-sources.md#collections)에서 모든 데이터를 삭제합니다.
 
 **[ClearCollect](functions/function-clear-collect-clearcollect.md)** – 컬렉션에서 모든 데이터를 삭제한 후 [레코드](working-with-tables.md#records) 집합을 추가합니다.
@@ -86,6 +84,8 @@ ms.locfileid: "34822584"
 **[Concat](functions/function-concatenate.md)** – 데이터 원본에서 문자열을 연결합니다.  
 
 **[Concatenate](functions/function-concatenate.md)** – 문자열을 연결합니다.
+
+**[Concurrent](functions/function-concurrent.md)** – 동시에 서로 여러 수식을 평가합니다. 
 
 **[Connection](functions/signals.md)** – 네트워크 연결에 대한 정보를 반환합니다.
 
@@ -279,6 +279,8 @@ ms.locfileid: "34822584"
 **[Search](functions/function-filter-lookup.md)** – 해당 열 중 하나에 문자열을 포함하는 테이블의 레코드를 찾습니다.  
 
 **[Second](functions/function-datetime-parts.md)** – 날짜/시간 값의 초 부분을 검색합니다.
+
+**[Select](functions/function-select.md)** – 컨트롤에 select 작업을 시뮬레이트하여 **OnSelect** 수식을 계산합니다.
 
 **[Set](functions/function-set.md)** – 전역 변수의 값을 설정합니다.
 

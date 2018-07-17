@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 08/15/2017
 ms.author: gregli
-ms.openlocfilehash: e488383acbd163383079b5078e464cab89e677ad
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: a8cd998744d609c253a31271aab34a30b1e998f3
+ms.sourcegitcommit: a622db0fb3d44fa5e7ebc4bfdc77cd6acb3646be
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31829051"
+ms.lasthandoff: 07/05/2018
+ms.locfileid: "37843230"
 ---
 # <a name="average-max-min-stdevp-sum-and-varp-functions-in-powerapps"></a>PowerApps의 Average, Max, Min, StdevP, Sum, VarP 함수
 일련의 숫자를 요약하는 집계 함수입니다.
@@ -44,7 +44,7 @@ ms.locfileid: "31829051"
 
 이러한 함수는 숫자 값에 대해서만 작동합니다. 문자열이나 레코드와 같은 다른 유형의 값은 무시됩니다. 문자열을 숫자로 변환하려면 **[Value](function-value.md)** 함수를 사용합니다.
 
-**Average**, **Max**, **Min**, **Sum** 함수는 [이러한 함수에 대한 위임을 지원하는 데이터 원본](../delegation-list.md)과 함께 사용하면 위임이 가능합니다.  하지만 **StdevP** 및 **VarP**는 모든 데이터 원본에 대해 위임할 수 없습니다.  위임이 지원되지 않으면 데이터의 첫 번째 부분만 검색된 다음 함수가 로컬에 적용됩니다.  결과에 전체 스토리가 나타나지 않을 수 있습니다.  해당하는 경우 이러한 제한 사항을 상기시키고 위임 가능한 대안으로 전환하도록 제안하기 위해 수식 작성 시 파란색 점이 표시됩니다. 자세한 내용은 [위임 개요](../delegation-overview.md)를 참조하세요.
+**Average**, **Max**, **Min**, **Sum** 함수는 [이러한 함수에 대한 위임을 지원하는 데이터 원본](../delegation-list.md)과 함께 사용하면 위임이 가능합니다.  하지만 **StdevP** 및 **VarP**는 모든 데이터 원본에 대해 위임할 수 없습니다.  위임이 지원되지 않으면 데이터의 첫 번째 부분만 검색된 다음 함수가 로컬에 적용됩니다.  결과가 전체 상황을 나타내지 못할 수 있습니다.  해당하는 경우 이러한 제한 사항을 상기시키고 위임 가능한 대안으로 전환하도록 제안하기 위해 수식 작성 시 위임 경고가 표시됩니다. 자세한 내용은 [위임 개요](../delegation-overview.md)를 참조하세요.
 
 ## <a name="syntax"></a>구문
 **Average**( *NumericalFormula1*, [ *NumericalFormula2*, ... ] )<br>**Max**( *NumericalFormula1*, [ *NumericalFormula2*, ... ] )<br>**Min**( *NumericalFormula1*, [ *NumericalFormula2*, ... ] )<br>**Sum**( *NumericalFormula1*, [ *NumericalFormula2*, ... ] )<br>**StdevP**( *NumericalFormula1*, [ *NumericalFormula2*, ... ] )<br>**VarP**( *NumericalFormula1*, [ *NumericalFormula2*, ... ] )

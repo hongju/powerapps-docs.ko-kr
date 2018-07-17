@@ -1,23 +1,18 @@
 ---
 title: 테이블 이해 | Microsoft Docs
 description: 테이블, 열 및 레코드 작업에 대한 참조 정보입니다.
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
 ms.component: canvas
 ms.date: 04/26/2016
 ms.author: gregli
-ms.openlocfilehash: 42a7c0db6aaf46d8cdbd112cf72c6f95f58dc9ec
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 6144d66849316dc2b355b0cb9a56959e10f8a319
+ms.sourcegitcommit: 76ffec3b4d9c18a01f19c583435541ae165a8234
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31839180"
+ms.lasthandoff: 07/06/2018
+ms.locfileid: "37864264"
 ---
 # <a name="understand-tables-and-records-in-powerapps"></a>PowerApps 테이블 및 레코드에 대한 이해
 Microsoft Excel, SharePoint, SQL Server 및 레코드와 테이블에 데이터를 저장하는 다른 여러 원본의 정보에 액세스하는 앱을 만들 수 있습니다. 이러한 종류의 데이터로 가장 효과적으로 작업하려면 이러한 구조의 기반이 되는 개념을 검토합니다.
@@ -91,26 +86,28 @@ Excel 및 PowerApps에서는 수식을 사용하여 숫자와 텍스트 문자�
 
 몇 가지 간단한 예제를 살펴보겠습니다.
 
-1. **텍스트 갤러리** 컨트롤을 추가하고, **[Items](controls/properties-core.md)** 속성을 테이블 이름으로 설정합니다.
-   
-    기본적으로 갤러리에는 **TextualGallerySample** 테이블의 자리 표시자 텍스트가 표시됩니다. 갤러리의 **[Items](controls/properties-core.md)** 속성이 자동으로 해당 테이블로 설정됩니다.
-   
-    > [!NOTE]
-> 일부 컨트롤은 이해를 돕기 위해 다시 정렬되고 확대되었습니다.
-   
+1. 휴대폰에 비어 있는 앱을 만들고 다른 컨트롤을 포함하는 세로 **[갤러리](controls/control-gallery.md)** 컨트롤을 추가합니다.
+
+    기본적으로 화면에는 **CustomGallerySample**이라는 테이블의 자리 표시자 텍스트가 표시됩니다. 화면 **[Gallery](controls/control-gallery.md)** 컨트롤의 **[Items](controls/properties-core.md)** 속성이 자동으로 해당 테이블로 설정됩니다.
+
     ![](media/working-with-tables/gallery-items.png)
+
+    > [!NOTE]
+    > 일부 컨트롤은 이해를 돕기 위해 다시 정렬되고 확대되었습니다.
+
 2. **[Items](controls/properties-core.md)** 속성을 테이블 이름으로 설정하는 대신 다음 예제와 같이 테이블 이름을 인수로 포함하는 수식으로 설정합니다.<br>
-   **Sort(TextualGallerySample, Heading, Descending)**
-   
+    **Sort(CustomGallerySample, SampleHeading, Descending)**
+
     이 수식은 테이블 이름을 첫 번째 인수로 사용하고, 테이블의 열 이름을 두 번째 인수로 사용하는 **[Sort](functions/function-sort.md)** 함수를 통합합니다. 또한 이 함수는 데이터를 내림차순으로 정렬하도록 규정하는 선택적인 세 번째 인수를 지원합니다.
-   
+
     ![](media/working-with-tables/gallery-items-sort.png)
+
 3. **[Items](controls/properties-core.md)** 속성을 다음 예제와 같이 이전 단계의 수식을 인수로 사용하고 테이블을 반환하는 수식으로 설정합니다.<br>
-   **FirstN(Sort(TextualGallerySample, Heading, Descending), 2)**
-   
+   **FirstN(Sort(CustomGallerySample, SampleHeading, Descending), 2)**
+
     이 수식에서는 **[FirstN](functions/function-first-last.md)** 함수를 사용하여 테이블에 있는 특정 수의 레코드를 표시합니다. **[Sort](functions/function-sort.md)** 함수를 **[FirstN](functions/function-first-last.md)** 의 첫 번째 인수로, 숫자(이 경우 **2**)를 두 번째 인수로 사용하여 표시할 레코드 수를 지정합니다.
    
-    전체 수식은 **TextualGallerySample** 테이블에서 **Heading** 열 기준 내림차순으로 정렬된 처음 두 레코드가 포함된 테이블을 반환합니다.
+    전체 수식은 **SampleHeading** 열 기준 내림차순으로 정렬된 **CustomGallerySample** 테이블의 처음 두 레코드가 포함된 테이블을 반환합니다.
    
     ![](media/working-with-tables/gallery-items-sort-firstn.png)
 
@@ -139,7 +136,7 @@ Excel 및 PowerApps에서는 수식을 사용하여 숫자와 텍스트 문자�
 * **[Update](functions/function-update-updateif.md)**, **[UpdateIf](functions/function-update-updateif.md)** - 지정한 하나 이상의 기준과 일치하는 레코드를 업데이트합니다.
 * **[Remove](functions/function-remove-removeif.md)**, **[RemoveIf](functions/function-remove-removeif.md)** - 지정한 하나 이상의 기준과 일치하는 레코드를 삭제합니다.
 
-다음 컨트롤에는 테이블인 속성이 있습니다.
+이러한 속성은 테이블인 값으로 설정됩니다.
 
 * **Items** - 갤러리 및 목록 상자에 적용됩니다. 갤러리에 표시할 테이블입니다.
 * **SelectedItems** - 목록 상자에 적용됩니다. 사용자가 선택한 항목의 테이블입니다.
@@ -150,24 +147,27 @@ Excel 및 PowerApps에서는 수식을 사용하여 숫자와 텍스트 문자�
 1. 단추 하나를 추가하고 이 수식에 **[OnSelect](controls/properties-core.md)** 속성을 설정합니다.<br>
     **Collect( SelectedRecord, Gallery1.Selected )**
 
-2. 단추가 선택되지 않은 경우 단추를 클릭하여 선택한 다음 다시 클릭하여 수식을 실행합니다.
+2. Alt 키를 누른 상태에서 단추를 선택합니다.
 
 3. **파일** 메뉴에서 **컬렉션**을 선택합니다.
 
-![](media/working-with-tables/selected-collection.png)
+    ![](media/working-with-tables/selected-collection.png)
 
-이 수식은 갤러리에서 현재 선택한 레코드의 데이터뿐만 아니라 해당 갤러리의 각 컨트롤도 포함한 레코드를 반환합니다. 예를 들어 원래 테이블의 **Body** 열과 일치하는 **Body** 열 및 해당 열의 데이터가 표시되는 레이블을 나타내는 **Body1** 열이 레코드에 모두 포함됩니다. **Body1** 열에서 테이블 아이콘을 선택하여 해당 데이터를 드릴합니다.
+이 수식은 갤러리에서 현재 선택한 레코드의 데이터뿐만 아니라 해당 갤러리의 각 컨트롤도 포함한 레코드를 반환합니다. 예를 들어 원래 테이블의 **SampleText** 열과 일치하는 **SampleText** 열 및 해당 열의 데이터가 표시되는 레이블을 나타내는 **Subtitle1** 열이 레코드에 모두 포함됩니다. **Subtitle1** 열에서 테이블 아이콘을 선택하여 해당 데이터를 드릴합니다.
+
+> [!NOTE]
+> **Subtitle1** 열의 이름은 **Subtitle2**이거나 이 항목에서 지정한 것과 다른 요소를 추가한 경우 유사할 수 있습니다.
 
 이제 선택한 레코드가 있으므로 **.** 연산자를 사용하여 해당 레코드에서 개별 필드를 추출할 수 액세스합니다.
 
-1. Esc 키를 눌러 기본 작업 영역으로 돌아간 다음 갤러리 아래에 레이블을 추가합니다.
+1. **[Label](controls/control-text-box.md)** 컨트롤을 추가한 다음, 갤러리 및 단추 아래로 이동합니다.
 
-2. 레이블의 **[Text](controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.<br>
-    **Gallery.Selected.Heading**
+1. 레이블의 **[Text](controls/properties-core.md)** 속성을 다음 식으로 설정합니다.<br>
+    **"Selected: " & Gallery1.Selected.SampleHeading**
    
     ![](media/working-with-tables/gallery-selected.png)
 
-레코드인 **Selected** 속성을 가져와서 **Heading** 속성을 추출했습니다.  
+레코드인 **Selected** 속성을 가져와서 **SampleHeading** 속성을 추출했습니다.
 
 또한 레코드를 명명된 관련 값에 대한 범용 컨테이너로 사용할 수도 있습니다.
 
@@ -235,10 +235,10 @@ Excel 및 PowerApps에서는 수식을 사용하여 숫자와 텍스트 문자�
 ### <a name="disambiguation"></a>명확성
 레코드 범위에 추가된 필드 이름은 앱의 다른 위치에서 동일한 이름을 재정의합니다.  이 경우 [**@** 명확성](functions/operators.md) 연산자를 사용하여 레코드 범위 외부의 값에 계속 액세스할 수 있습니다.
 
-* 중첩된 레코드 범위의 값에 액세스하려면 ***Table *[@* FieldName*]** 패턴을 사용하여 작업 중인 테이블의 이름에 **@** 연산자를 사용합니다.  
-* 데이터 원본, 컬렉션 및 컨텍스트 변수와 같은 전역 값에 액세스하려면 **[@*ObjectName*]** (테이블 지정 없음) 패턴을 사용합니다.
+* 중첩된 레코드 범위의 값에 액세스하려면 다음 패턴을 사용하여 작업 중인 테이블의 이름에 **@** 연산자를 사용합니다.<br>_Table_**[@**_FieldName_**]**
+* 데이터 원본, 컬렉션 및 컨텍스트 변수와 같은 전역 값에 액세스하려면 테이블 지정 없이 **[@**_ObjectName_**]** 패턴을 사용합니다.
 
-작업 중인 테이블이 **Filter( *table*, ... )** 과 같은 식이면 명확성 연산자를 사용할 수 없습니다.  가장 안쪽의 레코드 범위만 명확성 연산자를 사용하지 않고 이 테이블 식의 필드에 액세스할 수 있습니다.
+작업 중인 테이블이 **Filter(** _Table_**,** ... **)** 과 같은 식이면 명확성 연산자를 사용할 수 없습니다.  가장 안쪽의 레코드 범위만 명확성 연산자를 사용하지 않고 이 테이블 식의 필드에 액세스할 수 있습니다.
 
 예를 들어 **X** 컬렉션이 있다고 가정해 보겠습니다.
 

@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 03/21/2018
 ms.author: gregli
-ms.openlocfilehash: 2bd8ba7dc9b764399165c75361215cee2edb4e7b
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: ebd4454184f684dbf85ec2b8a9056395b92dc47f
+ms.sourcegitcommit: 234de505a0e8c42459d87053fa00ea3e0ea0b909
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31831449"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092786"
 ---
 # <a name="iferror-function-in-powerapps"></a>PowerApps의 IfError 함수
 오류를 감지하고 대체 값을 제공하거나 작업을 수행합니다.
@@ -30,7 +30,7 @@ ms.locfileid: "31831449"
 
 **IfError**를 사용하여 오류 값을 유효한 값으로 바꿉니다.  예를 들어, 사용자 입력으로 인해 0으로 나누기가 발생할 수 있는 경우, 다운스트림 계산을 진행할 수 있도록 앱에 적합한 0 또는 다른 유효한 값으로 바꿉니다.
 
-[동작 수식](../working-with-formulas-in-depth.md)에 **IfError**를 사용하여 작업을 수행하고 오류에 대한 결과를 확인하여 필요한 경우 추가 작업을 수행하거나 [**ShowError**](function-showerror.md)를 사용하여 사용자에게 오류 메시지를 표시합니다.
+[동작 수식](../working-with-formulas-in-depth.md)에 **IfError**를 사용하여 작업을 수행하고 오류에 대한 결과를 확인하여 필요한 경우 추가 작업을 수행하거나 [**Notify**](function-showerror.md)를 사용하여 사용자에게 오류 메시지를 표시합니다.
 
 **IfError**에 대한 모든 인수에서 오류가 발생하면 마지막 인수의 값이 반환됩니다(이것이 오류 값이 됨). 
 
@@ -46,7 +46,7 @@ ms.locfileid: "31831449"
 | --- | --- | --- |
 | **IfError( 1, 2 )** |첫 번째 인수는 오류가 아닙니다.  반환되고 이후 인수는 평가되지 않습니다.   | 1 |
 | **IfError( 1/0, 2 )** | 첫 번째 인수는(0으로 나누기로 인해) 오류 값을 반환합니다.  두 번째 인수는 평가되고 오류가 아닌 값이 반환됩니다. | 2 | 
-| **IfError( 1/0, ShowError( "Division by Zero" ) )** | 첫 번째 인수는(0으로 나누기로 인해) 오류 값을 반환합니다.  두 번째 인수는 평가되고 사용자에게 메시지를 표시합니다.  **IfError**의 반환 값은 **ShowError**의 반환 값이며 **IfError**(숫자)의 첫 번째 인수와 동일한 형식으로 강제 변환됩니다. | 1 |
+| **IfError( 1/0, Notify( "내부 문제가 있었습니다.", NotificationType.Error ) )** | 첫 번째 인수는(0으로 나누기로 인해) 오류 값을 반환합니다.  두 번째 인수는 평가되고 사용자에게 메시지를 표시합니다.  **IfError**의 반환 값은 **Notify**의 반환 값이며 **IfError**(숫자)의 첫 번째 인수와 동일한 형식으로 강제 변환됩니다. | 1 |
 | **IfError( 1/0, 1/0, 2, 1/0, 3 )** | 첫 번째 인수는(0으로 나누기로 인해) 오류 값을 반환합니다.  두 번째 인수는 평가되고 역시(또 다른 0으로 나누기로 인해) 오류 값이 발생합니다.  세 번째 인수가 평가되고 반환되는 오류 값에 반환되지 않습니다.  네 번째와 다섯 번째 인수는 무시됩니다.  | 2 |
 
 ### <a name="step-by-step"></a>단계별 가이드

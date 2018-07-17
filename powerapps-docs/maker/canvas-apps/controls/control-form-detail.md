@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 07/06/2017
 ms.author: gregli
-ms.openlocfilehash: 78615949ab5c05b4cf7da56eae23dd1a0194c7ff
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: ac74f459c35e7b2ec123540a5cf55c1ad6a21c0a
+ms.sourcegitcommit: 8d9e5f44bcd5cecd24de2c99d5ba04df9ea67275
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31838697"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37406026"
 ---
 # <a name="edit-form-and-display-form-controls-in-powerapps"></a>PowerApps의 편집 양식 및 표시 양식 컨트롤
 데이터 원본에서 레코드를 표시하고, 편집하고, 만듭니다.
@@ -151,9 +151,9 @@ ms.locfileid: "31838697"
 
 * 이 속성은 **편집 양식** 컨트롤에만 적용됩니다.
 * **양식** 컨트롤의 **Valid** 속성은 양식의 모든 **[카드](control-card.md)** 컨트롤에 있는 **Valid** 속성을 집계합니다. 양식의 **Valid** 속성은 양식의 모든 카드에 있는 데이터가 올바른 경우에만 **true**이며 그 밖의 경우 양식의 **Valid** 속성은 **false**입니다.
-* 양식의 데이터가 올바르지만 아직 제출되지 않았을 때만 변경 내용을 저장하는 단추를 사용하려면 단추의 **Enabled**를 다음 수식으로 설정합니다.
+* 양식의 데이터가 올바르지만 아직 제출되지 않았을 때만 변경 내용을 저장하는 단추를 사용하려면 단추의 **DisplayMode** 속성을 다음 수식으로 설정합니다.
   
-    **SubmitButton.Enabled = IsBlank( Form.Error ) || Form.Valid**
+    **SubmitButton.DisplayMode = If(IsBlank( Form.Error ) || Form.Valid, DisplayMode.Edit, DisplayMode.Disabled)**
 
 ## <a name="additional-properties"></a>추가 속성
 **[BorderColor](properties-color-border.md)** - 컨트롤의 테두리 색입니다.

@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 07/24/2017
 ms.author: gregli
-ms.openlocfilehash: c01a69f311378e8e818036c866b96a78f223baf9
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: f2c1807f221d3134bbf39c74ae2939babbdd256e
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31837128"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37899367"
 ---
 # <a name="endswith-and-startswith-functions-in-powerapps"></a>PowerApps의 EndsWith 및 StartsWith 함수
 텍스트 문자열이 다른 텍스트 문자열로 시작되거나 끝나는지 테스트합니다.
@@ -29,7 +29,7 @@ ms.locfileid: "31837128"
 
 두 함수 모두, 테스트에서 대/소문자를 구분하지 않습니다.  두 함수의 반환 값은 부울 **true** 또는 **false**입니다.  
 
-**EndsWith**와 **StartsWith**를 **[Filter](function-filter-lookup.md)** 함수와 함께 사용하여 앱 내의 데이터를 검색합니다. **[in](operators.md#in-and-exactin-operators)** 연산자나 **[Search](function-filter-lookup.md)** 함수를 사용하면 시작이나 끝뿐만 아니라 텍스트 문자열 내 어디든지 볼 수 있습니다.  함수의 선택은 앱의 필요에 따라 달라지며 특정 데이터 원본에 대해 [위임](../delegation-overview.md)할 수 있는 함수에 따라 달라집니다.  이러한 함수 중 위임할 수 없는 함수가 있으면 이러한 제한 사항을 경고하기 위해 수식 작성 시 파란 점이 표시됩니다.
+**EndsWith**와 **StartsWith**를 **[Filter](function-filter-lookup.md)** 함수와 함께 사용하여 앱 내의 데이터를 검색합니다. **[in](operators.md#in-and-exactin-operators)** 연산자나 **[Search](function-filter-lookup.md)** 함수를 사용하면 시작이나 끝뿐만 아니라 텍스트 문자열 내 어디든지 볼 수 있습니다.  함수의 선택은 앱의 필요에 따라 달라지며 특정 데이터 원본에 대해 [위임](../delegation-overview.md)할 수 있는 함수에 따라 달라집니다.  이러한 함수 중 위임할 수 없는 함수가 있으면 이러한 제한 사항을 경고하기 위해 수식 작성 시 위임 경고가 표시됩니다.
 
 ## <a name="syntax"></a>구문
 **EndsWith**( *Text*, *EndText* )
@@ -43,6 +43,7 @@ ms.locfileid: "31837128"
 * *StartText* – 필수 항목입니다.  *Text*의 시작 부분에서 검색할 텍스트입니다.  *StartText*가 빈 문자열이면 **StartsWith**는 *true*를 반환합니다.
 
 ## <a name="examples"></a>예
+
 | 수식 | 설명 | 결과 |
 | --- | --- | --- |
 | **EndsWith( "Hello World", "world" )** |**"Hello World"** 가 **"world"** 로 끝나는지 테스트합니다.  이 테스트는 대/소문자를 구분하지 않습니다. |**true** |

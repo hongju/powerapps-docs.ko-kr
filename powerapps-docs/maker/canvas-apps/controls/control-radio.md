@@ -1,40 +1,42 @@
 ---
 title: '라디오 컨트롤: 참조 | Microsoft Docs'
 description: 속성 및 예제를 포함한 라디오 컨트롤에 관한 정보
-documentationcenter: na
 author: fikaradz
 manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
 ms.component: canvas
-ms.date: 10/25/2016
+ms.date: 07/06/2018
 ms.author: fikaradz
-ms.openlocfilehash: 8a95e84449828e77152206817f3d964315074b90
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 4b24d016eb97ca5670a1705adfe063315cb7ebca
+ms.sourcegitcommit: 16a2eeaa4ad9218682143411b609cb961dbcfa91
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31837691"
+ms.lasthandoff: 07/06/2018
+ms.locfileid: "37886358"
 ---
 # <a name="radio-control-in-powerapps"></a>PowerApps의 라디오 컨트롤
-사용자가 한 번에 하나만 선택할 수 있는 모든 옵션을 표시하는 목록입니다.
+
+사용자가 한 번에 하나만을 선택할 수 있는 여러 옵션을 보여주는 입력 컨트롤입니다.
 
 ## <a name="description"></a>설명
-오래 사용되어 온 **라디오** 컨트롤에는 상호 배타적인 몇 가지 옵션만 사용하는 것이 좋습니다.
+
+표준 HTML 입력 컨트롤인 **Radio** 컨트롤은 몇 가지 상호 배타적인 옵션과 함께 사용되는 것이 가장 적합합니다.
+
+컨트롤에는 가로 또는 세로 레이아웃이 있을 수 있습니다.
 
 ## <a name="key-properties"></a>주요 속성
-**[Default](properties-core.md)** – 사용자가 컨트롤을 변경하기 전의 초기 값입니다.
+
+**[기본](properties-core.md)**  – 사용자가 변경하기 전에 컨트롤의 값입니다.
 
 **[Items](properties-core.md)** – 갤러리, 목록 또는 차트와 같은 컨트롤에 표시되는 데이터 원본입니다.
 
-[!INCLUDE [long-items](../../../includes/long-items.md)]
+**레이아웃** – 옵션이 가로 또는 세로로 레이아웃되었는지입니다.
 
 **[Value](properties-core.md)** – 입력 컨트롤의 값입니다.
 
 ## <a name="all-properties"></a>모든 속성
+
 **[Align](properties-text.md)** - 컨트롤의 가로 가운데를 기준으로 한 텍스트의 위치입니다.
 
 **[BorderColor](properties-color-border.md)** - 컨트롤의 테두리 색입니다.
@@ -118,37 +120,44 @@ ms.locfileid: "31837691"
 **[Y](properties-size-location.md)** – 컨트롤의 위쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 위쪽 가장자리 사이의 거리입니다.
 
 ## <a name="related-functions"></a>관련된 함수
+
 [**Distinct**( *DataSource*, *ColumnName* )](../functions/function-distinct.md)
 
 ## <a name="example"></a>예
-1. **라디오** 컨트롤을 추가하고 이름을 **Pricing**으로 지정한 후, **[Items](properties-core.md)** 속성을 다음 수식으로 설정합니다.
-   <br>**["Standard", "Premium"]**
-   
-    [컨트롤을 추가, 이름을 지정하고, 구성](../add-configure-controls.md)하는 방법을 모르시나요?
-2. **[레이블](control-text-box.md)** 컨트롤을 추가하고 **라디오** 컨트롤 아래로 이동한 후, **[레이블](control-text-box.md)** 컨트롤의 **[Text](properties-core.md)** 속성을 다음 수식으로 설정합니다.
-   <br>**If("Premium" in Pricing.Selected.Value, "$200 per day", "$150 per day")**
-   
-    **[If](../functions/function-if.md)** 함수 또는 [다른 함수](../formula-reference.md)에 대해 더 알고 싶으신가요?
-3. F5 키를 선택한 후 **라디오** 컨트롤에서 한 옵션을 선택합니다.
-   
-    **[레이블](control-text-box.md)** 컨트롤이 선택에 적합한 텍스트를 표시합니다.
-4. (선택 사항) **라디오** 컨트롤에서 다른 옵션을 선택하여 적합한 텍스트가 표시되는지 확인합니다.
-5. 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
 
+1. **라디오** 컨트롤을 추가하고 이름을 **Pricing**으로 지정한 후, **[Items](properties-core.md)** 속성을 다음 수식으로 설정합니다.
+
+    **["Standard", "Premium"]**
+
+    [컨트롤을 추가, 이름을 지정하고, 구성](../add-configure-controls.md)하는 방법을 모르시나요?
+
+2. **[레이블](control-text-box.md)** 컨트롤을 추가하고 **라디오** 컨트롤 아래로 이동한 후, **[레이블](control-text-box.md)** 컨트롤의 **[Text](properties-core.md)** 속성을 다음 수식으로 설정합니다.
+
+    **If("Premium" in Pricing.Selected.Value, "$200 per day", "$150 per day")**
+
+    **[If](../functions/function-if.md)** 함수 또는 [다른 함수](../formula-reference.md)에 대해 더 알고 싶으신가요?
+
+3. Alt 키를 누른 채로 **Radio** 컨트롤에서 옵션 중 하나를 선택합니다.
+
+    **[레이블](control-text-box.md)** 컨트롤이 선택에 적합한 텍스트를 표시합니다.
+
+4. (선택 사항) Alt 키를 누른 채로 다른 옵션을 선택하여 적합한 텍스트가 표시되는지 확인합니다.
 
 ## <a name="accessibility-guidelines"></a>접근성 지침
+
 ### <a name="color-contrast"></a>색 대비
-다음 사이에 적절한 색 대비가 있어야 합니다.
+
+[표준 색 대비 요구 사항](../accessible-apps-color.md) 외에도 다음 사이에 적절한 색 대비를 확인합니다.
+
 * **RadioSelectionFill** 및 **RadioBackgroundFill**
 * **RadioBackgroundFill** 및 **[Fill](properties-color-border.md)**
 
-이는 [표준 색 대비 요구 사항](../accessible-apps-color.md)에 추가됩니다.
+### <a name="screen-reader-support"></a>화면 reader 지원
 
-### <a name="screen-reader-support"></a>화면 판독기 지원
-* 모든 라디오 옵션에 대한 **[Value](properties-core.md)** 가 있어야 합니다.
+* 모든 옵션에 **[값](properties-core.md)** 이 있는지 확인합니다.
 * 제목으로 사용할 **라디오** 컨트롤 바로 앞에 **[레이블](control-text-box.md)** 을 추가하는 것이 좋습니다.
 
 ### <a name="keyboard-support"></a>키보드 지원
-* 키보드 사용자가 탐색할 수 있도록 **[TabIndex](properties-accessibility.md)** 가 0 이상이어야 합니다.
-* 포커스 표시기가 명확하게 표시되어야 합니다. **[FocusedBorderColor](properties-color-border.md)** 및 **[FocusedBorderThickness](properties-color-border.md)** 를 사용하여 이를 달성합니다.
- 
+
+* 키보드 사용자가 탐색할 수 있도록 **[TabIndex](properties-accessibility.md)** 속성을 0 이상으로 설정합니다.
+* 집중 지표가 명확하게 표시되도록 **[FocusedBorderColor](properties-color-border.md)** 및 **[FocusedBorderThickness](properties-color-border.md)** 속성을 설정합니다.
