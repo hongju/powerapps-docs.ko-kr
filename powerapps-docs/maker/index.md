@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.date: 03/18/2018
 ms.author: anneta
 ms.reviewer: ''
-ms.openlocfilehash: bed3109a067da091ca6fc242f1f63c8ff11724ab
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 3d95f017b064f61a539906268ebb73fff1e1d04f
+ms.sourcegitcommit: b9fa569153924af9815db45d52c04e764ddb7fa2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39015849"
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "39094613"
 ---
 # <a name="overview-of-creating-apps-in-powerapps"></a>PowerApps에서 앱 만들기 개요
 PowerApps는 생산성이 높은 비즈니스 앱 개발 플랫폼이며 세 가지 주요 구성 요소가 있습니다.
@@ -46,7 +46,7 @@ PowerApps는 생산성이 높은 비즈니스 앱 개발 플랫폼이며 세 가
 
 모델 기반 앱을 시작하는 것은 간단하며 다음 토픽으로 시작할 수 있습니다.
 
-- [앱 만들기](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/create-edit-app)
+- [앱 만들기](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-edit-app)
 - [양식 만들기 및 설계](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-design-forms)
 - [뷰 만들기 또는 편집](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-edit-views)
 - [시스템 차트 만들기 또는 편집](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-edit-system-chart)
