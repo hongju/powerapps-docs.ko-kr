@@ -73,6 +73,8 @@
           href: ./canvas-apps/working-with-variables.md
         - name: 수식
           href: ./canvas-apps/working-with-formulas-in-depth.md
+        - name: 실험적 기능 및 미리 보기 기능
+          href: ./canvas-apps/working-with-experimental.md
         - name: 날짜 및 시간
           href: ./canvas-apps/show-text-dates-times.md
         - name: 데이터 원본
