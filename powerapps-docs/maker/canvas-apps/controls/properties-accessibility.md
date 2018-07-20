@@ -1,23 +1,20 @@
 ---
 title: 접근성 속성 | Microsoft Docs
 description: TabIndex, 도구 설명 등의 속성에 대한 참조 정보
-documentationcenter: na
 author: fikaradz
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 01/26/2017
 ms.author: fikaradz
-ms.openlocfilehash: 94d15ff14ccd57ccc392eae47b6c10d6cec50bb1
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 59cc231dfc461a2301de90a7a995ec2ec82790cb
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31825214"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39022933"
 ---
 # <a name="accessibility-properties-in-powerapps"></a>PowerApps의 접근성 속성
 장애가 있는 사용자에게 적합한 컨트롤과 상호 작용하는 다른 방법을 지원하는 속성의 구성입니다.

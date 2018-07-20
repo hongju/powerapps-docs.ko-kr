@@ -2,17 +2,19 @@
 title: Rand 함수 | Microsoft Docs
 description: PowerApps에서 Rand 함수에 대한 구문을 포함한 참조 정보
 author: gregli-msft
+manager: kvivek
 ms.service: powerapps
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 06/09/2018
 ms.author: gregli
-ms.openlocfilehash: 3bf29a3df235d669de2f2862f11b19f428378123
-ms.sourcegitcommit: 6bfb002180148a3f22a4d1d8d750fc442489ebe4
+ms.openlocfilehash: 4246ce5564886402c6d785a462cdc9dd93270c81
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "35291769"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39021323"
 ---
 # <a name="rand-function-in-powerapps"></a>PowerApps의 Rand 함수
 의사 난수를 반환합니다.

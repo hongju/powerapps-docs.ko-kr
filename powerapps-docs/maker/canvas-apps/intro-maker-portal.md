@@ -1,23 +1,20 @@
 ---
 title: powerapps.com 소개 | Microsoft Docs
 description: 앱의 모든 제작자를 위한 새 홈입니다.
-documentationcenter: na
 author: linhtranms
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 10/28/2016
 ms.author: litran
-ms.openlocfilehash: f29f75522eb01c61c3528e61018fb759980e79f9
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 400df9944b21788e08b0a55e3e0a148f2eccb972
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "32330218"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39017344"
 ---
 # <a name="introduction-to-powerappscom"></a>powerapps.com 소개
 PowerApps 팀은 [powerapps.com](http://web.powerapps.com)을 앱 제작자를 위한 새 홈으로 다시 도입하고 있습니다. 제작자가 쉽게 앱 제작을 시작하고 Microsoft Common Data Service를 사용하며 하나의 위치에서 앱을 모두 관리할 수 있도록 이 페이지를 기본 사이트로 다시 설계했습니다. 이 문서에서는 다음 사항을 안내하려고 합니다.

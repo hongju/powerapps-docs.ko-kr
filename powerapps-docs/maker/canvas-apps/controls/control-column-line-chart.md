@@ -1,23 +1,20 @@
 ---
 title: '세로 막대형 차트 및 꺾은선형 컨트롤: 참조 | Microsoft Docs'
 description: 속성 및 예제를 비롯하여 세로 막대형 차트 컨트롤과 꺾은선형 차트 컨트롤에 관한 정보
-documentationcenter: na
 author: fikaradz
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 5397c99d02e824a86147af053e1f907f83ce3543
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.reviewer: anneta
+ms.openlocfilehash: ef7bd648b103755d724481225e726a9faab863dc
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37898279"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39018126"
 ---
 # <a name="column-chart-and-line-chart-controls-in-powerapps"></a>PowerApps의 세로 막대형 차트 및 꺾은선형 차트 컨트롤
 데이터를 x 및 축이 있는 그래프로 표시하는 컨트롤입니다.

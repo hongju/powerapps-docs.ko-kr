@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 04/08/2018
 ms.author: caburk
-ms.openlocfilehash: 96b824bc5ac9dc3a1200e14f1240105d52c076f6
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 6145f321f3a9322433cdc32b779479871ab4dbf1
+ms.sourcegitcommit: b9fa569153924af9815db45d52c04e764ddb7fa2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39023761"
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "39094774"
 ---
 # <a name="install-and-configure-the-help-desk-powerapps-sample"></a>지원 센터 PowerApps 샘플 설치 및 구성
 
@@ -288,7 +288,7 @@ ms.locfileid: "39023761"
 
 
 ## <a name="next-steps"></a>다음 단계
-- [SharePoint 목록 양식 사용자 지정](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/customize-list-form)
-- [컨트롤 추가 및 구성](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/add-configure-controls)
+- [SharePoint 목록 양식 사용자 지정](https://docs.microsoft.com/powerapps/maker/canvas-apps/customize-list-form)
+- [컨트롤 추가 및 구성](https://docs.microsoft.com/powerapps/maker/canvas-apps/add-configure-controls)
 - [SharePoint 목록 또는 라이브러리에 대한 권한 편집 및 관리](https://support.office.com/en-us/article/edit-and-manage-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782)
  

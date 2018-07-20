@@ -1,23 +1,20 @@
 ---
 title: '레이블 컨트롤: 참조 | Microsoft Docs'
 description: 속성 및 예제를 비롯한 레이블 컨트롤에 관한 정보
-documentationcenter: na
 author: fikaradz
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: cfc47e95cff02dfcbcc2d3ff456e32a4ca2c675e
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: 85e409c517939b786eb677a7acdbd08ed81a5944
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37899442"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39022496"
 ---
 # <a name="label-control-in-powerapps"></a>PowerApps의 레이블 컨트롤
 텍스트, 숫자, 날짜 또는 통화와 같은 데이터를 표시하는 상자입니다.

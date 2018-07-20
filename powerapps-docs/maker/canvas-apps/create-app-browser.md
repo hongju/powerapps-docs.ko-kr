@@ -1,23 +1,20 @@
 ---
 title: 브라우저에서 앱 만들기 또는 편집 | Microsoft Docs
 description: 웹용 PowerApps Studio를 사용하여 브라우저에서 앱을 만들거나 편집합니다.
-documentationcenter: na
-author: aftowen
-manager: kfile
-editor: ''
-tags: ''
+author: AFTOwen
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: ''
 ms.date: 03/08/2018
 ms.author: anneta
-ms.openlocfilehash: 4add1e15c1a85b27b83295422dbb6472ac02ad9f
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 796d23be4c8b69a6f901b4338bda0000f8afb452
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "32329114"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39023094"
 ---
 # <a name="create-or-edit-apps-in-powerapps-studio-for-web"></a>웹용 PowerApps Studio에서 앱 만들기 또는 편집
 웹용 PowerApps Studio에서 앱을 만들고 편집하면 Windows 또는 기타 플랫폼의 브라우저 창에서 열립니다.

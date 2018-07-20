@@ -1,23 +1,20 @@
 ---
 title: And, Or, Not 함수 | Microsoft Docs
 description: PowerApps의 And, Or, Not 함수에 대한 구문과 예제를 포함한 참조 정보
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 11/07/2015
 ms.author: gregli
-ms.openlocfilehash: a2e62ef2aa0a52bde33ea3e40faf96889597b09b
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 05e77c97d74312c91f501bfa7a8baa22eff00632
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31825904"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39021645"
 ---
 # <a name="and-or-and-not-functions-in-powerapps"></a>PowerApps의 And, Or, Not 함수
 일반적으로 비교 및 테스트 결과를 조작하는 데 사용되는 부울 논리 함수입니다.

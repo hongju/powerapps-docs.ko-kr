@@ -1,23 +1,20 @@
 ---
 title: Revert 함수 | Microsoft Docs
 description: PowerApps의 Revert 함수에 대한 구문과 예제를 포함한 참조 정보
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 10/21/2015
 ms.author: gregli
-ms.openlocfilehash: 08cb0690904a4b63645828678232769b66a439a1
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: c02bc4321498d28cbc664f144f1dc396e4052cbd
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31828221"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39019713"
 ---
 # <a name="revert-function-in-powerapps"></a>PowerApps의 Revert 함수
 [데이터 원본](../working-with-data-sources.md)의 [레코드](../working-with-tables.md#records)를 새로 고치고 오류를 지웁니다.

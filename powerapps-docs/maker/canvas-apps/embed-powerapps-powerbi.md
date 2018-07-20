@@ -1,23 +1,20 @@
 ---
 title: Power BI 보고서에 새 앱 포함 | Microsoft Docs
 description: 동일한 데이터 원본을 사용하고 다른 보고서 항목처럼 필터링할 수 있는 앱을 포함합니다
-documentationcenter: na
 author: mgblythe
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: ''
 ms.date: 03/15/2018
 ms.author: mblythe
-ms.openlocfilehash: 33656e44f782a626eecc28787af984ace7339cd6
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 05fe624be450dfcce0d16ae2f178c86ddf361201
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31830473"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39018678"
 ---
 # <a name="tutorial-embed-a-new-app-in-a-power-bi-report"></a>자습서: Power BI 보고서에 새 앱 포함
 

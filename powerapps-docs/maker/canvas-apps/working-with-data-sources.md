@@ -1,23 +1,20 @@
 ---
 title: 데이터 원본 이해 | Microsoft Docs
 description: Microsoft PowerApps 연결 및 데이터 원본 작업에 대한 참조 정보입니다.
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 03/08/2017
 ms.author: gregli
-ms.openlocfilehash: 4cdc1116de5882b69814bd91b4006debb8c5f5cf
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: d8fd771d9407d0ca2601471a06c727b16a751f2a
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37899344"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39020889"
 ---
 # <a name="understand-data-sources-in-powerapps"></a>PowerApps 데이터 원본에 대한 이해
 대부분의 PowerApps 앱에서는 **데이터 원본**이라는 클라우드 서비스에 저장된 외부 정보를 사용합니다. 일반적인 예로 비즈니스용 OneDrive에 저장된 Excel 파일의 테이블이 있습니다. 앱에서 **연결**을 사용하여 이러한 데이터 원본에 액세스합니다.

@@ -1,23 +1,20 @@
 ---
 title: 위임 이해 | Microsoft Docs
 description: 위임을 사용하여 큰 데이터 집합을 효율적으로 처리합니다.
-documentationcenter: na
-author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+author: lancedMicrosoft
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 07/05/2018
-ms.author: gregli
-ms.openlocfilehash: 7e9a6aac1e0df32fa83edaa0b8042dd2df143bf2
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.author: lanced
+ms.openlocfilehash: 484d7b1149f158840238fc3d54713a1e6e33443b
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37897481"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39023600"
 ---
 # <a name="understand-delegation"></a>위임 이해
 PowerApps에는 데이터의 테이블을 필터링, 정렬 및 형성하는 강력함 함수 집합이 포함되어 있습니다(단 시간에 **[Filter](functions/function-filter-lookup.md)**, **[Sort](functions/function-sort.md)** 및 **[AddColumns](functions/function-table-shaping.md)** 함수 이름 지정). 이러한 함수를 사용하여 사용자에게 필요한 정보에 대한 집중된 액세스 권한을 제공할 수 있습니다. 데이터베이스 배경 지식이 있는 사람들에게 이러한 함수를 사용하는 것은 데이터베이스 쿼리를 작성하는 것과 같습니다.

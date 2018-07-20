@@ -1,23 +1,20 @@
 ---
 title: '카드 컨트롤: 참조 | Microsoft Docs'
 description: 속성 및 예제를 비롯한 카드 컨트롤에 관한 정보
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
 ms.component: canvas
 ms.date: 10/25/2016
 ms.author: gregli
-ms.openlocfilehash: 7d44ba120a68d08f5779b8383df5b2263f228438
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.reviewer: anneta
+ms.openlocfilehash: 6b1b2f246f8cb598b1f20f5a1418651491f73bd5
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31838582"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39021921"
 ---
 # <a name="card-control-in-powerapps"></a>PowerApps의 카드 컨트롤
 **[표시 양식](control-form-detail.md)** 또는 **[편집 양식](control-form-detail.md)** 컨트롤의 단일 필드에 대한 표시 및 편집 경험을 제공합니다.

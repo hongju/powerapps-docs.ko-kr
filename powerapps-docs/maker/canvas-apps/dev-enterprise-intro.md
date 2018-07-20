@@ -1,23 +1,20 @@
 ---
 title: 엔터프라이즈 개발자, 파트너 및 ISV용 PowerApps | Microsoft Docs
 description: PowerApps에서 솔루션을 개발하는 지침입니다.
-documentationcenter: na
 author: mgblythe
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: ''
 ms.date: 05/01/2017
 ms.author: mblythe
-ms.openlocfilehash: 302b2557e56a4450116a0232282e87cc4634dd5e
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 79f0e852b62c41267224a2b3289b24fec65583a2
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31828330"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39023853"
 ---
 # <a name="powerapps-for-enterprise-developers-partners-and-isvs"></a>엔터프라이즈 개발자, 파트너 및 ISV용 PowerApps
 

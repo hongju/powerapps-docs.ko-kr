@@ -2,17 +2,19 @@
 title: Now, Today 및 IsToday 함수 | Microsoft Docs
 description: PowerApps의 Now, Today 및 IsToday 함수에 대한 참조 정보이며, 구문과 예제를 포함하고 있습니다.
 author: gregli-msft
+manager: kvivek
 ms.service: powerapps
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 06/09/2018
 ms.author: gregli
-ms.openlocfilehash: 690144a8d5aef2d7608f0e4104661620840b02ad
-ms.sourcegitcommit: 6bfb002180148a3f22a4d1d8d750fc442489ebe4
+ms.openlocfilehash: 7b0b046c4c18f2f0bbbb8afd63a33aca2c46b340
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "35291700"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39014308"
 ---
 # <a name="now-today-and-istoday-functions-in-powerapps"></a>PowerApps의 Now, Today 및 IsToday 함수
 현재 날짜와 시간을 반환하고, 날짜/시간 값이 오늘인지 테스트합니다.

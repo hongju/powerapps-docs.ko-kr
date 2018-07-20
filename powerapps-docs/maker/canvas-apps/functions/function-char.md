@@ -1,23 +1,20 @@
 ---
 title: Char 함수 | Microsoft Docs
 description: PowerApps의 Char 함수에 대한 참조 정보이며, 구문과 예제를 포함하고 있습니다.
-documentationcenter: na
-author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+dauthor: gregli-msft
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 11/07/2015
 ms.author: gregli
-ms.openlocfilehash: b5d63b26498b94943f5340d9f57f3255390c7c94
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: 9c701527fb02613332cfa5bc542681f8c119f3b3
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37895986"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39014561"
 ---
 # <a name="char-function-in-powerapps"></a>PowerApps의 Char 함수
 문자 코드를 문자열로 변환합니다.

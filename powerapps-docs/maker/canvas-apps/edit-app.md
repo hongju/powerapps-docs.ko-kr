@@ -1,23 +1,20 @@
 ---
 title: 앱 편집 | Microsoft Docs
 description: 앱 편집 및 세션 잠금 시나리오에 대한 단계별 지침입니다.
-documentationcenter: na
 author: karthik-1
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 05/19/2017
 ms.author: sharik
-ms.openlocfilehash: d6c857a75a21123cdd0e826682fc595a503d67fd
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: b1e9f514973313a1028aa3b1958bf8e01ff2c167
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "32328792"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39023784"
 ---
 # <a name="edit-an-app-in-powerapps"></a>PowerApps에서 앱 편집
 빌드하거나 소유하거나 **편집할 수 있는** 사용 권한이 있는 앱을 편집합니다. PowerApps Studio에서 앱을 편집할 수 있습니다. 다른 위치에서 편집을 위해 열려 있는 앱을 편집하려고 하면 이미 열려 있거나 다른 사용자가 사용 중인지 여부를 알리는 메시지가 표시됩니다.

@@ -1,23 +1,20 @@
 ---
 title: DateAdd, DateDiff, TimeZoneOffset 함수 | Microsoft Docs
 description: PowerApps의 DateAdd, DateDiff, TimeZoneOffset 함수에 대한 구문과 예제를 포함한 참조 정보
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 05/23/2017
 ms.author: gregli
-ms.openlocfilehash: 26991baa1feb1ef4821beaf791454def21960d4f
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: b07b8435b6068042529540956942a5b36d12db0c
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37896630"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39015090"
 ---
 # <a name="dateadd-datediff-and-timezoneoffset-functions-in-powerapps"></a>PowerApps의 DateAdd, DateDiff, TimeZoneOffset 함수
 날짜/시간 값의 차이를 추가하거나 찾아서 현지 시간과 UTC 사이의 변환을 수행합니다.

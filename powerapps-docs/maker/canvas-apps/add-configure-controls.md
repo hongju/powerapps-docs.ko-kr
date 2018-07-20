@@ -1,23 +1,20 @@
 ---
 title: 컨트롤 추가 및 구성 | Microsoft Docs
 description: 도구 모음의 속성 탭 또는 수식 입력줄에서 직접 컨트롤을 추가 및 구성하기 위한 단계별 지침입니다.
-documentationcenter: na
-author: aftowen
-manager: kfile
-editor: ''
-tags: ''
+author: AFTOwen
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: ''
 ms.date: 07/10/2017
 ms.author: anneta
-ms.openlocfilehash: c3b1fb9802541159726a33cacd07c6f9743de0e2
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: 8a2849c32eaf474d1aa5bb981a09a3594cead600
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37896699"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39020127"
 ---
 # <a name="add-and-configure-a-control-in-powerapps"></a>PowerApps에서 컨트롤 추가 및 구성
 도구 모음, **속성** 탭 또는 수식 입력줄에서 직접 앱에 다양한 UI 요소를 추가하고 모양과 동작의 측면을 구성합니다. 이러한 UI 요소는 컨트롤이라고 하며, 구성하는 측면은 속성이라고 합니다.

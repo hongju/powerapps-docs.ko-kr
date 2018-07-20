@@ -1,23 +1,20 @@
 ---
 title: EncodeUrl 및 PlainText 함수 | Microsoft Docs
 description: PowerApps의 EncodeUrl 및 PlainText 함수에 대한 구문과 예제를 포함한 참조 정보
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 11/07/2015
 ms.author: gregli
-ms.openlocfilehash: 7454eacbcfaaacc15eb617e673f48520ca33b6dc
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 3f7df27ed5b49d60437ba8e5a070fcb676f828e4
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31825467"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39020702"
 ---
 # <a name="encodeurl-and-plaintext-functions-in-powerapps"></a>PowerApps의 EncodeUrl 및 PlainText 함수
 문자열을 인코딩하고 디코딩합니다.

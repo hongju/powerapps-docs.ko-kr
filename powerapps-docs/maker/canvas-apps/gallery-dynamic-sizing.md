@@ -1,23 +1,20 @@
 ---
 title: 갤러리에서 높이가 다른 항목 표시 | Microsoft Docs
 description: 갤러리의 각 항목에서 콘텐츠 양을 자동으로 맞추도록 유연한 높이 갤러리를 추가하고 구성합니다.
-documentationcenter: na
 author: fikaradz
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 04/01/2017
 ms.author: fikaradz
-ms.openlocfilehash: 466e0d9cb1acfe4cfeb72256db2deddfd3466e19
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: a6f475277e7cde25fea350634aa60e8b150e304d
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31834193"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39018586"
 ---
 # <a name="show-items-of-different-heights-in-a-powerapps-gallery"></a>PowerApps 갤러리에서 높이가 다른 항목 표시
 데이터 집합에 있는 다양한 항목이 같은 필드에 다른 양의 데이터를 포함하고 있다면 적은 데이터가 포함된 항목 다음에 빈 공백을 추가하지 않고 더 많은 데이터를 포함하는 항목을 완전히 포함할 수 있습니다. **유연한 높이** 갤러리 컨트롤을 추가 및 구성하여 다음 작업을 수행할 수 있습니다.

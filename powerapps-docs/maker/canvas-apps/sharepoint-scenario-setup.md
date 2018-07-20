@@ -1,23 +1,20 @@
 ---
 title: PowerApps, Microsoft Flow 및 Power BI와의 통합을 위한 SharePoint Online 목록 설정 | Microsoft Docs
 description: 이 작업에서는 앱, 흐름, 보고서 및 대시보드의 데이터 원본으로 사용할 SharePoint 목록을 설정합니다.
-documentationcenter: na
 author: mgblythe
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: ''
 ms.date: 12/19/2017
 ms.author: mblythe
-ms.openlocfilehash: 1dde9695f3fb3f0fe7351a22a1a6f5300fb53da8
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: f7aec0826f321124fb48b9b0600f07a77d28437e
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31836950"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39017252"
 ---
 # <a name="set-up-lists-for-sharepoint-online-integration-with-powerapps-microsoft-flow-and-power-bi"></a>PowerApps, Microsoft Flow 및 Power BI와의 통합을 위한 SharePoint Online 목록 설정
 > [!NOTE]

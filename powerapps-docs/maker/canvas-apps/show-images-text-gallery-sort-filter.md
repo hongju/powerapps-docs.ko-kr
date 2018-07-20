@@ -1,22 +1,20 @@
 ---
 title: 갤러리에서 데이터 표시, 정렬 및 필터링 | Microsoft Docs
 description: 갤러리를 사용하여 이미지와 텍스트를 표시합니다. PowerApps에서 이미지를 정렬하고 필터링합니다.
-documentationcenter: ''
 author: lonu
-manager: kfile
-editor: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 06/02/2015
 ms.author: lonu
-ms.openlocfilehash: 959431b69d4f432335997697d8f25b5b8815d63c
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: d3a56d146982965eaa07247ef57d3e2d67db2b9a
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "32330301"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39021852"
 ---
 # <a name="show-sort-and-filter-data-in-a-powerapps-gallery"></a>PowerApps 갤러리에서 데이터 표시, 정렬 및 필터링
 갤러리를 만들어 여러 제품에 대한 이미지와 텍스트를 표시하고 해당 정보를 정렬 및 필터링합니다.

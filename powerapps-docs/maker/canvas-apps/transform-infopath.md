@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 04/05/2018
 ms.author: rriley
-ms.openlocfilehash: 74445d4a9398afe00407e7b1a1eae5b7d773dd22
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: b57d62d3e64ea08905ddcc8627cf6921d421fb18
+ms.sourcegitcommit: b9fa569153924af9815db45d52c04e764ddb7fa2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39020403"
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "39094728"
 ---
 # <a name="transform-your-infopath-forms-to-powerapps"></a>InfoPath 양식을 PowerApps로 변환
 
@@ -134,6 +134,6 @@ PowerApps를 사용하여 다른 앱에서 하나의 앱을 호출할 수 있습
 
 위의 정보를 통해 세계로 나아갈 준비가 됐으니 한 번에 하나의 PowerApps 앱으로 세계를 정복하기 시작합시다. 작업을 계속하면서 다음 몇 가지 유용한 도움말 링크를 제공합니다. 그 중 하나는 PowerApps 커뮤니티 사이트로 가는 링크입니다. 오늘 커뮤니티에 참여해 교류하면 혼자 하는 것보다 훨씬 더 빨리 기술이 향상됩니다.
 
-[**수식 참조** ](https://docs.microsoft.com/en-us/powerapps/formula-reference) - 기본 함수 중 몇 가지를 탐색하기만 해도 영감을 받는 언제나 좋은 방법입니다.
+[**수식 참조** ](https://docs.microsoft.com/powerapps/formula-reference) - 기본 함수 중 몇 가지를 탐색하기만 해도 영감을 받는 언제나 좋은 방법입니다.
 
 [**PowerApps 커뮤니티** ](https://powerusers.microsoft.com/t5/PowerApps-Community/ct-p/PowerApps1) - 예를 참조하고 다른 사람들과 교류하고 질문과 답변을 통해 PowerApps 커뮤니티가 성장하도록 도와줍니다.

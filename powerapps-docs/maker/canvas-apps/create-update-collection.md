@@ -1,22 +1,20 @@
 ---
 title: 컬렉션 만들기 및 업데이트 | Microsoft Docs
 description: PowerApps에서 컬렉션 만들기 및 기존 컬렉션에 열 추가
-documentationcenter: ''
 author: lonu
-manager: kfile
-editor: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 11/30/2015
 ms.author: lonu
-ms.openlocfilehash: b3bf7c2227d3321a581eb1a568de1ce78ead92ee
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: 27b5a3453c2c0a89239d3e319ee6f39afd034492
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37899896"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39023278"
 ---
 # <a name="create-and-update-a-collection-in-your-app"></a>앱에서 컬렉션 만들기 및 업데이트
 컬렉션을 사용하여 앱에 사용할 수 있는 데이터를 저장합니다. 컬렉션은 유사한 항목의 그룹입니다. 예를 들어, 회사에서 판매하는 모든 제품 이미지를 저장하는 MyImages 컬렉션을 만듭니다. PowerApps 내에서 MyImages 컬렉션을 추가하고 이러한 제품의 모든 그림을 표시하는 앱을 만들 수 있습니다. 또 다른 예로, 제품 및 각 제품의 가격을 나열하는 가격표 컬렉션을 만들 수 있습니다.

@@ -1,23 +1,20 @@
 ---
 title: 커넥터 개요 | Microsoft Docs
 description: 앱 빌드에 사용 가능한 모든 연결 개요
-documentationcenter: ''
 author: lancedMicrosoft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 08/28/2017
 ms.author: lanced
-ms.openlocfilehash: baa4c71efb54cea6f04cd45b895009a3c3ce17c7
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: 6ca9b6d873d4d5266486bc1c7b8b876e4f08574a
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37899298"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39020932"
 ---
 # <a name="overview-of-connectors-for-powerapps"></a>PowerApps용 커넥터의 개요
 데이터는 PowerApps에서 빌드하는 앱을 포함해 대부분 앱의 핵심입니다. 데이터는 *데이터 원본*에 저장되며 *연결*을 만들어 해당 데이터를 앱으로 구현합니다. 이 연결은 특정 *커넥터*를 사용하여 데이터 원본과 데이터를 교환합니다. PowerApps에는 SharePoint, SQL Server, Office 365, Salesforce, Twitter 등을 포함한 많은 인기 서비스 및 온-프레미스 데이터 원본용 커넥터가 있습니다. 앱에 데이터 추가를 시작하려면 [PowerApps에서 데이터 연결 추가](add-data-connection.md)를 참조하세요.

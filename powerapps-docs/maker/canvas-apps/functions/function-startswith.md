@@ -1,23 +1,20 @@
 ---
 title: EndsWith 및 StartsWith 함수 | Microsoft Docs
 description: PowerApps의 EndsWith 및 StartsWith 함수에 대한 구문과 예제를 포함한 참조 정보
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 07/24/2017
 ms.author: gregli
-ms.openlocfilehash: f2c1807f221d3134bbf39c74ae2939babbdd256e
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: af4d32066cdb527f999b9fce2e90e424a54bacd1
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37899367"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39018793"
 ---
 # <a name="endswith-and-startswith-functions-in-powerapps"></a>PowerApps의 EndsWith 및 StartsWith 함수
 텍스트 문자열이 다른 텍스트 문자열로 시작되거나 끝나는지 테스트합니다.

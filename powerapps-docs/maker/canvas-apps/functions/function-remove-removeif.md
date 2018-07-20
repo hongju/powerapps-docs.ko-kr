@@ -1,23 +1,20 @@
 ---
 title: Remove 및 RemoveIf 함수 | Microsoft Docs
 description: PowerApps의 Remove 및 RemoveIf 함수에 대한 구문과 예제를 포함한 참조 정보
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 10/21/2015
 ms.author: gregli
-ms.openlocfilehash: 1f4df70ce3274c4d83c39955df58ebc344038de3
-ms.sourcegitcommit: 6d9fe9967841e381b108a7fb53c9057e295336ea
+ms.openlocfilehash: c8c5ba80b8ade242c367b47bf9fc1663fc4ae997
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38095848"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39014837"
 ---
 # <a name="remove-and-removeif-functions-in-powerapps"></a>PowerApps의 Remove 및 RemoveIf 함수
 [데이터 원본](../working-with-data-sources.md)에서 [레코드](../working-with-tables.md#records)를 제거합니다.

@@ -1,23 +1,20 @@
 ---
 title: 앱에서 사용하는 리소스 공유 | Microsoft Docs
 description: 앱 공유 시 앱에서 공유한 리소스를 공유하는 방법을 알아봅니다.
-documentationcenter: na
 author: archnair
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 06/28/2016
 ms.author: archanan
-ms.openlocfilehash: f7943c5204dcab7c59e922bfb096f70d05b94e9b
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 1cf33589937917637e1ca7e67467e2299fa6605e
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31829005"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39023738"
 ---
 # <a name="share-app-resources"></a>앱 리소스 공유
 [앱을 공유](share-app.md)하기 전에 다음 중 한 개 이상과 같이 주로 사용하려는 리소스 유형을 고려합니다.

@@ -1,23 +1,20 @@
 ---
 title: PowerApps에서 SharePoint에 대한 연결 만들기 | Microsoft Docs
 description: powerapps.com에서 앱을 자동으로 생성하거나 처음부터 새로 빌드하는 데 사용하도록 SharePoint에 대한 연결을 만듭니다.
-documentationcenter: na
-author: aftowen
-manager: kfile
-editor: ''
-tags: ''
+author: AFTOwen
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: ''
 ms.date: 09/03/2016
 ms.author: anneta
-ms.openlocfilehash: ca359f550d81a73f448ce18d94d0d36efceb839b
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: 1b9ff639e053218c74515be574f92146fc8ced36
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37897411"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39020518"
 ---
 # <a name="create-a-connection-to-sharepoint-from-powerapps"></a>PowerApps에서 SharePoint에 대한 연결 만들기
 SharePoint Online 또는 온-프레미스 SharePoint 중 하나에 대한 연결을 만들면 앱을 자동으로 생성하거나 처음부터 새로 빌드할 수 있습니다.

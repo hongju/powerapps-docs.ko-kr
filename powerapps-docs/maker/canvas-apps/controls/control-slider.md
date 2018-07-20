@@ -1,23 +1,20 @@
 ---
 title: '슬라이더 컨트롤: 참조 | Microsoft Docs'
 description: 속성 및 예제를 비롯한 슬라이더 컨트롤에 관한 정보
-documentationcenter: na
 author: fikaradz
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 672a3d9a96545bf695128fcc823ec1d3437ae4a4
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 54a1dccb1d080be7682f0f6925a4430aa2078bc0
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31837829"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39017413"
 ---
 # <a name="slider-control-in-powerapps"></a>PowerApps의 슬라이더 컨트롤
 사용자가 핸들을 끌어 값을 지정할 수 있는 컨트롤입니다.

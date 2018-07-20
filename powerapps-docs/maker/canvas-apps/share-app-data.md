@@ -1,23 +1,20 @@
 ---
 title: 앱에서 사용하는 Excel 파일 공유 | Microsoft Docs
 description: Dropbox, OneDrive 및 Google 드라이브에서 Excel 파일을 공유합니다. 사용자는 파일 및 폴더를 편집하고 볼 수 있습니다.
-documentationcenter: na
 author: jamesol-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 10/16/2016
 ms.author: jamesol
-ms.openlocfilehash: 8c96a83ae67a8a06aa96b4f4ba091e361430683d
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: 78423a1f1594e69a40cc4b81123217f960b61879
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37896124"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39014998"
 ---
 # <a name="share-excel-data-used-by-your-app"></a>앱에서 사용하는 Excel 데이터 공유
 OneDrive와 같은 [클라우드 계정](connections/cloud-storage-blob-connections.md)에서 앱 사용자와 Excel 데이터를 공유할 수 있습니다.

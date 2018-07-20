@@ -1,23 +1,20 @@
 ---
 title: Power BI용 PowerApps 사용자 지정 시각적 개체 | Microsoft Docs
 description: 동일한 데이터 원본을 사용하고 Power BI에서 다른 보고서 항목 등을 필터링할 수 있는 앱 포함에 대한 절차 및 제한 사항
-documentationcenter: na
 author: mgblythe
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: ''
 ms.date: 03/15/2018
 ms.author: mblythe
-ms.openlocfilehash: 9dbc59baf8970582b108ee588904437441107722
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: 8e50763f11d04db4e9c8e0a6a6ae8ff316bc185a
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37896377"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39015895"
 ---
 # <a name="powerapps-custom-visual-for-power-bi"></a>Power BI용 PowerApps 사용자 지정 시각적 개체
 

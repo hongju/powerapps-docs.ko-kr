@@ -1,23 +1,20 @@
 ---
 title: Lower, Upper 및 Proper 함수 | Microsoft Docs
 description: PowerApps에서 Lower, Upper 및 Proper 함수에 대한 구문과 예제를 포함한 참조 정보
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 11/07/2015
 ms.author: gregli
-ms.openlocfilehash: e57ea9208f0ea3b7dd9ada7ebd9055a99ddc141c
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: dbfc53352b0e22db1e809cd9c1ced2001f732051
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31831780"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39019965"
 ---
 # <a name="lower-upper-and-proper-functions-in-powerapps"></a>PowerApps에서 Lower, Upper 및 Proper 함수
 텍스트 문자열의 문자를 모두 소문자, 모두 대문자 또는 적절한 대소문자로 변환합니다.

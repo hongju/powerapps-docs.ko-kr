@@ -2,17 +2,19 @@
 title: Select 함수 | Microsoft Docs
 description: PowerApps에서 Select 함수에 대한 구문을 포함한 참조 정보
 author: gregli-msft
+manager: kvivek
 ms.service: powerapps
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 06/11/2018
 ms.author: gregli
-ms.openlocfilehash: 8d84dcf1496e9f8f21ba059deb89549b6f238c97
-ms.sourcegitcommit: 63351b1bda5a8dd00786912f95aba9fb3ebfe75c
+ms.openlocfilehash: b7cc200057e730ea7ae828a84edccdd82abb9e2d
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "36261779"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39016079"
 ---
 # <a name="select-function-in-powerapps"></a>PowerApps의 Select 함수
 컨트롤에 select 작업을 시뮬레이트하여 **OnSelect** 수식을 계산합니다.

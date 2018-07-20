@@ -1,23 +1,20 @@
 ---
 title: Reset 함수 | Microsoft Docs
 description: PowerApps의 Reset 함수에 대한 구문과 예제를 포함한 참조 정보
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 07/06/2017
 ms.author: gregli
-ms.openlocfilehash: bc87fd823b37869298b453aba439bda6aabbb112
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: d9d83ab85ada125ff681040b4badbb8abfaafac0
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31825835"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39020357"
 ---
 # <a name="reset-function-in-powerapps"></a>PowerApps의 Reset 함수
 사용자 변경 내용을 삭제하면서 해당 기본값에 대한 컨트롤을 다시 설정합니다.  

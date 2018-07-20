@@ -1,23 +1,20 @@
 ---
 title: Day, Month, Year, Hour, Minute, Second, Weekday 함수 | Microsoft Docs
 description: PowerApps의 Day, Month, Year, Hour, Minute, Second, Weekday 함수에 대한 구문과 예제를 포함한 참조 정보
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 10/25/2016
 ms.author: gregli
-ms.openlocfilehash: d927b1834993e39055b9cdc3aeb7d518a66f2cec
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 239fc1638e3424fe30058ed31b18aed94e16d73c
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31838651"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39015274"
 ---
 # <a name="day-month-year-hour-minute-second-and-weekday-functions-in-powerapps"></a>PowerApps의 Day, Month, Year, Hour, Minute, Second, Weekday 함수
 날짜/시간 값의 개별 구성 요소를 반환합니다.

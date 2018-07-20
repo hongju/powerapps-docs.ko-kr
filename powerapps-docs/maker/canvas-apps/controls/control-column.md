@@ -1,23 +1,20 @@
 ---
 title: '열 컨트롤: 참조 | Microsoft Docs'
 description: 이 토픽에서는Microsoft PowerApps에서 열 컨트롤에 대한 정보를 제공합니다.
-documentationcenter: na
 author: fikaradz
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 06/05/2017
-ms.author: kfend
-ms.openlocfilehash: e79314b8e615a931a3ba8116a53b216afe5d145a
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.author: fikaradz
+ms.openlocfilehash: fdd759c06cebd573236f6de4e126766c42c354f2
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31826043"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39015205"
 ---
 # <a name="column-control-in-powerapps"></a>PowerApps의 열 컨트롤
 [**데이터 테이블**](control-data-table.md) 컨트롤에서 단일 필드에 대한 디스플레이 경험을 제공합니다.

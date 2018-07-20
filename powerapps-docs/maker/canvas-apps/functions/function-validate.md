@@ -1,23 +1,20 @@
 ---
 title: Validate 함수 | Microsoft Docs
 description: PowerApps의 Validate 함수에 대한 구문과 예제를 포함한 참조 정보
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 11/01/2015
 ms.author: gregli
-ms.openlocfilehash: d1c0a8bdcab3f8a3ba74414ab902092432a34fff
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: 6a8bff341484139e6d16092fc2ea3cbacb384777
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37899206"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39022841"
 ---
 # <a name="validate-function-in-powerapps"></a>PowerApps의 Validate 함수
 **Validate** 함수는 단일 [열](../working-with-tables.md#columns) 또는 전체 [레코드](../working-with-tables.md#records)의 값이 [데이터 원본](../working-with-data-sources.md)에 대해 유효한지 여부를 확인합니다.  

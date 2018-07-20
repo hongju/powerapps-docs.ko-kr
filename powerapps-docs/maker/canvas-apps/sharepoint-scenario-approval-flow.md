@@ -1,23 +1,20 @@
 ---
 title: 프로젝트 승인을 관리하는 흐름 만들기 | Microsoft Docs
 description: 이 작업에서는 프로젝트 승인 프로세스를 구동하는 흐름을 만듭니다.
-documentationcenter: na
 author: mgblythe
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: ''
 ms.date: 01/09/18
 ms.author: mblythe
-ms.openlocfilehash: 2a3bb307d403d372d0cae89a0eb9d3fd86271768
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 17b20a12b0bcbee994ce772efa08e7d7ef50b9bf
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31835889"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39016999"
 ---
 # <a name="create-a-flow-to-manage-project-approvals"></a>프로젝트 승인을 관리하는 흐름 만들기
 > [!NOTE]

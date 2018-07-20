@@ -1,23 +1,20 @@
 ---
 title: PowerApps에서 Cognitive Services 사용 | Microsoft Docs
 description: Microsoft Cognitive Services Text Analytics API를 사용하여 텍스트를 분석하는 기본 앱을 빌드합니다.
-documentationcenter: na
-author: mgblythe
-manager: kfile
-editor: ''
-tags: ''
+author: AFTOwen
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: ''
 ms.date: 12/08/2017
-ms.author: mblythe
-ms.openlocfilehash: 375738cd5481430f06307b4c98b342c377d9bc4c
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.author: anneta
+ms.openlocfilehash: c47ddbbc2d50d05f1d4a913aaf7e9c743d5519e0
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31836359"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39020656"
 ---
 # <a name="use-cognitive-services-in-powerapps"></a>PowerApps에서 Cognitive Services 사용
 이 문서는 [Microsoft Cognitive Services Text Analytics API](https://docs.microsoft.com/azure/cognitive-services/text-analytics/overview)를 사용하여 텍스트를 분석하는 기본 앱 빌드 방법을 보여줍니다. Text Analytics API를 설정하고 [Text Analytics 커넥터](https://docs.microsoft.com/connectors/cognitiveservicestextanalytics/)와 연결하는 방식을 보여주고, 그런 다음 API를 호출하는 앱을 빌드하는 방법을 보여주려고 합니다.

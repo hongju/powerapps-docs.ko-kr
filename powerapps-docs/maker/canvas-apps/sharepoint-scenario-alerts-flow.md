@@ -1,23 +1,20 @@
 ---
 title: Power BI 대시보드에 대한 데이터 경고 설정 | Microsoft Docs
 description: 이 작업에서는 보류 중인 프로젝트를 승인하는 데 너무 오래 걸리는지를 알리는 Power BI의 경고 및 해당 경고가 발생할 때 응답하는 흐름을 추가합니다.
-documentationcenter: na
 author: mgblythe
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: ''
 ms.date: 06/12/2017
 ms.author: mblythe
-ms.openlocfilehash: 663c5dfcad45e65044958c9d3b8b1aa111840a61
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 88750417fa256e1d0fe8a0184b6d0bc3eb846080
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31827807"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39023646"
 ---
 # <a name="set-up-data-alerts-for-the-power-bi-dashboard"></a>Power BI 대시보드에 대한 데이터 경고 설정
 > [!NOTE]

@@ -1,23 +1,20 @@
 ---
 title: 글로벌 지원 | Microsoft Docs
 description: 전 세계에 사용되는 앱을 빌드합니다.
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 10/25/2016
 ms.author: gregli
-ms.openlocfilehash: 68f81dffa4ba861978dacb1b7ad6830b0736ed6e
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: dbca12ff3acc4327f88269a2333fe066c7f2fbec
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31837151"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39019805"
 ---
 # <a name="global-support"></a>글로벌 지원
 PowerApps는 글로벌 제품입니다.  많은 다양한 언어와 지역에서 앱을 빌드하고 사용할 수 있습니다.

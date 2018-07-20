@@ -1,23 +1,20 @@
 ---
 title: 환경 작업 | Microsoft Docs
 description: 환경을 전환하고 페이지에서 콘텐츠를 변경하는 방법을 이해합니다.
-documentationcenter: na
 author: linhtranms
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 10/14/2016
 ms.author: litran
-ms.openlocfilehash: 4bf196041853e9f88c97aabcd3ff1c234b2608be
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 04ed5dfb76cb26f629f36514a05eda9690669926
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "32329482"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39020633"
 ---
 # <a name="working-with-environments-and-microsoft-powerapps"></a>환경 및 Microsoft PowerApps 관련 작업하기
 PowerApps를 통해 다양한 환경에서 작업하고 환경을 쉽게 전환할 수 있습니다. 환경 개요에 대한 내용은 환경을 사용하는 이유와 환경을 만들고 관리하는 방법이 자세히 설명된 [환경 개요](../../administrator/environments-overview.md)를 참조하세요. 이 문서의 범위에서는 환경에 대해 다음 토픽을 다룹니다.

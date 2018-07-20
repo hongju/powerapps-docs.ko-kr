@@ -1,23 +1,20 @@
 ---
 title: Average, Max, Min, StdevP, Sum, VarP 함수 | Microsoft Docs
 description: PowerApps의 Average, Max, Min, StdevP, Sum, VarP 함수에 대한 구문과 예제를 포함한 참조 정보
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 08/15/2017
 ms.author: gregli
-ms.openlocfilehash: a8cd998744d609c253a31271aab34a30b1e998f3
-ms.sourcegitcommit: a622db0fb3d44fa5e7ebc4bfdc77cd6acb3646be
+ms.openlocfilehash: 1dd0c4747f252127f82aa1386e637d8de4b175d2
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/05/2018
-ms.locfileid: "37843230"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39018632"
 ---
 # <a name="average-max-min-stdevp-sum-and-varp-functions-in-powerapps"></a>PowerApps의 Average, Max, Min, StdevP, Sum, VarP 함수
 일련의 숫자를 요약하는 집계 함수입니다.

@@ -1,23 +1,20 @@
 ---
 title: 앱 삭제 | Microsoft Docs
 description: PowerApps에서 기존 앱을 삭제하는 방법
-documentationcenter: na
 author: jamesol-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 10/16/2016
 ms.author: jamesol
-ms.openlocfilehash: ed454b6656971adb4c209d2dd9a59e5258ef8eac
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: df7c43a0044ac7b56666f06eb3ebf773dcb16b67
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37898148"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39023623"
 ---
 # <a name="delete-an-app-from-powerapps"></a>PowerApps에서 앱 삭제
 이 문서에서는 PowerApps 계정 및 앱을 공유하는 사람의 계정에서 앱을 삭제하는 방법을 보여 줍니다.

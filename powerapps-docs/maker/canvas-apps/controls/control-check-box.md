@@ -1,23 +1,20 @@
 ---
 title: '확인란 컨트롤: 참조 | Microsoft Docs'
 description: 속성 및 예제를 비롯한 확인란 컨트롤에 관한 정보
-documentationcenter: na
 author: fikaradz
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 649ebff0c6ce78d317cfeaf8978bcd97f4a68b11
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.reviewer: anneta
+ms.openlocfilehash: 5f36c6e07f1f1c507f5734e51c23ba6af83eca4b
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31837898"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39017206"
 ---
 # <a name="check-box-control-in-powerapps"></a>PowerApps의 확인란 컨트롤
 사용자가 값을 **true** 또는 **false**로 설정하기 위해 선택 또는 지울 수 있는 컨트롤입니다.

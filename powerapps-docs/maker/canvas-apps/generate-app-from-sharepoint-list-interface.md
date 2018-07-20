@@ -1,23 +1,20 @@
 ---
 title: SharePoint 목록 내에서 앱 생성 | Microsoft Docs
 description: 사이트가 온-프레미스에 있거나 클라우드에 있을 때 SharePoint 목록 내에서 항목을 관리하는 세 화면 앱을 생성합니다.
-documentationcenter: na
 author: AFTOwen
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: ''
 ms.date: 03/18/2018
 ms.author: anneta
-ms.openlocfilehash: 51a13472407c5483eed7cc2c202e46855905157d
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 46cf610351cf00d8d947c4006c31a3d5971951d0
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "32329413"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39022466"
 ---
 # <a name="generate-an-app-from-within-sharepoint-using-powerapps"></a>PowerApps를 사용하여 SharePoint 내에서 앱 생성
 

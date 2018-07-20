@@ -1,23 +1,20 @@
 ---
 title: 항목 목록 표시 | Microsoft Docs
 description: 갤러리를 사용하여 앱에서 항목 목록을 표시하고 조건을 지정하여 목록을 필터링합니다.
-documentationcenter: na
 author: karthik-1
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 09/28/2017
 ms.author: sharik
-ms.openlocfilehash: 9b2c07e8599ada76aa2f2195fc1240321ed02ef9
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: 4806d65416816897542973644da592f7e6b2e252
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37898217"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39020978"
 ---
 # <a name="show-a-list-of-items-in-powerapps"></a>PowerApps에서 항목 목록 표시
 **[갤러리](controls/control-gallery.md)** 컨트롤을 앱에 추가하여 모든 데이터 원본에서 항목 목록을 표시합니다. 이 토픽에서는 데이터 원본으로 Excel을 사용합니다. **[텍스트 입력](controls/control-text-input.md)** 컨트롤의 필터 조건과 일치하는 항목만 표시하도록 **갤러리** 컨트롤을 구성하여 목록을 필터링합니다.

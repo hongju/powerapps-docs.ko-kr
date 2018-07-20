@@ -9,12 +9,12 @@ ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: jamesol
-ms.openlocfilehash: ef5d646e30f5d09dbfe5f111a3ad018b030f79d9
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 2a393bb2ebedde2a08f1ed1534d815e64325077b
+ms.sourcegitcommit: b9fa569153924af9815db45d52c04e764ddb7fa2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34168231"
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "39094751"
 ---
 # <a name="responding-to-data-subject-rights-dsr-requests-for-common-data-service-for-apps-customer-data"></a>앱용 Common Data Service 고객 데이터에 대한 DSR(Data Subject Rights) 요청에 응답
 
@@ -102,8 +102,8 @@ Office 365 전역 관리자 및 CDS 시스템 관리자만 아래에 나열된 �
 
 |리소스 | 용도 | 웹 사이트 액세스 | 프로그래밍 방식 액세스
 | --- | --- | --- | ---
-| 엔터티 레코드 | 시스템 사용자 엔터티로 알려져 있으며, 사용자의 개인 데이터를 저장합니다. | [PowerApps 관리 센터](https://admin.powerapps.com) | [Web API](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/webapi/update-delete-entities-using-web-api#basic-update) 사용
-| 감사 기록 | 사용자가 엔터티 수준에서 만들거나, 액세스하거나, 변경하거나, 삭제한 리소스를 고객이 식별하도록 허용합니다. | [PowerApps 관리 센터](https://admin.powerapps.com) | [Web API](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/webapi/update-delete-entities-using-web-api#basic-update) 사용
+| 엔터티 레코드 | 시스템 사용자 엔터티로 알려져 있으며, 사용자의 개인 데이터를 저장합니다. | [PowerApps 관리 센터](https://admin.powerapps.com) | [Web API](https://docs.microsoft.com/dynamics365/customer-engagement/developer/webapi/update-delete-entities-using-web-api#basic-update) 사용
+| 감사 기록 | 사용자가 엔터티 수준에서 만들거나, 액세스하거나, 변경하거나, 삭제한 리소스를 고객이 식별하도록 허용합니다. | [PowerApps 관리 센터](https://admin.powerapps.com) | [Web API](https://docs.microsoft.com/dynamics365/customer-engagement/developer/webapi/update-delete-entities-using-web-api#basic-update) 사용
 
 #### <a name="user"></a>User
 사용자 개인 데이터는 Azure Active Directory에 저장되고 자동으로 모든 앱용 CDS 환경에 동기화됩니다. 사용자가 활성 상태인 동안 시스템 관리자는 앱용 CDS에서 직접 이 개인 데이터를 업데이트할 수 없습니다. Office 365 관리 센터 내에서 이 데이터를 업데이트해야 합니다. 시스템 관리자는 개인 데이터(예: 사용자 지정 특성)를 앱용 CDS에 직접 추가할 수 있지만 이 데이터를 수동으로 관리해야 합니다.
@@ -199,7 +199,7 @@ Azure Active Directory에서 사용자 레코드를 삭제하면 사용자의 �
 
 3. **설정** > **보안** > **사용자**로 이동한 다음, **사용할 수 없는 사용자 보기**를 선택합니다.
 
-4. 사용자 개인 데이터에서 Excel 서식 파일을 만들고 다운로드합니다. 단계별 지침은 [새 Excel 서식 파일 만들기](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/analyze-your-data-with-excel-templates#create-a-new-excel-template)를 참조하세요.
+4. 사용자 개인 데이터에서 Excel 서식 파일을 만들고 다운로드합니다. 단계별 지침은 [새 Excel 서식 파일 만들기](https://docs.microsoft.com/dynamics365/customer-engagement/admin/analyze-your-data-with-excel-templates#create-a-new-excel-template)를 참조하세요.
 
 8. 다운로드한 Excel 서식 파일을 열고, 사용자 개인 데이터를 제거한 다음, 파일을 저장합니다.
 

@@ -1,23 +1,20 @@
 ---
 title: 바코드 스캔 | Microsoft Docs
 description: UPC 및 Codabar와 같은 다양한 유형의 바코드를 스캔합니다.
-documentationcenter: na
-author: aftowen
-manager: kfile
-editor: ''
-tags: ''
+author: AFTOwen
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: ''
 ms.date: 10/23/2016
 ms.author: anneta
-ms.openlocfilehash: 3e1bc218e6be8dcbbb1a72672aedf1de5d1cd7e9
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: befc72b875f7876bc0f9f907a094f0d97314c03c
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37895940"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39023324"
 ---
 # <a name="scan-a-barcode-in-powerapps"></a>PowerApps에서 바코드 스캔
 앱을 만들고, 카메라가 있는 휴대폰과 같은 장치에서 이 앱을 실행하여 여러 유형의 바코드를 스캔합니다. 바코드에 해당하는 숫자는 **레이블** 컨트롤에 표시되며, 해당 데이터를 다양한 [데이터 원본](connections-list.md)에 업로드할 수 있습니다.

@@ -1,23 +1,20 @@
 ---
 title: 온-프레미스 데이터 게이트웨이 이해 | Microsoft Docs
 description: 설치 및 문제 해결을 비롯한 온-프레미스 데이터 게이트웨이에 대한 참조 정보
-documentationcenter: na
-author: aftowen
-manager: kfile
-editor: ''
-tags: ''
+author: AFTOwen
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
-ms.topic: conceptual
-ms.component: canvas
+ms.topic: reference
+ms.custom: canvas
+ms.reviewer: ''
 ms.date: 10/20/2017
 ms.author: anneta
-ms.openlocfilehash: 2c754fa8e479494ae1002e5339d2d8d5eeb2480f
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: f39bebd27aad378a5bbf8bff592fa50ea44db679
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "32330448"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39017758"
 ---
 # <a name="understand-on-premises-data-gateways-for-microsoft-powerapps"></a>Microsoft PowerApps에 대한 온-프레미스 데이터 게이트웨이 이해
 ## <a name="installation-and-configuration"></a>설치 및 구성
@@ -130,7 +127,7 @@ PowerShell 프롬프트에서 다음 명령을 실행하여 방화벽 또는 프
 
 **로그인 계정**
 
-사용자는 회사 또는 학교 계정 중 하나로 로그인합니다. 조직 계정입니다. Office 365 제품에 등록하고 실제 업무용 메일을 제공하지 않은 경우 nancy@contoso.onmicrosoft.com처럼 표시될 수 있습니다. 클라우드 서비스 내에서 사용자의 계정은 AAD(Azure Active Directory)의 테넌트 내에 저장됩니다. 대부분의 경우 AAD 계정의 UPN은 이메일 주소와 일치합니다.
+사용자는 회사 또는 학교 계정 중 하나로 로그인합니다. 조직 계정입니다. Office 365 제품에 로그인하였고 실제 직장 전자 메일을 입력하지 않은 경우 nancy@contoso.onmicrosoft.com처럼 보일 수 있습니다. 클라우드 서비스 내에서 사용자의 계정은 AAD(Azure Active Directory)의 테넌트 내에 저장됩니다. 대부분의 경우 AAD 계정의 UPN은 이메일 주소와 일치합니다.
 
 **Windows 서비스 계정**
 
@@ -211,7 +208,7 @@ PowerShell 프롬프트에서 다음 명령을 실행하여 방화벽 또는 프
 데이터 원본에 쿼리 추적을 위해 포함된 도구를 볼 수도 있습니다. 예를 들어 SQL Server 및 Analysis Services용 확장 이벤트 또는 SQL 프로파일러를 사용할 수 있습니다.
 
 ## <a name="how-the-gateway-works"></a>게이트웨이 작동 방식
-![진행 방법](./media/gateway-reference/gateway-arch.png)
+![파트너십 구축 방법](./media/gateway-reference/gateway-arch.png)
 
 사용자가 온-프레미스 데이터 원본에 연결된 요소와 상호 작용할 때:  
 

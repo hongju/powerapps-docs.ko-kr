@@ -2,17 +2,19 @@
 title: 테이블 이해 | Microsoft Docs
 description: 테이블, 열 및 레코드 작업에 대한 참조 정보입니다.
 author: gregli-msft
+manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 04/26/2016
 ms.author: gregli
-ms.openlocfilehash: 6144d66849316dc2b355b0cb9a56959e10f8a319
-ms.sourcegitcommit: 76ffec3b4d9c18a01f19c583435541ae165a8234
+ms.openlocfilehash: 6e1a87324c0a004390ceb5d1ce4846325fe18bc7
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/06/2018
-ms.locfileid: "37864264"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39021185"
 ---
 # <a name="understand-tables-and-records-in-powerapps"></a>PowerApps 테이블 및 레코드에 대한 이해
 Microsoft Excel, SharePoint, SQL Server 및 레코드와 테이블에 데이터를 저장하는 다른 여러 원본의 정보에 액세스하는 앱을 만들 수 있습니다. 이러한 종류의 데이터로 가장 효과적으로 작업하려면 이러한 구조의 기반이 되는 개념을 검토합니다.

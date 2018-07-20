@@ -1,23 +1,20 @@
 ---
 title: 위임 가능한 데이터 원본 | Microsoft Docs
 description: 지원되는 모든 위임 가능한 데이터 원본 목록
-documentationcenter: na
-author: archnair
-manager: kfile
-editor: ''
-tags: ''
+author: lancedMicrosoft
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 08/15/2017
-ms.author: archanan
-ms.openlocfilehash: f1d9b6463cc597d13fa1b9c1389fbfcc6d5b5ded
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.author: lanced
+ms.openlocfilehash: e8863d8e260ecaafd407e93d710917848ce184ad
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37896285"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39018609"
 ---
 # <a name="delegable-data-sources"></a>위임 가능한 데이터 원본
 [위임 이해](delegation-overview.md) 문서에서 자세히 설명했듯이 PowerApps는 로컬에서 처리하기 위해 데이터를 앱으로 이동하기보다는 데이터 처리를 데이터 원본에 위임합니다.

@@ -1,23 +1,20 @@
 ---
 title: 데이터 카드 이해 | Microsoft Docs
 description: 양식 카드를 사용하여 데이터 원본에서 정보를 수집하고 표시합니다.
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 04/26/2016
 ms.author: gregli
-ms.openlocfilehash: 074e40dd2fc19279bef36ac91196c61b050abda3
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 81e0213caee1d4eed466edebe3d13cbfa1c3e7e2
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31838082"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39020771"
 ---
 # <a name="understand-data-cards"></a>데이터 카드 이해
 **[카드](controls/control-card.md)**  컨트롤은 **[편집 양식](controls/control-form-detail.md)** 및 **[표시 양식](controls/control-form-detail.md)** 컨트롤의 구성 요소입니다. 양식은 전체 레코드를 나타내며 각 카드는 해당 레코드의 단일 필드를 나타냅니다.

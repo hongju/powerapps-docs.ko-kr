@@ -1,23 +1,20 @@
 ---
 title: 테이블의 레코드 표시, 편집 또는 추가 | Microsoft Docs
 description: 폼을 사용하여 데이터 원본에 테이블의 레코드를 표시, 편집 또는 추가합니다.
-documentationcenter: na
 author: karthik-1
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 10/06/2017
 ms.author: sharik
-ms.openlocfilehash: a68986c39ffe251f55c10a26386c8430398d2718
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: b98c5d165ba6de983a874f0a34fb92c5db8a69cd
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37895825"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39018954"
 ---
 # <a name="show-edit-or-add-a-record-from-a-table-in-powerapps"></a>PowerApps에서 테이블의 레코드 표시, 편집 또는 추가
 레코드의 모든 필드를 표시하려면 **[폼 표시](controls/control-form-detail.md)** 컨트롤을 추가하고 구성합니다. 레코드의 모든 필드를 편집하고(또는 레코드를 추가) 변경 내용을 데이터 원본에 다시 저장하려면 **[폼 편집](controls/control-form-detail.md)** 컨트롤을 추가하고 구성합니다.

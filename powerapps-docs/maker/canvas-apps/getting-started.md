@@ -2,17 +2,19 @@
 title: 캔버스 앱이란 무엇인가요? | Microsoft Docs
 description: 사용자가 브라우저 또는 모바일 장치에서 LOB(기간 업무) 데이터를 관리할 수 있도록 PowerApps에서 캔버스 앱 설계 및 빌드
 author: AFTOwen
+manager: kvivek
 ms.service: powerapps
 ms.topic: overview
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: ''
 ms.date: 04/26/2018
 ms.author: anneta
-ms.openlocfilehash: 606f5aa15d057387542471f82fd071f4044cfd1e
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: 965396dbeb087e2dfb52a151825884fc5a98c6e1
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "36311595"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39016401"
 ---
 # <a name="what-are-canvas-apps-in-powerapps"></a>PowerApps의 캔버스 앱이란 무엇인가요?
 C# 같은 일반적인 프로그래밍 언어로 코드를 작성하지 않고도 Microsoft PowerApps의 캔버스에서 비즈니스 앱을 설계하고 빌드합니다. Powerpoint에서 슬라이드를 디자인하는 것처럼 캔버스에 요소를 끌어 놓아 앱을 설계합니다. 논리를 지정하고 데이터로 작업하기 위해 Excel 같은 식을 만듭니다. [다양한 Microsoft 및 타사 원본](connections-list.md)에서 비즈니스 데이터를 통합하는 앱을 빌드합니다. 사용자가 브라우저 또는 모바일 장치에서 앱을 실행하도록 앱을 공유하고 사용자가 SharePoint, Power BI 또는 Teams에서 앱을 실행할 수 있도록 앱을 포함합니다.

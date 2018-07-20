@@ -1,23 +1,20 @@
 ---
 title: 온-프레미스 데이터 게이트웨이 관리 | Microsoft Docs
 description: 온-프레미스 데이터 게이트웨이 및 연결 관리
-documentationcenter: na
 author: archnair
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 10/30/2016
 ms.author: archanan
-ms.openlocfilehash: 939758c1550f1006f00bd9a386eb4b9cbcd69af0
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: e7dc9a2386d75a6f03744286b7ed265a8d385370
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37899919"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39018540"
 ---
 # <a name="manage-an-on-premises-data-gateway-in-powerapps"></a>PowerApps의 온-프레미스 데이터 게이트웨이를 관리합니다.
 빠르고 안전하게 PowerApps 및 온-프레미스 SQL Server 데이터베이스 또는 온-프레미스 SharePoint 사이트와 같은 클라우드에 없는 데이터 원본 간에 데이터를 전송하는 온-프레미스 데이터 게이트웨이를 설치합니다. 관리 권한이 있는 모든 게이트웨이를 보고 해당 게이트웨이에 대한 권한과 연결을 관리합니다.

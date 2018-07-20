@@ -1,23 +1,20 @@
 ---
 title: 양식 사용자 지정 | Microsoft Docs
 description: 어떤 데이터를 어떤 순서와 어떤 컨트롤 방식으로 표시할지 지정합니다.
-documentationcenter: na
 author: AFTOwen
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: ''
 ms.date: 03/17/2018
 ms.author: anneta
-ms.openlocfilehash: 98162ce4d291b976c816326efc5d4c6d4d18c870
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 842e19360c5f1536489f978cf880d941a6dee7d6
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31829599"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39019989"
 ---
 # <a name="customize-forms-in-powerapps"></a>PowerApps 양식 사용자 지정
 **표시 양식** 컨트롤과 **편집 양식** 컨트롤을 사용자 지정하여 사용자가 데이터를 쉽게 파악하고 업데이트할 수 있도록 가장 직관적인 순서로 데이터를 표시합니다.

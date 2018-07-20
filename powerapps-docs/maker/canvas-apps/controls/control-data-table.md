@@ -1,23 +1,20 @@
 ---
 title: '데이터 테이블 컨트롤: 참조 | Microsoft Docs'
 description: 속성 및 예제를 포함한 데이터 테이블 컨트롤 정보
-documentationcenter: na
 author: jasongre
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 06/05/2017
-ms.author: kfend
-ms.openlocfilehash: aa6e778a1c0426c696aaf48c542eccc4887c0e36
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.author: jasongre
+ms.openlocfilehash: c282301ffafd1214c072c5b29e87fbba1515eda2
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31836250"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39017551"
 ---
 # <a name="data-table-control-in-powerapps"></a>PowerApps의 데이터 테이블 컨트롤
 테이블 형식으로 데이터 집합을 보여 줍니다.

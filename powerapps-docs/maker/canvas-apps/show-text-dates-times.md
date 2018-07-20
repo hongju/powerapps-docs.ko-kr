@@ -1,22 +1,20 @@
 ---
 title: 날짜/시간 텍스트 표시 및 형식 지정 | Microsoft Docs
 description: PowerApps를 사용하여 날짜 및 시간을 추가하고 형식을 지정합니다.
-documentationcenter: ''
 author: AFTOwen
-manager: kfile
-editor: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: ''
 ms.date: 10/16/2016
 ms.author: anneta
-ms.openlocfilehash: faa8db15596dc0da0d5b5638f5dd9c334517fc7c
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 625d76af5acc554ff9ab6c20d69f542cf959cd95
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "32330954"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39018080"
 ---
 # <a name="show-text-and-format-dates-and-times-in-powerapps"></a>PowerApps에서 날짜/시간 텍스트 표시 및 형식 지정
 날짜와 시간을 추가하고 형식을 지정하여 적절한 수준의 세부 정보를 표시하거나 로캘을 반영합니다. 두 날짜 사이의 시간을 계산하거나 지정한 날짜 이전 또는 이후의 특정 시간에 해당하는 날짜를 계산합니다. 날짜를 일, 월 및 연도에 대한 별도의 값으로 변환하고 시, 분 및 초에 대한 별도의 값으로 변환합니다.

@@ -1,23 +1,20 @@
 ---
 title: EditForm, NewForm, SubmitForm, ResetForm, ViewForm 함수 | Microsoft Docs
 description: PowerApps의 EditForm, NewForm, SubmitForm, ResetForm, ViewForm 함수에 대한 구문과 예제를 포함한 참조 정보
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 07/06/2017
 ms.author: gregli
-ms.openlocfilehash: 6a32068d0de49ea0a6cf752fde0fd486159f39e9
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 4d91e646bbe50870e9d7570451b489fb0e118042
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31836468"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39017804"
 ---
 # <a name="editform-newform-submitform-resetform-and-viewform-functions-in-powerapps"></a>PowerApps의 EditForm, NewForm, SubmitForm, ResetForm, ViewForm 함수
 **[편집 양식](../controls/control-form-detail.md)** 컨트롤의 항목을 보거나 편집하거나 생성하고 콘텐츠를 저장하고 컨트롤을 다시 설정합니다.

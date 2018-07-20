@@ -1,23 +1,20 @@
 ---
 title: Split 함수 | Microsoft Docs
 description: PowerApps에서 Split 함수에 대한 구문과 예제를 포함한 참조 정보
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta anneta
 ms.date: 08/28/2017
 ms.author: gregli
-ms.openlocfilehash: 7989a795afc0085bfa0e78d4b9d0bebeb26619c6
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: 6fa850add848463b755d0bfadf6d451f7e3556dd
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37899275"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39020794"
 ---
 # <a name="split-function-in-powerapps"></a>PowerApps의 Split 함수
 텍스트 문자열을 하위 문자열의 테이블로 분할합니다.

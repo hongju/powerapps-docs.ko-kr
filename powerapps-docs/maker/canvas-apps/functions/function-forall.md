@@ -1,23 +1,20 @@
 ---
 title: ForAll 함수 | Microsoft Docs
 description: PowerApps의 ForAll 함수에 대한 구문과 예제를 포함한 참조 정보
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 04/26/2016
 ms.author: gregli
-ms.openlocfilehash: 7df5e270e92930fa494ec8a30a59d46d022fd915
-ms.sourcegitcommit: 6d9fe9967841e381b108a7fb53c9057e295336ea
+ms.openlocfilehash: 664101cd6cc0872f981eb7b7c82e9a680ec0fc87
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38095836"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39016240"
 ---
 # <a name="forall-function-in-powerapps"></a>PowerApps의 ForAll 함수
 [테이블](../working-with-tables.md)의 모든 [레코드](../working-with-tables.md#records)에 대해 값을 계산하고 작업을 수행합니다.

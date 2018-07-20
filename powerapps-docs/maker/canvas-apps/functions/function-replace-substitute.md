@@ -1,23 +1,20 @@
 ---
 title: Replace 및 Substitute 함수 | Microsoft Docs
 description: PowerApps의 Replace 및 Substitute 함수에 대한 구문을 포함한 참조 정보
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 11/07/2015
 ms.author: gregli
-ms.openlocfilehash: d08cbb1ae487c7ae4423d67a499f5477a5ea263b
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: d368114a52f428e3bb9403b71adb6557a432e880
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31830376"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39014515"
 ---
 # <a name="replace-and-substitute-functions-in-powerapps"></a>PowerApps의 Replace 및 Substitute 함수
 텍스트 문자열의 일부를 다른 문자열로 바꿉니다.

@@ -1,23 +1,20 @@
 ---
 title: 스크롤 화면 추가 | Microsoft Docs
 description: 화면이 한 번에 표시할 수 있는 것보다 더 많은 유형의 콘텐츠를 표시하도록 사용자가 스크롤할 수 있는 화면을 만듭니다.
-documentationcenter: na
 author: lonu
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 10/25/2016
 ms.author: lonu
-ms.openlocfilehash: fd7b418de7a78220dfc1019c923749fb8e6ddf5c
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 4a8b92e012f9669f2b445ef864d3360ef42fbc01
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31825329"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39015987"
 ---
 # <a name="add-a-scrolling-screen-in-powerapps"></a>PowerApps에서 스크롤 화면 추가
 다른 항목을 표시하도록 사용자가 스크롤할 수 있는 화면을 만듭니다. 예를 들어 세로 막대형 차트와 꺾은선형 차트로 데이터를 표시하는 앱을 만들고자 할 수도 있습니다. 스크롤 화면을 추가하면 사용자가 스크롤하여 표시할 수 있는 여러 개의 컨트롤을 추가할 수 있습니다.

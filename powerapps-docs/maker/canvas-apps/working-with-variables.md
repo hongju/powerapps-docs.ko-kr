@@ -1,23 +1,20 @@
 ---
 title: 변수 이해 | Microsoft Docs
 description: 상태, 컨텍스트 변수 및 컬렉션 작업에 대한 참조 정보입니다.
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 07/06/2017
 ms.author: gregli
-ms.openlocfilehash: 66b3183f6b1215fc0de2a763da2388698501a9b7
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: b5986c927b75ed7a6e38af913cbfb9877121d0a5
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "33673535"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39017827"
 ---
 # <a name="understand-variables-in-powerapps"></a>PowerApps 변수에 대한 이해
 Visual Basic 또는 JavaScript와 같은 다른 프로그래밍 도구를 사용한 경우 **변수가 어디에 있나요?** 라고 물어볼 수 있습니다. PowerApps는 약간 다르며 다른 접근 방식이 필요합니다. 변수에 도달하는 대신 자신에게 **Excel에서 무엇을 할 수 있나요?** 라고 물어보세요.
@@ -131,7 +128,7 @@ PowerApps에서 수식을 사용하여 컨트롤의 기본값뿐만 아니라 �
 ## <a name="types-of-variables"></a>변수 유형
 PowerApps에는 다음과 같은 세 가지 유형의 변수가 있습니다.
 
-| 변수 유형 | 범위 | 설명 | 기능 |
+| 변수 유형 | 범위 | 설명 | Functions |
 | --- | --- | --- | --- |
 | 전역 변수 |앱 |사용이 가장 간편합니다.  앱의 모든 위치에서 참조할 수 있는 숫자, 텍스트 문자열, 부울, 레코드, 테이블 등을 보유합니다. |[**Set**](functions/function-set.md) |
 | 컨텍스트 변수 |화면 |다른 언어의 프로시저에 대한 매개 변수와 마찬가지로 화면에 값을 전달하는 데 매우 유용합니다.  한 화면에서만 참조할 수 있습니다. |[**UpdateContext**](functions/function-navigate.md) |

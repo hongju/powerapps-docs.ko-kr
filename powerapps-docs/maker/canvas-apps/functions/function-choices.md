@@ -2,17 +2,19 @@
 title: Choices 함수 | Microsoft Docs
 description: PowerApps에서 Choices 함수에 대한 구문을 포함한 참조 정보
 author: gregli-msft
+manager: kvivek
 ms.service: powerapps
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 06/15/2018
 ms.author: gregli
-ms.openlocfilehash: ec39a9970c2135e9cf4633f8266d9b2980d8cd9b
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: 8f0985203017ec21d49fa98be870208c6ecf3ea5
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37895963"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39022174"
 ---
 # <a name="choices-function-in-powerapps"></a>PowerApps의 Choices 함수
 조회 열에 대해 가능한 값의 테이블을 반환합니다.

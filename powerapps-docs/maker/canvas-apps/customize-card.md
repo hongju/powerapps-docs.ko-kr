@@ -1,23 +1,20 @@
 ---
 title: 카드 사용자 지정 | Microsoft Docs
 description: PowerApps에서 세부 정보 또는 편집 양식의 카드에 표시되는 기본 컨트롤 변경
-documentationcenter: ''
 author: AFTOwen
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: ''
 ms.date: 03/18/2018
 ms.author: anneta
-ms.openlocfilehash: aa9d5785f1c005da7c22c63bd94cb41e1a643ad3
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 56a46493ef15eff7d65d19f12affb2a58dbba0b6
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31829310"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39023439"
 ---
 # <a name="customize-a-card-in-powerapps"></a>PowerApps에서 카드 사용자 지정
 해당 컨트롤을 변경하는 등의 방법으로 (카드를 잠금 해제하지 않고) 기본 사용자 지정 을 수행합니다. 기본값으로 가능하지 않은 컨트롤을 추가하는 등의 방법으로 카드를 잠금 해제하여 고급 사용자 지정을 수행합니다.

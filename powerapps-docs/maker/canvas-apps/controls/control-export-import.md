@@ -1,23 +1,20 @@
 ---
 title: '컨트롤 내보내기 및 가져오기: 참조 | Microsoft Docs'
 description: 속성 및 예제를 포함한 컨트롤 내보내기 및 가져오기에 대한 정보
-documentationcenter: na
 author: fikaradz
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 958589deb4fdee42cb8e6df13ff15addbc06c07e
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 9eb0cf33c4bac3553592971409f7c52f199b368b
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31830696"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39017298"
 ---
 # <a name="export-control-and-import-control-in-powerapps"></a>PowerApps에서 컨트롤 내보내기 및 가져오기
 로컬 파일에 데이터를 내보내고 해당 데이터를 PowerApps의 다른 앱으로 가져오기 위한 컨트롤

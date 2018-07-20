@@ -1,23 +1,20 @@
 ---
 title: 엔터티 양식 컨트롤 사용 | Microsoft Docs
 description: 엔터티 양식 컨트롤을 사용하여 Common Data Service 엔터티에 대한 서식 있는 양식을 추가하여 앱을 보다 빠르게 만들 수 있습니다.
-documentationcenter: na
 author: aneesmsft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 03/11/2017
 ms.author: aneesa
-ms.openlocfilehash: fd3c3c002ab877b78a2065e37c6a8f2ddcb91fb6
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 8915d8dc6f87b60a040dc26891cf45b9e243bb72
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31838996"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39023968"
 ---
 # <a name="use-the-entity-form-control"></a>엔터티 양식 컨트롤 사용
 **엔터티 양식** 컨트롤을 사용하여 Common Data Service 엔터티에 대한 서식 있는 양식을 추가하여 앱을 보다 빠르게 만들 수 있습니다.

@@ -1,23 +1,20 @@
 ---
 title: SharePoint Online에서 Power BI 프로젝트 보고서 포함 | Microsoft Docs
 description: 이 작업에서는 두 개의 목록을 호스팅하는 동일한 SharePoint Online 사이트에 Power BI 보고서를 포함합니다.
-documentationcenter: na
 author: mgblythe
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: ''
 ms.date: 01/30/2018
 ms.author: mblythe
-ms.openlocfilehash: 0a71bc45fbcc3c36337571b9d80ade0d2cf9cbe2
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 9e97020ae14ce6da9674e64559b42f98e45269f4
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31827554"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39023232"
 ---
 # <a name="embed-the-power-bi-project-report-in-sharepoint-online"></a>SharePoint Online에서 Power BI 프로젝트 보고서 포함
 > [!NOTE]

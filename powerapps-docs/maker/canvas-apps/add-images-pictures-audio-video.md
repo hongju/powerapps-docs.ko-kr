@@ -1,22 +1,20 @@
 ---
 title: 앱으로 멀티미디어 파일 포함 및 업로드 | Microsoft Docs
 description: 앱에서 멀티미디어 파일 표시 및 데이터 원본에 업로드
-documentationcenter: ''
 author: karthik-1
-manager: kfile
-editor: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 07/12/2017
 ms.author: sharik
-ms.openlocfilehash: d193c2691f689e935a5dbb92767a16d393098770
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: 8c04681f3d39a6022f8f962e7a76673fb90ad65b
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37896745"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39017666"
 ---
 # <a name="using-multimedia-files-in-powerapps"></a>PowerApps에서 멀티미디어 파일 사용
 이 토픽에서는 앱에 멀티미디어 파일을 포함하고, 데이터 원본에 펜 드로잉을 업로드하고, 앱에서 데이터 원본의 이미지를 표시하는 방법을 보여 줍니다. 이 토픽에 사용된 데이터 원본은 비즈니스용 OneDrive에서 Excel 파일입니다.
