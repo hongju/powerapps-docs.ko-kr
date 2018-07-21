@@ -2,19 +2,22 @@
 title: 액세스 가능한 색 | Microsoft Docs
 description: PowerApps에 대한 색 대비 지침
 author: tahoon
+manager: kvivek
 ms.service: powerapps
 ms.topic: article
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 04/23/2018
 ms.author: tahoon
-ms.openlocfilehash: 56a11edcd1c43313e9b380ca8ac1c8a68d85772d
-ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
+ms.openlocfilehash: 289026f18d341381d64423e76effb1abf586557c
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/03/2018
-ms.locfileid: "32329919"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39014814"
 ---
 # <a name="accessible-colors-in-powerapps"></a>PowerApps의 액세스 가능한 색
-앱에서 사용되는 색은 색맹 및 저시력 사용자가 액세스할 수 있어야 합니다. 모든 PowerApps 테마는 기본적으로 액세스할 수 있습니다. 앱에서 사용되는 색을 수정할 경우 다음 지침에 따라 색에 계속 액세스할 수 있는지 확인합니다.
+앱에서 사용되는 색은 색맹 및 저시력 사용자가 액세스할 수 있어야 합니다. 모든 PowerApps 테마는 기본적으로 액세스할 수 있습니다. 앱에서 사용되는 색을 수정할 경우 다음 지침에 따라 색에 계속 액세스할 수 있는지 확인합니다. 색 대비 문제를 식별하는 데 도움이 되는 온라인으로 사용 가능한 여러 도구가 있습니다.
 
 ## <a name="minimum-contrast-for-text"></a>텍스트에 대한 최소 대비
 * 텍스트 및 배경의 대비 비율은 4.5:1 이상이어야 합니다.
@@ -58,4 +61,4 @@ ms.locfileid: "32329919"
 **[아이콘](controls/control-shapes-icons.md)** 같은 추가적인 신호나 **[기울임꼴](controls/properties-text.md)** 및 **[밑줄](controls/properties-text.md)** 같은 텍스트 스타일이 의미를 전달하는 데 도움이 될 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
-PowerApps 컨트롤의 [접근성 속성](controls/properties-accessibility.md)에 대해 알아보세요.
+PowerApps 컨트롤에서 [접근성 속성](controls/properties-accessibility.md)에 대해 알아보고 [접근성 검사기를 사용](accessibility-checker.md)해 보세요.

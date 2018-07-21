@@ -49,6 +49,11 @@
               href: ./canvas-apps/get-started-create-from-blank.md
         - name: 앱 공유
           href: ./canvas-apps/share-app.md
+          items:
+            - name: Excel 데이터 공유
+              href: ./canvas-apps/share-app-data.md
+            - name: 앱 리소스 공유
+              href: ./canvas-apps/share-app-resources.md
         - name: Power BI에 앱 포함
           href: ./canvas-apps/embed-powerapps-powerbi.md
     - name: 샘플
