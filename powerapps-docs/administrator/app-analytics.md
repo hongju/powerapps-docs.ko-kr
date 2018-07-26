@@ -8,17 +8,17 @@ ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 08/29/2017
 ms.author: jamesol
-ms.openlocfilehash: ba4b518cdc1b965a26a7e3fc3722dd23d601e693
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 9abac88875c85551fe4d4f91413a1752e35b8320
+ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34168208"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "39218858"
 ---
 # <a name="view-analytics-reports-for-your-app"></a>사용자 앱에 대한 분석 보고서 보기
 앱을 빌드하고 조직과 공유해 본 적 있으세요?  매일 얼마나 많은 동료가 앱을 사용하고 있는지 궁금하신가요?
 
-현재 [web.powerapps.com](https://web.powerapps.com)에서 사용할 수 있는 첫 번째 PowerApps 분석 보고서 및 **앱 사용 보고서**를 소개합니다.
+현재 [web.powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 사용할 수 있는 첫 번째 PowerApps 분석 보고서 및 **앱 사용 보고서**를 소개합니다.
 
 앱 사용 현황 보고서를 통해 지난 30일 동안 앱을 사용한 사용자의 수를 일, 장치 플랫폼 및 위치별로 추적할 수 있습니다.
 
@@ -30,7 +30,7 @@ ms.locfileid: "34168208"
 ## <a name="where-do-i-find-my-apps-reports"></a>내 앱 보고서는 어디서 찾을 수 있습니까?
 다음 단계를 통해 앱의 보고서를 볼 수 있습니다.
 
-1. [web.powerapps.com](https://web.powerapps.com)으로 이동합니다.
+1. [web.powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)으로 이동합니다.
 2. 왼쪽 탐색 표시줄에서 **앱**을 선택합니다.
    
     ![왼쪽 탐색 표시줄](./media/app-analytics/left-nav.png)

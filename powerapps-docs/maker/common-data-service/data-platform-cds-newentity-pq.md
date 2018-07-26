@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.component: cds
 ms.date: 03/21/2018
 ms.author: anneta
-ms.openlocfilehash: 60d1843e48a1dc1d310d877bcba67460da557993
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: c5da71198f33661766d8fc214816c2e714736360
+ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34168300"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "39218766"
 ---
 # <a name="add-data-to-an-entity-in-common-data-service-for-apps-by-using-power-query"></a>파워 쿼리를 사용하여 앱용 Common Data Service의 엔터티에 데이터 추가
 이 절차에서는 [앱용 CDS(Common Data Service)](data-platform-intro.md)에서 엔터티를 만들고 파워 쿼리를 사용하여 OData 피드에서 해당 엔터티를 데이터로 채웁니다. 일부 기술을 사용하여 이러한 온라인 및 온-프레미스 원본의 데이터를 다음 항목 간에 통합할 수 있습니다.
@@ -37,7 +37,7 @@ PowerApps에 대한 라이선스가 없으면 [무료로 등록](../signup-for-p
 
 ## <a name="specify-the-source-data"></a>원본 데이터 지정
 
-1. [PowerApps](https://web.powerapps.com)에 로그인한 다음, 왼쪽 가장자리 근처 **데이터**에 아래쪽 화살표를 클릭하거나 탭합니다.
+1. [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인한 다음, 왼쪽 가장자리 근처 **데이터**에 아래쪽 화살표를 클릭하거나 탭합니다.
 
     ![PowerApps 홈페이지](./media/data-platform-cds-newentity-pq/sign-in.png)
 

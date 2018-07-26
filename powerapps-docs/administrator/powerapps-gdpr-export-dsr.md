@@ -8,17 +8,17 @@ ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 05/23/2018
 ms.author: jamesol
-ms.openlocfilehash: 8eb651bcd4ad9320dc8995864249f619bb76ab77
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: 417b44cd992a6ff00cb9a8d17443338825e31d9f
+ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37896860"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "39218812"
 ---
 # <a name="responding-to-data-subject-rights-dsr-requests-to-export-powerapps-customer-data"></a>PowerApps 고객 데이터를 내보내기 위한 DSR(Data Subject Rights) 요청에 응답
 “데이터 이식성 권한”을 사용하면 데이터 주체가 다른 데이터 컨트롤러에게 전송될 수 있는 자신의 개인 데이터 복사본을 전자 형식(구조화되고, 일반적으로 사용되고, 컴퓨터에서 읽을 수 있고, 상호 운용 가능한 형식)으로 요청할 수 있습니다.
 
-* 웹 사이트 액세스: [PowerApps 포털](https://web.powerapps.com), [PowerApps 관리 센터](https://admin.powerapps.com/) 및 [Office 365 Service Trust Portal](https://servicetrust.microsoft.com/)
+* 웹 사이트 액세스: [PowerApps 포털](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc), [PowerApps 관리 센터](https://admin.powerapps.com/) 및 [Office 365 Service Trust Portal](https://servicetrust.microsoft.com/)
 
 * PowerShell 액세스: PowerApps [앱 작성자 cmdlet](https://go.microsoft.com/fwlink/?linkid=871448), [관리자 cmdlet](https://go.microsoft.com/fwlink/?linkid=871804) 및 [온-프레미스 게이트웨이 cmdlet](https://go.microsoft.com/fwlink/?linkid=872238)
 
@@ -40,12 +40,12 @@ PowerApps 사용자 설정, 사용자 앱 설정 및 알림 | | 앱 작성자: �
 
 > ** 앱용 CDS(Common Data Service)가 도입됨에 따라 환경 내에서 데이터베이스를 만드는 경우 환경 권한 및 모델 기반 앱 권한은 앱용 CDS 데이터베이스 인스턴스 내에 레코드로 저장됩니다. 앱용 CDS를 사용하는 사용자에 대한 DSR 요청에 응답하는 방법에 대한 자세한 내용은 [앱용 Common Data Service 고객 데이터에 대한 DSR(Data Subject Rights) 요청에 응답](common-data-service-gdpr-dsr-guide.md)을 참조하세요.
 > 
-> *** 관리자는 리소스 소유자가 액세스 권한을 명시적으로 부여받은 경우에만 [PowerApps 포털](https://web.powerapps.com)에서 이 리소스에 액세스할 수 있습니다. 액세스 권한이 부여되지 않은 관리자는 [PowerApps 관리자 PowerShell cmdlet](https://go.microsoft.com/fwlink/?linkid=871804)을 이용해야 합니다.
+> *** 관리자는 리소스 소유자가 액세스 권한을 명시적으로 부여받은 경우에만 [PowerApps 포털](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 이 리소스에 액세스할 수 있습니다. 액세스 권한이 부여되지 않은 관리자는 [PowerApps 관리자 PowerShell cmdlet](https://go.microsoft.com/fwlink/?linkid=871804)을 이용해야 합니다.
 
 ## <a name="prerequisites"></a>필수 조건
 
 ### <a name="for-users"></a>사용자의 경우
-유효한 PowerApps 라이선스가 있는 사용자는 [PowerApps 포털](https://web.powerapps.com) 또는 [앱 작성자 cmdlet](https://go.microsoft.com/fwlink/?linkid=871448)을 사용하여 이 문서에 설명된 사용자 작업을 수행할 수 있습니다.
+유효한 PowerApps 라이선스가 있는 사용자는 [PowerApps 포털](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 또는 [앱 작성자 cmdlet](https://go.microsoft.com/fwlink/?linkid=871448)을 사용하여 이 문서에 설명된 사용자 작업을 수행할 수 있습니다.
 
 ### <a name="for-admins"></a>관리자의 경우
 PowerApps 관리 센터, Microsoft Flow 관리 센터 또는 [PowerApps 관리자 PowerShell cmdlet](https://go.microsoft.com/fwlink/?linkid=871804)을 사용하여 이 문서에 설명된 관리 작업을 수행하려면 다음이 필요합니다.
@@ -126,7 +126,7 @@ Get-AdminEnvironmentRoleAssignment -UserId $userId | ConvertTo-Json | Out-File -
 ## <a name="step-3-export-personal-data-contained-within-canvas-apps-created-by-the-user"></a>3단계: 사용자가 만든 캔버스 앱에 포함된 개인 데이터 내보내기
 
 ### <a name="powerapps-portal"></a>PowerApps 포털
-사용자는 [PowerApps 포털](https://web.powerapps.com)에서 앱을 내보낼 수 있습니다. 앱을 내보내는 방법에 대한 단계별 지침은 [앱 내보내기](environment-and-tenant-migration.md#exporting-an-app)를 참조하세요.
+사용자는 [PowerApps 포털](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 앱을 내보낼 수 있습니다. 앱을 내보내는 방법에 대한 단계별 지침은 [앱 내보내기](environment-and-tenant-migration.md#exporting-an-app)를 참조하세요.
 
 ### <a name="powerapps-admin-center"></a>PowerApps 관리 센터
 관리자는 다음 단계에 따라 [PowerApps 관리 센터](https://admin.powerapps.com/)에서 사용자가 만든 앱을 내보낼 수 있습니다.
@@ -147,7 +147,7 @@ Get-AdminEnvironmentRoleAssignment -UserId $userId | ConvertTo-Json | Out-File -
 
     ![사용자에게 액세스 권한 부여](./media/powerapps-gdpr-export-dsr/grant-access.png)
 
-5. 각 사용자의 앱에 액세스할 수 있으면 [PowerApps 포털](https://web.powerapps.com)에서 앱을 내보낼 수 있습니다. 앱을 내보내는 방법에 대한 단계별 지침은 [앱 내보내기](environment-and-tenant-migration.md#exporting-an-app)를 참조하세요.
+5. 각 사용자의 앱에 액세스할 수 있으면 [PowerApps 포털](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 앱을 내보낼 수 있습니다. 앱을 내보내는 방법에 대한 단계별 지침은 [앱 내보내기](environment-and-tenant-migration.md#exporting-an-app)를 참조하세요.
 
 ### <a name="powershell-cmdlets-for-admins"></a>관리자용 PowerShell cmdlet
 관리자는 [PowerApps 관리자 PowerShell cdmlet](https://go.microsoft.com/fwlink/?linkid=871804)의 **Get-AdminApp** 함수를 사용하여 사용자가 만든 앱을 내보낼 수 있습니다.
@@ -274,7 +274,7 @@ Get-AdminConnectorRoleAssignment -PrincipalObjectId $userId | ConvertTo-Json | O
 ~~~~
  
 ## <a name="step-9-export-powerapps-notifications-user-settings-and-user-app-settings"></a>9단계: PowerApps 알림, 사용자 설정 및 사용자 앱 설정 내보내기
-PowerApps는 앱이 사용자와 공유될 경우 및 앱용 CDS 내보내기 작업이 완료될 경우를 포함하여 사용자에게 다양한 유형의 알림을 보냅니다. 사용자의 알림 기록은 [PowerApps 포털](https://web.powerapps.com) 내에 표시됩니다.
+PowerApps는 앱이 사용자와 공유될 경우 및 앱용 CDS 내보내기 작업이 완료될 경우를 포함하여 사용자에게 다양한 유형의 알림을 보냅니다. 사용자의 알림 기록은 [PowerApps 포털](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 내에 표시됩니다.
 
 또한 PowerApps는 사용자가 응용 프로그램을 마지막으로 열거나, 앱을 고정할 경우 등을 포함하여 PowerApps 런타임 및 포털 환경을 전달하는 데 사용되는 다양한 사용자 기본 설정 및 설정도 저장합니다.
 
@@ -298,9 +298,9 @@ Get-AdminPowerAppsUserDetails -WriteToFile -OutputFilePath "UserDetails.json" -U
 ## <a name="step-10-export-personal-data-contained-for-a-user-stored-gateway-or-in-the-users-gateway-permissions"></a>10단계: 사용자가 저장한 게이트웨이에 대해 포함되거나 사용자 게이트웨이 권한에 포함된 개인 데이터 내보내기
 
 ### <a name="powerapps-portal"></a>PowerApps 포털
-사용자는 다음 단계에 따라 [PowerApps 포털](https://web.powerapps.com)에서 게이트웨이 서비스 내에 저장된 개인 데이터를 내보낼 수 있습니다.
+사용자는 다음 단계에 따라 [PowerApps 포털](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 게이트웨이 서비스 내에 저장된 개인 데이터를 내보낼 수 있습니다.
 
-1. [PowerApps 포털](https://web.powerapps.com)에서 테넌트의 기본 환경 내에 있는 **게이트웨이**를 선택한 다음, 액세스할 수 있는 각 게이트웨이에 대한 **세부 정보**를 선택합니다.
+1. [PowerApps 포털](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 테넌트의 기본 환경 내에 있는 **게이트웨이**를 선택한 다음, 액세스할 수 있는 각 게이트웨이에 대한 **세부 정보**를 선택합니다.
 
     ![게이트웨이 방문 페이지](./media/powerapps-gdpr-export-dsr/gateway-select-details.png)
 

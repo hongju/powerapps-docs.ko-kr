@@ -8,12 +8,12 @@ ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: 4e12faf91b0ce19a4d2ef2ba2e4d9bbca8fb7093
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: b38f0d1b029708e8130363d54ccc1354084b0ae4
+ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37896308"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "39218168"
 ---
 # <a name="environments-overview"></a>환경 개요
 환경은 조직의 비즈니스 데이터, 앱 및 흐름을 저장, 관리 및 공유하는 공간입니다. 또한 각기 다른 역할, 보안 요구 사항 또는 대상 그룹에 따라 앱을 구분하는 컨테이너 기능도 제공합니다. 환경 활용을 선택하는 방식은 해당 조직 및 빌드하려는 앱에 따라 달라집니다. 예:
@@ -75,7 +75,7 @@ ms.locfileid: "37896308"
 여러 목적을 위한 환경을 만들 수 있습니다. 평가판 환경은 Common Data Service 경험을 사용하여 환경 및 데이터베이스를 시험하는 용도로 사용됩니다. 일정 기간 후에 만료됩니다. 자세한 내용은 [PowerApps에서 환경 관리](environments-administration.md)를 참조하세요.
 
 ## <a name="choosing-an-environment"></a>환경 선택
-환경의 도입으로 [https://web.powerapps.com](https://web.powerapps.com)에서 새로운 세상을 경험하게 됩니다.  앱, 연결 및 사이트에 표시되는 기타 항목이 선택한 현재 환경에 따라 필터링됩니다.  현재 환경은 헤더의 오른쪽 가장자리 근처에 있는 환경 선택기에 지정됩니다. 다른 환경을 선택하려면 선택기를 클릭하거나 탭하십시오. 사용 가능한 환경 목록이 나타납니다. 들어가려는 환경을 클릭하거나 탭합니다.
+환경의 도입으로 [https://web.powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 새로운 세상을 경험하게 됩니다.  앱, 연결 및 사이트에 표시되는 기타 항목이 선택한 현재 환경에 따라 필터링됩니다.  현재 환경은 헤더의 오른쪽 가장자리 근처에 있는 환경 선택기에 지정됩니다. 다른 환경을 선택하려면 선택기를 클릭하거나 탭하십시오. 사용 가능한 환경 목록이 나타납니다. 들어가려는 환경을 클릭하거나 탭합니다.
 
 다음 조건 중 하나를 충족하는 경우 선택기에 환경이 나타납니다.
 

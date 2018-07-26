@@ -8,12 +8,12 @@ ms.topic: overview
 ms.component: cds
 ms.date: 05/01/2018
 ms.author: matp
-ms.openlocfilehash: 586750edf476a9145e2822522cc0b4b5ad729539
-ms.sourcegitcommit: 7296649d03ebc33dc5ddb9e7c551869dc781f154
+ms.openlocfilehash: 6a8bc8f24ce0f772f5c98852838095f233c4317f
+ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2018
-ms.locfileid: "35250826"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "39218076"
 ---
 # <a name="what-is-common-data-service-for-apps"></a>앱용 Common Data Service란 무엇인가요?
 앱용 CDS(Common Data Service)를 사용하면 비즈니스 응용 프로그램에서 사용되는 데이터를 안전하게 저장하고 관리할 수 있습니다. 앱용 CDS 내 데이터는 엔터티의 집합 내에 저장됩니다. *엔터티*는 테이블이 데이터베이스 내의 데이터를 저장하는 방법과 유사하게 데이터를 저장하는 데 사용되는 레코드의 집합입니다. 앱용 CDS는 일반적인 시나리오를 다루는 표준 엔터티의 기본 집합을 포함하고 있지만, 조직과 관련된 사용자 지정 엔터티를 만들고 파워 쿼리를 사용하여 데이터로 채울 수도 있습니다. 그런 다음, 앱 작성자는 PowerApps를 사용하여 이 데이터를 사용하는 다양한 응용 프로그램을 빌드할 수 있습니다.
@@ -70,7 +70,7 @@ Dynamics 365 for Sales, Service 또는 Talent와 같은 Dynamics 365 응용 프�
 * **코드를 사용한 비즈니스 논리**는 고급 시나리오를 지원하여 코드를 통해 직접 응용 프로그램을 확장합니다. 자세한 내용은 [코드로 비즈니스 논리 적용](../../developer/common-data-service/apply-business-logic-with-code.md)을 참조하세요.
 
 ## <a name="developer-capabilities"></a>개발자 기능
-[PowerApps](https://web.powerapps.com) 포털을 통해 사용할 수 있는 기능 외에도 앱용 CDS에는 메타데이터 및 데이터에 프로그래밍 방식으로 액세스하여 데이터와 상호 작용하면서 엔터티 및 비즈니스 논리를 만들 수 있는 개발자를 위한 기능이 포함되어 있습니다. 자세한 내용은 [앱 개발자를 위한 Common Data Service 개요](../../developer/common-data-service/overview.md)를 참조하세요.
+[PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 포털을 통해 사용할 수 있는 기능 외에도 앱용 CDS에는 메타데이터 및 데이터에 프로그래밍 방식으로 액세스하여 데이터와 상호 작용하면서 엔터티 및 비즈니스 논리를 만들 수 있는 개발자를 위한 기능이 포함되어 있습니다. 자세한 내용은 [앱 개발자를 위한 Common Data Service 개요](../../developer/common-data-service/overview.md)를 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 앱용 CDS 사용을 시작하려면:

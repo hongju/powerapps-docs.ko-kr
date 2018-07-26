@@ -8,12 +8,12 @@ ms.component: cds
 ms.topic: conceptual
 ms.date: 05/21/2018
 ms.author: clwesene
-ms.openlocfilehash: bb0bec7cf459eb9084aea4db7264350b7913e578
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: 5fffcbcd8f58ae05f3fe5b3b4f871cf39d003321
+ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37898760"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "39218191"
 ---
 # <a name="create-a-power-bi-report"></a>Power BI 보고서 만들기
 앱용 Common Data Service를 사용하면 Power BI Desktop을 사용하여 사용자 데이터에 바로 연결하여 보고서를 만들고 Power BI에 게시할 수 있습니다. Power BI에서 보고서는 대시보드에서 사용하고, 다른 사용자와 공유하며, Power BI 모바일 앱의 플랫폼 간 액세스할 수 있습니다.
@@ -29,7 +29,7 @@ ms.locfileid: "37898760"
 
 ## <a name="finding-your-common-data-service-for-apps-environment-url"></a>앱용 Common Data Service 환경 URL 찾기
 
-1. [PowerApps](https://web.powerapps.com)를 열고 연결하려는 환경을 선택한 다음, 오른쪽 위 모서리에서 **설정 기어**를 클릭하고 **고급 사용자 지정**을 클릭합니다.
+1. [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)를 열고 연결하려는 환경을 선택한 다음, 오른쪽 위 모서리에서 **설정 기어**를 클릭하고 **고급 사용자 지정**을 클릭합니다.
 
     ![앱용 CDS 환경](./media/data-platform-cds-powerbi-connector/CDSEnv1.png "앱용 CDS 환경")
 

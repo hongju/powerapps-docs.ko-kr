@@ -8,12 +8,12 @@ ms.component: cds
 ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: clwesene
-ms.openlocfilehash: 188add46a8e52cfeb75ef1bb670ca3b457963024
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: b2b472ae33bd16761d25fc965f24afc6bb9b957e
+ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34168599"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "39218421"
 ---
 # <a name="create-an-option-set"></a>옵션 집합 만들기
 
@@ -23,7 +23,7 @@ ms.locfileid: "34168599"
 
 ## <a name="creating-an-option-set-while-adding-a-field"></a>필드를 추가하는 동안 옵션 집합 만들기
 
-1. [powerapps.com](https://web.powerapps.com)에서 **데이터** 섹션을 확장하고 왼쪽 탐색 창에서 **엔터티**를 클릭하거나 탭합니다.
+1. [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 **데이터** 섹션을 확장하고 왼쪽 탐색 창에서 **엔터티**를 클릭하거나 탭합니다.
 
     ![엔터티 세부 정보](./media/data-platform-cds-create-entity/entitylist.png "엔터티 목록")
 
@@ -61,7 +61,7 @@ ms.locfileid: "34168599"
 
 ## <a name="creating-an-option-set-from-the-option-set-list"></a>목록 집합 목록에서 옵션 집합 만들기
 
-1. [powerapps.com](https://web.powerapps.com)에서 **데이터** 섹션을 확장하고 왼쪽 탐색 창에서 **옵션 집합**을 클릭하거나 탭합니다.
+1. [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 **데이터** 섹션을 확장하고 왼쪽 탐색 창에서 **옵션 집합**을 클릭하거나 탭합니다.
 
     ![옵션 집합](./media/data-platform-cds-newoptionset/optionsetlist.png "옵션 집합 목록")
 

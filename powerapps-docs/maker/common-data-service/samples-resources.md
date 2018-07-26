@@ -8,16 +8,16 @@ ms.component: cds
 ms.topic: conceptual
 ms.date: 03/17/2018
 ms.author: clwesene
-ms.openlocfilehash: 405cafabd57ea234d5202076060ee0987b6904db
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: e1f361cb2bd0f97e75422ce552ac50ae5c581626
+ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34168461"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "39218559"
 ---
 # <a name="samples-and-other-resources-for-common-data-service-for-apps"></a>앱용 Common Data Service의 샘플 및 기타 리소스
 ## <a name="samples"></a>샘플
-앱용 CDS(Common Data Service)를 사용하는 몇 가지 샘플이 있습니다. 이러한 샘플을 찾으려면 [powerapps.com](https://web.powerapps.com)으로 이동한 다음, 탐색 창에서 **홈**을 선택합니다.
+앱용 CDS(Common Data Service)를 사용하는 몇 가지 샘플이 있습니다. 이러한 샘플을 찾으려면 [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)으로 이동한 다음, 탐색 창에서 **홈**을 선택합니다.
 
 ## <a name="videos"></a>비디오
 YouTube의 [MS PowerApps](https://www.youtube.com/channel/UCGfWR2ekfRFckLjev6eQYLg) 및 [Microsoft Ignite](https://www.youtube.com/channel/UCrhJmfAGQ5K81XQ8_od1iTg) 채널에서 비디오를 찾을 수 있습니다.
