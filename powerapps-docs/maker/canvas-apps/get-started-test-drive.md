@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 03/19/2018
 ms.author: anneta
-ms.openlocfilehash: fba57fb26b023dcce771951953aea2eafa6b28e9
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 3827255726be017fe594a2c54389df7c622f7307
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39016309"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195246"
 ---
 # <a name="create-an-app-from-a-powerapps-template"></a>PowerApps 템플릿에서 앱 만들기
 예산 추적 및 휴가 일정 예약과 같은 특정 시나리오에 대한 템플릿 기반의 앱을 자동으로 만든 다음, 앱을 실행하여 해당 기본 동작을 이해합니다.
@@ -24,7 +24,7 @@ ms.locfileid: "39016309"
 PowerApps에 대한 라이선스가 없으면 [무료로 등록](../signup-for-powerapps.md)할 수 있습니다.
 
 ## <a name="create-an-app"></a>앱 만들기
-1. [PowerApps](http://web.powerapps.com)에 로그인합니다.
+1. [PowerApps](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
 
     ![PowerApps 홈 페이지](./media/get-started-test-drive/sign-in.png)
 

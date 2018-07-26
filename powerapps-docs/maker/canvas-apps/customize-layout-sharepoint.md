@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 05/06/2018
 ms.author: anneta
-ms.openlocfilehash: bb02f12bf452d1928408ea7c266469b524607b5f
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: fa5aa70beba25130144c5da9dac4fbaa383dfc67
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39016792"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195614"
 ---
 # <a name="tutorial-customize-a-gallery-in-powerapps"></a>자습서: PowerApps에서 갤러리 사용자 지정
 
@@ -39,7 +39,7 @@ ms.locfileid: "39016792"
 
 이 자습서는 특정 데이터 원본에서 생성된 앱으로 시작합니다. 그러나 SharePoint 목록, Excel 테이블 또는 다른 데이터 원본을 기반으로 PowerApps에서 생성하는 모든 앱에는 동일한 개념이 적용됩니다.
 
-PowerApps에 등록하지 않은 경우 시작하기 전에 [체험판으로 등록합니다](https://web.powerapps.com).
+PowerApps에 등록하지 않은 경우 시작하기 전에 [체험판으로 등록합니다](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 
 ## <a name="prerequisites"></a>필수 조건
 
@@ -47,7 +47,7 @@ PowerApps에 등록하지 않은 경우 시작하기 전에 [체험판으로 등
 
 ## <a name="open-the-generated-app"></a>생성된 앱 열기
 
-1. [PowerApps](https://web.powerapps.com)에 로그인한 다음, 왼쪽 가장자리 근처에서 **앱**을 선택합니다.
+1. [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인한 다음, 왼쪽 가장자리 근처에서 **앱**을 선택합니다.
 
     [![PowerApps 홈페이지](./media/customize-layout-sharepoint/sign-in.png)](./media/customize-layout-sharepoint/sign-in.png#lightbox)
 

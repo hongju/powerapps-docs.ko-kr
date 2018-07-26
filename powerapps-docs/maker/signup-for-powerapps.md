@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.date: 03/12/2018
 ms.author: anneta
 ms.reviewer: ''
-ms.openlocfilehash: ddbd2f610ecba6d801efde2a00a9cb492e2382e3
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 62afc8fc0ce754ed797683a61c061db16370f904
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39021553"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195200"
 ---
 # <a name="sign-up-for-a-free-license-to-try-powerapps"></a>PowerApps 체험 라이선스에 등록
 PowerApps에서 앱을 만들려면 서로 다른 수준의 기능을 제공하는 라이선스의 여러 유형 중 하나가 필요합니다. 조직에서 Office 365 또는 Dynamics 365의 여러 버전 중 하나를 구매하였거나 조직에서 PowerApps 요금제 1 또는 요금제 2를 구매한 경우에는 이미 PowerApps에 대한 라이선스가 있습니다.
@@ -75,7 +75,7 @@ PowerApps에서 조직을 인식하는 경우 해당 조직에 대한 자격 증
 
 이메일 메시지에서 이메일 주소를 확인하기 위한 링크를 선택하고 (메시지가 표시되는 경우) 자세한 정보를 제공합니다.
 
-이 대화 상자가 나타나면 **시작**을 선택한 다음, [PowerApps](http://web.powerapps.com) 사용을 시작하세요!
+이 대화 상자가 나타나면 **시작**을 선택한 다음, [PowerApps](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 사용을 시작하세요!
 
 ![시작 클릭](./media/signup-for-powerapps/almost-there.png)
 
@@ -119,7 +119,7 @@ PowerApps에서 조직을 인식하는 경우 해당 조직에 대한 자격 증
 * [PowerApps 사이트](http://powerapps.microsoft.com/) 또는 [가격 책정 페이지](http://powerapps.microsoft.com/pricing)에서 등록한 평가판을 통해서만 PowerApps에 액세스한 경우 평가판 라이선스를 30일 더 연장하도록 요청하여 PowerApps에 대한 액세스를 유지할 수 있습니다.
 
 ### <a name="when-will-my-trial-license-expire"></a>내 평가판 라이선스는 언제 만료되나요?
-평가판 라이선스가 만료되는 시기를 확인하려면 [PowerApps 사이트](http://web.powerapps.com)의 오른쪽 위 모서리 근처에 있는 기어 아이콘을 선택한 다음, **요금제**를 선택합니다.
+평가판 라이선스가 만료되는 시기를 확인하려면 [PowerApps 사이트](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)의 오른쪽 위 모서리 근처에 있는 기어 아이콘을 선택한 다음, **요금제**를 선택합니다.
 
 ![](./media/signup-for-powerapps/show-duration.png)
 

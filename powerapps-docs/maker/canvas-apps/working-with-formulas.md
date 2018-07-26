@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 04/26/2016
 ms.author: gregli
-ms.openlocfilehash: b40abdc4c8d5d8a33a9aec32a1826476500405c8
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 7f9a724b61404ac0947a9c75f91396b35328086b
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39017873"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195269"
 ---
 # <a name="get-started-with-formulas"></a>수식 시작
 Excel에서 작업하는 것처럼 값을 계산하고 다른 작업을 수행하는 것 외에도 앱에서 요구하는 사용자의 입력 값에 응답하는 등 수식을 사용하여 앱을 구성할 수 있습니다.
@@ -30,7 +30,7 @@ Excel에서 작업하는 것처럼 값을 계산하고 다른 작업을 수행�
 
 ## <a name="prerequisites"></a>필수 조건
 
-* PowerApps에 [등록](../signup-for-powerapps.md)한 다음, 등록에 사용한 동일한 자격 증명을 입력하여 [로그인](https://web.powerapps.com)합니다.
+* PowerApps에 [등록](../signup-for-powerapps.md)한 다음, 등록에 사용한 동일한 자격 증명을 입력하여 [로그인](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)합니다.
 * PowerApps에서 [컨트롤 구성](add-configure-controls.md)을 어떻게 하는지 알아봅니다.
 
 ## <a name="show-a-simple-value"></a>간단한 값 표시

@@ -9,15 +9,15 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 10/28/2016
 ms.author: litran
-ms.openlocfilehash: 400df9944b21788e08b0a55e3e0a148f2eccb972
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 9c1b6bde62f0260dca7eba1d723049aadc3e72c9
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39017344"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195338"
 ---
 # <a name="introduction-to-powerappscom"></a>powerapps.com 소개
-PowerApps 팀은 [powerapps.com](http://web.powerapps.com)을 앱 제작자를 위한 새 홈으로 다시 도입하고 있습니다. 제작자가 쉽게 앱 제작을 시작하고 Microsoft Common Data Service를 사용하며 하나의 위치에서 앱을 모두 관리할 수 있도록 이 페이지를 기본 사이트로 다시 설계했습니다. 이 문서에서는 다음 사항을 안내하려고 합니다.
+PowerApps 팀은 [powerapps.com](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)을 앱 제작자를 위한 새 홈으로 다시 도입하고 있습니다. 제작자가 쉽게 앱 제작을 시작하고 Microsoft Common Data Service를 사용하며 하나의 위치에서 앱을 모두 관리할 수 있도록 이 페이지를 기본 사이트로 다시 설계했습니다. 이 문서에서는 다음 사항을 안내하려고 합니다.
 
 * 헤더
 * 홈 페이지
@@ -45,7 +45,7 @@ PowerApps 팀은 [powerapps.com](http://web.powerapps.com)을 앱 제작자를 �
 ![헤더 도움말](./media/intro-maker-portal/help_items2.png)
 
 ## <a name="homepage"></a>홈 페이지
-[powerapps.com](http://web.powerapps.com)에 로그인하면 기본적으로 홈 페이지가 표시됩니다. 앱을 제작하고 있거나, Common Data Service를 둘러보고 있던지 사용자가 신속하게 시작할 수 있도록 이 홈 페이지의 레이아웃을 변경했습니다.
+[powerapps.com](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인하면 기본적으로 홈 페이지가 표시됩니다. 앱을 제작하고 있거나, Common Data Service를 둘러보고 있던지 사용자가 신속하게 시작할 수 있도록 이 홈 페이지의 레이아웃을 변경했습니다.
 
 이전에 PowerApps에 로그인해서 일부 앱을 실행했거나 제작한 경우 홈 페이지에 보이는 첫 번째 섹션은 **최근 앱** 목록입니다. 가장 최근에 열린 날짜를 기준으로 정렬됩니다.
 
@@ -96,7 +96,7 @@ PowerApps 팀은 [powerapps.com](http://web.powerapps.com)을 앱 제작자를 �
     ![연결된 샘플 앱](./media/intro-maker-portal/connectedsampleapps2.png)
 
 ## <a name="new-apps-page"></a>새 앱 페이지
-[powerapps.com](http://web.powerapps.com)의 왼쪽 탐색 표시줄을 통해 **앱** 페이지에 액세스할 수 있습니다.
+[powerapps.com](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)의 왼쪽 탐색 표시줄을 통해 **앱** 페이지에 액세스할 수 있습니다.
 
 ![왼쪽 탐색](./media/intro-maker-portal/leftnav2.png)
 

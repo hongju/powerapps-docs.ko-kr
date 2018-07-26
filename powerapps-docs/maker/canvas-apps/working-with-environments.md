@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 10/14/2016
 ms.author: litran
-ms.openlocfilehash: 04ed5dfb76cb26f629f36514a05eda9690669926
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 865e5f419d5ff318ce232fff16b9240039129a29
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39020633"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39194993"
 ---
 # <a name="working-with-environments-and-microsoft-powerapps"></a>환경 및 Microsoft PowerApps 관련 작업하기
 PowerApps를 통해 다양한 환경에서 작업하고 환경을 쉽게 전환할 수 있습니다. 환경 개요에 대한 내용은 환경을 사용하는 이유와 환경을 만들고 관리하는 방법이 자세히 설명된 [환경 개요](../../administrator/environments-overview.md)를 참조하세요. 이 문서의 범위에서는 환경에 대해 다음 토픽을 다룹니다.
@@ -39,7 +39,7 @@ PowerApps를 통해 다양한 환경에서 작업하고 환경을 쉽게 전환�
 
 오른쪽 환경에서 앱을 만들려면 다음 중 하나를 수행합니다.
 
-- PowerApps Studio가 열리지 않은 경우 [로그인](http://web.powerapps.com)하고 앱을 만들려는 환경을 선택하고 왼쪽 가장자리 근처의 **앱**을 선택한 다음, **앱 만들기**를 선택합니다.
+- PowerApps Studio가 열리지 않은 경우 [로그인](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)하고 앱을 만들려는 환경을 선택하고 왼쪽 가장자리 근처의 **앱**을 선택한 다음, **앱 만들기**를 선택합니다.
 
 - PowerApps Studio를 열 때 오른쪽 위 모서리에서 환경을 다시 선택합니다.
 
@@ -54,6 +54,6 @@ PowerApps를 통해 다양한 환경에서 작업하고 환경을 쉽게 전환�
     ![Studio 환경 전환](./media/working-with-environments/new-app.PNG)
 
 ## <a name="view-apps-in-the-right-environment"></a>적합한 환경에서 앱 보기
-[powerapps.com](http://web.powerapps.com) 또는 PowerApps Studio에서 작업 중인지와 관계없이 보이는 앱 목록, 연결 등은 항상 드롭다운 목록에서 선택된 환경에 따라 필터링됩니다. 찾고자 하는 앱이 보이지 않으면 항상 적합한 환경이 선택되어 있는지 확인하세요.
+[powerapps.com](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 또는 PowerApps Studio에서 작업 중인지와 관계없이 보이는 앱 목록, 연결 등은 항상 드롭다운 목록에서 선택된 환경에 따라 필터링됩니다. 찾고자 하는 앱이 보이지 않으면 항상 적합한 환경이 선택되어 있는지 확인하세요.
 
 환경에 대한 자세한 내용은 [이 개요](../../administrator/environments-overview.md)를 참조하세요.

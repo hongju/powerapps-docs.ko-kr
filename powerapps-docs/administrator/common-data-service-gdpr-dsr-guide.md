@@ -9,12 +9,12 @@ ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: jamesol
-ms.openlocfilehash: 2a393bb2ebedde2a08f1ed1534d815e64325077b
-ms.sourcegitcommit: b9fa569153924af9815db45d52c04e764ddb7fa2
+ms.openlocfilehash: b550d5fe7e36c36177fff017adcf9d9034c93dd4
+ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "39094751"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "39218053"
 ---
 # <a name="responding-to-data-subject-rights-dsr-requests-for-common-data-service-for-apps-customer-data"></a>앱용 Common Data Service 고객 데이터에 대한 DSR(Data Subject Rights) 요청에 응답
 
@@ -52,7 +52,7 @@ EU(유럽 연합) GDPR(일반 데이터 보호 규정)은 사람들(규정에서
 
 앱용 CDS 및 이전 버전의 CDS(Common Data Service)에는 개인 데이터를 조작하기 위한 개별 프로세스가 포함됩니다.
 
-[PowerApps](https://web.powerapps.com)에 로그인하고 다음 단계에 따라 CDS 환경 유형을 확인할 수 있습니다.
+[PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인하고 다음 단계에 따라 CDS 환경 유형을 확인할 수 있습니다.
 
 1. **환경** 드롭다운 목록에서 환경을 선택합니다.
 2. 탐색 창에서 **데이터**를 클릭하거나 탭한 다음, **엔터티**를 클릭하거나 탭합니다.
@@ -308,7 +308,7 @@ CDS 시스템 관리자가 개인으로부터 DSR 요청을 받으면 해당 관
 
 |리소스 | 용도 | 웹 사이트 액세스 |  프로그래밍 방식 액세스
 | --- | --- | --- | ---
-|엔터티 레코드 | 각 비즈니스 엔터티에서 비즈니스 트랜잭션을 캡처합니다. | [PowerApps](https://web.powerapps.com) |      아니요
+|엔터티 레코드 | 각 비즈니스 엔터티에서 비즈니스 트랜잭션을 캡처합니다. | [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) |    아니요
 
 #### <a name="entity-records"></a>엔터티 레코드
 개인의 개인 데이터는 비즈니스 엔터티에 저장할 수 있습니다.

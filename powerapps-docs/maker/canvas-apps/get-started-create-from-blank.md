@@ -8,12 +8,12 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 04/23/2018
 ms.author: anneta
-ms.openlocfilehash: 267480158d7e44afd06962779b98c0468436841a
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 330751210322190fddefb6c399025578bb9878b5
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39022611"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195292"
 ---
 # <a name="create-an-excel-app-from-scratch"></a>처음부터 Excel 앱 만들기
 표 형식의 Excel 데이터를 기반으로 처음부터 고유한 앱을 만들고 나서 원하는 경우 다른 원본의 데이터를 추가합니다. 이 자습서를 따라 두 화면을 포함하는 앱을 만듭니다. 한 화면에서 사용자는 일련의 레코드를 찾아볼 수 있습니다. 다른 화면에서 사용자는 한 레코드를 만들거나, 한 레코드에서 하나 이상의 필드를 업데이트하거나, 전체 레코드를 삭제할 수 있습니다. 이 접근 방식은 [앱을 자동으로 생성](get-started-create-from-data.md)하는 것보다 시간이 더 걸리지만 숙련된 앱 제작자는 이 방법으로 요구 사항에 맞는 최고의 앱을 빌드할 수 있습니다.
@@ -42,7 +42,7 @@ ms.locfileid: "39022611"
 > 사용자의 Excel 파일을 사용할 수 있으며 일반 개념에 대해서만 이 자습서를 검토할 수 있습니다. 그러나 Excel 파일의 데이터는 테이블로 형식이 지정돼야 합니다. 자세한 내용은 [Excel에서 테이블 형식 지정](how-to-excel-tips.md)을 참조합니다.
 
 ## <a name="open-a-blank-app"></a>비어 있는 앱 열기
-1. [PowerApps](http://web.powerapps.com)에 로그인합니다.
+1. [PowerApps](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
 
     ![PowerApps 홈페이지](./media/get-started-create-from-blank/sign-in.png)
 

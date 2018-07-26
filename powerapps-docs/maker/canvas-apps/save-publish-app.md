@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 09/14/2017
 ms.author: anneta
-ms.openlocfilehash: a605467b1d7448e3f53cccd49d025cdaca3f8f25
-ms.sourcegitcommit: 0d69781f6f9362ffd4bb0b61aab14371968fbb46
+ms.openlocfilehash: faaf3ef6eefc41ad5b1d7cb2e6e34db57632cfaf
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2018
-ms.locfileid: "39119454"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39194809"
 ---
 # <a name="save-and-publish-an-app-in-powerapps"></a>PowerApps에서 앱 저장 및 게시
 앱에 대한 변경 내용을 저장할 때마다 앱을 편집하는 사용 권한이 있는 자신 및 다른 모든 사용자에 대해서만 자동으로 게시합니다. 변경이 끝나면 앱이 공유된 모든 사용자가 사용할 수 있도록 명시적으로 게시해야 합니다.
@@ -47,7 +47,7 @@ PowerApps는 정기적으로 2분마다 앱을 저장할 수 있습니다. 앱�
    > 캔버스 앱을 게시할 때마다 앱은 최신 버전의 PowerApps에서 실행하도록 업그레이드됩니다. 즉, 사용자가 마지막으로 게시한 이후로 추가된 모든 최신 기능 및 성능 업그레이드의 이점을 누리게 된다는 것을 의미합니다. 몇 개월 내에 업데이트를 게시하지 않은 경우 지금 다시 게시하면 즉각적인 성능 이점을 볼 수 있게 됩니다.
 
 ## <a name="identify-the-live-version"></a>라이브 버전 확인
-[powerapps.com](https://web.powerapps.com)의 (왼쪽 모서리에 있는) **파일** 메뉴에서 **앱**을 클릭하거나 누르고, 앱에 대한 세부 정보 아이콘을 클릭하거나 누른 다음, **버전** 탭을 클릭하거나 누릅니다.
+[powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)의 (왼쪽 모서리에 있는) **파일** 메뉴에서 **앱**을 클릭하거나 누르고, 앱에 대한 세부 정보 아이콘을 클릭하거나 누른 다음, **버전** 탭을 클릭하거나 누릅니다.
 
 **라이브** 버전은 앱을 공유하는 모든 사용자에게 게시됩니다. 앱의 최신 버전은 편집 사용 권한이 있는 사용자에게만 제공됩니다.
 

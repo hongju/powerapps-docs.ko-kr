@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 07/12/2017
 ms.author: ankitsar
-ms.openlocfilehash: d74fdd20db63f6d617db48e09319a84775553f9f
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 8019068155c88465f0f4202807fe763f2e4787b6
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39017137"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195522"
 ---
 # <a name="connect-to-sharepoint-from-powerapps"></a>PowerApps에서 SharePoint 연결
 ![SharePoint](./media/connection-sharepoint-online/sharepointicon.png)
@@ -49,7 +49,7 @@ SharePoint 사이트에 연결하여 목록에서 앱을 자동으로 만들고 
 ## <a name="prerequisites"></a>필수 조건
 1. PowerApps에 [등록](../../signup-for-powerapps.md)합니다.
 
-1. 등록 시 사용한 동일한 자격 증명을 제공하여 PowerApps에 [로그인](http://web.powerapps.com)합니다.
+1. 등록 시 사용한 동일한 자격 증명을 제공하여 PowerApps에 [로그인](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)합니다.
 
 1. 왼쪽 가장자리 부근에서 **앱**을 선택한 다음, 배너에서 **앱 만들기**를 선택합니다.
 

@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.date: 05/01/2016
 ms.author: anneta
 ms.reviewer: ''
-ms.openlocfilehash: 533234c7a0ca3cc69e30eb077ff0bd39d1d50a11
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: a187e50bd4d1819d1579c6db219588e3582f5c25
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39017091"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195683"
 ---
 # <a name="powerapps-community-plan-a-free-development-environment-for-individual-use"></a>PowerApps 커뮤니티 플랜: 개인 사용을 위한 무료 개발 환경
 PowerApps 커뮤니티 플랜은 PowerApps, Microsoft Flow 및 Common Data Service에 대한 기술을 구축하고 자세한 내용을 알아보기에 가장 적합한 플랜입니다. PowerApps 커뮤니티 플랜에는 개인 사용을 위한 무료 개발 환경이 제공되며, 다음과 같은 작업이 가능합니다.
@@ -33,7 +33,7 @@ PowerApps 커뮤니티 플랜은 PowerApps, Microsoft Flow 및 Common Data Servi
 ## <a name="where-can-i-sign-up-for-the-powerapps-community-plan"></a>어디서 PowerApps 커뮤니티 플랜에 등록할 수 있나요?
 [PowerApps 커뮤니티 플랜 웹 사이트](https://powerapps.microsoft.com/communityplan)에서 등록하세요. Office 365 또는 Dynamics 365를 사용하는 PowerApps의 기존 사용자도 [개인 용도로 사용할 환경을 만들 수](https://web.powerapps.com/community/signup) 있습니다.
 
-커뮤니티 플랜에 등록한 후에는 [PowerApps 사이트](https://web.powerapps.com)로 리디렉션되고 개인 환경을 갖게 됩니다. 사용자의 이름으로 환경 이름이 지정됩니다(예: 'John Doe의 환경'). 이름이 같은 환경이 있는 경우, 개인 환경의 이름은 'John Doe(1)의 환경'이 됩니다.  다음 이미지에서 환경이 어떻게 나타나는지 볼 수 있습니다.
+커뮤니티 플랜에 등록한 후에는 [PowerApps 사이트](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)로 리디렉션되고 개인 환경을 갖게 됩니다. 사용자의 이름으로 환경 이름이 지정됩니다(예: 'John Doe의 환경'). 이름이 같은 환경이 있는 경우, 개인 환경의 이름은 'John Doe(1)의 환경'이 됩니다.  다음 이미지에서 환경이 어떻게 나타나는지 볼 수 있습니다.
 
 ![커뮤니티 플랜의 개인 환경](./media/dev-community-plan/individual-environment.png)
 

@@ -9,18 +9,18 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 10/16/2016
 ms.author: jamesol
-ms.openlocfilehash: df7c43a0044ac7b56666f06eb3ebf773dcb16b67
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: c8d5d5f5fbb9453ad9afeffda8383be0dae4eebc
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39023623"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39194952"
 ---
 # <a name="delete-an-app-from-powerapps"></a>PowerApps에서 앱 삭제
 이 문서에서는 PowerApps 계정 및 앱을 공유하는 사람의 계정에서 앱을 삭제하는 방법을 보여 줍니다.
 
 ## <a name="delete-an-app-from-your-account"></a>사용자 계정에서 앱 삭제
-1. [powerapps.com](https://web.powerapps.com)을 연 다음, 왼쪽 탐색 표시줄에서 **앱**을 클릭하거나 누릅니다.
+1. [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)을 연 다음, 왼쪽 탐색 표시줄에서 **앱**을 클릭하거나 누릅니다.
    
     ![](./media/delete-app/file-apps.png)
 2. (선택 사항) 왼쪽 위 모서리 근처에서 앱 목록을 필터링하여 사용자가 소유한 앱 또는 사용자가 참여한 앱만 표시합니다.

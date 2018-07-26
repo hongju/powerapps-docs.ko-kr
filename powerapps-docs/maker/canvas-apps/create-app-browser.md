@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 03/08/2018
 ms.author: anneta
-ms.openlocfilehash: 796d23be4c8b69a6f901b4338bda0000f8afb452
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 25a06525fba038dda2deebb333f53583301540f7
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39023094"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195161"
 ---
 # <a name="create-or-edit-apps-in-powerapps-studio-for-web"></a>웹용 PowerApps Studio에서 앱 만들기 또는 편집
 웹용 PowerApps Studio에서 앱을 만들고 편집하면 Windows 또는 기타 플랫폼의 브라우저 창에서 열립니다.
@@ -34,7 +34,7 @@ ms.locfileid: "39023094"
 ## <a name="known-limitations"></a>알려진 제한 사항
 1. **연결을 만듭니다.**
 
-    서비스 인증이 필요한 데이터 원본에 대한 [연결을 만들려면](add-manage-connections.md) [powerapps.com](https://web.powerapps.com)을 사용한 후 웹용 PowerApps Studio에서 앱에 대한 [연결을 추가](add-data-connection.md)합니다.
+    서비스 인증이 필요한 데이터 원본에 대한 [연결을 만들려면](add-manage-connections.md) [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)을 사용한 후 웹용 PowerApps Studio에서 앱에 대한 [연결을 추가](add-data-connection.md)합니다.
 2. **로컬에서 앱을 편집하고 저장합니다**.
 
     최상의 결과를 위해 Windows용 PowerApps Studio를 사용하여 로컬에서 앱을 편집하고 저장합니다. 브라우저에서는 로컬 앱에 변경 내용을 저장할 수 없으며 연 파일을 대체하는 대신 새 파일을 저장해야 합니다.

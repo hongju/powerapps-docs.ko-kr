@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 07/11/2018
 ms.author: anneta
-ms.openlocfilehash: 197eb5223c0945a7cb80d8b187aaf44c871e798c
-ms.sourcegitcommit: 79a58f1b6880cbc512b64cde71a4d532cebe5bed
+ms.openlocfilehash: 9c4bdc6e56f84b6724fcbe44cfe1f3e4c065edb3
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2018
-ms.locfileid: "39137025"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195315"
 ---
 # <a name="share-an-app-in-powerapps"></a>PowerApps에서 앱 공유
 
@@ -33,7 +33,7 @@ ms.locfileid: "39137025"
 
 ## <a name="share-an-app"></a>앱 공유
 
-1. [PowerApps](https://web.powerapps.com)에 로그인한 다음, 왼쪽 가장자리 근처에서 **앱**을 선택합니다.
+1. [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인한 다음, 왼쪽 가장자리 근처에서 **앱**을 선택합니다.
 
     ![앱 목록 표시](./media/share-app/file-apps.png)
 
@@ -59,7 +59,7 @@ ms.locfileid: "39137025"
 
     사용자에게 앱을 수정할 수 있는 사용 권한을 부여한 경우 PowerApps Studio에서 편집할 수 있도록 앱을 열 수 있는 별도의 링크도 포함됩니다.
 
-    초대를 보낼지 여부와 상관 없이 사용자는 [Dynamics 365](http://home.dynamics.com)의 AppSource에서 앱을 실행할 수 있습니다. **편집 가능** 사용 권한이 있는 사용자는 [PowerApps](http://web.powerapps.com) 내에서도 앱을 편집할 수 있습니다.
+    초대를 보낼지 여부와 상관 없이 사용자는 [Dynamics 365](http://home.dynamics.com)의 AppSource에서 앱을 실행할 수 있습니다. **편집 가능** 사용 권한이 있는 사용자는 [PowerApps](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 내에서도 앱을 편집할 수 있습니다.
 
 1. 각 사용자 또는 보안 그룹에 대한 사용 권한을 지정한 다음, **저장**을 선택합니다.
 
@@ -85,7 +85,7 @@ ms.locfileid: "39137025"
 
 #### <a name="create-a-security-role"></a>보안 역할 만들기
 
-1. [PowerApps에 로그인](https://web.powerapps.com)하고 공유하려는 앱과 같은 환경에 있는지 확인합니다.
+1. [PowerApps에 로그인](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)하고 공유하려는 앱과 같은 환경에 있는지 확인합니다.
 
 1. 오른쪽 위 모서리에 있는 기어 아이콘을 클릭하고 **고급 사용자 지정**을 선택합니다.
 

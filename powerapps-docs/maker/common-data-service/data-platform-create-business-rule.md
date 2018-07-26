@@ -8,12 +8,12 @@ ms.component: cds
 ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: clwesene
-ms.openlocfilehash: 13e00081ce01b44feeea6fc1d6fff9556c020298
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 5cf2a312ddba83312805f6b3b517738f1bc1da78
+ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34168277"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "39218030"
 ---
 # <a name="create-a-business-rule"></a>비즈니스 규칙 만들기
 
@@ -42,7 +42,7 @@ ms.locfileid: "34168277"
 
 ## <a name="create-a-business-rule"></a>비즈니스 규칙 만들기
   
-1. [PowerApps](https://web.powerapps.com)에 로그인한 다음, 왼쪽 가장자리 근처 **데이터**에서 아래쪽 화살표를 클릭하거나 누릅니다.
+1. [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인한 다음, 왼쪽 가장자리 근처 **데이터**에서 아래쪽 화살표를 클릭하거나 누릅니다.
 
 2. 표시되는 목록에서 **엔터티**를 클릭하거나 누릅니다.
   

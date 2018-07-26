@@ -9,18 +9,18 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 05/19/2017
 ms.author: sharik
-ms.openlocfilehash: b1e9f514973313a1028aa3b1958bf8e01ff2c167
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: b5678437ea1e604ce2932307d897f280f4633fc0
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39023784"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39194950"
 ---
 # <a name="edit-an-app-in-powerapps"></a>PowerApps에서 앱 편집
 빌드하거나 소유하거나 **편집할 수 있는** 사용 권한이 있는 앱을 편집합니다. PowerApps Studio에서 앱을 편집할 수 있습니다. 다른 위치에서 편집을 위해 열려 있는 앱을 편집하려고 하면 이미 열려 있거나 다른 사용자가 사용 중인지 여부를 알리는 메시지가 표시됩니다.
 
 ## <a name="verify-your-permissions"></a>사용 권한 확인
-1. [PowerApps](https://web.powerapps.com)에 로그인한 다음, **파일** 메뉴(왼쪽 모서리)에서 **앱**을 클릭하거나 탭합니다.
+1. [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인한 다음, **파일** 메뉴(왼쪽 모서리)에서 **앱**을 클릭하거나 탭합니다.
    
     ![파일 메뉴의 앱 옵션](./media/edit-app/file-apps.png)
 

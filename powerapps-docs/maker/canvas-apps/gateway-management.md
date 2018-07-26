@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 10/30/2016
 ms.author: archanan
-ms.openlocfilehash: e7dc9a2386d75a6f03744286b7ed265a8d385370
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: fb561ca5458a22880d93c712aa2e2b2ada884605
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39018540"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39194885"
 ---
 # <a name="manage-an-on-premises-data-gateway-in-powerapps"></a>PowerApps의 온-프레미스 데이터 게이트웨이를 관리합니다.
 빠르고 안전하게 PowerApps 및 온-프레미스 SQL Server 데이터베이스 또는 온-프레미스 SharePoint 사이트와 같은 클라우드에 없는 데이터 원본 간에 데이터를 전송하는 온-프레미스 데이터 게이트웨이를 설치합니다. 관리 권한이 있는 모든 게이트웨이를 보고 해당 게이트웨이에 대한 권한과 연결을 관리합니다.
@@ -35,7 +35,7 @@ ms.locfileid: "39018540"
 * 게이트웨이 및 온-프레미스 연결은 사용자의 [기본 환경](working-with-environments.md)에서만 생성하고 사용할 수 있습니다.
 
 ## <a name="install-a-gateway"></a>게이트웨이 설치
-1. [Powerapps.com](https://web.powerapps.com)의 왼쪽 탐색 창에서, **게이트웨이**를 클릭하거나 탭합니다.
+1. [Powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)의 왼쪽 탐색 창에서, **게이트웨이**를 클릭하거나 탭합니다.
 
     ![왼쪽 탐색 창의 게이트웨이](./media/gateway-management/manage-gateway.png)
 
@@ -46,7 +46,7 @@ ms.locfileid: "39018540"
     게이트웨이 설치 방법에 대한 자세한 내용은 [온-프레미스 데이터 게이트웨이 이해](gateway-reference.md)를 참조하세요.
 
 ## <a name="view-and-manage-gateway-permissions"></a>게이트웨이 권한 보기 및 관리
-1. [Powerapps.com](https://web.powerapps.com)의 왼쪽 탐색 창에서, **게이트웨이**를 클릭하거나 탭한 후, 게이트웨이를 클릭하거나 탭합니다.
+1. [Powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)의 왼쪽 탐색 창에서, **게이트웨이**를 클릭하거나 탭한 후, 게이트웨이를 클릭하거나 탭합니다.
 
 2. **사용자**를 클릭하거나 탭하고, 사용자나 그룹을 지정한 후 권한 수준을 지정하여 게이트웨이에 사용자를 추가합니다.
 
@@ -57,7 +57,7 @@ ms.locfileid: "39018540"
 **사용 가능** 및 **사용 가능 + 공유** 권한 수준의 경우 사용자가 게이트웨이를 통해 연결할 수 있는 데이터 원본을 선택합니다.
 
 ## <a name="view-and-manage-gateway-connections"></a>게이트웨이 연결 보기 및 관리
-1. [Powerapps.com](https://web.powerapps.com)의 왼쪽 탐색 창에서, **게이트웨이**를 클릭하거나 탭한 후, 게이트웨이를 클릭하거나 탭합니다.
+1. [Powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)의 왼쪽 탐색 창에서, **게이트웨이**를 클릭하거나 탭한 후, 게이트웨이를 클릭하거나 탭합니다.
 
 2. **연결**을 클릭하거나 탭한 다음, 연결을 클릭하거나 탭하여 해당 세부 정보를 보거나 설정을 편집 또는 삭제합니다.
 

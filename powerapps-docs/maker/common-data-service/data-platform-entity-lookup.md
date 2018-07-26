@@ -8,12 +8,12 @@ ms.component: cds
 ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: clwesene
-ms.openlocfilehash: f1952c2349eb54f2c6348f5abc4dee9a4645348a
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 8562219c373a8880f7cc89f791b6c6373b6df0b3
+ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34168438"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "39217938"
 ---
 # <a name="create-a-relationship-between-entities"></a>엔터티 간 관계 만들기
 한 엔터티의 데이터는 다른 엔터티의 데이터와 자주 관련됩니다. 예를 들어, **Teachers** 엔터티 및 **Class** 엔터티가 있을 수 있으며, **Class** 엔터티에는 클래스를 가르치는 교사를 표시하는 **Teachers** 엔터티에 대한 조회 관계가 있을 수 있습니다. 조회 필드를 사용하여 **Teachers** 엔터티의 데이터를 표시할 수 있습니다. 이는 일반적으로 조회 필드라고 합니다.
@@ -29,7 +29,7 @@ ms.locfileid: "34168438"
 
 엔터티를 조회 관계를 추가하려면 **관계** 탭 아래에서 관계를 만들고 관계를 만들려는 엔터티를 지정합니다.
 
-1. [powerapps.com](https://web.powerapps.com)에서 **데이터** 섹션을 확장하고 왼쪽 탐색 창에서 **엔터티**를 클릭하거나 탭합니다.
+1. [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 **데이터** 섹션을 확장하고 왼쪽 탐색 창에서 **엔터티**를 클릭하거나 탭합니다.
 
     ![엔터티 세부 정보](./media/data-platform-cds-create-entity/entitylist.png "엔터티 목록")
 
@@ -53,7 +53,7 @@ ms.locfileid: "34168438"
 
 일 대 다 관계를 추가하려면 **관계** 탭 아래에서 관계를 만들고 관계를 만들려는 엔터티를 지정합니다.
 
-1. [powerapps.com](https://web.powerapps.com)에서 **데이터** 섹션을 확장하고 왼쪽 탐색 창에서 **엔터티**를 클릭하거나 탭합니다.
+1. [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 **데이터** 섹션을 확장하고 왼쪽 탐색 창에서 **엔터티**를 클릭하거나 탭합니다.
 
     ![엔터티 세부 정보](./media/data-platform-cds-create-entity/entitylist.png "엔터티 목록")
 

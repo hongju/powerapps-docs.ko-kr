@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 09/03/2016
 ms.author: anneta
-ms.openlocfilehash: 1b9ff639e053218c74515be574f92146fc8ced36
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 0e0b98277548d188071bcd29b9e3168de5818321
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39020518"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195867"
 ---
 # <a name="create-a-connection-to-sharepoint-from-powerapps"></a>PowerApps에서 SharePoint에 대한 연결 만들기
 SharePoint Online 또는 온-프레미스 SharePoint 중 하나에 대한 연결을 만들면 앱을 자동으로 생성하거나 처음부터 새로 빌드할 수 있습니다.
@@ -26,7 +26,7 @@ PowerApps에 대해 잘 모르는 경우 [PowerApps 소개](getting-started.md)�
 ## <a name="specify-a-sharepoint-connection"></a>SharePoint 연결 지정
 1. 아직 등록하지 않은 경우 [PowerApps에 등록](../signup-for-powerapps.md)합니다.
 
-2. 등록 시 사용한 동일한 자격 증명을 사용하여 [powerapps.com](https://web.powerapps.com)에 로그인합니다.
+2. 등록 시 사용한 동일한 자격 증명을 사용하여 [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
 
 3. 왼쪽 탐색 모음에서 **관리**를 클릭하거나 탭한 다음 **연결**을 클릭하거나 탭합니다.
 

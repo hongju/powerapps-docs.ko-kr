@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 03/18/2018
 ms.author: anneta
-ms.openlocfilehash: 56a46493ef15eff7d65d19f12affb2a58dbba0b6
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 68b02c1dd2b6c22f5b1ec049f753a175ad8c09db
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39023439"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195063"
 ---
 # <a name="customize-a-card-in-powerapps"></a>PowerApps에서 카드 사용자 지정
 해당 컨트롤을 변경하는 등의 방법으로 (카드를 잠금 해제하지 않고) 기본 사용자 지정 을 수행합니다. 기본값으로 가능하지 않은 컨트롤을 추가하는 등의 방법으로 카드를 잠금 해제하여 고급 사용자 지정을 수행합니다.
@@ -33,7 +33,7 @@ ms.locfileid: "39023439"
 ## <a name="customize-a-locked-card"></a>잠긴 카드 사용자 지정
 이 절차에서는 카드를 잠금 해제하지 않고 **[텍스트 입력](controls/control-text-input.md)** 컨트롤을 **[슬라이더](controls/control-slider.md)** 컨트롤로 바꿉니다.
 
-1. [PowerApps](http://web.powerapps.com)에 로그인합니다.
+1. [PowerApps](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
 
     ![PowerApps 홈 페이지](./media/customize-card/sign-in.png)
 

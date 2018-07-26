@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 06/05/2017
 ms.author: sharik
-ms.openlocfilehash: c395a548d0a920a21e8d4128f75a3b01deb9de3a
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 9d681cc889a3f39fb0785ab0cba86e37ebe185b3
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39019368"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195890"
 ---
 # <a name="start-a-flow-in-an-app"></a>앱에서 흐름 시작
 Microsoft Flow를 사용하여 앱에서 이벤트가 발생할 때 하나 이상의 작업을 수행하는 논리를 만들 수 있습니다. 예를 들어 사용자가 단추를 선택하면 SharePoint 목록에 항목을 만들거나, 전자 메일 또는 모임 요청을 보내거나, 클라우드에 파일을 추가하거나, 이러한 모든 작업을 추가하도록 해당 단추를 구성합니다. 흐름을 시작하도록 앱에서 모든 컨트롤을 구성하여 PowerApps를 닫은 경우에도 계속 실행되도록 할 수 있습니다.
@@ -25,7 +25,7 @@ Microsoft Flow를 사용하여 앱에서 이벤트가 발생할 때 하나 이�
 * [컨트롤을 구성](add-configure-controls.md)하는 방법을 알아봅니다.
 
 ## <a name="create-a-flow"></a>흐름 만들기
-1. [powerapps.com](http://web.powerapps.com)에 로그인한 다음 왼쪽 탐색 모음에서 **흐름**을 선택합니다.
+1. [powerapps.com](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인한 다음 왼쪽 탐색 모음에서 **흐름**을 선택합니다.
 
 2. **내 흐름** 페이지에서 **빈 페이지에서 만들기**를 선택합니다.
 

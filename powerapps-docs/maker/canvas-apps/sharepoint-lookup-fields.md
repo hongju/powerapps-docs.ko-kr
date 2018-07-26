@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 01/20/2017
 ms.author: sharik
-ms.openlocfilehash: 58097eec0bc483d8c38bf354513b70573e43049d
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 342fcc36fb8dba9cfaa42c94089329ad19501af8
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39023531"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39194946"
 ---
 # <a name="how-to-link-sharepoint-lists-using-lookup-fields"></a>조회 필드를 사용하여 SharePoint 목록을 연결하는 방법
 이 자습서에서는 조회 필드와 두 개의 SharePoint 목록 연결할 수 있는 방법을 보여줍니다.
@@ -89,7 +89,7 @@ SharePoint에서는 두 가지 형식의 조회 필드를 제공합니다.
 ## <a name="create-an-app-from-the-assets-list"></a>자산 목록에서 앱 만들기
 이 앱을 사용하여 **자산** 목록에 데이터를 추가합니다.
 
-1. [PowerApps Studio에 로그인합니다](http://web.powerapps.com). PowerApps을 처음 접하는 경우 조직 이메일 주소를 사용하여 [체험 등록](https://powerapps.microsoft.com)합니다.
+1. [PowerApps Studio에 로그인합니다](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc). PowerApps을 처음 접하는 경우 조직 이메일 주소를 사용하여 [체험 등록](https://powerapps.microsoft.com)합니다.
 
 2. **파일** 메뉴(왼쪽 모서리를 따라)에서 **새로 만들기**를 클릭하거나 누른 다음 **SharePoint**를 클릭하거나 누릅니다.
 

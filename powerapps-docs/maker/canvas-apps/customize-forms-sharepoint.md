@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 03/17/2018
 ms.author: anneta
-ms.openlocfilehash: 842e19360c5f1536489f978cf880d941a6dee7d6
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: aefe350c2294f9d8cbae32eee1db1f600c8a65da
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39019989"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195108"
 ---
 # <a name="customize-forms-in-powerapps"></a>PowerApps 양식 사용자 지정
 **표시 양식** 컨트롤과 **편집 양식** 컨트롤을 사용자 지정하여 사용자가 데이터를 쉽게 파악하고 업데이트할 수 있도록 가장 직관적인 순서로 데이터를 표시합니다.
@@ -27,7 +27,7 @@ PowerApps에 대해 잘 모르는 경우 [PowerApps 소개](getting-started.md)�
 Common Data Service에서 [앱을 생성](data-platform-create-app.md)한 다음, 해당 앱에서 [갤러리를 사용자 지정](customize-layout-sharepoint.md)합니다.
 
 ## <a name="show-and-hide-cards"></a>카드 표시 및 숨기기
-1. [PowerApps](http://web.powerapps.com)에 로그인합니다.
+1. [PowerApps](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
 
     ![PowerApps 사이트의 홈 페이지](./media/customize-forms-sharepoint/sign-in.png)
 
