@@ -49,6 +49,11 @@
               href: ./canvas-apps/get-started-create-from-blank.md
         - name: 앱 공유
           href: ./canvas-apps/share-app.md
+          items:
+            - name: Excel 데이터 공유
+              href: ./canvas-apps/share-app-data.md
+            - name: 앱 리소스 공유
+              href: ./canvas-apps/share-app-resources.md
         - name: Power BI에 앱 포함
           href: ./canvas-apps/embed-powerapps-powerbi.md
     - name: 샘플
@@ -73,6 +78,8 @@
           href: ./canvas-apps/working-with-variables.md
         - name: 수식
           href: ./canvas-apps/working-with-formulas-in-depth.md
+        - name: 실험적 기능 및 미리 보기 기능
+          href: ./canvas-apps/working-with-experimental.md
         - name: 날짜 및 시간
           href: ./canvas-apps/show-text-dates-times.md
         - name: 데이터 원본
@@ -134,7 +141,9 @@
             - name: 액세스 가능한 앱 만들기
               href: ./canvas-apps/accessible-apps.md
               items:
-                - name: 컬러
+                - name: 접근성 문제 찾기
+                  href: ./canvas-apps/accessibility-checker.md
+                - name: 색을 사용하여 접근성 높이기
                   href: ./canvas-apps/accessible-apps-color.md
         - name: 앱 관리
           items:
@@ -614,13 +623,6 @@
 - name: 앱용 Common Data Service
   href: ./common-data-service/data-platform-intro.md
   items:
-    - name: 라이선스
-      href: ./common-data-service/data-platform-entity-licenses.md
-      items:
-        - name: 복잡한 비즈니스 논리를 지닌 엔터티
-          href: ./common-data-service/data-platform-complex-entities.md
-        - name: Dynamics 365 라이선스를 요구하는 제한된 엔터티
-          href: ./common-data-service/data-platform-restricted-entities.md
     - name: 퀵 스타트
       items:
         - name: 엔터티 만들기
@@ -651,6 +653,13 @@
           href: ./common-data-service/data-platform-excel-addin.md
         - name: Power BI 보고서 만들기
           href: ./common-data-service/data-platform-powerbi-connector.md
+    - name: 라이선스
+      href: ./common-data-service/data-platform-entity-licenses.md
+      items:
+        - name: 복잡한 비즈니스 논리를 지닌 엔터티
+          href: ./common-data-service/data-platform-complex-entities.md
+        - name: Dynamics 365 라이선스를 요구하는 제한된 엔터티
+          href: ./common-data-service/data-platform-restricted-entities.md
     - name: 개발자용
       href: ../developer/common-data-service/TOC.yml
 - name: 공통 데이터 모델
