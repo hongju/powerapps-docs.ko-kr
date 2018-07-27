@@ -8,12 +8,12 @@ ms.component: cds
 ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: clwesene
-ms.openlocfilehash: a4ec386ef6a7eee02c2ac608bb6e00ed9ee39c19
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: a9fff4cc61f6416ef8dbc3c03d96be7082fe3a51
+ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34168139"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "39218743"
 ---
 # <a name="manage-custom-fields-in-an-entity"></a>엔터티 내 사용자 지정 필드 관리
 모든 엔터티 내 하나 이상의 사용자 지정 필드를 만들고 업데이트할 수 있습니다. 사용자 지정 필드를 만들려면 필드의 이름, 필드의 표시 이름, 포함할 데이터 형식 등과 같은 속성 집합을 지정해야 합니다. 자세한 내용은 [엔터티 특성 메타데이터](../../developer/common-data-service/entity-attribute-metadata.md)를 참조하세요.
@@ -22,7 +22,7 @@ ms.locfileid: "34168139"
 > 모든 엔터티에는 레코드가 마지막으로 업데이트된 날짜 및 업데이트한 사람을 나타내는 필드와 같은 시스템 필드가 있습니다. 또한 표준 엔터티에는 표준(기본값) 필드가 있습니다. 시스템 필드 또는 표준 필드를 수정하거나 삭제할 수 없습니다. 사용자 지정 필드를 만들 경우 이러한 기본 제공 필드를 기반으로 기능을 제공해야 합니다.
 
 ## <a name="create-a-field"></a>필드 만들기
-1. [powerapps.com](https://web.powerapps.com)에서 **데이터** 섹션을 확장하고 왼쪽 탐색 창에서 **엔터티**를 클릭하거나 탭합니다.
+1. [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 **데이터** 섹션을 확장하고 왼쪽 탐색 창에서 **엔터티**를 클릭하거나 탭합니다.
 
     ![엔터티 세부 정보](./media/data-platform-cds-create-entity/entitylist.png "엔터티 목록")
 
@@ -71,7 +71,7 @@ ms.locfileid: "34168139"
 지원되는 식의 형식 및 예제에 대한 자세한 내용은 [계산된 필드 정의](/dynamics365/customer-engagement/customize/define-calculated-fields)를 참조하세요.
 
 ## <a name="update-or-delete-a-field"></a>필드 업데이트 또는 삭제
-1. [powerapps.com](https://web.powerapps.com)에서 **데이터** 섹션을 확장하고 왼쪽 탐색 창에서 **엔터티**를 클릭하거나 탭한 다음, 엔터티를 클릭하거나 탭합니다.
+1. [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 **데이터** 섹션을 확장하고 왼쪽 탐색 창에서 **엔터티**를 클릭하거나 탭한 다음, 엔터티를 클릭하거나 탭합니다.
 2. 선택한 엔터티에 대한 필드 목록에서 필드를 클릭하거나 탭한 후 다음 단계 중 하나를 따르십시오.
    
    * 필드의 하나 이상의 속성을 변경합니다.
