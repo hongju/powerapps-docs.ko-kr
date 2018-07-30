@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 05/10/2018
 ms.author: anneta
-ms.openlocfilehash: 92153c1d7fc72f6905faf55817f7f785ffdaa1ce
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: d5603ffacc0246dcffd1c54ab63b4e404250a7d5
+ms.sourcegitcommit: fc235972d0d4661f55df7a71e2dcedafd42706b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39016493"
+ms.lasthandoff: 07/23/2018
+ms.locfileid: "39202301"
 ---
 # <a name="common-issues-and-resolutions-for-powerapps"></a>PowerApps의 일반적인 문제 및 해결 방법
 이 문서에서는 PowerApps를 사용하는 동안 발생할 수 있는 몇 가지 일반적인 문제가 나와 있습니다. 적용 가능한 경우 해결 방법이 제공됩니다.
@@ -31,7 +31,7 @@ ms.locfileid: "39016493"
 
 1. **사용자 지정 이미지를 앱 아이콘으로 사용**
 
-    Windows용 PowerApps Studio 버전 3.18043에서는 앱 아이콘으로 사용할 사용자 지정 이미지를 업로드할 수 없습니다. 이 문제를 해결하려면 [웹용 PowerApps Studio](https://web.powerapps.com)를 사용하여 사용자 지정 이미지를 업로드합니다. 또는 Windows용 PowerApps Studio에 포함된 아이콘 중 하나를 사용하고 배경색을 사용자 지정할 수 있습니다.
+    Windows용 PowerApps Studio 버전 3.18043에서는 앱 아이콘으로 사용할 사용자 지정 이미지를 업로드할 수 없습니다. 이 문제를 해결하려면 [웹용 PowerApps Studio](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)를 사용하여 사용자 지정 이미지를 업로드합니다. 또는 Windows용 PowerApps Studio에 포함된 아이콘 중 하나를 사용하고 배경색을 사용자 지정할 수 있습니다.
 
 1. **앱 간에 화면 복사 및 붙여넣기**
 
@@ -71,11 +71,15 @@ ms.locfileid: "39016493"
 
 6. **Windows 8.1에서 앱 실행**
 
-    [이 Windows 8.1용 업데이트](https://technet.microsoft.com/library/security/ms16-118)를 설치하는 경우 해당 운영 체제에서 PowerApps Studio로 여는 앱을 실행할 수 없습니다. 하지만 [powerapps.com](https://web.powerapps.com) 또는 PowerApps Mobile로 여는 앱은 실행할 수 있습니다.
+    [이 Windows 8.1용 업데이트](https://technet.microsoft.com/library/security/ms16-118)를 설치하는 경우 해당 운영 체제에서 PowerApps Studio로 여는 앱을 실행할 수 없습니다. 하지만 [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 또는 PowerApps Mobile로 여는 앱은 실행할 수 있습니다.
 
 7. **공백이 포함된 열 이**
 
     열 이름에 공백이 포함된 SharePoint 목록 또는 Excel 테이블을 사용하는 경우 PowerApps에서 공백이 **"\_x0020\_"** 으로 바뀝니다. 예를 들어 SharePoint 또는 Excel의 **"Column Name"** 은 데이터 레이아웃에 표시되거나 수식에 사용될 때 PowerApps에 **"Column_x0020_Name"** 으로 나타납니다.
+
+8. <a name="out-of-memory"></a>**브라우저 메모리 부족**
+
+    PowerApp을 사용하는 동안 메모리가 부족하면 64비트 버전의 Chrome, Edge 또는 Internet Explorer 다운로드를 고려하세요.
 
 ## <a name="older"></a>이전 버전
 1. **공유 앱의 흐름 변경**
