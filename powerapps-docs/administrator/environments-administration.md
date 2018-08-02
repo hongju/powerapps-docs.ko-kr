@@ -2,18 +2,18 @@
 title: 환경 관리 | Microsoft Docs
 description: PowerApps에서 만들기, 이름 바꾸기, 삭제 및 보안 등 환경을 관리하는 방법 알아보기
 author: manasmams
-manager: kfile
+manager: kvivek
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: conceptual
-ms.date: 03/21/2018
+ms.date: 07/30/2018
 ms.author: manasma
-ms.openlocfilehash: 7fb35c1c59062b892fdd8e3a905d3ee485f6cf61
-ms.sourcegitcommit: 26932abc6fcdc5e6723b64b506532bb182ab3f8d
+ms.openlocfilehash: 02b25dd627e85b638a113c1c0aceee16d7df6275
+ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "37026237"
+ms.lasthandoff: 07/30/2018
+ms.locfileid: "39349090"
 ---
 # <a name="administer-environments-in-powerapps"></a>PowerApps에서 환경 관리
 [PowerApps 관리 센터][1]에서 사용자가 만든 환경은 물론, Environment Admin 또는 System Administrator 역할에 추가된 환경을 관리합니다. 관리 센터에서 다음 관리 작업을 수행할 수 있습니다.
@@ -25,6 +25,8 @@ ms.locfileid: "37026237"
 * 데이터 손실 방지 정책 설정.
 * 데이터베이스에 따라 개방 또는 제한된 데이터베이스 보안 정책 설정.
 * Azure AD 테넌트 전역 관리자 역할(Office 365 전역 관리자 포함)의 구성원은 테넌트에 만들어진 모든 환경을 관리하고 테넌트 전체 정책을 설정할 수도 있습니다.
+
+자세한 내용은 [환경 개요](environments-overview.md)를 참조하세요.
 
 ## <a name="access-the-powerapps-admin-center"></a>PowerApps 관리 센터에 액세스
 PowerApps 관리 센터에 액세스하려면 다음 작업을 수행합니다.
@@ -47,7 +49,7 @@ PowerApps 관리 센터에서 환경을 관리하려면 이러한 역할 중 하
 > PowerApps 관리 센터에서 변경한 내용은 [Microsoft Flow 관리 센터][4]에 영향을 미치고 그 반대의 경우도 마찬가지입니다.
 
 ## <a name="create-an-environment"></a>환경 만들기
-환경을 만드는 방법에 대한 지침은 [빠른 시작: 환경 만들기](create-environment.md)를 참조하세요.
+환경을 만드는 방법에 대한 지침은 [환경 만들기](create-environment.md)를 참조하세요.
 
 ## <a name="view-your-environments"></a>환경 보기
 관리 센터를 열면 기본적으로 환경 탭이 나타나고 사용자가 Environment Admin인 환경을 모두 나열합니다(아래 표시).
@@ -57,10 +59,6 @@ PowerApps 관리 센터에서 환경을 관리하려면 이러한 역할 중 하
 Azure AD 또는 Office 365 테넌트의 전역 관리자 역할의 멤버인 경우 사용자는 자동으로 해당 환경의 Environment Admin이 되므로, 테넌트의 사용자가 만든 모든 환경이 나타납니다.
 
 ## <a name="rename-your-environment"></a>환경 이름 바꾸기
-
-> [!IMPORTANT]
-> 데이터베이스가 포함되지 않는 프로덕션 환경의 이름을 바꾸려면 이 섹션의 단계를 수행합니다. 평가판 환경의 이름을 바꿀 수 없고 데이터베이스가 포함된 프로덕션 환경의 이름을 바꾸려면 Dynamics 365 관리 센터를 사용해야 합니다.
-
 1. [PowerApps 관리 센터][1]를 열고 목록에서 이름을 바꿀 환경을 찾은 다음 클릭하거나 탭합니다.
 
     ![](./media/environment-admin/environment-list-updated3.png)
@@ -195,6 +193,10 @@ PowerApps 요금제 2.  이 라이선스가 포함된 모든 요금제에 대한
 1. **기본 환경**: 현재 데이터베이스 만들기는 테넌트의 기본 환경에서 지원되지 않습니다. 
 
 2. **개별 사용을 위한 환경**: PowerApps 커뮤니티 계획에서 로그인하여 개별 사용을 위한 환경을 가져옵니다. 데이터베이스를 아직 만들지 못한 경우 현재로서는 개별 사용을 위한 환경에서 데이터베이스를 프로비전할 수 없습니다. 
+
+3. **AAD 테넌트의 소속 지역과 다른 지역의 환경**: 현재 Azure Active Directory 테넌트 소속 지역에서 만들어진 환경에서 데이터베이스만 프로비전할 수 있습니다. 다른 지역에서 데이터베이스를 프로비전하기 위한 기능이 곧 서비스될 예정입니다. 따라서 테넌트의 기본 위치와 동일한 지역에서 데이터베이스를 만들려는 경우 해당 지역을 유지하도록 확인하십시오.
+
+4. **특정 지역에서 지원되지 않는 데이터베이스 만들기**: 데이터베이스 만들기를 아직 사용할 수 없는 특정 지역이 있습니다. 예: 남아메리카 국가. 테넌트의 소속 위치가 남아메리카인 경우 현재 모든 환경에서 데이터베이스를 프로비전할 수 없습니다. 
     
 위 시나리오를 모두 사용하도록 노력하고 있습니다.
 다른 오류 메시지가 나타나거나 추가 질문이 있는 경우 [여기][5]에 연결 하십시오.
@@ -222,4 +224,4 @@ PowerApps 요금제 2.  이 라이선스가 포함된 모든 요금제에 대한
 [2]: https://web.powerapps.com
 [3]: https://powerapps.microsoft.com/pricing/
 [4]: https://admin.flow.microsoft.com
-[5]: https://go.microsoft.com/fwlink/?linkid=871628
+[5]: https://go.microsoft.com/fwlink/p/?linkid=871628

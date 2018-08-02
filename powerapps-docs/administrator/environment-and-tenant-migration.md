@@ -2,18 +2,18 @@
 title: 환경 및 테넌트 간에 앱 마이그레이션 | Microsoft Docs
 description: 환경과 테넌트 간에 PowerApps 앱을 마이그레이션하는 방법 연습
 author: jamesol-msft
-manager: kfile
+manager: kvivek
 ms-topic: conceptual
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: conceptual
 ms.author: jamesol
-ms.openlocfilehash: 9a846f3c47111b1b83881ed01026951469b236cc
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: 3a4aeda30f8d4f01e2a85e186a769fa19ac29883
+ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37898332"
+ms.lasthandoff: 07/30/2018
+ms.locfileid: "39349596"
 ---
 # <a name="environment-and-tenant-app-migration-through-packaging"></a>패키징을 통해 환경 및 테넌트 앱 마이그레이션
 패키징을 사용하여 한 환경에서 다른 환경으로 리소스를 마이그레이션하는 방법을 알아봅니다. 이러한 환경은 동일한 테넌트 내 또는 다른 테넌트 간일 수 있습니다.
@@ -112,13 +112,13 @@ https://web.powerapps.com에서 빌드한 엔터티 또는 옵션 집합 사용�
 
 3. 브라우저에서 Url을 복사하고, 다음과 같이 변경한 후 브라우저에서 새 URL로 이동합니다.
 
-   * 현재 URL 구조: https://{orguniquename}.crm.dynamics.com/tools/solution/edit.aspx?id={solutionname}
+    * 현재 URL 구조: https://{orguniquename}.crm.dynamics.com/tools/solution/edit.aspx?id={solutionname}
 
-       ![url 편집](./media/environment-and-tenant-migration/edit-url.png)
+        ![url 편집](./media/environment-and-tenant-migration/edit-url.png)
 
-   * 새 URL 구조: https://{orguniquename}.crm.dynamics.com/tools/solution/SolutionImportWizard.aspx
+    * 새 URL 구조: https://{orguniquename}.crm.dynamics.com/tools/solution/SolutionImportWizard.aspx
 
-       ![패키지 선택](./media/environment-and-tenant-migration/select-package.png)
+        ![패키지 선택](./media/environment-and-tenant-migration/select-package.png)
 
 4. 가져오려는 CDS 솔루션 패키지 파일을 선택하고 마법사를 완료합니다.
 

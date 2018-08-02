@@ -3,18 +3,18 @@ title: 앱용 CDS(Common Data Service) 데이터베이스 만들기 | Microsoft 
 description: 앱용 CDS(Common Data Service) 데이터베이스 만드는 방법을 연습합니다.
 services: powerapps
 author: manasmams
-manager: kfile
+manager: kvivek
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: ccd2b03f5f71b2a5037274363ddf9c4082f7071c
-ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
+ms.openlocfilehash: 940789049a345c9f03bc008dc87b60e84b61af70
+ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "39218697"
+ms.lasthandoff: 07/30/2018
+ms.locfileid: "39348814"
 ---
 # <a name="create-a-common-data-service-for-apps-database"></a>앱용 CDS(Common Data Service) 데이터베이스 만들기
 앱용 CDS(Common Data Service)를 데이터 저장소로 사용하여 데이터베이스를 만들고 앱을 빌드할 수 있습니다. 사용자 고유의 사용자 지정 엔터티를 만들거나 미리 정의된 엔터티를 사용할 수 있습니다. 데이터베이스를 만들려면 먼저 환경을 만들거나 기존 환경에 **환경 관리자**로 할당되어야 합니다. 또한 적절한 라이선스를 할당 받아야 합니다. 앱용 CDS 사용을 위한 계획 구매에 대한 자세한 내용은 [가격 책정 정보](pricing-billing-skus.md)를 참조하세요.
@@ -42,7 +42,7 @@ ms.locfileid: "39218697"
 
 
 ## <a name="create-a-database-in-the-entities-pane-of-powerapps"></a>PowerApps의 엔터티 창에서 데이터베이스 만들기
-1. [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 **데이터** 섹션을 확장하고 왼쪽 탐색 창에서 **엔터티**를 클릭하거나 탭합니다.
+1. [powerapps.com](https://web.powerapps.com)에서 **데이터** 섹션을 확장하고 왼쪽 탐색 창에서 **엔터티**를 클릭하거나 탭합니다.
 
 2. **데이터베이스 만들기**를 클릭하여 데이터베이스를 만듭니다.
 

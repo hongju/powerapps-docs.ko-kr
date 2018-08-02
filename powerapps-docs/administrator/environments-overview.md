@@ -2,18 +2,18 @@
 title: 환경 개요 | Microsoft Docs
 description: PowerApps의 환경 및 사용 방법 알아보기
 author: manasmams
-manager: kfile
+manager: kvivek
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: b38f0d1b029708e8130363d54ccc1354084b0ae4
-ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
+ms.openlocfilehash: 3e954db3ed224afa100d89be6aa03d7a2139a9d7
+ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "39218168"
+ms.lasthandoff: 07/30/2018
+ms.locfileid: "39349941"
 ---
 # <a name="environments-overview"></a>환경 개요
 환경은 조직의 비즈니스 데이터, 앱 및 흐름을 저장, 관리 및 공유하는 공간입니다. 또한 각기 다른 역할, 보안 요구 사항 또는 대상 그룹에 따라 앱을 구분하는 컨테이너 기능도 제공합니다. 환경 활용을 선택하는 방식은 해당 조직 및 빌드하려는 앱에 따라 달라집니다. 예:
@@ -39,13 +39,13 @@ ms.locfileid: "39218168"
 
 * Environment Admin 역할은 다음을 포함하는 환경에서 모든 관리 작업을 수행할 수 있습니다.
 
-  * Environment Admin 또는 Environment Maker 역할에서 사용자나 그룹을 추가 또는 제거
+    * Environment Admin 또는 Environment Maker 역할에서 사용자나 그룹을 추가 또는 제거
 
-  * 환경에 대한 Common Data Service 데이터베이스 프로비전
+    * 환경에 대한 Common Data Service 데이터베이스 프로비전
 
-  * 환경 내에서 만든 모든 리소스 보기 및 관리
+    * 환경 내에서 만든 모든 리소스 보기 및 관리
 
-  * 데이터 손실 방지 정책을 설정합니다. 자세한 내용은 [데이터 손실 방지 정책](prevent-data-loss.md)을 참조하세요.
+    * 데이터 손실 방지 정책을 설정합니다. 자세한 내용은 [데이터 손실 방지 정책](prevent-data-loss.md)을 참조하세요.
 
     환경에서 데이터베이스를 만든 후에는 Environment Admin 역할 대신 System Administrator 역할을 사용할 수 있습니다.
 
@@ -75,7 +75,7 @@ ms.locfileid: "39218168"
 여러 목적을 위한 환경을 만들 수 있습니다. 평가판 환경은 Common Data Service 경험을 사용하여 환경 및 데이터베이스를 시험하는 용도로 사용됩니다. 일정 기간 후에 만료됩니다. 자세한 내용은 [PowerApps에서 환경 관리](environments-administration.md)를 참조하세요.
 
 ## <a name="choosing-an-environment"></a>환경 선택
-환경의 도입으로 [https://web.powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 새로운 세상을 경험하게 됩니다.  앱, 연결 및 사이트에 표시되는 기타 항목이 선택한 현재 환경에 따라 필터링됩니다.  현재 환경은 헤더의 오른쪽 가장자리 근처에 있는 환경 선택기에 지정됩니다. 다른 환경을 선택하려면 선택기를 클릭하거나 탭하십시오. 사용 가능한 환경 목록이 나타납니다. 들어가려는 환경을 클릭하거나 탭합니다.
+환경의 도입으로 [https://web.powerapps.com](https://web.powerapps.com)에서 새로운 세상을 경험하게 됩니다.  앱, 연결 및 사이트에 표시되는 기타 항목이 선택한 현재 환경에 따라 필터링됩니다.  현재 환경은 헤더의 오른쪽 가장자리 근처에 있는 환경 선택기에 지정됩니다. 다른 환경을 선택하려면 선택기를 클릭하거나 탭하십시오. 사용 가능한 환경 목록이 나타납니다. 들어가려는 환경을 클릭하거나 탭합니다.
 
 다음 조건 중 하나를 충족하는 경우 선택기에 환경이 나타납니다.
 

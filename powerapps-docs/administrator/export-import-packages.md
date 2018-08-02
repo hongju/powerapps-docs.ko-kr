@@ -2,18 +2,18 @@
 title: 리소스 내보내기 및 가져오기 | Microsoft Docs
 description: PowerApps에서 리소스를 내보내고 가져오는 방법 알아보기
 author: nimakms
-manager: kfile
+manager: kvivek
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 07/28/2017
 ms.author: nimak
-ms.openlocfilehash: 752bea42eee356e04c2ab72d28a669ccd2771f70
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: db5861b9f598045436ad0bf796f04ed1df4b8903
+ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34168536"
+ms.lasthandoff: 07/30/2018
+ms.locfileid: "39349757"
 ---
 # <a name="export-and-import-resources"></a>리소스 내보내기 및 가져오기
 데이터베이스 및 앱 개발을 지원하기 위해 여러 환경을 만든 경우 한 환경에서 다른 환경으로 변경 사항을 이동해야 합니다. **리소스 내보내기** 및 **리소스 가져오기**를 사용하여 환경 간에 리소스를 이동할 수 있습니다.

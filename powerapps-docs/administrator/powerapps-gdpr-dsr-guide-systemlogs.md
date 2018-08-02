@@ -2,18 +2,18 @@
 title: PowerApps, Microsoft Flow 및 앱용 CDS(Common Data Service)에서 시스템 생성 로그에 대한 DSR 요청에 응답 | Microsoft Docs
 description: PowerApps, Microsoft Flow 및 앱용 CDS(Common Data Service)에서 시스템 생성 로그에 대한 DSR 요청에 응답하는 방법 연습
 author: jamesol-msft
-manager: kfile
+manager: kvivek
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 05/23/2018
 ms.author: jamesol
-ms.openlocfilehash: 18bba11ce747b1e04be6013bf41419c34232865a
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: 0511022621d891a6e45b27f1440e614df8b105a0
+ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37897251"
+ms.lasthandoff: 07/30/2018
+ms.locfileid: "39349136"
 ---
 # <a name="responding-to-dsr-requests-for-system-generated-logs-in-powerapps-microsoft-flow-and-common-data-service-for-apps"></a>PowerApps, Microsoft Flow 및 앱용 Common Data Service에서 시스템 생성 로그에 대한 DSR 요청에 응답
 Microsoft에서는 EU(유럽 연합) GDPR(일반 데이터 보호 규정)의 광범위한 ‘개인 데이터’ 정의에 따라 사적인 것으로 간주할 수 있는 시스템 생성 로그에 액세스하고 이를 내보내고 삭제하는 기능을 제공합니다. GDPR에 따라 사적인 것으로 간주할 수 있는 시스템 생성 로그의 예는 다음과 같습니다.
@@ -106,7 +106,7 @@ Microsoft에서는 EU(유럽 연합) GDPR(일반 데이터 보호 규정)의 광
 1. 브라우저에서 다음과 같은 URL([ https://login.windows.net/common/userrealm/foobar@contoso.com?api-version=2.1](https://login.windows.net/common/userrealm/foobar@contoso.com?api-version=2.1))을 열고, URL에서 이메일 주소를 바꿉니다.
 
 2. **관리되지 않는 테넌트**의 멤버인 경우 응답에서 `"IsViral": true`이 표시됩니다.
-   ```
+  ```
       {
       ...
       "Login": "foobar@unmanagedcontoso.com",
@@ -114,6 +114,6 @@ Microsoft에서는 EU(유럽 연합) GDPR(일반 데이터 보호 규정)의 광
       "IsViral": **true**,
       ...
       }
-   ```
+  ```
 
 3. 그렇지 않은 경우 관리 테넌트에 속해 있습니다.

@@ -3,18 +3,18 @@ title: 앱용 CDS(Common Data Service) 고객 데이터에 대한 DSR 요청에 
 description: 앱용 CDS(Common Data Service) 고객 데이터에 대한 DSR 요청에 응답하는 방법 연습
 author: jamesol-msft
 ms.reviewer: paulliew
-manager: kfile
+manager: kvivek
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: jamesol
-ms.openlocfilehash: b550d5fe7e36c36177fff017adcf9d9034c93dd4
-ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
+ms.openlocfilehash: de7af5aa10f2f39057806c6ad170dc32e85c9f02
+ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "39218053"
+ms.lasthandoff: 07/30/2018
+ms.locfileid: "39349021"
 ---
 # <a name="responding-to-data-subject-rights-dsr-requests-for-common-data-service-for-apps-customer-data"></a>앱용 Common Data Service 고객 데이터에 대한 DSR(Data Subject Rights) 요청에 응답
 
@@ -52,7 +52,7 @@ EU(유럽 연합) GDPR(일반 데이터 보호 규정)은 사람들(규정에서
 
 앱용 CDS 및 이전 버전의 CDS(Common Data Service)에는 개인 데이터를 조작하기 위한 개별 프로세스가 포함됩니다.
 
-[PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인하고 다음 단계에 따라 CDS 환경 유형을 확인할 수 있습니다.
+[PowerApps](https://web.powerapps.com)에 로그인하고 다음 단계에 따라 CDS 환경 유형을 확인할 수 있습니다.
 
 1. **환경** 드롭다운 목록에서 환경을 선택합니다.
 2. 탐색 창에서 **데이터**를 클릭하거나 탭한 다음, **엔터티**를 클릭하거나 탭합니다.
@@ -102,8 +102,8 @@ Office 365 전역 관리자 및 CDS 시스템 관리자만 아래에 나열된 �
 
 |리소스 | 용도 | 웹 사이트 액세스 | 프로그래밍 방식 액세스
 | --- | --- | --- | ---
-| 엔터티 레코드 | 시스템 사용자 엔터티로 알려져 있으며, 사용자의 개인 데이터를 저장합니다. | [PowerApps 관리 센터](https://admin.powerapps.com) | [Web API](https://docs.microsoft.com/dynamics365/customer-engagement/developer/webapi/update-delete-entities-using-web-api#basic-update) 사용
-| 감사 기록 | 사용자가 엔터티 수준에서 만들거나, 액세스하거나, 변경하거나, 삭제한 리소스를 고객이 식별하도록 허용합니다. | [PowerApps 관리 센터](https://admin.powerapps.com) | [Web API](https://docs.microsoft.com/dynamics365/customer-engagement/developer/webapi/update-delete-entities-using-web-api#basic-update) 사용
+| 엔터티 레코드 | 시스템 사용자 엔터티로 알려져 있으며, 사용자의 개인 데이터를 저장합니다. | [PowerApps 관리 센터](https://admin.powerapps.com) | [Web API](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/webapi/update-delete-entities-using-web-api#basic-update) 사용
+| 감사 기록 | 사용자가 엔터티 수준에서 만들거나, 액세스하거나, 변경하거나, 삭제한 리소스를 고객이 식별하도록 허용합니다. | [PowerApps 관리 센터](https://admin.powerapps.com) | [Web API](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/webapi/update-delete-entities-using-web-api#basic-update) 사용
 
 #### <a name="user"></a>User
 사용자 개인 데이터는 Azure Active Directory에 저장되고 자동으로 모든 앱용 CDS 환경에 동기화됩니다. 사용자가 활성 상태인 동안 시스템 관리자는 앱용 CDS에서 직접 이 개인 데이터를 업데이트할 수 없습니다. Office 365 관리 센터 내에서 이 데이터를 업데이트해야 합니다. 시스템 관리자는 개인 데이터(예: 사용자 지정 특성)를 앱용 CDS에 직접 추가할 수 있지만 이 데이터를 수동으로 관리해야 합니다.
@@ -199,7 +199,7 @@ Azure Active Directory에서 사용자 레코드를 삭제하면 사용자의 �
 
 3. **설정** > **보안** > **사용자**로 이동한 다음, **사용할 수 없는 사용자 보기**를 선택합니다.
 
-4. 사용자 개인 데이터에서 Excel 서식 파일을 만들고 다운로드합니다. 단계별 지침은 [새 Excel 서식 파일 만들기](https://docs.microsoft.com/dynamics365/customer-engagement/admin/analyze-your-data-with-excel-templates#create-a-new-excel-template)를 참조하세요.
+4. 사용자 개인 데이터에서 Excel 서식 파일을 만들고 다운로드합니다. 단계별 지침은 [새 Excel 서식 파일 만들기](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/analyze-your-data-with-excel-templates#create-a-new-excel-template)를 참조하세요.
 
 8. 다운로드한 Excel 서식 파일을 열고, 사용자 개인 데이터를 제거한 다음, 파일을 저장합니다.
 
@@ -308,7 +308,7 @@ CDS 시스템 관리자가 개인으로부터 DSR 요청을 받으면 해당 관
 
 |리소스 | 용도 | 웹 사이트 액세스 |  프로그래밍 방식 액세스
 | --- | --- | --- | ---
-|엔터티 레코드 | 각 비즈니스 엔터티에서 비즈니스 트랜잭션을 캡처합니다. | [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) |    아니요
+|엔터티 레코드 | 각 비즈니스 엔터티에서 비즈니스 트랜잭션을 캡처합니다. | [PowerApps](https://web.powerapps.com) |      아니요
 
 #### <a name="entity-records"></a>엔터티 레코드
 개인의 개인 데이터는 비즈니스 엔터티에 저장할 수 있습니다.

@@ -2,18 +2,18 @@
 title: 환경 보안 구성 | Microsoft Docs
 description: 이 항목에서는 환경 보안을 구성하는 방법에 대해 설명합니다.
 author: manasmams
-manager: kfile
+manager: kvivek
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: 620152a684e5bf0399bd938172f328892b137325
-ms.sourcegitcommit: 44ecb3ace4c865bc592dfb7f0b5fffa289d3b035
+ms.openlocfilehash: af7c4bd051d7fd822b74b43bec6e8110df24a450
+ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "36306123"
+ms.lasthandoff: 07/30/2018
+ms.locfileid: "39349504"
 ---
 # <a name="configure-environment-security"></a>환경 보안 구성
 앱용 CDS(Common Data Service)는 데이터베이스에 대한 보안 액세스를 위해 역할 기반 보안 모델을 사용합니다. 이 항목에서는 앱의 보안을 유지하기 위해 필요한 보안 아티팩트를 만드는 방법을 설명합니다. 사용자 역할은 데이터에 대한 런타임 액세스를 제어하며 환경 관리자 및 환경 작성자가 제어하는 환경 역할과는 별개입니다. 환경 개요는 [환경 개요](environments-overview.md)를 참조하세요.
@@ -60,7 +60,7 @@ PowerApps 환경에는 앱을 사용하는 데 필요한 최소한의 비즈니�
 |시스템 관리자     |  만들기, 읽기, 쓰기, 삭제, 사용자 지정, 보안 역할       | 보안 역할 만들기, 수정 및 할당을 포함하여 환경을 사용자 지정하거나 관리하기 위한 모든 권한을 가집니다. 환경의 모든 데이터를 볼 수 있습니다. 자세한 정보: [사용자 지정에 필요한 권한](https://docs.microsoft.com/dynamics365/customer-engagement/customize/privileges-required-customization)        |
 |시스템 사용자 지정자     | 만들기(자체), 읽기(자체), 쓰기(자체), 삭제(자체), 사용자 지정         | 환경을 사용자 지정하기 위한 전체 권한을 가집니다. 그러나 작성한 환경 엔터티에 대한 레코드만 볼 수 있습니다. 자세한 정보: [사용자 지정에 필요한 권한](https://docs.microsoft.com/dynamics365/customer-engagement/customize/privileges-required-customization)        |
 |환경 작성자     |  없음       | Microsoft Flow를 사용하여 앱, 연결, 사용자 지정 API, 게이트웨이 및 흐름을 포함한 환경과 관련된 새 리소스를 만들 수 있습니다. 그러나 환경 내의 데이터에 액세스할 수 있는 권한은 없습니다. 자세한 정보: [환경 개요](https://powerapps.microsoft.com/blog/powerapps-environments/)        |
-|Common Data Service 사용자     |  읽기, 만들기(자체), 쓰기(자체), 삭제(자체)       | 환경 내에서 앱을 실행하고 모든 [응용 프로그램 및 Crm Common 엔터티](https://github.com/Microsoft/CDM/tree/master/schemaDocuments#click-this-image-to-explore-the-cdm-entities-using-the-entity-navigator) 읽기 같은 일반적인 작업을 수행할 수 있지만, 이러한 엔터티에서 자체 소유하는 레코드 만들기, 쓰기, 삭제는 수행할 수 없습니다(계정, 연락처, 소유자에 상관없이 모든 레코드에 쓸 수 있는 연결 제외).          |
+|Common Data Service 사용자     |  읽기, 만들기(자체), 쓰기(자체), 삭제(자체)       | 환경 내에서 앱을 실행하고 자신이 소유한 레코드에 대한 일반적인 작업을 수행할 수 있습니다.        |
 |대리자     | 다른 사용자를 대신하여 작업 수행        | 코드가 다른 사용자의 권한으로 실행되거나 다른 사용자를 가장할 수 있습니다.  일반적으로 레코드에 대한 액세스를 허용하기 위해 다른 보안 역할과 함께 사용됩니다. 추가 정보: [다른 사용자 가장](https://docs.microsoft.com/dynamics365/customer-engagement/developer/org-service/impersonate-another-user)        |
 
 *권한은 달리 지정되지 않는 한 전역 범위입니다.
@@ -107,6 +107,7 @@ PowerApps 환경에는 앱을 사용하는 데 필요한 최소한의 비즈니�
 9. **읽기, 쓰기, 추가** 권한을 선택합니다.
 
 10. **저장 후 닫기**를 선택합니다.
+
 
 
 <!--Reference links in article-->

@@ -2,18 +2,18 @@
 title: 조직의 라이선스 관리 | Microsoft Docs
 description: Office 365 테넌트에서 PowerApps에 등록하는 라이선스, 관리 및 사용자에 대한 일반적인 질문 및 답변
 author: jamesol-msft
-manager: kfile
+manager: kvivek
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: jamesol
-ms.openlocfilehash: 8a734ef57a3820e38d52ad2bd87a2ab8979c0348
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 1f46541fcfe485bf497a59d25432ac1dec8d7b3e
+ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34168047"
+ms.lasthandoff: 07/30/2018
+ms.locfileid: "39349780"
 ---
 # <a name="manage-powerapps-licenses-in-your-organization"></a>조직의 PowerApps 라이선스 관리
 이 문서에서는 조직의 사용자가 PowerApps에 액세스하여 사용하는 방법 및 PowerApps 서비스에 대한 액세스를 제어하는 방법을 설명합니다.
