@@ -6,15 +6,15 @@ ms.service: powerapps
 ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 03/21/2018
-ms.author: jimh
-ms.openlocfilehash: 8ef92fec0245bbe27529be0acb214cad7d2b928e
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.author: jimholtz
+ms.openlocfilehash: 9d900d2ebceb2ad3cca0c567b80d5d1fac4963ff
+ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34552556"
+ms.lasthandoff: 07/30/2018
+ms.locfileid: "39349964"
 ---
-# <a name="manage-apps-created-in-your-organization"></a>조직에서 만든 앱 관리
+# <a name="manage-apps-created-in-your-organization"></a>조직에서 만든 앱 관리 
 환경 관리자, Office 365 전역 관리자 또는 Azure Active Directory 테넌트 관리자인 경우, 조직에서 만든 앱을 관리할 수 있습니다.
 
 관리자는 PowerApps 관리 센터에서 다음을 수행할 수 있습니다.
