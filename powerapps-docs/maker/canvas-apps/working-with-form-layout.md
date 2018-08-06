@@ -1,6 +1,6 @@
 ---
-title: 데이터 양식 레이아웃 이해 | Microsoft Docs
-description: 행과 열을 사용하여 멋진 양식 레이아웃을 만듭니다.
+title: 캔버스 앱에 대한 데이터 양식 레이아웃 이해 | Microsoft Docs
+description: PowerApps에서 행과 열을 사용하여 캔버스 앱에 멋진 양식 레이아웃을 만듭니다.
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -9,29 +9,32 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 06/17/2017
 ms.author: gregli
-ms.openlocfilehash: 050e665a7a5c2a05ab9abfc989134028d303da4d
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 7676c2d93eb5bbf55620a4d36f1f4818d52472d0
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39017735"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39470618"
 ---
-# <a name="understand-data-form-layout-in-microsoft-powerapps"></a>Microsoft PowerApps 데이터 양식 레이아웃에 대한 이해
-PowerApps에서 매력적이고 효율적으로 사용할 수 있는 양식을 쉽게 만들 수 있습니다. 예를 들어 판매 주문을 기록하기 위해 다음 기본 양식을 고려해 보세요.
+# <a name="understand-data-form-layout-for-canvas-apps-in-powerapps"></a>PowerApps에서 캔버스 앱에 대한 데이터 양식 레이아웃 이해 | Microsoft Docs
+
+PowerApps에서 캔버스 앱을 빌드할 때 매력적이고 효율적인 양식을 쉽게 만듭니다. 예를 들어 판매 주문을 기록하기 위해 다음 기본 양식을 고려해 보세요.
 
 ![판매 주문 샘플](./media/working-with-form-layout/sales-order.png)
 
 이 자습서에서는 이 양식을 만드는 방법을 단계별로 설명합니다. 또한 사용 가능한 공간을 채우기 위해 필드의 동적 크기 조정과 같은 몇 가지 고급 항목도 살펴봅니다.
 
 ## <a name="before-you-start"></a>시작하기 전에
+
 PowerApps를 처음 사용하거나 앱을 자동으로만 생성한 경우에는 이 항목을 살펴보기 전에 [앱을 처음부터 빌드](get-started-create-from-blank.md)합니다. 앱을 처음부터 빌드하는 경우 이 항목에서 언급하지만 설명하지 않는 데이터 원본 및 컨트롤 추가와 같이 필요한 개념에 익숙해집니다.
 
 ## <a name="add-a-gallery"></a>갤러리 추가
+
 1. 태블릿 앱을 처음부터 만들기
-   
+
     이 항목에서 설명하는 모든 내용은 전화 레이아웃에도 적용되지만, 전화 앱에는 세로 열 하나만 있는 경우가 많습니다.
 2. [Common Data Service](../common-data-service/data-platform-intro.md)의 **판매 주문** 엔터티를 앱의 데이터 원본으로 추가합니다.
-   
+
     이 자습서 외부에서 SharePoint 목록 및 Excel 표를 포함하여 모든 데이터 원본을 사용할 수 있습니다.
 3. 세로 **갤러리** 컨트롤을 추가하고, **Items** 속성을 **'판매 주문'** 으로 설정합니다.
    

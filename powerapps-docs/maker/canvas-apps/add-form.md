@@ -1,6 +1,6 @@
 ---
-title: 테이블의 레코드 표시, 편집 또는 추가 | Microsoft Docs
-description: 폼을 사용하여 데이터 원본에 테이블의 레코드를 표시, 편집 또는 추가합니다.
+title: 캔버스 앱의 테이블에서 레코드 표시, 편집 또는 추가 | Microsoft Docs
+description: 캔버스 앱 양식을 사용하여 데이터 원본에 테이블의 레코드를 표시, 편집 또는 추가합니다.
 author: karthik-1
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 10/06/2017
 ms.author: sharik
-ms.openlocfilehash: b98c5d165ba6de983a874f0a34fb92c5db8a69cd
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: a8c786e499bdc1e4dacc0adbf2bee489d56229ce
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39018954"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39469974"
 ---
 # <a name="show-edit-or-add-a-record-from-a-table-in-powerapps"></a>PowerApps에서 테이블의 레코드 표시, 편집 또는 추가
-레코드의 모든 필드를 표시하려면 **[폼 표시](controls/control-form-detail.md)** 컨트롤을 추가하고 구성합니다. 레코드의 모든 필드를 편집하고(또는 레코드를 추가) 변경 내용을 데이터 원본에 다시 저장하려면 **[폼 편집](controls/control-form-detail.md)** 컨트롤을 추가하고 구성합니다.
+
+레코드의 모든 필드를 표시하려면 캔버스 앱에서 **[양식 표시](controls/control-form-detail.md)** 컨트롤을 추가하고 구성합니다. 레코드의 모든 필드를 편집하고(또는 레코드를 추가) 변경 내용을 데이터 원본에 다시 저장하려면 캔버스 앱에서 **[양식 편집](controls/control-form-detail.md)** 컨트롤을 추가하고 구성합니다.
 
 ## <a name="prerequisites"></a>필수 조건
 

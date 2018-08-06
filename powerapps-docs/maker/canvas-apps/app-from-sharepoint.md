@@ -1,6 +1,6 @@
 ---
-title: PowerApps에서 SharePoint로부터 앱을 생성하는 빠른 시작 | Microsoft Docs
-description: SharePoint 목록의 데이터를 관리하는 앱을 PowerApps에서 자동으로 생성합니다.
+title: SharePoint에서 PowerApps에 캔버스 앱 생성 | Microsoft Docs
+description: PowerApps에서 자동으로 캔버스 앱을 생성하여 SharePoint 목록의 데이터를 관리합니다.
 author: AFTOwen
 manager: kvivek
 ms.service: powerapps
@@ -9,16 +9,16 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 03/12/2018
 ms.author: anneta
-ms.openlocfilehash: fd3e1e293b3c10b25351ba3958af46b887447e26
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+ms.openlocfilehash: cb68c454053a36f49b72afa1718ca0d67ad364af
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195384"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39469882"
 ---
-# <a name="quickstart-for-generating-an-app-in-powerapps-from-sharepoint"></a>PowerApps에서 SharePoint로부터 앱을 생성하는 빠른 시작
+# <a name="generate-a-canvas-app-in-powerapps-from-sharepoint-data"></a>SharePoint 데이터에서 PowerApps에 캔버스 앱 생성
 
-이 빠른 시작에서는 PowerApps를 사용하여 SharePoint에서 만든 목록에 따라 첫 번째 앱을 자동으로 생성합니다. 이 앱에서는 목록의 모든 항목을 찾아보고, 단일 항목의 세부 정보를 표시하며, 항목을 생성, 업데이트 또는 삭제할 수 있습니다.
+이 항목에서는 PowerApps를 사용하여 SharePoint에서 만든 목록에 따라 첫 번째 캔버스 앱을 자동으로 생성합니다. 이 앱에서는 목록의 모든 항목을 찾아보고, 단일 항목의 세부 정보를 표시하며, 항목을 생성, 업데이트 또는 삭제할 수 있습니다.
 
 SharePoint에 목록이 있으면 이 빠른 시작에서 개념과 기술을 알아볼 수 있습니다. 이 빠른 시작을 정확하게 수행하려면 SharePoint Online 사이트에서 **Title** 열이 포함된 **SimpleApp**이라는 목록을 만듭니다. 목록에서 **바닐라**, **초콜릿** 및 **딸기**에 대한 항목을 만듭니다.
 

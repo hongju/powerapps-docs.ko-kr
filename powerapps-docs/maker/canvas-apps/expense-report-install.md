@@ -1,6 +1,6 @@
 ---
-title: 경비 보고서 PowerApps 샘플 설치 및 구성 | Microsoft Docs
-description: 경비 보고서 PowerApps 샘플 설치 및 구성에 대한 단계별 지침입니다.
+title: 캔버스 앱에 대한 경비 보고서 샘플 설치 및 구성 | Microsoft Docs
+description: PowerApps에서 캔버스 앱에 대한 경비 보고서 샘플 설치 및 구성하기 위한 단계별 지침입니다.
 author: caburk
 manager: kvivek
 ms.service: powerapps
@@ -9,16 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 04/08/2018
 ms.author: caburk
-ms.openlocfilehash: aca695c8c2ae90e0d5d843dcb0dfb562cbef5a05
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+ms.openlocfilehash: f0fc0d9407511730145002bf109957b0878398bc
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195729"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39470043"
 ---
-# <a name="install-and-configure-the-expense-report-powerapps-sample"></a>경비 보고서 PowerApps 샘플 설치 및 구성
+# <a name="install-and-configure-the-expense-report-sample-for-canvas-apps-in-powerapps"></a>PowerApps의 캔버스 앱에 대한 경비 보고서 샘플 설치 및 구성 | Microsoft Docs
 
-경비 보고서 PowerApps 샘플 설치 및 구성에 대한 단계별 지침입니다.
+경비 보고서 샘플 설치 및 구성에 대한 단계별 지침입니다.
 
 이 단계를 완료하는 데 소요되는 예상 시간: **10-15분**
 
@@ -26,7 +26,8 @@ ms.locfileid: "39195729"
 
 [![경비 보고서 설치 비디오](./media/expense-report-install/expense-report-install-video.png)](https://youtu.be/DOR28V5kCkw)
 
-## <a name="expense-report-powerapps-sample-overview"></a>경비 보고서 PowerApps 샘플 개요
+## <a name="overview-of-the-sample"></a>샘플 개요
+
 제출에서 승인까지 경비 보고서를 추적하세요. 품목을 개별 경비로 누적 총계를 내고 준비가 되었으면 승인을 위해 제출하세요. 이 앱을 사용자에게 맞게 설정하려면 약간의 설정 작업이 필요합니다.
 
 ![경비 보고서 PowerApps 시작 화면](./media/expense-report-install/expense-report-powerapp.png)

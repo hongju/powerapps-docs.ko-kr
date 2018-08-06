@@ -1,6 +1,6 @@
 ---
-title: 조회 필드를 통해 SharePoint 목록 간의 관계 만들기 | Microsoft Docs
-description: 조회 필드를 사용하여 SharePoint 목록 간의 관계를 만듭니다.
+title: 캔버스 앱의 조회 필드를 통해 SharePoint 목록 간의 관계 만들기 | Microsoft Docs
+description: PowerApps에서 캔버스 앱의 조회 필드를 사용하여 SharePoint 목록 간의 관계를 만듭니다.
 author: skjerland
 manager: kvivek
 ms.service: powerapps
@@ -9,17 +9,19 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 01/20/2017
 ms.author: sharik
-ms.openlocfilehash: 342fcc36fb8dba9cfaa42c94089329ad19501af8
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+ms.openlocfilehash: 9ad61bdf115a79fe8284dad520a2e9710a59648b
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39194946"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39470526"
 ---
-# <a name="how-to-link-sharepoint-lists-using-lookup-fields"></a>조회 필드를 사용하여 SharePoint 목록을 연결하는 방법
-이 자습서에서는 조회 필드와 두 개의 SharePoint 목록 연결할 수 있는 방법을 보여줍니다.
+# <a name="how-to-link-sharepoint-lists-using-a-lookup-field-in-powerapps"></a>PowerApps에서 조회 필드를 사용하여 SharePoint 목록을 연결하는 방법
+
+이 자습서에서는 캔버스 앱의 두 개의 SharePoint 목록을 조회 필드와 연결하는 방법을 보여줍니다.
 
 ## <a name="overview"></a>개요
+
 SharePoint에서는 두 가지 형식의 조회 필드를 제공합니다.
 
 * **조회**: 다른 목록에 연결합니다. 예를 들어 *주문* 목록에는 *고객* 목록의 고객에 연결되는 조회 필드가 있을 수 있습니다.
@@ -27,7 +29,8 @@ SharePoint에서는 두 가지 형식의 조회 필드를 제공합니다.
 
 이 자습서에서는 이러한 종류의 조회 필드를 사용하는 앱을 빌드합니다.
 
-### <a name="what-do-you-use-lookup-fields-for"></a>조회 필드는 어떤 용도로 사용하나요?
+### <a name="why-use-a-lookup-field"></a>조회 필드를 사용하는 이유
+
 엔터프라이즈의 데이터는 크고 복잡합니다. 한 SharePoint 목록의 데이터는 다른 목록의 데이터와 자주 관련됩니다. 조회 필드는 이러한 비즈니스 데이터를 함께 표시하는 기본 방법입니다.
 
 예를 들어 주문한 고객을 표시하기 위해 **고객** 목록에 연결된 조회 필드가 있는 **주문** 목록이 있을 수 있습니다. **Orders** 목록의 조회 필드를 통해 **고객** 목록에서 다른 데이터도 가져올 수 있습니다. 또한 조회 필드를 사용하여 **주문** 목록을 **제품** 목록에 연결하고, 제품 사진, 사양, 제조업체 세부 정보 등 주문한 제품에 대해 필요한 정보를 가져올 수 있습니다.

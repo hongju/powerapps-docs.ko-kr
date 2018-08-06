@@ -1,6 +1,6 @@
 ---
-title: 지원 센터 PowerApps 샘플 설치 및 구성 | Microsoft Docs
-description: 지원 센터 PowerApps 샘플 설치 및 구성에 대한 단계별 지침입니다.
+title: 캔버스 앱에 대한 지원 센터 샘플 설치 및 구성 | Microsoft Docs
+description: PowerApps에서 캔버스 앱에 대한 지원 센터 샘플 설치 및 구성하기 위한 단계별 지침입니다.
 author: caburk
 manager: kvivek
 ms.service: powerapps
@@ -9,24 +9,24 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 04/08/2018
 ms.author: caburk
-ms.openlocfilehash: 4ee281e211891dab812c4ae447dff3d967ffeff3
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+ms.openlocfilehash: 3d6b418ac6738071f16ec4cf75c81c2850d67f74
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195775"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39470411"
 ---
-# <a name="install-and-configure-the-help-desk-powerapps-sample"></a>지원 센터 PowerApps 샘플 설치 및 구성
+# <a name="install-and-configure-the-help-desk-sample-in-powerapps"></a>PowerApps에서 지원 센터 샘플 설치 및 구성
 
-지원 센터 PowerApps 샘플 설치 및 구성에 대한 단계별 지침입니다.
+PowerApps에서 캔버스 앱에 대한 지원 센터 샘플 설치 및 구성하기 위한 단계별 지침입니다.
 
 이 단계를 완료하는 데 소요되는 예상 시간: **10-15분**
 
 > [!TIP]
-> 이 프로세스의 데모를 보려면 이 [동영상](https://youtu.be/z4cdtD6hB_4)을 시청하세요.
+> 이 프로세스의 데모를 보려면 이 [비디오](https://youtu.be/z4cdtD6hB_4)를 시청하세요.
 
+## <a name="overview-of-the-sample"></a>샘플 개요
 
-## <a name="help-desk-powerapps-sample-overview"></a>지원 센터 PowerApps 샘플 개요
 지원 센터는 최종 사용자를 지원 전문가와 연결하는 사용자에게 친숙한 환경을 제공합니다. 신속하게 가장 중요한 질문에 대한 답변을 찾고 열려 있는 티켓의 진행 상황을 추적하고 이전 요청의 세부 정보를 검토하세요. 이 앱을 사용자에게 맞게 설정하려면 약간의 설정 작업이 필요합니다.
 
 ![지원 센터 PowerApp의 시작 화면](./media/help-desk-install/Login-screen.png)

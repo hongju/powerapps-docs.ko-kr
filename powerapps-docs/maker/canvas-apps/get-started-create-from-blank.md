@@ -1,5 +1,6 @@
 ---
-title: 처음부터 Excel 앱 만들기 | Microsoft Docs
+title: Excel 데이터를 기반으로 처음부터 캔버스 앱 만들기 | Microsoft Docs
+description: 이 자습서에서는 사용자가 Excel 파일에서 레코드를 생성, 편집 및 삭제할 수 있도록 두 화면 캔버스 앱을 만듭니다.
 author: AFTOwen
 manager: kvivek
 ms.service: powerapps
@@ -8,17 +9,19 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 04/23/2018
 ms.author: anneta
-ms.openlocfilehash: 330751210322190fddefb6c399025578bb9878b5
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+ms.openlocfilehash: dafd6e4aafdc8f4709d25b9de8e6b997665c3d4a
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195292"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39469847"
 ---
-# <a name="create-an-excel-app-from-scratch"></a>처음부터 Excel 앱 만들기
-표 형식의 Excel 데이터를 기반으로 처음부터 고유한 앱을 만들고 나서 원하는 경우 다른 원본의 데이터를 추가합니다. 이 자습서를 따라 두 화면을 포함하는 앱을 만듭니다. 한 화면에서 사용자는 일련의 레코드를 찾아볼 수 있습니다. 다른 화면에서 사용자는 한 레코드를 만들거나, 한 레코드에서 하나 이상의 필드를 업데이트하거나, 전체 레코드를 삭제할 수 있습니다. 이 접근 방식은 [앱을 자동으로 생성](get-started-create-from-data.md)하는 것보다 시간이 더 걸리지만 숙련된 앱 제작자는 이 방법으로 요구 사항에 맞는 최고의 앱을 빌드할 수 있습니다.
+# <a name="create-an-canvas-app-from-scratch-based-on-excel-data"></a>Excel 데이터를 기반으로 처음부터 캔버스 앱 만들기
+
+표 형식의 Excel 데이터를 기반으로 처음부터 고유한 캔버스 앱을 만든 다음, 원하는 경우 다른 원본의 데이터를 추가합니다. 이 자습서를 따라 두 화면을 포함하는 앱을 만듭니다. 한 화면에서 사용자는 일련의 레코드를 찾아볼 수 있습니다. 다른 화면에서 사용자는 한 레코드를 만들거나, 한 레코드에서 하나 이상의 필드를 업데이트하거나, 전체 레코드를 삭제할 수 있습니다. 이 접근 방식은 [앱을 자동으로 생성](get-started-create-from-data.md)하는 것보다 시간이 더 걸리지만 숙련된 앱 제작자는 이 방법으로 요구 사항에 맞는 최고의 앱을 빌드할 수 있습니다.
 
 ## <a name="prerequisites"></a>필수 조건
+
 이 자습서의 단계를 정확하게 수행하려면 먼저 이 샘플 데이터를 사용하여 Excel 파일을 만듭니다.
 
 1. 이 데이터를 복사한 다음 Excel 파일에 붙여넣습니다.

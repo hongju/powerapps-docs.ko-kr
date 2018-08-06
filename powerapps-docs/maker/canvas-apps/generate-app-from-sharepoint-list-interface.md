@@ -1,6 +1,6 @@
 ---
-title: SharePoint 목록 내에서 앱 생성 | Microsoft Docs
-description: 사이트가 온-프레미스에 있거나 클라우드에 있을 때 SharePoint 목록 내에서 항목을 관리하는 세 화면 앱을 생성합니다.
+title: SharePoint 목록 내에서 캔버스 앱 생성 | Microsoft Docs
+description: 사이트가 온-프레미스에 있거나 클라우드에 있을 때 SharePoint 목록 내에서 항목을 관리하는 세 화면 캔버스 앱을 생성합니다.
 author: AFTOwen
 manager: kvivek
 ms.service: powerapps
@@ -9,16 +9,16 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 03/18/2018
 ms.author: anneta
-ms.openlocfilehash: 46cf610351cf00d8d947c4006c31a3d5971951d0
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 9230c96c1b1c5e07ea5129f73a8edd95772aad84
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39022466"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39471423"
 ---
-# <a name="generate-an-app-from-within-sharepoint-using-powerapps"></a>PowerApps를 사용하여 SharePoint 내에서 앱 생성
+# <a name="generate-a-canvas-app-from-within-sharepoint-by-using-powerapps"></a>PowerApps를 사용하여 SharePoint 내에서 캔버스 앱 생성
 
-PowerApps에서는 사용자가 사용자 지정 SharePoint Online 목록의 항목을 관리할 수 있는 앱이 자동으로 생성됩니다. 앱에는 사용자가 다음을 수행할 수 있는 세 개의 화면이 있습니다.
+PowerApps에서는 사용자가 사용자 지정 SharePoint Online 목록의 항목을 관리할 수 있는 캔버스 앱이 자동으로 생성됩니다. 앱에는 사용자가 다음을 수행할 수 있는 세 개의 화면이 있습니다.
 
 * 목록에서 모든 레코드 찾아보기(**BrowseScreen1**)
 * 특정 레코드에 대한 모든 필드 보기(**DetailsScreen1**)

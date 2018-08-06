@@ -1,6 +1,6 @@
 ---
-title: 데이터 원본 이해 | Microsoft Docs
-description: Microsoft PowerApps 연결 및 데이터 원본 작업에 대한 참조 정보입니다.
+title: 캔버스 앱에 대한 데이터 원본 이해 | Microsoft Docs
+description: 캔버스 앱의 연결 및 데이터 원본 작업에 대한 참조 정보.
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -9,29 +9,33 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 03/08/2017
 ms.author: gregli
-ms.openlocfilehash: d8fd771d9407d0ca2601471a06c727b16a751f2a
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: a4dd3d2d21aa8e4f8501c9bc9812ba6658683f03
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39020889"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39470388"
 ---
-# <a name="understand-data-sources-in-powerapps"></a>PowerApps 데이터 원본에 대한 이해
-대부분의 PowerApps 앱에서는 **데이터 원본**이라는 클라우드 서비스에 저장된 외부 정보를 사용합니다. 일반적인 예로 비즈니스용 OneDrive에 저장된 Excel 파일의 테이블이 있습니다. 앱에서 **연결**을 사용하여 이러한 데이터 원본에 액세스합니다.
+# <a name="understand-data-sources-for-canvas-apps-in-powerapps"></a>PowerApps에서 캔버스 앱에 대한 데이터 원본 이해
+
+PowerApps에서 대부분의 캔버스 앱은 **데이터 원본**이라는 클라우드 서비스에 저장된 외부 정보를 사용합니다. 일반적인 예로 비즈니스용 OneDrive에 저장된 Excel 파일의 테이블이 있습니다. 앱에서 **연결**을 사용하여 이러한 데이터 원본에 액세스합니다.
 
 이 문서에서는 다양한 종류의 데이터 원본 및 테이블 데이터 원본을 사용하는 방법에 대해 설명합니다.
 
 데이터 원본에 대한 기본 읽기 및 쓰기를 수행하는 앱을 만드는 것은 쉽습니다. 하지만 때로는 데이터가 앱 내/외부로 흐르는 방식을 더 자세히 제어하려는 경우가 있습니다.  이 문서에서는 **[Patch](functions/function-patch.md)**, **[DataSourceInfo](functions/function-datasourceinfo.md)**, **[Validate](functions/function-validate.md)** 및 **[Errors](functions/function-errors.md)** 함수에서 더 많은 컨트롤을 제공하는 방법에 대해 설명합니다.
 
 ## <a name="kinds-of-data-sources"></a>데이터 원본의 종류
+
 데이터 원본은 클라우드 서비스에 연결되거나 앱에 로컬로 연결될 수 있습니다.
 
 ### <a name="connected-data-sources"></a>연결된 데이터 원본
-가장 일반적인 데이터 원본은 정보를 검색하고 저장하는 데 사용할 수 있는 **테이블**입니다. 데이터 원본에 대한 **연결**을 사용하여 비즈니스용 OneDrive, DropBox, SQL Server 등과 같은 클라우드 서비스에 저장할 수 있는 Microsoft Excel 통합 문서, SharePoint 목록, SQL 테이블 및 다른 많은 형식의 데이터를 읽고 쓸 수 있습니다.
+
+가장 일반적인 데이터 원본은 정보를 검색하고 저장하는 데 사용할 수 있는 **테이블**입니다. 데이터 원본에 대한 **연결**을 사용하여 데이터를 비즈니스용 OneDrive, DropBox 및 SQL Server와 같은 클라우드 서비스에 저장할 수 있는 Microsoft Excel 통합 문서, SharePoint 목록, SQL 테이블 및 다른 많은 형식으로 읽고 쓸 수 있습니다.
 
 테이블 이외의 데이터 원본으로 전자 메일, 캘린더, Twitter 및 알림이 포함되지만, 이 문서에서는 이러한 다른 종류의 데이터 원본은 설명하지 않습니다.
 
 ### <a name="local-data-sources"></a>로컬 데이터 원본
+
 **[갤러리](controls/control-gallery.md)**, **[표시 양식](controls/control-form-detail.md)** 및 **[편집 양식](controls/control-form-detail.md)** 컨트롤을 사용하면 데이터 원본의 데이터를 읽고 쓰는 앱을 쉽게 만들 수 있습니다.  시작하려면 [데이터 양식 이해](working-with-forms.md) 문서를 참조하세요.  
 
 데이터에서 앱을 만들도록 PowerApps에 요청할 때 이러한 컨트롤이 사용됩니다. 내부적으로 앱은 내부 테이블을 사용하여 데이터 원본에서 제공되는 데이터를 저장하고 조작합니다.
@@ -39,6 +43,7 @@ ms.locfileid: "39020889"
 특별한 종류의 데이터 원본으로 [컬렉션](working-with-data-sources.md#collections)이 있습니다. 이는 클라우드의 서비스에 대한 연결로 지원되지 않고 로컬로 앱에 연결되므로, 동일한 사용자 또는 다른 사용자의 장치 간에 정보를 공유할 수 없습니다. 컬렉션은 로드하고 로컬에 저장할 수 있습니다.
 
 ### <a name="kinds-of-tables"></a>테이블의 종류
+
 PowerApps 앱의 내부에 있는 테이블은 숫자 또는 문자열이 값일 때와 마찬가지로 고정된 값입니다. 내부 테이블은 어디에도 저장되지 않고 앱의 메모리에만 존재합니다. 테이블의 구조와 데이터는 직접 수정할 수 없습니다. 대신 수식을 통해 새 테이블을 만들 수 있습니다. 이 수식을 사용하여 원본 테이블의 수정된 복사본을 만듭니다.
 
 외부 테이블은 나중의 검색 및 공유를 위해 데이터 원본에 저장됩니다.  PowerApps는 저장된 데이터를 읽고 쓰는 "연결"을 제공합니다.  연결 내에서 여러 정보 테이블에 액세스할 수 있습니다.  앱에서 사용할 테이블을 선택하고 각 테이블은 별도의 '데이터 원본'이 됩니다.  

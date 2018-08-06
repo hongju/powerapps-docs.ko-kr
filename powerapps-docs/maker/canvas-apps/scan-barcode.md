@@ -1,5 +1,5 @@
 ---
-title: 바코드 스캔 | Microsoft Docs
+title: 캔버스 앱에서 바코드 스캔 | Microsoft Docs
 description: UPC 및 Codabar와 같은 다양한 유형의 바코드를 스캔합니다.
 author: AFTOwen
 manager: kvivek
@@ -9,19 +9,21 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 10/23/2016
 ms.author: anneta
-ms.openlocfilehash: befc72b875f7876bc0f9f907a094f0d97314c03c
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 631277dc533d9792f08bf6a94bf9c345889c6795
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39023324"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39470595"
 ---
 # <a name="scan-a-barcode-in-powerapps"></a>PowerApps에서 바코드 스캔
-앱을 만들고, 카메라가 있는 휴대폰과 같은 장치에서 이 앱을 실행하여 여러 유형의 바코드를 스캔합니다. 바코드에 해당하는 숫자는 **레이블** 컨트롤에 표시되며, 해당 데이터를 다양한 [데이터 원본](connections-list.md)에 업로드할 수 있습니다.
+
+캔버스 앱을 만들고, 카메라가 있는 휴대폰과 같은 장치에서 이 앱을 실행하여 여러 유형의 바코드를 스캔합니다. 바코드에 해당하는 숫자는 **레이블** 컨트롤에 표시되며, 해당 데이터를 다양한 [데이터 원본](connections-list.md)에 업로드할 수 있습니다.
 
 PowerApps에 익숙하지 않으면 [시작](getting-started.md)을 참조하세요.
 
 ## <a name="known-limitations"></a>알려진 제한 사항
+
 * 바코드의 높이는 1"(2.5cm), 너비는 1.5"(4cm) 이상이어야 합니다.
 * 휴대폰을 사용하여 바코드를 스캔하려면 세로 방향으로 잡고 바코드에서 7"(18cm)에서 10"(25cm) 정도 떨어진 위치로 천천히 이동합니다.
 * 긴 바코드 유형(예: I2of5 - 15자 이상 포함 가능)은 잘리거나 그렇지 않으면 잘못된 결과(특히 바코드가 명확하게 인쇄되지 않는 경우)가 발생할 수 있습니다.

@@ -1,6 +1,6 @@
 ---
-title: 스크롤 화면 추가 | Microsoft Docs
-description: 화면이 한 번에 표시할 수 있는 것보다 더 많은 유형의 콘텐츠를 표시하도록 사용자가 스크롤할 수 있는 화면을 만듭니다.
+title: 캔버스 앱에 스크롤 화면 추가 | Microsoft Docs
+description: PowerApps에서 캔버스 앱에 화면이 한 번에 표시할 수 있는 것보다 더 많은 유형의 콘텐츠를 표시하도록 사용자가 스크롤할 수 있는 화면을 만듭니다.
 author: lonu
 manager: kvivek
 ms.service: powerapps
@@ -9,24 +9,27 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 10/25/2016
 ms.author: lonu
-ms.openlocfilehash: 4a8b92e012f9669f2b445ef864d3360ef42fbc01
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 742710a3814c87d9888e70cb50c635dddab904d1
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39015987"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39471262"
 ---
-# <a name="add-a-scrolling-screen-in-powerapps"></a>PowerApps에서 스크롤 화면 추가
-다른 항목을 표시하도록 사용자가 스크롤할 수 있는 화면을 만듭니다. 예를 들어 세로 막대형 차트와 꺾은선형 차트로 데이터를 표시하는 앱을 만들고자 할 수도 있습니다. 스크롤 화면을 추가하면 사용자가 스크롤하여 표시할 수 있는 여러 개의 컨트롤을 추가할 수 있습니다.
+# <a name="add-a-scrolling-screen-to-a-canvas-app-in-powerapps"></a>PowerApps의 캔버스 앱에 스크롤 화면 추가
+
+캔버스 앱에서 사용자가 스크롤하여 다른 항목을 표시할 수 있는 화면을 만듭니다. 예를 들어, 사용자가 스크롤하여 표시할 수 있는 여러 차트의 데이터를 표시하는 전화 앱을 만듭니다.
 
 이 섹션에서 여러 컨트롤을 추가하는 경우 휴대폰 앱이든 태블릿 앱이든 상관 없이 컨트롤은 해당 섹션 내 관련 있는 위치를 유지합니다. 화면 크기와 방향에 따라 섹션이 정렬되는 방식이 결정될 수 있습니다.  
 
 [!INCLUDE [app-customization-requirements](../../includes/app-customization-requirements.md)]
 
 ## <a name="create-a-scrolling-screen"></a>스크롤 화면 만들기
+
 1. **홈** 탭에서 **새 화면**을 클릭하거나 탭합니다.
-   
+
     ![앱에 화면을 추가하는 옵션][1]
+
 2. **홈** 탭에서 **레이아웃**을 클릭하거나 탭한 다음, 무한 스크롤 캔버스를 추가하는 옵션을 클릭하거나 탭합니다.  
    
     ![무한 스크롤 캔버스를 추가하는 옵션][2]

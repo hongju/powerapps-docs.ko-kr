@@ -1,28 +1,28 @@
 ---
-title: 환경을 만드는 빠른 시작 | Microsoft Docs
+title: 환경 만들기 | Microsoft Docs
 description: 이 빠른 시작에서는 환경을 만드는 방법을 배웁니다.
 author: jimholtz
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: quickstart
 ms.date: 03/21/2018
-ms.author: jimh
-ms.openlocfilehash: 857c080ff3b8205b9c74099954cd5156697deb77
-ms.sourcegitcommit: 26932abc6fcdc5e6723b64b506532bb182ab3f8d
+ms.author: jimholtz
+ms.openlocfilehash: eefcd30e4f5e6ec7441147c157cbb46864ebf718
+ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "37026214"
+ms.lasthandoff: 07/30/2018
+ms.locfileid: "39349251"
 ---
-# <a name="quickstart-create-an-environment"></a>빠른 시작: 환경 만들기
+# <a name="create-an-environment"></a>환경 만들기
 환경은 조직의 비즈니스 데이터, 앱 및 흐름을 저장, 관리 및 공유하는 공간입니다. 또한 각기 다른 역할, 보안 요구 사항 또는 대상 그룹에 따라 앱을 구분하는 컨테이너 기능도 제공합니다. PowerApps는 자동으로 각 테넌트의 단일 기본 환경을 만들며, 이 환경은 해당 테넌트의 모든 사용자 간에 공유됩니다.
 
 모든 환경에는 앱에 대한 저장소를 제공하는 0개 또는 1개의 Common Data Service 데이터베이스가 있습니다. 사용자가 환경에서 앱을 만들면 해당 앱은 연결, 게이트웨이 및 흐름을 포함한 모든 데이터 원본에 연결할 수 있습니다. 그러나 앱이 동일한 환경의 Common Data Service 데이터베이스에 연결하는 것만 허용됩니다. 환경 활용을 선택하는 방식은 해당 조직 및 빌드하려는 앱에 따라 달라집니다. 자세한 내용은 [환경 개요](environments-overview.md)를 참조하세요.
 
-이 빠른 시작에서는 환경을 만들고 해당 환경에 사용할 데이터베이스를 만드는 방법을 배웁니다.
+이 항목에서는 환경을 만들고 해당 환경에 사용할 데이터베이스를 만드는 방법을 알아봅니다.
 
 ## <a name="prerequisites"></a>필수 조건
- 이 빠른 시작을 수행하려면 다음 항목이 필요합니다.
+ 이 항목을 수행하려면 다음 항목이 필요합니다.
  * PowerApps 요금제 2 또는 Microsoft Flow 요금제 2 라이선스. 또는 [평가판 PowerApps 계획 2](https://web.powerapps.com/signup?redirect=marketing&email=)에 등록할 수 있습니다.
  * PowerApps 환경 관리자, Office 365 전역 관리자 또는 Azure Active Directory 테넌트 관리자 권한이 필요합니다. 자세한 내용은 [PowerApps에서 환경 관리](environments-administration.md)를 참조하세요.
 
@@ -38,6 +38,8 @@ ms.locfileid: "37026214"
     ![파일 및 공유](./media/create-environment/new-environment-dialog.png)
 3. 환경이 만들어지면 대화 상자에 확인 메시지가 표시되고 데이터베이스를 만들라는 메시지가 나타납니다. Common Data Service에 액세스할 수 있도록 **데이터베이스 만들기**를 클릭하거나 탭합니다.
 
+    **참고:** 현재는 Azure Active Directory 테넌트 홈 지역에만 데이터베이스를 만들 수 있습니다.
+
     ![파일 및 공유](./media/create-environment/create-database-dialog.png)
 4. 데이터베이스에 저장된 데이터의 통화 및 언어를 선택합니다. 데이터베이스를 만든 후에는 통화 또는 언어를 변경할 수 없습니다. 작업을 마쳤으면 **데이터베이스 만들기**를 클릭하거나 탭합니다.
 
@@ -50,7 +52,7 @@ ms.locfileid: "37026214"
     환경 세부 정보를 보려면 환경을 클릭하거나 탭합니다.
 
 ## <a name="next-steps"></a>다음 단계
-이 빠른 시작에서는 환경을 만들고 해당 환경에 사용할 데이터베이스를 만드는 방법을 배웠습니다. 다음으로, 조직의 환경을 관리하는 방법을 알아봅니다.
+이 항목에서는 환경을 만들고 해당 환경에 사용할 데이터베이스를 만드는 방법을 배웠습니다. 다음으로, 조직의 환경을 관리하는 방법을 알아봅니다.
 
 > [!div class="nextstepaction"]
 > [PowerApps에서 환경 관리](environments-administration.md)

@@ -1,6 +1,6 @@
 ---
-title: 목록 상자, 드롭다운 목록 및 라디오 단추 추가 | Microsoft Docs
-description: PowerApps에서 다중 선택 옵션 만들기 또는 구성
+title: 캔버스 앱에 목록 상자, 드롭다운 목록 및 라디오 단추 추가 | Microsoft Docs
+description: PowerApps에서 캔버스 앱에 다중 선택 옵션 만들기 또는 구성
 author: lonu
 manager: kvivek
 ms.service: powerapps
@@ -9,19 +9,21 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 10/23/2016
 ms.author: lonu
-ms.openlocfilehash: ecdd1cc5aa9ccbad7c2973f8ad899b213dcd96f3
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: b4988157a8f194f7b1148cff79de1b5ce44add14
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39023830"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39471032"
 ---
-# <a name="add-a-list-box-a-drop-down-list-or-radio-buttons"></a>목록 상자, 드롭다운 목록 또는 라디오 단추 추가
-PowerApps에는 목록 상자, 드롭다운 목록 및 라디오 단추를 포함하는 다중 선택 및 단일 선택 옵션이 포함되어 있습니다. 이 토픽에서는 이러한 컨트롤을 추가하고 **테이블** 수식을 사용하여 목록을 빌드합니다. 목록에서 항목을 선택하면 다른 컨트롤을 업데이트합니다.
+# <a name="add-a-list-box-a-drop-down-list-or-radio-buttons-to-a-canvas-app-in-powerapps"></a>PowerApps의 캔버스 앱에 목록 상자, 드롭다운 목록 및 라디오 단추 추가 | Microsoft Docs
+
+PowerApps에는 목록 상자, 드롭다운 목록 및 라디오 단추를 포함하는 캔버스 앱에 대한 다중 선택 및 단일 선택 옵션이 포함되어 있습니다. 이 토픽에서는 이러한 컨트롤을 추가하고 **테이블** 수식을 사용하여 목록을 빌드합니다. 목록에서 항목을 선택하면 다른 컨트롤을 업데이트합니다.
 
 [!INCLUDE [app-customization-requirements](../../includes/app-customization-requirements.md)]
 
 ## <a name="add-a-list-box"></a>목록 상자 추가
+
 1. **삽입** 탭에서 **컨트롤**을 선택한 다음 **목록 상자**를 선택합니다.  
 
     ![][2]  

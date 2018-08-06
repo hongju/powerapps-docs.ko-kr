@@ -1,6 +1,6 @@
 ---
-title: 변수 이해 | Microsoft Docs
-description: 상태, 컨텍스트 변수 및 컬렉션 작업에 대한 참조 정보입니다.
+title: 캔버스 앱의 변수 이해 | Microsoft Docs
+description: 캔버스 앱의 상태, 컨텍스트 변수 및 컬렉션 작업에 대한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 07/06/2017
 ms.author: gregli
-ms.openlocfilehash: b5986c927b75ed7a6e38af913cbfb9877121d0a5
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: db7e770b2f2e7fa974dbf25a7a7fecf5b8229aa9
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39017827"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39469928"
 ---
-# <a name="understand-variables-in-powerapps"></a>PowerApps 변수에 대한 이해
-Visual Basic 또는 JavaScript와 같은 다른 프로그래밍 도구를 사용한 경우 **변수가 어디에 있나요?** 라고 물어볼 수 있습니다. PowerApps는 약간 다르며 다른 접근 방식이 필요합니다. 변수에 도달하는 대신 자신에게 **Excel에서 무엇을 할 수 있나요?** 라고 물어보세요.
+# <a name="understand-canvas-app-variables-in-powerapps"></a>PowerApps에서 캔버스 앱 변수 이해
+
+Visual Basic 또는 JavaScript와 같은 다른 프로그래밍 도구를 사용한 경우 **변수가 어디에 있나요?** 라고 물어볼 수 있습니다. PowerApps는 약간 다르며 다른 접근 방식이 필요합니다. 캔버스 앱을 빌드할 때 변수에 도달하는 대신 자신에게 **Excel에서 무엇을 할 수 있나요?** 라고 물어보세요.
 
 다른 도구에서는 명시적으로 계산을 수행하여 결과를 변수에 저장했습니다. 그러나 PowerApps와 Excel에서는 모두 입력 데이터가 변경될 때 수식을 자동으로 다시 계산하므로 일반적으로 변수를 만들고 업데이트할 필요가 없습니다. 가능한 경우 언제든지 이 방법을 사용하면 앱을 더 쉽게 만들고, 이해하고, 유지 관리할 수 있습니다.
 
@@ -26,6 +27,7 @@ Visual Basic 또는 JavaScript와 같은 다른 프로그래밍 도구를 사용
 일반적으로 변수를 사용하지 마세요. 그러나 때로는 변수만 사용하여 원하는 환경을 설정할 수 있습니다.
 
 ## <a name="translate-excel-into-powerapps"></a>Excel을 PowerApps로 변환
+
 ### <a name="excel"></a>Excel
 Excel의 작동 원리를 검토해 보겠습니다. 셀에는 숫자 또는 문자열과 같은 값 또는 다른 셀의 값을 기반으로 하는 수식이 포함될 수 있습니다. 사용자가 셀에 다른 값을 입력하면 Excel에서는 새 값에 종속된 모든 수식을 자동으로 다시 계산합니다. 이 동작을 프로그래밍하여 사용하도록 설정할 필요가 없습니다.
 

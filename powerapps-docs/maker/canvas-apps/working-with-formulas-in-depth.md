@@ -1,6 +1,6 @@
 ---
-title: 동작 수식 이해 | Microsoft Docs
-description: 동작 수식 작업에 대한 참조 정보
+title: 캔버스 앱의 동작 수식 이해 | Microsoft Docs
+description: PowerApps에서 캔버스 앱의 상태를 변경하는 동작 수식 작업에 대한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -9,17 +9,18 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 11/10/2015
 ms.author: gregli
-ms.openlocfilehash: 8ac9cfc2a949cf059d84b5338220e0366094e24b
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: e0e7aabc06014c69aae640b799463431b6800dad
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39015596"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39471469"
 ---
-# <a name="understand-behavior-formulas-in-powerapps"></a>PowerApps 동작 수식에 대한 이해
+# <a name="understand-behavior-formulas-for-canvas-apps-in-powerapps"></a>PowerApps의 캔버스 앱에 대한 동작 수식 이해
 
 대부분의 수식은 값을 계산합니다.  Excel 스프레드시트와 마찬가지로 값이 변경될 때마다 다시 계산이 자동으로 수행됩니다.  예를 들어 **[레이블](controls/control-text-box.md)** 컨트롤의 값은 0보다 작으면 빨간색으로 표시하고, 그렇지 않으면 검정색으로 표시할 수 있습니다. 따라서 해당 컨트롤의 **[Color](controls/properties-color-border.md)** 속성을 다음 수식으로 설정할 수 있습니다.
-<br>**If( Value(TextBox1.Text) >= 0, Color.Black, Color.Red )**
+
+**If( Value(TextBox1.Text) >= 0, Color.Black, Color.Red )**
 
 이 컨텍스트에서 사용자가 **[단추](controls/control-button.md)** 컨트롤을 선택하는 경우 어떤 의미가 있을까요?  값이 변경되지 않았으므로 계산할 새 항목은 없습니다. Excel에는 **[단추](controls/control-button.md)** 컨트롤에 해당하는 함수가 없습니다.  
 

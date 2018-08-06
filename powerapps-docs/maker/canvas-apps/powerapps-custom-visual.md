@@ -1,6 +1,6 @@
 ---
 title: Power BI용 PowerApps 사용자 지정 시각적 개체 | Microsoft Docs
-description: 동일한 데이터 원본을 사용하고 Power BI에서 다른 보고서 항목 등을 필터링할 수 있는 앱 포함에 대한 절차 및 제한 사항
+description: 동일한 데이터 원본을 사용하고 Power BI에서 다른 보고서 항목 등을 필터링할 수 있는 캔버스 앱 포함에 대한 절차 및 제한 사항
 author: mgblythe
 manager: kvivek
 ms.service: powerapps
@@ -9,16 +9,16 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 03/15/2018
 ms.author: mblythe
-ms.openlocfilehash: 8e50763f11d04db4e9c8e0a6a6ae8ff316bc185a
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 0da480a482415ad174f10204f14f31adbd3607f2
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39015895"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39469997"
 ---
 # <a name="powerapps-custom-visual-for-power-bi"></a>Power BI용 PowerApps 사용자 지정 시각적 개체
 
-Power BI는 데이터 통찰력 및 더 나은 의사 결정을 가능하게 하고, PowerApps를 통해 모든 사용자는 비즈니스 데이터에 연결하는 앱을 빌드 및 사용할 수 있습니다. PowerApps 사용자 지정 시각적 개체를 사용하여 PowerApps 앱에 컨텍스트 인식 데이터를 전달할 수 있으며 이를 통해 보고서에 변경 사항을 만들 때마다 실시간으로 업데이트합니다. 이제 앱 사용자는 비즈니스 통찰력을 파생하고 Power BI 보고서 및 대시보드 내에서 즉시 작업을 수행할 수 있습니다.
+Power BI는 데이터 통찰력 및 더 나은 의사 결정을 가능하게 하고, PowerApps를 통해 모든 사용자는 비즈니스 데이터에 연결하는 앱을 빌드 및 사용할 수 있습니다. PowerApps 사용자 지정 시각적 개체를 사용하여 캔버스 앱에 컨텍스트 인식 데이터를 전달할 수 있으며 이를 통해 보고서에 변경 사항을 만들 때마다 실시간으로 업데이트합니다. 이제 앱 사용자는 비즈니스 통찰력을 파생하고 Power BI 보고서 및 대시보드 내에서 즉시 작업을 수행할 수 있습니다.
 
 ## <a name="using-the-powerapps-custom-visual"></a>PowerApps 사용자 지정 시각적 개체 사용
 

@@ -1,25 +1,25 @@
 ---
-title: 테넌트의 활성 사용자 목록을 다운로드하는 빠른 시작 | Microsoft Docs
+title: 테넌트의 활성 사용자 목록 다운로드 | Microsoft Docs
 description: 이 빠른 시작에서는 테넌트의 활성 사용자 목록을 다운로드하는 방법을 알아봅니다.
 author: jimholtz
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: quickstart
 ms.date: 03/21/2018
-ms.author: jimh
-ms.openlocfilehash: 1488b0231009ef3dd3b0b93e21a14a61f3d1c3cd
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.author: jimholtz
+ms.openlocfilehash: e2c00f4ab10b2dc6cecc63d9539ffcf86a5bfcb8
+ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34552487"
+ms.lasthandoff: 07/30/2018
+ms.locfileid: "39348860"
 ---
-# <a name="quickstart-download-a-list-of-active-users-in-your-tenant"></a>빠른 시작: 테넌트의 활성 사용자 목록 다운로드
+# <a name="download-a-list-of-active-users-in-your-tenant"></a>테넌트의 활성 사용자 목록 다운로드
 365 전역 관리자 또는 Azure Active Directory 테넌트 관리자인 경우 테넌트의 활성 사용자 목록을 다운로드할 수 있으므로 PowerApps, Microsoft Flow 또는 둘 모두에 액세스한 사용자뿐 아니라 해당 사용자에게 할당된 라이선스까지 볼 수 있습니다.
 
-이 빠른 시작에서는 활성 사용자 목록을 .csv 파일로 다운로드한 후 Excel에서 목록을 보는 방법을 알아봅니다.
+이 항목에서는 활성 사용자 목록을 .csv 파일로 다운로드한 다음, Excel에서 목록을 보는 방법을 알아봅니다.
 
-이 빠른 시작을 수행하려면 Office 365 전역 관리자 또는 Azure Active Directory 테넌트 관리자 권한이 필요합니다.
+이 단계를 수행하려면 Office 365 글로벌 관리자 또는 Azure Active Directory 테넌트 관리자 권한이 필요합니다.
 
 ## <a name="sign-in-to-the-powerapps-admin-center"></a>PowerApps 관리 센터에 로그인
 [https://admin.powerapps.com]([https://admin.powerapps.com)에서 관리 센터에 로그인합니다.
@@ -45,7 +45,7 @@ ms.locfileid: "34552487"
 사용자 라이선스를 추가하려면 [Office 365 관리 센터](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc)를 엽니다.
 
 ## <a name="next-steps"></a>다음 단계
-이 빠른 시작에서는 테넌트의 활성 사용자 목록을 다운로드하는 방법을 배웠습니다. 환경에 만들어진 앱 목록을 다운로드하여 보는 방법을 알아보려면 그 다음 빠른 시작을 계속 진행하세요.
+이 항목에서는 테넌트의 활성 사용자 목록을 다운로드하는 방법을 배웠습니다. 환경에 만들어진 앱 목록을 다운로드하여 보는 방법을 알아보려면 그 다음 항목을 계속 진행하세요.
 
 > [!div class="nextstepaction"]
 > [환경에 만들어진 앱 목록 다운로드](admin-view-apps.md)

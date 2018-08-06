@@ -1,6 +1,6 @@
 ---
-title: 양식 이해 | Microsoft Docs
-description: 양식을 사용하여 데이터 원본에서 정보를 수집하고 표시합니다.
+title: 캔버스 앱 양식 이해 | Microsoft Docs
+description: PowerApps에서 캔버스 앱에 양식을 추가하면 데이터 원본에서 정보를 수집하고 표시할 수 있습니다.
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 04/27/2016
 ms.author: gregli
-ms.openlocfilehash: b2eb001ee426dc3449b440a357c67bc47b702d42
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+ms.openlocfilehash: c7bd68f37cc469b054a75012d4166c05375db6ff
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195752"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39470250"
 ---
-# <a name="understand-data-forms-in-microsoft-powerapps"></a>Microsoft PowerApps 데이터 양식에 대한 이해
-세 가지 유형의 컨트롤을 추가하여 사용자가 레코드를 찾아보고, 해당 레코드에 대한 세부 정보를 표시하고, 레코드를 편집하거나 만들 수 있습니다.
+# <a name="understand-canvas-app-forms-in-microsoft-powerapps"></a>Microsoft PowerApps의 캔버스 앱 양식 이해
+
+캔버스 앱에 세 가지 유형의 컨트롤을 추가하여 사용자가 레코드를 찾아보고, 해당 레코드에 대한 세부 정보를 표시하고, 레코드를 편집하거나 만들 수 있습니다.
 
 | 작업 | 컨트롤 | 설명 |
 | --- | --- | --- |

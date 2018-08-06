@@ -1,6 +1,6 @@
 ---
 title: 엔터프라이즈 개발자, 파트너 및 ISV용 PowerApps | Microsoft Docs
-description: PowerApps에서 솔루션을 개발하는 지침입니다.
+description: PowerApps에서 솔루션 개발에 대한 소개.
 author: mgblythe
 manager: kvivek
 ms.service: powerapps
@@ -9,16 +9,16 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 05/01/2017
 ms.author: mblythe
-ms.openlocfilehash: 79f0e852b62c41267224a2b3289b24fec65583a2
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 81949441e8fbb7881d21820e8bd4d5d790648fc2
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39023853"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39470825"
 ---
 # <a name="powerapps-for-enterprise-developers-partners-and-isvs"></a>엔터프라이즈 개발자, 파트너 및 ISV용 PowerApps
 
-개발자로서 PowerApps를 확장하면 조직 및 고객에 대해 훨씬 더 강력한 솔루션을 사용하도록 설정할 수 있습니다.
+개발자로서 PowerApps에서 캔버스 앱을 확장하면 조직 및 고객을 위한 더 강력한 솔루션을 사용하도록 설정할 수 있습니다.
 
 ## <a name="powerapps-for-enterprise-developers"></a>엔터프라이즈 개발자용 PowerApps
 

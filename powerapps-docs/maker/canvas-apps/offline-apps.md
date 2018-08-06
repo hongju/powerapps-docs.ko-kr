@@ -1,6 +1,6 @@
 ---
-title: 오프라인에서 사용 가능한 앱 개발 | Microsoft Docs
-description: 온라인에 있든 오프라인에 있든 사용자 생산성을 유지할 수 있도록 오프라인에서 사용 가능한 앱을 개발합니다.
+title: 오프라인에서 사용 가능한 캔버스 앱 개발 | Microsoft Docs
+description: 온라인에 있든 오프라인에 있든 사용자 생산성을 유지할 수 있도록 오프라인에서 사용 가능한 캔버스 앱을 개발합니다.
 author: mgblythe
 manager: kvivek
 ms.service: powerapps
@@ -9,22 +9,24 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 05/09/2017
 ms.author: mblythe
-ms.openlocfilehash: cb2ed2404f7270367b3a26bf8eccb733b09fee23
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 9035809f989ad4b0215d4a8eba5d693d145b7f66
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39023140"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39471216"
 ---
-# <a name="develop-offline-capable-apps-with-powerapps"></a>PowerApps를 사용하여 오프라인에서 사용 가능한 앱 개발
-모바일 앱 개발자 권한으로 직면하는 가장 일반적인 시나리오 중 하나는 제한된 연결 또는 연결되지 않았을 때 사용자가 생산성을 사용해야 하는 경우입니다. PowerApps에는 오프라인에서 사용 가능한 앱을 개발하는 데 도움이 되는 기능 및 동작의 집합이 있습니다. 다음이 가능합니다.
+# <a name="develop-offline-capable-canvas-apps-with-powerapps"></a>PowerApps를 사용하여 오프라인에서 사용 가능한 캔버스 앱 개발
 
-* 오프라인에서 PowerApps 모바일 앱을 시작합니다.
+모바일 앱 개발자 권한으로 직면하는 가장 일반적인 시나리오 중 하나는 제한된 연결 또는 연결되지 않았을 때 사용자가 생산성을 사용해야 하는 경우입니다. PowerApps에는 오프라인에서 사용 가능한 캔버스 앱을 개발하는 데 도움이 되는 기능 및 동작의 집합이 있습니다. 다음이 가능합니다.
+
+* 오프라인 상태에서 PowerApps Mobile을 시작합니다.
 * 오프라인에서 개발한 앱을 실행합니다.
 * [연결](../canvas-apps/functions/signals.md#connection) 신호 개체를 사용하여 앱이 오프라인 상태인지, 온라인 상태인지, 요금제 연결인지를 확인합니다.
 * [컬렉션](../canvas-apps/create-update-collection.md)을 사용하고 오프라인에서 기본 데이터 저장소에 [LoadData 및 SaveData](../canvas-apps/functions/function-savedata-loaddata.md)와 같은 기능을 활용합니다.
 
 ## <a name="how-to-build-offline-capable-apps"></a>오프라인에서 사용 가능한 앱을 빌드하는 방법
+
 오프라인 시나리오에서 가장 먼저 고려할 점은 앱에서 데이터를 사용하는 방법입니다. PowerApps의 앱은 주로 SharePoint, Office 365 및 Common Data Service와 같이 플랫폼에서 제공하는 [커넥터](../canvas-apps/connections-list.md)의 집합을 통해 데이터에 액세스합니다. 앱이 RESTful 끝점을 제공하는 모든 서비스에 액세스할 수 있도록 사용자 지정 커넥터를 빌드할 수 있습니다. Web API 또는 Azure Functions와 같은 서비스일 수 있습니다. 이러한 모든 커넥터는 인터넷을 통해 HTTPS를 사용합니다. 즉, 사용자가 서비스에서 제공하는 데이터 및 모든 기능에 액세스하려면 온라인 상태여야 합니다.
 
 ![커넥터를 포함하는 PowerApps 앱](./media/offline-apps/online-app.png)

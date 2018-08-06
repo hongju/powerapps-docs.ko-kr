@@ -1,6 +1,6 @@
 ---
-title: 날짜/시간 텍스트 표시 및 형식 지정 | Microsoft Docs
-description: PowerApps를 사용하여 날짜 및 시간을 추가하고 형식을 지정합니다.
+title: 캔버스 앱에 텍스트, 날짜 및 시간 표시 | Microsoft Docs
+description: PowerApps에서 캔버스 앱에 텍스트, 날짜 및 시간 표시
 author: AFTOwen
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,15 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 10/16/2016
 ms.author: anneta
-ms.openlocfilehash: d6f88534b4839381037243400ef69f292df8fb97
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+ms.openlocfilehash: 8f4bf8908b8e83fe5976a52356db163cbb3a9813
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195706"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39470687"
 ---
-# <a name="show-text-and-format-dates-and-times-in-powerapps"></a>PowerApps에서 날짜/시간 텍스트 표시 및 형식 지정
-날짜와 시간을 추가하고 형식을 지정하여 적절한 수준의 세부 정보를 표시하거나 로캘을 반영합니다. 두 날짜 사이의 시간을 계산하거나 지정한 날짜 이전 또는 이후의 특정 시간에 해당하는 날짜를 계산합니다. 날짜를 일, 월 및 연도에 대한 별도의 값으로 변환하고 시, 분 및 초에 대한 별도의 값으로 변환합니다.
+# <a name="show-text-dates-and-times-in-powerapps"></a>PowerApps에서 텍스트, 날짜 및 시간 표시
+PowerApps에서 날짜와 시간을 캔버스 앱에 추가하고 형식을 지정하여 적절한 수준의 세부 정보를 표시하거나 로캘을 반영합니다. 두 날짜 사이의 시간을 계산하거나 지정한 날짜 이전 또는 이후의 특정 시간에 해당하는 날짜를 계산합니다. 날짜를 일, 월 및 연도에 대한 별도의 값으로 변환하고 시, 분 및 초에 대한 별도의 값으로 변환합니다.
 
 예를 들어 주식 거래 또는 고객 상담과 관련된 사용자의 데이터, 외부 원본의 데이터 또는 PowerApps에서 만든 다른 앱의 데이터를 추가합니다. 해당 데이터에 밀리초까지의 시간이 포함되어 있는 경우 간단히 하기 위해 가장 가까운 분으로 반올림합니다. 중요 시점까지 남아 있는 일 수를 계산합니다. 5일마다 고객 상담을 예약하려면 해당 날짜를 자동으로 계산합니다. 1985년 5월 10일이 일, 월 및 연도에 대한 별도의 필드에 저장되는 경우 단일 값으로 통합합니다. 반대로 앱에서 별도로 관리하는 경우 각 날짜를 별도의 값으로 구분합니다.
 

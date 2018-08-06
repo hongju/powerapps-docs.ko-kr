@@ -1,6 +1,6 @@
 ---
-title: 현재 사용자에 대한 세부 정보 표시 | Microsoft Docs
-description: User 함수를 삽입하여 PowerApps에 로그인한 사용자의 이름과 이메일 주소를 표시합니다.
+title: 캔버스 앱에서 현재 사용자에 대한 세부 정보 표시 | Microsoft Docs
+description: PowerApps에서 로그인한 사용자의 이름과 이메일 주소를 캔버스 앱에 표시합니다.
 author: lonu
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 10/16/2016
 ms.author: lonu
-ms.openlocfilehash: 90a7ca39626e8eec8151bc3d5ced25a5701a126e
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 53d235a54aca1523cf243a315f5309bced1f15a9
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39016263"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39471193"
 ---
-# <a name="show-information-about-a-powerapps-user"></a>PowerApps 사용자에 대한 정보 표시
-User 함수는 전체 이름, 이메일 주소 및 로그인한 사용자와 관련된 그림을 표시할 수 있습니다. 이 정보를 사용하여 양식을 자동으로 채울 수 있습니다.
+# <a name="show-information-about-a-powerapps-user-in-a-canvas-app"></a>캔버스 앱에서 PowerApps 사용자에 대한 정보 표시
+
+PowerApps에서 전체 이름, 이메일 주소 및 캔버스 앱에 로그인한 사용자와 관련된 그림을 표시합니다. 예를 들어, 이 정보를 사용하여 양식을 자동으로 채울 수 있습니다.
 
 예를 들어 이 기능을 사용하여 다음을 수행할 수 있습니다.
 
@@ -30,6 +31,7 @@ User 함수는 전체 이름, 이메일 주소 및 로그인한 사용자와 관
 [!INCLUDE [app-customization-requirements](../../includes/app-customization-requirements.md)]
 
 ## <a name="show-user-details"></a>사용자 세부 정보 표시
+
 1. **삽입** 탭에서 **미디어**, **이미지**를 차례로 클릭하거나 탭합니다.
    
    ![][2]

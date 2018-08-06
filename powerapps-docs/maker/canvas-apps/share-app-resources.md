@@ -1,6 +1,6 @@
 ---
-title: 앱에서 사용하는 리소스 공유 | Microsoft Docs
-description: 앱 공유 시 앱에서 공유한 리소스를 공유하는 방법을 알아봅니다.
+title: 캔버스 앱에서 사용하는 리소스 공유 | Microsoft Docs
+description: PowerApps에서 캔버스 앱이 사용하는 리소스를 공유하는 방법 이해
 author: archnair
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 06/28/2016
 ms.author: archanan
-ms.openlocfilehash: 09d4f26139ae33195c666a2eb71d70e02b035f69
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+ms.openlocfilehash: 881a0eb85d252131d6249c171c95c0711e4887d4
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39194892"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39471400"
 ---
-# <a name="share-app-resources"></a>앱 리소스 공유
-[앱을 공유](share-app.md)하기 전에 다음 중 한 개 이상과 같이 주로 사용하려는 리소스 유형을 고려합니다.
+# <a name="share-canvas-app-resources-in-powerapps"></a>PowerApps의 캔버스 앱 리소스 공유
+
+[캔버스 앱을 공유](share-app.md)하기 전에 다음 중 한 개 이상과 같이 주로 사용하려는 리소스 유형을 고려합니다.
 
 * 데이터 원본에 연결
 * 온-프레미스 데이터 게이트웨이
@@ -30,6 +31,7 @@ ms.locfileid: "39194892"
 또한 연결, 사용자 지정 커넥터 및 온-프레미스 데이터 게이트웨이를 전체 조직과 공유할 수도 있습니다.
 
 ## <a name="connections"></a>연결
+
 SQL Server와 같은 일부 유형의 연결은 자동으로 공유되지만 사용자가 앱에서 데이터 원본에 대한 자체 연결을 만들어야 합니다.
 
 [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 연결을 자동으로 업데이트할 것인지 결정할 수 있으며 공유 권한을 업데이트할 수 있습니다. 왼쪽 탐색 모음에서 **관리**를 클릭하거나 탭한 다음 **연결**을 클릭하거나 탭하고 연결을 클릭하거나 탭합니다. **공유** 탭이 나타나면 연결이 자동으로 공유됩니다.

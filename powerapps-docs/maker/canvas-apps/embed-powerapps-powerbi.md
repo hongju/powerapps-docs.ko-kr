@@ -1,6 +1,6 @@
 ---
-title: Power BI 보고서에 새 앱 포함 | Microsoft Docs
-description: 동일한 데이터 원본을 사용하고 다른 보고서 항목처럼 필터링할 수 있는 앱을 포함합니다
+title: Power BI 보고서에 새 캔버스 앱 포함 | Microsoft Docs
+description: 동일한 데이터 원본을 사용하고 다른 보고서 항목처럼 필터링할 수 있는 새 캔버스 앱을 포함합니다
 author: mgblythe
 manager: kvivek
 ms.service: powerapps
@@ -9,16 +9,16 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 03/15/2018
 ms.author: mblythe
-ms.openlocfilehash: 05fe624be450dfcce0d16ae2f178c86ddf361201
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: a5239a5d7ca1600b281558461f2a08969cabb633
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39018678"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39470963"
 ---
-# <a name="tutorial-embed-a-new-app-in-a-power-bi-report"></a>자습서: Power BI 보고서에 새 앱 포함
+# <a name="embed-a-new-canvas-app-in-a-power-bi-report"></a>Power BI 보고서에 새 캔버스 앱 포함
 
-Power BI를 사용하면 *사용자 지정 시각적 개체*를 보고서에 추가하여 기능을 확장할 수 있습니다. 이 자습서에서는 PowerApps 사용자 지정 시각적 개체를 사용하여 샘플 보고서에 포함되는 새 앱을 만듭니다. 이 앱은 해당 보고서의 다른 항목과 상호 작용합니다.
+Power BI를 사용하면 *사용자 지정 시각적 개체*를 보고서에 추가하여 기능을 확장할 수 있습니다. 이 자습서에서는 PowerApps 사용자 지정 시각적 개체를 사용하여 샘플 보고서에 포함되는 캔버스 앱을 만듭니다. 이 앱은 해당 보고서의 다른 항목과 상호 작용합니다.
 
 PowerApps 구독이 없는 경우 시작하기 전에 [체험 계정을 만듭니다](../signup-for-powerapps.md).
 

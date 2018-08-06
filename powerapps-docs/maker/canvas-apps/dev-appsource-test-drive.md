@@ -1,6 +1,6 @@
 ---
-title: AppSource에서 고객이 앱을 시험 사용할 수 있도록 하기 | Microsoft Docs
-description: AppSource를 사용하여 고객과 앱을 공유하고 비즈니스를 위해 잠재 고객을 창출합니다.
+title: AppSource에서 고객이 캔버스 앱을 시험 사용할 수 있도록 하기 | Microsoft Docs
+description: AppSource를 사용하여 고객과 캔버스 앱을 공유하고 비즈니스를 위해 잠재 고객을 창출합니다.
 author: linhtranms
 manager: kvivek
 ms.service: powerapps
@@ -9,17 +9,19 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 05/08/2017
 ms.author: litran
-ms.openlocfilehash: fb51ab2c671d695350e452dc6fb29efa583adfea
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 6499c0c2a7eb87ff56ec9e248f4a16e8b6c647f9
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39023692"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39470549"
 ---
-# <a name="let-customers-test-drive-your-apps-on-appsource"></a>AppSource에서 고객이 앱을 시험 사용할 수 있도록 하기
-PowerApps에서 앱을 빌드하는 데 열중하고 있나요? 고객과 공유하려는 앱이 있나요? 고객과 앱을 공유하고 비즈니스 잠재 고객을 창출할 수 있도록 [AppSource.com](https://appsource.microsoft.com)에서 PowerApps 시험 사용 솔루션이 지원됩니다.
+# <a name="let-customers-test-drive-your-canvas-app-on-appsource"></a>AppSource에서 고객이 캔버스 앱을 시험 사용할 수 있도록 하기
+
+PowerApps에서 캔버스 앱을 빌드하는 데 열중하고 있나요? 캔버스 앱을 고객과 공유하시겠습니까? [AppSource.com](https://appsource.microsoft.com)은 고객과 앱을 공유하고 비즈니스 잠재 고객을 창출하도록 PowerApps 시험 사용 솔루션을 지원합니다.
 
 ## <a name="what-is-a-test-drive-solution"></a>시험 사용 솔루션이란?
+
 시험 사용 솔루션을 통해 고객은 PowerApps 계획에 등록하거나 응용 프로그램을 설치하지 않고 실제 앱을 사용해 볼 수 있습니다. 고객은 자신의 AAD(Azure Active Directory) 계정을 사용하여 AppSource.com에 로그인하고 웹 브라우저에서 앱을 실행하면 됩니다. 시험 사용 없이 고객은 앱에 대해 읽거나 설명하는 비디오를 시청할 수만 있습니다. 시험 사용을 통해 고객은 솔루션이 무엇이며 앱이 가진 기능에 대해 더 잘 파악할 수 있습니다. 또한 앱을 사용하여 실제의 경험을 갖습니다. 고객은 앱이 작성된 방법을 확인하기 위해 내막을 살펴볼 수 없으므로 지적 재산권은 보호됩니다. 비즈니스 성장에 도움을 주기 위해 시험 사용 앱을 시작하는 사용자에 대한 잠재 고객 정보를 수집하고 공유합니다.
 
 다음은 AppSource.com에서 [앱 목록](https://go.microsoft.com/fwlink/?linkid=848867)의 예제입니다.

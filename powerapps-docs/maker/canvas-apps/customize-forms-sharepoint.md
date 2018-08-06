@@ -1,6 +1,6 @@
 ---
-title: 양식 사용자 지정 | Microsoft Docs
-description: 어떤 데이터를 어떤 순서와 어떤 컨트롤 방식으로 표시할지 지정합니다.
+title: 캔버스 앱에서 양식 사용자 지정 | Microsoft Docs
+description: PowerApps에서 캔버스 앱 형식으로 표시할 데이터를 어떤 순서와 어떤 컨트롤 방식으로 표시할지 지정합니다.
 author: AFTOwen
 manager: kvivek
 ms.service: powerapps
@@ -9,24 +9,27 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 03/17/2018
 ms.author: anneta
-ms.openlocfilehash: aefe350c2294f9d8cbae32eee1db1f600c8a65da
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+ms.openlocfilehash: 14ea731907624f882ae117a09c7f799a25389fe6
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195108"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39471446"
 ---
-# <a name="customize-forms-in-powerapps"></a>PowerApps 양식 사용자 지정
-**표시 양식** 컨트롤과 **편집 양식** 컨트롤을 사용자 지정하여 사용자가 데이터를 쉽게 파악하고 업데이트할 수 있도록 가장 직관적인 순서로 데이터를 표시합니다.
+# <a name="customize-a-canvas-app-form-in-powerapps"></a>PowerApps에서 캔버스 앱 양식 사용자 지정
+
+캔버스 앱에서 **표시 양식** 컨트롤과 **편집 양식** 컨트롤을 사용자 지정하여 사용자가 데이터를 쉽게 파악하고 업데이트할 수 있도록 가장 직관적인 순서로 데이터를 표시합니다.
 
 각 양식은 하나 이상의 카드로 구성되어 있으며, 각 카드는 데이터 원본의 특정 열에서 데이터를 표시합니다. 이 항목의 단계에 따라 양식에 표시할 카드를 지정하고, 양식 내에서 카드를 위아래로 이동할 수 있습니다.
 
 PowerApps에 대해 잘 모르는 경우 [PowerApps 소개](getting-started.md)를 참조하세요.
 
 ## <a name="prerequisites"></a>필수 조건
+
 Common Data Service에서 [앱을 생성](data-platform-create-app.md)한 다음, 해당 앱에서 [갤러리를 사용자 지정](customize-layout-sharepoint.md)합니다.
 
 ## <a name="show-and-hide-cards"></a>카드 표시 및 숨기기
+
 1. [PowerApps](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
 
     ![PowerApps 사이트의 홈 페이지](./media/customize-forms-sharepoint/sign-in.png)

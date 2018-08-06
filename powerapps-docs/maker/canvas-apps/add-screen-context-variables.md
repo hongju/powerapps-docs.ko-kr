@@ -1,7 +1,7 @@
 ---
-title: 화면 추가 및 화면 간 탐색 | Microsoft Docs
-description: 앱에 화면을 추가하고 다음 및 뒤로 화살표를 사용하여 PowerApps에서 화면 사이를 탐색
-author: aftowen
+title: 캔버스 앱에 화면 추가 및 화면 간 이동 | Microsoft Docs
+description: 캔버스 앱에 화면을 추가하고 다음 및 뒤로 화살표를 사용하여 PowerApps에서 화면 간 이동
+author: AFTOwen
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
@@ -9,21 +9,24 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 07/10/2017
 ms.author: anneta
-ms.openlocfilehash: c7a100b6df278812ea93da8c4f5c503a841d4109
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 17ec7dd0723e219e1eaf9ad3b112faf049cf7d12
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39022013"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39469951"
 ---
-# <a name="add-a-screen-and-navigate-between-screens"></a>화면 추가 및 화면 간 탐색
-여러 화면이 있는 앱을 만들고 사용자가 이들 사이를 탐색하는 방법을 추가합니다.
+# <a name="add-a-screen-to-a-canvas-app-and-navigate-between-screens"></a>캔버스 앱에 화면 추가 및 화면 간 이동
+
+여러 화면이 있는 캔버스 앱을 만들고 사용자가 이들 사이를 이동할 수 있는 방법을 추가합니다.
 
 ## <a name="prerequisites"></a>필수 조건
+
 * [컨트롤을 구성](add-configure-controls.md)하는 방법을 알아봅니다.
 * 앱을 만들거나 엽니다.
 
 ## <a name="add-and-rename-a-screen"></a>화면 추가 및 이름 바꾸기
+
 1. **홈** 탭에서 **새 화면**을 클릭하거나 탭합니다.
 
     ![홈 탭에서 화면 옵션 추가](./media/add-screen-context-variables/add-screen.png)

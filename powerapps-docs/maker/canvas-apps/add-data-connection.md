@@ -1,6 +1,6 @@
 ---
-title: 앱에서 데이터 연결 추가 | Microsoft Docs
-description: 기존 앱 또는 새 앱에서 데이터 연결 추가
+title: 캔버스 앱에서 데이터 연결 추가 | Microsoft Docs
+description: 기존 캔버스 앱 또는 빈 앱에 데이터 연결 추가
 author: lancedMicrosoft
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 04/06/2018
 ms.author: lanced
-ms.openlocfilehash: 471f4b69b913236d99e6309c8b8bb4e12f85a7b9
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+ms.openlocfilehash: bf53c71a5dfbbfecbf6a094f26c9866e7f94f84d
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195039"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39471055"
 ---
-# <a name="add-a-data-connection-in-powerapps"></a>PowerApps에서 데이터 연결 추가
-PowerApps에서 처음부터 앱을 빌드할 때 또는 기존 앱에서 데이터 연결을 추가합니다. 앱은 SharePoint, Salesforce, OneDrive 또는 [다른 많은 데이터 원본](connections-list.md)에 연결할 수 있습니다.
+# <a name="add-a-data-connection-to-a-canvas-app-in-powerapps"></a>PowerApps의 캔버스 앱에 데이터 연결 추가
+
+PowerApps에서 처음부터 앱을 빌드할 때 또는 기존 캔버스 앱에서 데이터 연결을 추가합니다. 앱은 SharePoint, Salesforce, OneDrive 또는 [다른 많은 데이터 원본](connections-list.md)에 연결할 수 있습니다.
 
 이 문서 이후 [다음 단계](#next-steps)는 다음 예와 같이 앱에서 데이터 원본의 데이터를 표시하고 관리하기 위한 것입니다.
 
@@ -26,6 +27,7 @@ PowerApps에서 처음부터 앱을 빌드할 때 또는 기존 앱에서 데이
 * SQL Server에 연결하고 사용자 앱에서 테이블을 업데이트합니다.
 
 ## <a name="prerequisites"></a>필수 조건
+
 PowerApps에 [등록](../signup-for-powerapps.md)한 다음, 등록에 사용한 동일한 자격 증명을 입력하여 [로그인](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)합니다.
 
 ## <a name="add-a-data-source"></a>데이터 원본 추가

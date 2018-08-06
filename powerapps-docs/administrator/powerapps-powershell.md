@@ -2,28 +2,28 @@
 title: PowerShell 지원(미리 보기) | Microsoft Docs
 description: 다양한 PowerShell cmdlet에 대한 설명 및 cmdlet을 설치 및 실행하는 방법에 대한 연습
 author: jamesol-msft
-manager: kfile
+manager: kvivek
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: reference
-ms.date: 05/23/2018
+ms.date: 07/31/2018
 ms.author: jamesol
-ms.openlocfilehash: b6ee687fdfe6da8550d76193a7c9219aae5ae291
-ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
+ms.openlocfilehash: e45b23d4efc474bcd48069b9823d1ef80cf5ea4a
+ms.sourcegitcommit: a0a8782d3c8d24cecf0796d405a61f745f0ffd91
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "39218835"
+ms.lasthandoff: 07/31/2018
+ms.locfileid: "39367618"
 ---
 # <a name="powershell-support-for-powerapps-preview"></a>PowerApps에 대한 PowerShell 지원(미리 보기)
-최근에 앱 작성자 및 관리자용 PowerShell cmdlet 미리 보기가 제공되면서 [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 또는 [PowerApps 관리 센터](https://admin.powerapps.com)에서 현재는 수동으로만 가능한 다양한 모니터링 및 관리 작업을 자동화할 수 있습니다.
+최근에 앱 작성자 및 관리자용 PowerShell cmdlet 미리 보기가 제공되면서 [PowerApps](https://web.powerapps.com) 또는 [PowerApps 관리 센터](https://admin.powerapps.com)에서 현재는 수동으로만 가능한 다양한 모니터링 및 관리 작업을 자동화할 수 있습니다.
 
 ## <a name="installation"></a>설치
 앱 작성자용 PowerShell cmdlet을 실행하려면 다음을 수행합니다.
 
 1. [PowerShell 스크립트 파일](https://go.microsoft.com/fwlink/?linkid=2006349)을 다운로드합니다.
 
-2. 폴더에 파일의 압축을 풉니다. 
+2. 폴더에 파일의 압축을 풉니다.
 
 3. 같은 폴더에서 관리자 권한으로 PowerShell 명령 창을 엽니다.
 
@@ -71,7 +71,7 @@ ms.locfileid: "39218835"
 | 용도 | Cmdlet |
 | --- | --- |
 | 환경 읽기 | Get-PowerAppEnvironment *(이전의 Get-PowerAppsEnvironment)* <br> Get-FlowEnvironment
-| 캔버스 앱 읽기, 업데이트 및 삭제 | Get-App <br> Remove-App <br> Publish-App <br> Set-AppDisplayName <br> Get-AppVersion <br> Restore-AppVersion
+| 캔버스 앱 읽기, 업데이트 및 삭제 | Get-PowerApp *(이전의 Get-App)* <br> Remove-PowerApp *(이전의 Remove-App)* <br> Publish-PowerApp *(이전의 Publish-App)* <br> Set-AppDisplayName *(이전의 Set-PowerAppDisplayName)*<br> Get-PowerAppVersion *(이전의 Get-AppVersion)* <br> Restore-PowerAppVersion *(이전의 Restore-AppVersion)*
 | 캔버스 앱 권한 읽기, 업데이트 및 삭제 | Get-PowerAppRoleAssignment *(이전의 Get-AppRoleAssignment)* <br> Set-PowerAppRoleAssignment *(이전의 Set-AppRoleAssignment)* <br> Remove-PowerAppRoleAssignment *(이전의previously Remove-AppRoleAssignment)*
 | 흐름 읽기, 업데이트 및 삭제 | Get-Flow <br> Get-FlowRun <br> Enable-Flow <br> Disable-Flow <br> Remove-Flow
 | 흐름 권한 읽기, 업데이트 및 삭제 | Get-FlowOwnerRole <br> Set-FlowOwnerRole <br> Remove-FlowOwnerRole
@@ -122,9 +122,9 @@ ms.locfileid: "39218835"
 > [!NOTE]
 > 다음 명령을 사용하여 각 cmdlet에 대한 구문을 이해하고 샘플을 봅니다.
 >```
->Get-Help Get-AdminEnvironment
->Get-Help Get-AdminEnvironment -Examples
->Get-Help Get-AdminEnvironment -Detailed
+>Get-Help Get-AdminPowerAppEnvironment
+>Get-Help Get-AdminPowerAppEnvironment -Examples
+>Get-Help Get-AdminPowerAppEnvironment -Detailed
 >```
 
 ## <a name="questions"></a>질문

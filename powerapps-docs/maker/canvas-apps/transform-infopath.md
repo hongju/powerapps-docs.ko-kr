@@ -1,6 +1,6 @@
 ---
-title: InfoPath 양식을 PowerApps로 변환 | Microsoft Docs
-description: PowerApps에서 이러한 항목을 만드는 방법과 일반적인 InfoPath 시나리오에 대한 자세한 정보를 사용하여 InfoPath 양식을 PowerApps로 변환하기를 시작합니다.
+title: InfoPath 양식을 캔버스 앱으로 변환 | Microsoft Docs
+description: 일반적인 시나리오에 대한 정보와 캔버스 앱에서 이러한 항목을 만드는 방법을 사용하여 InfoPath 양식을 PowerApps로 변환하기 시작합니다.
 author: richardriley99
 manager: kvivek
 ms.service: powerapps
@@ -9,22 +9,22 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 04/05/2018
 ms.author: rriley
-ms.openlocfilehash: b57d62d3e64ea08905ddcc8627cf6921d421fb18
-ms.sourcegitcommit: b9fa569153924af9815db45d52c04e764ddb7fa2
+ms.openlocfilehash: a249d0a9096117badfe3e4eb7ad9dcf6b75662a1
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "39094728"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39470112"
 ---
-# <a name="transform-your-infopath-forms-to-powerapps"></a>InfoPath 양식을 PowerApps로 변환
+# <a name="transform-your-infopath-form-to-powerapps"></a>InfoPath 양식을 PowerApps로 변환
 
 보다 강력한 플랫폼에서 이러한 뛰어난 기능을 제공하는 방법을 알아보고자 하는 InfoPath의 뛰어난 기능의 빌더입니까?
 
 ## <a name="key-advantages-of-powerapps-over-infopath"></a>InfoPath에 비해 PowerApps의 주요 이점
 
-대부분의 InfoPath 고급 사용자와 같은 경우 이제 잠시 동안 놀라운 형식을 빌드하도록 설정된 자신의 고유한 기술을 사용하고 있습니다. 생산하는 형식에 매우 만족하는 경우 코드를 작성하지 않고 다른 서비스에 연결하는 것에 관해서라면 &quot;클래식&quot; 느낌, 모바일 장치에 대해 이상에 못 미치는 환경, 불확실한 실행 가능성, 항상 궁지에 빠짐 등의 제약이 없으면 형식이 만족스럽지 않음을 압니다.
+대부분의 InfoPath 고급 사용자와 마찬가지로 한동안 뛰어난 양식을 빌드하도록 설정된 고유한 기술을 사용해 왔습니다. 양식에 매우 만족하지만 &quot;클래식&quot; 느낌, 모바일 장치에 대해 이상에 못 미치는 환경, 미래의 불확실한 실행 가능성 및 코드를 작성하지 않고 다른 서비스에 연결할 때 항상 궁지에 빠짐 등의 제한 사항도 알고 있습니다.
 
-PowerApps 팀은 이러한 과제 및 많은 다른 팀의 과제에 대해 알고 있습니다. 이 팀은 PowerApps에서 사용자를 위해 보다 나은 환경을 통합하기 위해 열심히 노력했습니다. 이 팀의 목표는 사용자의 비즈니스 및 기존 기술을 활용하여 사용자가 앱을 만들 수 있게 하는 것입니다. PowerApps를 사용하도록 설정하여 코드를 작성하지 않고 올바른 비즈니스 솔루션을 빠르게 빌드하고 배포할 수 있습니다.
+PowerApps 팀은 이 외에도 많은 문제들을 들었습니다. 더 나은 환경을 통합하고 기존 비즈니스 및 기술 능력을 활용하여 캔버스 앱을 만들 수 있도록 열심히 노력했습니다. PowerApps를 사용하면 코드를 작성하지 않고도 올바른 비즈니스 솔루션을 빠르게 빌드하고 배포할 수 있습니다.
 
 **PowerApps의 강력한 기능 사용하도록 설정**  
 PowerApps는 다른 추가 작업 없이 웹, SharePoint, Dynamics 365, Teams, Power BI 또는 모바일 장치에 배포할 수 있는 고기능 앱을 신속하게 빌드하도록 설계된 SaaS(Software as a Service) 플랫폼입니다. 이들은 배포하기(게시된 앱에 URL을 부여하기) 쉽기 때문에 업데이트도 쉽습니다.

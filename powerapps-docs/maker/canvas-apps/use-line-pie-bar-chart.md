@@ -1,6 +1,6 @@
 ---
-title: 차트 만들기 | Microsoft Docs
-description: 꺾은 선형 차트, 원형 차트 또는 가로 막대형 차트로 데이터의 범주 표시
+title: 캔버스 앱에서 차트 만들기 | Microsoft Docs
+description: PowerApps에서 캔버스 응용 프로그램의 꺾은 선형 차트, 원형 차트 또는 가로 막대형 차트로 데이터 범주 표시
 author: lonu
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 10/23/2016
 ms.author: lonu
-ms.openlocfilehash: 5fecc52a5100f2ed0d045fd0ebdc3834f83d5b39
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+ms.openlocfilehash: 63244a05d81f807609c965892f6a84e30577b490
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195913"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39471147"
 ---
 # <a name="show-data-in-a-line-pie-or-bar-chart-in-powerapps"></a>PowerApps에서 꺾은선형, 원형 또는 막대형 차트로 데이터 표시
-꺾은선형 차트, 원형 차트 및 가로 막대형 차트를 사용하여 데이터를 표시합니다. 차트를 사용할 때 사용자가 가져온 데이터는 다음과 같이 구성되어야 합니다.
+
+꺾은선형 차트, 원형 차트 및 가로 막대형 차트를 사용하여 캔버스 앱에 데이터를 표시합니다. 차트를 사용할 때 가져오는 데이터는 다음 기준에 따라 구성되어야 합니다.
 
 * 각 시리즈는 첫 번째 행에 있어야 합니다.
 * 맨 왼쪽 열에 레이블이 있어야 합니다.
@@ -29,6 +30,7 @@ ms.locfileid: "39195913"
 PowerApps 내에서 이러한 차트를 만들고 사용할 수 없습니다. 이제 시작하겠습니다.
 
 ## <a name="prerequisites"></a>필수 조건
+
 * PowerApps에 [등록](../signup-for-powerapps.md)한 다음, 등록에 사용한 동일한 자격 증명을 사용하여 [로그인](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)합니다.
 * [템플릿](get-started-test-drive.md), [데이터](get-started-create-from-data.md)에서 앱을 만들거나 [처음부터](get-started-create-from-blank.md)만듭니다.
 * PowerApps에서 [컨트롤 구성](add-configure-controls.md)을 어떻게 하는지 알아봅니다.

@@ -1,6 +1,6 @@
 ---
 title: 데이터 카드 이해 | Microsoft Docs
-description: 양식 카드를 사용하여 데이터 원본에서 정보를 수집하고 표시합니다.
+description: PowerApps에서 양식 카드를 사용하여 데이터 원본에서 정보를 수집하고 표시합니다.
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -9,23 +9,25 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 04/26/2016
 ms.author: gregli
-ms.openlocfilehash: 81e0213caee1d4eed466edebe3d13cbfa1c3e7e2
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: a229f77ea569c56e18fd955a66ce48a5e02f84a9
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39020771"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39470940"
 ---
-# <a name="understand-data-cards"></a>데이터 카드 이해
-**[카드](controls/control-card.md)**  컨트롤은 **[편집 양식](controls/control-form-detail.md)** 및 **[표시 양식](controls/control-form-detail.md)** 컨트롤의 구성 요소입니다. 양식은 전체 레코드를 나타내며 각 카드는 해당 레코드의 단일 필드를 나타냅니다.
+# <a name="understand-data-cards-in-powerapps"></a>PowerApps의 데이터 카드 이해
+
+**[카드](controls/control-card.md)** 컨트롤은 캔버스 앱에서 **[편집 양식](controls/control-form-detail.md)** 및 **[표시 양식](controls/control-form-detail.md)** 컨트롤의 구성 요소입니다. 양식은 전체 레코드를 나타내며 각 카드는 해당 레코드의 단일 필드를 나타냅니다.
 
 디자인 작업 영역에서 양식 컨트롤을 선택하면 오른쪽 창에서 가장 쉽게 카드와 상호 작용할 수 있습니다. 해당 창에 표시할 필드, 각 필드를 표시하는 방법 및 필드를 표시할 순서를 선택할 수 있습니다. 이 예제에서는 **자산**이라고 하는 SharePoint 목록에서 빌드된 앱에 있는 **편집 양식** 컨트롤을 보여줍니다.
 
-![](./media/working-with-cards/first-screen.png)
+![첫 번째 화면](./media/working-with-cards/first-screen.png)
 
 카드를 시작하려면 [양식 추가](add-form.md) 및 [데이터 양식 이해](working-with-forms.md)를 참조하세요. 이 항목의 나머지 부분에서는 카드 작동 방식 및 사용자 지정 또는 고유한 카드를 생성하는 방법에 대해 자세히 설명합니다.
 
 ## <a name="predefined-cards"></a>미리 정의된 카드
+
 PowerApps는 문자열, 숫자 및 기타 데이터 형식에 미리 정의된 일련의 카드를 제공합니다. 오른쪽 창에서 사용할 수 있는 변동을 확인하고 필드에 사용되는 카드를 변경할 수 있습니다.
 
 ![](./media/working-with-cards/selected-card.png)

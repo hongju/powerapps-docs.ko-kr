@@ -7,43 +7,57 @@ ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: ''
-ms.date: 05/10/2018
+ms.date: 08/02/2018
 ms.author: anneta
-ms.openlocfilehash: d5603ffacc0246dcffd1c54ab63b4e404250a7d5
-ms.sourcegitcommit: fc235972d0d4661f55df7a71e2dcedafd42706b0
+ms.openlocfilehash: 34932178930e36d686c0e040dc707e2aacb083c2
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2018
-ms.locfileid: "39202301"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39470342"
 ---
 # <a name="common-issues-and-resolutions-for-powerapps"></a>PowerApps의 일반적인 문제 및 해결 방법
+
 이 문서에서는 PowerApps를 사용하는 동안 발생할 수 있는 몇 가지 일반적인 문제가 나와 있습니다. 적용 가능한 경우 해결 방법이 제공됩니다.
 
-## <a name="recently-addedchanged"></a>최근에 추가/변경된 내용
-1. **포함된 앱에서 웹 사이트 시작**
+## <a name="added-after-february-2018"></a>2018년 2월 이후에 추가됨
+
+1. **PowerApps Mobile의 여러 미디어 컨트롤**(2018년 8월 2일)
+
+    PowerApps Mobile은 다양한 유형의 장치에서 실행되며 그 중 일부는 해당 플랫폼과 관련된 제한 사항이 있습니다.
+
+    - iPhone 장치를 제외한 모든 플랫폼에서 여러 **비디오** 컨트롤로 동시에 비디오를 재생할 수 있습니다.
+    - 웹 플레이어를 제외한 모든 플랫폼에서 여러 **마이크로폰** 컨트롤로 동시에 오디오를 녹음할 수 있습니다.
+
+1. **앱 다시 게시**(2018년 8월 2일)
+
+    몇 개월 내에 앱을 업데이트하지 않은 경우 성능 향상 및 기타 수정 사항이 포함된 PowerApps의 최신 버전과 동기화하도록 다시 게시합니다.
+
+1. <a name="out-of-memory"></a>**브라우저 메모리 부족**(2018년 7월 23일)
+
+    PowerApp을 사용하는 동안 메모리가 부족하면 64비트 버전의 Chrome, Edge 또는 Internet Explorer 다운로드를 고려하세요.
+
+1. **포함된 앱에서 웹 사이트 시작**(2018년 5월 10일)
 
     Internet Explorer와 Microsoft Edge 브라우저는 보호 모드에 있거나 앱이 로드된 웹 사이트보다 보안이 낮은 영역에 있는 URL 또는 웹 사이트의 시작을 차단할 수 있습니다. 이 문제를 해결하려면 사용하는 브라우저에 맞게 [보안 및 개인 정보 설정을 변경](https://support.microsoft.com/en-us/help/17479/windows-internet-explorer-11-change-security-privacy-settings)하세요.
 
-1. **갤러리의 콤보 상자 컨트롤**
+1. **갤러리의 콤보 상자 컨트롤**(2018년 5월 3일)
 
     갤러리 내에서 **콤보 상자** 컨트롤을 사용하면 사용자가 갤러리를 스크롤할 때 해당 선택 항목이 유지되지 않습니다. 스크롤하지 않는 갤러리 내에서 **콤보 상자** 컨트롤을 사용하는 경우에는 문제가 되지 않습니다. 해결 방법은 현재 사용할 수 없습니다.
 
-
-1. **사용자 지정 이미지를 앱 아이콘으로 사용**
+1. **사용자 지정 이미지를 앱 아이콘으로 사용**(2018년 4월 11일)
 
     Windows용 PowerApps Studio 버전 3.18043에서는 앱 아이콘으로 사용할 사용자 지정 이미지를 업로드할 수 없습니다. 이 문제를 해결하려면 [웹용 PowerApps Studio](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)를 사용하여 사용자 지정 이미지를 업로드합니다. 또는 Windows용 PowerApps Studio에 포함된 아이콘 중 하나를 사용하고 배경색을 사용자 지정할 수 있습니다.
 
-1. **앱 간에 화면 복사 및 붙여넣기**
+1. **앱 간에 화면 복사 및 붙여넣기**(2018년 4월 4일)
 
     앱 간에 화면 복사 및 붙여넣기는 현재 지원되지 않습니다. 이 문제를 해결하려면 대상 앱에 새 화면을 추가하고, 원본 앱의 화면에서 컨트롤을 복사한 다음, 대상 앱의 화면에 붙여넣습니다.
 
-1. **SharePoint 폼의 레이아웃 변경**
+1. **SharePoint 폼의 레이아웃 변경**(2018년 3월 7일)
 
     특정 언어의 SharePoint 목록 폼을 사용자 지정하는 동안 레이아웃을 세로(기본값)에서 가로로 변경하려고 하면 앱에 여러 오류가 표시될 수 있습니다(컨트롤에 노란색 삼각형). 이러한 오류를 해결하고 가로 레이아웃을 유지하려면 **실행 취소**를 클릭합니다.
 
-1. **앱이 작동하지 않음**
-
-    만든 앱이 경고 없이 작동을 멈추는 경우 지난 6개월 동안 앱을 업데이트하거나 다시 게시하지 않았기 때문일 수 있습니다. 이 문제를 해결하려면 앱을 업데이트 및/또는 다시 게시하여 최신 버전의 PowerApps와 동기화한 다음, 게시 후 6개월 이내에 앱을 계속 업데이트하거나 다시 게시해야 합니다.
+## <a name="added-in-or-before-february-2018"></a>2018년 2월 이전에 추가
 
 1. **데이터 테이블 컨트롤**
 
@@ -53,94 +67,89 @@ ms.locfileid: "39202301"
 
     카메라 컨트롤을 추가하거나 카메라 컨트롤을 사용하는 앱을 열 경우 Windows용 PowerApps Studio가 충돌할 수 있습니다. 이 문제를 방지하려면 카메라 컨트롤을 추가하거나 사용할 때 [웹용 PowerApps Studio](create-app-browser.md)를 사용하세요.
 
-2. **Android 장치의 릴리스 2.0.700**
+1. **Android 장치의 릴리스 2.0.700**
 
     Android 장치에 릴리스 2.0.700을 설치한 후 앱을 열 수 없는 경우(또는 앱이 응답을 멈춘 경우) PowerApps를 제거하고 장치를 다시 시작한 후 PowerApps를 다시 설치하세요.
 
-3. **앱을 열 때 “빈” 갤러리**
+1. **앱을 열 때 “빈” 갤러리**
 
     데이터에서 앱을 자동으로 생성하고 앱을 저장한 다음 다시 열면 갤러리 찾아보기에 데이터가 즉시 표시되지 않을 수 있습니다. 이 문제를 해결하려면 검색 상자에 문자를 하나 이상 입력한 다음 입력한 텍스트를 삭제하십시오. 그러면 갤러리에 데이터가 예상대로 표시됩니다.
 
-4. **Windows 8.1에서 PowerApps 업그레이드**
+1. **Windows 8.1에서 PowerApps 업그레이드**
 
     Windows 8 또는 Windows 8.1을 실행하는 컴퓨터에서 PowerApps를 설치하는 경우 Windows 스토어 앱을 열어 활성 상태로 유지하고 설정 아이콘을 사용하여 업데이트를 확인한 다음 설치합니다.
 
-5. **Common Data Service의 사용자 지정 커넥터**
+1. **Common Data Service의 사용자 지정 커넥터**
 
-   PowerApps 2.0.540 이전 버전을 사용하여 만든 앱이 Common Data Service의 데이터베이스 및 다른 환경에서 하나 이상의 사용자 지정 커넥터를 사용하는 경우, 데이터베이스와 동일한 환경에 커넥터를 배포하고 새로운 커넥터를 사용하도록 앱을 업데이트해야 합니다. 그렇지 않으면 API를 찾을 수 없는 사용자에게 대화 상자를 통해 알려 줍니다. 자세한 내용은 [환경 개요](../../administrator/environments-overview.md)를 참조하세요.
+    PowerApps 2.0.540 이전 버전을 사용하여 만든 앱이 Common Data Service의 데이터베이스 및 다른 환경에서 하나 이상의 사용자 지정 커넥터를 사용하는 경우, 데이터베이스와 동일한 환경에 커넥터를 배포하고 새로운 커넥터를 사용하도록 앱을 업데이트해야 합니다. 그렇지 않으면 API를 찾을 수 없는 사용자에게 대화 상자를 통해 알려 줍니다. 자세한 내용은 [환경 개요](../../administrator/environments-overview.md)를 참조하세요.
 
-6. **Windows 8.1에서 앱 실행**
+1. **Windows 8.1에서 앱 실행**
 
-    [이 Windows 8.1용 업데이트](https://technet.microsoft.com/library/security/ms16-118)를 설치하는 경우 해당 운영 체제에서 PowerApps Studio로 여는 앱을 실행할 수 없습니다. 하지만 [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 또는 PowerApps Mobile로 여는 앱은 실행할 수 있습니다.
+    [이 Windows 8.1용 업데이트](https://technet.microsoft.com/library/security/ms16-118)를 설치하는 경우 해당 운영 체제에서 PowerApps Studio로 여는 앱을 실행할 수 없습니다. 하지만 [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 또는 PowerApps Mobile로 여는 앱은 계속 실행할 수 있습니다.
 
-7. **공백이 포함된 열 이**
+1. **공백이 포함된 열 이**
 
     열 이름에 공백이 포함된 SharePoint 목록 또는 Excel 테이블을 사용하는 경우 PowerApps에서 공백이 **"\_x0020\_"** 으로 바뀝니다. 예를 들어 SharePoint 또는 Excel의 **"Column Name"** 은 데이터 레이아웃에 표시되거나 수식에 사용될 때 PowerApps에 **"Column_x0020_Name"** 으로 나타납니다.
 
-8. <a name="out-of-memory"></a>**브라우저 메모리 부족**
-
-    PowerApp을 사용하는 동안 메모리가 부족하면 64비트 버전의 Chrome, Edge 또는 Internet Explorer 다운로드를 고려하세요.
-
-## <a name="older"></a>이전 버전
 1. **공유 앱의 흐름 변경**
 
     앱에 흐름을 추가하여 공유한 다음 서비스를 추가하거나 흐름에서 연결을 변경하는 경우, 공유 앱에서 흐름을 제거하고 흐름을 다시 추가한 다음 앱을 다시 공유해야 합니다. 그렇지 않으면 흐름을 트리거하는 사용자가 인증에 실패하게 됩니다.
 
-2. **지역화 버전 사용**.
+1. **지역화 버전 사용**.
 
     Windows 8.1에서 릴리스 2.0.531을 실행하는 경우 장치가 IME 창이 필요한 언어로 설정되어 있으면 **텍스트 입력** 컨트롤로 입력할 수 없습니다.
 
-3. **Windows Phone에서 카메라 컨트롤**
+1. **Windows Phone에서 카메라 컨트롤**
 
     카메라 컨트롤을 포함하는 앱은 빌드 10.0.10586.107이 실행 중인 Windows Phone에서 앱을 열면 중단될 수 있습니다. 이 문제를 방지하려면 최신 빌드로 업그레이드하십시오(예: [Upgrade Advisor](https://www.microsoft.com/store/p/upgrade-advisor/9nblggh0f5g4)를 실행).
 
-4. **템플릿에 앱을 엽니다**.
+1. **템플릿에 앱을 엽니다**.
 
     릴리스 2.0.500을 실행 중인 경우 템플릿에서 앱을 만들려고 시도하면 오류 메시지가 나타납니다. 이 기능을 사용하려면 업그레이드해야 합니다.
 
     릴리스 2.0.510 이상을 실행 중인 경우 템플릿에서 앱을 만들려고 시도하면 경고 메시지가 나타날 수 있습니다. 단, 해당 메시지를 닫고 앱을 만들 수 있습니다.
 
-5. **바코드 스캔**
+1. **바코드 스캔**
 
     **바코드** 컨트롤 사용에 관련하여 제한 사항과 모범 사례에 대한 내용은 [바코드 스캔](scan-barcode.md)을 참조하세요.
 
-6. **브라우저에서 앱 만들고 수정**
+1. **브라우저에서 앱 만들고 수정**
 
     Windows용 PowerApps Studio에서와 마찬가지로 웹용 PowerApps Studio에서도 동일한 작업을 많이 수행할 수 있지만 일부는 사용할 수 없습니다. 자세한 내용은 [브라우저에서 앱 만들기](create-app-browser.md)를 참조하세요.
 
-7. **엔터티의 제목 필드 변경**
+1. **엔터티의 제목 필드 변경**
 
     하나 이상의 조회로 다른 엔터티를 참조하는 엔터티에 대한 제목 필드를 변경할 경우 변경 내용을 저장하려고 할 때 오류가 발생합니다. 이 문제를 해결하려면 제목 필드의 변경을 원하는 엔터티에서 모든 조회를 제거하고, 변경한 다음 해당 조회를 다시 만듭니다. 조회에 대한 자세한 내용은 [엔터티 간의 관계 구성](../common-data-service/data-platform-entity-lookup.md)을 참조하세요.
 
-8. **온-프레미스 SharePoint에 연결하는 앱**
+1. **온-프레미스 SharePoint에 연결하는 앱**
 
     자동으로 공유되지 않는 연결에 의존하는 앱을 공유하는 경우(예: 온-프레미스 SharePoint 사이트) 브라우저에서 이 앱을 연 사용자가 **로그인**을 클릭하거나 탭하면 텍스트가 없는 대화 상자가 나타납니다. 대화 상자를 닫으려면 오른쪽 위 모서리에 있는 닫기 (X) 아이콘을 클릭하거나 탭합니다. PowerApps Studio 또는 PowerApps Mobile에서 앱을 열면 대화 상자가 표시되지 않습니다. 공유 연결에 대한 자세한 내용은 [앱 리소스 공유](share-app-resources.md)를 참조하세요.
 
-9. **PowerApps는 데이터에서 앱을 생성할 때 정렬 및 검색에 사용된 필드를 자동으로 구성하지 않습니다**.
+1. **PowerApps는 데이터에서 앱을 생성할 때 정렬 및 검색에 사용된 필드를 자동으로 구성하지 않습니다**.
 
    이 필드를 구성하려면 [갤러리 추가](add-gallery.md)의 필터링 및 정렬에 대한 섹션에서 설명하는 대로 해당 갤러리에 대한 **[항목](controls/properties-core.md)** 수식을 편집합니다.
 
-10. **데이터에서 만들어진 앱의 경우 데이터 원본 중 500개의 레코드에만 액세스할 수 있습니다**.
+1. **데이터에서 만들어진 앱의 경우 데이터 원본 중 500개의 레코드에만 액세스할 수 있습니다**.
 
      일반적으로 PowerApps는 해당 데이터 원본에 수행할 작업을 위임하는 방식으로 모든 크기의 데이터 원본을 사용하여 작동합니다. PowerApps는 위임이 불가한 작업의 경우 작성 시 경고 메시지를 표시하고 해당 데이터 원본 중 최초 500개의 레코드에서만 작업을 수행합니다.  위임에 대한 자세한 내용은 [Filter 함수](functions/function-filter-lookup.md) 문서를 참조하세요.
 
-11. **Excel 데이터는 표 형식으로 작성되어야 합니다**.
+1. **Excel 데이터는 표 형식으로 작성되어야 합니다**.
 
      Excel을 데이터 원본으로 사용할 때의 제한 사항에 대한 내용은 [클라우드 저장소 연결](connections/cloud-storage-blob-connections.md#known-limitations)을 참조하세요.
 
-12. **SharePoint 사용자 지정 목록은 있지만 라이브러리, 목록 열의 일부 유형, 또는 여러 개의 값이나 선택 영역을 지원하는 열은 지원되지 않습니다**.
+1. **SharePoint 사용자 지정 목록은 있지만 라이브러리, 목록 열의 일부 유형, 또는 여러 개의 값이나 선택 영역을 지원하는 열은 지원되지 않습니다**.
 
      자세한 내용은 [SharePoint Online](connections/connection-sharepoint-online.md#known-issues)을 참조하세요.
 
-13. **공동 작성은 지원되지 않습니다. 한 번에 한 명의 작성자만 작성하세요**.
+1. **공동 작성은 지원되지 않습니다. 한 번에 한 명의 작성자만 작성하세요**.
 
      여러 명이 동시에 수정하면 앱이 손상되거나 다른 사용자의 변경 내용으로 작성될 수 있습니다. 다른 사용자가 편집하기 전에 앱을 닫습니다.
 
-14. **새로 공유한 앱을 사용하려면 시간이 다소 소요될 수 있습니다**.
+1. **새로 공유한 앱을 사용하려면 시간이 다소 소요될 수 있습니다**.
 
      새로 공유한 앱은 경우에 따라서 바로 사용하기 힘들 수 있습니다. 몇 분 정도 기다린 다음 사용해야 합니다.
 
-15. **[양식 컨트롤](controls/control-form-detail.md)의 경우 사용자 지정 카드를 사용하여 데이터를 변경할 수 없습니다**.
+1. **[양식 컨트롤](controls/control-form-detail.md)의 경우 사용자 지정 카드를 사용하여 데이터를 변경할 수 없습니다**.
 
      주식형 사용자 지정 카드는 **[업데이트](controls/control-card.md)** 속성이 없어 변경 내용을 다시 작성해야 합니다. 이 문제의 해결 방법:
 
@@ -148,16 +157,16 @@ ms.locfileid: "39202301"
     * [데이터 카드 이해](working-with-cards.md#unlock-a-card)에서 설명하는 대로 해당 카드를 잠금 해제합니다.
     * 사용자 지정 카드와 마찬가지로 필요에 따라 카드 내의 컨트롤을 제거하거나 다시 정렬합니다.
 
-16. **Android 5.0에서 실행 중인 앱은 웹 보기 버전 v48 또는 v49이 있는 Nexus 6와 충돌할 수 있습니다**.
+1. **Android 5.0에서 실행 중인 앱은 웹 보기 버전 v48 또는 v49이 있는 Nexus 6와 충돌할 수 있습니다**.
 
      사용자는 웹 보기의 낮은 버전(3x)으로 또는 Android 6.0으로 업데이트하여 이 문제를 해결할 수 있습니다.
 
-17. **메모리가 부족하면 카메라의 사용이 일시적으로 비활성화될 수 있습니다**.
+1. **메모리가 부족하면 카메라의 사용이 일시적으로 비활성화될 수 있습니다**.
 
      카메라는 모바일 장치에 메모리가 부족하면 해당 장치와의 충돌을 방지하기 위해 일시적으로 비활성화됩니다.
 
-18. **Office 365 비디오 커넥터는 지원되지 않습니다**.
+1. **Office 365 비디오 커넥터는 지원되지 않습니다**.
 
-19. **카드 갤러리는 사용되지 않습니다**.
+1. **카드 갤러리는 사용되지 않습니다**.
 
      기존 앱에서 이 기능을 사용하면 당분간은 계속 실행되지만 카드 갤러리는 추가할 수 없습니다. 카드 갤러리를 새로운 **[편집 양식](controls/control-form-detail.md)** 및 **[양식 표시](controls/control-form-detail.md)** 컨트롤로 대체하세요.

@@ -1,6 +1,6 @@
 ---
-title: 항목 목록 표시 | Microsoft Docs
-description: 갤러리를 사용하여 앱에서 항목 목록을 표시하고 조건을 지정하여 목록을 필터링합니다.
+title: 캔버스 앱의 항목 목록 표시 | Microsoft Docs
+description: 갤러리를 사용하여 캔버스 앱에서 항목 목록을 표시하고 조건을 지정하여 목록을 필터링합니다.
 author: karthik-1
 manager: kvivek
 ms.service: powerapps
@@ -9,17 +9,19 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 09/28/2017
 ms.author: sharik
-ms.openlocfilehash: 4806d65416816897542973644da592f7e6b2e252
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 753a4508890f5ab007bef2a1f4d81bb46043a089
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39020978"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39470503"
 ---
 # <a name="show-a-list-of-items-in-powerapps"></a>PowerApps에서 항목 목록 표시
-**[갤러리](controls/control-gallery.md)** 컨트롤을 앱에 추가하여 모든 데이터 원본에서 항목 목록을 표시합니다. 이 토픽에서는 데이터 원본으로 Excel을 사용합니다. **[텍스트 입력](controls/control-text-input.md)** 컨트롤의 필터 조건과 일치하는 항목만 표시하도록 **갤러리** 컨트롤을 구성하여 목록을 필터링합니다.
+
+**[갤러리](controls/control-gallery.md)** 컨트롤을 캔버스 앱에 추가하여 모든 데이터 원본에서 항목 목록을 표시합니다. 이 토픽에서는 데이터 원본으로 Excel을 사용합니다. **[텍스트 입력](controls/control-text-input.md)** 컨트롤의 필터 조건과 일치하는 항목만 표시하도록 **갤러리** 컨트롤을 구성하여 목록을 필터링합니다.
 
 ## <a name="prerequisites"></a>필수 조건
+
 * PowerApps에서 [컨트롤을 추가하고 구성](add-configure-controls.md)하는 방법을 알아봅니다.
 
 * 샘플 데이터 설정:

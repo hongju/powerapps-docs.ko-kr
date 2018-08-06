@@ -1,6 +1,6 @@
 ---
-title: 빠른 시작 - 앱용 Common Data Service에서 앱 생성 | Microsoft Docs
-description: 이 빠른 시작에서는 앱용 Common Data Service의 데이터를 관리하는 앱을 PowerApps에서 자동으로 생성합니다.
+title: 앱용 Common Data Service에서 캔버스 앱 생성 | Microsoft Docs
+description: PowerApps에서 자동으로 캔버스 앱을 생성하여 앱용 Common Data Service의 데이터 관리
 author: AFTOwen
 manager: kvivek
 ms.service: powerapps
@@ -9,23 +9,25 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 05/06/2018
 ms.author: anneta
-ms.openlocfilehash: 3481bd697e29855a075598975e26d14121a49a0a
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+ms.openlocfilehash: 1acd93f2580ab583e58020ce9fbabde3c2e6a239
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195361"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39470572"
 ---
-# <a name="quickstart-generate-an-app-from-common-data-service-for-apps-in-powerapps"></a>빠른 시작: PowerApps에서 앱용 Common Data Service의 앱 생성
+# <a name="generate-a-canvas-app-from-common-data-service-for-apps-in-powerapps"></a>PowerApps의 앱용 Common Data Service에서 캔버스 앱 생성
 
-이 빠른 시작에서는 Microsoft PowerApps를 사용하여 [앱용 CDS(Common Data Service)](../common-data-service/data-platform-intro.md)의 샘플 계정 목록에 따라 앱을 자동으로 생성합니다. 이 앱에서는 모든 계정을 찾아보고, 단일 계정의 세부 정보를 표시하며, 계정을 생성, 업데이트 또는 삭제할 수 있습니다.
+PowerApps에서 [앱용 CDS(Common Data Service)](../common-data-service/data-platform-intro.md)의 샘플 계정 목록에 따라 캔버스 앱을 자동으로 생성합니다. 이 앱에서는 모든 계정을 찾아보고, 단일 계정의 세부 정보를 표시하며, 계정을 생성, 업데이트 또는 삭제할 수 있습니다.
 
 PowerApps에 등록하지 않은 경우 시작하기 전에 [체험판으로 등록합니다](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 
 ## <a name="prerequisites"></a>필수 조건
+
 이 빠른 시작을 수행하려면 앱용 CDS의 데이터베이스가 만들어졌고 데이터가 포함되고 업데이트가 허용되는 [환경](working-with-environments.md)으로 전환해야 합니다. 이러한 환경이 없고 관리자 권한이 있으면 이 요구 사항을 충족하는 [환경을 만들 수 있습니다](../../administrator/environments-administration.md#create-an-environment).
 
 ## <a name="generate-an-app"></a>앱 생성
+
 1. [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인하고 필요한 경우 이 항목의 앞부분에 지정된 대로 환경을 전환합니다.
 
     ![PowerApps 홈페이지](./media/data-platform-create-app/sign-in.png)

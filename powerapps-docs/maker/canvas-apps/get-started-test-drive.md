@@ -1,6 +1,6 @@
 ---
-title: 템플릿에서 앱 만들기 | Microsoft Docs
-description: PowerApps 템플릿 기반의 앱을 자동으로 만들기 위한 단계별 지침입니다.
+title: 템플릿에서 캔버스 앱 만들기 | Microsoft Docs
+description: PowerApps 템플릿 기반의 캔버스 앱을 자동으로 만들기 위한 단계별 지침입니다.
 author: AFTOwen
 manager: kvivek
 ms.service: powerapps
@@ -9,21 +9,23 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 03/19/2018
 ms.author: anneta
-ms.openlocfilehash: 3827255726be017fe594a2c54389df7c622f7307
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+ms.openlocfilehash: 8b750760ab10c33d17f0e73f8b90a59e6a7b84f7
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195246"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39471239"
 ---
-# <a name="create-an-app-from-a-powerapps-template"></a>PowerApps 템플릿에서 앱 만들기
-예산 추적 및 휴가 일정 예약과 같은 특정 시나리오에 대한 템플릿 기반의 앱을 자동으로 만든 다음, 앱을 실행하여 해당 기본 동작을 이해합니다.
+# <a name="create-a-canvas-app-from-a-template-in-powerapps"></a>PowerApps의 템플릿에서 캔버스 앱 만들기
+
+예산 추적 및 휴가 일정 예약과 같은 특정 시나리오에 대한 템플릿 기반의 캔버스 앱을 자동으로 만든 다음, 앱을 실행하여 해당 기본 동작을 이해합니다.
 
 템플릿에서 앱을 만들려면 템플릿의 샘플 데이터를 저장할 클라우드 저장소 계정(예: DropBox, OneDrive 또는 Google Drive)이 필요합니다.
 
 PowerApps에 대한 라이선스가 없으면 [무료로 등록](../signup-for-powerapps.md)할 수 있습니다.
 
 ## <a name="create-an-app"></a>앱 만들기
+
 1. [PowerApps](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
 
     ![PowerApps 홈 페이지](./media/get-started-test-drive/sign-in.png)

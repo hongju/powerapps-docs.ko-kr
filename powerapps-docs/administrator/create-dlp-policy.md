@@ -1,26 +1,26 @@
 ---
-title: DLP(데이터 손실 방지) 정책을 만드는 방법에 대한 빠른 시작 | Microsoft Docs
+title: DLP(데이터 손실 방지) 정책 만들기 | Microsoft Docs
 description: 이 빠른 시작에서는 PowerApps에서 DLP(데이터 손실 방지) 정책을 만드는 방법을 알아봅니다.
 author: jimholtz
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: quickstart
 ms.date: 03/30/2018
-ms.author: jimh
-ms.openlocfilehash: da4be42ea0374d6cb50da2f9a9b17eef15d5b316
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.author: jimholtz
+ms.openlocfilehash: 49898aed97e2361704c88bcc1cd098a8fc0f101e
+ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34552372"
+ms.lasthandoff: 07/30/2018
+ms.locfileid: "39349458"
 ---
-# <a name="quickstart-create-a-data-loss-prevention-dlp-policy"></a>빠른 시작: DLP(데이터 손실 방지) 정책 만들기
+# <a name="create-a-data-loss-prevention-dlp-policy"></a>DLP(데이터 손실 방지) 정책 만들기
 조직의 데이터를 보호하기 위해 PowerApps를 사용하여 공유 가능한 소비자 커넥터 관련 비즈니스 데이터를 정의하는 정책을 만들고 적용할 수 있습니다. 데이터를 공유할 수 있는 방법을 정의하는 이러한 정책을 DLP(데이터 손실 방지) 정책이라고 합니다. DLP 정책은 조직 전체에서 데이터가 일관적인 방법으로 관리되도록 보장하고, 중요한 비즈니스 데이터가 소셜 미디어 사이트 같은 커넥터에 실수로 게시되지 않도록 방지합니다.
 
-이 빠른 시작에서는 Common Data Service 및 SharePoint 데이터베이스에 저장된 데이터가 Twitter에 게시되지 않도록 방지하는 단일 환경용 DLP 정책을 만드는 방법을 알아봅니다.
+이 항목에서는 Common Data Service 및 SharePoint 데이터베이스에 저장된 데이터가 Twitter에 게시되지 않도록 방지하는 단일 환경용 DLP 정책을 만드는 방법을 알아봅니다.
 
 ## <a name="prerequisites"></a>필수 조건
-이 빠른 시작을 수행하려면 다음 항목 중 **하나**가 필요합니다.
+이 단계를 수행하려면 다음 항목 중 **하나**가 필요합니다.
 * Azure Active Directory 테넌트 관리자 권한
 * Office 365 전역 관리자 권한
 * PowerApps 환경 관리자 권한과 PowerApps 요금제 2, Microsoft Flow 요금제 2 또는 [PowerApps 요금제 2 평가판](https://web.powerapps.com/signup?redirect=marketing&email=) 라이선스
@@ -41,7 +41,7 @@ ms.locfileid: "34552372"
 
     ![](./media/create-dlp-policy/select-environment.png)
 
-    테넌트 관리자인 경우 하나 이상의 환경 또는 테넌트 내의 모든 환경(평가판 라이선스를 사용하여 만든 라이선스 포함)에 적용되는 DLP 정책을 만들 수 있습니다. 이 빠른 시작에서는 **선택한 환경에만 적용**을 클릭하거나 탭하고 드롭다운 목록에서 환경을 선택한 다음, **계속**을 클릭하거나 탭합니다.
+    테넌트 관리자인 경우 하나 이상의 환경 또는 테넌트 내의 모든 환경(평가판 라이선스를 사용하여 만든 라이선스 포함)에 적용되는 DLP 정책을 만들 수 있습니다. 이 항목에서는 **선택한 환경에만 적용**을 클릭하거나 탭하고 드롭다운 목록에서 환경을 선택한 다음, **계속**을 클릭하거나 탭합니다.
 
     ![](./media/create-dlp-policy/select-environment-tenant.png)
 
@@ -64,7 +64,7 @@ Secure Data Access for Contoso 정책이 만들어지고 데이터 손실 방지
 관리자는 사용자가 앱을 만들기 전에 정책을 인식할 수 있도록 DLP 정책 목록을 조직과 공유하는 것이 좋습니다.
 
 ## <a name="next-steps"></a>다음 단계
-이 빠른 시작에서는 중요한 비즈니스 데이터를 실수로 Twitter 같은 커넥터에 게시하지 않도록 방지하는 단일 환경용 DLP 정책을 만드는 방법을 배웠습니다. DLP 정책에 대한 자세한 내용은 정책 관리 방법에 대한 문서를 살펴보세요.
+이 항목에서는 중요한 비즈니스 데이터를 실수로 Twitter 같은 커넥터에 게시하지 않도록 방지하는 단일 환경용 DLP 정책을 만드는 방법을 배웠습니다. DLP 정책에 대한 자세한 내용은 정책 관리 방법에 대한 문서를 살펴보세요.
 
 > [!div class="nextstepaction"]
 > [DLP(데이터 손실 방지) 정책 관리](prevent-data-loss.md)

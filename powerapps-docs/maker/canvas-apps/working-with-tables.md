@@ -1,6 +1,6 @@
 ---
-title: 테이블 이해 | Microsoft Docs
-description: 테이블, 열 및 레코드 작업에 대한 참조 정보입니다.
+title: 캔버스 앱의 테이블 이해 | Microsoft Docs
+description: PowerApps에서 캔버스 앱 테이블, 열 및 레코드 작업에 대한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 04/26/2016
 ms.author: gregli
-ms.openlocfilehash: 6e1a87324c0a004390ceb5d1ce4846325fe18bc7
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: e0fce2e574644f8ec8077e86dc3a5b4ee5f2cd3a
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39021185"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39469905"
 ---
-# <a name="understand-tables-and-records-in-powerapps"></a>PowerApps 테이블 및 레코드에 대한 이해
-Microsoft Excel, SharePoint, SQL Server 및 레코드와 테이블에 데이터를 저장하는 다른 여러 원본의 정보에 액세스하는 앱을 만들 수 있습니다. 이러한 종류의 데이터로 가장 효과적으로 작업하려면 이러한 구조의 기반이 되는 개념을 검토합니다.
+# <a name="understand-canvas-app-tables-and-records-in-powerapps"></a>PowerApps에서 캔버스 앱 테이블 및 레코드 이해
+
+PowerApps에서 Microsoft Excel, SharePoint, SQL Server 및 레코드와 테이블에 데이터를 저장하는 다른 여러 원본의 정보에 액세스하는 캔버스 앱을 만들 수 있습니다. 이러한 종류의 데이터로 가장 효과적으로 작업하려면 이러한 구조의 기반이 되는 개념을 검토합니다.
 
 * 레코드는 사람, 장소 또는 사물에 대한 하나 이상의 정보 범주를 포함합니다. 예를 들어 레코드에는 단일 고객의 이름, 이메일 주소 및 전화 번호가 포함될 수 있습니다. 다른 도구에서는 레코드를 "행" 또는 "항목"이라고 합니다.
 * 테이블은 동일한 범주의 정보가 포함된 하나 이상의 레코드를 포함합니다. 예를 들어 테이블에는 50명 고객의 이름, 이메일 주소 및 전화 번호가 포함될 수 있습니다.
