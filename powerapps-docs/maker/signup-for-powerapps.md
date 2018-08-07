@@ -10,10 +10,10 @@ ms.date: 03/12/2018
 ms.author: anneta
 ms.reviewer: ''
 ms.openlocfilehash: 62afc8fc0ce754ed797683a61c061db16370f904
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+ms.sourcegitcommit: 0f6d7bb9e524202c065b9a7ef92a7f54bdc4bc7c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2018
+ms.lasthandoff: 08/07/2018
 ms.locfileid: "39195200"
 ---
 # <a name="sign-up-for-a-free-license-to-try-powerapps"></a>PowerApps 체험 라이선스에 등록
@@ -22,8 +22,7 @@ PowerApps에서 앱을 만들려면 서로 다른 수준의 기능을 제공하�
 > [!NOTE]
 > 관리자인 경우 [조직용 PowerApps 구매하기](../administrator/signup-for-powerapps-admin.md) 또는 [조직에서의 PowerApps Q&A](../administrator/signup-question-and-answer.md)를 참조하세요.
 
-
-  [어떤 라이선스가 PowerApps를 포함하는지](https://powerapps.microsoft.com/pricing/)와 제공되는 사항에 대해 확인할 수 있습니다. 라이선스가 이미 있는지 확실하지 않은 경우 [PowerApps 사이트](http://powerapps.microsoft.com)를 연 다음, **로그인**을 선택합니다.
+[어떤 라이선스가 PowerApps를 포함하는지](https://powerapps.microsoft.com/pricing/)와 제공되는 사항에 대해 확인할 수 있습니다. 라이선스가 이미 있는지 확실하지 않은 경우 [PowerApps 사이트](http://powerapps.microsoft.com)를 연 다음, **로그인**을 선택합니다.
 
 ![PowerApps에 대한 로그인 옵션](./media/signup-for-powerapps/sign-in.png)
 
