@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 05/09/2017
 ms.author: mblythe
-ms.openlocfilehash: 9035809f989ad4b0215d4a8eba5d693d145b7f66
-ms.sourcegitcommit: 0f6d7bb9e524202c065b9a7ef92a7f54bdc4bc7c
+ms.openlocfilehash: 9f02b752444153681e30b39c3fa9d8a8b9e0cd6d
+ms.sourcegitcommit: 521a7b8e6ae72a211045b54d153a8a8c8f59172e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39471216"
+ms.lasthandoff: 08/09/2018
+ms.locfileid: "40021390"
 ---
 # <a name="develop-offline-capable-canvas-apps-with-powerapps"></a>PowerApps를 사용하여 오프라인에서 사용 가능한 캔버스 앱 개발
 
@@ -103,7 +103,7 @@ SaveData(LocalTweets, "Tweets")
 
 3. 4개의 **레이블**을 추가하고, 각 트윗에서 데이터를 표시하고, **텍스트** 속성을 다음으로 설정합니다.
    * **ThisItem.TweetText**
-   * **ThisItem.UserDetails.FullName & " @" & ThisItem.UserDetails.UserName**
+   * **ThisItem.UserDetails.FullName & " \@" & ThisItem.UserDetails.UserName**
    * **"RT: " & ThisItem.RetweetCount**
    * **Text(DateTimeValue(ThisItem.CreatedAtIso), DateTimeFormat.ShortDateTime)**
 4. **이미지** 컨트롤을 추가하고, **이미지** 속성을 **ThisItem.UserDetails.ProfileImageUrl**로 설정합니다.

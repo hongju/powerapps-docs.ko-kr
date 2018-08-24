@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 11/07/2015
 ms.author: gregli
-ms.openlocfilehash: c2b4cff0cc9d579cd76dad97a3ab1b160f4089ea
-ms.sourcegitcommit: 0f6d7bb9e524202c065b9a7ef92a7f54bdc4bc7c
+ms.openlocfilehash: 66fad5a1afd9086bf07da88a93ac68b756dfb3d6
+ms.sourcegitcommit: 521a7b8e6ae72a211045b54d153a8a8c8f59172e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39022059"
+ms.lasthandoff: 08/09/2018
+ms.locfileid: "40021321"
 ---
 # <a name="hashtags-function-in-powerapps"></a>PowerApps의 HashTags 함수
 텍스트 문자열에서 해시태그(#strings)를 추출합니다.
@@ -38,7 +38,7 @@ ms.locfileid: "39022059"
 ### <a name="step-by-step"></a>단계별 가이드
 1. **[Text input](../controls/control-text-input.md)** 컨트롤을 추가하고 **Tweet**이라고 이름을 지정하고 다음 문장을 입력합니다.
    
-    **This #app is #AMAZING and can #coUnt123 or #123abc but not #1-23 or #$\*(#@")**
+    **This #app is #AMAZING and can #coUnt123 or #123abc but not #1-23 or #$\*(#\@")**
 2. 세로 사용자 지정 갤러리를 추가하고 **[Items](../controls/properties-core.md)** 속성을 다음 함수로 설정합니다.
    
     **HashTags(Tweet.Text)**

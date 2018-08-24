@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 02/05/2017
 ms.author: gregli
-ms.openlocfilehash: ac13b62e77b5d8ed35939983b3989b5edb13361c
-ms.sourcegitcommit: 0f6d7bb9e524202c065b9a7ef92a7f54bdc4bc7c
+ms.openlocfilehash: 281e94f959fc87aae53e6881cf86ee0db5e53115
+ms.sourcegitcommit: 521a7b8e6ae72a211045b54d153a8a8c8f59172e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39018011"
+ms.lasthandoff: 08/09/2018
+ms.locfileid: "40021298"
 ---
 # <a name="ismatch-function-in-powerapps"></a>PowerApps의 IsMatch 함수
 텍스트 문자열이 패턴과 일치하는지 여부를 테스트합니다.
@@ -68,7 +68,7 @@ ms.locfileid: "39018011"
 | **Any** |문자와 일치합니다. |**.** |
 | **Comma** |쉼표와 일치합니다. |**,** |
 | **Digit** |단일 숫자("0"부터 "9")와 일치합니다. |**\\d** |
-| **Email** |"at" 기호("@")를 포함하는 이메일 주소 및 점(".")을 포함하는 도메인 이름과 일치합니다. |**.+@.+\\.[^\\.]{2,}** |
+| **Email** |"at" 기호("\@")를 포함하는 이메일 주소 및 점(".")을 포함하는 도메인 이름과 일치합니다. |**.+\@.+\\.[^\\.]{2,}** |
 | **Hyphen** |하이픈과 일치합니다. |**\\-** |
 | **LeftParen** |왼쪽 괄호"("와 일치합니다. |**\\(** |
 | **Letter** |문자와 일치합니다. |**\\p{L}** |
