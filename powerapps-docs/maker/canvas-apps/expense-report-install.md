@@ -9,32 +9,32 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 04/08/2018
 ms.author: caburk
-ms.openlocfilehash: f0fc0d9407511730145002bf109957b0878398bc
-ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 5c2d9e2b815d1ff2c3dc80bc6c37f1c2e78364ac
+ms.sourcegitcommit: b35470285b96750d660335284d830b4d0028befb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39470043"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "42859507"
 ---
 # <a name="install-and-configure-the-expense-report-sample-for-canvas-apps-in-powerapps"></a>PowerApps의 캔버스 앱에 대한 경비 보고서 샘플 설치 및 구성 | Microsoft Docs
 
-경비 보고서 샘플 설치 및 구성에 대한 단계별 지침입니다.
+경비 보고서 샘플 설치 및 구성에 대한 단계별 지침입니다. [여기](https://aka.ms/previewmyexpenses)에서 샘플 앱을 미리 볼 수도 있습니다.
 
 이 단계를 완료하는 데 소요되는 예상 시간: **10-15분**
 
-이 프로세스의 데모를 보려면 이 비디오를 시청하세요.
-
-[![경비 보고서 설치 비디오](./media/expense-report-install/expense-report-install-video.png)](https://youtu.be/DOR28V5kCkw)
-
-## <a name="overview-of-the-sample"></a>샘플 개요
+> [!TIP]
+> 경비 보고서 샘플 앱을 사용하는 방법의 데모를 보려면 [이 동영상](https://youtu.be/kJXZPILfbwU)을 시청하세요. 
 
 제출에서 승인까지 경비 보고서를 추적하세요. 품목을 개별 경비로 누적 총계를 내고 준비가 되었으면 승인을 위해 제출하세요. 이 앱을 사용자에게 맞게 설정하려면 약간의 설정 작업이 필요합니다.
 
 ![경비 보고서 PowerApps 시작 화면](./media/expense-report-install/expense-report-powerapp.png)
 
-경비 보고서 PowerApp 샘플을 사용하는 방법을 보려면 이 비디오를 시청하세요.
-
-[![경비 보고서 설치 비디오](./media/expense-report-install/expense-report-demo-video.png)](https://youtu.be/h6E9cdrOvMU)
+> [!TIP]
+> 경비 보고서 PowerApps 샘플을 사용하는 방법을 보려면 [이](https://youtu.be/h6E9cdrOvMU) 동영상을 시청하세요.
 
 ## <a name="prerequisites"></a>필수 조건
 
@@ -377,9 +377,6 @@ ms.locfileid: "39470043"
 2. 경비 보고서 PowerApp 옆에 있는 **줄임표**를 클릭합니다.
 3. **열기**를 클릭합니다.
 
-경비 보고서 PowerApp 샘플을 사용하는 방법을 보려면 이 비디오를 시청하세요.
-
-[![경비 보고서 설치 비디오](./media/expense-report-install/expense-report-demo-video.png)](https://youtu.be/h6E9cdrOvMU)
 
 ## <a name="next-steps"></a>다음 단계
 - [SharePoint 목록 양식 사용자 지정](https://docs.microsoft.com/powerapps/maker/canvas-apps/customize-list-form)
