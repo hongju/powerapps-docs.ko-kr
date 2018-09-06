@@ -9,12 +9,16 @@ ms.custom: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
 ms.reviewer: anneta
-ms.openlocfilehash: d4fbcafb7c566af224869ad0ce4233e580b20029
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 7ac87e794341fe79a6e4f949893b64462c384f83
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39017367"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42843800"
 ---
 # <a name="audio-and-video-controls-in-powerapps"></a>PowerApps의 오디오 및 동영상
 오디오 파일, 동영상 파일 또는 YouTube의 동영상을 재생하는 컨트롤입니다.
@@ -110,7 +114,7 @@ ms.locfileid: "39017367"
 3. 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
 
 ### <a name="play-a-video-from-azure-media-services"></a>Azure Media Services에서 비디오 재생
-1. 비디오가 AMS에 게시된 후 매니페스트 URL을 복사합니다. 아직 시작되지 않은 경우 서비스의 스트리밍 끝점을 시작합니다.
+1. 비디오가 AMS에 게시된 후 매니페스트 URL을 복사합니다. 아직 시작되지 않은 경우 서비스의 스트리밍 엔드포인트를 시작합니다.
 1. **비디오** 컨트롤을 추가하고 **Media** 속성을 AMS 비디오의 URL(큰따옴표로 묶인)로 설정합니다.
 2. F5 키를 누르고 **동영상** 컨트롤의 재생 단추를 클릭하거나 탭하여 클립을 재생합니다.
 3. 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.

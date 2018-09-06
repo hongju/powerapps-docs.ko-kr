@@ -9,12 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 165633f54697c80258f29267016c18b6178b8008
-ms.sourcegitcommit: 0f6d7bb9e524202c065b9a7ef92a7f54bdc4bc7c
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: d5765c1e425a3196b5e560bb621f391d36f6580c
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39016125"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42841596"
 ---
 # <a name="image-control-in-powerapps"></a>PowerApps의 이미지 컨트롤
 로컬 파일이나 데이터 원본 등으로부터 이미지를 표시하는 컨트롤입니다.

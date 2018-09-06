@@ -9,12 +9,18 @@ ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: jamesol
-ms.openlocfilehash: de7af5aa10f2f39057806c6ad170dc32e85c9f02
-ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
+search.audienceType:
+- admin
+search.app:
+- D365CE
+- PowerApps
+- Powerplatform
+ms.openlocfilehash: df7ea7bd8a32354191d12d63881988dfd1c8e49e
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2018
-ms.locfileid: "39349021"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42843754"
 ---
 # <a name="responding-to-data-subject-rights-dsr-requests-for-common-data-service-for-apps-customer-data"></a>앱용 Common Data Service 고객 데이터에 대한 DSR(Data Subject Rights) 요청에 응답
 
@@ -52,7 +58,7 @@ EU(유럽 연합) GDPR(일반 데이터 보호 규정)은 사람들(규정에서
 
 앱용 CDS 및 이전 버전의 CDS(Common Data Service)에는 개인 데이터를 조작하기 위한 개별 프로세스가 포함됩니다.
 
-[PowerApps](https://web.powerapps.com)에 로그인하고 다음 단계에 따라 CDS 환경 유형을 확인할 수 있습니다.
+[PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인하고 다음 단계에 따라 CDS 환경 유형을 확인할 수 있습니다.
 
 1. **환경** 드롭다운 목록에서 환경을 선택합니다.
 2. 탐색 창에서 **데이터**를 클릭하거나 탭한 다음, **엔터티**를 클릭하거나 탭합니다.
@@ -308,12 +314,12 @@ CDS 시스템 관리자가 개인으로부터 DSR 요청을 받으면 해당 관
 
 |리소스 | 용도 | 웹 사이트 액세스 |  프로그래밍 방식 액세스
 | --- | --- | --- | ---
-|엔터티 레코드 | 각 비즈니스 엔터티에서 비즈니스 트랜잭션을 캡처합니다. | [PowerApps](https://web.powerapps.com) |      아니요
+|엔터티 레코드 | 각 비즈니스 엔터티에서 비즈니스 트랜잭션을 캡처합니다. | [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) |   아니요
 
 #### <a name="entity-records"></a>엔터티 레코드
 개인의 개인 데이터는 비즈니스 엔터티에 저장할 수 있습니다.
 
-이 버전의 CDS에는 고유한 데이터베이스 스키마 및 인프라가 포함됩니다. 여기에는 고유한 엔터티가 포함되고 [PowerApps](http://web.powerapps.com/)에서 이러한 엔터티를 관리합니다.
+이 버전의 CDS에는 고유한 데이터베이스 스키마 및 인프라가 포함됩니다. 여기에는 고유한 엔터티가 포함되고 [PowerApps](http://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 이러한 엔터티를 관리합니다.
 
 엔터티 목록을 보려면 다음을 수행합니다.
 
@@ -348,7 +354,7 @@ CDS 환경에 있는 개인 데이터를 수정하려면 엔터티 데이터를 
 
 CDS 시스템 관리자는 개인의 개인 데이터가 포함된 모든 엔터티를 식별하고 각 엔터티에 대해 다음 단계를 반복해야 합니다.
 
-[PowerApps](http://web.powerapps.com/)에서 다음을 수행합니다.
+[PowerApps](http://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 다음을 수행합니다.
 
 1. 탐색 창에서 **데이터**를 클릭하거나 탭한 다음, **엔터티**를 클릭하거나 탭합니다.
 
@@ -379,7 +385,7 @@ CDS 시스템 관리자는 개인의 개인 데이터가 포함된 모든 엔터
 ### <a name="export"></a>내보내기
 각 엔터티에서 Excel 스프레드시트로 개인 데이터를 내보내고 이를 볼 수 있습니다.
 
-[PowerApps](http://web.powerapps.com/)에서 다음을 수행합니다.
+[PowerApps](http://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 다음을 수행합니다.
 
 1. 탐색 창에서 **데이터**를 클릭하거나 탭한 다음, **엔터티**를 클릭하거나 탭합니다.
 
@@ -404,7 +410,7 @@ CDS 시스템 관리자는 개인의 개인 데이터가 포함된 모든 엔터
 
 CDS 시스템 관리자는 개인의 개인 데이터가 포함된 모든 엔터티를 식별하고 각 엔터티에 대해 다음 단계를 반복해야 합니다.
 
-[PowerApps](http://web.powerapps.com/)에서 다음을 수행합니다.
+[PowerApps](http://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 다음을 수행합니다.
 
 1. 탐색 창에서 **데이터**를 클릭하거나 탭한 다음, **엔터티**를 클릭하거나 탭합니다.
 

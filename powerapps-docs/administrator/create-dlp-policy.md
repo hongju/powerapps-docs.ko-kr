@@ -7,12 +7,18 @@ ms.component: pa-admin
 ms.topic: quickstart
 ms.date: 03/30/2018
 ms.author: jimholtz
-ms.openlocfilehash: 49898aed97e2361704c88bcc1cd098a8fc0f101e
-ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
+search.audienceType:
+- admin
+search.app:
+- D365CE
+- PowerApps
+- Powerplatform
+ms.openlocfilehash: 2ebacd128846e45cc936e3f66560f6fcf27d50b8
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2018
-ms.locfileid: "39349458"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42840683"
 ---
 # <a name="create-a-data-loss-prevention-dlp-policy"></a>DLP(데이터 손실 방지) 정책 만들기
 조직의 데이터를 보호하기 위해 PowerApps를 사용하여 공유 가능한 소비자 커넥터 관련 비즈니스 데이터를 정의하는 정책을 만들고 적용할 수 있습니다. 데이터를 공유할 수 있는 방법을 정의하는 이러한 정책을 DLP(데이터 손실 방지) 정책이라고 합니다. DLP 정책은 조직 전체에서 데이터가 일관적인 방법으로 관리되도록 보장하고, 중요한 비즈니스 데이터가 소셜 미디어 사이트 같은 커넥터에 실수로 게시되지 않도록 방지합니다.

@@ -9,12 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 30c55591e410b5526fc85b76b06002c2266e1867
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: a2cb87cf68457771605e78970b8d7a923af61fce
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39016585"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42835175"
 ---
 # <a name="list-box-control-in-powerapps"></a>PowerApps의 목록 상자 컨트롤
 사용자가 하나 또는 여러 개의 항목을 선택할 수 있는 목록입니다.
@@ -27,7 +31,7 @@ ms.locfileid: "39016585"
 
 **[Items](properties-core.md)** – 갤러리, 목록 또는 차트와 같은 컨트롤에 표시되는 데이터 원본입니다.
 
-[!INCLUDE [long-items](../../../includes/long-items.md)]
+갤러리, 목록 또는 차트를 추가할 경우 속성 목록은 새 컨트롤이 표시해야 하는 데이터를 쉽게 지정할 수 있는 **항목**을 기본적으로 보여줍니다. 예를 들어 갤러리의 **Items** 속성을 Salesforce의 **Account** 테이블, Excel에서 만들어 클라우드에 업로드한 **Inventory** 테이블 또는 **ConferenceSpeakers** SharePoint 목록 테이블로 설정할 수 있습니다.
 
 ## <a name="additional-properties"></a>추가 속성
 **[AccessibleLabel](properties-accessibility.md)** – 화면 읽기 프로그램의 레이블입니다.
