@@ -9,12 +9,16 @@ ms.component: canvas
 ms.date: 10/25/2016
 ms.author: gregli
 ms.reviewer: anneta
-ms.openlocfilehash: 6b1b2f246f8cb598b1f20f5a1418651491f73bd5
-ms.sourcegitcommit: 0f6d7bb9e524202c065b9a7ef92a7f54bdc4bc7c
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: cc4338e37b7ecde2e2e2e9ad5c5ac6e96d116b58
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39021921"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42849848"
 ---
 # <a name="card-control-in-powerapps"></a>PowerApps의 카드 컨트롤
 **[표시 양식](control-form-detail.md)** 또는 **[편집 양식](control-form-detail.md)** 컨트롤의 단일 필드에 대한 표시 및 편집 경험을 제공합니다.

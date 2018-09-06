@@ -9,12 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 05/24/2018
 ms.author: fikaradz
-ms.openlocfilehash: 604b48a70f54a011e803342191e51dda12cbca3a
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: e469cc3769c8deeb5046dc79f34b9ae42788b2d2
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39016148"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42865177"
 ---
 # <a name="rich-text-editor-control-experimental-in-powerapps"></a>PowerApps의 서식 있는 텍스트 편집기 컨트롤(실험적)
 실험적 컨트롤을 사용하면 최종 사용자가 WYSIWYG 편집 영역 내의 텍스트 서식을 지정할 수 있습니다.  출력 형식은 HTML입니다.

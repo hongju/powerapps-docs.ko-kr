@@ -9,12 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 11/07/2015
 ms.author: gregli
-ms.openlocfilehash: dbfc53352b0e22db1e809cd9c1ced2001f732051
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 72e1bd234a9cbccc24cf35723ee10bacd175b278
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39019965"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42865834"
 ---
 # <a name="lower-upper-and-proper-functions-in-powerapps"></a>PowerApps에서 Lower, Upper 및 Proper 함수
 텍스트 문자열의 문자를 모두 소문자, 모두 대문자 또는 적절한 대소문자로 변환합니다.

@@ -9,12 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 09/09/2016
 ms.author: gregli
-ms.openlocfilehash: 30a35425fa9abdcaa4cc5300753c111c0fb1c8d2
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 5997df0d6e2a6a2d6732d10cefa146f4ba6e33dc
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39015366"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42852491"
 ---
 # <a name="trim-and-trimends-functions-in-powerapps"></a>PowerApps의 Trim 및 TrimEnds 함수
 텍스트 문자열에서 여분의 공백을 제거합니다.

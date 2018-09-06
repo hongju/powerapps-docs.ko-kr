@@ -8,12 +8,18 @@ ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: bfba09ace77fb0ab62a4c5b4cb6a01e040f07d2f
-ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
+search.audienceType:
+- admin
+search.app:
+- D365CE
+- PowerApps
+- Powerplatform
+ms.openlocfilehash: a8bd709c3dcc4871d637778c12a81f5be4f0a494
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2018
-ms.locfileid: "39349435"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42860540"
 ---
 # <a name="purchase-powerapps-for-your-organization"></a>조직용 PowerApps 구매하기
 이 문서는 관리자 권한으로 조직용 PowerApps를 구매하는 방법을 설명합니다. PowerApps는 PowerApps 웹 사이트를 통해 직접 구매하거나, Office 365 관리자 센터, Microsoft 담당자 또는 파트너를 통해 구매할 수 있습니다. 이 문서는 PowerApps 플랜 1 또는 플랜 2에 사용할 수 있는 평가판 옵션을 안내하고 조직으로 PowerApps 플랜 1 또는 플랜 2를 구매하는 방법을 설명합니다. 자세한 내용은 [조직용 PowerApps Q & A](signup-question-and-answer.md)를 참조하세요.

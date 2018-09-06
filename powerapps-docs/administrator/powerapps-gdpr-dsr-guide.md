@@ -8,12 +8,18 @@ ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 05/23/2018
 ms.author: jamesol
-ms.openlocfilehash: ae73d5df51b2656fc4f33e7258078140a180926d
-ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
+search.audienceType:
+- admin
+search.app:
+- D365CE
+- PowerApps
+- Powerplatform
+ms.openlocfilehash: fddbb40e7b4b5d94b1df02e32af6316cce0a17d9
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2018
-ms.locfileid: "39349205"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42862890"
 ---
 # <a name="responding-to-data-subject-rights-dsr-requests-for-powerapps-customer-data"></a>PowerApps 고객 데이터에 대한 DSR(Data Subject Rights) 요청에 응답
 
@@ -68,7 +74,7 @@ PowerApps 알림 | PowerApps는 앱이 사용자와 공유될 경우 및 앱용 
 
 PowerApps는 특정 사용자에 대한 개인 데이터를 찾기 위한 다음과 같은 환경을 제공합니다.
 
-- **웹 사이트 액세스**: [PowerApps 사이트](https://web.powerapps.com), [PowerApps 관리 센터](https://admin.powerapps.com/) 및 [Office 365 Service Trust Portal](https://servicetrust.microsoft.com/)
+- **웹 사이트 액세스**: [PowerApps 사이트](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc), [PowerApps 관리 센터](https://admin.powerapps.com/) 및 [Office 365 Service Trust Portal](https://servicetrust.microsoft.com/)
 - **PowerShell 액세스**: PowerApps cmdlet([앱 작성자](https://go.microsoft.com/fwlink/?linkid=871448) 및 [관리자](https://go.microsoft.com/fwlink/?linkid=871804)용) 및 [온-프레미스 게이트웨이 cmdlet](https://go.microsoft.com/fwlink/?linkid=872238)
 
 이러한 리소스 유형별로 이러한 환경을 사용하여 특정 사용자에 대한 개인 데이터를 찾는 방법에 대한 자세한 단계는 [PowerApps 고객 데이터를 내보내기 위한 DSR(Data Subject Rights) 요청에 응답](powerapps-gdpr-export-dsr.md)을 참조하세요.

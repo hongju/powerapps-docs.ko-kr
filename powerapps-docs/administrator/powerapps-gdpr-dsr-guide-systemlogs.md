@@ -8,12 +8,18 @@ ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 05/23/2018
 ms.author: jamesol
-ms.openlocfilehash: 0511022621d891a6e45b27f1440e614df8b105a0
-ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
+search.audienceType:
+- admin
+search.app:
+- D365CE
+- PowerApps
+- Powerplatform
+ms.openlocfilehash: d2edace99a540fae449efb6d5d9badf5251cb33c
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2018
-ms.locfileid: "39349136"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42864882"
 ---
 # <a name="responding-to-dsr-requests-for-system-generated-logs-in-powerapps-microsoft-flow-and-common-data-service-for-apps"></a>PowerApps, Microsoft Flow 및 앱용 Common Data Service에서 시스템 생성 로그에 대한 DSR 요청에 응답
 Microsoft에서는 EU(유럽 연합) GDPR(일반 데이터 보호 규정)의 광범위한 ‘개인 데이터’ 정의에 따라 사적인 것으로 간주할 수 있는 시스템 생성 로그에 액세스하고 이를 내보내고 삭제하는 기능을 제공합니다. GDPR에 따라 사적인 것으로 간주할 수 있는 시스템 생성 로그의 예는 다음과 같습니다.
@@ -103,13 +109,13 @@ Microsoft에서는 EU(유럽 연합) GDPR(일반 데이터 보호 규정)의 광
 
 ## <a name="determining-tenant-type"></a>테넌트 형식 결정
 관리 또는 관리되지 않는 테넌트의 사용자인지를 확인하려면 다음 작업을 수행합니다.
-1. 브라우저에서 다음과 같은 URL([ https://login.windows.net/common/userrealm/foobar@contoso.com?api-version=2.1](https://login.windows.net/common/userrealm/foobar@contoso.com?api-version=2.1))을 열고, URL에서 이메일 주소를 바꿉니다.
+1. 브라우저에서 다음과 같은 URL([ https://login.windows.net/common/userrealm/name@contoso.com?api-version=2.1](https://login.windows.net/common/userrealm/name@contoso.com?api-version=2.1))을 열고, URL에서 이메일 주소를 바꿉니다.
 
 2. **관리되지 않는 테넌트**의 멤버인 경우 응답에서 `"IsViral": true`이 표시됩니다.
   ```
       {
       ...
-      "Login": "foobar@unmanagedcontoso.com",
+      "Login": "name@unmanagedcontoso.com",
       "DomainName": "unmanagedcontoso.com",
       "IsViral": **true**,
       ...

@@ -8,12 +8,18 @@ ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: jamesol
-ms.openlocfilehash: 475b1f9b1aace4dc9632379e8a4e3522a90f42b2
-ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
+search.audienceType:
+- admin
+search.app:
+- D365CE
+- PowerApps
+- Powerplatform
+ms.openlocfilehash: 4eb1cdb3fb54780c693bb764bdf6d9de1e7088b5
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2018
-ms.locfileid: "39349044"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42864382"
 ---
 # <a name="licensing-overview"></a>라이선스 개요
 PowerApps는 사용자별로 사용이 허가됩니다. 앱을 만들고 실행하기 위해 서비스에 액세스하는 각 사용자에게는 라이선스가 필요합니다. Office 365 및 Dynamics 365 고객은 해당 제품에 포함된 PowerApps 및 Microsoft Flow 기능을 즉시 이용할 수 있습니다. Office 365 및 Dynamics 365 외부의 데이터 원본에 액세스하거나 추가 기능이 필요한 앱 및 흐름을 작성하려는 고객은 PowerApps 및 Microsoft Flow에 대한 독립 실행형 구독을 구입할 수 있습니다. 이러한 라이선스 그룹 간의 기능에는 중요한 차이점이 있습니다.

@@ -9,12 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 06/05/2017
 ms.author: fikaradz
-ms.openlocfilehash: fdd759c06cebd573236f6de4e126766c42c354f2
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: e1c8ba704a01c989da990fd1b2b17f7b5def5541
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39015205"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42850858"
 ---
 # <a name="column-control-in-powerapps"></a>PowerApps의 열 컨트롤
 [**데이터 테이블**](control-data-table.md) 컨트롤에서 단일 필드에 대한 디스플레이 경험을 제공합니다.

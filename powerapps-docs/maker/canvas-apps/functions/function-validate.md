@@ -9,12 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 11/01/2015
 ms.author: gregli
-ms.openlocfilehash: 6a8bff341484139e6d16092fc2ea3cbacb384777
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: bec00071d1b354872bf3b140e5c879fe8857ffec
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39022841"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42865673"
 ---
 # <a name="validate-function-in-powerapps"></a>PowerApps의 Validate 함수
 **Validate** 함수는 단일 [열](../working-with-tables.md#columns) 또는 전체 [레코드](../working-with-tables.md#records)의 값이 [데이터 원본](../working-with-data-sources.md)에 대해 유효한지 여부를 확인합니다.  

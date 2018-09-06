@@ -8,12 +8,18 @@ ms.topic: overview
 ms.date: 06/30/2018
 ms.author: jimholtz
 manager: kvivek
-ms.openlocfilehash: e33c27d85814fa240c515f874617a04d85a4666f
-ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
+search.audienceType:
+- admin
+search.app:
+- D365CE
+- PowerApps
+- Powerplatform
+ms.openlocfilehash: 8fd29668be0d0a2ab1cfc3c3b54bb9550069142d
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2018
-ms.locfileid: "39351801"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42849940"
 ---
 # <a name="whats-the-role-of-a-powerapps-administrator"></a>PowerApps 관리자의 역할은 무엇입니까?
 PowerApps, Microsoft Flow 및 앱용 CDS(Common Data Service)의 관리는 [PowerApps 관리 센터](https://admin.powerapps.com)를 통해 수행됩니다.
