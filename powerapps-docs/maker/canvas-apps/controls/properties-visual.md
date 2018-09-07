@@ -9,12 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 10/25/2016
 ms.author: gregli
-ms.openlocfilehash: aba83ebe0a18e6d351a27dcb636c68d5d1436be3
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: dad00e28dfc61c92c03aaf917c154e67291af073
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39023002"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42843627"
 ---
 # <a name="image-properties-in-powerapps"></a>PowerApps의 이미지 속성
 이미지, 사진 및 펜 컨트롤의 요소를 포함하여 앱에서 그래픽 요소를 구성합니다.

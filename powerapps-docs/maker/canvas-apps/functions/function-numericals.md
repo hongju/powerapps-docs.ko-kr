@@ -9,12 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 09/13/2016
 ms.author: gregli
-ms.openlocfilehash: e1e50b589f301aaeda944074fe7766b79db6a3c2
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 95406bff477a4d84a6125225ffc1e158ffb8c19a
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39015941"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42827255"
 ---
 # <a name="abs-exp-ln-power-and-sqrt-functions-in-powerapps"></a>Microsoft PowerApps의 Abs, Exp, Ln, Power 및 Sqrt 함수
 절대 값, 자연 로그, 제곱근 및 *e* 또는 지정된 숫자로 거듭제곱했을 때 결과를 계산합니다.

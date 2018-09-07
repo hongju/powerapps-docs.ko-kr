@@ -9,12 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 06/05/2018
 ms.author: gregli
-ms.openlocfilehash: e9c0d85525ee8a067c903d59f459541a08a22d39
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 3ceb6e0bcac83bbd79d78dac859a7ddb7acf42a8
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39014791"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42864619"
 ---
 # <a name="notify-function-in-powerapps"></a>PowerApps의 Notify 함수
 사용자에게 배너 메시지를 표시합니다.

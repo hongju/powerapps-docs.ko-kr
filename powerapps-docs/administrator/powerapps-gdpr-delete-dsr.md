@@ -8,12 +8,18 @@ ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 05/23/2018
 ms.author: jamesol
-ms.openlocfilehash: 9cde5c7b2127359ab21a9e89aa83841d87cae49e
-ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
+search.audienceType:
+- admin
+search.app:
+- D365CE
+- PowerApps
+- Powerplatform
+ms.openlocfilehash: 5f27622e7d2021b095452ed7887fe5e979cbc81d
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2018
-ms.locfileid: "39349067"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42848555"
 ---
 # <a name="responding-to-data-subject-rights-dsr-requests-to-delete-powerapps-customer-data"></a>PowerApps 고객 데이터를 삭제하기 위한 DSR(Data Subject Rights) 요청에 응답
 
@@ -40,7 +46,7 @@ PowerApps를 통해 사용자는 조직의 일상 업무에 중요한 부분인 
 
 수동 검토가 필요한 데이터 및 리소스의 경우 PowerApps는 특정 사용자에 대한 개인 데이터를 다시 할당(필요한 경우)하거나 삭제하기 위한 다음과 같은 환경을 제공합니다.
 
-* 웹 사이트 액세스: [PowerApps 사이트](https://web.powerapps.com), [PowerApps 관리 센터](https://admin.powerapps.com/) 및 [Office 365 Service Trust Portal](https://servicetrust.microsoft.com/)
+* 웹 사이트 액세스: [PowerApps 사이트](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc), [PowerApps 관리 센터](https://admin.powerapps.com/) 및 [Office 365 Service Trust Portal](https://servicetrust.microsoft.com/)
 
 * PowerShell 액세스: [앱 작성자](https://go.microsoft.com/fwlink/?linkid=871448) 및 [관리자](https://go.microsoft.com/fwlink/?linkid=871804)용 PowerApps cmdlet과 [온-프레미스 게이트웨이](https://go.microsoft.com/fwlink/?linkid=872238)용 cmdlet.
 
@@ -62,20 +68,20 @@ PowerApps를 통해 사용자는 조직의 일상 업무에 중요한 부분인 
 ## <a name="prerequisites"></a>필수 조건
 
 ### <a name="for-users"></a>사용자의 경우
-유효한 PowerApps 라이선스가 있는 사용자는 [PowerApps](https://web.powerapps.com) 또는 [앱 작성자용 PowerShell cmdlet](https://go.microsoft.com/fwlink/?linkid=871448)을 사용하여 이 문서에 설명된 사용자 작업을 수행할 수 있습니다.
+유효한 PowerApps 라이선스가 있는 사용자는 [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 또는 [앱 작성자용 PowerShell cmdlet](https://go.microsoft.com/fwlink/?linkid=871448)을 사용하여 이 문서에 설명된 사용자 작업을 수행할 수 있습니다.
 
 #### <a name="unmanaged-tenant"></a>관리되지 않는 테넌트
 [관리되지 않는 테넌트](https://docs.microsoft.com/azure/active-directory/domains-admin-takeover)의 멤버인 경우(즉, Azure AD 테넌트에 전역 관리자가 없는 경우) 개인 데이터를 제거하려면 이 아트에 설명된 단계를 수행할 수 있습니다.  그러나 테넌트에 대한 전역 관리자가 없으므로 아래 [11단계: Azure Active Directory에서 사용자 삭제](#step-11-delete-the-user-from-azure-active-directory)에서 설명된 지침에 따라 테넌트에서 고유한 계정을 삭제해야 합니다.
 
 관리되지 않는 테넌트의 멤버인지 확인하기 위해 다음과 같은 단계를 수행하세요.
 
-1. 브라우저에서 다음과 같은 URL(https://login.windows.net/common/userrealm/foobar@contoso.com?api-version=2.1)을 열고, URL에서 이메일 주소를 바꿉니다.
+1. 브라우저에서 다음과 같은 URL(https://login.windows.net/common/userrealm/name@contoso.com?api-version=2.1)을 열고, URL에서 이메일 주소를 바꿉니다.
 
 2. **관리되지 않는 테넌트**의 멤버인 경우 응답에서 `"IsViral": true`이 표시됩니다.
 ```
 {
   ...
-  "Login": "foobar@unmanagedcontoso.com",
+  "Login": "name@unmanagedcontoso.com",
   "DomainName": "unmanagedcontoso.com",
   "IsViral": true,
   ...
@@ -210,7 +216,7 @@ Get-AdminApp -Owner $deleteDsrUserId | Set-AdminAppOwner -AppOwner $newAppOwnerU
 ```
 
 ### <a name="delete-a-users-canvas-app-using-the-powerapps-site"></a>PowerApps 사이트를 사용하여 사용자의 캔버스 앱 삭제
-사용자는 [PowerApps 사이트](https://web.powerapps.com)에서 앱을 삭제할 수 있습니다. 앱 삭제 방법에 대한 전체 단계는 앱 삭제를 참조하세요.
+사용자는 [PowerApps 사이트](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 앱을 삭제할 수 있습니다. 앱 삭제 방법에 대한 전체 단계는 앱 삭제를 참조하세요.
 
 ### <a name="delete-a-users-canvas-app-using-the-powerapps-admin-center"></a>PowerApps 관리 센터를 사용하여 사용자의 캔버스 앱 삭제
 관리자는 다음 단계에 따라 [PowerApps 관리 센터](https://admin.powerapps.com/)에서 사용자가 만든 앱을 삭제할 수 있습니다.

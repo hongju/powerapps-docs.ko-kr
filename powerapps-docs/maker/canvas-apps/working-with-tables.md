@@ -9,12 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 04/26/2016
 ms.author: gregli
-ms.openlocfilehash: e0fce2e574644f8ec8077e86dc3a5b4ee5f2cd3a
-ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 19199ade5c7f89f9d3d113b41ac9651a9b007ef6
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39469905"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42847899"
 ---
 # <a name="understand-canvas-app-tables-and-records-in-powerapps"></a>PowerApps에서 캔버스 앱 테이블 및 레코드 이해
 
@@ -62,7 +66,8 @@ Excel 수식에서 하나 이상의 셀 참조를 인수로 사용하는 것처�
 > [!NOTE]
 > 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 PowerApps는 공백을 **"\_x0020\_"** 으로 바꿉니다. 예를 들어 SharePoint 또는 Excel의 **"Column Name"** 은 데이터 레이아웃에 표시되거나 수식에 사용될 때 PowerApps에 **"Column_x0020_Name"** 으로 나타납니다.
 
-### <a name="table"></a>테이블
+### <a name="table"></a>Table
+
 테이블은 하나 이상의 레코드로 구성되며, 각 레코드에는 레코드 간에 일관된 이름을 갖는 여러 필드가 있습니다.
 
 데이터 원본 또는 컬렉션에 저장된 모든 테이블에는 테이블을 참조하고 테이블을 인수로 사용하는 함수로 전달하는 데 사용되는 이름이 있습니다.  또한 테이블은 함수 또는 수식의 결과일 수도 있습니다.

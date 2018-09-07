@@ -9,12 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 11/07/2015
 ms.author: gregli
-ms.openlocfilehash: 66fad5a1afd9086bf07da88a93ac68b756dfb3d6
-ms.sourcegitcommit: 521a7b8e6ae72a211045b54d153a8a8c8f59172e
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 16226203262d5ecacc8fc49a88c9934dd0f673e6
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/09/2018
-ms.locfileid: "40021321"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42862867"
 ---
 # <a name="hashtags-function-in-powerapps"></a>PowerApps의 HashTags 함수
 텍스트 문자열에서 해시태그(#strings)를 추출합니다.
