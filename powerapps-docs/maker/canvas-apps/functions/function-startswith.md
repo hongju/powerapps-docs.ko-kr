@@ -9,12 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 07/24/2017
 ms.author: gregli
-ms.openlocfilehash: af4d32066cdb527f999b9fce2e90e424a54bacd1
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: e202ce052bf12f5f67715deb2e86b385c2e515a7
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39018793"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42835563"
 ---
 # <a name="endswith-and-startswith-functions-in-powerapps"></a>PowerApps의 EndsWith 및 StartsWith 함수
 텍스트 문자열이 다른 텍스트 문자열로 시작되거나 끝나는지 테스트합니다.

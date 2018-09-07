@@ -9,12 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 10/21/2015
 ms.author: gregli
-ms.openlocfilehash: c02bc4321498d28cbc664f144f1dc396e4052cbd
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: a1a9a02917ed5202e24ce0228b8b581e2f45b8b9
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39019713"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42831564"
 ---
 # <a name="revert-function-in-powerapps"></a>PowerApps의 Revert 함수
 [데이터 원본](../working-with-data-sources.md)의 [레코드](../working-with-tables.md#records)를 새로 고치고 오류를 지웁니다.

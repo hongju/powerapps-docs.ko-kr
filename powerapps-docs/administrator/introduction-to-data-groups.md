@@ -8,12 +8,18 @@ ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: 6a6217c0a344d0501c8a856b0632397044ceb465
-ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
+search.audienceType:
+- admin
+search.app:
+- D365CE
+- PowerApps
+- Powerplatform
+ms.openlocfilehash: e2424207cdc70f2f8135fa6ef5559cec2fc637d9
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2018
-ms.locfileid: "39349642"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42834001"
 ---
 # <a name="data-groups"></a>데이터 그룹
 데이터 그룹은 [DLP(데이터 손실 방지) 정책](prevent-data-loss.md) 내에서 서비스를 범주화하는 단순한 방법입니다. 사용 가능한 두 데이터 그룹에는 **비즈니스 데이터만**과 **비즈니스 데이터 허용 안 됨** 그룹이 있습니다. 조직은 특정 데이터 그룹에 배치되는 서비스를 자유롭게 결정할 수 있습니다. 서비스를 분류하는 좋은 방법은 조직에 미치는 영향력에 따라 그룹에 배치하는 것입니다. 기본적으로 모든 서비스는 **비즈니스 데이터 허용 안 됨** 데이터 그룹에 배치됩니다. 관리 센터에서 DLP 정책의 수정을 만들거나 수정할 때 데이터 그룹의 서비스를 관리합니다.

@@ -8,12 +8,18 @@ ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: af7c4bd051d7fd822b74b43bec6e8110df24a450
-ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
+search.audienceType:
+- admin
+search.app:
+- D365CE
+- PowerApps
+- Powerplatform
+ms.openlocfilehash: 71358a1c476655ab4e80d94f9e6846b9a35684f4
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2018
-ms.locfileid: "39349504"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42857639"
 ---
 # <a name="configure-environment-security"></a>환경 보안 구성
 앱용 CDS(Common Data Service)는 데이터베이스에 대한 보안 액세스를 위해 역할 기반 보안 모델을 사용합니다. 이 항목에서는 앱의 보안을 유지하기 위해 필요한 보안 아티팩트를 만드는 방법을 설명합니다. 사용자 역할은 데이터에 대한 런타임 액세스를 제어하며 환경 관리자 및 환경 작성자가 제어하는 환경 역할과는 별개입니다. 환경 개요는 [환경 개요](environments-overview.md)를 참조하세요.

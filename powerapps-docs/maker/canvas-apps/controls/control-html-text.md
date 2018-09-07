@@ -9,12 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: d07bd95d403fa92a8fb9c3faca9f64e8666a393f
-ms.sourcegitcommit: 0f6d7bb9e524202c065b9a7ef92a7f54bdc4bc7c
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 965c779a752d0bfd864a06d5fa886b0187839123
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39015481"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42836896"
 ---
 # <a name="html-text-control-in-powerapps"></a>PowerApps의 HTML 텍스트 컨트롤
 텍스트를 표시하고 HTML 태그를 서식 지정으로 변환하는 상자입니다.

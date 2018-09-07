@@ -9,12 +9,16 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 10/20/2017
 ms.author: mblythe
-ms.openlocfilehash: e48da773f34eb2abedd65c3ea88aab1bb184da02
-ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: c9cd4008bcb93e05d696fec082e400ee9661785b
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39470779"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42835398"
 ---
 # <a name="integrate-powerapps-into-websites-and-other-services"></a>웹 사이트 및 기타 서비스로 PowerApps 통합
 빌드하는 앱은 종종 사용자가 작업하는 위치에서 바로 사용할 수 있을 때 가장 유용합니다. PowerApps를 사용하면 해당 앱을 웹 사이트와 Power BI 또는 SharePoint와 같은 다른 서비스에 통합할 수 있도록 iframe에 캔버스 앱을 포함할 수 있습니다.

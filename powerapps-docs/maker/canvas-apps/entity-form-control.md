@@ -9,12 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 03/11/2017
 ms.author: aneesa
-ms.openlocfilehash: 8915d8dc6f87b60a040dc26891cf45b9e243bb72
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: ee8573cb9ae4df5ac42deefad4ac67aede3a3502
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39023968"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42836280"
 ---
 # <a name="use-the-entity-form-control"></a>엔터티 양식 컨트롤 사용
 **엔터티 양식** 컨트롤을 사용하여 Common Data Service 엔터티에 대한 서식 있는 양식을 추가하여 앱을 보다 빠르게 만들 수 있습니다.

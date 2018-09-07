@@ -9,12 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 04/01/2017
 ms.author: fikaradz
-ms.openlocfilehash: a6f475277e7cde25fea350634aa60e8b150e304d
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: b724bff09e02a3f69166b3c3357833804c8172b6
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39018586"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42834845"
 ---
 # <a name="show-items-of-different-heights-in-a-powerapps-gallery"></a>PowerApps 갤러리에서 높이가 다른 항목 표시
 데이터 집합에 있는 다양한 항목이 같은 필드에 다른 양의 데이터를 포함하고 있다면 적은 데이터가 포함된 항목 다음에 빈 공백을 추가하지 않고 더 많은 데이터를 포함하는 항목을 완전히 포함할 수 있습니다. **유연한 높이** 갤러리 컨트롤을 추가 및 구성하여 다음 작업을 수행할 수 있습니다.

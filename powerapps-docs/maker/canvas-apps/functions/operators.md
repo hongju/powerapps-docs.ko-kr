@@ -9,12 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 07/24/2017
 ms.author: gregli
-ms.openlocfilehash: 53ee881a81045f6c63c68d363b3a19d712bea9f7
-ms.sourcegitcommit: 0f6d7bb9e524202c065b9a7ef92a7f54bdc4bc7c
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 41f20ff11a3c4b58b09e5b78f53f01ad97ddfa7d
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39017896"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42852891"
 ---
 # <a name="operators-and-data-types-in-powerapps"></a>PowerApps의 연산자 및 데이터 형식
 일부 연산자는 제작자의 언어에 따라 달라집니다.  자세한 내용은 [글로벌 앱](../global-apps.md)을 참조하세요.
