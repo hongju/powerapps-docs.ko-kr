@@ -9,17 +9,21 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 10/12/2016
 ms.author: lanced
-ms.openlocfilehash: 619085bbc11214fbba308abc7a630a3631cb2ec1
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: f639f82e6fc927f693b8f8353cdc125c487e4c1f
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195168"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42829959"
 ---
 # <a name="connect-to-power-bi-from-powerapps"></a>PowerApps에서 Power BI에 연결
 ![Power BI](./media/connection-powerbi/powerbiicon.png)
 
-Power BI는 데이터를 분석하고 정보 활용을 공유하는 비즈니스 분석 도구 제품군입니다. 비즈니스를 모니터링하고 모든 장치에서 사용할 수 있는 다양한 대시보드에 대해 신속하게 답변 받을 수 있습니다. 앱에서 Power BI 서비스에서 설정한 데이터 경고의 상태를 확인할 수 있습니다. Power BI의 데이터 경고에 대한 자세한 내용은 [설명서 페이지](https://https://docs.microsoft.com/power-bi/service-set-data-alerts)를 참조하세요.
+Power BI는 데이터를 분석하고 정보 활용을 공유하는 비즈니스 분석 도구 제품군입니다. 비즈니스를 모니터링하고 모든 장치에서 사용할 수 있는 다양한 대시보드에 대해 신속하게 답변 받을 수 있습니다. 앱에서 Power BI 서비스에서 설정한 데이터 경고의 상태를 확인할 수 있습니다. Power BI의 데이터 경고에 대한 자세한 내용은 [설명서 페이지](https:// https://docs.microsoft.com/power-bi/service-set-data-alerts)를 참조하세요.
 
 이 토픽에서는 앱에서 Power BI 연결을 사용하는 방법과 사용할 수 있는 함수를 나열합니다.
 
@@ -75,7 +79,7 @@ Power BI 서비스에서 설정한 경고를 나열합니다.
 경고 상태를 봅니다.
 
 > [!NOTE]
-> 너무 자주 호출하는 경우 경고 당 기준에 따라 이 끝점에 대한 요청이 정체됩니다.
+> 너무 자주 호출하는 경우 경고 당 기준에 따라 이 엔드포인트에 대한 요청이 정체됩니다.
 
 #### <a name="input-properties"></a>입력 속성
 
