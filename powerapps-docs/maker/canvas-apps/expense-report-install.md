@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 5c2d9e2b815d1ff2c3dc80bc6c37f1c2e78364ac
-ms.sourcegitcommit: b35470285b96750d660335284d830b4d0028befb
+ms.openlocfilehash: 43d1dc6ef2d264dd60b6a9f3de0f5c0fed633283
+ms.sourcegitcommit: d3d665500b9c49c14657d044b084bdd64c52c5a3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "42859507"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "44124478"
 ---
 # <a name="install-and-configure-the-expense-report-sample-for-canvas-apps-in-powerapps"></a>PowerApps의 캔버스 앱에 대한 경비 보고서 샘플 설치 및 구성 | Microsoft Docs
 
@@ -204,7 +204,7 @@ ms.locfileid: "42859507"
 
 1.  웹 브라우저에서 다음 링크로 이동합니다.
 
-    http://pappsfeprodwestuscontent.blob.core.windows.net/sampleapps/myexpenses/docs/MyExpenses(SP_List).zip에 대한 답변에 설명되어 있는 단계를 성공적으로 완료하면 활성화됩니다.
+    [http://pappsfeprodwestuscontent.blob.core.windows.net/sampleapps/myexpenses/docs/MyExpenses(SP_List).zip](http://pappsfeprodwestuscontent.blob.core.windows.net/sampleapps/myexpenses/docs/MyExpenses(SP_List).zip).
 
 2.  경비 보고서 PowerApps 샘플 패키지를 다운로드하고 컴퓨터에 저장합니다.
 

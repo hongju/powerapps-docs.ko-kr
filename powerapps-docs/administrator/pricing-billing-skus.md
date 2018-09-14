@@ -6,7 +6,7 @@ manager: kvivek
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: conceptual
-ms.date: 04/24/2018
+ms.date: 09/11/2018
 ms.author: jamesol
 search.audienceType:
 - admin
@@ -14,12 +14,12 @@ search.app:
 - D365CE
 - PowerApps
 - Powerplatform
-ms.openlocfilehash: 4eb1cdb3fb54780c693bb764bdf6d9de1e7088b5
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: 301592978d483d1b6ff5930a01f6c6c0119c779e
+ms.sourcegitcommit: 87122dba00b4177ef736d87ecdde79581649ba42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42864382"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44499548"
 ---
 # <a name="licensing-overview"></a>라이선스 개요
 PowerApps는 사용자별로 사용이 허가됩니다. 앱을 만들고 실행하기 위해 서비스에 액세스하는 각 사용자에게는 라이선스가 필요합니다. Office 365 및 Dynamics 365 고객은 해당 제품에 포함된 PowerApps 및 Microsoft Flow 기능을 즉시 이용할 수 있습니다. Office 365 및 Dynamics 365 외부의 데이터 원본에 액세스하거나 추가 기능이 필요한 앱 및 흐름을 작성하려는 고객은 PowerApps 및 Microsoft Flow에 대한 독립 실행형 구독을 구입할 수 있습니다. 이러한 라이선스 그룹 간의 기능에는 중요한 차이점이 있습니다.
@@ -92,7 +92,7 @@ PowerApps, Microsoft Flow 및 Common Data Service에 대한 기술을 습득하�
 PowerApps 라이선스에는 항상 Microsoft Flow 기능이 포함되어 있습니다.  Microsoft Flow는 PowerApps 라이선스에 포함될 뿐만 아니라 독립 실행형 서비스로도 제공됩니다. 각 PowerApps 라이선스에 포함된 특정 Microsoft Flow 기능에 대한 자세한 내용은 [PowerApps 가격 책정 페이지][2]를 참조하세요.
 
 ## <a name="resource-capacity-is-included-with-each-license"></a>각 라이선스에 포함된 리소스 용량
-위의 사용자별 라이선스에는 앱 또는 흐름이 실행될 때 사용되는 리소스에 대한 용량이 포함되어 있습니다. 이러한 리소스에는 데이터 저장소, 파일 저장소 및 흐름 실행이 포함됩니다. 사용자별 라이선스에 포함되는 용량은 테넌트 수준에서 풀링되며, 테넌트의 용량이 소진되는 경우 추가 라이선스를 통해 용량을 추가로 구입할 수 있습니다. Common Data Service의 최대 용량은 데이터베이스당 10GB이고, 환경당 파일 저장소의 경우 5TB입니다. 추가 용량을 구입하고 사용 가능한 용량(라이선스 및 추가 기능 포함)이 최대 용량보다 많은 경우 여러 환경에서 전체 용량을 사용할 수 있습니다. 각 PowerApps 라이선스에 포함되는 용량은 [PowerApps 가격 책정 페이지][2]를 참조하세요.
+위의 사용자별 라이선스에는 앱 또는 흐름이 실행될 때 사용되는 리소스에 대한 용량이 포함되어 있습니다. 이러한 리소스에는 데이터 저장소, 파일 저장소 및 흐름 실행이 포함됩니다. 사용자별 라이선스에 포함되는 용량은 테넌트 수준에서 풀링되며, 테넌트의 용량이 소진되는 경우 추가 라이선스를 통해 용량을 추가로 구입할 수 있습니다. 추가 용량을 구입하고 사용 가능한 용량(라이선스 및 추가 기능 포함)이 최대 용량보다 많은 경우 여러 환경에서 전체 용량을 사용할 수 있습니다. 각 PowerApps 라이선스에 포함되는 용량은 [PowerApps 가격 책정 페이지][2]를 참조하세요.
 
 ## <a name="powerapps-licensing-examples"></a>PowerApps 라이선스 예제
 예제를 살펴보겠습니다. ABC Inc.에는 1,000명의 직원이 있으며, 그 중 700명은 Office 365 Enterprise 3을 사용하도록 허가되었습니다. 초기에는 고급 사용자가 고객의 주문을 추적하는 방법을 간소화하는 LOB(기간 업무) 응용 프로그램을 만듭니다. 나중에 HR 부서에서 IT 부서와 협력하여 휴가와 결근을 보고하는 앱을 배포합니다. 이 앱은 Common Data Service를 기반으로 합니다.
