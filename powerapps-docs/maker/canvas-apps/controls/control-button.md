@@ -170,8 +170,8 @@ ms.locfileid: "42855430"
 2. **[RadiusTopLeft](properties-size-location.md)**, **[RadiusTopRight](properties-size-location.md)**, **[RadiusBottomLeft](properties-size-location.md)** 및 **[RadiusBottomRight](properties-size-location.md)** 속성을 수정하여 각 모서리의 곡률 정도를 조절합니다. 각각 300 x 300 정사각 단추에서 시작하는 다양한 셰이프의 예는 다음과 같습니다.
    
    * 4개 **[Radius](properties-size-location.md)** 값을 모두 **150**으로 설정하여 원을 만듭니다.
-   * **[RadiusTopLeft](properties-size-location.md)** 및**[RadiusBottomRight](properties-size-location.md)** 의 값을 **300**으로 설정하여 리프형 **단추**를 만듭니다.
-   * **[RadiusTopLeft](properties-size-location.md)** 및**[RadiusTopRight](properties-size-location.md)** 의 값을 **300**, **[RadiusBottomLeft](properties-size-location.md)** 및 **[RadiusBottomRight](properties-size-location.md)** 의 값을 **100**으로 설정하여 탭 모양 단추를 만듭니다.
+   * **[RadiusTopLeft](properties-size-location.md)** 및 **[RadiusBottomRight](properties-size-location.md)** 의 값을 **300**으로 설정하여 리프형 **단추**를 만듭니다.
+   * **[RadiusTopLeft](properties-size-location.md)** 및 **[RadiusTopRight](properties-size-location.md)** 의 값을 **300**, **[RadiusBottomLeft](properties-size-location.md)** 및 **[RadiusBottomRight](properties-size-location.md)** 의 값을 **100** 으로 설정하여 탭 모양 단추를 만듭니다.
 
 #### <a name="change-a-buttons-color-when-you-hover-over-it"></a>마우스로 가리킬 때 단추의 색 변경
 기본적으로 **단추** 컨트롤의 채우기 색은 마우스로 가리킬 때 20% 흐려집니다. **[ColorFade](../functions/function-colors.md)** 함수를 사용하는**[HoverFill](properties-color-border.md)** 속성을 변경하여 이 동작을 조정할 수 있습니다. **[ColorFade](../functions/function-colors.md)** 수식을 양의 백분율로 설정하면 마우스를 단추에 가져갔을 때 색이 더 밝아지며 음수로 설정하면 더 어두워집니다.
