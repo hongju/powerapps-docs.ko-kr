@@ -174,7 +174,7 @@ ms.locfileid: "42855430"
    * **[RadiusTopLeft](properties-size-location.md)** 및 **[RadiusTopRight](properties-size-location.md)** 의 값을 **300**, **[RadiusBottomLeft](properties-size-location.md)** 및 **[RadiusBottomRight](properties-size-location.md)** 의 값을 **100** 으로 설정하여 탭 모양 단추를 만듭니다.
 
 #### <a name="change-a-buttons-color-when-you-hover-over-it"></a>마우스로 가리킬 때 단추의 색 변경
-기본적으로 **단추** 컨트롤의 채우기 색은 마우스로 가리킬 때 20% 흐려집니다. **[ColorFade](../functions/function-colors.md)** 함수를 사용하는**[HoverFill](properties-color-border.md)** 속성을 변경하여 이 동작을 조정할 수 있습니다. **[ColorFade](../functions/function-colors.md)** 수식을 양의 백분율로 설정하면 마우스를 단추에 가져갔을 때 색이 더 밝아지며 음수로 설정하면 더 어두워집니다.
+기본적으로 **단추** 컨트롤의 채우기 색은 마우스로 가리킬 때 20% 흐려집니다. **[ColorFade](../functions/function-colors.md)** 함수를 사용하는 **[HoverFill](properties-color-border.md)** 속성을 변경하여 이 동작을 조정할 수 있습니다. **[ColorFade](../functions/function-colors.md)** 수식을 양의 백분율로 설정하면 마우스를 단추에 가져갔을 때 색이 더 밝아지며 음수로 설정하면 더 어두워집니다.
 
 * 만든 단추 중 하나의 **[HoverFill](properties-color-border.md)** 속성에서 **[ColorFade](../functions/function-colors.md)** 를 변경하고 결과를 확인합니다.
 
