@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.date: 03/12/2018
 ms.author: anneta
 ms.reviewer: ''
-ms.openlocfilehash: 62afc8fc0ce754ed797683a61c061db16370f904
-ms.sourcegitcommit: 0f6d7bb9e524202c065b9a7ef92a7f54bdc4bc7c
+ms.openlocfilehash: cfe9dd8d7a1a1342e7db4fb2786f68942bec7784
+ms.sourcegitcommit: 967812754d8e5b1ff72baa35ffbe548f3b9b0085
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39195200"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45726909"
 ---
 # <a name="sign-up-for-a-free-license-to-try-powerapps"></a>PowerApps 체험 라이선스에 등록
 PowerApps에서 앱을 만들려면 서로 다른 수준의 기능을 제공하는 라이선스의 여러 유형 중 하나가 필요합니다. 조직에서 Office 365 또는 Dynamics 365의 여러 버전 중 하나를 구매하였거나 조직에서 PowerApps 요금제 1 또는 요금제 2를 구매한 경우에는 이미 PowerApps에 대한 라이선스가 있습니다.
@@ -93,7 +93,7 @@ PowerApps에서 조직을 인식하는 경우 해당 조직에 대한 자격 증
     [커넥터의 전체 목록](./canvas-apps/connections-list.md)에서 프리미엄 커넥터는 배지와 함께 표시됩니다.
 
     ![](./media/signup-for-powerapps/premium-badge.png)
-* **PowerApps 관리 센터에 대한 액세스**에서는 환경, 데이터베이스, 사용자 사용 권한 및 데이터 정책을 관리할 수 있습니다. [자세히 알아보기](../administrator/introduction-to-the-admin-center.md)
+* **PowerApps 관리 센터에 대한 액세스**에서는 환경, 데이터베이스, 사용자 사용 권한 및 데이터 정책을 관리할 수 있습니다. [자세히 알아보기](../administrator/admin-guide.md)
 * 앱에 구성 요소를 추가하고 PowerApps에서 해당 레이아웃 및 기타 인터페이스 요소를 만들 수 있도록 **모델 기반 모드에서 앱을 만듭니다**. 
 
 평가판 라이선스의 기능 및 용량에 대한 자세한 내용은 [가격 책정 페이지](https://powerapps.microsoft.com/pricing/)를 참조하세요.
