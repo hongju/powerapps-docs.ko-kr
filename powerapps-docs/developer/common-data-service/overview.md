@@ -15,18 +15,25 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/19/2018
 ms.author: jdaly
-ms.openlocfilehash: c07a6505c0a08eca706c08cc2e4d607cd5322dfe
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+search.audienceType:
+- developer
+search.app:
+- PowerApps
+- D365CE
+ms.openlocfilehash: 3b0e2d70a9295bdf1a8a6d6a71cb6075677bb991
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36949256"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42844057"
 ---
 # <a name="common-data-service-for-apps-developer-overview"></a>Common Data Service for Apps 개발자 개요
+
 PowerApps는 사용자, 비즈니스, ISV(독립 소프트웨어 공급업체) 및 SI(시스템 통합자)에게 기간 업무 앱을 빌드할 수 있는 강력한 플랫폼을 제공합니다. 이번 릴리스에서 PowerApps에 새로 추가된 것은 Common Data Service의 확장입니다. 이는 현재 Common Data Service for Apps라고 하며 Dynamics 365 for Sales, Marketing, Customer Service를 지원하는 Dynamics 365 플랫폼의 핵심 기능을 포함하고 있습니다.
 
 
 ## <a name="get-started"></a>시작하기
+
 Dynamics 365 for Sales, Marketing 또는 Customer Service 앱을 이미 경험하신 분들은 그 경험을 적용하여 Common Data Service for Apps를 사용자 지정하고 확장할 수 있습니다.
 
 Dynamics 365 for Sales, Marketing 또는 Customer Service 앱을 처음 접하는 분들은 다음 항목을 통해 Common Data Service for Apps를 시작하는 데 도움이 되는 중요한 개념의 개요를 알아볼 수 있습니다.
@@ -52,7 +59,7 @@ Dynamics 365 for Sales, Marketing 또는 Customer Service 앱을 처음 접하�
 |플러그 인 등록 도구 `PluginRegistration.exe`|.NET 어셈블리 플러그 인 클래스를 서버 이벤트에 가입하는 데 사용되는 도구입니다. <br />자세한 정보: <br />[플러그 인 만들기](apply-business-logic-with-code.md#create-a-plug-in)<br />[Dynamics 365 Customer Engagement 개발자 가이드: 연습: 플러그 인 도구를 사용하여 플러그 인 등록](/dynamics365/customer-engagement/developer/walkthrough-register-plugin-using-plugin-registration-tool)|
 |SolutionPackager 도구 `SolutionPackager.exe`|소스 제어 시스템에서 파일을 간편하게 관리할 수 있도록 Common Data Service for Apps 압축 솔루션 파일을 역방향으로 여러 개의 XML 파일 및 기타 파일로 분해할 수 있는 도구입니다.<br /> 자세한 정보: <br />[솔루션 팀 개발](introduction-solutions.md#team-development-of-solutions)<br />[Dynamics 365 Customer Engagement 개발자 가이드: SolutionPackager 도구를 사용하여 솔루션 파일 압축 및 추출](/dynamics365/customer-engagement/developer/compress-extract-solution-file-solutionpackager)|
 
-### <a name="net-sdk-assemblies"></a>.NET SDK 어셈블리 
+### <a name="net-sdk-assemblies"></a>.NET SDK 어셈블리
 
 다음은 개발자가 사용할 수 있는 어셈블리 .NET입니다. 최신 버전은 해당 NuGet 패키지에서 다운로드할 수 있습니다.
 

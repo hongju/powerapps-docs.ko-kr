@@ -7,14 +7,18 @@ ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: anneta
-ms.date: 4/18/2018
+ms.date: 08/16/2018
 ms.author: audrie
-ms.openlocfilehash: 76abd84afc5b4814cfbf2ef14923c1c13e87befb
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: c11800767225f66520e1a5c368de5102219505d2
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39021829"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42845341"
 ---
 # <a name="powerapps-webinar-listing"></a>PowerApps 웹 세미나 목록 #
 웹 세미나는 Microsoft PowerApps의 기능을 활용하는 데 도움이 됩니다. 웹 세미나는 실시간 방송 후에 주문형으로 제공됩니다. 일부 경우에 등록 세부 정보를 다시 입력하면 동영상 링크가 메일로 전송됩니다. 

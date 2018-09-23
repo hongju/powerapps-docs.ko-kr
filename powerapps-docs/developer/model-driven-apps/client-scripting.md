@@ -15,19 +15,24 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/13/2018
 ms.author: jdaly
-ms.openlocfilehash: 2d389ae6557944048d8b2d8618379d17aea27557
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+search.audienceType:
+- developer
+search.app:
+- PowerApps
+- D365CE
+ms.openlocfilehash: 38a1a5371cbaf5d10c59a291127c13a1d00a3056
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
-ms.locfileid: "30025544"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42829402"
 ---
 # <a name="client-scripting-with-model-driven-apps"></a>모델 기반 앱을 사용하여 클라이언트 스크립팅
 
 JavaScript를 사용하는 클라이언트 쪽 스크립팅은 모델 기반 앱에서 양식에 데이터를 표시하기 위한 사용자 지정 비즈니스 프로세스 논리를 적용하는 방법 중 하나이지만, 가장 먼저 선택하지 않아야 합니다. *비즈니스 규칙*은 JavaScript를 알지 못하고 개발자가 아닌 사용자에게 비즈니스 프로세스 논리를 양식에 적용할 수 있는 방법을 제공합니다. 자세한 정보: [Dynamics 365 고객 관계 사용자 지정 가이드: 비즈니스 규칙 및 추천을 만들어 양식에 논리 적용](/dynamics365/customer-engagement/customize/create-business-rules-recommendations-apply-logic-form)
 
 > [!TIP]
-> [powerapps.com](http://web.powerapps.com)의 **Common Data Service** 영역 내에서 비즈니스 규칙 디자이너를 찾을 수 있습니다. 엔터티가 표시되면 **비즈니스 규칙** 탭을 찾습니다.
+> [powerapps.com](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)의 **Common Data Service** 영역 내에서 비즈니스 규칙 디자이너를 찾을 수 있습니다. 엔터티가 표시되면 **비즈니스 규칙** 탭을 찾습니다.
 
 비즈니스 규칙을 사용하여 비즈니스 요구 사항을 달성할 수 없는 경우, 클라이언트 API 개체 모델을 사용하는 클라이언트 스크립팅은 응용 프로그램의 동작을 확장하고 클라이언트에서 자동화를 사용하도록 설정하는 강력한 방법을 제공합니다.
 

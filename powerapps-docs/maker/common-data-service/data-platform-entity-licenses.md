@@ -6,23 +6,23 @@ manager: kfile
 ms.service: powerapps
 ms.component: cds
 ms.topic: conceptual
-ms.date: 07/25/2018
+ms.date: 05/01/2018
 ms.author: clwesene
-ms.openlocfilehash: 758d5b5ff2c552a4c4ccbf210062f35d4e53209c
-ms.sourcegitcommit: efea7ed5ad8e80c87ba423fb094fa94b4e864d75
+ms.openlocfilehash: 4350f7141adf0fbce3e74271d6aff48c18c857e2
+ms.sourcegitcommit: 2bcc36916f0c591466eb3e007c2d30b99f2315c6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "39265513"
+ms.lasthandoff: 08/09/2018
+ms.locfileid: "40009262"
 ---
 # <a name="license-requirements-for-entities"></a>엔터티에 대한 라이선스 요구 사항
 PowerApps 요금제 1 또는 Microsoft Flow 요금제 1 라이선스가 있는 사용자에 대해 앱 및 흐름을 만들려면 앱 작성자는 앱용 CDS(Common Data Service) 내에서 사용할 수 있는 엔터티 대부분(사용자 지정 엔터티 및 CDS의 일부인 엔터티 포함)을 사용할 수 있습니다. 경우에 따라 엔터티는 복잡한 비즈니스 논리를 포함하거나 앱 사용자에게 특정 라이선스를 취득하도록 요구하는 Dynamics 365 응용 프로그램에 연결됩니다. 
 
 
-|엔터티  |설명  |요구 사항  |
+|엔터티    |설명    |요구 사항    |
 |---------|---------|---------|
-|복잡한 비즈니스 논리를 지닌 엔터티  | 이들은 복잡한 서버측 비즈니스 로직을 사용하는 엔터티입니다. 예를 들어, 실시간 워크플로 또는 코드 플러그인을 사용하는 엔터티.     | [PowerApps 요금제 2](https://powerapps.microsoft.com/pricing/) 또는 [Flow 요금제 2](https://flow.microsoft.com/pricing/)  | 
-|제한된 엔터티    | 이는 앱용 Common Data Service에는 표준이 아니지만 Dynamics 365 고객 참여 응용 프로그램 또는 타사 솔루션에는 포함된 엔터티입니다. 예를 들어 기술 문서, 목표 및 권리 유형 엔터티.    | [Dynamics 365 요금제](https://dynamics.microsoft.com/pricing/)    |
+|복잡한 비즈니스 논리를 지닌 엔터티   | 이들은 복잡한 서버측 비즈니스 로직을 사용하는 엔터티입니다. 예를 들어, 실시간 워크플로 또는 코드 플러그인을 사용하는 엔터티.       |  [PowerApps 요금제 2](https://powerapps.microsoft.com/pricing/) 또는 [Flow 요금제 2](https://flow.microsoft.com/pricing/)        |
+|제한된 엔터티  |  이는 앱용 Common Data Service에는 표준이 아니지만 Dynamics 365 고객 참여 응용 프로그램 또는 타사 솔루션에는 포함된 엔터티입니다. 예를 들어 기술 문서, 목표 및 권리 유형 엔터티.     |  [Dynamics 365 요금제](https://dynamics.microsoft.com/pricing/)      | 
 
 
 > [!NOTE]
@@ -37,7 +37,7 @@ PowerApps 요금제 1 또는 Microsoft Flow 요금제 1 라이선스가 있는 �
     > [!NOTE]
     >  실시간 워크플로로 변환되는 워크플로만 실시간 및 동기적으로 간주됩니다. 백그라운드에서 실행되는 워크플로는 적절한 PowerApps 요금제로 계속 사용할 수 있으며 추가 라이선스를 요구하지 않습니다.
 
-엔터티에 복잡한 비즈니스 논리를 추가했는지 여부를 알려면 사용자 환경에서 구성된 워크플로 및 플러그 인 어셈블리 목록을 검토합니다. Dynamics 365 응용 프로그램을 설치한 후 서버측 논리를 포함할 수 있는 엔터티 목록의 경우 [PowerApps 요금제 2 라이선스가 필요한 복잡한 엔터티](data-platform-complex-entities.md)를 참조하세요. 
+엔터티에 복잡한 비즈니스 논리를 추가했는지 여부를 알려면 사용자 환경에서 구성된 워크플로 및 플러그 인 어셈블리 목록을 검토합니다. Dynamics 365 응용 프로그램을 설치한 후 서버측 논리를 포함할 수 있는 엔터티 목록의 경우 [PowerApps 요금제 2 라이선스가 필요한 복잡한 엔터티](data-platform-complex-entities.md)를 참조하세요.  
 
 ### <a name="impacting-license-requirements-when-adding-complex-business-logic"></a>복잡한 비즈니스 논리를 추가하는 경우 영향을 주는 라이선스 요구 사항
 앱 작성자는 앱용 CDS 내에서 엔터티에 코드 플러그 인 및 실시간 워크플로를 추가할 수 있지만 그렇게 하면 이미 배포된 앱의 사용자에 대한 라이선스 요구 사항을 변경할 수 있습니다. 앱 작성자는 엔터티에 복잡한 비즈니스 논리를 추가하는 경우 조심해야 하며 먼저 엔터티를 사용하는 앱을 확인하고 이러한 앱 사용자가 적절한 라이선스가 있는지 확인해야 합니다.

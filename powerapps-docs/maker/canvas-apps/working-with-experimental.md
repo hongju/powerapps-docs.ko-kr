@@ -9,12 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 07/16/2018
 ms.author: gregli
-ms.openlocfilehash: d976a81603d48d72ecb2dc7c279b59d0e70800eb
-ms.sourcegitcommit: b9fa569153924af9815db45d52c04e764ddb7fa2
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 741cec402c6a5b5ea30700badd265f5e950203e9
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "39094832"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42858478"
 ---
 # <a name="understand-experimental-and-preview-features-in-powerapps"></a>PowerApps에서 실험적 및 미리 보기 기능 이해
 
@@ -42,7 +46,7 @@ ms.locfileid: "39094832"
 
 | 단계 | 그리고 언제 사용해야 하나요? | 확신을 가지고 사용할 수 있나요? | 새 앱에 기본적으로 사용 설정되어 있나요? | 
 |----|----|----|-----|------|
-| **실험적** | 얼리 어답터인 경우 유용한 무엇인가가 보이고 기능 테스트에 도움이 되길 원합니다. | 아니요.  실험적 기능은 급진적으로 변하거나 언제라도 완전히 사라질 수 있습니다. | 아니요. 기능에 대해 명시적으로 옵트인해야 합니다.  |  
+| **실험적** | 얼리 어답터인 경우 유용한 무엇인가가 보이고 기능 테스트에 도움이 되길 원합니다. | 아닙니다.  실험적 기능은 급진적으로 변하거나 언제라도 완전히 사라질 수 있습니다. | 아닙니다. 기능에 대해 명시적으로 옵트인해야 합니다.  |  
 | **미리 보기** | 새 앱은 이 기능을 자동으로 포함합니다.  이 기능은 결국에는 사용 설정될 것이므로 기존 앱에서 활성화하고 테스트를 시작합니다. | 예. 이 기능은 해당 제품의 영구적인 부분이 되어 가고 있습니다.  | 예. 문제가 발생할 경우 해제할 수도 있습니다.  문제를 보고해 주세요. 이 기능이 미리 보기 단계인 주요 이유입니다. | 
 | **탑재**(**고급 설정**에 더 이상 나타나지 않음) | 모든 앱에 이 기능이 있습니다. | 예. | 예.  대부분을 사용하지 않도록 설정할 수 없습니다.  |  
 
@@ -51,9 +55,9 @@ ms.locfileid: "39094832"
 ## <a name="documentation"></a>설명서
 
 이러한 기능에 대한 정보는 어디서 찾을 수 있나요?  미리 보기 기능을 완성된 기능으로 다루며 다른 제품 기능과 마찬가지로 이 기능에 대해서 자세히 알아볼 수 있습니다. 
-- [PowerApps 설명서](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/getting-started). 새 기능에 대한 기본 사항(예: 이점, 시작 방법 및 참조 정보)을 제공합니다.
+- [PowerApps 설명서](https://docs.microsoft.com/powerapps/maker/canvas-apps/getting-started). 새 기능에 대한 기본 사항(예: 이점, 시작 방법 및 참조 정보)을 제공합니다.
 - [PowerApps 커뮤니티 포럼](https://powerusers.microsoft.com/t5/PowerApps-Community/ct-p/PowerApps1).  다른 사용자와 함께 새로운 기능을 살펴봅니다. 다른 사용자의 경험으로부터 배우고 자신의 경험을 공유합니다.
-- [PowerApps 블로그](https://powerapps.microsoft.com/en-us/blog/).  항상 그렇지는 않지만 종종 블로그 게시물에 새 기능이 소개됩니다.
+- [PowerApps 블로그](https://powerapps.microsoft.com/blog/).  항상 그렇지는 않지만 종종 블로그 게시물에 새 기능이 소개됩니다.
 
 실험적 기능은 다릅니다.  진행 중인 작업이며 완성된 것으로 생각하지 않습니다. **앱 설정** 창(아래 참조)의 짧은 설명이 해당 기능에 대한 유일한 정보가 될 수 있습니다. 실험적 기능은 일반적으로 설명서에 나타나지 않습니다. 커뮤니티 포럼이 정보를 얻을 수 있는 가장 좋은 곳일 것입니다.  초기 블로그 게시물에서 이 기능에 대해 설명하는 경우도 있습니다.  충분한 정보를 찾을 수 없는 경우에는 포럼에 묻거나 기능이 미리 보기 단계로 진행될 때까지 기다려 주세요.
 

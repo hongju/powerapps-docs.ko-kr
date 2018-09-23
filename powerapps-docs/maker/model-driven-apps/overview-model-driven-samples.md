@@ -3,19 +3,19 @@ title: 모델 기반 샘플 앱
 description: 모델 기반 샘플 앱을 가져오고, 사용자 지정 및 제거하는 방법을 이해합니다.
 documentationcenter: na
 author: caburk
-manager: kfile
+manager: kvivek
 ms.service: powerapps
 ms.devlang: na
 ms.topic: conceptual
 ms.component: model
 ms.date: 03/08/2018
 ms.author: caburk
-ms.openlocfilehash: 36e5efec10a3f849b6366368eed7b3b9e7af3f8c
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: 0b34a32281fb4f64bc918de81b3920edf5a7000b
+ms.sourcegitcommit: aba996b1773ecdf62758e06b34eaf57bede29e08
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37898378"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39664430"
 ---
 # <a name="model-driven-sample-apps"></a>모델 기반 샘플 앱
 
@@ -70,7 +70,7 @@ ms.locfileid: "37898378"
 
     ![솔루션삭제](media/overview-model-driven-samples/delete-solution.png)
 
-<em>Maker 포털에서 **고급</em>* 을 클릭하여 솔루션 목록으로 이동하고 .dynamics.com/ 뒤에 있는 URL에서 모든 항목을 삭제합니다.*
+*Maker 포털에서 **고급**을 클릭하여 솔루션 목록으로 이동하고 .dynamics.com/ 뒤에 있는 URL에서 모든 항목을 삭제합니다.*
 
 > [!IMPORTANT]
 > 영향에 대해 알지 못하는 경우 다른 시스템 솔루션을 삭제하지 마십시오.

@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: model
 ms.date: 03/21/2018
 ms.author: matp
-ms.openlocfilehash: 134ae4dfb5fe111c4c40e96efa1e79a3993c4a46
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: 5c166f7fffa217a918d690c9176058d8e81b3f99
+ms.sourcegitcommit: aba996b1773ecdf62758e06b34eaf57bede29e08
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37899758"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39663050"
 ---
 # <a name="tutorial-share-a-model-driven-app-with-powerapps"></a>자습서: PowerApps와 모델 기반 앱 공유
 
@@ -56,7 +56,7 @@ ms.locfileid: "37899758"
 4. 보안 역할 설계자에서 읽기, 쓰기 또는 삭제와 같은 작업과 해당 작업을 수행할 범위를 선택합니다. 범위는 사용자가 특정 작업을 수행할 수 있는 환경 계층 구조 내에서 깊이 또는 높이를 결정합니다. **역할 이름** 상자에 *애완 동물 미용 기술자*를 입력합니다.
 5. **사용자 지정 엔터티** 탭을 선택한 다음, 원하는 사용자 지정 엔터티를 찾습니다. 이 예에서는 **애완 동물**이라는 사용자 지정 엔터티가 사용됩니다. 
 6. **애완 동물** 행에서 ![조직 전역 범위](media/share-model-driven-app/organizational-scope-privilege.png)가 선택될 때까지 **읽기, 쓰기, 추가**
-   ![새 보안 역할](media/share-model-driven-app/custom-security-role.png)을 각각 네 번 선택합니다.
+![새 보안 역할](media/share-model-driven-app/custom-security-role.png)을 각각 네 번 선택합니다.
 7. 애완 동물 미용 앱은 계정 엔터티와도 관계가 있으므로 ![조직 전역 범위](media/share-model-driven-app/organizational-scope-privilege.png)가 선택될 때까지 **핵심 레코드** 탭을 선택하고 **계정** 행에서 **읽기**를 네 번 선택합니다. 
 8. **저장 후 닫기**를 선택합니다. 
 9. 보안 역할 설계자에서 **역할 이름** 상자에 *애완 동물 미용 일정 관리자*를 입력합니다. 
@@ -68,10 +68,6 @@ ms.locfileid: "37899758"
 
 ## <a name="assign-security-roles-to-users"></a>사용자에게 보안 역할 할당
 보안 역할은 액세스 수준 및 권한 집합을 통해 데이터에 대한 사용자의 액세스를 제어합니다. 특정 보안 역할에 포함된 액세스 수준 및 사용 권한의 조합은 사용자의 데이터 보기 및 사용자와 해당 데이터의 상호 작용에 대한 제한을 설정합니다.
-
-> [!IMPORTANT]
-> 모델 기반 앱을 사용하려면 환경의 모든 앱 사용자에게는 할당한 추가 보안 역할에 관계 없이 적어도 Common Data Service 사용자 보안 역할이 있어야 합니다. 대부분의 경우 Common Data Service 사용자 보안 역할은 앱을 사용하는 데 필요한 기본 작업을 수행할 충분한 권한을 제공합니다.
-> Common Data Service 사용자 보안 역할이 있는 사용자에게는 소유한 사용자에 관계 없이 모든 계정, 연락처 및 연결 표준 엔터티 레코드에 대한 읽기 및 쓰기 액세스 권한도 있습니다. 앱 사용자에게 이러한 레코드에 대한 권한을 부여하지 않으려면 사용자 지정 보안 역할을 만듭니다. Common Data Service 사용자 보안 역할을 복사하고 적절한 권한을 제거하는 것이 가장 쉬운 방법입니다. 자세한 내용은 [보안 역할 복사](https://docs.microsoft.com/dynamics365/customer-engagement/admin/copy-security-role)를 참조하세요.
 
 ### <a name="assign-a-security-role-to-pet-grooming-technicians"></a>애완 동물 미용 기술자에게 보안 역할 할당 
 1. **이 앱 공유** 대화 상자의 **보안 역할에 사용자 할당**에서 **보안 사용자**를 선택합니다.
@@ -129,7 +125,7 @@ ms.locfileid: "37899758"
 *권한은 달리 지정되지 않는 한 전역 범위입니다.
 
 ## <a name="next-steps"></a>다음 단계
-[빠른 시작: 모바일 장치에서 모델 기반 앱 실행](../../user/run-app-client-model-driven.md)
+[모바일 장치에서 모델 기반 앱 실행](../../user/run-app-client-model-driven.md)
 
 
 
