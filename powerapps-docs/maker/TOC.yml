@@ -1,39 +1,55 @@
+- name: 앱 찾기 및 실행
+  href: ../user/index.md
+  items:
+    - name: 브라우저에서
+      href: ../user/run-app-browser.md
+    - name: 폰(캔버스)에서
+      href: ../user/run-app-client.md
+    - name: 폰(모델 주도)에서
+      href: ../user/run-app-client-model-driven.md
+    - name: SharePoint Online 페이지에서
+      href: ../user/powerapps-web-part.md
+    - name: Microsoft Teams에서
+      href: ../user/open-app-embedded-in-teams.md
+    - name: AppSource에서
+      href: ../user/app-source.md
 - name: 앱 만들기
   href: index.md
-  expanded: true
   items:
-    - name: 30일 평가판 버전 등록
-      href: signup-for-powerapps.md
-    - name: PowerApps 커뮤니티 계획 등록
-      href: dev-community-plan.md
+    - name: PowerApps 무료 시험
+      items:
+        - name: 30일 시험 버전
+          href: signup-for-powerapps.md
+        - name: PowerApps 커뮤니티 플랜
+          href: dev-community-plan.md
+    - name: PowerApps에 로그인
+      href: ./canvas-apps/intro-maker-portal.md
+      items: null
     - name: 새로운 기능
       href: ./canvas-apps/release-notes.md
-    - name: 일반적인 문제 및 해결 방법
-      href: ./canvas-apps/common-issues-and-resolutions.md
-    - name: 예정되거나 최근에 진행된 웹 세미나
-      href: ./canvas-apps/webinars-listing.md
 - name: 캔버스 앱
   href: ./canvas-apps/getting-started.md
   items:
-    - name: 퀵 스타트
+    - name: 샘플 앱 살펴보기
+      href: ./canvas-apps/open-and-run-a-sample-app.md
       items:
-        - name: 샘플 앱 열기
-          href: ./canvas-apps/open-and-run-a-sample-app.md
-        - name: 템플릿에서 앱 만들기
-          href: ./canvas-apps/get-started-test-drive.md
-        - name: SharePoint 내에서 앱 만들기
-          href: ./canvas-apps/generate-app-from-sharepoint-list-interface.md
-        - name: 앱 생성
+        - name: 경비 보고서 앱
+          href: ./canvas-apps/expense-report-install.md
+        - name: 지원 센터 앱
+          href: ./canvas-apps/help-desk-install.md
+        - name: 모임 캡처 앱
+          href: ./canvas-apps/sample-meeting-capture.md
+    - name: 첫 번째 앱 만들기
+      items:
+        - name: 1 - 데이터에서 앱을 생성합니다
           items:
-            - name: 앱용 Common Data Service 사용
+            - name: 앱용 Common Data Service에서
               href: ./canvas-apps/data-platform-create-app.md
-            - name: SharePoint 사용
+            - name: SharePoint에서
               href: ./canvas-apps/app-from-sharepoint.md
-            - name: Excel 사용
+            - name: Excel에서
               href: ./canvas-apps/get-started-create-from-data.md
-    - name: 자습서
-      items:
-        - name: 생성된 앱 사용자 지정
+        - name: 2 - 기본 맞춤을 만듭니다
           items:
             - name: 1 - 갤러리
               href: ./canvas-apps/customize-layout-sharepoint.md
@@ -41,629 +57,923 @@
               href: ./canvas-apps/customize-forms-sharepoint.md
             - name: 3 - 카드
               href: ./canvas-apps/customize-card.md
-        - name: 앱을 처음부터 만들기
+        - name: 3 - 직접 앱을 만듭니다
           items:
-            - name: 앱용 Common Data Service
+            - name: 앱용 Common Data Service에서
               href: ./canvas-apps/data-platform-create-app-scratch.md
-            - name: Excel
+            - name: Excel에서
               href: ./canvas-apps/get-started-create-from-blank.md
-        - name: 앱 공유
-          href: ./canvas-apps/share-app.md
-          items:
-            - name: Excel 데이터 공유
-              href: ./canvas-apps/share-app-data.md
-            - name: 앱 리소스 공유
-              href: ./canvas-apps/share-app-resources.md
-        - name: Power BI에 앱 포함
-          href: ./canvas-apps/embed-powerapps-powerbi.md
-    - name: 샘플
+        - name: 템플릿에서 앱 만들기
+          href: ./canvas-apps/get-started-test-drive.md
+    - name: 앱 디자인 및 빌드
       items:
-        - name: 비용 보고서 앱
-          href: ./canvas-apps/expense-report-install.md
-        - name: 지원 센터 앱
-          href: ./canvas-apps/help-desk-install.md
-    - name: 개념
-      items:
-        - name: 수식 시작
-          href: ./canvas-apps/working-with-formulas.md
-        - name: 테이블 및 레코드
-          href: ./canvas-apps/working-with-tables.md
-        - name: 데이터 양식
-          href: ./canvas-apps/working-with-forms.md
-        - name: 데이터 양식 레이아웃
-          href: ./canvas-apps/working-with-form-layout.md
-        - name: 데이터 카드
-          href: ./canvas-apps/working-with-cards.md
-        - name: 변수
-          href: ./canvas-apps/working-with-variables.md
-        - name: 수식
-          href: ./canvas-apps/working-with-formulas-in-depth.md
-        - name: 실험적 기능 및 미리 보기 기능
-          href: ./canvas-apps/working-with-experimental.md
-        - name: 날짜 및 시간
-          href: ./canvas-apps/show-text-dates-times.md
-        - name: 데이터 원본
-          href: ./canvas-apps/working-with-data-sources.md
-        - name: SharePoint 양식 통합 이해
-          href: ./canvas-apps/sharepoint-form-integration.md
-        - name: PowerApps 사용자 지정 시각적 개체
-          href: ./canvas-apps/powerapps-custom-visual.md
-        - name: InfoPath 양식을 PowerApps로 변환
-          href: ./canvas-apps/transform-infopath.md
-        - name: 캔버스 앱 개발
+        - name: 데이터에 연결
+          href: ./canvas-apps/connections-list.md
           items:
-            - name: '엔터프라이즈 개발자, 파트너 및 ISV용 PowerApps'
-              href: ./canvas-apps/dev-enterprise-intro.md
-            - name: 사용자 지정 커넥터 빌드 및 인증
-              href: ./canvas-apps/register-custom-api.md
-            - name: 웹사이트 및 다른 기술로 통합
-              href: ./canvas-apps/embed-apps-dev.md
-            - name: 오프라인에서 사용 가능한 앱 개발
-              href: ./canvas-apps/offline-apps.md
-            - name: 고객이 앱을 테스트해볼 수 있도록 하기
-              href: ./canvas-apps/dev-appsource-test-drive.md
-    - name: 방법 가이드
-      items:
-        - name: SharePoint 목록 양식 사용자 지정
-          href: ./canvas-apps/customize-list-form.md
-        - name: 앱을 사용자 지정하기
+            - name: 연결 추가
+              href: ./canvas-apps/add-data-connection.md
+            - name: 연결 관리
+              href: ./canvas-apps/add-manage-connections.md
+            - name: SharePoint에 연결
+              href: ./canvas-apps/connect-to-sharepoint.md
+            - name: Excel 데이터 작성
+              href: ./canvas-apps/how-to-excel-tips.md
+            - name: 위임
+              href: ./canvas-apps/delegation-overview.md
+            - name: 위임 가능한 데이터 소스
+              href: ./canvas-apps/delegation-list.md
+            - name: 게이트웨이 관리
+              href: ./canvas-apps/gateway-management.md
+            - name: 게이트웨이 이해
+              href: ./canvas-apps/gateway-reference.md
+            - name: 데이터 소스 이해
+              href: ./canvas-apps/working-with-data-sources.md
+            - name: 표 및 레코드 이해
+              href: ./canvas-apps/working-with-tables.md
+        - name: 인터페이스 디자인
+          href: ./canvas-apps/add-configure-controls.md
           items:
-            - name: 컨트롤 추가 및 구성
-              href: ./canvas-apps/add-configure-controls.md
             - name: 화면 추가
               href: ./canvas-apps/add-screen-context-variables.md
-            - name: 데이터 연결 추가
-              href: ./canvas-apps/add-data-connection.md
-            - name: 아이템 목록 표시
+            - name: 항목 표 표시
               href: ./canvas-apps/add-gallery.md
-            - name: 다른 높이의 아이템 표시
+            - name: 다양한 높이의 항목 표시
               href: ./canvas-apps/gallery-dynamic-sizing.md
             - name: 양식 추가
               href: ./canvas-apps/add-form.md
-            - name: 현재 사용자 표시
-              href: ./canvas-apps/show-current-user.md
-            - name: 목록 컨트롤 추가
+              items:
+                - name: 양식 이해
+                  href: ./canvas-apps/working-with-forms.md
+                - name: 양식 레이아웃 이해
+                  href: ./canvas-apps/working-with-form-layout.md
+                - name: 카드 이해
+                  href: ./canvas-apps/working-with-cards.md
+            - name: 목록 추가
               href: ./canvas-apps/add-list-box-drop-down-list-radio-button.md
-            - name: 조회를 사용하여 목록 연결
-              href: ./canvas-apps/sharepoint-lookup-fields.md
             - name: 차트 추가
               href: ./canvas-apps/use-line-pie-bar-chart.md
             - name: 멀티미디어 추가
               href: ./canvas-apps/add-images-pictures-audio-video.md
             - name: 바코드 스캔
               href: ./canvas-apps/scan-barcode.md
-            - name: 흐름 추가
-              href: ./canvas-apps/using-logic-flows.md
-            - name: 스크롤 화면 추가
+            - name: 스크롤링 화면 추가
               href: ./canvas-apps/add-scrolling-screen.md
-            - name: 전역 앱 빌드
-              href: ./canvas-apps/global-apps.md
-            - name: 액세스 가능한 앱 만들기
-              href: ./canvas-apps/accessible-apps.md
+            - name: Power BI 데이터 추가
+              href: ./canvas-apps/powerapps-custom-visual.md
+            - name: 컨트롤 준거
+              href: ./canvas-apps/reference-properties.md
               items:
-                - name: 접근성 문제 찾기
-                  href: ./canvas-apps/accessibility-checker.md
-                - name: 색을 사용하여 접근성 높이기
-                  href: ./canvas-apps/accessible-apps-color.md
-        - name: 앱 관리
+                - name: 그림 추가
+                  href: ./canvas-apps/controls/control-add-picture.md
+                - name: 첨부
+                  href: ./canvas-apps/controls/control-attachments.md
+                - name: 오디오
+                  href: ./canvas-apps/controls/control-audio-video.md
+                - name: 바코드 스캐너 (실험적)
+                  href: ./canvas-apps/controls/control-barcodescanner.md
+                - name: 버튼
+                  href: ./canvas-apps/controls/control-button.md
+                - name: 카메라
+                  href: ./canvas-apps/controls/control-camera.md
+                - name: 카드
+                  href: ./canvas-apps/controls/control-card.md
+                - name: 확인란
+                  href: ./canvas-apps/controls/control-check-box.md
+                - name: 세로 막대형 차트
+                  href: ./canvas-apps/controls/control-column-line-chart.md
+                - name: 열
+                  href: ./canvas-apps/controls/control-column.md
+                - name: 콤보 상자
+                  href: ./canvas-apps/controls/control-combo-box.md
+                - name: 데이터 표
+                  href: ./canvas-apps/controls/control-data-table.md
+                - name: 날짜 선택기
+                  href: ./canvas-apps/controls/control-date-picker.md
+                - name: 양식 표시
+                  href: ./canvas-apps/controls/control-form-detail.md
+                - name: 드롭다운
+                  href: ./canvas-apps/controls/control-drop-down.md
+                - name: 양식 편집
+                  href: ./canvas-apps/controls/control-form-detail.md
+                - name: 내보내기
+                  href: ./canvas-apps/controls/control-export-import.md
+                - name: 갤러리
+                  href: ./canvas-apps/controls/control-gallery.md
+                - name: HTML 텍스트
+                  href: ./canvas-apps/controls/control-html-text.md
+                - name: 아이콘
+                  href: ./canvas-apps/controls/control-shapes-icons.md
+                - name: 이미지
+                  href: ./canvas-apps/controls/control-image.md
+                - name: 가져오기
+                  href: ./canvas-apps/controls/control-export-import.md
+                - name: 꺾은선형 차트
+                  href: ./canvas-apps/controls/control-column-line-chart.md
+                - name: 목록 상자
+                  href: ./canvas-apps/controls/control-list-box.md
+                - name: 마이크
+                  href: ./canvas-apps/controls/control-microphone.md
+                - name: PDF 뷰어 (실험적)
+                  href: ./canvas-apps/controls/control-pdf-viewer.md
+                - name: 펜 입력
+                  href: ./canvas-apps/controls/control-pen-input.md
+                - name: 원형 차트
+                  href: ./canvas-apps/controls/control-pie-chart.md
+                - name: Power BI 타일
+                  href: ./canvas-apps/controls/control-power-bi-tile.md
+                - name: 라디오
+                  href: ./canvas-apps/controls/control-radio.md
+                - name: 등급
+                  href: ./canvas-apps/controls/control-rating.md
+                - name: 서식 있는 텍스트 편집기 (실험적)
+                  href: ./canvas-apps/controls/control-richtexteditor.md
+                - name: 화면
+                  href: ./canvas-apps/controls/control-screen.md
+                - name: 모양
+                  href: ./canvas-apps/controls/control-shapes-icons.md
+                - name: 슬라이더
+                  href: ./canvas-apps/controls/control-slider.md
+                - name: 라벨
+                  href: ./canvas-apps/controls/control-text-box.md
+                - name: 텍스트 입력
+                  href: ./canvas-apps/controls/control-text-input.md
+                - name: 타이머
+                  href: ./canvas-apps/controls/control-timer.md
+                - name: 토글
+                  href: ./canvas-apps/controls/control-toggle.md
+                - name: 비디오
+                  href: ./canvas-apps/controls/control-audio-video.md
+        - name: 앱 기능 구성
+          href: ./canvas-apps/working-with-formulas.md
           items:
-            - name: powerapps.com 소개
-              href: ./canvas-apps/intro-maker-portal.md
-            - name: 환경에서 작업
-              href: ./canvas-apps/working-with-environments.md
-            - name: 앱 편집
-              href: ./canvas-apps/edit-app.md
-            - name: 화면 크기 및 방향 변경
-              href: ./canvas-apps/set-aspect-ratio-portrait-landscape.md
-            - name: 앱 이름 및 타일 변경
-              href: ./canvas-apps/set-name-tile.md
-            - name: 저장 및 앱 게시
-              href: ./canvas-apps/save-publish-app.md
-            - name: 앱 삭제
-              href: ./canvas-apps/delete-app.md
-            - name: 앱을 이전 버전으로 복원
-              href: ./canvas-apps/restore-an-app.md
-        - name: 데이터에 연결
-          items:
-            - name: 데이터 연결 관리
-              href: ./canvas-apps/add-manage-connections.md
-            - name: SharePoint에 연결
-              href: ./canvas-apps/connect-to-sharepoint.md
-            - name: Excel 데이터 준비
-              href: ./canvas-apps/how-to-excel-tips.md
-            - name: 위임
-              href: ./canvas-apps/delegation-overview.md
-            - name: 위임 가능한 데이터 원본
-              href: ./canvas-apps/delegation-list.md
-            - name: 게이트웨이 관리
-              href: ./canvas-apps/gateway-management.md
-            - name: 게이트웨이 이해
-              href: ./canvas-apps/gateway-reference.md
-            - name: 파워 쿼리 문제 해결
-              href: ./common-data-service/data-platform-cds-newentity-troubleshooting-mashup.md
-        - name: 다른 기술로 통합
-          items:
-            - name: SharePoint Online
+            - name: 변수 이해
+              href: ./canvas-apps/working-with-variables.md
+            - name: 동작 공식 이해
+              href: ./canvas-apps/working-with-formulas-in-depth.md
+            - name: 날짜 및 시간 표시
+              href: ./canvas-apps/show-text-dates-times.md
+            - name: 컬렉션 만들기
+              href: ./canvas-apps/create-update-collection.md
+            - name: 현재 사용자 표시
+              href: ./canvas-apps/show-current-user.md
+            - name: 조회를 사용하여 목록 연결
+              href: ./canvas-apps/sharepoint-lookup-fields.md
+            - name: 플로우 추가
+              href: ./canvas-apps/using-logic-flows.md
+            - name: 공식 준거
+              href: ./canvas-apps/formula-reference.md
               items:
-                - name: SharePoint Online 통합 개요
-                  href: ./canvas-apps/sharepoint-scenario-intro.md
-                - name: SharePoint Online 목록 설정
-                  href: ./canvas-apps/sharepoint-scenario-setup.md
-                - name: 앱 생성
-                  href: ./canvas-apps/sharepoint-scenario-generate-app.md
-                - name: 승인에 대한 흐름 만들기
-                  href: ./canvas-apps/sharepoint-scenario-approval-flow.md
-                - name: 앱을 처음부터 만들기
-                  href: ./canvas-apps/sharepoint-scenario-build-app.md
-                - name: Power BI 보고서 만들기
-                  href: ./canvas-apps/sharepoint-scenario-build-report.md
-                - name: Power BI 보고서 게시
-                  href: ./canvas-apps/sharepoint-scenario-publish-report.md
-                - name: Power BI 보고서 포함
-                  href: ./canvas-apps/sharepoint-scenario-embed-report.md
-                - name: 경고에 대한 흐름 만들기
-                  href: ./canvas-apps/sharepoint-scenario-alerts-flow.md
-                - name: 완료된 시나리오 살펴보기
-                  href: ./canvas-apps/sharepoint-scenario-summary.md
-            - name: Cognitive Services
-              href: ./canvas-apps/cognitive-services-api.md
-    - name: 참조
+                - name: Abs
+                  href: ./canvas-apps/functions/function-numericals.md
+                - name: Acceleration
+                  href: ./canvas-apps/functions/signals.md
+                - name: Acos
+                  href: ./canvas-apps/functions/function-trig.md
+                - name: Acot
+                  href: ./canvas-apps/functions/function-trig.md
+                - name: AddColumns
+                  href: ./canvas-apps/functions/function-table-shaping.md
+                - name: And
+                  href: ./canvas-apps/functions/function-logicals.md
+                - name: App
+                  href: ./canvas-apps/functions/signals.md
+                - name: Asin
+                  href: ./canvas-apps/functions/function-trig.md
+                - name: Atan
+                  href: ./canvas-apps/functions/function-trig.md
+                - name: Atan2
+                  href: ./canvas-apps/functions/function-trig.md
+                - name: Average
+                  href: ./canvas-apps/functions/function-aggregates.md
+                - name: Back
+                  href: ./canvas-apps/functions/function-navigate.md
+                - name: Blank
+                  href: ./canvas-apps/functions/function-isblank-isempty.md
+                - name: Calendar
+                  href: ./canvas-apps/functions/function-clock-calendar.md
+                - name: Char
+                  href: ./canvas-apps/functions/function-char.md
+                - name: Choices
+                  href: ./canvas-apps/functions/function-choices.md
+                - name: Clear
+                  href: ./canvas-apps/functions/function-clear-collect-clearcollect.md
+                - name: ClearCollect
+                  href: ./canvas-apps/functions/function-clear-collect-clearcollect.md
+                - name: Clock
+                  href: ./canvas-apps/functions/function-clock-calendar.md
+                - name: Coalesce
+                  href: ./canvas-apps/functions/function-isblank-isempty.md
+                - name: Collect
+                  href: ./canvas-apps/functions/function-clear-collect-clearcollect.md
+                - name: Color
+                  href: ./canvas-apps/functions/function-colors.md
+                - name: ColorFade
+                  href: ./canvas-apps/functions/function-colors.md
+                - name: ColorValue
+                  href: ./canvas-apps/functions/function-colors.md
+                - name: Compass
+                  href: ./canvas-apps/functions/signals.md
+                - name: Concat
+                  href: ./canvas-apps/functions/function-concatenate.md
+                - name: Concatenate
+                  href: ./canvas-apps/functions/function-concatenate.md
+                - name: Concurrent
+                  href: ./canvas-apps/functions/function-concurrent.md
+                - name: Connection
+                  href: ./canvas-apps/functions/signals.md
+                - name: Count
+                  href: ./canvas-apps/functions/function-table-counts.md
+                - name: Cos
+                  href: ./canvas-apps/functions/function-trig.md
+                - name: Cot
+                  href: ./canvas-apps/functions/function-trig.md
+                - name: CountA
+                  href: ./canvas-apps/functions/function-table-counts.md
+                - name: CountIf
+                  href: ./canvas-apps/functions/function-table-counts.md
+                - name: CountRows
+                  href: ./canvas-apps/functions/function-table-counts.md
+                - name: DataSourceInfo
+                  href: ./canvas-apps/functions/function-datasourceinfo.md
+                - name: Date
+                  href: ./canvas-apps/functions/function-date-time.md
+                - name: DateAdd
+                  href: ./canvas-apps/functions/function-dateadd-datediff.md
+                - name: DateDiff
+                  href: ./canvas-apps/functions/function-dateadd-datediff.md
+                - name: DateTimeValue
+                  href: ./canvas-apps/functions/function-datevalue-timevalue.md
+                - name: DateValue
+                  href: ./canvas-apps/functions/function-datevalue-timevalue.md
+                - name: Day
+                  href: ./canvas-apps/functions/function-datetime-parts.md
+                - name: Defaults
+                  href: ./canvas-apps/functions/function-defaults.md
+                - name: Degrees
+                  href: ./canvas-apps/functions/function-trig.md
+                - name: Disable
+                  href: ./canvas-apps/functions/function-enable-disable.md
+                - name: Distinct
+                  href: ./canvas-apps/functions/function-distinct.md
+                - name: Download
+                  href: ./canvas-apps/functions/function-param.md
+                - name: DropColumns
+                  href: ./canvas-apps/functions/function-table-shaping.md
+                - name: EditForm
+                  href: ./canvas-apps/functions/function-form.md
+                - name: Enable
+                  href: ./canvas-apps/functions/function-enable-disable.md
+                - name: EndsWith
+                  href: ./canvas-apps/functions/function-startswith.md
+                - name: Errors
+                  href: ./canvas-apps/functions/function-errors.md
+                - name: EncodeUrl
+                  href: ./canvas-apps/functions/function-encode-decode.md
+                - name: Exit
+                  href: ./canvas-apps/functions/function-exit.md
+                - name: Exp
+                  href: ./canvas-apps/functions/function-numericals.md
+                - name: Filter
+                  href: ./canvas-apps/functions/function-filter-lookup.md
+                - name: Find
+                  href: ./canvas-apps/functions/function-find.md
+                - name: First
+                  href: ./canvas-apps/functions/function-first-last.md
+                - name: FirstN
+                  href: ./canvas-apps/functions/function-first-last.md
+                - name: ForAll
+                  href: ./canvas-apps/functions/function-forall.md
+                - name: GroupBy
+                  href: ./canvas-apps/functions/function-groupby.md
+                - name: GUID
+                  href: ./canvas-apps/functions/function-guid.md
+                - name: HashTags
+                  href: ./canvas-apps/functions/function-hashtags.md
+                - name: Hour
+                  href: ./canvas-apps/functions/function-datetime-parts.md
+                - name: If
+                  href: ./canvas-apps/functions/function-if.md
+                - name: IfError
+                  href: ./canvas-apps/functions/function-iferror.md
+                - name: IsBlank
+                  href: ./canvas-apps/functions/function-isblank-isempty.md
+                - name: IsEmpty
+                  href: ./canvas-apps/functions/function-isblank-isempty.md
+                - name: IsMatch
+                  href: ./canvas-apps/functions/function-ismatch.md
+                - name: IsNumeric
+                  href: ./canvas-apps/functions/function-isnumeric.md
+                - name: IsToday
+                  href: ./canvas-apps/functions/function-now-today-istoday.md
+                - name: Language
+                  href: ./canvas-apps/functions/function-language.md
+                - name: Last
+                  href: ./canvas-apps/functions/function-first-last.md
+                - name: LastN
+                  href: ./canvas-apps/functions/function-first-last.md
+                - name: Launch
+                  href: ./canvas-apps/functions/function-param.md
+                - name: Left
+                  href: ./canvas-apps/functions/function-left-mid-right.md
+                - name: Len
+                  href: ./canvas-apps/functions/function-len.md
+                - name: Ln
+                  href: ./canvas-apps/functions/function-numericals.md
+                - name: LoadData
+                  href: ./canvas-apps/functions/function-savedata-loaddata.md
+                - name: Location
+                  href: ./canvas-apps/functions/signals.md
+                - name: LookUp
+                  href: ./canvas-apps/functions/function-filter-lookup.md
+                - name: Lower
+                  href: ./canvas-apps/functions/function-lower-upper-proper.md
+                - name: Max
+                  href: ./canvas-apps/functions/function-aggregates.md
+                - name: Mid
+                  href: ./canvas-apps/functions/function-left-mid-right.md
+                - name: Min
+                  href: ./canvas-apps/functions/function-aggregates.md
+                - name: Minute
+                  href: ./canvas-apps/functions/function-datetime-parts.md
+                - name: Mod
+                  href: ./canvas-apps/functions/function-mod.md
+                - name: Month
+                  href: ./canvas-apps/functions/function-datetime-parts.md
+                - name: Navigate
+                  href: ./canvas-apps/functions/function-navigate.md
+                - name: NewForm
+                  href: ./canvas-apps/functions/function-form.md
+                - name: Not
+                  href: ./canvas-apps/functions/function-logicals.md
+                - name: Notify
+                  href: ./canvas-apps/functions/function-showerror.md
+                - name: Now
+                  href: ./canvas-apps/functions/function-now-today-istoday.md
+                - name: Operators
+                  href: ./canvas-apps/functions/operators.md
+                - name: Or
+                  href: ./canvas-apps/functions/function-logicals.md
+                - name: Param
+                  href: ./canvas-apps/functions/function-param.md
+                - name: Patch
+                  href: ./canvas-apps/functions/function-patch.md
+                - name: Pi
+                  href: ./canvas-apps/functions/function-trig.md
+                - name: PlainText
+                  href: ./canvas-apps/functions/function-encode-decode.md
+                - name: Power
+                  href: ./canvas-apps/functions/function-numericals.md
+                - name: Proper
+                  href: ./canvas-apps/functions/function-lower-upper-proper.md
+                - name: Radians
+                  href: ./canvas-apps/functions/function-trig.md
+                - name: Rand
+                  href: ./canvas-apps/functions/function-rand.md
+                - name: Refresh
+                  href: ./canvas-apps/functions/function-refresh.md
+                - name: Remove
+                  href: ./canvas-apps/functions/function-remove-removeif.md
+                - name: RemoveIf
+                  href: ./canvas-apps/functions/function-remove-removeif.md
+                - name: RenameColumns
+                  href: ./canvas-apps/functions/function-table-shaping.md
+                - name: Replace
+                  href: ./canvas-apps/functions/function-replace-substitute.md
+                - name: Reset
+                  href: ./canvas-apps/functions/function-reset.md
+                - name: ResetForm
+                  href: ./canvas-apps/functions/function-form.md
+                - name: Revert
+                  href: ./canvas-apps/functions/function-revert.md
+                - name: RGBA
+                  href: ./canvas-apps/functions/function-colors.md
+                - name: Right
+                  href: ./canvas-apps/functions/function-left-mid-right.md
+                - name: Round
+                  href: ./canvas-apps/functions/function-round.md
+                - name: RoundDown
+                  href: ./canvas-apps/functions/function-round.md
+                - name: RoundUp
+                  href: ./canvas-apps/functions/function-round.md
+                - name: SaveData
+                  href: ./canvas-apps/functions/function-savedata-loaddata.md
+                - name: Search
+                  href: ./canvas-apps/functions/function-filter-lookup.md
+                - name: Second
+                  href: ./canvas-apps/functions/function-datetime-parts.md
+                - name: Select
+                  href: ./canvas-apps/functions/function-select.md
+                - name: Set
+                  href: ./canvas-apps/functions/function-set.md
+                - name: ShowColumns
+                  href: ./canvas-apps/functions/function-table-shaping.md
+                - name: Shuffle
+                  href: ./canvas-apps/functions/function-shuffle.md
+                - name: Sin
+                  href: ./canvas-apps/functions/function-trig.md
+                - name: Sort
+                  href: ./canvas-apps/functions/function-sort.md
+                - name: SortByColumns
+                  href: ./canvas-apps/functions/function-sort.md
+                - name: Split
+                  href: ./canvas-apps/functions/function-split.md
+                - name: Sqrt
+                  href: ./canvas-apps/functions/function-numericals.md
+                - name: StartsWith
+                  href: ./canvas-apps/functions/function-startswith.md
+                - name: StdevP
+                  href: ./canvas-apps/functions/function-aggregates.md
+                - name: Substitute
+                  href: ./canvas-apps/functions/function-replace-substitute.md
+                - name: SubmitForm
+                  href: ./canvas-apps/functions/function-form.md
+                - name: Sum
+                  href: ./canvas-apps/functions/function-aggregates.md
+                - name: Switch
+                  href: ./canvas-apps/functions/function-if.md
+                - name: Table
+                  href: ./canvas-apps/functions/function-table.md
+                - name: Tan
+                  href: ./canvas-apps/functions/function-trig.md
+                - name: Text
+                  href: ./canvas-apps/functions/function-text.md
+                - name: Time
+                  href: ./canvas-apps/functions/function-date-time.md
+                - name: TimeValue
+                  href: ./canvas-apps/functions/function-datevalue-timevalue.md
+                - name: TimeZoneOffset
+                  href: ./canvas-apps/functions/function-dateadd-datediff.md
+                - name: Today
+                  href: ./canvas-apps/functions/function-now-today-istoday.md
+                - name: Trim
+                  href: ./canvas-apps/functions/function-trim.md
+                - name: TrimEnds
+                  href: ./canvas-apps/functions/function-trim.md
+                - name: Ungroup
+                  href: ./canvas-apps/functions/function-groupby.md
+                - name: Update
+                  href: ./canvas-apps/functions/function-update-updateif.md
+                - name: UpdateContext
+                  href: ./canvas-apps/functions/function-updatecontext.md
+                - name: UpdateIf
+                  href: ./canvas-apps/functions/function-update-updateif.md
+                - name: Upper
+                  href: ./canvas-apps/functions/function-lower-upper-proper.md
+                - name: User
+                  href: ./canvas-apps/functions/function-user.md
+                - name: Validate
+                  href: ./canvas-apps/functions/function-validate.md
+                - name: Value
+                  href: ./canvas-apps/functions/function-value.md
+                - name: VarP
+                  href: ./canvas-apps/functions/function-aggregates.md
+                - name: ViewForm
+                  href: ./canvas-apps/functions/function-form.md
+                - name: Weekday
+                  href: ./canvas-apps/functions/function-datetime-parts.md
+                - name: Year
+                  href: ./canvas-apps/functions/function-datetime-parts.md
+        - name: 글로벌 앱 구축
+          href: ./canvas-apps/global-apps.md
+        - name: 앱을 액세스 가능하게 만들기
+          href: ./canvas-apps/accessible-apps.md
+          items:
+            - name: 액세스 가능성 문제 찾기
+              href: ./canvas-apps/accessibility-checker.md
+            - name: 액세스 가능성에 대해 색상 사용
+              href: ./canvas-apps/accessible-apps-color.md
+        - name: 실험적 및 미리 보기 기능
+          href: ./canvas-apps/working-with-experimental.md
+    - name: 앱 저장 및 게시
+      href: ./canvas-apps/save-publish-app.md
+    - name: 앱 공유
+      href: ./canvas-apps/share-app.md
       items:
-        - name: 수식 참조
-          href: ./canvas-apps/formula-reference.md
+        - name: Excel 데이터 공유
+          href: ./canvas-apps/share-app-data.md
+        - name: 앱 리소스 공유
+          href: ./canvas-apps/share-app-resources.md
+        - name: Power BI에 앱 내장
+          href: ./canvas-apps/embed-powerapps-powerbi.md
+    - name: 앱 관리
+      items:
+        - name: 앱 편집
+          href: ./canvas-apps/edit-app.md
+        - name: 앱 삭제
+          href: ./canvas-apps/delete-app.md
+        - name: 이전 버전 복원
+          href: ./canvas-apps/restore-an-app.md
+        - name: 앱 명칭 및 타일 변경
+          href: ./canvas-apps/set-name-tile.md
+        - name: 화면 크기 및 지향 변경
+          href: ./canvas-apps/set-aspect-ratio-portrait-landscape.md
+    - name: SharePoint 목록 양식 맞춤화
+      href: ./canvas-apps/customize-list-form.md
+      items:
+        - name: SharePoint 양식 통합 이해
+          href: ./canvas-apps/sharepoint-form-integration.md
+    - name: 다른 기술과 통합
+      items:
+        - name: SharePoint Online
           items:
-            - name: Abs
-              href: ./canvas-apps/functions/function-numericals.md
-            - name: 가속
-              href: ./canvas-apps/functions/signals.md
-            - name: Acos
-              href: ./canvas-apps/functions/function-trig.md
-            - name: Acot
-              href: ./canvas-apps/functions/function-trig.md
-            - name: AddColumns
-              href: ./canvas-apps/functions/function-table-shaping.md
-            - name: And
-              href: ./canvas-apps/functions/function-logicals.md
-            - name: 앱
-              href: ./canvas-apps/functions/signals.md
-            - name: Asin
-              href: ./canvas-apps/functions/function-trig.md
-            - name: Atan
-              href: ./canvas-apps/functions/function-trig.md
-            - name: Atan2
-              href: ./canvas-apps/functions/function-trig.md
-            - name: 평균
-              href: ./canvas-apps/functions/function-aggregates.md
-            - name: 뒤로
-              href: ./canvas-apps/functions/function-navigate.md
-            - name: 비어 있음
-              href: ./canvas-apps/functions/function-isblank-isempty.md
-            - name: 일정
-              href: ./canvas-apps/functions/function-clock-calendar.md
-            - name: Char
-              href: ./canvas-apps/functions/function-char.md
-            - name: Choices
-              href: ./canvas-apps/functions/function-choices.md
-            - name: 지우기
-              href: ./canvas-apps/functions/function-clear-collect-clearcollect.md
-            - name: ClearCollect
-              href: ./canvas-apps/functions/function-clear-collect-clearcollect.md
-            - name: Clock
-              href: ./canvas-apps/functions/function-clock-calendar.md
-            - name: Coalesce
-              href: ./canvas-apps/functions/function-isblank-isempty.md
-            - name: Collect
-              href: ./canvas-apps/functions/function-clear-collect-clearcollect.md
-            - name: 컬러
-              href: ./canvas-apps/functions/function-colors.md
-            - name: ColorFade
-              href: ./canvas-apps/functions/function-colors.md
-            - name: ColorValue
-              href: ./canvas-apps/functions/function-colors.md
-            - name: 나침반
-              href: ./canvas-apps/functions/signals.md
-            - name: Concat
-              href: ./canvas-apps/functions/function-concatenate.md
-            - name: Concatenate
-              href: ./canvas-apps/functions/function-concatenate.md
-            - name: 동시
-              href: ./canvas-apps/functions/function-concurrent.md
-            - name: 연결
-              href: ./canvas-apps/functions/signals.md
-            - name: 카운트
-              href: ./canvas-apps/functions/function-table-counts.md
-            - name: Cos
-              href: ./canvas-apps/functions/function-trig.md
-            - name: Cot
-              href: ./canvas-apps/functions/function-trig.md
-            - name: CountA
-              href: ./canvas-apps/functions/function-table-counts.md
-            - name: CountIf
-              href: ./canvas-apps/functions/function-table-counts.md
-            - name: CountRows
-              href: ./canvas-apps/functions/function-table-counts.md
-            - name: DataSourceInfo
-              href: ./canvas-apps/functions/function-datasourceinfo.md
-            - name: 날짜
-              href: ./canvas-apps/functions/function-date-time.md
-            - name: DateAdd
-              href: ./canvas-apps/functions/function-dateadd-datediff.md
-            - name: DateDiff
-              href: ./canvas-apps/functions/function-dateadd-datediff.md
-            - name: DateTimeValue
-              href: ./canvas-apps/functions/function-datevalue-timevalue.md
-            - name: DateValue
-              href: ./canvas-apps/functions/function-datevalue-timevalue.md
-            - name: 일
-              href: ./canvas-apps/functions/function-datetime-parts.md
-            - name: 기본값
-              href: ./canvas-apps/functions/function-defaults.md
-            - name: 정도
-              href: ./canvas-apps/functions/function-trig.md
-            - name: 사용 안 함
-              href: ./canvas-apps/functions/function-enable-disable.md
-            - name: 고유
-              href: ./canvas-apps/functions/function-distinct.md
-            - name: 다운로드
-              href: ./canvas-apps/functions/function-param.md
-            - name: DropColumns
-              href: ./canvas-apps/functions/function-table-shaping.md
-            - name: EditForm
-              href: ./canvas-apps/functions/function-form.md
-            - name: 사용
-              href: ./canvas-apps/functions/function-enable-disable.md
-            - name: EndsWith
-              href: ./canvas-apps/functions/function-startswith.md
-            - name: 오류
-              href: ./canvas-apps/functions/function-errors.md
-            - name: EncodeUrl
-              href: ./canvas-apps/functions/function-encode-decode.md
-            - name: 종료
-              href: ./canvas-apps/functions/function-exit.md
-            - name: Exp
-              href: ./canvas-apps/functions/function-numericals.md
-            - name: 필터링
-              href: ./canvas-apps/functions/function-filter-lookup.md
-            - name: 찾기
-              href: ./canvas-apps/functions/function-find.md
-            - name: 처음
-              href: ./canvas-apps/functions/function-first-last.md
-            - name: FirstN
-              href: ./canvas-apps/functions/function-first-last.md
-            - name: ForAll
-              href: ./canvas-apps/functions/function-forall.md
-            - name: GroupBy
-              href: ./canvas-apps/functions/function-groupby.md
-            - name: HashTags
-              href: ./canvas-apps/functions/function-hashtags.md
-            - name: 시간
-              href: ./canvas-apps/functions/function-datetime-parts.md
-            - name: If
-              href: ./canvas-apps/functions/function-if.md
-            - name: IfError
-              href: ./canvas-apps/functions/function-iferror.md
-            - name: IsBlank
-              href: ./canvas-apps/functions/function-isblank-isempty.md
-            - name: IsEmpty
-              href: ./canvas-apps/functions/function-isblank-isempty.md
-            - name: IsMatch
-              href: ./canvas-apps/functions/function-ismatch.md
-            - name: IsNumeric
-              href: ./canvas-apps/functions/function-isnumeric.md
-            - name: IsToday
-              href: ./canvas-apps/functions/function-now-today-istoday.md
-            - name: 언어
-              href: ./canvas-apps/functions/function-language.md
-            - name: 최근
-              href: ./canvas-apps/functions/function-first-last.md
-            - name: LastN
-              href: ./canvas-apps/functions/function-first-last.md
-            - name: 시작
-              href: ./canvas-apps/functions/function-param.md
-            - name: 왼쪽
-              href: ./canvas-apps/functions/function-left-mid-right.md
-            - name: Len
-              href: ./canvas-apps/functions/function-len.md
-            - name: Ln
-              href: ./canvas-apps/functions/function-numericals.md
-            - name: LoadData
-              href: ./canvas-apps/functions/function-savedata-loaddata.md
-            - name: 위치
-              href: ./canvas-apps/functions/signals.md
-            - name: LookUp
-              href: ./canvas-apps/functions/function-filter-lookup.md
-            - name: Lower
-              href: ./canvas-apps/functions/function-lower-upper-proper.md
-            - name: 최대
-              href: ./canvas-apps/functions/function-aggregates.md
-            - name: Mid
-              href: ./canvas-apps/functions/function-left-mid-right.md
-            - name: 최소
-              href: ./canvas-apps/functions/function-aggregates.md
-            - name: Minute
-              href: ./canvas-apps/functions/function-datetime-parts.md
-            - name: Mod
-              href: ./canvas-apps/functions/function-mod.md
-            - name: 월
-              href: ./canvas-apps/functions/function-datetime-parts.md
-            - name: Navigate
-              href: ./canvas-apps/functions/function-navigate.md
-            - name: NewForm
-              href: ./canvas-apps/functions/function-form.md
-            - name: Not
-              href: ./canvas-apps/functions/function-logicals.md
-            - name: 알림
-              href: ./canvas-apps/functions/function-showerror.md
-            - name: 지금
-              href: ./canvas-apps/functions/function-now-today-istoday.md
-            - name: 연산자
-              href: ./canvas-apps/functions/operators.md
-            - name: 또는
-              href: ./canvas-apps/functions/function-logicals.md
-            - name: 매개 변수
-              href: ./canvas-apps/functions/function-param.md
-            - name: 패치
-              href: ./canvas-apps/functions/function-patch.md
-            - name: Pi
-              href: ./canvas-apps/functions/function-trig.md
-            - name: PlainText
-              href: ./canvas-apps/functions/function-encode-decode.md
-            - name: Power
-              href: ./canvas-apps/functions/function-numericals.md
-            - name: Proper
-              href: ./canvas-apps/functions/function-lower-upper-proper.md
-            - name: Radians
-              href: ./canvas-apps/functions/function-trig.md
-            - name: Rand
-              href: ./canvas-apps/functions/function-rand.md
-            - name: 새로 고침
-              href: ./canvas-apps/functions/function-refresh.md
-            - name: 제거
-              href: ./canvas-apps/functions/function-remove-removeif.md
-            - name: RemoveIf
-              href: ./canvas-apps/functions/function-remove-removeif.md
-            - name: RenameColumns
-              href: ./canvas-apps/functions/function-table-shaping.md
-            - name: 바꾸기
-              href: ./canvas-apps/functions/function-replace-substitute.md
-            - name: 다시 설정
-              href: ./canvas-apps/functions/function-reset.md
-            - name: ResetForm
-              href: ./canvas-apps/functions/function-form.md
-            - name: 되돌리기
-              href: ./canvas-apps/functions/function-revert.md
-            - name: RGBA
-              href: ./canvas-apps/functions/function-colors.md
-            - name: 오른쪽
-              href: ./canvas-apps/functions/function-left-mid-right.md
-            - name: 반올림
-              href: ./canvas-apps/functions/function-round.md
-            - name: RoundDown
-              href: ./canvas-apps/functions/function-round.md
-            - name: RoundUp
-              href: ./canvas-apps/functions/function-round.md
-            - name: SaveData
-              href: ./canvas-apps/functions/function-savedata-loaddata.md
-            - name: 검색
-              href: ./canvas-apps/functions/function-filter-lookup.md
-            - name: 초
-              href: ./canvas-apps/functions/function-datetime-parts.md
-            - name: 선택
-              href: ./canvas-apps/functions/function-select.md
-            - name: 설정
-              href: ./canvas-apps/functions/function-set.md
-            - name: ShowColumns
-              href: ./canvas-apps/functions/function-table-shaping.md
-            - name: 섞기
-              href: ./canvas-apps/functions/function-shuffle.md
-            - name: Sin
-              href: ./canvas-apps/functions/function-trig.md
-            - name: 정렬
-              href: ./canvas-apps/functions/function-sort.md
-            - name: SortByColumns
-              href: ./canvas-apps/functions/function-sort.md
-            - name: 분할
-              href: ./canvas-apps/functions/function-split.md
-            - name: Sqrt
-              href: ./canvas-apps/functions/function-numericals.md
-            - name: StartsWith
-              href: ./canvas-apps/functions/function-startswith.md
-            - name: StdevP
-              href: ./canvas-apps/functions/function-aggregates.md
-            - name: 대체
-              href: ./canvas-apps/functions/function-replace-substitute.md
-            - name: SubmitForm
-              href: ./canvas-apps/functions/function-form.md
-            - name: 합계
-              href: ./canvas-apps/functions/function-aggregates.md
-            - name: 전환
-              href: ./canvas-apps/functions/function-if.md
-            - name: 테이블
-              href: ./canvas-apps/functions/function-table.md
-            - name: Tan
-              href: ./canvas-apps/functions/function-trig.md
-            - name: 텍스트
-              href: ./canvas-apps/functions/function-text.md
-            - name: 시간
-              href: ./canvas-apps/functions/function-date-time.md
-            - name: TimeValue
-              href: ./canvas-apps/functions/function-datevalue-timevalue.md
-            - name: TimeZoneOffset
-              href: ./canvas-apps/functions/function-dateadd-datediff.md
-            - name: 오늘
-              href: ./canvas-apps/functions/function-now-today-istoday.md
-            - name: 자르기
-              href: ./canvas-apps/functions/function-trim.md
-            - name: TrimEnds
-              href: ./canvas-apps/functions/function-trim.md
-            - name: 그룹 해제
-              href: ./canvas-apps/functions/function-groupby.md
-            - name: 업데이트
-              href: ./canvas-apps/functions/function-update-updateif.md
-            - name: UpdateContext
-              href: ./canvas-apps/functions/function-updatecontext.md
-            - name: UpdateIf
-              href: ./canvas-apps/functions/function-update-updateif.md
-            - name: Upper
-              href: ./canvas-apps/functions/function-lower-upper-proper.md
-            - name: User
-              href: ./canvas-apps/functions/function-user.md
-            - name: 유효성 검사
-              href: ./canvas-apps/functions/function-validate.md
-            - name: 값
-              href: ./canvas-apps/functions/function-value.md
-            - name: VarP
-              href: ./canvas-apps/functions/function-aggregates.md
-            - name: ViewForm
-              href: ./canvas-apps/functions/function-form.md
-            - name: 주중
-              href: ./canvas-apps/functions/function-datetime-parts.md
-            - name: 년
-              href: ./canvas-apps/functions/function-datetime-parts.md
-        - name: 컨트롤 참조
-          href: ./canvas-apps/reference-properties.md
-          items:
-            - name: 사진 추가
-              href: ./canvas-apps/controls/control-add-picture.md
-            - name: 첨부 파일
-              href: ./canvas-apps/controls/control-attachments.md
-            - name: 오디오
-              href: ./canvas-apps/controls/control-audio-video.md
-            - name: 바코드 스캐너(실험적)
-              href: ./canvas-apps/controls/control-barcodescanner.md
-            - name: 단추
-              href: ./canvas-apps/controls/control-button.md
-            - name: 카메라
-              href: ./canvas-apps/controls/control-camera.md
-            - name: 카드
-              href: ./canvas-apps/controls/control-card.md
-            - name: 확인란
-              href: ./canvas-apps/controls/control-check-box.md
-            - name: 세로 막대형 차트
-              href: ./canvas-apps/controls/control-column-line-chart.md
-            - name: 열
-              href: ./canvas-apps/controls/control-column.md
-            - name: 콤보 상자
-              href: ./canvas-apps/controls/control-combo-box.md
-            - name: 데이터 테이블
-              href: ./canvas-apps/controls/control-data-table.md
-            - name: 날짜 선택
-              href: ./canvas-apps/controls/control-date-picker.md
-            - name: 표시 양식
-              href: ./canvas-apps/controls/control-form-detail.md
-            - name: 드롭다운
-              href: ./canvas-apps/controls/control-drop-down.md
-            - name: 편집 양식
-              href: ./canvas-apps/controls/control-form-detail.md
-            - name: 내보내기
-              href: ./canvas-apps/controls/control-export-import.md
-            - name: 갤러리
-              href: ./canvas-apps/controls/control-gallery.md
-            - name: HTML 텍스트
-              href: ./canvas-apps/controls/control-html-text.md
-            - name: 아이콘
-              href: ./canvas-apps/controls/control-shapes-icons.md
-            - name: 이미지
-              href: ./canvas-apps/controls/control-image.md
-            - name: 가져오기
-              href: ./canvas-apps/controls/control-export-import.md
-            - name: 꺾은선형 차트
-              href: ./canvas-apps/controls/control-column-line-chart.md
-            - name: 목록 상자
-              href: ./canvas-apps/controls/control-list-box.md
-            - name: 마이크
-              href: ./canvas-apps/controls/control-microphone.md
-            - name: PDF 뷰어(실험적)
-              href: ./canvas-apps/controls/control-pdf-viewer.md
-            - name: 펜 입력
-              href: ./canvas-apps/controls/control-pen-input.md
-            - name: 원형 차트
-              href: ./canvas-apps/controls/control-pie-chart.md
-            - name: Power BI 타일
-              href: ./canvas-apps/controls/control-power-bi-tile.md
-            - name: 라디오
-              href: ./canvas-apps/controls/control-radio.md
-            - name: 등급
-              href: ./canvas-apps/controls/control-rating.md
-            - name: 서식 있는 텍스트 편집기(실험적)
-              href: ./canvas-apps/controls/control-richtexteditor.md
-            - name: 화면
-              href: ./canvas-apps/controls/control-screen.md
-            - name: 셰이프
-              href: ./canvas-apps/controls/control-shapes-icons.md
-            - name: 슬라이더
-              href: ./canvas-apps/controls/control-slider.md
-            - name: 레이블
-              href: ./canvas-apps/controls/control-text-box.md
-            - name: 텍스트 입력
-              href: ./canvas-apps/controls/control-text-input.md
-            - name: 타이머
-              href: ./canvas-apps/controls/control-timer.md
-            - name: 설정/해제
-              href: ./canvas-apps/controls/control-toggle.md
-            - name: 비디오
-              href: ./canvas-apps/controls/control-audio-video.md
-        - name: 커넥터 참조
-          href: ./canvas-apps/connections-list.md
-        - name: '시스템 요구 사항, 제한 및 구성'
-          href: ./canvas-apps/limits-and-config.md
-        - name: 세션 또는 앱 ID 가져오기
-          href: ./canvas-apps/get-sessionid.md
+            - name: SharePoint Online 통합 개요
+              href: ./canvas-apps/sharepoint-scenario-intro.md
+            - name: SharePoint Online 목록 설정
+              href: ./canvas-apps/sharepoint-scenario-setup.md
+            - name: 앱 생성
+              href: ./canvas-apps/sharepoint-scenario-generate-app.md
+            - name: 결재 흐름 만들기
+              href: ./canvas-apps/sharepoint-scenario-approval-flow.md
+            - name: 앱을 처음부터 새로 만들기
+              href: ./canvas-apps/sharepoint-scenario-build-app.md
+            - name: Power BI 보고서 만들기
+              href: ./canvas-apps/sharepoint-scenario-build-report.md
+            - name: Power BI 보고서 게시
+              href: ./canvas-apps/sharepoint-scenario-publish-report.md
+            - name: Power BI 보고서 내장
+              href: ./canvas-apps/sharepoint-scenario-embed-report.md
+            - name: 알림 흐름 만들기
+              href: ./canvas-apps/sharepoint-scenario-alerts-flow.md
+            - name: 완료된 시나리오 안내
+              href: ./canvas-apps/sharepoint-scenario-summary.md
+        - name: Cognitive Services
+          href: ./canvas-apps/cognitive-services-api.md
+        - name: InfoPath 양식을 PowerApps로 변환
+          href: ./canvas-apps/transform-infopath.md
+    - name: 개발자의 경우
+      href: ./canvas-apps/dev-enterprise-intro.md
+      items:
+        - name: 맞춤 커넥터 구축 및 인증
+          href: ./canvas-apps/register-custom-api.md
+        - name: 웹사이트 및 다른 기술과 통합
+          href: ./canvas-apps/embed-apps-dev.md
+        - name: 오프라인 가능 앱 개발
+          href: ./canvas-apps/offline-apps.md
+        - name: 고객이 귀하의 앱을 테스트 드라이브하도록 유도
+          href: ./canvas-apps/dev-appsource-test-drive.md
 - name: 모델 기반 앱
   href: ./model-driven-apps/model-driven-app-overview.md
   items:
-    - name: 샘플 앱 개요
+    - name: 샘플 앱 살펴보기
       href: ./model-driven-apps/overview-model-driven-samples.md
-    - name: 첫 번째 모델 기반 앱 빌드
-      href: .//model-driven-apps/build-first-model-driven-app.md
-    - name: 모델 기반 앱 공유
+    - name: 첫 번째 앱 만들기
+      href: ./model-driven-apps/build-first-model-driven-app.md
+    - name: 앱 디자인 및 빌드
+      items:
+        - name: 모델 기반 앱 구성 요소 이해
+          href: ./model-driven-apps/model-driven-app-components.md
+        - name: 앱을 위한 데이터 정의
+          href: ./model-driven-apps/define-data-model-driven-app.md
+          items:
+            - name: 공통 필드 속성
+              href: ./model-driven-apps/common-field-properties-legacy.md
+            - name: 특수 필드 속성 개요
+              href: ./model-driven-apps/special-field-properties-legacy.md
+            - name: 현지화 가능한 텍스트 번역
+              href: ./model-driven-apps/translate-localizable-text.md
+        - name: 인터페이스 디자인
+          items:
+            - name: 앱 디자이너를 사용하여 앱 구축
+              href: ./model-driven-apps/design-custom-business-apps-using-app-designer.md
+              items:
+                - name: 앱 만들기
+                  href: ./model-driven-apps/create-edit-app.md
+                - name: 앱을 위한 사이트 맵 만들기
+                  href: ./model-driven-apps/create-site-map-app.md
+                - name: 앱 구성 요소 추가 또는 편집
+                  href: ./model-driven-apps/add-edit-app-components.md
+            - name: 양식 작업
+              href: ./model-driven-apps/create-design-forms.md
+              items:
+                - name: 양식 타입
+                  href: ./model-driven-apps/types-forms.md
+                  items:
+                    - name: 기본 양식 만들기 또는 편집
+                      href: ./model-driven-apps/create-edit-main-forms.md
+                    - name: 빨리 만들기 양식 만들기 또는 편집
+                      href: ./model-driven-apps/create-edit-quick-create-forms.md
+                    - name: 빠른 보기 양식 만들기
+                      href: ./model-driven-apps/create-edit-quick-view-forms.md
+                - name: 양식 편집기 개요
+                  href: ./model-driven-apps/form-editor-user-interface-legacy.md
+                  items:
+                    - name: 양식 속성 개요
+                      href: ./model-driven-apps/form-properties-legacy.md
+                    - name: 하위 그리드 속성 개요
+                      href: ./model-driven-apps/sub-grid-properties-legacy.md
+                    - name: 탭 속성 개요
+                      href: ./model-driven-apps/tab-properties-legacy.md
+                - name: 기본 양식에 대한 디자인 고려 사항
+                  href: ./model-driven-apps/design-considerations-main-forms.md
+                - name: 기본 양식 모양
+                  href: ./model-driven-apps/main-form-presentations.md
+                - name: 양식에 대한 액세스 제어
+                  href: ./model-driven-apps/control-access-forms.md
+                - name: 양식에 필드 추가
+                  href: ./model-driven-apps/add-field-form.md
+                - name: 양식 요소 표시 또는 숨기기
+                  href: ./model-driven-apps/visibility-options-legacy.md
+                - name: 양식 내 탐색 변경
+                  href: ./model-driven-apps/use-the-form-editor-legacy.md
+                  items:
+                    - name: 관련 엔터티의 양식 탐색 추가
+                      href: ./model-driven-apps/add-edit-form-navigation-related-entities.md
+                - name: '방법 가이드: 양식'
+                  items:
+                    - name: 기본 양식 및 구성 요소 사용 방법
+                      href: ./model-driven-apps/use-main-form-and-components.md
+                    - name: 양식 편집기 여는 방법
+                      href: ./model-driven-apps/open-form-editor.md
+                    - name: 양식에 iFrame을 추가하는 방법
+                      href: ./model-driven-apps/iframe-properties-legacy.md
+                    - name: 양식 성능을 최적화하는 방법
+                      href: ./model-driven-apps/optimize-form-performance.md
+                    - name: 양식 섹션 작업 방법
+                      href: ./model-driven-apps/section-properties-legacy.md
+                    - name: 양식에서 Bing 지도를 구성하는 방법
+                      href: ./model-driven-apps/configure-bing-maps-legacy.md
+                    - name: 양식 순서를 할당하는 방법
+                      href: ./model-driven-apps/assign-form-order.md
+                    - name: 양식에서 이벤트 취급기를 구성하는 방법
+                      href: ./model-driven-apps/configure-event-handlers-legacy.md
+                    - name: 양식에서 자동 저장을 비활성화하는 방법
+                      href: ./model-driven-apps/manage-auto-save.md
+            - name: 보기 작업
+              href: ./model-driven-apps/create-edit-views.md
+              items:
+                - name: 보기 만들기 또는 편집
+                  href: ./model-driven-apps/create-and-edit-views.md
+                - name: 보기 정의 액세스
+                  href: ./model-driven-apps/accessing-view-definitions.md
+                - name: 보기 만들기 및 편집
+                  href: ./model-driven-apps/create-edit-views-app-designer.md
+                - name: 보기에서 열 선택 및 구성
+                  href: ./model-driven-apps/choose-and-configure-columns.md
+                - name: '방법 가이드: 보기'
+                  items:
+                    - name: 그리드를 편집 가능하게 만드는 방법
+                      href: ./model-driven-apps/make-grids-lists-editable-custom-control.md
+                    - name: 보기의 레코드를 정렬하는 방법
+                      href: ./model-driven-apps/configure-sorting.md
+                    - name: 필터 기준 및 정렬 순서를 편집하는 방법
+                      href: ./model-driven-apps/edit-filter-criteria.md
+                    - name: 보기를 위한 피관리 속성을 설정하는 방법
+                      href: ./model-driven-apps/managed-properties-views.md
+                    - name: 기본 보기를 지정하는 방법
+                      href: ./model-driven-apps/specify-default-views.md
+                - name: 보기를 삭제 또는 비활성화하는 방법
+                  href: ./model-driven-apps/remove-views.md
+        - name: 앱에 비즈니스 논리 적용
+          href: ./model-driven-apps/guide-staff-through-common-tasks-processes.md
+          items:
+            - name: 양식을 위한 비즈니스 규칙 만들기
+              href: ./model-driven-apps/create-business-rules-recommendations-apply-logic-form.md
+        - name: 앱에 데이터 가시화 적용
+          items:
+            - name: 시스템 차트 만들기
+              href: ./model-driven-apps/create-edit-system-chart.md
+            - name: 대시보드 만들기 또는 편집
+              href: ./model-driven-apps/create-edit-dashboards.md
+            - name: 상호 작용 환경 대시보드 구성
+              href: ./model-driven-apps/configure-interactive-experience-dashboards.md
+            - name: 차트 또는 목록의 속성 설정
+              href: ./model-driven-apps/set-properties-chart-list-included-dashboard.md
+            - name: 데이터 가시화를 위한 시스템 컨트롤 사용
+              items:
+                - name: 메모 컨트롤 설정
+                  href: ./model-driven-apps/notes-control-legacy.md
+                - name: 빠른 보기 컨트롤 속성
+                  href: ./model-driven-apps/quick-view-control-properties-legacy.md
+                - name: Dynamics 365 for phones 및 tablets을 위한 추가 컨트롤
+                  href: ./model-driven-apps/additional-controls-for-dynamics-365-for-phones-and-tablets.md
+                - name: 타이머 컨트롤 개요
+                  href: ./model-driven-apps/timer-control-legacy.md
+            - name: 데이터 가시화를 위한 맞춤 컨트롤 사용
+              href: ./model-driven-apps/use-custom-controls-data-visualizations.md
+    - name: 앱 유효성 검사 및 게시
+      href: ./model-driven-apps/validate-app.md
+    - name: 앱 공유
       href: ./model-driven-apps/share-model-driven-app.md
-    - name: 개발자용
+    - name: 앱 관리
+      items:
+        - name: 앱 속성 관리
+          href: ./model-driven-apps/manage-app-properties.md
+        - name: 통합 인터페이스 앱의 속성 지정
+          href: ./model-driven-apps/specify-properties-for-unified-interface-apps.md
+        - name: 앱 삭제
+          href: ./model-driven-apps/delete-model-driven-app.md
+    - name: 고급 앱 만들기 및 맞춤화
+      href: ./model-driven-apps/advanced-navigation.md
+      items:
+        - name: 맞춤화 권한
+          href: ./model-driven-apps/privileges-required-customization.md
+        - name: 웹 리소스 만들기 또는 편집
+          href: ./model-driven-apps/create-edit-web-resources.md
+        - name: 웹 리소스 속성
+          href: ./model-driven-apps/web-resource-properties-legacy.md
+        - name: 맞춤 엔터티 아이콘 변경
+          href: ./model-driven-apps/change-custom-entity-icons.md
+        - name: 솔루션을 사용한 앱 배포
+          href: ./model-driven-apps/distribute-model-driven-app.md
+    - name: PowerApps 앱 디자이너에서 액세스 가능성
+      href: ./model-driven-apps/Accessibility-app-designer-site-map-designer-my-apps-page.md
+    - name: 개발자의 경우
       href: ../developer/model-driven-apps/TOC.yml
 - name: 앱용 Common Data Service
   href: ./common-data-service/data-platform-intro.md
   items:
-    - name: 퀵 스타트
+    - name: 엔터티 작업
+      href: ./common-data-service/entity-overview.md
       items:
         - name: 엔터티 만들기
           href: ./common-data-service/data-platform-create-entity.md
-    - name: 자습서
-      items:
-        - name: 구성 요소가 있는 사용자 지정 엔터티 만들기
+        - name: 구성 요소가 있는 맞춤 엔터티 만들기
           href: ./common-data-service/create-custom-entity.md
-    - name: 샘플 및 리소스
-      href: ./common-data-service/samples-resources.md
-    - name: 방법 가이드
-      items:
-        - name: 엔터티 내 사용자 지정 필드 관리
-          href: ./common-data-service/data-platform-manage-fields.md
-        - name: 데이터에서 사용자 지정 엔터티 만들기
+        - name: 파워 쿼리를 사용하여 엔터티에 데이터 추가
           href: ./common-data-service/data-platform-cds-newentity-pq.md
-        - name: 옵션 집합 만들기
-          href: ./common-data-service/custom-picklists.md
-        - name: 엔터티 간 관계 만들기
+        - name: 엔터티 및 메타데이터
+          href: ./common-data-service/create-edit-metadata.md
+        - name: 엔터티 타입
+          href: ./common-data-service/types-of-entities.md
+        - name: 엔터티 만들기 및 편집
+          href: ./common-data-service/create-edit-entities.md
+        - name: 엔터티 편집
+          href: ./common-data-service/edit-entities.md
+        - name: 가상 엔터티 만들기 및 편집
+          href: ./common-data-service/create-edit-virtual-entities.md
+        - name: 가상 엔터티 OData v4 데이터 공급자
+          href: ./common-data-service/virtual-entity-odata-provider-requirements.md
+        - name: PowerApps 포털을 사용한 대체 키 정의
+          href: ./common-data-service/define-alternate-keys-portal.md
+        - name: 솔루션 탐색기를 사용한 대체 키 정의
+          href: ./common-data-service/define-alternate-keys-solution-explorer.md
+        - name: '방법 가이드: 엔터티'
+          items:
+            - name: PowerApps 포털을 사용하여 엔터티를 만드는 방법
+              href: ./common-data-service/create-edit-entities-portal.md
+            - name: 솔루션 탐색기를 사용하여 엔터티를 만드는 방법
+              href: ./common-data-service/create-edit-entities-solution-explorer.md
+            - name: 데이터를 가져오거나 내보내는 방법
+              href: ./common-data-service/data-platform-import-export.md
+            - name: Excel에서 엔터티 데이터를 여는 방법
+              href: ./common-data-service/data-platform-excel-addin.md
+            - name: 대체 키를 정의하는 방법
+              href: ./common-data-service/define-alternate-keys-reference-records.md
+            - name: 상태 이유 전환을 정의하는 방법
+              href: ./common-data-service/define-status-reason-transitions.md
+            - name: 맞춤 엔터티를 삭제하는 방법
+              href: ./common-data-service/data-platform-delete-entity.md
+            - name: 맞춤 아이콘을 표시하는 방법
+              href: ./common-data-service/display-custom-icons-instead.md
+            - name: 시스템 엔터티 메시지를 편집하는 방법
+              href: ./common-data-service/edit-system-entity-messages.md
+            - name: 피드백/평가를 위해 엔터티를 구성하는 방법
+              href: ./common-data-service/configure-entity-feedback.md
+            - name: Azure Cosmos DB SQL API 데이터 공급자
+              href: ./common-data-service/virtual-entity-documentdb-provider-requirements.md
+            - name: 가상 엔터티로 작업하는 방법
+              href: ./common-data-service/virtual-entity-walkthrough-using-odata-provider.md
+    - name: 엔터티 관계 작업
+      href: ./common-data-service/relationships-overview.md
+      items:
+        - name: 엔터티 관계 개요
+          href: ./common-data-service/create-edit-entity-relationships.md
+        - name: 일대다 엔터티 관계 만들기 개요
+          href: ./common-data-service/create-edit-1n-relationships.md
+        - name: 다대다 엔터티 관계 만들기 개요
+          href: ./common-data-service/create-edit-nn-relationships.md
+        - name: 엔터티 관계 만들기
           href: ./common-data-service/data-platform-entity-lookup.md
-        - name: 비즈니스 규칙 만들기
+        - name: 일대다 엔터티 관계 만들기
+          href: ./common-data-service/create-edit-1n-relationships-portal.md
+        - name: 솔루션 탐색기를 사용하여 일대다 엔터티 관계 만들기
+          href: ./common-data-service/create-edit-1n-relationships-solution-explorer.md
+        - name: PowerApps 포털을 사용하여 다대다 엔터티 관계 만들기
+          href: ./common-data-service/create-edit-nn-relationships-portal.md
+        - name: 엔터티 관계를 위한 피관리 속성 설정
+          href: ./common-data-service/set-managed-properties-relationships.md
+        - name: 계층 데이터 가시화
+          href: ./common-data-service/visualize-hierarchical-data.md
+        - name: 계층적으로 관련된 데이터를 쿼리하고 가시화하기
+          href: ./common-data-service/query-visualize-hierarchical-data.md
+        - name: 계층적으로 관련된 데이터를 정의하고 쿼리하기
+          href: ./common-data-service/define-query-hierarchical-data.md
+        - name: 연결 역할 구성
+          href: ./common-data-service/configure-connection-roles.md
+        - name: '방법 가이드: 관계'
+          items:
+            - name: PowerApps 포털을 사용하여 다대다 관계를 만드는 방법
+              href: ./common-data-service/create-edit-nn-relationships-portal.md
+            - name: PowerApps 솔루션 탐색기를 사용하여 다대다 관계를 만드는 방법
+              href: ./common-data-service/create-edit-nn-relationships-solution-explorer.md
+            - name: 관계를 위한 피관리 속성을 설정하는 방법
+              href: ./common-data-service/set-managed-properties-relationships.md
+            - name: 계층적 데이터를 가시화하는 방법
+              href: ./common-data-service/visualize-hierarchical-data.md
+            - name: 계층적으로 관련된 데이터를 쿼리하고 가시화하는 방법
+              href: ./common-data-service/query-visualize-hierarchical-data.md
+            - name: 계층적으로 관련된 데이터를 정의하고 쿼리하는 방법
+              href: ./common-data-service/define-query-hierarchical-data.md
+            - name: 연결 역할을 구성하는 방법
+              href: ./common-data-service/configure-connection-roles.md
+    - name: 필드 작업
+      href: ./common-data-service/fields-overview.md
+      items:
+        - name: 필드 타입
+          href: ./common-data-service/types-of-fields.md
+        - name: 전역 옵션 집합 개요
+          href: ./common-data-service/create-edit-global-option-sets.md
+        - name: 필드를 위한 피관리 속성 설정
+          href: ./common-data-service/set-managed-properties-for-field.md
+        - name: 날짜 및 시간 필드의 동작 및 형식
+          href: ./common-data-service/behavior-format-date-time-field.md
+        - name: '방법 가이드: 필드'
+          items:
+            - name: 필드를 생성하는 방법
+              href: ./common-data-service/create-edit-fields.md
+            - name: 필드를 관리하는 방법
+              href: ./common-data-service/data-platform-manage-fields.md
+            - name: PowerApps 포털을 사용하여 필드를 만드는 방법
+              href: ./common-data-service/create-edit-field-portal.md
+            - name: PowerApps 솔루션 탐색기를 사용하여 필드를 만드는 방법
+              href: ./common-data-service/create-edit-field-solution-explorer.md
+            - name: PowerApps 포털을 사용하여 옵션 집합을 만드는 방법
+              href: ./common-data-service/custom-picklists.md
+            - name: 솔루션 탐색기를 사용하여 전역 옵션 집합을 만드는 방법
+              href: ./common-data-service/create-edit-global-option-sets-solution-explorer.md
+            - name: 계산 필드를 정의하는 방법
+              href: ./common-data-service/define-calculated-fields.md
+            - name: 롤업 필드를 정의하는 방법
+              href: ./common-data-service/define-rollup-fields.md
+            - name: 엔터티 필드를 매핑하는 방법
+              href: ./common-data-service/map-entity-fields.md
+            - name: 필드를 삭제하는 방법
+              href: ./common-data-service/delete-fields.md
+    - name: 비즈니스 논리 적용
+      href: ./common-data-service/cds-processes.md
+      items:
+        - name: 엔터티를 위한 비즈니스 규칙 만들기
           href: ./common-data-service/data-platform-create-business-rule.md
-        - name: 사용자 지정 엔터티 삭제
-          href: ./common-data-service/data-platform-delete-entity.md
-        - name: 엔터티에서 데이터 가져오기 또는 내보내기
-          href: ./common-data-service/data-platform-import-export.md
-        - name: Excel에서 엔터티 데이터 열기
-          href: ./common-data-service/data-platform-excel-addin.md
-        - name: Power BI 보고서 만들기
-          href: ./common-data-service/data-platform-powerbi-connector.md
-    - name: 라이선스
+    - name: 솔루션 작업
+      href: ./common-data-service/solutions-overview.md
+      items:
+        - name: 솔루션 개요
+          href: ./common-data-service/solutions-overview.md
+        - name: 솔루션 탐색기 사용
+          href: ./common-data-service/use-solution-explorer.md
+        - name: Common Data Service 기본 솔루션 사용
+          href: ./common-data-service/use-solutions-for-your-customizations.md
+        - name: '솔루션 가져오기, 업데이트 및 내보내기'
+          href: ./common-data-service/import-update-export-solutions.md
+        - name: 특정 솔루션으로 찾아가기
+          href: ./common-data-service/navigate-specific-solution.md
+        - name: 분할된 솔루션 사용
+          href: ./common-data-service/use-segmented-solutions-patches-simplify-updates.md
+        - name: 솔루션 게시자 접두사를 변경
+          href: ./common-data-service/change-solution-publisher-prefix.md
+        - name: 메타데이터에 피관리 속성 설정
+          href: ./common-data-service/set-managed-properties-metadata.md
+        - name: 변경 사항 게시
+          href: ./common-data-service/publish-changes-for-use-customer-service-hub.md
+    - name: 엔터티의 라이선스 요건
       href: ./common-data-service/data-platform-entity-licenses.md
       items:
-        - name: 복잡한 비즈니스 논리를 지닌 엔터티
+        - name: 복합 엔터티 및 라이선스
           href: ./common-data-service/data-platform-complex-entities.md
-        - name: Dynamics 365 라이선스를 요구하는 제한된 엔터티
+        - name: Dynamics 365 라이선스가 요구되는 제한적 엔터티
           href: ./common-data-service/data-platform-restricted-entities.md
-    - name: 개발자용
+    - name: Power BI 보고서 만들기
+      href: ./common-data-service/data-platform-powerbi-connector.md
+    - name: 테마 만들기
+      href: ./common-data-service/change-color-scheme-add-logo-match-organizations-brand.md
+    - name: 맞춤 엔터티 및 필드 텍스트 번역
+      href: ./common-data-service/export-customized-entity-field-text-translation.md
+    - name: 번역된 엔터티 및 필드 텍스트를 앱으로 가져오기
+      href: ./common-data-service/import-translated-entity-field-text.md
+    - name: 개발자의 경우
       href: ../developer/common-data-service/TOC.yml
-- name: 공통 데이터 모델
+- name: Common Data Model
   href: ../common-data-model/overview.md
   items:
-    - name: 공통 데이터 모델을 사용하는 방법
+    - name: Common Data Model을 사용하는 방법
       href: ../common-data-model/use-common-data-model.md
+- name: 다른 사용자로부터 배우기
+  items:
+    - name: 웹 세미나
+      href: ./canvas-apps/webinars-listing.md
+    - name: 블로그
+      href: 'https://powerapps.microsoft.com/blog/'
+    - name: 포럼
+      href: 'https://powerusers.microsoft.com/t5/PowerApps-Community/ct-p/PowerApps1'
+- name: 문제 해결
+  items:
+    - name: '시스템 요건, 한도 및 구성'
+      href: ./canvas-apps/limits-and-config.md
+    - name: 공통 문제 및 해결 방법
+      href: ./canvas-apps/common-issues-and-resolutions.md
+    - name: 세션 또는 앱 ID 얻기
+      href: ./canvas-apps/get-sessionid.md
+    - name: 파워 쿼리 문제 해결
+      href: ./common-data-service/data-platform-cds-newentity-troubleshooting-mashup.md
+    - name: 지원
+      href: 'https://powerapps.microsoft.com/support/'
