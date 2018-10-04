@@ -7,7 +7,7 @@ manager: kvivek
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: conceptual
-ms.date: 03/21/2018
+ms.date: 10/03/2018
 ms.author: manasma
 search.audienceType:
 - admin
@@ -15,12 +15,12 @@ search.app:
 - D365CE
 - PowerApps
 - Powerplatform
-ms.openlocfilehash: 9b62d72cf04b56c945d0c85038e2264e9685828b
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: c7de26bff38ee0425e8bb3f9bc0da72317f0a6cf
+ms.sourcegitcommit: 6e2fa2665ded6ac6fd271e1a12f4e3227ebc8865
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42837588"
+ms.lasthandoff: 10/03/2018
+ms.locfileid: "48246123"
 ---
 # <a name="create-a-common-data-service-for-apps-database"></a>앱용 CDS(Common Data Service) 데이터베이스 만들기
 앱용 CDS(Common Data Service)를 데이터 저장소로 사용하여 데이터베이스를 만들고 앱을 빌드할 수 있습니다. 사용자 고유의 사용자 지정 엔터티를 만들거나 미리 정의된 엔터티를 사용할 수 있습니다. 데이터베이스를 만들려면 먼저 환경을 만들거나 기존 환경에 **환경 관리자**로 할당되어야 합니다. 또한 적절한 라이선스를 할당 받아야 합니다. 앱용 CDS 사용을 위한 계획 구매에 대한 자세한 내용은 [가격 책정 정보](pricing-billing-skus.md)를 참조하세요.
@@ -68,7 +68,7 @@ ms.locfileid: "42837588"
 
 
 ## <a name="license-and-security-permissions"></a>라이선스 및 보안 권한
-데이터베이스를 만들려면 선택된 환경에서 관리자여야 하며 적절한 라이선스를 할당 받아야 합니다. 환경에서 **보안** 탭을 사용하여 다른 사용자에 대한 보안 권한을 구성할 수 있습니다. 자세한 내용은 [데이터베이스 보안 구성](database-security.md) 및 [보안 모델](https://docs.microsoft.c../maker/common-data-service/entity-reference/security-model)을 참조하세요.
+데이터베이스를 만들려면 선택된 환경에서 관리자여야 하며 적절한 라이선스를 할당 받아야 합니다. 환경에서 **보안** 탭을 사용하여 다른 사용자에 대한 보안 권한을 구성할 수 있습니다. 자세한 내용은 [데이터베이스 보안 구성](database-security.md)을 참조하세요.
 
 ## <a name="privacy-notice"></a>개인 정보 취급 방침
 Microsoft PowerApps 공통 데이터 모델을 통해 사용자 지정 엔터티 및 필드 이름을 진단 시스템에 수집 및 저장합니다.  이 정보는 고객을 위한 공통 데이터 모델을 향상하기 위해 사용합니다. 작성자가 만드는 엔터티 및 필드 이름은 Microsoft PowerApps 커뮤니티에서 공통된 시나리오를 이해하고 조직에 관련된 스키마와 같은 서비스의 표준 엔터티 범위의 격차를 확인하는 데 도움을 줍니다. 이러한 엔터티와 연결된 데이터베이스 테이블의 데이터는 Microsoft에 의해 액세스되거나 사용되지 않고 데이터베이스가 프로비전되는 영역 외부에서 복제되지 않습니다. 단, 사용자 지정 엔터티 및 필드 이름은 지역에 걸쳐 복제될 수 있고 데이터 보존 정책에 따라 삭제될 수 있습니다. Microsoft는 [보안 센터](https://www.microsoft.com/trustcenter/Privacy/default.aspx)에서 더 자세히 설명한 것과 같이 개인 정보 보호를 위해 노력합니다.
