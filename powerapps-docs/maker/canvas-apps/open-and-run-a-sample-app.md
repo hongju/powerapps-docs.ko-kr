@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 5d4e88ca0a1e683d2f72e02625e6228d1063352f
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: 09d2bc10d465510887b546df8341c8798df136c1
+ms.sourcegitcommit: 02d0234bd84352bf1c43d0fc9225ab60947a0add
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42831810"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49316820"
 ---
 # <a name="quickstart-create-a-canvas-app-from-a-sample-in-powerapps"></a>빠른 시작: PowerApps의 샘플에서 캔버스 앱 만들기
 이 빠른 시작에서 디자인 가능성을 알아보고 사용자 고유의 캔버스 앱을 개발할 때 적용할 수 있는 개념을 검색할 수 있도록 샘플에서 캔버스 앱을 만듭니다.
@@ -30,11 +30,9 @@ PowerApps에 대한 라이선스가 없으면 [무료로 등록](../signup-for-p
 ## <a name="open-a-sample-app"></a>샘플 앱 열기
 1. [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
 
-    ![](./media/open-and-run-a-sample-app/sign-in.png)
-
 1. 샘플 앱 목록에서 샘플 앱(예: **비용 계산기**)을 마우스로 가리킵니다.
 
-    ![](./media/open-and-run-a-sample-app/sample-tile.png)
+    ![](./media/open-and-run-a-sample-app/cost-estimator.png)
 
 1. 전화 아이콘을 클릭하거나 탭하여 모바일 장치에 대한 앱의 버전을 만든 다음(또는 태블릿 아이콘을 선택한 채로 두고), **이 앱 만들기**를 클릭하거나 탭합니다.
 
