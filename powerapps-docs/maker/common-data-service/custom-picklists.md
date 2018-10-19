@@ -33,7 +33,8 @@ search.app:
 
 4. 새 필드 패널에서 필드의 **표시 이름**을 입력 하면 **이름**이 자동으로 채워지고 필드의 고유 이름으로 사용됩니다. **표시 이름**은 사용자에게이 필드를 표시할 때 사용되며,이 **이름**은 앱을 빌드할 때 식과 수식에서 사용됩니다.
 
-    ![새 필드](./media/data-platform-cds-create-entity/newfieldpanel.png "새 필드 패널")
+    > [!div class="mx-imgBorder"] 
+    > ![새 필드](./media/data-platform-cds-create-entity/newfieldpanel.png "새 필드 패널")
 
 5. **데이터 유형** 드롭다운을 클릭하고 **옵션 집합** 또는 **다중 선택 옵션 집합**을 선택합니다.
 
@@ -46,34 +47,40 @@ search.app:
 
 7. 새 패널이 열리면 옵션 집합을 만들 수 있으며 **표시 이름** 및 **이름**은 필드 이름에서 기본값이 되지만 필요한 경우 변경할 수 있습니다. **새 항목 추가**를 클릭하여 옵션 목록 만들기를 시작합니다. 모든 항목이 만들어질 때까지 이 단계를 반복합니다.
 
-    ![새 옵션 집합](./media/data-platform-cds-newoptionset/field-optionsetpanel.png "새 옵션 집합")
+    > [!div class="mx-imgBorder"] 
+    > ![새 옵션 집합](./media/data-platform-cds-newoptionset/field-optionsetpanel.png "새 옵션 집합")
 
 8. 항목을 입력한 후 **저장**을 클릭하여 옵션 집합을 만듭니다.
 
-    ![새 옵션 집합](./media/data-platform-cds-newoptionset/field-optionsetpanel-values.png "새 옵션 집합")
+    > [!div class="mx-imgBorder"] 
+    > ![새 옵션 집합](./media/data-platform-cds-newoptionset/field-optionsetpanel-values.png "새 옵션 집합")
 
 9. **완료**를 클릭하여 필드 패널을 닫은 다음 **엔터티 저장**으로 엔터티를 Common Data Service에 저장합니다.
 
     > [!NOTE]
     > 항목 중 하나를 이 필드의 **기본값**으로 선택할 수 있으며 사용자가 엔터티에 새 레코드를 만들 때 기본적으로 선택됩니다.
 
-    ![새 필드](./media/data-platform-cds-newoptionset/fieldpanel-2.png "새 필드 패널")
+    > [!div class="mx-imgBorder"] 
+    > ![새 필드](./media/data-platform-cds-newoptionset/fieldpanel-2.png "새 필드 패널")
 
 ## <a name="creating-an-option-set-from-the-option-set-list"></a>옵션 집합 목록에서 옵션 집합 만들기
 
 1. [powerapps.com](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 **데이터** 섹션을 확장하고 왼쪽 탐색 창에서 **옵션 집합**를 클릭하거나 탭합니다.
 
-    ![옵션 집합](./media/data-platform-cds-newoptionset/optionsetlist.png "옵션 집합 목록")
+    > [!div class="mx-imgBorder"] 
+    > ![옵션 집합](./media/data-platform-cds-newoptionset/optionsetlist.png "옵션 집합 목록")
 
 2. **새 옵션 집합**을 클릭합니다.
 
 3. 새 패널이 열려 옵션 집합을 만들면 **표시 이름** 및 **이름**을 입력합니다. **새 항목 추가**를 클릭하여 옵션 목록 만들기를 시작합니다. 모든 항목이 만들어질 때까지 이 단계를 반복합니다.
 
-    ![옵션 집합 만들기](./media/data-platform-cds-newoptionset/optionset-create.png "옵션 집합 만들기")
+    > [!div class="mx-imgBorder"] 
+    > ![옵션 집합 만들기](./media/data-platform-cds-newoptionset/optionset-create.png "옵션 집합 만들기")
 
 4. 항목을 입력한 후 **저장**을 클릭하여 옵션 집합을 만듭니다.
 
-    ![새 옵션 집합](./media/data-platform-cds-newoptionset/optionset-create-values.png "새 옵션 집합")
+    > [!div class="mx-imgBorder"] 
+    > ![새 옵션 집합](./media/data-platform-cds-newoptionset/optionset-create-values.png "새 옵션 집합")
 
 5. 이제 엔터티에 새 필드를 만들어 이 옵션 집합을 사용할 수 있습니다.
 

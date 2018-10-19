@@ -193,7 +193,7 @@
                   href: ./canvas-apps/controls/control-shapes-icons.md
                 - name: 슬라이더
                   href: ./canvas-apps/controls/control-slider.md
-                - name: 라벨
+                - name: 레이블
                   href: ./canvas-apps/controls/control-text-box.md
                 - name: 텍스트 입력
                   href: ./canvas-apps/controls/control-text-input.md
@@ -850,12 +850,10 @@
           href: ./common-data-service/create-edit-1n-relationships-solution-explorer.md
         - name: PowerApps 포털을 사용하여 다대다 엔터티 관계 만들기
           href: ./common-data-service/create-edit-nn-relationships-portal.md
-        - name: 엔터티 관계를 위한 피관리 속성 설정
+        - name: 엔터티 관계를 위한 관리 속성 설정
           href: ./common-data-service/set-managed-properties-relationships.md
         - name: 계층 데이터 가시화
           href: ./common-data-service/visualize-hierarchical-data.md
-        - name: 계층적으로 관련된 데이터를 쿼리하고 가시화하기
-          href: ./common-data-service/query-visualize-hierarchical-data.md
         - name: 계층적으로 관련된 데이터를 정의하고 쿼리하기
           href: ./common-data-service/define-query-hierarchical-data.md
         - name: 연결 역할 구성
@@ -868,8 +866,6 @@
               href: ./common-data-service/create-edit-nn-relationships-solution-explorer.md
             - name: 관계를 위한 피관리 속성을 설정하는 방법
               href: ./common-data-service/set-managed-properties-relationships.md
-            - name: 계층적 데이터를 가시화하는 방법
-              href: ./common-data-service/visualize-hierarchical-data.md
             - name: 계층적으로 관련된 데이터를 쿼리하고 가시화하는 방법
               href: ./common-data-service/query-visualize-hierarchical-data.md
             - name: 계층적으로 관련된 데이터를 정의하고 쿼리하는 방법
@@ -917,8 +913,6 @@
     - name: 솔루션 작업
       href: ./common-data-service/solutions-overview.md
       items:
-        - name: 솔루션 개요
-          href: ./common-data-service/solutions-overview.md
         - name: 솔루션 탐색기 사용
           href: ./common-data-service/use-solution-explorer.md
         - name: Common Data Service 기본 솔루션 사용
@@ -969,6 +963,8 @@
   items:
     - name: '시스템 요건, 한도 및 구성'
       href: ./canvas-apps/limits-and-config.md
+    - name: 캔버스 앱에 대한 성능 팁
+      href: ./canvas-apps/performance-tips.md
     - name: 공통 문제 및 해결 방법
       href: ./canvas-apps/common-issues-and-resolutions.md
     - name: 세션 또는 앱 ID 얻기

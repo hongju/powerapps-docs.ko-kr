@@ -38,7 +38,8 @@ search.app:
 
 3. 새 탭에서 URL의 루트를 복사하면 사용자 환경에 대한 고유한 URL이 됩니다. URL은 **https://yourenvironmentid.crm.dynamics.com/** 형식이며 URL의 나머지 부분을 복사하지 않도록 해야 합니다. PowerBI 보고서를 만들 때 사용할 수 있도록 이 위치를 편리하게 유지합니다.
 
-    ![앱용 CDS 환경](./media/data-platform-cds-powerbi-connector/CDSEnv3.png "앱용 CDS 환경")
+    > [!div class="mx-imgBorder"] 
+    > ![앱용 CDS 환경](./media/data-platform-cds-powerbi-connector/CDSEnv3.png "앱용 CDS 환경")
 
 ## <a name="connecting-to-common-data-service-for-apps-from-power-bi-desktop"></a>Power BI Desktop에서 앱용 Common Data Service에 연결
 

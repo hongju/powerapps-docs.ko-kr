@@ -82,18 +82,21 @@ search.app:
 5. **CRM 기본 테마**를 선택합니다. 
 
 다음 스크린샷은 기본 테마 설정의 일부를 보여줍니다.  
-  
-![기본 테마](media/default-theme.png) 
+
+> [!div class="mx-imgBorder"] 
+> ![기본 테마](media/default-theme.png) 
   
  기본 테마를 복제하고 색을 변경합니다. 다음 스크린샷은 탐색 및 강조 표시에 대한 새로운 색상을 보여줍니다. 제품에 대한 새 로고를 선택할 수도 있습니다.  
   
  다음 스크린샷은 새로운 탐색 색상을 보여줍니다.  
-  
- ![부드러운 녹색 테마 색상](media/theme-gentle-green.png "부드러운 녹색 테마 색상")  
+ 
+ > [!div class="mx-imgBorder"] 
+ > ![부드러운 녹색 테마 색상](media/theme-gentle-green.png "부드러운 녹색 테마 색상")  
   
  다음 스크린샷은 새로운 강조 표시 색상과 함께 계정 엔터티 표를 보여줍니다.  
-  
- ![부드러운 녹색 테마 계정 표](media/themes-gentle-green-account-grid.png "부드러운 녹색 테마 계정 표")  
+ 
+ > [!div class="mx-imgBorder"] 
+ > ![부드러운 녹색 테마 계정 표](media/themes-gentle-green-account-grid.png "부드러운 녹색 테마 계정 표")  
   
 <a name="Publish"></a>   
 ## <a name="preview-and-publish-a-theme"></a>테마 미리 보기 및 게시  

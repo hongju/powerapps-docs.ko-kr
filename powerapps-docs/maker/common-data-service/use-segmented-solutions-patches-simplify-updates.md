@@ -72,8 +72,9 @@ search.app:
  다음 그림은 `Account`, `Case` 및 `Contact` 엔터티에서 엔터티 자산을 선택하여 세분화된 솔루션을 만드는 예를 제공합니다.  
   
  먼저 **엔터티** 구성 요소를 선택합니다.  
-  
- ![기존 리소스 추가](media/solution-segmentation-add-existing-resources-admin.png "기존 리소스 추가")  
+
+ > [!div class="mx-imgBorder"] 
+ > ![기존 리소스 추가](media/solution-segmentation-add-existing-resources-admin.png "기존 리소스 추가")  
   
  그런 다음 솔루션 구성 요소를 선택합니다.  
   
@@ -97,7 +98,8 @@ search.app:
   
  결과적으로 만들어지는 세분화된 솔루션은 3개의 엔터티 `Account`, `Case` 및 `Contact`을 포함합니다. 각 엔터티는 선택된 자산만 포함합니다.  
   
- ![엔터티가 포함된 솔루션입니다.](media/solution-segmentation-solution-entities-admin.png "엔터티가 포함된 솔루션입니다.")  
+ > [!div class="mx-imgBorder"] 
+ > ![엔터티가 포함된 솔루션입니다.](media/solution-segmentation-solution-entities-admin.png "엔터티가 포함된 솔루션입니다.")  
   
 ## <a name="create-a-solution-patch"></a>솔루션 패치 만들기  
  패치에는 구성 요소와 자산 추가 또는 편집 같은 상위 솔루션에 대한 변경 사항이 포함됩니다. 편집할 계획이 없는 경우 상위 구성 요소를 포함할 필요는 없습니다.  
@@ -114,7 +116,8 @@ search.app:
   
  다음 그림은 기존 솔루션에 대한 패치를 만드는 예제를 제공합니다. **패치 복제**를 선택합니다(압축된 보기에서 **패치 복제** 아이콘은 아래 그림처럼 두 개의 작은 사각형으로 표시됩니다).  
   
- ![패치 아이콘을 복제합니다.](media/solution-segmentation-click-patch-icon-admin.png "패치 아이콘을 복제합니다.")  
+ > [!div class="mx-imgBorder"] 
+ > ![패치 아이콘을 복제합니다.](media/solution-segmentation-click-patch-icon-admin.png "패치 아이콘을 복제합니다.")  
   
  **패치 복제** 대화 상자에서 패치의 버전 번호가 상위 솔루션 버전 번호를 기준으로 하지만 빌드 번호는 1씩 증가합니다. 각 후속 패치는 이전 패치보다 빌드 또는 개정 번호가 더 높습니다.  
   
@@ -122,7 +125,8 @@ search.app:
   
  다음 스크린샷은 기본 솔루션 **SegmentedSolutionExample**, 버전 **1.0.1.0** 및 패치 **SegmentedSolutionExample_Patch**, 버전 **1.0.2.0**를 보여줍니다.  
   
- ![솔루션 및 패치가 포함된 표.](media/solution-segmentation-solution-patch-grid-admin.png "솔루션 및 패치가 포함된 표.")  
+ > [!div class="mx-imgBorder"] 
+ > ![솔루션 및 패치가 포함된 표.](media/solution-segmentation-solution-patch-grid-admin.png "솔루션 및 패치가 포함된 표.")  
   
  패치에서 `Book`라는 새로운 사용자 지정 엔터티를 추가했고 패치에 `Book` 엔터티의 모든 자산을 포함했습니다.  
   
@@ -143,7 +147,8 @@ search.app:
   
  복제 후에 새로운 솔루션 버전은 3개의 원래 엔터티(`Account`, `Case` 및 `Contact`)와 패치에 추가된 `Book`라는 사용자 지정 엔터티를 포함합니다. 각 엔터티는 예제에 추가된 자산만 포함합니다.  
   
- ![롤업한 패치를 사용한 복제된 솔루션입니다.](media/solution-segmentation-solution-rolled-up-patch-admin.png "롤업한 패치를 사용한 복제된 솔루션입니다.")  
+ > [!div class="mx-imgBorder"] 
+ > ![롤업한 패치를 사용한 복제된 솔루션입니다.](media/solution-segmentation-solution-rolled-up-patch-admin.png "롤업한 패치를 사용한 복제된 솔루션입니다.")  
   
 ## <a name="next-steps"></a>다음 단계  
  [솔루션 개요](solutions-overview.md) [패치를 만들어 솔루션 업데이트 간소화]

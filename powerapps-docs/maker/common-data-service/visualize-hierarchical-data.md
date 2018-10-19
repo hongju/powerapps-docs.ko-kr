@@ -2,7 +2,7 @@
 title: 모델 기반 앱을 사용하여 계층적 데이터 시각화 | MicrosoftDocs
 description: 계층적 관련 데이터 쿼리 및 시각화 방법 알아보기
 ms.custom: ''
-ms.date: 06/02/2018
+ms.date: 09/19/2018
 ms.reviewer: ''
 ms.service: crm-online
 ms.suite: ''
@@ -23,19 +23,16 @@ search.app:
 ---
 # <a name="visualize-hierarchical-data-with-model-driven-apps"></a>모델 기반 앱을 사용하여 계층적 데이터 시각화
 
-> [!NOTE]
-> 계층적 데이터 시각화는 **웹** 클라이언트에 대해 구성된 모델 기반 앱에만 사용할 수 있습니다. **통합 인터페이스** 클라이언트에는 시각화를 사용할 수 없습니다. 추가 정보: [앱 디자이너를 사용하여 모델 기반 앱 만들기](../model-driven-apps/create-edit-app.md)
-
 엔터티가 계층적 자체 참조 관계를 갖도록 구성된 경우 해당 계층을 사용하여 시각화를 구성할 수 있습니다. 추가 정보: [계층적으로 관련된 데이터 정의 및 쿼리](../common-data-service/define-query-hierarchical-data.md)
 
 기본적으로 사용 가능한 시각화가 있는 엔터티에는 [계정](/powerapps/developer/common-data-service/reference/entities/account), [위치](/powerapps/developer/common-data-service/reference/entities/position)및 [사용자](/powerapps/developer/common-data-service/reference/entities/systemuser)가 포함됩니다. 이러한 엔터티의 표 보기에서 레코드 이름 왼쪽의 계층 구조 차트를 나타내는 아이콘을 볼 수 있습니다. 계층 구조 아이콘은 기본적으로 모든 레코드에 대해 표시되지는 않습니다. 계층적 관계를 사용하여 관련 된 레코드에 대한 아이콘이 표시됩니다.  
-  
- ![계층 구조가 있는 거래처](media/account-list-with-hierarchy.png)  
+> [!div class="mx-imgBorder"] 
+> ![계층 구조 보기 단추](media/view-hierarchy-button.png)  
   
  계층 구조 아이콘을 선택하면 아래 그림처럼 왼쪽에는 트리 보기가, 오른쪽에는 타일 보기가 있는 계층 구조를 볼 수 있습니다.  
   
 > [!div class="mx-imgBorder"] 
-> ![계정 트리 및 타일 보기](media/hierachy-security-accounts-tile-view.png)  
+> ![계정에서 트리 및 타일 보기](media/tree-view-and-tile-view-in-hierarchy.png)  
   
  계층 구조에 대해 다른 엔터티를 몇 개 사용하도록 설정할 수 있습니다. 이러한 엔터티에는 [연락처](/powerapps/developer/common-data-service/reference/entities/contact) 및 [팀](/powerapps/developer/common-data-service/reference/entities/team)이 포함됩니다. 계층 구조에 대해 모든 사용자 지정 엔터티를 사용하도록 설정할 수 있습니다.  
   

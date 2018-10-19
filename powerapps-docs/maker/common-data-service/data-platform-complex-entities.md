@@ -18,8 +18,8 @@ search.app:
 # <a name="complex-entities-and-licensing"></a>복합 엔터티 및 라이선스
 다음과 같은 복잡한 서버측 논리를 포함하는 엔터티에는 이러한 엔터티를 사용하는 앱 또는 플로우 사용자에게 PowerApps 계획 2 또는 Microsoft Flow 계획 2 라이선스가 있어야 합니다.
 
-* 코드 플러그 인. 추가 정보: [플러그 인 개발](https://docs.microsoft.com/dynamics365/customer-engagement/developer/plugin-development))
-* 실시간 워크플로입니다. 추가 정보: [워크플로 프로세스](https://docs.microsoft.com/dynamics365/customer-engagement/customize/workflow-processes))
+* 코드 플러그 인. 추가 정보: [플러그 인 개발](https://docs.microsoft.com/dynamics365/customer-engagement/developer/plugin-development)
+* 실시간 워크플로입니다. 추가 정보: [워크플로 프로세스](https://docs.microsoft.com/dynamics365/customer-engagement/customize/workflow-processes)
 
     > [!IMPORTANT]
     >  실시간 워크플로로 변환된 워크플로만 실시간 및 동기식으로 간주됩니다. 백그라운드에서 실행되는 워크플로는 적절한 PowerApps 계획에 계속 사용할 수 있으며 추가 라이선스가 필요하지 않습니다.

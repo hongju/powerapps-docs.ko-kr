@@ -35,13 +35,15 @@ search.app:
     > [!NOTE]
     > **표시 이름** 필드는 언제든지 업데이트하여 앱에서 다르게 표시할 수 있으며, **엔터티** 를 저장한 후에는 이름 필드를 변경할 수 없으므로 기존 앱이 손상될 수 있습니다.
 
-    ![새 필드](./media/data-platform-cds-create-entity/newfieldpanel.png "새 필드 패널")
+    > [!div class="mx-imgBorder"] 
+    > ![새 필드](./media/data-platform-cds-create-entity/newfieldpanel.png "새 필드 패널")
 
 5. 필드의 **데이터 형식**을 선택하면 정보가 저장되는 방식과 앱에서 정보를 표시하는 방법을 제어합니다. 예를 들어 텍스트는 10진수 또는 URL과 다르게 저장됩니다. 사용 가능한 데이터 형식에 대한 자세한 내용은 [엔터티 특성 메타데이터](../../developer/common-data-service/entity-attribute-metadata.md)를 참조하십시오.
 
     메시지가 표시되면 지정한 데이터 형식에 대한 추가 정보를 지정합니다. 데이터 형식에 따라 다른 필드가 표시됩니다. 옵션 집합 또는 다중 선택 옵션 집합의 필드를 만드는 경우 **새 옵션 집합**을 선택하고 필드를 생성하는 동안 새 옵션 집합을 만들 수 있습니다. 자세한 내용은 [옵션 집합 만들기](custom-picklists.md)를 참조하십시오.
 
-    ![새 필드](./media/data-platform-cds-create-entity/newfieldpanel-2.png "새 필드 패널")
+    > [!div class="mx-imgBorder"] 
+    > ![새 필드](./media/data-platform-cds-create-entity/newfieldpanel-2.png "새 필드 패널")
 
 
 7. 이 필드를 앱에 필요한 대로 권장하려면 **필수**에서 확인란을 선택합니다. 이는 Common Data Service에 대한 모든 연결 전체에서 엄격한 이행을 제공하지 않습니다. 필드가 채워졌는지 확인해야 하는 경우 [비즈니스 규칙](data-platform-create-business-rule.md)을 만드십시오.
