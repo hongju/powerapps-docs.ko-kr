@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: bec00071d1b354872bf3b140e5c879fe8857ffec
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: d92236d630005b4608719efaadef4537984bc3d6
+ms.sourcegitcommit: 5a1864d1531b55b332749437674fd1378e1f55ca
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42865673"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "49307841"
 ---
 # <a name="validate-function-in-powerapps"></a>PowerApps의 Validate 함수
 **Validate** 함수는 단일 [열](../working-with-tables.md#columns) 또는 전체 [레코드](../working-with-tables.md#records)의 값이 [데이터 원본](../working-with-data-sources.md)에 대해 유효한지 여부를 확인합니다.  
@@ -66,6 +66,6 @@ ms.locfileid: "42865673"
 
 | 수식 | 설명 | 결과 |
 | --- | --- | --- |
-| **Validate( Scores, EditRecord, Gallery.Updates )** |**10**이 **Scores** 데이터 원본의 **Percentage** 열에 유효한 값인지 확인합니다. |*공백* |
-| **Validate( Scores, EditRecord, Gallery.Updates )** |**120**이 **Scores** 데이터 원본의 **Percentage** 열에 유효한 값인지 확인합니다. |"값은 0과 100 사이여야 합니다." |
+| **Validate( Scores, EditRecord, Gallery.Updates )** |모든 열의 값이 **점수** 데이터 원본에 대해 유효한지를 확인합니다. 이 예제에서 **백분율** 열의 값은 **10**입니다. |*공백* |
+| **Validate( Scores, EditRecord, Gallery.Updates )** | 모든 열의 값이 **점수** 데이터 원본에 대해 유효한지를 확인합니다. 이 예제에서 **백분율** 열의 값은 **120**입니다. |"값은 0과 100 사이여야 합니다." |
 

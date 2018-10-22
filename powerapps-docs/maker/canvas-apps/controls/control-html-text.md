@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 965c779a752d0bfd864a06d5fa886b0187839123
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: d41ef04d3cd070373f6772bdfced029a7d09e244
+ms.sourcegitcommit: ebd39753e2a0b60c1d8c016e38c00dd1accf5d0c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42836896"
+ms.lasthandoff: 10/16/2018
+ms.locfileid: "49307864"
 ---
 # <a name="html-text-control-in-powerapps"></a>PowerApps의 HTML 텍스트 컨트롤
 텍스트를 표시하고 HTML 태그를 서식 지정으로 변환하는 상자입니다.
@@ -80,7 +80,7 @@ ms.locfileid: "42836896"
 ## <a name="example"></a>예
 1. **[레이블](control-text-box.md)** 컨트롤을 추가하고 이름을 **Source**로 지정한 후, **[Text](properties-core.md)** 속성을 다음 문자열로 지정합니다.
 
-\<p> We have done an unusually \&nbsp; \&quot; deep \&quot; globalization and localization. \<p>
+"\<본사에서는 \&매우 \&심층적인 \&세계화 및 지역화를 이뤄냈습니다.\<"
 
 [컨트롤을 추가, 이름을 지정하고, 구성](../add-configure-controls.md)하는 방법을 모르시나요?
 

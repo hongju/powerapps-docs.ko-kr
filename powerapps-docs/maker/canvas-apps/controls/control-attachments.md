@@ -13,30 +13,26 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: ad52396eda0c8db46dd38cb7176524df5feb7416
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: da9c8f85844e37d6af8e1063b36496c820fbfa07
+ms.sourcegitcommit: e2a9d1a6090cdd8aa78515b49f38ed2365217ea6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42834661"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "49384251"
 ---
 # <a name="attachments-control-in-powerapps"></a>PowerApps의 첨부 파일 컨트롤
-사용자가 자신의 장치에 파일을 다운로드하고, SharePoint 목록에서 파일을 업로드 및 삭제할 수 있는 컨트롤입니다.
+사용자가 해당 장치에 파일을 다운로드할 뿐만 아니라 앱 엔터티의 SharePoint 목록 또는 Common Data Service에서 파일을 업로드하고 삭제할 수 있는 컨트롤입니다.
 
 ## <a name="limitations"></a>제한 사항
-첨부 파일 컨트롤에는 다음과 같은 임시 제한이 있습니다.
-1. 첨부 파일 다운로드는 Internet Explorer의 SharePoint 사용자 지정 목록 양식 내에서만 지원됩니다.
+첨부 파일 컨트롤에는 이러한 제한 사항이 있습니다.
+1. 첨부 파일은 앱 엔터티의 SharePoint 목록 및 CDS에서 지원됩니다.
 
-1. 첨부 파일 업로드는 SharePoint 목록 데이터 원본에서만 작동합니다.  다른 데이터 원본에 대한 지원은 CDS부터 점진적으로 도입될 예정입니다.
-
-1. 업로드 및 삭제 기능은 폼 내부에서만 작동합니다.  첨부 파일 컨트롤은 편집 모드와 폼 외부에서는 비활성화된 것처럼 보입니다.   파일 추가 및 삭제를 백 엔드에 저장하려면 최종 사용자가 폼을 저장해야 합니다.
+1. 업로드 및 삭제 기능은 폼 내부에서만 작동합니다.  첨부 파일 컨트롤은 편집 모드와 폼 외부에서는 비활성화된 것처럼 보입니다. 파일 추가 및 삭제를 백 엔드에 저장하려면 최종 사용자가 폼을 저장해야 합니다.
 
 1. 최대 10MB의 파일만 업로드할 수 있습니다.  
 
-1. 현재 iOS 장치는 문서 및 클라우드 저장소 계정의 파일만 업로드할 수 있습니다. 사진/비디오를 첨부하려면 iOS 장치에서 웹 브라우저를 사용하여 앱을 실행합니다.
-
 ## <a name="description"></a>설명
-**첨부 파일** 컨트롤을 사용하면 데이터 원본에 저장된 파일을 열고, SharePoint 목록에서 파일을 추가하고 삭제할 수 있습니다.
+**첨부 파일** 컨트롤을 앱 엔터티의 SharePoint 목록 또는 CDS에서 파일을 열고, 추가하고, 삭제할 수 있습니다.
 
 ## <a name="key-properties"></a>주요 속성
 **[Items](properties-core.md)** – 다운로드할 수 있는 파일을 설명하는 소스입니다.
@@ -86,7 +82,7 @@ ms.locfileid: "42834661"
 
 
 ## <a name="example"></a>예
-1. SharePoint 목록을 데이터 원본으로 사용하여 데이터에서 앱을 만듭니다.  또는 앱에 양식을 추가하고 SharePoint 목록을 데이터 원본으로 설정합니다.
+1. SharePoint 목록을 데이터 원본으로 사용하여 데이터에서 앱을 만듭니다. 대안으로 앱에 양식을 추가하고, SharePoint 목록을 데이터 원본으로 설정합니다.
 
 2. 왼쪽의 트리 뷰에서 **Form** 컨트롤을 선택합니다.
 

@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: b90024e3864420c541b0e0e1ef0ad1d86b900aa0
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: 45b5d85998825cdafc2bbea7badaa5d7cde2f092
+ms.sourcegitcommit: 02d0234bd84352bf1c43d0fc9225ab60947a0add
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42852279"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49317048"
 ---
 # <a name="create-a-canvas-app-from-scratch-using-common-data-service-for-apps"></a>앱용 Common Data Service를 사용하여 캔버스 앱을 처음부터 만들기
 
@@ -35,11 +35,9 @@ Common Data Service에서 앱을 빌드하면, SharePoint, Dynamics 365 및 Sale
 
 1. [PowerApps](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
 
-    ![PowerApps 홈 페이지](./media/data-platform-create-app-scratch/sign-in.png)
+1. **고유한 앱 만들기** 아래에서 캔버스 앱의 **비어 있는 상태에서 시작** 타일을 마우스로 가리키고, 전화 아이콘을 클릭하거나 탭한 다음, **이 앱 만들기**를 클릭하거나 탭합니다.
 
-1. **이러한 앱 만들기** 아래에서 **비어 있는 상태에서 시작** 타일 위를 마우스로 가리키고, 전화 아이콘을 클릭하거나 탭한 다음, **이 앱 만들기**를 클릭하거나 탭합니다.
-
-    ![비어 있는 앱 타일](./media/data-platform-create-app-scratch/blank-app.png)
+    ![비어 있는 앱 타일](./media/data-platform-create-app-scratch/start-from-blank.png)
 
     전화 또는 다른 장치(예: 태블릿)에 사용할 앱을 처음부터 디자인할 수 있습니다. 이 항목에서는 전화용 앱 디자인에 대해 중점적으로 설명합니다.
 

@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 1dde9367fe06b1bd2242fe0ac755f5eeedb71bba
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: b78f88941fce85b9e63427635cb946f944aa120a
+ms.sourcegitcommit: e2a9d1a6090cdd8aa78515b49f38ed2365217ea6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42851843"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "49384274"
 ---
 # <a name="export-control-and-import-control-in-powerapps"></a>PowerApps에서 컨트롤 내보내기 및 가져오기
 로컬 파일에 데이터를 내보내고 해당 데이터를 PowerApps의 다른 앱으로 가져오기 위한 컨트롤
@@ -28,6 +28,9 @@ ms.locfileid: "42851843"
 
 ## <a name="warning"></a>경고
 앱에서 이 기능을 활성화하면 보안상 취약한 부분 및 데이터 유출에 노출될 수 있습니다.  사용자가 인식되고 신뢰할 수 있는 파일만 가져오고 기밀 정보나 민감한 정보가 없는 데이터만 내보내도록 안내해야 합니다.
+
+## <a name="limitations"></a>제한 사항
+내보내기 기능은 웹 브라우저에서 지원되지 않습니다.
 
 ## <a name="key-properties"></a>주요 속성
 **Data** - 로컬 파일에 내보낼 컬렉션의 이름입니다.

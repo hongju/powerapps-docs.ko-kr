@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 738ec650827cf24e793c0bfda1a71f962cdc2d15
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: ea5912a043dc00fa197a2070c11610c358c3201d
+ms.sourcegitcommit: 02d0234bd84352bf1c43d0fc9225ab60947a0add
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42859905"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49316726"
 ---
 # <a name="create-a-canvas-app-from-a-template-in-powerapps"></a>PowerApps의 템플릿에서 캔버스 앱 만들기
 
@@ -32,9 +32,7 @@ PowerApps에 대한 라이선스가 없으면 [무료로 등록](../signup-for-p
 
 1. [PowerApps](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
 
-    ![PowerApps 홈 페이지](./media/get-started-test-drive/sign-in.png)
-
-1. **이러한 앱 만들기** 아래에서 **데이터로 시작** 위를 마우스로 가리킨 다음, **이 앱 만들기**를 클릭하거나 탭합니다.
+1. **고유한 앱 만들기** 아래에서 **데이터로 시작**을 마우스로 가리킨 다음, **이 앱 만들기**를 클릭하거나 탭합니다.
 
     ![이 앱 만들기 타일](./media/get-started-test-drive/make-this-app.png)
 

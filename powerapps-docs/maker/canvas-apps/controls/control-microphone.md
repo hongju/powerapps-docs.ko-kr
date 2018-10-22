@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: b668e8ae118bea5f288e1b3806854e4621295984
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: 302c2fad419146f03fe47e25b8a7563564ee7e2d
+ms.sourcegitcommit: 5a1864d1531b55b332749437674fd1378e1f55ca
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42852139"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "49307818"
 ---
 # <a name="microphone-control-in-powerapps"></a>PowerApps의 마이크 컨트롤
 앱 사용자가 해당 장치의 사운드를 녹음할 수 있는 컨트롤입니다.
@@ -26,7 +26,7 @@ ms.locfileid: "42852139"
 ## <a name="description"></a>설명
 앱을 실행하는 장치에 마이크가 있으면 앱 사용자는 오디오를 녹음할 수 있습니다.
 
-오디오는 Android에서 3gp 형식으로 저장되고, iOS에서 AAC 형식으로 저장됩니다.
+오디오는 Android에서 3gp 형식으로 저장되고, iOS에서 AAC 형식으로 저장되고, 웹 브라우저에서 OGG 형식으로 저장됩니다.
 
 ## <a name="key-properties"></a>주요 속성
 **Mic** – 여러 마이크가 있는 장치의 경우 앱이 사용하는 마이크의 숫자 ID입니다.

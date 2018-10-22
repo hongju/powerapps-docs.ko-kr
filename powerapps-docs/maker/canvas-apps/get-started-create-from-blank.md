@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: a1ee0b02465853306881ca4379182aef42bffd84
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: 3128d284d5b03da9a7c8b5798365b60f7092988b
+ms.sourcegitcommit: 02d0234bd84352bf1c43d0fc9225ab60947a0add
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42833542"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49316910"
 ---
 # <a name="create-an-canvas-app-from-scratch-based-on-excel-data"></a>Excel 데이터를 기반으로 처음부터 캔버스 앱 만들기
 
@@ -51,13 +51,11 @@ ms.locfileid: "42833542"
 ## <a name="open-a-blank-app"></a>비어 있는 앱 열기
 1. [PowerApps](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
 
-    ![PowerApps 홈페이지](./media/get-started-create-from-blank/sign-in.png)
-
     전화 또는 다른 장치(예: 태블릿)에 사용할 앱을 처음부터 디자인할 수 있습니다. 이 항목에서는 전화용 앱 디자인에 대해 중점적으로 설명합니다.
 
-1. **이러한 앱 만들기** 아래에서 **비어 있는 상태에서 시작** 타일 위를 마우스로 가리키고, 전화 아이콘을 선택한 다음, **이 앱 만들기**를 선택합니다.
+1. **고유한 앱 만들기** 아래에서 캔버스 앱의 **비어 있는 상태에서 시작** 타일을 마우스로 가리키고, 전화 아이콘을 선택한 다음, **이 앱 만들기**를 선택합니다.
 
-    ![비어 있는 앱 타일](./media/get-started-create-from-blank/blank-app.png)
+    ![비어 있는 앱 타일](./media/get-started-create-from-blank/start-from-blank.png)
 
     PowerApps Studio에서는 빈 전화용 앱을 만듭니다.
 
