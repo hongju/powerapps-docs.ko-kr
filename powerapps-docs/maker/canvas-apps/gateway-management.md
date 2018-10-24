@@ -1,5 +1,5 @@
 ---
-title: 온-프레미스 데이터 게이트웨이 관리 | Microsoft Docs
+title: 캔버스 앱용 온-프레미스 데이터 게이트웨이 관리 | Microsoft Docs
 description: 온-프레미스 데이터 게이트웨이 및 연결 관리
 author: archnair
 manager: kvivek
@@ -9,15 +9,19 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 10/30/2016
 ms.author: archanan
-ms.openlocfilehash: fb561ca5458a22880d93c712aa2e2b2ada884605
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 85806799a5f5ea91a4671a27e71cf95daabcd01a
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39194885"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42863852"
 ---
 # <a name="manage-an-on-premises-data-gateway-in-powerapps"></a>PowerApps의 온-프레미스 데이터 게이트웨이를 관리합니다.
-빠르고 안전하게 PowerApps 및 온-프레미스 SQL Server 데이터베이스 또는 온-프레미스 SharePoint 사이트와 같은 클라우드에 없는 데이터 원본 간에 데이터를 전송하는 온-프레미스 데이터 게이트웨이를 설치합니다. 관리 권한이 있는 모든 게이트웨이를 보고 해당 게이트웨이에 대한 권한과 연결을 관리합니다.
+온-프레미스 게이트웨이를 설치하여 PowerApps에 빌드된 캔버스 앱 및 온-프레미스 SQL Server 데이터베이스 또는 온-프레미스 SharePoint 사이트와 같이 클라우드에 없는 데이터 원본 간에 데이터를 빠르고 안전하게 전송합니다. 관리 권한이 있는 모든 게이트웨이를 보고 해당 게이트웨이에 대한 권한과 연결을 관리합니다.
 
 게이트웨이를 사용하여 이러한 연결을 통해 온-프레미스 데이터에 연결할 수 있습니다.
 

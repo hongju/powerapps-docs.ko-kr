@@ -1,6 +1,6 @@
 ---
-title: 프로젝트를 관리하는 앱 만들기 | Microsoft Docs
-description: 이 작업에서는 앱을 처음부터 빌드합니다. 이 앱을 통해 사용자는 관리자를 프로젝트에 할당하고 프로젝트 세부 정보를 업데이트할 수 있습니다.
+title: 프로젝트를 관리하는 캔버스 앱 만들기 | Microsoft Docs
+description: 이 작업에서는 캔버스 앱을 처음부터 빌드합니다. 이 앱을 통해 사용자는 관리자를 프로젝트에 할당하고 프로젝트 세부 정보를 업데이트할 수 있습니다.
 author: mgblythe
 manager: kvivek
 ms.service: powerapps
@@ -9,18 +9,22 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 06/12/2017
 ms.author: mblythe
-ms.openlocfilehash: b4daabf019236a4245db324121a6745290c8b3ab
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 6b55fe94e7d781147e3e3511769c4d72ca3d90de
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39021622"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42842374"
 ---
-# <a name="create-an-app-to-manage-projects"></a>프로젝트를 관리하는 앱 만들기
+# <a name="create-a-canvas-app-to-manage-projects"></a>프로젝트를 관리하는 캔버스 앱 만들기
 > [!NOTE]
 > 이 문서는 SharePoint Online에서 PowerApps, Microsoft Flow 및 Power BI를 사용하는 방법에 대한 자습서 시리즈의 일부입니다. [시리즈 소개](sharepoint-scenario-intro.md)를 참고하여 관련된 다운로드뿐만 아니라 전체적인 내용을 파악해야 합니다.
 
-이 작업에서는 앱을 처음부터 빌드합니다. 이 앱을 통해 사용자는 관리자를 프로젝트에 할당하고 프로젝트 세부 정보를 업데이트할 수 있습니다. 첫 번째 앱에서 본 것과 동일한 컨트롤과 수식이 표시되지만 이번에는 더 많은 앱을 직접 빌드합니다. 프로세스가 더 복잡하지만 자세히 설명하겠습니다.
+이 작업에서는 캔버스 앱을 처음부터 빌드합니다. 이 앱을 통해 사용자는 관리자를 프로젝트에 할당하고 프로젝트 세부 정보를 업데이트할 수 있습니다. 첫 번째 앱에서 본 것과 동일한 컨트롤과 수식이 표시되지만 이번에는 더 많은 앱을 직접 빌드합니다. 프로세스가 더 복잡하지만 자세히 설명하겠습니다.
 
 > [!TIP]
 > 이 시나리오에 대한 [다운로드 패키지](https://aka.ms/o4ia0f)에는 이 앱의 완성된 버전인 project-details-app.msapp이 포함되어 있습니다.

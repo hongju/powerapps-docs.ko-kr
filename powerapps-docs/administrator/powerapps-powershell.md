@@ -6,17 +6,23 @@ manager: kvivek
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: reference
-ms.date: 07/31/2018
+ms.date: 08/23/2018
 ms.author: jamesol
-ms.openlocfilehash: e45b23d4efc474bcd48069b9823d1ef80cf5ea4a
-ms.sourcegitcommit: a0a8782d3c8d24cecf0796d405a61f745f0ffd91
+search.audienceType:
+- admin
+search.app:
+- D365CE
+- PowerApps
+- Powerplatform
+ms.openlocfilehash: 0d5d2cee770e03c4e587db0bff624f34395ed92c
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "39367618"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42864431"
 ---
 # <a name="powershell-support-for-powerapps-preview"></a>PowerApps에 대한 PowerShell 지원(미리 보기)
-최근에 앱 작성자 및 관리자용 PowerShell cmdlet 미리 보기가 제공되면서 [PowerApps](https://web.powerapps.com) 또는 [PowerApps 관리 센터](https://admin.powerapps.com)에서 현재는 수동으로만 가능한 다양한 모니터링 및 관리 작업을 자동화할 수 있습니다.
+최근에 앱 작성자 및 관리자용 PowerShell cmdlet 미리 보기가 제공되면서 [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 또는 [PowerApps 관리 센터](https://admin.powerapps.com)에서 현재는 수동으로만 가능한 다양한 모니터링 및 관리 작업을 자동화할 수 있습니다.
 
 ## <a name="installation"></a>설치
 앱 작성자용 PowerShell cmdlet을 실행하려면 다음을 수행합니다.
@@ -126,6 +132,15 @@ ms.locfileid: "39367618"
 >Get-Help Get-AdminPowerAppEnvironment -Examples
 >Get-Help Get-AdminPowerAppEnvironment -Detailed
 >```
+
+## <a name="version-history"></a>버전 기록
+| 버전 | 날짜 | 업데이트 |
+| --- | --- | --- |
+| 1.0 | 04/23/2018 | <ol> <li> 환경, 앱, 흐름, 흐름 승인, 연결 및 사용자 지정 커넥터에 대한 관리 cmdlet을 포함하여 앱 작성자를 위한 PowerApps cmdlet의 초기 시작(미리 보기) </li> <li> 환경, 앱 및 흐름에 대한 관리 cmdlet을 포함하여 관리자를 위한 PowerApps cmdlet의 초기 시작(미리 보기) </li></ol>|
+| 2.0 | 05/24/2018 | <ol> <li> 앱 작성자 및 관리자용 cmdlet의 사소한 버그 수정 </li> <li> 다음과 같은 새로운 관리 cmdlet을 추가했습니다. <br> Get-AdminConnection <br> Remove-AdminConnection <br> Get-AdminConnectionRoleAssignment <br> Set-AdminConnectionRoleAssignment <br>Remove-AdminConnectionRoleAssignment <br>Get-AdminConnector  <br>Remove-AdminConnector <br>Set-AdminConnectorRoleAssignment  <br>Get-AdminConnectorRoleAssignment  <br>Remove-AdminConnectorRoleAssignment <br>Get-AdminPowerAppsUserDetails <br>Get-AdminFlowUserDetails <br>Remove-AdminFlowUserDetails <br>Get-AdminApiPolicy  <br>Add-AdminApiPolicy <br>Remove-AdminApiPolicy <br>Set-AdminApiPolicy <br>Add-ConnectorToBusinessDataGroup  <br>Remove-ConnectorFromBusinessDataGroup </li> </ol>
+| 3.0 | 07/30/2018 | <ol> <li> Add-PowerAppsAccount에 자격 증명을 전달하는 기능 추가(반복 스크립팅을 사용 가능) </li> <li>  앱 작성자 및 관리자용 cmdlet의 사소한 버그 수정 </li> <li> 앱 작성자를 위한 각 cmdlet에 "PowerApp" 또는 "흐름" 접두사 추가 </li> <li>  앱 작성자를 위한 각 cmdlet에 "AdminPowerApp" 또는 "AdminFlow" 접두사 추가 </li> <li> 다음과 같은 새로운 관리 cmdlet을 추가했습니다. <br> New-AdminPowerAppEnvironment <br> Set-AdminPowerAppEnvironmentDisplayName <br> New-AdminPowerAppCdsDatabase <br> Get-AdminPowerAppCdsDatabaseLanguages <br> Get-AdminPowerAppCdsDatabaseCurrencies <br> Get-AdminPowerAppEnvironmentLocations <br> Get-AdminPowerAppConnectionReferences <br> Set-AdminPowerAppAsFeatured <br> Clear-AdminPowerAppAsFeatured <br> Set-AdminPowerAppAsHero <br> Clear-AdminPowerAppAsHero <br> Set-AdminPowerAppApisToBypassConsent <br> Clear-AdminPowerAppApisToBypassConsent <br> Remove-AdminFlowApprovals </li></ol>
+| 4.0 | 08/15/2018 | 함수가 동기화되도록 New-AdminPowerAppCdsDatabase에 선택적 매개 변수 추가(예: 데이터베이스가 성공적으로 프로비저닝될 때까지 반환되지 않음)
+| 5.0 | 08/24/2018 | 보안 설정에 따라 일부 데이터를 반환하지 않는 흐름 관리자 cdmlet 문제 해결
 
 ## <a name="questions"></a>질문
 

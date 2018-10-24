@@ -9,12 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 06/26/2018
 ms.author: gregli
-ms.openlocfilehash: 19eb6a11749ad6119fcc3812be9307da30080dc7
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: a0fdddcf906a04914ea9ba9a8572798ea5d55378
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39021093"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42834822"
 ---
 # <a name="concurrent-function-in-powerapps"></a>PowerApps의 Concurrent 함수
 동시에 서로 여러 수식을 평가합니다.
@@ -22,7 +26,7 @@ ms.locfileid: "39021093"
 ## <a name="description"></a>설명
 **Concurrent** 함수는 동시에 여러 수식을 평가합니다. 일반적으로 여러 수식은 [**;**](operators.md)(또는 [**;;**](operators.md)) 연산자와 함께 연결하여 평가됩니다. 따라서 순차적으로 각 항목을 평가합니다. 앱이 작업을 동시에 수행하는 경우 사용자가 동일한 결과를 기다리는 시간이 줄어듭니다.
 
-앱의 [**OnStart**](../controls/control-screen.md) 속성에서 **Concurrent**를 사용하여 앱이 데이터를 로드할 때 성능을 향상시킵니다. 이전 호출이 완료될 때까지 데이터 호출이 시작되지 않는 경우 앱은 모든 요청 시간의 합계를 대기해야 합니다. 데이터 호출이 동시에 시작되는 경우 앱은 가장 긴 요청 시간 동안 대기해야 합니다. 웹 브라우저는 데이터 작업을 동시에 수행하여 성능을 향상시킵니다.
+앱의 [**OnStart**](../controls/control-screen.md) 속성에서 **Concurrent**를 사용하여 앱이 데이터를 로드할 때 성능을 향상시킵니다. 이전 호출이 완료될 때까지 데이터 호출이 시작되지 않는 경우 앱은 모든 요청 시간의 합계를 대기해야 합니다. 데이터 호출이 동시에 시작되는 경우 앱은 가장 긴 요청 시간 동안만 대기하면 됩니다. 웹 브라우저는 데이터 작업을 동시에 수행하여 성능을 향상시킵니다.
 
 **Concurrent** 함수 내에서 수식이 평가를 시작하고 종료하는 순서를 예측할 수 없습니다. **Concurrent** 함수 내의 수식은 동일한 **Concurrent** 함수 내의 다른 수식에 대한 종속성을 포함하지 않고 PowerApps에서는 사용하는 경우 오류를 표시합니다. 내부에서 **Concurrent** 함수가 시작하기 전에 완료하기 때문에 **Concurrent** 함수 외부의 수식에 대한 종속성을 안전하게 사용할 수 있습니다. **Concurrent** 함수 내에서 수식은 내부의 수식에 대한 종속성을 안전하게 사용할 수 있습니다. 해당 수식은 **;** 또는 **;;** 연산자를 사용하는 경우 **Concurrent** 함수가 완료되고 체인의 다음 수식으로 이동하기 전에 완료됩니다. 의도하지 않은 결과가 포함된 함수 또는 서비스 메서드를 호출하는 경우 미묘한 순서 종속성에 대해 주의합니다.
 
@@ -53,7 +57,7 @@ ms.locfileid: "39021093"
 
     **ClearCollect( Product, '[SalesLT].[Product]' );<br> ClearCollect( Customer, '[SalesLT].[Customer]' );<br> ClearCollect( SalesOrderDetail, '[SalesLT].[SalesOrderDetail]' );<br> ClearCollect( SalesOrderHeader, '[SalesLT].[SalesOrderHeader]' )**
 
-3. [Microsoft Edge](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide/network) 또는 [Google Chrome](https://developers.google.com/web/tools/chrome-devtools/network-performance/)에서 앱이 실행되는 동안 네트워크 트래픽을 모니터링하는 개발자 도구를 사용합니다.
+3. [Microsoft Edge](https://docs.microsoft.com/microsoft-edge/devtools-guide/network) 또는 [Google Chrome](https://developers.google.com/web/tools/chrome-devtools/network-performance/)에서 앱이 실행되는 동안 네트워크 트래픽을 모니터링하는 개발자 도구를 사용합니다.
 
 1. (선택 사항) 네트워크 제한을 설정하여 이 비교의 결과를 확장합니다.
 
@@ -79,7 +83,7 @@ ms.locfileid: "39021093"
 
 3. Alt 키를 누른 채 두 번째 단추를 선택한 다음, 네트워크 트래픽을 확인합니다.
 
-    도구에서는이 예제와 비슷하게 동시에 수행된 네 개의 요청을 보여줍니다.  마찬가지로 실제 시간은 상당히 다르므로 제거되었습니다.  그래프에서는 모든 호출이 동일한 시간에 시작되었고 이전 항목이 완료되기를 대기하지 않았음을 보여줍니다.
+    도구에서는이 예제와 비슷하게 동시에 수행된 네 개의 요청을 보여줍니다.  마찬가지로 실제 시간은 상당히 다르므로 제거되었습니다.  그래프는 모든 호출이 거의 동시에 시작되고 이전 호출이 완료될 때까지 기다리지 않는다는 것을 보여줍니다.
 
     ![모두 동시에 시작되는 네 개의 네트워크 요청의 시간 그래프는 기간 중 절반을 다룹니다.](media/function-concurrent/concurrent-network.png)
 

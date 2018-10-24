@@ -9,18 +9,22 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 06/12/2017
 ms.author: mblythe
-ms.openlocfilehash: 6c362c39aa99490c8c2043b36a05e107b94e0a26
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: df3c186bb41621e7ec6087a9da55fc037e286b1a
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39014952"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42850193"
 ---
 # <a name="walk-end-to-end-through-the-completed-sharepoint-online-integration-scenario"></a>완료된 SharePoint Online 통합 시나리오 종단 간 연습
 > [!NOTE]
 > 이 문서는 SharePoint Online에서 PowerApps, Microsoft Flow 및 Power BI를 사용하는 방법에 대한 자습서 시리즈의 일부입니다. [시리즈 소개](sharepoint-scenario-intro.md)를 참고하여 관련된 다운로드뿐만 아니라 전체적인 내용을 파악해야 합니다.
 
-이 시리즈의 자습서에서는 앱 및 흐름 빌드, 보고서 생성 및 SharePoint에 포함과 같은 막대한 양의 정보를 설명했습니다. 지금까지 많은 내용을 알아보고 이러한 기술을 통합하는 방법을 충분히 알아보았으므로 고유한 필요에 따라 SharePoint에 앱, 흐름 및 보고서를 통합할 수 있습니다. 마무리하기 전에 시나리오를 끝까지 살펴보고 모든 파트가 함께 작동하는 방법을 확인하려고 합니다.
+이 시리즈의 자습서에서는 캔버스 앱 및 흐름 빌드부터 보고서 생성 및 SharePoint에 포함에 이르기까지 막대한 양의 정보를 설명했습니다. 지금까지 많은 내용을 알아보고 이러한 기술을 통합하는 방법을 충분히 알아보았으므로 고유한 필요에 따라 SharePoint에 캔버스 앱, 흐름 및 보고서를 통합할 수 있습니다. 마무리하기 전에 시나리오를 끝까지 살펴보고 모든 파트가 함께 작동하는 방법을 확인하려고 합니다.
 
 ## <a name="step-1-add-a-project-to-the-project-requests-list"></a>1단계: 프로젝트 요청 목록에 프로젝트 추가
 1. **프로젝트 요청** 목록에서 **모든 항목** 및 **프로젝트 요청 앱**을 차례로 클릭하거나 누릅니다.

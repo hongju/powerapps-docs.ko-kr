@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 9497d257372181323a920bd2c1098601021e4f79
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: 934ab9bddfb429ae3ed96706420af002a87697fb
+ms.sourcegitcommit: 87122dba00b4177ef736d87ecdde79581649ba42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42863670"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44499525"
 ---
 # <a name="timer-control-in-powerapps"></a>PowerApps의 타이머 컨트롤
 일정 시간이 지난 후 앱이 응답하는 방식을 결정할 수 있는 컨트롤입니다.
@@ -38,9 +38,9 @@ ms.locfileid: "42863670"
 ## <a name="additional-properties"></a>추가 속성
 **[Align](properties-text.md)** - 컨트롤의 가로 가운데를 기준으로 한 텍스트의 위치입니다.
 
-**AutoPause** – 사용자가 다른 화면으로 이동하는 경우 오디오 또는 비디오 클립을 자동으로 일시 중지할지 여부입니다.
+**AutoPause** – 사용자가 다른 화면으로 이동하는 경우 타이머 컨트롤이 자동으로 일시 중지할지의 여부를 선택합니다.
 
-**AutoStart** - 사용자가 해당 컨트롤이 포함된 화면으로 이동할 때 오디오 또는 비디오 컨트롤에서 클립을 자동으로 재생할지 여부입니다.
+**AutoStart** - 사용자가 해당 컨트롤이 포함된 화면으로 이동할 때 타이머 컨트롤이 자동으로 재생할지의 여부를 선택합니다.
 
 **[BorderColor](properties-color-border.md)** - 컨트롤의 테두리 색입니다.
 
@@ -92,7 +92,7 @@ ms.locfileid: "42863670"
 
 **[Size](properties-text.md)** -컨트롤에 표시되는 텍스트의 글꼴 크기입니다.
 
-**Start** – 오디오 또는 비디오 클립의 재생 여부입니다.
+**시작** – 타이머 시작 여부를 선택합니다.
 
 **[Strikethrough](properties-text.md)** - 컨트롤에 표시되는 텍스트 중앙에 선을 표시할지 여부를 선택합니다.
 

@@ -1,6 +1,6 @@
 ---
-title: 액세스 가능한 앱 만들기 | Microsoft Docs
-description: 장애가 있는 사용자가 앱에 액세스할 수 있도록 하는 방법
+title: 액세스 가능한 캔버스 앱 만들기 | Microsoft Docs
+description: 장애가 있는 사용자가 캔버스 앱에 액세스할 수 있도록 하는 방법
 author: fikaradz
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,19 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 04/03/2018
 ms.author: fikaradz
-ms.openlocfilehash: 909f71a61ca3df73b41eb9e1fe0f3dc3f52d1527
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 119b7e6ff590f63ad938016c5f0127f5d6521d65
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39018724"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42834385"
 ---
-# <a name="create-accessible-apps"></a>액세스 가능한 앱 만들기
-액세스 가능한 앱에서는 시각, 청각 및 기타 장애가 있는 사용자가 앱을 사용할 수 있습니다.  여러 정부 및 조직의 요구 사항인 점을 별개로 하더라도 아래 지침을 따르면 사용자의 능력에 상관없이 모든 사용자의 사용 편의성이 개선됩니다.
+# <a name="create-accessible-canvas-apps-in-powerapps"></a>PowerApps에서 액세스 가능한 캔버스 앱 만들기
+액세스 가능한 캔버스 앱에서는 시각, 청각 및 기타 장애가 있는 사용자가 앱을 사용할 수 있습니다.  여러 정부 및 조직의 요구 사항인 점을 별개로 하더라도 아래 지침을 따르면 사용자의 능력에 상관없이 모든 사용자의 사용 편의성이 개선됩니다.
 
 **[접근성 검사기](accessibility-checker.md)** 를 사용하여 앱의 잠재적인 접근성 문제를 검토하십시오. 
 

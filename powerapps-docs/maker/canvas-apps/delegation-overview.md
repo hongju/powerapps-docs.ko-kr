@@ -1,6 +1,6 @@
 ---
-title: 위임 이해 | Microsoft Docs
-description: 위임을 사용하여 큰 데이터 집합을 효율적으로 처리합니다.
+title: 캔버스 앱에서 위임 이해 | Microsoft Docs
+description: 위임을 사용하여 캔버스 앱에서 큰 데이터 집합을 효율적으로 처리합니다.
 author: lancedMicrosoft
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,19 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 07/05/2018
 ms.author: lanced
-ms.openlocfilehash: 484d7b1149f158840238fc3d54713a1e6e33443b
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 0ac78340f344ce42fd68d18940b1aaca41412a96
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39023600"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42829754"
 ---
-# <a name="understand-delegation"></a>위임 이해
-PowerApps에는 데이터의 테이블을 필터링, 정렬 및 형성하는 강력함 함수 집합이 포함되어 있습니다(단 시간에 **[Filter](functions/function-filter-lookup.md)**, **[Sort](functions/function-sort.md)** 및 **[AddColumns](functions/function-table-shaping.md)** 함수 이름 지정). 이러한 함수를 사용하여 사용자에게 필요한 정보에 대한 집중된 액세스 권한을 제공할 수 있습니다. 데이터베이스 배경 지식이 있는 사람들에게 이러한 함수를 사용하는 것은 데이터베이스 쿼리를 작성하는 것과 같습니다.
+# <a name="understand-delegation-in-a-canvas-app"></a>캔버스 앱에서 위임 이해
+PowerApps에는 캔버스 앱에서 데이터의 테이블을 필터링, 정렬 및 형성하기 위한 강력한 함수 집합이 포함되어 있습니다(단 시간에 **[Filter](functions/function-filter-lookup.md)**, **[Sort](functions/function-sort.md)** 및 **[AddColumns](functions/function-table-shaping.md)** 함수 이름 지정). 이러한 함수를 사용하여 사용자에게 필요한 정보에 대한 집중된 액세스 권한을 제공할 수 있습니다. 데이터베이스 배경 지식이 있는 사람들에게 이러한 함수를 사용하는 것은 데이터베이스 쿼리를 작성하는 것과 같습니다.
 
 효율적인 앱을 빌드하는 핵심은 장치로 가져와야 하는 데이터의 양을 최소화하는 것입니다. 수백 만 개의 레코드 중에서 일부만 필요하거나, 또는 단일 집계 값이 수천 개의 레코드를 나타낼 수 있습니다. 또는 아마도 첫 번째 레코드 집합을 검색할 수 있고 나머지 데이터 집합은 사용자가 더 원한다는 제스처를 취할 때 검색됩니다. 집중하면 앱에서 필요한 처리량, 네트워크 대역폭을 현저하게 줄일 수 있어 셀룰러 네트워크를 통해 연결된 휴대폰에서도 사용자를 위해 더 신속하게 응답할 수 있습니다. 
 

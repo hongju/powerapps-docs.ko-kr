@@ -1,6 +1,6 @@
 ---
-title: 프로젝트 요청을 처리할 앱 생성 | Microsoft Docs
-description: 이 작업에서는 SharePoint 목록에서 직접 기본 *3개 화면 앱*을 생성합니다.
+title: 프로젝트 요청을 처리할 캔버스 앱 생성 | Microsoft Docs
+description: 이 작업에서는 SharePoint 목록에서 직접 3개의 화면이 있는 캔버스 앱을 생성합니다.
 author: mgblythe
 manager: kvivek
 ms.service: powerapps
@@ -9,14 +9,18 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 06/12/2017
 ms.author: mblythe
-ms.openlocfilehash: 7072d78b79adff65aac33c888bf0f980f953ef84
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 4466d8f42a0ba9c9a162353bc214abf6d9d9ef83
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39023945"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42834262"
 ---
-# <a name="generate-an-app-to-handle-project-requests"></a>프로젝트 요청을 처리할 앱 생성
+# <a name="generate-a-canvas-app-to-handle-project-requests"></a>프로젝트 요청을 처리할 캔버스 앱 생성
 > [!NOTE]
 > 이 문서는 SharePoint Online에서 PowerApps, Microsoft Flow 및 Power BI를 사용하는 방법에 대한 자습서 시리즈의 일부입니다. [시리즈 소개](sharepoint-scenario-intro.md)를 참고하여 관련된 다운로드뿐만 아니라 전체적인 내용을 파악해야 합니다.
 

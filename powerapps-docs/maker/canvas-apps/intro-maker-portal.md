@@ -1,132 +1,133 @@
 ---
-title: powerapps.com 소개 | Microsoft Docs
+title: 처음으로 로그인 | Microsoft Docs
 description: 앱의 모든 제작자를 위한 새 홈입니다.
-author: linhtranms
+author: AFTOwen
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
-ms.reviewer: anneta
-ms.date: 10/28/2016
-ms.author: litran
-ms.openlocfilehash: 9c1b6bde62f0260dca7eba1d723049aadc3e72c9
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+ms.reviewer: ''
+ms.date: 08/06/2018
+ms.author: anneta
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 3ecf468f8c1b15d20b144aa127fe31c13dba484e
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195338"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42849752"
 ---
-# <a name="introduction-to-powerappscom"></a>powerapps.com 소개
-PowerApps 팀은 [powerapps.com](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)을 앱 제작자를 위한 새 홈으로 다시 도입하고 있습니다. 제작자가 쉽게 앱 제작을 시작하고 Microsoft Common Data Service를 사용하며 하나의 위치에서 앱을 모두 관리할 수 있도록 이 페이지를 기본 사이트로 다시 설계했습니다. 이 문서에서는 다음 사항을 안내하려고 합니다.
+# <a name="sign-in-to-powerapps-for-the-first-time"></a>PowerApps에 처음으로 로그인
 
-* 헤더
-* 홈 페이지
-* **앱** 페이지
+[PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인하면 사이트에서 자체 앱을 만들고, 다른 사용자가 만든 앱을 열거나 관련 작업을 수행하기 위한 다양한 옵션을 제공합니다. 이러한 작업은 액세스 권한을 제공하는 라이선스 또는 라이선스의 식별과 같은 가장 간단한 작업부터 특정 데이터 원본에 대한 사용자 지정 연결 생성과 같은 고급 기능에 이르기까지 다양합니다.
 
-## <a name="header"></a>헤더
-등록하고 powerapps.com에 처음 로그인하면 사이트의 새 헤더가 보입니다. 헤더의 왼쪽된 가장자리 근처에 Office 와플이 있습니다. 이곳은 Microsoft Flow 및 Dynamics 365는 물론, PowerPoint, OneNote 및 Word 등의 모든 기타 Office 제품에 빠르게 액세스할 수 있는 곳입니다.
+세 가지 일반 영역에서 옵션을 선택할 수 있습니다.
 
-![헤더 와플](./media/intro-maker-portal/waffle.png)
+- 페이지 맨 위에 있는 헤더
 
-머리글의 오른쪽 가장자리 근처에 환경 간에 신속하게 전환할 수 있는 환경 드롭다운이 먼저 보입니다. 기본적으로 **기본 환경**이 선택되어 있을 가능성이 높습니다. [환경에 대한 자세한 정보](../../administrator/environments-overview.md)
+    ![헤더](media/intro-maker-portal/header.png)
 
-![헤더 환경](./media/intro-maker-portal/environment.png)
+- 페이지 왼쪽 가장자리를 있는 탐색 모음
 
-환경 드롭다운 옆에 다운로드 아이콘을 보입니다. PowerApps Mobile(iOS 또는 Android용 장치)를 다운로드하기 위해 링크가 포함된 대화 상자를 표시하려면 이 아이콘을 클릭하거나 탭합니다.
+    ![탐색 모음](media/intro-maker-portal/nav-bar.png)
 
-![헤더 다운로드](./media/intro-maker-portal/downloads2.png)
+- 페이지 중간에 있는 눈에 잘 띄는 기능인 큰 아이콘
 
-다운로드 아이콘 옆에 설정을 위한 기어 아이콘이 보입니다. 연결, 게이트웨이 및 관리 센터에 대한 링크를 표시하려면 이 아이콘을 클릭하거나 탭합니다.
+    ![홈 페이지의 중심 영역](media/intro-maker-portal/center-area.png)
 
-![헤더 설정](./media/intro-maker-portal/settings_items2.png)
+최상의 결과를 얻으려면 먼저 홈 페이지가 올바른 환경으로 설정되어 있는지 확인합니다.
 
-설정 옆에 도움을 위한 물음표가 보입니다. 학습 도우미, 문서, 지원, 커뮤니티, 블로그, 법적 고지 사항 및 개인정보처리방침에 대한 링크를 표시하려면 이 아이콘을 클릭하거나 탭합니다.
+## <a name="choose-an-environment"></a>환경 선택
 
-![헤더 도움말](./media/intro-maker-portal/help_items2.png)
+앱용 Common Data Service에서 앱, 흐름, 데이터 연결 또는 엔터티 중 어느 것을 만들든 간에, PowerApps에서 수행하는 작업의 대부분은 특정 환경에 포함되어 있습니다. 환경에서는 다양한 유형의 작업 간에 경계를 만듭니다. 예를 들어, 조직은 부서마다 별도의 환경이 있을 수 있습니다. 많은 조직에서 환경을 사용하여 광범위하게 사용할 준비가 된 앱에서 아직 개발 중인 앱을 분리합니다. 여러 환경 또는 하나의 환경에만 액세스할 수 있으며 적절한 사용 권한이 있는 경우 고유한 환경을 만들 수 있습니다.
 
-## <a name="homepage"></a>홈 페이지
-[powerapps.com](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인하면 기본적으로 홈 페이지가 표시됩니다. 앱을 제작하고 있거나, Common Data Service를 둘러보고 있던지 사용자가 신속하게 시작할 수 있도록 이 홈 페이지의 레이아웃을 변경했습니다.
+어떤 환경에 속해 있는지 확인하려면 헤더의 오른쪽 근처에 있는 환경 전환기를 찾습니다.
 
-이전에 PowerApps에 로그인해서 일부 앱을 실행했거나 제작한 경우 홈 페이지에 보이는 첫 번째 섹션은 **최근 앱** 목록입니다. 가장 최근에 열린 날짜를 기준으로 정렬됩니다.
+![환경 전환기](media/intro-maker-portal/environment-switcher.png)
 
-![최근 앱](./media/intro-maker-portal/recentapps2.png)
+한 환경에서 앱을 만드는 경우 다른 환경에서 확인할 수 없습니다. 또한 앱을 실행하려는 사용자는 만든 환경에 액세스할 수 있어야 합니다.
 
-오른쪽 위 모서리 근처에 **앱**으로 라벨링된 앱과 **앱** 페이지에 대한 링크가 있어 사용자의 모든 앱을 볼 수 있습니다.
+> [!IMPORTANT]
+> 앱, 흐름, 또는 유사한 구성 요소를 만들기 *전에* 올바른 환경에 있는지 확인합니다. 한 환경에서 다른 환경으로 구성 요소를 쉽게 이동할 수 없습니다.
 
-이전에 로그인했거나, 앱을 제작했거나 실행한 적이 없다면 **최근 앱** 섹션이 보이지 않습니다. 대신 **앱 만들기** 배너가 보입니다.
+자세한 내용은 [환경 개요](../../administrator/environments-overview.md)를 참조하세요.
 
-![앱 만들기](./media/intro-maker-portal/createapp.png)
+## <a name="choose-an-app-type"></a>앱 유형 선택
 
-**PowerApps Studio**를 사용하여 앱을 만드는 옵션을 표시하려면 이 배너의 **시작**을 클릭하거나 탭합니다.
+PowerApps에서 다음 유형의 앱을 만들고 실행할 수 있습니다.
 
-![앱 모델 만들기](./media/intro-maker-portal/createmodal2.png)
+- **캔버스 앱**은 사용자 지정 UI를 디자인하고 다양한 소스의 데이터에 연결할 수 있도록 지원합니다.
+- **모델 기반 앱**은 표준 UI가 있으며 앱용 CDS(Common Data Service)에서만 데이터에 연결합니다. 그러나 보기, 대시보드 및 다양한 유형의 비즈니스 논리와 같은 다른 요소를 더 쉽게 만들 수 있습니다.
 
-**시작** 옆에는 데이터에서 앱을 신속하게 만든 다음(SharePoint 또는 PowerApps), 해당 앱을 공유하는 방법에 대한 자습서 비디오에 대한 링크가 있습니다. **자세히 알아보기** 화살표 링크는 기존 데이터로 앱을 만드는 방법에 대한 문서로 연결됩니다.
+기본적으로 **홈** 페이지에는 캔버스 앱을 만들고 실행하기 위한 옵션이 표시됩니다. 대신 모델 기반 옵션을 표시하려면 앱용 CDS 데이터베이스가 있는 환경을 선택한 다음, 왼쪽 아래 모서리에 있는 메뉴를 엽니다.
 
-**앱 만들기** 배너 아래에는 **Microsoft Common Data Service 사용** 배너가 있습니다.
+![캔버스와 모델 기반 앱 간 전환](media/intro-maker-portal/mode-switcher.png)
 
-![Microsoft Common Data Service](./media/intro-maker-portal/cds2.png)
+## <a name="play-or-edit-an-app"></a>앱 재생 또는 편집
 
-**Common Data Service**에는 사용자의 라이선스 또는 권한에 따라 다른 단추가 나타납니다.
+앱을 이미 만든 경우(또는 다른 사용자가 앱을 만들어 사용자와 공유한 경우) **앱** 페이지에서 앱을 재생하거나 편집할 수 있습니다.
 
-* **평가판 시작** 단추가 나타나면 Common Data Service에 필요한 PowerApps P2 라이선스가 없는 것입니다. 이 라이선스의 무료 90일 평가판을 등록할 수 있는 페이지를 열려면 이 단추를 클릭하거나 탭합니다. [PowerApps Enterprise 라이선스에 대한 자세한 정보](../signup-for-powerapps.md)
-* **시작** 단추가 나타나면 Common Data Service 데이터베이스가 없거나, 이에 대한 액세스 권한이 없는 환경에 있는 것입니다. 앱에 Common Data Services를 사용하기 시작할 수 있도록 한 번에 환경과 데이터베이스를 만들려면 이 단추를 클릭하거나 탭합니다. [환경 만들기에 대한 자세한 정보](../../administrator/environments-administration.md)
-  
-    ![환경 및 데이터베이스 만들기](./media/intro-maker-portal/createenvanddb2.png)
-  
-    환경을 만들지 않으려는 경우에는 항상 액세스 권한이 있는 환경으로 전환할 수 있습니다.
-* **데이터베이스 만들기** 단추가 나타나면 Common Data Service 데이터베이스는 없지만, 만들 수 있는 권한이 있는 환경에 있는 것입니다.
-  
-    ![데이터베이스 만들기](./media/intro-maker-portal/cds-createdb2.png)
-  
-    이 단추를 클릭하거나 탭하면 이 환경에 대한 데이터베이스를 프로비전합니다.
-  
-    ![데이터베이스 만들기](./media/intro-maker-portal/cds_createdb22.png)
-* **엔터티 찾아보기** 단추가 나타나면 이미 프로비전된 Common Data Service 데이터베이스가 있으며 이에 대한 액세스 권한이 있는 환경에 있는 것입니다. **엔터티** 페이지를 열려면 해당 단추를 클릭하거나 탭합니다.
-  
-    ![데이터베이스 만들기](./media/intro-maker-portal/cds_browseentities2.png)
+- 최근에 열었는지 등의 기준에 따라 필터링하여 캔버스 앱을 찾을 수 있습니다.
 
-**Microsoft Common Data Service 사용** 배너 아래에 일련의 샘플 앱과 사용자가 사용하도록 만든 연결된 샘플 앱이 보입니다.
+    ![캔버스 앱 목록](media/intro-maker-portal/org-apps.png)
 
-* **샘플 앱** -샘플 앱은 휴대폰 또는 태블릿 레이아웃에서 서로 다른 비즈니스 시나리오를 위해 제작되었습니다. 앱을 클릭하여 앱의 기능, 앱 제작 레이아웃은 물론, 카메라, GPS 또는 라디오 단추 등, 앱의 대표적인 기능에 대한 설명을 빨리 볼 수 있습니다. 새 사용자가 PowerApps의 기능을 배울 수 있는 빠른 방법이며, 템플릿을 사용하여 PowerApps Studio에서 동일한 앱을 만들 수 있습니다.
-  
-    ![샘플 앱](./media/intro-maker-portal/sampleapps2.png)
-* **연결된 샘플 앱** - 이 앱은 Office 365, Salesforce, Trello 및 Wunderlist 등의 데이터 연결을 통해 데이터에 연결합니다. 이 앱 집합은 위의 샘플 앱과 다릅니다. 연결된 샘플 앱을 클릭하거나 탭하면 실제로 해당 앱의 새로운 인스턴스를 프로비전하는 것입니다(템플릿으로 생각). 그러면 데이터에 연결하려면 자격 증명을 입력하라는 메시지가 표시됩니다. 연결된 샘플 앱의 장점은 여기서 바로 인스턴스가 프로비전되므로 PowerApps Studio에서 열어 해당 앱이 제작된 방식을 알아 볼 수 있다는 것이고, 단점은 만드는 데 꽤 긴 시간(최대 1분)이 걸릴 수 있다는 것입니다. 그러므로 연결된 샘플 앱을 클릭하거나 탭할 때 브라우저가 열릴 때까지 기다려 주세요.
-  
-    ![연결된 샘플 앱](./media/intro-maker-portal/connectedsampleapps2.png)
+    앱을 검색하거나 오른쪽 상단 모서리 근처에 표시되는 검색 표시줄에 하나 이상의 문자를 입력하여 검색할 수도 있습니다. 원하는 앱을 찾으면 줄임표 아이콘을 선택하여 앱을 재생하거나 편집할 수 있는 옵션을 표시합니다.
 
-## <a name="new-apps-page"></a>새 앱 페이지
-[powerapps.com](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)의 왼쪽 탐색 표시줄을 통해 **앱** 페이지에 액세스할 수 있습니다.
+    ![줄임표 메뉴](media/intro-maker-portal/ellipsis-menu.png)
 
-![왼쪽 탐색](./media/intro-maker-portal/leftnav2.png)
+- 모델 기반 앱 목록을 필터링할 수는 없지만 오른쪽 상단 모서리 근처에 표시되는 검색 표시줄에 하나 이상의 문자를 입력하여 앱을 검색할 수 있습니다. 원하는 앱을 찾으면 줄임표 아이콘을 선택하여 앱을 재생하거나 편집할 수 있는 옵션을 표시합니다.
 
-**앱** 페이지는 이전에 타일 보기와 목록 보기 간에 전환을 허용했습니다. 하지만 2016년 10월 26일부터 목록 보기에만 지원합니다.
+    ![줄임표 메뉴가 열린 모델 기반 앱 목록](media/intro-maker-portal/model-driven-list.png)
 
-![앱 목록 보기](./media/intro-maker-portal/listview2.png)
+## <a name="create-an-app"></a>앱 만들기
 
-목록 보기는 선택한 환경의 앱만 표시합니다. 다른 환경에서 앱을 보려면 헤더에서 환경 전환기를 사용하여 전환하세요. [환경 전환에 대한 자세한 정보](working-with-environments.md)
+**홈** 페이지에서 다음과 같은 여러 가지 방법으로 앱을 만들 수 있습니다.
 
-## <a name="whats-new"></a>새로운 기능
+- [데이터 집합에서 캔버스 앱을 자동으로 생성](data-platform-create-app.md)
+- [캔버스 앱의 미리 빌드된 샘플 사용자 지정](open-and-run-a-sample-app.md)
+- [빈 화면에서 캔버스 앱 빌드](data-platform-create-app-scratch.md)
+- [고유 모델 기반 앱 만들기](../model-driven-apps/overview-model-driven-samples.md)
+- [모델 기반 앱에 대해 미리 빌드된 샘플 사용자 지정](../model-driven-apps/build-first-model-driven-app.md)
 
-* 이제 앱을 클릭하거나 탭하면 PowerApps Studio로 새 탭에 열립니다.
-* 기본적으로는 **앱** 페이지에 편집 권한이 있는 모든 앱이 표시됩니다. **모든 앱**(사용자만 사용할 수 있는 앱 포함)을 보려면 **모든 앱** 필터를 선택하세요.
-  
-   ![앱 필터](./media/intro-maker-portal/allapps_filter.png)
+## <a name="learn-more"></a>자세한 정보
 
-또한 다음과 같은 필터 옵션이 있습니다.
+다음과 같은 두 가지 방법으로 캔버스 앱 또는 모델 기반 앱에 대한 자세한 정보를 확인할 수 있습니다.
 
-* **내가 사용할 수 있는 앱** - 사용자 권한으로 사용자와 공유된 모든 앱을 나열합니다(사용자만 사용할 수 있는). [Dynamics 365](http://home.dynamics.com)에서도 이러한 앱을 획득할 수 있습니다.
-* **내가 소유한 앱** - 사용자가 제작한 모든 앱을 나열합니다.
-* **내가 기여한 앱** - 기여자 권한으로 사용자와 공유된 모든 앱을 나열합니다.
-* **샘플 앱** - 모든 샘플 앱(연결된 샘플 앱이 아님)을 나열합니다.
+- 왼쪽 탐색 모음에서 **학습**을 선택합니다.
+- 헤더에서 물음표 아이콘을 선택합니다.
 
-정보 원을 클릭하거나 탭하면 앱 세부 정보 페이지가 열립니다.
+    ![줄임표 메뉴가 열린 모델 기반 앱 목록](media/intro-maker-portal/help-icon.png)
 
-![앱 세부 정보](./media/intro-maker-portal/ibubble.png)
+두 옵션 모두 이 설명서 집합, PowerApps 커뮤니티(다른 조직의 사용자와 정보를 공유할 수 있는 위치) 및 PowerApps 블로그(최신 기능이 발표되는 위치)에 대한 링크를 보여줍니다.
 
-앱에 대한 줄임표를 클릭하면 재생, 편집, 공유 및 세부 정보 등의 옵션이 나타납니다.
+## <a name="other-common-tasks"></a>기타 일반 작업
 
-![앱의 옵션](./media/intro-maker-portal/ellipsis.png)
+헤더 및 왼쪽 탐색 모음에서 옵션을 선택하면 앱을 만들고 여는 것 이상을 수행할 수 있습니다.
 
-주로 powerapps.com의 새로운 기능으로, 앱 제작자에게 전달됩니다. 이 기능이 사용자에 도움이 되기를 바랍니다. 지금까지 마음에 드는 점과 앞으로 개선할 사항이 있다면 의견을 남겨 주세요. 여러분의 의견을 듣고 싶습니다!
+### <a name="from-the-header"></a>헤더에서
 
+- 앱을 실행할 수 있는 모바일 및 기타 클라이언트를 다운로드하려면 아래쪽 화살표를 선택합니다.
+
+    자세한 내용은 [앱 찾기 및 실행](../../user/index.md)을 참조하세요.
+
+- 기어 아이콘을 선택하여 데이터 원본에 연결, PowerApps 라이선스 또는 라이선스 식별, 그리고 관리 작업을 수행할 수 있는 페이지 열기와 같은 작업을 수행합니다.
+
+    자세한 내용은 다음 항목을 참조하세요.
+
+  - [캔버스 앱 커넥터 개요](connections-list.md)
+  - [캔버스 앱용 사용자 지정 커넥터 빌드 및 인증](register-custom-api.md)
+  - [온-프레미스 데이터 게이트웨이 관리](gateway-management.md)
+  - [PowerApps 관리](../../administrator/index.md)
+  - [라이선스 개요](../../administrator/pricing-billing-skus.md)
+  - [모델 기반 앱 빌드에 대한 개요](../model-driven-apps/model-driven-app-overview.md)
+
+### <a name="from-the-left-navigation-bar"></a>왼쪽 탐색 표시줄에서
+
+다음 작업을 수행하여 앱의 기능을 확장합니다.
+
+- [앱용 Common Data Service](../common-data-service/data-platform-intro.md)에서 엔터티, 옵션 집합 및 데이터 통합을 관리합니다.
+- [Microsoft Flow](https://docs.microsoft.com/flow/getting-started)에서 비즈니스 논리를 구성합니다.
+- [솔루션](../../developer/common-data-service/introduction-solutions.md) 작성, 패키지 및 유지 관리합니다.

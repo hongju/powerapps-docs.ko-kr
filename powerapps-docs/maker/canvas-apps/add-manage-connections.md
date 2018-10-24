@@ -1,6 +1,6 @@
 ---
-title: 클라우드 서비스의 데이터 원본에 대한 연결 추가 및 관리 | Microsoft Docs
-description: SharePoint, SQL Server, 비즈니스용 OneDrive, Salesforce 및 Office 365와 같은 데이터 원본으로의 연결 추가, 삭제 및 업데이트
+title: 캔버스 앱에서 연결 추가 및 관리 | Microsoft Docs
+description: 캔버스 앱에서 SharePoint, SQL Server, 비즈니스용 OneDrive와 같은 데이터 원본에 대한 연결 추가, 삭제 및 업데이트
 author: lancedMicrosoft
 manager: kvivek
 ms.service: powerapps
@@ -9,17 +9,21 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 03/09/2017
 ms.author: lanced
-ms.openlocfilehash: c114b803539c2d64695a0bd8c9d976d2604569eb
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: d2a7da93835e5fbe588a8683bbdb0393d5b76ee5
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195223"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42834046"
 ---
-# <a name="manage-your-connections-in-powerapps"></a>PowerApps에서 연결 관리
-[powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 PowerApps에서 하나 이상의 데이터 원본으로의 연결을 만들거나, 연결을 삭제하거나, 해당 자격 증명을 업데이트합니다.
+# <a name="manage-canvas-app-connections-in-powerapps"></a>PowerApps에서 캔버스 앱 연결 관리
+[powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 하나 이상의 데이터 원본으로의 연결을 만들거나, 연결을 삭제하거나, 또는 해당 자격 증명을 업데이트합니다.
 
-사용자 앱의 데이터 연결은 SharePoint, SQL Server, Office 365, 비즈니스용 OneDrive, Salesforce, Excel 및 기타 [데이터 원본](connections-list.md)에 연결할 수 있습니다.
+캔버스 앱의 데이터 연결은 SharePoint, SQL Server, Office 365, 비즈니스용 OneDrive, Salesforce, Excel 및 기타 [데이터 원본](connections-list.md)에 연결할 수 있습니다.
 
 이 문서 이후 단계는 다음 예와 같이 앱에서 데이터 원본의 데이터를 표시하고 관리하기 위한 것입니다.
 

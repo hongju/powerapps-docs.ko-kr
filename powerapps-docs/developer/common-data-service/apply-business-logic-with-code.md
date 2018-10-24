@@ -1,6 +1,6 @@
 ---
 title: 코드로 비즈니스 논리 적용 | Microsoft Docs
-description: 개발자가 코드를 사용하여 Common Data Service for Apps에서 비즈니스 논리를 적용하는 방법을 알아봅니다.
+description: 개발자가 코드를 사용하여 앱용 Common Data Service에서 비즈니스 논리를 적용하는 방법을 알아봅니다.
 services: ''
 suite: powerapps
 documentationcenter: na
@@ -15,11 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 02/26/2018
 ms.author: jdaly
-ms.openlocfilehash: 12925c57103b1ecc00dc19205af5f32d165bdc63
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+search.audienceType:
+- developer
+search.app:
+- PowerApps
+- D365CE
+ms.openlocfilehash: 9abcbf25d2376e28f83988ceb3797d3891ca53bc
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42843340"
 ---
 # <a name="apply-business-logic-with-code"></a>코드로 비즈니스 논리 적용
 
@@ -35,7 +41,7 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="create-a-plug-in"></a>플러그 인 만들기
 
-데이터 트랜잭션 흐름에 플러그 인하여 서버에 비즈니스 논리를 적용하는 .NET 어셈블리를 작성할 수 있습니다. Common Data Service for Apps 플랫폼을 사용하면 어셈블리의 클래스 내에 정의된 코드를 실행하는 특정 이벤트를 등록할 수 있는 프레임워크가 있습니다. 이 클래스는 [Execute 메서드](/dotnet/api/microsoft.xrm.sdk.iplugin.execute)를 노출하는 특정 인터페이스를 상속합니다. 등록된 이벤트가 발생하면 클래스의 `Execute` 메서드를 호출하여 이벤트에 대한 컨텍스트 데이터를 전달합니다.
+데이터 트랜잭션 흐름에 플러그 인하여 서버에 비즈니스 논리를 적용하는 .NET 어셈블리를 작성할 수 있습니다. 앱용 Common Data Service에는 어셈블리의 클래스 내에 정의된 코드를 실행하는 특정 이벤트를 등록하는 데 사용하는 프레임워크가 있습니다. 이 클래스는 [Execute 메서드](/dotnet/api/microsoft.xrm.sdk.iplugin.execute)를 노출하는 특정 인터페이스를 상속합니다. 등록된 이벤트가 발생하면 클래스의 `Execute` 메서드를 호출하여 이벤트에 대한 컨텍스트 데이터를 전달합니다.
 
 개발자는 *플러그 인 등록 도구*를 사용하여 어셈블리를 등록합니다.
 

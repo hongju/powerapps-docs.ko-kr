@@ -1,6 +1,6 @@
 ---
-title: 위임 가능한 데이터 원본 | Microsoft Docs
-description: 지원되는 모든 위임 가능한 데이터 원본 목록
+title: 캔버스 앱의 위임 가능한 데이터 원본 | Microsoft Docs
+description: 캔버스 앱에서 지원되는 모든 위임 가능한 데이터 원본 목록
 author: lancedMicrosoft
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,19 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 08/15/2017
 ms.author: lanced
-ms.openlocfilehash: e8863d8e260ecaafd407e93d710917848ce184ad
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 98931d4692a61839e0530682bd2d40258c07b7df
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39018609"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42825766"
 ---
-# <a name="delegable-data-sources"></a>위임 가능한 데이터 원본
-[위임 이해](delegation-overview.md) 문서에서 자세히 설명했듯이 PowerApps는 로컬에서 처리하기 위해 데이터를 앱으로 이동하기보다는 데이터 처리를 데이터 원본에 위임합니다.
+# <a name="delegable-data-sources-in-canvas-apps"></a>캔버스 앱의 위임 가능한 데이터 원본
+[위임 이해](delegation-overview.md) 문서에서 자세히 설명했듯이 위임에서는 PowerApps가 로컬에서 처리하기 위해 데이터를 캔버스 앱으로 이동하기보다는 데이터 처리를 데이터 원본에 위임합니다.
 
 위임은 테이블 형식 데이터 원본에 대해만 지원됩니다. 이 목록은 다음 섹션에 나와 있는 세부 정보와 함께 테이블 형식 데이터 원본 및 위임을 지원하는지 여부를 보여 줍니다.
 
@@ -51,7 +55,7 @@ ms.locfileid: "39018609"
 | LookUp |예 |예 |예 |예 |예 |
 | 최대 |아니요 |아니요 |예 |아니요 |아니요 |
 | 최소 |아니요 |아니요 |예 |아니요 |아니요 |
-| 검색 |예<sup>1</sup> |아니요 |예 |예 |예 |
+| Search |예<sup>1</sup> |아니요 |예 |예 |예 |
 | 정렬 |예 |예 |예 |예 |예 |
 | SortByColumns |예 |예 |예 |예 |예 |
 | 합계 |아니요 |아니요 |예 |아니요 |아니요 |

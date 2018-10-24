@@ -9,17 +9,19 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 11/30/2015
 ms.author: lonu
-ms.openlocfilehash: 98407181bc654874d749bb57da22c9fde1259fb6
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: c1043d32fc4ab4213d2ac2e690ef69e13fec8ed3
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195499"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42831652"
 ---
 # <a name="create-and-update-a-collection-in-your-app"></a>앱에서 컬렉션 만들기 및 업데이트
 컬렉션을 사용하여 앱에 사용할 수 있는 데이터를 저장합니다. 컬렉션은 유사한 항목의 그룹입니다. 예를 들어, 회사에서 판매하는 모든 제품 이미지를 저장하는 MyImages 컬렉션을 만듭니다. PowerApps 내에서 MyImages 컬렉션을 추가하고 이러한 제품의 모든 그림을 표시하는 앱을 만들 수 있습니다. 또 다른 예로, 제품 및 각 제품의 가격을 나열하는 가격표 컬렉션을 만들 수 있습니다.
-
-PowerApps 내에서 컬렉션을 만들고 사용할 수 있습니다. 이제 시작하겠습니다.
 
 ### <a name="prerequisites"></a>필수 조건
 * PowerApps에 [등록](../signup-for-powerapps.md)한 다음, 등록에 사용한 동일한 자격 증명을 입력하여 [로그인](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)합니다.
@@ -28,23 +30,30 @@ PowerApps 내에서 컬렉션을 만들고 사용할 수 있습니다. 이제 �
 * 이 단계는 샘플 입력 데이터로 [PriceList.zip](http://pwrappssamples.blob.core.windows.net/samples/PriceList.zip) 파일을 사용합니다. zip 파일에는 Excel로 변환할 수 있는 XML 파일이 포함되어 있습니다. 그렇지 않으면 PowerApps에서 자동으로 .zip 파일에 있는 파일을 읽고 성공적으로 가져옵니다. 이 샘플 데이터를 다운로드하여 사용하거나 직접 가져올 수 있습니다.
 
 ## <a name="create-a-single-column-collection"></a>단일 열 컬렉션 만들기
-다음 단계는 Collect 함수를 사용하는 앱 내에서 컬렉션을 만드는 방법 및 컬렉션에 항목을 추가하는 방법을 보여 줍니다.
+**Collect** 함수를 사용하여 컬렉션을 만들고 여기에 항목을 추가합니다.
 
-1. 앱을 엽니다.
-2. **삽입** 탭에서 **텍스트**를 선택한 다음 **텍스트 입력**을 선택합니다.  
-   ![][1]  
-3. 왼쪽 위 모서리에서 **Text1**을 선택하고 컨트롤 이름을 **대상**으로 바꿉니다.  
-   ![][2]  
-4. **삽입** 탭에서 **단추**를 선택하여 디자이너에 단추 컨트롤을 추가합니다. 드롭다운 목록에서 **[OnSelect](controls/properties-core.md)** 속성이 나열됩니다. 다음 함수로 설정합니다.  
+1. 앱에서 **삽입** 탭을 선택하고 **텍스트**를 선택한 다음, **텍스트 입력**을 선택합니다.
+
+   ![][1]
+
+1. 왼쪽 위 모서리에서 **Text1**을 선택하고 컨트롤 이름을 **대상**으로 바꿉니다.
+
+   ![][2]
+
+1. **삽입** 탭에서 **단추**를 선택하여 디자이너에 단추 컨트롤을 추가합니다. 드롭다운 목록에서 **[OnSelect](controls/properties-core.md)** 속성이 나열됩니다. 다음 함수로 설정합니다.  
    
     ```Collect(Destinations, Destination!Text)```
    
-    다음과 같아야 합니다.  
-    ![][3]  
-5. 단추 텍스트를 선택하고 **추가**를 입력합니다.  
-   ![][5]  
-6. **추가** 단추를 선택하고 텍스트 컨트롤 아래로 이동합니다. 아무 곳이나 이동할 수 있습니다.  
-   ![][6]  
+    다음과 같아야 합니다.
+
+    ![][3]
+
+5. 단추 텍스트를 선택하고 **추가**를 입력합니다.
+
+   ![][5]
+
+1. **추가** 단추를 선택하고 텍스트 컨트롤 아래로 이동합니다. 아무 곳이나 이동할 수 있습니다.  
+   ![][6]
 
 이 단계에서는 **대상**이라는 컬렉션을 만들기 위해 컬렉션 함수를 사용했습니다. 또한 단추 컨트롤을 추가했고 선택하면 새 항목을 컬렉션에 추가합니다. 이제 작성한 것을 봅니다.
 

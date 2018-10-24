@@ -9,12 +9,16 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 05/09/2017
 ms.author: mblythe
-ms.openlocfilehash: 9f02b752444153681e30b39c3fa9d8a8b9e0cd6d
-ms.sourcegitcommit: 521a7b8e6ae72a211045b54d153a8a8c8f59172e
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: a255489f243ca8586f349e617e5af2023e88732b
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/09/2018
-ms.locfileid: "40021390"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42864405"
 ---
 # <a name="develop-offline-capable-canvas-apps-with-powerapps"></a>PowerApps를 사용하여 오프라인에서 사용 가능한 캔버스 앱 개발
 
@@ -25,9 +29,14 @@ ms.locfileid: "40021390"
 * [연결](../canvas-apps/functions/signals.md#connection) 신호 개체를 사용하여 앱이 오프라인 상태인지, 온라인 상태인지, 요금제 연결인지를 확인합니다.
 * [컬렉션](../canvas-apps/create-update-collection.md)을 사용하고 오프라인에서 기본 데이터 저장소에 [LoadData 및 SaveData](../canvas-apps/functions/function-savedata-loaddata.md)와 같은 기능을 활용합니다.
 
+> [!NOTE]
+> 이 기능 영역은 아직 개발 중이며 현재 모든 시나리오에 최적화되어 있지 않습니다. 해당 장치의 로컬 장치 및 LoadData()에 대한 SaveData() 함수는 일반적으로 2MB를 초과하지 않는 데이터(예: 테이블에 있는 수십 개의 텍스트 레코드)를 통해 현재 구현할 때 가장 잘 작동합니다. 이 기능은 데이터를 로컬로 캐싱하여 캔버스 앱의 시작 성능을 향상시킬 뿐만 아니라 일부 기본 "오프라인" 시나리오에도 유용합니다. 그러나 이 기능을 사용하여 대량의 데이터를 저장(예: 테이블에 수천 개의 행을 저장하거나 큰 이미지 또는 비디오 캐싱)하면 현재 구현에서 오류나 예기치 않은 동작이 발생할 수 있으므로 피해야 합니다. 또한 이 함수는 장치가 오프라인에서 연결로 돌아갈 때 병합 충돌을 자동으로 해결하지 않습니다. 즉, 식을 작성할 때 어떤 데이터가 저장되고 재연결을 처리하는지에 대한 구성이 제조업체에 달려있습니다.
+>
+> 오프라인 앱의 기능을 확장하고 안정성과 크기 제한을 증가시키며 (향후) 저장 대상 및 충돌 처리 방법에 대한 결정을 자동으로 처리하기 위해 노력하고 있습니다. 사용할 수 있게 되면 여기와 [PowerApps 블로그](https://powerapps.microsoft.com/blog/)에서 업데이트 내용을 확인합니다.
+
 ## <a name="how-to-build-offline-capable-apps"></a>오프라인에서 사용 가능한 앱을 빌드하는 방법
 
-오프라인 시나리오에서 가장 먼저 고려할 점은 앱에서 데이터를 사용하는 방법입니다. PowerApps의 앱은 주로 SharePoint, Office 365 및 Common Data Service와 같이 플랫폼에서 제공하는 [커넥터](../canvas-apps/connections-list.md)의 집합을 통해 데이터에 액세스합니다. 앱이 RESTful 끝점을 제공하는 모든 서비스에 액세스할 수 있도록 사용자 지정 커넥터를 빌드할 수 있습니다. Web API 또는 Azure Functions와 같은 서비스일 수 있습니다. 이러한 모든 커넥터는 인터넷을 통해 HTTPS를 사용합니다. 즉, 사용자가 서비스에서 제공하는 데이터 및 모든 기능에 액세스하려면 온라인 상태여야 합니다.
+오프라인 시나리오에서 가장 먼저 고려할 점은 앱에서 데이터를 사용하는 방법입니다. PowerApps의 앱은 주로 SharePoint, Office 365 및 Common Data Service와 같이 플랫폼에서 제공하는 [커넥터](../canvas-apps/connections-list.md)의 집합을 통해 데이터에 액세스합니다. 앱이 RESTful 엔드포인트를 제공하는 모든 서비스에 액세스할 수 있도록 사용자 지정 커넥터를 빌드할 수 있습니다. Web API 또는 Azure Functions와 같은 서비스일 수 있습니다. 이러한 모든 커넥터는 인터넷을 통해 HTTPS를 사용합니다. 즉, 사용자가 서비스에서 제공하는 데이터 및 모든 기능에 액세스하려면 온라인 상태여야 합니다.
 
 ![커넥터를 포함하는 PowerApps 앱](./media/offline-apps/online-app.png)
 

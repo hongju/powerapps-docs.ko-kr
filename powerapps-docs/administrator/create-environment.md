@@ -5,14 +5,20 @@ author: jimholtz
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: quickstart
-ms.date: 03/21/2018
+ms.date: 08/29/2018
 ms.author: jimholtz
-ms.openlocfilehash: eefcd30e4f5e6ec7441147c157cbb46864ebf718
-ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
+search.audienceType:
+- admin
+search.app:
+- D365CE
+- PowerApps
+- Powerplatform
+ms.openlocfilehash: 9d7a2093c938658d6717157fc6bd683aa3a55bb6
+ms.sourcegitcommit: b8eee36e680036accb0e7d9fc7a434906af1c4d2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2018
-ms.locfileid: "39349251"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43297477"
 ---
 # <a name="create-an-environment"></a>환경 만들기
 환경은 조직의 비즈니스 데이터, 앱 및 흐름을 저장, 관리 및 공유하는 공간입니다. 또한 각기 다른 역할, 보안 요구 사항 또는 대상 그룹에 따라 앱을 구분하는 컨테이너 기능도 제공합니다. PowerApps는 자동으로 각 테넌트의 단일 기본 환경을 만들며, 이 환경은 해당 테넌트의 모든 사용자 간에 공유됩니다.
@@ -36,6 +42,8 @@ ms.locfileid: "39349251"
 2. **새 환경** 대화 상자에서 환경의 이름을 입력하고, 드롭다운 목록에서 지역 및 환경 유형을 선택합니다. 지역은 기본적으로 Azure Active Directory 테넌트 홈 영역으로 설정되지만, 드롭다운 목록에서 원하는 지역을 선택할 수 있습니다. 환경을 만든 후에는 지역을 변경할 수 없습니다. 작업을 마쳤으면 **환경 만들기**를 클릭하거나 탭합니다.
 
     ![파일 및 공유](./media/create-environment/new-environment-dialog.png)
+
+    예정된 PowerApps 기능에 대한 초기 액세스를 가져오려면 **미리 보기(미국)** 를 선택합니다. [PowerApps 미리 보기 프로그램](preview-environments.md)에 대해 자세히 알아봅니다.
 3. 환경이 만들어지면 대화 상자에 확인 메시지가 표시되고 데이터베이스를 만들라는 메시지가 나타납니다. Common Data Service에 액세스할 수 있도록 **데이터베이스 만들기**를 클릭하거나 탭합니다.
 
     **참고:** 현재는 Azure Active Directory 테넌트 홈 지역에만 데이터베이스를 만들 수 있습니다.

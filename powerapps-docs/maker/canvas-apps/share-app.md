@@ -9,12 +9,16 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 07/11/2018
 ms.author: anneta
-ms.openlocfilehash: eaea8049b573b619881ae0a2b6ecb2618e4bf192
-ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 926d2b4b0d24f07a9a4cd42216e7d737db57308c
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39470641"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42853845"
 ---
 # <a name="share-a-canvas-app-in-powerapps"></a>PowerApps에서 캔버스 앱 공유
 
@@ -81,7 +85,11 @@ ms.locfileid: "39470641"
 
 ### <a name="common-data-service-for-apps"></a>앱용 Common Data Service
 
-앱용 Common Data Service에 기반하여 앱을 만드는 경우 앱을 실행하는 사용자가 앱을 실행할 엔터티에 대한 적절한 사용 권한을 갖고 있는지도 확인해야 합니다. 특히, 이러한 사용자는 관련 기록 만들기, 읽기, 쓰기 및/또는 삭제 등의 작업을 수행할 수 있는 보안 역할에 속해 있어야 합니다. 이 환경의 데이터베이스에 대한 **시스템 관리자** 또는 **시스템 사용자 지정자** 사용 권한이 있는 경우 사용자 지정 역할을 만든 다음, 사용자를 추가할 수 있습니다.
+앱용 CDS(Common Data Service)에 기반하여 앱을 만드는 경우 앱을 실행하는 사용자가 앱을 실행할 엔터티에 대한 적절한 사용 권한을 갖고 있는지도 확인해야 합니다. 특히, 이러한 사용자는 관련 기록 만들기, 읽기, 쓰기 및/또는 삭제 등의 작업을 수행할 수 있는 보안 역할에 속해 있어야 합니다. 대부분의 경우 사용자가 앱을 사용하는 데 필요한 정확한 권한이 있는 하나 이상의 사용자 지정 보안 역할을 만들려고 합니다. 그런 다음, 해당 역할을 사용자에게 적절하게 할당할 수 있습니다. 
+
+#### <a name="prerequisite"></a>필수 조건
+
+다음 두 절차를 수행하려면 앱용 CDS 데이터베이스에 대한 **시스템 관리자** 권한이 있어야 합니다.
 
 #### <a name="create-a-security-role"></a>보안 역할 만들기
 

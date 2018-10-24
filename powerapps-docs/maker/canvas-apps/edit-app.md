@@ -1,6 +1,6 @@
 ---
-title: 앱 편집 | Microsoft Docs
-description: 앱 편집 및 세션 잠금 시나리오에 대한 단계별 지침입니다.
+title: 캔버스 앱 편집 | Microsoft Docs
+description: PowerApps에서 캔버스 앱 및 세션 잠금 시나리오를 편집하기 위한 단계별 지침입니다.
 author: karthik-1
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,19 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 05/19/2017
 ms.author: sharik
-ms.openlocfilehash: b5678437ea1e604ce2932307d897f280f4633fc0
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 97dc8b245da9dc48a67f22243f11cf26b7bd6d8e
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39194950"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42835078"
 ---
-# <a name="edit-an-app-in-powerapps"></a>PowerApps에서 앱 편집
-빌드하거나 소유하거나 **편집할 수 있는** 사용 권한이 있는 앱을 편집합니다. PowerApps Studio에서 앱을 편집할 수 있습니다. 다른 위치에서 편집을 위해 열려 있는 앱을 편집하려고 하면 이미 열려 있거나 다른 사용자가 사용 중인지 여부를 알리는 메시지가 표시됩니다.
+# <a name="edit-a-canvas-app-in-powerapps"></a>PowerApps에서 캔버스 앱 편집
+빌드하거나 소유하거나 **편집할 수 있는** 사용 권한이 있는 캔버스 앱을 편집합니다. PowerApps Studio에서 앱을 편집할 수 있습니다. 다른 위치에서 편집을 위해 열려 있는 앱을 편집하려고 하면 이미 열려 있거나 다른 사용자가 사용 중인지 여부를 알리는 메시지가 표시됩니다.
 
 ## <a name="verify-your-permissions"></a>사용 권한 확인
 1. [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인한 다음, **파일** 메뉴(왼쪽 모서리)에서 **앱**을 클릭하거나 탭합니다.

@@ -1,6 +1,6 @@
 ---
-title: PowerApps에서 SharePoint에 대한 연결 만들기 | Microsoft Docs
-description: powerapps.com에서 앱을 자동으로 생성하거나 처음부터 새로 빌드하는 데 사용하도록 SharePoint에 대한 연결을 만듭니다.
+title: 캔버스 앱에서 SharePoint로의 연결 만들기 | Microsoft Docs
+description: PowerApps에서 캔버스 앱을 자동으로 생성하거나 처음부터 새로 빌드하는 데 사용하도록 SharePoint에 대한 연결을 만듭니다.
 author: AFTOwen
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,19 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 09/03/2016
 ms.author: anneta
-ms.openlocfilehash: 0e0b98277548d188071bcd29b9e3168de5818321
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 170115f07da57878c553a1776fc26a9cd27a8258
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195867"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42844158"
 ---
 # <a name="create-a-connection-to-sharepoint-from-powerapps"></a>PowerApps에서 SharePoint에 대한 연결 만들기
-SharePoint Online 또는 온-프레미스 SharePoint 중 하나에 대한 연결을 만들면 앱을 자동으로 생성하거나 처음부터 새로 빌드할 수 있습니다.
+SharePoint Online 또는 온-프레미스 SharePoint 중 하나에 대한 연결을 만들면 캔버스 앱을 자동으로 생성하거나 처음부터 새로 빌드할 수 있습니다.
 
 PowerApps에 대해 잘 모르는 경우 [PowerApps 소개](getting-started.md)를 참조하세요.
 

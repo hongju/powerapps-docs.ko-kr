@@ -6,14 +6,20 @@ manager: kvivek
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: conceptual
-ms.date: 07/30/2018
+ms.date: 08/15/2018
 ms.author: manasma
-ms.openlocfilehash: 02b25dd627e85b638a113c1c0aceee16d7df6275
-ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
+search.audienceType:
+- admin
+search.app:
+- D365CE
+- PowerApps
+- Powerplatform
+ms.openlocfilehash: 976ecbd9eeaff0ee5a274b943d4d35c21568201d
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2018
-ms.locfileid: "39349090"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42864271"
 ---
 # <a name="administer-environments-in-powerapps"></a>PowerApps에서 환경 관리
 [PowerApps 관리 센터][1]에서 사용자가 만든 환경은 물론, Environment Admin 또는 System Administrator 역할에 추가된 환경을 관리합니다. 관리 센터에서 다음 관리 작업을 수행할 수 있습니다.
@@ -178,7 +184,7 @@ Azure AD 또는 Office 365 테넌트의 전역 관리자 역할의 멤버인 경
 PowerApps 요금제 2.  이 라이선스가 포함된 모든 요금제에 대한 자세한 내용은 [PowerApps 가격 페이지][3]를 참조하세요.
 
 ### <a name="while-trying-to-create-a-new-environment-i-am-getting-an-error-how-should-i-resolve-it"></a>새 환경을 만드는 동안 오류가 나타납니다. 이를 해결하려면 어떻게 해야 하나요?
-"사용자의 계획이 선택한 환경 형식을 지원하지 않거나 해당 유형의 환경에 대한 제한에 도달했습니다"라는 오류 메시지가 표시되는 경우 두 가지 중 하나를 의미
+"사용자의 계획이 선택한 환경 형식을 지원하지 않거나 해당 유형의 환경에 대한 제한에 도달했습니다"라는 오류 메시지가 표시되면 다음 두 가지 중 하나를 의미할 수 있습니다.
 
 1. 특정 유형의 환경을 만들기 위한 할당량을 이미 사용 했습니다. 평가판 환경을 만들고 있는 경우 이 오류 메시지가 나타납니다. 즉, 두 가지 평가판 환경을 이미 프로비전했습니다. [PowerApps 관리 센터][1]에서 모든 환경을 볼 수 있습니다.
 원하는 경우 해당 형식의 기존 환경을 삭제하고 새 환경을 만들 수 있습니다. 그러나 유지하려는 데이터, 앱, 흐름 및 기타 리소스를 손실하지 않는지 확인하십시오.
@@ -190,14 +196,8 @@ PowerApps 요금제 2.  이 라이선스가 포함된 모든 요금제에 대한
 ### <a name="while-trying-to-create-a-database-in-an-environment-i-am-getting-an-error-how-should-i-resolve-it"></a>환경에서 새 데이터베이스를 만드는 동안 오류가 나타납니다. 이를 해결하려면 어떻게 해야 하나요?
 다음 시나리오에서 데이터베이스를 만드는 동안 오류가 나타날 수 있습니다.
 
-1. **기본 환경**: 현재 데이터베이스 만들기는 테넌트의 기본 환경에서 지원되지 않습니다. 
-
-2. **개별 사용을 위한 환경**: PowerApps 커뮤니티 계획에서 로그인하여 개별 사용을 위한 환경을 가져옵니다. 데이터베이스를 아직 만들지 못한 경우 현재로서는 개별 사용을 위한 환경에서 데이터베이스를 프로비전할 수 없습니다. 
-
-3. **AAD 테넌트의 소속 지역과 다른 지역의 환경**: 현재 Azure Active Directory 테넌트 소속 지역에서 만들어진 환경에서 데이터베이스만 프로비전할 수 있습니다. 다른 지역에서 데이터베이스를 프로비전하기 위한 기능이 곧 서비스될 예정입니다. 따라서 테넌트의 기본 위치와 동일한 지역에서 데이터베이스를 만들려는 경우 해당 지역을 유지하도록 확인하십시오.
-
-4. **특정 지역에서 지원되지 않는 데이터베이스 만들기**: 데이터베이스 만들기를 아직 사용할 수 없는 특정 지역이 있습니다. 예: 남아메리카 국가. 테넌트의 소속 위치가 남아메리카인 경우 현재 모든 환경에서 데이터베이스를 프로비전할 수 없습니다. 
-    
+**기본 환경**: 현재 데이터베이스 만들기는 테넌트의 기본 환경에서 지원되지 않습니다. 
+  
 위 시나리오를 모두 사용하도록 노력하고 있습니다.
 다른 오류 메시지가 나타나거나 추가 질문이 있는 경우 [여기][5]에 연결 하십시오.
 

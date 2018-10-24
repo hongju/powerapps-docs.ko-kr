@@ -1,6 +1,6 @@
 ---
-title: 웹 브라우저에서 앱 실행을 위한 빠른 시작 | Microsoft Docs
-description: 이 빠른 시작에서는 웹 브라우저에서 앱을 실행하는 방법에 대해 알아봅니다.
+title: 웹 브라우저에서 앱 실행 | Microsoft Docs
+description: 이 항목에서는 웹 브라우저에서 앱을 실행하는 방법 알아보기
 author: Mattp123
 ms.service: powerapps
 ms.component: pa-user
@@ -11,15 +11,20 @@ manager: kvivek
 ms.custom: ''
 ms.reviewer: ''
 ms.assetid: ''
-ms.openlocfilehash: b0b0cb39cf0a7d49ca24d31c2803ae463df2f97e
-ms.sourcegitcommit: bcfefb30b12cf94815dd9a0fd8cad29a8272d96e
+search.audienceType:
+- enduser
+search.app:
+- PowerApps
+- D365CE
+ms.openlocfilehash: f72d4b5192bd30da676e65e232bc2a3090cb77bb
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2018
-ms.locfileid: "37925642"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42832428"
 ---
-# <a name="quickstart-run-an-app-in-a-web-browser"></a>빠른 시작: 웹 브라우저에서 앱 실행
-앱을 만들거나 다른 사용자가 앱을 공유하는 경우 Windows, iOS, Android 또는 웹 브라우저에서 해당 앱을 사용할 수 있습니다. 이 빠른 시작에서는 [Dynamics 365 홈페이지](https://home.dynamics.com)에서 웹 브라우저로 캔버스 또는 모델 기반 앱을 실행하는 방법을 알아봅니다.
+# <a name="run-an-app-in-a-web-browser"></a>웹 브라우저에서 앱 실행
+앱을 만들거나 다른 사용자가 앱을 공유하는 경우 Windows, iOS, Android 또는 웹 브라우저에서 해당 앱을 사용할 수 있습니다. 이 항목에서는 [Dynamics 365 홈페이지](https://home.dynamics.com)에서 웹 브라우저로 캔버스 또는 모델 기반 앱을 실행하는 방법을 알아봅니다.
 
 이 빠른 시작을 수행하려면 다음이 필요합니다.
 - PowerApps 라이선스 [PowerApps Plan 2 평가판](https://docs.microsoft.com/powerapps/maker/signup-for-powerapps)이나 [Microsoft Office 365](https://signup.microsoft.com/Signup?OfferId=467eab54-127b-42d3-b046-3844b860bebf&dl=O365_BUSINESS_PREMIUM&ali=1) 중 하나 또는 PowerApps가 포함된 [Dynamics 365](https://dynamics.microsoft.com/pricing/) 요금제와 같은 PowerApps 요금제로 제공됩니다. 
@@ -62,7 +67,7 @@ ms.locfileid: "37925642"
 앱을 닫으려면 Dynamics 365 홈페이지에서 로그아웃하거나 다른 앱을 엽니다.
 
 ## <a name="next-steps"></a>다음 단계
-이 빠른 시작에서는 웹 브라우저에서 캔버스 또는 모델 기반 앱을 실행하는 방법을 알아봅니다. 모바일 장치에서 캔버스 앱을 실행하는 방법을 알아보려면 다음 빠른 시작을 계속 진행합니다.
+이 항목에서는 웹 브라우저에서 캔버스 또는 모델 기반 앱을 실행하는 방법을 알아봅니다. 모바일 장치에서 캔버스 앱을 실행하는 방법을 알아보려면 다음 항목을 계속 진행합니다.
 
 > [!div class="nextstepaction"]
 > [모바일 장치에서 캔버스 앱 실행](run-app-client.md)

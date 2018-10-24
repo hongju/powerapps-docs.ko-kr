@@ -1,6 +1,6 @@
 ---
-title: 화면 크기 및 방향 변경 | Microsoft Docs
-description: 화면 크기 및 방향 등 설정 변경에 대한 단계별 지침
+title: 캔버스 앱의 화면 크기 및 방향 변경 | Microsoft Docs
+description: PowerApps에서 캔버스 앱의 화면 크기 및 방향과 같은 설정을 변경하는 단계별 지침
 author: lonu
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,19 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 10/16/2016
 ms.author: lonu
-ms.openlocfilehash: 0f68fa188dd58b276dce4009cdb37fed33d81d69
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: ab41707c06faa11dd2e1d519b72fb35ff6b9914a
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39015918"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42835586"
 ---
-# <a name="change-screen-size-and-orientation-in-powerapps"></a>PowerApps에서 화면 크기 및 방향 변경
-화면 크기와 방향을 변경하여 앱을 사용자 지정합니다.
+# <a name="change-screen-size-and-orientation-of-a-canvas-app-in-powerapps"></a>PowerApps에서 캔버스 앱의 화면 크기 및 방향 변경
+화면 크기와 방향을 변경하여 캔버스 앱을 사용자 지정합니다.
 
 ## <a name="prerequisites"></a>필수 조건
 1. 앱을 만들거나 편집을 위해 엽니다.

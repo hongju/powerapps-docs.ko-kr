@@ -9,12 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 06/05/2018
 ms.author: gregli
-ms.openlocfilehash: b36510dc7c7dce9a0f49e4c3ab5e2e12cd15fa62
-ms.sourcegitcommit: 0f6d7bb9e524202c065b9a7ef92a7f54bdc4bc7c
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 752bb630c1ecd1e86f37a1a063bcc5ee192431f0
+ms.sourcegitcommit: 3aeb9381fbeb66cf08355d9a3d0f00ce2737e256
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39018034"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43163640"
 ---
 # <a name="formula-reference-for-powerapps"></a>PowerApps에 대한 수식 참조
 수식은 많은 요소를 결합합니다.  아래 나열되어 있습니다.
@@ -157,6 +161,8 @@ ms.locfileid: "39018034"
 
 ## <a name="g"></a>G
 **[GroupBy](functions/function-groupby.md)** – 함께 그룹화된 레코드가 있는 테이블을 반환합니다.
+
+**[GUID](functions/function-guid.md)** - GUID 문자열을 GUID 값으로 변환하거나 새 GUID 값을 만듭니다.
 
 ## <a name="h"></a>H
 **[HashTags](functions/function-hashtags.md)** – 문자열에서 해시태그(#strings)를 추출합니다.

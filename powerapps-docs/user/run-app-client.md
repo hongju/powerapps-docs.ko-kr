@@ -1,6 +1,6 @@
 ---
-title: 모바일 장치에서 캔버스 기반 앱을 실행하기 위한 빠른 시작 | Microsoft Docs
-description: 이 빠른 시작에서는 모바일 장치에서 캔버스 앱을 실행하는 방법에 대해 알아봅니다.
+title: 모바일 장치에서 캔버스 기반 앱 실행 | Microsoft Docs
+description: 모바일 장치에서 캔버스 앱을 실행하는 방법에 대해 알아봅니다.
 author: Mattp123
 ms.service: powerapps
 ms.component: pa-user
@@ -10,17 +10,22 @@ ms.author: matp
 ms.custom: ''
 ms.reviewer: ''
 ms.assetid: ''
-ms.openlocfilehash: a80042065a830bb9d34007131cccbd995279e3dd
-ms.sourcegitcommit: bcfefb30b12cf94815dd9a0fd8cad29a8272d96e
+search.audienceType:
+- enduser
+search.app:
+- PowerApps
+- D365CE
+ms.openlocfilehash: ace1a40e8d7900d93e2ff902705f6f50e1d7a193
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2018
-ms.locfileid: "37925711"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42851887"
 ---
-# <a name="quickstart-run-a-canvas-app-on-a-mobile-device"></a>빠른 시작: 모바일 장치에서 캔버스 앱 실행
-앱을 만들거나 다른 사용자가 앱을 공유하는 경우 Windows, iOS, Android 또는 웹 브라우저에서 해당 앱을 사용할 수 있습니다. 이 빠른 시작에서는 모바일 장치에서 캔버스 앱을 실행하는 방법에 대해 알아봅니다. 모바일 장치에서 실행되는 앱은 위치 서비스 및 카메라와 같은 장치 기능을 활용할 수 있습니다.
+# <a name="run-a-canvas-app-on-a-mobile-device"></a>모바일 장치에서 캔버스 앱 실행
+앱을 만들거나 다른 사용자가 앱을 공유하는 경우 Windows, iOS, Android 또는 웹 브라우저에서 해당 앱을 사용할 수 있습니다. 이 항목에서는 모바일 장치에서 캔버스 앱을 실행하는 방법에 대해 알아봅니다. 모바일 장치에서 실행되는 앱은 위치 서비스 및 카메라와 같은 장치 기능을 활용할 수 있습니다.
 
-이 빠른 시작을 수행하려면 PowerApps에 가입되지 않은 경우 시작하기 전에 [체험 등록](https://web.powerapps.com/signup?redirect=marketing&email=)을 수행한 다음, [지원되는 운영 체제](../maker/canvas-apps/limits-and-config.md)에서 실행되는 iPhone, iPad 또는 Android 장치에서 [App Store](https://itunes.apple.com/app/powerapps/id1047318566?mt=8) 또는 [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.msapps)에서 PowerApps를 다운로드합니다. 또한, 자신이 만들거나 다른 사용자가 만들고 공유한 캔버스 앱에 대한 액세스 권한이 있는지 확인합니다.
+이 절차를 수행하려면 PowerApps에 가입되지 않은 경우 시작하기 전에 [체험 등록](https://web.powerapps.com/signup?redirect=marketing&email=)을 수행한 다음, [지원되는 운영 체제](../maker/canvas-apps/limits-and-config.md)에서 실행되는 iPhone, iPad 또는 Android 장치의 [App Store](https://itunes.apple.com/app/powerapps/id1047318566?mt=8) 또는 [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.msapps)에서 PowerApps를 다운로드합니다. 또한, 자신이 만들거나 다른 사용자가 만들고 공유한 캔버스 앱에 대한 액세스 권한이 있는지 확인합니다.
 
 ## <a name="open-powerapps-and-sign-in"></a>PowerApps 열기 및 로그인
 모바일 장치에서 PowerApps를 열고 Azure Active Directory 자격 증명을 사용하여 로그인합니다.
@@ -52,7 +57,7 @@ ms.locfileid: "37925711"
 
 실행하려는 앱의 이름을 알고 있는 경우, Powerapps 맨 위에 있는 검색 아이콘을 탭한 다음, 검색 상자에 해당 이름의 일부를 입력할 수 있습니다.
 
-![검색](./media/run-app-client/search.png)
+![Search](./media/run-app-client/search.png)
 
 앱을 필터링한 경우 필터링한 목록을 검색합니다.
 
@@ -77,7 +82,7 @@ PowerApps를 처음 사용할 경우 화면에 앱을 종료하기 위한 살짝
 앱을 닫으려면 손가락으로 앱을 왼쪽에서 오른쪽으로 살짝 밉니다. Android 장치에서는 뒤로 단추를 누른 다음, 앱의 종료 여부를 확인합니다.
 
 ## <a name="next-steps"></a>다음 단계
-이 빠른 시작에서는 모바일 장치에서 캔버스 앱을 실행하는 방법에 대해 알아봅니다. 또한 모바일 장치에서 모델 기반 앱을 실행할 수 있습니다.
+이 항목에서는 모바일 장치에서 캔버스 앱을 실행하는 방법을 배웠습니다. 또한 모바일 장치에서 모델 기반 앱을 실행할 수 있습니다.
 
 > [!div class="nextstepaction"]
 > [모바일 장치에서 모델 기반 앱 실행](run-app-client-model-driven.md)

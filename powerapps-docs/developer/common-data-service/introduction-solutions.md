@@ -15,21 +15,27 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/19/2018
 ms.author: jdaly
-ms.openlocfilehash: b9e06888a23426a44eeaf4354bf456dd8b15cfad
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+search.audienceType:
+- developer
+search.app:
+- PowerApps
+- D365CE
+ms.openlocfilehash: bcf89d9c52e1e277f65f7f02013885f30862aa56
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42864982"
 ---
 # <a name="introduction-to-solutions"></a>솔루션 소개
 
-*솔루션*은 사용자 지정자 및 개발자가 Common Data Service for Apps를 확장하는 소프트웨어 단위를 작성, 패키징 및 유지 관리하는 방법을 다룹니다. 조직에서 Common Data Service for Apps를 사용하여 솔루션에 정의된 비즈니스 기능을 설치 및 제거할 수 있도록 사용자 지정자 및 개발자가 솔루션을 배포 합니다.
+*솔루션*은 사용자 지정자 및 개발자가 앱용 Common Data Service를 확장하는 소프트웨어 단위를 작성, 패키징 및 유지 관리하는 방법을 다룹니다. 예를 들어 영업, 마케팅, 고객 서비스 앱을 위한 Dynamics 365는 솔루션으로 구성됩니다. 조직에서 앱용 Common Data Service를 사용하여 솔루션에 정의된 비즈니스 기능을 설치 및 제거할 수 있도록 사용자 지정자 및 개발자가 솔루션을 배포합니다.
 
-Common Data Service for Apps에 대한 모든 사용자 지정은 솔루션의 일부입니다. 적용되는 모든 변경 내용이 추적되며 종속성을 계산할 수 있습니다. 관리 솔루션을 내보낼 때 관리 솔루션은 해당 솔루션에 적용된 모든 변경 내용을 한 파일에 포함하며, 이 파일을 다른 Common Data Service for Apps 환경으로 가져올 수 있습니다.
+앱용 Common Data Service 또는 이전에 설치된 솔루션에 대한 모든 사용자 지정은 솔루션의 일부입니다. 적용되는 모든 변경 내용이 추적되며 종속성을 계산할 수 있습니다. 관리 솔루션을 내보낼 때 관리 솔루션은 해당 솔루션에 적용된 모든 변경 내용을 한 파일에 포함하며, 이 파일을 다른 Common Data Service for Apps 환경으로 가져올 수 있습니다.
 
 AppSource를 사용하여 여러 Common Data Service for Apps 환경 간에 사용자 지정 또는 확장을 전송하거나 솔루션을 배포하려는 경우 솔루션 프레임워크를 알고 있어야 합니다.
 
-## <a name="unmanaged-and-managed-solutions"></a>비관리 및 관리 솔루션
+## <a name="managed-and-unmanaged-solutions"></a>관리 및 비관리 솔루션
 
 *관리* 및 *비관리*의 두 가지 솔루션이 있습니다.
 
@@ -39,8 +45,8 @@ AppSource를 사용하여 여러 Common Data Service for Apps 환경 간에 사�
 - 비관리 사용자 지정을 관리 솔루션의 구성 요소에 추가할 수 있습니다. 이렇게 하면 비관리 사용자 지정과 관리 솔루션 사이에 종속성이 생성됩니다. 종속성이 있으면 종속성을 제거하기 전까지는 관리 솔루션을 제거할 수 없습니다.
 - 관리 솔루션을 삭제(제거)하면 그 안에 포함된 모든 사용자 지정 및 확장도 제거됩니다.
 
- > [!IMPORTANT]
- > 관리 솔루션을 제거하면 관리 솔루션의 일부인 사용자 지정 엔터티에 저장된 데이터, 관리 솔루션의 일부가 아닌 다른 엔터티의 관리 솔루션 일부인 사용자 지정 특성에 저장되는 데이터가 손실됩니다.
+  > [!IMPORTANT]
+  > 관리 솔루션을 제거하면 관리 솔루션의 일부인 사용자 지정 엔터티에 저장된 데이터, 관리 솔루션의 일부가 아닌 다른 엔터티의 관리 솔루션 일부인 사용자 지정 특성에 저장되는 데이터가 손실됩니다.
 
 **비관리** 솔루션은 아직 개발 중이거나 배포용이 아닌 솔루션입니다. 
 - 비관리 솔루션인 경우 계속해서 구성 요소를 추가하고 제거할 수 있습니다. 
@@ -48,10 +54,11 @@ AppSource를 사용하여 여러 Common Data Service for Apps 환경 간에 사�
 - 비관리 솔루션이 삭제되면 그 안에 포함된 사용자 지정의 솔루션 컨테이너만 삭제됩니다. 모든 비관리 사용자 지정은 계속 적용되며 기본 솔루션에 속합니다. 
 - 비관리 솔루션이 완성되고 배포하기를 원하는 경우 관리 솔루션으로 내보내야 합니다.
 
- > [!NOTE]
- > 원래 비관리 솔루션이 포함된 동일한 환경으로 관리 솔루션을 가져올 수 없습니다. 관리 솔루션을 테스트하려면 관리 솔루션을 가져올 수 있는 별도의 환경이 필요합니다.
+  > [!NOTE]
+  > 원래 비관리 솔루션이 포함된 동일한 환경으로 관리 솔루션을 가져올 수 없습니다. 관리 솔루션을 테스트하려면 관리 솔루션을 가져올 수 있는 별도의 환경이 필요합니다.
 
 ## <a name="solution-publishers"></a>솔루션 게시자
+
 각 솔루션은 솔루션 게시자에 연결됩니다. 솔루션 게시자는 사용자 지정 접두사 값 외에도 게시자에게 문의하는 방법에 대한 정보를 제공합니다. 기본값은 `new`입니다.
 
 스키마 변경 내용이 솔루션의 일부로 포함되는 경우 솔루션 게시자 사용자 지정 접두사는 스키마 항목의 이름 앞에 붙습니다. 사용자 지정 작업에도 이 값이 붙습니다. 어떤 솔루션이 스키마 항목 또는 사용자 지정 작업을 추가했는지 쉽게 인식할 수 있으므로 유용합니다. 솔루션의 모든 스키마 항목 및 사용자 지정 작업에서 동일한 사용자 지정 접두사를 사용해야 하는 것은 아니지만, 그렇게 하시기를 강력하게 권장합니다.
@@ -67,7 +74,7 @@ AppSource를 사용하여 여러 Common Data Service for Apps 환경 간에 사�
 
 솔루션 게시자 및 솔루션을 만들려면 Dynamics 365 사용자 지정 영역으로 이동해야 합니다.
 
-[powerapps.com](https://web.powerapps.com)에서
+[powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서
 
 1. 왼쪽 위 모서리에서 *와플* 아이콘을 선택합니다.
 2. 플라이아웃에서 **모든 앱**을 선택합니다.
@@ -116,7 +123,7 @@ Common Data Service for Apps는 설치된 순서에 따라 관리 솔루션을 �
 
 이 예제에서 시스템 솔루션에 정의된 기본 동작은 관리 솔루션에 의해 재정의 또는 추가됩니다. 그 후 비관리 사용자 지정이 사용자 지정을 재정의 또는 추가하면 응용 프로그램에 표시됩니다.
 
-자세한 정보: [Dynamics 365 Customer Engagement 개발자 가이드: 비관리 및 관리 솔루션](/dynamics365/customer-engagement/developer/introduction-solutions#unmanaged-and-managed-solutions)
+자세한 정보: [Dynamics 365 Customer Engagement 개발자 가이드: 비관리 및 관리 솔루션](/dynamics365/customer-engagement/developer/introduction-solutions#managed-and-unmanaged-solutions)
 
 ## <a name="managed-properties"></a>관리 속성
 

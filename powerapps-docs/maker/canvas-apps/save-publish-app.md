@@ -1,6 +1,6 @@
 ---
-title: 앱 저장 및 게시 | Microsoft Docs
-description: 앱을 저장하고 게시하는 앱 결정자를 위한 단계별 지침
+title: 캔버스 앱 저장 및 게시 | Microsoft Docs
+description: 앱 작성자를 위한 캔버스 앱 저장 및 게시에 대한 단계별 지침
 author: AFTOwen
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,19 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 09/14/2017
 ms.author: anneta
-ms.openlocfilehash: faaf3ef6eefc41ad5b1d7cb2e6e34db57632cfaf
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: f52338d4eed8942259e7ae15a8df3b05c45a703d
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39194809"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42837015"
 ---
-# <a name="save-and-publish-an-app-in-powerapps"></a>PowerApps에서 앱 저장 및 게시
-앱에 대한 변경 내용을 저장할 때마다 앱을 편집하는 사용 권한이 있는 자신 및 다른 모든 사용자에 대해서만 자동으로 게시합니다. 변경이 끝나면 앱이 공유된 모든 사용자가 사용할 수 있도록 명시적으로 게시해야 합니다.
+# <a name="save-and-publish-a-canvas-app-in-powerapps"></a>PowerApps에서 캔버스 앱 저장 및 게시
+캔버스 앱에 대한 변경 내용을 저장할 때마다 사용자와 앱을 편집할 수 있는 권한이 있는 다른 모든 사람에 대해서만 자동으로 게시합니다. 변경이 끝나면 앱이 공유된 모든 사용자가 사용할 수 있도록 명시적으로 게시해야 합니다.
 
 앱을 공유하는 방법에 대한 정보는 [공유](share-app.md)를 참조하세요.
 

@@ -1,6 +1,6 @@
 ---
 title: 엔터티 메타데이터 | Microsoft Docs
-description: Common Data Service for Apps에서 사용되는 엔터티 메타데이터에 대해 알아봅니다.
+description: 앱용 Common Data Service에서 사용되는 엔터티 메타데이터에 대해 알아봅니다.
 services: ''
 suite: powerapps
 documentationcenter: na
@@ -15,15 +15,21 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/19/2018
 ms.author: jdaly
-ms.openlocfilehash: eb908978eee8d6473a46ca3894cee55ce4b036df
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+search.audienceType:
+- developer
+search.app:
+- PowerApps
+- D365CE
+ms.openlocfilehash: 60fafa90df656bb6d135a8cf7e2c2f3b4f8457da
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42840749"
 ---
 # <a name="entity-metadata"></a>엔터티 메타데이터
 
-각 엔터티는 구조적 데이터를 저장하는 기능을 제공합니다. 개발자의 경우 엔터티는 Common Data Servic에서 데이터로 작업할 때 사용할 클래스에 해당합니다.
+각 엔터티는 구조적 데이터를 저장하는 기능을 제공합니다. 개발자의 경우 엔터티는 앱용 Common Data Servic에서 데이터로 작업할 때 사용할 클래스에 해당합니다.
 
 ## <a name="entity-names"></a>엔터티 이름
 각 엔터티에는 만들어질 때 정의된 고유한 이름이 있습니다. 이 이름은 다음과 같이 여러 가지 방법으로 표시됩니다.
@@ -170,7 +176,7 @@ ms.lasthandoff: 03/22/2018
 **예**: `PhoneCall` 엔터티, `StateCode` 및 `StatusCode` 옵션
 
 
-|Column1  |Column2  |
+|`StateCode`|`StatusCode`|
 |---------|---------|
 |0: 시작됨|1: 시작됨|
 |1: 완료됨|2: 수행함 <br />4: 받음|

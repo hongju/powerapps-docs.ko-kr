@@ -1,6 +1,6 @@
 ---
 title: 특성 메타데이터 | Microsoft Docs
-description: Common Data Service for Apps에서 사용되는 특성 메타데이터에 대해 알아봅니다.
+description: 앱용 Common Data Service에서 특성 메타데이터 사용에 대해 알아봅니다.
 services: ''
 suite: powerapps
 documentationcenter: na
@@ -15,11 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/12/2018
 ms.author: jdaly
-ms.openlocfilehash: efe04d9bd9c761f432d16d4c9304c52e55503aeb
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+search.audienceType:
+- developer
+search.app:
+- PowerApps
+- D365CE
+ms.openlocfilehash: f6fcf3ba1e8e9773df65ac566a9d5c798f4d13a9
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42859164"
 ---
 # <a name="attribute-metadata"></a>특성 메타데이터
 
@@ -121,7 +127,7 @@ ms.lasthandoff: 03/22/2018
 |`ApplicationRequired`|2|**업무상 필수**|특성에 비즈니스와 관련된 값이 있어야 합니다.|
 |`Recommended`|3|**업무상 권장**|특성에 값이 있는 것이 좋습니다.|
 
-Common Data Service는 시스템에서 만든 특성에 대해서만 `SystemRequired` 옵션을 적용합니다. 사용자 지정 특성은 `SystemRequired` 옵션을 사용하도록 설정할 수 없습니다. 
+앱용 Common Data Service는 시스템에서 만든 특성에 대해서만 `SystemRequired` 옵션을 적용합니다. 사용자 지정 특성은 `SystemRequired` 옵션을 사용하도록 설정할 수 없습니다. 
 
 모델 기반 앱은 `ApplicationRequired` 옵션을 적용하고, `Recommended` 옵션에는 다른 프레젠테이션을 사용합니다. 사용자 지정 클라이언트의 작성자는 이 정보를 사용하여 유사한 유효성 검사 또는 프레젠테이션 옵션을 요구할 수 있습니다.
 
@@ -206,6 +212,7 @@ Common Data Service는 시스템에서 만든 특성에 대해서만 `SystemRequ
 옵션이 있는 각 특성은 [EnumAttributeMetadata](/dotnet/api/microsoft.xrm.sdk.metadata.enumattributemetadata)에서 상속받고 [OptionSet 속성](/dotnet/api/microsoft.xrm.sdk.metadata.enumattributemetadata.optionset)을 포함합니다. 이 속성은 [Options 속성](/dotnet/api/microsoft.xrm.sdk.metadata.optionsetmetadata.options) 내에 옵션이 포함된 [OptionSetMetadata](/dotnet/api/microsoft.xrm.sdk.metadata.optionsetmetadata)를 포함합니다. 
 
 조직 서비스를 사용하면 다음 메시지를 사용하여 옵션 집합에 대한 정보를 검색할 수 있습니다.
+
 |요청 클래스|설명|
 |--|--|
 |[RetrieveAllOptionSetsRequest](/dotnet/api/microsoft.xrm.sdk.messages.retrievealloptionsetsrequest) |모든 *글로벌* 옵션 집합에 관한 데이터를 검색합니다|

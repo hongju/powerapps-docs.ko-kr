@@ -1,6 +1,6 @@
 ---
 title: Common Data Service for Apps 엔터티 | Microsoft Docs
-description: Common Data Service for Apps에서 사용 가능한 엔터티에 대해 알아봅니다.
+description: 앱용 Common Data Service에서 사용 가능한 엔터티에 대해 알아봅니다.
 services: ''
 suite: powerapps
 documentationcenter: na
@@ -15,15 +15,21 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/19/2018
 ms.author: jdaly
-ms.openlocfilehash: 98f2360e29af7cb0bdf5caf041dfa13b933e6323
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+search.audienceType:
+- developer
+search.app:
+- PowerApps
+- D365CE
+ms.openlocfilehash: f40c05c3bdab521cb1230be15cefc5dbb58eac18
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42844229"
 ---
 # <a name="common-data-service-for-apps-entities"></a>Common Data Service for Apps 엔터티
 
-Common Data Service for Apps의 가장 중요한 기능은 데이터에 대한 저장소를 제공하는 기능입니다. Common Data Service는 비즈니스 응용 프로그램에서 사용되는 데이터에 대한 구조를 제공하는 기본 엔터티 집합을 포함하고 있습니다. 
+앱용 Common Data Service의 가장 중요한 기능은 데이터에 대한 저장소를 제공하는 기능입니다. Common Data Service는 비즈니스 응용 프로그램에서 사용되는 데이터에 대한 구조를 제공하는 기본 엔터티 집합을 포함하고 있습니다. 
 
 [Common Data Service for Apps 엔터티 참조](reference/about-entity-reference.md)에서 기본 엔터티 집합을 볼 수 있습니다.
 
@@ -45,11 +51,11 @@ Common Data Service for Apps의 가장 중요한 기능은 데이터에 대한 �
 
 ### <a name="import-a-solution"></a>솔루션 가져오기
 
-솔루션은 엔터티 메타데이터 및 기타 사용자 지정된 구성 요소를 포함할 수 있습니다. 관리 또는 비관리 솔루션을 Common Data Service 테넌트로 가져오면 해당 엔터티가 포함되거나 포함하고 있는 새 엔터티 메타데이터를 사용하여 기존 엔터티가 확장됩니다.
+솔루션은 엔터티 메타데이터 및 기타 사용자 지정된 구성 요소를 포함할 수 있습니다. 관리 또는 비관리 솔루션을 앱용 Common Data Service 테넌트로 가져오면 해당 엔터티가 포함되거나 포함하고 있는 새 엔터티 메타데이터를 사용하여 기존 엔터티가 확장됩니다.
 
 ### <a name="from-a-data-source-using-power-query"></a>Microsoft Excel용 파워 쿼리를 사용하여 데이터 원본에서
 
-Microsoft Excel용 파워 쿼리를 사용하여 새 엔터티를 만들고 데이터를 채울 수 있습니다. 자세한 정보: [Microsoft Excel용 파워 쿼리를 사용하여 Common Data Service의 엔터티에 데이터 추가](../../maker/common-data-service/data-platform-cds-newentity-pq.md)
+Microsoft Excel용 파워 쿼리를 사용하여 새 엔터티를 만들고 데이터를 채울 수 있습니다. 자세한 정보: [Power Query를 사용하여 Common Data Service의 엔터티에 데이터 추가](../../maker/common-data-service/data-platform-cds-newentity-pq.md)
 
 ### <a name="use-metadata-services"></a>메타데이터 서비스 사용
 
@@ -59,7 +65,7 @@ Common Data Service에 노출되는 웹 서비스는 엔터티 메타데이터�
 
 ## <a name="entity-metadata"></a>엔터티 메타데이터
 
-데이터 모델은 Common Data Service에 저장되는 메타데이터로 정의됩니다. 스키마에 대한 이 데이터를 *엔터티 메타데이터*라고 합니다. 
+데이터 모델은 Common Data Service 내에 저장되는 메타데이터로 정의됩니다. 스키마에 대한 이 데이터를 *엔터티 메타데이터*라고 합니다. 
 
 - [EntityMetadata 클래스](/dotnet/api/microsoft.xrm.sdk.metadata.entitymetadata)는 조직 서비스를 통해 이 데이터를 정의합니다. 
 - [EntityMetadata EntityType](/dynamics365/customer-engagement/web-api/entitymetadata)은 Web API에 대해 이 데이터를 정의합니다. 

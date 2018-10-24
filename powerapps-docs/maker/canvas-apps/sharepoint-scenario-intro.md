@@ -1,6 +1,6 @@
 ---
 title: SharePoint Online과 PowerApps, Microsoft Flow 및 Power BI 통합(소개) | Microsoft Docs
-description: 이 시리즈의 자습서에서는 SharePoint 목록을 기반으로 하는 기본 프로젝트 관리 앱 및 SharePoint Online과 통합되는 세 가지 핵심 기술인 PowerApps, Microsoft Flow 및 Power BI를 구축하는 방법에 대해 설명합니다.
+description: 이 시리즈의 자습서에서는 SharePoint 목록 및 SharePoint Online과 통합되는 세 가지 핵심 기술인 PowerApps, Microsoft Flow 및 Power BI를 기반으로 프로젝트 관리를 위한 기본 캔버스 앱을 빌드하는 방법에 대해 설명합니다.
 author: mgblythe
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,19 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 12/19/2017
 ms.author: mblythe
-ms.openlocfilehash: e8a7860920f25572ec899ee93d501ed553ee62f9
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: fa2631d065425ab57e47dccbb470f577d6474f23
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39019575"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42831026"
 ---
 # <a name="integrate-powerapps-microsoft-flow-and-power-bi-with-sharepoint-online"></a>SharePoint Online과 PowerApps, Microsoft Flow 및 Power BI 통합
-SharePoint Online을 가지고 있고 비즈니스 프로세스를 더 효율적으로 자동화하고 간소화하고 싶습니까? PowerApps, Microsoft Flow 또는 Power BI를 사용해 보았습니까? 아니면 SharePoint Online에서 사용하는 방법에 대해 잘 알고 있지 않으십니까? 그렇다면 제대로 찾아오셨습니다! 이 시리즈의 자습서에서는 SharePoint 목록을 기반으로 하는 기본 프로젝트 관리 앱 및 SharePoint Online과 통합되는 세 가지 핵심 기술인 PowerApps, Microsoft Flow 및 Power BI를 구축하는 방법에 대해 설명합니다. 이러한 기술을 함께 사용하면 비즈니스를 *측정*하고 결과에서 *작동*하고 워크플로를 *자동화*할 수 있습니다. 이 시리즈를 마치면 다음과 같이 멋진 시나리오를 갖게 됩니다.
+SharePoint Online을 가지고 있고 비즈니스 프로세스를 더 효율적으로 자동화하고 간소화하고 싶습니까? PowerApps, Microsoft Flow 또는 Power BI를 사용해 보았습니까? 아니면 SharePoint Online에서 사용하는 방법에 대해 잘 알고 있지 않으십니까? 그렇다면 제대로 찾아오셨습니다! 이 시리즈의 자습서에서는 SharePoint 목록 및 SharePoint Online과 통합되는 세 가지 핵심 기술인 PowerApps, Microsoft Flow 및 Power BI를 기반으로 프로젝트 관리를 위한 기본 캔버스 앱을 빌드하는 방법에 대해 설명합니다. 이러한 기술을 함께 사용하면 비즈니스를 *측정*하고 결과에서 *작동*하고 워크플로를 *자동화*할 수 있습니다. 이 시리즈를 마치면 다음과 같이 멋진 시나리오를 갖게 됩니다.
 
 ![완성된 시나리오에 대한 다이어그램](./media/sharepoint-scenario-intro/composite-with-background.png)
 

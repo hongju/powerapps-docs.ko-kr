@@ -9,12 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 07/12/2017
 ms.author: ankitsar
-ms.openlocfilehash: 8019068155c88465f0f4202807fe763f2e4787b6
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 0a13d2602f06f436d4b805669b004f1ee63daeb9
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195522"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42836738"
 ---
 # <a name="connect-to-sharepoint-from-powerapps"></a>PowerApps에서 SharePoint 연결
 ![SharePoint](./media/connection-sharepoint-online/sharepointicon.png)
@@ -44,7 +48,7 @@ SharePoint 사이트에 연결하여 목록에서 앱을 자동으로 만들고 
 | 관리되는 메타데이터 |예(읽기 전용) | |
 | 등급 |아니요 | |
 
-공백을 포함한 열은 PowerApps에서 읽을 수 있지만 공백은 16진 이스케이프 코드 **"\_x0020\_"** 으로 대체됩니다. 예를 들어 SharePoint의 **"Column Name"** 은 데이터 레이아웃에 표시되거나 수식에 사용될 때 PowerApps에 **"Column_x0020_Name"** 으로 나타납니다.
+PowerApps는 공백이 포함된 열을 읽을 수 있지만 공백은 16진수 이스케이프 코드 **"\_x0020\_"** 으로 대체됩니다. 예를 들어 SharePoint의 **"Column Name"** 은 데이터 레이아웃에 표시되거나 수식에 사용될 때 PowerApps에 **"Column_x0020_Name"** 으로 나타납니다.
 
 ## <a name="prerequisites"></a>필수 조건
 1. PowerApps에 [등록](../../signup-for-powerapps.md)합니다.
@@ -103,7 +107,7 @@ SharePoint 사이트에 연결하여 목록에서 앱을 자동으로 만들고 
 
     ![SharePoint에서 테이블 선택](./media/connection-sharepoint-online/select-sp-tables.png)
 
-    일부 목록 형식은 기본적으로 표시되지 않습니다. 사용할 목록의 이름이 표시되지 않는 경우 아래쪽으로 스크롤한 다음 **사용자 지정 목록 이름 입력**이 포함된 상자에 목록 이름을 입력합니다.
+    일부 목록 형식은 기본적으로 표시되지 않습니다. PowerApps는 탬플릿 기반 목록이 아닌 사용자 지정 목록을 지원합니다.  사용할 목록의 이름이 표시되지 않는 경우 아래쪽으로 스크롤한 다음 **사용자 지정 목록 이름 입력**이 포함된 상자에 목록 이름을 입력합니다.
 
     ![SharePoint의 사용자 지정 목록](./media/connection-sharepoint-online/custom-list.png)
 
