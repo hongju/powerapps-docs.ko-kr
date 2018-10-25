@@ -5,7 +5,7 @@ author: jimholtz
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: conceptual
-ms.date: 03/21/2018
+ms.date: 10/24/2018
 ms.author: jimholtz
 search.audienceType:
 - admin
@@ -13,12 +13,12 @@ search.app:
 - D365CE
 - PowerApps
 - Powerplatform
-ms.openlocfilehash: ac0ae8032ea64734030bf95ff9b473553e462b3b
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: f4dd7ddb4eaaef56b5720287842a2b84cd10d345
+ms.sourcegitcommit: 097ddfb25eb0f09f0229b866668c2b02fa57df55
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42835152"
+ms.lasthandoff: 10/24/2018
+ms.locfileid: "49991818"
 ---
 # <a name="manage-apps-created-in-your-organization"></a>조직에서 만든 앱 관리 
 환경 관리자, Office 365 전역 관리자 또는 Azure Active Directory 테넌트 관리자인 경우, 조직에서 만든 앱을 관리할 수 있습니다.
@@ -49,7 +49,6 @@ ms.locfileid: "42835152"
 4. 다음 중 하나를 수행합니다.
 
     * 휴지통 아이콘을 클릭하거나 탭하여 앱을 삭제합니다.
-    * 앱의 소유자를 변경합니다.
     * 데이터 연결, 흐름 및 앱과 연결된 기타 세부 정보를 봅니다.
     * **공유**를 클릭하거나 탭하여 앱을 공유하는 사용자를 보거나 수정합니다.
 

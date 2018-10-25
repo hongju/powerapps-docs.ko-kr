@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: b1531289c55772aaa9ee521c92cc8b5dbfe16ad4
-ms.sourcegitcommit: 02d0234bd84352bf1c43d0fc9225ab60947a0add
+ms.openlocfilehash: 3d29387c907808f90225f1ff67257d289de2b0a9
+ms.sourcegitcommit: 2300de0a0486187762f830068c872116d5b04c32
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49317025"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "49806136"
 ---
 # <a name="generate-a-canvas-app-from-excel-in-powerapps"></a>PowerApps의 Excel에서 캔버스 앱 생성
 
@@ -28,13 +28,15 @@ Excel 파일은 OneDrive, Google Drive 또는 Dropbox와 같은 클라우드 저
 
 PowerApps에 대한 라이선스가 없으면 [무료로 등록](../signup-for-powerapps.md)할 수 있습니다.
 
-## <a name="prerequisites"></a>필수 조건 ##
+## <a name="prerequisites"></a>필수 조건
+
 이 항목을 정확히 수행하려면 Excel에서 [바닥재 견적](https://az787822.vo.msecnd.net/documentation/get-started-from-data/FlooringEstimates.xlsx) 파일을 다운로드하고, [클라우드 저장소 계정](connections/cloud-storage-blob-connections.md)에 저장합니다.
 
 > [!IMPORTANT]
 > 사용자 고유의 Excel 파일을 사용할 수 있지만 데이터는 테이블로 형식이 지정돼야 합니다. 자세한 내용은 [테이블 형식 지정](how-to-excel-tips.md)을 참조합니다. 
 
 ## <a name="generate-the-app"></a>앱 생성
+
 1. [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
 
 1. **고유한 앱 만들기** 아래에서 **데이터로 시작**을 마우스로 가리킨 다음, **이 앱 만들기**를 선택합니다.
@@ -54,6 +56,7 @@ PowerApps에 대한 라이선스가 없으면 [무료로 등록](../signup-for-p
     ![앱 만들기 옵션](./media/get-started-create-from-data/choose-table.png)
 
 ## <a name="run-the-app"></a>앱 실행
+
 1. F5 키를 눌러(또는 오른쪽 위 모서리의 재생 아이콘을 클릭하거나 탭하여) 미리 보기를 엽니다.
 
     ![미리 보기 열기](./media/get-started-create-from-data/open-preview.png)
@@ -73,6 +76,7 @@ PowerApps에 대한 라이선스가 없으면 [무료로 등록](../signup-for-p
 1. 추가한 레코드에 대한 다음 화살표를 클릭하거나 탭한 다음, 휴지통 아이콘을 클릭하거나 탭하여 해당 레코드를 삭제합니다.
 
 ## <a name="next-steps"></a>다음 단계
+
 사용자의 요구 사항에 맞게 기본 찾아보기 화면을 사용자 지정합니다. 예를 들어 범주별이 아닌 제품 이름별로 목록을 정렬 및 필터링할 수 있습니다.
 
 > [!div class="nextstepaction"]

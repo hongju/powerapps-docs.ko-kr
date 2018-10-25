@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: fa2631d065425ab57e47dccbb470f577d6474f23
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: afbb6211ee947abd59e74a0712dd080f6911ec65
+ms.sourcegitcommit: 2300de0a0486187762f830068c872116d5b04c32
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42831026"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "49806182"
 ---
 # <a name="integrate-powerapps-microsoft-flow-and-power-bi-with-sharepoint-online"></a>SharePoint Online과 PowerApps, Microsoft Flow 및 Power BI 통합
 SharePoint Online을 가지고 있고 비즈니스 프로세스를 더 효율적으로 자동화하고 간소화하고 싶습니까? PowerApps, Microsoft Flow 또는 Power BI를 사용해 보았습니까? 아니면 SharePoint Online에서 사용하는 방법에 대해 잘 알고 있지 않으십니까? 그렇다면 제대로 찾아오셨습니다! 이 시리즈의 자습서에서는 SharePoint 목록 및 SharePoint Online과 통합되는 세 가지 핵심 기술인 PowerApps, Microsoft Flow 및 Power BI를 기반으로 프로젝트 관리를 위한 기본 캔버스 앱을 빌드하는 방법에 대해 설명합니다. 이러한 기술을 함께 사용하면 비즈니스를 *측정*하고 결과에서 *작동*하고 워크플로를 *자동화*할 수 있습니다. 이 시리즈를 마치면 다음과 같이 멋진 시나리오를 갖게 됩니다.
@@ -31,7 +31,7 @@ SharePoint Online을 가지고 있고 비즈니스 프로세스를 더 효율적
 ## <a name="getting-started-quickly"></a>빠른 시작
 이 시리즈의 자습서에서 소개하는 시나리오는 완전한 프로젝트 관리 및 분석 앱에 비해 간단하지만, 모든 작업을 완료하는 데 약간의 시간이 걸립니다. SharePoint를 사용하여 PowerApps, Microsoft Flow 및 Power BI를 간단히 소개하려면 다음 문서를 확인하세요.
 
-* **PowerApps**: [PowerApps를 사용하여 SharePoint 내에서 앱 생성](generate-app-from-sharepoint-list-interface.md) 및 [SharePoint 목록의 데이터를 관리하는 앱 생성](app-from-sharepoint.md)
+* **PowerApps**: [PowerApps를 사용하여 SharePoint 내에서 앱 생성](app-from-sharepoint.md#generate-an-app-from-within-sharepoint-online) 및 [SharePoint 목록의 데이터를 관리하는 앱 생성](app-from-sharepoint.md)
 * **Microsoft Flow**: [Microsoft Flow에서 승인 대기](https://docs.microsoft.com/flow/wait-for-approvals)
 * **Power BI**: [SharePoint Online에서 보고서 웹 파트 포함](https://docs.microsoft.com/power-bi/service-embed-report-spo)
 

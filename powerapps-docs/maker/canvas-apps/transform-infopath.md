@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 3e17015c05d23f4bd9f8a0906e7b1d9d00e2c38f
-ms.sourcegitcommit: 6e2fa2665ded6ac6fd271e1a12f4e3227ebc8865
+ms.openlocfilehash: c2d72368b36f2de854a0aa575f9ef44f2f966ace
+ms.sourcegitcommit: 2300de0a0486187762f830068c872116d5b04c32
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/03/2018
-ms.locfileid: "48246054"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "49806228"
 ---
 # <a name="transform-your-infopath-form-to-powerapps"></a>InfoPath 양식을 PowerApps로 변환
 
@@ -76,7 +76,7 @@ PowerApps의 또 다른 중요한 특징은 같은 양식에서 다른 환경 �
 
 PowerApps가 사용자 지정 가능한 앱을 빌드합니다.
 
-첫 번째 앱에 지정할 수 있는 다른 유형을 나타내는 필드 한 쌍만 포함된 간단한 사용자 지정 목록으로 시작합니다. 그러면 전복되지 않는 견고한 토대를 빌드할 수 있습니다. 걱정하지 마세요. 순식간에 전문가가 되어 복잡한 앱을 만들어 낼 수 있습니다. 첫 번째 앱을 간단히 실행하기 위한 도움말은 이 [설명서](generate-app-from-sharepoint-list-interface.md) 또는 이 커뮤니티 [비디오](https://youtu.be/BnYe_7fpZRM)를 확인하세요. 아래의 예는 일반 InfoPath 작업 및 PowerApps에서 해당 작업을 수행하는 방법을 설명합니다. 이들 각각의 예는 간단한 SharePoint 목록 앱에서 수행한 것입니다.
+첫 번째 앱에 지정할 수 있는 다른 유형을 나타내는 필드 한 쌍만 포함된 간단한 사용자 지정 목록으로 시작합니다. 그러면 전복되지 않는 견고한 토대를 빌드할 수 있습니다. 걱정하지 마세요. 순식간에 전문가가 되어 복잡한 앱을 만들어 낼 수 있습니다. 첫 번째 앱을 간단히 실행하기 위한 도움말은 이 [설명서](app-from-sharepoint.md#generate-an-app-from-within-sharepoint-online) 또는 이 커뮤니티 [비디오](https://youtu.be/BnYe_7fpZRM)를 확인하세요. 아래의 예는 일반 InfoPath 작업 및 PowerApps에서 해당 작업을 수행하는 방법을 설명합니다. 이들 각각의 예는 간단한 SharePoint 목록 앱에서 수행한 것입니다.
 
 ## <a name="how-do-you-do-that-with-powerapps"></a>PowerApps로 빌드하는 방법
 
