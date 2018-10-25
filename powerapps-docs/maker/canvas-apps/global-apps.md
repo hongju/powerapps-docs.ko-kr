@@ -1,6 +1,6 @@
 ---
-title: 글로벌 지원 | Microsoft Docs
-description: 전 세계에 사용되는 앱을 빌드합니다.
+title: 캔버스 앱에 글로벌 지원 빌드 | Microsoft Docs
+description: PowerApps를 사용하여 전 세계에서 사용되는 앱을 빌드합니다.
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,19 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 10/25/2016
 ms.author: gregli
-ms.openlocfilehash: dbca12ff3acc4327f88269a2333fe066c7f2fbec
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 7ccd505d53377617bd13cda775cce489c554bc64
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39019805"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42862579"
 ---
-# <a name="global-support"></a>글로벌 지원
-PowerApps는 글로벌 제품입니다.  많은 다양한 언어와 지역에서 앱을 빌드하고 사용할 수 있습니다.
+# <a name="build-global-support-into-canvas-apps"></a>캔버스 앱에 글로벌 지원 빌드
+PowerApps는 글로벌 제품입니다. 많은 다양한 언어와 지역에서 캔버스 앱을 빌드하고 사용할 수 있습니다.
 
 앱을 빌드하고 실행하는 동안 PowerApps에서 표시되는 텍스트는 다양한 언어로 번역되었습니다.  따라서 메뉴 항목, 대화 상자, 리본 탭은 물론, 기타 텍스트를 모국어로 보게 될 것입니다.  날짜와 숫자의 입력과 표시도 특정 언어와 지역에 맞게 수정됩니다.  예를 들어 세계의 일부 지역에서는 "."를 소수 구분 기호로 사용하지만, 다른 지역에서는 ","를 사용합니다.  
 
