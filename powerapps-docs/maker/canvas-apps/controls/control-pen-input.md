@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 37e5a701bb21d6454699b449f34629746d1547d1
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: bad3dcf3b0268a8bb08036fec709281b2cbba253
+ms.sourcegitcommit: e4fe4b27651b62edb67e5995fc5955577d8ac5b8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42860160"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "49075360"
 ---
 # <a name="pen-input-control-in-powerapps"></a>PowerApps의 펜 입력 컨트롤
 사용자가 그리고 삭제하고 이미지의 영역을 강조 표시할 수 있는 컨트롤입니다.
@@ -27,6 +27,8 @@ ms.locfileid: "42860160"
 사용자는 이 컨트롤을 화이트보드처럼 사용하여 입력된 텍스트로 변환할 수 있는 다이어그램을 그리고 단어를 쓸 수 있습니다.
 
 ## <a name="key-properties"></a>주요 속성
+**Image** – 최종 사용자가 그린 이미지를 나타내는 출력 속성입니다.
+
 **[Color](properties-color-border.md)** – 입력 스트로크의 색입니다.
 
 **Mode** – 컨트롤이 **그리기** 또는 **삭제** 모드 상태입니다.  선택 모드는 사용되지 않습니다.
@@ -46,7 +48,7 @@ ms.locfileid: "42860160"
 
 **[Height](properties-size-location.md)** – 컨트롤의 위쪽 및 아래쪽 가장자리 사이의 간격입니다.
 
-**Input** – 입력합니다.
+**Input** - **사용되지 않음.** 입력 기능이 마우스, 펜 또는 터치 입력을 지원하는지 여부입니다.  기본값(7)은 세 가지를 모두 지원합니다.
 
 **[OnSelect](properties-core.md)** – 사용자가 앱을 클릭하거나 탭할 때 앱이 응답하는 방법입니다.
 

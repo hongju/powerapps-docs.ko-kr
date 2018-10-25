@@ -1,6 +1,6 @@
 ---
 title: PowerApps에서 Cognitive Services 사용 | Microsoft Docs
-description: Microsoft Cognitive Services Text Analytics API를 사용하여 텍스트를 분석하는 기본 앱을 빌드합니다.
+description: Microsoft Cognitive Services 텍스트 분석 API를 사용하여 텍스트를 분석하는 기본 캔버스 앱을 빌드합니다.
 author: AFTOwen
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,19 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 12/08/2017
 ms.author: anneta
-ms.openlocfilehash: 6175633b2fbec4e9949882c587916adb349290d4
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: df823f68842ad3c7a7497e6dce9cc3540520527e
+ms.sourcegitcommit: 3dc330d635aaf5bc689efa6bd39826d6e396c832
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195453"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "48875879"
 ---
 # <a name="use-cognitive-services-in-powerapps"></a>PowerApps에서 Cognitive Services 사용
-이 문서는 [Microsoft Cognitive Services Text Analytics API](https://docs.microsoft.com/azure/cognitive-services/text-analytics/overview)를 사용하여 텍스트를 분석하는 기본 앱 빌드 방법을 보여줍니다. Text Analytics API를 설정하고 [Text Analytics 커넥터](https://docs.microsoft.com/connectors/cognitiveservicestextanalytics/)와 연결하는 방식을 보여주고, 그런 다음 API를 호출하는 앱을 빌드하는 방법을 보여주려고 합니다.
+이 문서는 [Microsoft Cognitive Services 텍스트 분석 API](https://docs.microsoft.com/azure/cognitive-services/text-analytics/overview)를 사용하여 텍스트를 분석하는 기본 캔버스 앱 빌드 방법을 보여줍니다. Text Analytics API를 설정하고 [Text Analytics 커넥터](https://docs.microsoft.com/connectors/cognitiveservicestextanalytics/)와 연결하는 방식을 보여주고, 그런 다음, API를 호출하는 캔버스 앱을 빌드하는 방법을 살펴보겠습니다.
 
 > [!NOTE]
 > PowerApps에서 처음으로 앱을 빌드하는 경우에는 이 문서를 살펴 보기 전에 [앱을 처음부터 만들기](get-started-create-from-blank.md)를 읽어보는 것이 좋습니다.

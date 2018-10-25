@@ -7,18 +7,18 @@ ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
 ms.reviewer: anneta
-ms.date: 11/07/2015
+ms.date: 08/24/2018
 ms.author: gregli
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 6a7d511143a0b16e04ae31263dec9f6a4e04689e
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: 056c5e1142b3a34776e72f788f5b2cef9e3b2a27
+ms.sourcegitcommit: 3dc330d635aaf5bc689efa6bd39826d6e396c832
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42864359"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "48875902"
 ---
 # <a name="addcolumns-dropcolumns-renamecolumns-and-showcolumns-functions-in-powerapps"></a>PowerApps에서 AddColumns, DropColumns, RenameColumns 및 ShowColumns 함수
 해당 [열](../working-with-tables.md#columns)을 추가, 삭제, 이름 바꾸기 및 선택하여 [테이블](../working-with-tables.md)을 셰이프합니다.
@@ -42,7 +42,7 @@ ms.locfileid: "42864359"
 
 **DropColumns** 함수는 테이블에서 열을 제외합니다.  다른 모든 열은 수정되지 않고 유지됩니다. **DropColumns**는 열을 제외하고 **ShowColumns**는 열을 포함합니다.
 
-**RenameColumns** 함수는 테이블 열의 이름을 변경합니다. 다른 모든 열은 원래 이름을 유지합니다.
+**RenameColumns** 함수를 사용하여 테이블에 포함된 열의 이름(바꾸려는 이전 이름)과 테이블에 포함되지 않은 열의 이름(사용하려는 새 이름)을 지정하는 하나 이상의 인수 쌍을 제공하여 하나 이상의 테이블 열 이름을 바꿉니다. 이전 이름은 테이블에 이미 있어야 하고 새 이름이 없어야 합니다. 각 열 이름은 이전 열 이름이거나 새 열 이름이므로 인수 목록에 한 번만 나올 수 있습니다. 열 이름을 기존 열 이름으로 바꾸려면 먼저 **DropColumns**를 사용하여 기존 열을 삭제하거나 하나의 **RenameColumns** 함수를 다른 함수에 중첩하여 기존 열의 이름을 다른 열 중 하나로 바꿉니다.
 
 **ShowColumns** 함수는 테이블의 열을 포함하고 다른 모든 열을 삭제합니다. **ShowColumns**를 사용하여 다중 열 테이블에서 단일 열 테이블을 만들 수 있습니다.  **ShowColumns**는 열을 포함하고 **DropColumns**는 열을 제외합니다.  
 
@@ -62,11 +62,11 @@ ms.locfileid: "42864359"
 * *Table* - 필수 항목입니다.  연산을 수행할 테이블입니다.
 * *ColumnName(s)* - 필수 항목입니다. 삭제할 열의 이름입니다. 이 인수에 대해 문자열(예를 들어 큰따옴표가 포함된 **“Name”**)을 지정해야 합니다.
 
-**RenameColumns**( *Table*, *OldColumneName*, *NewColumnName* )
+**RenameColumns**( *Table*, *OldColumneName1*, *NewColumnName1* [, *OldColumnName2*, *NewColumnName2*, ... ] )
 
 * *Table* - 필수 항목입니다.  연산을 수행할 테이블입니다.
-* *OldColumnName* -필수 항목입니다. 이름을 변경할 열의 이름입니다. 이 이름은 문자열(예를 들어 큰따옴표가 포함된 **“Name”**)이어야 합니다.
-* *NewColumnName* - 필수 항목입니다. 교체 이름입니다. 이 인수에 대해 문자열(예를 들어 큰따옴표가 포함된 **“Customer Name”**)을 지정해야 합니다.
+* *OldColumnName* -필수 항목입니다. 원래 테이블에서 이름을 바꿀 열의 이름입니다. 이 요소는 인수 쌍의 맨 처음(또는 수식에 둘 이상의 쌍이 포함된 경우 각 인수 쌍의 처음)에 나타납니다. 이 이름은 문자열(예를 들어 큰따옴표가 포함된 **“Name”**)이어야 합니다.
+* *NewColumnName* - 필수 항목입니다. 교체 이름입니다. 이 요소는 인수 쌍 마지막(또는 수식에 둘 이상의 쌍이 포함된 경우 각 인수 쌍의 마지막)에 나타납니다. 이 인수에 대해 문자열(예를 들어 큰따옴표가 포함된 **“Customer Name”**)을 지정해야 합니다.
 
 **ShowColumns**( *Table*, *ColumnName1* [, *ColumnName2*, ... ] )
 
@@ -86,6 +86,7 @@ ms.locfileid: "42864359"
 | **DropColumns( IceCreamSales, “UnitPrice” )** |**UnitPrice** 열을 결과에서 제외합니다. 이 함수를 사용하여 열을 제외하고 **ShowColumns**를 사용하여 포함합니다. |![](media/function-table-shaping/icecream-drop-price.png) |
 | **ShowColumns( IceCreamSales, “Flavor” )** |**Flavor** 열만 결과에 포함합니다. 이 함수를 사용하여 열을 포함하고 **DropColumns**를 사용하여 제외합니다. |![](media/function-table-shaping/icecream-select-flavor.png) |
 | **RenameColumns( IceCreamSales, “UnitPrice”, “Price”)** |결과에서 **UnitPrice** 열 이름을 변경합니다. |![](media/function-table-shaping/icecream-rename-price.png) |
+| **RenameColumns( IceCreamSales, “UnitPrice”, “Price”, “QuantitySold”, “Number”)** |결과에서 **UnitPrice** 및 **QuantitySold** 열의 이름을 바꿉니다. |![](media/function-table-shaping/icecream-rename-price-quant.png) |
 | **DropColumns(<br>RenameColumns(<br>AddColumns( IceCreamSales, “Revenue”,<br>UnitPrice * QuantitySold ),<br>“UnitPrice”, “Price” ),<br>“Quantity” )** |다음 테이블 변환을 수식의 내부부터 순서대로 수행합니다. <ol><li>**UnitPrice * Quantity**의 레코드별 계산을 기반으로 **Revenue** 열을 추가합니다.<li>**UnitPrice**의 이름을 **Price**로 변경합니다.<li>**Quantity** 열을 제외합니다.</ol>  순서는 중요합니다. 예를 들어 이름이 변경된 후에는 **UnitPrice**로 계산할 수 없습니다. |![](media/function-table-shaping/icecream-all-transforms.png) |
 
 ### <a name="step-by-step"></a>단계별 가이드

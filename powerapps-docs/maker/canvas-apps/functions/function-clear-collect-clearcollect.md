@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 73279ba8fc0b640c24deb179a3737874bc0a55bf
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: 8a7c52962c23df5f2efcf76c04aeba528e94217c
+ms.sourcegitcommit: 464ee88a958dda11c5de5603c608deab6c9cdcab
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42835757"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48578745"
 ---
 # <a name="collect-clear-and-clearcollect-functions-in-powerapps"></a>PowerApps의 Collect, Clear, ClearCollect 함수
 [컬렉션](../working-with-data-sources.md#collections)을 만들고 지우고 [데이터 원본](../working-with-data-sources.md)에 [레코드](../working-with-tables.md#records)를 추가합니다.
@@ -82,10 +82,27 @@ ms.locfileid: "42835757"
 | **Collect( IceCream, {&nbsp;Flavor:&nbsp;"Pistachio",&nbsp;Quantity:&nbsp;40&nbsp;}, {&nbsp;Flavor:&nbsp;"Orange",&nbsp;Quantity:&nbsp;200&nbsp;}  )** |일정량의 Pistachio 및 Orange 아이스크림이 포함된 두 개의 레코드를 **IceCream** 컬렉션에 추가합니다. |![](media/function-clear-collect-clearcollect/icecream-collect.png)<br><br>**IceCream** 데이터 원본 역시 수정되었습니다. |
 | **Clear( IceCream )** |**IceCream** 컬렉션에서 모든 레코드를 제거합니다. |![](media/function-clear-collect-clearcollect/icecream-clear.png)<br><br>**IceCream** 데이터 원본 역시 수정되었습니다. |
 
-### <a name="step-by-step"></a>단계별 가이드
+### <a name="collect-a-static-list"></a>정적 목록을 수집합니다.
+
 1. 단추 하나를 추가하고 아래 함수에 **[OnSelect](../controls/properties-core.md)** 속성을 설정합니다.<br>**Collect(Products, &quot;Europa&quot;, &quot;Ganymede&quot;, &quot;Callisto&quot;)**
    
     이 함수는 세 개 제품 이름 각각에 대한 행이 포함된 **Products**라는 컬렉션을 생성합니다.
-2. F5 키를 누르고 단추를 클릭한 다음 Esc 키를 눌러서 디자인 작업 영역으로 돌아갑니다.
-3. (선택 사항) 생성한 컬렉션의 미리 보기를 표시하려면 **콘텐츠** 탭에서 **컬렉션**을 클릭합니다.
+    
+1. Alt 키를 누른 상태에서 단추를 선택합니다.
 
+1. (선택 사항) 만든 컬렉션을 미리 보려면 **파일 메뉴**에서 **컬렉션**을 선택합니다.
+
+### <a name="put-a-sharepoint-list-into-a-collection"></a>컬렉션에 SharePoint 목록 넣기
+
+1. [SharePoint 목록에 대한 연결을 만듭니다](../connect-to-sharepoint.md). 
+
+1. 단추를 추가하고 단추의 **[OnSelect](../controls/properties-core.md)** 속성을 이 함수로 설정합니다. 이때 *ListName*을 SharePoint 목록의 이름으로 바꿉니다.<br>
+**Collect**(**MySPCollection**, *ListName*)
+
+    이 함수는 SharePoint 목록과 동일한 데이터를 포함하는, **MySPCollection**이라는 컬렉션을 만듭니다.
+    
+1. Alt 키를 누른 상태에서 단추를 선택합니다.
+
+1. (선택 사항) 만든 컬렉션을 미리 보려면 **파일 메뉴**에서 **컬렉션**을 선택합니다.
+
+갤러리에서 SharePoint 목록의 데이터(예: 날짜, 선택 항목 및 사용자)를 표시하는 방법은 [갤러리에서 데이터 표시](../connections/connection-sharepoint-online.md#show-data-in-a-gallery)를 참조하세요. 양식에서 드롭다운 목록, 날짜 선택 및 사람 선택을 사용해 데이터를 표시하는 방법은 [양식 편집 및 양식 컨트롤 표시](../controls/control-form-detail.md)를 참조하세요.

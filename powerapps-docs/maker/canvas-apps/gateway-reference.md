@@ -1,6 +1,6 @@
 ---
-title: 온-프레미스 데이터 게이트웨이 이해 | Microsoft Docs
-description: 설치 및 문제 해결을 비롯한 온-프레미스 데이터 게이트웨이에 대한 참조 정보
+title: 캔버스 앱용 온-프레미스 데이터 게이트웨이 이해 | Microsoft Docs
+description: PowerApps의 설치 및 문제 해결을 포함한 온-프레미스 데이터 게이트웨이에 대한 참조 정보
 author: AFTOwen
 manager: kvivek
 ms.service: powerapps
@@ -9,14 +9,18 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 10/20/2017
 ms.author: anneta
-ms.openlocfilehash: f39bebd27aad378a5bbf8bff592fa50ea44db679
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 5dcc07f3ba9b9b4baca39cf2090a2c57cb7e67b7
+ms.sourcegitcommit: 967812754d8e5b1ff72baa35ffbe548f3b9b0085
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39017758"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45726932"
 ---
-# <a name="understand-on-premises-data-gateways-for-microsoft-powerapps"></a>Microsoft PowerApps에 대한 온-프레미스 데이터 게이트웨이 이해
+# <a name="understand-on-premises-data-gateways-for-canvas-apps"></a>캔버스 앱용 온-프레미스 데이터 게이트웨이 이해
 ## <a name="installation-and-configuration"></a>설치 및 구성
 **필수 조건**
 
@@ -26,7 +30,6 @@ ms.locfileid: "39017758"
 * Windows 7 또는 Windows Server 2008 R2의 64비트 버전(또는 이상)
 
 권장:
-
 * 8코어 CPU
 * 8GB 메모리
 * Windows 2012 R2의 64비트 버전(또는 이상)
@@ -50,7 +53,7 @@ ms.locfileid: "39017758"
 
 4. **사용자 계정 컨트롤** 대화 상자에서 **예**를 클릭하거나 탭하여 계속합니다.
 
-5. 마법사의 다음 화면에서 **로그인**을 클릭하거나 탭합니다.
+5. 마법사의 다음 화면에서 **로그인**을 클릭하거나 탭한 후 PowerApps에 로그인하는 데 사용하는 것과 동일한 자격 증명을 제공합니다.
 
     ![로그인](./media/gateway-reference/sign-in.png)
 
@@ -190,7 +193,7 @@ PowerShell 프롬프트에서 다음 명령을 실행하여 방화벽 또는 프
 
 #### <a name="high-availabilitydisaster-recovery"></a>고가용성/재해 복구
 **질문:** 게이트웨이로 고가용성 시나리오를 사용하기 위한 계획이 있나요?  
-**답변:** 로드맵에는 있지만 아직 타임라인은 없습니다.
+**대답:** 2개 이상의 게이트웨이를 동일한 클러스터에 조인시키면 고가용성을 사용할 수 있습니다.  고가용성 게이트웨이 클러스터를 사용하려면 온-프레미스 데이터 게이트웨이 2017년 11월 업데이트 이상이 필요합니다.  자세한 내용은 [블로그 게시물 알림](https://powerapps.microsoft.com/en-us/blog/gateway-high-availability-for-powerapps-and-flow)을 참조하세요.
 
 **질문:** 재해 복구에 사용할 수 있는 옵션은 무엇인가요?  
 **답변:** 게이트웨이를 복원 또는 이동하기 위해 복구 키를 사용할 수 있습니다. 게이트웨이 설치하는 경우 복구 키를 지정합니다.
@@ -208,7 +211,7 @@ PowerShell 프롬프트에서 다음 명령을 실행하여 방화벽 또는 프
 데이터 원본에 쿼리 추적을 위해 포함된 도구를 볼 수도 있습니다. 예를 들어 SQL Server 및 Analysis Services용 확장 이벤트 또는 SQL 프로파일러를 사용할 수 있습니다.
 
 ## <a name="how-the-gateway-works"></a>게이트웨이 작동 방식
-![파트너십 구축 방법](./media/gateway-reference/gateway-arch.png)
+![작동 원리](./media/gateway-reference/gateway-arch.png)
 
 사용자가 온-프레미스 데이터 원본에 연결된 요소와 상호 작용할 때:  
 

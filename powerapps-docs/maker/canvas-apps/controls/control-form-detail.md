@@ -1,24 +1,24 @@
 ---
 title: '표시 양식 및 편집 양식 컨트롤: 참조 | Microsoft Docs'
 description: 표시 양식과 편집 양식 컨트롤에 대한 속성 및 예제 등을 포함한 정보
-author: gregli-msft
+author: aneesmsft
 manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 07/06/2017
-ms.author: gregli
+ms.author: aneesa
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 992529f50ba14f3578c4f6ffe0ba7ba27d2d3661
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: 91f84ebbec83c5734e910680f4ab3a79077164df
+ms.sourcegitcommit: ce621966a34061dda2f75232403847e21816ffa9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42838135"
+ms.lasthandoff: 09/30/2018
+ms.locfileid: "47459458"
 ---
 # <a name="edit-form-and-display-form-controls-in-powerapps"></a>PowerApps의 편집 양식 및 표시 양식 컨트롤
 데이터 원본에서 레코드를 표시하고, 편집하고, 만듭니다.
@@ -32,6 +32,12 @@ ms.locfileid: "42838135"
 
 ### <a name="record-selection"></a>레코드 선택
 어떤 양식 종류에서나 **DataSource** 속성을 레코드 테이블로 설정하고 양식의 **Item** 속성은 해당 테이블의 특정 레코드를 표시하도록 설정합니다. 예를 들어 양식의 **Item** 속성은 **[갤러리](control-gallery.md)** 컨트롤의 **SelectedItem** 속성으로 설정할 수 있습니다. 갤러리에서 레코드를 선택할 때 양식이 더 많은 필드를 표시할 수 있는 경우를 제외하고 양식에 동일한 레코드가 표시됩니다. 사용자가 갤러리로 돌아와 다른 레코드를 선택하면 갤러리의 **SelectedItem** 속성이 변경됩니다. 이렇게 변경하면 양식의 **Item** 속성이 업데이트되어 최근에 선택한 레코드를 표시합니다.
+
+[Show, edit, or add a record](../add-form.md)(레코드 표시, 편집 또는 추가)의 설명대로 **드롭다운** 컨트롤을 사용하거나 **Lookup** 또는 **First** 같은 함수를 사용하여 양식의 **Item** 속성을 설정할 수도 있습니다. 예를 들어 앱의 Common Data Service에서 다음 수식 중 하나에 **Item** 속성을 설정하여 **Accounts** 엔터티에 Fabrikam 항목을 표시할 수 있습니다.
+
+```First(Accounts)```
+
+```Lookup(Accounts, "Fabrikam" in name)```
 
 각각의 양식 컨트롤에는 하나 이상의 **[카드](control-card.md)** 컨트롤이 포함됩니다. 카드의 **[DataField](control-card.md)** 속성을 설정하면 [해당 카드가 표시할 필드와 기타 세부 정보](../add-form.md)를 지정하게 됩니다.
 

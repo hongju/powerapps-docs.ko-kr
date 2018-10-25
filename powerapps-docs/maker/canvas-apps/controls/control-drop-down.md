@@ -9,25 +9,29 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 9b26af9a2a1fb9b187023ec3ccc9cd86580aa4cf
-ms.sourcegitcommit: 0f6d7bb9e524202c065b9a7ef92a7f54bdc4bc7c
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: f5e4e0ad13280783b7b6cd00121b4dc05cca6df8
+ms.sourcegitcommit: e4fe4b27651b62edb67e5995fc5955577d8ac5b8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39017919"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "49075383"
 ---
 # <a name="drop-down-control-in-powerapps"></a>PowerApps의 드롭다운 컨트롤
 사용자가 열지 않는 한 첫 번째 항목만 표시하는 목록입니다.
 
 ## <a name="description"></a>설명
-**드롭다운** 컨트롤은 특히 목록에 선택항목이 많은 경우 화면 사용 공간을 절약합니다. 이 컨트롤은 사용자가 펼침 단추를 선택하여 다른 선택을 표시하지 않으면 한 줄만 취합니다.
+**드롭다운** 컨트롤은 특히 목록에 선택항목이 많은 경우 화면 사용 공간을 절약합니다. 이 컨트롤은 사용자가 펼침 단추를 선택하여 다른 선택을 표시하지 않으면 한 줄만 취합니다.  이 컨트롤을 사용하면 최대 500개의 항목이 표시됩니다.
 
 ## <a name="key-properties"></a>주요 속성
-**[Default](properties-core.md)** – 사용자가 컨트롤을 변경하기 전의 초기 값입니다.
+**[Default](properties-core.md)** - 사용자가 다른 값을 지정하기 전 컨트롤의 초기 값입니다.
 
-**[Items](properties-core.md)** – 갤러리, 목록 또는 차트와 같은 컨트롤에 표시되는 데이터 원본입니다.
-
-[!INCLUDE [long-items](../../../includes/long-items.md)]
+**[Items](properties-core.md)** – 컨트롤에 표시되는 항목을 포함하는 데이터의 원본입니다. 원본에 여러 개의 열이 있는 경우, 컨트롤의 **Value** 속성을 표시할 데이터의 열로 설정하세요.
+  
+**Value** - 컨트롤에 표시할 데이터 열입니다(예를 들어 데이터 원본에 여러 열이 있는 경우).
 
 **Selected** – 선택한 항목입니다.
 
@@ -117,24 +121,33 @@ ms.locfileid: "39017919"
 **[Y](properties-size-location.md)** – 컨트롤의 위쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 위쪽 가장자리 사이의 거리입니다.
 
 ## <a name="example"></a>예
-1. **[단추](control-button.md)** 컨트롤을 추가하고 **[Text](properties-core.md)** 속성을 **Collect**를 표시하도록 설정합니다.
-   
-    [컨트롤을 추가, 이름을 지정하고, 구성](../add-configure-controls.md)하는 방법을 모르시나요?
-2. **[단추](control-button.md)** 컨트롤의 **[OnSelect](properties-core.md)** 속성을 이 수식으로 설정합니다.
-   <br>**ClearCollect(CityPopulations, {City:"London", Country:"United Kingdom", Population:8615000}, {City:"Berlin", Country:"Germany", Population:3562000}, {City:"Madrid", Country:"Spain", Population:3165000}, {City:"Rome", Country:"Italy", Population:2874000}, {City:"Paris", Country:"France", Population:2273000}, {City:"Hamburg", Country:"Germany", Population:1760000}, {City:"Barcelona", Country:"Spain", Population:1602000}, {City:"Munich", Country:"Germany", Population:1494000}, {City:"Milan", Country:"Italy", Population:1344000})**
-   
-    **[ClearCollect](../functions/function-clear-collect-clearcollect.md)** 함수 또는 [다른 함수](../formula-reference.md)에 대해 더 알고 싶으신가요?
-3. F5를 누르고 **[단추](control-button.md)** 컨트롤을 클릭하거나 탭한 다음 Esc 키를 누릅니다.
-4. **드롭다운** 컨트롤을 추가하고 이름을 **Countries**로 지정한 다음 **[Items](properties-core.md)** 속성을 다음 수식으로 설정합니다.
-   <br>**Distinct(CityPopulations, Country)**
-5. 가로/세로 방향으로 **텍스트 갤러리**를 추가하고 **[Items](properties-core.md)** 속성을 다음 수식으로 설정합니다.
-   <br>**Filter(CityPopulations, Countries.Selected.Value in Country)**
-6. **텍스트 갤러리** 컨트롤의 첫 항목에서 **[레이블](control-text-box.md)** 컨트롤의 **[Text](properties-core.md)** 속성을 **ThisItem.City**로 설정하고 맨 아래 **[레이블](control-text-box.md)** 컨트롤을 삭제합니다. 
-7. **텍스트 갤러리** 컨트롤의 **[TemplateSize](control-gallery.md)** 속성을 **80**으로 설정합니다.
-8. F5를 누르고 **Countries** 목록의 펼침 단추를 클릭하거나 탭한 다음 해당 목록에서 옵션을 선택합니다.
-   
-    **텍스트 갤러리** 컨트롤은 사용자가 선택한 국가의 도시만 표시합니다.
 
+### <a name="simple-list"></a>간단한 목록
+
+1. **드롭다운** 컨트롤을 추가한 다음, **[Items](properties-core.md)** 속성을 다음 수식으로 설정합니다.
+
+    ```["Seattle", "Tokyo", "London", "Johannesburg", "Rio de Janeiro"]```
+
+    [컨트롤을 추가, 이름을 지정하고, 구성](../add-configure-controls.md)하는 방법을 모르시나요?
+
+1. Alt 키를 누른 채로 컨트롤의 아래쪽 화살표를 선택하여 목록에 항목을 표시합니다.
+
+### <a name="list-from-a-data-source"></a>데이터 원본에서 나열
+이 절차의 원칙은 [테이블을 제공하는 모든 데이터 원본](../connections-list.md#tables)에 적용되지만 이러한 단계를 정확히 따르려면 앱용 Common Data Service 데이터베이스가 만들어지고 샘플 데이터가 추가된 환경을 열어야 합니다.
+
+1. [빈 앱을 연](../data-platform-create-app-scratch.md#open-a-blank-app) 다음, [**계정** 엔터티를 지정](../data-platform-create-app-scratch.md#specify-an-entity)합니다.
+
+1. **드롭다운** 컨트롤을 추가하고 **[Items](properties-core.md)** 속성을 다음 수식으로 설정합니다.
+
+    ```Distinct(Accounts, address1_city)```
+
+    이 수식은 **계정** 엔터티의 모든 도시를 표시합니다. 두 개 이상의 레코드에 동일한 도시가 있는 경우, **[Distinct](../functions/function-distinct.md)** 함수는 드롭다운 컨트롤에 있는 중복을 숨깁니다.
+
+1. (선택 사항) **드롭다운** 컨트롤의 이름을 **도시**로 변경하고 세로 **갤러리** 컨트롤을 추가하고 갤러리의 **[Items](properties-core.md)** 속성을 이 수식으로 설정합니다.
+
+    ```Filter(Accounts, address1_city = Cities.Selected.Value)```
+
+    이 **[Filter](../functions/function-filter-lookup.md)** 함수는 도시가 **도시** 컨트롤에서 선택한 값과 일치하는 **계정** 엔터티의 레코드만 표시합니다.
 
 ## <a name="accessibility-guidelines"></a>접근성 지침
 ### <a name="color-contrast"></a>색 대비

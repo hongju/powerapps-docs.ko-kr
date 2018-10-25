@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: ab5542adb68bbd07e2725197230000bdd02b320f
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: ba7d48104d9fdf85573029cc510af2c29d3f6ca0
+ms.sourcegitcommit: 5db6e3ac3a622de313a1102417397e126c3f92f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42833764"
+ms.lasthandoff: 09/15/2018
+ms.locfileid: "45640357"
 ---
 # <a name="power-bi-tile-control-in-powerapps"></a>PowerApps의 Power BI 타일 컨트롤
 
@@ -61,6 +61,8 @@ Power BI 콘텐츠가 포함된 앱을 공유하는 경우 타일을 제공하�
 **[Height](properties-size-location.md)** – 컨트롤의 위쪽 및 아래쪽 가장자리 사이의 간격입니다.
 
 **[OnSelect](properties-core.md)** – 사용자가 앱을 클릭하거나 탭할 때 앱이 응답하는 방법입니다. 기본적으로 타일과 연결된 Power BI 보고서가 열립니다.
+
+**TileUrl** - Power BI 서비스에서 타일을 요청할 때 사용되는 URL입니다. URL에 매개 변수를 추가하여 Power BI 타일에 단일 매개 변수를 전달할 수 있습니다(예: … & "&$filter=Town/Province eq '" & ListBox1.Selected.Abbr & "'"). 매개 변수에서는 같음 연산자만 사용할 수 있습니다.
 
 **[Visible](properties-core.md)** – 컨트롤을 표시하거나 숨길지 여부를 선택합니다.
 

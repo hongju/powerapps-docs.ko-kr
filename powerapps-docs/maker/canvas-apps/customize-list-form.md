@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: fc2940f726c23c79bcf894bb61c3e6b884ca7112
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: 218fb97f6cd523275c0ba296ea120d487cf67e4c
+ms.sourcegitcommit: c26976af24a3e510e4eced78cf5c48cc2f71cae2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42865780"
+ms.lasthandoff: 10/02/2018
+ms.locfileid: "48025674"
 ---
 # <a name="customize-a-sharepoint-list-form-by-using-powerapps"></a>PowerApps를 사용하여 SharePoint 목록 양식 사용자 지정
 
@@ -31,7 +31,7 @@ ms.locfileid: "42865780"
 
 ## <a name="prerequisites"></a>필수 조건
 
-SharePoint 사이트에서 이러한 열이 포함된 목록을 만듭니다.
+SharePoint 사이트에서 목록을 만들고 다음 열을 추가합니다.
 
 - **ProductName**(한 줄 텍스트)
 - **세부 정보**(예/아니요)
@@ -53,18 +53,11 @@ SharePoint 사이트에서 이러한 열이 포함된 목록을 만듭니다.
 
 ## <a name="hide-extra-fields"></a>추가 필드 숨기기
 
-화면의 가운데에서 PowerApps는 양식을 보여주지만 표시하지 않을 일부 필드를 포함합니다.
+PowerApps는 화면 가운데에 양식을 표시하지만 이 양식에는 필요하지 않은 필드가 있습니다.
 
-- **데이터** 창에서 이러한 필드에 대한 확인란의 선택을 취소합니다.
+- **데이터** 창에서 **제목** 및 **첨부 파일** 필드에 대한 확인란의 선택을 취소합니다.
 
-  - **Title**
-  - **수정됨**
-  - **생성됨**
-  - **작성자**
-  - **수장한 사용자**
-  - **ID**
-
-    해당 필드는 양식에서 사라지고 사용자가 만든 필드만 납습니다.
+    해당 필드가 양식에서 사라지고 사용자가 추가한 필드만 남습니다.
 
     ![필드 목록](./media/customize-list-form/field-list.png)
 
@@ -109,6 +102,8 @@ SharePoint 사이트에서 이러한 열이 포함된 목록을 만듭니다.
 1. **세부 정보** 설정/해제를 여러 번 선택하여 마지막 세 개의 필드를 숨기고 표시합니다.
 
 [양식을 추가로 사용자 지정](sharepoint-form-integration.md)하려면 해당 양식을 열고 양식의 맨 위 가까이에서 **사용자 지정**을 선택한 다음, 변경 내용을 만들고 저장하고 게시합니다.
+
+이 양식에서 하나 이상의 항목을 만들면 **제목** 필드는 비어 있습니다. 이 필드는 기본 보기를 수정해 숨길 수 있습니다.
 
 ## <a name="use-the-default-form"></a>기본 양식 사용
 

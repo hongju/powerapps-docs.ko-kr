@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 19199ade5c7f89f9d3d113b41ac9651a9b007ef6
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: 38745810321807e69d5eba8e1f2c281dafa73ae5
+ms.sourcegitcommit: 5db6e3ac3a622de313a1102417397e126c3f92f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42847899"
+ms.lasthandoff: 09/15/2018
+ms.locfileid: "45640449"
 ---
 # <a name="understand-canvas-app-tables-and-records-in-powerapps"></a>PowerApps에서 캔버스 앱 테이블 및 레코드 이해
 
@@ -40,7 +40,7 @@ Excel 수식에서 하나 이상의 셀 참조를 인수로 사용하는 것처�
 ### <a name="records"></a>레코드
 각 레코드에는 사람, 장소 또는 사물에 대한 정보 범주가 하나 이상 포함됩니다. 위의 예제에서는 각 제품(**초콜릿**, **빵** 및 **음료수**)에 대한 레코드와 각 정보 범주에 대한 열(**Price**, **Quantity on Hand** 및 **Quantity on Order**)을 표시합니다.
 
-수식에서는 테이블의 컨텍스트 외부에 중괄호를 사용하여 레코드를 단독으로 참조할 수 있습니다. 예를 들어 **{ Name: "딸기", Price: 7.99 }** 레코드는 테이블과 관련이 없습니다.
+수식에서는 테이블의 컨텍스트 외부에 중괄호를 사용하여 레코드를 단독으로 참조할 수 있습니다. 예를 들어 **{ Name: "딸기", Price: 7.99 }** 레코드는 테이블과 관련이 없습니다. 이 예제에서 **Name** 및 **Price**와 같은 필드 이름은 큰따옴표로 묶지 않습니다.
 
 ### <a name="fields"></a>필드
 필드는 레코드의 개별 정보 요소입니다. 이러한 종류의 필드를 특정 레코드에 대한 열의 값으로 시각화할 수 있습니다.

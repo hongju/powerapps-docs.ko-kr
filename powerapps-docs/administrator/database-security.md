@@ -6,7 +6,7 @@ manager: kvivek
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: conceptual
-ms.date: 03/21/2018
+ms.date: 10/10/2018
 ms.author: manasma
 search.audienceType:
 - admin
@@ -14,12 +14,12 @@ search.app:
 - D365CE
 - PowerApps
 - Powerplatform
-ms.openlocfilehash: 71358a1c476655ab4e80d94f9e6846b9a35684f4
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: 3c8bdcb855b1e15cbebeb2a51fedf8aea7684286
+ms.sourcegitcommit: c4369e5f31bb08716f1af1416f3f7510a4b926d5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42857639"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "49072522"
 ---
 # <a name="configure-environment-security"></a>환경 보안 구성
 앱용 CDS(Common Data Service)는 데이터베이스에 대한 보안 액세스를 위해 역할 기반 보안 모델을 사용합니다. 이 항목에서는 앱의 보안을 유지하기 위해 필요한 보안 아티팩트를 만드는 방법을 설명합니다. 사용자 역할은 데이터에 대한 런타임 액세스를 제어하며 환경 관리자 및 환경 작성자가 제어하는 환경 역할과는 별개입니다. 환경 개요는 [환경 개요](environments-overview.md)를 참조하세요.
@@ -66,7 +66,7 @@ PowerApps 환경에는 앱을 사용하는 데 필요한 최소한의 비즈니�
 |시스템 관리자     |  만들기, 읽기, 쓰기, 삭제, 사용자 지정, 보안 역할       | 보안 역할 만들기, 수정 및 할당을 포함하여 환경을 사용자 지정하거나 관리하기 위한 모든 권한을 가집니다. 환경의 모든 데이터를 볼 수 있습니다. 자세한 정보: [사용자 지정에 필요한 권한](https://docs.microsoft.com/dynamics365/customer-engagement/customize/privileges-required-customization)        |
 |시스템 사용자 지정자     | 만들기(자체), 읽기(자체), 쓰기(자체), 삭제(자체), 사용자 지정         | 환경을 사용자 지정하기 위한 전체 권한을 가집니다. 그러나 작성한 환경 엔터티에 대한 레코드만 볼 수 있습니다. 자세한 정보: [사용자 지정에 필요한 권한](https://docs.microsoft.com/dynamics365/customer-engagement/customize/privileges-required-customization)        |
 |환경 작성자     |  없음       | Microsoft Flow를 사용하여 앱, 연결, 사용자 지정 API, 게이트웨이 및 흐름을 포함한 환경과 관련된 새 리소스를 만들 수 있습니다. 그러나 환경 내의 데이터에 액세스할 수 있는 권한은 없습니다. 자세한 정보: [환경 개요](https://powerapps.microsoft.com/blog/powerapps-environments/)        |
-|Common Data Service 사용자     |  읽기, 만들기(자체), 쓰기(자체), 삭제(자체)       | 환경 내에서 앱을 실행하고 자신이 소유한 레코드에 대한 일반적인 작업을 수행할 수 있습니다.        |
+|Common Data Service 사용자     |  읽기(자체), 만들기(자체), 쓰기(자체), 삭제(자체)       | 환경 내에서 앱을 실행하고 자신이 소유한 레코드에 대한 일반적인 작업을 수행할 수 있습니다.        |
 |대리자     | 다른 사용자를 대신하여 작업 수행        | 코드가 다른 사용자의 권한으로 실행되거나 다른 사용자를 가장할 수 있습니다.  일반적으로 레코드에 대한 액세스를 허용하기 위해 다른 보안 역할과 함께 사용됩니다. 추가 정보: [다른 사용자 가장](https://docs.microsoft.com/dynamics365/customer-engagement/developer/org-service/impersonate-another-user)        |
 
 *권한은 달리 지정되지 않는 한 전역 범위입니다.
@@ -76,9 +76,10 @@ PowerApps 환경에는 앱을 사용하는 데 필요한 최소한의 비즈니�
 - 데이터베이스에 연결되는 앱을 만들고 엔터티 및 보안 역할을 만들거나 업데이트해야 하는 사용자의 경우 데이터베이스에 대한 권한이 없는 환경 작성자 역할과 함께 시스템 사용자 지정자 역할이 할당되어야 합니다.
 
 ## <a name="create-or-configure-a-custom-security-role"></a>사용자 지정 보안 역할 만들기 또는 구성
-앱이 사용자 지정 엔터티를 기반으로 하는 경우 권한을 명시적으로 지정해야만 사용자가 작업할 수 있습니다. 이렇게 하려면 다음 중 하나를 수행하도록 선택할 수 있습니다.
-- 기존의 미리 정의된 보안 역할을 확장하여 사용자 지정 엔터티를 기반으로 하는 레코드에 대한 권한을 포함시킵니다.
-- 앱 사용자를 위한 권한을 관리할 목적으로 사용자 지정 보안 역할을 만듭니다.
+사용자 지정 엔터티를 사용하는 앱을 사용하려면 먼저 보안 역할에 해당 권한을 명시적으로 부여해야 합니다.  기존 보안 역할에서 이러한 권한을 추가하거나 사용자 지정 보안 역할을 만들 수 있습니다. 새 보안 역할을 사용하는 데 필요한 최소 권한 집합이 있습니다. [앱 실행을 위한 최소 권한](#minimum-privileges-to-run-app)을 참조하세요.
+
+> [!TIP]
+> 앱을 실행하는 데 필요한 최소 필수 권한을 가진 사용자 지정 보안 역할을 만들려면 아래의 [앱 실행을 위한 최소 권한](#minimum-privileges-to-run-app) 섹션에서 확인하세요.
 
 환경에서 여러 앱에 사용 가능한 레코드를 유지할 수도 있으며, 여러 권한으로 데이터에 액세스하려면 여러 보안 역할이 필요할 수 있습니다. 예:
 - 일부 사용자(유형 A)는 다른 레코드를 읽고 업데이트하고 첨부해야만 보안 역할에 읽기, 쓰기 및 추가 권한이 부여됩니다.
@@ -114,7 +115,17 @@ PowerApps 환경에는 앱을 사용하는 데 필요한 최소한의 비즈니�
 
 10. **저장 후 닫기**를 선택합니다.
 
+## <a name="minimum-privileges-to-run-app"></a>앱 실행을 위한 최소 권한
+사용자 지정 보안 역할을 만들 경우 사용자가 앱을 실행하기 위해 보안 역할에 최소 권한 집합을 포함해야 합니다. 보안 역할에 필요한 최소 권한을 제공하는 솔루션이 구현되어 있으므로 가져와서 사용할 수 있습니다.  
 
+먼저 다운로드 센터 [앱 최소 권한 보안 역할을 위한 CDS](http://download.microsoft.com/download/6/5/5/6552A30E-05F4-45F0-AEE3-9BB01E13118A/MinprivilegeSecRole_1_0_0_0.zip)에서 해당 솔루션을 다운로드합니다.
+
+그런 다음, [솔루션 가져오기, 업데이트 및 내보내기](../maker/common-data-service/import-update-export-solutions.md)의 지침에 따라 솔루션을 가져옵니다.
+
+이 솔루션을 가져오면 복사할 수 있는 **min prv apps use** 역할이 생성됩니다([역할 복사를 사용하여 보안 역할 만들기](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-edit-security-role#create-a-security-role-by-copy-role) 참조). 역할 복사가 완료되면 코어 레코드, 비즈니스 관리, 사용자 지정 등의 탭으로 이동한 후 적절한 권한을 설정합니다. 
+
+> [!IMPORTANT]
+> 프로덕션 환경으로 가져오기 전에 개발 환경에서 솔루션을 사용해봅니다. 
 
 <!--Reference links in article-->
 [1]: https://admin.powerapps.com

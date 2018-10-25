@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: a0ffeded77bf08958aaa22c21d33f7063009b4bd
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: d8cb7bdfa995d2289f881b6d21074efd6cf11ac4
+ms.sourcegitcommit: 5db6e3ac3a622de313a1102417397e126c3f92f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42868407"
+ms.lasthandoff: 09/15/2018
+ms.locfileid: "45640403"
 ---
 # <a name="label-control-in-powerapps"></a>PowerApps의 레이블 컨트롤
 텍스트, 숫자, 날짜 또는 통화와 같은 데이터를 표시하는 상자입니다.
@@ -75,6 +75,8 @@ ms.locfileid: "42868407"
 **[Italic](properties-text.md)** - 컨트롤의 텍스트를 기울임꼴로 설정할지 여부를 선택합니다.
 
 **[LineHeight](properties-text.md)** - 예를 들어 텍스트 선 또는 목록의 항목 사이의 거리입니다.
+
+**Live** - 화면 판독기가 레이블 텍스트의 변경 내용을 알리는 방법입니다.  값은 **Off**, **Assertive** 및 **Polite**일 수 있습니다. 이 속성은 액세스 가능한 방법으로 앱의 UI에서 동적 변경 내용을 알리는 데 유용합니다.
 
 **[OnSelect](properties-core.md)** – 사용자가 앱을 클릭하거나 탭할 때 앱이 응답하는 방법입니다.
 

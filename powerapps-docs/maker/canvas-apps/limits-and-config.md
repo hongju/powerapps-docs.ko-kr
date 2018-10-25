@@ -1,6 +1,6 @@
 ---
-title: 시스템 요구 사항, 제한 및 구성 값 | Microsoft Docs
-description: PowerApps에 대한 시스템 요구 사항, 제한 및 구성 값
+title: 캔버스 앱의 시스템 요구 사항, 제한 및 구성 값 | Microsoft Docs
+description: PowerApps에서 기본 제공되는 캔버스 앱의 시스템 요구 사항, 제한 및 구성 값
 author: AFTOwen
 manager: kvivek
 ms.service: powerapps
@@ -9,17 +9,21 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 03/07/2018
 ms.author: anneta
-ms.openlocfilehash: 3c334baf876c64085621520daef9a0f153d54107
-ms.sourcegitcommit: 0f6d7bb9e524202c065b9a7ef92a7f54bdc4bc7c
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 5ba279e361dfe450de1187cf6aca87bc026178ba
+ms.sourcegitcommit: 60006ce9cb21c59e588c00f2ba5c41ffebbbba09
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39476878"
+ms.lasthandoff: 09/30/2018
+ms.locfileid: "47456301"
 ---
-# <a name="system-requirements-limits-and-configuration-values"></a>시스템 요구 사항, 제한 및 구성 값
+# <a name="system-requirements-limits-and-configuration-values-for-canvas-apps"></a>캔버스 앱의 시스템 요구 사항, 제한 및 구성 값
 이 항목은 장치 플랫폼 및 웹 브라우저 요구 사항뿐만 아니라 PowerApps에 대한 제한 사항 및 구성 값을 포함합니다.
 
-## <a name="supported-platforms-for-running-apps-using-the-powerapps-app"></a>PowerApps 앱을 사용하여 앱을 실행하는 데 지원되는 플랫폼
+## <a name="supported-platforms-for-running-canvas-apps-using-the-powerapps-app"></a>PowerApps 앱을 사용하여 캔버스 앱을 실행하는 데 지원되는 플랫폼
 
 | **필요한 최소 사항** | **권장** |
 | --- | --- |
@@ -27,7 +31,7 @@ ms.locfileid: "39476878"
 | Android 5 이상 |최소 4GB의 RAM이 있는 Android 7 이상 |
 | Windows 8.1 이상(PC만 해당) |최소 8GB의 RAM이 있는 Windows 10 Fall Creators Update|
 
-## <a name="supported-browsers-for-running-apps"></a>앱 실행에 지원되는 브라우저
+## <a name="supported-browsers-for-running-canvas-apps"></a>캔버스 앱 실행에 지원되는 브라우저
 
 | **브라우저** | **운영 체제** |
 | --- | --- |
@@ -64,7 +68,7 @@ PowerApps의 요청은 앱이 위치한 [환경](../../administrator/environment
 예를 들어, Azure SQL Database에 대한 IP 주소를 허용 목록에 추가해야 하는 경우 이러한 주소를 사용합니다.
 
 > [!IMPORTANT]
->   PowerApps 앱이 위치한 지역의 경우 이 목록의 IP 주소를 포함하고 일치하도록 기존 구성이 있는 경우 2018년 9월 1일 전에 가능한 신속하게 업데이트하세요.
+>   PowerApps 앱이 위치한 지역의 경우 이 목록의 IP 주소를 포함하고 일치하도록 기존 구성이 있는 경우 2018년 9월 30일 전에 최대한 신속하게 업데이트하세요.
 
 | 지역 | 아웃바운드 IP |
 | --- | --- |
@@ -93,5 +97,8 @@ PowerApps의 요청은 앱이 위치한 [환경](../../administrator/environment
 | *.azure-apim.net |https |API 허브 - 각 로캘에 대해 다른 하위 도메인 |
 | *.powerapps.com |https |WebAuth + 포털 |
 | *.azureedge.net |https |WebAuth |
-| *.blob.core.windows.net |https |Blob 저장소 |
+| *.blob.core.windows.net |https |Blob Storage |
 | vortex.data.microsoft.com |https |원격 분석 |
+
+> [!NOTE]
+> VPN을 사용하는 경우 PowerApps Mobile을 위한 터널링에서 localhost를 제외하도록 구성해야 합니다.
