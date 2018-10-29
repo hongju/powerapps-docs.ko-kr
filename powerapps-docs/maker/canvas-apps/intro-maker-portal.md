@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 3ecf468f8c1b15d20b144aa127fe31c13dba484e
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: 02aaaf7fd149ca0d9f3e1325b98e5287c90bebec
+ms.sourcegitcommit: 02d0234bd84352bf1c43d0fc9225ab60947a0add
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42849752"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49317002"
 ---
 # <a name="sign-in-to-powerapps-for-the-first-time"></a>PowerApps에 처음으로 로그인
 
@@ -62,25 +62,17 @@ PowerApps에서 다음 유형의 앱을 만들고 실행할 수 있습니다.
 - **캔버스 앱**은 사용자 지정 UI를 디자인하고 다양한 소스의 데이터에 연결할 수 있도록 지원합니다.
 - **모델 기반 앱**은 표준 UI가 있으며 앱용 CDS(Common Data Service)에서만 데이터에 연결합니다. 그러나 보기, 대시보드 및 다양한 유형의 비즈니스 논리와 같은 다른 요소를 더 쉽게 만들 수 있습니다.
 
-기본적으로 **홈** 페이지에는 캔버스 앱을 만들고 실행하기 위한 옵션이 표시됩니다. 대신 모델 기반 옵션을 표시하려면 앱용 CDS 데이터베이스가 있는 환경을 선택한 다음, 왼쪽 아래 모서리에 있는 메뉴를 엽니다.
-
-![캔버스와 모델 기반 앱 간 전환](media/intro-maker-portal/mode-switcher.png)
+앱 데이터베이스용 CDS가 있는 환경을 선택하는 경우 동일한 **홈** 페이지에서 캔버스 또는 모델 기반 앱을 빌드할 수 있습니다.
 
 ## <a name="play-or-edit-an-app"></a>앱 재생 또는 편집
 
-앱을 이미 만든 경우(또는 다른 사용자가 앱을 만들어 사용자와 공유한 경우) **앱** 페이지에서 앱을 재생하거나 편집할 수 있습니다.
+앱을 만든 경우(또는 다른 사용자가 앱을 만들어 사용자와 공유한 경우) **홈** 페이지 또는 **앱** 페이지에서 앱을 재생하거나 편집할 수 있습니다.
 
-- 최근에 열었는지 등의 기준에 따라 필터링하여 캔버스 앱을 찾을 수 있습니다.
+**앱** 페이지에서 최근에 열었는지 등의 기준에 따라 앱 목록을 필터링할 수 있습니다.
 
-    ![캔버스 앱 목록](media/intro-maker-portal/org-apps.png)
+![앱 목록](./media/intro-maker-portal/find-apps.png)
 
-    앱을 검색하거나 오른쪽 상단 모서리 근처에 표시되는 검색 표시줄에 하나 이상의 문자를 입력하여 검색할 수도 있습니다. 원하는 앱을 찾으면 줄임표 아이콘을 선택하여 앱을 재생하거나 편집할 수 있는 옵션을 표시합니다.
-
-    ![줄임표 메뉴](media/intro-maker-portal/ellipsis-menu.png)
-
-- 모델 기반 앱 목록을 필터링할 수는 없지만 오른쪽 상단 모서리 근처에 표시되는 검색 표시줄에 하나 이상의 문자를 입력하여 앱을 검색할 수 있습니다. 원하는 앱을 찾으면 줄임표 아이콘을 선택하여 앱을 재생하거나 편집할 수 있는 옵션을 표시합니다.
-
-    ![줄임표 메뉴가 열린 모델 기반 앱 목록](media/intro-maker-portal/model-driven-list.png)
+오른쪽 상단 모서리 근처에 표시되는 검색 표시줄에 하나 이상의 문자를 입력하여 앱을 검색할 수도 있습니다. 원하는 앱을 찾으면 배너 아이콘을 선택하여 앱을 재생하거나 편집합니다.
 
 ## <a name="create-an-app"></a>앱 만들기
 
