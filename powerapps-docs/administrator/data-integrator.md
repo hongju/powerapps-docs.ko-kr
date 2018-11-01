@@ -5,7 +5,7 @@ author: sabinn-msft
 ms.service: powerapps
 ms.topic: how-to
 ms.component: cds
-ms.date: 09/19/2018
+ms.date: 10/15/2018
 ms.author: sabinn
 search.audienceType:
 - admin
@@ -13,12 +13,12 @@ search.app:
 - D365CE
 - PowerApps
 - Powerplatform
-ms.openlocfilehash: b8cebc6f9db8a1a7c1a060aad461f4f32fcee05b
-ms.sourcegitcommit: 2bcf40aeaa35420dc43f5803f4e57ff0f6afb57b
+ms.openlocfilehash: dfbc420dfb4945cdda635e3cbaadb1acb446753b
+ms.sourcegitcommit: ebd39753e2a0b60c1d8c016e38c00dd1accf5d0c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/19/2018
-ms.locfileid: "46469746"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49328697"
 ---
 # <a name="integrate-data-into-common-data-service-for-apps"></a>앱용 Common Data Service에 데이터 통합
 
@@ -88,6 +88,9 @@ Data Integrator(관리자용)는 데이터 통합 플랫폼, Dynamics 365 for Fi
 
     > [!div class="mx-imgBorder"] 
     > ![연결 목록](media/data-integrator/CreateConnection1780.png "연결 목록")
+
+> [!NOTE]
+> 각 연결을 위해 지정하는 계정이 해당 응용 프로그램의 엔터티에 액세스할 수 있는지 확인하세요. 또한 각 연결을 위한 계정이 다른 테넌트에 있을 수 있습니다. 
 
 ### <a name="how-to-create-a-connection-set"></a>연결 집합을 만드는 방법
 
@@ -169,8 +172,6 @@ Data Integrator(관리자용)는 데이터 통합 플랫폼, Dynamics 365 for Fi
 
 ### <a name="execution-history"></a>실행 기록
 
-<!--note from editor: Do you think most people reading this will know what "upsert" means?-->
-
 실행 기록은 프로젝트 이름, 프로젝트가 실행된 시간의 타임스탬프, 실행 상태와 upsert(업데이트/삽입) 및 오류 수가 포함된 모든 프로젝트 실행 기록을 보여 줍니다.
 
 -   프로젝트 실행 기록의 예입니다.
@@ -228,6 +229,12 @@ Microsoft는 현재 다음 두 가지 유형의 실행/쓰기를 지원합니다
 
 > [!div class="mx-imgBorder"] 
 > ![메일 알림](media/data-integrator/EmailNotification780.png "메일 알림")
+
+> [!NOTE]
+> - 현재 특정 시간에 유료 테넌트당 50개의 통합 프로젝트를 예약하는 기능을 지원합니다. 그러나 추가 프로젝트를 만들고 대화형으로 실행할 수 있습니다.
+평가판 테넌트의 경우 예약된 프로젝트가 처음 50개 실행을 대상으로만 실행된다는 추가 제한 사항이 있습니다.
+> - 항상 실행하도록 프로젝트를 예약할 수 있지만, 이로 인해 앱에 많은 스트레스가 가해지고 결국 전체 성능에 영향을 줄 수 있다는 점을 염두에 두세요. 사용자는 실제 로드 조건에서 프로젝트 실행을 테스트하고 새로 고침 빈도를 줄여 성능을 최적화하는 것이 좋습니다.
+프로덕션 환경에서는 테넌트당 5개 이하의 프로젝트를 실행하는 것이 좋습니다.
 
 ## <a name="customizing-projects-templates-and-mappings"></a>프로젝트, 템플릿 및 매핑 사용자 지정 
 

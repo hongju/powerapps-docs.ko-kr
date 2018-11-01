@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: e0bdab9bcd45f456c00f933dfa7f1a8936e3fa85
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: 0ac3f0549e89153d9362d6a8a040833608d4e287
+ms.sourcegitcommit: 2300de0a0486187762f830068c872116d5b04c32
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42865416"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "49806205"
 ---
 # <a name="groupby-and-ungroup-functions-in-powerapps"></a>PowerApps의 GroupBy 및 Ungroup 함수
 [테이블](../working-with-tables.md)의 [레코드](../working-with-tables.md#records)를 그룹화하고 그룹을 해제합니다.
@@ -68,7 +68,7 @@ ms.locfileid: "42865416"
 2. **원본** 단추의 **[OnSelect](../controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.
    
     **ClearCollect(CityPopulations, {City:"London", Country:"United Kingdom", Population:8615000}, {City:"Berlin", Country:"Germany", Population:3562000}, {City:"Madrid", Country:"Spain", Population:3165000}, {City:"Rome", Country:"Italy", Population:2874000}, {City:"Paris", Country:"France", Population:2273000}, {City:"Hamburg", Country:"Germany", Population:1760000}, {City:"Barcelona", Country:"Spain", Population:1602000}, {City:"Munich", Country:"Germany", Population:1494000}, {City:"Milan", Country:"Italy", Population:1344000})**
-3. F5 키를 누르고 **원본** 단추를 선택한 다음 Esc 키를 누릅니다.
+3. Alt 키를 누른 상태에서 **원본** 단추를 선택합니다.
    
     다음 데이터가 포함된 **CityPopulations**라는 [컬렉션](../working-with-data-sources.md#collections)이 생성되었습니다.
    
@@ -82,7 +82,7 @@ ms.locfileid: "42865416"
 2. 이 단추의 **[OnSelect](../controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.
    
     **ClearCollect( CitiesByCountry, GroupBy( CityPopulations, "Country", "Cities" ) )**
-3. F5 키를 누르고 **그룹** 단추를 선택한 다음 Esc 키를 누릅니다.
+3. Alt 키를 누른 상태에서 **그룹** 단추를 선택합니다.
    
     **CitiesByCountry**라는 컬렉션이 생성되었으며 이전 컬렉션의 레코드가 **Country** 열을 기준으로 그룹화되어 있습니다.
    
@@ -99,7 +99,7 @@ ms.locfileid: "42865416"
 2. 이 단추의 **[OnSelect](../controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.
    
     **ClearCollect( CitiesByCountryFiltered, Filter( CitiesByCountry, "e" in Country ) )**
-3. F5 키를 누르고 추가한 단추를 선택한 다음 Esc 키를 누릅니다.
+3. Alt 키를 누른 상태에서 추가한 단추를 선택합니다.
    
     **CitiesByCountryFiltered**라는 세 번째 컬렉션이 생성되었습니다. 이 컬렉션에는 이름에 "e"가 포함된 국가(즉, Spain 또는 Italy 제외)만 포함됩니다.
    
@@ -126,13 +126,17 @@ ms.locfileid: "42865416"
     ![](media/function-groupby/cities-sum.png)
    
     **[AddColumns](function-table-shaping.md)** 는 기본 **CitiesByCountry** 컬렉션으로 시작하여 **Sum of City Populations**라는 새 열을 추가합니다.  이 열의 값은 **Sum( Cities, Population )** 수식을 기반으로 행 단위로 계산됩니다.  **AddColumns**은 각 행에 대한 **Cities** 열(테이블)의 값을 제공하고 **[Sum](function-aggregates.md)** 은 하위 테이블의 각 행에 대한 **Population**을 합산합니다.
-3. 원하는 합계를 얻었으니 **[DropColumns](function-table-shaping.md)** 를 사용하여 하위 테이블을 제거할 수 있습니다.  다음 수식을 사용하도록 **[OnSelect](../controls/properties-core.md)** 속성을 수정합니다.
-   
+
+    원하는 합계를 얻었으니 **[DropColumns](function-table-shaping.md)** 를 사용하여 하위 테이블을 제거할 수 있습니다.
+  
+3. 단추를 추가하고 단추가 **“SumOnly”** 로 표시되도록 **[Text](../controls/properties-core.md)** 속성을 설정합니다.
+4. **“SumOnly”** 단추의 **[OnSelect](../controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.
+
     **ClearCollect( CityPopulationsSumOnly, DropColumns( CityPopulationsSum, "Cities" ) )**
    
     결과는 다음과 같습니다.
    
     ![](media/function-groupby/cities-sum-drop-cities.png)
    
-    이 테이블을 그룹 해제할 필요는 없습니다.
+    이 테이블의 그룹을 해제할 필요는 없습니다.
 

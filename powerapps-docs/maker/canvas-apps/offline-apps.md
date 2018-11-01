@@ -13,16 +13,16 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: a255489f243ca8586f349e617e5af2023e88732b
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: f081369d75ec6f8fc29e6177b8173734d2462e03
+ms.sourcegitcommit: 097ddfb25eb0f09f0229b866668c2b02fa57df55
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42864405"
+ms.lasthandoff: 10/24/2018
+ms.locfileid: "49991772"
 ---
-# <a name="develop-offline-capable-canvas-apps-with-powerapps"></a>PowerApps를 사용하여 오프라인에서 사용 가능한 캔버스 앱 개발
+# <a name="develop-offline-capable-canvas-apps"></a>오프라인에서 사용 가능한 캔버스 앱 개발
 
-모바일 앱 개발자 권한으로 직면하는 가장 일반적인 시나리오 중 하나는 제한된 연결 또는 연결되지 않았을 때 사용자가 생산성을 사용해야 하는 경우입니다. PowerApps에는 오프라인에서 사용 가능한 캔버스 앱을 개발하는 데 도움이 되는 기능 및 동작의 집합이 있습니다. 다음이 가능합니다.
+모바일 앱 개발자 권한으로 직면하는 가장 일반적인 시나리오 중 하나는 제한된 연결 또는 연결되지 않았을 때 사용자가 생산성을 사용해야 하는 경우입니다. PowerApps에는 오프라인에서 사용 가능한 캔버스 앱을 개발하는 데 도움이 되는 기능 및 동작의 집합이 있습니다. 다음과 같은 기능이 가능합니다.
 
 * 오프라인 상태에서 PowerApps Mobile을 시작합니다.
 * 오프라인에서 개발한 앱을 실행합니다.

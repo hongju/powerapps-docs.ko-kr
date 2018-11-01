@@ -1,5 +1,5 @@
 ---
-title: 웹 사이트 및 기타 서비스로 PowerApps 통합 | Microsoft Docs
+title: 웹 사이트 및 기타 서비스로 캔버스 앱 통합 | Microsoft Docs
 description: 웹 사이트 및 기타 서비스로 앱을 포함합니다.
 author: mgblythe
 manager: kvivek
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: c9cd4008bcb93e05d696fec082e400ee9661785b
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: 254d127237cff58728f208d62c30bf7aeb456a80
+ms.sourcegitcommit: 097ddfb25eb0f09f0229b866668c2b02fa57df55
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42835398"
+ms.lasthandoff: 10/24/2018
+ms.locfileid: "49991841"
 ---
-# <a name="integrate-powerapps-into-websites-and-other-services"></a>웹 사이트 및 기타 서비스로 PowerApps 통합
+# <a name="integrate-canvas-apps-into-websites-and-other-services"></a>웹 사이트 및 기타 서비스로 캔버스 앱 통합
 빌드하는 앱은 종종 사용자가 작업하는 위치에서 바로 사용할 수 있을 때 가장 유용합니다. PowerApps를 사용하면 해당 앱을 웹 사이트와 Power BI 또는 SharePoint와 같은 다른 서비스에 통합할 수 있도록 iframe에 캔버스 앱을 포함할 수 있습니다.
 
 이 토픽에서는 앱 포함을 위해 매개 변수를 설정하는 방법을 보여 준 다음 웹 사이트에 자산 순서 지정 앱을 포함합니다.
@@ -32,7 +32,7 @@ ms.locfileid: "42835398"
 * 동일한 테넌트의 PowerApps 사용자만 포함된 앱에 액세스할 수 있습니다.
 * Internet Explorer 11을 사용하여 PowerApps에 액세스하려면 호환성 보기를 해제해야 합니다.
 
-PowerApps를 SharePoint Online에 통합할 수도 있습니다(iframe을 사용하지 않고). 자세한 내용은 [PowerApps를 사용하여 SharePoint 내에서 앱 생성](../canvas-apps/generate-app-from-sharepoint-list-interface.md)을 참조하세요.
+PowerApps를 SharePoint Online에 통합할 수도 있습니다(iframe을 사용하지 않고). 자세한 내용은 [PowerApps를 사용하여 SharePoint 내에서 앱 생성](app-from-sharepoint.md#generate-an-app-from-within-sharepoint-online)을 참조하세요.
 
 ## <a name="set-uri-parameters-for-your-app"></a>앱에 대한 URI 매개 변수 설정
 포함하려는 앱이 있는 경우 첫 번째 단계는 iframe이 앱을 찾을 수 있는 위치를 알 수 있도록 URI(Uniform Resource Identifier)에 대한 매개 변수를 설정하는 것입니다. URI는 다음과 같은 형식입니다.

@@ -1,6 +1,6 @@
 ---
-title: 사용자 지정 커넥터에 대한 콘텐츠 링크 | Microsoft Docs
-description: PowerApps에서 사용자 지정 커넥터를 만들고, 사용하고, 공유하고, 인증하는 콘텐츠에 대한 링크입니다.
+title: 캔버스 앱용 사용자 지정 커넥터에 대한 콘텐츠 링크 | Microsoft Docs
+description: PowerApps에서 캔버스 앱용 사용자 지정 커넥터를 만들고, 사용하고, 공유하고, 인증하는 콘텐츠에 대한 링크입니다.
 author: mgblythe
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: dd07dbc90900e4690e677823d2303b96e57472f5
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: 6975c19a973b90de0db7dfbc7ecb8e5e504f39a4
+ms.sourcegitcommit: 097ddfb25eb0f09f0229b866668c2b02fa57df55
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42859326"
+ms.lasthandoff: 10/24/2018
+ms.locfileid: "49991795"
 ---
-# <a name="custom-connectors-in-powerapps"></a>PowerApps의 사용자 지정 커넥터
+# <a name="custom-connectors-for-canvas-apps"></a>캔버스 앱용 사용자 지정 커넥터
 
 코드를 작성하지 않고도 [Azure Logic Apps](https://azure.microsoft.com/services/logic-apps), [Microsoft Flow](https://flow.microsoft.com) 및 [PowerApps](https://powerapps.microsoft.com)를 사용하여 워크플로 및 캔버스 앱을 빌드할 수 있습니다. 데이터와 비즈니스 프로세스를 통합하기 위해 이러한 서비스는 GitHub, Salesforce 및 Twitter와 같은 다른 서비스뿐만 아니라 Microsoft 서비스 및 제품에 대해 [180개 이상의 커넥터](https://docs.microsoft.com/connectors/)를 제공합니다.
 
