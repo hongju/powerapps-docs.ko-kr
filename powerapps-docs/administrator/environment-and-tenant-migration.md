@@ -52,7 +52,7 @@ ms.locfileid: "43263447"
 > 패키징이 미리 보기 상태인 동안 유효한 PowerApps 라이선스가 있는 사용자는 자신의 앱 및 환경에 대한 패키징을 시도해 볼 수 있습니다.
 
 ## <a name="exporting-an-app"></a>앱 내보내기
-1. http://web.powerapps.com에서 **앱**을 클릭하거나 탭하고, 마이그레이션하려는 앱에 대한 줄임표를 선택한 다음, **내보내기(미리 보기)** 를 선택합니다.
+1. [http://web.powerapps.com](http://web.powerapps.com)에서 **앱**을 클릭하거나 탭하고, 마이그레이션하려는 앱에 대한 줄임표를 선택한 다음, **내보내기(미리 보기)** 를 선택합니다.
 
     ![내보내기 선택](./media/environment-and-tenant-migration/select-export.png)
 2. 내보내기 패키지 페이지가 열릴 때 패키지에 대한 이름 및 설명을 입력합니다.
@@ -65,7 +65,7 @@ ms.locfileid: "43263447"
 4. **내보내기** 선택 작업을 완료하면 패키지 파일이 몇 초 내에 다운로드를 시작합니다.
 
 ## <a name="importing-an-app"></a>앱 가져오기
-1. http://web.powerapps.com에서 **앱**을 클릭하거나 탭한 다음, **패키지 가져오기(미리 보기)** 를 선택합니다.
+1. [http://web.powerapps.com](http://web.powerapps.com)에서 **앱**을 클릭하거나 탭한 다음, **패키지 가져오기(미리 보기)** 를 선택합니다.
 
     ![가져오기 선택](./media/environment-and-tenant-migration/select-import.png)
 2. **업로드**를 선택하고 가져오려는 앱 패키지 파일을 선택합니다.
@@ -87,13 +87,13 @@ ms.locfileid: "43263447"
 >
 
 ## <a name="exporting-cds-customizations-and-model-driven-apps"></a>CD 사용자 지정 및 모델 기반 앱 내보내기
-https://web.powerapps.com에서 빌드한 엔터티 또는 옵션 집합 사용자 지정이나 모델 기반 앱 내보내기는 다음과 같이 기본 환경 솔루션 내보내기를 통해 지원됩니다.
+[http://web.powerapps.com](https://web.powerapps.com)에서 빌드한 엔터티 또는 옵션 집합 사용자 지정이나 모델 기반 앱 내보내기는 다음과 같이 기본 환경 솔루션 내보내기를 통해 지원됩니다.
 > [!NOTE]
 >  PowerApps의 솔루션에 대해 자세히 알아보려면 [솔루션 소개](../developer/common-data-service/introduction-solutions.md)를 참조하세요.
 >
 >
 
-1. http://web.powerapps.com에서 해당 환경의 **모델 기반(미리 보기)** 디자인 모드를 선택합니다.
+1. [http://web.powerapps.com](http://web.powerapps.com)에서 해당 환경의 **모델 기반(미리 보기)** 디자인 모드를 선택합니다.
 
     ![모델 기반 디자인 모드 선택](./media/environment-and-tenant-migration/select-model-driven.png)
 
@@ -108,7 +108,7 @@ https://web.powerapps.com에서 빌드한 엔터티 또는 옵션 집합 사용�
 ## <a name="importing-cds-customization-and-model-driven-apps"></a>CD 사용자 지정 및 모델 기반 앱 가져오기
 유감스럽게도 CDS 솔루션 패키지 가져오기는 환경에서 수동 작업이 필요하며, 현재 문제를 수정하기 위해 적극적으로 노력하는 중입니다.
 
-1. http://web.powerapps.com에서 해당 환경의 **모델 기반(미리 보기)** 디자인 모드를 선택합니다.
+1. [http://web.powerapps.com](http://web.powerapps.com)에서 해당 환경의 **모델 기반(미리 보기)** 디자인 모드를 선택합니다.
 
     ![모델 기반 디자인 모드 선택](./media/environment-and-tenant-migration/select-model-driven.png)
 
