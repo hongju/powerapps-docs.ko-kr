@@ -1,0 +1,1 @@
+이 항목은 Microsoft Dynamics 365 내의 마케팅 작업 영역에 적용됩니다. Dynamics 365 마케팅 작업 영역은 영업 기반 마케팅 활동을 실행하도록 영업 팀에게 방법을 제공합니다. Dynamics 365와 함께 Microsoft Dynamics Marketing을 사용할 경우 해당 제품에 대한 유사 항목을 찾고 있을 수도 있습니다. Dynamics Marketing은 다중 스테이지 및 다중 채널 캠페인에 대한 전체 기능, 자동화 및 분석적인 통찰력을 제공합니다.

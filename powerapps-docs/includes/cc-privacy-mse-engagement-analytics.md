@@ -1,0 +1,1 @@
+참여 및 분석 시나리오를 활성화하기 위해 경우에 따라 Microsoft Social Engagement는 소셜 콘텐츠 검색을 위해 타사 서비스 Twitter 및 Facebook에 연결합니다. 이 연결을 설정할 때 IP 주소 같은 특정 데이터를 이러한 서비스와 공유할 수 있습니다.

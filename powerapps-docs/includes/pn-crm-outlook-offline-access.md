@@ -1,0 +1,1 @@
+Dynamics 365 for Microsoft Office Outlook(오프라인 액세스 가능)

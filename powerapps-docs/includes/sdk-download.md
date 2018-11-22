@@ -1,0 +1,1 @@
+[Microsoft Dynamics CRM SDK 패키지를 다운로드합니다.](http://go.microsoft.com/fwlink/?LinkID=627298)

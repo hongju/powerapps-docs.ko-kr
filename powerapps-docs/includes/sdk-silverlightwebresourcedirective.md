@@ -1,0 +1,1 @@
+엔터티 양식 또는 차트 외부에 Silverlight 웹 리소스를 표시하려면 Silverlight 웹 리소스의 호스트 페이지로 사용할 HTML 웹 리소스를 만듭니다. 그런 다음 **$webresource:** 지시문을 사용하여 HTML 웹 리소스를 엽니다.

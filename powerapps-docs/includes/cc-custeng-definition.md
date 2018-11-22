@@ -1,0 +1,1 @@
+[!INCLUDE[pn_dynamics_crm](pn-dynamics-crm.md)]에서 Dynamics CRM 기능은 이제 지능형 비즈니스 응용 프로그램 제품군의 일부로 포함됩니다. 제품군의 고객 관계 관리(CRM) 부분을 구성하는 앱을 “Customer Engagement”라고 하며 Sales, Customer Service, Field Service, Project Service Automation 및 관련 서비스를 포함합니다.

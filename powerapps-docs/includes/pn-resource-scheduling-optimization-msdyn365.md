@@ -1,0 +1,1 @@
+Microsoft Dynamics 365용 리소스 예약 최적화

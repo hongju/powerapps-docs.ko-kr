@@ -1,0 +1,1 @@
+Microsoft Dynamics 365 양식의 유형을 검색하는 규칙을 지정합니다.

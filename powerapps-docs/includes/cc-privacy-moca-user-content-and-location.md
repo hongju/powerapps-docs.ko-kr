@@ -1,0 +1,1 @@
+**사용자 내용 및 위치** 설정을 사용하면 [!INCLUDE[pn_microsoftcrm](pn-microsoftcrm.md)] 또는 Microsoft Dynamics CRM 관리자 및 시스템 사용자 지정자가 모바일 장치의 정확한 위치 데이터 및 파일에 액세스할 수 있습니다. 관리자 및 사용자 지정자는 재량에 따라 [!INCLUDE[pn_dynamics_crm](pn-dynamics-crm.md)], Dynamics CRM 및/또는 기타 서비스에 정보를 보내도록 선택할 수도 있습니다. 이후에 **사용자 내용 및 위치** 설정을 비활성화하여 이 기능을 사용하지 않을 수 있습니다. 이 설정은 모바일 장치 운영 체제에 지정된 개인 정보 설정에 영향을 주지 않습니다.

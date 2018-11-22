@@ -1,0 +1,1 @@
+이 작업을 수행하려면 Social Engagement 관리자여야 합니다.

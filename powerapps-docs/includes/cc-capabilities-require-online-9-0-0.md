@@ -1,0 +1,1 @@
+이 솔루션의 기능을 사용하려면 [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]이 필요합니다.

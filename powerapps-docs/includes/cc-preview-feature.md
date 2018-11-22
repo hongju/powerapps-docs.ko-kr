@@ -1,0 +1,1 @@
+이 기능을 사용하려면 해당 기능이 켜져 있어야 하고 사용 조건에 동의해야 합니다. [미리 보기 기능은 무엇이며 어떻게 사용합니까?](../admin/what-are-preview-features-how-do-i-enable-them.md).

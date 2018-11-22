@@ -1,0 +1,1 @@
+Microsoft SharePoint Server 2010용 Microsoft Dynamics CRM 목록 구성 요소

@@ -1,0 +1,1 @@
+[사용자 프로필 보기](https://docs.microsoft.com/dynamics365/customer-engagement/basics/view-your-user-profile)의 단계를 따르십시오.

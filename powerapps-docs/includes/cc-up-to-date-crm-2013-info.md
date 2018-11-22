@@ -1,0 +1,1 @@
+CRM 2013에 대한 최신 호환성 정보는 [Compatibility with Microsoft Dynamics CRM 2013](https://support.microsoft.com/en-us/kb/3005167)을 참조하십시오.

@@ -1,0 +1,1 @@
+TLS(Transport Layer Security) 또는 SSL(Secure Sockets Layer)

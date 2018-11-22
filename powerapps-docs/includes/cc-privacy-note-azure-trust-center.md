@@ -1,0 +1,1 @@
+**참고:** 추가 [!INCLUDE[pn_azure_shortest](pn-azure-shortest.md)] 서비스 제공에 대한 자세한 내용은 [Microsoft Azure 보안 센터](https://azure.microsoft.com/support/trust-center/)를 참조하십시오.

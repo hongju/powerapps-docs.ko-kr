@@ -1,0 +1,1 @@
+[사용자 프로필 보기](../basics/view-your-user-profile.md)의 단계를 따르십시오.

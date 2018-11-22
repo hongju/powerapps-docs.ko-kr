@@ -1,0 +1,3 @@
+Social Engagement를 사용하여 [Azure Event Hubs](https://azure.microsoft.com/documentation/articles/event-hubs-overview/)에 연결하면 자동화 규칙을 사용하여 소셜 데이터를 이벤트 허브로 스트리밍할 수 있습니다. Azure Event Hubs는 [미리 지정된 시간](https://azure.microsoft.com/documentation/articles/event-hubs-availability-and-support-faq/) 동안 Social Engagement에서 스트리밍된 소셜 데이터를 저장하고 이벤트 허브를 수신 대기할 수 있는 응용 프로그램은 이 데이터에 액세스하거나 저장하거나 처리할 수 있습니다.  
+  
+ Social Engagement에서 전송된 소셜 데이터는 소셜 게시물에 관한 정보(작성자 및 텍스트)는 물론 언어, 위치, 관심도, 태그 등과 같은 다양한 정보를 포함합니다. 이벤트 허브로 전송되는 소셜 게시물의 내용에 대한 자세한 정보는 [JSON 스키마 정의](http://go.microsoft.com/fwlink/p/?LinkId=786643)를 참조하십시오.

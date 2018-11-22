@@ -1,0 +1,1 @@
+Azure Blob 저장소

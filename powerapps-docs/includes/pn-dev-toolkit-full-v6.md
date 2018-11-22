@@ -1,0 +1,1 @@
+Microsoft Dynamics CRM 2013 및 Microsoft Dynamics CRM Online용 개발자 도구 키트

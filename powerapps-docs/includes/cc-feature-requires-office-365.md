@@ -1,0 +1,1 @@
+이 기능을 사용하려면 Office 365를 구독하거나 SharePoint Online 또는 Exchange Online 같은 온라인 서비스를 구독해야 합니다. 자세한 내용은 [Office 365란 무엇이며 Dynamics 365(온라인)와 어떤 관련이 있습니까?](https://docs.microsoft.com/dynamics365/customer-engagement/admin/what-office-365-how-does-relate)를 참조하십시오.

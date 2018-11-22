@@ -1,0 +1,1 @@
+이 샘플 코드는 Microsoft Dynamics CRM 2013 및 Microsoft Dynamics CRM Online용입니다.

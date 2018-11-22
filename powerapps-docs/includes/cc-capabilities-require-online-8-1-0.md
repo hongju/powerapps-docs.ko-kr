@@ -1,0 +1,1 @@
+이 솔루션의 기능을 사용하려면 Microsoft Dynamics CRM Online 2016 Update 1이 필요합니다.
