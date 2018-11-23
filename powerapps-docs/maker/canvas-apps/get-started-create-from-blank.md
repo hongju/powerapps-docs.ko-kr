@@ -17,7 +17,7 @@ ms.openlocfilehash: 8c398bb7a916c98aa769e39477fe889a74fce32c
 ms.sourcegitcommit: c1f58a16f8dcd309a1d5fc4658ca16d82c615994
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 11/23/2018
 ms.locfileid: "51333999"
 ---
 # <a name="create-an-canvas-app-from-scratch-based-on-excel-data"></a>Excel 데이터를 기반으로 처음부터 캔버스 앱 만들기
