@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 45b5d85998825cdafc2bbea7badaa5d7cde2f092
-ms.sourcegitcommit: 02d0234bd84352bf1c43d0fc9225ab60947a0add
+ms.openlocfilehash: 710df8899fa11e46a83e4ba670c4081b04fa7bde
+ms.sourcegitcommit: c1f58a16f8dcd309a1d5fc4658ca16d82c615994
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49317048"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "51333969"
 ---
 # <a name="create-a-canvas-app-from-scratch-using-common-data-service-for-apps"></a>앱용 Common Data Service를 사용하여 캔버스 앱을 처음부터 만들기
 
@@ -160,4 +160,5 @@ Common Data Service에서 앱을 빌드하면, SharePoint, Dynamics 365 및 Sale
 
 ## <a name="next-steps"></a>다음 단계
 
-[하나 이상의 샘플 앱을 열고](open-and-run-a-sample-app.md), 만들 수 있는 다양한 유형의 앱을 살펴봅니다.
+- 예를 들어 [이 앱을 솔루션에 연결](add-app-solution.md)하여 다른 환경에 배포하거나 AppSource에 게시할 수 있습니다.
+- [하나 이상의 샘플 앱을 열고](open-and-run-a-sample-app.md), 만들 수 있는 다양한 유형의 앱을 살펴봅니다.

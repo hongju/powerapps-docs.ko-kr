@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 3128d284d5b03da9a7c8b5798365b60f7092988b
-ms.sourcegitcommit: 02d0234bd84352bf1c43d0fc9225ab60947a0add
+ms.openlocfilehash: 8c398bb7a916c98aa769e39477fe889a74fce32c
+ms.sourcegitcommit: c1f58a16f8dcd309a1d5fc4658ca16d82c615994
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49316910"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "51333999"
 ---
 # <a name="create-an-canvas-app-from-scratch-based-on-excel-data"></a>Excel 데이터를 기반으로 처음부터 캔버스 앱 만들기
 
@@ -242,6 +242,8 @@ ms.locfileid: "49316910"
 1. Esc 키를 누르거나 오른쪽 위 모서리의 닫기 아이콘을 선택하여 미리 보기 모드를 닫습니다.
 
 ## <a name="next-steps"></a>다음 단계
-* 다른 장치에서 실행할 수 있도록 앱을 클라우드에 저장하려면 Ctrl-S를 누릅니다.
-* 다른 사용자가 앱을 실행할 수 있도록 [앱을 공유](share-app.md)하세요.
-* 표준 양식을 만들지 않고 데이터를 관리하는 데 사용할 수 있는 **Patch**와 같은 [함수](working-with-formulas.md)를 자세히 알아보세요.
+
+- 다른 장치에서 실행할 수 있도록 앱을 클라우드에 저장하려면 Ctrl-S를 누릅니다.
+- 다른 사용자가 앱을 실행할 수 있도록 [앱을 공유](share-app.md)하세요.
+- 표준 양식을 만들지 않고 데이터를 관리하는 데 사용할 수 있는 **Patch**와 같은 [함수](working-with-formulas.md)를 자세히 알아보세요.
+- 예를 들어 [이 앱을 솔루션에 연결](add-app-solution.md)하여 다른 환경에 배포하거나 AppSource에 게시할 수 있습니다.
