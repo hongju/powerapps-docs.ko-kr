@@ -227,7 +227,7 @@ ms.locfileid: "43163640"
 
 **[Not](functions/function-logicals.md)** – 부울 논리 NOT입니다.  인수가 **false**이면 **true**를 반환하고 인수가 **true**이면 **false**를 반환합니다.  [**!** 연산자](functions/operators.md)를 사용할 수도 있습니다.
 
-**[알림](functions/function-showerror.md)** – 사용자에게 배너 메시지를 표시합니다.
+**[Notify](functions/function-showerror.md)** – 사용자에게 배너 메시지를 표시합니다.
 
 **[Now](functions/function-now-today-istoday.md)** – 현재 날짜/시간 값을 반환합니다.
 
