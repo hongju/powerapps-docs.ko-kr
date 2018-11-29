@@ -1,6 +1,6 @@
 ---
-title: Day, Month, Year, Hour, Minute, Second, Weekday 함수 | Microsoft Docs
-description: PowerApps의 Day, Month, Year, Hour, Minute, Second, Weekday 함수에 대한 구문과 예제를 포함한 참조 정보
+title: Day, Month, Year, Hour, Minute, Second 및 Weekday 함수 | Microsoft Docs
+description: PowerApps의 Day, Month, Year, Hour, Minute, Second 및 Weekday 함수에 대한 구문과 예제를 포함한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -20,7 +20,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 08/24/2018
 ms.locfileid: "42857906"
 ---
-# <a name="day-month-year-hour-minute-second-and-weekday-functions-in-powerapps"></a>PowerApps의 Day, Month, Year, Hour, Minute, Second, Weekday 함수
+# <a name="day-month-year-hour-minute-second-and-weekday-functions-in-powerapps"></a>PowerApps의 Day, Month, Year, Hour, Minute, Second 및 Weekday 함수
 날짜/시간 값의 개별 구성 요소를 반환합니다.
 
 ## <a name="description"></a>설명

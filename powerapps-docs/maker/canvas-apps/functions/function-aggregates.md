@@ -1,6 +1,6 @@
 ---
-title: Average, Max, Min, StdevP, Sum, VarP 함수 | Microsoft Docs
-description: PowerApps의 Average, Max, Min, StdevP, Sum, VarP 함수에 대한 구문과 예제를 포함한 참조 정보
+title: Average, Max, Min, StdevP, Sum 및 VarP 함수 | Microsoft Docs
+description: PowerApps의 Average, Max, Min, StdevP, Sum 및 VarP 함수에 대한 구문과 예제를 포함한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -20,7 +20,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 08/24/2018
 ms.locfileid: "42862177"
 ---
-# <a name="average-max-min-stdevp-sum-and-varp-functions-in-powerapps"></a>PowerApps의 Average, Max, Min, StdevP, Sum, VarP 함수
+# <a name="average-max-min-stdevp-sum-and-varp-functions-in-powerapps"></a>PowerApps의 Average, Max, Min, StdevP, Sum 및 VarP 함수
 일련의 숫자를 요약하는 집계 함수입니다.
 
 ## <a name="description"></a>설명
@@ -45,7 +45,7 @@ ms.locfileid: "42862177"
 
 이러한 함수는 숫자 값에 대해서만 작동합니다. 문자열이나 레코드와 같은 다른 유형의 값은 무시됩니다. 문자열을 숫자로 변환하려면 **[Value](function-value.md)** 함수를 사용합니다.
 
-**Average**, **Max**, **Min**, **Sum** 함수는 [이러한 함수에 대한 위임을 지원하는 데이터 원본](../delegation-list.md)과 함께 사용하면 위임이 가능합니다.  하지만 **StdevP** 및 **VarP**는 모든 데이터 원본에 대해 위임할 수 없습니다.  위임이 지원되지 않으면 데이터의 첫 번째 부분만 검색된 다음 함수가 로컬에 적용됩니다.  결과가 전체 상황을 나타내지 못할 수 있습니다.  해당하는 경우 이러한 제한 사항을 상기시키고 위임 가능한 대안으로 전환하도록 제안하기 위해 수식 작성 시 위임 경고가 표시됩니다. 자세한 내용은 [위임 개요](../delegation-overview.md)를 참조하세요.
+**Average**, **Max**, **Min** 및 **Sum** 함수는 [이러한 함수에 대한 위임을 지원하는 데이터 원본](../delegation-list.md)과 함께 사용하면 위임이 가능합니다.  하지만 **StdevP** 및 **VarP**는 모든 데이터 원본에 대해 위임할 수 없습니다.  위임이 지원되지 않으면 데이터의 첫 번째 부분만 검색된 다음 함수가 로컬에 적용됩니다.  결과가 전체 상황을 나타내지 못할 수 있습니다.  해당하는 경우 이러한 제한 사항을 상기시키고 위임 가능한 대안으로 전환하도록 제안하기 위해 수식 작성 시 위임 경고가 표시됩니다. 자세한 내용은 [위임 개요](../delegation-overview.md)를 참조하세요.
 
 ## <a name="syntax"></a>구문
 **Average**( *NumericalFormula1*, [ *NumericalFormula2*, ... ] )<br>**Max**( *NumericalFormula1*, [ *NumericalFormula2*, ... ] )<br>**Min**( *NumericalFormula1*, [ *NumericalFormula2*, ... ] )<br>**Sum**( *NumericalFormula1*, [ *NumericalFormula2*, ... ] )<br>**StdevP**( *NumericalFormula1*, [ *NumericalFormula2*, ... ] )<br>**VarP**( *NumericalFormula1*, [ *NumericalFormula2*, ... ] )
@@ -62,7 +62,7 @@ ms.locfileid: "42862177"
 **CostPerUnit** 열과 **UnitsSold** 열을 포함하는 **Sales**라는 [데이터 원본](../working-with-data-sources.md)이 있고 레이블의 **[Text](../controls/properties-core.md)** 속성을 아래 함수에 설정한다고 가정하겠습니다.<br>
 **Sum(Sales, CostPerUnit * UnitsSold)**
 
-레이블은 각 레코드에 대한 해당 열의 값을 곱한 다음 모든 레코드의 결과를 모두 합하여 총 매출을 표시합니다.<br>![판매 단위 및 단위당 가격으로부터 총 매출 계산](./media/function-aggregates/total-sales.png)
+레이블은 각 레코드에 대한 해당 열의 값을 곱한 다음, 모든 레코드의 결과를 모두 합하여 총 매출을 표시합니다.<br>![판매 단위 및 단위당 가격으로부터 총 매출 계산](./media/function-aggregates/total-sales.png)
 
 다른 예로, **Slider1**, **Slider2**, **Slider3**이라는 슬라이더와 **[Text](../controls/properties-core.md)** 속성이 다음 수식으로 설정된 레이블이 있다고 가정하겠습니다.<br>
 **Sum(Slider1.Value, Slider2.Value, Slider3.Value)**

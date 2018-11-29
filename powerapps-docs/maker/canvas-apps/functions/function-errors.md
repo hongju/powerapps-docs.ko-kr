@@ -40,7 +40,7 @@ ms.locfileid: "42859989"
 
 | ErrorKind | 설명 |
 | --- | --- |
-| ErrorKind.Conflict |동일한 레코드에 대한 또 다른 변경으로 인해 변경 충돌이 발생했습니다.  **[Refresh](function-refresh.md)** 함수를 사용하여 레코드를 다시 로드한 다음 다시 변경합니다. |
+| ErrorKind.Conflict |동일한 레코드에 대한 또 다른 변경으로 인해 변경 충돌이 발생했습니다.  **[Refresh](function-refresh.md)** 함수를 사용하여 레코드를 다시 로드한 다음, 다시 변경합니다. |
 | ErrorKind.ConstraintViolation |하나 이상의 제약 조건을 위반했습니다. |
 | ErrorKind.CreatePermission |레코드를 만들려고 했지만 현재 사용자에게 레코드를 만들 수 있는 권한이 없습니다. |
 | ErrorKind.DeletePermission |레코드를 삭제하려고 했지만 현재 사용자에게 레코드를 삭제할 수 있는 권한이 없습니다. |
@@ -72,7 +72,7 @@ ms.locfileid: "42859989"
 
 ![](media/function-errors/icecream.png)
 
-사용자가 앱을 통해 초콜릿 레코드를 데이터 입력 양식에 로드한 다음 **Quantity** 값을 90으로 변경합니다.  사용할 레코드는 다음과 같은 **EditRecord** [컨텍스트 변수](../working-with-variables.md#create-a-context-variable)에 배치됩니다.
+사용자가 앱을 통해 초콜릿 레코드를 데이터 입력 양식에 로드한 다음, **Quantity** 값을 90으로 변경합니다.  사용할 레코드는 다음과 같은 **EditRecord** [컨텍스트 변수](../working-with-variables.md#create-a-context-variable)에 배치됩니다.
 
 * **UpdateContext( { EditRecord: First( Filter( IceCream, Flavor = "초콜릿" ) ) } )**
 

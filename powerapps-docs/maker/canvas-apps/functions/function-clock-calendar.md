@@ -62,7 +62,7 @@ ms.locfileid: "42849874"
    * **Calendar.MonthsLong()**
 3. 앱 사용자가 자신의 언어로 달을 선택할 수 있습니다.  **MonthsLong**을 **Calendar**에서 반환하는 단일 열 테이블로 대체하여 요일 및 시간 선택기를 만들 수 있습니다.
 
-"en-US"를 반환하는 **[언어](function-language.md)** 가 사용되는 미국의 **Calendar** 함수는 다음을 반환합니다.
+"en-US"를 반환하는 **[Language](function-language.md)** 가 사용되는 미국의 **Calendar** 함수는 다음을 반환합니다.
 
 | 수식 | 설명 | 결과 |
 | --- | --- | --- |

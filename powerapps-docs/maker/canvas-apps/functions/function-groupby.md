@@ -28,7 +28,7 @@ ms.locfileid: "49806205"
 
 **Ungroup** 함수는 **GroupBy** 프로세스를 되돌립니다. 이 함수는 함께 그룹화된 레코드를 별도의 레코드로 분리하는 테이블을 반환합니다.
 
-**GroupBy**를 사용하여 레코드를 그룹화하고, 반환되는 테이블을 수정한 다음 **Ungroup**을 사용하여 수정된 테이블의 레코드 그룹을 해제할 수 있습니다. 예를 들어 다음과 같은 방법으로 레코드 그룹을 제거할 수 있습니다.
+**GroupBy**를 사용하여 레코드를 그룹화하고, 반환되는 테이블을 수정한 다음, **Ungroup**을 사용하여 수정된 테이블의 레코드 그룹을 해제할 수 있습니다. 예를 들어 다음과 같은 방법으로 레코드 그룹을 제거할 수 있습니다.
 
 * **GroupBy** 함수를 사용합니다.
 * **[Filter](function-filter-lookup.md)** 함수를 사용하여 전체 레코드 그룹을 제거합니다.
@@ -73,7 +73,7 @@ ms.locfileid: "49806205"
     다음 데이터가 포함된 **CityPopulations**라는 [컬렉션](../working-with-data-sources.md#collections)이 생성되었습니다.
    
     ![](media/function-groupby/cities.png)
-4. 이 컬렉션을 표시하려면 **파일** 메뉴에서 **컬렉션**을 선택한 다음 **CityPopulations** 컬렉션을 선택합니다.  컬렉션의 처음 5개 레코드가 나타납니다.
+4. 이 컬렉션을 표시하려면 **파일** 메뉴에서 **컬렉션**을 선택한 다음, **CityPopulations** 컬렉션을 선택합니다.  컬렉션의 처음 5개 레코드가 나타납니다.
    
     ![](media/function-groupby/citypopulations-collection.png)
 

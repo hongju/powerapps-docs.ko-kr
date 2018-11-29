@@ -24,7 +24,7 @@ ms.locfileid: "42863452"
 현재 사용자에 대한 정보를 반환합니다.
 
 ## <a name="description"></a>설명
-**사용자** 함수는 현재 사용자에 대한 정보의 [레코드](../working-with-tables.md#records)를 반환합니다.
+**User** 함수는 현재 사용자에 대한 정보의 [레코드](../working-with-tables.md#records)를 반환합니다.
 
 | 속성 | 설명 |
 | --- | --- |

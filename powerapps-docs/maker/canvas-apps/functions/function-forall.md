@@ -38,9 +38,9 @@ ms.locfileid: "42857111"
 ### <a name="taking-action"></a>작업 수행
 수식에는 작업(예: **[Patch](function-patch.md)** 및 **[Collect](function-clear-collect-clearcollect.md)** 함수를 사용하여 데이터 원본의 레코드를 수정하는 작업)을 수행하는 함수가 포함될 수 있습니다.  수식은 연결에 관한 메서드를 호출할 수도 있습니다.  [**;** 연산자](operators.md)를 사용하면 레코드당 여러 작업을 수행할 수 있습니다. **ForAll** 함수의 대상인 테이블은 수정할 수 없습니다.
 
-수식을 작성할 때는 레코드가 임의의 순서로 처리될 수 있고 가능한 경우에는 병렬로 처리될 수 있음에 유의하십시오.  테이블의 첫 번째 레코드는 마지막 레코드 다음에 처리될 수 있습니다.  순서 종속성을 피하도록 주의하십시오.  이러한 이유로 인해, **ForAll** 함수 내에서 **[UpdateContext](function-updatecontext.md)**, **[Clear](function-clear-collect-clearcollect.md)**, **[ClearCollect](function-clear-collect-clearcollect.md)** 함수를 사용할 수 업습니다. 해당 함수는 이러한 효과에 영향을 받기 쉬운 변수를 보유하는 데 쉽게 사용될 수 있기 때문입니다.  **[Collect](function-clear-collect-clearcollect.md)** 를 사용할 수 있지만 레코드가 추가되는 순서는 정의되지 않습니다.
+수식을 작성할 때는 레코드가 임의의 순서로 처리될 수 있고 가능한 경우에는 병렬로 처리될 수 있음에 유의하십시오.  테이블의 첫 번째 레코드는 마지막 레코드 다음에 처리될 수 있습니다.  순서 종속성을 피하도록 주의하십시오.  이러한 이유로 인해, **ForAll** 함수 내에서 **[UpdateContext](function-updatecontext.md)**, **[Clear](function-clear-collect-clearcollect.md)** 및 **[ClearCollect](function-clear-collect-clearcollect.md)** 함수를 사용할 수 업습니다. 해당 함수는 이러한 효과에 영향을 받기 쉬운 변수를 보유하는 데 쉽게 사용될 수 있기 때문입니다.  **[Collect](function-clear-collect-clearcollect.md)** 를 사용할 수 있지만 레코드가 추가되는 순서는 정의되지 않습니다.
 
-데이터 원본을 수정하는 **Collect**, **Remove**, **Update**를 비롯한 몇 가지 함수는 변경된 데이터 원본을 반환 값으로 반환합니다.  이러한 반환 값이 **ForAll** 테이블의 모든 레코드에 대해 반환되면 커지고 상당한 리소스를 소비할 수 있습니다.  또한 이러한 반환 값이 필요한 값이 아닐 수도 있습니다. **ForAll**은 병렬 작업이 가능하고 이러한 함수의 파생 작업을 그 결과를 얻는 것으로부터 분리할 수 있기 때문입니다.  다행이 **ForAll**의 반환 값이 실제로 사용되지 않으면(데이터 수정 함수의 경우) 반환 값이 생성되지 않아서 리소스나 순서 관련 문제가 없습니다.  하지만 **ForAll**의 결과를 사용하고 데이터 원본을 반환하는 함수 중 하나를 사용하는 경우, 결과를 구조화하는 방법에 대해 신중히 생각하고, 작은 데이터 집합부터 먼저 시도해보십시오.  
+데이터 원본을 수정하는 **Collect**, **Remove** 및 **Update**를 비롯한 몇 가지 함수는 변경된 데이터 원본을 반환 값으로 반환합니다.  이러한 반환 값이 **ForAll** 테이블의 모든 레코드에 대해 반환되면 커지고 상당한 리소스를 소비할 수 있습니다.  또한 이러한 반환 값이 필요한 값이 아닐 수도 있습니다. **ForAll**은 병렬 작업이 가능하고 이러한 함수의 파생 작업을 그 결과를 얻는 것으로부터 분리할 수 있기 때문입니다.  다행이 **ForAll**의 반환 값이 실제로 사용되지 않으면(데이터 수정 함수의 경우) 반환 값이 생성되지 않아서 리소스나 순서 관련 문제가 없습니다.  하지만 **ForAll**의 결과를 사용하고 데이터 원본을 반환하는 함수 중 하나를 사용하는 경우, 결과를 구조화하는 방법에 대해 신중히 생각하고, 작은 데이터 집합부터 먼저 시도해보십시오.  
 
 ### <a name="alternatives"></a>대안
 PowerApps의 많은 함수는 단일 열 테이블을 사용하여 한 번에 둘 이상의 값을 처리할 수 있습니다.  예를 들어, **Len** 함수는 **ForAll** 함수와 같은 방식으로 텍스트 값 테이블을 처리하여 긴 테이블을 반환할 수 있습니다.  이렇게 하면 많은 경우 **ForAll**을 사용할 필요가 없어지고, 효율이 높아지고, 읽기가 쉬워집니다.
@@ -88,7 +88,7 @@ PowerApps의 많은 함수는 단일 열 테이블을 사용하여 한 번에 �
 | **ForAll( Expressions, MicrosoftTranslator.Translate( Value, "fr" ) )** |Expressions 테이블에 있는 모든 레코드의 **Value** 열 콘텐츠를 프랑스어(약어: "fr")로 번역합니다. |<style> img { max-width: none } </style> ![](media/function-forall/translate-fr.png) |
 
 ### <a name="copying-a-table"></a>테이블 복사
-데이터를 필터링하고, 형성하고, 정렬하고, 조작해야 하는 경우가 있습니다.  PowerApps에는 이러한 작업을 수행하는 **Filter**, **AddColumns**, **Sort**와 같은 다양한 함수가 제공됩니다.  PowerApps는 각 테이블을 값으로 처리하기 때문에 수식을 통과하여 쉽게 사용될 수 있도록 합니다.      
+데이터를 필터링하고, 형성하고, 정렬하고, 조작해야 하는 경우가 있습니다.  PowerApps에는 이러한 작업을 수행하는 **Filter**, **AddColumns** 및 **Sort**와 같은 다양한 함수가 제공됩니다.  PowerApps는 각 테이블을 값으로 처리하기 때문에 수식을 통과하여 쉽게 사용될 수 있도록 합니다.      
 
 나중에 사용하기 위해 이러한 결과의 복사본을 만들어야 하는 경우가 있습니다.  하나의 데이터 원본에서 다른 데이터 원본으로 정보를 이동해야 하는 경우도 있습니다.  PowerApps는 데이터를 복사하는 **Collect** 함수를 제공합니다.
 

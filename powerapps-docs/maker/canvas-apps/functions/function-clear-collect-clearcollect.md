@@ -1,6 +1,6 @@
 ---
-title: Collect, Clear, ClearCollect 함수 | Microsoft Docs
-description: PowerApps의 Collect, Clear, ClearCollect 함수에 대한 구문과 예제를 포함한 참조 정보
+title: Collect, Clear 및 ClearCollect 함수 | Microsoft Docs
+description: PowerApps의 Collect, Clear 및 ClearCollect 함수에 대한 구문과 예제를 포함한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -20,7 +20,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 10/04/2018
 ms.locfileid: "48578745"
 ---
-# <a name="collect-clear-and-clearcollect-functions-in-powerapps"></a>PowerApps의 Collect, Clear, ClearCollect 함수
+# <a name="collect-clear-and-clearcollect-functions-in-powerapps"></a>PowerApps의 Collect, Clear 및 ClearCollect 함수
 [컬렉션](../working-with-data-sources.md#collections)을 만들고 지우고 [데이터 원본](../working-with-data-sources.md)에 [레코드](../working-with-tables.md#records)를 추가합니다.
 
 ## <a name="description"></a>설명
@@ -51,7 +51,7 @@ ms.locfileid: "48578745"
 **Clear**는 반환 값이 없습니다.  동작 수식에만 사용할 수 있습니다.
 
 ### <a name="clearcollect"></a>ClearCollect
-**ClearCollect** 함수는 컬렉션에서 모든 레코드를 삭제한 다음 동일한 컬렉션에 다른 레코드 집합을 추가합니다.  **ClearCollect**는 단일 함수로 **Clear**와 **Collect**의 조합을 제공합니다.
+**ClearCollect** 함수는 컬렉션에서 모든 레코드를 삭제한 다음, 동일한 컬렉션에 다른 레코드 집합을 추가합니다.  **ClearCollect**는 단일 함수로 **Clear**와 **Collect**의 조합을 제공합니다.
 
 **ClearCollect**는 수정된 컬렉션을 테이블로 반환합니다.  **ClearCollect**는 동작 수식에만 사용할 수 있습니다.
 

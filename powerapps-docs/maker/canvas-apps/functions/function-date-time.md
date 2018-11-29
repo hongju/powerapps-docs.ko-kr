@@ -32,7 +32,7 @@ ms.locfileid: "42864102"
 
 **Time** 함수는 개별 시, 분, 초 값을 날짜/시간 값으로 변환합니다.  결과에는 연관된 날짜가 없습니다.
 
-문자열을 값으로 변환하는 방법에 대한 자세한 내용은 **[DateValue](function-datevalue-timevalue.md)**, **[TimeValue](function-datevalue-timevalue.md)**, **[DateTimeValue](function-datevalue-timevalue.md)** 함수를 참조하세요.  
+문자열을 값으로 변환하는 방법에 대한 자세한 내용은 **[DateValue](function-datevalue-timevalue.md)**, **[TimeValue](function-datevalue-timevalue.md)** 및 **[DateTimeValue](function-datevalue-timevalue.md)** 함수를 참조하세요.  
 
 [날짜 및 시간 작업](../show-text-dates-times.md)에서도 자세한 내용을 참조하세요.
 

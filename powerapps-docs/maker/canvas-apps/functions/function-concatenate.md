@@ -47,7 +47,7 @@ ms.locfileid: "42865121"
 1. **[단추](../controls/control-button.md)** 컨트롤을 추가하고 이 수식에 **[OnSelect](../controls/properties-core.md)** 속성을 설정합니다.
    
     **Collect(Products, {String:"Violin", Wind:"Trombone", Percussion:"Bongos"}, {String:"Cello", Wind:"Trumpet", Percussion:"Tambourine"})**
-2. F5 키를 누르고 단추를 클릭한 다음 Esc 키를 눌러서 디자인 작업 영역으로 돌아갑니다.
+2. F5 키를 누르고 단추를 클릭한 다음, Esc 키를 눌러서 디자인 작업 영역으로 돌아갑니다.
 3. **[레이블](../controls/control-text-box.md)** 컨트롤을 추가하고, **[Text](../controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.
    
     **Concat(Products, String & " ")**

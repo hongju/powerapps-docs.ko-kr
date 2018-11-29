@@ -43,7 +43,7 @@ ms.locfileid: "42833000"
 * *String* - 필수 항목이며, HTML 및 XML 태그를 제거할 문자열입니다.
 
 ## <a name="examples"></a>예
-텍스트 갤러리에 RSS 피드를 표시한 다음 해당 갤러리의 레이블에 있는 **[Text](../controls/properties-core.md)** 속성을 **ThisItem.description**으로 설정하면 레이블에 다음 예제와 같이 원시 HTML 또는 XML 코드가 표시됩니다.
+텍스트 갤러리에 RSS 피드를 표시한 다음, 해당 갤러리의 레이블에 있는 **[Text](../controls/properties-core.md)** 속성을 **ThisItem.description**으로 설정하면 레이블에 다음 예제와 같이 원시 HTML 또는 XML 코드가 표시됩니다.
 
     <p>We have done an unusually&nbsp;&quot;deep&quot; globalization and localization.<p>
 

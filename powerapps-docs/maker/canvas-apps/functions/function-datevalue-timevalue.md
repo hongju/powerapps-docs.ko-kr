@@ -1,6 +1,6 @@
 ---
-title: DateValue, TimeValue, DateTimeValue 함수 | Microsoft Docs
-description: PowerApps의 DateValue, TimeValue, DateTimeValue 함수에 대한 구문과 예제를 포함한 참조 정보
+title: DateValue, TimeValue 및 DateTimeValue 함수 | Microsoft Docs
+description: PowerApps의 DateValue, TimeValue 및 DateTimeValue 함수에 대한 구문과 예제를 포함한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -20,7 +20,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 08/24/2018
 ms.locfileid: "42834730"
 ---
-# <a name="datevalue-timevalue-and-datetimevalue-functions-in-powerapps"></a>PowerApps의 DateValue, TimeValue, DateTimeValue 함수
+# <a name="datevalue-timevalue-and-datetimevalue-functions-in-powerapps"></a>PowerApps의 DateValue, TimeValue 및 DateTimeValue 함수
 문자열의 날짜, 시간 또는 둘 다를 날짜/시간 값으로 변환합니다.
 
 ## <a name="description"></a>설명
@@ -55,7 +55,7 @@ ms.locfileid: "42834730"
 
 ## <a name="examples"></a>예
 ### <a name="datevalue"></a>DateValue
-**Startdate**라는 텍스트 입력 컨트롤에 **10/11/2014**를 입력한 다음 레이블의 **[Text](../controls/properties-core.md)** 속성을 다음 함수로 설정합니다.
+**Startdate**라는 텍스트 입력 컨트롤에 **10/11/2014**를 입력한 다음, 레이블의 **[Text](../controls/properties-core.md)** 속성을 다음 함수로 설정합니다.
 
 * **Text(DateValue(Startdate.Text), DateTimeFormat.LongDate)**
   
@@ -74,7 +74,7 @@ ms.locfileid: "42834730"
     컴퓨터가 **en** 언어로 설정된 경우, 레이블에 **9**가 표시되어 10월 11일에서 10월 20일 사이의 일 수를 나타냅니다. **[DateDiff](function-dateadd-datediff.md)** 함수는 월, 분기 또는 연도의 차이도 표시할 수 있습니다.
 
 ### <a name="datetimevalue"></a>DateTimeValue
-**Start**라는 텍스트 입력 컨트롤에 **10/11/2014 1:50:24.765 PM**을 입력한 다음 레이블의 **[Text](../controls/properties-core.md)** 속성을 다음 함수로 설정합니다.
+**Start**라는 텍스트 입력 컨트롤에 **10/11/2014 1:50:24.765 PM**을 입력한 다음, 레이블의 **[Text](../controls/properties-core.md)** 속성을 다음 함수로 설정합니다.
 
 * **Text(DateTimeValue(Start.Text), DateTimeFormat.LongDateTime)**
   

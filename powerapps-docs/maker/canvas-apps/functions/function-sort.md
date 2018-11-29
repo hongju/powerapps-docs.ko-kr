@@ -30,7 +30,7 @@ ms.locfileid: "42830774"
 
 [!INCLUDE [record-scope](../../../includes/record-scope.md)]
 
-하나의 열로 먼저 정렬 후 다른 열로 정렬하려면 **Sort** 수식을 다른 열에 삽입합니다. 예를 들어, **Contacts** 테이블을 **LastName** 열로 먼저 정렬한 다음 **FirstName** 열로 정렬하려면 이 수식(**Sort( Sort( Contacts, LastName ), FirstName )**)을 사용할 수 있습니다.
+하나의 열로 먼저 정렬 후 다른 열로 정렬하려면 **Sort** 수식을 다른 열에 삽입합니다. 예를 들어, **Contacts** 테이블을 **LastName** 열로 먼저 정렬한 다음, **FirstName** 열로 정렬하려면 이 수식(**Sort( Sort( Contacts, LastName ), FirstName )**)을 사용할 수 있습니다.
 
 **SortByColumns** 함수는 하나 이상의 열을 기준으로 테이블을 정렬하는 데 사용할 수도 있습니다.
 
@@ -87,16 +87,16 @@ ms.locfileid: "42830774"
 이러한 예제를 직접 실행하려면 [Collection](../working-with-data-sources.md#collections)과 같은 **IceCream** 데이터 원본을 만듭니다.
 
 1. 단추 하나를 추가하고 이 수식에 **[OnSelect](../controls/properties-core.md)** 속성을 설정합니다.<br>**ClearCollect( IceCream, { Flavor: "Chocolate", Quantity: 100, OnOrder: 150 }, { Flavor:  "Vanilla", Quantity: 200, OnOrder: 20 }, { Flavor: "Strawberry", Quantity: 300, OnOrder: 0 }, { Flavor: "Mint Chocolate", Quantity: 60, OnOrder: 100 }, { Flavor: "Pistachio", Quantity: 200, OnOrder: 10 } )**
-2. 앱을 미리 보고, 단추를 선택한 다음 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
-3. 바로 만든 컬렉션을 표시하려면 **File** 메뉴의 **Collections**를 선택한 다음 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
+2. 앱을 미리 보고, 단추를 선택한 다음, 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
+3. 바로 만든 컬렉션을 표시하려면 **File** 메뉴의 **Collections**를 선택한 다음, 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
 
 #### <a name="sort"></a>정렬
 1. 또 다른 단추를 추가하고 이 수식에 **[OnSelect](../controls/properties-core.md)** 속성을 설정합니다.<br>
    **ClearCollect( SortByFlavor, Sort( IceCream, Flavor ) )**
    
      앞의 수식은 **Ice Cream**과 동일한 데이터를 포함하는 **SortByFlavor**라는 이름의 2번째 컬렉션을 만듭니다. 단, 새 컬렉션에는 오름차순의 **Flavor** 열로 사전순으로 정렬한 데이터가 포함됩니다.
-2. F5 키를 누르고 새 단추를 선택한 다음 Esc 키를 누릅니다.
-3. 두 컬렉션을 모두 표시하려면 **File** 메뉴의 **Collections**를 선택한 다음 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
+2. F5 키를 누르고 새 단추를 선택한 다음, Esc 키를 누릅니다.
+3. 두 컬렉션을 모두 표시하려면 **File** 메뉴의 **Collections**를 선택한 다음, 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
 4. 마지막 세 단계를 반복하되, 만들려는 컬렉션의 이름을 변경하고, **Sort** 수식을 **Sort**를 사용하는 이 섹션 앞 부분의 예제 테이블의 다른 수식으로 교체합니다.
 
 #### <a name="sortbycolumns"></a>SortByColumns
@@ -104,7 +104,7 @@ ms.locfileid: "42830774"
    **ClearCollect( SortByQuantity, SortByColumns( IceCream, "Quantity", Ascending, "Flavor", Descending ) )**
    
      앞의 수식은 **Ice Cream**과 동일한 데이터를 포함하는 **SortByQuantity**라는 이름의 3번째 컬렉션을 만듭니다. 단, 새 컬렉션에는 오름차순의 **Quantity** 열로 사전순으로 정렬한 후, 내림차순의 **Flavor** 열로 사전순으로 정렬한 데이터가 포함됩니다.
-2. F5 키를 누르고 새 단추를 선택한 다음 Esc 키를 누릅니다.
-3. 세 컬렉션을 모두 표시하려면 **파일** 메뉴의 **Collections**를 선택한 다음 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
+2. F5 키를 누르고 새 단추를 선택한 다음, Esc 키를 누릅니다.
+3. 세 컬렉션을 모두 표시하려면 **파일** 메뉴의 **Collections**를 선택한 다음, 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
 4. 마지막 세 단계를 반복하되, 만들려는 컬렉션의 이름을 변경하고, **SortByColumns** 수식을 **SortByColumns**를 사용하는 이 섹션 앞 부분의 예제 테이블의 다른 수식으로 교체합니다.
 
