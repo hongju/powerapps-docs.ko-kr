@@ -43,7 +43,7 @@ search.app:
 > - 관련 엔터티에 대한 새 조회 필드를 만듭니다. <br />추가 정보: [필드 만들기 및 편집](create-edit-fields.md)
 > - 엔터티 관계의 정의가 포함된 솔루션을 가져옵니다. <br />추가 정보: [솔루션 가져오기, 업데이트 및 내보내기](import-update-export-solutions.md)
 > - 파워 쿼리를 사용하여 새 엔터티를 만들고 데이터로 채웁니다. <br />추가 정보: [파워 쿼리를 사용하여 앱용 Common Data Service의 엔터티에 데이터를 추가합니다](data-platform-cds-newentity-pq.md).
-> - 개발자는 [웹 서비스 ](../../developer/common-data-service/use-web-services.md#metadata-services)를 사용하여 엔터티 관계를 만들고 업데이트하는 프로그램을 작성할 수 있습니다. <br />추가 정보: [엔터티 관계 메타데이터 사용자 지정](https://docs.microsoft.com/dynamics365/customer-engagement/developer/customize-entity-relationship-metadata)
+> - 개발자는 [메타데이터 서비스 ](../../developer/common-data-service/metadata-services.md)를 사용하여 엔터티 관계를 만들고 업데이트하는 프로그램을 작성할 수 있습니다. <br />추가 정보: [엔터티 관계 메타데이터 사용자 지정](https://docs.microsoft.com/dynamics365/customer-engagement/developer/customize-entity-relationship-metadata)
 
 이 항목의 정보는 사용할 수 있는 디자이너를 선택하는 데 도움이 됩니다. 
 

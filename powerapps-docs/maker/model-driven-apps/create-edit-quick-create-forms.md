@@ -2,7 +2,7 @@
 title: PowerApps에서 모델 기반 앱 빠른 만들기 양식 만들기 또는 편집 | MicrosoftDocs
 description: 빠른 만들기 양식을 만들거나 편집하는 방법 알아보기
 ms.custom: ''
-ms.date: 05/23/2018
+ms.date: 10/15/2018
 ms.reviewer: ''
 ms.service: crm-online
 ms.suite: ''
@@ -53,9 +53,8 @@ search.app:
   
 ### <a name="how-to-create-a-quick-create-form"></a>빨리 만들기 양식을 만드는 방법  
   
-1.  [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 사이트에서 **모델 기반**(탐색 창의 왼쪽 아래)을 선택합니다.  
+1.  [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
 
-     ![모델 기반 디자인 모드](media/model-driven-switch.png)
 
 > [!IMPORTANT]
 > "**모델 기반** 디자인 모드를 사용할 수 없는 경우 [환경 만들기](https://docs.microsoft.com/powerapps/administrator/create-environment)를 해야 할 수 있습니다.     
@@ -92,7 +91,7 @@ search.app:
   
 ### <a name="to-edit-a-quick-create-form"></a>빨리 만들기 양식을 편집하려면  
   
-1.  [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 사이트에서 **모델 기반**(탐색 창의 왼쪽 아래)을 선택합니다.  
+1.  [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
 
 > [!IMPORTANT]
 > "**모델 기반** 디자인 모드를 사용할 수 없는 경우 [환경 만들기](https://docs.microsoft.com/powerapps/administrator/create-environment)를 해야 할 수 있습니다.    

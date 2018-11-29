@@ -48,9 +48,7 @@ search.app:
 
 ### <a name="open-the-view-editor"></a>보기 편집기 열기
 
-1.  [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 사이트에서 **모델 기반**(탐색 창의 왼쪽 아래)을 선택합니다.  
-
-    ![모델 기반 디자인 모드](../model-driven-apps/media/model-driven-switch.png)
+1.  [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
 
 2.  **데이터**를 확장하고 **엔터티**를 선택하고 원하는 엔터티를 선택한 다음 **보기** 탭을 선택합니다. 
 

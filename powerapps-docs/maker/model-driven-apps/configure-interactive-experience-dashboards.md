@@ -157,17 +157,15 @@ search.app:
   
 ### <a name="configure-a-multi-stream-interactive-dashboard-using-the-4-column-layout"></a>4열 레이아웃을 사용하여 멀티 스트림 대화식 대시보드를 구성합니다.  
  
-1.  [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
+1.  [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다. 
+  
+2.  **데이터** > **엔터티**를 선택하고 원하는 엔터티를 선택합니다. 
 
-2.  **모델 기반**(왼쪽 아래).  
+3.  **대시보드** 탭을 선택한 다음 도구 모음에서 **대시보드 추가**를 선택합니다.  
   
-3.  **데이터** > **엔터티**를 선택하고 원하는 엔터티를 선택합니다. 
-
-4.  **대시보드** 탭을 선택한 다음 도구 모음에서 **대시보드 추가**를 선택합니다.  
+4.  레이아웃을 2, 3 또는 4열 너비 중에서 선택합니다.  
   
-5.  레이아웃을 2, 3 또는 4열 너비 중에서 선택합니다.  
-  
-6.  대시보드 양식이 열리면 여기에 표시된 것처럼 양식 상단에 필터링 정보를 입력합니다.  
+5.  대시보드 양식이 열리면 여기에 표시된 것처럼 양식 상단에 필터링 정보를 입력합니다.  
  
  > [!div class="mx-imgBorder"] 
  > ![시각적 필터 추가](../model-driven-apps/media/interactive-dashboards-add-visual-filters.png "시각적 필터 추가")  
@@ -220,7 +218,7 @@ search.app:
   
 1. [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.   
   
-2. **모델 기반**(왼쪽 아래), **데이터** > **엔터티**를 선택하고 원하는 엔터티를 선택합니다. **대시보드** 탭을 선택합니다.  
+2. **데이터** > **엔터티**를 선택하고 원하는 엔터티를 선택합니다. **대시보드** 탭을 선택합니다.  
   
      또는  
    
@@ -241,15 +239,13 @@ search.app:
   
 1.  [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
 
-2.  **모델 기반**(왼쪽 아래).  
-  
-3.  **데이터** > **엔터티**를 선택하고 원하는 엔터티를 선택합니다. 
+2.  **데이터** > **엔터티**를 선택하고 원하는 엔터티를 선택합니다. 
 
-4.  **대시보드** 탭을 선택한 다음 도구 모음에서 **대시보드 추가**를 선택합니다.  
+3.  **대시보드** 탭을 선택한 다음 도구 모음에서 **대시보드 추가**를 선택합니다.  
   
-5.  레이아웃을 2, 3 또는 4열 너비 중에서 선택합니다.    
+4.  레이아웃을 2, 3 또는 4열 너비 중에서 선택합니다.    
   
-6.  대시보드 양식이 열리면 **필터 엔터티**는 대시보드를 만들고 있는 엔터티로 사전 설정됩니다. **엔터티 보기** 드롭다운 목록에는 엔터티에 사용할 수 있는 보기가 포함되어 있습니다. 보기를 선택하고 페이지에서 나머지 필수 정보를 입력합니다.  
+5.  대시보드 양식이 열리면 **필터 엔터티**는 대시보드를 만들고 있는 엔터티로 사전 설정됩니다. **엔터티 보기** 드롭다운 목록에는 엔터티에 사용할 수 있는 보기가 포함되어 있습니다. 보기를 선택하고 페이지에서 나머지 필수 정보를 입력합니다.  
   
  나머지 설정은 이전 섹션에서 설명한 홈 페이지 멀티 스트림 대시보드 설정과 매우 유사합니다.  
   

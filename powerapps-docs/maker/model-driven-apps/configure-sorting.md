@@ -26,9 +26,8 @@ search.app:
 
  보기를 만들거나 편집할 때 오름차순이나 내림차순에 대한 정렬 순서를 구성할 수 있습니다.   
   
-1.  [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 사이트에서 **모델 기반**(탐색 창의 왼쪽 아래)을 선택합니다.  
+1.  [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
 
-    ![모델 기반 디자인 모드](media/model-driven-switch.png)
 
 2.  **데이터**를 확장하고 **엔터티**를 선택한 다음 **거래처**와 같은 원하는 엔터티를 선택합니다.   
 3.  **보기** 탭을 선택하고 표시되는 경우 **필터 제거**를 선택한 다음 **활성 거래처**와 같은 원하는 보기를 엽니다.

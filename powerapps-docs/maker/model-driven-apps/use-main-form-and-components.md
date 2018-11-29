@@ -1,7 +1,7 @@
 ---
 title: PowerApps에서 모델 기반 앱 기본 양식 및 구성 요소 사용 | Microsoft Docs
 description: 통합된 인터페이스 기반 앱에서 주요 양식 및 구성 요소 사용하는 방법 알기
-keywords: 메인 양식; 고객 서비스; Customer Service Hub; Dynamics 365
+keywords: 메인 양식; 고객 서비스; 고객 서비스 허브; Dynamics 365
 author: Mattp123
 ms.author: matp
 manager: kvivek
@@ -37,9 +37,7 @@ search.app:
 
 ### <a name="access-the-form-editor-through-app-designer-in-powerapps"></a>PowerApps에서 앱 디자이너를 통한 양식 편집기 액세스
 
-1.  [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 사이트에서 **모델 기반**(탐색 창의 왼쪽 아래)을 선택합니다.  
-
-    ![모델 기반 디자인 모드](media/model-driven-switch.png)
+1.  [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
 
 2.  왼쪽 탐색 창에서 **앱**을 선택하고 원하는 앱을 선택한 다음 도구 모음에서 **편집**을 선택합니다.  
 
@@ -60,9 +58,7 @@ search.app:
 
 ### <a name="access-the-form-editor-through-the-default-solution"></a>기본 솔루션을 통해 양식 편집기에 액세스
 
-1.  [PowerApps](https:///?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 사이트에서 **모델 기반**(탐색 창의 왼쪽 아래)을 선택합니다.  
-
-     ![모델 기반 디자인 모드](media/model-driven-switch.png)
+1.  [PowerApps](https:///?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
 
 2.  **데이터**를 확장하고 **엔터티**를 선택하고 원하는 엔터티를 선택한 다음 **양식** 탭을 선택합니다.  
 

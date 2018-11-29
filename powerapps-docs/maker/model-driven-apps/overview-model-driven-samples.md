@@ -38,11 +38,14 @@ search.app:
 
 ## <a name="customize-a-sample-app"></a>샘플 앱 사용자 지정
 
-1. [powerapps.com](https://powerapps.com)에 로그인하고 디자인 모드에 대해 **모델 기반**을 선택했습니다. 
+1. [powerapps.com](https://powerapps.com)에 로그인  
 
-    ![디자인 모드 선택](media/overview-model-driven-samples/choose-design-mode.png)
+    
 
-2. 홈 페이지에서 샘플 앱을 마우스로 가리키고 **사용자 지정**을 클릭합니다.
+2. **만들기** 페이지에서 샘플 앱을 마우스로 가리키고 **이 앱 만들기** 클릭합니다.
+
+![모델 샘플 앱](media/overview-model-driven-samples/model-driven-create-page-sample.png)
+
 3. 앱 디자이너는 앱을 사용자 지정하기 위한 여러 옵션을 제공하여 열립니다. 
 4. 추가 사용자 지정 옵션에 대한 포털의 왼쪽에 있는 탐색에서 **고급**을 클릭합니다.
 

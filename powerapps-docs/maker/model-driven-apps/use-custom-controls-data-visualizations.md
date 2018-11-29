@@ -42,9 +42,9 @@ Dynamics 365 휴대폰이나 태블릿 모바일 앱에 다른 사용자 지정 
 ## <a name="use-a-custom-control-to-add-visualizations-to-a-field"></a>사용자 지정 컨트롤을 사용하여 필드에 시각화 추가  
  이 절차의 단계에 따라 **예산 금액** 필드의 기본 레이블 및 텍스트 상자 필드를 영업 기회 엔터티의 슬라이더 사용자 지정 컨트롤로 변경합니다. 비슷한 단계를 사용하여 기존 필드를 사용자 지정 컨트롤로 바꾸거나 사용자 지정 필드에 대한 사용자 지정 컨트롤을 구성할 수 있습니다.  
   
-1.  [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 사이트에서 **모델 기반**(탐색 창의 왼쪽 아래)을 선택합니다.  
+1.  [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
 
-     ![모델 기반 디자인 모드](media/model-driven-switch.png)
+     
 
 2.  **데이터**를 확장하고 **엔터티**를 선택하고 원하는 엔터티를 선택한 다음 **양식** 탭을 선택합니다.  
   

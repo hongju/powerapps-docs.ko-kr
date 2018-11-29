@@ -27,9 +27,8 @@ search.app:
 > ![거래처 양식의 연락처 빠른 보기 양식](media/quick-view-form-contact.png "거래처 양식의 연락처 빠른 보기 양식")  
 
 PowerApps 사이트에서 **빠른 보기 컨트롤 속성**에 액세스할 수 있습니다. 
-1.  [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 사이트에서 **모델 기반**(탐색 창의 왼쪽 아래)을 선택합니다.  
+1.  [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
 
-     ![모델 기반 디자인 모드](media/model-driven-switch.png)
 
 2.  **데이터**를 확장하고 **엔터티**를 선택하고 원하는 엔터티를 선택한 다음 **양식** 탭을 선택합니다. 
 

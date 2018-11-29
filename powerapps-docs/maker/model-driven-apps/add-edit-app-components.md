@@ -2,7 +2,7 @@
 title: PowerApps에서 모델 기반 앱 구성 요소를 추가 또는 편집하기 위한 자습서 | MicrosoftDocs
 description: PowerApps 앱 디자이너를 사용하여 구성 요소 추가 또는 편집
 keywords: ''
-ms.date: 03/30/2018
+ms.date: 10/15/2018
 ms.service: crm-online
 ms.custom: null
 ms.topic: article
@@ -53,7 +53,7 @@ search.app:
 ## <a name="open-an-app"></a>응용 프로그램을 엽니다.
 1. [PowerApps](https://web.powerapps.com/)에 로그인합니다. 
 
-2. **모델 기반** > **앱** 을 선택하고 기존 앱을 선택하거나 **앱 만들기**를 선택합니다. 앱을 만드는 방법에 대한 자세한 내용은 [앱 디자이너를 사용하여 모델 기반 앱 만들기 또는 편집](create-edit-app.md#create-an-app)을 참조하십시오.
+2. 기존 모델 기반 앱을 선택하거나 **새 규칙으로 시작**을 선택합니다. 앱을 만드는 방법에 대한 자세한 내용은 [앱 디자이너를 사용하여 모델 기반 앱 만들기 또는 편집](create-edit-app.md#create-an-app)을 참조하십시오.
 
 ## <a name="add-an-artifact-entity-dashboard-or-business-process-flow"></a>아티팩트 추가(엔터티, 대시보드, 비즈니스 프로세스 흐름)  
  대시보드 또는 비즈니스 프로세스 흐름을 앱에 추가하면 이들이 사용하는 엔터티에서 자동으로 앱에 추가합니다. 엔터티를 추가하면 해당 자산에 대한 타일이 자동으로 추가됩니다. 두 가지 방법으로 디자이너 캔버스에 아티팩트를 추가할 수 있습니다. 명령 모음에서 **추가** 단추 ![디자이너의 추가 단추](../model-driven-apps/media/dynamics365-designer-addbutton.PNG "디자이너의 추가 단추")를 사용하거나 **구성 요소** 탭에서 타일을 사용하는 방법이 있습니다.  

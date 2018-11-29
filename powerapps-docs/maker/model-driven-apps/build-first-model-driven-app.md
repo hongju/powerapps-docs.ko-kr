@@ -10,7 +10,7 @@ ms.service: powerapps
 ms.devlang: na
 ms.topic: conceptual
 ms.component: model
-ms.date: 04/18/2018
+ms.date: 10/15/2018
 ms.author: matp
 search.audienceType:
   - maker
@@ -31,16 +31,14 @@ search.app:
 ## <a name="create-your-model-driven-app"></a>모델 기반 앱 만들기
 
 1.  원하는 환경을 선택하거나 [PowerApps 관리 센터](https://admin.powerapps.com/)로 이동하여 새로 만듭니다.
-2.  왼쪽 탐색 창에서 **모델 기반**을 선택합니다. 
-
-    ![모델 기반](media/build-first-model-driven-app/choose-design-mode.png)
 
   > [!IMPORTANT]
   > **모델 기반** 디자인 모드를 사용할 수 없는 경우 [환경 만들기](https://docs.microsoft.com/powerapps/administrator/create-environment)를 해야 할 수 있습니다.   
 
-3. 왼쪽 창에서 **앱**을 선택한 다음 **앱 만들기**를 선택합니다.
+2. **홈** 페이지에서 모델 기반 앱의 **새 규칙으로 시작** 옵션을 선택합니다.
+![Start-from-blank_model](media/build-first-model-driven-app/start-from-blank-model-driven.png)
 
-4.  **새 앱 만들기** 페이지에서 다음 세부 정보를 입력하고 **완료**를 선택합니다. 
+3.  **새 앱 만들기** 페이지에서 다음 세부 정보를 입력하고 **완료**를 선택합니다. 
   - **이름**: *Myfirstapp*과 같은 앱의 이름을 입력합니다. 
   - **설명**: *앱이 내 첫 번째 앱*과 같은 응용 프로그램의 내용 또는 수행에 대한 간단한 설명을 입력합니다.
 추가 앱 속성에 대한 자세한 내용은 [앱 만들기](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-edit-app#create-an-app)를 참조하십시오.

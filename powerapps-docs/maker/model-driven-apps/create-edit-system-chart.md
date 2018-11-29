@@ -27,9 +27,7 @@ search.app:
 
 이 항목에서는 시스템 차트를 만드는 방법에 대해 설명합니다. 시스템 차트는 조직 소유의 차트로, 앱을 실행하는 데이터를 읽을 수 있는 모든 사용자가 사용할 수 있도록 합니다. 시스템 차트는 특정 앱 사용자에 게 할당하거나 공유할 수 없습니다.  
   
-1. [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 사이트에서 **모델 기반**(탐색 창의 왼쪽 아래)을 선택합니다.  
-
-     ![모델 기반 디자인 모드](media/model-driven-switch.png)
+1. [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
 
     > [!IMPORTANT]
     > "**모델 기반** 디자인 모드를 사용할 수 없는 경우 [환경 만들기](https://docs.microsoft.com/powerapps/administrator/create-environment)를 해야 할 수 있습니다.     

@@ -23,9 +23,15 @@ search.app:
   - PowerApps
   - D365CE
 ---
-# <a name="apply-business-logic-with-common-data-service-for-apps"></a>앱용 Common Data Service로 비즈니스 논리 적용
+# <a name="apply-business-logic-in-common-data-service-for-apps"></a>앱용 Common Data Service로 비즈니스 논리 적용
 
-Dynamics 365 Customer Engagement 사용자 지정자는 앱용 Common Data Service의 클래식 프로세스, 즉 워크플로 및 작업에 익숙할 수 있습니다. 자세한 내용: [워크플로 프로세스 사용](/flow/workflow-processes) 및 [작업 개요](/flow/actions)
-  
-## <a name="see-also"></a>참조  
-[자습서: 비즈니스 규칙 및 추천을 만들어 모델 기반 앱 양식의 논리에 적용](../model-driven-apps/create-business-rules-recommendations-apply-logic-form.md)
+모든 엔터티 양식과 서버 수준에 적용되는 엔터티의 *비즈니스 규칙*을 정의합니다. 엔터티가 앱에서 사용되는 경우 엔터티에 대해 정의된 비즈니스 규칙이 *캔버스 앱* 및 *모델 기반 앱* 모두에 적용됩니다. 추가 정보: [엔터티를 위한 비즈니스 규칙 만들기](data-platform-create-business-rule.md)
+
+> [!NOTE]
+> 모델 기반 앱에서 양식에 적용되는 비즈니스 규칙을 정의하려면 [모델 기반 앱 양식에 대한 비즈니스 규칙 만들기](../model-driven-apps/create-business-rules-recommendations-apply-logic-form.md)를 참조하십시오.
+
+워크플로 및 작업인 앱 프로세스에 CDS(Common Data Service)를 사용할 수도 있습니다. 추가 정보: [Microsoft Flow: 워크플로 프로세스](/flow/workflow-processes) 및 [Microsoft Flow: 작업 개요](/flow/actions).
+
+## <a name="see-also"></a>참조
+
+[모델 기반 앱에 비즈니스 논리 적용](../model-driven-apps/guide-staff-through-common-tasks-processes.md)

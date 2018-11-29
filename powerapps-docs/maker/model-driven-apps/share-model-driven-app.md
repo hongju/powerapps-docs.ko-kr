@@ -49,7 +49,7 @@ search.app:
 액세스 및 범위 권한에 대한 자세한 내용은 [보안 역할](https://docs.microsoft.com/dynamics365/customer-engagement/admin/security-roles-privileges#security-roles)을 참조하십시오.
 
 ## <a name="create-a-custom-security-role"></a>사용자 지정 보안 역할 만들기
-1. [!INCLUDE [powerapps](../../includes/powerapps.md)]사이트에서 **모델 기반** > **앱** > **…**> **링크 공유**를 선택합니다.
+1. [!INCLUDE [powerapps](../../includes/powerapps.md)] 사이트에서 **앱** > **…**> **링크 공유**를 선택합니다.
 2. **이 앱 공유** 대화 상자의 **보안 역할 만들기**에서 **보안 설정**을 선택합니다.
 3. **설정** 페이지에서 **새로 만들기**를 선택합니다.  
 

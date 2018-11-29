@@ -28,9 +28,7 @@ search.app:
  머리글 및 바닥글은 섹션과 비슷하지만 제거할 수 없습니다. 내용이 없으면 아무 것도 표시되지 않습니다. 
 
 PowerApps 사이트에서 **섹션 속성**에 액세스할 수 있습니다. 
-1.  [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 사이트에서 **모델 기반**(탐색 창의 왼쪽 아래)을 선택합니다.  
-
-     ![모델 기반 디자인 모드](media/model-driven-switch.png)
+1. [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
 
 2.  **데이터**를 확장하고 **엔터티**를 선택하고 원하는 엔터티를 선택한 다음 **양식** 탭을 선택합니다. 
 

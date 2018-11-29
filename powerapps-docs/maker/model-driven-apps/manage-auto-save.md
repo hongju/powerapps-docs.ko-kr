@@ -57,9 +57,7 @@ search.app:
 > [!NOTE]
 >  해당 양식에 대해 자동 저장 기능이 비활성화되지만 오른쪽 아래에 있는 ![자동 저장 단추](media/auto-save-icon.png "자동 저장 단추") 단추를 선택하면 데이터가 계속 저장됩니다. 데이터가 변경된 양식을 벗어나거나 닫으려고 하면 해당 변경 사항을 저장해야 양식을 벗어나거나 닫을 수 있다는 메시지가 나타납니다.  
   
-1.  [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 사이트에서 **모델 기반**(탐색 창의 왼쪽 아래)을 선택합니다.  
-
-    ![모델 기반 디자인 모드](../model-driven-apps/media/model-driven-switch.png)
+1.  [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
 
 2.  **데이터**를 확장하고 **엔터티**를 선택하고 원하는 엔터티를 선택한 다음 **양식** 탭을 선택합니다.  
   

@@ -40,6 +40,9 @@ PowerApps에서는 *엔터티*는 일반적으로 회사 이름, 위치, 제품,
 
     * **여러 표시 이름** - 이 필드는 표시 이름을 입력할 때 자동으로 채워지지만 필요한 경우 변경할 수 있습니다. 여러 표시 이름은 Common Data Service WebAPI에 있는 엔터티의 이름이며 PowerApps 또는 Flow에서 이 엔터티와 상호 작용할 때 사용됩니다.
     * **이름** - 또한 이 필드는 표시 이름을 입력할 때 자동으로 채워집니다. 이 접두사는 환경을 만들 때 설정되었으며 사용자가 만든 엔터티를 다른 엔터티 이름과 충돌하지 않고 다른 환경으로 내보내고 가져올 수 있는지 확인합니다. Common Data Service 기본 솔루션에 대한 게시자의 접두사를 업데이트하여 이 접두사를 변경할 수 있습니다. 기존 앱을 중단하지 않도록 하려면 엔터티를 저장한 후에 이름을 변경할 수 없습니다.
+
+       > [!NOTE]
+       > [Dynamics 365 for Customer Service 포함된 참조 검색](/dynamics365/customer-engagement/customer-service/set-up-knowledge-management-embedded-knowledge-search)에 대해 엔터티 이름이 작동하도록 하려면 게시자 접두사를 포함한 최대 엔터티 이름 길이는 24자를 초과할 수 없습니다.
      
     ![새 엔터티](./media/data-platform-cds-create-entity/newentitypanel.png "새 엔터티 패널")
 

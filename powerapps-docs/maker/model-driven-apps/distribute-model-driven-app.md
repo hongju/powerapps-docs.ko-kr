@@ -33,9 +33,7 @@ search.app:
 ## <a name="add-an-app-to-a-solution"></a>솔루션에 앱 추가
 앱을 배포하려면 내보낼 앱을 패키지로 만들 수 있도록 솔루션을 만듭니다.
 
-1. [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 사이트에서 **모델 기반**(탐색 창의 왼쪽 아래)을 선택합니다.  
-
-    ![모델 기반 디자인 모드](media/model-driven-switch.png)
+1. [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
 
 2. **솔루션**을 선택한 다음 **새 솔루션**을 선택합니다.
 3. **새 솔루션** 페이지에서 필드를 완료한 다음 **저장**을 선택합니다. 추가 정보: [솔루션 만들기](../common-data-service/create-solution.md)
@@ -63,9 +61,7 @@ search.app:
 ## <a name="import-a-solution"></a>솔루션 가져오기  
 가져오려는 앱이 포함된 솔루션 zip 파일을 받으면 솔루션 구성 요소 페이지를 열고 솔루션을 가져옵니다. 솔루션을 성공적으로 가져오면 환경에서 앱을 사용할 수 있습니다.
 
-1. [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 사이트에서 **모델 기반**(탐색 창의 왼쪽 아래)을 선택합니다.  
-
-    ![모델 기반 디자인 모드](media/model-driven-switch.png)
+1. [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
 
 2. **솔루션**을 선택한 다음 도구 모음에서 **가져오기**를 선택합니다.
 3. 가져오려는 파일을 찾은 다음 **다음**을 선택합니다.

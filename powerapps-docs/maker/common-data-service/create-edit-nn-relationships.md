@@ -43,7 +43,7 @@ search.app:
 > [!NOTE]
 > 다음을 사용하여 환경에서 새 다대다(N:N) 엔터티 관계를 만들 수도 있습니다.
 > - 관계의 정의가 포함된 솔루션을 가져옵니다. 추가 정보: [솔루션 가져오기, 업데이트 및 내보내기](import-update-export-solutions.md)
-> - 개발자는 [메타데이터 서비스 ](../../developer/common-data-service/use-web-services.md#metadata-services)를 사용하여 엔터티 관계를 만들고 업데이트하는 프로그램을 작성할 수 있습니다. 추가 정보: [개발자 설명서: 엔터티 관계 메타데이터 사용자 지정](https://docs.microsoft.com/dynamics365/customer-engagement/developer/customize-entity-relationship-metadata)
+> - 개발자는 [메타데이터 서비스 ](../../developer/common-data-service/metadata-services.md)를 사용하여 엔터티 관계를 만들고 업데이트하는 프로그램을 작성할 수 있습니다. 추가 정보: [개발자 설명서: 엔터티 관계 메타데이터 사용자 지정](https://docs.microsoft.com/dynamics365/customer-engagement/developer/customize-entity-relationship-metadata)
 
 이 항목의 정보는 사용할 수 있는 디자이너를 선택하는 데 도움이 됩니다. 
 

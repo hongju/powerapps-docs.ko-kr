@@ -2,7 +2,7 @@
 title: PowerApps의 변경 내용 게시 | MicrosoftDocs
 description: 앱에 적용된 변경 내용을 게시하는 방법 알아보기
 ms.custom: ''
-ms.date: 06/20/2018
+ms.date: 10/29/2018
 ms.reviewer: ''
 ms.service: crm-online
 ms.suite: ''
@@ -30,7 +30,13 @@ search.app:
  
 ## <a name="publish-your-customizations"></a>사용자 지정 항목 게시
 
-- [솔루션 탐색기](../model-driven-apps/advanced-navigation.md#solution-explorer)에서 **모든 사용자 지정 항목 게시**를 선택합니다.  
+1.  왼쪽 탐색 창에서 **솔루션**을 선택합니다.
+
+2.  게시하기 위해 열려는 솔루션을 선택합니다.
+
+3.  명령 목록에서 **모든 사용자 지정 항목 게시**를 선택 합니다.  
+
+![모든 사용자 지정 항목 게시](media/publish-all-customizations.PNG "모든 사용자 지정 항목 게시")  
   
 > [!IMPORTANT]
 >  사용자 지정 준비에 시간이 약간 소요될 수 있습니다. 브라우저 페이지가 응답하지 않는다는 메시지가 나타날 경우, 닫지 말고 페이지가 응답할 때까지 기다리세요.  

@@ -38,9 +38,8 @@ search.app:
 ## <a name="create-a-quick-view-form"></a>빠른 보기 양식 만들기  
  다른 양식을 만드는 방식과 유사한 방식으로 양식 편집기를 사용하여 빠른 보기 양식을 만듭니다. 빠른 보기 양식은 읽기 전용입니다. 이를 사용하여 읽기 전용 양식을 만듭니다.  
   
-1. [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 사이트에서 **모델 기반**(탐색 창의 왼쪽 아래)을 선택합니다.  
+1. [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
 
-    ![모델 기반 디자인 모드](media/model-driven-switch.png)
 
     > [!IMPORTANT]
     > "**모델 기반** 디자인 모드를 사용할 수 없는 경우 [환경 만들기](https://docs.microsoft.com/powerapps/administrator/create-environment)를 해야 할 수 있습니다.     
@@ -75,7 +74,7 @@ search.app:
 ## <a name="add-a-quick-view-control-to-a-main-form"></a>기본 양식에 빠른 보기 컨트롤 추가  
  빠른 보기 양식은 빠른 보기 양식의 엔터티를 대상으로 하는 조회 필드가 있는 기본 양식에만 추가할 수 있습니다.  
   
-1.  [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 사이트에서 **모델 기반**(탐색 창의 왼쪽 아래)을 선택합니다.  
+1.  [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
 
     > [!IMPORTANT]
     > "**모델 기반** 디자인 모드를 사용할 수 없는 경우 [환경 만들기](https://docs.microsoft.com/powerapps/administrator/create-environment)를 해야 할 수 있습니다.     

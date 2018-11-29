@@ -33,7 +33,7 @@ search.app:
   
 앱용 CDS에는 외부 데이터에 액세스하는 OData v4 웹 서비스와 연결할 때 사용할 수 있는 OData 데이터 공급자가 포함됩니다. 
   
-또는 개발자는 자신의 데이터 공급자를 빌드할 수 있습니다. 데이터 공급자는 환경에 솔루션으로 설치됩니다. 추가 정보: [개발자 설명서: 가상 엔터티 시작](/dynamics365/customer-engagement/developer/virtual-entities/get-started-ve)
+또는 개발자는 자신의 데이터 공급자를 빌드할 수 있습니다. 데이터 공급자는 환경에 솔루션으로 설치됩니다. 추가 정보: [개발자 설명서: 가상 엔터티 시작](../../developer/common-data-service/virtual-entities/get-started-ve.md)
   
  ![가상 엔터티 다이어그램](media/virtual-entity-diagram.png "가상 엔터티 다이어그램")  
   

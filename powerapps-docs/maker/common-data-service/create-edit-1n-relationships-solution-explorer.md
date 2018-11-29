@@ -2,7 +2,7 @@
 title: '솔루션 탐색기를 사용하여 1:N(일대다) 또는 N:1(다대일) 엔터티 관계 만들기 및 편집 | MicrosoftDocs'
 description: PowerApps 솔루션 탐색기를 사용하여 일대다 또는 다대일 엔터티 관계를 만들고 편집하는 방법 알아보기
 ms.custom: ''
-ms.date: 05/27/2018
+ms.date: 10/28/2018
 ms.reviewer: ''
 ms.service: crm-online
 ms.suite: ''

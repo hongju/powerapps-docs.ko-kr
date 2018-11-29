@@ -35,9 +35,8 @@ search.app:
 
 ## <a name="how-to-create-or-edit-a-main-form"></a>기본 양식을 만들거나 편집하는 방법
   
-1.   [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 사이트에서 **모델 기반**(탐색 창의 왼쪽 아래)을 선택합니다.  
+1.   [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
 
-     ![모델 기반 디자인 모드](media/model-driven-switch.png)
 
 > [!IMPORTANT]
 > "**모델 기반** 디자인 모드를 사용할 수 없는 경우 [환경 만들기](https://docs.microsoft.com/powerapps/administrator/create-environment)를 해야 할 수 있습니다.   

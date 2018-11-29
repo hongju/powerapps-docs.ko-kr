@@ -2,7 +2,7 @@
 title: 솔루션 만들기 | MicrosoftDocs
 description: 솔루션을 만드는 방법 알아보기
 ms.custom: ''
-ms.date: 06/18/2018
+ms.date: 10/30/2018
 ms.reviewer: ''
 ms.service: crm-online
 ms.suite: ''
@@ -29,9 +29,9 @@ search.app:
   
  솔루션 개념에 대한 자세한 내용은 [솔루션 작업](solutions-overview.md)을 참조하십시오.  
   
-1.  **[설정](../model-driven-apps/advanced-navigation.md#settings)** > **솔루션**으로 이동합니다. 
+1.  [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인하고 왼쪽 탐색 메뉴에서 **솔루션**을 선택합니다. 
   
-2.  **새로 만들기**를 선택하고 솔루션의 필수 필드를 채웁니다.  
+2.  **새 솔루션**을 선택하고 솔루션의 필수 필드를 채웁니다.
   
     |필드|설명|  
     |-----------|-----------------|  
@@ -61,3 +61,6 @@ search.app:
 
 > [!IMPORTANT]
 >  솔루션에 약속을 포함할 계획인 경우에는 약속과 되풀이 약속을 각각 별도의 솔루션에 포함하지 않는 것이 좋습니다. 서로 다른 약속 유형으로 별도의 솔루션을 설치한 후 제거하면 SQL Server 오류가 발생하여 약속을 다시 만들어야 합니다. 
+
+## <a name="see-also"></a>참조
+ [솔루션 사용](use-solution-explorer.md)
