@@ -1,1 +1,1 @@
-Microsoft Office Outlook용 Microsoft Dynamics 365의 버전을 검색합니다.
+Microsoft Office Outlook용 Microsoft Dynamics 365 버전을 검색합니다.

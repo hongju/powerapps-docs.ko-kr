@@ -1,1 +1,1 @@
-Azure 기계 학습
+Azure Machine Learning

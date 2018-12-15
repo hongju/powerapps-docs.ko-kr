@@ -1,1 +1,1 @@
-이 기능은 Dynamics CRM Online 2015 업데이트 1 및 CRM 2016(온-프레미스)에서 소개되었습니다.
+이 기능은 Dynamics CRM Online 2015 업데이트 1 및 CRM 2016(온-프레미스)에서 도입되었습니다.
