@@ -1,1 +1,1 @@
-Windows 8.1용 Dynamics 365
+Dynamics 365 for Windows 8.1
