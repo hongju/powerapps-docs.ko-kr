@@ -1,1 +1,1 @@
-UII(User Interface Integration)
+UII(사용자 인터페이스 통합)

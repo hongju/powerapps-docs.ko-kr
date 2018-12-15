@@ -6,7 +6,7 @@ manager: kvivek
 ms.service: powerapps
 ms.component: pa-user
 ms.topic: conceptual
-ms.date: 07/09/2018
+ms.date: 11/16/2018
 ms.author: matp
 ms.custom: ''
 ms.reviewer: ''
@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 512d45a92bf4fe3a8f5acb9d4bd5617bcdbaa4ca
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: a5b55a2948ad176d9c30a11d8c6b6adf209e07f3
+ms.sourcegitcommit: a9f6bd07f414f43c50e0c05e5c7a4f1500c2d2fb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42844665"
+ms.lasthandoff: 11/18/2018
+ms.locfileid: "51941757"
 ---
 # <a name="discover-apps-via-appsource"></a>AppSource를 통한 앱 검색
 PowerApps로 빌드하고 게시한 앱은 웹의 Dynamics 365에서 검색되며 사용됩니다. 사용자가 사용을 구체적으로 지정한 앱(즉, 공유 이메일에서 시작 또는 AppSource에서 열기) 또는 관리자가 사용자를 위해 프로비전한 앱과 같이 사용자의 모든 앱이 표시됩니다. 여기에는 PowerApps의 모든 사용자 앱과 함께 Microsoft에서의 Dynamics 365 응용 프로그램이 포함됩니다. 앱을 검색하고, 환경별로 필터링하고, 가장 자주 사용하는 앱을 페이지 상단에 고정할 수 있습니다.

@@ -1,1 +1,1 @@
-Android용 Dynamics 365
+Dynamics 365 for Android

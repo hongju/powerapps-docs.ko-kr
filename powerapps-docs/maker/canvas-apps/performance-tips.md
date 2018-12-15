@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 0fa6a8f741ed0e771eeefbbee82a23e876363e55
-ms.sourcegitcommit: 469be99b762cd62289a98f058c498ac25ff8801b
+ms.openlocfilehash: 9d86bcaf02050da1b3cd0364e28bc4ec05a6407d
+ms.sourcegitcommit: 6e579014ebb1f801985b8b4b68b7b768a09559c7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/10/2018
-ms.locfileid: "44327789"
+ms.lasthandoff: 12/11/2018
+ms.locfileid: "53247589"
 ---
 # <a name="optimize-canvas-app-performance-in-powerapps"></a>PowerApps의 캔버스 앱 성능 최적화 | Microsoft Docs
 Microsoft는 PowerApps 플랫폼에서 실행되는 모든 앱의 성능 향상을 위해 열심히 노력하고 있습니다. 그러나 이 항목의 모범 사례를 따라 만든 앱의 성능을 향상시킬 수 있습니다.
@@ -58,9 +58,9 @@ Microsoft는 PowerApps 플랫폼에서 실행되는 모든 앱의 성능 향상�
 **동시** 함수에 동일한 수식을 묶어서 작업에 필요한 전체 시간을 줄일 수 있습니다.
 
     Concurrent( 
-        ClearCollect( Product, '[SalesLT].[Product]' );
-        ClearCollect( Customer, '[SalesLT].[Customer]' );
-        ClearCollect( SalesOrderDetail, '[SalesLT].[SalesOrderDetail]' );
+        ClearCollect( Product, '[SalesLT].[Product]' ),
+        ClearCollect( Customer, '[SalesLT].[Customer]' ),
+        ClearCollect( SalesOrderDetail, '[SalesLT].[SalesOrderDetail]' ),
         ClearCollect( SalesOrderHeader, '[SalesLT].[SalesOrderHeader]' ))
         
 이렇게 변경하면 앱이 테이블을 병렬로 가져옵니다. 

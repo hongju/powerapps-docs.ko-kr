@@ -1,1 +1,1 @@
-Office 365용 Power BI
+Office 365 용 Power BI

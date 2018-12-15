@@ -1,1 +1,1 @@
-Azure 포털
+Azure Portal

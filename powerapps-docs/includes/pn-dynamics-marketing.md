@@ -1,1 +1,1 @@
-Dynamics Marketing
+Dynamics 마케팅

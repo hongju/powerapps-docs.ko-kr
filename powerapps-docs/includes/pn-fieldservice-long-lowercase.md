@@ -1,1 +1,1 @@
-Microsoft Dynamics 365 for Field Service
+Field Service용 Microsoft Dynamics 365
