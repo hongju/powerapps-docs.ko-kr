@@ -1,1 +1,1 @@
-Dynamics 365 for Good
+Good용 Dynamics 365

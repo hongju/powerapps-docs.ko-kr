@@ -1,1 +1,1 @@
-Dynamics 365 for phones
+휴대폰용 Dynamics 365

@@ -1,1 +1,1 @@
-Dynamics 365 고객 참여 웹 서비스
+Dynamics 365 Customer Engagement 웹 서비스

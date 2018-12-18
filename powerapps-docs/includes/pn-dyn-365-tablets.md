@@ -1,1 +1,1 @@
-Dynamics 365 for tablets
+태블릿용 Dynamics 365

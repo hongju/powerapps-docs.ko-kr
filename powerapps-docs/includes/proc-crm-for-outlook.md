@@ -1,1 +1,1 @@
-Dynamics 365 for Outlook
+Outlook용 Dynamics 365
