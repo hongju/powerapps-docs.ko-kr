@@ -1,24 +1,24 @@
 ---
 title: 캔버스 앱에 스크롤 화면 추가 | Microsoft Docs
 description: PowerApps에서 캔버스 앱에 화면이 한 번에 표시할 수 있는 것보다 더 많은 유형의 콘텐츠를 표시하도록 사용자가 스크롤할 수 있는 화면을 만듭니다.
-author: lonu
+author: emcoope-msft
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 10/25/2016
-ms.author: lonu
+ms.author: emcoope
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 4d9e72f51927d57611ece0a5583de9f6f50f843e
-ms.sourcegitcommit: c1f58a16f8dcd309a1d5fc4658ca16d82c615994
+ms.openlocfilehash: 7094c42c8b070095d08d33a276785cce36933407
+ms.sourcegitcommit: 6851486b8a44d76b6d87837952b7a7f38a8752b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "42863646"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "53570285"
 ---
 # <a name="add-a-scrolling-screen-to-a-canvas-app-in-powerapps"></a>PowerApps의 캔버스 앱에 스크롤 화면 추가
 

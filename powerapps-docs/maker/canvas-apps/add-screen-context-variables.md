@@ -1,24 +1,24 @@
 ---
 title: 캔버스 앱에 화면 추가 및 화면 간 이동 | Microsoft Docs
 description: 캔버스 앱에 화면을 추가하고 다음 및 뒤로 화살표를 사용하여 PowerApps에서 화면 간 이동
-author: AFTOwen
+author: emcoope-msft
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: ''
 ms.date: 07/10/2017
-ms.author: anneta
+ms.author: emcoope
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: f7e03402690cb448a10c64882fdb6d79713cffcb
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: c0c4e14b2f4a7db81dcdd51dd75a45d3cac4da68
+ms.sourcegitcommit: 6851486b8a44d76b6d87837952b7a7f38a8752b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42858910"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "53570354"
 ---
 # <a name="add-a-screen-to-a-canvas-app-and-navigate-between-screens"></a>캔버스 앱에 화면 추가 및 화면 간 이동
 
