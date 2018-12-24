@@ -1,6 +1,6 @@
 ---
 title: 캔버스 앱이란 무엇인가요? | Microsoft Docs
-description: 사용자가 브라우저 또는 모바일 장치에서 LOB(기간 업무) 데이터를 관리할 수 있도록 PowerApps에서 캔버스 앱 설계 및 빌드
+description: 사용자가 브라우저 또는 모바일 디바이스에서 LOB(기간 업무) 데이터를 관리할 수 있도록 PowerApps에서 캔버스 앱 설계 및 빌드
 author: AFTOwen
 manager: kvivek
 ms.service: powerapps
@@ -21,9 +21,9 @@ ms.lasthandoff: 10/15/2018
 ms.locfileid: "49317071"
 ---
 # <a name="what-are-canvas-apps-in-powerapps"></a>PowerApps의 캔버스 앱이란 무엇인가요?
-C# 같은 일반적인 프로그래밍 언어로 코드를 작성하지 않고도 Microsoft PowerApps의 캔버스에서 비즈니스 앱을 설계하고 빌드합니다. Powerpoint에서 슬라이드를 디자인하는 것처럼 캔버스에 요소를 끌어 놓아 앱을 설계합니다. 논리를 지정하고 데이터로 작업하기 위해 Excel 같은 식을 만듭니다. [다양한 Microsoft 및 타사 원본](connections-list.md)에서 비즈니스 데이터를 통합하는 앱을 빌드합니다. 사용자가 브라우저 또는 모바일 장치에서 앱을 실행하도록 앱을 공유하고 사용자가 SharePoint, Power BI 또는 Teams에서 앱을 실행할 수 있도록 앱을 포함합니다.
+C# 같은 일반적인 프로그래밍 언어로 코드를 작성하지 않고도 Microsoft PowerApps의 캔버스에서 비즈니스 앱을 설계하고 빌드합니다. Powerpoint에서 슬라이드를 디자인하는 것처럼 캔버스에 요소를 끌어 놓아 앱을 설계합니다. 논리를 지정하고 데이터로 작업하기 위해 Excel 같은 식을 만듭니다. [다양한 Microsoft 및 타사 원본](connections-list.md)에서 비즈니스 데이터를 통합하는 앱을 빌드합니다. 사용자가 브라우저 또는 모바일 디바이스에서 앱을 실행하도록 앱을 공유하고 사용자가 SharePoint, Power BI 또는 Teams에서 앱을 실행할 수 있도록 앱을 포함합니다.
 
-사용자 지정 설계가 필요없고 데이터가 앱용 CDS(Common Data Service)에 있는 경우 비즈니스 데이터 및 프로세스에서 모델 기반 앱을 자동으로 생성할 수 있습니다. 이러한 유형의 앱은 폼, 뷰 및 기타 구성 요소를 모델링할 수 있으며 기본 UI는 휴대폰, 노트북 및 기타 장치에 자동으로 조정됩니다. 이러한 유형의 앱에 대한 자세한 내용은 [모델 기반 앱 빌드 개요](../model-driven-apps/model-driven-app-overview.md)를 참조합니다.
+사용자 지정 설계가 필요없고 데이터가 앱용 CDS(Common Data Service)에 있는 경우 비즈니스 데이터 및 프로세스에서 모델 기반 앱을 자동으로 생성할 수 있습니다. 이러한 유형의 앱은 폼, 뷰 및 기타 구성 요소를 모델링할 수 있으며 기본 UI는 휴대폰, 노트북 및 기타 디바이스에 자동으로 조정됩니다. 이러한 유형의 앱에 대한 자세한 내용은 [모델 기반 앱 빌드 개요](../model-driven-apps/model-driven-app-overview.md)를 참조합니다.
 
 ## <a name="build-an-app"></a>앱 빌드
 시작하려면 무엇보다 이러한 원본 중 하나에서 자동으로 앱을 생성 합니다.
@@ -44,7 +44,7 @@ PowerApps 사이트에 [로그인](https://web.powerapps.com?utm_source=padocs&u
 ## <a name="share-and-run-an-app"></a>앱 공유 및 실행
 앱을 완성하고 클라우드에 저장할 때는 조직의 [다른 사람들과 공유](share-app.md)합니다. 앱을 실행할 수 있는 사용자나 그룹을 지정하고 이들이 앱을 사용자 지정하거나 조직 내의 또 다른 사람들과 공유할 수 있는지 여부를 지정합니다.
 
-Windows, [웹 브라우저](../../user/run-app-browser.md) 또는 [iOS 또는 Android 장치](../../user/run-app-client.md)에서 자신의 앱 및 나에게 공유된 앱을 실행합니다.
+Windows, [웹 브라우저](../../user/run-app-browser.md) 또는 [iOS 또는 Android 디바이스](../../user/run-app-client.md)에서 자신의 앱 및 나에게 공유된 앱을 실행합니다.
 
 ## <a name="learn-more"></a>자세한 정보
 * 왼쪽의 탐색 창에서 단계별 지침, 개념 및 참조 항목을 탐색합니다.

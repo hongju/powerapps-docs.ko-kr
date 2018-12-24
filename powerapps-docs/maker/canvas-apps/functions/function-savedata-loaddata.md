@@ -30,7 +30,7 @@ ms.locfileid: "42864330"
 
 **LoadData**는 컬렉션을 만들지 않습니다. 함수는 기존 컬렉션을 채우기만 합니다. 먼저 **[Collect](function-clear-collect-clearcollect.md)** 를 사용하여 올바른 [열](../working-with-tables.md#columns)이 있는 컬렉션을 만들어야 합니다.
 
-저장소는 암호화되어 로컬 장치의 비공개 위치에 다른 사용자 및 다른 앱과 격리되어 있습니다.  
+저장소는 암호화되어 로컬 디바이스의 비공개 위치에 다른 사용자 및 다른 앱과 격리되어 있습니다.  
 
 ## <a name="syntax"></a>구문
 **SaveData**( *Collection*, *Name* )<br>**LoadData**( *Collection*, *Name* [, *IgnoreNonexistentFile* ])
@@ -43,6 +43,6 @@ ms.locfileid: "42864330"
 
 | 수식 | 설명 | 결과 |
 | --- | --- | --- |
-| **If(Connection.Connected, ClearCollect(LocalTweets, Twitter.SearchTweet("PowerApps", {maxResults: 100})),LoadData(LocalTweets, "Tweets", true))** |장치가 연결되어 있으면 Twitter 서비스에서 LocalTweets 컬렉션을 로드하고, 그렇지 않으면 로컬 파일 캐시에서 컬렉션을 로드합니다. |콘텐츠는 장치가 온라인 또는 오프라인 상태인지 여부에 관계없이 렌더링됩니다. |
-| **SaveData(LocalTweets, "Tweets")** |LocalTweets 컬렉션을 장치의 로컬 파일 캐시로 저장합니다. |데이터는 **LoadData**가 컬렉션에 로드할 수 있도록 로컬에 저장됩니다. |
+| **If(Connection.Connected, ClearCollect(LocalTweets, Twitter.SearchTweet("PowerApps", {maxResults: 100})),LoadData(LocalTweets, "Tweets", true))** |디바이스가 연결되어 있으면 Twitter 서비스에서 LocalTweets 컬렉션을 로드하고, 그렇지 않으면 로컬 파일 캐시에서 컬렉션을 로드합니다. |콘텐츠는 디바이스가 온라인 또는 오프라인 상태인지 여부에 관계없이 렌더링됩니다. |
+| **SaveData(LocalTweets, "Tweets")** |LocalTweets 컬렉션을 디바이스의 로컬 파일 캐시로 저장합니다. |데이터는 **LoadData**가 컬렉션에 로드할 수 있도록 로컬에 저장됩니다. |
 

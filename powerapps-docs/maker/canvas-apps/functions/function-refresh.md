@@ -38,7 +38,7 @@ ms.locfileid: "42843600"
 
 ![](media/function-refresh/icecream.png)
 
-다른 장치의 사용자가 **Strawberry** 레코드의 **Quantity**를 **400**으로 변경합니다.  변경 내용은 수식이 실행될 때까지 볼 수 없습니다.
+다른 디바이스의 사용자가 **Strawberry** 레코드의 **Quantity**를 **400**으로 변경합니다.  변경 내용은 수식이 실행될 때까지 볼 수 없습니다.
 
 **Refresh(IceCream)**
 

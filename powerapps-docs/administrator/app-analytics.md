@@ -26,7 +26,7 @@ ms.locfileid: "42850033"
 
 현재 [web.powerapps.com](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 사용할 수 있는 첫 번째 PowerApps 분석 보고서 및 **앱 사용 보고서**를 소개합니다.
 
-앱 사용 현황 보고서를 통해 지난 30일 동안 앱을 사용한 사용자의 수를 일, 장치 플랫폼 및 위치별로 추적할 수 있습니다.
+앱 사용 현황 보고서를 통해 지난 30일 동안 앱을 사용한 사용자의 수를 일, 디바이스 플랫폼 및 위치별로 추적할 수 있습니다.
 
 ![앱 사용 보고서](./media/app-analytics/analytics.png)
 

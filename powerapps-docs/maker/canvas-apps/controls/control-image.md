@@ -124,7 +124,7 @@ ms.locfileid: "42841596"
     **이미지** 컨트롤은 사용자가 지정한 이미지를 보여 줍니다.
 
 ### <a name="show-a-set-of-images-from-a-data-source"></a>데이터 원본에서 이미지 집합 표시
-1. 이 [Excel 파일](https://pwrappssamples.blob.core.windows.net/samples/FlooringEstimates.xlsx)을 다운로드하고 로컬 장치에 저장합니다.
+1. 이 [Excel 파일](https://pwrappssamples.blob.core.windows.net/samples/FlooringEstimates.xlsx)을 다운로드하고 로컬 디바이스에 저장합니다.
 2. PowerApps Studio에서 앱을 만들거나 연 다음 오른쪽 창에서 **데이터 원본 추가**를 클릭하거나 터치합니다.
 
     **데이터 원본 추가**가 오른쪽 창에 표시되지 않으면 왼쪽 탐색 표시줄에서 화면을 클릭하거나 터치합니다.

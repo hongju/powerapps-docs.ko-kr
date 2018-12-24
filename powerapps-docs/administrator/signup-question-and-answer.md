@@ -26,7 +26,7 @@ ms.locfileid: "43263286"
 
 ## <a name="sign-up-for-powerapps"></a>PowerApps에 등록
 ### <a name="what-is-powerapps"></a>PowerApps란?
-Microsoft PowerApps를 사용하면 Windows, iOS 및 Android 모바일 장치용 응용 프로그램을 만들 수 있습니다. 이러한 앱을 사용하여 Twitter, Office 365, Dropbox, Excel을 비롯한 일반적인 SaaS 서비스에 연결을 만들 수 있습니다.
+Microsoft PowerApps를 사용하면 Windows, iOS 및 Android 모바일 디바이스용 응용 프로그램을 만들 수 있습니다. 이러한 앱을 사용하여 Twitter, Office 365, Dropbox, Excel을 비롯한 일반적인 SaaS 서비스에 연결을 만들 수 있습니다.
 
 ### <a name="how-do-users-sign-up-for-powerapps"></a>사용자가 PowerApps에 등록하려면 어떻게 할까요?
 조직의 개별 사용자용 유일한 등록 옵션은 PowerApps 계획 2 평가판입니다. 여기서 PowerApps 웹 사이트를 통해 등록할 수 있습니다.

@@ -23,7 +23,7 @@ ms.locfileid: "42849146"
 # <a name="connect-to-dynamics-365-from-powerapps"></a>PowerApps에서 Dynamics 365 연결
 PowerApps를 사용하면 약간의 코드 또는 전혀 없이 모바일 앱을 신속하게 생성, 사용자 지정, 공유 및 실행할 수 있습니다. Dynamics 365 커넥터를 사용하여 몇 분 만에 사용자의 조직과 공유할 수 있는 유용한 모바일 앱을 만들 수 있습니다.
 
-이 토픽의 단계에 따라 사용자가 Dynamics 365에 있는 연락처를 찾아 보고, 추가하며 삭제 및 업데이트할 수 있는 앱을 만듭니다. 사용자는 [브라우저](../../../user/run-app-browser.md) 또는 휴대폰과 같은 [모바일 장치](../../../user/run-app-client.md)에서 앱을 실행할 수 있습니다.
+이 토픽의 단계에 따라 사용자가 Dynamics 365에 있는 연락처를 찾아 보고, 추가하며 삭제 및 업데이트할 수 있는 앱을 만듭니다. 사용자는 [브라우저](../../../user/run-app-browser.md) 또는 휴대폰과 같은 [모바일 디바이스](../../../user/run-app-client.md)에서 앱을 실행할 수 있습니다.
 
 ## <a name="prerequisite"></a>필수 조건
 이 자습서를 따르려면 Dynamics 365 플랜이 포함된 Microsoft Office 365 계정이 필요합니다.

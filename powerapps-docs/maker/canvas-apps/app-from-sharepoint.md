@@ -70,7 +70,7 @@ ms.locfileid: "49317094"
 
 ## <a name="generate-an-app-from-within-sharepoint-online"></a>SharePoint Online 내에서 앱 생성
 
-SharePoint Online 명령 모음에서 사용자 지정 목록의 앱을 만들 경우 앱이 해당 목록의 보기로 나타납니다. 웹 브라우저뿐 아니라 iOS 또는 Android 장치에서도 앱을 실행할 수 있습니다.
+SharePoint Online 명령 모음에서 사용자 지정 목록의 앱을 만들 경우 앱이 해당 목록의 보기로 나타납니다. 웹 브라우저뿐 아니라 iOS 또는 Android 디바이스에서도 앱을 실행할 수 있습니다.
 
 1. SharePoint Online에서 사용자 지정 목록을 열고 명령 모음에서 **PowerApps**를 선택한 다음, **앱 만들기**를 선택합니다.
 

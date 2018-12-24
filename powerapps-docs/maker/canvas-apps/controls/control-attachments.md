@@ -21,7 +21,7 @@ ms.lasthandoff: 10/17/2018
 ms.locfileid: "49384251"
 ---
 # <a name="attachments-control-in-powerapps"></a>PowerApps의 첨부 파일 컨트롤
-사용자가 해당 장치에 파일을 다운로드할 뿐만 아니라 앱 엔터티의 SharePoint 목록 또는 Common Data Service에서 파일을 업로드하고 삭제할 수 있는 컨트롤입니다.
+사용자가 해당 디바이스에 파일을 다운로드할 뿐만 아니라 앱 엔터티의 SharePoint 목록 또는 Common Data Service에서 파일을 업로드하고 삭제할 수 있는 컨트롤입니다.
 
 ## <a name="limitations"></a>제한 사항
 첨부 파일 컨트롤에는 이러한 제한 사항이 있습니다.

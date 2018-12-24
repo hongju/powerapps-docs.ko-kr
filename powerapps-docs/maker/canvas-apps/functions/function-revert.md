@@ -43,7 +43,7 @@ ms.locfileid: "42831564"
 
 ![](media/function-revert/icecream.png)
 
-다른 장치의 사용자가 **Strawberry** 레코드의 **Quantity** 속성을 **400**으로 변경합니다.  같은 시간에 다른 변경을 모르는 상태에서 같은 레코드의 동일한 속성을 **500**으로 변경합니다.
+다른 디바이스의 사용자가 **Strawberry** 레코드의 **Quantity** 속성을 **400**으로 변경합니다.  같은 시간에 다른 변경을 모르는 상태에서 같은 레코드의 동일한 속성을 **500**으로 변경합니다.
 
 **[Patch](function-patch.md)** 함수를 사용하여 레코드를 업데이트합니다.<br>
 **Patch( IceCream, First( Filter( IceCream, Flavor = "Strawberry" ) ), { Quantity: 500 } )**

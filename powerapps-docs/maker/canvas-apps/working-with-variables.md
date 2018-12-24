@@ -63,7 +63,7 @@ PowerApps에서 수식을 사용하여 컨트롤의 기본값뿐만 아니라 �
 
 다음과 같은 다양한 시나리오에 수식을 사용할 수 있습니다.
 
-* 장치의 GPS를 사용하면 지도 컨트롤에서 **Location.Latitude** 및 **Location.Longitude**를 사용하는 수식으로 현재 위치를 표시할 수 있습니다.  이동하는 대로 지도에서 내 위치를 자동으로 추적합니다.
+* 디바이스의 GPS를 사용하면 지도 컨트롤에서 **Location.Latitude** 및 **Location.Longitude**를 사용하는 수식으로 현재 위치를 표시할 수 있습니다.  이동하는 대로 지도에서 내 위치를 자동으로 추적합니다.
 * 다른 사용자가 [데이터 원본](working-with-data-sources.md)을 업데이트할 수 있습니다.  예를 들어 팀의 다른 구성원이 SharePoint 목록의 항목을 업데이트할 수 있습니다.  데이터 원본을 새로 고치면 종속된 모든 수식이 업데이트된 데이터를 반영하도록 자동으로 다시 계산됩니다. 예를 들어 **Filter( SharePointList )** 수식에 갤러리의 **[Items](controls/properties-core.md)** 속성을 설정하여 새로 필터링된 [레코드](working-with-tables.md#records) 집합을 자동으로 표시할 수 있습니다.
 
 ### <a name="benefits"></a>혜택
@@ -138,7 +138,7 @@ PowerApps에는 다음과 같은 세 가지 유형의 변수가 있습니다.
 | --- | --- | --- | --- |
 | 전역 변수 |앱 |사용이 가장 간편합니다.  앱의 모든 위치에서 참조할 수 있는 숫자, 텍스트 문자열, 부울, 레코드, 테이블 등을 보유합니다. |[**Set**](functions/function-set.md) |
 | 컨텍스트 변수 |화면 |다른 언어의 프로시저에 대한 매개 변수와 마찬가지로 화면에 값을 전달하는 데 매우 유용합니다.  한 화면에서만 참조할 수 있습니다. |[**UpdateContext**](functions/function-navigate.md) |
-| 컬렉션 |앱 |앱의 모든 위치에서 참조할 수 있는 테이블을 보유합니다.  테이블의 내용을 전체적으로 설정하지 않고 수정할 수 있습니다. 나중에 사용하기 위해 로컬 장치에 저장할 수 있습니다. |[**Collect**](functions/function-savedata-loaddata.md)<br>등 |
+| 컬렉션 |앱 |앱의 모든 위치에서 참조할 수 있는 테이블을 보유합니다.  테이블의 내용을 전체적으로 설정하지 않고 수정할 수 있습니다. 나중에 사용하기 위해 로컬 디바이스에 저장할 수 있습니다. |[**Collect**](functions/function-savedata-loaddata.md)<br>등 |
 
 **Set**, **UpdateContext**, **Navigate** 또는 **Collect** 함수를 사용할 때 모든 변수가 암시적으로 만들어집니다.  다른 프로그래밍 도구에서 수행되는 것과 같이 변수에 대한 명시적 선언이 없습니다.  또한 변수 유형은 변수에 배치된 값에서 암시적으로 파생됩니다.
 
