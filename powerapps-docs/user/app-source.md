@@ -24,7 +24,7 @@ ms.lasthandoff: 11/18/2018
 ms.locfileid: "51941757"
 ---
 # <a name="discover-apps-via-appsource"></a>AppSource를 통한 앱 검색
-PowerApps로 빌드하고 게시한 앱은 웹의 Dynamics 365에서 검색되며 사용됩니다. 사용자가 사용을 구체적으로 지정한 앱(즉, 공유 이메일에서 시작 또는 AppSource에서 열기) 또는 관리자가 사용자를 위해 프로비전한 앱과 같이 사용자의 모든 앱이 표시됩니다. 여기에는 PowerApps의 모든 사용자 앱과 함께 Microsoft에서의 Dynamics 365 응용 프로그램이 포함됩니다. 앱을 검색하고, 환경별로 필터링하고, 가장 자주 사용하는 앱을 페이지 상단에 고정할 수 있습니다.
+PowerApps로 빌드하고 게시한 앱은 웹의 Dynamics 365에서 검색되며 사용됩니다. 사용자가 사용을 구체적으로 지정한 앱(즉, 공유 이메일에서 시작 또는 AppSource에서 열기) 또는 관리자가 사용자를 위해 프로비전한 앱과 같이 사용자의 모든 앱이 표시됩니다. 여기에는 PowerApps의 모든 사용자 앱과 함께 Microsoft에서의 Dynamics 365 애플리케이션이 포함됩니다. 앱을 검색하고, 환경별로 필터링하고, 가장 자주 사용하는 앱을 페이지 상단에 고정할 수 있습니다.
 
   ![Dynamics 365에서의 앱](./media/app-source/apps-dynamics365.png)
 

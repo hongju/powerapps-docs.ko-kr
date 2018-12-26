@@ -165,7 +165,7 @@ Get-AdminApp -Owner $userId | ConvertTo-Json | Out-File -FilePath "UserDetails.j
 ~~~~
 
 ## <a name="step-4-export-the-users-permissions-to-canvas-apps"></a>4단계: 사용자의 권한을 캔버스 앱으로 내보내기
-앱이 사용자와 공유될 때마다 PowerApps는 응용 프로그램에 대한 사용자의 권한(CanEdit 또는 CanUse)을 설명하는 ‘역할 할당’이라는 레코드를 저장합니다. 자세한 내용은 [앱 공유](../maker/canvas-apps/share-app.md#share-an-app)를 참조하세요.
+앱이 사용자와 공유될 때마다 PowerApps는 애플리케이션에 대한 사용자의 권한(CanEdit 또는 CanUse)을 설명하는 ‘역할 할당’이라는 레코드를 저장합니다. 자세한 내용은 [앱 공유](../maker/canvas-apps/share-app.md#share-an-app)를 참조하세요.
 
 ### <a name="powershell-cmdlets-for-app-creators"></a>앱 작성자용 PowerShell cmdlet
 사용자는 [PowerApps 앱 작성자 PowerShell cmdlet](https://go.microsoft.com/fwlink/?linkid=871448)에서 **Get-RoleAssignment** 함수를 사용하여 액세스할 수 있는 모든 앱에 대한 앱 역할 할당을 내보낼 수 있습니다.
@@ -282,7 +282,7 @@ Get-AdminConnectorRoleAssignment -PrincipalObjectId $userId | ConvertTo-Json | O
 ## <a name="step-9-export-powerapps-notifications-user-settings-and-user-app-settings"></a>9단계: PowerApps 알림, 사용자 설정 및 사용자 앱 설정 내보내기
 PowerApps는 앱이 사용자와 공유될 경우 및 앱용 CDS 내보내기 작업이 완료될 경우를 포함하여 사용자에게 다양한 유형의 알림을 보냅니다. 사용자의 알림 기록은 [PowerApps 포털](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 내에 표시됩니다.
 
-또한 PowerApps는 사용자가 응용 프로그램을 마지막으로 열거나, 앱을 고정할 경우 등을 포함하여 PowerApps 런타임 및 포털 환경을 전달하는 데 사용되는 다양한 사용자 기본 설정 및 설정도 저장합니다.
+또한 PowerApps는 사용자가 애플리케이션을 마지막으로 열거나, 앱을 고정할 경우 등을 포함하여 PowerApps 런타임 및 포털 환경을 전달하는 데 사용되는 다양한 사용자 기본 설정 및 설정도 저장합니다.
 
 ### <a name="powershell-cmdlets-for-app-creators"></a>앱 작성자용 PowerShell cmdlet
 사용자는 [PowerApps 앱 작성자 PowerShell cmdlet](https://go.microsoft.com/fwlink/?linkid=871448)에서 **Get-AdminPowerAppsUserDetails** 함수를 사용하여 고유한 PowerApps 알림, 사용자 설정 및 사용자 앱 설정을 내보낼 수 있습니다.

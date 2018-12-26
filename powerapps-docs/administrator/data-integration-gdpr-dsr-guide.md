@@ -38,7 +38,7 @@ EU(유럽 연합) GDPR(일반 데이터 보호 규정)은 사람들(규정에서
 
 ### <a name="searching-for-and-identifying-personal-data"></a>개인 데이터 검색 및 식별
 
-앱용 CD에서 관리자에 대한 데이터 통합을 사용하면 통합자 응용 프로그램의 모든 사용자가 다음에서 데이터 통합 탭을 사용하여 해당 데이터를 볼 수 있습니다.
+앱용 CD에서 관리자에 대한 데이터 통합을 사용하면 통합자 애플리케이션의 모든 사용자가 다음에서 데이터 통합 탭을 사용하여 해당 데이터를 볼 수 있습니다.
 
 [https://admin.powerapps.com/dataintegration](https://admin.powerapps.com/dataintegration)
 
@@ -56,7 +56,7 @@ EU(유럽 연합) GDPR(일반 데이터 보호 규정)은 사람들(규정에서
 
 ## <a name="securing-and-controlling-access-to-personal-information"></a>개인 정보에 대한 액세스 권한 보호 및 제어
 
-앱용 CD의 관리자에 대한 데이터 통합에서 데이터 통합 응용 프로그램에 의해 저장된 데이터는 관리자 포털을 통해서만 액세스할 수 있습니다.
+앱용 CD의 관리자에 대한 데이터 통합에서 데이터 통합 애플리케이션에 의해 저장된 데이터는 관리자 포털을 통해서만 액세스할 수 있습니다.
 
 ## <a name="deleting-personal-data"></a>개인 데이터 삭제
 

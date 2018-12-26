@@ -27,7 +27,7 @@ ms.locfileid: "48875879"
 > PowerApps에서 처음으로 앱을 빌드하는 경우에는 이 문서를 살펴 보기 전에 [앱을 처음부터 만들기](get-started-create-from-blank.md)를 읽어보는 것이 좋습니다.
 
 ## <a name="introduction-to-microsoft-cognitive-services"></a>Microsoft Cognitive Services 소개
-Microsoft Cognitive Services는 사용자의 응용 프로그램을 더 지능적이고 유용하며 검색 가능하게 만드는 데 사용하는 API, SDK 및 서비스 집합입니다. 이 서비스를 통해 사용자는 지능형 기능(예: 감정 및 비디오 감지, 안면, 음성 및 시각 인식, 음성 및 언어 이해)을 응용 프로그램에 쉽게 추가할 수 있습니다.
+Microsoft Cognitive Services는 사용자의 애플리케이션을 더 지능적이고 유용하며 검색 가능하게 만드는 데 사용하는 API, SDK 및 서비스 집합입니다. 이 서비스를 통해 사용자는 지능형 기능(예: 감정 및 비디오 감지, 안면, 음성 및 시각 인식, 음성 및 언어 이해)을 애플리케이션에 쉽게 추가할 수 있습니다.
 
 이 문서에서는 Text Analytics API에 사용할 수 있는 "언어 이해"에 초점을 맞추려고 합니다. 이 API를 통해 사용자는 텍스트에서 감정, 핵심 구, 토픽 및 언어를 검색할 수 있습니다. API 데모를 사용해 본 다음, 미리 보기 버전을 등록하여 시작해 보겠습니다.
 

@@ -82,7 +82,7 @@ ms.locfileid: "43263447"
     ![가져오기 결과 검토](./media/environment-and-tenant-migration/import-results.png)
 
 > [!NOTE]
->  앱을 가져와서 기존 앱을 **업데이트**하도록 선택한 경우 새 변경 내용은 응용 프로그램의 초안으로 저장됩니다.  응용 프로그램의 다른 모든 사용자가 사용할 수 있도록 해당 변경 내용을 [게시](http://powerapps.microsoft.com/tutorials/save-publish-app/#publish-an-app)해야 합니다.
+>  앱을 가져와서 기존 앱을 **업데이트**하도록 선택한 경우 새 변경 내용은 애플리케이션의 초안으로 저장됩니다.  애플리케이션의 다른 모든 사용자가 사용할 수 있도록 해당 변경 내용을 [게시](http://powerapps.microsoft.com/tutorials/save-publish-app/#publish-an-app)해야 합니다.
 >
 >
 
