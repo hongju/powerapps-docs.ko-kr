@@ -97,8 +97,8 @@ search.app:
 
 3.  **비관리형** 또는 **관리형**으로 패키지 유형을 선택합니다. 이렇게 하면 내보내기가 시작되고 완료하는 데 몇 분이 걸릴 수 있습니다. 완료되면, 내보내기 .zip 파일은 웹 브라우저에 의해 지정된 다운로드 폴더에서 사용할 수 있습니다.
 
-> [!div class="mx-imgBorder"]  
-> ![솔루션 내보내기](media/solution-export.PNG "솔루션 내보내기") 
+    > [!div class="mx-imgBorder"]  
+    > ![솔루션 내보내기](media/solution-export.png "솔루션 내보내기") 
 
 ### <a name="export-from-the-classic-experience"></a>클래식 환경에서 내보내기
 

@@ -1,1 +1,1 @@
-Azure Service Bus
+Azure 서비스 버스
