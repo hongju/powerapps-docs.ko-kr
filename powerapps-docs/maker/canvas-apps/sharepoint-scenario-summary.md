@@ -139,9 +139,9 @@ ms.locfileid: "42850193"
     이 시각화를 만들 때 설명한 대로 Irvin Sayers가 할당한 프로젝트는 나머지보다 훨씬 오래 걸리는 두 개의 프로젝트를 포함하기 때문에 시작하는 데 오래 걸립니다.
 
 ## <a name="step-6-respond-to-pending-project-delays"></a>6단계: 보류 중인 프로젝트 지연에 응답
-1. Power BI 서비스에서 **프로젝트 분석** 데이터 집합을 클릭하거나 누르고 **지금 새로 고침**을 클릭하거나 누릅니다. 새로 고침은 보류 중인 프로젝트에 설정한 경고를 트리거합니다.
+1. Power BI 서비스에서 **프로젝트 분석** 데이터 세트를 클릭하거나 누르고 **지금 새로 고침**을 클릭하거나 누릅니다. 새로 고침은 보류 중인 프로젝트에 설정한 경고를 트리거합니다.
    
-    ![지금 데이터 집합 새로 고침](./media/sharepoint-scenario-summary/09-06-01-refresh.png)
+    ![지금 데이터 세트 새로 고침](./media/sharepoint-scenario-summary/09-06-01-refresh.png)
 2. 새로 고침이 완료된 후에 오른쪽 위에 있는 **알림 센터**는 새 알림 아이콘을 표시합니다.
    
     ![Power BI 알림 센터](./media/sharepoint-scenario-summary/09-06-02-alert.png)
