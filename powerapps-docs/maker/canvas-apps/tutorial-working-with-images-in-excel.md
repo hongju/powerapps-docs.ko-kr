@@ -1,6 +1,6 @@
 ---
 title: Excel 파일에 이미지 저장 | Microsoft Docs
-description: 클라우드 저장소 계정의 Excel 테이블에 이미지를 저장하는 방법입니다.
+description: 클라우드 스토리지 계정의 Excel 테이블에 이미지를 저장하는 방법
 author: AFTOwen
 manager: kvivek
 ms.service: powerapps
@@ -25,7 +25,7 @@ ms.locfileid: "42852370"
 이 자습서에서는 다음 작업을 수행합니다.
 
 * Excel 파일을 만들고 이를 테이블 형식으로 지정합니다.
-* 비즈니스용 OneDrive에 대한 연결을 만듭니다. 모든 클라우드 저장소 계정이 작동합니다. 이 연습에서는 비즈니스용 OneDrive가 사용됩니다.
+* 비즈니스용 OneDrive에 대한 연결을 만듭니다. 모든 클라우드 스토리지 계정이 작동합니다. 이 연습에서는 비즈니스용 OneDrive가 사용됩니다.
 * 펜 입력 컨트롤이 있는 앱을 만듭니다.
 * 펜 입력 컨트롤에서 만든 이미지를 Excel 파일에 저장합니다.
 * 앱에서 Excel 파일의 이미지를 표시합니다.
@@ -46,11 +46,11 @@ ms.locfileid: "42852370"
    4. 테이블 이름을 **Drawings**로 지정합니다.  
       
       ![테이블 이름을 Drawings로 바꾸기](./media/tutorial-working-with-images-in-excel/drawings-table.png)
-3. Excel 파일의 이름을 **SavePen.xlsx**로 지정하고, 클라우드 저장소 계정(비즈니스용 OneDrive, Dropbox 등)에 해당 파일을 저장합니다.
+3. Excel 파일의 이름을 **SavePen.xlsx**로 지정하고, 클라우드 스토리지 계정(비즈니스용 OneDrive, Dropbox 등)에 해당 파일을 저장합니다.
 
 ## <a name="create-an-app-with-the-pen-control"></a>펜 컨트롤이 있는 앱 만들기
 1. PowerApps에서 [빈 앱](get-started-create-from-blank.md)을 만듭니다.
-2. 앱에서 클라우드 저장소 계정을 [데이터 원본](add-data-connection.md)으로 추가합니다. 데이터 원본으로 추가되면 **SavePen.xlsx**를 연결로 추가한 다음 **Drawings** 테이블을 선택합니다.  
+2. 앱에서 클라우드 스토리지 계정을 [데이터 원본](add-data-connection.md)으로 추가합니다. 데이터 원본으로 추가되면 **SavePen.xlsx**를 연결로 추가한 다음 **Drawings** 테이블을 선택합니다.  
    ![연결](./media/tutorial-working-with-images-in-excel/savepen.png)  
    
    이제 Drawings 테이블이 데이터 원본으로 나열됩니다.
@@ -67,12 +67,12 @@ ms.locfileid: "42852370"
 6. F5 키를 누르거나 미리 보기(![](./media/tutorial-working-with-images-in-excel/preview.png))를 선택합니다. MyPen에 무언가를 그린 다음 단추를 선택합니다. 그린 그림이 갤러리 컨트롤의 첫 번째 이미지에 표시됩니다. 이 그림에 다른 것을 추가하고 단추를 선택합니다. 그린 그림이 갤러리 컨트롤의 두 번째 이미지에 표시됩니다.
    
    미리 보기 창을 닫습니다.
-7. 클라우드 저장소 계정으로 이동합니다. 자동으로 만든 새 **SavePen_images** 폴더가 있습니다. 새 폴더를 보려면 화면을 새로 고쳐야 할 수도 있습니다. 이 폴더에는 파일 이름에 대한 ID로 저장된 이미지가 포함되어 있습니다.
+7. 클라우드 스토리지 계정으로 이동합니다. 자동으로 만든 새 **SavePen_images** 폴더가 있습니다. 새 폴더를 보려면 화면을 새로 고쳐야 할 수도 있습니다. 이 폴더에는 파일 이름에 대한 ID로 저장된 이미지가 포함되어 있습니다.
    
     SavePen.xlsx를 엽니다. '이미지' 열에는 이러한 새 이미지의 경로가 포함되어 있습니다.
 
 ## <a name="add-the-image-in-an-excel-file-to-your-app"></a>Excel 파일의 이미지를 앱에 추가
-또 다른 예로, 클라우드 저장소 계정에 이미지를 저장한 다음 앱에서 Excel 테이블을 사용하여 이미지를 표시할 수 있습니다.
+또 다른 예로, 클라우드 스토리지 계정에 이미지를 저장한 다음, 앱에서 Excel 테이블을 사용하여 이미지를 표시할 수 있습니다.
 
 이 예제에서는 일부 .jpeg 파일이 포함된 [CreateFirstApp.zip](http://pwrappssamples.blob.core.windows.net/samples/CreateFirstApp.zip)을 사용합니다.
 
@@ -95,7 +95,7 @@ ms.locfileid: "42852370"
 
 Items 속성을 설정하면 Excel 테이블이 **PowerAppsId**라는 새 열로 자동으로 업데이트됩니다.
 
-Excel 테이블에서 이미지 경로는 이미지에 대한 URL일 수도 있습니다. 클라우드 저장소 계정에 [바닥재 견적](http://pwrappssamples.blob.core.windows.net/samples/FlooringEstimates.xlsx) 샘플 파일을 다운로드하고, 앱에서 `FlooringEstimates` 테이블을 데이터 원본으로 추가한 다음, 갤러리 컨트롤을 `FlooringEstimates`로 설정합니다. 갤러리가 해당 이미지로 자동으로 업데이트됩니다.
+Excel 테이블에서 이미지 경로는 이미지에 대한 URL일 수도 있습니다. 클라우드 스토리지 계정에 [바닥재 견적](http://pwrappssamples.blob.core.windows.net/samples/FlooringEstimates.xlsx) 샘플 파일을 다운로드하고, 앱에서 `FlooringEstimates` 테이블을 데이터 원본으로 추가한 다음, 갤러리 컨트롤을 `FlooringEstimates`로 설정합니다. 갤러리가 해당 이미지로 자동으로 업데이트됩니다.
 
 ## <a name="learn-more"></a>자세한 정보
 [이미지, 비디오 또는 사운드 추가](add-images-pictures-audio-video.md)  

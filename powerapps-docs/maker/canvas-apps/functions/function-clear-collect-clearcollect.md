@@ -44,7 +44,7 @@ ms.locfileid: "48578745"
 ### <a name="clear"></a>지우기
 **Clear** 함수는 컬렉션의 모든 레코드를 삭제합니다.  컬렉션의 열은 그대로 유지됩니다.
 
-**Clear**는 컬렉션에서만 작동하며 다른 데이터 원본에는 작동하지 않습니다.  이런 용도에는 **[RemoveIf](function-remove-removeif.md)( *DataSource*, true )** 를 사용할 수 있습니다.  데이터 원본의 저장소에서 모든 레코드를 제거하고 다른 사용자에게 영향을 줄 수 있으므로 주의해서 사용해야 합니다.
+**Clear**는 컬렉션에서만 작동하며 다른 데이터 원본에는 작동하지 않습니다.  이런 용도에는 **[RemoveIf](function-remove-removeif.md)( *DataSource*, true )** 를 사용할 수 있습니다.  데이터 원본의 스토리지에서 모든 레코드를 제거하고 다른 사용자에게 영향을 줄 수 있으므로 주의해서 사용해야 합니다.
 
 **[Remove](function-remove-removeif.md)** 함수를 사용하면 레코드를 선택적으로 제거할 수 있습니다.
 

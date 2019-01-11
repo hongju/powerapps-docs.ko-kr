@@ -36,12 +36,12 @@ PowerApps에서 여러 클라우드 저장소 연결을 제공합니다. 이러�
   3. **표 만들기** 대화 상자에서 **머리글 포함** 확인란을 선택한 후 **확인**합니다.
   4. 변경 내용을 저장합니다.
 
-## <a name="connect-to-the-cloud-storage-connection"></a>클라우드 저장소 연결에 연결합니다.
+## <a name="connect-to-the-cloud-storage-connection"></a>클라우드 스토리지 연결에 연결합니다.
 1. [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 **관리**를 확장하고 **연결**을 선택합니다.  
    
     ![연결 선택](./media/cloud-storage-blob-connections/connections.png)
 2. **새 연결**을 선택하고 클라우드 저장소 연결을 선택합니다. 예를 들어 **OneDrive**를 선택합니다.
-3. 클라우드 저장소 계정의 사용자 이름과 암호를 묻는 메시지가 나타납니다. 입력한 다음 **로그인**을 선택합니다.  
+3. 클라우드 스토리지 계정의 사용자 이름과 암호를 묻는 메시지가 나타납니다. 입력한 다음 **로그인**을 선택합니다.  
     ![사용자 이름 및 암호를 입력합니다.](./media/cloud-storage-blob-connections/signin.png)
    
     로그인하면 이 연결은 앱 내에서 사용할 준비가 된 것입니다.

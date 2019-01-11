@@ -76,7 +76,7 @@ PowerApps에 [등록](../signup-for-powerapps.md)한 다음, 등록에 사용한
     ![미디어 속성 설정](./media/add-images-pictures-audio-video/ams-with-powerapps.png)
 
 ## <a name="add-images-from-the-cloud-to-your-app"></a>앱에 클라우드의 이미지 추가
-이 시나리오에서는 클라우드 저장소 계정, 비즈니스용 OneDrive에 이미지를 저장합니다. Excel 테이블을 사용하여 이미지에 대한 경로를 포함하고 앱의 갤러리 컨트롤에서 이미지를 표시합니다.
+이 시나리오에서는 클라우드 스토리지 계정, 비즈니스용 OneDrive에 이미지를 저장합니다. Excel 테이블을 사용하여 이미지에 대한 경로를 포함하고 앱의 갤러리 컨트롤에서 이미지를 표시합니다.
 
 이 시나리오에서는 일부 .jpeg 파일을 포함하는 [CreateFirstApp.zip](http://pwrappssamples.blob.core.windows.net/samples/CreateFirstApp.zip)을 사용합니다.
 
@@ -105,7 +105,7 @@ PowerApps에 [등록](../signup-for-powerapps.md)한 다음, 등록에 사용한
 
     **Items** 속성을 설정하는 경우 **PowerAppsId**라는 열은 Excel 테이블에 자동으로 추가됩니다.
 
-    Excel 테이블에서 이미지 경로는 이미지에 대한 URL일 수도 있습니다. 예는 [바닥재 견적](http://pwrappssamples.blob.core.windows.net/samples/FlooringEstimates.xlsx) 샘플 파일입니다. 클라우드 저장소 계정으로 다운로드하고, 앱에 데이터 원본으로 `FlooringEstimates` 테이블을 추가한 다음 갤러리 컨트롤을 `FlooringEstimates`로 설정할 수 있습니다. 갤러리는 이미지로 자동으로 업데이트됩니다.
+    Excel 테이블에서 이미지 경로는 이미지에 대한 URL일 수도 있습니다. 예는 [바닥재 견적](http://pwrappssamples.blob.core.windows.net/samples/FlooringEstimates.xlsx) 샘플 파일입니다. 클라우드 스토리지 계정으로 다운로드하고, 앱에 데이터 원본으로 `FlooringEstimates` 테이블을 추가한 다음, 갤러리 컨트롤을 `FlooringEstimates`로 설정할 수 있습니다. 갤러리는 이미지로 자동으로 업데이트됩니다.
 
 ## <a name="upload-pen-drawings-to-the-cloud"></a>클라우드로 펜 드로잉 업로드
 이 시나리오에서는 데이터 원본, 비즈니스용 OneDrive에 펜 드로잉을 업로드하는 방법을 알아보고 드로잉이 저장되는 방식을 확인합니다.
@@ -178,7 +178,7 @@ PowerApps에 [등록](../signup-for-powerapps.md)한 다음, 등록에 사용한
 
 13. Esc 키를 눌러 미리 보기 창을 닫습니다.
 
-    클라우드 저장소 계정에서 **SavePen_images** 폴더가 자동으로 생성되었습니다. 이 폴더는 해당 파일 이름에 대한 ID로 저장된 이미지를 포함합니다. 폴더를 표시하려면 예를 들어, F5 키를 눌러 브라우저 창을 새로 고쳐야 합니다.
+    클라우드 스토리지 계정에서 **SavePen_images** 폴더가 자동으로 생성되었습니다. 이 폴더는 해당 파일 이름에 대한 ID로 저장된 이미지를 포함합니다. 폴더를 표시하려면 예를 들어, F5 키를 눌러 브라우저 창을 새로 고쳐야 합니다.
 
     **SavePen.xlsx**에서 **Image** 열은 새 이미지에 대한 경로를 지정합니다.
 

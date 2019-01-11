@@ -30,7 +30,7 @@ PowerApps에 대한 라이선스가 없으면 [무료로 등록](../signup-for-p
 
 ## <a name="prerequisites"></a>필수 조건
 
-이 항목을 정확히 수행하려면 Excel에서 [바닥재 견적](https://az787822.vo.msecnd.net/documentation/get-started-from-data/FlooringEstimates.xlsx) 파일을 다운로드하고, [클라우드 저장소 계정](connections/cloud-storage-blob-connections.md)에 저장합니다.
+이 항목을 정확히 수행하려면 Excel에서 [바닥재 견적](https://az787822.vo.msecnd.net/documentation/get-started-from-data/FlooringEstimates.xlsx) 파일을 다운로드하고, [클라우드 스토리지 계정](connections/cloud-storage-blob-connections.md)에 저장합니다.
 
 > [!IMPORTANT]
 > 사용자 고유의 Excel 파일을 사용할 수 있지만 데이터는 테이블로 형식이 지정돼야 합니다. 자세한 내용은 [테이블 형식 지정](how-to-excel-tips.md)을 참조합니다. 

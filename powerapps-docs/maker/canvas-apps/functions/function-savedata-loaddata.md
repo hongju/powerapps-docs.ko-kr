@@ -36,7 +36,7 @@ ms.locfileid: "42864330"
 **SaveData**( *Collection*, *Name* )<br>**LoadData**( *Collection*, *Name* [, *IgnoreNonexistentFile* ])
 
 * *Collection* - 필수 항목입니다.  저장하거나 로드할 컬렉션입니다.
-* *Name* - 필수 항목입니다.  저장소 이름입니다. 동일한 데이터 집합을 저장하고 로드하려면 동일한 이름을 사용해야 합니다. 네임스페이스는 다른 앱이나 사용자와 공유되지 않습니다.
+* *Name* - 필수 항목입니다.  스토리지 이름입니다. 동일한 데이터 집합을 저장하고 로드하려면 동일한 이름을 사용해야 합니다. 네임스페이스는 다른 앱이나 사용자와 공유되지 않습니다.
 * *IgnoreNonexistentFile* - 선택 항목입니다. **LoadData** 함수가 일치하는 파일을 찾을 수 없을 때 오류를 표시하거나 무시할지 나타내는 부울(**true**/**false**) 값입니다. **false**를 지정하면 오류가 표시됩니다. **true**를 지정하면 오류가 무시되고, 오프라인 시나리오에 유용합니다. **SaveData**는 장치가 오프라인인 경우 (즉, **Connection.Connected** 상태가 **false**인 경우) 파일을 만들 수 있습니다.
 
 ## <a name="examples"></a>예
