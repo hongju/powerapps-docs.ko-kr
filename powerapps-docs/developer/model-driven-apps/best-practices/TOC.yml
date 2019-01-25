@@ -1,0 +1,19 @@
+items:
+- name: 모델 기반 앱에 대한 모범 사례 및 지침
+  href: index.md
+  items:
+  - name: 클라이언트 스크립팅을 사용하여 비즈니스 논리 적용
+    href: business-logic/index.md
+    items:
+    - name: window.top을 사용하지 마세요.
+      href: business-logic/avoid-window-top.md
+    - name: 비동기적으로 HTTP 및 HTTPS 리소스와 상호 작용
+      href: business-logic/interact-http-https-resources-asynchronously.md
+    - name: 비활성화되거나 사용하지 않도록 설정된 사용자 지정 제거
+      href: business-logic/remove-deactivated-disabled-configurations.md
+ms.openlocfilehash: 3289c700ad61c47cc7f6907030516bab17c108b8
+ms.sourcegitcommit: 11486fb4c16095e3fef785126003cac3e3e06c0d
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 01/14/2019
+ms.locfileid: "54271431"

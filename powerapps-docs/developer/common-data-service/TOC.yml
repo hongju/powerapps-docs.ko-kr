@@ -1,28 +1,401 @@
 items:
-- name: 개요
+- name: 앱용 Common Data Service
+  href: ../../maker/common-data-service/data-platform-intro.md
+- name: 개발자 개요
   href: overview.md
-- name: 솔루션 소개
-  href: introduction-solutions.md
-- name: 지원되는 앱 빌드 사례
-  href: customization-support.md
-- name: '앱 데이터 엔터티용 Common Data Service '
+- name: 시작
+  href: get-started-CDS-developers.md
+  items:
+  - name: 지원되는 사용자 지정
+    href: supported-customizations.md
+- name: 코드를 사용하여 데이터 작업
+  href: work-with-data-cds.md
+  items:
+  - name: Web API 사용
+    href: webapi/index.md
+  - name: 조직 서비스 사용
+    href: org-service/index.md
+  - name: 샘플 데이터 추가 및 삭제
+    href: sample-data.md
+  - name: FetchXML을 사용하여 데이터 쿼리
+    href: use-fetchxml-construct-query.md
+    items:
+    - name: FetchXML 집계 사용
+      href: use-fetchxml-aggregation.md
+    - name: FetchXML의 datetime 쿼리 연산자보다 오래된 회계 날짜
+      href: use-fetchxml-fiscal-date-older-datetime-query-operators.md
+    - name: FetchXML에서 왼쪽 우선 외부 조인을 사용하여 "not in" 레코드 쿼리
+      href: use-fetchxml-left-outer-join-query-records-not-in.md
+  - name: 저장된 쿼리
+    href: saved-queries.md
+  - name: 계층 구조 데이터 쿼리
+    href: query-hierarchical-data.md
+  - name: 데이터 변경 내용 감사
+    href: auditing-overview.md
+    items:
+    - name: 감사를 위한 엔터티 및 특성 구성
+      href: configure-entities-attributes-auditing.md
+    - name: 감사된 데이터 변경 내용 기록 검색 및 삭제
+      href: retrieve-and-delete-the-history-of-audited-data-changes.md
+    - name: 사용자 액세스 권한 감사
+      href: audit-user-access.md
+    - name: 자동 번호 매기기 특성 만들기
+      href: create-auto-number-attributes.md
+  - name: 중복 데이터 검색
+    href: detect-duplicate-data-with-code.md
+    items:
+    - name: 중복 검색 활성화 및 비활성화
+      href: enable-disable-duplicate-detection.md
+    - name: 중복 검색 실행
+      href: run-duplicate-detection.md
+    - name: 중복 검색 메시지
+      href: duplicate-detection-messages.md
+    - name: 중복된 규칙 엔터티
+      href: duplicaterule-entities.md
+  - name: 대량으로 데이터 삭제
+    href: delete-data-bulk.md
+  - name: 잠재적 데이터 손실을 줄이기 위해 낙관적 동시성 사용
+    href: optimistic-concurrency.md
+  - name: 다른 사용자를 가장합니다.
+    href: impersonate-another-user.md
+  - name: 모범 사례
+    href: best-practices/work-with-data/index.md
+- name: 코드를 사용하여 비즈니스 논리 적용
+  href: apply-business-logic-with-code.md
+  items:
+  - name: 이벤트 프레임워크
+    href: event-framework.md
+    items:
+    - name: 전문화된 업데이트 작업의 동작
+      href: special-update-operation-behavior.md
+  - name: 비동기 서비스
+    href: asynchronous-service.md
+  - name: 플러그 인
+    href: plug-ins.md
+    items:
+    - name: 플러그 인 작성
+      href: write-plug-in.md
+    - name: 플러그 인 등록
+      href: register-plug-in.md
+    - name: 플러그 인 디버그
+      href: debug-plug-in.md
+    - name: 자습서
+      items:
+      - name: 플러그 인 작성 및 등록
+        href: tutorial-write-plug-in.md
+      - name: 플러그 인 디버그
+        href: tutorial-debug-plug-in.md
+      - name: 플러그 인 업데이트
+        href: tutorial-update-plug-in.md
+  - name: 워크플로 확장
+    href: workflow/workflow-extensions.md
+  - name: 확장 가능한 사용자 지정 디자인
+    href: scalable-customization-design/overview.md
+  - name: 모범 사례
+    href: best-practices/business-logic/index.md
+- name: 코드를 사용하여 데이터 통합
+  items:
+  - name: 데이터 가져오기
+    href: import-data.md
+    items:
+    - name: 가져올 원본 파일 준비
+      href: prepare-source-files-import.md
+    - name: 가져올 데이터 맵 만들기
+      href: create-data-maps-for-import.md
+    - name: 가져올 변환 매핑 추가
+      href: add-transformation-mappings-import.md
+    - name: 데이터 가져오기 구성
+      href: configure-data-import.md
+    - name: 데이터 가져오기 실행
+      href: run-data-import.md
+    - name: 데이터 가져오기 엔터티
+      href: data-import-entities.md
+  - name: 데이터 내보내기 서비스
+    href: data-export-service.md
+  - name: 데이터 동기화
+    href: data-synchronization.md
+    items:
+    - name: 대체 키를 사용하여 레코드 만들기
+      href: use-alternate-key-create-record.md
+    - name: 변경 내용 추적을 사용하여 외부 시스템과 데이터 동기화
+      href: use-change-tracking-synchronize-data-external-systems.md
+    - name: Upsert를 사용하여 레코드 삽입 또는 업데이트
+      href: use-upsert-insert-update-record.md
+  - name: 서버 쪽 동기화
+    href: server-side-synchronization-entities.md
+    items:
+    - name: Exchange 폴더 수준 추적 규칙 구성
+      href: configure-exchange-folder-level-tracking-rules.md
+  - name: 가상 엔터티
+    href: virtual-entities/
+  - name: Azure 통합
+    href: azure-integration.md
+    items:
+    - name: Azure 솔루션에서 데이터 작업
+      href: work-data-azure-solution.md
+    - name: Azure Event Hub 솔루션에서 이벤트 데이터 작업
+      href: work-event-data-azure-event-hub-solution.md
+    - name: 앱용 Common Data Service와 Azure 통합 구성
+      href: configure-azure-integration.md
+    - name: 사용자 지정 Azure 인식 플러그 인 작성
+      href: write-custom-azure-aware-plugin.md
+    - name: Azure 솔루션용 수신기 애플리케이션 작성
+      href: write-listener-application-azure-solution.md
+    - name: '자습서: 고객 참여와의 통합을 위해 Azure(SAS) 구성'
+      href: walkthrough-configure-azure-sas-integration.md
+    - name: '자습서: 플러그 인 등록 도구를 사용하여 Azure 인식 플러그 인 등록'
+      href: walkthrough-register-azure-aware-plug-in-using-plug-in-registration-tool.md
+    - name: '자습서: 솔루션에서 가져온 서비스 엔드포인트 업데이트'
+      href: walkthrough-update-service-endpoint-imported-solution.md
+  - name: 웹후크 사용
+    href: use-webhooks.md
+    items:
+    - name: 웹후크를 사용하여 서버 이벤트에 대한 외부 처리기 만들기
+      href: use-webhooks.md
+    - name: 웹후크 등록
+      href: register-web-hook.md
+    - name: 웹후크 등록 테스트
+      href: test-webhook-registration.md
+- name: 앱용 CDS 엔터티 사용
   href: entities.md
   items:
+  - name: 고객 엔터티
+    href: customer-entities-account-contact.md
+  - name: 활동 엔터티
+    href: activity-entities.md
+    items:
+    - name: 사용자 지정 활동
+      href: custom-activities.md
+    - name: 이메일 활동 엔터티
+      href: email-activity-entities.md
+    - name: 작업, 팩스, 전화 통화 및 문자 활동 엔터티
+      href: task-fax-phone-call-letter-activity-entities.md
+    - name: ActivityParty 엔터티
+      href: activityparty-entity.md
+    - name: ActivityPointer(활동) 엔터티
+      href: activitypointer-activity-entity.md
+    - name: 되풀이 약속
+      items:
+      - name: 되풀이 약속 부분 확장 모델
+        href: recurring-appointment-partial-expansion-model.md
+      - name: 되풀이 약속 시리즈, 인스턴스 또는 예외 만들기
+        href: create-recurring-appointment-series-instance-exception.md
+      - name: 되풀이 약속 업데이트
+        href: update-recurring-appointment.md
+      - name: 되풀이 약속 마스터 및 약속 엔터티의 사용자 지정 특성 연결
+        href: link-custom-attributes-recurring-master-appointment-entities.md
+  - name: 주석(참고) 엔터티
+    href: annotation-note-entity.md
+  - name: 캘린더 엔터티
+    href: calendar-entities.md
+    items:
+    - name: 일정 유형
+      href: types-calendars.md
+  - name: 큐 엔터티
+    href: queue-entities.md
+  - name: 주제 엔터티
+    href: subject-entity.md
+  - name: SLA(서비스 수준 계약) 적용
+    href: apply-slas-entities.md
+  - name: 트랜잭션 통화(currency) 엔터티
+    href: transaction-currency-currency-entity.md
+  - name: 범주 엔터티
+    href: use-category-entity.md
+  - name: 피드백 엔터티
+    href: use-feedback-entity-manage-feedback-ratings-records.md
+  - name: 보안 엔터티
+    href: security-model.md
+    items:
+    - name: 사용자 및 팀 엔터티
+      href: user-team-entities.md
+      items:
+      - name: 사용자에 대한 표준 시간대 설정 지정
+        href: specify-time-zone-settings-user.md
+      - name: 표준 시간대 엔터티
+        href: time-zone-entities.md
+      - name: BusinessUnit 엔터티
+        href: businessunit-entity.md
+      - name: 필드 보안 엔터티
+        href: field-security-entities.md
+      - name: 액세스 팀과 소유자 팀을 사용하여 공동 작업 및 정보 공유
+        href: use-access-teams-owner-teams-collaborate-share-information.md
+  - name: 템플릿 엔터티
+    href: upload-manage-document-templates.md
+- name: 코드를 사용하여 메타데이터 작업
+  href: metadata-services.md
+  items:
+  - name: 사용자 환경 메타데이터 찾아보기
+    href: browse-your-metadata.md
   - name: 엔터티 메타데이터
     href: entity-metadata.md
+    items:
+    - name: 엔터티 메타데이터 사용자 지정
+      href: customize-entity-metadata.md
+    - name: 엔터티의 대체 키 정의
+      href: define-alternate-keys-entity.md
   - name: 특성 메타데이터
     href: entity-attribute-metadata.md
+    items:
+    - name: 엔터티 특성 메타데이터 메시지
+      href: entity-attribute-metadata-messages.md
+    - name: 날짜 및 시간 특성의 동작 및 형식
+      href: behavior-format-date-time-attribute.md
+    - name: 계산 및 롤업 특성
+      href: calculated-rollup-attributes.md
+    - name: 다중 선택 목록 특성
+      href: multi-select-picklist.md
+    - name: 이미지 특성
+      href: image-attributes.md
+    - name: 사용자 지정 상태 모델 전환 정의
+      href: define-custom-state-model-transitions.md
   - name: 엔터티 관계 메타데이터
     href: entity-relationship-metadata.md
+    items:
+    - name: 엔터티 관계 자격
+      href: entity-relationship-eligibility.md
+    - name: 엔터티 관계 메타데이터 메시지
+      href: entity-relationship-metadata-messages.md
+    - name: 엔터티 관계 연계 동작
+      href: configure-entity-relationship-cascading-behavior.md
+  - name: 엔터티 및 특성 매핑 사용자 지정
+    href: customize-entity-attribute-mappings.md
+  - name: 연결을 사용하여 레코드를 서로 연결
+    href: connection-entities.md
+    items:
+    - name: 연결 역할이 있는 엔터티 간의 관계 설명
+      href: describe-relationship-entities-connection-roles.md
+  - name: 여러 언어를 지원하는 레이블 사용자 지정
+    href: customize-labels-support-multiple-languages.md
+  - name: 모범 사례
+    href: best-practices/work-with-metadata/index.md
+- name: 솔루션을 사용하여 패키지 및 배포 확장
+  items:
+  - name: 솔루션 소개
+    href: introduction-solutions.md
+    items:
+    - name: 솔루션 구성 요소에 대한 종속성 추적
+      href: dependency-tracking-solution-components.md
+    - name: 관리형 솔루션 유지 관리
+      href: maintain-managed-solutions.md
+    - name: 솔루션을 구성
+      href: organize-solutions.md
+    - name: 솔루션을 개발을 위한 팀 구성
+      href: organize-team-develop-solutions.md
+    - name: 관리 속성 사용
+      href: use-managed-properties.md
+    - name: 관리형 솔루션 병합 방법 이해
+      href: understand-managed-solutions-merged.md
+    - name: 여러 언어를 지원하는 솔루션 만들기
+      href: create-solutions-support-multiple-languages.md
+    - name: 솔루션 관리 방법
+      items:
+      - name: 관리되지 않는 솔루션 만들기, 내보내기 또는 가져오기
+        href: create-export-import-unmanaged-solution.md
+      - name: 솔루션 제거 또는 삭제
+        href: uninstall-delete-solution.md
+      - name: 솔루션 작업
+        href: work-solutions.md
+      - name: 관리형 솔루션 만들기, 설치 및 업데이트
+        href: create-install-update-managed-solution.md
+      - name: 솔루션 업데이트를 단순화하기 위한 패치 만들기
+        href: create-patches-simplify-solution-updates.md
+      - name: 사용자 지정 파일을 편집하는 시기
+        href: when-edit-customization-file.md
+  - name: SolutionPackager 도구
+    href: compress-extract-solution-file-solutionpackager.md
+    items:
+    - name: 솔루션 파일을 사용하여 소스 제어
+      href: use-source-control-solution-files.md
+  - name: 패키지 배포자 도구
+    href: package-deployer/create-packages-package-deployer.md
+  - name: AppSource에 앱 게시
+    href: publish-app-appsource.md
+    items:
+    - name: '1단계: AppSource에 앱 제출 양식 채우기'
+      href: fill-app-submission-form-appsource.md
+    - name: '2단계: Microsoft 파트너 네트워크 계정 등록'
+      href: register-microsoft-partner-network.md
+    - name: '3단계: 앱용 관리 솔루션 만들기'
+      href: create-solution-app-appsource.md
+    - name: '4단계: 앱용 AppSource 패키지 만들기'
+      href: create-package-app-appsource.md
+    - name: '5단계: Azure Storage에 AppSource 패키지를 저장하고 SAS 키를 사용하여 URL 생성'
+      href: store-appsource-package-azure-storage.md
+    - name: '다음 단계: Cloud 파트너 포털에 앱 제출'
+      href: next-steps-submit-app-cloud-partner-portal.md
+- name: 클라이언트 애플리케이션 만들기
+  href: connect-cds.md
+  items:
+  - name: 인증
+    href: authentication.md
+    items:
+    - name: .NET Framework 애플리케이션
+      href: authenticate-dot-net-framework.md
+    - name: OAuth 사용
+      href: authenticate-oauth.md
+  - name: '자습서: Azure Active Directory에 앱 등록'
+    href: walkthrough-register-app-azure-active-directory.md
+  - name: S2S(Server-to-Server) 인증을 사용하여 웹 애플리케이션 빌드
+    href: build-web-applications-server-server-s2s-authentication.md
+    items:
+    - name: 다중 테넌트 서버 간 인증 사용
+      href: use-multi-tenant-server-server-authentication.md
+    - name: 단일 테넌트 서버 간 인증 사용
+      href: use-single-tenant-server-server-authentication.md
+  - name: 원본 간 리소스 공유와 함께 OAuth를 사용하여 단일 페이지 애플리케이션 연결
+    href: oauth-cross-origin-resource-sharing-connect-single-page-application.md
+  - name: '자습서: adal.js를 사용하여 SPA 애플리케이션 등록 및 구성'
+    href: walkthrough-registering-configuring-simplespa-application-adal-js.md
+  - name: XRM 도구를 사용하여 Windows 클라이언트 앱 빌드
+    href: xrm-tooling/
+  - name: 사용자 조직 검색
+    href: discovery-service.md
+- name: 모범 사례
+  href: best-practices/index.md
+- name: 샘플
+  items:
+  - name: Web API
+    href: webapi/samples/toc.yml
+  - name: 조직 서비스
+    href: org-service/samples/toc.yml
+- name: 리소스
+  items:
+  - name: 개발자 리소스 페이지
+    href: developer-resources-page.md
+  - name: 개발자 도구
+    href: developer-tools.md
+    items:
+    - name: NuGet에서 도구 다운로드
+      href: download-tools-nuget.md
+  - name: 커뮤니티 도구
+    href: community-tools.md
+  - name: 테스트 도구
+    href: testing-tools-server.md
+- name: 참조
+  items:
   - name: 엔터티 참조
     href: reference/entities/toc.yml
-- name: 코드로 비즈니스 논리 적용
-  href: apply-business-logic-with-code.md
-- name: '앱 웹 서비스에 Common Data Service 사용 '
-  href: use-web-services.md
-ms.openlocfilehash: eaae08e6521e3324d58234e0e6af91e331e804b8
-ms.sourcegitcommit: d927af337a829a329a4e971f886849dcea82deac
+  - name: Web API 참조
+    href: /dynamics365/customer-engagement/web-api/about
+  - name: 조직 서비스
+    href: /dotnet/api/?view=dynamics-general-ce-9
+  - name: XRM 도구
+    href: /dotnet/api/?view=dynamics-xrmtooling-ce-9
+  - name: 가상 엔터티
+    href: /dotnet/api/?view=dynamics-virtualentity-ce-9
+  - name: 워크플로
+    href: /dotnet/api/?view=dynamics-workflow-ce-9
+  - name: 패키지 배포자
+    href: /dotnet/api/?view=dynamics-deployer-ce-9
+  - name: 사용자 지정 솔루션 파일 스키마
+    href: customization-solutions-file-schema.md
+  - name: 솔루션 구성 요소 파일 참조(SolutionPackager)
+    href: solution-component-file-reference-solutionpackager.md
+  - name: FetchXML 스키마
+    href: fetchxml-schema.md
+ms.openlocfilehash: 4d22298f104f83f0482503c7ddea55b7cdd8a6cf
+ms.sourcegitcommit: 72c97378e96fb54e5d92ec087a59dd0fb1444f99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2018
-ms.locfileid: "42826393"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "54334112"
