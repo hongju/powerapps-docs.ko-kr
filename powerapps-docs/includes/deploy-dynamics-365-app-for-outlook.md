@@ -33,24 +33,24 @@ manager: brycho
 |전자 메일에 대한 관련 항목 추적 및 설정|예|예|  
 |약속에 대한 관련 항목 추적 및 설정|예|예|  
 |연락처에 대한 관련 항목 추적 및 설정|예|예|  
-|작업에 대한 관련 항목 추적 및 설정|아니오|예|  
-|관련 원클릭 설정|예|아니오|  
-|받는 사람 요약 표시|예|아니오|  
-|전자 메일/약속에 관련 레코드 요약 표시|예|아니오|  
-|공동 작업 대상: [!INCLUDE[pn_outlook_web_app](../includes/pn-outlook-web-app.md)]|예|아니오|  
+|작업에 대한 관련 항목 추적 및 설정|아니요|예|  
+|관련 원클릭 설정|예|아니요|  
+|받는 사람 요약 표시|예|아니요|  
+|전자 메일/약속에 관련 레코드 요약 표시|예|아니요|  
+|공동 작업 대상: [!INCLUDE[pn_outlook_web_app](../includes/pn-outlook-web-app.md)]|예|아니요|  
 |[!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] 데스크톱에서 작동|예|예|  
-|Mac용 [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)]에서 작동|예|아니오|  
-|전화기에서 작동|예|아니오|  
+|Mac용 [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)]에서 작동|예|아니요|  
+|전화기에서 작동|예|아니요|  
 |[!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] 레코드를 직접 열기 및 만들기|예|예|  
 |사용자 지정 양식 및 비즈니스 논리 적용|예|예|  
-|오프라인으로 작업|아니오|예|  
+|오프라인으로 작업|아니요|예|  
 |전자 메일 템플릿 적용|예|예|  
 |영업 홍보 자료 적용|예|예|  
 |참조 문서 적용|예|예|  
-|보낸 후 전자 메일을 감시하는 기능|예|아니오|  
-|보기 정렬, 필터링, 서식 지정, 그룹화 및 분류|아니오|예|  
-|Word 메일 병합 문서 만들기|아니오|예|  
-|필드 동기화 제어|아니오|예|  
+|보낸 후 전자 메일을 감시하는 기능|예|아니요|  
+|보기 정렬, 필터링, 서식 지정, 그룹화 및 분류|아니요|예|  
+|Word 메일 병합 문서 만들기|아니요|예|  
+|필드 동기화 제어|아니요|예|  
   
 <a name="BKMK_Requirements"></a>   
 ## <a name="requirements"></a>요구 사항  
@@ -105,13 +105,13 @@ manager: brycho
 5.  **개인 정보 관련 권한** 섹션에서 **Outlook용 Dynamics 365 앱 사용**이 **조직**으로 설정되었는지 확인합니다. 그렇지 않으면 **Outlook용 Dynamics 365 앱 사용**을 클릭합니다.  
   
 ### <a name="supported-configurations-with-microsoft-exchange"></a>Microsoft Exchange에 지원되는 구성  
- [!INCLUDE[pn_crm_8_2_0_both](../includes/pn-crm-8-2-0-both.md)]로 [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] 또는 [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)] 및 [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] 또는 [!INCLUDE[pn_Exchange_Server_short](../includes/pn-exchange-server-short.md)](온-프레미스) 중 하이브리드 구성을 포함하여 모든 조합의 앱을 사용할 수 있습니다. 즉, [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]에서 다음 구성 중 어떤 것도 사용할 수 있습니다.  
+ [!INCLUDE[pn_crm_8_2_0_both](../includes/pn-crm-8-2-0-both.md)]로 [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] 또는 [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)] 및 [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] 또는 [!INCLUDE[pn_Exchange_Server_short](../includes/pn-exchange-server-short.md)] (on-premises) 중 하이브리드 구성을 포함하여 모든 조합의 앱을 사용할 수 있습니다. 즉, [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]에서 다음 구성 중 어떤 것도 사용할 수 있습니다.  
   
 |||  
 |-|-|  
 |[!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]|[!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)]|  
-|[!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]|[!INCLUDE[pn_Exchange_Server_short](../includes/pn-exchange-server-short.md)](온-프레미스)|  
-|[!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)]|[!INCLUDE[pn_Exchange_Server_short](../includes/pn-exchange-server-short.md)](온-프레미스)|  
+|[!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]|[!INCLUDE[pn_Exchange_Server_short](../includes/pn-exchange-server-short.md)] (on-premises)|  
+|[!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)]|[!INCLUDE[pn_Exchange_Server_short](../includes/pn-exchange-server-short.md)] (on-premises)|  
 |[!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)]|[!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)]|  
   
 > [!NOTE]
@@ -256,4 +256,4 @@ manager: brycho
  [이 블로그에서 지원되는 클라이언트에 대한 자세한 내용을 보려면 Outlook용 Dynamics 365 앱 지원 매트릭스를 확인하십시오.](https://blogs.msdn.microsoft.com/crm/2016/12/13/dynamics-365-app-for-outlook-support-matrix/)   
  [전자 메일, 약속, 연락처 및 작업의 서버쪽 동기화 설정](../Topic/Set%20up%20server-side%20synchronization%20of%20email,%20appointments,%20contacts,%20and%20tasks.md)   
  [사용자, 라이선스 및 보안 역할 추가](http://msdn.microsoft.com/en-us/23612155-f92d-4871-a109-186419d5c19d)   
- [Microsoft Dynamics 365(온라인)에 상호 운용 기능 추가](../DocSets/CRMIGv9_Admin/Toc/Add%20interoperation%20features%20to%20Microsoft%20Dynamics%20365%20\(online\).md)
+ [Microsoft Dynamics 365 (online)에 상호 운용 기능 추가](../DocSets/CRMIGv9_Admin/Toc/Add%20interoperation%20features%20to%20Microsoft%20Dynamics%20365%20\(online\).md)

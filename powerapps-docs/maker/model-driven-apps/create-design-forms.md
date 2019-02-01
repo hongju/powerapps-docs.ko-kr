@@ -1,7 +1,7 @@
 ---
 title: 모델 기반 앱 양식 만들기 및 디자인 | MicrosoftDocs
 ms.custom: ''
-ms.date: 06/26/2018
+ms.date: 12/06/2018
 ms.reviewer: ''
 ms.service: crm-online
 ms.suite: ''
@@ -51,6 +51,39 @@ PowerApps는 양식을 디자인하는 여러 옵션을 제공합니다. 통합 
 |저장된 보기|서비스|서비스 활동|SharePoint 사이트|사이트|  
 |지역|단위|단위 그룹|||  
   
+## <a name="form-display-faq"></a>양식 표시 FAQ
+
+### <a name="why-is-my-form-not-visible-in-the-form-selector-drop-down-in-my-app"></a>앱의 양식 선택기 드롭 다운에서 양식이 표시되지 않는 이유는 무엇입니까?
+양식이 앱에 추가되지 않았기 때문에 사용하지 못할 수 있습니다.
+1. 앱 디자이너에서 앱을 엽니다.
+2. **엔터티 보기** 영역에서 엔터티 옆에 있는 **양식**을 선택합니다.
+3. **구성 요소** 탭에서 앱에 포함된 기본 양식을 확인합니다. 표시하려는 양식이 선택되어 있는지 확인합니다. 그렇지 않은 경우에는 선택하고 저장한 다음 앱을 게시합니다.
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/forms-included-in-app.png "앱에 포함된 양식")
+   
+### <a name="why-isnt-my-form-displayed-as-the-default-form-in-the-app"></a>양식이 앱에서 기본 양식으로 표시되지 않는 이유는 무엇입니까?
+양식은 양식 순서 구성을 통해 기본 양식으로 설정하거나 사용자가 기본 양식을 개인 설정으로 설정할 때 사용할 수 있습니다.
+1. 솔루션 탐색기를 엽니다. 주문을 원하는 양식이 있는 엔터티를 확장한 다음 **양식**을 선택합니다.
+2. 도구 모음에서 **양식 주문** > **기본 양식 집합**을 선택합니다. 
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/form-order-toolbar.png "양식 순서 도구 모음 명령")
+   
+3. 엔터티 양식 순서가 표시됩니다. 양식을 선택하고 위쪽 및 아래쪽 화살표를 사용하여 양식 주문 내에서 양식을 이동합니다. 목록 맨 위에 있는 양식이 기본 양식입니다. 
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/form-order-dialog.png "양식 주문 대화")
+   
+4. **확인** 을 선택하여 양식 순서 변경 내용을 저장합니다.
+5. 양식 설계자 도구 모음에서 **게시** 를 선택하여 앱에서 양식 주문을 사용할 수 있도록 합니다.
+ 
+#### <a name="form-order-user-personalization-setting"></a>양식 주문 사용자 개인화 설정
+앱 사용자가 앱의 양식 선택기 드롭다운에서 양식 선택을 변경하면 해당 양식이 사용자의 기본 양식이 됩니다. 이 개인 설정은 앱의 엔터티에 대해 지정된 기본 양식을 다시 정의합니다.
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/change-form-user-setting.png "기본 양식을 변경하는 사용자 설정")
+   
 ### <a name="related-topics"></a>관련 항목  
     
 [양식 순서 할당](assign-form-order.md) <br />

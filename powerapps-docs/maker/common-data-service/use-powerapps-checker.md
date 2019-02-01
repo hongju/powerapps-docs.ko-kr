@@ -17,7 +17,7 @@ search.app:
 
 # <a name="use-solution-checker-to-validate-your-model-driven-apps-in-powerapps"></a>솔루션 검사기를 사용하여 PowerApps에서 모델 기반 앱의 유효성 검사
 
-복잡한 비즈니스 요구 사항을 제공하기 위해 모델 기반 앱 제작자는 종종 앱 플랫폼에 대한 Common Data Service(CDS)를 사용자 지정하고 확장하는 고도의 솔루션으로 끝날 수 있습니다. 고급 구현에서는 성능, 안정성 및 안정성 문제가 도입되어 최종 사용자 환경에 부정적인 영향을 줄 수 있는 위험이 증가합니다. 이러한 문제를 해결하는 방법을 확인하고 이해하는 것은 복잡하고 시간이 많이 걸릴 수 있습니다. 솔루션 검사 기능을 사용하면 모범 사례 규칙 세트에 따라 솔루션에 대한 풍부한 정적 분석 검사를 수행하고 이러한 문제 패턴을 신속하게 식별할 수 있습니다. 확인이 완료되면 식별된 문제, 영향을 받는 구성 요소 및 코드, 각 문제를 해결하는 방법을 설명하는 설명서에 대한 링크가 나열된 자세한 보고서를 받게 됩니다.
+복잡한 비즈니스 요구 사항을 제공하기 위해 모델 기반 앱 제작자는 종종 앱 플랫폼에 대한 Common Data Service(CDS)를 사용자 지정하고 확장하는 고도의 솔루션으로 끝날 수 있습니다. 고급 구현에서는 성능, 안정성 및 안정성 문제가 도입되어 사용자 환경에 부정적인 영향을 줄 수 있는 위험이 증가합니다. 이러한 문제를 해결하는 방법을 확인하고 이해하는 것은 복잡하고 시간이 많이 걸릴 수 있습니다. 솔루션 검사 기능을 사용하면 모범 사례 규칙 세트에 따라 솔루션에 대한 풍부한 정적 분석 검사를 수행하고 이러한 문제 패턴을 신속하게 식별할 수 있습니다. 확인이 완료되면 식별된 문제, 영향을 받는 구성 요소 및 코드, 각 문제를 해결하는 방법을 설명하는 설명서에 대한 링크가 나열된 자세한 보고서를 받게 됩니다.
 
 솔루션 검사에서 이러한 솔루션 구성 요소를 분석합니다. 
 - 앱 플러그인 용 CDS
@@ -25,28 +25,33 @@ search.app:
 - 앱 웹 리소스용 CDS(HTML 및 JavaScript)
 - SDK 메시지 단계와 같은 앱 구성용 CDS 
 
-솔루션 검사기는 환경에서 내보낼 수 있는 비관리형 솔루션에서 작동합니다. 솔루션 검사기는 다음 솔루션에서 작동하지 않습니다. 
+솔루션 검사기는 환경에서 내보낼 수 있는 비관리형 솔루션에서 작동합니다. 솔루션 검사기는 다음 솔루션에서 작동하지 *않습니다*. 
+
+
+<!--from editor: Should it be Common Data Service (singular) below, rather than Services? -->
+
 - 시스템 기본 솔루션(기본 솔루션 및 Common Data Services 기본 솔루션)입니다.
 - ECMAScript 6(2015) 이상 버전을 사용하는 JavaScript를 포함하는 솔루션입니다. 이러한 버전 중 하나를 사용하는 JavaScript가 검색되면 웹 리소스용 JS001 구문 문제가 보고됩니다.
 
-> [!NOTE]
-> 이 기능은 현재 미리 보기 중이며 북미 지역의 경우에만 조직에 사용할 수 있습니다. 
-> [!INCLUDE [cc-preview-features-definition](../../includes/cc-preview-features-definition.md)]
-
 
 ## <a name="enable-the-solution-checker"></a>솔루션 검사 사용
-솔루션 검사기는 PowerApps 검사기 솔루션을 설치한 후 PowerApps의 솔루션 영역에서 사용할 수 있게 됩니다. 검색 또는 Microsoft AppSource에서 검색하여 찾을 수 없음을 확인합니다. 이 단계를 수행하여 설치해야 합니다.  
+솔루션 검사기는 PowerApps 검사기 솔루션을 설치한 후 PowerApps의 솔루션 영역에서 사용할 수 있게 됩니다. 검색 또는 Microsoft AppSource에서 검색하여 찾을 수 없음을 확인합니다. 이를 설치하려면 다음 단계를 수행합니다.  
 
 1. [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인 하고 솔루션 검사를 사용하도록 설정하려는 Common Data Service 환경을 선택합니다. 
 2. 왼쪽 탐색 창에서 **솔루션**을 선택합니다.
-3. 도구 모음에서 **솔루션 검사기**를 선택하고 **설치**를 선택하여 Microsoft AppSource 페이지를 엽니다. 브라우저에서 페이지가 열리지 않도록 차단하는 경우 팝업을 허용해야 합니다. 
+3. 도구 모음에서 **솔루션 검사기**를 선택하고 **설치**를 선택하여 Microsoft AppSource 페이지를 엽니다. 브라우저에서 페이지가 열리지 않도록 차단하는 경우 팝업 창을 허용해야 합니다. 
 
-   ![솔루션 검사기 설치](media/solution-checker-install.png)
+   > [!div class="mx-imgBorder"]
+   > ![솔루션 검사기 설치](media/solution-checker-install.png "솔루션 검사기 설치")
 
 4. AppSource 페이지에서 **무료 평가판**을 선택합니다. 
-5. 동의하면 이용 약관에 동의하고 환경을 선택하여 PowerApps 검사기 솔루션을 설치합니다. 
-6.  설치가 완료되면 PowerApps 사이트에서 **솔루션** 목록을 새로고쳐 솔루션 검사를 사용할 수 있는지 확인합니다.  
-7. 솔루션을 확인 하려면 솔루션 [검사를 실행](#run-the-solution-checker)합니다.
+
+
+<!--from editor: Should it be "solution checker" rather than "checker solution" in the following step?
+
+5. If you agree, accept the terms and conditions and select the environment to install the PowerApps checker solution. 
+6. When the installation is complete, refresh the **Solution** list on the PowerApps site to verify that the solution checker is available.  
+7. To check a solution, [Run the solution checker](#run-the-solution-checker).
 
 
 <!-- ### Components created with the PowerApps checker
@@ -66,20 +71,22 @@ When you install the PowerApps checker these solution specific components are cr
 2. 왼쪽 탐색 창에서 **솔루션**을 선택합니다. 
 3. 분석하려는 비관리형 솔루션 옆, **...** 을 클릭하고 **솔루션검사기**를 가리킨 다음 **실행**을 선택합니다. 
 
-   ![솔루션 검사기 명령](media/solution-checker-run.png)
+   > [!div class="mx-imgBorder"]
+   > ![솔루션 검사기 명령 실행](media/solution-checker-run.png "솔루션 검사기 명령 실행")
 
 4.  **솔루션** 페이지의 오른쪽 위에 있는 상태 창에는 **솔루션 검사 실행**이 표시 됩니다. 
 
-    ![솔루션 검사기 상태](media/solution-checker-status.png)
+    > [!div class="mx-imgBorder"]
+    > ![솔루션 검사기 상태](media/solution-checker-status.png "솔루션 검사기 상태")
    
-     다음을 참고하십시오.
-       - 솔루션 검사기에서 분석을 완료하는 데 몇 분 정도 걸릴 수 있습니다. 
+    다음을 참고하십시오.
+    - 솔루션 검사기에서 분석을 완료하는 데 몇 분 정도 걸릴 수 있습니다. 
     
-       - 이 시간 동안 당신은 **실행을 알 수 있습니다...** **솔루션** 목록의 **솔루션 확인** 열에서 상태를 표시합니다. 
+    - 이 시간 동안 당신은 **실행을 알 수 있습니다...** **솔루션** 목록의 **솔루션 확인** 열에서 상태를 표시합니다. 
     
-       - 확인이 완료되면 PowerApps 사이트의 **알림** 영역에 전자 메일 알림 및 알림이 표시 됩니다.  
+    - 확인이 완료되면 PowerApps 사이트의 **알림** 영역에 전자 메일 알림 및 알림이 표시 됩니다.  
 
-5.  검사가 완료 되면 [보고서를 봅니다](#reviewing-the-solution-checker-report).
+5.  검사가 완료 되면 [보고서를 봅니다](#review-the-solution-checker-report).
 
 ## <a name="cancel-a-check"></a>검사 취소
 
@@ -96,9 +103,9 @@ When you install the PowerApps checker these solution specific components are cr
 |실행 중     | 솔루션이 분석되고 있습니다.       |
 |완료할 수 없습니다.     |  솔루션 분석이 요청되었으나 분석이 성공적으로 완료되지 않았습니다.       |
 |*날짜 및 시간*의 결과   | 솔루션 분석을 완료하고 결과를 다운로드할 수 있습니다.      |
-| 완료할 수 없습니다. *날짜 및 시간*의 결과     | 최신 분석 요청이 성공적으로 완료되지 않았습니다. 마지막으로 성공한 결과를 다운로드할 수 있습니다.         |
+|완료할 수 없습니다. *날짜 및 시간*의 결과     | 최신 분석 요청이 성공적으로 완료되지 않았습니다. 마지막으로 성공한 결과를 다운로드할 수 있습니다.         |
 |Microsoft에서 확인     | 이것은 Microsoft 관리형 솔루션입니다. 솔루션 분석은 이러한 솔루션에 허용되지 않습니다.         |
-|게시자에게 확인     |  타사 관리형 솔루션입니다. 현재 솔루션 분석은 솔루션에 사용할 수 없습니다.        |
+|게시자에게 확인     | 타사 관리형 솔루션입니다. 현재 솔루션 분석은 솔루션에 사용할 수 없습니다.        |
 
 
 ## <a name="review-the-solution-checker-report"></a>솔루션 검사 보고서 검토
@@ -113,9 +120,9 @@ When you install the PowerApps checker these solution specific components are cr
 |보고서 필드 |설명  |구성 요소에 적용   |
 |---------|---------|---------|
 |문제     |   솔루션에서 식별된 문제의 제목입니다.      | 모두        |
-|범주     | **성능**, **사용** 또는 **지원 가능성**과 같은 식별된 문제를 분류한 것입니다.      |  모두       |
+|범주     | **성능**, **사용** 또는 **지원 가능성**과 같은 식별된 문제를 분류한 것입니다.      |  모두     |
 |심각도     | 식별된 문제의 잠재적 영향을 나타냅니다. 사용 가능한 영향 유형은 **높음**, **보통**, **낮음**, **정보**입니다.         |  모두       |
-|지침     |  문제, 영향 및 권장 되는 해결 방법을 자세히 설명하는 문서에 연결합니다. 작업       |  모두       |
+|지침     |  문제, 영향 및 권장되는 작업을 자세히 설명하는 문서에 연결합니다.       |  모두       |
 |구성 요소     |  문제를 해결하는 솔루션 구성 요소입니다.        |   모두      |
 |Location     |  어셈블리 또는 JavaScript 파일 이름과 같이 식별된 문제가 발생한 구성 요소의 위치 및/또는 소스 파일입니다.        |  모두       |
 |꺾은선형 #     |  영향을 받는 웹 리소스 구성 요소에 있는 문제의 줄 번호 참조입니다.       |  웹 리소스       |
@@ -126,9 +133,7 @@ When you install the PowerApps checker these solution specific components are cr
 |코멘트     | 높은 수준의 해결 단계를 포함하는 문제에 대한 세부 정보입니다.         |  모두       |
 
 
-
 ## <a name="best-practice-rules-used-by-solution-checker"></a>솔루션 검사기에서 사용하는 모범 사례 규칙
-
 
 |솔루션 구성 요소  |규칙 이름  |규칙 설명  |
 |---------|---------|---------|
@@ -162,5 +167,4 @@ When you install the PowerApps checker these solution specific components are cr
 
 
 ## <a name="see-also"></a>참조
-[PowerApps에서 실험 및 미리보기 기능 이해](../canvas-apps/working-with-experimental.md) <br/>
 [PowerApps 솔루션을 구축하기 위한 지침 및 모범 사례](https://docs.microsoft.com/dynamics365/customer-engagement/guidance/)

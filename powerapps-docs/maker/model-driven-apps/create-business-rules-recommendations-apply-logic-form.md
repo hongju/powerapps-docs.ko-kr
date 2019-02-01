@@ -1,7 +1,7 @@
 ---
 title: 모델 기반 앱 비즈니스 규칙 및 추천 만들기 | MicrosoftDocs
 ms.custom: ''
-ms.date: 06/27/2018
+ms.date: 12/06/2018
 ms.reviewer: ''
 ms.service: crm-online
 ms.suite: ''
@@ -128,7 +128,22 @@ search.app:
 <a name="BKMK_LocalizingErrorMessages"></a>   
 ## <a name="localize-error-messages-used-in-business-rules"></a>비즈니스 규칙에 사용되는 오류 메시지 지역화  
  조직에 구축된 언어가 둘 이상일 경우 설정된 오류 메시지를 지역화해야 할 수 있습니다. 메시지를 설정할 때마다 시스템에서 레이블을 생성합니다. 조직에서 번역을 내보내면 기본 언어가 아닌 언어를 사용하는 사용자가 번역된 메시지를 볼 수 있도록 오류 메시지의 지역화된 버전을 추가한 다음 해당 레이블을 시스템으로 다시 가져올 수 있습니다.  
-  
+
+## <a name="is-your-business-rule-not-firing-for-a-form"></a>비즈니스 규칙이 양식에 대해 실행되지 않습니까?
+비즈니스 규칙에서 참조하는 필드가 양식에 포함되지 않기 때문에 비즈니스 규칙이 실행되지 않을 수 있습니다. 
+1.  솔루션 탐색기를 엽니다. 원하는 엔터티를 확장하고 **양식**을 선택합니다. 
+2.  원하는 양식을 연 다음 양식 디자이너 리본에서 **비즈니스 규칙**을 선택합니다. 
+3.  양식 디자이너에서 비즈니스 규칙을 엽니다. 
+4.  비즈니스 규칙 디자이너에서 각 조건 및 작업을 선택하여 각 조건 및 동작에서 참조되는 모든 필드를 확인합니다. 
+
+     > [!div class="mx-imgBorder"] 
+     > ![](media/business-rule-field.png "비즈니스 규칙에서 참조하는 필드가 엔터티에 존재")
+
+ 5. 비즈니스 규칙에서 참조하는 각 필드가 양식에도 포함되어 있는지 확인합니다. 그렇지 않은 경우 양식에 누락된 필드를 추가합니다.
+
+     > [!div class="mx-imgBorder"] 
+     > ![](media/account-name-on-form.png "양식의 거래처 이름 필드")
+
 ## <a name="next-steps"></a>다음 단계  
  [프로세스를 통해 사용자 지정 비즈니스 논리 만들기](guide-staff-through-common-tasks-processes.md)   
  [비즈니스 프로세스 흐름 만들기](/flow/create-business-process-flow)   

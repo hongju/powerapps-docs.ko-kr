@@ -23,9 +23,9 @@ search.app:
   - PowerApps
   - D365CE
 ---
-# <a name="tutorial-use-custom-controls-for-model-driven-app-data-visualizations"></a>자습서: 모델 기반 앱 데이터 시각화를 위한 사용자 지정 컨트롤 사용
+# <a name="use-custom-controls-for-model-driven-app-data-visualizations"></a>모델 기반 앱 데이터 시각화를 위한 사용자 지정 컨트롤 사용
 
-이 자습서에서는 필드에 대한 사용자 지정 컨트롤을 구성하는 방법을 배웁니다. 
+이 항목에서는 필드에 대한 사용자 지정 컨트롤을 구성하는 방법을 배웁니다. 
 
 사용자 지정 컨트롤을 사용하면 전통적으로 텍스트를 포함하는 필드나 보기와 같은 앱 사용자 인터페이스 구성 요소를 시각화로 변환할 수 있습니다. 필드, 양식, 대시보드, 보기 및 표에 사용자 지정 컨트롤을 구성할 수 있습니다. 예를 들어 숫자 필드에 슬라이더 트롤을 구성할 수 있습니다.
 
