@@ -16,12 +16,12 @@ search.audienceType:
 - developer
 search.app:
 - PowerApps
-ms.openlocfilehash: 6cb500e681be7a3be6a1ac0e0dc54caa2981893c
-ms.sourcegitcommit: 5198d7d99f157cd42830f833712175a2228aae5e
+ms.openlocfilehash: 088804f429e23a8824c3c132c3011308935a5b66
+ms.sourcegitcommit: 826bde1eab3dd32d7bf9fa3f43ea069694845597
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/07/2019
-ms.locfileid: "54069376"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55290837"
 ---
 # <a name="whats-new-in-powerapps"></a>PowerApps의 새로운 기능
 
@@ -38,7 +38,9 @@ ms.locfileid: "54069376"
 
 ## <a name="release-notes"></a>릴리스 정보
 
-향후 몇 개월 동안 플랜에 사용할 수 있는 새로운 기능에 대한 자세한 내용은 [2018년 10월 릴리스 정보](https://docs.microsoft.com/business-applications-release-notes/October18/powerapps/planned-features)를 참조하세요.
+향후 몇 개월 동안 플랜에 사용할 수 있는 새로운 기능에 대한 자세한 내용은 다음을 참조하세요.
+- [2018년 10월 릴리스 정보](https://docs.microsoft.com/business-applications-release-notes/October18/powerapps/planned-features)
+- [2019년 4월 릴리스 정보](https://docs.microsoft.com/business-applications-release-notes/April19/microsoft-powerapps/planned-features)
 
 ## <a name="known-limitations"></a>알려진 제한 사항
 
