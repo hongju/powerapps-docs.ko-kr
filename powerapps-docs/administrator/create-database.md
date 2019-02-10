@@ -7,7 +7,7 @@ manager: kvivek
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: conceptual
-ms.date: 10/03/2018
+ms.date: 02/01/2019
 ms.author: manasma
 search.audienceType:
 - admin
@@ -15,12 +15,12 @@ search.app:
 - D365CE
 - PowerApps
 - Powerplatform
-ms.openlocfilehash: c7de26bff38ee0425e8bb3f9bc0da72317f0a6cf
-ms.sourcegitcommit: 6e2fa2665ded6ac6fd271e1a12f4e3227ebc8865
+ms.openlocfilehash: f7b5fb27e5b135239e1fe2306f7c431d6d1e6aae
+ms.sourcegitcommit: 676cfa415f67e2e8fcfcf30fab83fc118a6f3210
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/03/2018
-ms.locfileid: "48246123"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "55558752"
 ---
 # <a name="create-a-common-data-service-for-apps-database"></a>앱용 CDS(Common Data Service) 데이터베이스 만들기
 앱용 CDS(Common Data Service)를 데이터 저장소로 사용하여 데이터베이스를 만들고 앱을 빌드할 수 있습니다. 사용자 고유의 사용자 지정 엔터티를 만들거나 미리 정의된 엔터티를 사용할 수 있습니다. 데이터베이스를 만들려면 먼저 환경을 만들거나 기존 환경에 **환경 관리자**로 할당되어야 합니다. 또한 적절한 라이선스를 할당 받아야 합니다. 앱용 CDS 사용을 위한 계획 구매에 대한 자세한 내용은 [가격 책정 정보](pricing-billing-skus.md)를 참조하세요.
@@ -45,17 +45,12 @@ ms.locfileid: "48246123"
     
     ![](./media/create-database/DB-Choose-options.png)
 
-
-
 ## <a name="create-a-database-in-the-entities-pane-of-powerapps"></a>PowerApps의 엔터티 창에서 데이터베이스 만들기
 1. [powerapps.com](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 **데이터** 섹션을 확장하고 왼쪽 탐색 창에서 **엔터티**를 클릭하거나 탭합니다.
 
 2. **데이터베이스 만들기**를 클릭하여 데이터베이스를 만듭니다.
 
     ![](./media/create-database/Create-DB-From-Entities.png)
-
-> [!NOTE]
-> 현재 Azure AD 지역 외부에서는 데이터베이스를 만들 수 없습니다. 곧 Azure AD 홈 지역과 다른 지역에서 데이터베이스를 만들 수 있게 되지만, 지금은 Azure AD 홈 지역과 동일한 지역이 있는 환경에서 데이터베이스를 만들어야 합니다.
 
 ## <a name="security-model-for-the-databases"></a>데이터베이스의 보안 모델
 데이터베이스가 만들어지면 환경 역할이 할당된 사용자는 계속해서 해당 권한이 유지됩니다.  
