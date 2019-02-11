@@ -66,6 +66,8 @@ items:
   - name: 이벤트 프레임워크
     href: event-framework.md
     items:
+    - name: 실행 컨텍스트 해석
+      href: understand-the-data-context.md
     - name: 전문화된 업데이트 작업의 동작
       href: special-update-operation-behavior.md
   - name: 비동기 서비스
@@ -75,10 +77,20 @@ items:
     items:
     - name: 플러그 인 작성
       href: write-plug-in.md
+    - name: 예외 처리
+      href: handle-exceptions.md
+    - name: 사용자 가장
+      href: impersonate-a-user.md
     - name: 플러그 인 등록
       href: register-plug-in.md
     - name: 플러그 인 디버그
       href: debug-plug-in.md
+    - name: 추적 및 로깅
+      href: logging-tracing.md
+    - name: 성능 분석
+      href: analyze-performance.md
+    - name: 외부 웹 리소스 액세스
+      href: access-web-services.md
     - name: 자습서
       items:
       - name: 플러그 인 작성 및 등록
@@ -87,6 +99,12 @@ items:
         href: tutorial-debug-plug-in.md
       - name: 플러그 인 업데이트
         href: tutorial-update-plug-in.md
+    - name: 샘플 코드
+      items:
+      - name: 기본 플러그 인 만들기
+        href: org-service/samples/basic-followup-plugin.md
+      - name: 플러그 인의 웹 액세스
+        href: org-service/samples/web-access-plugin.md
   - name: 워크플로 확장
     href: workflow/workflow-extensions.md
   - name: 확장 가능한 사용자 지정 디자인
@@ -393,9 +411,9 @@ items:
     href: solution-component-file-reference-solutionpackager.md
   - name: FetchXML 스키마
     href: fetchxml-schema.md
-ms.openlocfilehash: 4d22298f104f83f0482503c7ddea55b7cdd8a6cf
-ms.sourcegitcommit: 72c97378e96fb54e5d92ec087a59dd0fb1444f99
+ms.openlocfilehash: 8a04194b09d15fcc5ac407aeb4194c67830a9ed5
+ms.sourcegitcommit: 9192f6aff2782f980a34a60df9aca420f1ba29ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54334112"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55958057"
