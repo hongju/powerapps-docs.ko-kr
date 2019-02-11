@@ -5,7 +5,7 @@ author: sabinn-msft
 ms.service: powerapps
 ms.topic: how-to
 ms.component: cds
-ms.date: 10/15/2018
+ms.date: 1/31/2019
 ms.author: sabinn
 search.audienceType:
 - admin
@@ -13,12 +13,12 @@ search.app:
 - D365CE
 - PowerApps
 - Powerplatform
-ms.openlocfilehash: dfbc420dfb4945cdda635e3cbaadb1acb446753b
-ms.sourcegitcommit: ebd39753e2a0b60c1d8c016e38c00dd1accf5d0c
+ms.openlocfilehash: 8723021a59ca1ecbbdff41ddfa793684fe1ee970
+ms.sourcegitcommit: 47a4218445e5715bc1f7bf7bd8735b2a42c33935
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49328697"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "55514033"
 ---
 # <a name="integrate-data-into-common-data-service-for-apps"></a>앱용 Common Data Service에 데이터 통합
 
@@ -31,6 +31,9 @@ Microsoft는 Dynamics 365 for Finance and Operations, Dynamics 365 for Sales 등
 > [!div class="mx-imgBorder"]
 > ![대상에 대한 데이터 원본](media/data-integrator/DataIntegratorP2P-new.PNG "대상에 대한 데이터 원본")
 
+> [!TIP]
+> 블로그 체크 아웃: [Data Integrator 업데이트 – fluent 환경을 제공하는 직관적인 사용자 인터페이스를 갖춘 새로운 기능](https://powerapps.microsoft.com/blog/data-integrator-updates-new-features-with-an-intuitive-user-interface-providing-a-fluent-experience/)입니다.
+
 ## <a name="how-can-you-use-the-data-integrator-for-your-business"></a>어떻게 Data Integrator를 해당 비즈니스에 사용할 수 있을까요?
 
 Data Integrator(관리자용)는 Dynamics 365 for Finance and Operations 및 Dynamics 365 for Sales 간에 직접적인 동기화를 제공하는, 현금에 대한 전망 등의 프로세스 기반 통합 시나리오도 지원합니다. 데이터 통합 기능과 함께 제공되는 현금에 대한 전망 템플릿을 통해 계정, 담당자, 제품, 판매 견적, 판매 주문 및 판매 송장에 대한 데이터 흐름이 Finance and Operations 및 Sales 간에 유지되도록 할 수 있습니다. Finance and Operations 및 Sales 간에 데이터 흐름이 진행되는 동안, Sales에서는 판매 및 마케팅 활동을 수행하고 Finance and Operations에서는 재고 관리를 사용하여 주문 이행을 처리할 수 있습니다. 
@@ -40,7 +43,7 @@ Data Integrator(관리자용)는 Dynamics 365 for Finance and Operations 및 Dyn
 
 현금에 대한 전망 통합을 사용하면 Finance and Operations의 풍부한 기능을 사용하여 주문 이행 및 송장 발행의 모든 측면이 수행되는 동시에 판매자가 Dynamics 365 for Sales의 강점을 활용하여 판매 프로세스를 처리 및 모니터링할 수 있습니다. Microsoft Dynamics 365 현금에 대한 전망 통합을 사용하면 두 시스템의 기능을 모두 활용할 수 있습니다. 
 
-비디오: [현금에 대한 전망 통합](https://www.youtube.com/watch?v=AVV9x5x-XCg)을 보세요.
+비디오 보기: [현금에 대한 전망 통합](https://www.youtube.com/watch?v=AVV9x5x-XCg)
 
 현금에 대한 전망 통합에 대한 자세한 내용은 [현금에 대한 전망 솔루션](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/sales-marketing/prospect-to-cash) 관련 설명서를 참조하세요.
 
@@ -48,7 +51,7 @@ Microsoft는 Dynamics 365 for Finance and Operations에 대한 [현장 서비스
 
 ## <a name="data-integrator-platform"></a>Data Integrator 플랫폼
 
-Data Integrator(관리자용)는 데이터 통합 플랫폼, Dynamics 365 for Finance and Operations, Dynamics 365 for Sales 등의 응용 프로그램 팀이 제공하는 기본 제공 템플릿 및 고객과 파트너가 만든 사용자 지정 템플릿으로 구성됩니다. Microsoft는 다양한 원본으로 확장될 수 있는 응용 프로그램 중립적 플랫폼을 빌드했습니다. 이 플랫폼의 핵심은, 통합 엔드포인트에 대한 연결을 만들고 미리 정의된 매핑이 있는 사용자 지정 가능한 템플릿 중 하나를 선택한 다음, 데이터 통합 프로젝트를 만들고 실행하는 것입니다.  
+Data Integrator(관리자용)는 데이터 통합 플랫폼, Dynamics 365 for Finance and Operations, Dynamics 365 for Sales 등의 애플리케이션 팀이 제공하는 기본 제공 템플릿 및 고객과 파트너가 만든 사용자 지정 템플릿으로 구성됩니다. Microsoft는 다양한 원본으로 확장될 수 있는 애플리케이션 중립적 플랫폼을 빌드했습니다. 이 플랫폼의 핵심은, 통합 엔드포인트에 대한 연결을 만들고 미리 정의된 매핑이 있는 사용자 지정 가능한 템플릿 중 하나를 선택한 다음, 데이터 통합 프로젝트를 만들고 실행하는 것입니다.  
 
 통합 템플릿은 원본에서 대상으로의 데이터 흐름을 가능하게 하는 미리 정의된 엔터티 및 필드 매핑이 있는 청사진 역할을 합니다. 또한 데이터를 가져오기 전에 변환하는 기능을 제공합니다. 원본 및 대상 앱 간에 스키마가 매우 다른 경우가 많으며, 미리 정의된 엔터티 및 필드 매핑이 있는 템플릿은 통합 프로젝트의 훌륭한 시작점 역할을 합니다.  
 
@@ -73,7 +76,7 @@ Data Integrator(관리자용)는 데이터 통합 플랫폼, Dynamics 365 for Fi
 
 **연결을 만들려면**
 
-1. [PowerApps 관리 센터](https://admin.powerapps.com)로 이동합니다.
+1. [PowerApps](https://web.powerapps.com)로 이동합니다.
 
 2. 데이터 아래에서 **연결**을 선택한 다음, **새 연결**을 선택합니다.
 
@@ -90,7 +93,7 @@ Data Integrator(관리자용)는 데이터 통합 플랫폼, Dynamics 365 for Fi
     > ![연결 목록](media/data-integrator/CreateConnection1780.png "연결 목록")
 
 > [!NOTE]
-> 각 연결을 위해 지정하는 계정이 해당 응용 프로그램의 엔터티에 액세스할 수 있는지 확인하세요. 또한 각 연결을 위한 계정이 다른 테넌트에 있을 수 있습니다. 
+> 각 연결을 위해 지정하는 계정이 해당 애플리케이션의 엔터티에 액세스할 수 있는지 확인하세요. 또한 각 연결을 위한 계정이 다른 테넌트에 있을 수 있습니다. 
 
 ### <a name="how-to-create-a-connection-set"></a>연결 집합을 만드는 방법
 
@@ -113,7 +116,7 @@ Data Integrator(관리자용)는 데이터 통합 플랫폼, Dynamics 365 for Fi
 
 6. 다음 연결을 선택하여 단계를 반복합니다(특정 순서 없이 원본 및 대상으로 간주하면 됨).
 
-7. 조직-비즈니스 단위 매핑을 지정합니다(Finance and Operations 및 Sales 시스템 간에 통합하는 경우).
+7. 조직과 비즈니스 단위 매핑을 지정합니다(Finance and Operations 및 Sales 시스템 간에 통합하는 경우).
   
     > [!NOTE]
     > 연결 집합마다 여러 개의 매핑을 지정할 수 있습니다.
@@ -130,6 +133,8 @@ Data Integrator(관리자용)는 데이터 통합 플랫폼, Dynamics 365 for Fi
 ### <a name="how-to-create-a-data-integration-project"></a>데이터 통합 프로젝트를 만드는 방법
 
 프로젝트는 시스템 간에 데이터 흐름을 유지합니다. 프로젝트마다 하나 이상의 엔터티에 대한 매핑이 포함됩니다. 매핑은 각 필드에 매핑되는 필드를 나타냅니다.
+
+<a name="CreateProject">
 
 **데이터 통합 프로젝트를 만들려면**
 
@@ -156,7 +161,7 @@ Data Integrator(관리자용)는 데이터 통합 플랫폼, Dynamics 365 for Fi
     > [!div class="mx-imgBorder"] 
     > ![새 연결 집합 만들기](media/data-integrator/CreateNewProjectSelectConnectionSet780.png "새 연결 집합 만들기")
 
-8. **다음**을 선택하고 법인-비즈니스 단위 매핑을 선택합니다.
+8. **다음**을 선택한 다음, 비즈니스 단위 매핑에 대한 올바른 엔터티를 선택합니다.
 
     > [!div class="mx-imgBorder"] 
     > ![새 법인 매핑 만들기](media/data-integrator/CreateNewProjectLegalEntityMapping780.png "새 법인 매핑 만들기")
@@ -197,6 +202,10 @@ Data Integrator(관리자용)는 데이터 통합 플랫폼, Dynamics 365 for Fi
 
     두 경우 모두, 수동으로 ‘실행 다시 실행’을 선택할 수도 있습니다.
 
+> [!NOTE]
+> 프로젝트를 수동으로 또는 일정을 기반으로 실행할 때마다 프로젝트 이름, 상태와 함께 마지막 업데이트된 타임스탬프를 보여주는 자세한 로그를 생성합니다. 각 프로젝트의 실행 기록에서 이를 볼 수 있습니다. 프로젝트 실행 기록은 45일 동안 유지된 후 자동으로 제거됩니다.
+
+
 ### <a name="how-to-set-up-a-schedule-based-refresh"></a>일정 기반의 새로 고침을 설정하는 방법
 
 Microsoft는 현재 다음 두 가지 유형의 실행/쓰기를 지원합니다.
@@ -235,6 +244,7 @@ Microsoft는 현재 다음 두 가지 유형의 실행/쓰기를 지원합니다
 평가판 테넌트의 경우 예약된 프로젝트가 처음 50개 실행을 대상으로만 실행된다는 추가 제한 사항이 있습니다.
 > - 항상 실행하도록 프로젝트를 예약할 수 있지만, 이로 인해 앱에 많은 스트레스가 가해지고 결국 전체 성능에 영향을 줄 수 있다는 점을 염두에 두세요. 사용자는 실제 로드 조건에서 프로젝트 실행을 테스트하고 새로 고침 빈도를 줄여 성능을 최적화하는 것이 좋습니다.
 프로덕션 환경에서는 테넌트당 5개 이하의 프로젝트를 실행하는 것이 좋습니다.
+> - 프로젝트를 수동으로 또는 일정을 기반으로 실행할 때마다 프로젝트 이름, 상태와 함께 마지막 업데이트된 타임스탬프를 보여주는 자세한 로그를 생성합니다. 각 프로젝트의 실행 기록에서 이를 볼 수 있습니다. 프로젝트 실행 기록은 45일 동안 유지된 후 자동으로 제거됩니다.
 
 ## <a name="customizing-projects-templates-and-mappings"></a>프로젝트, 템플릿 및 매핑 사용자 지정 
 
@@ -266,9 +276,9 @@ Microsoft는 현재 다음 두 가지 유형의 실행/쓰기를 지원합니다
 
 4. 필드 매핑을 사용자 지정했으면 **저장**을 선택합니다.
 
-### <a name="how-to-customize-or-create-your-own-template"></a>사용자 고유의 템플릿을 사용자 지정하거나 만드는 방법 
+### <a name="how-to-create-your-own-template"></a>사용자 고유의 템플릿을 만드는 방법 
 
-**사용자 고유의 템플릿을 만들려면**
+**기존 템플릿을 수정하여 사용자 고유의 템플릿을 만들려면**
 
 1. [PowerApps 관리 센터](https://admin.powerapps.com)로 이동합니다.
 
@@ -318,6 +328,51 @@ Microsoft는 현재 다음 두 가지 유형의 실행/쓰기를 지원합니다
 
     > [!div class="mx-imgBorder"] 
     > ![템플릿 사용자 지정 템플릿으로 저장](media/data-integrator/CustomizeTemplateSaveAsTemplate175.png "템플릿 사용자 지정 템플릿으로 저장")
+
+**빈 템플릿에서 사용자 고유의 템플릿을 만들려면**
+
+1. [PowerApps 관리 센터](https://admin.powerapps.com)로 이동합니다.
+2. 데이터 통합 프로젝트를 만듭니다. 왼쪽 탐색 창에서 **데이터 통합** 탭을 선택합니다.
+3. **새 프로젝트**를 선택하고 프로젝트 이름을 제공합니다. 예: "Demo_CreateYourOwnTemplate 프로젝트".
+4. **템플릿 선택** 목록 페이지에서 일반 빈 템플릿을 선택합니다. 
+   이 예제에서는 재무 및 작업용 Dynamics 365에서 Dynamics 365 for Sales로 이동하고자 하므로 **Fin 및 Ops에 대한 판매** 템플릿을 선택합니다.
+    
+    > [!div class="mx-imgBorder"] 
+    > ![](media/create-data-integration-project.png "데이터 통합 프로젝트 만들기")
+
+4. <a href="#CreateProject">여기서</a> 6~9 단계를 수행하여 데이터 통합 프로젝트 만들기를 완료합니다. **저장**을 선택합니다.
+
+5. 작업이 없는 빈 템플릿이므로 비어 있는 작업 페이지가 표시됩니다. **작업 추가**를 선택하여 드롭다운 목록에서 엔터티를 선택하고 새 작업을 추가합니다.
+   이 경우 데모 목적을 위해 재무 및 작업용 Dynamics 365 및 Dynamics 365 for Sales에 대한 **Activities** 엔터티를 선택하여 **Fin 및 Ops에 대한 판매 활동** 작업을 만듭니다. **만들기**를 선택합니다.
+
+    > [!div class="mx-imgBorder"] 
+    > ![](media/activities-sales-fin-opps-task.png "Fin 및 Ops에 대한 ActivitiesSales") 작업
+
+6. 새 작업이 **Fin 및 Ops 판매 활동**에 추가되었음을 확인할 수 있습니다. 변경 내용을 저장하려면 **저장**을 선택합니다.
+
+    > [!div class="mx-imgBorder"] 
+    > ![](media/new-task-added.png "새 작업이 추가됨")
+
+7. 새 프로젝트가 생성됩니다. **프로젝트** 목록 페이지에서 **템플릿으로 저장**을 선택합니다.
+
+    > [!div class="mx-imgBorder"] 
+    > ![](media/save-as-template.png "템플릿으로 저장")
+
+8. 이름과 설명을 제공한 다음, **저장**을 선택합니다. 또한 **내 조직의 모든 사람과 공유**를 선택하여 이 템플릿을 공유합니다.
+
+    > [!div class="mx-imgBorder"] 
+    > ![](media/save-describe-share.png "프로젝트를 템플릿으로 저장")
+
+**템플릿** 목록 페이지에 새로 생성된 템플릿이 표시됩니다.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/newly-created-template.png "새로 만든 템플릿")
+
+또한 새 통합 프로젝트를 만든 후 **템플릿 선택**을 선택하면 새로 만든 템플릿이 **템플릿 선택** 목록의 일부로 표시됩니다.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/new-data-integration-project.png "새 데이터 통합 프로젝트")
+
 
 ## <a name="advanced-data-transformation-and-filtering"></a>고급 데이터 변환 및 필터링 
 
