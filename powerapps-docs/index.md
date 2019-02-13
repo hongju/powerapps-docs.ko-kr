@@ -9,12 +9,12 @@ featureFlags:
 ms.service: powerapps
 ms.custom:
 - powerapps-hub
-ms.openlocfilehash: da5273e385da3f616404a531f91a96393ed63bc2
-ms.sourcegitcommit: 826bde1eab3dd32d7bf9fa3f43ea069694845597
+ms.openlocfilehash: c99bf76db08bff81e47cfcf76c1fd3fb49c095e5
+ms.sourcegitcommit: 452d4ead948591d16aff144006ad84c957eba837
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55290906"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56091249"
 ---
 <div id="main"
    class="v2">
@@ -328,9 +328,9 @@ ms.locfileid: "55290906"
                                  <div class="cardText">
                                     <h3 style="font-size: 1.15rem">환경 및 보안</h3>
                                     <hr/>
-                                    <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/administrator/environments-administration">환경 관리</a></p>
-                                    <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/administrator/database-security">환경 보안 구성</a></p>
-                                    <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/administrator/admin-view-apps">환경에서 앱 보기</a></p>
+                                    <p><a class="barLink" style="font-size: 0.95rem" href="/power-platform/admin/environments-administration">환경 관리</a></p>
+                                    <p><a class="barLink" style="font-size: 0.95rem" href="/power-platform/admin/database-security">환경 보안 구성</a></p>
+                                    <p><a class="barLink" style="font-size: 0.95rem" href="/power-platform/admin/admin-view-apps">환경에서 앱 보기</a></p>
                                  </div>
                               </div>
                            </div>
@@ -348,8 +348,8 @@ ms.locfileid: "55290906"
                                  <div class="cardText">
                                     <h3 style="font-size: 1.15rem">데이터 통합 및 DSR</h3>
                                     <hr/>
-                                    <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/administrator/data-integrator">앱용 CDS에 데이터 통합</a></p>
-                                    <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/administrator/powerapps-gdpr-dsr-guide">DSR(Data Subject Rights) 요청에 응답</a></p>
+                                    <p><a class="barLink" style="font-size: 0.95rem" href="/power-platform/admin/data-integrator">앱용 CDS에 데이터 통합</a></p>
+                                    <p><a class="barLink" style="font-size: 0.95rem" href="/power-platform/admin/powerapps-gdpr-dsr-guide">DSR(Data Subject Rights) 요청에 응답</a></p>
                                  </div>
                               </div>
                            </div>
@@ -367,7 +367,7 @@ ms.locfileid: "55290906"
                                  <div class="cardText">
                                     <h3 style="font-size: 1.15rem">라이선싱 및 구매</h3>
                                     <hr/>
-                                    <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/administrator/pricing-billing-skus">라이선스 개요</a></p>
+                                    <p><a class="barLink" style="font-size: 0.95rem" href="/power-platform/admin/pricing-billing-skus">라이선스 개요</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/maker/common-data-service/data-platform-entity-licenses">엔터티에 대한 라이선스 요구 사항</a></p>
 <!--                                   <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/administrator/powerapps-for-us-govt">PowerApps for US Government</a></p> -->
                                  </div>
@@ -387,10 +387,10 @@ ms.locfileid: "55290906"
                                  <div class="cardText">
                                     <h3 style="font-size: 1.15rem">Power 플랫폼 관리 센터</h3>
                                     <hr/>
-                                    <p><a class="barLink" style="font-size: 0.95rem" href="https://docs.microsoft.com/power-platform/admin/admin-guide">Power 플랫폼 관리</a></p>
-                                    <p><a class="barLink" style="font-size: 0.95rem" href="https://docs.microsoft.com/power-platform/admin/get-help-support">도움말 보기 + 지원</a></p>
-                                    <p><a class="barLink" style="font-size: 0.95rem" href="https://docs.microsoft.com/power-platform/admin/analytics-common-data-service">앱 분석용 CDS</a></p>
-                                    <p><a class="barLink" style="font-size: 0.95rem" href="https://docs.microsoft.com/power-platform/admin/manage-environments">환경 관리</a></p>
+                                    <p><a class="barLink" style="font-size: 0.95rem" href="/power-platform/admin/admin-guide">Power 플랫폼 관리</a></p>
+                                    <p><a class="barLink" style="font-size: 0.95rem" href="/power-platform/admin/get-help-support">도움말 보기 + 지원</a></p>
+                                    <p><a class="barLink" style="font-size: 0.95rem" href="/power-platform/admin/preview-april-2019-updates">2019년 4월 업데이트에 옵트인</a></p>
+                                    <p><a class="barLink" style="font-size: 0.95rem" href="/power-platform/admin/manage-environments">환경 관리</a></p>
                                  </div>
                               </div>
                            </div>
