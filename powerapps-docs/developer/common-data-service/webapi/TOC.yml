@@ -23,8 +23,10 @@ items:
   items:
   - name: HTTP 요청 작성 및 오류 처리
     href: compose-http-requests-handle-errors.md
-  - name: 쿼리 데이터
+  - name: 데이터 쿼리
     href: query-data-web-api.md
+  - name: 쿼리를 사용하여 관련 엔터티 검색
+    href: retrieve-related-entities-query.md
   - name: 미리 정의된 쿼리 검색 및 실행
     href: retrieve-and-execute-predefined-queries.md
   - name: 엔터티 만들기
@@ -86,9 +88,9 @@ items:
       href: web-api-functions-actions-sample.md
     - name: 샘플
       href: samples/toc.yml
-ms.openlocfilehash: 237ead719746e18fcea31901a43385806b099f58
-ms.sourcegitcommit: fe47ad47873a37fbe17b30d39fb2ca6035b7d152
+ms.openlocfilehash: fd5e79a6cb5c5d23a8edb246086be4db95fe102c
+ms.sourcegitcommit: b703a5c9cddda2ff50c88533b3dbd12cba852b50
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55854559"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56222658"
