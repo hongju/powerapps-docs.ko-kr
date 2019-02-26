@@ -320,11 +320,12 @@ ms.custom:
                                     </div>
                                  </div>
                                  <div class="cardText">
-                                    <h3 style="font-size: 1.15rem">환경 및 보안</h3>
+                                    <h3 style="font-size: 1.15rem">Power 플랫폼 관리 센터</h3>
                                     <hr/>
-                                    <p><a class="barLink" style="font-size: 0.95rem" href="/power-platform/admin/environments-administration">환경 관리</a></p>
-                                    <p><a class="barLink" style="font-size: 0.95rem" href="/power-platform/admin/database-security">환경 보안 구성</a></p>
-                                    <p><a class="barLink" style="font-size: 0.95rem" href="/power-platform/admin/admin-view-apps">환경에서 앱 보기</a></p>
+                                    <p><a class="barLink" style="font-size: 0.95rem" href="/power-platform/admin/admin-guide">Power 플랫폼 관리</a></p>
+                                    <p><a class="barLink" style="font-size: 0.95rem" href="/power-platform/admin/get-help-support">도움말 보기 + 지원</a></p>
+                                    <p><a class="barLink" style="font-size: 0.95rem" href="/power-platform/admin/preview-april-2019-updates">2019년 4월 업데이트에 옵트인</a></p>
+                                    <p><a class="barLink" style="font-size: 0.95rem" href="/power-platform/admin/admin-settings">설정 관리</a></p>
                                  </div>
                               </div>
                            </div>
@@ -379,12 +380,11 @@ ms.custom:
                                     </div>
                                  </div>
                                  <div class="cardText">
-                                    <h3 style="font-size: 1.15rem">Power 플랫폼 관리 센터</h3>
+                                    <h3 style="font-size: 1.15rem">환경 및 보안</h3>
                                     <hr/>
-                                    <p><a class="barLink" style="font-size: 0.95rem" href="/power-platform/admin/admin-guide">Power 플랫폼 관리</a></p>
-                                    <p><a class="barLink" style="font-size: 0.95rem" href="/power-platform/admin/get-help-support">도움말 보기 + 지원</a></p>
-                                    <p><a class="barLink" style="font-size: 0.95rem" href="/power-platform/admin/preview-april-2019-updates">2019년 4월 업데이트에 옵트인</a></p>
-                                    <p><a class="barLink" style="font-size: 0.95rem" href="/power-platform/admin/manage-environments">환경 관리</a></p>
+                                    <p><a class="barLink" style="font-size: 0.95rem" href="/power-platform/admin/environments-administration">환경 관리</a></p>
+                                    <p><a class="barLink" style="font-size: 0.95rem" href="/power-platform/admin/database-security">환경 보안 구성</a></p>
+                                    <p><a class="barLink" style="font-size: 0.95rem" href="/power-platform/admin/admin-view-apps">환경에서 앱 보기</a></p>
                                  </div>
                               </div>
                            </div>
