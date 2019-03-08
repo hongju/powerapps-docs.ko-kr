@@ -6,15 +6,15 @@ manager: annbe
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 12/21/2018
+ms.date: 02/28/2019
 ms.author: kvivek
 ms.reviewer: kvivek
-ms.openlocfilehash: 4000a9c60410a8ea2e4f1205d8ca815d67976d23
-ms.sourcegitcommit: 4a27a2fa3d06296c88cd85c638dc075f7ed6f1f9
+ms.openlocfilehash: 3a314ee6fabc5d3891a19610bfc4cf8aebdd6dcf
+ms.sourcegitcommit: edd4b1029b7085bb3849d87b0c94e0d8cb5758aa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54099650"
+ms.lasthandoff: 03/02/2019
+ms.locfileid: "57251550"
 ---
 # <a name="what-is-powerapps"></a>PowerApps란?
 
@@ -26,7 +26,7 @@ PowerApps를 사용하여 빌드된 앱은 수동 비즈니스 프로세스를 �
 
 ## <a name="powerapps-for-app-makerscreators"></a>앱 제작자/작성자용 PowerApps
 
-PowerApps를 사용하여 다음 두 가지 유형의 앱을 만들 수 있습니다. **캔버스** 및 **모델 기반**. 자세한 정보: [PowerApps에서 앱 만들기 개요](maker/index.md).
+PowerApps를 사용하여 두 가지 유형(**캔버스** 및 **모델 기반**)의 앱을 만들 수 있습니다. 자세한 정보: [PowerApps에서 앱 만들기 개요](maker/index.md).
 
 앱을 만들려면 [web.powerapps.com](https://web.powerapps.com)으로 시작합니다.
 
@@ -42,9 +42,11 @@ PowerApps를 사용하여 다음 두 가지 유형의 앱을 만들 수 있습�
 
 PowerApps 관리자는 다음을 사용할 수 있습니다.
 
-- **PowerApps 관리 센터**([admin.powerapps.com](https://admin.powerapps.com))를 통해 환경, 사용자, 역할 및 데이터 손실 방지 정책을 만들고 관리합니다. 자세한 정보: [PowerApps 관리](administrator/admin-guide.md)
+- **PowerApps 관리 센터**([admin.powerapps.com](https://admin.powerapps.com))를 통해 환경, 사용자, 역할 및 데이터 손실 방지 정책을 만들고 관리합니다. 
 
-- **Power 플랫폼 관리 센터**([admin.powerplatform.microsoft.com](https://admin.powerplatform.microsoft.com))를 통해 환경을 관리하고 고객 참여 앱, PowerApps 및 Microsoft Flow에 대한 Dynamics 365용 실시간, 자가 진단 권장 사항 및 지원을 제공하고 앱 분석용 CDS를 볼 수 있습니다. 자세한 정보: [Power 플랫폼 관리](https://docs.microsoft.com/power-platform/admin/admin-guide)
+- **Power 플랫폼 관리 센터**([admin.powerplatform.microsoft.com](https://admin.powerplatform.microsoft.com))를 통해 환경을 관리하고 고객 참여 앱, PowerApps 및 Microsoft Flow에 대한 Dynamics 365용 실시간, 자가 진단 권장 사항 및 지원을 제공하고 앱 분석용 CDS를 볼 수 있습니다. 
+
+자세한 정보: [PowerApps 관리](/power-platform/admin/admin-guide)
 
 ## <a name="powerapps-for-developers"></a>개발자용 PowerApps
 
