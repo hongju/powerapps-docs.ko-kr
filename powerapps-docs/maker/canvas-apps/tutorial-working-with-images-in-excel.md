@@ -1,24 +1,24 @@
 ---
 title: Excel 파일에 이미지 저장 | Microsoft Docs
 description: 클라우드 스토리지 계정의 Excel 테이블에 이미지를 저장하는 방법
-author: AFTOwen
+author: emcoope-msft
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: ''
 ms.date: 06/15/2016
-ms.author: anneta
+ms.author: emcoope
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 48b8da1fbe328eb8834a58b7c052e8d4bd6a8151
-ms.sourcegitcommit: c1f58a16f8dcd309a1d5fc4658ca16d82c615994
+ms.openlocfilehash: f201d1fbad574174e4427698ae28439f26419514
+ms.sourcegitcommit: 90245baddce9d92c3ce85b0537c1ac1cf26bf55a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "42852370"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "55072724"
 ---
 # <a name="how-to-save-images-in-an-excel-file-and-then-add-these-images-to-your-app"></a>이미지를 Excel 파일에 저장한 다음 앱에 추가하는 방법
 
@@ -79,7 +79,7 @@ ms.locfileid: "42852370"
 > [!NOTE]
 > Excel 파일의 이미지를 표시할 때 이러한 이미지에 대한 경로에는 슬래시를 사용해야 합니다. PowerApps에서 이미지를 Excel 테이블에 저장하면(이전 단계와 마찬가지로) 경로에는 백슬래시가 사용됩니다. 따라서 이전 예제의 **SavePen_images**를 사용할 수도 있습니다. 이 경우 Excel 테이블의 경로에서 백슬래시 대신 슬래시를 사용하도록 변경합니다. 그렇지 않으면 이미지가 표시되지 않습니다.  
 
-1. [CreateFirstApp.zip](http://pwrappssamples.blob.core.windows.net/samples/CreateFirstApp.zip)을 다운로드하고 **Assets** 폴더를 클라우드 저장소 계정으로 압축 해제합니다.
+1. [CreateFirstApp.zip](http://pwrappssamples.blob.core.windows.net/samples/CreateFirstApp.zip)을 다운로드하고 **자산** 폴더를 클라우드 스토리지 계정에 압축 해제합니다.
 2. Excel 스프레드시트에서 다음과 비슷한 테이블을 만듭니다.
    
     ![Jackets 테이블](./media/tutorial-working-with-images-in-excel/jackets.png)

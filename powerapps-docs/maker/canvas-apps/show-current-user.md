@@ -1,24 +1,24 @@
 ---
 title: 캔버스 앱에서 현재 사용자에 대한 세부 정보 표시 | Microsoft Docs
 description: PowerApps에서 로그인한 사용자의 이름과 이메일 주소를 캔버스 앱에 표시합니다.
-author: lonu
+author: gregli-msft
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 10/16/2016
-ms.author: lonu
+ms.author: gregli
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: ef38ef00ed72eb59b459d3e9b71a6efbb6568d6b
-ms.sourcegitcommit: c1f58a16f8dcd309a1d5fc4658ca16d82c615994
+ms.openlocfilehash: 12a6cd6f3df6c83f39b08608e1057f5e31e7d46e
+ms.sourcegitcommit: 90245baddce9d92c3ce85b0537c1ac1cf26bf55a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "42833976"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "55072689"
 ---
 # <a name="show-information-about-a-powerapps-user-in-a-canvas-app"></a>캔버스 앱에서 PowerApps 사용자에 대한 정보 표시
 
@@ -54,7 +54,7 @@ PowerApps에서 전체 이름, 이메일 주소 및 캔버스 앱에 로그인�
    이렇게 하면 레이블에 전체 이름이 자동으로 채워집니다. 다음과 비슷하게 레이블을 이동하여 이미지 컨트롤 아래에 있도록 합니다.
    
    ![][5]
-5. 다른 레이블을 추가하고, **[Text](controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.
+5. 다른 레이블을 추가하고 **[Text](controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.
    <br>**User().Email**  
    
     ![][8]
