@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 710df8899fa11e46a83e4ba670c4081b04fa7bde
-ms.sourcegitcommit: c1f58a16f8dcd309a1d5fc4658ca16d82c615994
+ms.openlocfilehash: dab8caea5679701735685a5c4383c77cd7ed44f6
+ms.sourcegitcommit: 452d4ead948591d16aff144006ad84c957eba837
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "51333969"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56091226"
 ---
 # <a name="create-a-canvas-app-from-scratch-using-common-data-service-for-apps"></a>앱용 Common Data Service를 사용하여 캔버스 앱을 처음부터 만들기
 
@@ -30,6 +30,7 @@ Common Data Service에서 앱을 빌드하면, SharePoint, Dynamics 365 및 Sale
 
 - 앱을 처음부터 만들기 전에 [앱을 생성](data-platform-create-app.md)한 다음, 해당 앱의 [갤러리](customize-layout-sharepoint.md), [양식](customize-forms-sharepoint.md) 및 [카드](customize-card.md)를 사용자 지정하여 PowerApps 기본 사항에 익숙해지도록 합니다.
 - 샘플 데이터를 사용하여 데이터베이스를 만든 [환경으로 전환합니다](working-with-environments.md). 적절한 라이선스를 있는 경우 이 요구 사항이 충족되는 [환경을 만들 수 있습니다](../../administrator/create-environment.md).
+- 앱을 만들려면 [Environment Maker](https://docs.microsoft.com/power-platform/admin/database-security.md#predefined-security-roles) 보안 역할에 할당되어야합니다.
 
 ## <a name="open-a-blank-app"></a>비어 있는 앱 열기
 
@@ -39,7 +40,7 @@ Common Data Service에서 앱을 빌드하면, SharePoint, Dynamics 365 및 Sale
 
     ![비어 있는 앱 타일](./media/data-platform-create-app-scratch/start-from-blank.png)
 
-    전화 또는 다른 장치(예: 태블릿)에 사용할 앱을 처음부터 디자인할 수 있습니다. 이 항목에서는 전화용 앱 디자인에 대해 중점적으로 설명합니다.
+    전화 또는 다른 디바이스(예: 태블릿)에 사용할 앱을 처음부터 디자인할 수 있습니다. 이 항목에서는 전화용 앱 디자인에 대해 중점적으로 설명합니다.
 
 ## <a name="specify-an-entity"></a>엔터티 지정
 
@@ -94,8 +95,8 @@ Common Data Service에서 앱을 빌드하면, SharePoint, Dynamics 365 및 Sale
 1. 오른쪽 창의 **속성** 탭에서 **Accounts**를 클릭하거나 탭하여 **데이터** 창을 열고, 다음 필드에 대한 확인란을 선택합니다.
 
     - 계정 이름
-    - 주소 1: 나머지 주소
-    - 주소 1: 구/군/시
+    - 주소 1: 번지 1
+    - 주소 1: 시/군/구
     - 주소 1: 우편 번호
     - 직원 수
     - 연간 수익
