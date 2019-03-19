@@ -210,8 +210,6 @@ items:
           href: ./canvas-apps/controls/control-attachments.md
         - name: 오디오
           href: ./canvas-apps/controls/control-audio-video.md
-        - name: 웹 바코드 스캐너(실험적)
-          href: ./canvas-apps/controls/control-barcodescanner.md
         - name: 바코드 스캐너
           href: ./canvas-apps/controls/control-new-barcode-scanner.md
         - name: 단추
@@ -268,7 +266,7 @@ items:
           href: ./canvas-apps/controls/control-radio.md
         - name: 등급
           href: ./canvas-apps/controls/control-rating.md
-        - name: 서식 있는 텍스트 편집기(실험적)
+        - name: 서식 있는 텍스트 편집기
           href: ./canvas-apps/controls/control-richtexteditor.md
         - name: 화면
           href: ./canvas-apps/controls/control-screen.md
@@ -286,6 +284,8 @@ items:
           href: ./canvas-apps/controls/control-toggle.md
         - name: 비디오
           href: ./canvas-apps/controls/control-audio-video.md
+        - name: 웹 바코드 스캐너(실험적)
+          href: ./canvas-apps/controls/control-barcodescanner.md
     - name: 앱 기능 구성
       href: ./canvas-apps/working-with-formulas.md
       items:
@@ -1094,9 +1094,9 @@ items:
     href: ./common-data-service/data-platform-cds-newentity-troubleshooting-mashup.md
   - name: 지원
     href: https://powerapps.microsoft.com/support/
-ms.openlocfilehash: c4cda0af7a907e3c82aaa7e864fa50701dbb9929
-ms.sourcegitcommit: 32b33d1325acc2c84ffd35c4084c652f417617e3
+ms.openlocfilehash: af4a7b775ecbaec902c188325b2474ad3209a85c
+ms.sourcegitcommit: 957d67e13bd4153d042b3b3bd650f6d0de20613c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57528440"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "58073697"
