@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: b3d80c2bafb36bf4437a9c37541f5bb56945f3b4
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.openlocfilehash: 1bf9f3cf075441dd3264b5a2f6533671d2e08654
+ms.sourcegitcommit: 4db9c763455d141a7e1dd569a50c86bd9e50ebf0
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42851325"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "57802311"
 ---
 # <a name="iferror-function-in-powerapps"></a>PowerApps의 IfError 함수
 오류를 감지하고 대체 값을 제공하거나 작업을 수행합니다.
@@ -39,7 +39,7 @@ ms.locfileid: "42851325"
 **IfError**( *Value*, *Fallback1* [, *Fallback2*, ... ] )
 
 * *Value* - 필수 항목입니다. 오류 값을 테스트할 수식입니다. 
-* *Fallback(s)* - 필수 항목입니다. 이전 인수가 오류를 반환한 경우 평가할 수식과 반환할 값입니다.  *Fallback* 인수는 오류가 아닌 값을 찾는 지점까지 순서대로 평가됩니다.
+* *Fallback(s)* - 필수 항목입니다. 이전 인수가 오류를 반환한 경우 평가할 수식과 반환할 값입니다.  *대체 (fallback)* 인수 오류가 아닌 값이 발견 되는 지점까지 순서 대로 평가 됩니다.
 
 ## <a name="examples"></a>예
 

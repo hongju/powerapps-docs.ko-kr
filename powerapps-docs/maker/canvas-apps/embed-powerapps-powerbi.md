@@ -1,24 +1,24 @@
 ---
 title: Power BI 보고서에 새 캔버스 앱 포함 | Microsoft Docs
 description: 동일한 데이터 원본을 사용하고 다른 보고서 항목처럼 필터링할 수 있는 새 캔버스 앱을 포함합니다
-author: mgblythe
+author: NickWaggoner
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: ''
 ms.date: 03/15/2018
-ms.author: mblythe
+ms.author: niwaggon
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 046bd1c56a7c27068c4d52cbc0bd28b1bb800ede
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.openlocfilehash: d82db4deaa123e460bce043bff10cc30ea409f15
+ms.sourcegitcommit: 90245baddce9d92c3ce85b0537c1ac1cf26bf55a
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42853662"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "57798953"
 ---
 # <a name="embed-a-new-canvas-app-in-a-power-bi-report"></a>Power BI 보고서에 새 캔버스 앱 포함
 

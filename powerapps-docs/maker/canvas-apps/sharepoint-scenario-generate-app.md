@@ -1,24 +1,24 @@
 ---
 title: 프로젝트 요청을 처리할 캔버스 앱 생성 | Microsoft Docs
 description: 이 작업에서는 SharePoint 목록에서 직접 3개의 화면이 있는 캔버스 앱을 생성합니다.
-author: mgblythe
+author: emcoope-msft
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: ''
 ms.date: 06/12/2017
-ms.author: mblythe
+ms.author: emcoope
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 4466d8f42a0ba9c9a162353bc214abf6d9d9ef83
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.openlocfilehash: c9c7e58c8127b1c2784e0b1d79e78a1cb9478054
+ms.sourcegitcommit: 90245baddce9d92c3ce85b0537c1ac1cf26bf55a
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42834262"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "57799321"
 ---
 # <a name="generate-a-canvas-app-to-handle-project-requests"></a>프로젝트 요청을 처리할 캔버스 앱 생성
 > [!NOTE]
@@ -29,7 +29,7 @@ SharePoint 목록을 저장했으므로 첫 번째 앱을 빌드하고 사용자
 > [!TIP]
 > 이 시나리오에 대한 [다운로드 패키지](https://aka.ms/o4ia0f)에는 이 앱의 완성된 버전인 project-requests-app.msapp이 포함되어 있습니다.
 
-## <a name="step-1-generate-an-app-from-a-sharepoint-list"></a>1단계: SharePoint 목록에서 앱 생성
+## <a name="step-1-generate-an-app-from-a-sharepoint-list"></a>1 단계: SharePoint 목록에서 앱 생성
 
 1. 사용자가 만든 **프로젝트 요청** 목록에서 **PowerApps** 및 **앱 만들기**를 클릭하거나 누릅니다.
    
@@ -39,7 +39,7 @@ SharePoint 목록을 저장했으므로 첫 번째 앱을 빌드하고 사용자
    
     ![앱의 이름 지정](./media/sharepoint-scenario-generate-app/02-01-02-create-app-name.png)
 
-## <a name="step-2-review-the-app-in-powerapps-studio"></a>2단계: PowerApps Studio에서 앱 검토
+## <a name="step-2-review-the-app-in-powerapps-studio"></a>2 단계: PowerApps Studio 앱 검토
 
 1. PowerApps Studio의 왼쪽 탐색 모음은 기본적으로 앱에서 화면 및 컨트롤의 계층적 보기를 보여줍니다.
    
@@ -59,7 +59,7 @@ SharePoint 목록을 저장했으므로 첫 번째 앱을 빌드하고 사용자
       
       ![썸네일 보기를 사용하는 PowerApps Studio](./media/sharepoint-scenario-generate-app/02-02-03-studio-screens-thumbnails.png)
 
-## <a name="step-3-customize-the-apps-browse-screen"></a>3단계: 앱의 찾아보기 화면 사용자 지정
+## <a name="step-3-customize-the-apps-browse-screen"></a>3 단계: 앱의 찾아보기 화면 사용자 지정
 
 1. 찾아보기 화면을 클릭하거나 누릅니다.
    
@@ -106,7 +106,7 @@ SharePoint 목록을 저장했으므로 첫 번째 앱을 빌드하고 사용자
 
     ![편집 양식](./media/sharepoint-scenario-generate-app/02-04-03-edit.png)
 
-## <a name="step-5-run-the-app-from-the-list"></a>5단계: 목록에서 앱 실행
+## <a name="step-5-run-the-app-from-the-list"></a>5단계: 목록에서 앱을 실행 합니다.
 
 1. **프로젝트 요청** 목록에서 **모든 항목** 및 **프로젝트 요청 앱**을 차례로 클릭하거나 누릅니다.
    

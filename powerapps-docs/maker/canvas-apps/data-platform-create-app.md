@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: c8b24c9064e5012ff1ddb15d13dc338ed9565bef
-ms.sourcegitcommit: 02d0234bd84352bf1c43d0fc9225ab60947a0add
-ms.translationtype: HT
+ms.openlocfilehash: 1393d6dcdd9b88f4bca9e536a776b8601ae4c1c1
+ms.sourcegitcommit: 452d4ead948591d16aff144006ad84c957eba837
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49316772"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "57801782"
 ---
 # <a name="generate-a-canvas-app-from-common-data-service-for-apps-in-powerapps"></a>PowerApps의 앱용 Common Data Service에서 캔버스 앱 생성
 
@@ -28,7 +28,7 @@ PowerApps에 등록하지 않은 경우 시작하기 전에 [체험판으로 등
 
 ## <a name="prerequisites"></a>필수 조건
 
-이 빠른 시작을 수행하려면 앱용 CDS의 데이터베이스가 만들어졌고 데이터가 포함되고 업데이트가 허용되는 [환경](working-with-environments.md)으로 전환해야 합니다. 이러한 환경이 없고 관리자 권한이 있으면 이 요구 사항을 충족하는 [환경을 만들 수 있습니다](../../administrator/environments-administration.md#create-an-environment).
+이 빠른 시작을 수행 하려면에 할당 되어야 합니다는 [Environment Maker](https://docs.microsoft.com/power-platform/admin/database-security.md#predefined-security-roles) 보안 역할을 합니다 [환경으로 전환](working-with-environments.md) 는 앱 용 CDS의 데이터베이스가 만들어지면에서 데이터가 포함 및 업데이트를 허용 합니다. 이러한 환경이 없고 관리자 권한이 있으면 이 요구 사항을 충족하는 [환경을 만들 수 있습니다](https://docs.microsoft.com/power-platform/admin/environments-administration.md#create-an-environment).
 
 ## <a name="generate-an-app"></a>앱 생성
 

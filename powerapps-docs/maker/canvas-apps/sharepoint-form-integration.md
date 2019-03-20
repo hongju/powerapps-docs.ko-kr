@@ -1,24 +1,24 @@
 ---
 title: SharePoint 양식 통합 이해 | Microsoft Docs
 description: SharePoint와 사용자 지정 양식의 작업 방식 이해
-author: sarafankit
+author: NickWaggoner
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 11/11/2017
-ms.author: ankitsar
+ms.author: niwaggon
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 341d6973504ba50dbeeb058019a32196f72ec8c5
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.openlocfilehash: 919efacd1a1dc5c931d71e07024aa7c8a30168bf
+ms.sourcegitcommit: 90245baddce9d92c3ce85b0537c1ac1cf26bf55a
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42864932"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "57799252"
 ---
 # <a name="understand-sharepoint-forms-integration"></a>SharePoint 양식 통합 이해
 PowerApps에서 [SharePoint 목록 양식을 쉽게 사용자 지정](customize-list-form.md)할 수 있습니다. 이 문서에서는 이러한 양식의 작업 방식과 사용자 지정하는 방법을 자세히 설명합니다.

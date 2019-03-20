@@ -1,24 +1,24 @@
 ---
 title: 캔버스 앱 삭제 | Microsoft Docs
 description: PowerApps에서 기존 캔버스 앱을 삭제하는 방법
-author: jamesol-msft
+author: linhtranms
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 10/16/2016
-ms.author: jamesol
+ms.author: litran
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 5fd2551ff0fac40acf54c77d6750ab983ee5819e
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.openlocfilehash: 7b64914e436856196aa0a7021ba9c3772172ef59
+ms.sourcegitcommit: 90245baddce9d92c3ce85b0537c1ac1cf26bf55a
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42834759"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "57798861"
 ---
 # <a name="delete-a-canvas-app-from-powerapps"></a>PowerApps에서 캔버스 앱 삭제
 이 문서에서는 PowerApps 계정과 앱을 공유하는 사람의 계정에서 캔버스 앱을 삭제하는 방법을 보여줍니다.

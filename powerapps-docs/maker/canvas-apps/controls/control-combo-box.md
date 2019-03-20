@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 278560c1ececafd6d4c57945d6058879cf55170f
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.openlocfilehash: ad3b8efc2306540862d0470223cee4f46fb5703c
+ms.sourcegitcommit: 50404720bed371bbc93feb08d296c954ef8038e1
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42858316"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54031357"
 ---
 # <a name="combo-box-control-in-powerapps"></a>PowerApps의 콤보 박스 컨트롤
 사용자가 제공된 선택 항목 중에서 선택할 수 있습니다.  검색과 다중 선택을 지원합니다.
@@ -36,7 +36,7 @@ ms.locfileid: "42858316"
 ## <a name="key-properties"></a>주요 속성
 **[Items](properties-core.md)**  – 선택 항목을 만들 수 있는 데이터의 원본입니다.
 
-**DefaultItems** – 사용자가 컨트롤과 상호 작용하기 전에 처음 선택한 항목입니다.
+**DefaultSelectedItems** -초기 사용자 컨트롤과 상호 작용 하기 전에 항목을 선택 합니다.
 
 **SelectedItems** – 사용자 상호 작용을 통해 선택된 항목의 목록입니다.
 
@@ -54,8 +54,6 @@ ms.locfileid: "42858316"
 **[BorderStyle](properties-color-border.md)** - 컨트롤의 테두리는 **Solid**, **Dashed**, **Dotted**, **None**입니다.
 
 **[BorderThickness](properties-color-border.md)** - 컨트롤의 테두리 굵기입니다.
-
-**[Default](properties-core.md)**  – 단일 선택 모드에서 사용자가 변경하기 전의 첫 선택 항목입니다.
 
 **DisplayFields** – 검색에서 반환된 각 항목에 대해 표시되는 필드의 목록입니다.  속성 옵션 탭에서 데이터 창을 통해 구성하는 것이 가장 쉬운 방법입니다.
 

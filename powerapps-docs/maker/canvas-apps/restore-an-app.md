@@ -1,24 +1,24 @@
 ---
 title: 이전 버전으로 캔버스 앱 복원 | Microsoft Docs
 description: PowerApps에서 캔버스 앱 복원
-author: jamesol-msft
+author: emcoope-msft
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 10/16/2016
-ms.author: jamesol
+ms.author: emcoope
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 611b13509d92cf550f3391754d389863d538cb08
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.openlocfilehash: 22c60af513df1b91be1d9dffb252337e3197bf98
+ms.sourcegitcommit: 90245baddce9d92c3ce85b0537c1ac1cf26bf55a
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42832484"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "57799482"
 ---
 # <a name="restore-a-canvas-app-to-a-previous-version-in-powerapps"></a>캔버스 앱을 PowerApps에서 이전 버전으로 복원
 이 문서에서는 PowerApps 계정에서 클라우드로 저장된 이전 버전으로 캔버스 앱을 복원하는 방법을 보여 줍니다.

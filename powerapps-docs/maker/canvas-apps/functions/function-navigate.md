@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: bf656c33bcfdc0114c1ff44936dd38fc7145158e
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.openlocfilehash: f0bd11881dc0999cada58f65d7ed8d7f9df68c5a
+ms.sourcegitcommit: 825daacc9a812637815afc1ce6fad28f0cebd479
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42857088"
+ms.lasthandoff: 03/04/2019
+ms.locfileid: "57803622"
 ---
 # <a name="back-and-navigate-functions-in-powerapps"></a>PowerApps에서 Back 및 Navigate 함수
 표시되는 화면을 변경합니다.
@@ -28,7 +28,7 @@ ms.locfileid: "42857088"
 
 **Back** 및 **Navigate**는 표시되는 화면만 변경합니다. 현재 표시되지 않은 화면은 백그라운드에서 작업을 계속합니다. 다른 화면에서 컨트롤의 속성을 참조하는 수식을 빌드할 수 있습니다. 예를 들어, 사용자가 한 화면에서 슬라이더의 값을 변경하고, 수식에서 해당 값을 사용하는 다른 화면으로 이동하여, 새 화면에서 어떻게 적용되는지를 확인할 수 있습니다.  그런 다음, 사용자가 원래 화면으로 다시 이동하면 슬라이더가 해당 값을 유지하고 있음을 확인할 수 있습니다.
 
-또한 사용자가 화면 간 이동할 때 [컨텍스트 변수](../working-with-variables.md#create-a-context-variable)도 보존됩니다. **Navigate**를 사용하여 수식이 표시되는 화면에 대해 둘 이상의 컨텍스트 변수를 설정할 수 있습니다. 이는 화면 외부에서 컨텍스트 변수를 설정하는 유일한 방법입니다. 이 방법을 사용하여 화면에 매개 변수를 전달할 수 있습니다. 다른 프로그래밍 도구를 사용한 경우 이 방법은 프로시저에 매개 변수를 전달하는 것과 유사합니다.
+또한 사용자가 화면 간 이동할 때 [컨텍스트 변수](../working-with-variables.md#use-a-context-variable)도 보존됩니다. **Navigate**를 사용하여 수식이 표시되는 화면에 대해 둘 이상의 컨텍스트 변수를 설정할 수 있습니다. 이는 화면 외부에서 컨텍스트 변수를 설정하는 유일한 방법입니다. 이 방법을 사용하여 화면에 매개 변수를 전달할 수 있습니다. 다른 프로그래밍 도구를 사용한 경우 이 방법은 프로시저에 매개 변수를 전달하는 것과 유사합니다.
 
 ## <a name="description"></a>설명
 ### <a name="back"></a>뒤로

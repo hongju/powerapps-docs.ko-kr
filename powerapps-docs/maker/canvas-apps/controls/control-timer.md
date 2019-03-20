@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 934ab9bddfb429ae3ed96706420af002a87697fb
-ms.sourcegitcommit: 87122dba00b4177ef736d87ecdde79581649ba42
-ms.translationtype: HT
+ms.openlocfilehash: 32b8ee57869ea733050c3f23f9c9e81f60e3d78d
+ms.sourcegitcommit: 66fd1129ad25b72556f11a08350ba95f2ba060dd
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44499525"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57804381"
 ---
 # <a name="timer-control-in-powerapps"></a>PowerApps의 타이머 컨트롤
 일정 시간이 지난 후 앱이 응답하는 방식을 결정할 수 있는 컨트롤입니다.
@@ -66,7 +66,7 @@ ms.locfileid: "44499525"
 
 **[Font](properties-text.md)** – 텍스트가 표시되는 글꼴의 제품군 이름입니다.
 
-**[FontWeight](properties-text.md)** - 컨트롤의 텍스트 굵기입니다. **Bold**, **Semibold**, **Normal** 또는 **Lighter**로 설정합니다.
+**[FontWeight](properties-text.md)**  – 컨트롤의 텍스트의 가중치: **굵게**, **Semibold**, **정상**, 또는 **밝은**.
 
 **[Height](properties-size-location.md)** – 컨트롤의 위쪽 및 아래쪽 가장자리 사이의 간격입니다.
 
@@ -169,3 +169,6 @@ ms.locfileid: "44499525"
   > 화면 읽기 프로그램은 5초마다 경과된 시간을 알립니다. 그러나 타이머 **[Text](properties-core.md)** 는 알림에 포함되지 않습니다.
 
 * 경과된 시간을 표시하는 **[레이블](control-text-box.md)** 을 추가하는 것이 좋습니다. 타이머의 **[Text](properties-core.md)** 를 사용하여 사용자에게 타이머를 시작하거나 중지하도록 지시합니다.
+
+### <a name="support-in-powerapps-studio"></a>PowerApps Studio 지원
+앱을 빌드할 때 타이머 트리거에서 이벤트를 방지 하기 위해 비활성화 됩니다. 미리 보기를 열거나 앱을 저장 하 고 PowerApps 모바일 또는 웹 플레이어에서 테스트할 수 있습니다 하는 경우 PowerApps Studio 타이머를 테스트할 수 있습니다.

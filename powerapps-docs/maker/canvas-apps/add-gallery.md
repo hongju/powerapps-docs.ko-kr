@@ -1,24 +1,24 @@
 ---
 title: 캔버스 앱의 항목 목록 표시 | Microsoft Docs
 description: 갤러리를 사용하여 캔버스 앱에서 항목 목록을 표시하고 조건을 지정하여 목록을 필터링합니다.
-author: karthik-1
+author: emcoope-msft
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 09/28/2017
-ms.author: sharik
+ms.author: emcoope
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 1c8498fb02182d289727385b111c564669408368
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.openlocfilehash: f5daff973e3d6a90c6ca7748e0684a7a68c23226
+ms.sourcegitcommit: 90245baddce9d92c3ce85b0537c1ac1cf26bf55a
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42835101"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "57799022"
 ---
 # <a name="show-a-list-of-items-in-powerapps"></a>PowerApps에서 항목 목록 표시
 

@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: f5e4e0ad13280783b7b6cd00121b4dc05cca6df8
-ms.sourcegitcommit: e4fe4b27651b62edb67e5995fc5955577d8ac5b8
-ms.translationtype: HT
+ms.openlocfilehash: 09e139353e500ad27650628a844bc01264eab3d0
+ms.sourcegitcommit: ba5542ff1c815299baa16304c6e0b5fed936e776
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "49075383"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54308389"
 ---
 # <a name="drop-down-control-in-powerapps"></a>PowerApps의 드롭다운 컨트롤
 사용자가 열지 않는 한 첫 번째 항목만 표시하는 목록입니다.
@@ -66,7 +66,7 @@ ms.locfileid: "49075383"
 
 **[Font](properties-text.md)** – 텍스트가 표시되는 글꼴의 제품군 이름입니다.
 
-**[FontWeight](properties-text.md)** - 컨트롤의 텍스트 굵기입니다. **Bold**, **Semibold**, **Normal** 또는 **Lighter**로 설정합니다.
+**[FontWeight](properties-text.md)**  – 컨트롤의 텍스트의 가중치: **굵게**, **Semibold**, **정상**, 또는 **밝은**.
 
 **[Height](properties-size-location.md)** – 컨트롤의 위쪽 및 아래쪽 가장자리 사이의 간격입니다.
 
@@ -126,7 +126,7 @@ ms.locfileid: "49075383"
 
 1. **드롭다운** 컨트롤을 추가한 다음, **[Items](properties-core.md)** 속성을 다음 수식으로 설정합니다.
 
-    ```["Seattle", "Tokyo", "London", "Johannesburg", "Rio de Janeiro"]```
+    `["Seattle", "Tokyo", "London", "Johannesburg", "Rio de Janeiro"]`
 
     [컨트롤을 추가, 이름을 지정하고, 구성](../add-configure-controls.md)하는 방법을 모르시나요?
 
@@ -139,13 +139,13 @@ ms.locfileid: "49075383"
 
 1. **드롭다운** 컨트롤을 추가하고 **[Items](properties-core.md)** 속성을 다음 수식으로 설정합니다.
 
-    ```Distinct(Accounts, address1_city)```
+    `Distinct(Accounts, address1_city)`
 
     이 수식은 **계정** 엔터티의 모든 도시를 표시합니다. 두 개 이상의 레코드에 동일한 도시가 있는 경우, **[Distinct](../functions/function-distinct.md)** 함수는 드롭다운 컨트롤에 있는 중복을 숨깁니다.
 
 1. (선택 사항) **드롭다운** 컨트롤의 이름을 **도시**로 변경하고 세로 **갤러리** 컨트롤을 추가하고 갤러리의 **[Items](properties-core.md)** 속성을 이 수식으로 설정합니다.
 
-    ```Filter(Accounts, address1_city = Cities.Selected.Value)```
+    `Filter(Accounts, address1_city = Cities.Selected.Value)`
 
     이 **[Filter](../functions/function-filter-lookup.md)** 함수는 도시가 **도시** 컨트롤에서 선택한 값과 일치하는 **계정** 엔터티의 레코드만 표시합니다.
 

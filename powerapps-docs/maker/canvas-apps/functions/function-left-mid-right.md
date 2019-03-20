@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: dea20bf885afa8e687329aff4babff00b4f3263b
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.openlocfilehash: ca4fbaf18d7fa993a28f5cbb70f317b4ef5d42fd
+ms.sourcegitcommit: a4719a7d719116aeda26baa44159b2271a9a79c8
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42864959"
+ms.lasthandoff: 02/03/2019
+ms.locfileid: "57800540"
 ---
 # <a name="left-mid-and-right-functions-in-powerapps"></a>PowerApps의 Left, Mid 및 Right 함수
 텍스트 문자열의 왼쪽, 가운데 또는 오른쪽 부분을 추출합니다.
@@ -39,13 +39,13 @@ ms.locfileid: "42864959"
 
 * *String* - 필수 항목이며, 결과를 추출할 문자열입니다.
 * *StartingPosition* - 필수 항목(**Mid** 전용)이며,  시작 위치입니다.  문자열의 첫 번째 문자는 위치 1입니다.
-* *NumberOfCharacters* - 필수 항목이며,  반환할 문자 수입니다.
+* *NumberOfCharacters* -필수 항목 (**왼쪽** 하 고 **오른쪽** 만).  반환할 문자 수입니다.  에 대 한 생략 된 **Mid** 함수의 경우 함수 반환 부분 시작 위치에서 문자열의 끝까지.
 
 **Left**( *SingleColumnTable*, *NumberOfCharacters* )<br>**Mid**( *SingleColumnTable*, *StartingPosition*, *NumberOfCharacters* )<br>**Right**( *SingleColumnTable*, *NumberOfCharacters* )
 
 * *SingleColumnTable* - 필수 항목입니다. 결과를 추출할 문자열의 단일 열 테이블입니다.
 * *StartingPosition* - 필수 항목(**Mid** 전용)이며,  시작 위치입니다.  문자열의 첫 번째 문자는 위치 1입니다.
-* *NumberOfCharacters* - 필수 항목이며,  반환할 문자 수입니다.
+* *NumberOfCharacters* -필수 항목 (**왼쪽** 하 고 **오른쪽** 만).  반환할 문자 수입니다.  에 대 한 생략 된 **Mid** 함수의 경우 함수 반환 부분 시작 위치에서 문자열의 끝까지.
 
 ## <a name="examples"></a>예
 ### <a name="single-string"></a>단일 문자열
@@ -55,6 +55,7 @@ ms.locfileid: "42864959"
 | --- | --- | --- |
 | **Left( Author.Text, 5 )** |문자열의 시작 부분에서 최대 5개 문자를 추출합니다. |"E. E." |
 | **Mid( Author.Text, 7, 4 )** |문자열에서 7번째 문자부터 최대 4개 문자를 추출합니다. |"Cumm" |
+| **Mid( Author.Text, 7 )** |문자열에서 7 번째 문자로 시작 하는 모든 문자를 추출 합니다. |"" |
 | **Right( Author.Text, 5 )** |문자열의 끝 부분에서 최대 5개 문자를 추출합니다. |"mings" |
 
 ### <a name="single-column-table"></a>단일 열 테이블

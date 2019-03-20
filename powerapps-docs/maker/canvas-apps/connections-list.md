@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: f7a053aff947ffd543381956cf725a7e656d8a65
-ms.sourcegitcommit: ebe0a9c41b693a2134e9198ffc7e7a8eabee4330
-ms.translationtype: HT
+ms.openlocfilehash: 29de71e413a83a1c0939796f7b65bd42d4aca3c4
+ms.sourcegitcommit: 4db9c763455d141a7e1dd569a50c86bd9e50ebf0
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "51276375"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "57801989"
 ---
 # <a name="overview-of-canvas-app-connectors-for-powerapps"></a>PowerApps용 캔버스 앱 커넥터의 개요
 데이터는 PowerApps에서 빌드하는 앱을 포함해 대부분 앱의 핵심입니다. 데이터는 *데이터 원본*에 저장되며 *연결*을 만들어 해당 데이터를 앱으로 구현합니다. 이 연결은 특정 *커넥터*를 사용하여 데이터 원본과 데이터를 교환합니다. PowerApps에는 SharePoint, SQL Server, Office 365, Salesforce, Twitter를 비롯한 많은 인기 서비스 및 온-프레미스 데이터 원본용 커넥터가 있습니다. 캔버스 앱에 데이터 추가를 시작하려면 [PowerApps에서 데이터 연결 추가](add-data-connection.md)를 참조하세요.
@@ -35,7 +35,7 @@ ms.locfileid: "51276375"
 
  ![확장된 데이터 원본 항목 속성](./media/connections-list/ItemPropertyExpanded.png)
 
-테이블을 사용하여 수식을 사용자 지정하는 방법에 대한 자세한 내용은 다음 항목을 참조하세요.
+테이블을 사용 하 여 수식에 사용자 지정 하는 방법에 대 한 자세한 내용은 다음이 항목을 참조 합니다.
 
   [PowerApps 데이터 원본에 대한 이해](working-with-data-sources.md)<br> 
   [Excel 데이터에서 앱 생성](get-started-create-from-data.md)<br> 
@@ -53,17 +53,20 @@ ms.locfileid: "51276375"
 
 작업 커넥터에 대한 사용자 지정 데이터 업데이트를 처리해야 하는 경우 **패치** 함수를 포함하는 수식을 빌드합니다. 수식에서 작업에 바인딩할 작업 및 필드를 식별합니다.  
 
-사용자 지정 업데이트를 위해 수식을 사용자 지정하는 방법에 대한 자세한 내용은 다음 항목을 참조하세요.
+사용자 지정 업데이트에 대 한 수식 사용자 지정 하는 방법에 대 한 자세한 내용은 다음이 항목을 참조 합니다.
 
 [패치](functions/function-patch.md)<br>[수집](functions/function-clear-collect-clearcollect.md)<br>[업데이트](functions/function-update-updateif.md)
 
+> [!NOTE]
+>  **동적 스키마를 사용 하 여 PowerApps 작동 하지 않습니다**합니다. 구 동적 스키마는 동일한 작업을 다른 열을 사용 하 여 다른 테이블을 반환할 수 있습니다 가능성을 가리킵니다. 다른 테이블의 열을 일으킬 수 있는 조건 작업 입력된 매개 변수, 사용자 또는 작업을 실행 하는 역할 및는 사용자가 작업을 다른 그룹을 포함 합니다. 예를 들어, SQL Server 저장 프로시저 서로 다른 입력을 사용 하 여 실행 하는 경우 다른 열을 반환할 수 있습니다. 동적 스키마를 사용 하 여 작업에 대 한 커넥터 설명서는 다음과 같이 표시 됩니다. **이 작업의 출력은 동적입니다.** 반환 값입니다. 반면, Microsoft Flow 동적 스키마를 사용 하 여 작동 및 시나리오에 대 한 해결책을 제공할 수 있습니다.
+
 ## <a name="popular-connectors"></a>가장 많이 사용되는 커넥터
 
-이 표에는 가장 많이 사용되는 커넥터에 대한 자세한 정보의 링크가 있습니다. 커넥터의 전체 목록은 [모든 커넥터](#all-standard-connectors)를 참조하세요.
+이 표에는 가장 많이 사용되는 커넥터에 대한 자세한 정보의 링크가 있습니다. 커넥터의 전체 목록은 [모든 커넥터](https://docs.microsoft.com/connectors/)를 참조하세요.
 
 | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
 | --- | --- | --- | --- | --- |
-| ![일반 데이터 서비스](./media/connections-list/cdm.png) |[**Common Data Service**](../common-data-service/data-platform-intro.md) |&nbsp; |![Office 365 Outlook](./media/connections-list/office365.png) |[**Office 365 Outlook**](connections/connection-office365-outlook.md) |
+| ![Common Data Service](./media/connections-list/cdm.png) |[**Common Data Service**](../common-data-service/data-platform-intro.md) |&nbsp; |![Office 365 Outlook](./media/connections-list/office365.png) |[**Office 365 Outlook**](connections/connection-office365-outlook.md) |
 | ![SharePoint](./media/connections-list/sharepoint.png) |[**SharePoint**](connections/connection-sharepoint-online.md) |&nbsp; |![Excel](./media/connections-list/excel.png) |[**Excel**](connections/connection-excel.md) |
 | ![SQL Server](./media/connections-list/sql.png) |[**SQL Server**](connections/connection-azure-sqldatabase.md) |&nbsp; |![비즈니스용 OneDrive](./media/connections-list/onedrive.png) |[**비즈니스용 OneDrive**](connections/cloud-storage-blob-connections.md) |
 | ![Dynamics 365](./media/connections-list/dynamics-365.png) |[**Dynamics 365**](connections/connection-dynamics-crmonline.md) |&nbsp; |![OneDrive](./media/connections-list/onedrive.png) |[**OneDrive**](connections/cloud-storage-blob-connections.md) |

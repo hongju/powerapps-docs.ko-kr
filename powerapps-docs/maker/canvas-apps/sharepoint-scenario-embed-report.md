@@ -1,24 +1,24 @@
 ---
 title: SharePoint Online에서 Power BI 프로젝트 보고서 포함 | Microsoft Docs
 description: 이 작업에서는 두 개의 목록을 호스팅하는 동일한 SharePoint Online 사이트에 Power BI 보고서를 포함합니다.
-author: mgblythe
+author: NickWaggoner
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: ''
 ms.date: 01/30/2018
-ms.author: mblythe
+ms.author: niwaggon
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 9d15001795cc33d163e85b358a52aba759c83021
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.openlocfilehash: 92ae77237064d28e3070f7e7bc9cb94c4493a3c6
+ms.sourcegitcommit: 90245baddce9d92c3ce85b0537c1ac1cf26bf55a
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42865439"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "57799597"
 ---
 # <a name="embed-the-power-bi-project-report-in-sharepoint-online"></a>SharePoint Online에서 Power BI 프로젝트 보고서 포함
 > [!NOTE]
@@ -28,7 +28,7 @@ ms.locfileid: "42865439"
 
 Power BI는 이 형식의 포함을 사용하여 보고서를 웹 파트로 포함하고, 사용자에게 적절한 액세스 권한을 제공하고, 포함된 보고서 및 powerbi.com에 있는 보고서를 클릭할 수 있습니다. 먼저 Power BI에서 embed 링크를 생성한 다음 만든 페이지에서 해당 링크를 사용합니다. 포함에 대한 자세한 내용은 [SharePoint Online에 보고서 웹 파트 포함](https://docs.microsoft.com/power-bi/service-embed-report-spo)을 참조하세요.
 
-## <a name="step-1-generate-an-embed-link"></a>1단계: embed 링크 생성
+## <a name="step-1-generate-an-embed-link"></a>1 단계: Embed 링크 생성
 1. Power BI에 로그인하고, 왼쪽 탐색 창에서 보고서 이름을 클릭하거나 누릅니다.
    
     ![보고서로 이동](./media/sharepoint-scenario-embed-report/08-01-01-reports.png)
@@ -39,7 +39,7 @@ Power BI는 이 형식의 포함을 사용하여 보고서를 웹 파트로 포�
    
     ![SharePoint의 Embed 링크](./media/sharepoint-scenario-embed-report/08-01-03-embed-url.png)
 
-## <a name="step-2-embed-the-report"></a>2단계: 보고서 포함
+## <a name="step-2-embed-the-report"></a>2 단계: 보고서를 포함 합니다.
 1. SharePoint에 로그인한 다음 **사이트 콘텐츠**를 클릭하거나 누릅니다.
    
     ![SharePoint 사이트 콘텐츠](./media/sharepoint-scenario-embed-report/08-01-04-site-contents.png)
@@ -60,7 +60,7 @@ Power BI는 이 형식의 포함을 사용하여 보고서를 웹 파트로 포�
    
     ![완료를 포함하는 보고서](./media/sharepoint-scenario-embed-report/08-01-09-report-complete.png)
 
-## <a name="step-3-grant-access-to-the-report"></a>3단계: 보고서에 액세스 권한 부여
+## <a name="step-3-grant-access-to-the-report"></a>3 단계: 보고서에 액세스 권한을 부여 합니다.
 권장한 대로 Office 365 그룹을 사용 중인 경우 액세스 권한이 필요한 사용자가 Power BI 서비스 내에서 그룹 작업 영역의 멤버여야 합니다. 이렇게 하면 사용자는 해당 그룹의 콘텐츠를 볼 수 있습니다. 자세한 내용은 [Power BI 앱 작업 영역에서 공동 작업](https://docs.microsoft.com/power-bi/service-collaborate-power-bi-workspace)을 참조하세요.
 
 그러면 이 시나리오의 경우 Power BI에서 작업을 래핑합니다. Power BI에 SharePoint 목록의 데이터를 끌어오기 시작하여 이제는 Power BI 보고서를 SharePoint에 완전히 포함하게 되었습니다.

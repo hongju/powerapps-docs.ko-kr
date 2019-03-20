@@ -1,24 +1,24 @@
 ---
 title: SharePoint Online 통합 시나리오의 종단 간 연습 | Microsoft Docs
 description: 이 시리즈의 자습서에서 빌드한 종단 간 연습 시나리오를 수행합니다.
-author: mgblythe
+author: NickWaggoner
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: ''
 ms.date: 06/12/2017
-ms.author: mblythe
+ms.author: niwaggon
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: df3c186bb41621e7ec6087a9da55fc037e286b1a
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.openlocfilehash: 64a26fbd0e36937427bc679869d5bc942f254130
+ms.sourcegitcommit: 90245baddce9d92c3ce85b0537c1ac1cf26bf55a
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42850193"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "57799643"
 ---
 # <a name="walk-end-to-end-through-the-completed-sharepoint-online-integration-scenario"></a>완료된 SharePoint Online 통합 시나리오 종단 간 연습
 > [!NOTE]
@@ -26,7 +26,7 @@ ms.locfileid: "42850193"
 
 이 시리즈의 자습서에서는 캔버스 앱 및 흐름 빌드부터 보고서 생성 및 SharePoint에 포함에 이르기까지 막대한 양의 정보를 설명했습니다. 지금까지 많은 내용을 알아보고 이러한 기술을 통합하는 방법을 충분히 알아보았으므로 고유한 필요에 따라 SharePoint에 캔버스 앱, 흐름 및 보고서를 통합할 수 있습니다. 마무리하기 전에 시나리오를 끝까지 살펴보고 모든 파트가 함께 작동하는 방법을 확인하려고 합니다.
 
-## <a name="step-1-add-a-project-to-the-project-requests-list"></a>1단계: 프로젝트 요청 목록에 프로젝트 추가
+## <a name="step-1-add-a-project-to-the-project-requests-list"></a>1 단계: 프로젝트 요청 목록에 프로젝트 추가
 1. **프로젝트 요청** 목록에서 **모든 항목** 및 **프로젝트 요청 앱**을 차례로 클릭하거나 누릅니다.
    
     ![프로젝트 요청 앱 보기](./media/sharepoint-scenario-summary/09-00-01-view-app.png)
@@ -59,7 +59,7 @@ ms.locfileid: "42850193"
    
     ![새 항목을 포함하는 SharePoint 목록](./media/sharepoint-scenario-summary/09-01-02-list-new.png)
 
-## <a name="step-2-approve-the-project"></a>2단계: 프로젝트 승인
+## <a name="step-2-approve-the-project"></a>2 단계: 프로젝트를 승인 합니다.
 1. 1단계에서 항목을 추가할 때 흐름이 실행되고 승인 메일을 보내도록 해야 합니다. 승인자 전자 메일 계정의 받은 편지함을 확인합니다.
    
     ![승인 요청 전자 메일](./media/sharepoint-scenario-summary/09-02-01-allan-email.png)
@@ -73,7 +73,7 @@ ms.locfileid: "42850193"
    
     ![업데이트된 항목을 포함하는 SharePoint 목록](./media/sharepoint-scenario-summary/09-02-03-yes.png)
 
-## <a name="step-3-assign-a-manager-to-the-project"></a>3단계: 프로젝트에 관리자 할당
+## <a name="step-3-assign-a-manager-to-the-project"></a>3 단계: 프로젝트에 관리자 할당
 1. 먼저 SharePoint에서 **프로젝트 세부 정보** 목록을 살펴보겠습니다. 새 프로젝트에는 **PMAssigned** 열에 **할당되지 않음** 값이 있습니다.
    
     ![할당되지 않은 SharePoint 목록 항목](./media/sharepoint-scenario-summary/09-03-01-unassigned.png)
@@ -81,7 +81,7 @@ ms.locfileid: "42850193"
 3. 첫 번째 화면에서 **관리자 할당**을 클릭하거나 누릅니다.
    
     ![프로젝트에 관리자 할당](./media/sharepoint-scenario-summary/09-03-02-intro-screen.png)
-4. **관리자 할당** 화면의 목록에서 할당되지 않은 두 개의 프로젝트가 표시됩니다. **디자인 팀의 모바일 장치** 프로젝트를 선택합니다.
+4. **관리자 할당** 화면의 목록에서 할당되지 않은 두 개의 프로젝트가 표시됩니다. **디자인 팀의 모바일 디바이스** 프로젝트를 선택합니다.
    
     ![앱에서 선택된 할당되지 않은 프로젝트](./media/sharepoint-scenario-summary/09-03-03-selected.png)
 5. **관리자** 텍스트 입력에서 "Joni Sherman"을 입력한 다음 **확인**을 클릭합니다.
@@ -93,14 +93,14 @@ ms.locfileid: "42850193"
    
     ![할당된 SharePoint 목록 항목](./media/sharepoint-scenario-summary/09-03-05-assigned.png)
 
-## <a name="step-4-add-time-estimates-for-the-project"></a>4단계: 프로젝트에 대한 시간 예상치 추가
+## <a name="step-4-add-time-estimates-for-the-project"></a>4단계: 프로젝트에 대 한 시간 예상치 추가
 1. ![뒤로 아이콘](./media/sharepoint-scenario-summary/icon-back.png)을 클릭하거나 눌러서 첫 번째 화면으로 돌아간 다음, **세부 정보 업데이트**를 클릭하거나 누릅니다.
    
     ![프로젝트 업데이트 세부 정보](./media/sharepoint-scenario-summary/09-04-00-intro-screen.png)
 2. **프로젝트 보기** 화면에서 검색 상자에 "모바일"을 입력합니다.
    
     ![앱에서 검색](./media/sharepoint-scenario-summary/09-04-01-search-mobile.png)
-3. **디자인 팀의 모바일 장치** 항목에서 ![세부 정보 화살표 아이콘](./media/sharepoint-scenario-summary/icon-details-arrow.png)을 클릭합니다.
+3. **디자인 팀의 모바일 디바이스** 항목에서 ![세부 정보 화살표 아이콘](./media/sharepoint-scenario-summary/icon-details-arrow.png)을 클릭합니다.
    
     ![업데이트할 프로젝트 선택](./media/sharepoint-scenario-summary/09-04-02-select-project.png)
 4. **세부 정보 업데이트** 화면에서 다음 값을 설정합니다.
@@ -119,7 +119,7 @@ ms.locfileid: "42850193"
    
    ![SharePoint 목록에서 업데이트된 세부 정보](./media/sharepoint-scenario-summary/09-04-04-updated-list.png)
 
-## <a name="step-5-review-report-data-for-existing-projects"></a>5단계: 기존 프로젝트에 대한 보고서 데이터 검토
+## <a name="step-5-review-report-data-for-existing-projects"></a>5단계: 기존 프로젝트에 대 한 보고서 데이터를 검토 합니다.
 1. SharePoint Online에서 **사이트 콘텐츠** 및 **사이트 페이지**를 차례로 클릭하거나 누릅니다.
 2. 앞에서 만든 **프로젝트 분석** 페이지를 엽니다.
    
@@ -138,7 +138,7 @@ ms.locfileid: "42850193"
    
     이 시각화를 만들 때 설명한 대로 Irvin Sayers가 할당한 프로젝트는 나머지보다 훨씬 오래 걸리는 두 개의 프로젝트를 포함하기 때문에 시작하는 데 오래 걸립니다.
 
-## <a name="step-6-respond-to-pending-project-delays"></a>6단계: 보류 중인 프로젝트 지연에 응답
+## <a name="step-6-respond-to-pending-project-delays"></a>6 단계: 보류 중인 프로젝트 지연에 응답
 1. Power BI 서비스에서 **프로젝트 분석** 데이터 세트를 클릭하거나 누르고 **지금 새로 고침**을 클릭하거나 누릅니다. 새로 고침은 보류 중인 프로젝트에 설정한 경고를 트리거합니다.
    
     ![지금 데이터 세트 새로 고침](./media/sharepoint-scenario-summary/09-06-01-refresh.png)

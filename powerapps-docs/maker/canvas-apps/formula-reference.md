@@ -7,24 +7,24 @@ ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
 ms.reviewer: anneta
-ms.date: 06/05/2018
+ms.date: 11/14/2018
 ms.author: gregli
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 752bb630c1ecd1e86f37a1a063bcc5ee192431f0
-ms.sourcegitcommit: 3aeb9381fbeb66cf08355d9a3d0f00ce2737e256
-ms.translationtype: HT
+ms.openlocfilehash: 9796cf6c668818110cd6910311ab5b5f61a745df
+ms.sourcegitcommit: 825daacc9a812637815afc1ce6fad28f0cebd479
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43163640"
+ms.lasthandoff: 03/04/2019
+ms.locfileid: "57803783"
 ---
 # <a name="formula-reference-for-powerapps"></a>PowerApps에 대한 수식 참조
 수식은 많은 요소를 결합합니다.  아래 나열되어 있습니다.
 
 * **함수**는 매개 변수를 받아 작업을 수행하고 값을 반환합니다. 예를 들어 **Sqrt(25)** 는 **5**를 반환합니다. 함수는 Microsoft Excel 함수를 본떠 만듭니다.  **SubmitForm**과 같은 일부 함수에는 파생 작업이 있으며 **Button.OnSelect**와 같은 [동작 수식](working-with-formulas-in-depth.md)에서만 적합합니다.
-* **신호**는 환경에 대한 정보를 반환합니다. 예를 들어 **[위치](functions/signals.md)** 는 장치의 현재 GPS 좌표를 반환합니다. 신호는 매개 변수를 받지 않거나 파생 작업이 있습니다.
+* **신호**는 환경에 대한 정보를 반환합니다. 예를 들어 **[Location](functions/signals.md)** 는 디바이스의 현재 GPS 좌표를 반환합니다. 신호는 매개 변수를 받지 않거나 파생 작업이 있습니다.
 * **열거형**은 미리 정의된 상수 값을 반환합니다. 예를 들어 **[색](functions/function-colors.md)** 은 **Color.Red**, **Color.Blue** 및 등에 대해 미리 정의된 값을 포함하는 열거형입니다.  공통 열거형은 여기에 포함되며 함수별 열거형이 함수와 함께 설명됩니다.
 * **[ThisItem](functions/operators.md#thisitem-operator)** 및 **[Parent](functions/operators.md#parent-operator)** 와 같은 **명명된 연산자**는 컨테이너 내에서 정보에 대한 액세스를 제공합니다.
 
@@ -36,7 +36,7 @@ ms.locfileid: "43163640"
 ## <a name="a"></a>A
 **[Abs](functions/function-numericals.md)** – 숫자의 절대 값을 반환합니다.  
 
-**[Acceleration](functions/signals.md)** – 장치에서 가속 센서를 읽습니다.
+**[Acceleration](functions/signals.md)** – 디바이스에서 가속 센서를 읽습니다.
 
 **[Acos](functions/function-trig.md)** – 숫자의 아크코사인을 라디안으로 반환합니다.
 
@@ -129,7 +129,7 @@ ms.locfileid: "43163640"
 
 **[Distinct](functions/function-distinct.md)** – 테이블의 레코드를 요약하여 중복을 제거합니다.  
 
-**[Download](functions/function-param.md)** – 웹에서 로컬 장치로 파일을 다운로드합니다.
+**[Download](functions/function-param.md)** – 웹에서 로컬 디바이스로 파일을 다운로드합니다.
 
 **[DropColumns](functions/function-table-shaping.md)** – 하나 이상의 열이 제거된 테이블을 반환합니다.
 
@@ -199,7 +199,7 @@ ms.locfileid: "43163640"
 
 **[Ln](functions/function-numericals.md)** – 자연 로그를 반환합니다.
 
-**[LoadData](functions/function-savedata-loaddata.md)** – PowerApps 사설 저장소에서 컬렉션을 로드합니다.
+**[LoadData](functions/function-savedata-loaddata.md)** – PowerApps 사설 스토리지에서 컬렉션을 로드합니다.
 
 **[Location](functions/signals.md)** – GPS(Global Positioning System) 또는 기타 정보를 사용하여 사용자의 위치를 지도 좌표로 반환합니다.
 
@@ -208,6 +208,10 @@ ms.locfileid: "43163640"
 **[Lower](functions/function-lower-upper-proper.md)** – 텍스트 문자열의 문자를 모두 소문자로 변환합니다.
 
 ## <a name="m"></a>M
+**[일치](functions/function-ismatch.md)**  – 패턴에 따라 하위 문자열을 추출 합니다.  정규식을 사용할 수 있습니다.
+
+**[MatchAll](functions/function-ismatch.md)**  – 패턴에 따라 여러 부분 문자열을 추출 합니다.  정규식을 사용할 수 있습니다.
+
 **[Max](functions/function-aggregates.md)** – 테이블 식 또는 인수 집합의 최대값입니다.
 
 **[Mid](functions/function-left-mid-right.md)** – 문자열의 가운데 부분을 반환합니다.
@@ -256,6 +260,8 @@ ms.locfileid: "43163640"
 
 **[Refresh](functions/function-refresh.md)** – 데이터 원본의 레코드를 새로 고칩니다.
 
+**[관련](functions/function-relate-unrelate.md)**  –에 일 대 다 또는 다 대 다 관계를 통해 두 엔터티의 레코드를 연결 합니다.
+
 **[Remove](functions/function-remove-removeif.md)** – 데이터 원본에서 하나 이상의 특정 레코드를 제거합니다.
 
 **[RemoveIf](functions/function-remove-removeif.md)** – 조건에 따라 데이터 원본에서 레코드를 제거합니다.
@@ -281,7 +287,7 @@ ms.locfileid: "43163640"
 **[RoundUp](functions/function-round.md)** – 가장 작은 다음 숫자로 올림합니다.
 
 ## <a name="s"></a>S
-**[SaveData](functions/function-savedata-loaddata.md)** – PowerApps 사설 저장소에 컬렉션을 저장합니다.
+**[SaveData](functions/function-savedata-loaddata.md)** – PowerApps 사설 스토리지에 컬렉션을 저장합니다.
 
 **[Search](functions/function-filter-lookup.md)** – 해당 열 중 하나에 문자열을 포함하는 테이블의 레코드를 찾습니다.  
 
@@ -322,7 +328,7 @@ ms.locfileid: "43163640"
 
 **[Tan](functions/function-trig.md)** - 라디안으로 지정된 각도의 탄젠트를 반환합니다.
 
-**[Text](functions/function-text.md)** – 숫자 서식을 문자열로 표시되도록 지정합니다.
+**[텍스트](functions/function-text.md)**  – 모든 값을 변환 하 고 텍스트 문자열을 숫자 또는 날짜/시간 값의 형식을 지정 합니다.
 
 **[ThisItem](functions/operators.md#thisitem-operator)** – 갤러리 또는 Form에서 컨테이너에서 현재 항목에 대한 데이터를 반환합니다.
 
@@ -341,9 +347,11 @@ ms.locfileid: "43163640"
 ## <a name="u"></a>U
 **[Ungroup](functions/function-groupby.md)** – 그룹화를 제거합니다.
 
+**[연결을 해제](functions/function-relate-unrelate.md)**  –에 일 대 다 또는 다 대 다 관계에서 두 엔터티의 레코드 Unrelates 합니다.
+
 **[Update](functions/function-update-updateif.md)** – 데이터 원본에서 레코드를 바꿉니다.
 
-**[UpdateContext](functions/function-updatecontext.md)** – 현재 화면에 있는 하나 이상의 [컨텍스트 변수](working-with-variables.md#create-a-context-variable) 값을 설정합니다.
+**[UpdateContext](functions/function-updatecontext.md)** – 현재 화면에 있는 하나 이상의 [컨텍스트 변수](working-with-variables.md#use-a-context-variable) 값을 설정합니다.
 
 **[UpdateIf](functions/function-update-updateif.md)** – 조건에 따라 데이터 원본에 있는 레코드 집합을 수정합니다.
 

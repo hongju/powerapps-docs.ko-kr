@@ -7,18 +7,18 @@ ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: ''
-ms.date: 03/18/2018
+ms.date: 01/14/2019
 ms.author: anneta
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 3d29387c907808f90225f1ff67257d289de2b0a9
-ms.sourcegitcommit: 2300de0a0486187762f830068c872116d5b04c32
-ms.translationtype: HT
+ms.openlocfilehash: 7ab85f09ebf88c30b35c963242895cd74ca6a966
+ms.sourcegitcommit: b987589e946cacc86b806a0bd49b9b544ea489dd
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49806136"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54297599"
 ---
 # <a name="generate-a-canvas-app-from-excel-in-powerapps"></a>PowerApps의 Excel에서 캔버스 앱 생성
 
@@ -67,17 +67,49 @@ PowerApps에 대한 라이선스가 없으면 [무료로 등록](../signup-for-p
 
 1. 검색 창에서 하나 이상의 문자를 입력하거나 붙여넣어 목록을 필터링합니다.
 
-1. 더하기 아이콘을 클릭하거나 탭하여 레코드를 추가하고, 원하는 데이터를 추가한 다음, 확인 표시 아이콘을 클릭하거나 탭하여 변경 내용을 저장합니다.
+    예를 들어, 입력 하거나 붙여 넣습니다 **Honey** 문자열 제품의 이름, 범주 또는 개요에 표시 되는지는 대 한 유일한 레코드를 표시 합니다.
 
-1. 추가한 레코드에 대한 다음 화살표를 클릭하거나 탭하고, 연필 아이콘을 클릭하거나 탭하여 레코드를 편집하고, 하나 이상의 필드를 업데이트한 다음, 확인 표시 아이콘을 클릭하거나 탭하여 변경 내용을 저장합니다.
+    ![필터 예제](./media/get-started-create-from-data/filter-example.png)
 
-1. 추가한 레코드에 대한 다음 화살표를 클릭하거나 탭하고, 연필 아이콘을 클릭하거나 탭하여 레코드를 편집하고, 하나 이상의 필드를 업데이트한 다음, 취소 아이콘을 클릭하거나 탭하여 변경 내용을 취소합니다.
+1. 레코드를 추가 합니다.
 
-1. 추가한 레코드에 대한 다음 화살표를 클릭하거나 탭한 다음, 휴지통 아이콘을 클릭하거나 탭하여 해당 레코드를 삭제합니다.
+    1. 더하기 아이콘을 선택 합니다.
+
+        ![더하기 아이콘](./media/get-started-create-from-data/plus-icon.png)
+
+    1. 원하는 모든 데이터를 추가 하 고 변경 내용을 저장 하려면 확인 표시 아이콘을 선택 합니다.
+
+        ![저장 아이콘](./media/get-started-create-from-data/save-icon.png)
+
+1. 레코드를 편집 합니다.
+
+    1. 편집 하려는 레코드의 화살표를 선택 합니다.
+
+        ![다음 화살표](./media/get-started-create-from-data/next-arrow.png)
+
+    1. 연필 아이콘을 선택 합니다.
+
+        ![연필 아이콘](./media/get-started-create-from-data/pencil-icon.png)
+
+    1. 하나 이상의 필드를 업데이트 하 고 변경 내용을 저장 하려면 확인 표시 아이콘을 선택 합니다.
+
+        ![저장 아이콘](./media/get-started-create-from-data/save-icon.png)
+
+        대신 변경 내용을 취소 하려면 취소 아이콘을 선택 합니다.
+
+1. 레코드를 삭제 합니다.
+
+    1. 삭제 하려는 레코드에 대 한 다음 화살표를 선택 합니다.
+
+        ![다음 화살표](./media/get-started-create-from-data/next-arrow.png)
+
+    1. 휴지통 아이콘을 선택 합니다.
+
+        ![휴지통 아이콘](./media/get-started-create-from-data/trash-icon.png)
 
 ## <a name="next-steps"></a>다음 단계
 
-사용자의 요구 사항에 맞게 기본 찾아보기 화면을 사용자 지정합니다. 예를 들어 범주별이 아닌 제품 이름별로 목록을 정렬 및 필터링할 수 있습니다.
+사용자의 요구 사항에 맞게 기본 찾아보기 화면을 사용자 지정합니다. 예를 들어, 정렬 하 고 범주 나 개요 아닌 제품 이름만으로 목록을 필터링 수 있습니다.
 
 > [!div class="nextstepaction"]
 > [기본 찾아보기 화면을 사용자 지정합니다](customize-layout-sharepoint.md).

@@ -1,36 +1,40 @@
 ---
 title: 속성 찾기 | Microsoft Docs
 description: 컨트롤별, 범주별 또는 사전순으로 속성을 찾습니다.
-author: gregli-msft
+author: fikaradz
 manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 03/17/2016
-ms.author: gregli
+ms.author: fikaradz
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 6c69d32f21bb5d1222122c4ec129d765b390d98f
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.openlocfilehash: 968722e672c6f169c4a9e2e87be959aa48e23c86
+ms.sourcegitcommit: 957d67e13bd4153d042b3b3bd650f6d0de20613c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42863128"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "58073674"
 ---
 # <a name="controls-and-properties-in-powerapps"></a>PowerApps 컨트롤 및 속성
+
 속성 중 하나를 설정하여 컨트롤의 모양과 동작을 구성합니다. 각 유형의 컨트롤에는 서로 다른 속성 집합이 있습니다. **Height** 및 **Width**와 같은 일부 속성은 거의 모든 유형의 컨트롤에 공통으로 적용되지만, **CheckboxSize**와 같은 다른 속성은 한 유형의 컨트롤에만 적용됩니다.
 
 ## <a name="controls"></a>컨트롤
-**[그림 추가](controls/control-add-picture.md)** – 로컬 장치에서 이미지를 로드하여 데이터 원본에 업로드합니다.
 
-**[첨부 파일](controls/control-attachments.md)** – 로컬 장치에서 데이터 원본으로 파일을 다운로드하고 업로드합니다.
+**[그림 추가](controls/control-add-picture.md)** – 로컬 디바이스에서 이미지를 로드하여 데이터 원본에 업로드합니다.
+
+**[첨부 파일](controls/control-attachments.md)** – 로컬 디바이스에서 데이터 원본으로 파일을 다운로드하고 업로드합니다.
 
 **[오디오](controls/control-audio-video.md)** – 오디오 클립 또는 비디오 클립의 오디오 부분을 재생합니다.
 
-**[바코드 스캐너(실험적)](controls/control-barcodescanner.md)** – 카메라가 있는 장치를 사용하여 바코드를 스캔합니다.
+**[(실험적) 바코드 스캐너](controls/control-barcodescanner.md)**  – (레거시/사용 되지 않음) 웹 브라우저에서 코드를 검색 합니다.
+
+**[바코드 스캐너](controls/control-new-barcode-scanner.md)**  – 바코드, QR 코드 및 Android 또는 iOS 장치에서 데이터 행렬 코드를 검색 합니다.
 
 **[단추](controls/control-button.md)** – 클릭하거나 탭하여 앱과 상호 작용합니다.
 
@@ -56,7 +60,7 @@ ms.locfileid: "42863128"
 
 **[편집 양식](controls/control-form-detail.md)** – 양식을 사용하여 데이터 원본의 레코드를 편집하고 만듭니다.
 
-**[엔터티 양식](entity-form-control.md)** - 실험적 기능: 사용자가 Common Data Service에서 관계형 데이터를 보고, 탐색하고, 편집할 수 있는 동적 양식을 추가합니다.
+**[엔터티 양식](entity-form-control.md)**  -실험적 기능: 사용자 수 보기, 탐색 및 Common Data Service의 관계형 데이터를 편집 하는 동적 양식을 추가 합니다.
 
 **[내보내기](controls/control-export-import.md)** – PowerApps의 다른 위치에서 사용할 데이터를 내보냅니다.
 
@@ -88,7 +92,7 @@ ms.locfileid: "42863128"
 
 **[등급](controls/control-rating.md)** – 1과 지정한 숫자 사이의 값을 나타냅니다.
 
-**[서식 있는 텍스트 편집기(실험적)](controls/control-richtexteditor.md)** – 앱 사용자가 지정한 서식 있는 텍스트를 허용합니다.
+**[서식 있는 텍스트 편집기](controls/control-richtexteditor.md)**  -앱 사용자가 서식 있는 텍스트를 허용 합니다.
 
 **[화면](controls/control-screen.md)** – 특정 작업에 대한 데이터를 표시하고 업데이트합니다.
 
@@ -106,7 +110,10 @@ ms.locfileid: "42863128"
 
 **[비디오](controls/control-audio-video.md)** – 로컬 파일, 데이터 원본 또는 YouTube에서 비디오 클립을 재생합니다.
 
+**[(실험적) 웹 바코드 스캐너](controls/control-barcodescanner.md)**  – 레거시 바코드 스캐너를 사용 되지 않지만 웹 브라우저에서 코드를 스캔 하는 데 유용할 수 있습니다.
+
 ## <a name="common-properties-by-category"></a>범주별 공용 속성
+
 **[색 및 테두리](controls/properties-color-border.md)** – 사용자가 컨트롤과 상호 작용할 때 변경할 수 있는 컨트롤의 색과 테두리를 구성합니다.
 
 **[코어](controls/properties-core.md)** – 사용자가 컨트롤을 보고 상호 작용할 수 있는지 여부를 구성합니다.
@@ -118,7 +125,9 @@ ms.locfileid: "42863128"
 **[텍스트](controls/properties-text.md)** – 글꼴 특성, 맞춤, 선 높이 등과 같이 텍스트가 컨트롤에 표시되는 방식을 구성합니다.  
 
 ## <a name="all-properties"></a>모든 속성
+
 ### <a name="a"></a>A
+
 **[ActualZoom](controls/control-pdf-viewer.md)** - 컨트롤의 실제 확대/축소이며, **Zoom** 속성으로 요청된 확대/축소와 다를 수 있습니다.  **[PDF 뷰어](controls/control-pdf-viewer.md)** 컨트롤에 적용됩니다.
 
 **[Align](controls/properties-text.md)** - 컨트롤의 가로 가운데를 기준으로 한 텍스트의 위치입니다.  많은 컨트롤에 적용됩니다.
@@ -134,6 +143,7 @@ ms.locfileid: "42863128"
 **AutoStart** - 사용자가 해당 컨트롤이 포함된 화면으로 이동할 때 오디오 또는 비디오 컨트롤에서 클립을 자동으로 재생할지 여부입니다.  **[오디오](controls/control-audio-video.md)**, **[타이머](controls/control-timer.md)** 및 **[비디오](controls/control-audio-video.md)** 컨트롤에 적용됩니다.
 
 ### <a name="b"></a>B
+
 **[BackgroundImage](controls/properties-visual.md)** – 화면의 배경에 표시되는 이미지 파일의 이름입니다.  **[화면](controls/control-screen.md)** 컨트롤에 적용됩니다.
 
 **[BorderColor](controls/properties-color-border.md)** - 컨트롤의 테두리 색입니다.  많은 컨트롤에 적용됩니다.
@@ -145,9 +155,10 @@ ms.locfileid: "42863128"
 **[Brightness](controls/control-camera.md)** – 사용자가 이미지에서 인식할 가능성이 높은 조명의 정도를 선택합니다.  **[카메라](controls/control-camera.md)** 컨트롤에 적용됩니다.
 
 ### <a name="c"></a>C
+
 **[CalculateOriginalDimensions](controls/control-image.md)** – **[OriginalHeight](controls/control-image.md)** 및 **[OriginalWidth](controls/control-image.md)** 속성을 사용하도록 설정합니다.  **[이미지](controls/control-image.md)** 컨트롤에 적용됩니다.
 
-**[Camera](controls/control-camera.md)** – 둘 이상의 카메라가 있는 장치에서 앱이 사용하는 카메라에 대한 숫자 ID입니다.  **[카메라](controls/control-camera.md)** 컨트롤에 적용됩니다.
+**[Camera](controls/control-camera.md)** – 둘 이상의 카메라가 있는 디바이스에서 앱이 사용하는 카메라에 대한 숫자 ID입니다.  **[카메라](controls/control-camera.md)** 컨트롤에 적용됩니다.
 
 **[CheckboxBackgroundFill](controls/control-check-box.md)** – 확인란 컨트롤에서 확인 표시를 둘러싸는 상자의 배경색입니다.  **[확인란](controls/control-check-box.md)** 컨트롤에 적용됩니다.
 
@@ -172,6 +183,7 @@ ms.locfileid: "42863128"
 **[CurrentPage](controls/control-pdf-viewer.md)** – 실제로 표시되는 PDF 파일의 페이지 번호입니다.  **[PDF 뷰어](controls/control-pdf-viewer.md)** 컨트롤에 적용됩니다.
 
 ### <a name="d"></a>D
+
 **[Data](controls/control-export-import.md)** - 로컬 파일에 내보내려는 컬렉션의 이름입니다.  **[내보내기](controls/control-export-import.md)** 컨트롤에 적용됩니다.
 
 **[DataField](controls/control-card.md)** - 이 카드에서 표시하고 편집하는 레코드 내부의 필드 이름입니다.  **[카드](controls/control-card.md)** 컨트롤에 적용됩니다.
@@ -203,6 +215,7 @@ ms.locfileid: "42863128"
 **[Duration](controls/control-timer.md)** – 타이머가 실행되는 시간입니다.  **[타이머](controls/control-timer.md)** 컨트롤에 적용됩니다.
 
 ### <a name="e"></a>E
+
 **[EndYear](controls/control-date-picker.md)** – 사용자가 날짜 선택 컨트롤의 값을 설정할 수 있는 끝 연도입니다.  **[날짜 선택](controls/control-date-picker.md)** 컨트롤에 적용됩니다.
 
 **Error** – 이 속성의 의미는 다음 컨트롤에 따라 다릅니다.
@@ -216,6 +229,7 @@ ms.locfileid: "42863128"
 **[Explode](controls/control-pie-chart.md)** – 원형 차트에서 쐐기형 사이의 거리입니다.  **[원형 차트](controls/control-pie-chart.md)** 컨트롤에 적용됩니다.
 
 ### <a name="f"></a>F
+
 **[Fill](controls/properties-color-border.md)** - 컨트롤의 배경색입니다.  많은 컨트롤에 적용됩니다.
 
 **[FindNext](controls/control-pdf-viewer.md)** – 문서에서 **FindText**의 다음 인스턴스를 찾습니다.  **[PDF 뷰어](controls/control-pdf-viewer.md)** 컨트롤에 적용됩니다.
@@ -226,12 +240,14 @@ ms.locfileid: "42863128"
 
 **[Font](controls/properties-text.md)** – 텍스트가 표시되는 글꼴의 제품군 이름입니다.  많은 컨트롤에 적용됩니다.
 
-**[FontWeight](controls/properties-text.md)** - 컨트롤의 텍스트 굵기입니다. **Bold**, **Semibold**, **Normal** 또는 **Lighter**로 설정합니다.  많은 컨트롤에 적용됩니다.
+**[FontWeight](controls/properties-text.md)**  – 컨트롤의 텍스트의 가중치: **굵게**, **Semibold**, **정상**, 또는 **밝은**.  많은 컨트롤에 적용됩니다.
 
 ### <a name="g"></a>G
+
 **[GridStyle](controls/control-column-line-chart.md)** – 세로 막대형 또는 꺾은선형 차트에서 x-축, y-축 또는 둘 다를 표시할지, 아니면 둘 다를 표시하지 않을지 여부입니다.  **[세로 막대형 차트](controls/control-column-line-chart.md)** 및 **[꺾은선형 차트](controls/control-column-line-chart.md)** 컨트롤에 적용됩니다.
 
 ### <a name="h"></a>H
+
 **[HandleActiveFill](controls/control-slider.md)** – 사용자가 값을 변경했을 때 슬라이더에 대한 핸들의 색입니다.  **[슬라이더](controls/control-slider.md)** 컨트롤에 적용됩니다.
 
 **[HandleFill](controls/control-slider.md)** – 토글 또는 슬라이더 컨트롤에서 핸들(위치를 변경하는 요소)의 색입니다.  **[슬라이더](controls/control-slider.md)** 컨트롤에 적용됩니다.
@@ -251,6 +267,7 @@ ms.locfileid: "42863128"
 **[HTMLText](controls/control-html-text.md)** – HTML 텍스트 컨트롤에 표시되며 HTML 태그를 포함할 수 있는 텍스트입니다.  **[HTML 텍스트](controls/control-html-text.md)** 컨트롤에 적용됩니다.
 
 ### <a name="i"></a>I
+
 **[Image](controls/properties-visual.md)** – 이미지, 오디오 또는 마이크 컨트롤에 표시되는 이미지의 이름입니다.  **[오디오](controls/control-audio-video.md)**, **[이미지](controls/control-image.md)**, **[마이크](controls/control-microphone.md)** 및 **[비디오](controls/control-audio-video.md)** 컨트롤에 적용됩니다.
 
 **[ImagePosition](controls/properties-visual.md)** – 이미지와 같은 크기가 아닌 경우 컨트롤 또는 화면에 있는 이미지의 위치입니다(**채우기**, **맞춤**, **늘이기**, **타일** 또는 **가운데**).  많은 컨트롤에 적용됩니다.
@@ -274,6 +291,7 @@ ms.locfileid: "42863128"
 **[ItemsGap](controls/control-column-line-chart.md)** – 세로 막대형 차트에서 막대 사이의 거리입니다.  **[세로 막대형 차트](controls/control-column-line-chart.md)** 컨트롤에 적용됩니다.
 
 ### <a name="l"></a>L
+
 **[LabelPosition](controls/control-pie-chart.md)** – 원형 차트에서 해당 쐐기형을 기준으로 한 레이블의 위치입니다.  **[원형 차트](controls/control-pie-chart.md)** 컨트롤에 적용됩니다.
 
 **[LastSubmit](controls/control-form-detail.md)** – 서버에서 생성된 필드를 포함하여 성공적으로 제출된 마지막 레코드입니다.  **[편집 양식](controls/control-form-detail.md)** 컨트롤에 적용됩니다.
@@ -285,6 +303,7 @@ ms.locfileid: "42863128"
 **[Loop](controls/control-audio-video.md)** – 재생을 끝내는 즉시 오디오 또는 비디오 클립을 자동으로 시작할지 여부입니다.  **[오디오](controls/control-audio-video.md)** 및 **[비디오](controls/control-audio-video.md)** 컨트롤에 적용됩니다.
 
 ### <a name="m"></a>M
+
 **[Markers](controls/control-column-line-chart.md)** – 세로 막대형 또는 꺾은선형 차트에서 각 데이터 요소의 값을 표시할지 여부입니다.  **[세로 막대형 차트](controls/control-column-line-chart.md)** 및 **[꺾은선형 차트](controls/control-column-line-chart.md)** 컨트롤에 적용됩니다.
 
 **[MarkerSuffix](controls/control-column-line-chart.md)** - **[Markers](controls/control-column-line-chart.md)** 속성이 **true**로 설정된 세로 막대형 차트의 각 값 뒤에 표시되는 텍스트입니다.  **[세로 막대형 차트](controls/control-column-line-chart.md)** 컨트롤에 적용됩니다.
@@ -295,7 +314,7 @@ ms.locfileid: "42863128"
 
 **Media** – 오디오 또는 비디오 컨트롤에서 재생하는 클립에 대한 식별자입니다.  **[그림 추가](controls/control-add-picture.md)**, **[오디오](controls/control-audio-video.md)** 및 **[비디오](controls/control-audio-video.md)** 컨트롤에 적용됩니다.
 
-**[Mic](controls/control-microphone.md)** – 둘 이상의 마이크가 있는 장치에서 앱이 사용하는 마이크에 대한 숫자 ID입니다.  **[마이크](controls/control-microphone.md)** 컨트롤에 적용됩니다.
+**[Mic](controls/control-microphone.md)** – 둘 이상의 마이크가 있는 디바이스에서 앱이 사용하는 마이크에 대한 숫자 ID입니다.  **[마이크](controls/control-microphone.md)** 컨트롤에 적용됩니다.
 
 **[Min](controls/control-slider.md)** – 사용자가 슬라이더를 설정할 수 있는 최소값입니다.  **[슬라이더](controls/control-slider.md)** 컨트롤에 적용됩니다.
 
@@ -308,11 +327,13 @@ ms.locfileid: "42863128"
 * **[텍스트 입력](controls/control-text-input.md)** 컨트롤 – **SingleLine**, **MultiLine** 또는 **Password** 모드입니다.
 
 ### <a name="n"></a>N
+
 **[NavigationStep](controls/control-gallery.md)** – **[ShowNavigation](controls/control-gallery.md)** 속성이 **true**로 설정되어 있고 사용자가 해당 갤러리의 한쪽 끝에서 탐색 화살표를 선택하는 경우 갤러리를 스크롤하는 정도입니다.  **[갤러리](controls/control-gallery.md)** 컨트롤에 적용됩니다.
 
 **[NumberOfSeries](controls/control-column-line-chart.md)** – 세로 막대형 차트 또는 꺾은선형 차트에 반영되는 데이터의 열 수입니다.  **[세로 막대형 차트](controls/control-column-line-chart.md)** 및 **[꺾은선형 차트](controls/control-column-line-chart.md)** 컨트롤에 적용됩니다.
 
 ### <a name="o"></a>O
+
 **[OnChange](controls/properties-core.md)** – 사용자가 컨트롤 값을 변경할 때(예: 슬라이더 조정)의 앱 동작입니다.  많은 컨트롤에 적용됩니다.
 
 **OnCheck** - 확인란 또는 토글의 값이 **true**로 변경되었을 때의 앱 동작입니다.  **[확인란](controls/control-check-box.md)** 및 **[토글](controls/control-toggle.md)** 컨트롤에 적용됩니다.
@@ -354,6 +375,7 @@ ms.locfileid: "42863128"
 **[Overflow](controls/control-text-box.md)** – **[Wrap](controls/control-text-box.md)** 속성이 **true**로 설정되고, 컨트롤에서 한 번에 표시할 수 있는 것보다 더 많은 문자가 해당 컨트롤의 **[Text](controls/properties-core.md)** 속성 값에 포함된 경우 스크롤 막대를 레이블에 표시할지 여부입니다.  **[레이블](controls/control-text-box.md)** 컨트롤에 적용됩니다.
 
 ### <a name="p"></a>P
+
 **[Padding](controls/properties-size-location.md)** – 가져오기 또는 내보내기 단추의 텍스트와 단추의 가장자리 사이의 간격입니다.  **[그림 추가](controls/control-add-picture.md)**, **[내보내기](controls/control-export-import.md)** 및 **[가져오기](controls/control-export-import.md)** 컨트롤에 적용됩니다.
 
 **[PaddingBottom](controls/properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 아래쪽 가장자리 사이의 거리입니다.  많은 컨트롤에 적용됩니다.
@@ -381,6 +403,7 @@ ms.locfileid: "42863128"
 **[PressedFill](controls/properties-color-border.md)** – 사용자가 컨트롤을 탭하거나 클릭하는 경우 컨트롤의 배경색입니다.  많은 컨트롤에 적용됩니다.
 
 ### <a name="r"></a>R
+
 **[RadioBackgroundFill](controls/control-radio.md)** – 라디오 단추 컨트롤에 있는 원의 배경색입니다.  **[라디오](controls/control-radio.md)** 컨트롤에 적용됩니다.
 
 **[RadioBorderColor](controls/control-radio.md)** - 라디오 단추 컨트롤에 있는 각 옵션에 대한 원의 색입니다.  **[라디오](controls/control-radio.md)** 컨트롤에 적용됩니다.
@@ -412,6 +435,7 @@ ms.locfileid: "42863128"
 **[Reset](controls/properties-core.md)** – 컨트롤이 기본값으로 되돌아가는지 여부입니다.  많은 컨트롤에 적용됩니다.  **[Reset](functions/function-reset.md)** 함수도 참조하세요.
 
 ### <a name="s"></a>S
+
 **Selected** – 선택한 항목입니다.  **[드롭다운](controls/control-drop-down.md)** 및 **[갤러리](controls/control-gallery.md)** 컨트롤에 적용됩니다.
 
 **[SelectedDate](controls/control-date-picker.md)** - 날짜 컨트롤에서 현재 선택한 날짜입니다.  **[날짜 선택](controls/control-date-picker.md)** 컨트롤에 적용됩니다.
@@ -455,6 +479,7 @@ ms.locfileid: "42863128"
 **[Strikethrough](controls/properties-text.md)** - 컨트롤에 표시되는 텍스트 중앙에 선을 표시할지 여부를 선택합니다.  많은 컨트롤에 적용됩니다.
 
 ### <a name="t"></a>T
+
 **[TemplateFill](controls/control-gallery.md)** – 갤러리의 배경색입니다.  **[갤러리](controls/control-gallery.md)** 컨트롤에 적용됩니다.
 
 **[TemplatePadding](controls/control-gallery.md)** – 갤러리에 있는 항목 사이의 거리입니다.  **[갤러리](controls/control-gallery.md)** 컨트롤에 적용됩니다.
@@ -472,6 +497,7 @@ ms.locfileid: "42863128"
 **[Transparency](controls/control-image.md)** – 이미지 뒤의 컨트롤이 보이도록 하는 표시 수준입니다.  **[이미지](controls/control-image.md)** 컨트롤에 적용됩니다.
 
 ### <a name="u"></a>U
+
 **[Underline](controls/properties-text.md)** – 컨트롤에 표시되는 텍스트 아래에 선을 표시할지 여부를 선택합니다.  많은 컨트롤에 적용됩니다.
 
 **[Unsaved](controls/control-form-detail.md)** – **[편집 양식](controls/control-form-detail.md)** 컨트롤에 저장되지 않은 사용자 변경 내용이 포함되어 있으면 true입니다.  **[편집 양식](controls/control-form-detail.md)** 컨트롤에 적용됩니다.
@@ -481,6 +507,7 @@ ms.locfileid: "42863128"
 **[Updates](controls/control-form-detail.md)** – 양식 컨트롤에 로드된 레코드의 데이터 원본에 쓰기 저장하는 값입니다.  **[편집 양식](controls/control-form-detail.md)** 컨트롤에 적용됩니다.
 
 ### <a name="v"></a>V
+
 **Valid** – **[카드](controls/control-card.md)** 또는 **[편집 양식](controls/control-form-detail.md)** 컨트롤에 올바른 항목이 있고 데이터 원본에 제출할 준비가 되었는지 여부입니다.  **[카드](controls/control-card.md)** 및 **[편집 양식](controls/control-form-detail.md)** 컨트롤에 적용됩니다.
 
 **[Value](controls/properties-core.md)** – 입력 컨트롤의 값입니다.  **[확인란](controls/control-check-box.md)**, **[라디오](controls/control-radio.md)**, **[슬라이더](controls/control-slider.md)** 및 **[토글](controls/control-toggle.md)** 컨트롤에 적용됩니다.
@@ -494,6 +521,7 @@ ms.locfileid: "42863128"
 **[Visible](controls/properties-core.md)** – 컨트롤을 표시하거나 숨길지 여부를 선택합니다.  많은 컨트롤에 적용됩니다.
 
 ### <a name="w"></a>W
+
 **[Width](controls/properties-size-location.md)** – 컨트롤의 왼쪽 및 오른쪽 가장자리 사이의 간격입니다.  많은 컨트롤에 적용됩니다.
 
 **[WidthFit](controls/properties-size-location.md)** – **[편집 양식](controls/control-form-detail.md)** 컨트롤처럼 컨테이너 컨트롤의 빈 공간을 채우기 위해 컨트롤이 가로 방향으로 자동으로 확장하는지 여부입니다. 여러 카드에서 이 속성이 **true**로 설정되면 카드 사이의 공간이 분할됩니다. 자세한 내용은 [데이터 양식 레이아웃 이해](working-with-form-layout.md)를 참조하세요.
@@ -503,11 +531,13 @@ ms.locfileid: "42863128"
 **[WrapCount](controls/control-gallery.md)** – 갤러리의 각 항목에 표시되는 레코드의 수입니다.  **[갤러리](controls/control-gallery.md)** 컨트롤에 적용됩니다.
 
 ### <a name="x"></a>X
+
 **[X](controls/properties-size-location.md)** – 컨트롤의 왼쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 왼쪽 가장자리 사이의 거리입니다. 많은 컨트롤에 적용됩니다. 여러 열이 있는 컨테이너의 **[카드](controls/control-card.md)** 컨트롤에서 이 속성은 카드가 표시되는 열을 결정합니다.
 
 **[XLabelAngle](controls/control-column-line-chart.md)** - 세로 막대형 차트 또는 꺾은선형 차트의 x-축 아래에 있는 레이블의 각도입니다.  **[세로 막대형 차트](controls/control-column-line-chart.md)** 및 **[꺾은선형 차트](controls/control-column-line-chart.md)** 컨트롤에 적용됩니다.
 
 ### <a name="y"></a>Y
+
 **[Y](controls/properties-size-location.md)** – 컨트롤의 위쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 위쪽 가장자리 사이의 거리입니다. 많은 컨트롤에 적용됩니다. 여러 행이 있는 컨테이너의 **[카드](controls/control-card.md)** 컨트롤에서 이 속성은 카드가 표시되는 행을 결정합니다.
 
 **[YAxisMax](controls/control-column-line-chart.md)** - 꺾은선형 차트에 대한 y-축의 최대값입니다.  **[꺾은선형 차트](controls/control-column-line-chart.md)** 컨트롤에 적용됩니다.
@@ -517,4 +547,5 @@ ms.locfileid: "42863128"
 **[YLabelAngle](controls/control-column-line-chart.md)** – 꺾은선형 차트 또는 세로 막대형 차트의 y-축 옆에 있는 레이블의 각도입니다.  **[세로 막대형 차트](controls/control-column-line-chart.md)** 및 **[꺾은선형 차트](controls/control-column-line-chart.md)** 컨트롤에 적용됩니다.
 
 ### <a name="z"></a>Z
+
 **Zoom** – 카메라의 이미지 확대 비율 또는 PDF 뷰어의 파일 보기입니다.  **[카메라](controls/control-camera.md)** 및 **[PDF 뷰어](controls/control-pdf-viewer.md)** 컨트롤에 적용됩니다.

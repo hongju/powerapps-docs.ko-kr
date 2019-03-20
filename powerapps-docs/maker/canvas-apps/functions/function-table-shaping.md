@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 056c5e1142b3a34776e72f788f5b2cef9e3b2a27
-ms.sourcegitcommit: 3dc330d635aaf5bc689efa6bd39826d6e396c832
-ms.translationtype: HT
+ms.openlocfilehash: 7b0701c9fcf7033ab8d57bb039972ce63c8faf29
+ms.sourcegitcommit: 4db9c763455d141a7e1dd569a50c86bd9e50ebf0
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "48875902"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "57802403"
 ---
 # <a name="addcolumns-dropcolumns-renamecolumns-and-showcolumns-functions-in-powerapps"></a>PowerApps에서 AddColumns, DropColumns, RenameColumns 및 ShowColumns 함수
 해당 [열](../working-with-tables.md#columns)을 추가, 삭제, 이름 바꾸기 및 선택하여 [테이블](../working-with-tables.md)을 셰이프합니다.
@@ -30,9 +30,12 @@ ms.locfileid: "48875902"
 * 테이블에 계산된 열을 추가합니다(예: **Quantity**에 **Unit Price**를 곱한 결과를 표시하는 **Total Price** 열).
 * 사용자에게 표시하거나 수식에서 사용할 수 있도록 열의 이름을 더 의미 있게 변경합니다.
 
-테이블은 문자열이나 숫자처럼 PowerApps의 값입니다.  테이블을 수식의 인수로 지정할 수 있으며 함수는 테이블을 결과로 반환할 수 있습니다. 이 토픽에서 설명하는 함수는 테이블을 수정하지 않습니다. 대신 테이블을 인수로 사용하며 적용되는 변환을 통해 새 테이블을 반환합니다.  자세한 내용은 [테이블 작업](../working-with-tables.md)을 참조하세요.  
+테이블은 문자열이나 숫자처럼 PowerApps의 값입니다.  테이블을 수식의 인수로 지정할 수 있으며 함수는 테이블을 결과로 반환할 수 있습니다.
 
-이러한 함수를 사용하여 [데이터 원본](../working-with-data-sources.md)의 열을 수정할 수는 없습니다. 데이터는 해당 원본에서 수정해야 합니다. **[Collect](function-clear-collect-clearcollect.md)** 함수를 사용하여 열을 [컬렉션](../working-with-data-sources.md#collections)에 추가할 수 있습니다.  자세한 내용은 [데이터 원본 작업](../working-with-data-sources.md)을 참조하세요.  
+> [!NOTE]
+> 이 항목에 설명 된 함수는 원래 테이블을 수정 하지 마세요. 대신, 해당 테이블을 인수로 사용 하며 적용 된 변환을 사용 하 여 새 테이블을 반환 합니다. 자세한 내용은 [테이블 작업](../working-with-tables.md)을 참조하세요.  
+
+이러한 함수를 사용하여 [데이터 원본](../working-with-data-sources.md)의 열을 수정할 수는 없습니다. 데이터는 해당 원본에서 수정해야 합니다. **[Collect](function-clear-collect-clearcollect.md)** 함수를 사용하여 열을 [컬렉션](../working-with-data-sources.md#collections)에 추가할 수 있습니다. 자세한 내용은 [데이터 원본 작업](../working-with-data-sources.md)을 참조하세요.  
 
 ## <a name="description"></a>설명
 **AddColumns** 함수는 열을 테이블에 추가하고, 수식은 해당 열의 값을 정의합니다. 기존 열은 수정되지 않고 유지됩니다.
@@ -62,7 +65,7 @@ ms.locfileid: "48875902"
 * *Table* - 필수 항목입니다.  연산을 수행할 테이블입니다.
 * *ColumnName(s)* - 필수 항목입니다. 삭제할 열의 이름입니다. 이 인수에 대해 문자열(예를 들어 큰따옴표가 포함된 **“Name”**)을 지정해야 합니다.
 
-**RenameColumns**( *Table*, *OldColumneName1*, *NewColumnName1* [, *OldColumnName2*, *NewColumnName2*, ... ] )
+**RenameColumns**( *Table*, *OldColumnName1*, *NewColumnName1* [, *OldColumnName2*, *NewColumnName2*, ... ] )
 
 * *Table* - 필수 항목입니다.  연산을 수행할 테이블입니다.
 * *OldColumnName* -필수 항목입니다. 원래 테이블에서 이름을 바꿀 열의 이름입니다. 이 요소는 인수 쌍의 맨 처음(또는 수식에 둘 이상의 쌍이 포함된 경우 각 인수 쌍의 처음)에 나타납니다. 이 이름은 문자열(예를 들어 큰따옴표가 포함된 **“Name”**)이어야 합니다.
@@ -85,7 +88,7 @@ ms.locfileid: "48875902"
 | **AddColumns( IceCreamSales, “Revenue”, UnitPrice * QuantitySold )** |**Revenue** 열을 결과에 추가합니다.  각 레코드의 경우 **UnitPrice * QuantitySold**가 평가되고 결과가 새 열에 배치됩니다. |<style> img { max-width: none; } </style> ![](media/function-table-shaping/icecream-add-revenue.png) |
 | **DropColumns( IceCreamSales, “UnitPrice” )** |**UnitPrice** 열을 결과에서 제외합니다. 이 함수를 사용하여 열을 제외하고 **ShowColumns**를 사용하여 포함합니다. |![](media/function-table-shaping/icecream-drop-price.png) |
 | **ShowColumns( IceCreamSales, “Flavor” )** |**Flavor** 열만 결과에 포함합니다. 이 함수를 사용하여 열을 포함하고 **DropColumns**를 사용하여 제외합니다. |![](media/function-table-shaping/icecream-select-flavor.png) |
-| **RenameColumns( IceCreamSales, “UnitPrice”, “Price”)** |결과에서 **UnitPrice** 열 이름을 변경합니다. |![](media/function-table-shaping/icecream-rename-price.png) |
+| **RenameColumns( IceCreamSales, “UnitPrice”, “Price”)** |이름을 바꿉니다는 **UnitPrice** 결과의 열입니다. |![](media/function-table-shaping/icecream-rename-price.png) |
 | **RenameColumns( IceCreamSales, “UnitPrice”, “Price”, “QuantitySold”, “Number”)** |결과에서 **UnitPrice** 및 **QuantitySold** 열의 이름을 바꿉니다. |![](media/function-table-shaping/icecream-rename-price-quant.png) |
 | **DropColumns(<br>RenameColumns(<br>AddColumns( IceCreamSales, “Revenue”,<br>UnitPrice * QuantitySold ),<br>“UnitPrice”, “Price” ),<br>“Quantity” )** |다음 테이블 변환을 수식의 내부부터 순서대로 수행합니다. <ol><li>**UnitPrice * Quantity**의 레코드별 계산을 기반으로 **Revenue** 열을 추가합니다.<li>**UnitPrice**의 이름을 **Price**로 변경합니다.<li>**Quantity** 열을 제외합니다.</ol>  순서는 중요합니다. 예를 들어 이름이 변경된 후에는 **UnitPrice**로 계산할 수 없습니다. |![](media/function-table-shaping/icecream-all-transforms.png) |
 

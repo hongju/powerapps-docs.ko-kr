@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 886479b4cd2f7e04e9949c99ba05e6219e92b2b3
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.openlocfilehash: 1cc589d1bff73777e0c20ed933a563e42b934f35
+ms.sourcegitcommit: 825daacc9a812637815afc1ce6fad28f0cebd479
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42859989"
+ms.lasthandoff: 03/04/2019
+ms.locfileid: "57803599"
 ---
 # <a name="errors-function-in-powerapps"></a>PowerApps의 Errors 함수
 [데이터 원본](../working-with-data-sources.md)의 이전 변경에 대한 오류 정보를 제공합니다.
@@ -72,15 +72,15 @@ ms.locfileid: "42859989"
 
 ![](media/function-errors/icecream.png)
 
-사용자가 앱을 통해 초콜릿 레코드를 데이터 입력 양식에 로드한 다음, **Quantity** 값을 90으로 변경합니다.  사용할 레코드는 다음과 같은 **EditRecord** [컨텍스트 변수](../working-with-variables.md#create-a-context-variable)에 배치됩니다.
+사용자가 앱을 통해 초콜릿 레코드를 데이터 입력 양식에 로드한 다음, **Quantity** 값을 90으로 변경합니다.  사용할 레코드는 다음과 같은 **EditRecord** [컨텍스트 변수](../working-with-variables.md#use-a-context-variable)에 배치됩니다.
 
-* **UpdateContext( { EditRecord: First( Filter( IceCream, Flavor = "초콜릿" ) ) } )**
+* **UpdateContext( { EditRecord: First( Filter( IceCream, Flavor = "Chocolate" ) ) } )**
 
 데이터 원본에서 이 변경 작업을 수행하려면 **[Patch](function-patch.md)** 함수를 다음과 같이 사용합니다.
 
 * **Patch( IceCream, EditRecord, Gallery.Updates )**
 
-여기서 **Gallery.Updates**는 **Quantity** 속성만 수정되었으므로 **{ Quantity: 90 }** 으로 평가됩니다.
+여기서 **Gallery.Updates** 로 **{Quantity: 90}**, 때문만 **수량** 속성이 수정 되었습니다.
 
 아쉽게도 **[Patch](function-patch.md)** 함수가 호출되기 직전에 다른 사람이 초콜릿에 대한 **Quantity**를 80으로 수정했습니다.  PowerApps는 이를 감지하고 충돌하는 변경이 발생하지 않도록 합니다.  다음 수식을 사용하여 이 상황을 확인할 수 있습니다.
 
@@ -90,7 +90,7 @@ ms.locfileid: "42859989"
 
 | 레코드 | 열 | 메시지 | 오류 |
 | --- | --- | --- | --- |
-| { Flavor: "초콜릿", Quantity: 100 } |*공백* |"다른 사용자가 수정하려는 레코드를 수정했습니다. 레코드를 다시 로드하여 다시 시도하십시오." |ErrorKind.Conflict |
+| {Flavor: "초콜릿", Quantity: 100 } |*공백* |"다른 사용자가 수정하려는 레코드를 수정했습니다. 레코드를 다시 로드하여 다시 시도하십시오." |ErrorKind.Conflict |
 
 양식에 레이블을 배치하여 사용자에게 이 오류를 표시할 수 있습니다.
 

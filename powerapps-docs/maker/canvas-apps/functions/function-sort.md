@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: d3a83f5ae96b8d9146163ed7d5ff4c4529f8d562
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.openlocfilehash: c405af25d0e3228939b908c081ea8b08ce674ea6
+ms.sourcegitcommit: 4db9c763455d141a7e1dd569a50c86bd9e50ebf0
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42830774"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "57802334"
 ---
 # <a name="sort-and-sortbycolumns-functions-in-powerapps"></a>PowerApps의 Sort 및 SortByColumns 함수
 [테이블](../working-with-tables.md)을 정렬합니다.
@@ -30,7 +30,7 @@ ms.locfileid: "42830774"
 
 [!INCLUDE [record-scope](../../../includes/record-scope.md)]
 
-하나의 열로 먼저 정렬 후 다른 열로 정렬하려면 **Sort** 수식을 다른 열에 삽입합니다. 예를 들어, **Contacts** 테이블을 **LastName** 열로 먼저 정렬한 다음, **FirstName** 열로 정렬하려면 이 수식(**Sort( Sort( Contacts, LastName ), FirstName )**)을 사용할 수 있습니다.
+하나의 열로 먼저 정렬 후 다른 열로 정렬하려면 **Sort** 수식을 다른 열에 삽입합니다. 예를 들어이 수식을 정렬에 사용할 수 있습니다는 **연락처** 하 여 먼저 테이블을 **LastName** 열 및 다음을 **FirstName** 열:  **Sort( Sort( Contacts, LastName ), FirstName )**
 
 **SortByColumns** 함수는 하나 이상의 열을 기준으로 테이블을 정렬하는 데 사용할 수도 있습니다.
 
@@ -86,7 +86,7 @@ ms.locfileid: "42830774"
 ### <a name="step-by-step"></a>단계별 가이드
 이러한 예제를 직접 실행하려면 [Collection](../working-with-data-sources.md#collections)과 같은 **IceCream** 데이터 원본을 만듭니다.
 
-1. 단추 하나를 추가하고 이 수식에 **[OnSelect](../controls/properties-core.md)** 속성을 설정합니다.<br>**ClearCollect( IceCream, { Flavor: "Chocolate", Quantity: 100, OnOrder: 150 }, { Flavor:  "Vanilla", Quantity: 200, OnOrder: 20 }, { Flavor: "Strawberry", Quantity: 300, OnOrder: 0 }, { Flavor: "Mint Chocolate", Quantity: 60, OnOrder: 100 }, { Flavor: "Pistachio", Quantity: 200, OnOrder: 10 } )**
+1. 단추 하나를 추가하고 이 수식에 **[OnSelect](../controls/properties-core.md)** 속성을 설정합니다.<br>**ClearCollect (IceCream, {Flavor: "초콜릿", Quantity: 100, OnOrder: 150 }, { Flavor:  "Vanilla", Quantity: 200, OnOrder: 20}, {flavor: "딸기", Quantity: 300, OnOrder: Id={0}, {flavor: "Mint Chocolate", Quantity: 60, OnOrder: 100}, {flavor: "Pistachio", Quantity: 200, OnOrder: 10 } )**
 2. 앱을 미리 보고, 단추를 선택한 다음, 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
 3. 바로 만든 컬렉션을 표시하려면 **File** 메뉴의 **Collections**를 선택한 다음, 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
 
@@ -103,7 +103,7 @@ ms.locfileid: "42830774"
 1. 또 다른 단추를 추가하고 이 수식에 **[OnSelect](../controls/properties-core.md)** 속성을 설정합니다.<br>
    **ClearCollect( SortByQuantity, SortByColumns( IceCream, "Quantity", Ascending, "Flavor", Descending ) )**
    
-     앞의 수식은 **Ice Cream**과 동일한 데이터를 포함하는 **SortByQuantity**라는 이름의 3번째 컬렉션을 만듭니다. 단, 새 컬렉션에는 오름차순의 **Quantity** 열로 사전순으로 정렬한 후, 내림차순의 **Flavor** 열로 사전순으로 정렬한 데이터가 포함됩니다.
+     앞의 수식은 **Ice Cream**과 동일한 데이터를 포함하는 **SortByQuantity**라는 이름의 3번째 컬렉션을 만듭니다. 새 컬렉션을 사전순으로 정렬 된 데이터를 포함 하는 반면 합니다 **수량** 열 오름차순으로 차례로 **Flavor** 열을 내림차순입니다.
 2. F5 키를 누르고 새 단추를 선택한 다음, Esc 키를 누릅니다.
 3. 세 컬렉션을 모두 표시하려면 **파일** 메뉴의 **Collections**를 선택한 다음, 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
 4. 마지막 세 단계를 반복하되, 만들려는 컬렉션의 이름을 변경하고, **SortByColumns** 수식을 **SortByColumns**를 사용하는 이 섹션 앞 부분의 예제 테이블의 다른 수식으로 교체합니다.

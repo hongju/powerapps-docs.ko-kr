@@ -1,38 +1,43 @@
 ---
 title: 오프라인에서 사용 가능한 캔버스 앱 개발 | Microsoft Docs
 description: 온라인에 있든 오프라인에 있든 사용자 생산성을 유지할 수 있도록 오프라인에서 사용 가능한 캔버스 앱을 개발합니다.
-author: mgblythe
+author: gregli-msft
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: ''
-ms.date: 05/09/2017
-ms.author: mblythe
+ms.date: 01/31/2019
+ms.author: gregli
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: f081369d75ec6f8fc29e6177b8173734d2462e03
-ms.sourcegitcommit: 097ddfb25eb0f09f0229b866668c2b02fa57df55
-ms.translationtype: HT
+ms.openlocfilehash: f9922c64769aeacd9b9b65cc3039b091ac7fe353
+ms.sourcegitcommit: bdee274ce4ae622f7af5f208041902e66e03d1b3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/24/2018
-ms.locfileid: "49991772"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "57800379"
 ---
 # <a name="develop-offline-capable-canvas-apps"></a>오프라인에서 사용 가능한 캔버스 앱 개발
 
-모바일 앱 개발자 권한으로 직면하는 가장 일반적인 시나리오 중 하나는 제한된 연결 또는 연결되지 않았을 때 사용자가 생산성을 사용해야 하는 경우입니다. PowerApps에는 오프라인에서 사용 가능한 캔버스 앱을 개발하는 데 도움이 되는 기능 및 동작의 집합이 있습니다. 다음과 같은 기능이 가능합니다.
+모바일 앱 개발자 권한으로 직면하는 가장 일반적인 시나리오 중 하나는 제한된 연결 또는 연결되지 않았을 때 사용자가 생산성을 사용해야 하는 경우입니다. PowerApps에는 오프라인에서 사용 가능한 캔버스 앱을 개발하는 데 도움이 되는 기능 및 동작의 집합이 있습니다. 당신은 할 수 있어요:
 
 * 오프라인 상태에서 PowerApps Mobile을 시작합니다.
 * 오프라인에서 개발한 앱을 실행합니다.
 * [연결](../canvas-apps/functions/signals.md#connection) 신호 개체를 사용하여 앱이 오프라인 상태인지, 온라인 상태인지, 요금제 연결인지를 확인합니다.
-* [컬렉션](../canvas-apps/create-update-collection.md)을 사용하고 오프라인에서 기본 데이터 저장소에 [LoadData 및 SaveData](../canvas-apps/functions/function-savedata-loaddata.md)와 같은 기능을 활용합니다.
+* [컬렉션](../canvas-apps/create-update-collection.md)을 사용하고 오프라인에서 기본 데이터 스토리지에 [LoadData 및 SaveData](../canvas-apps/functions/function-savedata-loaddata.md)와 같은 기능을 활용합니다.
 
-> [!NOTE]
-> 이 기능 영역은 아직 개발 중이며 현재 모든 시나리오에 최적화되어 있지 않습니다. 해당 디바이스의 로컬 디바이스 및 LoadData()에 대한 SaveData() 함수는 일반적으로 2MB를 초과하지 않는 데이터(예: 테이블에 있는 수십 개의 텍스트 레코드)를 통해 현재 구현할 때 가장 잘 작동합니다. 이 기능은 데이터를 로컬로 캐싱하여 캔버스 앱의 시작 성능을 향상시킬 뿐만 아니라 일부 기본 "오프라인" 시나리오에도 유용합니다. 그러나 이 기능을 사용하여 대량의 데이터를 저장(예: 테이블에 수천 개의 행을 저장하거나 큰 이미지 또는 비디오 캐싱)하면 현재 구현에서 오류나 예기치 않은 동작이 발생할 수 있으므로 피해야 합니다. 또한 이 함수는 디바이스가 오프라인에서 연결로 돌아갈 때 병합 충돌을 자동으로 해결하지 않습니다. 즉, 식을 작성할 때 어떤 데이터가 저장되고 재연결을 처리하는지에 대한 구성이 제조업체에 달려있습니다.
->
-> 오프라인 앱의 기능을 확장하고 안정성과 크기 제한을 증가시키며 (향후) 저장 대상 및 충돌 처리 방법에 대한 결정을 자동으로 처리하기 위해 노력하고 있습니다. 사용할 수 있게 되면 여기와 [PowerApps 블로그](https://powerapps.microsoft.com/blog/)에서 업데이트 내용을 확인합니다.
+## <a name="limitations"></a>제한 사항
+
+**LoadData** 하 고 **SaveData** 로컬 장치에 적은 양의 데이터를 저장 하는 간단한 메커니즘이를 결합 합니다. 이러한 함수를 사용 하 여 앱에 간단한 오프 라인 기능을 추가할 수 있습니다.  
+
+이러한 함수는 메모리 내 컬렉션에서 작동 하기 때문 사용 가능한 앱 메모리 양으로 제한 됩니다. 사용 가능한 메모리는 장치, 운영 체제, PowerApps Mobile이 사용 하는 메모리 및 화면 및 컨트롤 측면에서 앱의 복잡성에 따라 달라질 수 있습니다. 겨우 몇 메가바이트의 데이터를 저장 하는 경우는 예상 실행 장치에 필요한 시나리오를 사용 하 여 앱을 테스트 합니다. 일반적으로 사용 가능한 메모리의 30 및 메가바이트 사이인 되어야 합니다.  
+
+함수는 또한 하지 자동으로 병합 충돌을 해결할 오프 라인 장치에서 연결을 반환 하는 식을 작성 하는 경우 저장 되는 데이터와 다시 연결을 처리 하는 방법에 대 한 구성 작성자 달려 경우.
+
+오프 라인 시나리오에 대 한 기능을 확장 하기 위해 노력 하 합니다. 사용할 수 있게 되면 여기와 [PowerApps 블로그](https://powerapps.microsoft.com/blog/)에서 업데이트 내용을 확인합니다.
 
 ## <a name="how-to-build-offline-capable-apps"></a>오프라인에서 사용 가능한 앱을 빌드하는 방법
 
@@ -58,13 +63,13 @@ PowerApps의 가장 흥미로운 측면 중 하나는 데이터 원본에 관계
    * 로컬 캐시에 있는 모든 트윗을 게시합니다.
    * 로컬 캐시를 새로 고치고 [SaveData](../canvas-apps/functions/function-savedata-loaddata.md)를 사용하여 저장합니다.
 
-### <a name="step-1-create-a-new-phone-app"></a>1단계: 새 휴대폰 앱 만들기
+### <a name="step-1-create-a-new-phone-app"></a>1 단계: 새 전화 앱 만들기
 1. PowerApps Studio를 엽니다.
 2. **새로 만들기** > **비어 있는 앱** > **휴대폰 레이아웃**을 클릭하거나 누릅니다.
 
     ![비어 있는 앱, 휴대폰 레이아웃](./media/offline-apps/blank-app.png)
 
-### <a name="step-2-add-a-twitter-connection"></a>2단계: Twitter 연결 추가
+### <a name="step-2-add-a-twitter-connection"></a>2 단계: Twitter 연결 추가
 
 1. **콘텐츠** > **데이터 원본**을 클릭하거나 누르고 **데이터 원본** 패널에서 **데이터 원본 추가**를 선택합니다.
 
@@ -74,27 +79,18 @@ PowerApps의 가장 흥미로운 측면 중 하나는 데이터 원본에 관계
 
     ![Twitter 연결 추가](./media/offline-apps/twitter-connection.png)
 
-### <a name="step-3-load-tweets-into-a-localtweets-collection-on-app-startup"></a>3단계: 앱 시작 시 LocalTweets 컬렉션으로 트윗 로드
+### <a name="step-3-load-tweets-into-a-localtweets-collection-on-app-startup"></a>3 단계: 앱 시작 시 LocalTweets 컬렉션으로 트 윗 로드
 앱에서 **Screen1**의 **OnVisible** 속성을 선택하고, 다음 수식을 복사합니다.
 
-```
-If(Connection.Connected,
-
-    ClearCollect(LocalTweets, Twitter.SearchTweet("PowerApps", {maxResults: 100}));
-
-    UpdateContext({statusText: "Online data"})
-
-    ,
-
+```powerapps-dot
+If( Connection.Connected,
+    ClearCollect( LocalTweets, Twitter.SearchTweet( "PowerApps", {maxResults: 100} ) );
+        UpdateContext( {statusText: "Online data"} ),
     LoadData(LocalTweets, "Tweets", true);
-
-    UpdateContext({statusText: "Local data"})
-
+        UpdateContext( {statusText: "Local data"} )
 );
-
-LoadData(LocalTweetsToPost, "LocalTweets", true);
-
-SaveData(LocalTweets, "Tweets")
+LoadData( LocalTweetsToPost, "LocalTweets", true );
+SaveData( LocalTweets, "Tweets" )
 ```
 
 ![트윗을 로드하는 수식](./media/offline-apps/load-tweets.png)
@@ -106,7 +102,7 @@ SaveData(LocalTweets, "Tweets")
 
 ### <a name="step-4-add-a-gallery-and-bind-it-to-the-localtweets-collection"></a>4단계: 갤러리 추가 및 LocalTweets 컬렉션에 바인딩
 
-1. 새로운 높이 조정 가능 갤러리를 삽입합니다. **삽입** > **갤러리** > **높이 조정 가능(비어 있음)**
+1. 새로운 유연한 높이 갤러리를 삽입 합니다. **삽입** > **갤러리** > **유연한 높이 비워 두면**합니다.
 
 2. **항목** 속성을 **LocalTweets**으로 설정합니다.
 
@@ -120,36 +116,28 @@ SaveData(LocalTweets, "Tweets")
 ### <a name="step-5-add-a-connection-status-label"></a>5단계: 연결 상태 레이블 추가
 새 **레이블** 컨트롤을 삽입하고 **텍스트** 속성을 다음 수식으로 설정합니다.
 
-```
-If (Connection.Connected, "Connected", "Offline")
-```
+```If( Connection.Connected, "Connected", "Offline" )```
 
 이 수식은 디바이스가 온라인 상태인지를 확인합니다. 이러한 경우 레이블 텍스트가 "연결됨"이고, 그렇지 않으면 "오프라인"입니다.
 
-### <a name="step-6-add-a-text-input-to-compose-new-tweets"></a>6단계: 새 트윗을 작성하는 텍스트 입력 추가
+### <a name="step-6-add-a-text-input-to-compose-new-tweets"></a>6 단계: 새 트 윗을 작성 하는 텍스트 입력 추가
 
 1. "NewTweetTextInput"이라는 새 **텍스트 입력** 컨트롤을 삽입합니다.
 
 2. 텍스트 입력의 **재설정** 속성을 **resetNewTweet**으로 설정합니다.
 
-### <a name="step-7-add-a-button-to-post-the-tweet"></a>7단계: 트윗을 게시하는 단추 추가
+### <a name="step-7-add-a-button-to-post-the-tweet"></a>7 단계: 트 윗을 게시 하는 단추 추가
 1. **단추** 컨트롤을 추가하고 **Text** 속성을 "트윗"으로 설정합니다.
 2. **OnSelect** 속성을 다음 수식으로 설정합니다.
 
-    ```
-    If (Connection.Connected,
-
-        Twitter.Tweet("", {tweetText: NewTweetTextInput.Text}),
-
-        Collect(LocalTweetsToPost, {tweetText: NewTweetTextInput.Text});
-
-        SaveData(LocalTweetsToPost, "LocalTweetsToPost")
-
+    ```powerapps-dot
+    If( Connection.Connected,
+        Twitter.Tweet( "", {tweetText: NewTweetTextInput.Text} ),
+        Collect( LocalTweetsToPost, {tweetText: NewTweetTextInput.Text} );
+            SaveData( LocalTweetsToPost, "LocalTweetsToPost" )
     );
-
-    UpdateContext({resetNewTweet: true});
-
-    UpdateContext({resetNewTweet: false})
+    UpdateContext( {resetNewTweet: true} );
+    UpdateContext( {resetNewTweet: false} )
     ```  
 
 이 수식은 디바이스가 온라인 상태인지를 확인합니다.
@@ -159,7 +147,7 @@ If (Connection.Connected, "Connected", "Offline")
 
 그런 다음 수식은 텍스트 상자에서 텍스트를 다시 설정합니다.
 
-### <a name="step-8-add-a-timer-to-check-for-tweets-every-five-minutes"></a>8단계: 5분마다 트윗을 확인하도록 타이머 추가
+### <a name="step-8-add-a-timer-to-check-for-tweets-every-five-minutes"></a>8 단계: 5 분 마다 트 윗을 확인 하도록 타이머 추가
 새 **타이머** 컨트롤을 추가합니다.
 
 * **기간** 속성을 300000으로 설정합니다.
@@ -168,18 +156,13 @@ If (Connection.Connected, "Connected", "Offline")
 
 * **OnTimerEnd**를 다음 수식으로 설정합니다.
 
-    ```
-    If(Connection.Connected,
-
-        ForAll(LocalTweetsToPost, Twitter.Tweet("", {tweetText: tweetText}));
-
-        Clear(LocalTweetsToPost);
-
-        Collect(LocalTweetsToPost, {tweetText: NewTweetTextInput.Text});
-
-        SaveData(LocalTweetsToPost, "LocalTweetsToPost");
-
-        UpdateContext({statusText: "Online data"})
+    ```powerapps-dot
+    If( Connection.Connected,
+        ForAll( LocalTweetsToPost, Twitter.Tweet( "", {tweetText: tweetText} ) );
+        Clear( LocalTweetsToPost);
+        Collect( LocalTweetsToPost, {tweetText: NewTweetTextInput.Text} );
+        SaveData( LocalTweetsToPost, "LocalTweetsToPost" );
+        UpdateContext( {statusText: "Online data"} )
     )
     ```
 

@@ -13,18 +13,18 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: ba7d48104d9fdf85573029cc510af2c29d3f6ca0
-ms.sourcegitcommit: 5db6e3ac3a622de313a1102417397e126c3f92f2
-ms.translationtype: HT
+ms.openlocfilehash: 82a7089ec14753a70d52d09024d1df527dbeb866
+ms.sourcegitcommit: a06e3137e3cb36414f0d61825bbc687487ea6f8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2018
-ms.locfileid: "45640357"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "57804266"
 ---
 # <a name="power-bi-tile-control-in-powerapps"></a>PowerApps의 Power BI 타일 컨트롤
 
 앱 내부에 있는 [Power BI](https://powerbi.microsoft.com) 타일을 보여주는 컨트롤입니다.
 
-Power BI가 없나요? [가입](https://docs.microsoft.com/power-bi/service-self-service-signup-for-power-bi)하세요.
+Power BI가 없으십니까? [가입](https://docs.microsoft.com/power-bi/service-self-service-signup-for-power-bi)하세요.
 
 ## <a name="description"></a>설명
 
@@ -34,9 +34,23 @@ Power BI가 없나요? [가입](https://docs.microsoft.com/power-bi/service-self
 
 Power BI 콘텐츠가 포함된 앱을 공유하는 경우 타일을 제공하는 [대시보드](https://docs.microsoft.com/power-bi/service-how-to-collaborate-distribute-dashboards-reports)뿐만 아니라 앱 자체를 공유해야합니다. 그렇지 않은 경우 Power BI 콘텐츠는 앱을 여는 사용자에 대해서도 표시되지 않습니다. Power BI 콘텐츠가 포함된 앱에는 해당 콘텐츠에 대한 사용 권한을 적용합니다.
 
-## <a name="performance"></a>Performance
+## <a name="performance"></a>성능
 
 네 개 이상의 Power BI 타일을 앱 내에서 동시에 로드하지 않는 것이 좋습니다. **LoadPowerBIContent** 속성을 설정하여 타일 로드 및 언로드를 제어할 수 있습니다.
+
+## <a name="pass-a-parameter"></a>매개 변수 전달
+
+에 앱에서 단일 매개 변수를 전달 하 여 Power BI 타일에 표시 되는 결과 필터링 할 수 있습니다. 그러나 문자열 값과 같음 연산자만 지원 됩니다 및 테이블 이름 또는 열 이름에 공백이 포함 된 경우 필터 작동 하지 않을 수 있습니다.
+
+단일 필터 값을 전달 하려면 값을 수정 합니다 **TileURL** 이 구문에 따라 속성:
+
+```"https://app.powerbi.com/embed?dashboardId=<DashboardID>&tileId=<TileID>&config=<SomeHash>" ```
+
+해당 값이이 구문을 추가 합니다.
+
+```&$filter=<TableName>/<ColumnName> eq "<Value>" ```
+
+매개 변수 타일이 만들어진 보고서의 데이터 집합의 값을 필터링 됩니다.
 
 ## <a name="key-properties"></a>주요 속성
 

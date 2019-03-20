@@ -7,18 +7,18 @@ ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
 ms.reviewer: anneta
-ms.date: 06/09/2018
+ms.date: 11/14/2018
 ms.author: gregli
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: a45aa397aa65e11ab01e04367d859e11bf552f66
-ms.sourcegitcommit: 3aeb9381fbeb66cf08355d9a3d0f00ce2737e256
-ms.translationtype: HT
+ms.openlocfilehash: 3da9d769ab36df23c6c54510937adea2ce38863f
+ms.sourcegitcommit: b8b2a2c3cf3300fa52bdf71bfef6a2892e36cffc
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43164565"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57802633"
 ---
 # <a name="guid-function-in-powerapps"></a>PowerApps의 GUID 함수
 GUID([전역적으로 고유 식별자](https://en.wikipedia.org/wiki/Universally_unique_identifier)) 문자열을 GUID 값으로 변환하거나 새 GUID 값을 만듭니다.
@@ -35,11 +35,7 @@ GUID([전역적으로 고유 식별자](https://en.wikipedia.org/wiki/Universall
 
 GUID 값을 문자열로 변환하려면 문자열 컨텍스트에서 사용합니다. GUID 값은 하이픈과 소문자로 구성된 16진수 표현 문자열로 변환됩니다. 
 
-> [!NOTE]
-> 현재 GUID 값을 문자열과 직접 비교할 수 있는 알려진 버그가 있습니다.  이 동작은 곧 변경되어 오류가 발생하므로 이 동작을 사용하지 마세요.  문자열을 GUID 값과 비교하려면 먼저 문자열을 GUID 함수를 사용하여 GUID 값으로 변환한 다음, GUID 값을 비교합니다.  이렇게 하면 두 값을 모두 정규화하여 깔끔하게 비교할 수 있습니다.  이렇게 하지 않으면 GUID 값이 자동으로 문자열로 변환되고 비교는 문자열의 모든 알파벳 문자의 대/소문자에 따라 달라집니다.
-
-> [!NOTE]
-> 현재 데이터베이스에 GUID 값을 읽거나 쓸 수 있는 방법이 없습니다.  Common Data Service 및 SQL Server에 대한 지원은 로드맵에 있습니다. 
+이 함수는 버전 4 만들려면 의사 (pseudo) 난수를 사용 하는 새 GUID를 생성 하는 경우 [IETF RFC 4122](https://www.ietf.org/rfc/rfc4122.txt) GUID입니다. GUID를 문자열로 변환할 때이 함수는 32 자리 16 진수 문자열을 수락 하 여 모든 GUID 버전을 지원 합니다.
 
 ## <a name="volatile-functions"></a>일시적 함수
 **GUID**는 인수 없이 사용되는 일시적 함수입니다. 이러한 함수는 평가될 때마다 다른 값을 반환합니다.  
@@ -57,7 +53,6 @@ GUID 값을 문자열로 변환하려면 문자열 컨텍스트에서 사용합�
 ## <a name="syntax"></a>구문
 **GUID**( [ *GUIDString* ] )
 
-
 * *GUIDString* – 선택 사항입니다.  GUID의 16진수 표현을 포함하는 텍스트 문자열입니다. 문자열이 제공되지 않으면 새 GUID가 생성됩니다.
 
 ## <a name="examples"></a>예
@@ -74,7 +69,7 @@ GUID 값을 문자열로 변환하려면 문자열 컨텍스트에서 사용합�
 
 컨텍스트에서 사용하여 새 데이터베이스 레코드의 **상태** 필드를 잘 설정된 값으로 설정합니다.
 
-* **패치( 제품, 기본값( 제품 ), { Status: GUID( "F9168C5E-CEB2-4faa-B6BF-329BF39FA1E4" ) } )**
+* **Patch (제품 (제품) 기본 {0} 상태: GUID( "F9168C5E-CEB2-4faa-B6BF-329BF39FA1E4" ) } )**
 
 사용자에게 GUID를 표시하지 않을 수도 있지만 GUID를 사용하면 응용 프로그램을 디버그하는 데 도움이 될 수 있습니다. 이전 예에서 만든 레코드에서 **상태** 필드 값을 표시하려면 **레이블** 컨트롤의 **텍스트** 속성을 다음 수식으로 설정합니다.
 

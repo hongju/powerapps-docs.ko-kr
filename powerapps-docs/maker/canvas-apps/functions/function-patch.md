@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 64641b0cc0822a955de2b1c9e53692dac9dfcf31
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.openlocfilehash: 3adb036a1619263d2b8cef1f649c2d2f97925ceb
+ms.sourcegitcommit: 825daacc9a812637815afc1ce6fad28f0cebd479
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42865489"
+ms.lasthandoff: 03/04/2019
+ms.locfileid: "57803139"
 ---
 # <a name="patch-function-in-powerapps"></a>PowerApps의 Patch 함수
 [데이터 원본](../working-with-data-sources.md)의 [레코드](../working-with-tables.md#records)를 하나 이상 수정 또는 생성하거나 데이터 원본 외부의 레코드를 병합합니다.
@@ -30,21 +30,21 @@ ms.locfileid: "42865489"
 ## <a name="overview"></a>개요
 데이터 원본의 레코드를 하나 이상 수정하려면 **Patch** 함수를 사용합니다.  특정 [필드](../working-with-tables.md#elements-of-a-table)의 값은 다른 속성에 영향을 주지 않고 수정됩니다. 예를 들어 다음 수식은 Contoso라는 고객의 전화 번호를 변경합니다.
 
-**Patch( Customers, First( Filter( Customers, Name = "Contoso" ) ), { Phone: “1-212-555-1234” } )**
+`Patch( Customers, First( Filter( Customers, Name = "Contoso" ) ), { Phone: “1-212-555-1234” } )`
 
 레코드를 생성하려면 **Patch**를 **[Defaults](function-defaults.md)** 함수와 함께 사용합니다. 이 동작을 사용하여 레코드를 만들고 편집할 수 있는 [단일 화면](../working-with-data-sources.md)을 만듭니다. 예를 들어 다음 수식은 Contoso라는 고객의 레코드를 만듭니다.
 
-**Patch( Customers, Defaults( Customer ), { Name: “Contoso” } )**
+`Patch( Customers, Defaults( Customer ), { Name: “Contoso” } )`
 
 데이터 원본으로 작업하지 않더라도 **Patch**를 사용하여 둘 이상의 레코드를 병합할 수 있습니다. 예를 들어 다음 수식은 Contoso의 전화 번호와 위치를 식별하는 두 개의 레코드를 하나로 병합합니다.
 
-**Patch( { Name: "Contoso", Phone: “1-212-555-1234” }, { Name: "Contoso", Location: “Midtown”  } )**
+`Patch( { Name: "Contoso", Phone: “1-212-555-1234” }, { Name: "Contoso", Location: “Midtown”  } )`
 
 ## <a name="description"></a>설명
 ### <a name="modify-or-create-a-record-in-a-data-source"></a>데이터 원본의 레코드 수정 또는 만들기
 이 함수를 데이터 원본과 함께 사용하려면 데이터 원본을 지정한 다음, 기본 레코드를 지정합니다.
 
-* 레코드를 수정하려면 데이터 원본에서 기본 레코드를 가져와야 합니다.  기본 레코드는 갤러리의 **[Items](../controls/properties-core.md)** 속성을 통해 오거나 [컨텍스트 변수](../working-with-variables.md#create-a-context-variable)에 있거나 다른 경로를 통해 올 수 있습니다. 다만, 기본 레코드를 데이터 원본으로 다시 추적할 수 있어야 합니다.  레코드에는 수정을 위해 다시 레코드를 찾는 데 도움이 되는 추가 정보가 포함되기 때문에 중요합니다.  
+* 레코드를 수정하려면 데이터 원본에서 기본 레코드를 가져와야 합니다.  기본 레코드는 갤러리의 **[Items](../controls/properties-core.md)** 속성을 통해 오거나 [컨텍스트 변수](../working-with-variables.md#use-a-context-variable)에 있거나 다른 경로를 통해 올 수 있습니다. 다만, 기본 레코드를 데이터 원본으로 다시 추적할 수 있어야 합니다.  레코드에는 수정을 위해 다시 레코드를 찾는 데 도움이 되는 추가 정보가 포함되기 때문에 중요합니다.  
 * 레코드를 만들려면 **[Defaults](function-defaults.md)** 함수를 사용하여 기본값으로 기본 레코드를 만듭니다.  
 
 그런 다음, 기본 레코드의 속성 값을 재정의하는 새 속성이 포함된 변경 레코드를 하나 이상 지정합니다. 변경 레코드는 인수 목록의 처음부터 끝까지 순서대로 처리되며, 이후 속성 값이 이전 속성 값보다 우선합니다.
@@ -76,7 +76,7 @@ ms.locfileid: "42865489"
 * *ChangeRecord(s)* – 필수 항목입니다.  *BaseRecord*에서 수정할 속성이 포함된 하나 이상의 레코드입니다.  변경 레코드는 인수 목록의 처음부터 끝까지 순서대로 처리되며, 이후 속성 값이 이전 속성 값보다 우선합니다.
 
 #### <a name="modify-or-create-a-set-of-records-in-a-data-source"></a>데이터 원본의 레코드 집합 수정 또는 만들기
-**Patch**( *DataSource*, *BaseRecordsTable*, *ChageRecordTable1*, [, *ChangeRecordTable2*, … ] )
+**Patch**( *DataSource*, *BaseRecordsTable*, *ChangeRecordTable1* [, *ChangeRecordTable2*, … ] )
 
 * *DataSource* – 필수 항목입니다. 수정할 레코드를 포함하거나 만들려는 레코드가 포함될 데이터 원본입니다.
 * *BaseRecordTable* – 필수 항목입니다. 수정하거나 만들 레코드 테이블입니다.  데이터 원본에서 레코드를 받으면 레코드가 발견되고 수정됩니다. **[Defaults](function-defaults.md)** 의 결과가 사용되면 레코드가 생성됩니다.

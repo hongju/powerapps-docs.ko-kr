@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 6625df3f822462c86de1f720b7a310f5e516a6ca
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.openlocfilehash: 25cae936ace1dcd3108f11271e3fe38cb41ae2e7
+ms.sourcegitcommit: 55c6af2f767e90c999eea4d29589c1fe19dfc4db
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42849874"
+ms.lasthandoff: 01/22/2019
+ms.locfileid: "54443738"
 ---
 # <a name="calendar-and-clock-functions-in-powerapps"></a>PowerApps의 Calendar 및 Clock 함수
 현재 로캘에 대한 달력 및 시계 정보를 검색합니다.
@@ -66,11 +66,11 @@ ms.locfileid: "42849874"
 
 | 수식 | 설명 | 결과 |
 | --- | --- | --- |
-| **Calendar.MonthsLong()** |반환 값에 각 월의 전체 이름이 "January"부터 포함됩니다. |[ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ] |
-| **Calendar.MonthsShort()** |반환 값에 각 월의 약식 이름이 "Jan"부터 포함됩니다. |[ "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" ] |
-| **Calendar.WeekdaysLong()** |반환 값에 각 요일의 전체 이름이 "Sunday"부터 포함됩니다. |[ "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" ] |
-| **Calendar.WeekdaysShort()** |반환 값에 각 요일의 약식 이름이 "Sun"부터 포함됩니다. |[ "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" ] |
-| **Clock.AmPm()** |이 언어는 12시간제를 사용합니다.  반환 값에 전체 AM 및 PM 지정의 대문자 버전이 포함됩니다. |[ "AM", "PM" ] |
-| **Clock.AmPmShort()** |이 언어는 12시간제를 사용합니다.  반환 값에 짧은 AM 및 PM 지정의 대문자 버전이 포함됩니다. |[ "A", "P" ] |
+| **Calendar.MonthsLong()** |반환 값에는 "January"부터 각 월의 전체 이름을 포함 합니다. |[ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ] |
+| **Calendar.MonthsShort()** |반환 값에는 "January"부터 각 월의 약식된 이름을 포함 합니다. |[ "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" ] |
+| **Calendar.WeekdaysLong()** |반환 값에는 "Sunday"부터 매일의 전체 이름을 포함 합니다. |[ "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" ] |
+| **Calendar.WeekdaysShort()** |반환 값에는 "Sunday"부터 매일의 약식된 이름을 포함 합니다. |[ "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" ] |
+| **Clock.AmPm()** |이 언어는 12시간제를 사용합니다. 반환 값에 전체 AM 및 PM 지정의 대문자 버전이 포함됩니다. |[ "AM", "PM" ] |
+| **Clock.AmPmShort()** |이 언어는 12시간제를 사용합니다. 반환 값에 짧은 AM 및 PM 지정의 대문자 버전이 포함됩니다. |[ "A", "P" ] |
 | **Clock.IsClock24()** |이 언어는 12시간제를 사용합니다. |**false** |
 

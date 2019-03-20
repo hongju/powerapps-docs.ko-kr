@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 0ac3f0549e89153d9362d6a8a040833608d4e287
-ms.sourcegitcommit: 2300de0a0486187762f830068c872116d5b04c32
-ms.translationtype: HT
+ms.openlocfilehash: 5752781cf99a538d76e9dd9197aa4f8b8abce53e
+ms.sourcegitcommit: ba5542ff1c815299baa16304c6e0b5fed936e776
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49806205"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54308573"
 ---
 # <a name="groupby-and-ungroup-functions-in-powerapps"></a>PowerApps의 GroupBy 및 Ungroup 함수
 [테이블](../working-with-tables.md)의 [레코드](../working-with-tables.md#records)를 그룹화하고 그룹을 해제합니다.
@@ -49,7 +49,7 @@ ms.locfileid: "49806205"
 
 * *Table* - 필수 항목입니다. 그룹화할 테이블입니다.
 * *ColumnName(s)* - 필수 항목입니다.  레코드를 그룹화할 기준이 되는 *테이블*의 열 이름입니다.  이 열은 결과 테이블의 열이 됩니다.
-* *GroupColumnName* - 필수 항목입니다.  *ColumnName(s)* 에 없는 레코드 데이터의 저장소에 대한 열 이름입니다.
+* *GroupColumnName* - 필수 항목입니다.  *ColumnName(s)* 에 없는 레코드 데이터의 스토리지에 대한 열 이름입니다.
   
     > [!NOTE]
   > 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 각 공백을 **"\_x0020\_"** 으로 지정합니다. 예를 들어, **"Column Name"** 은 **"Column_x0020_Name"** 으로 지정합니다.
@@ -66,8 +66,21 @@ ms.locfileid: "49806205"
 ### <a name="create-a-collection"></a>컬렉션 만들기
 1. 단추를 추가하고 단추가 **원본**으로 표시되도록 **[Text](../controls/properties-core.md)** 속성을 설정합니다.
 2. **원본** 단추의 **[OnSelect](../controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.
-   
-    **ClearCollect(CityPopulations, {City:"London", Country:"United Kingdom", Population:8615000}, {City:"Berlin", Country:"Germany", Population:3562000}, {City:"Madrid", Country:"Spain", Population:3165000}, {City:"Rome", Country:"Italy", Population:2874000}, {City:"Paris", Country:"France", Population:2273000}, {City:"Hamburg", Country:"Germany", Population:1760000}, {City:"Barcelona", Country:"Spain", Population:1602000}, {City:"Munich", Country:"Germany", Population:1494000}, {City:"Milan", Country:"Italy", Population:1344000})**
+
+```powerapps-dot   
+ClearCollect( CityPopulations, 
+    { City: "London",    Country: "United Kingdom", Population: 8615000}, 
+    { City: "Berlin",    Country: "Germany",        Population: 3562000}, 
+    { City: "Madrid",    Country: "Spain",          Population: 3165000}, 
+    { City: "Rome",      Country: "Italy",          Population: 2874000}, 
+    { City: "Paris",     Country: "France",         Population: 2273000}, 
+    { City: "Hamburg",   Country: "Germany",        Population: 1760000}, 
+    { City: "Barcelona", Country: "Spain",          Population: 1602000}, 
+    { City: "Munich",    Country: "Germany",        Population: 1494000}, 
+    { City: "Milan",     Country: "Italy",          Population: 1344000}
+)
+```
+
 3. Alt 키를 누른 상태에서 **원본** 단추를 선택합니다.
    
     다음 데이터가 포함된 **CityPopulations**라는 [컬렉션](../working-with-data-sources.md#collections)이 생성되었습니다.

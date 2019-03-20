@@ -1,24 +1,24 @@
 ---
 title: SharePoint 연결 개요 | Microsoft Docs
 description: SharePoint의 사용 가능한 함수, 응답 및 예제 참조
-author: sarafankit
+author: NickWaggoner
 manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 07/12/2017
-ms.author: ankitsar
+ms.author: niwaggon
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 0a13d2602f06f436d4b805669b004f1ee63daeb9
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: c7f973b9a62e50ea646999d6d10b185fb02306dd
+ms.sourcegitcommit: 90245baddce9d92c3ce85b0537c1ac1cf26bf55a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42836738"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "57798930"
 ---
 # <a name="connect-to-sharepoint-from-powerapps"></a>PowerApps에서 SharePoint 연결
 ![SharePoint](./media/connection-sharepoint-online/sharepointicon.png)
@@ -62,7 +62,7 @@ PowerApps는 공백이 포함된 열을 읽을 수 있지만 공백은 16진수 
 
     해당 앱에는 기본적으로 3개의 화면이 있는데 레코드를 검색하고, 레코드에 대한 세부 정보를 표시하며, 레코드를 생성 또는 업데이트하기 위한 화면들입니다. 앱을 생성한 후에는 [찾아보기 화면](../customize-layout-sharepoint.md) 및 [세부 정보 및 편집 화면](../customize-forms-sharepoint.md)을 필요에 따라 사용자 지정하고자 할 수 있습니다.
 
-    **참고**: SharePoint 목록에 **선택**, **조회** 또는 **개인 또는 그룹** 열이 포함된 경우 이 항목의 뒷부분에 나오는 [갤러리에 데이터 표시](connection-sharepoint-online.md#show-data-in-a-gallery)를 참조하세요.
+    **참고:** SharePoint 목록에 포함 된 경우는 **선택**, **조회**, 또는 **개인 또는 그룹** 열을 참조 하세요 [갤러리에 데이터를 표시](connection-sharepoint-online.md#show-data-in-a-gallery) 이 항목의 뒷부분에 나오는.
 
 * [SharePoint에 연결](../connect-to-sharepoint.md)하고 [앱을 처음부터 만들기](../get-started-create-from-blank.md)의 개념을 검토하고 Excel 대신 SharePoint에 적용하여 자체 앱을 처음부터 만듭니다.
 
@@ -91,7 +91,7 @@ PowerApps는 공백이 포함된 열을 읽을 수 있지만 공백은 16진수 
 
        ![자격 증명 지정](./media/connection-sharepoint-online/specify-creds.png)
 
-       **참고**: 온-프레미스 데이터 게이트웨이를 설치하지 않은 경우 [게이트웨이를 설치](../gateway-reference.md)한 다음 아이콘을 클릭하거나 탭하여 게이트웨이 목록을 새로 고칩니다.
+       **참고:** 온-프레미스 데이터 게이트웨이를 설치하지 않은 경우 [하나를 설치](../gateway-reference.md)한 다음 게이트웨이 목록을 새로 고침하는 아이콘을 클릭하거나 탭합니다.
 
        **게이트웨이 선택** 아래에서 사용하려는 게이트웨이를 클릭하거나 탭합니다.
 
@@ -128,7 +128,7 @@ PowerApps는 공백이 포함된 열을 읽을 수 있지만 공백은 16진수 
 
     이메일 주소나 직함 등과 같은 다른 사용자 정보를 표시할 수도 있습니다. 전체 옵션 목록을 표시하려면 **ThisItem.[ColumnName].** 을 지정합니다 (맨 마지막에 마침표 있음).
 
-    **참고**: **CreatedBy** 열에 대해 목록에서 항목을 만든 사용자의 표시 이름을 표시하려면 **ThisItem.Author.DisplayName**을 지정합니다. **ModifiedBy** 열에 대해 목록에서 항목을 변경한 사용자의 표시 이름을 표시하려면 **ThisItem.Editor.DisplayName**을 지정합니다.
+    **참고:** 에 대 한는 **CreatedBy** 열을 지정 **ThisItem.Author.DisplayName** 목록에서 항목을 만든 사용자의 표시 이름을 표시 합니다. **ModifiedBy** 열에 대해 목록에서 항목을 변경한 사용자의 표시 이름을 표시하려면 **ThisItem.Editor.DisplayName**을 지정합니다.
 
 * **관리되는 메타데이터** 열에 대해 해당 열에 데이터를 표시하도록 **ThisItem.[ColumnName].Label**을 지정합니다.
 

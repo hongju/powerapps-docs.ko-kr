@@ -1,24 +1,24 @@
 ---
 title: 웹 사이트 및 기타 서비스로 캔버스 앱 통합 | Microsoft Docs
 description: 웹 사이트 및 기타 서비스로 앱을 포함합니다.
-author: mgblythe
+author: gregli-msft
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: ''
 ms.date: 10/20/2017
-ms.author: mblythe
+ms.author: gregli
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 254d127237cff58728f208d62c30bf7aeb456a80
-ms.sourcegitcommit: 097ddfb25eb0f09f0229b866668c2b02fa57df55
-ms.translationtype: HT
+ms.openlocfilehash: a6b23b97195f000e6e17bb6fd6f0e9f3a2da4f09
+ms.sourcegitcommit: 90245baddce9d92c3ce85b0537c1ac1cf26bf55a
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/24/2018
-ms.locfileid: "49991841"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "57799045"
 ---
 # <a name="integrate-canvas-apps-into-websites-and-other-services"></a>웹 사이트 및 기타 서비스로 캔버스 앱 통합
 빌드하는 앱은 종종 사용자가 작업하는 위치에서 바로 사용할 수 있을 때 가장 유용합니다. PowerApps를 사용하면 해당 앱을 웹 사이트와 Power BI 또는 SharePoint와 같은 다른 서비스에 통합할 수 있도록 iframe에 캔버스 앱을 포함할 수 있습니다.

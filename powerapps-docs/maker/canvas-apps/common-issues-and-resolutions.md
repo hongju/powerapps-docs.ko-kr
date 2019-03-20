@@ -7,18 +7,18 @@ ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: ''
-ms.date: 08/02/2018
+ms.date: 11/09/2018
 ms.author: anneta
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: f5701f85d28d987229aa56756b5c1817892bd5c0
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.openlocfilehash: 3c3b559be5f27c6ead9a4ea2f02027637c8aea8e
+ms.sourcegitcommit: 67f9974ee2fa06773c729876ba7ef95145c63a07
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42855105"
+ms.lasthandoff: 01/14/2019
+ms.locfileid: "54253080"
 ---
 # <a name="common-issues-and-resolutions-for-powerapps"></a>PowerApps의 일반적인 문제 및 해결 방법
 
@@ -26,11 +26,23 @@ ms.locfileid: "42855105"
 
 ## <a name="added-after-february-2018"></a>2018년 2월 이후에 추가됨
 
+1. **Android 모바일 장치에서 카메라 문제** (2019 1 월 1 년)
+
+    카메라 컨트롤 Android 장치에서 작동 중지 하는 경우 앱을 다시 게시 및 장치에서 다시 합니다. Android 운영 체제의 변경에 대 한 응답에서 업데이트 되었습니다. 카메라 컨트롤을 다시 게시할 때 앱 업데이트 이점을 합니다.
+
+1. **유연한 높이 갤러리 스크롤** (11 월 27 2018 년 6)
+
+    손가락으로 스크롤할 때 제한 사항에 실행 하면 들지 및 스크롤을 다시 시작 합니다.
+
+1. **PowerApps에 대 한 Windows에 마우스 또는 터치 입력을 사용 하 여 드로잉을 부드러운 없는** (Sep. 24, 2018)
+
+    펜 컨트롤 Windows 앱의 입력에 터치 또는 마우스를 사용 하 여 그리기에 대 한 지원 부분에만 있습니다. 스트로크는 간헐적으로 발생 될 수 있습니다. 부드러운 그리기 펜을 사용 하거나 브라우저에서 앱을 실행 합니다.
+
 1. **PowerApps Mobile의 여러 미디어 컨트롤**(2018년 8월 2일)
 
-    PowerApps Mobile은 다양한 유형의 장치에서 실행되며 그 중 일부는 해당 플랫폼과 관련된 제한 사항이 있습니다.
+    PowerApps Mobile은 다양한 유형의 디바이스에서 실행되며 그 중 일부는 해당 플랫폼과 관련된 제한 사항이 있습니다.
 
-    - iPhone 장치를 제외한 모든 플랫폼에서 여러 **비디오** 컨트롤로 동시에 비디오를 재생할 수 있습니다.
+    - iPhone 디바이스를 제외한 모든 플랫폼에서 여러 **비디오** 컨트롤로 동시에 비디오를 재생할 수 있습니다.
     - 웹 플레이어를 제외한 모든 플랫폼에서 여러 **마이크로폰** 컨트롤로 동시에 오디오를 녹음할 수 있습니다.
 
 1. **앱 다시 게시**(2018년 8월 2일)
@@ -39,7 +51,7 @@ ms.locfileid: "42855105"
 
 1. <a name="out-of-memory"></a>**브라우저 메모리 부족**(2018년 7월 23일)
 
-    PowerApp을 사용하는 동안 메모리가 부족하면 64비트 버전의 Chrome, Edge 또는 Internet Explorer 다운로드를 고려하세요.
+    PowerApps를 사용 하는 동안 메모리 부족 하면 Chrome, Microsoft Edge 또는 Internet Explorer의 64 비트 버전을 다운로드를 고려 하세요.
 
 1. **포함된 앱에서 웹 사이트 시작**(2018년 5월 10일)
 
@@ -71,9 +83,9 @@ ms.locfileid: "42855105"
 
     카메라 컨트롤을 추가하거나 카메라 컨트롤을 사용하는 앱을 열 경우 Windows용 PowerApps Studio가 충돌할 수 있습니다. 이 문제를 방지하려면 카메라 컨트롤을 추가하거나 사용할 때 [웹용 PowerApps Studio](create-app-browser.md)를 사용하세요.
 
-1. **Android 장치의 릴리스 2.0.700**
+1. **Android 디바이스의 릴리스 2.0.700**
 
-    Android 장치에 릴리스 2.0.700을 설치한 후 앱을 열 수 없는 경우(또는 앱이 응답을 멈춘 경우) PowerApps를 제거하고 장치를 다시 시작한 후 PowerApps를 다시 설치하세요.
+    Android 디바이스에 릴리스 2.0.700을 설치한 후 앱을 열 수 없는 경우(또는 앱이 응답을 멈춘 경우) PowerApps를 제거하고 디바이스를 다시 시작한 후 PowerApps를 다시 설치하세요.
 
 1. **앱을 열 때 “빈” 갤러리**
 
@@ -101,7 +113,7 @@ ms.locfileid: "42855105"
 
 1. **지역화 버전 사용**.
 
-    Windows 8.1에서 릴리스 2.0.531을 실행하는 경우 장치가 IME 창이 필요한 언어로 설정되어 있으면 **텍스트 입력** 컨트롤로 입력할 수 없습니다.
+    Windows 8.1에서 릴리스 2.0.531을 실행하는 경우 디바이스가 IME 창이 필요한 언어로 설정되어 있으면 **텍스트 입력** 컨트롤로 입력할 수 없습니다.
 
 1. **Windows Phone에서 카메라 컨트롤**
 
@@ -167,7 +179,7 @@ ms.locfileid: "42855105"
 
 1. **메모리가 부족하면 카메라의 사용이 일시적으로 비활성화될 수 있습니다**.
 
-     카메라는 모바일 장치에 메모리가 부족하면 해당 장치와의 충돌을 방지하기 위해 일시적으로 비활성화됩니다.
+     카메라는 모바일 디바이스에 메모리가 부족하면 해당 디바이스와의 충돌을 방지하기 위해 일시적으로 비활성화됩니다.
 
 1. **Office 365 비디오 커넥터는 지원되지 않습니다**.
 

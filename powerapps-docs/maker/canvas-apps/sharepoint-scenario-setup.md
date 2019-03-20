@@ -1,32 +1,32 @@
 ---
 title: PowerApps, Microsoft Flow 및 Power BI와의 통합을 위한 SharePoint Online 목록 설정 | Microsoft Docs
 description: 이 작업에서는 앱, 흐름, 보고서 및 대시보드의 데이터 원본으로 사용할 SharePoint 목록을 설정합니다.
-author: mgblythe
+author: NickWaggoner
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: ''
 ms.date: 12/19/2017
-ms.author: mblythe
+ms.author: niwaggon
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 9e1694a3190740c788eb9cd53de1187ed32d0fbc
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.openlocfilehash: 7be4a0574c1a81684188eaede4b6e80b02e7b7cc
+ms.sourcegitcommit: 90245baddce9d92c3ce85b0537c1ac1cf26bf55a
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42833323"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "57799183"
 ---
 # <a name="set-up-lists-for-sharepoint-online-integration-with-powerapps-microsoft-flow-and-power-bi"></a>PowerApps, Microsoft Flow 및 Power BI와의 통합을 위한 SharePoint Online 목록 설정
 > [!NOTE]
 > 이 문서는 SharePoint Online에서 PowerApps, Microsoft Flow 및 Power BI를 사용하는 방법에 대한 자습서 시리즈의 일부입니다. [시리즈 소개](sharepoint-scenario-intro.md)를 참고하여 관련된 다운로드뿐만 아니라 전체적인 내용을 파악해야 합니다.
 
-SharePoint에는 공유 및 공동 작업 기능이 많이 있지만 이 시나리오에서는 [SharePoint 목록](https://support.office.com/article/Introduction-to-lists-0A1C3ACE-DEF0-44AF-B225-CFA8D92C52D7)이라는 한 가지 기능에 대해 중점적으로 설명합니다. 목록은 팀 구성원 및 다른 사이트 사용자와 공유할 수 있는 데이터의 모음입니다. 이 시나리오에 사용된 목록을 검토한 다음 사용자 고유의 SharePoint Online 사이트에서 목록을 만들 수 있습니다.
+SharePoint 기능 공유 및 공동 작업에 대 한 많은 되었지만이 시나리오에 대 한 기능 중 하나에 초점을 합니다. [SharePoint 목록](https://support.office.com/article/Introduction-to-lists-0A1C3ACE-DEF0-44AF-B225-CFA8D92C52D7)합니다. 목록은 팀 구성원 및 다른 사이트 사용자와 공유할 수 있는 데이터의 모음입니다. 이 시나리오에 사용된 목록을 검토한 다음 사용자 고유의 SharePoint Online 사이트에서 목록을 만들 수 있습니다.
 
-## <a name="step-1-understand-the-lists"></a>1단계: 목록 이해
+## <a name="step-1-understand-the-lists"></a>1 단계: 목록 이해
 첫 번째 목록은 프로젝트 요청자가 요청을 추가하는 **프로젝트 요청**입니다. 그런 다음 프로젝트 승인자가 해당 요청을 검토하여 승인하거나 거부합니다.
 
 | **목록 열** | **데이터 형식** | **설명** |
@@ -34,7 +34,7 @@ SharePoint에는 공유 및 공동 작업 기능이 많이 있지만 이 시나�
 | Title |한 줄 텍스트 |프로젝트 이름에 사용되는 기본 열 |
 | 설명 |한 줄 텍스트 | |
 | ProjectType |한 줄 텍스트 |값: 새 하드웨어, 업그레이드된 하드웨어, 새 소프트웨어, 업그레이드된 소프트웨어 |
-| RequestDate |날짜 | |
+| RequestDate |Date | |
 | Requestor |한 줄 텍스트 | |
 | EstimatedDays |번호 |요청자 예상 값과 프로젝트 관리자 예상 및 실제 값의 비교를 사용하도록 설정합니다. |
 | Approved |한 줄 텍스트 |값: 보류 중, 예, 아니요 |
@@ -48,15 +48,15 @@ SharePoint에는 공유 및 공동 작업 기능이 많이 있지만 이 시나�
 | --- | --- | --- |
 | Title |한 줄 텍스트 |프로젝트 이름에 사용되는 기본 열 |
 | RequestID |번호 |**프로젝트 요청** 목록 **ID** 열의 값과 일치합니다. |
-| ApprovedDate |날짜 | |
+| ApprovedDate |Date | |
 | 상태 |한 줄 텍스트 |값: 시작되지 않음, 진행 중, 완료됨 |
-| ProjectedStartDate |날짜 |프로젝트 관리자가 프로젝트를 시작할 것으로 예상하는 시기 |
-| ProjectedEndDate |날짜 |프로젝트 관리자가 프로젝트를 종료할 것으로 예상하는 시기 |
+| ProjectedStartDate |Date |프로젝트 관리자가 프로젝트를 시작할 것으로 예상하는 시기 |
+| ProjectedEndDate |Date |프로젝트 관리자가 프로젝트를 종료할 것으로 예상하는 시기 |
 | ProjectedDays |번호 |작업일 - 일반적으로 계산되지만 이 시나리오에서는 그렇지 않습니다. |
 | ActualDays |번호 |프로젝트를 완료한 시기 |
 | PMAssigned |한 줄 텍스트 |프로젝트 관리자 |
 
-## <a name="step-2-create-and-review-the-lists"></a>2단계: 목록 만들기 및 검토
+## <a name="step-2-create-and-review-the-lists"></a>2 단계: 만들고 목록 검토
 이 시나리오를 계속하려면 두 개의 SharePoint 목록을 만들어 샘플 데이터로 채워야 합니다. 이제 목록을 만들고 샘플 데이터를 이 목록에 붙여넣는 방법을 보여 주겠습니다. [다운로드 패키지](https://aka.ms/o4ia0f)의 Excel 파일이 있는지 확인합니다.
 
 > [!NOTE]
@@ -105,9 +105,9 @@ SharePoint에는 공유 및 공동 작업 기능이 많이 있지만 이 시나�
 4. 데이터를 복사하여 SharePoint의 그리드에 붙여넣은 다음 **완료**를 클릭하거나 탭합니다.
    
     ![완성된 목록(데이터 포함)](./media/sharepoint-scenario-setup/01-01-09-full-grid.png)
-5. project-details.xlsx 통합 문서를 사용하여 "프로젝트 세부 정보"에 대한 목록 만들기 및 복사 프로세스를 반복합니다. 열 이름과 데이터 형식은 [1단계: 목록 이해](#step-1-understand-the-lists)의 [프로젝트 세부 정보] 테이블을 참조하세요.
+5. project-details.xlsx 통합 문서를 사용하여 "프로젝트 세부 정보"에 대한 목록 만들기 및 복사 프로세스를 반복합니다. 프로젝트 세부 정보 테이블에 참조 [1 단계: 목록 이해](#step-1-understand-the-lists) 열 이름과 데이터 형식에 대 한 합니다.
 
-## <a name="step-3-update-connections-to-samples---optional"></a>3단계: 샘플 연결 업데이트 - 선택 사항
+## <a name="step-3-update-connections-to-samples---optional"></a>3 단계: 샘플-선택 사항에 대 한 업데이트 연결
 이 자습서 시리즈의 소개 부분에서 설명했듯이 [다운로드 패키지](https://aka.ms/o4ia0f)에는 두 개의 샘플 앱과 보고서가 포함되어 있습니다. 이러한 샘플을 사용하지 않고 이 시나리오를 완료할 수 있지만, 샘플을 사용하려면 SharePoint 목록에 대한 연결을 업데이트해야 합니다. '사용자'의 목록을 데이터 원본으로 사용하도록 연결을 업데이트합니다.
 
 ### <a name="update-connections-for-the-sample-apps"></a>샘플 앱에 대한 연결 업데이트

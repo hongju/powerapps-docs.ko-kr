@@ -1,24 +1,24 @@
 ---
 title: 캔버스 앱에 대한 지원 센터 샘플 설치 및 구성 | Microsoft Docs
 description: PowerApps에서 캔버스 앱에 대한 지원 센터 샘플 설치 및 구성하기 위한 단계별 지침입니다.
-author: caburk
+author: mr-dang-msft
 manager: kvivek
 ms.service: powerapps
 ms.topic: sample
 ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 04/08/2018
-ms.author: caburk
+ms.author: brdang
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 3945bc2e164d9fa88ee122910d3e15371b9e239e
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.openlocfilehash: 1be6055a2b8f42d8d4194653417313b29ab5610d
+ms.sourcegitcommit: 90245baddce9d92c3ce85b0537c1ac1cf26bf55a
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42834627"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "57799850"
 ---
 # <a name="install-and-configure-the-help-desk-sample-in-powerapps"></a>PowerApps에서 지원 센터 샘플 설치 및 구성
 
@@ -31,7 +31,7 @@ PowerApps에서 캔버스 앱에 대한 지원 센터 샘플 설치 및 구성�
 
 ## <a name="overview-of-the-sample"></a>샘플 개요
 
-지원 센터는 최종 사용자를 지원 전문가와 연결하는 사용자에게 친숙한 환경을 제공합니다. 신속하게 가장 중요한 질문에 대한 답변을 찾고 열려 있는 티켓의 진행 상황을 추적하고 이전 요청의 세부 정보를 검토하세요. 이 앱을 사용자에게 맞게 설정하려면 약간의 설정 작업이 필요합니다.
+헬프 데스크 지원 전문가와 최종 사용자를 연결 하는 친숙 한 환경을 제공 합니다. 신속 하 게 가장 중요 한 질문에 답변을 찾을 열려 있는 티켓의 진행 상황을 추적 하 고 이전 요청의 세부 정보를 검토 합니다. 이 앱을 사용자에게 맞게 설정하려면 약간의 설정 작업이 필요합니다.
 
 ![지원 센터 PowerApp의 시작 화면](./media/help-desk-install/Login-screen.png)
 
@@ -100,7 +100,7 @@ PowerApps에서 캔버스 앱에 대한 지원 센터 샘플 설치 및 구성�
 3. **이 열의 정보 유형** 라디오 단추 목록에서 **선택**을 선택합니다.
 4. **별도의 줄에 각 선택 입력** 텍스트 상자에서 별도의 줄에 각각 다음 값을 입력합니다. 
     - 높음
-    - 중간
+    - 보통
     - 낮음
 5. **고유 값 적용** 라디오 단추 목록에서 **아니요**를 선택합니다.
 6. **사용 중인 선택 표시** 라디오 단추 목록에서 **드롭 다운 메뉴**를 선택합니다.

@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 55df8d30509720478c1594406865986ddc9a95c4
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.openlocfilehash: 930439325b60b60fefed18b66c22d9d4f97f55b7
+ms.sourcegitcommit: 4db9c763455d141a7e1dd569a50c86bd9e50ebf0
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42865811"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "57802104"
 ---
 # <a name="editform-newform-submitform-resetform-and-viewform-functions-in-powerapps"></a>PowerApps의 EditForm, NewForm, SubmitForm, ResetForm 및 ViewForm 함수
 **[편집 양식](../controls/control-form-detail.md)** 컨트롤의 항목을 보거나 편집하거나 생성하고 콘텐츠를 저장하고 컨트롤을 다시 설정합니다.
@@ -59,10 +59,10 @@ Form 컨트롤의 변경 내용을 데이터 원본에 저장하려면 Button �
 **ResetForm** 함수는 사용자가 변경하기 전에 양식의 콘텐츠를 초기 값으로 다시 설정합니다. 양식이 **FormMode.New** 모드에 있으면, 양식이 **FormMode.Edit** 모드로 다시 설정됩니다. 양식 컨트롤의 **[OnReset](../controls/control-form-detail.md)** 동작도 실행됩니다.  **[Reset](function-reset.md)** 함수를 사용하여 개별 컨트롤을 다시 설정할 수도 있지만 양식 내에서만 가능합니다.
 
 ### <a name="viewform"></a>ViewForm
-**ViewForm** 함수는 Form 컨트롤의 모드를 **FormMode.View**로 변경합니다. 이 모드에서는 Form 컨트롤의 **[Item](../controls/control-form-detail.md)** 속성 내용을 사용하여 양식을 채웁니다.  이 모드에서 **SubmitForm** 및 **RestForm** 함수는 아무 효과가 없습니다.
+**ViewForm** 함수는 Form 컨트롤의 모드를 **FormMode.View**로 변경합니다. 이 모드에서는 Form 컨트롤의 **[Item](../controls/control-form-detail.md)** 속성 내용을 사용하여 양식을 채웁니다.  합니다 **SubmitForm** 하 고 **ResetForm** 함수에이 모드에 영향을 주지 않습니다.
 
-### <a name="displaymode-poperty"></a>DisplayMode Poperty
-현재 모드는 **Mode** 속성을 통해 읽을 수 있습니다.  모드는 양식 컨트롤 내 데이터 카드 및 컨트롤에 사용할 수 있는 **DisplayMode** 속성의 값도 결정합니다.  데이터 카드의 **DisplayMode** 속성은 컨트롤의 **DisplayMode** 속성(데이터 카드 참조)처럼 **Parent.DisplayMode**(양식 참조)로 설정되는 경우가 많습니다. 
+### <a name="displaymode-property"></a>DisplayMode 속성
+현재 모드는 **Mode** 속성을 통해 읽을 수 있습니다.  모드는 양식 컨트롤 내 데이터 카드 및 컨트롤에 사용할 수 있는 **DisplayMode** 속성의 값도 결정합니다.  종종 데이터 카드의 **DisplayMode** 속성에 설정할 **Parent.DisplayMode** (양식 참조)로 컨트롤 **DisplayMode** (참조 속성 데이터 카드의 경우): 
 
 | 모드 | DisplayMode | 설명 |
 | --- | --- | --- |

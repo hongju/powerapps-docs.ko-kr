@@ -13,15 +13,15 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 0ac78340f344ce42fd68d18940b1aaca41412a96
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.openlocfilehash: 813dddc205eb5abb870d333635723fcd5e2f2738
+ms.sourcegitcommit: 6d1ec3d5afa0466d1a5ce4434e588686a195d0fa
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42829754"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "57802541"
 ---
 # <a name="understand-delegation-in-a-canvas-app"></a>캔버스 앱에서 위임 이해
-PowerApps에는 캔버스 앱에서 데이터의 테이블을 필터링, 정렬 및 형성하기 위한 강력한 함수 집합이 포함되어 있습니다(단 시간에 **[Filter](functions/function-filter-lookup.md)**, **[Sort](functions/function-sort.md)** 및 **[AddColumns](functions/function-table-shaping.md)** 함수 이름 지정). 이러한 함수를 사용하여 사용자에게 필요한 정보에 대한 집중된 액세스 권한을 제공할 수 있습니다. 데이터베이스 배경 지식이 있는 사람들에게 이러한 함수를 사용하는 것은 데이터베이스 쿼리를 작성하는 것과 같습니다.
+PowerApps에는 강력한 필터링, 정렬 및 캔버스 앱에서 데이터의 테이블을 셰이핑 함수 집합이 포함 됩니다. **[필터](functions/function-filter-lookup.md)** 를  **[정렬](functions/function-sort.md)**, 및 **[AddColumns](functions/function-table-shaping.md)** 몇 이름을 지정 하는 함수입니다. 이러한 함수를 사용하여 사용자에게 필요한 정보에 대한 집중된 액세스 권한을 제공할 수 있습니다. 데이터베이스 배경 지식이 있는 사람들에게 이러한 함수를 사용하는 것은 데이터베이스 쿼리를 작성하는 것과 같습니다.
 
 효율적인 앱을 빌드하는 핵심은 디바이스로 가져와야 하는 데이터의 양을 최소화하는 것입니다. 수백 만 개의 레코드 중에서 일부만 필요하거나, 또는 단일 집계 값이 수천 개의 레코드를 나타낼 수 있습니다. 또는 아마도 첫 번째 레코드 집합을 검색할 수 있고 나머지 데이터 집합은 사용자가 더 원한다는 제스처를 취할 때 검색됩니다. 집중하면 앱에서 필요한 처리량, 네트워크 대역폭을 현저하게 줄일 수 있어 셀룰러 네트워크를 통해 연결된 휴대폰에서도 사용자를 위해 더 신속하게 응답할 수 있습니다. 
 
@@ -29,17 +29,19 @@ PowerApps에는 캔버스 앱에서 데이터의 테이블을 필터링, 정렬 
 
 복잡해지는 상황에서 이 문서가 있는 이유는 PowerApps 수식으로 표현할 수 있는 것 중에 모든 데이터 원본으로 위임할 수 없는 것도 있기 때문입니다. PowerApps 언어는 광범위한 숫자 및 텍스트 조작 기능과 함께 메모리의 전체 통합 문서에 완벽한 즉시 액세스할 수 있도록 설계된 Excel의 수식 언어를 흉내내고 있습니다. 결과적으로, PowerApps 언어는 SQL Server와 같은 강력한 데이터베이스 엔진을 포함해 대부분 데이터 원본이 지원할 수 있는 것보다 훨씬 풍부합니다.
 
-**큰 데이터 집합을 작업하려면 위임할 수 있는 데이터 원본과 수식을 사용해야 합니다.**  앱 성능을 유지하고 사용자가 필요한 모든 정보에 액세스할 수 있게 하는 유일한 방법입니다. 위임이 불가능한 위치를 식별하는 위임 경고에 주의하세요. 작은 데이터 집합(500개 레코드 미만)을 사용하려는 경우 수식을 위임할 수 없다면 앱이 로컬로 처리를 수행할 수 있기 때문에 데이터 원본과 수식도 사용할 수 있습니다. 
+**큰 데이터 집합을 작업하려면 위임할 수 있는 데이터 원본과 수식을 사용해야 합니다.** 앱 성능을 유지하고 사용자가 필요한 모든 정보에 액세스할 수 있게 하는 유일한 방법입니다. 위임이 불가능한 위치를 식별하는 위임 경고에 주의하세요. 작은 데이터 집합(500개 레코드 미만)을 사용하려는 경우 수식을 위임할 수 없다면 앱이 로컬로 처리를 수행할 수 있기 때문에 데이터 원본과 수식도 사용할 수 있습니다. 
 
 > [!NOTE]
 > 위임 경고는 이전에 "파란색 점" 제안으로 PowerApps에 플래그가 지정되었지만 위임 제안은 다시 경고로 분류된 이후에 지정되었습니다. 데이터 원본의 데이터가 500개의 레코드를 초과하여 함수가 위임될 수 없는 경우 PowerApps는 데이터를 모두 검색할 수 없으므로 앱에는 잘못된 결과가 포함될 수 있습니다. 위임 경고를 통해 올바른 결과가 포함되도록 앱을 관리할 수 있습니다.
 
 ## <a name="delegable-data-sources"></a>위임 가능한 데이터 원본
-위임을 지원하는 데이터 원본의 전체 목록과 범위는 [위임 목록](delegation-list.md)을 참조하세요.
+위임 특정 테이블 형식 데이터 원본에만 지원 됩니다. 데이터 원본에는 위임을 지 원하는 경우 해당 [커넥터 설명서](https://docs.microsoft.com/connectors/) 지에 간략하게 설명 합니다. 예를 들어, 가장 널리 사용 되는 이러한 테이블 형식 데이터 원본 및 위임을 지:
 
-계속해서 기존 데이터 원본에 위임 지원을 추가할 뿐만 아니라, 더 많은 데이터 원본을 추가할 수 있습니다.
+- [앱 용 common Data Service (CD)](https://docs.microsoft.com/connectors/commondataservice/) 
+- [SharePoint](https://docs.microsoft.com/connectors/sharepointonline/) 
+- [SQL Server](https://docs.microsoft.com/connectors/sql/) 
 
-내보낸 Excel 통합 문서(“앱에 정적 데이터 추가” 데이터 원본 사용), 컬렉션, 그리고 컨텍스트 변수에 저장된 테이블은 위임이 필요하지 않습니다. 이 모든 데이터는 이미 메모리에 있으며, 전체 PowerApps 언어를 적용할 수 있습니다.
+Excel 통합 문서를 가져올 (사용 하는 **앱에 정적 데이터 추가** 데이터 원본), 컬렉션 및 컨텍스트 변수에 저장 된 테이블에는 위임이 필요 하지 않습니다. 이 모든 데이터는 이미 메모리에 있으며, 전체 PowerApps 언어를 적용할 수 있습니다.
 
 ## <a name="delegable-functions"></a>위임 가능 함수
 다음 단계는 위임할 수 있는 수식만 사용하는 것입니다. 여기에는 위임할 수 있는 수식 요소가 포함됩니다. 그러나 모든 데이터 원본은 서로 다르며 일부는 이러한 요소를 지원하지 않습니다. 특정 수식에서 위임 경고를 확인합니다.
@@ -68,8 +70,8 @@ PowerApps에는 캔버스 앱에서 데이터의 테이블을 필터링, 정렬 
 * **[*](functions/operators.md)**, **[/](functions/operators.md)**, **[Mod](functions/function-mod.md)**
 * **[Concatenate](functions/function-concatenate.md)**(**[&](functions/operators.md)** 포함)
 * **[ExactIn](functions/operators.md)**
-* 문자 조작 함수: **[Lower](functions/function-lower-upper-proper.md)**, **[Upper](functions/function-lower-upper-proper.md)**, **[Left](functions/function-left-mid-right.md)**, **[Mid](functions/function-left-mid-right.md)**, **[Len](functions/function-left-mid-right.md)**, ...
-* 신호: **[Location](functions/signals.md)**, **[Acceleration](functions/signals.md)**, **[Compass](functions/signals.md)**, ...
+* 문자열 조작 함수: **[낮은](functions/function-lower-upper-proper.md)** 를  **[위쪽](functions/function-lower-upper-proper.md)** 를  **[왼쪽](functions/function-left-mid-right.md)** 를 **[중순](functions/function-left-mid-right.md)** 하십시오  **[Len](functions/function-left-mid-right.md)**,...
+* 신호: **[위치](functions/signals.md)**,  **[가속](functions/signals.md)** 하십시오  **[나침반](functions/signals.md)**,...
 * 일시적: **[Now](functions/function-now-today-istoday.md)**, **[Today](functions/function-now-today-istoday.md)**, **[Rand](functions/function-rand.md)**, ...
 * [컬렉션](working-with-variables.md)
 
@@ -107,7 +109,7 @@ PowerApps에는 캔버스 앱에서 데이터의 테이블을 필터링, 정렬 
 ## <a name="non-delegable-limits"></a>비-위임 가능한 한계
 위임할 수 없는 수식은 로컬에서 처리됩니다. 이를 통해 PowerApps 수식 언어의 전체 범위를 사용할 수 있습니다. 하지만 먼저 네트워크를 통해 많은 양의 데이터를 검색해야 할 수 있으므로, 모든 데이터를 디바이스로 가져와야 하는 수고로움이 있습니다. 시간이 걸려서 앱이 느리거나 충돌한다는 인상을 줄 수 있습니다.
 
-이를 방지하기 위해 PowerApps는 로컬에서 처리할 수 있는 데이터 양을 제한할 수 있습니다. 기본적으로 레코드 500개입니다.  작은 데이터 집합에 대한 전체 액세스 권한을 계속 유지하고 부분 결과를 확인하여 큰 데이터 집합의 사용을 한정할 수 있도록 이 숫자를 선택했습니다.
+이 방지 하려면 PowerApps는 로컬에서 처리할 수 있는 데이터의 양에 제한을 적용 합니다. 기본적으로 500 개 레코드입니다.  작은 데이터 집합에 대한 전체 액세스 권한을 계속 유지하고 부분 결과를 확인하여 큰 데이터 집합의 사용을 한정할 수 있도록 이 숫자를 선택했습니다.
 
 사용자에게 혼란을 일으킬 수 있기 때문에 이 기능을 사용할 때는 각별하게 주의해야 합니다. 예를 들어 수백만 개의 레코드를 포함하는 데이터 원본에 대해 위임할 수 없는 선택 수식과 함께 **Filter** 함수를 사용합니다. 필터링이 로컬로 수행되기 때문에 처음 500개의 레코드만 스캔됩니다. 원하는 레코드가 레코드 501, 또는 500,001인 경우 **Filter**에 의해 사용되거나 반환되지 않습니다.
 

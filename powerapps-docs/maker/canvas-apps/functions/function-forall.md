@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 688b1e87e5bc1d2ee3429711b9995f3b4ef61e1c
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.openlocfilehash: f538d785b9655b94a44a79c3299e979bbfe88883
+ms.sourcegitcommit: ba5542ff1c815299baa16304c6e0b5fed936e776
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42857111"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54308780"
 ---
 # <a name="forall-function-in-powerapps"></a>PowerApps의 ForAll 함수
 [테이블](../working-with-tables.md)의 모든 [레코드](../working-with-tables.md#records)에 대해 값을 계산하고 작업을 수행합니다.
@@ -64,7 +64,7 @@ PowerApps의 많은 함수는 단일 열 테이블을 사용하여 한 번에 �
 
 이 데이터 원본을 컬렉션으로 만들려면 **Button** 컨트롤의 **OnSelect** 속성을 다음 수식으로 설정하고 미리 보기 모드를 연 다음 단추를 클릭하거나 탭합니다.
 
-* **ClearCollect( Squares, [ "1", "4", "9" ] )**
+`ClearCollect( Squares, [ "1", "4", "9" ] )`
 
 | 수식 | 설명 | 결과 |
 | --- | --- | --- |
@@ -78,7 +78,7 @@ PowerApps의 많은 함수는 단일 열 테이블을 사용하여 한 번에 �
 
 이 데이터 원본을 컬렉션으로 만들려면 **Button** 컨트롤의 **OnSelect** 속성을 다음 수식으로 설정하고 미리 보기 모드를 연 다음 단추를 클릭하거나 탭합니다.
 
-* **ClearCollect( Expressions, [ "Hello", "Good morning", "Thank you", "Goodbye" ] )**
+`ClearCollect( Expressions, [ "Hello", "Good morning", "Thank you", "Goodbye" ] )`
 
 이 예제에는 [Microsoft Translator](../connections/connection-microsoft-translator.md) 연결도 사용됩니다.  이 연결을 앱에 추가하려면 [연결 관리](../add-manage-connections.md) 방법에 대한 문서를 참조하세요.
 
@@ -104,7 +104,16 @@ PowerApps의 많은 함수는 단일 열 테이블을 사용하여 한 번에 �
 
 이 데이터 원본을 컬렉션으로 만들려면 **Button** 컨트롤의 **OnSelect** 속성을 다음 수식으로 설정하고 미리 보기 모드를 연 다음 단추를 클릭하거나 탭합니다.
 
-* **ClearCollect( Products, Table( { Product: "Widget", 'Quantity Requested': 6, 'Quantity Available': 3 }, { Product: "Gadget", 'Quantity Requested': 10, 'Quantity Available': 20 }, { Product: "Gizmo", 'Quantity Requested': 4, 'Quantity Available': 11 }, { Product: "Apparatus", 'Quantity Requested': 7, 'Quantity Available': 6 } ) )**
+```powerapps-dot
+ClearCollect( Products, 
+    Table( 
+        { Product: "Widget",    'Quantity Requested': 6,  'Quantity Available': 3 }, 
+        { Product: "Gadget",    'Quantity Requested': 10, 'Quantity Available': 20 },
+        { Product: "Gizmo",     'Quantity Requested': 4,  'Quantity Available': 11 },
+        { Product: "Apparatus", 'Quantity Requested': 7,  'Quantity Available': 6 } 
+    )
+)
+```
 
 여기서 목표는 제공되는 것보다 더 많이 요청된 항목만 포함된 파생 테이블을 사용하여 주문을 하는 것입니다.
 
@@ -115,7 +124,17 @@ PowerApps의 많은 함수는 단일 열 테이블을 사용하여 한 번에 �
 #### <a name="table-shaping-on-demand"></a>주문형 테이블 형성
 복사본을 만들지 마십시오.  어디서나 필요하면 다음 함수를 사용할 수 있습니다.
 
-* **ShowColumns( AddColumns( Filter( Products, 'Quantity Requested' > 'Quantity Available' ), "Quantity To Order", 'Quantity Requested' - 'Quantity Available' ), "Product", "Quantity To Order" )**
+```powerapps-dot
+// Table shaping on demand, no need for a copy of the result
+ShowColumns( 
+    AddColumns( 
+        Filter( Products, 'Quantity Requested' > 'Quantity Available' ), 
+        "Quantity To Order", 'Quantity Requested' - 'Quantity Available' 
+    ), 
+    "Product", 
+    "Quantity To Order"
+)
+```
 
 각 레코드의 **'Quantity Requested'** 및 **'Quantity Available'** 필드를 각각 사용하여 비교 및 빼기 연산을 수행하기 위해 **Filter** 및 **AddColumns** 함수를 사용하여 [레코드 범위](../working-with-tables.md#record-scope)가 만들어집니다.
 
@@ -126,7 +145,16 @@ PowerApps의 많은 함수는 단일 열 테이블을 사용하여 한 번에 �
 #### <a name="forall-on-demand"></a>주문형 ForAll
 또 다른 접근법은**ForAll** 함수를 사용하여 테이블 형성 함수를 대체하는 것입니다.
 
-* **ForAll( Products, If( 'Quantity Requested' > 'Quantity Available', { Product: Product, 'Quantity To Order': 'Quantity Requested' - 'Quantity Available' } ) )**
+```powerapps-dot
+ForAll( Products, 
+    If( 'Quantity Requested' > 'Quantity Available', 
+        { 
+            Product: Product, 
+            'Quantity To Order': 'Quantity Requested' - 'Quantity Available' 
+        } 
+    ) 
+)
+```
 
 이 수식은 일부 사람이 읽고 쓰기에 더 간단할 수 있습니다.
 
@@ -137,15 +165,50 @@ PowerApps의 많은 함수는 단일 열 테이블을 사용하여 한 번에 �
 
 앞의 두 예제와 동일한 테이블 형성을 사용하지만 결과는 컬렉션으로 캡처합니다.
 
-* **ClearCollect( NewOrder, ShowColumns( AddColumns( Filter( Products, 'Quantity Requested' > 'Quantity Available' ), "Quantity To Order", 'Quantity Requested' - 'Quantity Available' ), "Product", "Quantity To Order" ) )**
-* **ClearCollect( NewOrder, ForAll( Products, If( 'Quantity Requested' > 'Quantity Available', { Product: Product, 'Quantity To Order': 'Quantity Requested' - 'Quantity Available' } ) ) )**
+```powerapps-dot
+ClearCollect( NewOrder, 
+    ShowColumns( 
+        AddColumns( 
+            Filter( Products, 'Quantity Requested' > 'Quantity Available' ), 
+            "Quantity To Order", 'Quantity Requested' - 'Quantity Available' 
+        ), 
+        "Product", 
+        "Quantity To Order"
+    )
+)
+```
+
+```powerapps-dot
+ClearCollect( NewOrder, 
+    ForAll( Products, 
+        If( 'Quantity Requested' > 'Quantity Available', 
+            { 
+                Product: Product, 
+                'Quantity To Order': 'Quantity Requested' - 'Quantity Available' 
+            } 
+        } 
+    )
+)
+```
 
 **ClearCollect**와 **Collect**는 위임할 수 없습니다.  따라서 이 방식으로 이동할 수 있는 데이터의 양은 제한됩니다.
 
 #### <a name="collect-within-forall"></a>ForAll 내 Collect
 마지막으로 **ForAll** 내에서 **Collect**를 직접 수행할 수 있습니다.
 
-* **Clear( ProductsToOrder ); ForAll( Products, If( 'Quantity Requested' > 'Quantity Available', Collect( NewOrder, { Product: Product, 'Quantity To Order': 'Quantity Requested' - 'Quantity Available' } ) ) )**
+```powerapps-dot
+Clear( ProductsToOrder ); 
+ForAll( Products, 
+    If( 'Quantity Requested' > 'Quantity Available', 
+        Collect( NewOrder,  
+            { 
+                Product: Product, 
+                'Quantity To Order': 'Quantity Requested' - 'Quantity Available' 
+            } 
+        )
+    )
+)
+```
 
 이번에도 **ForAll** 함수는 위임할 수 없습니다.  **Products** 테이블이 큰 경우 **ForAll**은 첫 번째 레코드 집합만을 살펴보기 때문에 주문할 제품이 일부 누락될 수 있습니다.  하지만 여기서 사용하는 테이블은 작게 유지되므로 이 방법이 괜찮습니다
 

@@ -1,24 +1,24 @@
 ---
 title: Excel에 이미지 추가 | Microsoft Docs
 description: 클라우드 저장소 계정에서 Excel로 이미지 파일 및 펜 그림을 추가하기 위한 단계별 지침
-author: AFTOwen
+author: adrianorth
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: ''
 ms.date: 10/25/2016
-ms.author: anneta
+ms.author: aorth
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 89b05b5e1e8073b082e73564f744b7b85fc70426
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.openlocfilehash: d2e61a312aa3824c24b7058da4b34aa9c5cf462c
+ms.sourcegitcommit: 90245baddce9d92c3ce85b0537c1ac1cf26bf55a
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42863945"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "57799206"
 ---
 # <a name="add-images-to-excel-from-powerapps"></a>PowerApps에서 Excel에 이미지 추가
 사용자가 파일의 이미지 또는 **펜** 컨트롤의 그림을 표시, 추가 또는 삭제할 수 있는 앱을 자동으로 만듭니다. 앱은 클라우드 저장소 계정에 만들고 업로드하는 Excel 파일을 기반으로 합니다.

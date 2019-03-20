@@ -1,33 +1,33 @@
 ---
 title: PowerApps에서 Cognitive Services 사용 | Microsoft Docs
-description: Microsoft Cognitive Services 텍스트 분석 API를 사용하여 텍스트를 분석하는 기본 캔버스 앱을 빌드합니다.
-author: AFTOwen
+description: Azure Cognitive Services 텍스트 분석 API를 사용 하 여 텍스트를 분석 하는 기본 캔버스 앱을 빌드하십시오.
+author: gregli-msft
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: ''
 ms.date: 12/08/2017
-ms.author: anneta
+ms.author: gregli
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: df823f68842ad3c7a7497e6dce9cc3540520527e
-ms.sourcegitcommit: 3dc330d635aaf5bc689efa6bd39826d6e396c832
-ms.translationtype: HT
+ms.openlocfilehash: 07548ff8fb14626543472b72ea52b80c858eeb0e
+ms.sourcegitcommit: 825daacc9a812637815afc1ce6fad28f0cebd479
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "48875879"
+ms.lasthandoff: 03/04/2019
+ms.locfileid: "57803668"
 ---
 # <a name="use-cognitive-services-in-powerapps"></a>PowerApps에서 Cognitive Services 사용
-이 문서는 [Microsoft Cognitive Services 텍스트 분석 API](https://docs.microsoft.com/azure/cognitive-services/text-analytics/overview)를 사용하여 텍스트를 분석하는 기본 캔버스 앱 빌드 방법을 보여줍니다. Text Analytics API를 설정하고 [Text Analytics 커넥터](https://docs.microsoft.com/connectors/cognitiveservicestextanalytics/)와 연결하는 방식을 보여주고, 그런 다음, API를 호출하는 캔버스 앱을 빌드하는 방법을 살펴보겠습니다.
+이 문서를 사용 하는 기본 캔버스 앱을 빌드하는 방법을 보여 줍니다.는 [Azure Cognitive Services 텍스트 분석 API](https://docs.microsoft.com/azure/cognitive-services/text-analytics/overview) 텍스트를 분석 합니다. Text Analytics API를 설정하고 [Text Analytics 커넥터](https://docs.microsoft.com/connectors/cognitiveservicestextanalytics/)와 연결하는 방식을 보여주고, 그런 다음, API를 호출하는 캔버스 앱을 빌드하는 방법을 살펴보겠습니다.
 
 > [!NOTE]
 > PowerApps에서 처음으로 앱을 빌드하는 경우에는 이 문서를 살펴 보기 전에 [앱을 처음부터 만들기](get-started-create-from-blank.md)를 읽어보는 것이 좋습니다.
 
-## <a name="introduction-to-microsoft-cognitive-services"></a>Microsoft Cognitive Services 소개
-Microsoft Cognitive Services는 사용자의 애플리케이션을 더 지능적이고 유용하며 검색 가능하게 만드는 데 사용하는 API, SDK 및 서비스 집합입니다. 이 서비스를 통해 사용자는 지능형 기능(예: 감정 및 비디오 감지, 안면, 음성 및 시각 인식, 음성 및 언어 이해)을 애플리케이션에 쉽게 추가할 수 있습니다.
+## <a name="introduction-to-azure-cognitive-services"></a>Azure Cognitive Services 소개
+Azure Cognitive Services는 Api, Sdk 및 응용 프로그램을 더 지능적이 고 유용 하도록 사용할 수 있는 검색 가능한 서비스의 집합입니다. 이 서비스를 통해 사용자는 지능형 기능(예: 감정 및 비디오 감지, 안면, 음성 및 시각 인식, 음성 및 언어 이해)을 애플리케이션에 쉽게 추가할 수 있습니다.
 
 이 문서에서는 Text Analytics API에 사용할 수 있는 "언어 이해"에 초점을 맞추려고 합니다. 이 API를 통해 사용자는 텍스트에서 감정, 핵심 구, 토픽 및 언어를 검색할 수 있습니다. API 데모를 사용해 본 다음, 미리 보기 버전을 등록하여 시작해 보겠습니다.
 
@@ -47,11 +47,7 @@ API는 무료 미리 보기로 사용 가능하며 Azure 구독과 연결되어 
 
 1. Azure 구독이 아직 없는 경우 [무료 구독에 등록](https://azure.microsoft.com/free/)합니다.
 
-2. Azure 계정에 로그인합니다.
-
-3. Azure Portal에서 [Cognitive Services 블레이드 만들기](https://go.microsoft.com/fwlink/?LinkId=761108)로 이동합니다.
-
-4. 다음 이미지에서와 같이 Text Analytics API에 대한 정보를 입력합니다. **F0**(무료) 가격 책정 계층을 선택합니다.
+2. [이 페이지](https://ms.portal.azure.com/#create/Microsoft.CognitiveServicesTextAnalytics),이 이미지와 같이 Text Analytics API에 대 한 정보를 입력 합니다. **F0**(무료) 가격 책정 계층을 선택합니다.
    
     ![Text Analytics API 만들기](./media/cognitive-services-api/azure-create.png)
 
@@ -125,29 +121,44 @@ Text Analytics API 호출에 집중하기 위해 이 앱을 단순하게 유지�
 
 1. 이 앱은 앱에서 선택한 확인란에 따라 특정 API 호출을 합니다. **텍스트 분석**을 클릭하거나 탭하면 이 앱은 1, 2 또는 3개의 API 호출을 수행합니다.
 
-2. 이 앱은 API에서 반환하는 데이터를 세 가지 다른 [컬렉션](working-with-variables.md#create-a-collection)(예: **languageCollect**, **sentimentCollect** 및 **phrasesCollect**)에 저장합니다.
+2. 이 앱은 API에서 반환하는 데이터를 세 가지 다른 [컬렉션](working-with-variables.md#use-a-collection)(예: **languageCollect**, **sentimentCollect** 및 **phrasesCollect**)에 저장합니다.
 
 3. 이 앱은 세 개의 컬렉션에 있는 항목을 기반으로 두 개의 레이블에 대한 **Text** 속성과 갤러리의 **Items** 속성을 업데이트합니다.
 
 이러한 배경을 가지고 단추의 **OnSelect** 속성에 대한 수식을 추가해 보겠습니다. 마술과 같은 일이 벌어집니다.
 
-```
-If(chkLanguage.Value=true,
-
-        ClearCollect(languageCollect, TextAnalytics.DetectLanguage({numberOfLanguagesToDetect:1, text:tiTextToAnalyze.Text}).detectedLanguages.name)
-
+```powerapps-dot
+If( chkLanguage.Value = true,
+    ClearCollect( languageCollect, 
+        TextAnalytics.DetectLanguage(
+            {
+                numberOfLanguagesToDetect: 1, 
+                text: tiTextToAnalyze.Text
+            }
+        ).detectedLanguages.name
+    )
 );
 
-If(chkPhrases.Value=true,
-
-        ClearCollect(phrasesCollect, TextAnalytics.KeyPhrases({language:"en", text:tiTextToAnalyze.Text}).keyPhrases)
-
+If( chkPhrases.Value = true,
+    ClearCollect( phrasesCollect, 
+        TextAnalytics.KeyPhrases(
+            {
+                language: "en", 
+                text: tiTextToAnalyze.Text
+            }
+        ).keyPhrases
+    )
 );
 
-If(chkSentiment.Value=true,
-
-        ClearCollect(sentimentCollect, TextAnalytics.DetectSentiment({language:"en", text:tiTextToAnalyze.Text}).score)
-
+If( chkSentiment.Value = true,
+    ClearCollect( sentimentCollect, 
+        TextAnalytics.DetectSentiment(
+            {
+                language: "en", 
+                text: tiTextToAnalyze.Text
+            }
+        ).score
+    )
 )
 ```
 
@@ -161,7 +172,7 @@ If(chkSentiment.Value=true,
 
   * **DetectLanguage()** 에서 **numberOfLanguagesToDetect**는 1로 하드 코딩되지만, 앱의 일부 논리에 따라 이 매개 변수를 전달할 수 있습니다.
 
-  * **KeyPhrases()** 및 **DetectSentiment()** 에서 **언어**는 "en"으로 하드 코딩되지만, 앱의 일부 논리를 기반으로 이 매개 변수를 전달할 수 있습니다. 예를 들어 언어를 먼저 감지한 다음, **DetectLanguage()** 에서 반환하는 내용에 따라 이 매개 변수를 설정할 수 있습니다.
+  * **keyphrases ()** 하 고 **detectsentiment ()** 에 **언어** 은 하드 코드 된 "en" 해도 앱의 일부 논리에 따라이 매개 변수를 전달할 수 있습니다. 예를 들어 언어를 먼저 감지한 다음, **DetectLanguage()** 에서 반환하는 내용에 따라 이 매개 변수를 설정할 수 있습니다.
 
 * 각 호출에 대해 결과를 적합한 컬렉션에 추가합니다.
 

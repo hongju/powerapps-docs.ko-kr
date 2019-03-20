@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 9d86bcaf02050da1b3cd0364e28bc4ec05a6407d
-ms.sourcegitcommit: 6e579014ebb1f801985b8b4b68b7b768a09559c7
-ms.translationtype: HT
+ms.openlocfilehash: a04320d2d8bb2d8ad3ebf30d3ecbd0dfe7f9b0bd
+ms.sourcegitcommit: 4db9c763455d141a7e1dd569a50c86bd9e50ebf0
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2018
-ms.locfileid: "53247589"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "57801966"
 ---
 # <a name="optimize-canvas-app-performance-in-powerapps"></a>PowerApps의 캔버스 앱 성능 최적화 | Microsoft Docs
 Microsoft는 PowerApps 플랫폼에서 실행되는 모든 앱의 성능 향상을 위해 최선을 다합니다. 이 항목에서는 빌드한 앱의 성능을 향상시킬 수 있는 모범 사례를 소개합니다.
@@ -85,7 +85,7 @@ Microsoft는 PowerApps 플랫폼에서 실행되는 모든 앱의 성능 향상�
 한 화면에서 다른 화면으로 앱 상태를 전달하려면 **탐색** 및 **UpdateContext)** 함수를 사용하는 대신 [**Set**](functions/function-set.md) 함수를 사용하여 글로벌 변수 값을 만들거나 수정합니다.
 
 ## <a name="use-delegation"></a>위임 사용
-가능한 경우 처리를 위해 데이터를 로컬 장치로 검색하는 대신 데이터 처리를 데이터 원본에 위임하는 함수를 사용합니다. 앱이 로컬로 데이터를 처리해야 하는 경우 작업에 훨씬 더 많은 처리 능력, 메모리 및 네트워크 대역폭이 필요합니다(특히 데이터 집합이 큰 경우).
+가능한 경우 처리를 위해 데이터를 로컬 디바이스로 검색하는 대신 데이터 처리를 데이터 원본에 위임하는 함수를 사용합니다. 앱이 로컬로 데이터를 처리해야 하는 경우 작업에 훨씬 더 많은 처리 능력, 메모리 및 네트워크 대역폭이 필요합니다(특히 데이터 집합이 큰 경우).
 
 [이 목록](delegation-list.md)에 표시된 것처럼 서로 다른 데이터 원본은 여러 함수의 위임을 지원합니다.
 
@@ -101,3 +101,15 @@ Microsoft는 PowerApps 플랫폼에서 실행되는 모든 앱의 성능 향상�
 
 ## <a name="republish-apps-regularly"></a>앱을 정기적으로 다시 게시
 [앱을 다시 게시](https://powerapps.microsoft.com/blog/republish-your-apps-to-get-performance-improvements-and-additional-features/)(블로그 게시물)하여 PowerApps 플랫폼에서 성능 향상 및 추가 기능을 가져옵니다.
+
+## <a name="avoid-repeating-the-same-formula-in-multiple-places"></a>여러 위치에서 동일한 수식을 반복 방지
+여러 속성 (특히 경우 복잡 한)는 동일한 수식은 실행 하는 경우 한 번 설정 하 고 다음 후속 항목의 첫 번째 속성의 출력을 참조는 것이 좋습니다. 예를 들어, 설정 하지 않은 합니다 **DisplayMode** 같은 복잡 한 수식에 A, B, C, D 및 E 컨트롤의 속성입니다. 대신 집합 A의 **DisplayMode** 속성을 복잡 한 수식, 집합 B의 **DisplayMode** 속성을 A의 결과로 **DisplayMode** C, D 및 E에 대해 속성
+
+## <a name="enable-delayoutput-on-all-text-input-controls"></a>DelayOutput 모든 텍스트 입력된 컨트롤에서 사용 하도록 설정
+여러 수식 또는 규칙의 값을 참조 하는 경우는 **텍스트 입력** 컨트롤을 **DelayedOutput** 로 해당 컨트롤의 속성입니다. 합니다 **텍스트** 빠르게 연속적으로 입력 한 키 입력 활성화 한 후에 해당 컨트롤의 속성이 업데이트 됩니다. 규칙 또는 수식으로 여러 번 실행 되지 않습니다 및 앱 성능 향상 됩니다.
+
+## <a name="avoid-using-formupdates-in-rules-and-formulas"></a>Form.Updates 규칙 및 수식에서 사용 하지 마십시오
+규칙 또는 수식에서 사용자 입력을 사용 하 여 참조 하는 경우는 **Form.Updates** 변수, 폼의 모든 데이터 카드를 반복 하 고 각 시간 레코드를 만듭니다. 더 효율적인 앱을 위해 데이터 카드 또는 컨트롤 값에서 직접 값을 참조 합니다.
+
+## <a name="next-steps"></a>다음 단계
+검토 합니다 [코딩 표준](https://aka.ms/powerappscanvasguidelines) 앱 성능을 극대화 하 고 앱을 더 쉽게 유지 관리할 유지에 대 한 합니다.

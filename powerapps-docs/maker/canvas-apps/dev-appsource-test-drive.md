@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 5920c40396ab3ff8c1691b5d683615f41f6a7509
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.openlocfilehash: 590dc1707d080c1790c00f236df820559fe8f5a9
+ms.sourcegitcommit: ba5542ff1c815299baa16304c6e0b5fed936e776
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42863740"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54308413"
 ---
 # <a name="let-customers-test-drive-your-canvas-app-on-appsource"></a>AppSource에서 고객이 캔버스 앱을 시험 사용할 수 있도록 하기
 
@@ -41,8 +41,8 @@ PowerApps에서 캔버스 앱을 빌드하는 데 열중하고 있나요? 캔버
 
 PowerApps는 기본적으로 포함된 데이터로 앱 빌드를 지원하므로 앱을 사용하기 위해 샘플 데이터만이 필요합니다. 이 데이터는 하나 이상의 테이블로 Excel 파일에서 캡처되어야 합니다. 그러면 PowerApps에서 Excel 테이블의 데이터를 앱으로 가져오고 외부 연결을 통하는 대신 거기에서 작업합니다. 아래 3단계 프로세스는 데이터를 가져오고 앱에서 해당 데이터를 사용하는 방법을 보여 줍니다.
 
-### <a name="step-1-import-data-into-the-app"></a>1단계: 앱으로 데이터 가져오기
-두 개의 테이블(**SiteInspector** 및 **SitePhotos**)이 있는 Excel 파일이 있다고 가정합니다.
+### <a name="step-1-import-data-into-the-app"></a>1 단계: 앱에 데이터 가져오기
+두 테이블을 사용 하 여 Excel 파일에 있다고 가정 합니다. **SiteInspector** 하 고 **SitePhotos**합니다.
 
 ![가져올 Excel 테이블](./media/dev-appsource-test-drive/excel-file.png)
 
@@ -54,13 +54,14 @@ PowerApps는 기본적으로 포함된 데이터로 앱 빌드를 지원하므�
 
 ![가져온 데이터 원본으로 Excel 테이블](./media/dev-appsource-test-drive/data-sources.png)
 
-### <a name="step-2-handling-read-only-and-read-write-scenarios"></a>2단계: 읽기 전용 및 읽기-쓰기 시나리오 처리
+### <a name="step-2-handling-read-only-and-read-write-scenarios"></a>2 단계: 읽기 전용 및 읽기 / 쓰기 시나리오 처리
 가져온 데이터는 *정적*이므로 읽기 전용입니다. 앱이 읽기 전용인 경우(즉, 사용자에게 데이터를 표시만 함) 앱에서 직접 테이블을 참조합니다. 예를 들어, **SiteInspector** 테이블에서 **Title** 필드에 액세스하려는 경우 수식에서 **SiteInspector.Title**을 사용합니다.
 
 앱이 읽기-쓰기인 경우 먼저 각 테이블에서 PowerApps에서 표 형식 데이터 구조인 *컬렉션*으로 데이터를 가져옵니다. 그런 다음 테이블보다는 컬렉션에서 작업합니다. **SiteInspector** 및 **SitePhotos** 테이블에서 **SiteInspectorCollect** 및 **SitePhotosCollect** 컬렉션으로 데이터를 가져오려면:
 
-```
-ClearCollect(SiteInspectorCollect,SiteInspector); ClearCollect(SitePhotosCollect,SitePhotos)
+```powerapps-dot
+ClearCollect( SiteInspectorCollect, SiteInspector ); 
+ClearCollect( SitePhotosCollect, SitePhotos )
 ```
 
 수식은 두 컬렉션을 지운 다음 각 테이블에서 적절한 컬렉션으로 데이터를 수집합니다.
@@ -71,27 +72,39 @@ ClearCollect(SiteInspectorCollect,SiteInspector); ClearCollect(SitePhotosCollect
 
 이제 **Title** 필드에 액세스하려는 경우 수식에서 **SiteInspectorCollect.Title**을 사용합니다.
 
-### <a name="step-3-add-update-and-delete-data-in-your-app"></a>3단계: 앱에서 데이터 추가, 업데이트 및 삭제
+### <a name="step-3-add-update-and-delete-data-in-your-app"></a>3 단계: 추가, 업데이트 및 앱에서 데이터를 삭제 합니다.
 지금까지 데이터를 직접 및 컬렉션에서 읽는 방법을 살펴봤습니다. 이제 컬렉션에서 데이터를 추가, 업데이트 및 삭제하는 방법을 보여 줍니다.
 
 **컬렉션에 행을 추가하려면** [Collect( DataSource, Item, ... )](../canvas-apps/functions/function-clear-collect-clearcollect.md)을 사용합니다.
 
-```
-Collect(SiteInspectorCollect,{ID:Value(Max(SiteInspectorCollect, ID)+1),
-    Title:TitleText.Text,SubTitle:SubTitleText.Text,Description:DescriptionText.Text)
+```powerapps-dot
+Collect( SiteInspectorCollect,
+    {
+        ID: Value( Max( SiteInspectorCollect, ID ) + 1 ),
+        Title: TitleText.Text,
+        SubTitle: SubTitleText.Text,
+        Description: DescriptionText.Text
+    }
+)
 ```
 
 **컬렉션에서 행을 업데이트하려면** [UpdateIf( DataSource, Condition1, ChangeRecord1 [, Condition2, ChangeRecord2, ...] )](../canvas-apps/functions/function-update-updateif.md)를 사용합니다.
 
-```
-UpdateIf(SiteInspectorCollect,ID=record.ID,
-    {Title:TitleEditText.Text,SubTitle:SubTitleEditText.Text,Description:DescriptionEditText.Text)
+```powerapps-dot
+UpdateIf( SiteInspectorCollect,
+    ID = record.ID,
+    {
+        Title: TitleEditText.Text,
+        SubTitle: SubTitleEditText.Text,
+        Description: DescriptionEditText.Text
+    }
+)
 ```
 
 **컬렉션에서 행을 삭제하려면** [RemoveIf( DataSource, Condition [, ...] )](../canvas-apps/functions/function-remove-removeif.md)를 사용합니다.
 
-```
-RemoveIf(SiteInspectorCollect,ID=record.ID)
+```powerapps-dot
+RemoveIf( SiteInspectorCollect, ID = record.ID )
 ```
 
 > [!NOTE]

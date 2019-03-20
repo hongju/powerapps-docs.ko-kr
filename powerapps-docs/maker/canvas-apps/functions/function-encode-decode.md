@@ -13,25 +13,25 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 30d3378f46e587e45314c30be1fce3c36b2bb120
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.openlocfilehash: 9956332c35b4df2773b2634cb7f66d2ea96469e4
+ms.sourcegitcommit: 1b8578e38a09220ac66c5123644714139fc3c9e5
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42833000"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "57800448"
 ---
 # <a name="encodeurl-and-plaintext-functions-in-powerapps"></a>PowerApps의 EncodeUrl 및 PlainText 함수
 문자열을 인코딩하고 디코딩합니다.
 
 ## <a name="description"></a>설명
-**EncodeUrl** 함수는 영숫자가 아닌 문자를 % 및 16진수로 바꾸어 URL 문자열을 인코딩합니다.  
+합니다 **EncodeUrl** 함수 % 및 16 진수 숫자로 사용 하 여 특정 영숫자가 아닌 문자를 대체 하는 URL 문자열을 인코딩합니다.  
 
-**PlainText** 함수는 HTML 및 XML 태그를 제거하고 다음과 같은 태그를 적절한 기호로 변환합니다.
+합니다 **일반 텍스트** HTML 및 XML 태그에 특정 태그를 적절 한 기호로 같은 변환 함수를 제거 합니다.
 
 * **&amp;nbsp;**
 * **&amp;quot;**
 
-이러한 함수의 반환 값은 인코딩되거나 디코딩된 문자열입니다.   
+이러한 함수의 반환 값은 인코딩되거나 디코딩된 문자열입니다. 이 함수는 모든 HTML 및 XML 태그를 제거 하지 않습니다. 
 
 ## <a name="syntax"></a>구문
 **EncodeUrl**( *String* )

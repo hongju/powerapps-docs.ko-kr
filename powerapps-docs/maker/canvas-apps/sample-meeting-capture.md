@@ -1,24 +1,24 @@
 ---
 title: Meeting Capture 샘플 템플릿 | Microsoft Docs
 description: PowerApps의 Meeting Capture 샘플 템플릿에서 설정, 개요 및 앱을 빌드하는 방법에 대해 자세히 알아봅니다.
-author: caburk
+author: mr-dang-msft
 manager: kvivek
 ms.service: powerapps
 ms.topic: sample
 ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 07/03/2018
-ms.author: caburk
+ms.author: brdang
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 7a83ce913fbc688640eb2da2de6d9d5d66c7cde7
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.openlocfilehash: dfa2531baa95405d6ceb5adbda2aa5b839d27904
+ms.sourcegitcommit: 4db9c763455d141a7e1dd569a50c86bd9e50ebf0
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42848360"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "57802426"
 ---
 # <a name="set-up-and-learn-about-the-meeting-capture-sample-template-in-powerapps"></a>PowerApps의 Meeting Capture 샘플 템플릿 설정 및 학습
 
@@ -48,15 +48,15 @@ Meeting Capture에는 PowerApps에서 일반적으로 사용되는 많은 기능
 
 Meeting Capture는 Office 365에서 이러한 서비스에 연결합니다.
 
-- [Office 365 사용자](https://docs.microsoft.com/en-us/connectors/office365users/)
-- [Office 365 Outlook](https://docs.microsoft.com/en-us/connectors/office365/)
-- [Planner](https://docs.microsoft.com/en-us/connectors/planner/)
-- [OneNote(비즈니스)](https://docs.microsoft.com/en-us/connectors/onenote/)
-- [콘텐츠 변환](https://docs.microsoft.com/en-us/connectors/conversionservice/)
+- [Office 365 사용자](https://docs.microsoft.com/connectors/office365users/)
+- [Office 365 Outlook](https://docs.microsoft.com/connectors/office365/)
+- [Planner](https://docs.microsoft.com/connectors/planner/)
+- [OneNote(비즈니스)](https://docs.microsoft.com/connectors/onenote/)
+- [콘텐츠 변환](https://docs.microsoft.com/connectors/conversionservice/)
 
 Meeting Capture를 탐색하기를 바라며, 이를 조직에 맞게 확장하는 방법에 대한 의견을 기대합니다.
 
 ## <a name="next-steps"></a>다음 단계
-- [수식 참조](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/formula-reference)
-- [컨트롤 참조](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/reference-properties)
+- [수식 참조](https://docs.microsoft.com/powerapps/maker/canvas-apps/formula-reference)
+- [컨트롤 참조](https://docs.microsoft.com/powerapps/maker/canvas-apps/reference-properties)
  

@@ -1,24 +1,24 @@
 ---
 title: 프로젝트 승인을 관리하는 흐름 만들기 | Microsoft Docs
 description: 이 작업에서는 프로젝트 승인 프로세스를 구동하는 흐름을 만듭니다.
-author: mgblythe
+author: stepsic-microsoft-com
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: ''
 ms.date: 01/09/18
-ms.author: mblythe
+ms.author: stepsic
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: c17f4cbc4438057e68b1c2ff713a2bfd66228ce9
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.openlocfilehash: d41807bedf85c151c8e115456b9fb3e23756629d
+ms.sourcegitcommit: 90245baddce9d92c3ce85b0537c1ac1cf26bf55a
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42834600"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "57799620"
 ---
 # <a name="create-a-flow-to-manage-project-approvals"></a>프로젝트 승인을 관리하는 흐름 만들기
 > [!NOTE]
@@ -26,7 +26,7 @@ ms.locfileid: "42834600"
 
 이 작업에서는 프로젝트 승인 프로세스를 구동하는 흐름을 만듭니다. Microsoft Flow는 SharePoint와 통합되어 있으므로 목록에서 직접 흐름을 쉽게 만들 수 있습니다. **프로젝트 요청** 목록에 항목을 추가할 때 만드는 흐름이 트리거됩니다. 흐름은 프로젝트 승인자에게 전자 메일을 보내고, 프로젝트 승인자는 전자 메일에서 직접 요청을 승인하거나 거부합니다. 그런 다음 승인 요청 또는 거부 전자 메일을 프로젝트 요청자에게 보내고, SharePoint 목록을 적절하게 업데이트합니다.
 
-## <a name="step-1-configure-the-flow-template"></a>1단계: 흐름 템플릿 구성
+## <a name="step-1-configure-the-flow-template"></a>1 단계: 흐름 템플릿 구성
 1. **프로젝트 요청** 목록에서 **흐름**, **흐름 만들기**를 차례로 클릭하거나 탭합니다.
    
     ![흐름 만들기](./media/sharepoint-scenario-approval-flow/03-01-01-create-flow.png)
@@ -44,11 +44,11 @@ ms.locfileid: "42834600"
    
     ![승인 전자 메일 연락처](./media/sharepoint-scenario-approval-flow/03-01-05-approval-email.png)
    
-    흐름의 다음 상자에서는 프로젝트 승인자의 결정에 응답하고 흐름을 두 개의 '분기'(**예인 경우** 또는 **아니요인 경우**) 중 하나로 라우팅합니다.
+    흐름의 다음 상자에서는 프로젝트 승인자의 결정에 응답 하 고 두 가지 흐름 라우팅합니다 *분기*: **그렇다면** 나 **없으면**합니다.
    
     ![승인 조건](./media/sharepoint-scenario-approval-flow/03-01-06-condition.png)
 
-## <a name="step-2-create-actions-for-approve--yes"></a>2단계: 승인 = 예 작업 만들기
+## <a name="step-2-create-actions-for-approve--yes"></a>2 단계: 승인에 대 한 작업을 만드는 = yes
 기본적으로 이 분기에서는 요청자에게 승인 전자 메일을 보냅니다. 또한 프로젝트가 승인되었으므로 **프로젝트 요청** 목록을 업데이트하고 **프로젝트 세부 정보** 목록에 항목을 추가합니다.
 
 1. **예인 경우** 분기에서 **항목 작성자에게 승인 알림**, **편집**을 차례로 클릭하거나 탭하여 요청자에게 보낸 전자 메일에 대한 기본 옵션을 확인합니다.
@@ -96,7 +96,7 @@ ms.locfileid: "42834600"
     
     ![항목 만들기 완료](./media/sharepoint-scenario-approval-flow/03-01-11-yes-create-complete.png)
 
-## <a name="step-3-review-action-for-approve--no"></a>3단계: 승인 = 아니요 작업 검토
+## <a name="step-3-review-action-for-approve--no"></a>3 단계: 검토 작업 승인 = 아니요
 기본적으로 이 분기에서는 요청자에게 거부 전자 메일을 보냅니다. 또한 **프로젝트 요청** 목록을 업데이트합니다. 프로젝트가 진행되지 않으므로 **프로젝트 세부 정보** 목록에 항목을 추가하지 않습니다.
 
 1. **아니요인 경우** 분기에서 **항목 작성자에게 거부 알림**, **편집**을 차례로 클릭하거나 탭하여 요청자에게 보낸 전자 메일에 대한 기본 옵션을 확인합니다.

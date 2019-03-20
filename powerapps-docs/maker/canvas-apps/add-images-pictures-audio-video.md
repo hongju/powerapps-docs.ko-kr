@@ -1,24 +1,24 @@
 ---
 title: 캔버스 앱으로 멀티미디어 파일 포함 및 업로드 | Microsoft Docs
 description: 캔버스 앱에서 멀티미디어 파일 표시 및 데이터 원본에 업로드
-author: karthik-1
+author: emcoope-msft
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 07/12/2017
-ms.author: sharik
+ms.author: emcoope
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 99bdf6f3a71fe9a7f5003449017c70c1f5a73d09
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.openlocfilehash: d5d8b8ebaa2a1d044a09a402a87998980e34f461
+ms.sourcegitcommit: 90245baddce9d92c3ce85b0537c1ac1cf26bf55a
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42857708"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "57799114"
 ---
 # <a name="using-multimedia-files-in-powerapps"></a>PowerApps에서 멀티미디어 파일 사용
 
@@ -83,7 +83,7 @@ PowerApps에 [등록](../signup-for-powerapps.md)한 다음, 등록에 사용한
 > [!NOTE]
 > Excel 파일에서 이러한 이미지에 대한 경로는 슬래시를 사용해야 합니다. PowerApps에서 Excel 테이블에 이미지 경로를 저장할 때 경로는 백슬래시를 사용합니다. 이러한 테이블에서 이미지 경로를 사용하는 경우 백슬래시 대신 슬래시를 사용하도록 Excel 테이블에서 경로를 변경합니다. 그렇지 않으면 이미지가 표시되지 않습니다.  
 
-1. [CreateFirstApp.zip](http://pwrappssamples.blob.core.windows.net/samples/CreateFirstApp.zip)을 다운로드하고 **자산** 폴더를 클라우드 저장소 계정에 압축 해제합니다.
+1. [CreateFirstApp.zip](http://pwrappssamples.blob.core.windows.net/samples/CreateFirstApp.zip)을 다운로드하고 **자산** 폴더를 클라우드 스토리지 계정에 압축 해제합니다.
 
 2. **자산** 폴더의 이름을 **Assets_images**로 바꿉니다.
 

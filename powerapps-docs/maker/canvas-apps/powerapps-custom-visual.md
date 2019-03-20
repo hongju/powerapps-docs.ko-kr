@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: f4654c12c860496cd0e2b44bbd33c956b7385460
-ms.sourcegitcommit: 0269766ee598f75a4d2459824128f031f68ca042
-ms.translationtype: HT
+ms.openlocfilehash: dde096adbd82c04f7a2f17cd2af156b2e334c990
+ms.sourcegitcommit: 66fd1129ad25b72556f11a08350ba95f2ba060dd
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2018
-ms.locfileid: "47860613"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57804358"
 ---
 # <a name="powerapps-custom-visual-for-power-bi"></a>Power BI용 PowerApps 사용자 지정 시각적 개체
 
@@ -77,9 +77,9 @@ PowerApps 사용자 지정 시각적 개체는 미리 보기에서 사용할 수
 - PowerApps 사용자 지정 시각적 개체는 Power BI 보고서 또는 Power BI 데이터 원본의 새로 고침을 트리거할 수 없습니다. 앱에서 보고서와 동일한 데이터 원본으로 데이터를 다시 작성하는 경우 변경 내용은 즉시 반영되지 않습니다. 변경 내용은 다음 예약된 새로 고침에서 반영됩니다.
 - PowerApps 사용자 지정 시각적 개체는 데이터를 필터링하거나 보고서로 데이터를 다시 보낼 수 없습니다.
 - 보고서와 별도로 PowerApps 앱을 공유해야 합니다. [PowerApps에서 앱 공유](share-app.md)에 대해 알아봅니다.
-- Power BI Report Server 및 Power BI용 모바일 앱은 PowerApps 사용자 지정 시각적 개체를 지원하지 않습니다.
+- 이러한 기술을 PowerApps 사용자 지정 시각적 개체를 지원 하지 않습니다. Power BI Report Server에서 Power BI 및 Internet Explorer 용 모바일 앱입니다.
 
 ## <a name="next-steps"></a>다음 단계
 
 * 간단한 [단계별 자습서](embed-powerapps-powerbi.md)로 진행합니다.
-* [비디오](https://aka.ms/powerappscustomvisualvideo)를 확인합니다.
+* 체크 아웃 우리의 [비디오](https://aka.ms/powerappscustomvisualvideo)합니다.

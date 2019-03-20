@@ -1,24 +1,24 @@
 ---
 title: 프로젝트를 분석하는 Power BI 보고서 만들기 | Microsoft Docs
 description: 이 작업에서는 두 가지 SharePoint 목록을 기반으로 하여 Power BI 보고서를 만듭니다.
-author: mgblythe
+author: fikaradz
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: ''
 ms.date: 01/10/2018
-ms.author: mblythe
+ms.author: fikaradz
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: adda4a7adae9961b77f01320e92527b53ac61e7f
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.openlocfilehash: c57375906ba900a3112b9d7999d3941f14e9af58
+ms.sourcegitcommit: 90245baddce9d92c3ce85b0537c1ac1cf26bf55a
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42828780"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "57799942"
 ---
 # <a name="create-a-power-bi-report-to-analyze-projects"></a>프로젝트를 분석하는 Power BI 보고서 만들기
 > [!NOTE]
@@ -30,9 +30,9 @@ ms.locfileid: "42828780"
 > 이 시나리오에 대한 [다운로드 패키지](https://aka.ms/o4ia0f)에는 이 보고서의 완성된 버전인 project-analysis.pbix가 포함되어 있습니다.
 
 ## <a name="quick-review-of-power-bi-desktop"></a>Power BI Desktop에 대한 빠른 검토
-보고서를 만드는 방법을 살펴보기 전에 Power BI Desktop을 검토해 보겠습니다. 이는 많은 기능을 갖춘 강력한 도구이므로 이 작업에서 사용할 영역의 개요에 대해 중점적으로 설명합니다. Power BI Desktop에는 세 가지 기본 작업 영역(또는 '보기'), 즉 **보고서** 보기, **데이터** 보기 및 **관계** 보기가 있습니다. 또한 Power BI Desktop에는 별개의 창에서 열리는 **쿼리 편집기**도 있습니다.
+보고서를 만드는 방법을 살펴보기 전에 Power BI Desktop을 검토해 보겠습니다. 이는 많은 기능을 갖춘 강력한 도구이므로 이 작업에서 사용할 영역의 개요에 대해 중점적으로 설명합니다. 다음 세 가지 기본 작업 영역 또는 *뷰* Power BI Desktop에서: **보고서** 뷰에서 **데이터** 보기 및 **관계** 보기. 또한 Power BI Desktop에는 별개의 창에서 열리는 **쿼리 편집기**도 있습니다.
 
-다음 화면에서는 Power BI Desktop 왼쪽을 따라 위에서 아래로 세 가지 보기 아이콘(**보고서**, **데이터** 및 **관계**)을 표시합니다. 왼쪽의 노란색 막대는 현재 보기를 나타내며, 여기서는 **보고서** 보기가 표시되어 있습니다. 이러한 세 아이콘 중 하나를 선택하여 보기를 변경합니다.
+다음 화면에서는 Power BI Desktop의 왼쪽을 따라 세 개의 뷰 아이콘을 보여 줍니다. **보고서**, **데이터**, 및 **관계**, 위쪽에서 아래쪽으로 합니다. 왼쪽의 노란색 막대는 현재 보기를 나타내며, 여기서는 **보고서** 보기가 표시되어 있습니다. 이러한 세 아이콘 중 하나를 선택하여 보기를 변경합니다.
 
 ![Power BI Desktop 보기](./media/sharepoint-scenario-build-report/05-00-00-tabs.png)
 
@@ -65,7 +65,7 @@ ms.locfileid: "42828780"
 
 ![Power BI Desktop 쿼리 편집기](./media/sharepoint-scenario-build-report/05-00-03-query.png)
 
-## <a name="step-1-get-data-into-power-bi-desktop"></a>1단계: Power BI Desktop에 데이터 가져오기
+## <a name="step-1-get-data-into-power-bi-desktop"></a>1 단계: Power BI Desktop에 데이터 가져오기
 이 단계에서는 먼저 두 목록에 연결합니다. 그런 다음 데이터 분석에 필요하지 않은 열을 제거하여 데이터를 정리합니다. 또한 계산이 제대로 작동하도록 나머지 열 중 일부의 데이터 형식을 변경합니다. Power BI Desktop에서 데이터를 가져오고 정리하는 방법에 대한 자세한 내용은 단계별 학습 과정의 [데이터 가져오기](https://powerbi.microsoft.com/guided-learning/powerbi-learning-1-1-overview-of-power-bi-desktop) 섹션을 참조하세요.
 
 ### <a name="connect-to-sharepoint-lists"></a>SharePoint 목록에 연결
@@ -94,7 +94,7 @@ ms.locfileid: "42828780"
 2. 가운데 창에서 **FileSystemObjectType** 열을 선택한 다음 **열 제거**를 클릭하거나 탭합니다.
    
     ![열 제거](./media/sharepoint-scenario-build-report/05-01-07-remove-column.png)
-3. **ID** 열 뒤에 있는 두 열, 즉 **ServerRedirectedEmbedURL** 및 **ContentTypeId**를 제거합니다. 
+3. 다음 두 개의 열을 제거 합니다 **Id** 열: **ServerRedirectedEmbedURL** 하 고 **ContentTypeId**합니다. 
    > [!TIP]
    > Shift 키를 사용하여 두 열을 선택한 다음 **열 제거**를 클릭하거나 탭합니다.
 4. **PMAssigned** 열(총 22열)의 오른쪽에 있는 모든 열을 제거합니다. 테이블은 다음 이미지와 같습니다.
@@ -105,11 +105,11 @@ ms.locfileid: "42828780"
     ![ 쿼리 편집기의 프로젝트 요청 테이블](./media/sharepoint-scenario-build-report/05-01-09-table-requests.png)
 
 ### <a name="change-the-data-type-on-project-details-columns"></a>프로젝트 세부 정보 열의 데이터 형식 변경
-1. **ProjectedDays** 열을 선택하고 **데이터 형식: 모두**, **정수**를 차례로 클릭하거나 탭합니다.
+1. 선택 된 **ProjectedDays** 열을 클릭 하거나 탭 **데이터 형식: 모든**, 한 다음 **정수**합니다.
    
     ![데이터 형식을 정수로 변경](./media/sharepoint-scenario-build-report/05-01-10-datatype-number.png)
 2. **ActualDays** 열에 대해 이전 단계를 반복합니다.
-3. **ApprovedDate** 열을 선택하고 **데이터 형식: 모두**, **날짜**를 차례로 클릭하거나 탭합니다.
+3. 선택 된 **ApprovedDate** 열을 클릭 하거나 탭 **데이터 형식: 모든**, 한 다음 **날짜**합니다.
    
     ![ 데이터 형식을 날짜로 변경](./media/sharepoint-scenario-build-report/05-01-11-datatype-date.png)
 
@@ -117,9 +117,9 @@ ms.locfileid: "42828780"
 
 ### <a name="change-the-data-type-on-project-requests-columns"></a>프로젝트 요청 열의 데이터 형식 변경
 
-1. **EstimatedDays** 열을 선택하고 **데이터 형식: 모두**, **정수**를 차례로 클릭하거나 탭합니다.
+1. 선택 된 **EstimatedDays** 열을 클릭 하거나 탭 **데이터 형식: 모든**, 한 다음 **정수**합니다.
 
-2. **RequestDate** 열을 선택하고 **데이터 형식: 모두**, **날짜**를 차례로 클릭하거나 탭합니다.
+2. 선택 된 **RequestDate** 열을 클릭 하거나 탭 **데이터 형식: 모든**, 한 다음 **날짜**합니다.
 
 ### <a name="apply-and-save-changes"></a>변경 내용 적용 및 저장
 
@@ -129,7 +129,7 @@ ms.locfileid: "42828780"
 
 2. **파일**, **저장**을 차례로 클릭하거나 탭하고 project-analysis.pbix라는 이름으로 저장합니다.
 
-## <a name="step-2-improve-the-data-model"></a>2단계: 데이터 모델 향상
+## <a name="step-2-improve-the-data-model"></a>2 단계: 데이터 모델 향상
 이제 SharePoint 목록의 데이터를 Power BI Desktop으로 가져왔으므로 데이터 모델링으로 이동합니다. 데이터 모델링은 시간이 많이 걸리는 프로세스일 수 있지만, Power BI Desktop의 목록 데이터를 더 많이 활용하기 위해 수행할 수 있는 몇 가지 흥미로운 작업에 대해 간략히 살펴보겠습니다.
 
 * 두 테이블 간의 관계를 변경합니다.
@@ -170,7 +170,7 @@ Power BI Desktop에서 목록을 가져올 때 두 테이블의 **ID** 열을 �
 1. **새 테이블**을 클릭하거나 탭합니다.
    
     ![새 테이블](./media/sharepoint-scenario-build-report/05-02-05-modeling-table.png)
-2. 수식 입력줄에 **Dates = CALENDARAUTO()** 수식을 입력합니다.
+2. 다음 수식을 수식 입력줄에 입력합니다. **날짜 = calendarauto ()** 합니다.
    
     ![Dates = CALENDARAUTO()가 있는 수식 입력줄](./media/sharepoint-scenario-build-report/05-02-06-formula-bar.png)
    
@@ -185,7 +185,7 @@ Power BI Desktop에서 목록을 가져올 때 두 테이블의 **ID** 열을 �
 1. 아직 Dates 테이블에 있으면 **새 열**을 클릭하거나 탭합니다.
    
     ![새 열](./media/sharepoint-scenario-build-report/05-02-00-modeling-column.png)
-2. 수식 입력줄에 **IsWeekDay = SWITCH(WEEKDAY(Dates[Date]), 1,0,7,0,1)** 수식을 입력합니다.
+2. 다음 수식을 수식 입력줄에 입력합니다. **IsWeekDay = SWITCH(WEEKDAY(Dates[Date]), 1,0,7,0,1)**.
    
     이 수식은 **날짜** 열의 날짜가 평일인지 여부를 결정합니다. 날짜가 평일이면 **IsWeekDay** 열의 값이 1이고, 그렇지 않으면 0입니다.
 3. Enter 키를 눌러 **IsWeekDay** 열을 **Dates** 테이블에 추가합니다.
@@ -284,7 +284,7 @@ Power BI Desktop에서 목록을 가져올 때 두 테이블의 **ID** 열을 �
    
     ![MaxDaysPending 측정값 추가](./media/sharepoint-scenario-build-report/05-02-12-measure-maxdayspending.png)
 
-## <a name="step-3-create-report-visualizations"></a>3단계: 보고서 시각화 만들기
+## <a name="step-3-create-report-visualizations"></a>3 단계: 보고서 시각화 만들기
 이제 많은 사람들이 데이터 분석을 고려하는 단계에 있습니다. 시각화를 만들어 데이터에서 패턴을 찾을 수 있도록 합니다. 이 단계에서는 네 가지 시각화를 만듭니다.
 
 * 프로젝트에 예상 일 수와 실제 일 수를 표시하는 세로 막대형 차트

@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: f7aed7812890482bb781e2d5ff7eac8c996b8837
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.openlocfilehash: d48559ee3a54cbb723621a0e36f09cb4a1d0fe3b
+ms.sourcegitcommit: 825daacc9a812637815afc1ce6fad28f0cebd479
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42850420"
+ms.lasthandoff: 03/04/2019
+ms.locfileid: "57803438"
 ---
 # <a name="understand-behavior-formulas-for-canvas-apps-in-powerapps"></a>PowerApps의 캔버스 앱에 대한 동작 수식 이해
 
@@ -30,18 +30,18 @@ ms.locfileid: "42850420"
 
 **[단추](controls/control-button.md)** 컨트롤을 선택하면 다음과 같이 사용자가 앱의 상태를 변경하는 일련의 작업 또는 동작을 시작합니다.
 
-* 표시되는 화면 변경: **[Back](functions/function-navigate.md)** 및 **[Navigate](functions/function-navigate.md)** 함수
-* [신호](functions/signals.md) 제어: **[Enable](functions/function-enable-disable.md)** 및 **[Disable](functions/function-enable-disable.md)** 함수
-* [데이터 원본](working-with-data-sources.md) 항목 새로 고침, 업데이트 또는 제거: **[Refresh](functions/function-refresh.md)**, **[Update](functions/function-update-updateif.md)**, **[UpdateIf](functions/function-update-updateif.md)**, **[Patch](functions/function-patch.md)**, **[Remove](functions/function-remove-removeif.md)**, **[RemoveIf](functions/function-remove-removeif.md)** 함수
-* [컨텍스트 변수](working-with-variables.md#create-a-context-variable) 업데이트: **[UpdateContext](functions/function-updatecontext.md)** 함수
-* [컬렉션](working-with-data-sources.md#collections) 항목 만들기, 업데이트 또는 제거: **[Collect](functions/function-clear-collect-clearcollect.md)**, **[Clear](functions/function-clear-collect-clearcollect.md)**, **[ClearCollect](functions/function-clear-collect-clearcollect.md)** 함수
+* 표시 되는 화면을 변경 합니다. **[다시](functions/function-navigate.md)**  하 고 **[Navigate](functions/function-navigate.md)** 함수입니다.
+* 컨트롤을 [신호](functions/signals.md): **[사용 하도록 설정](functions/function-enable-disable.md)**  하 고 **[사용 안 함](functions/function-enable-disable.md)** 함수입니다.
+* 새로 고침, 업데이트 또는의 항목을 제거는 [데이터 원본](working-with-data-sources.md): **[새로 고침](functions/function-refresh.md)**,  **[업데이트](functions/function-update-updateif.md)** 하십시오  **[UpdateIf](functions/function-update-updateif.md)** 를 **[패치](functions/function-patch.md)**,  **[제거](functions/function-remove-removeif.md)** 하십시오 **[RemoveIf](functions/function-remove-removeif.md)** 함수입니다.
+* 업데이트를 [컨텍스트 변수](working-with-variables.md#use-a-context-variable):  **[UpdateContext](functions/function-updatecontext.md)**  함수입니다.
+* 만들기, 업데이트 또는의 항목을 제거는 [컬렉션](working-with-data-sources.md#collections):  **[수집할](functions/function-clear-collect-clearcollect.md)**,  **[지우기](functions/function-clear-collect-clearcollect.md)** 를 **[ClearCollect](functions/function-clear-collect-clearcollect.md)** 함수입니다.
 
 이러한 함수는 앱의 상태를 변경하기 때문에 자동으로 다시 계산할 수 없습니다. 동작 수식이라고 하는 **[OnSelect](controls/properties-core.md)**, **[OnVisible](controls/control-screen.md)**, **[OnHidden](controls/control-screen.md)** 및 기타 **On...** 속성의 수식에 사용할 수 있습니다.
 
 ### <a name="more-than-one-action"></a>둘 이상의 작업
 세미콜론을 사용하여 수행할 작업의 목록을 만듭니다. 예를 들어 다음과 같이 컨텍스트 변수를 업데이트한 다음 이전 화면으로 돌아갈 수도 있습니다.
 
-* **UpdateContext( { x: 1 } ); Back()**
+* **UpdateContext ({x: 1 } ); Back()**
 
 작업은 수식에 표시된 순서대로 수행됩니다.  현재 함수가 완료될 때까지 다음 함수는 시작되지 않습니다. 오류가 발생하면 후속 함수가 시작되지 않을 수 있습니다.
 

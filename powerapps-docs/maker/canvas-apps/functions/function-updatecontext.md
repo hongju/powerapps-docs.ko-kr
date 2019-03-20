@@ -13,15 +13,15 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 6f89887d05f4b4885e66335457357a089ceaf90f
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.openlocfilehash: 20e06f7c03d0aca18b8351e546ccee3fff528f56
+ms.sourcegitcommit: 825daacc9a812637815afc1ce6fad28f0cebd479
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42865512"
+ms.lasthandoff: 03/04/2019
+ms.locfileid: "57803576"
 ---
 # <a name="updatecontext-function-in-powerapps"></a>PowerApps의 UpdateContext 함수
-현재 화면의 [컨텍스트 변수](../working-with-variables.md#create-a-context-variable)를 만들거나 업데이트합니다.
+현재 화면의 [컨텍스트 변수](../working-with-variables.md#use-a-context-variable)를 만들거나 업데이트합니다.
 
 ## <a name="overview"></a>개요
 **UpdateContext** 함수를 사용하여 정보(예: 사용자가 버튼을 선택한 횟수 또는 데이터 작업의 결과)를 임시로 보관하는 컨텍스트 변수를 만듭니다.
@@ -66,7 +66,7 @@ PowerApps는 사용자가 앱과 상호 작용할 때 자동으로 다시 계산
 
 * *ContextVariable1* - 필수.  만들거나 업데이트할 컨텍스트 변수의 이름입니다.
 * *Value1* - 필수.  컨텍스트 변수에 할당할 값입니다.
-* *ContextVariable2*: *Value2*, ... - 선택 사항. 만들거나 업데이트할 추가 컨텍스트 변수 및 값입니다.
+* *ContextVariable2*: *Value2*,...-선택 사항입니다. 만들거나 업데이트할 추가 컨텍스트 변수 및 값입니다.
 
 ## <a name="examples"></a>예
 

@@ -1,24 +1,24 @@
 ---
 title: InfoPath 양식을 캔버스 앱으로 변환 | Microsoft Docs
 description: 일반적인 시나리오에 대한 정보와 캔버스 앱에서 이러한 항목을 만드는 방법을 사용하여 InfoPath 양식을 PowerApps로 변환하기 시작합니다.
-author: richardriley99
+author: gregli-msft
 manager: kvivek
 ms.service: powerapps
 ms.topic: article
 ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 04/05/2018
-ms.author: rriley
+ms.author: gregli
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: c2d72368b36f2de854a0aa575f9ef44f2f966ace
-ms.sourcegitcommit: 2300de0a0486187762f830068c872116d5b04c32
-ms.translationtype: HT
+ms.openlocfilehash: 0ceffa705262e879ee09df2494f71f59bcc2d1b5
+ms.sourcegitcommit: 4db9c763455d141a7e1dd569a50c86bd9e50ebf0
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49806228"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "57802380"
 ---
 # <a name="transform-your-infopath-form-to-powerapps"></a>InfoPath 양식을 PowerApps로 변환
 
@@ -50,7 +50,7 @@ PowerApps는 두 가지 방법으로 SharePoint 환경을 더 낫게 만들 수 
 
 사용자가 목록의 항목을 추가, 보기 또는 편집하는 방식을 사용자 정의하려는 경우 **SharePoint 양식 사용자 지정**이 매우 유용합니다. **형식 사용자 지정**을 클릭하면 컨텍스트에 따라 모드(새로 만들기/편집/보기)가 변경되는 단일 화면 &quot;Forms 앱&quot;을 만듭니다. 이러한 앱은 SharePoint에서 관리하며, 해당 사용 권한은 편집/보기를 위한 목록 사용 권한과 동일합니다.
 
-**SharePoint에서 PowerApps 캔버스 앱 만들기**를 사용하면 모바일 장치에서 앱을 실행할 수 있습니다. 또한 SharePoint 페이지에 앱을 포함할 수도 있습니다. 이 옵션을 클릭하면 3개 화면 앱(목록 찾아보기, 세부 정보 보기 및 항목 만들기/업데이트)이 생성됩니다. 이러한 앱에 대한 사용 권한/공유 모델은 SharePoint에 연결되지 않고 대신 PowerApps에서 관리됩니다.
+**SharePoint에서 PowerApps 캔버스 앱 만들기**를 사용하면 모바일 디바이스에서 앱을 실행할 수 있습니다. 또한 SharePoint 페이지에 앱을 포함할 수 있습니다. 이 옵션을 클릭하면 3개 화면 앱(목록 찾아보기, 세부 정보 보기 및 항목 만들기/업데이트)이 생성됩니다. 이러한 앱에 대한 사용 권한/공유 모델은 SharePoint에 연결되지 않고 대신 PowerApps에서 관리됩니다.
 
 두 옵션 간의 차이를 이해했으므로 다음 섹션에서는 각 옵션의 사용에 대한 개요를 제공합니다.
 
@@ -62,7 +62,7 @@ PowerApps를 사용하여 목록 양식을 네이티브 기능으로 사용자 �
 
 ![SharePoint 통합](./media/transform-infopath/sharepoint-integration.png)
 
-PowerApps의 또 다른 중요한 특징은 같은 양식에서 다른 환경 또는 다른 SharePoint 사이트 컬렉션에 쉽게 연결하는 기능입니다. 예를 들어 SharePoint Online 및 SharePoint 온-프레미스 환경에서 동시에 데이터를 업데이트하고 표시하는 한 가지 양식을 만들기를 원합니까? 걱정하실 필요가 없습니다. [온-프레미스 데이터 게이트웨이](gateway-management.md)를 설치하면 몇 분 이내로 온-프레미스 데이터와 PowerApps, Power BI, Microsoft Flow 및 Azure Logic Apps의 연결을 실행합니다. 방화벽 규칙을 변경할 필요가 없습니다. 이 앱을 Microsoft Flow와 연결하면 한 단계 더 앞서 나갈 수 있습니다.
+PowerApps의 또 다른 중요한 특징은 같은 양식에서 다른 환경 또는 다른 SharePoint 사이트 컬렉션에 쉽게 연결하는 기능입니다. 예를 들어 SharePoint Online 및 SharePoint 온-프레미스 환경에서 동시에 데이터를 업데이트하고 표시하는 한 가지 양식을 만들기를 원합니까? 문제 없어요. [온-프레미스 데이터 게이트웨이](gateway-management.md)를 설치하면 몇 분 이내로 온-프레미스 데이터와 PowerApps, Power BI, Microsoft Flow 및 Azure Logic Apps의 연결을 실행합니다. 방화벽 규칙을 변경할 필요가 없습니다. 이 앱을 Microsoft Flow와 연결하면 한 단계 더 앞서 나갈 수 있습니다.
 
 ## <a name="a-standalone-sharepoint-app"></a>독립 실행형 SharePoint 앱
 
@@ -99,23 +99,23 @@ PowerApps가 사용자 지정 가능한 앱을 빌드합니다.
 
 읽기 전용으로 만드는 대신 카드를 숨기려면 **DisplayMode** 오른쪽 위에 있는 **Visible** 속성에 유사한 함수를 삽입합니다.
 
-또한, 예를 들어 사용자의 메일 주소가 승인자의 메일 주소와 일치하는 경우에만 승인 단추를 표시하도록 할 수도 있습니다. (힌트: **User().Email**을 사용하면 현재 사용자의 메일 주소에 액세스할 수 있습니다.) 승인자의 메일 주소를 **YourDataCard**에 저장한 다음, 이 수식에 대한 단추의 **Visible** 속성을 다음과 같이 설정할 수 있습니다.
+또한, 예를 들어 사용자의 메일 주소가 승인자의 메일 주소와 일치하는 경우에만 승인 단추를 표시하도록 할 수도 있습니다. (힌트: 사용 하 여 **User() 합니다. 전자 메일** 현재 사용자의 전자 메일 주소를 액세스할 수 있습니다.) 승인자의 메일 주소를 **YourDataCard**에 저장한 다음, 이 수식에 대한 단추의 **Visible** 속성을 다음과 같이 설정할 수 있습니다.
 
-```If(YourDataCard.Text = User().Email, true, false)```
+```If( YourDataCard.Text = User().Email, true, false )```
 
 **조건부 서식**  
 필드를 숨긴 위의 경우와 비슷한 방식으로 사용자에게 시각적 피드백을 제공할 수도 있습니다. 입력한 값이 허용 가능한 범위를 벗어나는 경우 빨간색으로 텍스트를 강조 표시하거나 사용자가 파일을 업로드한 후에는 업로드 단추의 텍스트 및 색상을 변경하려고 할 수 있습니다. **Color** 또는 **Visible**과 같은 속성에서 **If** 등의 함수를 사용하면 이 두 작업을 모두 수행할 수 있습니다.
 
 예를 들어, [IsMatch](functions/function-ismatch.md) 함수와 짝을 이루는 **If** 함수를 사용하면 사용자가 입력 상자에 올바른 형식의 메일을 입력하지 않은 경우 메일 필드의 텍스트 색을 빨간색으로 변경할 수 있습니다. (사용자가 메일 주소를 입력하는) **TextInput1**의 **Color** 값을 이 수식에 설정해 이러한 기능을 구현할 수 있습니다.
 
-```If(IsMatch(TextInput1.Text, Email), Black, Red)```
+```If( IsMatch(TextInput1.Text, Email), Black, Red )```
 
 **IsMatch**는 메일과 같은 사전 정의된 다양한 패턴을 지원하는데, 고유한 조건부 서식을 만들 수도 있습니다. 조건부 서식에 관한 자세한 내용은 [커뮤니티 비디오](https://powerusers.microsoft.com/t5/Video-Webinar-Gallery/PowerApps-Conditional-Formatting-and-Popups/m-p/84962)를 확인하세요.
 
 **역할 기반 보안 구현**  
 고려해야 할 첫 번째 함수는 [DataSourceInfo](functions/function-datasourceinfo.md)입니다. 데이터 원본에서 얻을 수 있는 정보는 다양하지만 일반적으로 이 수식을 사용하여 사용자에게 데이터를 편집할 액세스 권한이 있는지 여부를 확인할 수 있습니다(*YourDataSource*는 데이터 원본 이름으로 바꾸기).
 
-```DataSourceInfo(YourDataSource, DataSourceInfo.EditPermission)```
+```DataSourceInfo( YourDataSource, DataSourceInfo.EditPermission )```
 
 이를 통해 사용자에게 편집 권한이 있는 경우에만 양식이나 단추를 표시할 수 있습니다. 함수에서 쿼리할 수 있는 정보의 전체 목록은 [DataSourceInfo](functions/function-datasourceinfo.md) 설명서를 확인하세요.
 
@@ -138,7 +138,7 @@ Microsoft Flow를 사용해 작성한 흐름에 앱을 연결하면 예를 들�
 
 - 전역 변수는 가장 일반적으로 먼저 떠올리는 것입니다. [Set](functions/function-set.md) 함수를 사용하여 전역 변수 값을 지정하고 앱 전체에서 사용 가능하도록 설정합니다.
 
-    ```Set(YourVariable, YourValue)```
+    ```Set( YourVariable, YourValue )```
 
     그러면 앱 전체에서 이름으로*YourVariable*을 참조할 수 있습니다.
 
@@ -157,13 +157,13 @@ Microsoft Flow를 사용해 작성한 흐름에 앱을 연결하면 예를 들�
 
 이 예에서는 **ddSelectType**이라는 드롭다운을 추가하고 이 드롭다운의 **Items** 속성을 다음 수식으로 설정할 수 있습니다.
 
-```Distinct(Impacts, Title)```
+```Distinct( Impacts, Title )```
 
 이 드롭다운에는 Cost, Program Impact 및 Schedule만 표시됩니다. 그런 다음, 두 번째 드롭다운을 추가하고 **Items** 속성을 다음 수식으로 설정할 수 있습니다.
 
-```Filter(Impacts,ddSelectType.Selected.Value in SCategory)```
+```Filter( Impacts, ddSelectType.Selected.Value in SCategory )```
 
-계단식 드롭다운이 있는 것처럼 설정합니다. 자세한 내용은 PowerApps 팀 [SharePoint: Cascading Dropdowns in 4 Easy Steps!](https://powerusers.microsoft.com/t5/PowerApps-Community-Blog/SharePoint-Cascading-Dropdowns-in-4-Easy-Steps/ba-p/16248)(간단한 4단계 계단식 드롭다운!) 게시물 또는 이 [커뮤니티 비디오](https://powerusers.microsoft.com/t5/Video-Webinar-Gallery/PowerApps-Cascading-Dropdown/m-p/92813)를 참조하세요. 걱정하지 마세요. SharePoint 없이 쉽게 해낼 수 있습니다.
+계단식 드롭다운이 있는 것처럼 설정합니다. 자세한 내용은 PowerApps 팀의이 게시물 확인 [SharePoint: 4 단계의 계단식 드롭다운!](https://powerusers.microsoft.com/t5/PowerApps-Community-Blog/SharePoint-Cascading-Dropdowns-in-4-Easy-Steps/ba-p/16248) 또는 이 [커뮤니티 비디오](https://powerusers.microsoft.com/t5/Video-Webinar-Gallery/PowerApps-Cascading-Dropdown/m-p/92813)를 참조하세요. 걱정하지 마세요. SharePoint 없이 쉽게 해낼 수 있습니다.
 
 **하나의 슈퍼 앱 빌드하지 않기**  
 PowerApps를 사용하면 한 앱에서 다른 앱을 호출할 수 있습니다. 따라서 대용량 InfoPath 양식을 대충 구성하여 사용하기보다는 서로 호출하고 데이터를 주고받기까지 하는 앱 그룹을 빌드할 수 있으므로 더욱 간단하게 개발할 수 있습니다.

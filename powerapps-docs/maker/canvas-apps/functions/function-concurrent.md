@@ -13,24 +13,24 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: a0fdddcf906a04914ea9ba9a8572798ea5d55378
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.openlocfilehash: b3f95b5c8ddbca1925f89797e52b1b227c4b10e8
+ms.sourcegitcommit: ead27300a1b7371136edee1842829ed87ca77a72
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42834822"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "57892256"
 ---
 # <a name="concurrent-function-in-powerapps"></a>PowerApps의 Concurrent 함수
 동시에 서로 여러 수식을 평가합니다.
 
 ## <a name="description"></a>설명
-**Concurrent** 함수는 동시에 여러 수식을 평가합니다. 일반적으로 여러 수식은 [**;**](operators.md)(또는 [**;;**](operators.md)) 연산자와 함께 연결하여 평가됩니다. 따라서 순차적으로 각 항목을 평가합니다. 앱이 작업을 동시에 수행하는 경우 사용자가 동일한 결과를 기다리는 시간이 줄어듭니다.
+**Concurrent** 함수는 동시에 여러 수식을 평가합니다. 함께 사용 하 여 연결 하 여 여러 수식이 계산 되는 일반적으로 [ **;** ](operators.md) 순서로 순차적으로 각 항목을 평가 하는 연산자가 있습니다. 앱이 작업을 동시에 수행하는 경우 사용자가 동일한 결과를 기다리는 시간이 줄어듭니다.
 
 앱의 [**OnStart**](../controls/control-screen.md) 속성에서 **Concurrent**를 사용하여 앱이 데이터를 로드할 때 성능을 향상시킵니다. 이전 호출이 완료될 때까지 데이터 호출이 시작되지 않는 경우 앱은 모든 요청 시간의 합계를 대기해야 합니다. 데이터 호출이 동시에 시작되는 경우 앱은 가장 긴 요청 시간 동안만 대기하면 됩니다. 웹 브라우저는 데이터 작업을 동시에 수행하여 성능을 향상시킵니다.
 
-**Concurrent** 함수 내에서 수식이 평가를 시작하고 종료하는 순서를 예측할 수 없습니다. **Concurrent** 함수 내의 수식은 동일한 **Concurrent** 함수 내의 다른 수식에 대한 종속성을 포함하지 않고 PowerApps에서는 사용하는 경우 오류를 표시합니다. 내부에서 **Concurrent** 함수가 시작하기 전에 완료하기 때문에 **Concurrent** 함수 외부의 수식에 대한 종속성을 안전하게 사용할 수 있습니다. **Concurrent** 함수 내에서 수식은 내부의 수식에 대한 종속성을 안전하게 사용할 수 있습니다. 해당 수식은 **;** 또는 **;;** 연산자를 사용하는 경우 **Concurrent** 함수가 완료되고 체인의 다음 수식으로 이동하기 전에 완료됩니다. 의도하지 않은 결과가 포함된 함수 또는 서비스 메서드를 호출하는 경우 미묘한 순서 종속성에 대해 주의합니다.
+**Concurrent** 함수 내에서 수식이 평가를 시작하고 종료하는 순서를 예측할 수 없습니다. **Concurrent** 함수 내의 수식은 동일한 **Concurrent** 함수 내의 다른 수식에 대한 종속성을 포함하지 않고 PowerApps에서는 사용하는 경우 오류를 표시합니다. 내부에서 **Concurrent** 함수가 시작하기 전에 완료하기 때문에 **Concurrent** 함수 외부의 수식에 대한 종속성을 안전하게 사용할 수 있습니다. 후 수식 합니다 **동시** 함수 내에서 수식을에 안전 하 게 종속성을 사용할 수 있습니다:에서는 모든 하기 전에 완료 합니다 **동시** 함수 완료 되 고 체인의 다음 수식으로 이동 (경우 있습니다 사용 된 **;** 연산자). 의도하지 않은 결과가 포함된 함수 또는 서비스 메서드를 호출하는 경우 미묘한 순서 종속성에 대해 주의합니다.
 
-**Concurrent**의 인수 내에서 **;**(또는 **;;**) 연산자와 함께 수식을 연결할 수 있습니다. **Concurrent( Set( a, 1 ); Set( b, a+1 ), Set( x, 2 ); Set( y, x+2 ) )** 는 **Set( x, 2 ); Set( y, x+2 )** 와 동시에 **Set( a, 1 ); Set( b, a+1 )** 을 평가합니다. 이 경우에 수식 내에서 종속성에는 문제가 없습니다. **a**는 **b** 전에 설정되고 **x**는 **y** 전에 설정됩니다.
+수식 함께 연결할 수 있습니다 합니다 **;** 인수 내의 연산자 **동시**합니다. **Concurrent( Set( a, 1 ); Set( b, a+1 ), Set( x, 2 ); Set( y, x+2 ) )** 는 **Set( x, 2 ); Set( y, x+2 )** 와 동시에 **Set( a, 1 ); Set( b, a+1 )** 을 평가합니다. 이 경우에 수식 내에서 종속성에는 문제가 없습니다. **a**는 **b** 전에 설정되고 **x**는 **y** 전에 설정됩니다.
 
 앱이 실행되는 디바이스 또는 브라우저에 따라 일부 수식만이 실제로 동시에 계산될 수 있습니다. **Concurrent**는 지원되는 기능을 사용하고 모든 수식이 평가될 때까지 완료되지 않습니다.
 
@@ -55,7 +55,12 @@ ms.locfileid: "42834822"
 
 2. **[단추](../controls/control-button.md)** 컨트롤을 추가하고 **OnSelect** 속성을 이 수식으로 설정합니다.
 
-    **ClearCollect( Product, '[SalesLT].[Product]' );<br> ClearCollect( Customer, '[SalesLT].[Customer]' );<br> ClearCollect( SalesOrderDetail, '[SalesLT].[SalesOrderDetail]' );<br> ClearCollect( SalesOrderHeader, '[SalesLT].[SalesOrderHeader]' )**
+    ```powerapps-dot
+    ClearCollect( Product, '[SalesLT].[Product]' );
+    ClearCollect( Customer, '[SalesLT].[Customer]' );
+    ClearCollect( SalesOrderDetail, '[SalesLT].[SalesOrderDetail]' ); 
+    ClearCollect( SalesOrderHeader, '[SalesLT].[SalesOrderHeader]' )
+    ```
 
 3. [Microsoft Edge](https://docs.microsoft.com/microsoft-edge/devtools-guide/network) 또는 [Google Chrome](https://developers.google.com/web/tools/chrome-devtools/network-performance/)에서 앱이 실행되는 동안 네트워크 트래픽을 모니터링하는 개발자 도구를 사용합니다.
 
@@ -73,7 +78,14 @@ ms.locfileid: "42834822"
 
 1. 두 번째 **[단추](../controls/control-button.md)** 컨트롤을 추가하고 이 수식에 **OnSelect** 속성을 설정합니다.
 
-    **Concurrent(<br> &nbsp;&nbsp;&nbsp;&nbsp;ClearCollect( Product, '[SalesLT].[Product]' ),<br> &nbsp;&nbsp;&nbsp;&nbsp;ClearCollect( Customer, '[SalesLT].[Customer]' ),<br> &nbsp;&nbsp;&nbsp;&nbsp;ClearCollect( SalesOrderDetail, '[SalesLT].[SalesOrderDetail]' ),<br> &nbsp;&nbsp;&nbsp;&nbsp;ClearCollect( SalesOrderHeader, '[SalesLT].[SalesOrderHeader]' )<br> )**
+    ```powerapps-dot
+    Concurrent( 
+        ClearCollect( Product, '[SalesLT].[Product]' ), 
+        ClearCollect( Customer, '[SalesLT].[Customer]' ),
+        ClearCollect( SalesOrderDetail, '[SalesLT].[SalesOrderDetail]' ),
+        ClearCollect( SalesOrderHeader, '[SalesLT].[SalesOrderHeader]' )
+    )
+    ```
 
     동일한 **ClearCollect** 호출을 첫 번째 단추에 추가했지만 이번에는 **Concurrent** 함수에서 래핑되고 쉼표로 구분됩니다.
 
@@ -99,7 +111,23 @@ ms.locfileid: "42834822"
 
 3. **단추** 컨트롤을 추가하고 **OnSelect** 속성을 이 수식으로 설정합니다.
 
-    **Set( StartTime, Value(Now()) );<br> Concurrent(<br> &nbsp;&nbsp;&nbsp;&nbsp;Set(FRTrans, MicrosoftTranslator.Translate(TextInput1.Text,"fr")); Set(FRTransTime, Value(Now()) ),<br> &nbsp;&nbsp;&nbsp;&nbsp;Set(DETrans, MicrosoftTranslator.Translate(TextInput1.Text,"de")); Set(DETransTime, Value(Now()) )<br> ); <br> Collect( <br> &nbsp;&nbsp;&nbsp;&nbsp;Results, <br> &nbsp;&nbsp;&nbsp;&nbsp;{<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Input: TextInput1.Text, <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;French: FRTrans, FrenchTime: FRTransTime-StartTime,<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;German: DETrans, GermanTime: DETransTime-StartTime,<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FrenchFaster: FRTransTime < DETransTime <br> &nbsp;&nbsp;&nbsp;&nbsp;}<br> )**
+    ```powerapps-dot
+    Set( StartTime, Value( Now() ) );
+    Concurrent(
+        Set( FRTrans, MicrosoftTranslator.Translate( TextInput1.Text, "fr" ) ); 
+            Set( FRTransTime, Value( Now() ) ),
+        Set( DETrans, MicrosoftTranslator.Translate( TextInput1.Text, "de" ) ); 
+            Set( DETransTime, Value( Now() ) )
+    );
+    Collect( Results,
+        { 
+            Input: TextInput1.Text,
+            French: FRTrans, FrenchTime: FRTransTime - StartTime, 
+            German: DETrans, GermanTime: DETransTime - StartTime, 
+            FrenchFaster: FRTransTime < DETransTime
+        }
+    )
+    ```
 
 4. [**데이터 테이블**](../controls/control-data-table.md) 컨트롤을 추가하고 **Items** 속성을 **Results**로 설정합니다.
 

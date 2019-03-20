@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: b51b7cde36a70001ff8545c497da7c4b4d5d1fa3
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.openlocfilehash: 9e31ae7600663daa694b46376008161502c9c428
+ms.sourcegitcommit: 825daacc9a812637815afc1ce6fad28f0cebd479
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42833914"
+ms.lasthandoff: 03/04/2019
+ms.locfileid: "57803415"
 ---
 # <a name="understand-data-sources-for-canvas-apps-in-powerapps"></a>PowerApps에서 캔버스 앱에 대한 데이터 원본 이해
 
@@ -44,7 +44,7 @@ PowerApps에서 대부분의 캔버스 앱은 **데이터 원본**이라는 클�
 
 데이터에서 앱을 만들도록 PowerApps에 요청할 때 이러한 컨트롤이 사용됩니다. 내부적으로 앱은 내부 테이블을 사용하여 데이터 원본에서 제공되는 데이터를 저장하고 조작합니다.
 
-특별한 종류의 데이터 원본으로 [컬렉션](working-with-data-sources.md#collections)이 있습니다. 이는 클라우드의 서비스에 대한 연결로 지원되지 않고 로컬로 앱에 연결되므로, 동일한 사용자 또는 다른 사용자의 장치 간에 정보를 공유할 수 없습니다. 컬렉션은 로드하고 로컬에 저장할 수 있습니다.
+특별한 종류의 데이터 원본으로 [컬렉션](working-with-data-sources.md#collections)이 있습니다. 이는 클라우드의 서비스에 대한 연결로 지원되지 않고 로컬로 앱에 연결되므로, 동일한 사용자 또는 다른 사용자의 디바이스 간에 정보를 공유할 수 없습니다. 컬렉션은 로드하고 로컬에 저장할 수 있습니다.
 
 ### <a name="kinds-of-tables"></a>테이블의 종류
 
@@ -77,16 +77,16 @@ PowerApps는 연결된 데이터 원본을 만들거나 구조를 수정하는 �
 ### <a name="display-one-or-more-records"></a>하나 이상의 레코드 표시
 ![](media/working-with-data-sources/reading-from-a-datasource.png) 위의 다이어그램에서는 앱에서 데이터 원본의 정보를 읽을 때 수행되는 정보 흐름을 보여 줍니다.
 
-* 이 정보는 저장소 서비스(이 경우 Office 365 사이트의 SharePoint 목록)를 통해 저장되고 공유됩니다.
+* 이 정보는 스토리지 서비스(이 경우 Office 365 사이트의 SharePoint 목록)를 통해 저장되고 공유됩니다.
 * 연결을 사용하면 앱에서 이 정보를 사용할 수 있습니다.  연결은 사용자의 인증을 통해 정보에 액세스합니다.
 * 앱이 시작되거나 **[Refresh](functions/function-refresh.md)** 함수를 누르면 정보가 로컬에서 사용하기 위해 정보를 연결에서 앱의 데이터 원본으로 가져옵니다.
-* 수식은 정보를 읽고 사용자에게 표시될 수 있는 컨트롤에 정보를 공개하는 데 사용됩니다. 화면의 갤러리를 사용하고 **[Items](controls/properties-core.md)** 속성을 데이터 원본에 연결하여(**Gallery.Items = DataSource**) 데이터 원본의 레코드를 표시할 수 있습니다.  컨트롤의 **[Default](controls/properties-core.md)** 속성을 사용하여 갤러리 내의 컨트롤을 갤러리에 연결합니다.  
+* 수식은 정보를 읽고 사용자에게 표시될 수 있는 컨트롤에 정보를 공개하는 데 사용됩니다. 화면 및 배선 갤러리를 사용 하 여 데이터 원본의 레코드를 표시할 수 있습니다 합니다 **[항목](controls/properties-core.md)** 속성을 데이터 소스: **Gallery.Items = DataSource**합니다.  컨트롤의 **[Default](controls/properties-core.md)** 속성을 사용하여 갤러리 내의 컨트롤을 갤러리에 연결합니다.  
 * 데이터 원본도 테이블입니다.  따라서 데이터 원본 전체를 사용하기 전에 **[Filter](functions/function-filter-lookup.md)**, **[Sort](functions/function-sort.md)**, **[AddColumns](functions/function-table-shaping.md)** 및 기타 함수를 사용하여 데이터 원본을 구체화하고 보강합니다.  또한 **[Lookup](functions/function-filter-lookup.md)**, **[First](functions/function-first-last.md)**, **[Last](functions/function-first-last.md)** 및 기타 함수를 사용하여 개별 레코드로 작업할 수 있습니다.
 
 ### <a name="modify-a-record"></a>레코드 수정
-이전 섹션에서는 데이터 원본을 읽는 방법을 알아보았습니다.  위의 다이어그램에 있는 화살표는 한 가지 방법입니다.  데이터 원본에 대한 변경 내용은 데이터가 검색된 동일한 수식을 통해 다시 푸시되지 않습니다.  대신 새 수식이 사용됩니다.  종종 다른 화면이, 특히 모바일 장치에서 레코드 검색보다는 레코드 편집에 사용됩니다.
+이전 섹션에서 데이터 원본을 읽는 방법을 알아보았습니다.  위의 다이어그램에 있는 화살표는 한 가지 방법입니다.  데이터 원본에 대한 변경 내용은 데이터가 검색된 동일한 수식을 통해 다시 푸시되지 않습니다.  대신 새 수식이 사용됩니다.  종종 다른 화면이, 특히 모바일 디바이스에서 레코드 검색보다는 레코드 편집에 사용됩니다.
 
-데이터 원본의 기존 레코드를 수정하려면 원래의 데이터 원본에서 레코드를 가져와야 합니다.  레코드는 갤러리, [컨텍스트 변수](working-with-variables.md#create-a-context-variable) 및 임의 개수의 수식을 통해 이동할 수 있지만 해당 원본은 데이터 원본에서 다시 추적 가능해야 합니다.  이는 추가 정보가 고유하게 식별되는 레코드와 함께 이동함에 따라 레코드를 올바르게 수정해야 하므로 중요합니다.    
+데이터 원본의 기존 레코드를 수정하려면 원래의 데이터 원본에서 레코드를 가져와야 합니다.  레코드는 갤러리, [컨텍스트 변수](working-with-variables.md#use-a-context-variable) 및 임의 개수의 수식을 통해 이동할 수 있지만 해당 원본은 데이터 원본에서 다시 추적 가능해야 합니다.  이는 추가 정보가 고유하게 식별되는 레코드와 함께 이동함에 따라 레코드를 올바르게 수정해야 하므로 중요합니다.    
 
 ![](media/working-with-data-sources/writing-to-a-datasource.png) 위의 다이어그램에서는 데이터 원본을 업데이트하는 정보의 흐름을 보여 줍니다.
 
@@ -128,12 +128,12 @@ PowerApps는 유효성 검사를 위한 두 가지 도구를 제공합니다.
 레코드를 선택하는 데 사용할 수 있는 함수는 전부는 아니지만 많은 함수가 '위임'될 수 있습니다. 이는 클라우드 서비스 내에서 실행된다는 것입니다. [위임](delegation-overview.md)에 대한 내용을 참조하면 이 작업을 수행하는 방법을 알아볼 수 있습니다.
 
 ## <a name="collections"></a>컬렉션
-컬렉션은 특별한 종류의 데이터 원본입니다.  이는 클라우드의 서비스에 대한 연결로 지원되지 않고 로컬로 앱에 연결되므로, 동일한 사용자 또는 다른 사용자의 장치 간에 정보를 공유할 수 없습니다.  몇 가지 예외를 제외하고는 다른 데이터 원본처럼 작동합니다.
+컬렉션은 특별한 종류의 데이터 원본입니다.  이는 클라우드의 서비스에 대한 연결로 지원되지 않고 로컬로 앱에 연결되므로, 동일한 사용자 또는 다른 사용자의 디바이스 간에 정보를 공유할 수 없습니다.  몇 가지 예외를 제외하고는 다른 데이터 원본처럼 작동합니다.
 
 * 컬렉션은 **[Collect](functions/function-clear-collect-clearcollect.md)** 함수를 사용하여 동적으로 만들 수 있습니다.  연결 기반 데이터 원본에서 수행하는 것처럼 미리 설정할 필요가 없습니다.
 * 컬렉션의 열은 **[Collect](functions/function-clear-collect-clearcollect.md)** 함수를 사용하여 언제든지 수정할 수 있습니다.
 * 컬렉션에서는 중복 레코드가 허용됩니다.  컬렉션에 동일한 레코드의 복사본이 둘 이상 있을 수 있습니다.  **[Remove](functions/function-remove-removeif.md)** 와 같은 함수는 **All** 인수가 제공되지 않으면 찾은 첫 번째 일치 항목에서 작동합니다.
-* **[SaveData](functions/function-savedata-loaddata.md)** 및 **[LoadData](functions/function-savedata-loaddata.md)** 함수를 사용하여 컬렉션의 복사본을 저장하고 다시 로드할 수 있습니다.  정보는 다른 사용자, 앱 또는 장치에서 액세스할 수 없는 개인 위치에 저장됩니다.
+* **[SaveData](functions/function-savedata-loaddata.md)** 및 **[LoadData](functions/function-savedata-loaddata.md)** 함수를 사용하여 컬렉션의 복사본을 저장하고 다시 로드할 수 있습니다.  정보는 다른 사용자, 앱 또는 디바이스에서 액세스할 수 없는 개인 위치에 저장됩니다.
 * **[내보내기](controls/control-export-import.md)** 및 **[가져오기](controls/control-export-import.md)** 컨트롤을 사용하여 컬렉션의 복사본을 사용자가 상호 작용할 수 있는 파일로 저장하고 다시 로드할 수 있습니다.  
 
 컬렉션을 데이터 원본으로 사용하는 방법에 대한 자세한 내용은 [컬렉션 만들기 및 업데이트](create-update-collection.md)를 참조하세요.

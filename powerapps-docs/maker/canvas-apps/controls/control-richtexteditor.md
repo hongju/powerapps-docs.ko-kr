@@ -13,15 +13,15 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: e469cc3769c8deeb5046dc79f34b9ae42788b2d2
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.openlocfilehash: 99c07c0561b4942e6cbbd49fa5c498d90b502d7e
+ms.sourcegitcommit: 957d67e13bd4153d042b3b3bd650f6d0de20613c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42865177"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "58073286"
 ---
-# <a name="rich-text-editor-control-experimental-in-powerapps"></a>PowerApps의 서식 있는 텍스트 편집기 컨트롤(실험적)
-실험적 컨트롤을 사용하면 최종 사용자가 WYSIWYG 편집 영역 내의 텍스트 서식을 지정할 수 있습니다.  출력 형식은 HTML입니다.
+# <a name="rich-text-editor-control-in-powerapps"></a>PowerApps에서 서식 있는 텍스트 편집기 컨트롤
+최종 사용자는 WYSIWYG 편집 영역 내에서 텍스트 서식을 지정할 수 있습니다.  출력 형식은 HTML입니다.
 
 ## <a name="description"></a>설명
 **서식 있는 텍스트 편집기** 컨트롤은 앱 사용자에게 텍스트의 서식을 지정하는 WYSIWYG 편집 영역을 제공합니다.  컨트롤의 입력 및 출력 형식은 HTML입니다.
@@ -40,20 +40,10 @@ ms.locfileid: "42865177"
 
 양식 내에서 컨트롤을 사용하려면 "여러 줄 텍스트 편집" 카드를 선택하고 RTE 컨트롤을 삽입하여 사용자 지정합니다.
 
-## <a name="limitations"></a>제한 사항
-컨트롤의 현재 버전은 다음과 같은 임시 제한으로 인해 실험적입니다.
-- 컨트롤은 텍스트의 서식을 지정하는 기능을 제한했습니다.  
-
-- 컨트롤은 기본적으로 큰 화면의 브라우저에서 사용하기 위해 만들어졌습니다.  휴대폰에서 컨트롤을 사용하면 어려울 수 있습니다.
-
-- Windows studio 또는 Edge 브라우저를 사용하는 경우 작성 환경에서 알려진 문제입니다.  현재 Chrome에서 웹 스튜디오를 사용하는 것이 좋습니다.
-
-
 ## <a name="key-properties"></a>주요 속성
 **[Default](properties-core.md)** – 편집기에 표시된 초기 텍스트 값에 대한 입력 속성입니다.
 
 **HtmlText** – HTML 형식인 서식 있는 결과 텍스트에 대한 출력 속성입니다.
-
 
 
 ## <a name="additional-properties"></a>추가 속성

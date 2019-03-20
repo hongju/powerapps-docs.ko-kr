@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 91f84ebbec83c5734e910680f4ab3a79077164df
-ms.sourcegitcommit: ce621966a34061dda2f75232403847e21816ffa9
-ms.translationtype: HT
+ms.openlocfilehash: 194da16a1025daa84c658ae8884734a08780c6c1
+ms.sourcegitcommit: 4db9c763455d141a7e1dd569a50c86bd9e50ebf0
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2018
-ms.locfileid: "47459458"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "57802058"
 ---
 # <a name="edit-form-and-display-form-controls-in-powerapps"></a>PowerApps의 편집 양식 및 표시 양식 컨트롤
 데이터 원본에서 레코드를 표시하고, 편집하고, 만듭니다.
@@ -122,8 +122,8 @@ ms.locfileid: "47459458"
 | 모드 | 설명 |
 | --- | --- |
 | **FormMode.Edit** |사용자가 이 양식을 사용하여 레코드를 편집할 수 있습니다. 양식의 카드에 있는 값에는 기존 레코드가 미리 입력되며 사용자가 변경합니다. **[SubmitForm](../functions/function-form.md)** 함수가 성공적으로 실행되면 기존 레코드가 수정됩니다. |
-| **FormMode.New** |사용자가 이 양식을 사용하여 레코드를 만들 수 있습니다. 양식의 컨트롤에 있는 값에는 데이터 원본의 레코드 기본값이 미리 입력됩니다. **[SubmitForm](../functions/function-form.md)** 함수가 성공적으로 실행되면 레코드를 만듭니다. |
-| **FormMode.View** |사용자가 이 양식을 사용하여 레코드를 볼 수 있습니다. 양식의 컨트롤에 있는 값에는 데이터 원본의 레코드 기본값이 미리 입력됩니다. |
+| **FormMode.New** |사용자가 이 양식을 사용하여 레코드를 만들 수 있습니다. 폼의 컨트롤에서 값을 데이터 원본의 레코드 기본값이 미리 채워집니다. **[SubmitForm](../functions/function-form.md)** 함수가 성공적으로 실행되면 레코드를 만듭니다. |
+| **FormMode.View** |사용자가 이 양식을 사용하여 레코드를 볼 수 있습니다. 폼의 컨트롤에서 값을 데이터 원본의 레코드 기본값이 미리 채워집니다. |
 
 다음과 같은 변경 중 하나가 발생하면 양식이 **새로 만들기** 모드에서 **편집** 모드로 전환됩니다.
 
@@ -152,7 +152,7 @@ ms.locfileid: "47459458"
 
 * 이 속성은 **편집 양식** 컨트롤에만 적용됩니다.
 * 이 속성을 사용하여 컨트롤 내의 카드에서 필드 값을 추출합니다.  그런 다음 이 값을 사용하여 **[Patch](../functions/function-patch.md)** 함수 호출이나 연결에서 노출된 다른 메서드로 데이터 원본을 수동으로 업데이트할 수 있습니다.  **[SubmitForm](../functions/function-form.md)** 함수를 사용하는 경우 이 속성이 필요하지 않습니다.
-* 이 속성은 값 레코드를 반환합니다.  예를 들어 양식 컨트롤에 **Name** 및 **Quantity** 필드의 카드 컨트롤이 있고 이 카드에 대한 **[Update](control-card.md)** 속성이 각각 "Widget"과 10이라면 양식 컨트롤에 대한 **Updates** 속성은 **{ Name: "Widget", Quantity: 10 }** 를 반환합니다.
+* 이 속성은 값 레코드를 반환합니다.  예를 들어 양식 컨트롤에 대 한 카드 컨트롤이 있고 **이름** 하 고 **수량** 필드 및 값을 **[업데이트](control-card.md)** 해당 카드에 대 한 속성 "Widget"과 10 반환 각각 해당 **업데이트** form 컨트롤의 속성은 반환 **{이름: "Widget", Quantity: 10 }**.
 
 **Valid** – **[Card](control-card.md)** 또는 **Edit form** 컨트롤에 올바른 항목이 있고 데이터 원본에 제출할 수 있는지의 여부입니다.
 

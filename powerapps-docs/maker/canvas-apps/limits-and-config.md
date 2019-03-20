@@ -1,24 +1,24 @@
 ---
 title: 캔버스 앱의 시스템 요구 사항, 제한 및 구성 값 | Microsoft Docs
 description: PowerApps에서 기본 제공되는 캔버스 앱의 시스템 요구 사항, 제한 및 구성 값
-author: AFTOwen
+author: gregli-msft
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: ''
 ms.date: 03/07/2018
-ms.author: anneta
+ms.author: gregli
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 5ba279e361dfe450de1187cf6aca87bc026178ba
-ms.sourcegitcommit: 60006ce9cb21c59e588c00f2ba5c41ffebbbba09
-ms.translationtype: HT
+ms.openlocfilehash: 64b8f1b0871438a4162448ce45e8a578e537eb89
+ms.sourcegitcommit: 90245baddce9d92c3ce85b0537c1ac1cf26bf55a
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2018
-ms.locfileid: "47456301"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "57799229"
 ---
 # <a name="system-requirements-limits-and-configuration-values-for-canvas-apps"></a>캔버스 앱의 시스템 요구 사항, 제한 및 구성 값
 이 항목은 디바이스 플랫폼 및 웹 브라우저 요구 사항뿐만 아니라 PowerApps에 대한 제한 사항 및 구성 값을 포함합니다.
@@ -68,7 +68,7 @@ PowerApps의 요청은 앱이 위치한 [환경](../../administrator/environment
 예를 들어, Azure SQL Database에 대한 IP 주소를 허용 목록에 추가해야 하는 경우 이러한 주소를 사용합니다.
 
 > [!IMPORTANT]
->   기존에 구성한 IP 주소가 있는 경우, 2018년 9월 30일 전까지 가능한 신속하게 구성을 업데이트하여 아래의 목록에 표시된 IP 주소와 사용 중인 PowerApps 앱이 위치한 지역 정보가 일치하도록 해야 합니다.
+>   PowerApps 앱이 위치한 지역의 경우 이 목록의 IP 주소를 포함하고 일치하도록 기존 구성이 있는 경우 2018년 9월 30일 전에 최대한 신속하게 업데이트하세요.
 
 | 지역 | 아웃바운드 IP |
 | --- | --- |
@@ -97,7 +97,7 @@ PowerApps Studio에서 통신하고 사용하는 모든 서비스를 식별하�
 | *.azure-apim.net |https |API 허브 - 각 로캘에 대해 다른 하위 도메인 |
 | *.powerapps.com |https |WebAuth + 포털 |
 | *.azureedge.net |https |WebAuth |
-| *.blob.core.windows.net |https |Blob Storage |
+| *.blob.core.windows.net |https |Blob 저장소 |
 | vortex.data.microsoft.com |https |원격 분석 |
 
 > [!NOTE]

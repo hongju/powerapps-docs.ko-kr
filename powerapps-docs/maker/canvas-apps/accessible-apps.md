@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 119b7e6ff590f63ad938016c5f0127f5d6521d65
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.openlocfilehash: b6e2fc48d931ccf702dd2711bdc00a484dc51018
+ms.sourcegitcommit: 4db9c763455d141a7e1dd569a50c86bd9e50ebf0
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42834385"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "57801943"
 ---
 # <a name="create-accessible-canvas-apps-in-powerapps"></a>PowerApps에서 액세스 가능한 캔버스 앱 만들기
 액세스 가능한 캔버스 앱에서는 시각, 청각 및 기타 장애가 있는 사용자가 앱을 사용할 수 있습니다.  여러 정부 및 조직의 요구 사항인 점을 별개로 하더라도 아래 지침을 따르면 사용자의 능력에 상관없이 모든 사용자의 사용 편의성이 개선됩니다.
@@ -38,16 +38,16 @@ ms.locfileid: "42834385"
 앱 접근성을 테스트할 때는 iOS 및 Android의 접근성 모드에서 키보드만으로 앱을 사용할 수 있는지 확인하고, 화면 판독기를 사용하도록 설정하고 앱을 탐색할 수 있는지도 확인하세요.
 
 화면 판독기 사용 여부와 관계없이 키보드 탐색을 위해서는 각 컨트롤의 **[TabIndex](controls/properties-accessibility.md)** 속성을 설정하여 Tab 키를 사용하여 입력 필드로 이동할 때 논리적 순서를 따라야 합니다.
-- 레이블, 이미지, 아이콘, 셰이프 컨트롤 - 대화형 요소(예: 단추)를 나타내는 경우 TabIndex를 0으로 설정하고 장식 요소 또는 텍스트인 경우 TabIndex를 -1로 설정합니다.
+- 레이블, 이미지, 아이콘, 셰이프 컨트롤-대화형 요소 (예)를 나타내는 경우 TabIndex를 0;으로 설정 장식 요소 또는 텍스트인 경우 TabIndex를-1로 설정 합니다.
 - 탭 인덱스를 0보다 크게 설정하지 마세요.
 
 ## <a name="screen-reader-support"></a>화면 판독기 지원
 다음 소프트웨어 조합은 PowerApps를 화면 판독기와 함께 사용할 때 지원되는 권장 사항입니다.
 
-- **Windows**: Edge/Narrator
-- **macOS**: Safari/VoiceOver
-- **Android**: PowerApps 앱/Talkback
-- **iOS**: PowerApps 앱/VoiceOver
+- **Windows**: Microsoft Edge / Narrator
+- **macOS**: Safari / VoiceOver
+- **Android**: PowerApps 앱 / Talkback
+- **iOS**: PowerApps 앱 / VoiceOver
 
 만족스러운 화면 판독기 환경을 위해서는 다음을 수행하는 것이 좋습니다.
 
@@ -58,7 +58,7 @@ ms.locfileid: "42834385"
 
 
 ## <a name="multimedia"></a>멀티미디어
-모든 비디오에 자막이 있고 모든 오디오 녹음의 대본이 사용자에게 제공되는지 확인합니다.  **비디오** 컨트롤에서는 **ClosedCaptionsUrl** 속성을 통해 WebVTT 형식의 선택 자막을 지원합니다.
+모든 비디오에 자막이 있고 모든 오디오 녹음의 대본이 사용자에게 제공되는지 확인합니다.  **비디오** 컨트롤은 통해 WebVTT 형식의 선택 자막을 지원 합니다 **ClosedCaptionsUrl** 속성입니다.
 
 화면 판독기를 사용하도록 설정한 경우 **타이머**에서 단추 텍스트를 알리지 않지만 경과된 시간은 알립니다.  타이머가 낮은 불투명도로 숨겨진 경우에도 알림을 끌 수 없습니다.
 

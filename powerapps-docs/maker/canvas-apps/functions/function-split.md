@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 7cc3608d6a973c0ef301c9979b62f5ba898c029c
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.openlocfilehash: b8f8dc0d354dd17fedd16524fed0f358b70839d4
+ms.sourcegitcommit: f5013108140276b3d66a9dce13a061df89609d26
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42848581"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "57798401"
 ---
 # <a name="split-function-in-powerapps"></a>PowerApps의 Split 함수
 텍스트 문자열을 하위 문자열의 테이블로 분할합니다.
@@ -28,7 +28,7 @@ ms.locfileid: "42848581"
 
 텍스트 문자열을 분리하는 데 구분 기호 문자열이 사용됩니다.  구분 기호는 텍스트 문자열에서 전체로 일치되는 0개, 1개 또는 더 많은 문자일 수 있습니다.  0 길이 또는 *공백* 문자열을 사용하면 각 문자열은 개별적으로 분리됩니다.  일치하는 구분 기호 문자는 결과에 반환되지 않습니다.  일치하는 구분 기호가 없으면 전체 텍스트 문자열은 단일 결과로 반환됩니다.
 
-**[Concat](function-concatenate.md)** 함수를 사용하여 문자열을 다시 결합합니다(구분 기호 없이).  
+**[Concat](function-concatenate.md)** 함수를 사용하여 문자열을 다시 결합합니다(구분 기호 없이). 사용 된 **[MatchAll](function-ismatch.md)** (경우에 따라서는) 문자열 분할에 사용할 수 있는 정규식을 사용 하 여 텍스트 문자열의 일부를 추출 하는 함수입니다. 
 
 ## <a name="syntax"></a>구문
 **Split**( *Text*, *Separator* )

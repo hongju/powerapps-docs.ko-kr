@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 43d623daecb609fbe3d4e593a7e15f95051871e9
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.openlocfilehash: b6bff4d0f9586f94e4d0da133197fcb7f78c765d
+ms.sourcegitcommit: 826bde1eab3dd32d7bf9fa3f43ea069694845597
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42836421"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "57800264"
 ---
 # <a name="understand-data-form-layout-for-canvas-apps-in-powerapps"></a>PowerApps에서 캔버스 앱에 대한 데이터 양식 레이아웃 이해 | Microsoft Docs
 
@@ -32,20 +32,20 @@ PowerApps에서 캔버스 앱을 빌드할 때 매력적이고 효율적인 양�
 
 PowerApps를 처음 사용하거나 앱을 자동으로만 생성한 경우에는 이 항목을 살펴보기 전에 [앱을 처음부터 빌드](get-started-create-from-blank.md)합니다. 앱을 처음부터 빌드하는 경우 이 항목에서 언급하지만 설명하지 않는 데이터 원본 및 컨트롤 추가와 같이 필요한 개념에 익숙해집니다.
 
+이 항목에는 데이터가 있는 것 처럼 씌 이라고 하는 원본 **Sales order** 이전 그래픽에서 필드를 포함 하는 합니다. PowerApps 요금제 2 라이선스가 있는 경우 [평가판 라이선스](../signup-for-powerapps.md) 하면 시스템 관리자 또는 시스템 사용자 지정자 사용 권한 [엔터티를 만듭니다.](../common-data-service/data-platform-create-entity.md) 에서 CDS Common Data Service () 앱에 대 한 유사한 필드를 추가 합니다. 
+
 ## <a name="add-a-gallery"></a>갤러리 추가
 
-1. 태블릿 앱을 처음부터 만들기
+1. 부터 태블릿 앱을 만들고 데이터 소스를 추가 합니다.
 
     이 항목에서 설명하는 모든 내용은 전화 레이아웃에도 적용되지만, 전화 앱에는 세로 열 하나만 있는 경우가 많습니다.
-2. [Common Data Service](../common-data-service/data-platform-intro.md)의 **판매 주문** 엔터티를 앱의 데이터 원본으로 추가합니다.
-
-    이 자습서 외부에서 SharePoint 목록 및 Excel 표를 포함하여 모든 데이터 원본을 사용할 수 있습니다.
-3. 세로 **갤러리** 컨트롤을 추가하고, **Items** 속성을 **'판매 주문'** 으로 설정합니다.
+    
+2. 세로 **갤러리** 컨트롤을 추가하고, **Items** 속성을 **'판매 주문'** 으로 설정합니다.
    
     (선택 사항) 이 자습서의 예제에 맞게 갤러리의 **레이아웃**을 **제목 및 부제목**만 표시하도록 변경합니다.
    
     ![판매 주문 목록](./media/working-with-form-layout/gallery-layout.png)
-4. 갤러리에서 **SO004**를 클릭하거나 탭합니다.
+3. 갤러리에서 **SO004**를 클릭하거나 탭합니다.
    
     ![판매 주문 목록](./media/working-with-form-layout/sales-order-gallery-screen.png)
    
@@ -204,8 +204,8 @@ PowerApps의 모든 레이아웃과 마찬가지로 양식의 레이아웃은 �
 ### <a name="basic-layout-x-y-and-width"></a>기본 레이아웃: X, Y 및 너비
 **X** 및 **Y** 속성은 카드의 위치를 제어합니다. 원시 캔버스의 컨트롤을 사용하는 경우 이러한 속성은 절대 위치를 제공합니다. 양식에서 이러한 속성은 다른 의미를 갖습니다.
 
-* **X**: 행 내 순서
-* **Y**: 행 번호
+* **X**: 행 내 순서입니다.
+* **Y**: 행 번호입니다.
 
 캔버스의 컨트롤과 마찬가지로 **Width** 속성은 카드의 최소 너비(모멘트당 최소 가로 세로 비율 이상)를 지정합니다.
 

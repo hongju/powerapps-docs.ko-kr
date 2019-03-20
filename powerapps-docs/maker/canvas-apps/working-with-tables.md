@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 38745810321807e69d5eba8e1f2c281dafa73ae5
-ms.sourcegitcommit: 5db6e3ac3a622de313a1102417397e126c3f92f2
-ms.translationtype: HT
+ms.openlocfilehash: 5883ae65beb698a8c7681d9eac6ba0f7439ca19e
+ms.sourcegitcommit: 825daacc9a812637815afc1ce6fad28f0cebd479
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2018
-ms.locfileid: "45640449"
+ms.lasthandoff: 03/04/2019
+ms.locfileid: "57803737"
 ---
 # <a name="understand-canvas-app-tables-and-records-in-powerapps"></a>PowerApps에서 캔버스 앱 테이블 및 레코드 이해
 
@@ -40,7 +40,7 @@ Excel 수식에서 하나 이상의 셀 참조를 인수로 사용하는 것처�
 ### <a name="records"></a>레코드
 각 레코드에는 사람, 장소 또는 사물에 대한 정보 범주가 하나 이상 포함됩니다. 위의 예제에서는 각 제품(**초콜릿**, **빵** 및 **음료수**)에 대한 레코드와 각 정보 범주에 대한 열(**Price**, **Quantity on Hand** 및 **Quantity on Order**)을 표시합니다.
 
-수식에서는 테이블의 컨텍스트 외부에 중괄호를 사용하여 레코드를 단독으로 참조할 수 있습니다. 예를 들어 **{ Name: "딸기", Price: 7.99 }** 레코드는 테이블과 관련이 없습니다. 이 예제에서 **Name** 및 **Price**와 같은 필드 이름은 큰따옴표로 묶지 않습니다.
+수식에서는 테이블의 컨텍스트 외부에 중괄호를 사용하여 레코드를 단독으로 참조할 수 있습니다. 예를 들어,이 레코드 **{이름: "딸기", 가격: 7.99}** 테이블과 연관 되지 않습니다. 이 예제에서 **Name** 및 **Price**와 같은 필드 이름은 큰따옴표로 묶지 않습니다.
 
 ### <a name="fields"></a>필드
 필드는 레코드의 개별 정보 요소입니다. 이러한 종류의 필드를 특정 레코드에 대한 열의 값으로 시각화할 수 있습니다.
@@ -67,18 +67,17 @@ Excel 수식에서 하나 이상의 셀 참조를 인수로 사용하는 것처�
 > 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 PowerApps는 공백을 **"\_x0020\_"** 으로 바꿉니다. 예를 들어 SharePoint 또는 Excel의 **"Column Name"** 은 데이터 레이아웃에 표시되거나 수식에 사용될 때 PowerApps에 **"Column_x0020_Name"** 으로 나타납니다.
 
 ### <a name="table"></a>Table
-
 테이블은 하나 이상의 레코드로 구성되며, 각 레코드에는 레코드 간에 일관된 이름을 갖는 여러 필드가 있습니다.
 
 데이터 원본 또는 컬렉션에 저장된 모든 테이블에는 테이블을 참조하고 테이블을 인수로 사용하는 함수로 전달하는 데 사용되는 이름이 있습니다.  또한 테이블은 함수 또는 수식의 결과일 수도 있습니다.
 
 다음 예제와 같이 중괄호로 표현된 레코드 집합이 포함된 **[Table](functions/function-table.md)** 함수를 사용하여 수식에서 테이블을 표현할 수 있습니다.
 
-**Table( { Value: "딸기" }, { Value: "바닐라" } )**
+`Table( { Value: "Strawberry" }, { Value: "Vanilla" } )`
 
 대괄호가 있는 단일 열 테이블도 정의할 수 있습니다.  위에서 작성한 방법과 동일합니다.
 
-**[ "딸기", "바닐라" ]**
+`[ "Strawberry", "Vanilla" ]`
 
 ## <a name="table-formulas"></a>테이블 수식
 Excel 및 PowerApps에서는 수식을 사용하여 숫자와 텍스트 문자열을 비슷한 방식으로 조작합니다.
@@ -103,15 +102,17 @@ Excel 및 PowerApps에서는 수식을 사용하여 숫자와 텍스트 문자�
     > [!NOTE]
     > 일부 컨트롤은 이해를 돕기 위해 다시 정렬되고 확대되었습니다.
 
-2. **[Items](controls/properties-core.md)** 속성을 테이블 이름으로 설정하는 대신 다음 예제와 같이 테이블 이름을 인수로 포함하는 수식으로 설정합니다.<br>
-    **Sort(CustomGallerySample, SampleHeading, Descending)**
+2. **[Items](controls/properties-core.md)** 속성을 테이블 이름으로 설정하는 대신 다음 예제와 같이 테이블 이름을 인수로 포함하는 수식으로 설정합니다.
+
+    `Sort(CustomGallerySample, SampleHeading, Descending)`
 
     이 수식은 테이블 이름을 첫 번째 인수로 사용하고, 테이블의 열 이름을 두 번째 인수로 사용하는 **[Sort](functions/function-sort.md)** 함수를 통합합니다. 또한 이 함수는 데이터를 내림차순으로 정렬하도록 규정하는 선택적인 세 번째 인수를 지원합니다.
 
     ![](media/working-with-tables/gallery-items-sort.png)
 
-3. **[Items](controls/properties-core.md)** 속성을 다음 예제와 같이 이전 단계의 수식을 인수로 사용하고 테이블을 반환하는 수식으로 설정합니다.<br>
-   **FirstN(Sort(CustomGallerySample, SampleHeading, Descending), 2)**
+3. **[Items](controls/properties-core.md)** 속성을 다음 예제와 같이 이전 단계의 수식을 인수로 사용하고 테이블을 반환하는 수식으로 설정합니다.
+
+    `FirstN(Sort(CustomGallerySample, SampleHeading, Descending), 2)`
 
     이 수식에서는 **[FirstN](functions/function-first-last.md)** 함수를 사용하여 테이블에 있는 특정 수의 레코드를 표시합니다. **[Sort](functions/function-sort.md)** 함수를 **[FirstN](functions/function-first-last.md)** 의 첫 번째 인수로, 숫자(이 경우 **2**)를 두 번째 인수로 사용하여 표시할 레코드 수를 지정합니다.
    
@@ -179,7 +180,7 @@ Excel 및 PowerApps에서는 수식을 사용하여 숫자와 텍스트 문자�
 
 또한 레코드를 명명된 관련 값에 대한 범용 컨테이너로 사용할 수도 있습니다.
 
-* **[UpdateContext](functions/function-updatecontext.md)** 및 **[Navigate](functions/function-navigate.md)** 함수 주위에 수식을 작성하면 레코드를 사용하여 업데이트하려는 [컨텍스트 변수](working-with-variables.md#create-a-context-variable)를 수집합니다.
+* **[UpdateContext](functions/function-updatecontext.md)** 및 **[Navigate](functions/function-navigate.md)** 함수 주위에 수식을 작성하면 레코드를 사용하여 업데이트하려는 [컨텍스트 변수](working-with-variables.md#use-a-context-variable)를 수집합니다.
 * **[편집 양식](controls/control-form-detail.md)** 컨트롤에 **[Updates](controls/control-form-detail.md)** 속성을 사용하여 양식에서 사용자가 변경한 내용을 수집합니다.
 * **[Patch](functions/function-patch.md)** 함수를 사용하여 데이터 원본을 업데이트하고 레코드도 병합합니다.
 
@@ -218,7 +219,7 @@ Excel 및 PowerApps에서는 수식을 사용하여 숫자와 텍스트 문자�
 
 이러한 제품 중 하나라도 사용 가능한 것 보다 더 많은 요청이 있었는지 확인하려면 다음을 수행합니다.
 
-**Filter( Products, 'Quantity Requested' > 'Quantity Available' )**
+`Filter( Products, 'Quantity Requested' > 'Quantity Available' )`
 
 **Filter**의 첫 번째 인수는 작업할 레코드의 테이블이고, 두 번째 인수는 수식입니다.  **Filter**는 각 레코드의 필드를 사용할 수 있는 이 수식을 평가할 레코드 범위를 만듭니다. 이 경우에는 **Product**, **Quantity Requested** 및 **Quantity Available**입니다.  비교 결과는 각 레코드가 함수의 결과에 포함되어야 하는지 여부를 결정합니다.
 
@@ -226,7 +227,12 @@ Excel 및 PowerApps에서는 수식을 사용하여 숫자와 텍스트 문자�
 
 이 예제에 추가하여 주문할 각 제품의 양을 계산할 수 있습니다.
 
-**AddColumns( Filter( Products, '' > 'Quantity Available' ), "Quantity on Order", 'Quantity Requested' - 'Quantity Available' )**
+```powerapps-dot
+AddColumns( 
+    Filter( Products, 'Quantity Requested' > 'Quantity Available' ), 
+    "Quantity To Order", 'Quantity Requested' - 'Quantity Available'
+)
+```
 
 여기서는 계산 열을 결과에 추가합니다.  **AddColumns**에는 요청된 항목과 사용 가능한 항목 간의 차이를 계산하는 데 사용하는 자체의 레코드 범위가 있습니다.
 
@@ -234,7 +240,16 @@ Excel 및 PowerApps에서는 수식을 사용하여 숫자와 텍스트 문자�
 
 마지막으로 결과 테이블을 원하는 열만으로 줄일 수 있습니다.
 
-**ShowColumns( AddColumns( Filter( Products, 'Quantity Requested' > 'Quantity Available' ), "Quantity on Order", 'Quantity Requested' - 'Quantity Available' ), "Product", "Quantity on Order" )**
+```powerapps-dot
+ShowColumns( 
+    AddColumns( 
+        Filter( Products, 'Quantity Requested' > 'Quantity Available' ), 
+        "Quantity To Order", 'Quantity Requested' - 'Quantity Available'
+    ), 
+    "Product", 
+    "Quantity To Order"
+)
+```
 
 ![](media/working-with-tables/toorderonly.png)
 
@@ -260,11 +275,20 @@ Excel 및 PowerApps에서는 수식을 사용하여 숫자와 텍스트 문자�
 
 **ClearCollect( Y, ["A", "B"] )** 를 사용하여 이 컬렉션을 만들 수 있습니다.
 
-또한 **UpdateContext( {Value: "!"} )** 수식을 사용하여 **Value**라는 컨텍스트 변수를 정의합니다.
+또한 라는 컨텍스트 변수를 정의할 **값** 이 수식을 사용 하 여: **UpdateContext( {Value: "!"} )**
 
 이제 모두 정리해 보겠습니다.  이 컨텍스트에서 수식은 다음과 같습니다.
 
-* **Ungroup( ForAll( X, ForAll( Y, Y[@Value] & Text( X[@Value] ) & [@Value] ) ), "Value" )**
+```powerapps-dot
+Ungroup( 
+    ForAll( X, 
+        ForAll( Y, 
+            Y[@Value] & Text( X[@Value] ) & [@Value] 
+        ) 
+    ), 
+    "Value" 
+)
+```
 
 다음 테이블이 생성됩니다.
 
@@ -276,7 +300,16 @@ Excel 및 PowerApps에서는 수식을 사용하여 숫자와 텍스트 문자�
 
 **Y**가 가장 안쪽의 레코드 범위이므로 이 테이블의 필드에 액세스하는 데 명확성이 필요하지 않습니다. 따라서 다음 수식을 사용하여 동일한 결과를 얻을 수 있습니다.
 
-* **Ungroup( ForAll( X, ForAll( Y, Value & Text( X[@Value] ) & [@Value] ) ), "Value" )**
+```powerapps-dot
+Ungroup( 
+    ForAll( X, 
+        ForAll( Y, 
+            Value & Text( X[@Value] ) & [@Value] 
+        ) 
+    ), 
+    "Value" 
+)
+```
 
 모든 **ForAll** 레코드 범위는 전역 범위를 재정의합니다.  정의한 **Value** 컨텍스트 변수는 명확성 연산자가 없이 이름으로 사용할 수 없습니다.   이 값에 액세스하려면 **[@Value]** 을 사용해야 합니다.
 
@@ -286,15 +319,15 @@ Excel 및 PowerApps에서는 수식을 사용하여 숫자와 텍스트 문자�
 ### <a name="records"></a>레코드
 레코드는 명명된 필드 값이 포함된 중괄호를 사용하여 표현합니다.  예를 들어 다음 수식을 사용하여 이 항목의 시작 부분에 테이블의 첫 번째 레코드를 표현할 수 있습니다.
 
-**{ Name: "초콜릿", Price: 3.95, 'Quantity on Hand': 12, 'Quantity on Order': 10 }**
+`{ Name: "Chocolate", Price: 3.95, 'Quantity on Hand': 12, 'Quantity on Order': 10 }`
 
 다음 예제와 같이 다른 수식 내에 수식을 포함할 수도 있습니다.
 
-**{ Name: First(Products).Name, Price: First(Products).Price * 1.095 }**
+`{ Name: First(Products).Name, Price: First(Products).Price * 1.095 }`
 
 다음 예제와 같이 중괄호를 중첩하여 레코드를 중첩할 수 있습니다.
 
-**{ 'Quantity': { 'OnHand': ThisItem.QuantOnHand, 'OnOrder': ThisItem.QuantOnOrder } }**
+`{ 'Quantity': { 'OnHand': ThisItem.QuantOnHand, 'OnOrder': ThisItem.QuantOnOrder } }`
 
 공백이나 콜론과 같은 특수 문자가 포함된 각각의 열 이름은 작은따옴표로 묶습니다.  열 이름 내에서 작은따옴표를 사용하려면 작은따옴표를 두 번 지정합니다.
 
@@ -303,16 +336,29 @@ Excel 및 PowerApps에서는 수식을 사용하여 숫자와 텍스트 문자�
 ### <a name="tables"></a>테이블
 **[Table](functions/function-table.md)** 함수와 레코드 집합을 사용하여 테이블을 만들 수 있습니다. 다음 수식을 사용하여 이 항목의 시작 부분에 테이블을 표현할 수 있습니다.
 
-**Table( { Name: "초콜릿", Price: 3.95, 'Quantity on Hand': 12, 'Quantity on Order': 10 },<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{ Name: "빵", Price: 4.95, 'Quantity on Hand': 34, 'Quantity on Order': 0 },<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{ Name: "음료수", Price: 4.95, 'Quantity on Hand': 10, 'Quantity on Order': 0 } )**
+```powerapps-dot
+Table( 
+    { Name: "Chocolate", Price: 3.95, 'Quantity on Hand': 12, 'Quantity on Order': 10 },
+    { Name: "Bread", Price: 4.95, 'Quantity on Hand': 34, 'Quantity on Order': 0 },
+    { Name: "Water", Price: 4.95, 'Quantity on Hand': 10, 'Quantity on Order': 0 } 
+)
+```
 
 테이블을 중첩할 수도 있습니다.
 
-**Table( { Name: "초콜릿",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Quantity History': Table( { Quarter: "Q1", OnHand: 10, OnOrder: 10 },<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{ Quarter: "Q2", OnHand: 18, OnOrder: 0 } ) } )**
+```powerapps-dot
+Table( 
+    { Name: "Chocolate", 
+      'Quantity History': Table( { Quarter: "Q1", OnHand: 10, OnOrder: 10 },
+                                 { Quarter: "Q2", OnHand: 18, OnOrder: 0 } ) 
+    }
+)
+```
 
 ### <a name="value-tables"></a>Value 테이블
 대괄호 안에 값을 지정하여 단일 열 테이블을 만들 수 있습니다. 결과 테이블에는 **Value**라는 단일 열이 있습니다.
 
-예를 들어 **[ 1, 2, 3, 4 ]** 는 **Table( { Value: 1 }, { Value: 2 }, { Value: 3 }, { Value: 4 } )** 와 동일하며 다음 테이블을 반환합니다.
+예를 들어 `[ 1, 2, 3, 4 ]` 같습니다 `Table( { Value: 1 }, { Value: 2 }, { Value: 3 }, { Value: 4 } )` 이 테이블을 반환 합니다.
 
 ![](media/working-with-tables/inline-table.png)
 

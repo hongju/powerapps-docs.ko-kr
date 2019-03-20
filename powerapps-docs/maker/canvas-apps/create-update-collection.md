@@ -1,224 +1,136 @@
 ---
-title: 컬렉션 만들기 및 업데이트 | Microsoft Docs
-description: PowerApps에서 컬렉션 만들기 및 기존 컬렉션에 열 추가
-author: lonu
+title: 만들기 및 캔버스 앱에서 컬렉션 업데이트 | Microsoft Docs
+description: 캔버스 앱에서 컬렉션을 만드는 항목 컬렉션에 추가한에서 하나 또는 모든 항목을 제거
+author: aftowen
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: anneta
-ms.date: 11/30/2015
-ms.author: lonu
+ms.date: 01/28/2019
+ms.author: anneta
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: c1043d32fc4ab4213d2ac2e690ef69e13fec8ed3
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: aca1b78262ac359689d66f687f902103740fa3a6
+ms.sourcegitcommit: 826bde1eab3dd32d7bf9fa3f43ea069694845597
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42831652"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "57800310"
 ---
-# <a name="create-and-update-a-collection-in-your-app"></a>앱에서 컬렉션 만들기 및 업데이트
-컬렉션을 사용하여 앱에 사용할 수 있는 데이터를 저장합니다. 컬렉션은 유사한 항목의 그룹입니다. 예를 들어, 회사에서 판매하는 모든 제품 이미지를 저장하는 MyImages 컬렉션을 만듭니다. PowerApps 내에서 MyImages 컬렉션을 추가하고 이러한 제품의 모든 그림을 표시하는 앱을 만들 수 있습니다. 또 다른 예로, 제품 및 각 제품의 가격을 나열하는 가격표 컬렉션을 만들 수 있습니다.
+# <a name="create-and-update-a-collection-in-a-canvas-app"></a>만들기 및 캔버스 앱에서 컬렉션 업데이트
 
-### <a name="prerequisites"></a>필수 조건
-* PowerApps에 [등록](../signup-for-powerapps.md)한 다음, 등록에 사용한 동일한 자격 증명을 입력하여 [로그인](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)합니다.
-* PowerApps에서 앱을 만들거나 기존 앱을 엽니다.
-* PowerApps에서 [컨트롤 구성](add-configure-controls.md)을 어떻게 하는지 알아봅니다.
-* 이 단계는 샘플 입력 데이터로 [PriceList.zip](http://pwrappssamples.blob.core.windows.net/samples/PriceList.zip) 파일을 사용합니다. zip 파일에는 Excel로 변환할 수 있는 XML 파일이 포함되어 있습니다. 그렇지 않으면 PowerApps에서 자동으로 .zip 파일에 있는 파일을 읽고 성공적으로 가져옵니다. 이 샘플 데이터를 다운로드하여 사용하거나 직접 가져올 수 있습니다.
+컬렉션을 사용 하 여 앱에 사용자를 관리할 수 있는 데이터를 저장 합니다. 컬렉션은 제품 목록의 제품과 같은 비슷한 항목의 그룹입니다. 변수 컬렉션과 같은 다른 형식에 대 한 참조 항목: [캔버스 앱 변수 이해](working-with-variables.md)합니다.
 
-## <a name="create-a-single-column-collection"></a>단일 열 컬렉션 만들기
-**Collect** 함수를 사용하여 컬렉션을 만들고 여기에 항목을 추가합니다.
+## <a name="prerequisites"></a>필수 조건
 
-1. 앱에서 **삽입** 탭을 선택하고 **텍스트**를 선택한 다음, **텍스트 입력**을 선택합니다.
+- PowerApps에 [등록](../signup-for-powerapps.md)한 다음, 등록에 사용한 동일한 자격 증명을 입력하여 [로그인](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)합니다.
+- PowerApps에서 앱을 만들거나 기존 앱을 엽니다.
+- PowerApps에서 [컨트롤 구성](add-configure-controls.md)을 어떻게 하는지 알아봅니다.
 
-   ![][1]
+## <a name="create-a-multicolumn-collection"></a>여러 열 컬렉션 만들기
 
-1. 왼쪽 위 모서리에서 **Text1**을 선택하고 컨트롤 이름을 **대상**으로 바꿉니다.
+1. PowerApps Studio 추가 된 **텍스트 입력** 제어 합니다.
 
-   ![][2]
+    ![텍스트 입력된 컨트롤을 삽입 합니다.](./media/create-update-collection/add-textbox.png)
 
-1. **삽입** 탭에서 **단추**를 선택하여 디자이너에 단추 컨트롤을 추가합니다. 드롭다운 목록에서 **[OnSelect](controls/properties-core.md)** 속성이 나열됩니다. 다음 함수로 설정합니다.  
-   
-    ```Collect(Destinations, Destination!Text)```
-   
-    다음과 같아야 합니다.
+1. 왼쪽된 탐색 창에서 줄임표를 선택 하 여 컨트롤의 이름을 선택 **이름 바꾸기**를 입력 한 다음 **ProductName**합니다.
 
-    ![][3]
+    ![컨트롤 이름 바꾸기](./media/create-update-collection/rename-textbox.png)
 
-5. 단추 텍스트를 선택하고 **추가**를 입력합니다.
+1. 추가 된 **드롭다운** 제어 합니다.
 
-   ![][5]
+    ![드롭다운 목록 추가](./media/create-update-collection/add-dropdown.png)
 
-1. **추가** 단추를 선택하고 텍스트 컨트롤 아래로 이동합니다. 아무 곳이나 이동할 수 있습니다.  
-   ![][6]
+1. 이름 바꾸기는 **드롭다운** 제어 **색**, 되어 있는지 확인 합니다 **항목** 속성 목록에서 속성을 선택 합니다.
 
-이 단계에서는 **대상**이라는 컬렉션을 만들기 위해 컬렉션 함수를 사용했습니다. 또한 단추 컨트롤을 추가했고 선택하면 새 항목을 컬렉션에 추가합니다. 이제 작성한 것을 봅니다.
+    ![항목 속성](./media/create-update-collection/items-property.png)
 
-1. 미리 보기 선택:  
-   ![][7]  
-2. 상자에 도시 이름을 입력한 다음 **추가** 단추를 선택합니다.
-3. 몇 가지 추가 도시 이름을 입력하고 그때마다 **추가** 단추를 선택합니다.
-4. **Esc** 키를 눌러 미리 보기 창을 닫습니다.
-5. 대상 컬렉션 및 입력한 텍스트 값을 참조합니다. **파일** 탭에서 **컬렉션**을 선택합니다. 입력한 텍스트가 나열됩니다.  
-   ![][8]
+1. 수식 입력줄에서 바꿉니다 **DropDownSample** 이 식을 사용 하 여:
 
-#### <a name="extra-credit"></a>추가 혜택
-이제 목록 상자에 대상 컬렉션을 바인딩하겠습니다.
+    `["Red","Green","Blue"]`
 
-1. 디자이너로 다시 돌아갑니다.
-2. **삽입** 탭에서 **컨트롤**을 선택한 다음 **목록 상자**를 선택합니다.  
-   ![][22]  
-3. 쉽게 확인할 수 있도록 목록 상자를 이동합니다. 해당 **[Items](controls/properties-core.md)** 속성을 다음 식으로 설정합니다.  
-   ```Destinations!Value```  <br/>
-   
-    이 작업을 수행하면 목록 상자가 대상 컬렉션에 이전에 입력한 항목으로 자동으로 채워집니다.  
-   ![][4]  
+1. 추가 된 **단추** 컨트롤 해당 **텍스트** 속성을 **"추가"**, 설정 및 해당 **OnSelect** 속성을 다음이 수식:
 
-변경 내용을 미리 봅니다. ![][7] 목록 상자에서 입력한 다양한 도시를 볼 수 있습니다. 텍스트 입력 컨트롤에서 새 도시를 입력하고 **추가** 단추를 선택합니다. 목록 상자는 입력한 새 도시를 포함하도록 자동으로 업데이트됩니다.
+    ```powerapps-dot
+    Collect(
+        ProductList,
+        {
+            Product: ProductName.Text,
+            Color: Colors.Selected.Value
+        }
+    )
+    ```
 
-## <a name="create-a-multi-column-collection"></a>다중 열 컬렉션 만들기
-다음 단계는 Collect 함수를 사용하는 앱 내에서 컬렉션을 만드는 방법 및 컬렉션에 여러 행을 추가하는 방법을 보여 줍니다.
+1. F5 키를 일부 텍스트를 입력 **ProductName**에서 옵션을 선택 **색**를 선택한 후 **추가**합니다.
 
-1. **홈** 탭에서 새 화면을 엽니다.
-2. **삽입** 탭에서 **텍스트**를 선택한 다음 **텍스트 입력**을 선택합니다.
-3. 텍스트 컨트롤의 이름을 **도시**로 바꿉니다.  
-   ![][9]  
-4. 다른 텍스트 입력 컨트롤을 삽입하고 이름을 **주**로 변경합니다.
-5. 둘을 모두 볼 수 있도록 도시 및 주 텍스트 컨트롤을 이동합니다.  
-   ![][10]  
-   
-    > [!NOTE]
-   > '텍스트 입력'을 이미지에서 수행된 '도시' 또는 '주' 등으로 바꿀 수 있습니다.  
-6. **삽입** 탭에서 **단추**를 선택합니다. 해당 **[OnSelect](controls/properties-core.md)** 속성을 다음 함수로 설정합니다.  
-   ```Collect(Destinations, {Cities:City!Text, States:States!Text})```  
-   
-    다음과 같아야 합니다.  
-    ![][11]  
-   
-    > [!NOTE]
-   > 동일한 함수를 사용하여 이 컬렉션에 열을 더 추가할 수 있습니다. 예를 들어, 도시에 대해 다른 텍스트 입력 컨트롤을 추가하여 도시 열을 추가할 수 있습니다.
-   
-    `Collect(Destinations, {Cities:City!Text, States:States!Text}, {Countries:Country!Text})`
-7. 단추 컨트롤의 이름을 **AddCityStateButton**으로 바꾸고 해당 **[Text](controls/properties-core.md)** 속성을 **도시 및 주 추가**로 설정합니다.  
-   ![][12]  
+    ![앱의 미리 보기](./media/create-update-collection/preview-add.png)
 
-이 단계에서 **대상** 컬렉션에 **도시** 열 및 **주** 열을 추가했습니다. 단추 컨트롤은 컬렉션에 이러한 새 텍스트 항목을 추가합니다. 이제 작성한 것을 봅니다.
+1. 이전 단계를 최소한 두 번 더 반복 하 고 Esc 키를 누릅니다.
 
-1. 미리 보기 선택:  
-   ![][7]  
-2. 도시 및 주 상자에 텍스트를 입력한 다음 **도시 및 주 추가** 단추를 선택합니다.
-3. 몇 가지 도시 및 주를 더 추가합니다.
-4. **Esc** 키를 눌러 미리 보기 창을 닫습니다.
-5. 대상 컬렉션에 추가한 항목을 보려면 **파일** 탭을 선택한 다음 **컬렉션**을 선택합니다.  
-   ![][13]
+1. 에 **파일** 메뉴에서 **컬렉션** 만든 컬렉션을 표시 합니다.
 
-## <a name="add-columns-to-a-collection"></a>컬렉션에 열 추가
-이 연습에는 몇 가지 섹션이 있습니다. 완료되면 컬렉션으로 데이터를 가져오고, 가격 목록에 데이터를 보여 주는 갤러리를 만들고, 제품의 수를 확인하는 슬라이더 컨트롤을 사용하는 방법을 배우게 됩니다.
+    ![컬렉션 표시](./media/create-update-collection/show-collection.png)
 
-### <a name="import-the-price-list-and-create-the-collection"></a>가격 목록 가져오기 및 컬렉션 만들기
-1. [가격표](http://pwrappssamples.blob.core.windows.net/samples/PriceList.zip) zip 파일을 다운로드합니다.
-2. **홈** 탭에서 새 화면을 추가합니다.
-3. **삽입** 탭에서 **컨트롤**을 선택한 다음 **가져오기**를 선택합니다.  
-   ![][14]  
-4. **작업** 탭에서 **OnSelect**를 선택합니다. 다음 함수를 입력합니다.  
-   
-    ```Collect(PriceList, Import1!Data)```  
-5. 앱을 미리 봅니다. **데이터 가져오기** 단추를 선택하고, PriceList.zip 파일을 선택하고, **열기**를 선택합니다.
-6. 미리 보기 창을 닫습니다.
-7. **파일** 탭을 선택하고, **컬렉션**을 선택합니다. 가져온 가격표 항목이 나열됩니다.  
-   ![][15]
+## <a name="show-a-collection"></a>컬렉션 표시
 
-### <a name="add-the-gallery-to-show-the-collection-items"></a>컬렉션 항목을 표시하도록 갤러리 추가
-1. 디자이너로 다시 돌아갑니다.
-2. **삽입** 탭에서 **갤러리**를 선택하고, **사용자 지정 갤러리**로 스크롤한 다음 **세로**를 선택합니다.    
-   ![][16]  
-3. 갤러리의 이름을 **PriceGallery**로 바꾸고 **[Items](controls/properties-core.md)** 속성을 **가격표**로 설정합니다.  
-   ![][18]  
-4. 가격표 갤러리를 **데이터 가져오기** 컨트롤 아래로 이동합니다. 갤러리 테두리를 선택하고 클릭한 다음 끌기를 사용하여 세 개의 사각형이 표시되도록 갤러리 크기를 조정합니다.
-5. 갤러리에서 첫 번째 사각형을 선택하고 세 개의 레이블을 추가합니다(**삽입** 탭 > **레이블**).
-6. 첫 번째 사각형 위쪽의 행에 있는 레이블의 크기를 조정하고 정렬합니다. 갤러리는 다음과 유사하게 표시됩니다.  
-   ![][19]
-7. 각 레이블의 **[Text](controls/properties-core.md)** 속성을 다음 식으로 설정합니다.  
-   
-   | 레이블 | 텍스트 속성을 다음으로 설정 |
-   | --- | --- |
-   | Label1 |``ThisItem!Name`` |
-   | Label2 |``Text(ThisItem!Price, "$#")`` |
-   | Label3 |``ThisItem!Maker`` |
-   
-    이렇게 하면 레이블은 가격표 컬렉션 내에서 이름, 가격 및 메이커 값으로 자동으로 업데이트됩니다.
-8. 레이블 및 갤러리의 크기를 조정하여 모든 추가 공백을 제거합니다. 화면은 다음과 비슷하게 표시됩니다.  
-   ![][17]
+1. 추가 세로 **갤러리** 제어 합니다.
 
-### <a name="add-the-quantity-slider-and-update-the-collection"></a>수량 슬라이더 추가 및 컬렉션 업데이트
-1. **삽입** 메뉴에서 **컨트롤**을 선택하고 **슬라이더**를 선택합니다. 슬라이더의 이름을 **OrderQty**로 바꾸고, 갤러리 아래로 이동합니다.
-2. 단추를 추가하고, 해당 **[Text](controls/properties-core.md)** 속성을 **추가**로 설정하고, **OrderQty** 슬라이더 아래로 이동합니다. 앱은 다음과 유사하게 표시됩니다.  
-   ![][20]
-3. **추가** 단추의 **[OnSelect](controls/properties-core.md)** 속성을 다음 식으로 설정합니다.  
-   
-    ```Collect(OrderList, {Name:PriceGallery!Selected!Name, Qty:OrderQty!Value, Cost:OrderQty!Value*LookUp(PriceList, PriceGallery!Selected!Name in Name, Price)});SaveData(OrderList, "orderfile")```  
-   
-    > [!NOTE]
-   > 이 절차의 뒷부분에서 이 단추를 선택하면 **OrderList**라는 컬렉션이 생성되고 저장됩니다. 컬렉션은 갤러리에 입력하는 제품의 이름, 슬라이더로 선택하는 수량 및 제품의 가격으로 수량을 곱하여 계산되는 총 비용을 포함합니다.
-4. **화면** 탭을 선택하고 **[OnVisible](controls/control-screen.md)** 속성을 다음 식으로 설정합니다.  
-   
-    ```If(IsEmpty(PriceList), LoadData(PriceList, "pricefile"));If(IsEmpty(OrderList), LoadData(OrderList, "orderfile"))```
+    ![세로 갤러리 추가](./media/create-update-collection/add-gallery.png)
 
-이제 작성한 것을 봅니다.
+1. 갤러리의 설정 **항목이** 속성을 **ProductList**합니다.
 
-1. **미리 보기**를 엽니다.
-2. 갤러리에서 제품을 선택하고, 슬라이더를 원하는 수량으로 이동한 다음 **추가** 단추를 선택합니다.  
-   
-   > [!IMPORTANT]
-   > 제품을 선택하면 해당 제품은 선택한 것을 표시하도록 강조 표시되지 않습니다. 갤러리를 만들었을 때 이 기능을 추가하지 않았습니다. 제품을 클릭하는 것이 선택한다는 것을 알고 있습니다.  
-   > 
-   > 
-3. 이 단계를 반복하여 두 개 이상의 제품을 추가합니다. **ESC** 키를 눌러 미리 보기 창을 닫습니다.
-4. **파일** 탭에서 **컬렉션**을 선택하여 만든 **OrderList** 컬렉션의 미리 보기를 표시합니다.  
-   ![][21]
+1. 에 **데이터** 부제목 필드를 설정 하는 창 **색**, 제목 필드를 설정 하 고 **제품**합니다.
 
-> [!TIP]
-> 순서 목록에서 모든 항목을 제거하려면 단추를 추가하고, 해당 **[Text](controls/properties-core.md)** 속성을 **지우기**로 설정하고, 해당 **[OnSelect](controls/properties-core.md)** 속성을 다음 식으로 설정합니다.  
-> ```Clear(OrderList);SaveData(OrderList, "orderfile")```  
-> 한 번에 하나의 항목을 제거하려면 갤러리에 **OrderList** 컬렉션을 표시한 다음 해당 갤러리에 있는 레이블의 **[OnSelect](controls/properties-core.md)** 속성을 다음 식으로 설정합니다.  
-> ```Remove(OrderList, ThisItem);SaveData(OrderList, "orderfile")```
-> 
-> 
+    ![갤러리의 항목 속성을 설정 하 고 표시 하는 필드 변경](./media/create-update-collection/configure-gallery.png)
 
-## <a name="tips-and-tricks"></a>팁과 요령
-* 언제든지 미리 보기 단추(![][7])를 선택하여 차트를 보고 데이터로 표시되는 방식을 볼 수 있습니다.
-* 앱을 디자인할 때 컨트롤의 크기를 조정하고, 클릭한 다음 끌기를 사용하여 이동할 수 있습니다.
+1. 닫기 합니다 **데이터** 창과 집합 합니다 **레이아웃** 필드를 **제목 및 부제목**합니다.
 
-## <a name="what-you-learned"></a>학습 내용
-이 항목에서는 다음을 수행했습니다.
+    ![갤러리의 항목 속성을 설정 하 고 표시 하는 필드 변경](./media/create-update-collection/change-layout.png)
 
-* Collect() 함수를 사용하여 앱 내에서 컬렉션을 만들었습니다.
-* 또한 단추 컨트롤을 추가했고 선택하면 단추는 새 항목을 컬렉션에 추가합니다.
-* 목록 상자를 사용하여 컬렉션에 항목을 추가했습니다.
-* 슬라이더 컨트롤을 추가하여 컬렉션 내의 항목을 업데이트했습니다.
+    화면에는이 예제를 비슷합니다.
 
-[1]: ./media/create-update-collection/insertmenu-inputtext.png
-[2]: ./media/create-update-collection/renametext.png
-[3]: ./media/create-update-collection/buttononselect.png
-[4]: ./media/create-update-collection/listboxpreview.png
-[5]: ./media/create-update-collection/buttontext.png
-[6]: ./media/create-update-collection/buttonundertext.png
-[7]: ./media/create-update-collection/preview.png
-[8]: ./media/create-update-collection/existingcollections.png
-[9]: ./media/create-update-collection/renametext-city.png
-[10]: ./media/create-update-collection/citystate.png
-[11]: ./media/create-update-collection/buttononselectcitystate.png
-[12]: ./media/create-update-collection/buttononcitystate.png
-[13]: ./media/create-update-collection/existingcollectionscitystate.png
-[14]: ./media/create-update-collection/import.png
-[15]: ./media/create-update-collection/pricelistcollection.png
-[16]: ./media/create-update-collection/portrait.png
-[17]: ./media/create-update-collection/resizedgallery.png
-[18]: ./media/create-update-collection/galleryitems.png
-[19]: ./media/create-update-collection/gallerylabels.png
-[20]: ./media/create-update-collection/slider.png
-[21]: ./media/create-update-collection/existingcollectionsorderlist.png
-[22]: ./media/create-update-collection/listbox.png
+    ![첫 번째 화면 예제](./media/create-update-collection/screen-example1.png)
+
+## <a name="remove-one-or-all-items"></a>하나 또는 모든 항목 제거
+
+1. 클릭 하거나 갤러리 아래쪽에 있는 탭 하거나 누른 다음 왼쪽 위 모서리 근처에서 연필 아이콘을 탭 하 여 갤러리 템플릿을 선택 합니다.
+
+    ![갤러리 템플릿이 선택](./media/create-update-collection/select-template.png)
+
+1. 추가 된 **휴지통** 갤러리 템플릿 아이콘입니다.
+
+    ![휴지통 아이콘 추가](./media/create-update-collection/trash-icon.png)
+
+1. 아이콘의 설정 **OnSelect** 속성을 다음이 수식:
+
+    `Remove(ProductList, ThisItem)`
+
+1. 갤러리 외부 단추 추가 해당 **텍스트** 속성을 **"지우기"** 를 설정 하 고 해당 **OnSelect** 속성을 다음이 수식:
+
+    `Clear(ProductList)`
+
+1. Alt 키를 누른 채 선택 합니다 **휴지통** 컬렉션에서 해당 항목을 제거 하거나 선택 항목에 대 한 아이콘을 **지우기** 컬렉션에서 모든 항목을 제거 하려면 단추.
+
+## <a name="put-a-sharepoint-list-into-a-collection"></a>컬렉션에 SharePoint 목록 넣기
+
+1. [SharePoint 목록에 대한 연결을 만듭니다](connect-to-sharepoint.md).
+
+1. 단추를 추가하고 단추의 **[OnSelect](controls/properties-core.md)** 속성을 이 함수로 설정합니다. 이때 *ListName*을 SharePoint 목록의 이름으로 바꿉니다.<br>
+
+    `Collect(MySPCollection, ListName)`
+
+    이 함수는 SharePoint 목록과 동일한 데이터를 포함하는, **MySPCollection**이라는 컬렉션을 만듭니다.
+
+1. Alt 키를 누른 상태에서 단추를 선택합니다.
+
+1. (선택 사항) 사용자가 만든 컬렉션을 미리 보려면 선택 **컬렉션** 에 **파일** 메뉴.
+
+갤러리에서 (예: 날짜, 선택 및 사용자) SharePoint 목록의 데이터를에서 표시 하는 방법에 대 한 정보: [갤러리에서 데이터를 표시](connections/connection-sharepoint-online.md#show-data-in-a-gallery)합니다. (사용 하 여 드롭다운 목록, 날짜 선택 및 사용자 선택기) 형태로 데이터를 표시 하는 방법에 대 한 정보: [편집 양식 및 표시 양식 컨트롤](controls/control-form-detail.md)합니다.
+
+## <a name="next-steps"></a>다음 단계
+
+- 검토 합니다 [참조 항목](functions/function-clear-collect-clearcollect.md) 에 대 한 합니다 **수집** 함수입니다.
+- 사용 하 여 컬렉션에서 데이터를 셰이핑 하는 방법을 알아봅니다 합니다 [AddColumns, DropColumns, RenameColumns 및 ShowColumns](functions/function-table-shaping.md) 함수입니다.

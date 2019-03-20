@@ -1,24 +1,24 @@
 ---
 title: Power BI 프로젝트 보고서 게시 및 대시보드 만들기 | Microsoft Docs
 description: 이 작업에서는 데이터 세트를 게시하고 Power BI 서비스에 보고합니다. 그런 다음, 보고서를 기반으로 하여 대시보드를 만듭니다.
-author: mgblythe
+author: NickWaggoner
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: ''
 ms.date: 01/30/2018
-ms.author: mblythe
+ms.author: niwaggon
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: f5a39ec04015fe360bc550d9ea4f708d887ba34c
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.openlocfilehash: 43e95b88cdf305e7c4b768def83a6b41fa0fcae7
+ms.sourcegitcommit: 90245baddce9d92c3ce85b0537c1ac1cf26bf55a
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42833877"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "57799367"
 ---
 # <a name="publish-the-power-bi-project-report-and-create-a-dashboard"></a>Power BI 프로젝트 보고서 게시 및 대시보드 만들기
 > [!NOTE]
@@ -26,7 +26,7 @@ ms.locfileid: "42833877"
 
 이 작업에서는 데이터 세트를 게시하고 Power BI 서비스에 보고합니다. 그런 다음, 보고서를 기반으로 하여 대시보드를 만듭니다. 대부분의 경우 보고서에는 많은 수의 시각화가 있으며, 대시보드에는 하위 집합만 사용됩니다. 여기서는 네 가지 시각화를 모두 대시보드에 추가합니다.
 
-## <a name="step-1-publish-the-dataset-and-report"></a>1단계: 데이터 세트 및 보고서 게시
+## <a name="step-1-publish-the-dataset-and-report"></a>1 단계: 데이터 집합 및 보고서 게시
 1. Power BI Desktop의 **홈** 탭에서 **게시**를 클릭하거나 탭합니다.
    
     ![데이터 세트 및 보고서 게시](./media/sharepoint-scenario-publish-report/06-01-01-publish.png)
@@ -48,9 +48,9 @@ ms.locfileid: "42833877"
    
     게시할 때 Power BI Desktop에서 데이터 세트 **(d)** 와 보고서 **(c)** 를 업로드했음을 알 수 있습니다. Power BI Desktop이 아닌 서비스에서 대시보드를 만든 경우 이 작업 영역에는 아직 대시보드 **(b)** 가 없습니다. 곧 대시보드를 만들겠습니다.
 
-## <a name="step-2-configure-credentials-for-refresh"></a>2단계: 새로 고침에 대한 자격 증명 구성
+## <a name="step-2-configure-credentials-for-refresh"></a>2 단계: 새로 고침에 대 한 자격 증명 구성
 1. 서비스의 오른쪽 위 모서리에서 ![기어 아이콘](./media/sharepoint-scenario-publish-report/icon-gear.png), **설정**을 차례로 클릭하거나 탭합니다.
-2. **데이터 집합**,**프로젝트 분석**을 차례로 클릭하거나 탭합니다.
+2. **데이터 세트**,**프로젝트 분석**을 차례로 클릭하거나 탭합니다.
    
     ![프로젝트 분석 데이터 세트](./media/sharepoint-scenario-publish-report/06-01-07-dataset.png)
 3. **데이터 원본 자격 증명**을 펼친 다음 **자격 증명 편집**을 클릭하거나 탭합니다.
@@ -67,7 +67,7 @@ ms.locfileid: "42833877"
    
     ![데이터 원본이 업데이트됨](./media/sharepoint-scenario-publish-report/06-01-11-updated.png)
 
-## <a name="step-3-create-a-dashboard"></a>3단계: 대시보드 만들기
+## <a name="step-3-create-a-dashboard"></a>3 단계: 대시보드 만들기
 
 1. 보고서를 다시 가져오려면 **보고서** 아래에서 **project-analysis**를 클릭하거나 탭합니다.
 

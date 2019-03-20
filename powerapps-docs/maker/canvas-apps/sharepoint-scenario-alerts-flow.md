@@ -1,24 +1,24 @@
 ---
 title: Power BI 대시보드에 대한 데이터 경고 설정 | Microsoft Docs
 description: 이 작업에서는 보류 중인 프로젝트를 승인하는 데 너무 오래 걸리는지를 알리는 Power BI의 경고 및 해당 경고가 발생할 때 응답하는 흐름을 추가합니다.
-author: mgblythe
+author: NickWaggoner
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: ''
 ms.date: 06/12/2017
-ms.author: mblythe
+ms.author: niwaggon
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 6426dedc9ce9d1a4648f9c880a53337767ec53d3
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.openlocfilehash: 89c22bec8972c0d58c559a09d4e9f0a8a8e3b7f5
+ms.sourcegitcommit: 90245baddce9d92c3ce85b0537c1ac1cf26bf55a
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42836398"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "57799091"
 ---
 # <a name="set-up-data-alerts-for-the-power-bi-dashboard"></a>Power BI 대시보드에 대한 데이터 경고 설정
 > [!NOTE]
@@ -26,7 +26,7 @@ ms.locfileid: "42836398"
 
 이 작업에서는 보류 중인 프로젝트를 승인하는 데 너무 오래 걸리는지를 알리는 Power BI의 경고 및 해당 경고가 발생할 때 응답하는 흐름을 추가합니다. 경고에 대한 자세한 내용은 [Power BI 서비스의 데이터 경고](https://docs.microsoft.com/power-bi/service-set-data-alerts)를 참조하세요.
 
-## <a name="step-1-create-an-alert"></a>1단계: 경고 만들기
+## <a name="step-1-create-an-alert"></a>1 단계: 경고 만들기
 1. Power BI 서비스에서는 최근 작업에서 만든 대시보드를 엽니다.
 2. 단일 숫자를 포함하는 카드에서 줄임표(**...**)를 클릭하거나 누릅니다.
    
@@ -45,7 +45,7 @@ ms.locfileid: "42836398"
 
 경고가 발생한 경우 Power BI는 경고의 작성자에게 전자 메일을 보냅니다. 다음 단계에서는 Microsoft Flow를 사용하여 추가 메일을 전송하는 방법을 살펴봅니다.
 
-## <a name="step-2-create-a-flow-that-responds-to-the-alert"></a>2단계: 경고에 응답하는 흐름 만들기
+## <a name="step-2-create-a-flow-that-responds-to-the-alert"></a>2 단계: 경고에 응답 하는 흐름 만들기
 1. flow.microsoft.com에 로그인하고, **서비스** 및 **Power BI**를 클릭하거나 누릅니다.
    
     ![Microsoft Flow의 Power BI](./media/sharepoint-scenario-alerts-flow/07-01-05-power-bi.png)

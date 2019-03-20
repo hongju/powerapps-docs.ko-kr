@@ -1,24 +1,24 @@
 ---
 title: 갤러리에서 데이터 표시, 정렬 및 필터링 | Microsoft Docs
 description: 갤러리를 사용하여 이미지와 텍스트를 표시합니다. PowerApps에서 이미지를 정렬하고 필터링합니다.
-author: lonu
+author: adrianorth
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 06/02/2015
-ms.author: lonu
+ms.author: aorth
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: e782b7082e8dbf0d4efee2060131aa620e7a4af1
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.openlocfilehash: a557c73863dc25acb69627b51613e6e25f229bdb
+ms.sourcegitcommit: 90245baddce9d92c3ce85b0537c1ac1cf26bf55a
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42844461"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "57799781"
 ---
 # <a name="show-sort-and-filter-data-in-a-powerapps-gallery"></a>PowerApps 갤러리에서 데이터 표시, 정렬 및 필터링
 갤러리를 만들어 여러 제품에 대한 이미지와 텍스트를 표시하고 해당 정보를 정렬 및 필터링합니다.
@@ -43,7 +43,7 @@ ms.locfileid: "42844461"
       
       ![][1]  
    2. 가져오기 컨트롤의 **[OnSelect](controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.  
-      **Collect(Inventory, Import1!Data)**
+      **Collect(Inventory, Import1.Data)**
       
       ![][12]  
    3. **데이터 가져오기** 단추를 선택하여 Windows 탐색기를 엽니다. *CreateFirstApp.zip*을 선택하고 **열기**를 선택합니다.
@@ -79,14 +79,14 @@ ms.locfileid: "42844461"
    > 
    > 
 8. 레이블의 **[Text](controls/properties-core.md)** 속성을 다음 식으로 설정합니다.  
-    **ThisItem!UnitsInStock** <br/>
+    **ThisItem.UnitsInStock** <br/>
    
     이렇게 하면 레이블에 각 제품의 재고 단위가 표시됩니다.
 
 ![][8]  
 
 > [!NOTE]
-> 기본적으로 최상위 레이블의 **[Text](controls/properties-core.md)** 속성은 ```ThisItem!ProductName```으로 설정됩니다. 컬렉션의 다른 항목으로 변경할 수 있습니다. 예를 들어 컬렉션에 'ProductDescription' 또는 'Price' 필드가 있는 경우 레이블을 ```ThisItem!ProductDescription``` 또는 ```ThisItem!Price```로 설정할 수 있습니다.
+> 기본적으로 최상위 레이블의 **[Text](controls/properties-core.md)** 속성은 ```ThisItem.ProductName```으로 설정됩니다. 컬렉션의 다른 항목으로 변경할 수 있습니다. 예를 들어 컬렉션에 'ProductDescription' 또는 'Price' 필드가 있는 경우 레이블을 ```ThisItem.ProductDescription``` 또는 ```ThisItem.Price```로 설정할 수 있습니다.
 > 
 > 
 
@@ -102,7 +102,7 @@ ms.locfileid: "42844461"
    ![][10]  
 6. **도형** 탭에서 **테두리 표시**를 선택한 다음, 수식 입력줄에 다음 수식을 입력합니다.  
    
-    **If(ThisItem!IsSelected, true)**
+    **If(ThisItem.IsSelected, true)**
    
     파란색 사각형이 갤러리에서 현재 선택한 항목을 둘러쌉니다. 몇 가지 갤러리 항목을 선택하여 선택한 각 항목 주위에 사각형이 표시되는지 확인합니다. 또한 **미리 보기** ![][2]를 열어 만들고 있는 항목을 보고 테스트할 수도 있습니다.
 
@@ -137,7 +137,7 @@ ms.locfileid: "42844461"
    2. **용량** 탭에서 **최대**를 선택하고 다음 식을 입력합니다.  
       ```Max(Inventory, UnitsInStock)```
 3. 갤러리에서 첫 번째 항목을 '제외한' 항목을 선택합니다. 갤러리의 **[Items](controls/properties-core.md)** 속성을 다음 식으로 설정합니다.  
-   ```Filter(Inventory, UnitsInStock<=StockFilter!Value)```
+   ```Filter(Inventory, UnitsInStock<=StockFilter.Value)```
 4. **미리 보기**에서 슬라이더를 갤러리에서 가장 높은 수량과 가장 낮은 수량 사이의 값으로 조정합니다. 슬라이더를 조정하면 갤러리에는 선택한 값보다 작은 제품만 표시됩니다.  
    ![][13]  
 
@@ -146,7 +146,7 @@ ms.locfileid: "42844461"
 1. 디자이너로 돌아갑니다.
 2. **삽입** 탭에서 **텍스트**를 선택하고, **텍스트 입력**을 선택한 다음, 새 컨트롤의 이름을 **NameFilter**로 바꿉니다. 텍스트 컨트롤을 슬라이더 아래로 이동합니다.
 3. 갤러리의 **[Items](controls/properties-core.md)** 속성을 다음 식으로 설정합니다.  
-   ```Filter(Inventory, UnitsInStock<=StockFilter!Value && NameFilter!Text in ProductName)```
+   ```Filter(Inventory, UnitsInStock<=StockFilter.Value && NameFilter.Text in ProductName)```
 4. **미리 보기**에서 슬라이더를 '30'으로 설정하고, 텍스트 입력 컨트롤에 'g' 문자를 입력합니다. 갤러리에는 이름에 "g" 문자가 있고 재고 단위가 30개 미만인 제품만 표시됩니다.  
    ![][14]  
 

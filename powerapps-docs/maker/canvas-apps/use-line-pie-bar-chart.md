@@ -1,24 +1,24 @@
 ---
 title: 캔버스 앱에서 차트 만들기 | Microsoft Docs
 description: PowerApps에서 캔버스 응용 프로그램의 꺾은 선형 차트, 원형 차트 또는 가로 막대형 차트로 데이터 범주 표시
-author: lonu
+author: fikaradz
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 10/23/2016
-ms.author: lonu
+ms.author: fikaradz
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 142bb0e19fb8b9647c1808dcca10e781c4f69d4a
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.openlocfilehash: 0b710346c5e264fc13ee3cacb00073a32a4de0f0
+ms.sourcegitcommit: 90245baddce9d92c3ce85b0537c1ac1cf26bf55a
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42862038"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "57799689"
 ---
 # <a name="show-data-in-a-line-pie-or-bar-chart-in-powerapps"></a>PowerApps에서 꺾은선형, 원형 또는 막대형 차트로 데이터 표시
 
@@ -65,7 +65,7 @@ PowerApps 내에서 이러한 차트를 만들고 사용할 수 없습니다. �
    > Excel과 같은 데이터를 가져오고 컬렉션을 만드는 데 가져오기 컨트롤을 사용합니다. 가져오기 컨트롤은 앱을 만들고 앱을 미리 볼 때 데이터를 가져옵니다. 현재는 앱을 게시할 때 가져오기 컨트롤에서 데이터를 가져오지 않습니다.
    >
 
-6. 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
+6. 기본 작업 영역으로 돌아가려면 Esc를 누릅니다.
 
 ## <a name="add-a-pie-chart"></a>원형 차트 추가
 1. **삽입** 탭에서 **차트**를 선택한 다음 **원형 차트**를 선택합니다.
