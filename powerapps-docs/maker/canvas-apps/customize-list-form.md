@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 12d13ecfb8c60a1c1ccb23496dd9dc7f8cf42814
-ms.sourcegitcommit: a1568c9a09d83efe50c032b73eaa18c7db723e86
-ms.translationtype: HT
+ms.openlocfilehash: ca97583948a289240bfb051fa8cac36a39e2ffee
+ms.sourcegitcommit: c6ad6ba7814c5e7b12c3b7b76bf2e7718bf41b8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "57804450"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58198639"
 ---
 # <a name="customize-a-sharepoint-list-form-by-using-powerapps"></a>PowerApps를 사용하여 SharePoint 목록 양식 사용자 지정
 
@@ -98,7 +98,7 @@ SharePoint 사이트에서 목록을 만듭니다 하와 해당 목록에 이러
 1. 이러한 항목을 설명 하는 것과 같은 다양 한 폼에 사용자 지정:
 
     - 크기, 방향 또는 둘 다를 변경합니다(예: [양식 넓히기](set-aspect-ratio-portrait-landscape.md)).
-    - 사용자가 [첨부 파일을 업로드](controls/properties-text.md)수 있도록 컨트롤을 추가합니다.
+    - [하나 이상의 카드 사용자 지정](working-with-cards.md) (예를 들어, 카드의 표시 텍스트 또는 입력 컨트롤 변경).
     - [조회 필드](sharepoint-lookup-fields.md)를 만듭니다.
 
     자세한 정보: [SharePoint 양식 통합 이해](sharepoint-form-integration.md)

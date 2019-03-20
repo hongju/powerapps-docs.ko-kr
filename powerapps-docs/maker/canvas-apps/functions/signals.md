@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 9732a4e1d721a47906a71dba6e4a7ea5ac7bc87b
-ms.sourcegitcommit: eecbafdee9ef3d0a71dfeba934581f00965064cf
-ms.translationtype: HT
+ms.openlocfilehash: 147766eb9e9b17698882241e8eb3bd0ae7ba7e78
+ms.sourcegitcommit: 0dbbf53aea319e53edadc1d3a9efa5728856ebd8
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "57801851"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58172636"
 ---
 # <a name="acceleration-app-compass-connection-and-location-signals-in-powerapps"></a>PowerApps의 가속, 앱, 나침반, 연결 및 위치 신호 
 전 세계에서 사용자의 위치, 표시할 화면 등과 같이 앱 환경 관련 정보를 반환합니다.  
@@ -43,7 +43,11 @@ ms.locfileid: "57801851"
 
 | 속성 | 설명 |
 | --- | --- |
-| **App.ActiveScreen** |표시되는 화면입니다. 화면의 속성을 참조하거나, 다른 화면과 비교하여 표시할 화면을 결정하는 데 사용할 수 있는 화면 개체를 반환합니다.  **[Back](function-navigate.md)** 또는 **[Navigate](function-navigate.md)** 함수를 사용하여 표시되는 화면을 변경할 수 있습니다. |
+| **App.ActiveScreen** | 표시되는 화면입니다. 화면의 속성을 참조하거나, 다른 화면과 비교하여 표시할 화면을 결정하는 데 사용할 수 있는 화면 개체를 반환합니다. 표시 되는 화면을 변경 하려면 사용 합니다 **[다시](function-navigate.md)** 또는 **[탐색](function-navigate.md)** 함수입니다. |
+| **App.Width** | 앱 실행 되는 창의 너비를 반환 합니다. 설정한 경우 수식에서이 속성을 사용할 수 있습니다 합니다 **너비** 응답성이 뛰어난 앱을 빌드하는 화면의 속성입니다.  |
+| **App.Height** | 앱 실행 되는 창의 높이 반환 합니다. 설정한 경우 수식에서이 속성을 사용할 수 있습니다 합니다 **높이** 응답성이 뛰어난 앱을 빌드하는 화면의 속성입니다. |
+| **App.DesignWidth** | PowerApps Studio 앱의 너비를 반환합니다. 설정한 경우 수식에서이 속성을 사용할 수 있습니다 합니다 **너비** 화면 응답성 있는 앱의 최소 너비를 확인 하는 속성입니다.  |
+| **App.DesignHeight** | PowerApps Studio 앱의 높이 반환합니다. 설정한 경우 수식에서이 속성을 사용할 수 있습니다 합니다 **높이** 화면 응답성 있는 앱의 최소 높이 확인 하는 속성입니다.  |
 
 합니다 **앱** 개체에는 [동작 수식](../working-with-formulas-in-depth.md) 설정할 수 있는 합니다.
 

@@ -13,16 +13,16 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 15aa49787d6b2c3d3981e374aeb43c54a2d7a7ec
-ms.sourcegitcommit: 02d0234bd84352bf1c43d0fc9225ab60947a0add
-ms.translationtype: HT
+ms.openlocfilehash: 042819241a40b9ad01f95085faf23b6393f62559
+ms.sourcegitcommit: c6ad6ba7814c5e7b12c3b7b76bf2e7718bf41b8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49317094"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58198593"
 ---
 # <a name="generate-a-canvas-app-in-powerapps-from-a-sharepoint-list"></a>SharePoint 목록에서 PowerApps에 캔버스 앱 생성
 
-이 항목에서는 PowerApps를 사용하여 SharePoint 목록의 항목에 따라 캔버스 앱을 자동으로 생성합니다. PowerApps 또는 SharePoint Online 내에서 앱을 생성할 수 있습니다. PowerApps 내에서 데이터 게이트웨이를 통해 [연결](connect-to-sharepoint.md)하는 경우, 온-프레미스 SharePoint 사이트의 목록을 기반으로 앱을 생성할 수 있습니다.
+이 항목에서는 PowerApps를 사용하여 SharePoint 목록의 항목에 따라 캔버스 앱을 자동으로 생성합니다. PowerApps 또는 SharePoint Online 내에서 앱을 생성할 수 있습니다. PowerApps 내에서 데이터 게이트웨이를 통해 [연결](connections/connection-sharepoint-online.md#create-a-connection)하는 경우, 온-프레미스 SharePoint 사이트의 목록을 기반으로 앱을 생성할 수 있습니다.
 
 생성하는 앱에는 다음과 같은 세 개의 화면이 포함됩니다.
 

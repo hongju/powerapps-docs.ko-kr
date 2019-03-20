@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: aca1b78262ac359689d66f687f902103740fa3a6
-ms.sourcegitcommit: 826bde1eab3dd32d7bf9fa3f43ea069694845597
-ms.translationtype: HT
+ms.openlocfilehash: 04ef7924ce3f6945a666fe06bdc6091159bc44c4
+ms.sourcegitcommit: c6ad6ba7814c5e7b12c3b7b76bf2e7718bf41b8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "57800310"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58198547"
 ---
 # <a name="create-and-update-a-collection-in-a-canvas-app"></a>만들기 및 캔버스 앱에서 컬렉션 업데이트
 
@@ -116,7 +116,7 @@ ms.locfileid: "57800310"
 
 ## <a name="put-a-sharepoint-list-into-a-collection"></a>컬렉션에 SharePoint 목록 넣기
 
-1. [SharePoint 목록에 대한 연결을 만듭니다](connect-to-sharepoint.md).
+1. [SharePoint 목록에 대한 연결을 만듭니다](connections/connection-sharepoint-online.md#create-a-connection).
 
 1. 단추를 추가하고 단추의 **[OnSelect](controls/properties-core.md)** 속성을 이 함수로 설정합니다. 이때 *ListName*을 SharePoint 목록의 이름으로 바꿉니다.<br>
 
@@ -128,7 +128,7 @@ ms.locfileid: "57800310"
 
 1. (선택 사항) 사용자가 만든 컬렉션을 미리 보려면 선택 **컬렉션** 에 **파일** 메뉴.
 
-갤러리에서 (예: 날짜, 선택 및 사용자) SharePoint 목록의 데이터를에서 표시 하는 방법에 대 한 정보: [갤러리에서 데이터를 표시](connections/connection-sharepoint-online.md#show-data-in-a-gallery)합니다. (사용 하 여 드롭다운 목록, 날짜 선택 및 사용자 선택기) 형태로 데이터를 표시 하는 방법에 대 한 정보: [편집 양식 및 표시 양식 컨트롤](controls/control-form-detail.md)합니다.
+갤러리에서 (예: 날짜, 선택 및 사용자) SharePoint 목록의 데이터를에서 표시 하는 방법에 대 한 정보: [갤러리에서 목록 열 표시](connections/connection-sharepoint-online.md#show-list-columns-in-a-gallery)합니다. (사용 하 여 드롭다운 목록, 날짜 선택 및 사용자 선택기) 형태로 데이터를 표시 하는 방법에 대 한 정보: [편집 양식 및 표시 양식 컨트롤](controls/control-form-detail.md)합니다.
 
 ## <a name="next-steps"></a>다음 단계
 
