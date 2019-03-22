@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 1be6055a2b8f42d8d4194653417313b29ab5610d
-ms.sourcegitcommit: 90245baddce9d92c3ce85b0537c1ac1cf26bf55a
+ms.openlocfilehash: 2c367aa57294e52fc22f538f88b361c90c3afb99
+ms.sourcegitcommit: e64344548d607767e495a6b9526900bb5975226a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "57799850"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58330243"
 ---
 # <a name="install-and-configure-the-help-desk-sample-in-powerapps"></a>PowerApps에서 지원 센터 샘플 설치 및 구성
 
@@ -47,7 +47,7 @@ PowerApps에서 캔버스 앱에 대한 지원 센터 샘플 설치 및 구성�
 
 이 목록은 지원 센터 티켓을 저장합니다.
 
-1. 웹 브라우저를 열고 https://portal.office.com 으로 이동하세요.
+1. 웹 브라우저를 열고 https://admin.microsoft.com 으로 이동하세요.
 2. SharePoint 목록을 만들 수 있는 권한을 가진 계정으로 로그인합니다.
 3. 지원 센터 목록을 배치할 사이트 컬렉션으로 이동합니다.
 4. 웹 페이지의 오른쪽 맨 위 부분에 있는 **기어 아이콘**을 클릭합니다.

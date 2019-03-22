@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 2cfad6a3cadbd2154e582163dc4f55ee6d010b96
-ms.sourcegitcommit: 90245baddce9d92c3ce85b0537c1ac1cf26bf55a
+ms.openlocfilehash: 166fea9e02ebdaa490b400274c971f0c7268ec76
+ms.sourcegitcommit: e64344548d607767e495a6b9526900bb5975226a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "55072747"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58330289"
 ---
 # <a name="install-and-configure-the-expense-report-sample-for-canvas-apps-in-powerapps"></a>PowerApps의 캔버스 앱에 대한 경비 보고서 샘플 설치 및 구성 | Microsoft Docs
 
@@ -44,7 +44,7 @@ ms.locfileid: "55072747"
 
 이 목록은 경비 보고서를 저장합니다.
 
-1. 웹 브라우저를 열고 https://portal.office.com 으로 이동하세요.
+1. 웹 브라우저를 열고 https://admin.microsoft.com 으로 이동하세요.
 2. 목록을 만들 수 있는 권한을 가진 계정으로 로그인합니다.
 3. 경비 목록을 배치할 사이트 컬렉션으로 이동합니다.
 4. 웹 페이지의 오른쪽 맨 위 부분에 있는 **기어 아이콘**을 클릭합니다.

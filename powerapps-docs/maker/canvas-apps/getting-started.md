@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: aa46510cdd46cf8d9fb64694e7b6306b255b1157
-ms.sourcegitcommit: fa0ad3f81efd41671dd8e118ce936acb274cfd7c
+ms.openlocfilehash: 9b213484bf1412d808c3fa9599debd5c9e546a4e
+ms.sourcegitcommit: e64344548d607767e495a6b9526900bb5975226a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54079613"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58330128"
 ---
 # <a name="what-are-canvas-apps-in-powerapps"></a>PowerApps의 캔버스 앱이란 무엇인가요?
 C# 같은 일반적인 프로그래밍 언어로 코드를 작성하지 않고도 Microsoft PowerApps의 캔버스에서 비즈니스 앱을 설계하고 빌드합니다. Powerpoint에서 슬라이드를 디자인하는 것처럼 캔버스에 요소를 끌어 놓아 앱을 설계합니다. 논리를 지정하고 데이터로 작업하기 위해 Excel 같은 식을 만듭니다. [다양한 Microsoft 및 타사 원본](connections-list.md)에서 비즈니스 데이터를 통합하는 앱을 빌드합니다. 사용자가 브라우저 또는 모바일 디바이스에서 앱을 실행하도록 앱을 공유하고 사용자가 SharePoint, Power BI 또는 Teams에서 앱을 실행할 수 있도록 앱을 포함합니다.
@@ -54,7 +54,7 @@ Windows, [웹 브라우저](../../user/run-app-browser.md) 또는 [iOS 또는 An
 ## <a name="share-your-experience"></a>사용자 경험 공유
 * PowerApps를 사용하는 모든 이가 질문을 게시하고 답변할 수 있는 공간인 [PowerApps 커뮤니티](https://aka.ms/powerapps-community)에서 정보를 읽고 게시합니다. 질문을 게시하기 전에는 커뮤니티를 검색하여 같은 질문이 게시되어 답변한 내용이 있는지 확인하세요.
 * [PowerApps Ideas](https://powerusers.microsoft.com/t5/PowerApps-Ideas/idb-p/PowerAppsIdeas)에서 PowerApps를 개선할 수 있는 방안에 대한 아이디어를 제출하십시오.
-* 기술 지원을 받으려면 [지원 티켓](https://powerapps.microsoft.com/support/pro/)을 만드세요. 조직의 PowerApps 관리자인 경우 [PowerApps 관리 센터](https://portal.office.com/Support/Support.aspx)에서 지원 티켓을 열 수도 있습니다.
+* 기술 지원을 받으려면 [지원 티켓](https://powerapps.microsoft.com/support/pro/)을 만드세요. 조직의 PowerApps 관리자인 경우 [PowerApps 관리 센터](https://admin.microsoft.com/Support/Support.aspx)에서 지원 티켓을 열 수도 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 - [무료 라이선스에 등록합니다.](../signup-for-powerapps.md)
