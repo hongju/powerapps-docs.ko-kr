@@ -6,15 +6,15 @@ manager: annbe
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 02/28/2019
+ms.date: 03/18/2019
 ms.author: kvivek
 ms.reviewer: kvivek
-ms.openlocfilehash: 3a314ee6fabc5d3891a19610bfc4cf8aebdd6dcf
-ms.sourcegitcommit: edd4b1029b7085bb3849d87b0c94e0d8cb5758aa
+ms.openlocfilehash: ec03fdfd4837bb54fb150562ade38db758887f88
+ms.sourcegitcommit: 0dbbf53aea319e53edadc1d3a9efa5728856ebd8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57251550"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58162266"
 ---
 # <a name="what-is-powerapps"></a>PowerApps란?
 
@@ -23,6 +23,8 @@ PowerApps는 신속한 애플리케이션 개발 환경을 제공하여 비즈�
 PowerApps를 사용하여 빌드된 앱은 수동 비즈니스 프로세스를 디지털, 자동화된 프로세스로 전환할 수 있는 풍부한 비즈니스 논리와 워크플로 기능을 제공합니다. 또한 PowerApps를 사용하여 빌드된 앱은 응답성이 뛰어난 디자인으로 브라우저 또는 모바일 디바이스(휴대폰 또는 태블릿)에서 원활하게 실행할 수 있습니다. PowerApps는 사용자가 코드를 작성하지 않고도 다양한 기능, 사용자 지정 비즈니스 앱을 빌드할 수 있도록 하여 사용자 지정 비즈니스 앱 빌드 환경을 "보편화"합니다.
 
 또한 PowerApps는 전문 개발자가 프로그래밍 방식으로 데이터 및 메타데이터와 상호 작용하고, 비즈니스 논리를 적용하고, 사용자 지정 컨넥터를 만들고, 외부 데이터와 통합할 수 있는 확장 가능한 플랫폼을 제공합니다.
+
+자세한 내용은 YouTube의 [PowerApps 채널](https://www.youtube.com/channel/UCGfWR2ekfRFckLjev6eQYLg)을 참조하세요.
 
 ## <a name="powerapps-for-app-makerscreators"></a>앱 제작자/작성자용 PowerApps
 
