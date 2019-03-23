@@ -13,23 +13,23 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 9b213484bf1412d808c3fa9599debd5c9e546a4e
-ms.sourcegitcommit: e64344548d607767e495a6b9526900bb5975226a
+ms.openlocfilehash: 6968e15bbfdb16d3f5443c51065765069ae8867b
+ms.sourcegitcommit: 5b2b70c3fc7bcba5647d505a79276bbaad31c610
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58330128"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58357187"
 ---
 # <a name="what-are-canvas-apps-in-powerapps"></a>PowerApps의 캔버스 앱이란 무엇인가요?
 C# 같은 일반적인 프로그래밍 언어로 코드를 작성하지 않고도 Microsoft PowerApps의 캔버스에서 비즈니스 앱을 설계하고 빌드합니다. Powerpoint에서 슬라이드를 디자인하는 것처럼 캔버스에 요소를 끌어 놓아 앱을 설계합니다. 논리를 지정하고 데이터로 작업하기 위해 Excel 같은 식을 만듭니다. [다양한 Microsoft 및 타사 원본](connections-list.md)에서 비즈니스 데이터를 통합하는 앱을 빌드합니다. 사용자가 브라우저 또는 모바일 디바이스에서 앱을 실행하도록 앱을 공유하고 사용자가 SharePoint, Power BI 또는 Teams에서 앱을 실행할 수 있도록 앱을 포함합니다.
 
-사용자 지정 설계가 필요없고 데이터가 앱용 CDS(Common Data Service)에 있는 경우 비즈니스 데이터 및 프로세스에서 모델 기반 앱을 자동으로 생성할 수 있습니다. 이러한 유형의 앱은 폼, 뷰 및 기타 구성 요소를 모델링할 수 있으며 기본 UI는 휴대폰, 노트북 및 기타 디바이스에 자동으로 조정됩니다. 이러한 유형의 앱에 대한 자세한 내용은 [모델 기반 앱 빌드 개요](../model-driven-apps/model-driven-app-overview.md)를 참조합니다.
+사용자 지정 디자인 필요가 없습니다. 데이터는 공통 데이터 서비스를 비즈니스 데이터 및 프로세스에서 모델 기반 앱을 자동으로 생성할 수 있습니다. 이러한 유형의 앱은 폼, 뷰 및 기타 구성 요소를 모델링할 수 있으며 기본 UI는 휴대폰, 노트북 및 기타 디바이스에 자동으로 조정됩니다. 이러한 유형의 앱에 대한 자세한 내용은 [모델 기반 앱 빌드 개요](../model-driven-apps/model-driven-app-overview.md)를 참조합니다.
 
 ## <a name="build-an-app"></a>앱 빌드
 시작하려면 무엇보다 이러한 원본 중 하나에서 자동으로 앱을 생성 합니다.
 - [샘플 앱](open-and-run-a-sample-app.md)
 - [템플릿](get-started-test-drive.md)
-- [앱용 CDS](data-platform-create-app.md)
+- [Common Data Service](data-platform-create-app.md)
 - [SharePoint](app-from-sharepoint.md)
 - [Excel](get-started-create-from-data.md)
 
@@ -39,7 +39,7 @@ PowerApps 사이트에 [로그인](https://web.powerapps.com?utm_source=padocs&u
 
 앱을 자동으로 생성한 후에 사용자의 워크플로를 기반으로 기본 모양과 동작을 사용자 지정합니다. 예를 들어 표시할 데이터의 형식, 정렬하는 방법 또는 사용자가 수를 지정할 때 수를 입력할지 아니면 슬라이더를 조정할지 여부까지도 변경할 수 있습니다. [화면](add-screen-context-variables.md), [갤러리](customize-layout-sharepoint.md), [폼](customize-forms-sharepoint.md), 기타 컨트롤을 추가하고 사용자 지정합니다.
 
-앱을 자동으로 생성하고 사용자 지정으로 어느 정도의 경험을 얻은 다음, [앱용 CDS](data-platform-create-app-scratch.md), [Excel](get-started-create-from-blank.md) 또는 다른 데이터 원본을 기반으로 처음부터 앱을 만들 수 있습니다. 처음부터 시작하면 앱 디자인, 흐름 및 컨트롤에 관한 유연성을 확보하고 보다 다양한 데이터 원본을 통합할 수 있습니다.
+앱 또는 2를 자동으로 생성 된 사용자 지정으로 어느 정도의 경험을 얻은 한 후에 따라 처음부터 앱 만들기 [Common Data Service](data-platform-create-app-scratch.md)를 [Excel](get-started-create-from-blank.md), 또는 다른 데이터 원본입니다. 처음부터 시작하면 앱 디자인, 흐름 및 컨트롤에 관한 유연성을 확보하고 보다 다양한 데이터 원본을 통합할 수 있습니다.
 
 ## <a name="share-and-run-an-app"></a>앱 공유 및 실행
 앱을 완성하고 클라우드에 저장할 때는 조직의 [다른 사람들과 공유](share-app.md)합니다. 앱을 실행할 수 있는 사용자나 그룹을 지정하고 이들이 앱을 사용자 지정하거나 조직 내의 또 다른 사람들과 공유할 수 있는지 여부를 지정합니다.

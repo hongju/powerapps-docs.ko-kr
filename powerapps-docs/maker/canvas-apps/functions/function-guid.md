@@ -13,18 +13,18 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 3da9d769ab36df23c6c54510937adea2ce38863f
-ms.sourcegitcommit: b8b2a2c3cf3300fa52bdf71bfef6a2892e36cffc
+ms.openlocfilehash: 9415ab67b93ef64f5caa025af5ac685ca2363305
+ms.sourcegitcommit: 5b2b70c3fc7bcba5647d505a79276bbaad31c610
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57802633"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58357072"
 ---
 # <a name="guid-function-in-powerapps"></a>PowerApps의 GUID 함수
 GUID([전역적으로 고유 식별자](https://en.wikipedia.org/wiki/Universally_unique_identifier)) 문자열을 GUID 값으로 변환하거나 새 GUID 값을 만듭니다.
 
 ## <a name="description"></a>설명
-**GUID** 함수를 사용하여 GUID의 16진수 표현을 포함하는 문자열을 데이터베이스로 전달할 수 있는 GUID 값으로 변환합니다. GUID 값은 앱 및 SQL Server용 Common Data Service와 같은 데이터베이스 시스템에서 키로 사용됩니다.
+**GUID** 함수를 사용하여 GUID의 16진수 표현을 포함하는 문자열을 데이터베이스로 전달할 수 있는 GUID 값으로 변환합니다. GUID 값은 Common Data Service 및 SQL Server와 같은 데이터베이스 시스템에서 키로 사용 됩니다.
 
 전달된 문자열에는 대문자 또는 소문자가 포함될 수 있지만, 다음 형식 중 하나에는 32자리 16진수여야 합니다.
 

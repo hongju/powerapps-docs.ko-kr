@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 194da16a1025daa84c658ae8884734a08780c6c1
-ms.sourcegitcommit: 4db9c763455d141a7e1dd569a50c86bd9e50ebf0
+ms.openlocfilehash: 4d7b21286f793aefdcc66a3dcbb027ab8f9ac4e7
+ms.sourcegitcommit: 5b2b70c3fc7bcba5647d505a79276bbaad31c610
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "57802058"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58356842"
 ---
 # <a name="edit-form-and-display-form-controls-in-powerapps"></a>PowerApps의 편집 양식 및 표시 양식 컨트롤
 데이터 원본에서 레코드를 표시하고, 편집하고, 만듭니다.
@@ -33,7 +33,7 @@ ms.locfileid: "57802058"
 ### <a name="record-selection"></a>레코드 선택
 어떤 양식 종류에서나 **DataSource** 속성을 레코드 테이블로 설정하고 양식의 **Item** 속성은 해당 테이블의 특정 레코드를 표시하도록 설정합니다. 예를 들어 양식의 **Item** 속성은 **[갤러리](control-gallery.md)** 컨트롤의 **SelectedItem** 속성으로 설정할 수 있습니다. 갤러리에서 레코드를 선택할 때 양식이 더 많은 필드를 표시할 수 있는 경우를 제외하고 양식에 동일한 레코드가 표시됩니다. 사용자가 갤러리로 돌아와 다른 레코드를 선택하면 갤러리의 **SelectedItem** 속성이 변경됩니다. 이렇게 변경하면 양식의 **Item** 속성이 업데이트되어 최근에 선택한 레코드를 표시합니다.
 
-[Show, edit, or add a record](../add-form.md)(레코드 표시, 편집 또는 추가)의 설명대로 **드롭다운** 컨트롤을 사용하거나 **Lookup** 또는 **First** 같은 함수를 사용하여 양식의 **Item** 속성을 설정할 수도 있습니다. 예를 들어 앱의 Common Data Service에서 다음 수식 중 하나에 **Item** 속성을 설정하여 **Accounts** 엔터티에 Fabrikam 항목을 표시할 수 있습니다.
+[Show, edit, or add a record](../add-form.md)(레코드 표시, 편집 또는 추가)의 설명대로 **드롭다운** 컨트롤을 사용하거나 **Lookup** 또는 **First** 같은 함수를 사용하여 양식의 **Item** 속성을 설정할 수도 있습니다. 예를 들어, 설정할 수 있습니다 합니다 **항목** 속성을 이러한 수식에서 Fabrikam 항목을 표시 하는 **계정** Common Data Service에서 엔터티:
 
 ```First(Accounts)```
 

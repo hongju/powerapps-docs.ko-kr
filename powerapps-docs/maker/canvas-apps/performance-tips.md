@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: a04320d2d8bb2d8ad3ebf30d3ecbd0dfe7f9b0bd
-ms.sourcegitcommit: 4db9c763455d141a7e1dd569a50c86bd9e50ebf0
+ms.openlocfilehash: 6406afad9079895a0da38c7f1f6e3961f2e37fa1
+ms.sourcegitcommit: 5b2b70c3fc7bcba5647d505a79276bbaad31c610
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "57801966"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58357854"
 ---
 # <a name="optimize-canvas-app-performance-in-powerapps"></a>PowerApps의 캔버스 앱 성능 최적화 | Microsoft Docs
 Microsoft는 PowerApps 플랫폼에서 실행되는 모든 앱의 성능 향상을 위해 최선을 다합니다. 이 항목에서는 빌드한 앱의 성능을 향상시킬 수 있는 모범 사례를 소개합니다.
@@ -32,7 +32,7 @@ Microsoft는 PowerApps 플랫폼에서 실행되는 모든 앱의 성능 향상�
 ## <a name="limit-data-connections"></a>데이터 연결 제한 
 **동일한 앱에서 30개를 초과하는 데이터 원본에 연결하지 마세요**. 앱은 새로운 사용자가 각 커넥터에 로그인하도록 유도하므로 모든 추가 커넥터는 앱 시작 시간을 늘립니다. 앱을 실행하면 앱이 해당 소스의 데이터를 요청할 때 각 커넥터는 CPU 리소스, 메모리 및 네트워크 대역폭이 필요합니다. 
 
-앱을 실행하는 동안 [Microsoft Edge](https://docs.microsoft.com/microsoft-edge/devtools-guide/network) 또는 [Google Chrome](https://developers.google.com/web/tools/chrome-devtools/network-performance/)에서 개발자 도구를 사용하도록 설정하여 앱의 성능을 빠르게 측정할 수 있습니다. OneDrive에서 앱, Azure SQL, SharePoint 및 Excel용 Common Data Service와 같은 데이터 원본에서 30개를 초과하는 데이터를 자주 요청하면 앱이 데이터를 반환하는 데 15초보다 오래 걸릴 수 있습니다.  
+앱을 실행하는 동안 [Microsoft Edge](https://docs.microsoft.com/microsoft-edge/devtools-guide/network) 또는 [Google Chrome](https://developers.google.com/web/tools/chrome-devtools/network-performance/)에서 개발자 도구를 사용하도록 설정하여 앱의 성능을 빠르게 측정할 수 있습니다. 앱이 더 자주 Common Data Service, Azure SQL, SharePoint 및 OneDrive에서 Excel 같은 30 개 이상의 데이터 원본에서 데이터를 요청 하는 경우 데이터를 반환 하는 데 15 초 보다 오래 걸리기 때문입니다.  
 
 ## <a name="limit-the-number-of-controls"></a>컨트롤 수 제한 
 **동일한 앱에 500개를 초과하는 컨트롤을 추가하지 마세요**. PowerApps는 각 컨트롤을 렌더링하는 HTML DOM을 생성합니다. 추가하는 컨트롤이 많을수록 PowerApps에 필요한 생성 시간이 늘어납니다. 

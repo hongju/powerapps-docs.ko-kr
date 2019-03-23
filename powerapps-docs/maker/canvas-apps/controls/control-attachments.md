@@ -13,26 +13,26 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: da9c8f85844e37d6af8e1063b36496c820fbfa07
-ms.sourcegitcommit: e2a9d1a6090cdd8aa78515b49f38ed2365217ea6
-ms.translationtype: HT
+ms.openlocfilehash: 31b166dbe0257127d02f410182aaebb70e641da6
+ms.sourcegitcommit: 5b2b70c3fc7bcba5647d505a79276bbaad31c610
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "49384251"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58357900"
 ---
 # <a name="attachments-control-in-powerapps"></a>PowerApps의 첨부 파일 컨트롤
-사용자가 해당 디바이스에 파일을 다운로드할 뿐만 아니라 앱 엔터티의 SharePoint 목록 또는 Common Data Service에서 파일을 업로드하고 삭제할 수 있는 컨트롤입니다.
+뿐만 아니라 해당 장치에 파일을 다운로드 하 고, 업로드 하 고, SharePoint 목록 또는 Common Data Service 엔터티에서 파일을 삭제 하는 사용자를 허용 하는 컨트롤입니다.
 
 ## <a name="limitations"></a>제한 사항
 첨부 파일 컨트롤에는 이러한 제한 사항이 있습니다.
-1. 첨부 파일은 앱 엔터티의 SharePoint 목록 및 CDS에서 지원됩니다.
+1. 첨부 파일은 SharePoint 목록 및 Common Data Service 엔터티를 지원 합니다.
 
 1. 업로드 및 삭제 기능은 폼 내부에서만 작동합니다.  첨부 파일 컨트롤은 편집 모드와 폼 외부에서는 비활성화된 것처럼 보입니다. 파일 추가 및 삭제를 백 엔드에 저장하려면 최종 사용자가 폼을 저장해야 합니다.
 
 1. 최대 10MB의 파일만 업로드할 수 있습니다.  
 
 ## <a name="description"></a>설명
-**첨부 파일** 컨트롤을 앱 엔터티의 SharePoint 목록 또는 CDS에서 파일을 열고, 추가하고, 삭제할 수 있습니다.
+**첨부 파일** 제어를 사용 하면 추가 하 고, 열고, SharePoint 목록 또는 Common Data Service 엔터티에서 파일을 삭제 합니다.
 
 ## <a name="key-properties"></a>주요 속성
 **[Items](properties-core.md)** – 다운로드할 수 있는 파일을 설명하는 소스입니다.

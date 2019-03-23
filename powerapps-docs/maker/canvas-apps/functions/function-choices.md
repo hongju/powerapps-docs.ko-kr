@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 531a614493ef739acd7be71f396dfc2f7e1ada1c
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.openlocfilehash: 77268aa63ed49d10f825850909d31ec4feace063
+ms.sourcegitcommit: 5b2b70c3fc7bcba5647d505a79276bbaad31c610
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42832799"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58357601"
 ---
 # <a name="choices-function-in-powerapps"></a>PowerApps의 Choices 함수
 조회 열에 대해 가능한 값의 테이블을 반환합니다.
@@ -38,7 +38,7 @@ ms.locfileid: "42832799"
 
 열 참조는 데이터 원본에 직접 전송되어야 합니다. 예를 들어 데이터 원본이 **Accounts**이고 조회가 **SLA**인 경우 열 참조는 **Accounts.SLA**입니다. 참조는 함수, 변수 또는 컨트롤을 통해 전달할 수 없습니다. 이 예제에서는 앞으로 **계정**이 **갤러리** 컨트롤에 공급되는 경우 **Gallery.Selected.SLA** 수식을 사용하여 선택한 계정의 SLA를 참조합니다. 그러나 이 참조는 컨트롤을 통해 전달했으므로 **Columns** 함수에 전달될 수 없습니다. **Accounts.SLA**를 반드시 사용해야 합니다.
 
-이 경우에 SharePoint 및 앱용 Common Data Service에서만 조회 열을 사용할 수 있습니다.
+이 경우 SharePoint 및 Common Data Service에만 조회 열을 사용할 수 있습니다.
 
 ## <a name="syntax"></a>구문
 **Choices**(*column-reference*)
@@ -49,11 +49,11 @@ ms.locfileid: "42832799"
 
 #### <a name="choices-for-a-lookup"></a>조회에 대한 Choices
 
-1. 앱용 Common Data Service에서 [데이터베이스를 만들고](../../../administrator/create-database.md) **샘플 앱 및 데이터 포함** 상자를 선택합니다.
+1. [데이터베이스를 만듭니다](../../../administrator/create-database.md) Common Data Service에 선택 합니다 **샘플 앱 및 데이터를 포함** 상자입니다.
 
     **계정**과 같은 여러 엔터티가 생성됩니다.
 
-    **참고**: 엔터티 이름은 web.powerapps.com에서 단수이고 PowerApps Studio에서 복수입니다.
+    **참고**: 엔터티 이름은 web.powerapps.com에서 단 수 및 복수 PowerApps Studio 수행 합니다.
 
     ![앱의 Commmon Data Service에서 계정 엔터티의 부분 필드 목록은 "기본 연락처"가 조회 필드임을 강조 표시합니다.](media/function-choices/entity-account.png)
 

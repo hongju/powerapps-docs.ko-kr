@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 6e77ddfcc572a776e80ab90d3907aaa7b67f01ea
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.openlocfilehash: 2864ab5614bb3af415e24e23df3c52f6e668ab24
+ms.sourcegitcommit: 5b2b70c3fc7bcba5647d505a79276bbaad31c610
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42864775"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58357141"
 ---
 # <a name="tutorial-customize-a-gallery-in-powerapps"></a>자습서: PowerApps에서 갤러리 사용자 지정
 
@@ -47,7 +47,7 @@ PowerApps에 등록하지 않은 경우 시작하기 전에 [체험판으로 등
 
 ## <a name="prerequisites"></a>필수 조건
 
-앱용 CDS(Common Data Service)의 [계정](data-platform-create-app.md) 엔터티에서 **앱을 생성**합니다.
+[앱 생성](data-platform-create-app.md) 에서 합니다 **계정** Common Data service 엔터티.
 
 ## <a name="open-the-generated-app"></a>생성된 앱 열기
 

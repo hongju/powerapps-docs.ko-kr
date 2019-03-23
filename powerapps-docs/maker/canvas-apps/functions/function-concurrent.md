@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: b3f95b5c8ddbca1925f89797e52b1b227c4b10e8
-ms.sourcegitcommit: ead27300a1b7371136edee1842829ed87ca77a72
+ms.openlocfilehash: e9c63d1814b72cae0c675be6b33773799cfb3b8f
+ms.sourcegitcommit: 5b2b70c3fc7bcba5647d505a79276bbaad31c610
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57892256"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58357095"
 ---
 # <a name="concurrent-function-in-powerapps"></a>PowerApps의 Concurrent 함수
 동시에 서로 여러 수식을 평가합니다.
@@ -47,7 +47,7 @@ ms.locfileid: "57892256"
 
 #### <a name="loading-data-faster"></a>신속하게 데이터 로드
 
-1. 앱을 만들고, 앱용 Common Data Service, SQL Server 또는 SharePoint에서 4개의 데이터 원본을 추가합니다. 
+1. 앱을 만들고 Common Data Service, SQL Server 또는 SharePoint에서 4 개의 데이터 원본을 추가 합니다. 
 
     이 예제에서는 [SQL Azure의 샘플 Adventure Works 데이터베이스](https://docs.microsoft.com/azure/sql-database/sql-database-get-started-portal)에서 네 개의 테이블을 사용합니다. 데이터베이스를 만든 후에 정규화된 서버 이름(예: srvname.database.windows.net)을 사용하여 PowerApps에서 연결합니다.
 

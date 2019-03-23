@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 02aaaf7fd149ca0d9f3e1325b98e5287c90bebec
-ms.sourcegitcommit: 02d0234bd84352bf1c43d0fc9225ab60947a0add
-ms.translationtype: HT
+ms.openlocfilehash: 735894f8e28d25777aa7f66146f5782da2ab2f3e
+ms.sourcegitcommit: 5b2b70c3fc7bcba5647d505a79276bbaad31c610
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49317002"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58356796"
 ---
 # <a name="sign-in-to-powerapps-for-the-first-time"></a>PowerApps에 처음으로 로그인
 
@@ -42,7 +42,7 @@ ms.locfileid: "49317002"
 
 ## <a name="choose-an-environment"></a>환경 선택
 
-앱용 Common Data Service에서 앱, 흐름, 데이터 연결 또는 엔터티 중 어느 것을 만들든 간에, PowerApps에서 수행하는 작업의 대부분은 특정 환경에 포함되어 있습니다. 환경에서는 다양한 유형의 작업 간에 경계를 만듭니다. 예를 들어, 조직은 부서마다 별도의 환경이 있을 수 있습니다. 많은 조직에서 환경을 사용하여 광범위하게 사용할 준비가 된 앱에서 아직 개발 중인 앱을 분리합니다. 여러 환경 또는 하나의 환경에만 액세스할 수 있으며 적절한 사용 권한이 있는 경우 고유한 환경을 만들 수 있습니다.
+만드는 경우 앱, 흐름, 데이터 연결 또는 엔터티의 공통 데이터 서비스를 PowerApps에서 수행할 작업의 대부분 특정 환경에 포함 됩니다. 환경에서는 다양한 유형의 작업 간에 경계를 만듭니다. 예를 들어, 조직은 부서마다 별도의 환경이 있을 수 있습니다. 많은 조직에서 환경을 사용하여 광범위하게 사용할 준비가 된 앱에서 아직 개발 중인 앱을 분리합니다. 여러 환경 또는 하나의 환경에만 액세스할 수 있으며 적절한 사용 권한이 있는 경우 고유한 환경을 만들 수 있습니다.
 
 어떤 환경에 속해 있는지 확인하려면 헤더의 오른쪽 근처에 있는 환경 전환기를 찾습니다.
 
@@ -60,9 +60,9 @@ ms.locfileid: "49317002"
 PowerApps에서 다음 유형의 앱을 만들고 실행할 수 있습니다.
 
 - **캔버스 앱**은 사용자 지정 UI를 디자인하고 다양한 소스의 데이터에 연결할 수 있도록 지원합니다.
-- **모델 기반 앱**은 표준 UI가 있으며 앱용 CDS(Common Data Service)에서만 데이터에 연결합니다. 그러나 보기, 대시보드 및 다양한 유형의 비즈니스 논리와 같은 다른 요소를 더 쉽게 만들 수 있습니다.
+- **모델 기반 앱** 표준 ui 및 Common Data Service에만 데이터에 연결 합니다. 그러나 보기, 대시보드 및 다양한 유형의 비즈니스 논리와 같은 다른 요소를 더 쉽게 만들 수 있습니다.
 
-앱 데이터베이스용 CDS가 있는 환경을 선택하는 경우 동일한 **홈** 페이지에서 캔버스 또는 모델 기반 앱을 빌드할 수 있습니다.
+Common Data Service 데이터베이스가 있는 environment를 선택 하면 캔버스 또는 모델 기반 앱과 동일한 빌드할 수 있습니다 **홈** 페이지입니다.
 
 ## <a name="play-or-edit-an-app"></a>앱 재생 또는 편집
 
@@ -120,6 +120,6 @@ PowerApps에서 다음 유형의 앱을 만들고 실행할 수 있습니다.
 
 다음 작업을 수행하여 앱의 기능을 확장합니다.
 
-- [앱용 Common Data Service](../common-data-service/data-platform-intro.md)에서 엔터티, 옵션 집합 및 데이터 통합을 관리합니다.
+- 엔터티, 옵션 집합 및 데이터 통합 관리 [Common Data Service](../common-data-service/data-platform-intro.md)합니다.
 - [Microsoft Flow](https://docs.microsoft.com/flow/getting-started)에서 비즈니스 논리를 구성합니다.
 - [솔루션](../../developer/common-data-service/introduction-solutions.md) 작성, 패키지 및 유지 관리합니다.

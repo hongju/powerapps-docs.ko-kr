@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: c50b2452829f0878c40ccf5f2e47010596bc0b7b
-ms.sourcegitcommit: eef2d6d9a9c7f5c8a44b9734817f59dc0eac3ecf
+ms.openlocfilehash: 4b2c6b9518e987ef17f2ff2b50987568c8a0b69f
+ms.sourcegitcommit: 5b2b70c3fc7bcba5647d505a79276bbaad31c610
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "57801598"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58356773"
 ---
 # <a name="relate-and-unrelate-functions-in-powerapps"></a>PowerApps에서 함수의 연결을 해제와 관련 된
 
@@ -26,7 +26,7 @@ ms.locfileid: "57801598"
 
 ## <a name="description"></a>설명
 
-합니다 **관련** 함수에 일 대 다 또는 다 대 다 관계에서 공통 데이터 서비스 () 앱 용 CDS를 통해 두 개의 레코드를 연결 합니다. 합니다 **Unrelate** 함수는 프로세스를 반대로 하 고 링크를 제거 합니다.
+합니다 **관련** 함수에서 Common Data Service에 일 대 다 또는 다 대 다 관계를 통해 두 개의 레코드를 연결 합니다. 합니다 **Unrelate** 함수는 프로세스를 반대로 하 고 링크를 제거 합니다.
 
 1 대 다 관계에 대 한 많은 엔터티에 외래 키 필드 한 엔터티의 레코드를 가리키는 **관련** 한 엔터티의 특정 레코드를 가리키도록이 필드를 설정 하는 동안 **Unrelate** 이 필드를 설정 *빈*합니다. 필드가 이미 설정 되어 있으면 시기 **관련** 는 호출 기존 링크가 새 링크를 위해 손실 됩니다. 합니다. 사용 하 여이 필드를 설정할 수도 있습니다는 [ **패치** ](function-patch.md) 함수 또는 **[편집 양식](../controls/control-form-detail.md)** ; 사용 하지 않고는 **관련**  함수입니다.
 

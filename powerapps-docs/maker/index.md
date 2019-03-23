@@ -8,14 +8,9 @@ ms.topic: conceptual
 ms.custom: canvas
 ms.date: 03/18/2018
 ms.author: anneta
-ms.reviewer: ''
-ms.openlocfilehash: c3e40df2d2ecc13e2c466aa91178ccb5d23548fe
-ms.sourcegitcommit: 2300de0a0486187762f830068c872116d5b04c32
-ms.translationtype: HT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49806091"
+ms.reviewer: null
 ---
+
 # <a name="overview-of-creating-apps-in-powerapps"></a>PowerApps에서 앱 만들기 개요
 
 PowerApps는 생산성이 높은 비즈니스 앱 개발 플랫폼이며 세 가지 주요 구성 요소가 있습니다.
@@ -57,7 +52,7 @@ PowerApps는 생산성이 높은 비즈니스 앱 개발 플랫폼이며 세 가
 - [보안 추가](https://docs.microsoft.com/dynamics365/customer-engagement/customize/manage-access-apps-security-roles)
 - [비즈니스 논리 추가](https://docs.microsoft.com/dynamics365/customer-engagement/customize/guide-staff-through-common-tasks-processes)
 
-## <a name="common-data-service-for-apps"></a>앱용 Common Data Service
+## <a name="common-data-service"></a>일반 데이터 서비스
 
 Common Data Service를 통해 표준 및 사용자 지정 엔터티 집합 내에서 데이터를 안전하게 저장하고 관리할 수 있으며, 필요할 때 해당 엔터티에 필드를 추가할 수 있습니다.
 

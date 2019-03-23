@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 09e139353e500ad27650628a844bc01264eab3d0
-ms.sourcegitcommit: ba5542ff1c815299baa16304c6e0b5fed936e776
+ms.openlocfilehash: 2283f77f7e1c09ceade63f96003fefabc5e92539
+ms.sourcegitcommit: 5b2b70c3fc7bcba5647d505a79276bbaad31c610
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54308389"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58357647"
 ---
 # <a name="drop-down-control-in-powerapps"></a>PowerApps의 드롭다운 컨트롤
 사용자가 열지 않는 한 첫 번째 항목만 표시하는 목록입니다.
@@ -133,7 +133,7 @@ ms.locfileid: "54308389"
 1. Alt 키를 누른 채로 컨트롤의 아래쪽 화살표를 선택하여 목록에 항목을 표시합니다.
 
 ### <a name="list-from-a-data-source"></a>데이터 원본에서 나열
-이 절차의 원칙은 [테이블을 제공하는 모든 데이터 원본](../connections-list.md#tables)에 적용되지만 이러한 단계를 정확히 따르려면 앱용 Common Data Service 데이터베이스가 만들어지고 샘플 데이터가 추가된 환경을 열어야 합니다.
+이 절차에서는 원칙 적용 [테이블을 제공 하는 데이터 원본](../connections-list.md#tables) 하지만 이러한 단계를 정확 하 게 수행 하려면 Common Data Service 데이터베이스를 추가 하는 생성 되 고 샘플 데이터는 왔습니다 environment 열어야 합니다.
 
 1. [빈 앱을 연](../data-platform-create-app-scratch.md#open-a-blank-app) 다음, [**계정** 엔터티를 지정](../data-platform-create-app-scratch.md#specify-an-entity)합니다.
 

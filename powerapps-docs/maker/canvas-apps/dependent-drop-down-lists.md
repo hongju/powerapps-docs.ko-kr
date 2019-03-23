@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: db511edd7e64f4d8ccd27cb59cae9a2c369e1a90
-ms.sourcegitcommit: a06e3137e3cb36414f0d61825bbc687487ea6f8c
+ms.openlocfilehash: e00c81f25de9a764e8f6d963ff94f3c0ffe052a2
+ms.sourcegitcommit: 5b2b70c3fc7bcba5647d505a79276bbaad31c610
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "57804243"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58357256"
 ---
 # <a name="create-dependent-drop-down-lists-in-a-canvas-app"></a>캔버스 앱에서 종속 드롭 다운 목록 만들기
 
@@ -206,6 +206,6 @@ Alt 키를 누른 채로 위치 목록을 열고, 하는 동안에 하나를 선
 
 ## <a name="known-limitations"></a>알려진 제한 사항
 
-이 구성은에서 사용할 수 있습니다 **드롭다운** 컨트롤 뿐만 **콤보 상자** 하 고 **목록 상자** 한 번에 하나의 선택 영역을 사용할 수 있는 컨트롤입니다. 사용할 수 없습니다는 **종속** 다중 선택을 허용 된다면 이러한 컨트롤 중 하나에 대 한 구성 합니다. 이 이렇게 공통 Data Service for Apps 옵션 집합을 사용 하 여 작업에 권장 되지 않습니다.
+이 구성은에서 사용할 수 있습니다 **드롭다운** 컨트롤 뿐만 **콤보 상자** 하 고 **목록 상자** 한 번에 하나의 선택 영역을 사용할 수 있는 컨트롤입니다. 사용할 수 없습니다는 **종속** 다중 선택을 허용 된다면 이러한 컨트롤 중 하나에 대 한 구성 합니다. 옵션 집합을 사용 하 여 공통 데이터 서비스 작업에 대 한이 방법은 권장 되지 않습니다.
 
 합니다 **종속** 정적 데이터 또는 컬렉션 구성을 지원 하지 않습니다. 종속 드롭 다운 목록에서 이러한 소스를 구성 하려면 수식 입력줄에 직접 식을 편집 합니다. 또한 PowerApps는 데이터의 일치 하는 모든 테이블이 없는 SharePoint의 두 선택 필드를 사용 하 여 지원 하지 않습니다 하 고 정의할 수 없습니다 **일치 필드** 이 UI 내에서.

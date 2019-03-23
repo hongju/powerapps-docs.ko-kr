@@ -13,18 +13,18 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: f6adc46eafda2f5bd9798c13b292a82d567e34a7
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.openlocfilehash: 4f303cdfba474448321d230bb61b698e8f959e5f
+ms.sourcegitcommit: 5b2b70c3fc7bcba5647d505a79276bbaad31c610
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42831339"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58357417"
 ---
 # <a name="share-canvas-app-resources-in-powerapps"></a>PowerApps의 캔버스 앱 리소스 공유
 
 [캔버스 앱을 공유](share-app.md)하기 전에 다음 중 한 개 이상과 같이 주로 사용하려는 리소스 유형을 고려합니다.
 
-* 앱용 Common Data Service의 엔터티
+* Common Data Service에서 엔터티
 
     사용자에게 이 데이터에 대한 액세스 권한을 부여하는 방법에 대한 정보는 [엔터티 권한 관리](share-app.md#manage-entity-permissions)를 참조하세요.
     

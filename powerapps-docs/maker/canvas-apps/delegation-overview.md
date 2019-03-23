@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 813dddc205eb5abb870d333635723fcd5e2f2738
-ms.sourcegitcommit: 6d1ec3d5afa0466d1a5ce4434e588686a195d0fa
+ms.openlocfilehash: e709c600e02d0acf26883da76ead163c62411802
+ms.sourcegitcommit: 5b2b70c3fc7bcba5647d505a79276bbaad31c610
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "57802541"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58357624"
 ---
 # <a name="understand-delegation-in-a-canvas-app"></a>캔버스 앱에서 위임 이해
 PowerApps에는 강력한 필터링, 정렬 및 캔버스 앱에서 데이터의 테이블을 셰이핑 함수 집합이 포함 됩니다. **[필터](functions/function-filter-lookup.md)** 를  **[정렬](functions/function-sort.md)**, 및 **[AddColumns](functions/function-table-shaping.md)** 몇 이름을 지정 하는 함수입니다. 이러한 함수를 사용하여 사용자에게 필요한 정보에 대한 집중된 액세스 권한을 제공할 수 있습니다. 데이터베이스 배경 지식이 있는 사람들에게 이러한 함수를 사용하는 것은 데이터베이스 쿼리를 작성하는 것과 같습니다.
@@ -37,7 +37,7 @@ PowerApps에는 강력한 필터링, 정렬 및 캔버스 앱에서 데이터의
 ## <a name="delegable-data-sources"></a>위임 가능한 데이터 원본
 위임 특정 테이블 형식 데이터 원본에만 지원 됩니다. 데이터 원본에는 위임을 지 원하는 경우 해당 [커넥터 설명서](https://docs.microsoft.com/connectors/) 지에 간략하게 설명 합니다. 예를 들어, 가장 널리 사용 되는 이러한 테이블 형식 데이터 원본 및 위임을 지:
 
-- [앱 용 common Data Service (CD)](https://docs.microsoft.com/connectors/commondataservice/) 
+- [Common Data Service](https://docs.microsoft.com/connectors/commondataservice/) 
 - [SharePoint](https://docs.microsoft.com/connectors/sharepointonline/) 
 - [SQL Server](https://docs.microsoft.com/connectors/sql/) 
 
@@ -131,7 +131,7 @@ Excel 통합 문서를 가져올 (사용 하는 **앱에 정적 데이터 추가
 위임 경고는 위임 가능한 데이터 원본에서 작동하는 수식에만 표시됩니다. 경고가 표시되지 않고 수식이 제대로 위임되지 않은 경우 이 항목의 앞에서 [위임 가능한 데이터 원본](delegation-overview.md#delegable-data-sources) 목록과 비교하여 데이터 원본 형식을 확인하세요.
 
 ## <a name="examples"></a>예
-예를 들어 **[dbo].[Fruit]** 라는 SQL Server 테이블을 기반으로 하는 세 개의 화면 앱을 자동으로 생성합니다. 앱을 생성하는 방법에 대한 자세한 내용의 경우 [앱용 Common Data Service에 대한 항목](data-platform-create-app.md)에서 비슷한 원칙을 SQL Server에 적용할 수 있습니다.
+예를 들어 **[dbo].[Fruit]** 라는 SQL Server 테이블을 기반으로 하는 세 개의 화면 앱을 자동으로 생성합니다. 앱을 생성 하는 방법에 대 한 내용은 비슷한 원칙에 적용할 수 있습니다 합니다 [Common Data Service에 대 한 항목](data-platform-create-app.md) SQL server입니다.
 
 ![3개 화면 앱](./media/delegation-overview/products-afd.png)
 

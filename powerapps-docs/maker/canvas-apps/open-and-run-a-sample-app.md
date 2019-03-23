@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 09d2bc10d465510887b546df8341c8798df136c1
-ms.sourcegitcommit: 02d0234bd84352bf1c43d0fc9225ab60947a0add
-ms.translationtype: HT
+ms.openlocfilehash: 1adf38b59b01bb08bc89c6101a96247b8bce8092
+ms.sourcegitcommit: 5b2b70c3fc7bcba5647d505a79276bbaad31c610
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49316820"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58357463"
 ---
 # <a name="quickstart-create-a-canvas-app-from-a-sample-in-powerapps"></a>빠른 시작: PowerApps의 샘플에서 캔버스 앱 만들기
 이 빠른 시작에서 디자인 가능성을 알아보고 사용자 고유의 캔버스 앱을 개발할 때 적용할 수 있는 개념을 검색할 수 있도록 샘플에서 캔버스 앱을 만듭니다.
@@ -64,7 +64,7 @@ PowerApps에 대한 라이선스가 없으면 [무료로 등록](../signup-for-p
 1. 왼쪽 가장자리 근처에서 **저장**을 클릭하거나 탭합니다. 
 
 ## <a name="next-steps"></a>다음 단계
-이 빠른 시작에서는 클라우드 계정에 저장된 가상 데이터를 사용하는 샘플을 기반으로 사용자 고유의 앱을 만들었습니다. 앱을 만드는 방법을 자세히 알아보려면 앱, SharePoint 또는 Excel에 대한 Common Data Service와 같은 다른 원본의 데이터를 기반으로 하는 앱을 자동으로 생성할 수도 있습니다.
+이 빠른 시작에서는 클라우드 계정에 저장된 가상 데이터를 사용하는 샘플을 기반으로 사용자 고유의 앱을 만들었습니다. 앱을 만드는 방법을 학습 하는 자세한 도움말에 대 한 Common Data Service, SharePoint 또는 Excel 같은 다른 원본의 데이터를 기반으로 하는 앱을 자동으로 생성할 수 있습니다.
 
 > [!div class="nextstepaction"]
 > [앱 생성](data-platform-create-app.md)

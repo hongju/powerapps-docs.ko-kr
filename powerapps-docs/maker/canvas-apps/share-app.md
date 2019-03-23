@@ -13,19 +13,19 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 57a63ddf829e2a6c1062cad34e0f3c608d69afad
-ms.sourcegitcommit: a06e3137e3cb36414f0d61825bbc687487ea6f8c
+ms.openlocfilehash: 34cf740bb029440480618a180ac45bc094c061d5
+ms.sourcegitcommit: 5b2b70c3fc7bcba5647d505a79276bbaad31c610
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "57804220"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58357279"
 ---
 # <a name="share-a-canvas-app-in-powerapps"></a>PowerApps에서 캔버스 앱 공유
 
 비즈니스 요구를 해결하는 캔버스 앱을 빌드한 후에 조직의 어떤 사용자가 앱을 실행하고 수정하며 심지어 다시 공유할 수 있는지 지정합니다. 이름으로 각 사용자를 지정하거나, Azure Active Directory의 보안 그룹을 지정합니다. 모든 사용자가 앱의 이점을 누리는 경우 조직 전체가 실행할 수 있도록 지정합니다.
 
 > [!IMPORTANT]
-> 공유 앱이 예상대로 작동하려면 앱이 기반한 데이터 원본(예: [앱용 Common Data Service](#common-data-service-for-apps) 또는 [Excel](share-app-data.md))에 대한 사용 권한도 관리해야 합니다. 또한, 앱이 종속된 [기타 리소스](share-app-resources.md)(예: 흐름, 게이트웨이 또는 연결)도 공유해야 합니다.
+> 공유 앱이 예상 대로 작동에 관리 해야 데이터 원본 또는 앱을 기준으로 하는와 같은 원본에 대 한 권한을 [Common Data Service](#common-data-service) 하거나 [Excel](share-app-data.md)합니다. 또한, 앱이 종속된 [기타 리소스](share-app-resources.md)(예: 흐름, 게이트웨이 또는 연결)도 공유해야 합니다.
 
 ## <a name="prerequisites"></a>필수 조건
 
@@ -68,7 +68,7 @@ ms.locfileid: "57804220"
 
 1. 앱 사용자가 액세스 권한을 해야 하는 데이터에 연결 하는 경우를 지정 합니다.
 
-    예를 들어, 앱을 앱 용 CDS 데이터베이스의에서 엔터티에 연결할 수 있습니다. 이러한 앱을 공유 하는 경우 공유 패널 해당 엔터티에 대 한 보안을 관리 하 라는 메시지를 표시 합니다.
+    예를 들어, 앱은 Common Data Service 데이터베이스의 엔터티에 연결할 수 있습니다. 이러한 앱을 공유 하는 경우 공유 패널 해당 엔터티에 대 한 보안을 관리 하 라는 메시지를 표시 합니다.
 
     ![사용 권한 설정](./media/share-app/set-permissions.png)
 
@@ -99,16 +99,16 @@ ms.locfileid: "57804220"
 
 ## <a name="manage-entity-permissions"></a>엔터티 사용 권한 관리
 
-### <a name="common-data-service-for-apps"></a>앱용 Common Data Service
+### <a name="common-data-service"></a>Common Data Service
 
-앱 용 CDS에 따라 앱을 만드는 경우 사용자가 앱을 공유 하는 엔터티 또는 엔터티는 앱 사용에 대 한 적절 한 권한이 있는지 확인 해야 합니다. 특히, 해당 사용자는 관련 레코드를 삭제 하 고 만들기, 읽기, 쓰기 등의 작업을 수행할 수 있는 보안 역할에 속해야 합니다. 대부분의 경우 사용자가 앱을 실행 해야 하는 정확 하 게 사용 권한이 있는 하나 이상의 사용자 지정 보안 역할을 만들려고 합니다. 그런 다음 적절 하 게 각 사용자에 게 역할을 할당할 수 있습니다.
+Common Data Service에 따라 앱을 만드는 경우 사용자가 앱을 공유 하는 엔터티 또는 엔터티는 앱 사용에 대 한 적절 한 권한이 있는지 확인 해야 합니다. 특히, 해당 사용자는 관련 레코드를 삭제 하 고 만들기, 읽기, 쓰기 등의 작업을 수행할 수 있는 보안 역할에 속해야 합니다. 대부분의 경우 사용자가 앱을 실행 해야 하는 정확 하 게 사용 권한이 있는 하나 이상의 사용자 지정 보안 역할을 만들려고 합니다. 그런 다음 적절 하 게 각 사용자에 게 역할을 할당할 수 있습니다.
 
 > [!NOTE]
 > 이 문서의 작성 시점 현재 보안 그룹이 아니라 개별 사용자에 게 보안 역할을 할당할 수 있습니다.
 
 #### <a name="prerequisite"></a>필수 조건
 
-다음 두 절차를 수행하려면 앱용 CDS 데이터베이스에 대한 **시스템 관리자** 권한이 있어야 합니다.
+다음 두 절차를 수행 하려면 있어야 **시스템 관리자에 게** Common Data Service 데이터베이스에 대 한 권한.
 
 #### <a name="create-a-security-role"></a>보안 역할 만들기
 
