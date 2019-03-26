@@ -1,7 +1,7 @@
 ---
 title: 조직의 브랜드와 일치하도록 색 구성표를 변경하거나 로고를 추가  | MicrosoftDocs
 ms.custom: ''
-ms.date: 06/18/2018
+ms.date: 02/19/2019
 ms.reviewer: ''
 ms.service: crm-online
 ms.suite: ''
@@ -50,7 +50,7 @@ search.app:
   
 -   링크 가리키기 효과  
   
--   프로세스 컨트롤 색  
+-   레거시 테마 색(프로세스 컨트롤에 사용할 기본 배경)  
   
 -   기본 엔터티 색  
   

@@ -1,8 +1,8 @@
 ---
-title: PowerApps를 사용하여 목록 보기에서 값 대신 사용자 지정 아이콘 표시 | MicrosoftDocs
+title: PowerApps를 사용하여 목록 보기에서 값과 함께 사용자 지정 아이콘 표시 | MicrosoftDocs
 description: 보기에 사용자 지정 아이콘 그래픽을 표시하는 방법 알아보기
 ms.custom: ''
-ms.date: 06/21/2018
+ms.date: 02/14/2019
 ms.reviewer: ''
 ms.service: crm-online
 ms.suite: ''
@@ -23,11 +23,14 @@ search.app:
   - PowerApps
   - D365CE
 ---
-# <a name="display-custom-icons-instead-of-values-in-list-views"></a>목록 보기에서 값 대신 사용자 지정 아이콘 표시
+# <a name="display-custom-icons-alongside-values-in-list-views"></a>목록 보기에서 값과 함께 사용자 지정 아이콘 표시
 
 <a name="GridIcons"></a>   
 
- PowerApps 환경 관리자 및 사용자는 보기에 그래픽을 추가하고 JavaScript를 사용하여 열 값을 기반으로 그래픽을 선택하는 데 사용되는 논리를 설정할 수 있습니다. 관계 인사이트에서는 일부 열에 텍스트 또는 숫자 값이 아닌 아이콘을 표시하는 목록 보기를 표시하는 기능이 도입되었습니다. 
+ PowerApps 환경 관리자 및 사용자는 보기에 그래픽을 추가하고 JavaScript를 사용하여 열 값을 기반으로 그래픽을 선택하는 데 사용되는 논리를 설정할 수 있습니다. 이 기능을 사용하면 텍스트 또는 숫자 값과 함께 아이콘을 표시하는 목록 보기를 사용자 지정할 수 있습니다. 
+
+> [!div class="mx-imgBorder"] 
+> ![](media/icon-in-opportunity-view.png "아이콘 및 텍스트 값을 표시하는 등급 열이 있는 모든 영업 기회 보기")
   
 > [!NOTE]
 >  표 아이콘은 웹 인터페이스에만 표시됩니다. [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] 또는 모바일 앱에서는 표시되지 않습니다.  
@@ -38,7 +41,7 @@ search.app:
   
 2.  해당 값을 표시하는 아이콘을 설정하는 하나 또는 그 이상의 JavaScript 함수를 작성합니다.(일반적으로 사용자 지정하려는 각 열에 대해 하나의 함수가 필요합니다.) 각 함수는 이미지 이름 및 도구 설명 텍스트를 포함하는 배열을 반환하는 행 데이터 개체와 언어(LCID) 코드 입력을 허용해야 합니다. 함수 예제는 이 항목의 뒷부분에 나오는 [샘플 JavaScript 함수](#SampleJavascript)를 참조 하십시오.  
   
-3.  관리자로 환경에 로그인하고 [솔루션 탐색기](../model-driven-apps/advanced-navigation.md#solution-explorer)를 엽니다.  
+3.  관리자로 환경에 로그인하고 솔루션 탐색기를 엽니다.  
   
 4.  **기본 솔루션** 팝업 창이 열립니다. 여기에서 **구성 요소** > **웹 리소스**로 이동합니다..  
   
@@ -91,12 +94,15 @@ search.app:
 <a name="SampleJavascript"></a>   
 
 ### <a name="sample-javascript-function"></a>JavaScript 함수 예제  
- 사용자 지정 아이콘 및 도구 설명을 표시하기 위한 JavaScript 함수는 layoutxml에서 지정된 전체 행 개체 및 사용자의 로캘 ID(LCID) 호출의 두 개의 인수를 필요로 합니다. LCID 매개 변수를 사용하면 여러 언어의 도구 설명 텍스트를 지정할 수 있습니다. 환경에서 지원되는 언어에 대한 자세한 내용은 [언어 활성화](https://docs.microsoft.com/dynamics365/customer-engagement/admin/enable-languages) 및 [Dynamics 365용 언어 팩 설치 또는 업그레이드](https://technet.microsoft.com/library/hh699674.aspx)를 참조하십시오. 코드에서 사용할 수 있는 로캘 ID(LCID) 값 목록은 [Microsoft에서 할당한 로캘 ID](https://go.microsoft.com/fwlink/?linkid=829588)를 참조하십시오.
+ 사용자 지정 아이콘 및 도구 설명을 표시하기 위한 JavaScript 함수는 layoutxml에서 지정된 전체 행 개체 및 사용자의 로캘 ID(LCID) 호출의 두 개의 인수를 필요로 합니다. LCID 매개 변수를 사용하면 여러 언어의 도구 설명 텍스트를 지정할 수 있습니다. 환경에서 지원되는 언어에 대한 자세한 내용은 [언어 활성화](/dynamics365/customer-engagement/admin/enable-languages) 및 [Dynamics 365 for Customer Engagement용 언어 팩 설치 또는 업그레이드](/dynamics365/customer-engagement/on-premises/install-or-upgrade-language-packs)를 참조하십시오. 코드에서 사용할 수 있는 로캘 ID(LCID) 값 목록은 [Microsoft에서 할당한 로캘 ID](https://go.microsoft.com/fwlink/?linkid=829588)를 참조하십시오.
 
   
  제한적인 미리 정의된 옵션을 가진 속성의 옵션 집합 유형에 대한 사용자 지정 아이콘을 추가하는 경우 지역화 문제를 방지하려면 레이블 대신 옵션의 정수 값을 사용해야 합니다.  
   
  다음 샘플 코드는 opportunityratingcode(등급) 특성의 다음 세 값(1: 관심 높음, 2: 관심 있음, 3: 관심 낮음) 중 하나를 기준으로 아이콘 및 도구 설명을 표시합니다. 샘플 코드에서 지역화된 도구 설명 텍스트를 표시하는 방법도 보여줍니다. 이 샘플에서 작업하려면 new_Hot, new_Warm 및 new_Cold과 같은 이름의 16x16 이미지를 사용하여 세 개의 이미지 웹 리소스를 만들어야 합니다.  
+
+> [!IMPORTANT]
+> 이 샘플에는 Dynamics 365 for Customer Engagement 앱에서 사용할 수 있는 영업 기회 엔터티가 필요합니다.
   
 ```  
 function displayIconTooltip(rowData, userLCID) {      
@@ -148,9 +154,9 @@ function displayIconTooltip(rowData, userLCID) {
 }  
 ```  
   
- 그 결과 각 행의 값에 종속된 **등급** 열에 도구 설명 아이콘이 표시됩니다. 결과는 다음과 같습니다.  
+ <!-- This results in displaying icons with tooltips in the **Rating** column that depend on the value in each row. The result could look like this:  
   
- ![사용자 지정 열 그래픽 예제](media/custom-column-graphics-example.png "사용자 지정 열 그래픽 예제")  
+ ![Custom column graphics example](../customize/media/custom-column-graphics-example.png "Custom column graphics example")  -->
  
  ### <a name="see-also"></a>참조
- [보기 만들기 또는 편집](../model-driven-apps/create-edit-views.md)
+[모델 기반 앱 보기 이해](../model-driven-apps/create-edit-views.md)

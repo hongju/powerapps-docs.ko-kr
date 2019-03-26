@@ -92,7 +92,7 @@ search.app:
 |CC_Timeline_URL|각 일정 항목의 URL 표시에 대해 매핑할 URL 필드.|  
 |CC_Timeline_URL_Desc|URL 필드 설명.|  
 |CC_Timeline_ThumbnailURL|각 항목에 표시할 이미지/아이콘의 축소판에 대해 매핑할 필드.|  
-|CC_Timeline_ThumnailURL_Desc|`ThumbnailURL` 필드 설명.|  
+|CC_Timeline_ThumbnailURL_Desc|`ThumbnailURL` 필드 설명.|  
 |CC_Timeline_Filter|일정 필터에 대해 매핑할 필드.|  
 |CC_Timeline_Filter_Desc|필터 설명.|  
 |CC_Timeline_Footer|일정 바닥글로 표시할 웹 리소스.|  

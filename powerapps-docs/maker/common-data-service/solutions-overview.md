@@ -2,9 +2,9 @@
 title: PowerApps의 솔루션 사용 | MicrosoftDocs
 description: 솔루션 배포 방법 알아보기
 ms.custom: ''
-ms.date: 10/29/2018
+ms.date: 01/28/2019
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
@@ -23,18 +23,17 @@ search.app:
   - PowerApps
   - D365CE
 ---
-
-<a name="BKMK_Solutions"></a>   
+   
 # <a name="solutions-overview"></a>솔루션 개요  
 
   PowerApps에서 솔루션을 활용하여 한 환경에서 다른 환경의 앱 및 구성 요소를 전송하거나 기존 앱에 사용자 지정 집합을 적용합니다. 솔루션은 엔터티, 옵션 집합 등과 같은 다른 구성 요소 뿐만 아니라 하나 이상의 앱을 포함할 수 있습니다. [AppSource](https://appsource.microsoft.com/) 또는 독립 소프트웨어 공급업체(ISV)에서 솔루션을 가져올 수 있습니다.
   
-추가 정보: [백서: 솔루션 빌더를 위한 패턴 및 원칙](http://go.microsoft.com/fwlink/p/?LinkID=533946)  
+추가 정보: [백서: 솔루션 수명 주기 관리](https://www.microsoft.com/en-us/download/details.aspx?id=57777)  
   
 > [!NOTE]
 >  배포할 앱을 만드는 ISV일 경우 솔루션을 사용해야 합니다. 솔루션 사용에 대한 자세한 내용은 [솔루션을 사용하여 확장 패키징 및 배포](https://msdn.microsoft.com/library/gg334530.aspx)를 참조하십시오.  
   
- 조직에서 사용하거나 Dynamics 365을 사용자 지정하기 위한 PowerApps 앱을 만드는 데 관심이 있는 경우 솔루션에 대해 알아야 할 내용은 다음과 같습니다.  
+ 조직에서 사용하거나 Dynamics 365 for Customer Engagement 앱을 사용자 지정하기 위한 PowerApps 앱을 만드는 데 관심이 있는 경우 솔루션에 대해 알아야 할 내용은 다음과 같습니다.  
   
 -   솔루션 만들기는 선택 사항입니다. 솔루션을 만들지 않고 직접 PowerApps 환경에서 앱을 빌드하거나 사용자 지정할 수 있습니다.  
   

@@ -1,6 +1,6 @@
 ---
 title: PowerApps의 관련 엔터티에 대한 탐색에서 모델 기반 앱 추가 | MicrosoftDocs
-descriptoin: Learn how to add form navigation for related entities
+description: 관련 엔터티의 양식 탐색을 추가하는 방법 알아보기
 ms.custom: ''
 ms.date: 06/18/2018
 ms.reviewer: ''

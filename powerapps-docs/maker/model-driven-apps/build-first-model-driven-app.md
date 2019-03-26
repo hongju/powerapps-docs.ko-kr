@@ -10,7 +10,7 @@ ms.service: powerapps
 ms.devlang: na
 ms.topic: conceptual
 ms.component: model
-ms.date: 10/15/2018
+ms.date: 02/05/2019
 ms.author: matp
 search.audienceType:
   - maker
@@ -35,15 +35,18 @@ search.app:
   > [!IMPORTANT]
   > **모델 기반** 디자인 모드를 사용할 수 없는 경우 [환경 만들기](https://docs.microsoft.com/powerapps/administrator/create-environment)를 해야 할 수 있습니다.   
 
-2. **홈** 페이지에서 모델 기반 앱의 **새 규칙으로 시작** 옵션을 선택합니다.
-![Start-from-blank_model](media/build-first-model-driven-app/start-from-blank-model-driven.png)
+2. **홈** 페이지에서 **새 모델 기반 앱**을 선택합니다.
+<!-- ![Start-from-blank_model](media/build-first-model-driven-app/start-from-blank-model-driven.png) -->
 
 3.  **새 앱 만들기** 페이지에서 다음 세부 정보를 입력하고 **완료**를 선택합니다. 
-  - **이름**: *Myfirstapp*과 같은 앱의 이름을 입력합니다. 
+  - **이름**: *내 첫 번째 앱*과 같은 앱의 이름을 입력합니다. 
+  - **고유 이름**: 기본적으로 고유 이름은 **이름** 상자에 지정하는 이름을 공백 없이 사용하고 게시자 접두사 및 밑줄(_)이 앞에 표시됩니다. 예를 들어, *crecf_Myfirstapp*. 추가 정보: [솔루션 게시자 접두사 변경](../common-data-service/change-solution-publisher-prefix.md)
   - **설명**: *앱이 내 첫 번째 앱*과 같은 응용 프로그램의 내용 또는 수행에 대한 간단한 설명을 입력합니다.
-추가 앱 속성에 대한 자세한 내용은 [앱 만들기](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-edit-app#create-an-app)를 참조하십시오.
- 
-    ![Create-new-app](media/build-first-model-driven-app/create-new-app.png)
+추가 앱 속성에 대한 자세한 내용은 [앱 만들기](create-edit-app.md#create-an-app)를 참조하십시오.
+
+    > [!div class="mx-imgBorder"] 
+    > ![](media/create-new-app.png "새 앱 만들기") 
+
 
 ## <a name="add-components-to-your-app"></a>앱에 구성 요소를 추가합니다.
 앱 디자이너에서 앱에 구성 요소를 추가합니다.

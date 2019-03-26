@@ -1,13 +1,13 @@
 ---
 title: PowerBI 보고서 만들기 | Microsoft Docs
 description: 응용 프로그램 커넥터에 대한 Common Data Service를 사용하여 Power BI Desktop에서 데이터에 연결합니다.
-author: clwesene
+author: lancedMicrosoft
 manager: kfile
 ms.service: powerapps
 ms.component: cds
 ms.topic: conceptual
 ms.date: 05/21/2018
-ms.author: clwesene
+ms.author: lanced
 search.audienceType:
   - maker
 search.app:
@@ -85,7 +85,7 @@ search.app:
 * ApprovalStatus - 이 옵션 집합의 각 항목에 대한 고유 정수 값을 표시합니다, 이것은 필터를 적용 할 때 도움이 되기 때문에 표시 이름을 나중에 변경할 경우 영향을 받지 않습니다.
 * ApprovalStatus_display - 이 항목의 친숙한 표시 이름을 표시하고 테이블 또는 차트에서 옵션을 표시할 때 가장 일반적으로 사용됩니다.
 
-    |ApproalStatus|ApprovalStatus_Display|
+    |ApprovalStatus|ApprovalStatus_Display|
     |---------|---------|
     1|제출됨
     2|검토 중
