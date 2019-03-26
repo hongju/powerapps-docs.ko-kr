@@ -1,6 +1,6 @@
 ---
-title: '개발자: 앱용 Common Data Service의 메타데이터 사용 시 모범 사례 및 지침 | Microsoft Docs'
-description: PowerApps의 앱용 Common Data Service의 개발자를 위한 메타데이터 사용 시 모범 사례 및 지침.
+title: '개발자: Common Data Service의 메타데이터 사용 시 모범 사례 및 지침 | Microsoft Docs'
+description: PowerApps의 Common Data Service 개발자를 위한 메타데이터 사용 시 모범 사례 및 지침입니다.
 services: ''
 suite: powerapps
 documentationcenter: na
@@ -16,20 +16,15 @@ ms.workload: na
 ms.date: 12/12/2018
 ms.author: jowells
 search.audienceType:
-- developer
+  - developer
 search.app:
-- PowerApps
-- D365CE
-ms.openlocfilehash: 938d3ea2337137b1c78a1f4849191a261ac7a30a
-ms.sourcegitcommit: 11486fb4c16095e3fef785126003cac3e3e06c0d
-ms.translationtype: HT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2019
-ms.locfileid: "54271447"
+  - PowerApps
+  - D365CE
 ---
-# <a name="best-practices-and-guidance-while-working-with-metadata-for-the-common-data-service-for-apps"></a>앱용 Common Data Service의 메타데이터 사용 시 모범 사례 및 지침
 
-이 목록 아래에는 앱용 Common Data Service 내에서 메타데이터와 상호 작용하고 사용하는 것과 관련된 모든 지침과 모범 사례가 포함되어 있습니다.
+# <a name="best-practices-and-guidance-while-working-with-metadata-for-the-common-data-service"></a>Common Data Service의 메타데이터 사용 시 모범 사례 및 지침
+
+이 목록 아래에는 Common Data Service 내에서 메타데이터를 조작하고 사용하는 것과 관련된 모든 지침과 모범 사례가 포함되어 있습니다.
 
 
 |모범 사례  |설명  |

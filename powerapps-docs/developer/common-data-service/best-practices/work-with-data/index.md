@@ -1,6 +1,6 @@
 ---
-title: '개발자: 앱용 Common Data Service의 데이터 작업에 대한 모범 사례 및 지침 | Microsoft Docs'
-description: PowerApps의 앱용 Common Data Service 개발자를 위한 데이터 작업에 대한 모범 사례 및 지침.
+title: '개발자: Common Data Service의 데이터 작업에 대한 모범 사례 및 지침 | Microsoft Docs'
+description: PowerApps의 Common Data Service 개발자를 위한 데이터 작업에 대한 모범 사례 및 지침입니다.
 services: ''
 suite: powerapps
 documentationcenter: na
@@ -16,24 +16,19 @@ ms.workload: na
 ms.date: 12/12/2018
 ms.author: jowells
 search.audienceType:
-- developer
+  - developer
 search.app:
-- PowerApps
-- D365CE
-ms.openlocfilehash: 9759317ec4a705fea36719c4d2695fdc71ce09e6
-ms.sourcegitcommit: 11486fb4c16095e3fef785126003cac3e3e06c0d
-ms.translationtype: HT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2019
-ms.locfileid: "54271479"
+  - PowerApps
+  - D365CE
 ---
-# <a name="best-practices-and-guidance-around-working-with-data-for-the-common-data-service-for-apps"></a>앱용 Common Data Service의 데이터 작업에 대한 모범 사례 및 지침
 
-이 목록 아래에는 앱용 Common Data Service와 코드를 사용하여 데이터를 통합하는 방법에 관한 모든 모범 사례와 지침이 포함되어 있습니다.
+# <a name="best-practices-and-guidance-around-working-with-data-for-the-common-data-service"></a>Common Data Service의 데이터 작업에 대한 모범 사례 및 지침
+
+이 목록 아래에는 Common Data Service와 코드를 사용하여 데이터를 통합하는 방법에 관한 모든 모범 사례와 지침이 포함되어 있습니다.
 
 |모범 사례  |설명  |
 |---------|---------|
-|[API 제한(앱용 Common Data Service)](../../api-limits.md)     |API 요청에 대한 제한을 이해합니다.         |
+|[API 제한(Common Data Service)](../../api-limits.md)     |API 요청에 대한 제한을 이해합니다.         |
 
 # <a name="see-also"></a>참고 항목
-[앱용 Common Data Service(PowerApps)의 코드를 사용하여 데이터 작업](../../work-with-data-cds.md)<br />
+[Common Data Service(PowerApps)의 코드를 사용하여 데이터 작업](../../work-with-data-cds.md)<br />

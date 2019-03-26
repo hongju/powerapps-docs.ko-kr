@@ -1,10 +1,10 @@
 items:
-- name: 앱용 Common Data Service
+- name: 일반 데이터 서비스
   href: ../../maker/common-data-service/data-platform-intro.md
 - name: 개발자 개요
   href: overview.md
 - name: 시작
-  href: get-started-CDS-developers.md
+  href: get-started-cds-developers.md
   items:
   - name: 지원되는 사용자 지정
     href: supported-customizations.md
@@ -174,7 +174,7 @@ items:
       href: register-web-hook.md
     - name: 웹후크 등록 테스트
       href: test-webhook-registration.md
-- name: 앱용 CDS 엔터티 사용
+- name: Common Data Service 엔터티 작업
   href: entities.md
   items:
   - name: 고객 엔터티
@@ -415,9 +415,9 @@ items:
     href: solution-component-file-reference-solutionpackager.md
   - name: FetchXML 스키마
     href: fetchxml-schema.md
-ms.openlocfilehash: 036e92f1578877cc9b7bdc90742cc5436bf5897e
-ms.sourcegitcommit: e64344548d607767e495a6b9526900bb5975226a
+ms.openlocfilehash: 3a162e476d0d3c9c4935d185b9e3942c86960edd
+ms.sourcegitcommit: 5b2b70c3fc7bcba5647d505a79276bbaad31c610
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58330197"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58357049"

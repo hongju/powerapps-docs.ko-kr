@@ -1,6 +1,6 @@
 ---
-title: '개발자: 앱용 Common Data Service에 대한 모범 사례 및 지침 | Microsoft Docs'
-description: PowerApps의 앱용 Common Data Service 개발자를 위한 모범 사례 및 지침.
+title: '개발자: Common Data Service에 대한 모범 사례 및 지침 | Microsoft Docs'
+description: PowerApps의 Common Data Service 개발자를 위한 모범 사례 및 지침입니다.
 services: ''
 suite: powerapps
 documentationcenter: na
@@ -16,20 +16,15 @@ ms.workload: na
 ms.date: 01/07/2019
 ms.author: jowells
 search.audienceType:
-- developer
+  - developer
 search.app:
-- PowerApps
-- D365CE
-ms.openlocfilehash: bf449f801e4e7617e7fe91d0884b3443559e71c6
-ms.sourcegitcommit: 11486fb4c16095e3fef785126003cac3e3e06c0d
-ms.translationtype: HT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2019
-ms.locfileid: "54271436"
+  - PowerApps
+  - D365CE
 ---
-# <a name="best-practices-and-guidance-for-the-common-data-service-for-apps"></a>앱용 Common Data Service에 대한 모범 사례 및 지침
 
-앱용 CDS(Common Data Service)는 개발자가 고도로 사용자 지정되고 맞춤화된 환경을 빌드할 수 있도록 확장 가능한 프레임워크입니다. 앱용 CDS(Common Data Service)를 사용자 지정, 확장 또는 통합하는 동안 개발자는 확립된 지침과 모범 사례를 알고 있어야 합니다. 
+# <a name="best-practices-and-guidance-for-the-common-data-service"></a>Common Data Service에 대한 모범 사례 및 지침
+
+Common Data Service는 개발자가 고도로 사용자 지정되고 맞춤화된 환경을 빌드할 수 있도록 확장 가능한 프레임워크입니다. Common Data Service를 사용자 지정, 확장 또는 통합하는 동안 개발자는 확립된 지침과 모범 사례를 알고 있어야 합니다. 
 
 이 섹션 내에서 식별한 문제와 그 영향에 대해 알아보고 해결하기 위한 지침을 이해합니다. 작업을 특정 방식으로 수행해야 하는 이유와 향후 잠재적인 문제를 방지하는 방법에 대한 백그라운드를 다루겠습니다. 이는 사용자 환경의 가용성, 지원성 및 성능에 도움이 될 수 있습니다. 지침 설명서는 개발자 및 관리 가이드 내의 기존 정보를 지원합니다.
 
@@ -37,8 +32,8 @@ ms.locfileid: "54271436"
 설명서는 다음 사용자 지정 형식을 대상으로 합니다.
 
 - 사용자 지정 워크플로 작업 및 플러그 인
-- CDS 데이터 사용
-- 앱용 Common Data Service를 확장하는 통합
+- Common Data Service 데이터 작업
+- Common Data Service를 확장하는 통합
 
 # <a name="sections"></a>섹션
 각 지침 문서에는 다음 섹션의 대부분 또는 전부가 포함됩니다.

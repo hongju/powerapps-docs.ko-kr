@@ -1,6 +1,6 @@
 ---
-title: 앱용 Common Data Service를 사용하여 캔버스 앱을 처음부터 만들기| Microsoft Docs
-description: PowerApps에서 캔버스 앱을 생성하여 앱용 Common Data Service에서 레코드를 추가, 업데이트 및 삭제합니다.
+title: Common Data Service를 사용하여 캔버스 앱을 처음부터 만들기 | Microsoft Docs
+description: PowerApps에서 캔버스 앱을 생성하여 Common Data Service에서 레코드를 추가, 업데이트 및 삭제합니다.
 author: AFTOwen
 manager: kvivek
 ms.service: powerapps
@@ -13,16 +13,16 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: dab8caea5679701735685a5c4383c77cd7ed44f6
-ms.sourcegitcommit: 452d4ead948591d16aff144006ad84c957eba837
+ms.openlocfilehash: 0528d3324e85984e05b549f8b8ba282fdc1df4af
+ms.sourcegitcommit: 5b2b70c3fc7bcba5647d505a79276bbaad31c610
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56091226"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58356888"
 ---
-# <a name="create-a-canvas-app-from-scratch-using-common-data-service-for-apps"></a>앱용 Common Data Service를 사용하여 캔버스 앱을 처음부터 만들기
+# <a name="create-a-canvas-app-from-scratch-using-common-data-service"></a>Common Data Service를 사용하여 캔버스 앱을 처음부터 만들기
 
-표준 엔터티(기본 제공), 사용자 지정 엔터티(사용자 조직에서 만듦) 또는 모두를 사용하여 앱용 Common Data Service에 저장된 데이터를 관리하는 캔버스 앱을 빌드합니다.
+표준 엔터티(기본 제공), 사용자 지정 엔터티(사용자 조직에서 만듦) 또는 모두를 사용하여 Common Data Service에 저장된 데이터를 관리하는 캔버스 앱을 빌드합니다.
 
 Common Data Service에서 앱을 빌드하면, SharePoint, Dynamics 365 및 Salesforce와 같은 데이터 원본에서와 마찬가지로 PowerApps에서 연결을 만들 필요가 없습니다. 앱에서 두 활동 모두에 대해 표시, 관리 또는 사용하려는 엔터티를 지정하기만 하면 됩니다.
 

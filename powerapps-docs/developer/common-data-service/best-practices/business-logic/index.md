@@ -1,6 +1,6 @@
 ---
-title: '개발자: 앱용 Common Data Service의 플러그 인 및 워크플로 개발에 관한 모범 사례 및 지침 | Microsoft Docs'
-description: PowerApps의 앱용 Common Data Service 개발자를 위한 플러그 인 및 워크플로 개발에 관한 모범 사례 및 지침.
+title: '개발자: Common Data Service의 플러그 인 및 워크플로 개발에 관한 모범 사례 및 지침 | Microsoft Docs'
+description: PowerApps의 Common Data Service 개발자를 위한 플러그 인 및 워크플로 개발에 관한 모범 사례 및 지침입니다.
 services: ''
 suite: powerapps
 documentationcenter: na
@@ -16,20 +16,14 @@ ms.workload: na
 ms.date: 1/15/2019
 ms.author: jowells
 search.audienceType:
-- developer
+  - developer
 search.app:
-- PowerApps
-- D365CE
-ms.openlocfilehash: 87e7337a4bf62a10647edfd9b6c17bce0a0903bf
-ms.sourcegitcommit: 72c97378e96fb54e5d92ec087a59dd0fb1444f99
-ms.translationtype: HT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54334020"
+  - PowerApps
+  - D365CE
 ---
-# <a name="best-practices-and-guidance-regarding-plug-in-and-workflow-development-for-the-common-data-service-for-apps"></a>앱용 Common Data Service의 플러그 인 및 워크플로 개발에 관한 모범 사례 및 지침
+# <a name="best-practices-and-guidance-regarding-plug-in-and-workflow-development-for-the-common-data-service"></a>Common Data Service의 플러그 인 및 워크플로 개발에 관한 모범 사례 및 지침
 
-이 목록 아래에는 앱용 Common Data Service 내의 플러그 인 및 워크플로 개발에 관한 모든 지침과 모범 사례가 포함되어 있습니다.
+이 목록 아래에는 Common Data Service 내의 플러그 인 및 워크플로 개발에 관한 모든 지침과 모범 사례가 포함되어 있습니다.
 
 |모범 사례  |설명  |
 |---------|---------|

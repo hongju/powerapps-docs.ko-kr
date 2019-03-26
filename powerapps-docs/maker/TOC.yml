@@ -105,7 +105,7 @@ items:
     items:
     - name: 1 - 데이터에서 앱 생성
       items:
-      - name: 앱용 Common Data Service 사용
+      - name: Common Data Service 사용
         href: ./canvas-apps/data-platform-create-app.md
       - name: SharePoint 사용
         href: ./canvas-apps/app-from-sharepoint.md
@@ -121,7 +121,7 @@ items:
         href: ./canvas-apps/customize-card.md
     - name: 3 - 직접 앱 만들기
       items:
-      - name: 앱용 Common Data Service 사용
+      - name: Common Data Service 사용
         href: ./canvas-apps/data-platform-create-app-scratch.md
       - name: Excel 사용
         href: ./canvas-apps/get-started-create-from-blank.md
@@ -135,7 +135,7 @@ items:
       - name: 가장 많이 사용되는 커넥터
         items:
         - name: 일반 데이터 서비스
-          href: common-data-service/data-platform-intro.md
+          href: canvas-apps/connections/connection-common-data-service.md
         - name: SharePoint
           href: canvas-apps/connections/connection-sharepoint-online.md
         - name: SQL Server
@@ -148,11 +148,7 @@ items:
           href: canvas-apps/connections/connection-office365-outlook.md
         - name: Excel
           href: canvas-apps/connections/connection-excel.md
-        - name: 비즈니스용 OneDrive
-          href: canvas-apps/connections/cloud-storage-blob-connections.md
-        - name: OneDrive
-          href: canvas-apps/connections/cloud-storage-blob-connections.md
-        - name: Dropbox
+        - name: 클라우드 저장소
           href: canvas-apps/connections/cloud-storage-blob-connections.md
       - name: 연결 추가
         href: ./canvas-apps/add-data-connection.md
@@ -925,7 +921,7 @@ items:
     href: ./model-driven-apps/Accessibility-app-designer-site-map-designer-my-apps-page.md
   - name: 개발자의 경우
     href: ../developer/model-driven-apps/overview.md
-- name: 앱용 Common Data Service
+- name: 일반 데이터 서비스
   href: ./common-data-service/data-platform-intro.md
   items:
   - name: 엔터티 작업
@@ -1117,9 +1113,9 @@ items:
     href: ./common-data-service/data-platform-cds-newentity-troubleshooting-mashup.md
   - name: 지원
     href: https://powerapps.microsoft.com/support/
-ms.openlocfilehash: 6736e0e956e885bbae21099ff351c60e75ae50db
-ms.sourcegitcommit: c1bcd2c4f8254b48296512bb2727ac7685a8ccd1
+ms.openlocfilehash: c595c263b653f1f85e0d2d11e120aa8bcab0ba39
+ms.sourcegitcommit: ca21565c27fe0d46db87197bf00fd31899f1a71e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58308168"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58395143"

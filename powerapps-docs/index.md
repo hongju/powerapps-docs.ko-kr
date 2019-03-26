@@ -209,7 +209,7 @@ ms.custom:
                      class="cardsF">
                      <li>
                         <div class="container">
-                           <p>앱 제작자는 코드를 작성하지 않고도 사용자 지정 비즈니스 앱을 신속하게 만들어 조직의 중요 업무용 데이터를 관리할 수 있습니다. PowerApps에서 다음 두 가지 유형의 앱을 만들 수 있습니다. <strong>캔버스 앱</strong> 및 <strong>모델 기반 앱</strong>. <strong>앱용 CDS</strong>는 비즈니스 앱에서 사용되는 데이터를 안전하게 저장하고 관리할 수 있는 데이터 플랫폼입니다. 자세한 정보: <a href="/powerapps/maker">앱 만들기</a>.</p>
+                           <p>앱 제작자는 코드를 작성하지 않고도 사용자 지정 비즈니스 앱을 신속하게 만들어 조직의 중요 업무용 데이터를 관리할 수 있습니다. PowerApps에서 다음 두 가지 유형의 앱을 만들 수 있습니다. <strong>캔버스 앱</strong> 및 <strong>모델 기반 앱</strong>. <strong>Common Data Service</strong>는 비즈니스 앱에서 사용되는 데이터를 안전하게 저장하고 관리할 수 있는 데이터 플랫폼입니다. 자세한 정보: <a href="/powerapps/maker">앱 만들기</a>.</p>
                            <hr/>
                            <br/>
                         </div>
@@ -278,20 +278,20 @@ ms.custom:
                               <div class="card">
                                  <div class="cardImageOuter">
                                     <div class="cardImage">
-                                       <img alt="Common Data Service (CDS) for Apps" src="media/index/i_common-data-service.svg">
+                                       <img alt="Common Data Service" src="media/index/i_common-data-service.svg">
                                     </div>
                                  </div>
                                  <div class="cardText">
-                                    <h3 style="font-size: 1.15rem">앱용 CDS</h3>
+                                    <h3 style="font-size: 1.15rem">일반 데이터 서비스</h3>
                                     <hr/>
-                                    <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/maker/common-data-service/data-platform-intro">앱용 CDS란?</a></p>
+                                    <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/maker/common-data-service/data-platform-intro">Common Data Service란 무엇인가요?</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/maker/common-data-service/entity-overview">엔터티</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/maker/common-data-service/relationships-overview">엔터티 관계</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/maker/common-data-service/fields-overview">필드</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/maker/common-data-service/cds-processes">비즈니스 논리 적용</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/maker/common-data-service/solutions-overview">솔루션</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="https://www.microsoft.com/en-us/download/details.aspx?id=57777">백서: 솔루션을 사용하는 ALM</a></p>
-                                    <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/maker/common-data-service/data-platform-powerbi-connector">앱 데이터용 CDS에서 Power BI 보고서 빌드</a></p>
+                                    <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/maker/common-data-service/data-platform-powerbi-connector">Common Data Service 데이터에서 Power BI 보고서 작성</a></p>
                                  </div>
                               </div>
                            </div>
@@ -343,7 +343,7 @@ ms.custom:
                                  <div class="cardText">
                                     <h3 style="font-size: 1.15rem">데이터 통합 및 DSR</h3>
                                     <hr/>
-                                    <p><a class="barLink" style="font-size: 0.95rem" href="/power-platform/admin/data-integrator">앱용 CDS에 데이터 통합</a></p>
+                                    <p><a class="barLink" style="font-size: 0.95rem" href="/power-platform/admin/data-integrator">Common Data Service에 데이터 통합</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/power-platform/admin/powerapps-gdpr-dsr-guide">DSR(Data Subject Rights) 요청에 응답</a></p>
                                  </div>
                               </div>
@@ -398,7 +398,7 @@ ms.custom:
                      class="cardsF">
                      <li>
                         <div class="container">
-                           <p>개발자는 코드를 사용하여 비즈니스 앱을 확장하고 앱용 CDS에 연결하는 클라이언트 애플리케이션을 만들 수 있는 <a href="/powerapps/?branch=release-crm-mig-vivek#pivot=home&panel=maker">앱 제작자</a>입니다.</p>
+                           <p>개발자는 코드를 사용하여 비즈니스 앱을 확장하고 Common Data Service에 연결하는 클라이언트 애플리케이션을 만들 수 있는 <a href="/powerapps/?branch=release-crm-mig-vivek#pivot=home&panel=maker">앱 제작자</a>입니다.</p>
                            <hr/>
                            <br/>
                         </div>
@@ -415,7 +415,7 @@ ms.custom:
                                  <div class="cardText">
                                     <h3 style="font-size: 1.15rem">시작</h3>
                                     <hr/>
-                                    <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/common-data-service/overview">앱용 CDS: 개발자 개요</a></p>
+                                    <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/common-data-service/overview">Common Data Service: 개발자 개요</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/model-driven-apps/overview">모델 기반 앱: 개발자 개요</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/maker/canvas-apps/dev-enterprise-intro">캔버스 앱: 개발자 개요</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/common-data-model/overview">공통 데이터 모델</a></p>
@@ -479,7 +479,7 @@ ms.custom:
                                     </div>
                                  </div>
                                  <div class="cardText">
-                                    <h3 style="font-size: 1.15rem">앱용 CDS 데이터 사용</h3>
+                                    <h3 style="font-size: 1.15rem">Common Data Service 데이터 작업</h3>
                                     <hr/>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/common-data-service/webapi/overview">Web API 사용</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/common-data-service/org-service/overview">조직 서비스 사용</a></p>
@@ -502,7 +502,7 @@ ms.custom:
                                     </div>
                                  </div>
                                  <div class="cardText">
-                                    <h3 style="font-size: 1.15rem">앱용 CDS 메타데이터 사용</h3>
+                                    <h3 style="font-size: 1.15rem">Common Data Service 메타데이터 작업</h3>
                                     <hr/>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/common-data-service/metadata-services">메타데이터 시작</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/common-data-service/browse-your-metadata">사용자 환경 메타데이터 찾아보기</a></p>
@@ -527,8 +527,8 @@ ms.custom:
                                  <div class="cardText">
                                     <h3 style="font-size: 1.15rem">비즈니스 논리 적용</h3>
                                     <hr/>
-                                    <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/common-data-service/plug-ins">플러그 인(앱용 CDS)</a></p>
-                                    <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/common-data-service/workflow/workflow-extensions">워크플로 확장(앱용 CDS)</a></p>
+                                    <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/common-data-service/plug-ins">플러그 인(Common Data Service)</a></p>
+                                    <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/common-data-service/workflow/workflow-extensions">워크플로 확장(Common Data Service)</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/model-driven-apps/client-scripting">클라이언트 스크립팅(모델 기반 앱)</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/common-data-service/best-practices/business-logic">모범 사례: 플러그 인 및 워크플로 확장</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/model-driven-apps/best-practices/business-logic">모범 사례: 클라이언트 스크립팅</a></p>
@@ -547,7 +547,7 @@ ms.custom:
                                     </div>
                                  </div>
                                  <div class="cardText">
-                                    <h3 style="font-size: 1.15rem">앱용 CDS와 데이터 통합</h3>
+                                    <h3 style="font-size: 1.15rem">Common Data Service를 사용하여 데이터 통합</h3>
                                     <hr/>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/common-data-service/virtual-entities/get-started-ve">가상 엔터티</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/common-data-service/azure-integration">Azure 통합</a></p>
@@ -592,7 +592,7 @@ ms.custom:
                                     </div>
                                  </div>
                                  <div class="cardText">
-                                    <h3 style="font-size: 1.15rem">앱용 CDS를 위한 클라이언트 애플리케이션 만들기</h3>
+                                    <h3 style="font-size: 1.15rem">Common Data Service용 클라이언트 애플리케이션 만들기</h3>
                                     <hr/>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/common-data-service/authentication">인증</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/common-data-service/discovery-service">사용자 조직 검색</a></p>
@@ -614,7 +614,7 @@ ms.custom:
                                  <div class="cardText">
                                     <h3 style="font-size: 1.15rem">모범 사례</h3>
                                     <hr/>
-                                    <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/common-data-service/best-practices">앱용 CDS</a></p>
+                                    <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/common-data-service/best-practices">Common Data Service</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/model-driven-apps/best-practices">모델 기반 앱</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/maker/canvas-apps/performance-tips">캔버스 앱</a></p>
                                  </div>

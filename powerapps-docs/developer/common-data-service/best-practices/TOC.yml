@@ -1,5 +1,5 @@
 items:
-- name: 앱용 Common Data Service에 대한 모범 사례 및 지침
+- name: Common Data Service에 대한 모범 사례 및 지침
   href: index.md
   items:
   - name: 코드를 사용하여 비즈니스 논리 적용
@@ -33,9 +33,9 @@ items:
       href: work-with-metadata/retrieve-published-metadata.md
     - name: 쿼리 API를 통해 엔터티의 특정 열 검색
       href: work-with-metadata/retrieve-specific-columns-entity-via-query-apis.md
-ms.openlocfilehash: b7bdf6cb3f03f7af742b99558920a06be1c770c0
-ms.sourcegitcommit: 72c97378e96fb54e5d92ec087a59dd0fb1444f99
+ms.openlocfilehash: 72c20aa801b03f8f2b8e566688baa80dc8b0db65
+ms.sourcegitcommit: 5b2b70c3fc7bcba5647d505a79276bbaad31c610
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54334066"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58356980"
