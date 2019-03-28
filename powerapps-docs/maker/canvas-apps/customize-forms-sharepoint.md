@@ -39,7 +39,7 @@ Common Data Service에서 [앱을 생성](data-platform-create-app.md)한 다음
     ![PowerApps 사이트의 홈 페이지](./media/customize-forms-sharepoint/sign-in.png)
 
 
-1. 생성하고 사용자 지정한 앱을 엽니다.
+1. 사용자 지정하여 생성한 앱을 엽니다.
 
 1. 왼쪽 탐색 모음의 검색 창에서 **D**를 입력하거나 붙여넣어 요소 목록을 필터링한 다음, **DetailForm1**을 클릭하거나 탭하여 선택합니다.
 
@@ -58,7 +58,7 @@ Common Data Service에서 [앱을 생성](data-platform-create-app.md)한 다음
     ![필드 목록](./media/customize-forms-sharepoint/show-field.png)
 
 ## <a name="reorder-the-cards"></a>카드 재정렬
-1. **데이터** 창에서 **계정 이름** 필드를 필드 목록의 맨 위로 끕니다.
+1. **데이터** 창에서 **거래처 이름** 필드를 필드 목록의 맨 위로 끕니다.
 
     ![카드 이동](./media/customize-forms-sharepoint/move-card.png)
 
@@ -68,7 +68,7 @@ Common Data Service에서 [앱을 생성](data-platform-create-app.md)한 다음
 
 1. 다른 카드를 다음 순서로 다시 정렬합니다.
 
-    - 계정 이름
+    - 거래처 이름
     - 주소 1: 나머지 주소
     - 주소 1: 구/군/시
     - 주소 1: 우편 번호
