@@ -36,7 +36,7 @@ Common Data Service에서 앱을 빌드하면, SharePoint, Dynamics 365 및 Sale
 
 1. [PowerApps](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
 
-1. **고유한 앱 만들기** 아래에서 캔버스 앱의 **비어 있는 상태에서 시작** 타일을 마우스로 가리키고, 전화 아이콘을 클릭하거나 탭한 다음, **이 앱 만들기**를 클릭하거나 탭합니다.
+1. **나만의 앱 만들기** 아래에서 **빈 페이지의 캔버스 앱** 타일을 마우스로 클릭하고, **앱 이름**을 입력하고, 전화 아이콘을 클릭하거나 탭한 다음, **만들기**를 클릭하거나 탭합니다.
 
     ![비어 있는 앱 타일](./media/data-platform-create-app-scratch/start-from-blank.png)
 
@@ -46,7 +46,7 @@ Common Data Service에서 앱을 빌드하면, SharePoint, Dynamics 365 및 Sale
 
 1. 화면 가운데에서 **데이터에 연결**을 클릭하거나 탭한 다음, **데이터** 창에서 **Common Data Service** 연결을 클릭하거나 탭합니다.
 
-1. 검색 상자에서 **Accounts**의 처음 몇 글자를 입력하거나 붙여넣어 엔터티 목록을 필터링하고, **Accounts** 확인란을 선택한 다음, **연결**을 클릭하거나 탭합니다.
+1. 검색 상자에서 **거래처**의 처음 몇 글자를 입력하거나 붙여넣어 엔터티 목록을 필터링하고, **거래처** 확인란을 선택한 다음, **연결**을 클릭하거나 탭합니다.
 
     ![Accounts 엔터티 지정](./media/data-platform-create-app-scratch/cds-connect.png)
 
@@ -54,7 +54,7 @@ Common Data Service에서 앱을 빌드하면, SharePoint, Dynamics 365 및 Sale
 
 ## <a name="add-a-list-screen"></a>목록 추가 화면
 
-1. **홈** 탭에서 **새 화면**에 대한 아래쪽 화살표를 클릭하거나 탭한 다음, **목록 화면**을 클릭하거나 탭합니다.
+1. **홈** 탭에서 **새 화면**에 대한 아래쪽 화살표를 클릭하거나 탭한 다음, **목록** 화면을 클릭하거나 탭합니다.
 
     ![목록 추가 화면](./media/data-platform-create-app-scratch/list-screen.png)
 
@@ -64,7 +64,7 @@ Common Data Service에서 앱을 빌드하면, SharePoint, Dynamics 365 및 Sale
 
     이 수식에서 지정한 작업은 다음과 같습니다.
 
-   - 갤러리에서 **계정** 엔터티의 데이터를 표시합니다.
+   - 갤러리에서 **거래처** 엔터티의 데이터를 표시합니다.
    - 사용자가 정렬 단추를 클릭하거나 탭하여 정렬 순서를 토글할 때까지 데이터를 오름차순으로 정렬합니다.
    - 사용자가 검색 창에 하나 이상의 문자를 입력하거나 붙여넣으면 목록에서 사용자가 지정한 문자가 이름 필드에 포함된 계정만 표시합니다.
 
@@ -86,15 +86,15 @@ Common Data Service에서 앱을 빌드하면, SharePoint, Dynamics 365 및 Sale
 
 ## <a name="add-a-form-screen"></a>양식 화면 추가
 
-1. 이전 절차의 첫 번째 단계를 반복합니다. 단, **목록 화면** 대신 **양식 화면**을 추가합니다.
+1. 이전 절차의 첫 번째 단계를 반복합니다. 단, **목록** 화면 대신 **양식** 화면을 추가합니다.
 
-1. 오른쪽 창의 **고급 탭**에 표시된 대로 양식의 **DataSource** 속성을 **Accounts**, 해당 **Item** 속성을 **BrowseGallery.Selected**로 설정합니다.
+1. 오른쪽 창의 **고급 탭**에 표시된 대로 양식의 **DataSource** 속성을 **거래처**, 해당 **Item** 속성을 **BrowseGallery.Selected**로 설정합니다.
 
     ![양식의 Datasource 및 Item 속성 설정](./media/data-platform-create-app-scratch/form-datasource.png)
 
-1. 오른쪽 창의 **속성** 탭에서 **Accounts**를 클릭하거나 탭하여 **데이터** 창을 열고, 다음 필드에 대한 확인란을 선택합니다.
+1. 오른쪽 창의 **속성** 탭에서 **거래처**를 클릭하거나 탭하여 **데이터** 창을 열고, 다음 필드에 대한 확인란을 선택합니다.
 
-    - 계정 이름
+    - 거래처 이름
     - 주소 1: 번지 1
     - 주소 1: 시/군/구
     - 주소 1: 우편 번호
