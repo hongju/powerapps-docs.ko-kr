@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 2864ab5614bb3af415e24e23df3c52f6e668ab24
-ms.sourcegitcommit: 5b2b70c3fc7bcba5647d505a79276bbaad31c610
+ms.openlocfilehash: 4ca9ed14f96dbad52fe6f7b0318f520dbdd33d10
+ms.sourcegitcommit: fc604f3e7f0399bdabee86ce94f67de49531a444
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58357141"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "58545087"
 ---
 # <a name="tutorial-customize-a-gallery-in-powerapps"></a>자습서: PowerApps에서 갤러리 사용자 지정
 
@@ -53,8 +53,6 @@ PowerApps에 등록하지 않은 경우 시작하기 전에 [체험판으로 등
 
 1. [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인한 다음, 왼쪽 가장자리 근처에서 **앱**을 선택합니다.
 
-    [![PowerApps 홈페이지](./media/customize-layout-sharepoint/sign-in.png)](./media/customize-layout-sharepoint/sign-in.png#lightbox)
-
 1. 생성한 앱을 찾고, 앱에 대한 줄임표 아이콘(**...**)을 선택한 다음, **편집**을 선택합니다.
 
     ![편집할 앱 열기](./media/customize-layout-sharepoint/open-app.png)
@@ -69,25 +67,15 @@ PowerApps에 등록하지 않은 경우 시작하기 전에 [체험판으로 등
 
     ![갤러리 선택](media/customize-layout-sharepoint/select-gallery-1.png)
 
-1. 오른쪽 가장자리 근처에서 **계정**을 선택하여 **데이터** 창을 엽니다.
-
-    ![**데이터** 창 열기](./media/customize-layout-sharepoint/open-data-pane.png)
-
-1. **데이터** 창의 **레이아웃** 아래에서 옵션 목록을 엽니다.
-
-    ![레이아웃 옵션 표시](./media/customize-layout-sharepoint/show-layouts.png)
-
-1. 옵션 목록에서 제목만 표시하는 옵션을 선택합니다.
+1. 에 **속성** 탭의 오른쪽 창에서 옵션 목록을 엽니다 **레이아웃**, 제목만 표시 하는 옵션을 선택 하 고 합니다.
 
     ![제목 전용 레이아웃 선택](./media/customize-layout-sharepoint/choose-layout.png)
 
-1. **데이터** 창에서 제목에 대한 옵션 목록을 엽니다.
+1. 옆에 **필드**를 선택 **편집**, 한 다음 [제목] 상자에 대 한 아래쪽 화살표를 선택 합니다.
 
     이 컨트롤의 이름은 **Title1**과 같이 숫자로 끝납니다. 단, 숫자는 사용자가 수행한 다른 작업에 따라 달라질 수 있습니다.
 
-    ![제목 레이블에 대한 옵션 목록 열기](./media/customize-layout-sharepoint/show-title-options.png)
-
-1. 옵션 목록에서 **계정 이름(이름)** 을 선택한 다음, **데이터** 창을 닫습니다.
+1. 옵션의 목록에서 선택 **계정 이름**, 한 다음 닫습니다 합니다 **데이터** 창.
 
     갤러리에 각 계정의 이름이 표시됩니다.
 
@@ -154,9 +142,7 @@ PowerApps에 등록하지 않은 경우 시작하기 전에 [체험판으로 등
 
     ![갤러리 선택](./media/customize-layout-sharepoint/select-gallery-sorted.png)
 
-1. **갤러리** 탭에서 **스크롤 막대 표시**를 선택하고 해당 속성 값이 **true**로 변경되었는지 확인합니다.
-
-    ![스크롤 막대 표시](./media/customize-layout-sharepoint/show-scrollbar.png)
+1. 갤러리의 설정 **스크롤 막대 표시** 속성을 **true**합니다.
 
 ## <a name="next-steps"></a>다음 단계
 
