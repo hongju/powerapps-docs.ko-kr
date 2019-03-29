@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 2c367aa57294e52fc22f538f88b361c90c3afb99
-ms.sourcegitcommit: e64344548d607767e495a6b9526900bb5975226a
-ms.translationtype: HT
+ms.openlocfilehash: 9981a549aaf0ce88f6e66dd4df2c7897901d219b
+ms.sourcegitcommit: 5c098a62f66a2f33418967fdce9363bd529e0fc1
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58330243"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "58581096"
 ---
 # <a name="install-and-configure-the-help-desk-sample-in-powerapps"></a>PowerApps에서 지원 센터 샘플 설치 및 구성
 
@@ -138,7 +138,7 @@ PowerApps에서 캔버스 앱에 대한 지원 센터 샘플 설치 및 구성�
 2. **필수 열로 지정** 라디오 단추 목록에서 **아니요**를 선택합니다.
 3. **확인**을 클릭합니다.
 
-## <a name="download-the-help-desk-powerapp"></a>지원 센터 PowerApp 다운로드
+## <a name="download-the-app"></a>앱 다운로드
 
 1.  PowerApps 패키지를 [다운로드](http://pappsfeprodwestuscontent.blob.core.windows.net/sampleapps/helpdesk/docs/HelpDesk(SP_List).zip)하여 컴퓨터에 저장합니다.
 
@@ -172,7 +172,7 @@ PowerApps에서 캔버스 앱에 대한 지원 센터 샘플 설치 및 구성�
 4.  **만들기**를 클릭합니다.
 5.  팝업 창에서 로그인하는 데 사용한 계정을 선택합니다.
 
-## <a name="import-the-help-desk-powerapp"></a>지원 센터 PowerApp 가져오기
+## <a name="import-the-app"></a>앱 가져오기
 
 1. 웹 브라우저에서 https://web.powerapps.com 으로 이동합니다.
 2. 등록 시 사용한 동일한 자격 증명을 제공하여 로그인합니다.
@@ -209,33 +209,27 @@ PowerApps에서 캔버스 앱에 대한 지원 센터 샘플 설치 및 구성�
 
     ![설정 가져오기 화면](./media/help-desk-install/import-done.png)
 
-## <a name="configure-the-powerapp-to-use-the-sharepoint-list"></a>SharePoint 목록을 사용하도록 PowerApp 구성
+## <a name="configure-the-app-to-use-the-sharepoint-list"></a>SharePoint 목록을 사용 하 여 앱 구성
 
 1. 다음 단계에서 **앱 열기**를 클릭합니다.
 2. 권한을 묻는 메시지가 표시되면 **허용**을 클릭합니다.
 
 ### <a name="delete-connections"></a>연결 삭제
 
-1. **보기**를 클릭합니다.
-2. **데이터 원본**을 클릭합니다.
-3. **데이터** 창에서 **지원 센터** SharePoint 연결 옆에 있는 **줄임표**를 클릭합니다.
-4. **제거**를 클릭합니다.
+1. 에 **뷰** 탭을 선택 **데이터 원본**합니다.
+1. 에 **데이터** 창 옆에서 줄임표 (...)를 선택 **기술 지원팀**를 선택한 후 **제거**합니다.
 
 ### <a name="helpdesk-list"></a>지원 센터 목록
 
-1. **보기**를 클릭합니다.
-2. **데이터 원본**을 클릭합니다.
-3. **데이터** 창에서 **+ 데이터 원본 추가**를 클릭합니다.
-4. **SharePoint**를 선택합니다.
-5. **만들기**를 클릭합니다.
-6. **최근에 사용한 사이트** 목록에서 지원 센터 목록을 만든 SharePoint 사이트를 선택합니다.
+1. 에 **뷰** 탭을 선택 **데이터 원본**합니다.
+1. 에 **데이터** 창 **데이터 원본 추가** > **새 연결** > **SharePoint**  >  **만듭니다**합니다.
+1. **최근에 사용한 사이트** 목록에서 지원 센터 목록을 만든 SharePoint 사이트를 선택합니다.
 
     > [!TIP] 
-    > 사이트가 목록에 나타나지 않을 경우 텍스트 상자에 SharePoint 사이트 URL을 입력하고 **이동**을 클릭합니다.
+    > 사이트 목록에 표시 되지 않으면, 입력 또는 SharePoint 사이트 URL 텍스트 상자에 붙여 넣습니다. 선택한 후 **이동**합니다.
 
-7. 목록 맨 위에 있는 **검색** 텍스트 상자에 **지원 센터**를 입력합니다.
-8. **지원 센터** 목록 옆에 있는 확인란을 선택합니다.
-9. **연결**을 클릭합니다.
+1. 에 **검색** 형식 목록의 맨 위에 있는 상자 또는 붙여 **헬프 데스크**합니다.
+1. 옆의 확인란을 선택 **기술 지원팀**를 선택한 후 **Connect**합니다.
 
 ### <a name="update-admin-list"></a>업데이트 관리자 목록
 
@@ -247,20 +241,17 @@ PowerApps에서 캔버스 앱에 대한 지원 센터 샘플 설치 및 구성�
     ![업데이트 관리자 목록](./media/help-desk-install/Change-admin.png)
     
    > [!TIP]
-   > 1 초과 관리자가 있는 경우 관리자를 구분하려면 쉼표를 사용하세요.  예: "admin1@microsoft.com","admin2@microsoft.com".
+   > 둘 이상의 관리자에 있는 경우 관리자 목록을 구분 하려면 쉼표를 사용 합니다. 예: "admin1@microsoft.com","admin2@microsoft.com".
    > AdminList의 주소가 PowerApps에 필요한 형식과 일치하는지 확인하려면 [보기] > [변수] > [전역] > [MyProfile]을 선택하고 ‘메일’ 열에서 필요한 메일 형식을 확인합니다.
 
-5. **파일**을 클릭합니다.
-6. **저장**을 클릭합니다.
-7. **게시**를 클릭합니다.
-8. **이 버전 게시**를 클릭합니다.
+1. 선택 **파일** > **저장** > **게시** > **이 버전 게시**합니다.
 
 ## <a name="modify-the-flow"></a>흐름 수정
 
 1.  왼쪽 메뉴에서 **Flows**을 클릭합니다.
 2.  로그인하라는 메시지가 표시되면 등록 시 사용한 동일한 자격 증명을 제공하여 로그인합니다.
 3.  최상위 메뉴에서 **내 흐름**을 선택합니다.
-4.  **HelpDeskFlow** 흐름 옆에 있는 **연필 아이콘**을 클릭합니다. 
+4.  다음에 **HelpDeskFlow** 흐름 연필 아이콘을 클릭 합니다. 
  
     ![흐름 편집 화면](./media/help-desk-install/edit-flow.png)
 
@@ -281,18 +272,16 @@ PowerApps에서 캔버스 앱에 대한 지원 센터 샘플 설치 및 구성�
 
 11. **흐름 업데이트**를 클릭합니다.
 
-## <a name="play-the-powerapp"></a>PowerApp 재생
+## <a name="play-the-app"></a>앱 재생
 
 1. 웹 브라우저에서 **앱**을 클릭합니다.
-2. 지원 센터 PowerApps 옆에 있는 **줄임표**를 클릭합니다.
+2. 기술 지원팀 앱 옆의 줄임표 (...)를 클릭 합니다.
 3. **열기**를 클릭합니다. 
 
 > [!TIP]
 > 지원 센터 PowerApp 샘플을 사용하는 방법을 보려면 이 [동영상](https://youtu.be/sl5fXwwnvzI)을 시청하세요.
 
-
 ## <a name="next-steps"></a>다음 단계
 - [SharePoint 목록 양식 사용자 지정](https://docs.microsoft.com/powerapps/maker/canvas-apps/customize-list-form)
 - [컨트롤 추가 및 구성](https://docs.microsoft.com/powerapps/maker/canvas-apps/add-configure-controls)
-- [SharePoint 목록 또는 라이브러리에 대한 권한 편집 및 관리](https://support.office.com/en-us/article/edit-and-manage-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782)
- 
+- [SharePoint 목록 또는 라이브러리에 대한 권한 편집 및 관리](https://support.office.com/article/edit-and-manage-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782)

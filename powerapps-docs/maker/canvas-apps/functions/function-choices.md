@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 77268aa63ed49d10f825850909d31ec4feace063
-ms.sourcegitcommit: 5b2b70c3fc7bcba5647d505a79276bbaad31c610
+ms.openlocfilehash: 5c6876ac22f50be293781a7a6be58657f856baec
+ms.sourcegitcommit: 9444e6404770788b99cfcdb13b41ca6187d25149
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58357601"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "58623398"
 ---
 # <a name="choices-function-in-powerapps"></a>PowerApps의 Choices 함수
 조회 열에 대해 가능한 값의 테이블을 반환합니다.
@@ -83,10 +83,10 @@ ms.locfileid: "58357601"
 
 8. **기본 연락처**의 카드에서 **콤보 상자** 컨트롤을 선택합니다.
 
-    해당 컨트롤의 **Items** 속성은 고급 설정에서 **열 표시 이름 사용** 확인란의 상태에 따라 두 수식 중 하나로 설정됩니다.
+    합니다 **항목** 해당 컨트롤의 속성은 첫 번째 예제와 같이 해당 표시 이름 또는 두 번째 예제와 같이 해당 논리적 이름과 열을 식별 하는 수식으로 설정 됩니다.
 
-   - 확인란을 선택하면 해당 속성은 다음과 같은 수식으로 설정됩니다.<br>**Choices( Accounts.'Primary Contact' )**
-   - 확인란의 선택을 취소하면 해당 속성은 다음과 같은 수식으로 설정됩니다.<br>**Choices( Accounts.primarycontactid )**
+   - **Choices( Accounts.'Primary Contact' )**
+   - **Choices( Accounts.primarycontactid )**
 
      ![양식 컨트롤을 사용하는 캔버스 화면입니다. **기본 연락처** 카드 내에서 **콤보 상자** 컨트롤이 선택되면 Choices( Accounts.'Primary Contact' ) 수식이 포함된 Items 속성이 표시됩니다.](media/function-choices/accounts-primary-contact.png)
 
@@ -94,10 +94,9 @@ ms.locfileid: "58357601"
 
 10. **삽입** 탭에서 **데이터 테이블**을 선택합니다.
 
-11. **데이터 테이블** 컨트롤의 **Items** 속성을 다음 수식 중에 하나로 설정합니다.
+11. 설정 된 **항목** 의 속성을 **데이터 테이블** 컨트롤을 다음이 수식으로:
 
-     - 고급 설정에서 **열 표시 이름 사용** 확인란이 선택되면 다음 수식을 사용합니다.<br>**Choices( Accounts.'Primary Contact' )**
-     - 그렇지 않으면 다음 수식을 사용합니다.<br>**Choices( Accounts.primarycontactid )**
+     **Choices( Accounts.'Primary Contact' )**
 
 12. **데이터** 창을 연 다음, **firstname**, **lastname** 또는 표시할 기타 필드의 확인란을 선택합니다.
 
