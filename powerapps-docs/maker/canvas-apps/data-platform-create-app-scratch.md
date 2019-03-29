@@ -46,7 +46,7 @@ Common Data Service에서 앱을 빌드하면, SharePoint, Dynamics 365 및 Sale
 
 1. 화면 가운데에서 **데이터에 연결**을 클릭하거나 탭한 다음, **데이터** 창에서 **Common Data Service** 연결을 클릭하거나 탭합니다.
 
-1. 검색 상자에서 **Accounts**의 처음 몇 글자를 입력하거나 붙여넣어 엔터티 목록을 필터링하고, **Accounts** 확인란을 선택한 다음, **연결**을 클릭하거나 탭합니다.
+1. 검색 상자에서 **거래처**의 처음 몇 글자를 입력하거나 붙여넣어 엔터티 목록을 필터링하고, **거래처** 확인란을 선택한 다음, **연결**을 클릭하거나 탭합니다.
 
     ![Accounts 엔터티 지정](./media/data-platform-create-app-scratch/cds-connect.png)
 
@@ -92,9 +92,9 @@ Common Data Service에서 앱을 빌드하면, SharePoint, Dynamics 365 및 Sale
 
     ![양식의 Datasource 및 Item 속성 설정](./media/data-platform-create-app-scratch/form-datasource.png)
 
-1. 오른쪽 창의 **속성** 탭에서 **Accounts**를 클릭하거나 탭하여 **데이터** 창을 열고, 다음 필드에 대한 확인란을 선택합니다.
+1. 오른쪽 창의 **속성** 탭에서 **거래처**를 클릭하거나 탭하여 **데이터** 창을 열고, 다음 필드에 대한 확인란을 선택합니다.
 
-    - 계정 이름
+    - 거래처 이름
     - 주소 1: 번지 1
     - 주소 1: 시/군/구
     - 주소 1: 우편 번호
