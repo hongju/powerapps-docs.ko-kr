@@ -21,7 +21,7 @@ ms.lasthandoff: 03/22/2019
 ms.locfileid: "58357624"
 ---
 # <a name="understand-delegation-in-a-canvas-app"></a>캔버스 앱에서 위임 이해
-PowerApps에는 강력한 필터링, 정렬 및 캔버스 앱에서 데이터의 테이블을 셰이핑 함수 집합이 포함 됩니다. **[필터](functions/function-filter-lookup.md)** 를  **[정렬](functions/function-sort.md)**, 및 **[AddColumns](functions/function-table-shaping.md)** 몇 이름을 지정 하는 함수입니다. 이러한 함수를 사용하여 사용자에게 필요한 정보에 대한 집중된 액세스 권한을 제공할 수 있습니다. 데이터베이스 배경 지식이 있는 사람들에게 이러한 함수를 사용하는 것은 데이터베이스 쿼리를 작성하는 것과 같습니다.
+PowerApps에는 데이터의 테이블을 캔버스 앱에서 필터링, 정렬 및 셰이핑하는 강력한 함수 집합이 포함 됩니다: 몇 가지를 말하면 **[필터](functions/function-filter-lookup.md)**,  **[정렬](functions/function-sort.md)** 및 **[AddColumns](functions/function-table-shaping.md)** 함수입니다. 이러한 함수를 사용하여 사용자에게 필요한 정보에 대한 집중된 액세스 권한을 제공할 수 있습니다. 데이터베이스 배경 지식이 있는 사람들에게 이러한 함수를 사용하는 것은 데이터베이스 쿼리를 작성하는 것과 같습니다.
 
 효율적인 앱을 빌드하는 핵심은 디바이스로 가져와야 하는 데이터의 양을 최소화하는 것입니다. 수백 만 개의 레코드 중에서 일부만 필요하거나, 또는 단일 집계 값이 수천 개의 레코드를 나타낼 수 있습니다. 또는 아마도 첫 번째 레코드 집합을 검색할 수 있고 나머지 데이터 집합은 사용자가 더 원한다는 제스처를 취할 때 검색됩니다. 집중하면 앱에서 필요한 처리량, 네트워크 대역폭을 현저하게 줄일 수 있어 셀룰러 네트워크를 통해 연결된 휴대폰에서도 사용자를 위해 더 신속하게 응답할 수 있습니다. 
 
@@ -131,7 +131,7 @@ Excel 통합 문서를 가져올 (사용 하는 **앱에 정적 데이터 추가
 위임 경고는 위임 가능한 데이터 원본에서 작동하는 수식에만 표시됩니다. 경고가 표시되지 않고 수식이 제대로 위임되지 않은 경우 이 항목의 앞에서 [위임 가능한 데이터 원본](delegation-overview.md#delegable-data-sources) 목록과 비교하여 데이터 원본 형식을 확인하세요.
 
 ## <a name="examples"></a>예
-예를 들어 **[dbo].[Fruit]** 라는 SQL Server 테이블을 기반으로 하는 세 개의 화면 앱을 자동으로 생성합니다. 앱을 생성 하는 방법에 대 한 내용은 비슷한 원칙에 적용할 수 있습니다 합니다 [Common Data Service에 대 한 항목](data-platform-create-app.md) SQL server입니다.
+예를 들어 **[dbo].[Fruit]** 라는 SQL Server 테이블을 기반으로 하는 세 개의 화면 앱을 자동으로 생성합니다. 앱을 생성 하는 방법에 대한 내용은 [Common Data Service에 대한 항목](data-platform-create-app.md)에서 SQL server에 비슷한 원칙을 적용할 수 있습니다.
 
 ![3개 화면 앱](./media/delegation-overview/products-afd.png)
 
