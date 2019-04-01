@@ -28,7 +28,7 @@ PowerApps에 등록하지 않은 경우 시작하기 전에 [체험판으로 등
 
 ## <a name="prerequisites"></a>필수 조건
 
-이 빠른 시작을 수행 하려면에 할당 되어야 합니다는 [Environment Maker](https://docs.microsoft.com/power-platform/admin/database-security.md#predefined-security-roles) 보안 역할을 합니다 [환경으로 전환](working-with-environments.md) 는 Common Data Service에서 데이터베이스 만들어지면에서 데이터가 포함 업데이트를 허용 하 고 있습니다. 이러한 환경이 없고 관리자 권한이 있으면 이 요구 사항을 충족하는 [환경을 만들 수 있습니다](https://docs.microsoft.com/power-platform/admin/environments-administration.md#create-an-environment).
+이 빠른 시작을 수행하려면 [Environment Maker](https://docs.microsoft.com/power-platform/admin/database-security.md#predefined-security-roles) 보안 역할에 할당되어야 합니다. Common Data Service에서 데이터베이스를 만들고, 데이터를 포함하고 업데이트를 허용하는 [환경으로 전환](working-with-environments.md)해야 합니다. 이러한 환경이 없고 관리자 권한이 있으면 이 요구 사항을 충족하는 [환경을 만들 수 있습니다](https://docs.microsoft.com/power-platform/admin/environments-administration.md#create-an-environment).
 
 ## <a name="generate-an-app"></a>앱 생성
 
