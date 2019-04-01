@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 99c07c0561b4942e6cbbd49fa5c498d90b502d7e
-ms.sourcegitcommit: 957d67e13bd4153d042b3b3bd650f6d0de20613c
+ms.openlocfilehash: 3174d959a2360b36e82cd7070c4401251ca9fe18
+ms.sourcegitcommit: 212d397284c431f5989dc7b39549e2fc170d447e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "58073286"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "58491621"
 ---
 # <a name="rich-text-editor-control-in-powerapps"></a>PowerApps에서 서식 있는 텍스트 편집기 컨트롤
 최종 사용자는 WYSIWYG 편집 영역 내에서 텍스트 서식을 지정할 수 있습니다.  출력 형식은 HTML입니다.
@@ -62,3 +62,14 @@ ms.locfileid: "58073286"
 **[X](properties-size-location.md)** – 컨트롤의 왼쪽 가장자리와 해당 부모 컨테이너(또는 부모 컨테이너가 없는 경우 화면)의 왼쪽 가장자리 사이의 거리입니다.
 
 **[Y](properties-size-location.md)** – 컨트롤의 상단 가장자리와 해당 부모 컨테이너(또는 부모 컨테이너가 없는 경우 화면)의 상단 가장자리 사이의 거리입니다.
+
+
+## <a name="accessibility-guidelines"></a>접근성 지침
+### <a name="screen-reader-support"></a>화면 판독기 지원
+* **[AccessibleLabel](properties-accessibility.md)** 이 있어야 합니다.
+
+### <a name="keyboard-support"></a>키보드 지원
+* 키보드 사용자가 탐색할 수 있도록 **[TabIndex](properties-accessibility.md)** 가 0 이상이어야 합니다.
+
+> [!TIP]
+> 사용 하 여 **alt+0** 기타 바로 가기 키에 대해 자세히 알아보려면 편집기 포커스가 있는 동안.

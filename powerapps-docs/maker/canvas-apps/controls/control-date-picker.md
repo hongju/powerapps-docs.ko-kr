@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: ddb15340c9532e82d95f1bea70959dc59cdc7283
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.openlocfilehash: 90f18c4b490564bc098046831ea932db13fce05d
+ms.sourcegitcommit: 212d397284c431f5989dc7b39549e2fc170d447e
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42853822"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "58491645"
 ---
 # <a name="date-picker-control-in-powerapps"></a>PowerApps의 날짜 선택기 컨트롤
 사용자가 날짜를 지정하기 위해 클릭 또는 탭할 수 있는 컨트롤입니다.
@@ -67,7 +67,7 @@ ms.locfileid: "42853822"
 
 **[Font](properties-text.md)** – 텍스트가 표시되는 글꼴의 제품군 이름입니다.
 
-**[FontWeight](properties-text.md)** - 컨트롤의 텍스트 굵기입니다. **Bold**, **Semibold**, **Normal** 또는 **Lighter**로 설정합니다.
+**[FontWeight](properties-text.md)**  – 컨트롤의 텍스트의 가중치: **굵게**, **Semibold**, **정상**, 또는 **밝은**.
 
 **[Height](properties-size-location.md)** – 컨트롤의 위쪽 및 아래쪽 가장자리 사이의 간격입니다.
 
@@ -128,3 +128,6 @@ ms.locfileid: "42853822"
 ### <a name="keyboard-support"></a>키보드 지원
 * 키보드 사용자가 탐색할 수 있도록 **[TabIndex](properties-accessibility.md)** 가 0 이상이어야 합니다.
 * 포커스 표시기가 명확하게 표시되어야 합니다. **[FocusedBorderColor](properties-color-border.md)** 및 **[FocusedBorderThickness](properties-color-border.md)** 를 사용하여 이를 달성합니다.
+
+> [!TIP]
+> 달력 열릴 때 키를 눌러 **페이지 위로** 및 **페이지 아래로** 개월 간의 이동 하 고 **Shift + Page up** 및 **Shift + Page down** 를 연도 간 이동 합니다.

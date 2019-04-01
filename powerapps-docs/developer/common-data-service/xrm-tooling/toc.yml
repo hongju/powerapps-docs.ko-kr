@@ -1,0 +1,37 @@
+items:
+- name: XRM 도구를 사용하여 Windows 클라이언트 애플리케이션 빌드
+  href: build-windows-client-applications-xrm-tools.md
+  items:
+  - name: CrmServiceClient 생성자를 사용하여 연결
+    href: use-crmserviceclient-constructors-connect.md
+  - name: XRM 도구의 연결 문자열을 사용하여 연결
+    href: use-connection-strings-xrm-tooling-connect.md
+  - name: XRM 도구에 PowerShell cmdlet을 사용하여 연결
+    href: use-powershell-cmdlets-xrm-tooling-connect.md
+  - name: XRM 도구를 사용하여 작업 실행
+    href: use-xrm-tooling-execute-actions.md
+    items:
+    - name: XRM 도구를 사용하여 데이터 생성
+      href: use-xrm-tooling-create-data.md
+    - name: XRM 도구를 사용하여 데이터 검색
+      href: use-xrm-tooling-retrieve-data.md
+    - name: XRM 도구를 사용하여 데이터 업데이트
+      href: use-xrm-tooling-update-data.md
+    - name: XRM 도구를 사용하여 데이터 삭제
+      href: use-xrm-tooling-delete-data.md
+    - name: ExecuteCrmOrganizationRequest 메서드와 메시지 사용
+      href: use-messages-executecrmorganizationrequest-method.md
+  - name: XRM 도구를 사용하여 클라이언트 애플리케이션에서 공통 로그인 제어 수행
+    href: use-xrm-tooling-common-login-control-client-applications.md
+  - name: XRM 도구에 대한 추적 구성
+    href: configure-tracing-xrm-tooling.md
+  - name: 간편 연결 빠른 시작
+    href: sample-simplified-connection-quick-start.md
+  - name: '샘플: XRM 도구 API 빠른 시작'
+    href: sample-quick-start-xrm-tooling-api.md
+ms.openlocfilehash: 6ffd323731891e38feb1b728f7e6f43120d5cc37
+ms.sourcegitcommit: 499fdc1a7c78d7d10e372a8caf26dfafc3492b6c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "58542789"

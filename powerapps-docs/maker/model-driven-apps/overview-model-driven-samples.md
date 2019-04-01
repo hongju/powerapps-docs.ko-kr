@@ -2,14 +2,14 @@
 title: 모델 기반 샘플 앱
 description: 모델 기반 샘플 앱을 가져오고 사용자 지정하고 제거하는 방법을 이해합니다.
 documentationcenter: na
-author: caburk
+author: mr-dang-msft
 manager: kvivek
 ms.service: powerapps
 ms.devlang: na
 ms.topic: conceptual
 ms.component: model
 ms.date: 03/08/2018
-ms.author: caburk
+ms.author: brdang
 search.audienceType:
   - maker
 search.app:

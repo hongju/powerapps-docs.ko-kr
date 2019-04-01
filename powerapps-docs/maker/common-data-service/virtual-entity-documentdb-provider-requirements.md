@@ -2,7 +2,7 @@
 title: 앱용 Common Data Service에서 SQL API 데이터 공급자에 Azure Cosmos DB 사용 | MicrosoftDocs
 description: 가상 엔터티와 함께 사용할 SQL API 데이터 공급자용 Azure Cosmos DB를 구성하는 방법에 대해 알아봅니다.
 keywords: SQL API
-ms.date: 06/27/2018
+ms.date: 02/15/2019
 ms.service: crm-online
 ms.custom: null
 ms.topic: article
@@ -94,7 +94,7 @@ SQL 쿼리 필터링은 다음 연산자를 지원합니다.
     |필드|설명|
     |--|--|
     |**이름**|데이터 원본을 설명하는 이름을 입력합니다.|
-    |**컬렉션 이름**|가상 엔터티에 노출하려는 데이터가 들어 있는 Azure Cosmos DB 데이터베이스 컬렉션의 id입니다.  |
+    |**컬렉션 이름**|가상 엔터티에 노출하려는 컬렉션이 들어 있는 Azure Cosmos DB *데이터베이스*의 이름입니다.  |
     |**인증 키**|Azure Cosmos DB 계정에 대한 기본 또는 보조 키입니다. Azure Cosmos DB 계정 아래의 **키** 설정 아래에서 Azure 관리 포털의 키를 찾을 수 있습니다.|
     |**URI**|Azure Cosmos DB 컬렉션이 있는 리소스 그룹의 URI입니다. URI는 `https://contoso/documents.azure.com:443`와 유사하게 구성됩니다. Azure Cosmos DB 계정 아래의 **키** 설정 아래에서 Azure 관리 포털의 URI를 찾을 수 있습니다. |
     |**시간 제한(초)**|데이터 요청 제한 시간 이전에 Azure Cosmos DB 서비스의 응답을 기다리는 시간(초)을 입력 합니다. 예를 들어, 30을 입력하면 제한 시간이 발생하기 전에 최대 30초를 기다립니다. 기본 제한 시간은 120초입니다.|

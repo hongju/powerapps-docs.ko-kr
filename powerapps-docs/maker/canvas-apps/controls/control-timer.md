@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 32b8ee57869ea733050c3f23f9c9e81f60e3d78d
-ms.sourcegitcommit: 66fd1129ad25b72556f11a08350ba95f2ba060dd
+ms.openlocfilehash: 5d20e2324f2efb4f866ed4fc183f289733c10a41
+ms.sourcegitcommit: 212d397284c431f5989dc7b39549e2fc170d447e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57804381"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "58491668"
 ---
 # <a name="timer-control-in-powerapps"></a>PowerApps의 타이머 컨트롤
 일정 시간이 지난 후 앱이 응답하는 방식을 결정할 수 있는 컨트롤입니다.
@@ -26,7 +26,9 @@ ms.locfileid: "57804381"
 ## <a name="description"></a>설명
 타이머는 일정 시간이 지난 후 컨트롤이 표시되는 시간이나 컨트롤의 다른 속성 변경 등을 결정할 수 있습니다.
 
-타이머가 디자이너에서 실행되려면 앱을 미리 보아야 합니다.  이렇게 하면 사용자가 시간 제한 없이 디자이너에서 타이머를 구성할 수 있습니다.
+> [!NOTE]
+> PowerApps Studio 타이머 미리 보기 모드에만 실행합니다.
+
 
 ## <a name="key-properties"></a>주요 속성
 **Duration** – 타이머가 실행되는 시간(밀리초)입니다.  최대 값이 없습니다.
@@ -142,33 +144,31 @@ ms.locfileid: "57804381"
 
 5. 타이머 단추를 선택하여 애니메이션을 시작 또는 중지합니다. 레이블의 텍스트가 흰색으로 흐려지며 전체 강도로 돌아가는 프로세스를 반복합니다.
 
-
 ## <a name="accessibility-guidelines"></a>접근성 지침
-**타이머**는 특수화된 단추이므로 **[단추](control-button.md)** 에 대한 동일한 지침이 적용됩니다.
+에 대 한 동일한 지침이 **[단추](control-button.md)** 에 적용될지를 제어 합니다 **타이머** 사용자와 상호 작용할 수 있는 경우를 제어 합니다.
 
-> [!IMPORTANT]
-> 직접적인 사용자 개입 없이 **타이머**를 제어하는 기능은 접근성을 위해 지원되지 않습니다. 예를 들어 위의 다른 컨트롤을 배치하거나 **[Visible](properties-core.md)** 속성을 **false**로 설정하여 타이머를 시각적으로 숨길 수 있습니다. 타이머는 화면이 표시되면 자동으로 시작되고 몇 시간 후에 일부 작업이 자동으로 실행됩니다. 현재 이 시나리오에 액세스할 수 있는 일반적인 방법은 없습니다.
+### <a name="background-timers"></a>백그라운드 타이머
+백그라운드 타이머는 자동으로 실행 하 고 숨겨집니다. 에서 사용할 지원 역할을 사용자에 게 거의 관심 경과 된 시간입니다. 예를 들어, 1 분 마다 데이터를 새로 고칠 수도 있고 특정 기간 동안만 알림 메시지를 표시할 수 있습니다.
 
-기타 접근성 지침은 다음과 같습니다.
+백그라운드 타이머 있어야 해당 **[Visible](properties-core.md)** 속성을 false로 설정 하는 모든 사용자 로부터 숨겨집니다.
 
-### <a name="timing"></a>타이밍
-**타이머**가 자동으로 시작되거나 중지될 경우 사용자에게 콘텐츠를 읽고 사용할 충분한 시간이 있는지를 고려하세요. 키보드 및 화면 읽기 프로그램 사용자는 시간 초과 이벤트에 반응하는 데 시간이 더 필요할 수 있습니다.
+### <a name="timing-considerations"></a>타이밍 고려 사항
+경우는 **타이머** 실행 자동으로 사용자를 읽고 콘텐츠를 사용 하 여 충분 한 시간이 있는지 고려해 야 합니다. 키보드 및 화면 읽기 프로그램 사용자가 시간 제한 이벤트에 반응 하는 데 시간이 더 해야 합니다.
 
-이러한 전략 중 하나면 충분합니다.
-* 사용자가 시간 초과 이벤트를 취소할 수 있음
-* 사용자가 시작되기 전에 시간 제한을 조정할 수 있음
-* 시간 제한이 만료되기 전에 20초 동안 경고하고 제한을 쉽게 연장할 방법 제공
+이러한 전략 중 하나라도 충분 합니다.
+* 시간 제한 이벤트를 취소할 수가 있습니다.
+* 시작 하기 전에 시간 제한을 조정할 수가 있습니다.
+* 시간 제한이 만료 되기 전에 20 초 동안 경고 및 한도 확장 하는 쉬운 방법을 제공 합니다.
 
 일부 시나리오는 이러한 요구 사항에서 제외됩니다. [WCAG 2.0 guideline for time limits](https://www.w3.org/TR/WCAG20/#time-limits)(시간 제한에 대한 WCAG 2.0 지침)에서 자세히 알아보세요.
 
 ### <a name="screen-reader-support"></a>화면 판독기 지원
-* **[Text](properties-core.md)** 가 있어야 합니다.
-* 시간에 민감한 중요 정보에는 **[Text](properties-core.md)** 를 사용하지 마세요. 화면 읽기 프로그램 사용자는 **[Text](properties-core.md)** 변경 내용의 알림을 받지 않습니다.
+* 타이머 트리거는 현재 화면에 변경 내용, 사용을 [라이브 영역의](../accessible-apps-live-regions.md) 하기가 화면 읽기 프로그램 사용자 변경 내용입니다.
 
     > [!NOTE]
-  > 화면 읽기 프로그램은 5초마다 경과된 시간을 알립니다. 그러나 타이머 **[Text](properties-core.md)** 는 알림에 포함되지 않습니다.
+    > 화면 판독기는 타이머가 실행 되 고 표시를 5 초 마다 경과 된 시간을 발표 합니다.
 
-* 경과된 시간을 표시하는 **[레이블](control-text-box.md)** 을 추가하는 것이 좋습니다. 타이머의 **[Text](properties-core.md)** 를 사용하여 사용자에게 타이머를 시작하거나 중지하도록 지시합니다.
-
-### <a name="support-in-powerapps-studio"></a>PowerApps Studio 지원
-앱을 빌드할 때 타이머 트리거에서 이벤트를 방지 하기 위해 비활성화 됩니다. 미리 보기를 열거나 앱을 저장 하 고 PowerApps 모바일 또는 웹 플레이어에서 테스트할 수 있습니다 하는 경우 PowerApps Studio 타이머를 테스트할 수 있습니다.
+* 사용 하지 않는 합니다 **[텍스트](properties-core.md)** 시간에 민감한 중요 정보에 대 한 컨트롤의 속성입니다. 화면 판독기에는 변경 내용을 알리기 없습니다  **[텍스트](properties-core.md)** 합니다.
+* 대화형 타이머:
+    * **[Text](properties-core.md)** 가 있어야 합니다.
+    * 추가 하는 것이 좋습니다.는 **[레이블을](control-text-box.md)** 경과 된 시간을 표시 하는 컨트롤입니다. 타이머를 사용 하 여 **[텍스트](properties-core.md)** 속성을 시작 하거나 타이머를 중지 하도록 지시 합니다.

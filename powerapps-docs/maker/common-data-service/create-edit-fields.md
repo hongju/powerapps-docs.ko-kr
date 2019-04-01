@@ -1,7 +1,7 @@
 ---
 title: 앱용 Common Data Service의 필드를 만들고 편집하는 방법| MicrosoftDocs
 ms.custom: ''
-ms.date: 05/18/2018
+ms.date: 02/08/2019
 ms.reviewer: ''
 ms.service: crm-online
 ms.suite: ''
@@ -14,7 +14,7 @@ applies_to:
 ms.assetid: d88677fa-2caf-47b0-aec6-10a25a7ec9c3
 caps.latest.revision: 55
 ms.author: matp
-manager: brycho
+manager: kvivek
 search.audienceType:
   - maker
 search.app:
@@ -45,16 +45,25 @@ search.app:
 
 다음 요구 사항 중 하나를 해결해야 하는 경우 PowerApps 포털을 사용하여 Common Data Service에 대한 필드를 만들고 편집해야 합니다.
 
-- 고객 조회 필드 만들기
-- CDS 기본 솔루션 이외의 솔루션에 필드 만들기
-- 상태 설명 전환 정의
-- 한 번에 여러 필드 편집
-- 감사 사용
-- 활성화 필드 수준 보안
-- 상호 작용 환경의 전역 필터에 필드가 표시되는지 선택합니다.
-- 대화형 환경 대시보드에서 필드를 정렬할 것인지 선택합니다.
-- 업무상 권장되는 필드 요구 사항 수준 설정
-- 필드를 위한 관리 속성 설정
+- 고객 조회 필드 만들기. 
+   - 추가 정보: [조회의 다른 유형](types-of-fields.md#different-types-of-lookups)
+- CDS 기본 솔루션 이외의 솔루션에 필드 만들기. 
+   - 추가 정보: [솔루션 개요](solutions-overview.md)
+- 상태 설명 전환 정의. 
+   - 추가 정보: [서비스 케이스 또는 사용자 지정 엔터티에 대한 상태 설명 전환 정의](define-status-reason-transitions.md)
+- 한 번에 여러 필드 편집.
+- 감사 사용. 
+   - 추가 정보: [감사 개요](../../developer/common-data-service/auditing-overview.md)
+- 활성화 필드 수준 보안. 
+   - 추가 정보: [필드 보안 엔터티](../../developer/common-data-service/field-security-entities.md)
+- 상호 작용 환경의 전역 필터에 필드가 표시되는지 선택합니다. 
+   - 추가 정보: [모델 기반 앱 상호 작용 환경 대시보드 구성](../model-driven-apps/configure-interactive-experience-dashboards.md)
+- 대화형 환경 대시보드에서 필드를 정렬할 것인지 선택합니다. 
+   - 추가 정보: [모델 기반 앱 상호 작용 환경 대시보드 구성](../model-driven-apps/configure-interactive-experience-dashboards.md)
+- 업무상 권장되는 필드 요구 사항 수준 설정. 
+   - 추가 정보: [자습서: 비즈니스 규칙 및 추천을 만들어 모델 기반 앱 양식의 논리에 적용](../model-driven-apps/create-business-rules-recommendations-apply-logic-form.md)
+- 필드를 위한 관리 속성 설정. 
+   - 추가 정보: [필드 관리 속성 설정](set-managed-properties-for-field.md)
 
 > [!NOTE]
 > 엔터티에 대한 일대다 관계를 만들어 PowerApps 포털 또는 솔루션 탐색기에서 조회 필드를 만들 수 있습니다. 그러나 솔루션 탐색기만 필드를 만드는 동안 관계를 만드는 옵션을 제공합니다.

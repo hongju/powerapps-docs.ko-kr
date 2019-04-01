@@ -167,4 +167,6 @@ When you install the PowerApps checker these solution specific components are cr
 
 
 ## <a name="see-also"></a>참조
-[PowerApps 솔루션을 구축하기 위한 지침 및 모범 사례](https://docs.microsoft.com/dynamics365/customer-engagement/guidance/)
+[앱용 Common Data Service에 대한 모범 사례 및 지침](../../developer/common-data-service/best-practices/index.md)<br />
+[모델 기반 앱에 대한 모범 사례 및 지침](../../developer/model-driven-apps/best-practices/index.md)<br />
+[솔루션 검사기에 대한 일반적인 문제 및 해결 방법](common-issues-resolutions-solution-checker.md)<br />
