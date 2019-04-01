@@ -183,7 +183,7 @@ PowerApps에서 캔버스 앱에 대한 지원 센터 샘플 설치 및 구성�
 
 5. **업로드** 단추를 클릭하고 이전 단계에서 다운로드한 PowerApp 패키지를 선택합니다.
 6. **앱** 및 **흐름** 리소스 유형의 **가져오기 설정**을 **새 항목으로 만들기**로 설정합니다.
-7. **SharePoint** 및 **Outlook** 연결의 **가져오기 설정**을 **가져오는 동안 선택**으로 설정합니다.
+7. **SharePoint** 및 **Outlook** 연결의 **가져오기 설정**을 **가져올 때 선택**으로 설정합니다.
     
    ![설정 가져오기 화면](./media/help-desk-install/import-settings.png)
 
@@ -239,7 +239,7 @@ PowerApps에서 캔버스 앱에 대한 지원 센터 샘플 설치 및 구성�
 
 ### <a name="update-admin-list"></a>업데이트 관리자 목록
 
-1. **App**를 선택합니다.
+1. **LoginScreen**을 선택합니다.
 2. 드롭다운 메뉴에서 **OnStart**를 선택합니다.
 3. 수식 창을 확장하고 **AdminList** 컬렉션을 찾습니다.
 4. <strong>user@microsoft.com</strong>을 지원 센터 관리자로 바꿉니다.
@@ -273,19 +273,19 @@ PowerApps에서 캔버스 앱에 대한 지원 센터 샘플 설치 및 구성�
     > 수동으로 입력할 필요 없이 드롭다운 목록에서 선택할 수 있습니다.
 
 7.  **Switch**를 확장합니다.
-8.  **Case NOT STARTED** 경우를 확장합니다.
-9.  **Case note started notification** 동작을 확장합니다.
+8.  **NOT STARTED** 경우를 확장합니다.
+9.  **Case note started** 동작을 확장합니다.
 10. 지원 센터 관리자 이메일에 맞게 **받는 사람*을 변경합니다.
 
     ![흐름 편집 화면](./media/help-desk-install/edit-flow-condition-send-email.png) 
 
-11. **저장**을 클릭합니다.
+11. **흐름 업데이트**를 클릭합니다.
 
 ## <a name="play-the-powerapp"></a>PowerApp 재생
 
 1. 웹 브라우저에서 **앱**을 클릭합니다.
 2. 지원 센터 PowerApps 옆에 있는 **줄임표**를 클릭합니다.
-3. **재생**을 클릭합니다. 
+3. **열기**를 클릭합니다.
 
 > [!TIP]
 > 지원 센터 PowerApp 샘플을 사용하는 방법을 보려면 이 [동영상](https://youtu.be/sl5fXwwnvzI)을 시청하세요.
