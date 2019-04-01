@@ -38,7 +38,7 @@ PowerApps에 등록하지 않은 경우 시작하기 전에 [체험판으로 등
 
     ![앱 만들기 옵션](./media/data-platform-create-app/start-from-data.png)
 
-1. **Common Data Service** 타일에서 **전화 레이아웃**을 선택합니다.
+1. **Common Data Service** 타일에서 **휴대폰 레이아웃**을 선택합니다.
 
     ![연결 타일](./media/data-platform-create-app/connection-tile.png)
 
