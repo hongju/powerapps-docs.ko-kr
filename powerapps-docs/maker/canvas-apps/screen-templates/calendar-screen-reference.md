@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: abf88db2bfb97a6541ee638ba8be5af27c20bc5f
-ms.sourcegitcommit: 5e15a1033a68289781f8092fb65c57432501f911
+ms.openlocfilehash: e3d5f40a604d2cbfa074ed5973d599c40a6c5c05
+ms.sourcegitcommit: 647e183c070c2159b790c7813a7be1d60b2551bd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54459577"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58765586"
 ---
 # <a name="reference-information-about-the-calendar-screen-template-for-canvas-apps"></a>캔버스 앱에 대 한 달력 화면 템플릿에 대 한 참조 정보
 
@@ -191,7 +191,7 @@ PowerApps의 캔버스 앱에 대 한 중요 한 각 달력 화면 템플릿의 
     ```
 
     > [!NOTE]
-    > 에 대 한 정의가  **\_firstDayOfMonth**합니다  **\_firstDayInView**, 및  **\_lastDayOfMonth** 거의 일치 하는 에 [달력 드롭다운](#calendar-dropdown) 이 항목의 섹션입니다.
+    > 에 대 한 정의가  **\_firstDayOfMonth**합니다  **\_firstDayInView**, 및  **\_lastDayOfMonth** 거의 일치 하는 에 [달력 드롭다운](#calendar-drop-down) 이 항목의 섹션입니다.
 
     사용자가 다음 개월 펼침 단추를 선택할 때 실행할 앞의 코드의 첫 세 줄 적절 한 달력 보기를 표시 하는 데 필요한 변수를 설정 합니다. 나머지 코드에는 사용자는 선택한 일정에 대 한 이번 달 이전에 선택한 하지 않은 경우에 실행 됩니다.
 
