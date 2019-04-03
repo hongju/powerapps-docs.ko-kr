@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 04ef7924ce3f6945a666fe06bdc6091159bc44c4
-ms.sourcegitcommit: c6ad6ba7814c5e7b12c3b7b76bf2e7718bf41b8c
+ms.openlocfilehash: 6089063e2478c95bb5bfbc5926608d85552cea40
+ms.sourcegitcommit: fc604f3e7f0399bdabee86ce94f67de49531a444
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58198547"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "58545110"
 ---
 # <a name="create-and-update-a-collection-in-a-canvas-app"></a>만들기 및 캔버스 앱에서 컬렉션 업데이트
 
@@ -86,7 +86,7 @@ ms.locfileid: "58198547"
 
     ![갤러리의 항목 속성을 설정 하 고 표시 하는 필드 변경](./media/create-update-collection/configure-gallery.png)
 
-1. 닫기 합니다 **데이터** 창과 집합 합니다 **레이아웃** 필드를 **제목 및 부제목**합니다.
+1. 닫기는 **데이터** 창, 갤러리를 선택 하 고 설정한 합니다 **레이아웃** 필드를 **제목 및 부제목**합니다.
 
     ![갤러리의 항목 속성을 설정 하 고 표시 하는 필드 변경](./media/create-update-collection/change-layout.png)
 
