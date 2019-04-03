@@ -36,7 +36,7 @@ Common Data Service에서 앱을 빌드하면, SharePoint, Dynamics 365 및 Sale
 
 1. [PowerApps](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
 
-1. **나만의 앱 만들기** 아래에서 **빈 페이지의 캔버스 앱** 타일을 마우스로 클릭하고, **앱 이름**을 입력하고, 전화 아이콘을 클릭하거나 탭한 다음, **만들기**를 클릭하거나 탭합니다.
+1. **나만의 앱 만들기** 아래에서 캔버스 앱의 **비어 있는 상태에서 시작** 타일을 마우스로 가리키고, 전화 아이콘을 클릭하거나 탭한 다음, **만들기**를 클릭하거나 탭합니다.
 
     ![비어 있는 앱 타일](./media/data-platform-create-app-scratch/start-from-blank.png)
 
@@ -54,7 +54,7 @@ Common Data Service에서 앱을 빌드하면, SharePoint, Dynamics 365 및 Sale
 
 ## <a name="add-a-list-screen"></a>목록 추가 화면
 
-1. **홈** 탭에서 **새 화면**에 대한 아래쪽 화살표를 클릭하거나 탭한 다음, **목록** 화면을 클릭하거나 탭합니다.
+1. **홈** 탭에서 **새 화면**에 대한 아래쪽 화살표를 클릭하거나 탭한 다음, **목록 화면**을 클릭하거나 탭합니다.
 
     ![목록 추가 화면](./media/data-platform-create-app-scratch/list-screen.png)
 
@@ -86,7 +86,7 @@ Common Data Service에서 앱을 빌드하면, SharePoint, Dynamics 365 및 Sale
 
 ## <a name="add-a-form-screen"></a>양식 화면 추가
 
-1. 이전 절차의 첫 번째 단계를 반복합니다. 단, **목록** 화면 대신 **양식** 화면을 추가합니다.
+1. 이전 절차의 첫 번째 단계를 반복합니다. 단, **목록 화면** 대신 **양식 화면**을 추가합니다.
 
 1. 오른쪽 창의 **고급 탭**에 표시된 대로 양식의 **DataSource** 속성을 **거래처**, 해당 **Item** 속성을 **BrowseGallery.Selected**로 설정합니다.
 
