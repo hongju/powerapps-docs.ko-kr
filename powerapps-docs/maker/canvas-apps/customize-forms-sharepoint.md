@@ -67,7 +67,7 @@ Common Data Service에서 [앱을 생성](data-platform-create-app.md)한 다음
 
 1. (선택 사항) 이 시퀀스에 다른 카드를 다시 정렬 합니다.
 
-    - 계정 이름
+    - 거래처 이름
     - 직원 수
     - 연간 수익
     - 기본 전화
