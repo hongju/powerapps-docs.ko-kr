@@ -39,7 +39,7 @@ Common Data Service에서 [앱을 생성](data-platform-create-app.md)한 다음
     ![PowerApps 사이트의 홈 페이지](./media/customize-forms-sharepoint/sign-in.png)
 
 
-1. 사용자 지정하여 생성한 앱을 엽니다.
+1. 생성하고 사용자 지정한 앱을 엽니다.
 
 1. 왼쪽 탐색 모음의 검색 창에서 **D**를 입력하거나 붙여넣어 요소 목록을 필터링한 다음, **DetailForm1**을 클릭하거나 탭하여 선택합니다.
 
