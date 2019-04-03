@@ -75,7 +75,7 @@ ms.locfileid: "51333999"
 
 ## <a name="create-the-view-screen"></a>보기 화면 만들기
 
-1. **홈** 탭에서 **새 화면** 옆에 있는 아래쪽 화살표를 선택하여 화면 유형 목록을 연 다음, **목록** 화면을 선택합니다.
+1. **홈** 탭에서 **새 화면** 옆에 있는 아래쪽 화살표를 선택하여 화면 유형 목록을 연 다음, **목록**을 선택합니다.
 
     ![목록 추가 화면](./media/get-started-create-from-blank/add-list-screen.png)
 
@@ -138,16 +138,16 @@ ms.locfileid: "51333999"
 
 11. 검색 상자에서 모든 텍스트를 지웁니다.
 
-12. 화면 위쪽에서 **[레이블](controls/control-text-box.md)** 컨트롤을 선택한 다음, **[제목]** 을 **레코드 보기**로 바꿉니다.
+12. 화면 위쪽에서 **[레이블](controls/control-text-box.md)** 컨트롤을 선택한 다음, **[제목]**을 **레코드 보기**로 바꿉니다.
 
      ![제목 표시줄 변경](./media/get-started-create-from-blank/change-title-bar.png)
 
 ## <a name="create-the-change-screen"></a>변경 화면 만들기
-1. **홈** 탭에서 **새 화면** 옆에 있는 아래쪽 화살표를 선택한 다음, **양식** 화면을 선택합니다.
+1. **홈** 탭에서 **새 화면** 옆에 있는 아래쪽 화살표를 선택한 다음, **양식**을 선택합니다.
 
      ![양식 화면 추가](./media/get-started-create-from-blank/add-form-screen.png)
 
-1. 방금 추가한 화면에서 **데이터에 연결**을 선택하여 **데이터** 창을 열고 데이터 원본을 **Schedule**으로 설정합니다.
+1. 방금 추가한 화면에서 **데이터에 연결**을 선택하여 **데이터** 창을 열고 데이터 원본을 **Schedule**로 설정합니다.
 
 1. **필드** 아래에서 모든 확인란을 선택하여 양식의 모든 필드를 표시합니다.
 
@@ -159,7 +159,7 @@ ms.locfileid: "51333999"
 
 1. 양식을 선택하고, 해당 **Item** 속성을 수식 입력줄에 입력하거나 붙여넣어 이 식으로 설정합니다.<br>**BrowseGallery1.Selected**
 
-1. 화면 위쪽에서 **[레이블](controls/control-text-box.md)** 컨트롤을 선택한 다음, **[제목]** 을 **레코드 변경**으로 바꿉니다.
+1. 화면 위쪽에서 **[레이블](controls/control-text-box.md)** 컨트롤을 선택한 다음, **[제목]**을 **레코드 변경**으로 바꿉니다.
 
     ![제목 표시줄 변경](./media/get-started-create-from-blank/change-title-bar2.png)
 
