@@ -1,6 +1,6 @@
 ---
-title: 캔버스 앱의 모임 화면 템플릿에 대 한 참조 | Microsoft Docs
-description: PowerApps의 캔버스 앱에 대 한 모임 화면 템플릿을 원리의 세부 정보 이해
+title: 캔버스 앱의 모임 화면 템플릿 참조 | Microsoft Docs
+description: PowerApps의 캔버스 앱의 모임 화면 템플릿 세부 정보 이해
 author: emcoope-msft
 manager: kvivek
 ms.service: powerapps
@@ -20,15 +20,15 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/23/2019
 ms.locfileid: "54459531"
 ---
-# <a name="reference-information-about-the-meeting-screen-template-for-canvas-apps"></a>캔버스 앱에 대 한 모임 화면 템플릿에 대 한 참조 정보
+# <a name="reference-information-about-the-meeting-screen-template-for-canvas-apps"></a>캔버스 앱의 모임 화면 템플릿 참조 정보
 
-PowerApps의 캔버스 앱에 대 한 모임 화면 템플릿에 중요 한 각 컨트롤 화면의 전체 기본 기능에 기여 하는 방법을 이해 합니다. 이 심층 동작 수식 및 컨트롤 사용자 입력에 응답 하는 방법을 결정 하는 다른 속성의 값을 표시 합니다. 이 화면의 기본 기능의 간략 한 설명을에 대 한 참조를 [모임 화면 개요](meeting-screen-overview.md).
+PowerApps의 캔버스 앱의 모임 화면 템플릿에 중요한 각 컨트롤 화면이 전체 기본 기능에 기여 하는 방법을 이해 합니다. 이 깊이 있는 정보는 컨트롤이 사용자 입력에 응답 하는 방법을 결정 하는 다른 속성의 값 및 동작 수식을 표시 합니다. 이 화면의 기본 기능의 간략한 설명에 대해서는 [모임 화면 개요](meeting-screen-overview.md)를 참조합니다.
 
-이 항목에서는 몇 가지 중요 한 컨트롤을 강조 표시 하 고 다양 한 속성을 수식 또는 식에 설명 (같은 **항목** 하 고 **OnSelect**) 이러한 컨트롤은 설정 됩니다.
+이 항목에서는 몇 가지 중요한 컨트롤을 강조 표시 하고 각 컨트롤의 다양한 속성(**Items**와 **OnSelect** 같은)에 설정하는 수식 또는 식을 설명합니다.
 
-* [탭 (LblInviteTab)를 초대 합니다.](#invite-tab)
-* [일정 탭 (LblScheduleTab)](#schedule-tab)
-* [검색 입력란](#text-search-box)
+* [초대 탭](#invite-tab)
+* [일정 탭(LblScheduleTab)](#schedule-tab)
+* [텍스트 검색 상자](#text-search-box)
 * [추가 아이콘 (AddIcon)](#add-icon)
 * [사람 찾아보기 갤러리](#people-browse-gallery) (+ 자식 컨트롤)
 * [모임 사용자 갤러리](#meeting-people-gallery) (+ 자식 컨트롤)
@@ -36,40 +36,40 @@ PowerApps의 캔버스 앱에 대 한 모임 화면 템플릿에 중요 한 각 
 * [모임 기간 드롭다운 (MeetingDurationSelect)](#meeting-duration-drop-down)
 * [모임 시간 찾기 갤러리](#find-meeting-times-gallery) (+ 자식 컨트롤)
 * [대화방 갤러리 찾아보기](#room-browse-gallery) (+ 자식 컨트롤)
-* [백 펼침 단추 (RoomsBackNav)](#back-chevron) (표시 되지 않는 테 넌 트 방 목록 없는 경우)
+* [뒤로 펼침 단추 (RoomsBackNav)](#back-chevron) (테넌트에 회의실이 없는 경우 표시 되지 않음)
 * [보내기 아이콘](#send-icon)
 
 ## <a name="prerequisite"></a>필수 조건
 
-추가할 때 화면 및 기타 컨트롤을 구성 하는 방법 익히는 [PowerApps에서 앱을 만드는](../data-platform-create-app-scratch.md)합니다.
+[PowerApps에서 앱을 만들어](../data-platform-create-app-scratch.md) 화면 및 기타 컨트롤을 추가하고 구성하는 방법에 친숙합니다.
 
 ## <a name="invite-tab"></a>초대 탭
 
    ![LblInviteTab 컨트롤](media/meeting-screen/meeting-invite-text.png)
 
-* 속성: **색상**<br>
+* 속성: **Color**<br>
     값: `If( _showDetails, LblRecipientCount.Color, RectQuickActionBar.Fill )`
 
-    **_showDetails** 변수가 확인 하는 데 사용 여부를 합니다 **LblInviteTab** 컨트롤 또는 **LblScheduleTab** 컨트롤을 선택 합니다. 경우 값 **_showDetails** 됩니다 **true**를 **LblScheduleTab** 값이 선택 됩니다 **false**, **LblInviteTab**  을 선택 합니다. 경우를 의미 하는 값 **_showDetails** 은 **true** (이 탭 *되지* 선택), 탭 색 일치 **LblRecipientCount**. 채우기 값과 일치이 고, 그렇지 **RectQuickActionBar**합니다.
+    **\_showDetails** 변수는 **LblInviteTab** 컨트롤 또는 **LblScheduleTab** 컨트롤이 선택되었는지 여부를 결정하는데 사용됩니다.  **\_showDetails**의 값이 **true**라면, **LblScheduleTab**이 선택 됩니다. **false** 라면, **LblInviteTab**이 선택 됩니다. **\_showDetails** 의 값이 **true**(초대 탭이 선택되지 않음)이면, 탭의 색은 **LblRecipientCount**의 색과 일치합니다. 그렇지 않으면, **RectQuickActionBar**의 채우기 색과 일치 합니다.
 
 * 속성: **OnSelect**<br> 
     값: `Set( _showDetails, false )`
 
-    집합을 **_showDetails** 변수를 **false**, 즉, 초대 탭의 내용이 표시 및 내용의 **일정** 탭 숨겨집니다.
+    **\_showDetails** 변수를 **false**로 설정하여, 초대 탭의 내용이 표시되게 하고 **일정** 탭의 내용을 숨깁니다.
 
 ## <a name="schedule-tab"></a>일정 탭
 
    ![LblInviteTab 컨트롤](media/meeting-screen/meeting-schedule-text.png)
 
-* 속성: **색상**<br>
+* 속성: **Color**<br>
     값: `If( !_showDetails, LblRecipientCount.Color, RectQuickActionBar.Fill )`
 
-    **_showDetails** 변수가 확인 하는 데 사용 여부를 합니다 **LblInviteTab** 컨트롤 또는 **LblScheduleTab** 컨트롤을 선택 합니다. 이 true 이면 **LblScheduleTab** 을 선택 합니다; false 이면 **LblInviteTab** 됩니다. 즉 **_showDetails** 그렇습니다 (이 탭 *는* 선택), 탭 색 채우기 값과 일치 **RectQuickActionBar**합니다. 색 값과 일치이 고, 그렇지 **LblRecipientCount**합니다.
+    **\_showDetails** 변수는 **LblInviteTab** 컨트롤 또는 **LblScheduleTab** 컨트롤이 선택되었는지 여부를 결정하는데 사용됩니다.  **\_showDetails**의 값이 **true**라면, **LblScheduleTab**이 선택 됩니다. **false** 라면, **LblInviteTab**이 선택 됩니다. **\_showDetails** 의 값이 **true**(일정 탭이 선택됨)이면, 탭의 색은 **RectQuickActionBar**의 채우기 색과 일치합니다. 그렇지 않으면, **LblRecipientCount**의 색과 일치 합니다.
 
 * 속성: **OnSelect**<br>
     값: `Set( _showDetails, true )`
 
-    집합의 **_showDetails** 변수를 **true**, 즉 일정 탭의 내용이 표시 및 초대 탭의 내용을 숨겨집니다.
+    **\_showDetails** 변수를 **false**로 설정하여, 일정 탭의 내용이 표시되게 하고 초대 탭의 내용을 숨깁니다.
 
 ## <a name="text-search-box"></a>텍스트 검색 상자
 
@@ -77,20 +77,20 @@ PowerApps의 캔버스 앱에 대 한 모임 화면 템플릿에 중요 한 각 
 
 <!--Include description of text search box control?-->
 
-화면에 여러 가지 다른 컨트롤과이 대 한 종속성:
+**텍스트 검색 상자** 컨트롤은 화면의 다른 여러 컨트롤에 대해 종속성을 가집니다.:
 
-* 모든 텍스트를 입력 하기 시작할 경우 **PeopleBrowseGallery** 표시 됩니다.
-* 유효한 메일 주소를 입력 하면 **AddIcon** 표시 됩니다.
-* 사용자가 내에서 사용자를 선택 하는 경우 **PeopleBrowseGallery** 검색 내용을 다시 설정 됩니다.
+* 사용자가 텍스트를 입력 하기 시작할 경우 **PeopleBrowseGallery**이 나타납니다.
+* 유효한 메일 주소를 입력 하면 **AddIcon**이 표시 됩니다.
+* 사용자가 **PeopleBrowseGallery**에서 사용자를 선택 하는 경우, 검색 내용이 다시 설정 됩니다.
 
 ## <a name="add-icon"></a>추가 아이콘
 
    ![AddIcon 컨트롤](media/email-screen/email-add-icon.png)
 
-이 컨트롤에 사용자가 구성 되는 모임 참석자 목록에 해당 조직 내에서 존재 하지 않습니다 하는 사용자를 추가할 수 있습니다.
+**추가 아이콘** 컨트롤을 사용하여 앱 사용자는 해당 조직 내에서 존재 하지 않는 사람을 전자 메일 받는사람 목록에 추가할 수 있습니다.
 
 * 속성: **Visible**<br>
-    값: 로 계산 되어야 합니다 모든 확인 논리 세 **true** 표시 되도록 컨트롤에 대 한 합니다.
+    값: 검색 상자에 유효한 전자 메일 주소를 입력 하는 경우에만 컨트롤을 표시합니다:
 
     ```powerapps-dot
     !IsBlank( TextSearchBox.Text ) &&
@@ -98,14 +98,14 @@ PowerApps의 캔버스 앱에 대 한 모임 화면 템플릿에 중요 한 각 
         Not( Trim( TextSearchBox.Text ) in MyPeople.UserPrincipalName )
     ```
 
-  한 줄씩,이 코드 블록에 따르면 합니다 **AddIcon** 컨트롤이 표시 되는지 경우에만:
+  한 줄씩, 앞에 나오는 코드 블록에 따르면 **추가 아이콘** 컨트롤은 다음 경우에 해당되면 표시 됩니다:
 
-  * 합니다 **TextSearchBox** 텍스트를 포함 합니다.
-  * 텍스트가 **TextSearchBox** 유효한 전자 메일 주소입니다.
-  * 텍스트가 **TextSearchBox** 에 존재 하지 않는 합니다 **MyPeople** 컬렉션입니다.
+  * **TextSearchBox**가 텍스트를 포함 합니다.
+  * **TextSearchBox**의 텍스트가 유효한 전자 메일 주소입니다.
+  * **TextSearchBox**의 텍스트가 **MyPeople** 컬렉션에 존재 하지 않습니다.
 
 * 속성: **OnSelect**<br> 
-    값: A **수집** 사용 가능한 모임 시간 및 몇 가지 변수 설정/해제를 새로 고치려면 다른 참석자에 사용자를 추가할 문을 나열 합니다.
+    값: **Collect** 구문은 참석자 목록에 사용자를 추가하고 모임 시간을 새로 고침하고 몇몇 변수를 설정합니다.
 
     ```powerapps-dot
     Collect( MyPeople,
@@ -145,14 +145,14 @@ PowerApps의 캔버스 앱에 대 한 모임 화면 템플릿에 중요 한 각 
     Set( _showMeetingTimes, true )
     ```
 
-  이 컨트롤을 선택 하면 올바른 전자 메일 주소를 추가 (문서에 올바른 전자 메일 주소를 입력 하는 경우에 표시 **TextSearchBox**)에 **MyPeople** 컬렉션 (이 컬렉션은 참석자 목록) 및 새 사용자 항목을 사용 하 여 사용할 수 있는 회의 시간을 새로 고칩니다.
+  이 컨트롤을 선택 하면 **MyPeople** 컬렉션에(참석자 목록) 유효한 전자 메일 주소를(유효한 전자 메일 주소가 텍스트 검색 상자에 입력되면 표시) 추가한 다음 새 사용자 항목으로 가능한 모임 시간을 새로 고칩니다.
 
-  낮은 수준에서이 코드 블록:
-  1. 에 전자 메일 주소를 수집 합니다 **MyPeople** 전자 메일 주소를 수집 하는 컬렉션에는 **DisplayName**, **UserPrincipalName**, 및 **메일**  필드입니다.
-  1. 콘텐츠를 다시 설정 합니다 **TextSearchBox** 제어 합니다.
-  1. 설정 된 **_showMeetingTimes** 변수를 **false**합니다. 이 변수는 표시 유형을 제어 **FindMeetingTimesGallery**는 열려 있는 시간에 맞게 선택된 참석자에 게 표시 합니다.
-  1. 설정 된 **_loadMeetingTimes** 컨텍스트 변수의 **true**합니다. 이 변수 설정 등의 컨트롤 상태를 로드 하는 표시 상태를 전환 하는 로드 상태가 **_LblTimesEmptyState** 사용자에 게 나타내기 위해 해당 데이터를 로드할 대상입니다.
-  1. 집합 **_selectedMeetingTime** 하 **blank ()** 합니다. **_selectedMeetingTime** 에서 선택한 레코드가 합니다 **FindMeetingTimesGallery** 제어 합니다. 이 숨겨집니다 여기 있기 때문에 다른 참가자를 추가할 수는의 이전 정의가 **_selectedMeetingTime** 는 해당 참석자에 사용할 수 없습니다.
+  상세한 코드 블록:
+  1. **MyPeople** 에 전자 메일 주소를 수집 합니다. 전자 메일 주소를 **DisplayName**, **UserPrincipalName** 및 **Mail** 필드로 수집 합니다.
+  1. **TextSearchBox** 컨트롤의 내용을 다시 설정 합니다.
+  1. **\_showMeetingTimes** 변수를 **false** 로 설정 합니다. 이 변수는 **FindMeetingTimesGallery**의 표시를 제어하여 선택된 참석자에게 가능한 시간을 표시 합니다.
+  1. **\_loadMeetingTimes** 컨텍스트 변수를 **true**로 설정 합니다. 이 변수는 로딩 상태를 설정하여, 사용자에게 해당 데이터가 로드 되는지를 알려주는 **\_LblTimesEmptyState** 와 같은 로딩 상태 컨트롤의 표시를 변경합니다.
+  1. **\_selectedMeetingTime**을 **blank()**로 설정 합니다. **\_selectedMeetingTime**은 **FindMeetingTimesGallery** 컨트롤에서 선택된 레코드입니다. 이 숨겨집니다 여기 있기 때문에 다른 참가자를 추가할 수는의 이전 정의가 **_selectedMeetingTime** 는 해당 참석자에 사용할 수 없습니다.
   1. Sets **_selectedRoom** to **Blank()**. **_selectedRoom** 에서 선택한 공간 레코드가 **RoomBrowseGallery**합니다. 공간 가용성의 값에서 결정 됩니다 **_selectedMeetingTime**합니다. 숨겨진, 해당 값을 사용 하 여는 **_selectedRoom** 값 이므로 더 이상 유효 숨겨집니다 수 있어야 합니다.
   1. 집합 **_roomListSelected** 하 **false**합니다. 이 줄의 모든 사용자에 게 적용할 수를 알 수 있습니다. 사무실에서 그룹화 할 수 있습니다 프로그램 방 다른 "회의실 목록." 회의실 목록에 있는 경우에 사용할 수 있도록 첫 번째 select 회의실 목록에서 해당 목록에서 객실을 선택 하기 전에이 화면을 차지 합니다. 변수의 **_roomListSelected** 사용자 (회의실 목록에만 사용 하 여 테 넌 트)에 있는지 여부를 결정은 회의실 목록 또는 회의실 목록 집합 내의 표시 됩니다. 로 설정 되어 **false** 강제로 사용자가 새 대화방 목록을 다시 선택 하도록 합니다.
   1. 사용 하는 [Office365.FindMeetingTimes](https://docs.microsoft.com/connectors/office365/#find-meeting-times) 결정 참석자에 대 한 사용 가능한 회의 시간을 수집 하는 작업입니다. 이 작업으로 전달합니다.
@@ -194,7 +194,7 @@ PowerApps의 캔버스 앱에 대 한 모임 화면 템플릿에 중요 한 각 
     Office 365 프로필에서 사용자의 표시 이름을 표시합니다.
 
 * 속성: **OnSelect**<br>
-    값: A **수집** 사용 가능한 모임 시간 및 몇 가지 변수 설정/해제를 새로 고치려면 다른 참석자에 사용자를 추가할 문을 나열 합니다.
+    값: **Collect** 구문은 참석자 목록에 사용자를 추가하고 모임 시간을 새로 고침하고 몇몇 변수를 설정합니다.
 
     ```powerapps-dot
     Concurrent(
@@ -233,7 +233,7 @@ PowerApps의 캔버스 앱에 대 한 모임 화면 템플릿에 중요 한 각 
     )
     ```
 
-    이 컨트롤을 선택 하면 높은 수준에서 사람의 추가 합니다 **MyPeople** 컬렉션 (참석자 목록 앱의 저장소) 및 새로 고침 사용 가능한 모임 시간 기준으로 새 사용자 추가 합니다.
+    이 컨트롤을 선택 하면 **MyPeople** 컬렉션에(참석자 목록) 유효한 전자 메일 주소를(유효한 전자 메일 주소가 텍스트 검색 상자에 입력되면 표시) 추가한 다음 새 사용자 항목으로 가능한 모임 시간을 새로 고침 합니다.
 
     이 컨트롤을 선택 하는 점을 선택 하는 **AddIcon** ; 유일한 차이는 `Set(_selectedUser, ThisItem)` 문과 작업의 실행 순서입니다. 따라서이 토론으로 심층 수 없습니다. 자세한 설명은 읽기를 [AddIcon 컨트롤](#add-icon) 섹션입니다.
 
