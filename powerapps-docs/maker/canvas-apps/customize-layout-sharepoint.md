@@ -47,7 +47,7 @@ PowerApps에 등록하지 않은 경우 시작하기 전에 [체험판으로 등
 
 ## <a name="prerequisites"></a>필수 조건
 
-[앱 생성](data-platform-create-app.md) 에서 합니다 **계정** Common Data service 엔터티.
+Common Data service의 **계정**  엔터티에서 [앱을 생성](data-platform-create-app.md)합니다.
 
 ## <a name="open-the-generated-app"></a>생성된 앱 열기
 
@@ -126,7 +126,7 @@ PowerApps에 등록하지 않은 경우 시작하기 전에 [체험판으로 등
 
     ![화면 제목 선택](./media/customize-layout-sharepoint/select-title.png)
 
-1. 속성 목록에 **텍스트**가 표시되는지 확인하고 수식 입력줄에서 **계정**을 **찾아보기**(큰따옴표 유지)로 바꿉니다.
+1. 속성 목록에 **텍스트**가 표시되는지 확인하고 수식 입력줄에서 **계정**을 **Browse**(큰따옴표 유지)로 바꿉니다.
 
     ![화면 제목 업데이트](./media/customize-layout-sharepoint/change-screen-title.png)
 

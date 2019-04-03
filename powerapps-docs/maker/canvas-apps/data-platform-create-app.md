@@ -20,21 +20,21 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/22/2019
 ms.locfileid: "58356865"
 ---
-# <a name="generate-a-canvas-app-from-common-data-service-in-powerapps"></a>PowerApps에서 Common Data Service에서 캔버스 앱 생성
+# <a name="generate-a-canvas-app-from-common-data-service-in-powerapps"></a>PowerApps에서 Common Data Service로부터 캔버스 앱 생성
 
-PowerApps에서 캔버스 앱의 샘플 계정 목록에 따라 자동으로 생성 [Common Data Service](../common-data-service/data-platform-intro.md)합니다. 이 앱에서는 모든 계정을 찾아보고, 단일 계정의 세부 정보를 표시하며, 계정을 생성, 업데이트 또는 삭제할 수 있습니다.
+PowerApps에서는 [Common Data Service](../common-data-service/data-platform-intro.md)의 샘플 계정 목록에 따라 캔버스 앱을 자동으로 생성합니다. 이 앱에서는 모든 계정을 찾아보고, 단일 계정의 세부 정보를 표시하며, 계정을 생성, 업데이트 또는 삭제할 수 있습니다.
 
 PowerApps에 등록하지 않은 경우 시작하기 전에 [체험판으로 등록합니다](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 
 ## <a name="prerequisites"></a>필수 조건
 
-이 빠른 시작을 수행 하려면에 할당 되어야 합니다는 [Environment Maker](https://docs.microsoft.com/power-platform/admin/database-security.md#predefined-security-roles) 보안 역할을 합니다 [환경으로 전환](working-with-environments.md) 는 Common Data Service에서 데이터베이스 만들어지면에서 데이터가 포함 업데이트를 허용 하 고 있습니다. 이러한 환경이 없고 관리자 권한이 있으면 이 요구 사항을 충족하는 [환경을 만들 수 있습니다](https://docs.microsoft.com/power-platform/admin/environments-administration.md#create-an-environment).
+이 빠른 시작을 수행하려면 [Environment Maker](https://docs.microsoft.com/power-platform/admin/database-security.md#predefined-security-roles) 보안 역할에 할당되어야 합니다. Common Data Service에서 데이터베이스를 만들고, 데이터를 포함하고 업데이트를 허용하는 [환경으로 전환](working-with-environments.md)해야 합니다. 이러한 환경이 없고 관리자 권한이 있으면 이 요구 사항을 충족하는 [환경을 만들 수 있습니다](https://docs.microsoft.com/power-platform/admin/environments-administration.md#create-an-environment).
 
 ## <a name="generate-an-app"></a>앱 생성
 
 1. [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인하고 필요한 경우 이 항목의 앞부분에 지정된 대로 환경을 전환합니다.
 
-1. **고유한 앱 만들기** 아래에서 **데이터로 시작**을 마우스로 가리킨 다음, **이 앱 만들기**를 선택합니다.
+1. **나만의 앱 만들기** 아래에서 **데이터로 시작**을 마우스로 가리킨 다음, **만들기**를 선택합니다.
 
     ![앱 만들기 옵션](./media/data-platform-create-app/start-from-data.png)
 
@@ -67,4 +67,4 @@ PowerApps에 등록하지 않은 경우 시작하기 전에 [체험판으로 등
 이 빠른 시작에서는 Common Data Service에서 계정에 대 한 샘플 데이터를 관리 하는 앱을 만들었습니다. 다음 단계에서는 사용자의 요구 사항에 맞게 기본 찾아보기 화면의 갤러리 및 다른 요소를 사용자 지정합니다.
 
 > [!div class="nextstepaction"]
-> [갤러리를 사용자 지정](customize-layout-sharepoint.md)합니다.
+> [갤러리를 사용자 지정합니다.](customize-layout-sharepoint.md)

@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: e9c63d1814b72cae0c675be6b33773799cfb3b8f
-ms.sourcegitcommit: 5b2b70c3fc7bcba5647d505a79276bbaad31c610
+ms.openlocfilehash: ce8128f3a5eddf3a67fe2082844bf996c25adc05
+ms.sourcegitcommit: 2180982e57f0d161610be584fdae9424fe7e06b5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58357095"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "58616688"
 ---
 # <a name="concurrent-function-in-powerapps"></a>PowerApps의 Concurrent 함수
 동시에 서로 여러 수식을 평가합니다.
@@ -131,7 +131,7 @@ ms.locfileid: "58357095"
 
 4. [**데이터 테이블**](../controls/control-data-table.md) 컨트롤을 추가하고 **Items** 속성을 **Results**로 설정합니다.
 
-1. 오른쪽 창의 **속성** 탭에서 **결과**를 선택하여 **데이터** 창을 엽니다.
+1. 에 **속성** 선택 오른쪽 창의 탭 **필드를 편집** 열려는 합니다 **필드** 창.
 
 1. 필드 목록에서 각 필드에 대한 확인란을 선택하여 데이터 테이블에서 모두 표시합니다.
 

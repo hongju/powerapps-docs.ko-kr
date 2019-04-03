@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: ca97583948a289240bfb051fa8cac36a39e2ffee
-ms.sourcegitcommit: c6ad6ba7814c5e7b12c3b7b76bf2e7718bf41b8c
+ms.openlocfilehash: 711d8029f0f8353efcdff5bea8cbb1402884502f
+ms.sourcegitcommit: 647e183c070c2159b790c7813a7be1d60b2551bd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58198639"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58765482"
 ---
 # <a name="customize-a-sharepoint-list-form-by-using-powerapps"></a>PowerApps를 사용하여 SharePoint 목록 양식 사용자 지정
 
@@ -189,7 +189,7 @@ SharePoint 사이트에서 목록을 만듭니다 하와 해당 목록에 이러
 
 **Q:** 폼을 공유 하려면 어떻게 해야 하나요?
 
-**A:** 형식을 공유할 필요가 없습니다-폼 SharePoint 목록에서 사용 권한을 상속 받습니다. 사용자 지정을 완료한 후 [SharePoint에 다시 게시](customize-list-form.md#save-and-publish-the-list-form-back-to-sharepoint)만 하면 다른 사람이 사용할 수 있습니다.
+**A:** 형식을 공유할 필요가 없습니다-폼 SharePoint 목록에서 사용 권한을 상속 받습니다. 사용자 지정을 완료한 후 [SharePoint에 다시 게시](customize-list-form.md#save-and-publish-the-form)만 하면 다른 사람이 사용할 수 있습니다.
 
 **Q:** 폼을 사용자 지정할 수는?
 
