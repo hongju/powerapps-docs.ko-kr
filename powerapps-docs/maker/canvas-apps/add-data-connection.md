@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 33ca717967989a202fabbf8281b93f8b8263b79d
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.openlocfilehash: 28357a6187831e05fe27075b8b22514950215ab4
+ms.sourcegitcommit: fc604f3e7f0399bdabee86ce94f67de49531a444
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42853207"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "58545064"
 ---
 # <a name="add-a-data-connection-to-a-canvas-app-in-powerapps"></a>PowerApps의 캔버스 앱에 데이터 연결 추가
 
@@ -34,57 +34,54 @@ PowerApps에서 처음부터 앱을 빌드할 때 또는 기존 캔버스 앱에
 
 PowerApps에 [등록](../signup-for-powerapps.md)한 다음, 등록에 사용한 동일한 자격 증명을 입력하여 [로그인](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)합니다.
 
-## <a name="add-a-data-source"></a>데이터 원본 추가
-1. **홈** 탭에서 **비어 있는 상태에서 시작** 타일을 마우스로 가리킨 다음, **이 앱 만들기**를 선택합니다.
+## <a name="open-a-blank-app"></a>비어 있는 앱 열기
 
-    ![앱을 처음부터 만들기](./media/add-data-connection/blank-app-tile.png)
+1. 에 **Home** 탭을 선택 **비어 있는 상태에서 캔버스 앱**합니다.
+
+1. 앱에 대 한 이름을 지정 하 고 선택한 **만들기**합니다.
 
 1. **PowerApps Studio 시작** 대화 상자에서 **건너뛰기**를 선택합니다.
 
-3. 가운데 창에서 **데이터에 연결**을 클릭하거나 탭합니다.
+## <a name="add-data-source"></a>데이터 원본 추가
 
-4. **데이터** 창의 연결 목록에 원하는 항목이 포함되어 있는 경우 해당 항목을 선택하여 앱에 추가합니다. 그렇지 않은 경우 다음 단계를 건너뜁니다.
+1. 가운데 창에서 선택 **데이터에 연결할** 열려는 합니다 **데이터** 창입니다.
 
-    ![데이터 원본 추가](./media/add-data-connection/choose-existing-connections.png)
+    컨트롤을 화면에 이미 포함 되어이 된 기존 앱을 선택 **뷰** > **데이터 원본** 동일한 창을 엽니다.
 
-5. **새 연결**을 선택하여 커넥터의 목록을 표시합니다.
+1. 선택 **데이터 원본 추가**합니다.
 
-    ![연결 추가](./media/add-data-connection/new-connection.png)
+1. 연결 목록에서 원하는 것에 포함 된 경우에 앱에 추가 하려면 선택 합니다. 그렇지 않은 경우 다음 단계를 건너뜁니다.
 
-6. 만들려는 연결의 유형이 표시될 때까지 커넥터 목록을 스크롤한 다음(예: **Office 365 Outlook**), 해당 항목을 선택합니다.
+    ![기존 연결 선택](./media/add-data-connection/choose-existing-connection.png)
 
-    ![연결 선택](./media/add-data-connection/choose-connection.png)
+1. 선택 **새 연결** 연결의 목록을 표시 합니다.
 
-7. **만들기**를 선택하여 연결을 만들고 앱에 추가합니다.
+    ![연결 추가](./media/add-data-connection/add-connection.png)
+
+1. 검색 창에서 원하는 연결의 처음 몇 문자를 입력 또는 붙여넣고 선택한 다음 연결 표시 되는 경우.
+
+    ![연결 검색](./media/add-data-connection/search-connections.png)
+
+1. **만들기**를 선택하여 연결을 만들고 앱에 추가합니다.
 
     **Office 365 Outlook**과 같은 일부 커넥터는 추가 단계가 필요하지 않으며 즉시 데이터를 표시할 수 있습니다. 다른 커넥터의 경우 자격 증명을 제공하고, 데이터의 특정 집합을 지정하거나 다른 단계를 수행하라는 메시지가 표시됩니다. 예를 들어 [SharePoint](connections/connection-sharepoint-online.md) 및 [SQL Server](connections/connection-azure-sqldatabase.md)는 사용하기 전에 추가 정보가 필요합니다.
-
-## <a name="add-another-data-source"></a>다른 데이터 원본 추가
-1. 데이터 원본을 추가할 컨트롤을 추가합니다.
-
-    컨트롤에는 갤러리 및 목록 상자에 포함된 것 같은 **Items** 속성이나 양식에 포함된 것 같은 **Item** 속성이 있어야 합니다.
-
-1. **데이터** 창(자동으로 열림)에서 **데이터 원본** 아래에 있는 목록을 열고 **데이터 원본 추가**를 선택합니다.
-
-1. 4단계부터 시작하여 이전 절차를 수행합니다.
 
 ## <a name="identify-or-change-a-data-source"></a>데이터 원본 식별 또는 변경
 앱을 업데이트하는 경우 갤러리, 양식 또는 다른 컨트롤에 표시되는 데이터의 원본을 식별하거나 변경해야 할 수 있습니다. 예를 들어 다른 사용자가 만들거나 자신이 오래전에 만든 앱을 업데이트할 때 데이터 원본을 식별해야 할 수 있습니다.
 
-1. 데이터 원본을 식별 또는 변경하려는 컨트롤을 선택합니다.
-
-    예를 들어 왼쪽 가장자리 근처에 있는 화면 및 컨트롤의 계층적 목록에 있는 항목을 클릭하거나 탭하여 갤러리(갤러리 내 컨트롤이 아님)를 선택합니다.
+1. 와 같은 식별 하거나 데이터 소스를 변경 하려는 갤러리 컨트롤을 선택 합니다.
 
     데이터 원본의 이름이 오른쪽 창의 **속성** 탭에 나타납니다.
 
-2. 데이터 원본을 선택하여 변경하거나 이에 대한 추가 정보를 표시합니다.
+    ![연결 확인](./media/add-data-connection/identify-connection.png)
 
-    ![데이터 창](./media/add-data-connection/data-pane.png)
+1. 데이터 원본에 대 한 자세한 정보를 표시 하거나 변경 하려면 해당 이름 옆에 있는 아래쪽 화살표를 선택 합니다.
 
-3. 데이터 원본을 변경하려면 데이터 원본 목록을 열고 다른 원본을 선택하거나 만듭니다.
+    현재 데이터 원본에 대 한 자세한 정보 표시 되 고 선택 하거나 다른 소스를 만들 수 있습니다.
 
-     ![데이터 창](./media/add-data-connection/datasource-list.png)
+    ![연결 변경](./media/add-data-connection/change-connection.png)
 
 ## <a name="next-steps"></a>다음 단계
+
 * Excel, SharePoint 또는 SQL Server와 같은 원본에서 데이터를 표시하고 업데이트하려면 [갤러리를 추가](add-gallery.md)하고 [폼을 추가](add-form.md)합니다.
 * 다른 원본에 있는 데이터의 경우, [Office 365 Outlook](connections/connection-office365-outlook.md), [Twitter](connections/connection-twitter.md) 및 [Microsoft Translator](connections/connection-microsoft-translator.md)에 대한 데이터와 같이 커넥터 특정 기능을 사용합니다.
