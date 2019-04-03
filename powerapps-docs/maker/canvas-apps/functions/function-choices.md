@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 77268aa63ed49d10f825850909d31ec4feace063
-ms.sourcegitcommit: 5b2b70c3fc7bcba5647d505a79276bbaad31c610
+ms.openlocfilehash: ed555f5de4abc1e29b7d2a637413c440bd882f13
+ms.sourcegitcommit: 6b116a4079eb56ebd598d317a12df8856ff3e52a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58357601"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "58671958"
 ---
 # <a name="choices-function-in-powerapps"></a>PowerApps의 Choices 함수
 조회 열에 대해 가능한 값의 테이블을 반환합니다.
@@ -63,42 +63,43 @@ ms.locfileid: "58357601"
 
     각 계정의 경우 연락처가 기본 연락처로 지정되거나 기본 연락처가 *비어* 있습니다.
 
-2. **계정** 엔터티에서 [앱 생성](../data-platform-create-app.md)
+1. **계정** 엔터티에서 [앱 생성](../data-platform-create-app.md)
 
-3. 왼쪽 모서리 근처의 화면 및 컨트롤 목록에서 **EditScreen1**이 나타날 때까지 아래로 스크롤한 다음, 바로 아래에서 **EditForm1**을 선택합니다.
+1. 왼쪽 모서리 근처의 화면 및 컨트롤 목록에서 **EditScreen1**이 나타날 때까지 아래로 스크롤한 다음, 바로 아래에서 **EditForm1**을 선택합니다.
 
     ![왼쪽 탐색 모음에서 EditScreen1의 EditForm1을 선택합니다.](media/function-choices/select-editform.png)
 
-4. 오른쪽 창의 **속성** 탭에서 **계정**을 선택합니다.
+1. 에 **속성** 선택 오른쪽 창의 탭 **필드를 편집할**합니다.
 
-    ![계정을 선택하여 데이터 창을 엽니다.](media/function-choices/open-data-pane.png)
+    ![데이터 창 열기](media/function-choices/open-data-pane.png)
 
-5. **데이터** 창에서 필드 목록까지 아래로 스크롤합니다.
+1. 에 **필드** 창 **추가 필드**합니다.
+
+1. 검색 된 **기본 연락처** 필드, 해당 확인란을 선택한 후 **추가**합니다.
 
     ![계정을 선택하여 데이터 창을 엽니다.](media/function-choices/field-list.png)
 
-6. **기본 연락처** 확인란을 찾은 다음, 선택되지 않은 경우 선택합니다.
+    합니다 **기본 연락처** 필드가 폼의 맨 아래에 나타납니다. 필드는 오류가 표시 되 면 선택 **데이터 원본** 에 **뷰** 탭에 대 한 줄임표 (...)를 선택 합니다는 **계정** 데이터 원본을 선택한 후 **새로 고침** .
 
-7. (선택 사항) 필드 목록의 맨 아래에서 위로 **기본 연락처** 필드를 끌어옵니다.
+1. (선택 사항) 필드 목록의 맨 아래에서 위로 **기본 연락처** 필드를 끌어옵니다.
 
-8. **기본 연락처**의 카드에서 **콤보 상자** 컨트롤을 선택합니다.
+1. **기본 연락처**의 카드에서 **콤보 상자** 컨트롤을 선택합니다.
 
-    해당 컨트롤의 **Items** 속성은 고급 설정에서 **열 표시 이름 사용** 확인란의 상태에 따라 두 수식 중 하나로 설정됩니다.
+    합니다 **항목** 해당 컨트롤의 속성은 첫 번째 예제와 같이 해당 표시 이름 또는 두 번째 예제와 같이 해당 논리적 이름과 열을 식별 하는 수식으로 설정 됩니다.
 
-   - 확인란을 선택하면 해당 속성은 다음과 같은 수식으로 설정됩니다.<br>**Choices( Accounts.'Primary Contact' )**
-   - 확인란의 선택을 취소하면 해당 속성은 다음과 같은 수식으로 설정됩니다.<br>**Choices( Accounts.primarycontactid )**
+   - **Choices( Accounts.'Primary Contact' )**
+   - **Choices( Accounts.primarycontactid )**
 
-     ![양식 컨트롤을 사용하는 캔버스 화면입니다. **기본 연락처** 카드 내에서 **콤보 상자** 컨트롤이 선택되면 Choices( Accounts.'Primary Contact' ) 수식이 포함된 Items 속성이 표시됩니다.](media/function-choices/accounts-primary-contact.png)
+     ![양식 컨트롤을 사용하는 캔버스 화면입니다. 콤보 상자 컨트롤이 기본 연락처 카드 내에서 선택 하 고 수식 선택 (계정.' 기본 연락처 ')를 사용 하 여 항목 속성 표시](media/function-choices/accounts-primary-contact.png)
 
-9. **홈** 탭에서 **새 화면**을 선택한 다음, **비어 있음**을 선택합니다.
+1. **홈** 탭에서 **새 화면**을 선택한 다음, **비어 있음**을 선택합니다.
 
-10. **삽입** 탭에서 **데이터 테이블**을 선택합니다.
+1. **삽입** 탭에서 **데이터 테이블**을 선택합니다.
 
-11. **데이터 테이블** 컨트롤의 **Items** 속성을 다음 수식 중에 하나로 설정합니다.
+1. 설정 된 **항목** 의 속성을 **데이터 테이블** 컨트롤을 다음이 수식으로:
 
-     - 고급 설정에서 **열 표시 이름 사용** 확인란이 선택되면 다음 수식을 사용합니다.<br>**Choices( Accounts.'Primary Contact' )**
-     - 그렇지 않으면 다음 수식을 사용합니다.<br>**Choices( Accounts.primarycontactid )**
+     **Choices( Accounts.'Primary Contact' )**
 
-12. **데이터** 창을 연 다음, **firstname**, **lastname** 또는 표시할 기타 필드의 확인란을 선택합니다.
+1. 가운데에 **데이터 테이블** 컨트롤을 시작 하는 링크를 선택 **필드를 선택 하는 중...** , 다음 필드를 표시 하려는 필드에 대 한 확인란을 선택 하 고 (예를 들어 **firstname** 하 고 **lastname**).
 
      ![데이터 테이블 컨트롤을 사용하는 캔버스 화면입니다. Items 속성이 Choices( Accounts.'Primary Contact' ) 수식으로 설정되면 테이블에서는 연락처 엔터티의 첫 번째 집합 레코드에 대한 firstname 및 lastname 열을 보여줍니다.](media/function-choices/full-accounts-pc.png)
