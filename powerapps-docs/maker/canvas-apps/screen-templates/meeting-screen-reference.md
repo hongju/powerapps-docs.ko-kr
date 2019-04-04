@@ -428,7 +428,8 @@ PowerApps의 캔버스 앱의 모임 화면 템플릿에 중요한 각 컨트롤
     )
     ```
 
-  검색된 **StartTime**의 값은 UTC 형식으로 되어 있습니다. [UTC에서 현지 시간으로 변환](../functions/function-dateadd-datediff.md#converting-from-utc)하려면 **DateAdd** 함수를 적용 합니다. [Text 함수](../functions/function-text.md#datetime)는 첫 번째 인수로 날짜/시간,두 번째 인수로 서식을 사용 합니다. **ThisItem.StartTime**의 현지 시간 변환을 전달하여 **DateTimeFormat.ShortTime**으로 표시 합니다.
+  검색된 **StartTime**의 값은 UTC 형식으로 되어 있습니다. [UTC에서 현지 시간으로 변환](../functions/function-dateadd-datediff.md#converting-from-utc)하려면 **DateAdd** 함수를 적용 합니다.
+  [Text 함수](../functions/function-text.md#datetime)는 첫 번째 인수로 날짜/시간,두 번째 인수로 서식을 사용 합니다. **ThisItem.StartTime**의 현지 시간 변환을 전달하여 **DateTimeFormat.ShortTime**으로 표시 합니다.
 
 * 속성: **OnSelect**<br>
     값: 몇몇 **Collect** 구문에서 회의실과 제안된 가용성을 수집하고 몇몇 변수를 설정 합니다:
