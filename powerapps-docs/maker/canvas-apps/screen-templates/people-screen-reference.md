@@ -1,6 +1,6 @@
 ---
 title: 사용자 화면 템플릿 참조 | Microsoft Docs
-description: PowerApps의 캔버스 앱에 대 한 사용자 화면 템플릿을 작동 하는 방법의 세부 정보 이해
+description: PowerApps의 캔버스 앱에 대한 사용자 화면 템플릿을 작동 하는 방법의 세부 정보 이해
 author: emcoope-msft
 manager: kvivek
 ms.service: powerapps
@@ -20,35 +20,35 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/23/2019
 ms.locfileid: "54459462"
 ---
-# <a name="reference-information-about-the-people-screen-template-for-canvas-apps"></a>캔버스 앱에 대 한 사용자 화면 템플릿에 대 한 참조 정보
+# <a name="reference-information-about-the-people-screen-template-for-canvas-apps"></a>캔버스 앱의 사용자 화면 템플릿에 대한 참조 정보
 
-PowerApps의 캔버스 앱에 대 한 중요 한 각 사용자 화면 템플릿의 컨트롤 화면의 전체 기본 기능에 기여 하는 방법을 이해 합니다. 이 심층 동작 수식 및 컨트롤 사용자 입력에 응답 하는 방법을 결정 하는 다른 속성의 값을 표시 합니다. 이 화면의 기본 기능의 간략 한 설명을에 대 한 참조를 [사용자 화면 개요](people-screen-overview.md)합니다.
+PowerApps의 캔버스 앱의 사용자 화면 템플릿에 중요한 각 컨트롤 화면이 전체 기본 기능에 기여 하는 방법을 이해 합니다. 이 깊이 있는 정보는 컨트롤이 사용자 입력에 응답 하는 방법을 결정 하는 다른 속성의 값 및 동작 수식을 표시 합니다. 이 화면의 기본 기능의 간략한 설명에 대해서는 [사용자 화면 개요](people-screen-overview.md)를 참조합니다. 
 
-이 항목에서는 몇 가지 중요 한 컨트롤을 강조 표시 하 고 다양 한 속성을 수식 또는 식에 설명 (같은 **항목** 하 고 **OnSelect**) 이러한 컨트롤은 설정 됩니다.
+이 항목에서는 몇 가지 중요한 컨트롤을 강조 표시 하고 각 컨트롤의 다양한 속성(**Items**와 **OnSelect** 같은)에 설정하는 수식 또는 식을 설명합니다.
 
-* [검색 입력란](#text-search-box)
+* [텍스트 검색 상자](#text-search-box)
 * [사용자 찾아보기 갤러리](#user-browse-gallery) (+ 자식 컨트롤)
 * [사용자 추가 갤러리](#people-added-gallery) (+ 자식 컨트롤)
 
 ## <a name="prerequisite"></a>필수 조건
 
-추가할 때 화면 및 기타 컨트롤을 구성 하는 방법 익히는 [PowerApps에서 앱을 만드는](../data-platform-create-app-scratch.md)합니다.
+[PowerApps에서 앱을 만들어](../data-platform-create-app-scratch.md) 화면 및 기타 컨트롤을 추가하고 구성하는 방법에 친숙합니다.
 
 ## <a name="text-search-box"></a>텍스트 검색 상자
 
 ![TextSearchBox 컨트롤](media/people-screen/people-search-box.png)
 
-몇 가지 다른 컨트롤과 상호 작용 하거나 텍스트 검색 상자에 대 한 종속성:
+**텍스트 검색 상자** 컨트롤은 화면의 다른 여러 컨트롤에 대해 종속성을 가집니다:
 
-* 모든 텍스트를 입력 하기 시작할 경우 **UserBrowseGallery** 표시 됩니다.
-* 사용자가 내에서 사용자를 선택 하는 경우 **UserBrowseGallery**, 검색 내용을 다시 설정 됩니다.
+* 사용자가 텍스트를 입력 하기 시작할 경우 **UserBrowseGallery**이 표시 됩니다.
+* 사용자가 **UserBrowseGallery**에서 사용자를 선택 하는 경우, 검색 내용이 다시 설정 됩니다.
 
 ## <a name="user-browse-gallery"></a>사용자 찾아보기 갤러리
 
 ![UserBrowseGallery 컨트롤](media/people-screen/people-browse-gall.png)
 
-* 속성: **항목**<br>
-    값: 사용자가 입력을 시작 하는 경우에 사용자를 조회 하는 논리:
+* 속성: **Items**<br>
+    값: 사용자가 입력을 시작 하는 경우 사용자를 조회합니다:
     
     ```powerapps-dot
     If( !IsBlank( Trim( TextSearchBox.Text ) ), 
@@ -61,20 +61,20 @@ PowerApps의 캔버스 앱에 대 한 중요 한 각 사용자 화면 템플릿�
     )
     ```
     
-이 갤러리의 항목이 검색 결과에서 채워지는 합니다 [Office365.SearchUser](https://docs.microsoft.com/connectors/office365users/#searchuser) 작업 합니다. 작업 텍스트를 가져와 `Trim(TextSearchBox)` 검색으로 용어 및 상위 15 결과 반환 합니다 기준으로 검색 합니다. **TextSearchBox** 래핑됩니다는 `Trim()` 공간에서 사용자 검색을 유효 하지 않으므로 작동 합니다.
+이 갤러리의 항목이 [Office365.SearchUser](https://docs.microsoft.com/connectors/office365users/#searchuser) 작업에 따라 검색 결과에 나타납니다. 이 작업은 검색어를 `Trim(**TextSearchBox**)`하여 가져오고 상위 15개의 검색 결과를 반환 합니다. 사용자 검색에서 빈 칸은 유효하지 않기 떄문에 **TextSearchBox**는 **Trim** 함수로 래핑됩니다.
 
-합니다 `Office365Users.SearchUser` 작업에 래핑됩니다는 `If(!IsBlank(Trim(TextSearchBox.Text)) ... )` 만 검색 상자는 사용자가 입력 한 텍스트를 포함 하는 경우 작업을 호출 해야 하기 때문에 작동 합니다. 이 성능을 향상 시킵니다.
+`Office365Users.SearchUser` 작업은 검색 상자가 사용자 입력한 텍스트를 포함하는 경우에만 작업을 호출할 필요가 있기 때문에`If(!IsBlank(Trim(TextSearchBox.Text)) ... )` 함수로 래핑됩니다. 이것은 성능을 향상 시킵니다.
 
-### <a name="userbrowsegallery-title-control"></a>UserBrowseGallery 제목 컨트롤
+### <a name="userbrowsegallery-title-control"></a>사용자 찾아보기 갤러리 제목 컨트롤
 
 ![UserBrowseGallery 제목 컨트롤](media/people-screen/people-browse-gall-title.png)
 
-* 속성: **텍스트**<br>값: `ThisItem.DisplayName`
+* 속성: **Text**<br>값: `ThisItem.DisplayName`
 
   Office 365 프로필에서 사용자의 표시 이름을 표시합니다.
 
 * 속성: **OnSelect**<br>
-    값: 사용자는 응용 프로그램 수준 컬렉션에 추가할 코드 및 사용자를 선택 합니다.
+    값: 응용 프로그램 수준 컬렉션에 사용자를 추가한 다음 사용자를 선택 합니다.
 
     ```powerapps-dot
     Concurrent(
@@ -85,18 +85,18 @@ PowerApps의 캔버스 앱에 대 한 중요 한 각 사용자 화면 템플릿�
         )
     )
     ```
-다음 세 가지를 동시에 수행이 컨트롤을 선택 합니다.
+이 컨트롤을 선택하면 다음 세 가지가 동시에 수행 됩니다.
 
-   * 설정 된  **\_selectedUser** 선택한 항목에 변수입니다.
-   * 재설정에 검색 용어가 **TextSearchBox**합니다.
-   * 선택한 항목을 추가 합니다 **MyPeople** 앱 사용자가 선택한 모든 사용자 컬렉션, 컬렉션입니다.
+   * **\_selectedUser** 변수를 선택한 항목으로 설정 합니다.
+   * **TextSearchBox**에 검색어를 다시 설정 합니다.
+   * 앱 사용자가 선택한 모든 사용자의 컬렉션인 **MyPeople** 컬렉션에 선택된 항목을 추가 합니다.
 
-### <a name="userbrowsegallery-profileimage-control"></a>UserBrowseGallery ProfileImage 컨트롤
+### <a name="userbrowsegallery-profileimage-control"></a>사용자 찾아보기 갤러리 프로필 이미지 컨트롤
 
 ![UserBrowseGallery ProfileImage 컨트롤](media/people-screen/people-browse-gall-image.png)
 
-* 속성: **이미지**<br>
-    값: 사용자의 프로필 사진을 검색할 논리입니다.
+* 속성: **Image**<br>
+    값: 사용자의 프로필 사진을 검색 합니다.
 
     ```powerapps-dot
     If( !IsBlank( ThisItem.Id ) && 
@@ -105,42 +105,42 @@ PowerApps의 캔버스 앱에 대 한 중요 한 각 사용자 화면 템플릿�
     )
     ```
 
-**이미지** 사용 하 여 사용자의 이미지를 검색 하는 컨트롤을 [Office365Users.UserPhoto](https://docs.microsoft.com/connectors/office365users/#get-user-photo--v1-) 작업 합니다. 그러나 그렇게 하기 전에 확인할 두 가지:
+**Image** 컨트롤은 [Office365Users.UserPhoto](https://docs.microsoft.com/connectors/office365users/#get-user-photo--v1-) 작업으로 사용자의 이미지를 검색 합니다. 그러나 그렇게 하기 전에 두 가지를 확인 합니다:
   
-   * 인지는 ID 필드가 비어 있거나 비어 있지 않습니다. 그래야 합니다 **이미지** 전에 검색 결과 사용 하 여 채워진 갤러리 사용자 사진을 검색 하는 동안 컨트롤입니다.
-   * 사용자의 사진에 있는지 여부 (사용 하 여 합니다 [Office365Users.UserPhotoMetadata](https://docs.microsoft.com/connectors/office365users/#get-user-photo-metadata) 작업). 그래야 합니다 `Office365Users.UserPhoto` 조회 사용자 프로필 사진이 없는 경우 예외를 반환 합니다.
+   * ID 필드가 비어 있거나 비어 있지 않는지 확인합니다.이것은 **Image** 컨트롤이 갤러리가 검색 결과로 채워지기 전에 사용자 사진을 검색하는 것을 방지합니다.
+   * 사용자의 사진이 있는지 여부를 확인 합니다([Office365Users.UserPhotoMetadata](https://docs.microsoft.com/connectors/office365users/#get-user-photo-metadata) 작업으로). 이것은 사용자의 프로필 사진이 없는 경우`Office365Users.UserPhoto` 조회에서 예외를 반환하는 것을 방지 합니다.
 
-이미지 검색 되지 않습니다 하는 경우, **이미지** 컨트롤은 빈 하며 **iconUser** 컨트롤 대신 표시 됩니다.
+이미지가 검색 되지 않는 경우, **Image** 컨트롤은 비게 되고 대신 **iconUser** 컨트롤이 표시 됩니다.
 
-## <a name="people-added-gallery"></a>갤러리 사용자 추가
+## <a name="people-added-gallery"></a>사용자 추가 갤러리
 
 ![PeopleAddedGallery 컨트롤](media/people-screen/people-people-gall.png)
 
-* 속성: **항목**<br>
+* 속성: **Items**<br>
     값: `MyPeople`
 
-초기화 또는 선택 하 여 추가할 사용자는 컬렉션을 **UserBrowseGallery 제목** 컨트롤입니다.
+**UserBrowseGallery Title** 컨트롤을 선택하여 사용자 컬렉션을 초기화 하거나 추가 합니다.
 
-### <a name="peopleaddedgallery-title-control"></a>PeopleAddedGallery 제목 컨트롤
+### <a name="peopleaddedgallery-title-control"></a>사용자 추가 갤러리 제목 컨트롤
 
 ![PeopleAddedGallery 제목 컨트롤](media/people-screen/people-people-gall-title.png)
 
 * 속성: **OnSelect**<br>
     값: `Set( _selectedUser, ThisItem )`
 
-설정 된 **_selectedUser** 에서 선택한 항목에 변수 **EmailPeopleGallery**합니다.
+**\_selectedUser** 변수를 **EmailPeopleGallery**에서 선택한 항목으로 설정 합니다.
 
-### <a name="peopleaddedgallery-iconremove-control"></a>PeopleAddedGallery iconRemove 컨트롤
+### <a name="peopleaddedgallery-iconremove-control"></a>사용자 추가 갤러리 제거 아이콘 컨트롤
 
 ![PeopleAddedGallery iconRemove 컨트롤](media/people-screen/people-people-gall-delete.png)
 
 * 속성: **OnSelect**<br>
     값: `Remove( MyPeople, LookUp( MyPeople, UserPrincipalName = ThisItem.UserPrincipalName ) )`
 
-레코드를 조회 합니다 **MyPeople** 컬렉션 위치 **UserPrincipalName** 일치 하는 **UserPrincipalName** 선택한 항목 및 다음 제거를 기록 하는 컬렉션입니다.
+  **MyPeople** 컬렉션에서 **UserPrincipalName**이 선택한 항목의 **UserPrincipalName**과 일치하는 레코드를 조회한 다음 컬렉션에서 해당 레코드를 제거 합니다.
 
 ## <a name="next-steps"></a>다음 단계
 
-* [이 화면에 자세히 알아보려면](./people-screen-overview.md)합니다.
-* [Office 365 Outlook 커넥터에 자세히 알아보려면](../connections/connection-office365-outlook.md)합니다.
-* [Office 365 사용자 커넥터에 자세히 알아보려면](../connections/connection-office365-users.md)합니다.
+* [이 화면 자세히 알아보기](./people-screen-overview.md)
+* [Office 365 Outlook 커넥터에 자세히 알아보기](../connections/connection-office365-outlook.md)
+* [Office 365 사용자 커넥터에 자세히 알아보기](../connections/connection-office365-users.md)
