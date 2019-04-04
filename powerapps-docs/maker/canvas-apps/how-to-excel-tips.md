@@ -1,6 +1,6 @@
 ---
 title: Excel에서 표 서식 지정 | Microsoft Docs
-description: PowerApps에서 Excel 데이터를 사용하려면 데이터를 표 서식으로 지정해야 합니다. 열 이름에 "이미지" 키워드 추가
+description: PowerApps에서 Excel 데이터를 사용하려면 데이터를 표 서식으로 지정해야 합니다. 열 이름에 '이미지' 키워드 추가
 author: yifwang
 manager: kvivek
 ms.service: powerapps
@@ -28,7 +28,7 @@ Excel의 **홈** 탭에서 **표 서식 지정**을 선택하면 사용자 데�
 
 ![Excel에서 테이블의 형식 지정](./media/how-to-excel-tips/format-table.png)
 
-**삽입** 탭에서 **표**을 선택하여 표도 만들 수 있습니다.
+**삽입** 탭에서 **표**를 선택하여 표도 만들 수 있습니다.
 
 ![Excel에서 테이블 삽입](./media/how-to-excel-tips/insert-table.png)
 
