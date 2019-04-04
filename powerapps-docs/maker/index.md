@@ -8,9 +8,14 @@ ms.topic: conceptual
 ms.custom: canvas
 ms.date: 03/18/2018
 ms.author: anneta
-ms.reviewer: null
+ms.reviewer: ''
+ms.openlocfilehash: 6a8432e93f854b1c0794512da42ef25c9aa02adc
+ms.sourcegitcommit: 5b2b70c3fc7bcba5647d505a79276bbaad31c610
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58357923"
 ---
-
 # <a name="overview-of-creating-apps-in-powerapps"></a>PowerApps에서 앱 만들기 개요
 
 PowerApps는 생산성이 높은 비즈니스 앱 개발 플랫폼이며 세 가지 주요 구성 요소가 있습니다.

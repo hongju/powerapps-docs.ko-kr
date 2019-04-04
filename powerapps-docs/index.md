@@ -3,12 +3,18 @@ layout: HubPage
 title: Microsoft PowerApps 설명서 | Microsoft Docs
 description: Microsoft PowerApps 설명서
 searchScope:
-  - PowerApps
+- PowerApps
 featureFlags:
-  - clicktale
+- clicktale
 ms.service: powerapps
 ms.custom:
-  - powerapps-hub
+- powerapps-hub
+ms.openlocfilehash: e20fa35acda2953bff2068ffd3c3c20e6d051fe0
+ms.sourcegitcommit: 5b2b70c3fc7bcba5647d505a79276bbaad31c610
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58357371"
 ---
 <div id="main"
    class="v2">
