@@ -34,8 +34,8 @@ ms.locfileid: "42863852"
 
 ## <a name="prerequisites"></a>필수 조건
 * PowerApps에 [등록](../signup-for-powerapps.md)하는 데 사용된 사용자 이름과 암호
-* 게이트웨이 대한 관리 권한 설치한 각 게이트웨이에 대해 기본적으로 이 권한을 가지며, 다른 게이트웨이의 관리자가 해당 게이트웨이에 대한 이러한 권한을 사용자에게 부여할 수 있습니다.
-* 온-프레미스 게이트웨이를 사용하여 온-프레미스 데이터 액세스를 지원하는 라이선스 자세한 내용은 [가격 책정 페이지](https://powerapps.microsoft.com/pricing/)의 "연결" 섹션을 참조하세요.
+* 게이트웨이 대한 관리 권한(설치한 각 게이트웨이에 대해 기본적으로 이 권한을 가지며, 다른 게이트웨이의 관리자가 해당 게이트웨이에 대한 이러한 권한을 사용자에게 부여할 수 있습니다.)
+* 온-프레미스 게이트웨이를 사용하여 온-프레미스 데이터 액세스를 지원하는 라이선스. 자세한 내용은 [가격 책정 페이지](https://powerapps.microsoft.com/pricing/)의 "연결" 섹션을 참조하세요.
 * 게이트웨이 및 온-프레미스 연결은 사용자의 [기본 환경](working-with-environments.md)에서만 생성하고 사용할 수 있습니다.
 
 ## <a name="install-a-gateway"></a>게이트웨이 설치
@@ -43,7 +43,7 @@ ms.locfileid: "42863852"
 
     ![왼쪽 탐색 창의 게이트웨이](./media/gateway-management/manage-gateway.png)
 
-2. 게이트웨이 대한 관리 권한이 없으면, [지금 게이트웨이 설치](http://go.microsoft.com/fwlink/?LinkID=820931)(또는 오른쪽 위 모서리에서 **새 게이트웨이**)를 클릭하거나 탭한 후, 표시되는 마법사의 안내를 따릅니다.
+2. 게이트웨이에 대한 관리 권한이 없으면, [지금 게이트웨이 설치](http://go.microsoft.com/fwlink/?LinkID=820931)(또는 오른쪽 위 모서리에서 **새 게이트웨이**)를 클릭하거나 탭한 후, 표시되는 마법사의 안내를 따릅니다.
 
     ![게이트웨이 설치](./media/gateway-management/no-gateway-installed.png)
 
