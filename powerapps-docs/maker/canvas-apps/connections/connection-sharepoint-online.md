@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 0fbc97e6c2663210bea79cc7236ce784110a4950
-ms.sourcegitcommit: c6ad6ba7814c5e7b12c3b7b76bf2e7718bf41b8c
+ms.openlocfilehash: 86c23a2da0dca20bb6f755a9cb548c092180ef16
+ms.sourcegitcommit: 647e183c070c2159b790c7813a7be1d60b2551bd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58198616"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58765505"
 ---
 # <a name="connect-to-sharepoint-from-a-canvas-app"></a>캔버스 앱에서 SharePoint에 연결
 
@@ -34,7 +34,7 @@ ms.locfileid: "58198616"
 사용자 지정 목록에서 데이터를 관리하려는 경우 PowerApps는 [3개 화면의 앱을 자동으로 생성](../app-from-sharepoint.md)합니다. 사용자는 첫 번째 화면에서 목록을 찾아보고, 두 번째 화면에서 항목의 세부 정보를 표시하고 세 번째 화면에서 항목을 업데이트하거나 만들 수 있습니다.
 
 > [!NOTE]
-> SharePoint 목록에 **선택**, **조회**, 또는 **개인 또는 그룹** 열이 포함된 경우는 이 항목의 뒷부분에 나오는 [갤러리에 데이터 표시](connection-sharepoint-online.md#show-data-in-a-gallery)를 참조하세요.
+> SharePoint 목록에 포함 된 경우는 **선택**, **조회**, 또는 **개인 또는 그룹** 열을 참조 하세요 [갤러리에 데이터를 표시](connection-sharepoint-online.md#show-list-columns-in-a-gallery) 이 항목의 뒷부분에 나오는.
 
 ## <a name="create-a-connection"></a>연결 만들기
 

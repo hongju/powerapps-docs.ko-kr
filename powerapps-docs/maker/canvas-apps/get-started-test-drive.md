@@ -15,7 +15,7 @@ search.app:
 - PowerApps
 ms.openlocfilehash: ea5912a043dc00fa197a2070c11610c358c3201d
 ms.sourcegitcommit: 02d0234bd84352bf1c43d0fc9225ab60947a0add
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 10/15/2018
 ms.locfileid: "49316726"
@@ -32,11 +32,11 @@ PowerApps에 대한 라이선스가 없으면 [무료로 등록](../signup-for-p
 
 1. [PowerApps](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
 
-1. **고유한 앱 만들기** 아래에서 **데이터로 시작**을 마우스로 가리킨 다음, **이 앱 만들기**를 클릭하거나 탭합니다.
+1. **나만의 앱 만들기** 아래에서 **데이터로 시작**을 마우스로 가리킨 다음, **만들기**를 클릭하거나 탭합니다.
 
     ![이 앱 만들기 타일](./media/get-started-test-drive/make-this-app.png)
 
-1. **앱 템플릿** 타일에서 **휴대폰 레이아웃** 또는 **태블릿 레이아웃**을 클릭하거나 탭합니다.
+1. **앱 템플릿** 타일에서 **전화 레이아웃** 또는 **태블릿 레이아웃**을 클릭하거나 탭합니다.
 
     ![템플릿의 앱 타일](./media/get-started-test-drive/template-tile.png)
 
