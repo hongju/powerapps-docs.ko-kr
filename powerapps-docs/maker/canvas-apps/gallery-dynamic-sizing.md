@@ -1,6 +1,6 @@
 ---
 title: 갤러리에서 높이가 다른 항목 표시 | Microsoft Docs
-description: 갤러리의 각 항목에서 콘텐츠 양을 자동으로 맞추도록 유연한 높이 갤러리를 추가하고 구성합니다.
+description: 갤러리의 각 항목에서 콘텐츠 양을 자동으로 맞추도록 높이 조정 가능 갤러리를 추가하고 구성합니다.
 author: fikaradz
 manager: kvivek
 ms.service: powerapps
@@ -21,12 +21,12 @@ ms.lasthandoff: 08/24/2018
 ms.locfileid: "42834845"
 ---
 # <a name="show-items-of-different-heights-in-a-powerapps-gallery"></a>PowerApps 갤러리에서 높이가 다른 항목 표시
-데이터 집합에 있는 다양한 항목이 같은 필드에 다른 양의 데이터를 포함하고 있다면 적은 데이터가 포함된 항목 다음에 빈 공백을 추가하지 않고 더 많은 데이터를 포함하는 항목을 완전히 포함할 수 있습니다. **유연한 높이** 갤러리 컨트롤을 추가 및 구성하여 다음 작업을 수행할 수 있습니다.
+데이터 집합에 있는 다양한 항목이 같은 필드에 다른 양의 데이터를 포함하고 있다면 적은 데이터가 포함된 항목 다음에 빈 공백을 추가하지 않고 더 많은 데이터를 포함하는 항목을 완전히 포함할 수 있습니다. **높이 조정 가능** 갤러리 컨트롤을 추가 및 구성하여 다음 작업을 수행할 수 있습니다.
 
 * 콘텐츠에 따라 확장 또는 축소하도록 **레이블** 컨트롤을 구성합니다.
 * 위의 컨트롤 바로 아래에 자동으로 나타나도록 각 컨트롤을배치합니 다.
 
-이 자습서에서는 **유연한 높이** 갤러리 컨트롤의 바닥재 제품에 대한 데이터를 보여줍니다. 각 제품의 이미지는 개요에 다섯 줄의 텍스트 또는 두 줄을 포함하던지 개요 아래에 5픽셀을 나타냅니다.
+이 자습서에서는 **높이 조정 가능** 갤러리 컨트롤의 바닥재 제품에 대한 데이터를 보여줍니다. 각 제품의 이미지는 개요 아래에 5픽셀을 나타내며, 개요는 다섯 줄의 텍스트 또는 두 줄을 포함합니다.
 
 ![최종 앱](./media/gallery-dynamic-sizing/dynamic-app.png)
 
@@ -34,7 +34,7 @@ ms.locfileid: "42834845"
 
 갤러리에 컨트롤을 추가하지 않았다면 이 항목에서 계속하기 전에 [항목 목록 표시](add-gallery.md)의 단계를 따르세요.
 
-## <a name="add-data-to-a-blank-app"></a>비어 있는 앱에 데이터 추가
+## <a name="add-data-to-a-blank-app"></a>빈 앱에 데이터 추가
 1. 바닥재 제품의 이름, 개요 및 이미지 링크가 포함된 [이 Excel 파일](https://az787822.vo.msecnd.net/documentation/get-started-from-data/FlooringEstimates.xlsx)을 다운로드합니다.
 
     ![바닥재 제품](./media/gallery-dynamic-sizing/flooring-products.png)
@@ -43,7 +43,7 @@ ms.locfileid: "42834845"
 
 3. PowerApps Studio에서 **파일** 메뉴에서 **새로 만들기**를 클릭하거나 탭합니다.
 
-4. **비어 있는 앱** 타일에서 **휴대폰 레이아웃**을 클릭하거나 탭합니다.
+4. **빈 앱** 타일에서 **전화 레이아웃**을 클릭하거나 탭합니다.
 
     ![파일 메뉴의 새 옵션](./media/gallery-dynamic-sizing/blank-app.png)
 
@@ -52,7 +52,7 @@ ms.locfileid: "42834845"
     자세한 내용은 [연결 추가](add-data-connection.md)를 참조하세요.
 
 ## <a name="add-data-to-a-gallery"></a>갤러리에 데이터 추가
-1. **삽입** 탭에서 **갤러리**를 클릭하거나 탭한 다음, **유연한 높이**를 클릭하거나 탭합니다.
+1. **삽입** 탭에서 **갤러리**를 클릭하거나 탭한 다음, **높이 조정 가능**을 클릭하거나 탭합니다.
 
     ![갤러리 추가](./media/gallery-dynamic-sizing/add-flexible.png)
 2. 전체 화면을 차지하도록 갤러리의 크기를 조정합니다.
@@ -76,11 +76,11 @@ ms.locfileid: "42834845"
 
 2. 두 번째 **레이블** 컨트롤의 **Text** 속성을 다음 식으로 설정합니다.<br> **ThisItem.Overview**
 
-3. 두 번째 **레이블** 컨트롤이 선택된 상태에서 **콘텐츠** 탭의 이름 태그 아이콘을 클릭하거나 탭하고 이 컨트롤의 이름을 **OverviewText**로 변경합니다.
+3. 두 번째 **레이블** 컨트롤이 선택된 상태에서 오른쪽 **속성** 탭 위 레이블 이름 옆의 연필 아이콘을 클릭하거나 탭하고 이 컨트롤의 이름을 **OverviewText**로 변경합니다.
 
     ![레이블 이름 바꾸기](./media/gallery-dynamic-sizing/rename-text-box.png)
 
-4. **OverviewText** 상자의 **AutoHeight** 속성을 **true**로 설정합니다.
+4. **OverviewText** 상자의 **자동 높이** 속성을 **켜기**로 설정합니다.
 
     이 단계를 통해 해당 상자가 콘텐츠에 맞게 늘어나거나 축소됩니다.
 
