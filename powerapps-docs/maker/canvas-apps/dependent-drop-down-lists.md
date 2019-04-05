@@ -7,18 +7,18 @@ ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: anneta
-ms.date: 02/28/2019
+ms.date: 04/04/2019
 ms.author: emcoope
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: e00c81f25de9a764e8f6d963ff94f3c0ffe052a2
-ms.sourcegitcommit: 5b2b70c3fc7bcba5647d505a79276bbaad31c610
+ms.openlocfilehash: dc1b3b87e2c1fdcd4ab7eb6634db7f9e7c049ec2
+ms.sourcegitcommit: 38f91423933749ca19557f29e86cd8f5ad06e1eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58357256"
+ms.lasthandoff: 04/05/2019
+ms.locfileid: "59042758"
 ---
 # <a name="create-dependent-drop-down-lists-in-a-canvas-app"></a>캔버스 앱에서 종속 드롭 다운 목록 만들기
 
@@ -28,7 +28,7 @@ ms.locfileid: "58357256"
 
 이 항목의 시나리오의 경우 저장에 대 한 직원 제출 문제는 **인시던트** 양식을 통해 목록입니다. 뿐만 아니라 저장소의 위치를 지정 하는 직원 인시던트가 발생 한 뿐만 아니라 해당 위치 내의 부서입니다. 모든 위치에서 동일한 부서를 따라서에 **위치** 목록 하면 직원이 부서는 부서 없는 위치를 지정할 수 없습니다.
 
-이 항목에서는 SharePoint 목록을 데이터 원본으로 사용 하 여 있지만 모든 테이블 형식 데이터 원본에 동일한 방식으로 작동 합니다.
+이 항목에서는 Microsoft SharePoint 목록을 데이터 원본으로 사용 하 여 있지만 모든 테이블 형식 데이터 원본에 동일한 방식으로 작동 합니다.
 
 ## <a name="create-data-sources"></a>데이터 원본 만들기
 
@@ -49,7 +49,7 @@ A **위치** 목록에서는 각 위치에서 부서를 보여 줍니다.
 | Pembroke       | 생성          |
 | Pembroke       | 꽃           |
 
-**인시던트** 연락처 정보 및 각 인시던트에 대 한 정보 목록을 보여 줍니다. 으로 날짜 열을 만듭니다는 **날짜** 열에 있지만 다른 열을 만들 **한 줄 텍스트** 구성을 단순화 하 고 방지 하기 위해 열 [위임](./delegation-overview.md) 에서 경고 PowerApps입니다.
+**인시던트** 연락처 정보 및 각 인시던트에 대 한 정보 목록을 보여 줍니다. 으로 날짜 열을 만듭니다는 **날짜** 열에 있지만 다른 열을 만들 **한 줄 텍스트** 구성을 단순화 하 고 방지 하기 위해 열 [위임](./delegation-overview.md) 에서 경고 Microsoft PowerApps입니다.
 
 | 첫 번째 이름 | 성 | 전화 번호     | Location | Department | 설명       | Date      |
 |------------|-----------|------------------|----------------|------------|-------------------------|-----------|
@@ -86,7 +86,7 @@ A **위치** 목록에서는 각 위치에서 부서를 보여 줍니다.
 
 ## <a name="replace-the-controls"></a>컨트롤 대체
 
-1. 에 **필드** 창 옆에 있는 아래쪽 화살표를 선택 **위치**합니다.
+1. 에 **필드** 창 옆에 화살표를 선택 **위치**합니다.
 
     닫은 경우 합니다 **필드** 창에서 열 수 있습니다 다시 선택 하 여 **SharePointForm1** 왼쪽된 탐색 모음과 선택한 다음, **필드를 편집** 합니다 에**속성** 오른쪽 창의 탭 합니다.
 
@@ -144,7 +144,7 @@ A **위치** 목록에서는 각 위치에서 부서를 보여 줍니다.
 
 ## <a name="configure-the-departments"></a>부서를 구성 합니다.
 
-1. 선택 **ddDepartment** 한 후에 **속성** 선택 오른쪽 창의 탭 **에 따라 달라 집니다.**
+1. 선택 **ddDepartment**를 선택한 다음는 **속성** 선택 오른쪽 창의 탭 **에 따라 달라 집니다.**
 
 1. 아래 **컨트롤을 부모**, 되도록 **ddLocation** 위 목록에 표시 및 **결과** 아래 목록에 나타납니다.
 
@@ -202,7 +202,7 @@ Alt 키를 누른 채로 위치 목록을 열고, 하는 동안에 하나를 선
     > ![변경 콤보 상자](./media/dependent-drop-down-lists/combo-box-display-field.png)
 
 **내 자식 드롭다운 목록에서 중복 항목을 포함 합니다.**
-이 증상을 사용 하 여 때문일 가능성이 큽니다.는 **조회** SharePoint에서 열 또는 **선택** PowerApps의 함수입니다. 중복을 제거 하려면 래핑하는 **Distinct** 제대로 반환 데이터에 대 한 함수입니다. 자세한 정보: [Distinct 함수](functions/function-distinct.md)
+이 증상을 사용 하 여 때문일 가능성이 큽니다.는 **조회** SharePoint에서 열 또는 **선택** PowerApps의 함수입니다. 중복을 제거 하려면 래핑하는 **Distinct** 제대로 반환 데이터에 대 한 함수입니다. 자세한 정보: [Distinct 함수](functions/function-distinct.md)합니다.
 
 ## <a name="known-limitations"></a>알려진 제한 사항
 

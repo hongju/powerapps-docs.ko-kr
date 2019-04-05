@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: b7d29d883a14e34dd89d766a6aeffb17275bde6b
-ms.sourcegitcommit: 825daacc9a812637815afc1ce6fad28f0cebd479
+ms.openlocfilehash: 1b598cc863ec01bcb2a66a9510cb48ec5203e679
+ms.sourcegitcommit: 38f91423933749ca19557f29e86cd8f5ad06e1eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "57803461"
+ms.lasthandoff: 04/05/2019
+ms.locfileid: "59042634"
 ---
 # <a name="char-function-in-powerapps"></a>PowerApps의 Char 함수
 
@@ -39,7 +39,7 @@ ms.locfileid: "57803461"
 | 수식 | 설명 | 결과 |
 | --- | --- | --- |
 | **Char( 65 )** |ASCII 코드 65에 해당하는 문자를 반환합니다. |"A" |
-| **Char( 105 )** |ASCII 코드 105에 해당하는 문자를 반환합니다. |"i" |
+| **Char (105)** |ASCII 코드 105에 해당하는 문자를 반환합니다. |"i" |
 | **Char( 35 )** |ASCII 코드 35에 해당하는 문자를 반환합니다. |"#" |
 
 ### <a name="display-a-character-map"></a>문자 매핑 표시
@@ -60,7 +60,7 @@ ms.locfileid: "57803461"
     - **TemplateSize**: 30
     - **TemplatePadding**: 0
 
-    값을 **항목** 속성의 값 열을 제공한 열 번호로 16 곱합니다를 **항목** 갤러리의 첫 번째 (0-7 ThisItem.Value) 속성입니다. 수식에 추가한 결과 행 번호 중 하나에 갤러리의 두 번째 (0 ~ 15 개 레코드의 범위를 합니다 [ **ForAll** ](function-forall.md) 함수는 제공).
+    값을 **항목** 속성의 값 열을 제공한 열 수는 16을 곱합니다 합니다 **항목** 갤러리의 첫 번째 속성 (0-7에서 `ThisItem.Value`). 수식에 추가한 결과 행 번호 중 하나에 갤러리의 두 번째 (0 ~ 15 개 레코드의 범위를 합니다 [ **ForAll** ](function-forall.md) 함수는 제공).
 
 1. 두 번째 (세로) 갤러리 내에서 추가 **레이블** 이러한 속성을 설정 합니다.
 
