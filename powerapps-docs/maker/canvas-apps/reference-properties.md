@@ -40,7 +40,7 @@ ms.locfileid: "58073674"
 
 **[카메라](controls/control-camera.md)** – 앱 또는 데이터 원본에서 사진을 찍어 저장합니다.
 
-**[카드](controls/control-card.md)** – **[편집 양식](controls/control-form-detail.md)** 또는 **[표시 양식](controls/control-form-detail.md)** 컨트롤에서 레코드의 개별 필드를 표시하고 편집합니다.
+**[카드](controls/control-card.md)** – **[편집 폼](controls/control-form-detail.md)** 또는 **[표시 폼](controls/control-form-detail.md)** 컨트롤에서 레코드의 개별 필드를 표시하고 편집합니다.
 
 **[확인란](controls/control-check-box.md)** – **true** 또는 **false**를 지정하는 옵션을 선택하거나 선택 취소합니다.
 
@@ -54,13 +54,13 @@ ms.locfileid: "58073674"
 
 **[날짜 선택](controls/control-date-picker.md)** – 클릭하거나 탭하여 날짜를 지정합니다.
 
-**[표시 양식](controls/control-form-detail.md)** – 양식을 사용하여 데이터 원본의 레코드를 표시합니다.
+**[표시 폼](controls/control-form-detail.md)** – 폼을 사용하여 데이터 원본의 레코드를 표시합니다.
 
-**[드롭다운](controls/control-drop-down.md)** – 갈매기형을 선택할 때까지 목록의 첫 번째 항목을 표시합니다.
+**[드롭다운](controls/control-drop-down.md)** – 펼침을 선택할 때까지 목록의 첫 번째 항목을 표시합니다.
 
-**[편집 양식](controls/control-form-detail.md)** – 양식을 사용하여 데이터 원본의 레코드를 편집하고 만듭니다.
+**[편집 폼](controls/control-form-detail.md)** – 폼을 사용하여 데이터 원본의 레코드를 편집하고 만듭니다.
 
-**[엔터티 양식](entity-form-control.md)**  -실험적 기능: 사용자 수 보기, 탐색 및 Common Data Service의 관계형 데이터를 편집 하는 동적 양식을 추가 합니다.
+**[엔터티 폼](entity-form-control.md)**  -실험적 기능: 사용자 수 보기, 탐색 및 Common Data Service의 관계형 데이터를 편집 하는 동적 폼을 추가 합니다.
 
 **[내보내기](controls/control-export-import.md)** – PowerApps의 다른 위치에서 사용할 데이터를 내보냅니다.
 
@@ -188,13 +188,13 @@ ms.locfileid: "58073674"
 
 **[DataField](controls/control-card.md)** - 이 카드에서 표시하고 편집하는 레코드 내부의 필드 이름입니다.  **[카드](controls/control-card.md)** 컨트롤에 적용됩니다.
 
-**[DataSource](controls/control-form-detail.md)** – 사용자가 표시하거나, 편집하거나, 만드는 레코드를 포함하는 데이터 원본입니다.  **[표시 양식](controls/control-form-detail.md)** 및 **[편집 양식](controls/control-form-detail.md)** 컨트롤에 적용됩니다.
+**[DataSource](controls/control-form-detail.md)** – 사용자가 표시하거나, 편집하거나, 만드는 레코드를 포함하는 데이터 원본입니다.  **[표시 폼](controls/control-form-detail.md)** 및 **[편집 폼](controls/control-form-detail.md)** 컨트롤에 적용됩니다.
 
 **[Default](controls/properties-core.md)** – 사용자가 컨트롤을 변경하기 전의 초기 값입니다.  많은 컨트롤에 적용됩니다.
 
 **[DefaultDate](controls/control-date-picker.md)** – 사용자가 날짜 컨트롤을 변경하기 전의 초기 값입니다.  **[날짜 선택](controls/control-date-picker.md)** 컨트롤에 적용됩니다.
 
-**[DefaultMode](controls/control-form-detail.md)** – 양식 컨트롤의 초기 모드로서 **Edit**, **New** 또는 **View** 중 하나입니다.  **[편집 양식](controls/control-form-detail.md)** 컨트롤에 적용됩니다.
+**[DefaultMode](controls/control-form-detail.md)** – 폼 컨트롤의 초기 모드로서 **Edit**, **New** 또는 **View** 중 하나입니다.  **[편집 폼](controls/control-form-detail.md)** 컨트롤에 적용됩니다.
 
 **[Direction](controls/control-gallery.md)** – 갤러리의 첫 번째 항목이 가로 방향으로 왼쪽 또는 오른쪽 가장자리 근처에 표시되는지 여부입니다.  **[갤러리](controls/control-gallery.md)** 컨트롤에 적용됩니다.
 
@@ -222,9 +222,9 @@ ms.locfileid: "58073674"
 
 * **[그림 추가](controls/control-add-picture.md)** 컨트롤 - 이미지를 업로드하는 데 문제가 있는 경우 이 속성에 적절한 오류 문자열이 포함됩니다.
 * **[카드](controls/control-card.md)** 컨트롤 - 유효성 검사가 실패할 때 이 필드에 대해 표시할 사용자에게 친숙한 오류 메시지입니다.
-* **[편집 양식](controls/control-form-detail.md)** 컨트롤 – **[SubmitForm](functions/function-form.md)** 함수가 실패할 때 이 양식에 대해 표시할 사용자에게 친숙한 오류 메시지입니다.
+* **[편집 폼](controls/control-form-detail.md)** 컨트롤 – **[SubmitForm](functions/function-form.md)** 함수가 실패할 때 이 폼에 대해 표시할 사용자에게 친숙한 오류 메시지입니다.
 
-**[ErrorKind](controls/control-form-detail.md)** – **SubmitForm**이 실행될 때 발생한 오류의 종류입니다.  **[표시 양식](controls/control-form-detail.md)** 및 **[편집 양식](controls/control-form-detail.md)** 컨트롤에 적용됩니다.
+**[ErrorKind](controls/control-form-detail.md)** – **SubmitForm**이 실행될 때 발생한 오류의 종류입니다.  **[표시 폼](controls/control-form-detail.md)** 및 **[편집 폼](controls/control-form-detail.md)** 컨트롤에 적용됩니다.
 
 **[Explode](controls/control-pie-chart.md)** – 원형 차트에서 쐐기형 사이의 거리입니다.  **[원형 차트](controls/control-pie-chart.md)** 컨트롤에 적용됩니다.
 
@@ -276,7 +276,7 @@ ms.locfileid: "58073674"
 
 **[Italic](controls/properties-text.md)** - 컨트롤의 텍스트를 기울임꼴로 설정할지 여부를 선택합니다.  많은 컨트롤에 적용됩니다.
 
-**[Item](controls/control-form-detail.md)** – 사용자가 표시하거나 편집할 **DataSource**의 레코드입니다.  **[표시 양식](controls/control-form-detail.md)** 및 **[편집 양식](controls/control-form-detail.md)** 컨트롤에 적용됩니다.
+**[Item](controls/control-form-detail.md)** – 사용자가 표시하거나 편집할 **DataSource**의 레코드입니다.  **[표시 폼](controls/control-form-detail.md)** 및 **[편집 폼](controls/control-form-detail.md)** 컨트롤에 적용됩니다.
 
 **[ItemBorderColor](controls/control-pie-chart.md)** – 원형 차트에서 각 쐐기형 주위의 테두리 색입니다.  **[원형 차트](controls/control-pie-chart.md)** 컨트롤에 적용됩니다.
 
@@ -294,7 +294,7 @@ ms.locfileid: "58073674"
 
 **[LabelPosition](controls/control-pie-chart.md)** – 원형 차트에서 해당 쐐기형을 기준으로 한 레이블의 위치입니다.  **[원형 차트](controls/control-pie-chart.md)** 컨트롤에 적용됩니다.
 
-**[LastSubmit](controls/control-form-detail.md)** – 서버에서 생성된 필드를 포함하여 성공적으로 제출된 마지막 레코드입니다.  **[편집 양식](controls/control-form-detail.md)** 컨트롤에 적용됩니다.
+**[LastSubmit](controls/control-form-detail.md)** – 서버에서 생성된 필드를 포함하여 성공적으로 제출된 마지막 레코드입니다.  **[편집 폼](controls/control-form-detail.md)** 컨트롤에 적용됩니다.
 
 **Layout** – 사용자가 위에서 아래로(**Vertical**) 또는 왼쪽에서 오른쪽으로(**Horizontal**) 갤러리를 스크롤하거나 슬라이더를 조정할지 여부입니다.  **[갤러리](controls/control-gallery.md)** 및 **[슬라이더](controls/control-slider.md)** 컨트롤에 적용됩니다.
 
@@ -322,7 +322,7 @@ ms.locfileid: "58073674"
 
 **Mode** – 이 속성의 의미는 다음 컨트롤에 따라 다릅니다.
 
-* **[편집 양식](controls/control-form-detail.md)** 컨트롤 – **Edit** 또는 **New** 모드입니다.
+* **[편집 폼](controls/control-form-detail.md)** 컨트롤 – **Edit** 또는 **New** 모드입니다.
 * **[펜 입력](controls/control-pen-input.md)** 컨트롤 - **Draw**, **Erase** 또는 **Select** 모드입니다.
 * **[텍스트 입력](controls/control-text-input.md)** 컨트롤 – **SingleLine**, **MultiLine** 또는 **Password** 모드입니다.
 
@@ -340,13 +340,13 @@ ms.locfileid: "58073674"
 
 **[OnEnd](controls/control-audio-video.md)** - 오디오 또는 비디오 클립에서 재생을 마칠 때의 앱 동작입니다.  **[오디오](controls/control-audio-video.md)** 및 **[비디오](controls/control-audio-video.md)** 컨트롤에 적용됩니다.
 
-**[OnFailure](controls/control-form-detail.md)** – 데이터 작업이 실패했을 때의 앱 동작입니다.  **[편집 양식](controls/control-form-detail.md)** 컨트롤에 적용됩니다.
+**[OnFailure](controls/control-form-detail.md)** – 데이터 작업이 실패했을 때의 앱 동작입니다.  **[편집 폼](controls/control-form-detail.md)** 컨트롤에 적용됩니다.
 
 **[OnHidden](controls/control-screen.md)** – 사용자가 화면에서 나갈 때의 앱 동작입니다.  **[화면](controls/control-screen.md)** 컨트롤에 적용됩니다.
 
 **[OnPause](controls/control-audio-video.md)** - 사용자가 오디오 또는 비디오 컨트롤에서 재생 중인 클립을 일시 중지할 때의 앱 동작입니다.  **[오디오](controls/control-audio-video.md)** 및 **[비디오](controls/control-audio-video.md)** 컨트롤에 적용됩니다.
 
-**[OnReset](controls/control-form-detail.md)** – **[편집 양식](controls/control-form-detail.md)** 컨트롤이 다시 설정되었을 때의 앱 동작입니다.  **[편집 양식](controls/control-form-detail.md)** 컨트롤에 적용됩니다.
+**[OnReset](controls/control-form-detail.md)** – **[편집 폼](controls/control-form-detail.md)** 컨트롤이 다시 설정되었을 때의 앱 동작입니다.  **[편집 폼](controls/control-form-detail.md)** 컨트롤에 적용됩니다.
 
 **[OnSelect](controls/properties-core.md)** – 사용자가 앱을 클릭하거나 탭할 때의 앱 동작입니다.  많은 컨트롤에 적용됩니다.
 
@@ -358,7 +358,7 @@ ms.locfileid: "58073674"
 
 **[OnStream](controls/control-camera.md)** – **[Stream](controls/control-camera.md)** 속성이 업데이트될 때의 앱 동작입니다.  **[카메라](controls/control-camera.md)** 컨트롤에 적용됩니다.
 
-**[OnSuccess](controls/control-form-detail.md)** – 데이터 작업이 성공했을 때의 앱 동작입니다.  **[편집 양식](controls/control-form-detail.md)** 컨트롤에 적용됩니다.
+**[OnSuccess](controls/control-form-detail.md)** – 데이터 작업이 성공했을 때의 앱 동작입니다.  **[편집 폼](controls/control-form-detail.md)** 컨트롤에 적용됩니다.
 
 **[OnTimerEnd](controls/control-timer.md)** - 타이머 실행이 완료될 때의 앱 동작입니다.  **[타이머](controls/control-timer.md)** 컨트롤에 적용됩니다.
 
@@ -500,15 +500,15 @@ ms.locfileid: "58073674"
 
 **[Underline](controls/properties-text.md)** – 컨트롤에 표시되는 텍스트 아래에 선을 표시할지 여부를 선택합니다.  많은 컨트롤에 적용됩니다.
 
-**[Unsaved](controls/control-form-detail.md)** – **[편집 양식](controls/control-form-detail.md)** 컨트롤에 저장되지 않은 사용자 변경 내용이 포함되어 있으면 true입니다.  **[편집 양식](controls/control-form-detail.md)** 컨트롤에 적용됩니다.
+**[Unsaved](controls/control-form-detail.md)** – **[편집 폼](controls/control-form-detail.md)** 컨트롤에 저장되지 않은 사용자 변경 내용이 포함되어 있으면 true입니다.  **[편집 폼](controls/control-form-detail.md)** 컨트롤에 적용됩니다.
 
 **[Update](controls/control-card.md)** – 필드의 데이터 원본에 쓰기 저장하는 값입니다.  **[카드](controls/control-card.md)** 컨트롤에 적용됩니다.
 
-**[Updates](controls/control-form-detail.md)** – 양식 컨트롤에 로드된 레코드의 데이터 원본에 쓰기 저장하는 값입니다.  **[편집 양식](controls/control-form-detail.md)** 컨트롤에 적용됩니다.
+**[Updates](controls/control-form-detail.md)** – 폼 컨트롤에 로드된 레코드의 데이터 원본에 쓰기 저장하는 값입니다.  **[편집 폼](controls/control-form-detail.md)** 컨트롤에 적용됩니다.
 
 ### <a name="v"></a>V
 
-**Valid** – **[카드](controls/control-card.md)** 또는 **[편집 양식](controls/control-form-detail.md)** 컨트롤에 올바른 항목이 있고 데이터 원본에 제출할 준비가 되었는지 여부입니다.  **[카드](controls/control-card.md)** 및 **[편집 양식](controls/control-form-detail.md)** 컨트롤에 적용됩니다.
+**Valid** – **[카드](controls/control-card.md)** 또는 **[편집 폼](controls/control-form-detail.md)** 컨트롤에 올바른 항목이 있고 데이터 원본에 제출할 준비가 되었는지 여부입니다.  **[카드](controls/control-card.md)** 및 **[편집 폼](controls/control-form-detail.md)** 컨트롤에 적용됩니다.
 
 **[Value](controls/properties-core.md)** – 입력 컨트롤의 값입니다.  **[확인란](controls/control-check-box.md)**, **[라디오](controls/control-radio.md)**, **[슬라이더](controls/control-slider.md)** 및 **[토글](controls/control-toggle.md)** 컨트롤에 적용됩니다.
 
@@ -524,7 +524,7 @@ ms.locfileid: "58073674"
 
 **[Width](controls/properties-size-location.md)** – 컨트롤의 왼쪽 및 오른쪽 가장자리 사이의 간격입니다.  많은 컨트롤에 적용됩니다.
 
-**[WidthFit](controls/properties-size-location.md)** – **[편집 양식](controls/control-form-detail.md)** 컨트롤처럼 컨테이너 컨트롤의 빈 공간을 채우기 위해 컨트롤이 가로 방향으로 자동으로 확장하는지 여부입니다. 여러 카드에서 이 속성이 **true**로 설정되면 카드 사이의 공간이 분할됩니다. 자세한 내용은 [데이터 양식 레이아웃 이해](working-with-form-layout.md)를 참조하세요.
+**[WidthFit](controls/properties-size-location.md)** – **[편집 폼](controls/control-form-detail.md)** 컨트롤처럼 컨테이너 컨트롤의 빈 공간을 채우기 위해 컨트롤이 가로 방향으로 자동으로 확장하는지 여부입니다. 여러 카드에서 이 속성이 **true**로 설정되면 카드 사이의 공간이 분할됩니다. 자세한 내용은 [데이터 폼 레이아웃 이해](working-with-form-layout.md)를 참조하세요.
 
 **[Wrap](controls/control-text-box.md)** – 레이블에 비해 너무 긴 텍스트가 다음 줄로 줄 바꿈하는지 여부입니다.  **[레이블](controls/control-text-box.md)** 컨트롤에 적용됩니다.
 
