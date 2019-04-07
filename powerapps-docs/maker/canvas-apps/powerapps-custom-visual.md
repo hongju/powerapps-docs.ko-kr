@@ -82,4 +82,4 @@ PowerApps 사용자 지정 시각적 개체는 미리 보기에서 사용할 수
 ## <a name="next-steps"></a>다음 단계
 
 * 간단한 [단계별 자습서](embed-powerapps-powerbi.md)로 진행합니다.
-* 체크 아웃 우리의 [비디오](https://aka.ms/powerappscustomvisualvideo)합니다.
+* [비디오](https://aka.ms/powerappscustomvisualvideo)를 확인합니다.
