@@ -26,7 +26,7 @@ ms.locfileid: "57800724"
 
 ## <a name="add-and-rename-a-screen"></a>화면 추가 및 이름 바꾸기
 
-1. **홈** 탭에서 **새 화면**을 선택한 다음 추가하기 원하는 화면 종류를 선택 합니다.
+1. **홈** 탭에서 **새 화면**을 선택한 다음 추가하려는 화면 종류를 선택합니다.
 
     ![홈 탭에서 화면 옵션 추가](./media/add-screen-context-variables/add-screen.png)
 
@@ -45,11 +45,11 @@ ms.locfileid: "57800724"
 ![화면을 다시 정렬](./media/add-screen-context-variables/reorder-screen.png)
 
 > [!NOTE]
-> 앱을 열 때 컨트롤의 계층적 목록 맨 위에 있는 화면이 일반적으로 첫 번째를 나타납니다. 하지만 **[Navigate](functions/function-navigate.md)** 함수를 포함하는 수식으로 **[OnStart](controls/control-screen.md)** 속성을 설정하여 다른 화면을 지정할 수 있습니다.
+> 앱을 열 때 컨트롤의 계층적 목록 맨 위에 있는 화면이 일반적으로 첫 번째로 나타납니다. 하지만 **[Navigate](functions/function-navigate.md)** 함수를 포함하는 수식으로 **[OnStart](controls/control-screen.md)** 속성을 설정하여 다른 화면을 지정할 수 있습니다.
 
 ## <a name="add-navigation"></a>탐색 추가
 
-1. **Source**  화면을 선택하여, **삽입**탭을 열어, **아이콘**를 선택한 후 **앞으로 화살표**를 선택합니다.  
+1. **Source** 화면을 선택하고, **삽입** 탭을 열어, **아이콘**을 선택한 후 **앞으로 화살표**를 선택합니다. 
 
     ![[삽입] 탭에 있는 [셰이프] 옵션](./media/add-screen-context-variables/add-next-arrow.png)
 
@@ -67,7 +67,7 @@ ms.locfileid: "57800724"
 
     `Navigate(Source, ScreenTransition.Fade)`
 
-5. Alt 키를 누른 채 각 화면에 있는 화살표를 선택 하여 화면 사이를 전환 합니다.
+5. Alt 키를 누른 채 각 화면에 있는 화살표를 선택하여 화면 사이를 전환합니다.
 
 ## <a name="more-information"></a>자세한 정보
 
