@@ -32,7 +32,7 @@ ms.locfileid: "54459439"
 > * 화면을 수정 하는 방법.
 > * 앱에 화면을 통합 하는 방법입니다.
 
-이 화면의 기본 기능에 자세히에 대 한 참조를 [사용자 화면 참조](people-screen-reference.md)합니다.
+이 화면의 기본 기능의 자세한 내용은 [사용자 화면 참조](people-screen-reference.md)를 확인합니다.
 
 ## <a name="prerequisite"></a>필수 조건
 
@@ -42,13 +42,13 @@ ms.locfileid: "54459439"
 
 템플릿에서 사용자 화면을 추가:
 
-1. [로그인](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) PowerApps를 다음 앱을 만들거나 기존 앱을 PowerApps Studio 엽니다.
+1. PowerApps에 [로그인](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)한 다음 PowerApps Studio에서 앱을 만들거나 기존 앱을 엽니다.
 
     이 항목에서는 전화 앱을 보여주지만 태블릿 앱에 동일한 개념이 적용 됩니다.
 
-1. 에 **홈** 선택 리본의 탭 **새 화면** > **사람들이**합니다.
+1. 리본의 **홈** 탭에서 **새 화면** > **사용자**를 선택합니다.
 
-    기본적으로 화면 다음과 비슷합니다.
+    기본적으로 다음 화면과 비슷합니다.
 
     ![초기 사용자 상태 화면](media/people-screen/people-screen-empty.png)
 

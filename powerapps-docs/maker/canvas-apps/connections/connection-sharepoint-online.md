@@ -28,24 +28,24 @@ ms.locfileid: "59007892"
 
 데이터가 있는 위치에 따라 이러한 방법 중 하나 또는 모두를 수행할 수 있습니다.
 
-- SharePoint Online 사이트 또는 온-프레미스 사이트에 사용자 지정 목록에서 데이터를 표시 합니다.
+- SharePoint Online 사이트 또는 온-프레미스 사이트의 사용자 지정 목록에서 데이터를 표시합니다.
 - 이미지를 표시 하 고 (SharePoint Online에 해당) 라이브러리의 비디오 또는 오디오 파일을 재생 합니다.
 
 ## <a name="generate-an-app"></a>앱 생성
 
-PowerApps의 수를 사용자 지정 목록에서 데이터를 관리 하려는 경우 [를 3 개 화면 앱을 자동으로 생성](../app-from-sharepoint.md)합니다. 사용자가 첫 번째 화면에 목록을 찾아보고, 두 번째 화면에서 항목의 세부 정보를 표시 하 고 만들 수도 있고 세 번째 화면에서 항목을 업데이트.
+사용자 지정 목록에서 데이터를 관리하려는 경우 PowerApps는 [3개 화면의 앱을 자동으로 생성](../app-from-sharepoint.md)합니다. 사용자는 첫 번째 화면에서 목록을 찾아보고, 두 번째 화면에서 항목의 세부 정보를 표시하고 세 번째 화면에서 항목을 업데이트하거나 만들 수 있습니다.
 
 > [!NOTE]
-> SharePoint 목록에 포함 된 경우는 **선택**, **조회**, 또는 **개인 또는 그룹** 열을 참조 하세요 [갤러리에 데이터를 표시](connection-sharepoint-online.md#show-list-columns-in-a-gallery) 이 항목의 뒷부분에 나오는.
+> SharePoint 목록에 **선택**, **조회**, 또는 **개인 또는 그룹** 열이 포함된 경우는 이 항목의 뒷부분에 나오는 [갤러리에 데이터 표시](connection-sharepoint-online.md#show-list-columns-in-a-gallery)를 참조하세요.
 
 ## <a name="create-a-connection"></a>연결 만들기
 
-1. [PowerApps에 로그인](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)을 선택 **데이터** > **연결** 왼쪽 탐색 모음에서 선택한 후 **새 연결** 근처의 왼쪽 위 모퉁이입니다.
+1. [PowerApps에 로그인](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)하고, 왼쪽 탐색 모음에서 **데이터** > **연결**을 선택한 후, 왼쪽 위 모퉁이 근처의 **새 연결**을 선택합니다.
 
     > [!div class="mx-imgBorder"]
     > ![데이터 선택 >의 왼쪽된 탐색 모음에서 연결 하 고 왼쪽 위 모서리 근처에서 새 연결을 선택 합니다.](./media/connection-sharepoint-online/new-connection.png)
 
-1. 검색 상자 오른쪽 위 모서리 근처에서 입력 하거나 붙여 넣습니다 **SharePoint**를 선택한 후 **SharePoint**합니다.
+1. 오른쪽 위 모서리 근처의 검색 상자에 **SharePoint**를  입력하거나 붙여 넣고 **SharePoint**를 선택합니다.
 
     > [!div class="mx-imgBorder"]
     > ![검색 상자 오른쪽 위 모서리 근처에서 입력 또는 붙여 SharePoint 하 고 SharePoint를 선택 합니다.](./media/connection-sharepoint-online/select-sharepoint.png)
@@ -59,7 +59,7 @@ PowerApps의 수를 사용자 지정 목록에서 데이터를 관리 하려는 
 
         연결이 만들어지고 기존 앱에 데이터를 추가 하거나 처음부터 앱을 빌드할 수 있습니다.
 
-    - 온-프레미스 사이트에 연결 하려면 **온-프레미스 데이터 게이트웨이 사용 하 여 연결**합니다.
+    - 온-프레미스 사이트에 연결하려면 **온-프레미스 데이터 게이트웨이를 사용하여 연결**을 선택합니다.
 
         > [!div class="mx-imgBorder"]
         > ![온-프레미스 사이트에 연결 하려면 선택 * * 온-프레미스 데이터 게이트웨이 사용 하 여 연결)](./media/connection-sharepoint-online/select-onprem.png)
@@ -69,10 +69,10 @@ PowerApps의 수를 사용자 지정 목록에서 데이터를 관리 하려는 
         > [!div class="mx-imgBorder"]
         > ![자격 증명 지정](./media/connection-sharepoint-online/specify-creds.png)
 
-        아래 **게이트웨이 선택**를 선택 하 고 선택 하려는 게이트웨이 **만들기**.
+        **게이트웨이 선택** 아래에서 사용하려는 게이트웨이를 선택하고 **만들기**를 선택합니다.
 
         > [!NOTE]
-        > 온-프레미스 데이터 게이트웨이 설치 하 고, 없으면 [하나를 설치](../gateway-reference.md), 게이트웨이 목록을 새로 고치려면 아이콘을 선택 합니다.
+        > 설치된 온-프레미스 데이터 게이트웨이가 없다면, [게이트웨이를 설치](../gateway-reference.md)하고, 게이트웨이 목록을 새로 고치려면 해당 아이콘을 선택합니다.
 
         > [!div class="mx-imgBorder"]
         > ![게이트웨이 선택](./media/connection-sharepoint-online/choose-gateway.png)
@@ -81,14 +81,14 @@ PowerApps의 수를 사용자 지정 목록에서 데이터를 관리 하려는 
 
 ## <a name="add-data-to-an-existing-app"></a>기존 앱에 데이터 추가
 
-1. PowerApps Studio 업데이트를 선택 하려는 앱을 엽니다는 **뷰** 탭을 선택한 후 **데이터 원본**합니다.
+1. PowerApps Studio에서 업데이트하려는 앱을 열고 **보기** 탭을 선택한 후 **데이터 원본**을 선택합니다.
 
     > [!div class="mx-imgBorder"]
     > ![보기 탭에 선택 하 고 데이터 원본](./media/connection-sharepoint-online/view-data-sources.png)
 
-1. 에 **데이터** 창 **데이터 원본 추가** > **SharePoint**합니다.
+1. **데이터** 창에서 **데이터 원본 추가** > **SharePoint**를 선택합니다.
 
-1. 아래 **SharePoint 사이트에 연결**, 항목을 선택 합니다 **최근에 사용한 사이트** 목록 또는 형식, 사용 하려는 사이트에 대 한 URL 붙여 넣습니다 선택한 후 **Connect**합니다.
+1. **SharePoint 사이트에 연결** 아래 **최근에 사용한 사이트** 목록에서 사이트를 선택하거나 사용하려는 사이트의 URL을 입력하거나 붙여넣고 **연결**을 선택합니다.
 
     > [!div class="mx-imgBorder"]
     > ![사이트를 선택 합니다.](./media/connection-sharepoint-online/select-sp-site.png)
@@ -103,11 +103,11 @@ PowerApps의 수를 사용자 지정 목록에서 데이터를 관리 하려는 
     > [!div class="mx-imgBorder"]
     > ![사용자 지정 목록 이름 입력을 포함 하는 상자에서 목록의 이름을 입력 합니다.](./media/connection-sharepoint-online/custom-list.png)
 
-    데이터 원본이 나 출처를 앱에 추가 됩니다.
+    데이터 원본이 앱에 추가됩니다.
 
 ## <a name="build-your-own-app-from-scratch"></a>처음부터 고유한 앱 빌드
 
-개념을 적용할 [처음부터 앱 만들기](../get-started-create-from-blank.md) Excel 대신 SharePoint에 있습니다.
+[처음부터 앱 만들기](../get-started-create-from-blank.md)의 개념을 Excel 대신 SharePoint에 적용합니다.
 
 ## <a name="show-list-columns-in-a-gallery"></a>갤러리에서 목록 열 표시
 
@@ -124,7 +124,7 @@ PowerApps의 수를 사용자 지정 목록에서 데이터를 관리 하려는 
     이메일 주소나 직함 등과 같은 다른 사용자 정보를 표시할 수도 있습니다. 지정할 옵션의 전체 목록을 표시할 **ThisItem.** _ColumnName_**합니다.** (마침표 포함).
 
     > [!NOTE]
-    > 에 대 한는 **CreatedBy** 열을 지정 **ThisItem.Author.DisplayName** 목록에서 항목을 만든 사용자의 표시 이름을 표시 합니다. **ModifiedBy** 열에 대해 목록에서 항목을 변경한 사용자의 표시 이름을 표시하려면 **ThisItem.Editor.DisplayName**을 지정합니다.
+    > **CreatedBy** 열에 대해 목록에서 항목을 만든 사용자의 표시 이름을 표시하려면 **ThisItem.Author.DisplayName**을 지정합니다. **ModifiedBy** 열에 대해 목록에서 항목을 변경한 사용자의 표시 이름을 표시하려면 **ThisItem.Editor.DisplayName**을 지정합니다.
 
 - 에 **관리 되는 메타 데이터** 열을 지정 **ThisItem.** _ColumnName_**합니다. 레이블** 해당 열에 데이터를 표시 하도록 합니다.
 
@@ -132,46 +132,46 @@ PowerApps의 수를 사용자 지정 목록에서 데이터를 관리 하려는 
 
 ## <a name="show-data-from-a-library"></a>라이브러리에서 데이터 표시
 
-에 있는 경우 몇 개의 이미지가 SharePoint 라이브러리에 추가할 수 있습니다는 **드롭다운** 사용자 표시할 이미지를 지정할 수 있도록 앱을 제어 합니다. 다른 컨트롤에도 동일한 원칙이 같은 적용할 수도 **갤러리** 컨트롤 및 다른 종류의 비디오와 같은 데이터입니다.
+SharePoint 라이브러리에 몇 개의 이미지가 있는 경우  **드롭다운** 컨트롤을 추가하여 사용자가 표시할 이미지를 지정할 수 있습니다. 비디오 같은 다른 종류의 데이터 및 **갤러리** 컨트롤 같은 다른 컨트롤에도 동일한 원칙을 적용할 수 있습니다.
 
 1. 이미 않았다면 [연결을 만듭니다](#create-a-connection)를 차례로 [기존 앱에 데이터를 추가](#add-data-to-an-existing-app).
 
-1. 추가 된 **드롭다운** 제어 하 고 이름을 **ImageList**합니다.
+1. **드롭다운** 컨트롤을 추가하고 이름을 **ImageList**로 변경합니다.
 
-1. 설정 합니다 **항목** 속성을 **ImageList** 하 **문서**합니다.
+1. **ImageList**의 **Items** 속성을 **문서**로 설정합니다.
 
-1. 에 **속성** 열고 오른쪽 창의 탭을 **값** 목록 및 선택한 **이름**합니다.
+1. 오른쪽 창의 **속성** 탭에서  **Value** 목록을 열고 **이름**을 선택합니다.
 
-    라이브러리에서 이미지의 파일 이름을 나타나지 **ImageList**합니다.
+    **ImageList**에 라이브러리의 이미지 파일 이름이 나타납니다.
 
     > [!div class="mx-imgBorder"]
     > ![이미지 목록](./media/connection-sharepoint-online/dropdown-items.png)
 
-1. 추가 된 **이미지** 설정 해당 **이미지** 속성을이 식:
+1. **이미지** 컨트롤을 추가하고 **image** 속성을 다음 식으로 설정합니다.
 
     `ImageList.Selected.'Link to item'`
 
-1. F5 키를 선택한 후에 다른 값을 **ImageList**합니다.
+1. F5 키를 선택한 후에 **ImageList**에서 다른 값을 선택합니다.
 
     지정 된 이미지가 표시 됩니다.
 
     > [!div class="mx-imgBorder"]
     > ![샘플 이미지](./media/connection-sharepoint-online/golden-honey.png)
 
-할 수 있습니다 [샘플 앱을 다운로드](https://pwrappssamples.blob.core.windows.net/samples/spdoclib_blogapp.msapp) SharePoint 라이브러리에서 데이터를 표시 하는 더 복잡 한 접근 방식을 보여 주는 합니다.
+SharePoint 라이브러리에서 데이터를 표시하는 더 복잡한 접근 방식을 보여 주는 [샘플 앱을 다운로드](https://pwrappssamples.blob.core.windows.net/samples/spdoclib_blogapp.msapp)할 수 있습니다.
 
-1. 앱을 다운로드 한 후 엽니다 [PowerApps Studio](https://us.create.powerapps.com/studio/#)를 선택 **엽니다** 왼쪽 탐색 모음에서 선택한 후 **찾아보기**합니다.
-1. 에 **엽니다** 대화 상자에서 찾기 및 다운로드 한 파일을 열 및 다음이 항목의 처음 두 절차를 수행 하 여 데이터 원본으로 SharePoint 라이브러리를 추가 합니다.
+1. 앱을 다운로드한 후, [PowerApps Studio](https://us.create.powerapps.com/studio/#)를 열어 왼쪽 탐색 모음에서 **열기**를 선택한 후 **찾아보기**를 선택합니다.
+1. **열기** 대화 상자에서 다운로드한 파일을 찾아서 열고, 이 항목의 처음 두 절차를 수행하여 데이터 원본으로 SharePoint 라이브러리를 추가합니다.
 
 > [!NOTE]
-> 기본적으로이 앱 표시 [위임 경고](../delegation-overview.md), 있지만 라이브러리에 500 개 미만의 항목이 포함 되어 있으면 무시할 수 있습니다.
+> 기본적으로 이 앱은 [위임 경고](../delegation-overview.md)를 표시하지만, 라이브러리에 500개 미만의 항목이 포함되어 있으면 무시할 수 있습니다.
 
 이 한 화면 앱의 왼쪽 아래 모서리에 있는 목록에는 라이브러리의 모든 파일 보여 줍니다.
 
-- 입력 하거나 하나를 붙여 넣어 파일을 검색할 수 있습니다 또는 맨 위쪽에 있는 검색 상자에 있는 문자가 더 이상.
-- 라이브러리 폴더에 있으면 제목 표시줄 바로 아래 폴더 목록에서 필터 아이콘을 선택 하 여 파일 목록을 필터링 할 수 있습니다.
+- 맨 위쪽에 있는 검색 상자에 하나 이상의 문자를 입력하거나 붙여 넣어 파일을 검색할 수 있습니다.
+- 라이브러리에 폴더가 있으면 제목 표시줄 바로 아래 폴더 목록에서 필터 아이콘을 선택하여 파일 목록을 필터링할 수 있습니다.
 
-원하는 파일을 찾으면 선택에 표시 되도록 합니다 **비디오**, **이미지**, 또는 **오디오** 오른쪽에 있는 컨트롤입니다.
+원하는 파일을 찾으면 오른쪽의 **비디오**, **이미지**, 또는 **오디오** 컨트롤에 표시되도록 선택합니다.
 
 > [!div class="mx-imgBorder"]
 > ![샘플 이미지](./media/connection-sharepoint-online/library-app.png)
@@ -208,8 +208,8 @@ PowerApps는 공백을 포함 하는 열 이름을 읽을 수 있지만 16 진�
 
 - PowerApps에서 라이브러리에 파일을 업로드할 수 없습니다.
 - PDF 뷰어 컨트롤의 라이브러리에서 PDF 파일을 표시할 수 없습니다.
-- PowerApps Mobile을 지원 하지 않습니다 합니다 **다운로드** 함수입니다.
-- 사용자가 앱에서 PowerApps Mobile 또는 Windows 10 앱을 실행 하는 경우 사용 합니다 **시작** 라이브러리 콘텐츠 갤러리에 표시할 함수.
+- PowerApps Mobile은 **Download** 함수를 지원하지 않습니다.
+- 사용자가 PowerApps Mobile 또는 Windows 10 앱에서 앱을 실행하는 경우 갤러리의 라이브러리 콘텐츠를 표시하도록 **Launch** 함수를 사용합니다.
 
 ## <a name="next-steps"></a>다음 단계
 

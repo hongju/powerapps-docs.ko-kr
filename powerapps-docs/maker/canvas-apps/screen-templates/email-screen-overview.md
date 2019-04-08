@@ -162,6 +162,6 @@ ms.locfileid: "54459554"
 
 ## <a name="next-steps"></a>다음 단계
 
-* [이 화면에 대 한 참조 설명서](./email-screen-reference.md)합니다.
-* [PowerApps에서 Office 365 사용자 커넥터에 자세히 알아보려면](../connections/connection-office365-users.md)합니다.
-* [PowerApps에서 사용 가능한 모든 연결 참조](../connections-list.md)합니다.
+* [이 화면에 대한 참조 설명서](./email-screen-reference.md)
+* [PowerApps에서 Office 365 사용자 커넥터에 대해 자세히 알아보기](../connections/connection-office365-users.md)
+* [PowerApps에서 사용 가능한 모든 연결 참조](../connections-list.md)
