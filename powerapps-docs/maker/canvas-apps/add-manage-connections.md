@@ -15,7 +15,7 @@ search.app:
 - PowerApps
 ms.openlocfilehash: d2a7da93835e5fbe588a8683bbdb0393d5b76ee5
 ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/24/2018
 ms.locfileid: "42834046"
@@ -41,7 +41,7 @@ ms.locfileid: "42834046"
 ## <a name="background-on-data-connections"></a>데이터 연결에 대한 배경
 대부분의 PowerApps 앱은 클라우드 서비스에 저장된 **데이터 원본**이라는 외부 정보를 사용합니다. 일반적인 예로 비즈니스용 OneDrive에 저장된 Excel 파일의 테이블이 있습니다. 앱에서 **연결**을 사용하여 이러한 데이터 원본에 액세스할 수 있습니다.
 
-데이터 원본의 commonest 형식은 정보 검색 및 저장에 사용할 수 있는 테이블입니다. 데이터 원본에 대한 연결을 사용하여 데이터를 비즈니스용 OneDrive, DropBox, SQL Server 등과 같은 클라우드 서비스에 저장할 수 있는 Microsoft Excel 통합 문서, SharePoint 목록, SQL 테이블 및 다른 많은 형식으로 읽고 쓸 수 있습니다.
+데이터 원본의 가장 흔한 유형은 정보 검색 및 저장에 사용할 수 있는 테이블입니다. 데이터 원본에 대한 연결을 사용하여 데이터를 비즈니스용 OneDrive, DropBox, SQL Server 등과 같은 클라우드 서비스에 저장할 수 있는 Microsoft Excel 통합 문서, SharePoint 목록, SQL 테이블 및 다른 많은 형식으로 읽고 쓸 수 있습니다.
 
 전자 메일, 일정, Twitter 및 알림(출시 예정)과 같이 테이블이 아닌 다른 종류의 데이터 원본이 있습니다.
 
@@ -77,10 +77,10 @@ ms.locfileid: "42834046"
    * [SharePoint](connections/connection-sharepoint-online.md)
    * [SQL Server](connections/connection-azure-sqldatabase.md)
 
-**연결** 아래에 새 커넥터가 표시되면 [앱으로 연결 추가](add-data-connection.md)를 실행할하면 됩니다.
+**연결** 아래에 새 커넥터가 표시되면 [앱으로 연결 추가](add-data-connection.md)를 실행하면 됩니다.
 
 ## <a name="update-or-delete-a-connection"></a>연결 업데이트 또는 삭제
-연결 목록에서 업데이트 또는 삭제할 연결을 찾은 다음, 연결의 오른쪽에 있는 줄임표(점 기호 3개)를 클릭하거나 탭합니다.
+연결 목록에서 업데이트 또는 삭제할 연결을 찾은 다음, 연결의 오른쪽에 있는 줄임표(...)를 클릭하거나 탭합니다.
 
 ![연결 업데이트](./media/add-manage-connections/auth-or-delete.png)
 

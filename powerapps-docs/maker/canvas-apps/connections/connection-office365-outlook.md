@@ -15,7 +15,7 @@ search.app:
 - PowerApps
 ms.openlocfilehash: 4f22f55b3c64d38cc274b0b69d8e7799c1a24f60
 ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/24/2018
 ms.locfileid: "42833497"
@@ -61,8 +61,8 @@ Office 365 Outlook 연결이 만들어지고 앱에 추가됩니다. 이제 사�
     `Office365.GetEmails({folderPath:"Deleted Items", fetchOnlyUnread:false, top:2, skip:3})`
 
 ## <a name="send-a-message"></a>메시지 보내기
-1. **삽입** 메뉴에서 **텍스트 상자**를 선택한 다음 **텍스트 입력**을 선택합니다.
-2. 이전 단계를 두 번 더 반복하여 세 상자를 만들고 한 열에 정렬합니다.  
+1. **삽입** 메뉴에서 **텍스트**를 선택한 다음 **텍스트 입력**을 선택합니다.
+2. 이전 단계를 두 번 더 반복하여 3개의 텍스트 입력을 만들고 한 열에 정렬합니다.  
    
     ![열의 세 상자](./media/connection-office365-outlook/threetextinput.png)
 3. 컨트롤을 이름을 다음으로 바꿉니다.  
@@ -78,9 +78,9 @@ Office 365 Outlook 연결이 만들어지고 앱에 추가됩니다. 이제 사�
 7. **이메일 보내기**를 선택하여 메시지를 보냅니다. 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
 
 ## <a name="send-a-message-with-an-attachment"></a>첨부 파일이 있는 메시지 보내기
-예를 들어, 디바이스의 카메라를 사용하여 사진을 촬영한 다음 첨부 파일로 보내는 앱을 만들 수 있습니다. 사용자가 여러 종류의 파일을 이메일 앱에 첨푸할 수도 있습니다.
+예를 들어, 디바이스의 카메라를 사용하여 사진을 촬영한 다음 첨부 파일로 보내는 앱을 만들 수 있습니다. 사용자가 여러 종류의 파일을 이메일 앱에 첨부할 수도 있습니다.
 
-메시지에 첨부 파일을 추가하려면 이젠 섹션에 단계를 따르면서 첨부 파일을 지정하는 매개 변수를 추가합니다(단추의 **OnSelect** 속성을 설정할 때). 이 매개 변수는 각 첨부 파일에 대해 최대 3개를 지정하는 테이블 형태로 구성됩니다.
+메시지에 첨부 파일을 추가하려면 이전 섹션의 단계를 따르면서 첨부 파일을 지정하는 매개 변수를 추가합니다(단추의 **OnSelect** 속성을 설정할 때). 이 매개 변수는 각 첨부 파일에 대해 최대 3개의 속성을 지정하는 테이블 형태로 구성됩니다.
 
 * 이름
 * ContentBytes

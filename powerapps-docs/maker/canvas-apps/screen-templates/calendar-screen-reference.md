@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: abf88db2bfb97a6541ee638ba8be5af27c20bc5f
-ms.sourcegitcommit: 5e15a1033a68289781f8092fb65c57432501f911
+ms.openlocfilehash: e3d5f40a604d2cbfa074ed5973d599c40a6c5c05
+ms.sourcegitcommit: 647e183c070c2159b790c7813a7be1d60b2551bd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54459577"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58765586"
 ---
 # <a name="reference-information-about-the-calendar-screen-template-for-canvas-apps"></a>캔버스 앱에 대한 일정 화면 템플릿에 대한 참조 정보
 
@@ -37,7 +37,7 @@ PowerApps의 캔버스 앱에 대한 일정 화면 템플릿의 각 중요한 �
 
 [PowerApps에서 앱을 만들어](../data-platform-create-app-scratch.md) 화면 및 기타 컨트롤을 추가하고 구성하는 방법에 친숙합니다.
 
-## <a name="calendar-drop-down"></a>달력 드롭다운 
+## <a name="calendar-drop-down"></a>달력 드롭다운
 
 ![dropdownCalendarSelection 컨트롤](media/calendar-screen/calendar-dropdown.png)
 
@@ -191,9 +191,9 @@ PowerApps의 캔버스 앱에 대한 일정 화면 템플릿의 각 중요한 �
     ```
 
     > [!NOTE]
-    > **\_firstDayOfMonth**, **\_firstDayInView** 및 **\_lastDayOfMonth**에 대한 정의는 이 항목의 [달력 드롭다운](#calendar-drop-down) 섹션과 거의 일치합니다.
+    > 에 대 한 정의가  **\_firstDayOfMonth**합니다  **\_firstDayInView**, 및  **\_lastDayOfMonth** 거의 일치 하는 에 [달력 드롭다운](#calendar-drop-down) 이 항목의 섹션입니다.
 
-    사용자가 다음 월 펼침 단추를 선택할 때 실행되는 앞의 코드의 첫 세 줄은 적절한 일정 보기를 표시하는 데 필요한 변수를 설정합니다. 나머지 코드는 사용자가 선택한 일정에 대해 이전에 이번 달을 선택하지 않은 경우에 실행됩니다.
+    사용자가 다음 개월 펼침 단추를 선택할 때 실행할 앞의 코드의 첫 세 줄 적절 한 달력 보기를 표시 하는 데 필요한 변수를 설정 합니다. 나머지 코드는 사용자가 선택한 일정에 대해 이전에 이번 달을 선택하지 않은 경우에만 실행됩니다.
 
     이 경우 **\_maxDate**는 이전 달이 표시될 때 나타나는 마지막 날짜입니다. 사용자가 다음 월 펼침 단추를 선택하기 전에 **\_maxDate**는 다음 달 13일의 가능한 최대 값입니다. (비-윤년 2월 1일이 일요일이면, **\_maxDate**는 **\_firstDayInView** + 40일인 3월 13일입니다.) 즉, 사용자가 이번 달을 아직 선택하지 않은 경우 **\_maxDate**는 새 **\_lastDayOfMonth**보다 크고, **If** 함수는 **true**를 반환합니다. 코드가 실행되고 컬렉션 및 변수가 업데이트됩니다.
 
@@ -239,8 +239,8 @@ PowerApps의 캔버스 앱에 대한 일정 화면 템플릿의 각 중요한 �
         RGBA( 0, 0, 0, 0 )
     )
     ```
-
- **Text** 속성의 설명에 논의된 대로, `DateAdd(_firstDayInView, ThisItem.Value)`는 표시 셀에서 일자를 나타냅니다. 이 점을 감안하여, 앞의 코드는 이러한 비교를 수행합니다.
+    
+  **Text** 속성의 설명에 논의된 대로, `DateAdd(_firstDayInView, ThisItem.Value)`는 표시 셀에서 일자를 나타냅니다. 이 점을 감안하여, 앞의 코드는 이러한 비교를 수행합니다.
   1. 셀의 값이 오늘 날짜이고 이 셀이 **\_dateSelected**과 동등한 경우, 채우기 값을 제공하지 않습니다.
   1. 셀의 값이 오늘 날짜이지만 **\_dateSelected**과 동등하지 않은 경우, **ColorFade** 채우기를 제공합니다.
   1. 마지막 비교는 명확하지 않습니다. 셀의 실제 텍스트 값과 셀 항목의 값(화면의 수 및 항목 수)을 비교합니다.<br>

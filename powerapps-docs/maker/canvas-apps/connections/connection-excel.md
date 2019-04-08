@@ -15,7 +15,7 @@ search.app:
 - PowerApps
 ms.openlocfilehash: d70756e275ff129265661211f4dc6d95e6cefa96
 ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/24/2018
 ms.locfileid: "42830109"
@@ -23,7 +23,7 @@ ms.locfileid: "42830109"
 # <a name="connect-to-excel-from-powerapps"></a>PowerApps에서 Excel에 연결
 ![Excel](./media/connection-excel/excelicon.png)
 
-Excel은 *일종의* 연결입니다. 앱에서 Excel 데이터를 표시하려면 다음을 수행합니다.
+Excel은 연결의 *한 종류*입니다. 앱에서 Excel 데이터를 표시하려면 다음을 수행합니다.
 
 1. [Excel 데이터를 표로 서식 지정](https://support.office.com/article/Create-an-Excel-table-in-a-worksheet-E81AA349-B006-4F8A-9806-5AF9DF0AC664)합니다.
 2. Box, Dropbox, Google Drive, OneDrive 및 비즈니스용 OneDrive와 같은 클라우드 저장소 계정으로 Excel 파일을 저장합니다.

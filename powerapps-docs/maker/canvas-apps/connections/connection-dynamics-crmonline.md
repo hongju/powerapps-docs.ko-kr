@@ -50,7 +50,7 @@ PowerApps를 사용하면 약간의 코드 또는 전혀 없이 모바일 앱을
 1. [PowerApps에 로그인](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)한 다음, 왼쪽 아래 모서리 근처에서 **새 앱**을 클릭합니다.
    
     ![새 앱](./media/connection-dynamics-crmonline/new-app.png)
-2. **데이터를 통해 시작**에서 **Dynamics 365** 타일의 **휴대폰 레이아웃**을 클릭합니다.
+2. **데이터를 통해 시작**에서 **Dynamics 365** 타일의 **전화 레이아웃**을 클릭합니다.
    
     ![PowerApps는 Dynamics 365 커넥터를 선택합니다.](./media/connection-dynamics-crmonline/phonelayout.png)
 3. **연결**에서 원하는 연결을 선택한 다음, 앱에서 관리할 Dynamics 365의 인스턴스에 해당하는 데이터 집합을 선택합니다.

@@ -15,7 +15,7 @@ search.app:
 - PowerApps
 ms.openlocfilehash: 85806799a5f5ea91a4671a27e71cf95daabcd01a
 ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/24/2018
 ms.locfileid: "42863852"
@@ -43,7 +43,7 @@ ms.locfileid: "42863852"
 
     ![왼쪽 탐색 창의 게이트웨이](./media/gateway-management/manage-gateway.png)
 
-2. 게이트웨이 대한 관리 권한이 없으면, [지금 게이트웨이 설치](http://go.microsoft.com/fwlink/?LinkID=820931)(또는 오른쪽 위 모서리에서 **새 게이트웨이**)를 클릭하거나 탭한 후, 표시되는 마법사의 안내를 따릅니다.
+2. 게이트웨이에 대한 관리 권한이 없으면, [지금 게이트웨이 설치](http://go.microsoft.com/fwlink/?LinkID=820931)(또는 오른쪽 위 모서리에서 **새 게이트웨이**)를 클릭하거나 탭한 후, 표시되는 마법사의 안내를 따릅니다.
 
     ![게이트웨이 설치](./media/gateway-management/no-gateway-installed.png)
 

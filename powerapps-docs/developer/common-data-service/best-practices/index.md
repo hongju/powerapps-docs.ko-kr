@@ -16,12 +16,17 @@ ms.workload: na
 ms.date: 01/07/2019
 ms.author: jowells
 search.audienceType:
-  - developer
+- developer
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: c89042e1f94e6f891bfdc255c38f72929c27cb1e
+ms.sourcegitcommit: 5b2b70c3fc7bcba5647d505a79276bbaad31c610
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58357348"
 ---
-
 # <a name="best-practices-and-guidance-for-the-common-data-service"></a>Common Data Service에 대한 모범 사례 및 지침
 
 Common Data Service는 개발자가 고도로 사용자 지정되고 맞춤화된 환경을 빌드할 수 있도록 확장 가능한 프레임워크입니다. Common Data Service를 사용자 지정, 확장 또는 통합하는 동안 개발자는 확립된 지침과 모범 사례를 알고 있어야 합니다. 

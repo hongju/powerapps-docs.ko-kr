@@ -7,18 +7,18 @@ ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: ''
-ms.date: 12/17/2018
+ms.date: 04/04/2019
 ms.author: anneta
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: ca97583948a289240bfb051fa8cac36a39e2ffee
-ms.sourcegitcommit: c6ad6ba7814c5e7b12c3b7b76bf2e7718bf41b8c
+ms.openlocfilehash: d33f541ea698b02a662edb652f809095f47acc6e
+ms.sourcegitcommit: 38f91423933749ca19557f29e86cd8f5ad06e1eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58198639"
+ms.lasthandoff: 04/05/2019
+ms.locfileid: "59042735"
 ---
 # <a name="customize-a-sharepoint-list-form-by-using-powerapps"></a>PowerApps를 사용하여 SharePoint 목록 양식 사용자 지정
 
@@ -95,13 +95,13 @@ SharePoint 사이트에서 목록을 만듭니다 하와 해당 목록에 이러
 
 1. 열 목록, 선택 **새로 만들기** 명령 모음에서 선택한 후에 **사용자 지정** 폼의 맨 위 근처 합니다.
 
-1. 이러한 항목을 설명 하는 것과 같은 다양 한 폼에 사용자 지정:
+1. 다양 한 방법으로 이러한 항목을 설명 하는 것과 같은에서 양식을 사용자 지정 합니다.
 
     - 크기, 방향 또는 둘 다를 변경합니다(예: [양식 넓히기](set-aspect-ratio-portrait-landscape.md)).
     - [하나 이상의 카드 사용자 지정](working-with-cards.md) (예를 들어, 카드의 표시 텍스트 또는 입력 컨트롤 변경).
     - [조회 필드](sharepoint-lookup-fields.md)를 만듭니다.
 
-    자세한 정보: [SharePoint 양식 통합 이해](sharepoint-form-integration.md)
+    자세한 정보: [SharePoint 양식 통합 이해](sharepoint-form-integration.md)합니다.
 
 ## <a name="use-the-default-form"></a>기본 양식 사용
 
@@ -157,7 +157,7 @@ SharePoint 사이트에서 목록을 만듭니다 하와 해당 목록에 이러
 
 **Q:** 공유 하는 방법 쉽게 양식 내 다른 사용자와?
 
-**A:** 폼을 열고 **링크 복사**, 다음 링크를 보냅니다 폼을 사용 하려는 모든 사용자에 게 합니다.
+**A:** 폼을 열고 **링크 복사**, 다음 형식을 사용 하려는 모든 사용자에 게 링크를 보냅니다.
 
 **Q:** 변경 내 다른 사용자에 게 표시 하지 않고 폼을 업데이트할 수 있습니까?
 
@@ -179,7 +179,7 @@ SharePoint 사이트에서 목록을 만듭니다 하와 해당 목록에 이러
 1. 다른 브라우저 탭의 **버전** 페이지로 돌아가서 복원할 버전을 찾은 다음, **복원**을 선택합니다.
 
     > [!NOTE]
-    > 양식이 다른 사용자에 의해 잠겨 있어서 복원에 실패했다는 오류 메시지가 표시되면 해당 사용자가 양식의 잠금을 해제할 때까지 기다린 다음 다시 시도합니다.
+    > 폼을 다른 사용자에 의해 잠겨 있기 때문에 복원에 실패 한다는 오류 메시지를 받게 되 면 폼을 잠금 해제할 때까지 기다린 후 다시 시도 하십시오.
 
 **Q:** 이동할 수 있습니까 내 양식을 한 목록에서 다른?
 
@@ -189,7 +189,7 @@ SharePoint 사이트에서 목록을 만듭니다 하와 해당 목록에 이러
 
 **Q:** 폼을 공유 하려면 어떻게 해야 하나요?
 
-**A:** 형식을 공유할 필요가 없습니다-폼 SharePoint 목록에서 사용 권한을 상속 받습니다. 사용자 지정을 완료한 후 [SharePoint에 다시 게시](customize-list-form.md#save-and-publish-the-list-form-back-to-sharepoint)만 하면 다른 사람이 사용할 수 있습니다.
+**A:** 형식을 공유할 필요가 없습니다-폼 SharePoint 목록에서 사용 권한을 상속 받습니다. 사용자 지정을 완료한 후 [SharePoint에 다시 게시](customize-list-form.md#save-and-publish-the-form)만 하면 다른 사람이 사용할 수 있습니다.
 
 **Q:** 폼을 사용자 지정할 수는?
 
@@ -211,6 +211,6 @@ SharePoint 사이트에서 목록을 만듭니다 하와 해당 목록에 이러
 
 1. 기본 환경 페이지의 맨 위에서 **리소스**를 선택합니다.
 
-1. 앱 목록에서 **SharePoint 양식** 앱 유형이 있는 앱을 찾습니다. 이러한 항목이 사용자 지정 양식입니다.
+1. 앱 목록에서 사용 하 여 앱에 대 한 확인을 **SharePoint 양식** 앱 유형-이 사용자 지정된 양식입니다.
 
     ![사용자 지정된 양식 목록](./media/customize-list-form/all-customized-forms.png)

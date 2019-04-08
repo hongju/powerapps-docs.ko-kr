@@ -20,28 +20,28 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/23/2019
 ms.locfileid: "54459531"
 ---
-# <a name="reference-information-about-the-meeting-screen-template-for-canvas-apps"></a>캔버스 앱에 대 한 모임 화면 템플릿에 대 한 참조 정보
+# <a name="reference-information-about-the-meeting-screen-template-for-canvas-apps"></a>캔버스 앱의 모임 화면 템플릿 참조 정보
 
-PowerApps의 캔버스 앱에 대 한 모임 화면 템플릿에 중요 한 각 컨트롤 화면의 전체 기본 기능에 기여 하는 방법을 이해 합니다. 이 심층 동작 수식 및 컨트롤 사용자 입력에 응답 하는 방법을 결정 하는 다른 속성의 값을 표시 합니다. 이 화면의 기본 기능의 간략 한 설명을에 대 한 참조를 [모임 화면 개요](meeting-screen-overview.md).
+PowerApps의 캔버스 앱의 모임 화면 템플릿의 각 주요 컨트롤이 화면의 전체 기본 기능에 기여하는 방법을 이해합니다. 이 깊이 있는 정보는 컨트롤이 사용자 입력에 응답하는 방법을 결정하는 다른 속성의 값 및 동작 수식을 설명합니다. 이 화면의 기본 기능에 대한 간략한 설명은 [모임 화면 개요](meeting-screen-overview.md)를 참조합니다.
 
-이 항목에서는 몇 가지 중요 한 컨트롤을 강조 표시 하 고 다양 한 속성을 수식 또는 식에 설명 (같은 **항목** 하 고 **OnSelect**) 이러한 컨트롤은 설정 됩니다.
+이 항목에서는 몇 가지 중요한 컨트롤을 강조하고 각 컨트롤의 다양한 속성(**Items**와 **OnSelect** 같은)에 설정하는 수식 또는 식을 설명합니다.
 
-* [탭 (LblInviteTab)를 초대 합니다.](#invite-tab)
+* [초대 탭(LblInviteTab)](#invite-tab)
 * [일정 탭 (LblScheduleTab)](#schedule-tab)
-* [검색 입력란](#text-search-box)
+* [텍스트 검색 상자](#text-search-box)
 * [추가 아이콘 (AddIcon)](#add-icon)
 * [사람 찾아보기 갤러리](#people-browse-gallery) (+ 자식 컨트롤)
 * [모임 사용자 갤러리](#meeting-people-gallery) (+ 자식 컨트롤)
 * [모임 날짜 선택 (MeetingDateSelect)](#meeting-date-picker)
 * [모임 기간 드롭다운 (MeetingDurationSelect)](#meeting-duration-drop-down)
 * [모임 시간 찾기 갤러리](#find-meeting-times-gallery) (+ 자식 컨트롤)
-* [대화방 갤러리 찾아보기](#room-browse-gallery) (+ 자식 컨트롤)
-* [백 펼침 단추 (RoomsBackNav)](#back-chevron) (표시 되지 않는 테 넌 트 방 목록 없는 경우)
+* [회의실 찾아보기 갤러리](#room-browse-gallery)(+ 자식 컨트롤)
+* [뒤로 펼침 단추(RoomsBackNav)](#back-chevron)(테넌트에 회의실 목록이 없는 경우 표시되지 않음)
 * [보내기 아이콘](#send-icon)
 
 ## <a name="prerequisite"></a>필수 조건
 
-추가할 때 화면 및 기타 컨트롤을 구성 하는 방법 익히는 [PowerApps에서 앱을 만드는](../data-platform-create-app-scratch.md)합니다.
+[PowerApps에서 앱을 만들어](../data-platform-create-app-scratch.md) 화면 및 기타 컨트롤을 추가하고 구성하는 방법에 친숙합니다.
 
 ## <a name="invite-tab"></a>초대 탭
 
@@ -77,17 +77,17 @@ PowerApps의 캔버스 앱에 대 한 모임 화면 템플릿에 중요 한 각 
 
 <!--Include description of text search box control?-->
 
-화면에 여러 가지 다른 컨트롤과이 대 한 종속성:
+화면의 여러 다른 컨트롤이 이 컨트롤에 대해 종속성을 가집니다.
 
-* 모든 텍스트를 입력 하기 시작할 경우 **PeopleBrowseGallery** 표시 됩니다.
-* 유효한 메일 주소를 입력 하면 **AddIcon** 표시 됩니다.
-* 사용자가 내에서 사용자를 선택 하는 경우 **PeopleBrowseGallery** 검색 내용을 다시 설정 됩니다.
+* 사용자가 텍스트를 입력하기 시작할 경우 **PeopleBrowseGallery**가 나타납니다.
+* 유효한 메일 주소를 입력하면 **AddIcon**이 표시됩니다.
+* 사용자가 **PeopleBrowseGallery**에서 사용자를 선택하는 경우, 검색 내용이 다시 설정됩니다.
 
 ## <a name="add-icon"></a>추가 아이콘
 
    ![AddIcon 컨트롤](media/email-screen/email-add-icon.png)
 
-이 컨트롤에 사용자가 구성 되는 모임 참석자 목록에 해당 조직 내에서 존재 하지 않습니다 하는 사용자를 추가할 수 있습니다.
+이 컨트롤을 사용하여 사용자는 해당 조직 내에서 존재하지 않는 사람을 작성하는 모임의 참석자 목록에 추가할 수 있습니다.
 
 * 속성: **Visible**<br>
     값: 로 계산 되어야 합니다 모든 확인 논리 세 **true** 표시 되도록 컨트롤에 대 한 합니다.
@@ -98,11 +98,11 @@ PowerApps의 캔버스 앱에 대 한 모임 화면 템플릿에 중요 한 각 
         Not( Trim( TextSearchBox.Text ) in MyPeople.UserPrincipalName )
     ```
 
-  한 줄씩,이 코드 블록에 따르면 합니다 **AddIcon** 컨트롤이 표시 되는지 경우에만:
+  앞에 나오는 코드 블록에 따르면 **AddIcon** 컨트롤은 다음에 해당하는 경우에만 표시됩니다.
 
-  * 합니다 **TextSearchBox** 텍스트를 포함 합니다.
-  * 텍스트가 **TextSearchBox** 유효한 전자 메일 주소입니다.
-  * 텍스트가 **TextSearchBox** 에 존재 하지 않는 합니다 **MyPeople** 컬렉션입니다.
+  * **TextSearchBox**가 텍스트를 포함합니다.
+  * **TextSearchBox**의 텍스트가 유효한 전자 메일 주소입니다.
+  * **TextSearchBox**의 텍스트가 **MyPeople** 컬렉션에 존재하지 않습니다.
 
 * 속성: **OnSelect**<br> 
     값: A **수집** 사용 가능한 모임 시간 및 몇 가지 변수 설정/해제를 새로 고치려면 다른 참석자에 사용자를 추가할 문을 나열 합니다.
@@ -180,9 +180,9 @@ PowerApps의 캔버스 앱에 대 한 모임 화면 템플릿에 중요 한 각 
     )
     ```
 
-이 갤러리의 항목이 검색 결과에서 채워지는 합니다 [Office365.SearchUser](https://docs.microsoft.com/connectors/office365users/#searchuser) 작업 합니다. 작업 텍스트를 가져와 `Trim(**TextSearchBox**)` 검색으로 용어 및 상위 15 결과 반환 합니다 기준으로 검색 합니다.
+이 갤러리의 항목이 [Office365.SearchUser](https://docs.microsoft.com/connectors/office365users/#searchuser) 작업에 따라 검색 결과에 나타납니다. 이 작업은 검색어를 `Trim(**TextSearchBox**)`하여 가져오고 상위 15개의 검색 결과를 반환합니다.
   
-**TextSearchBox** 래핑됩니다를 **Trim** 공간에서 사용자 검색을 유효 하지 않기 때문에 작동 합니다. `Office365Users.SearchUser` 작업에 래핑됩니다는 `If(!IsBlank(Trim(TextSearchBox.Text)) ... )` 성능을 낭비는 사용자가 검색 전에 검색 결과 검색 하기 때문에 작동 합니다.
+사용자 검색에서 빈 칸은 유효하지 않기 떄문에 **TextSearchBox**는 **Trim** 함수로 래핑됩니다. `Office365Users.SearchUser` 작업은 성능 낭비를 막기 위해 검색 결과를 가져오기 전에 `If(!IsBlank(Trim(TextSearchBox.Text)) ... )` 함수로 래핑됩니다.
 
 ### <a name="people-browse-gallery-title"></a>사람 찾아보기 갤러리 제목
 
@@ -233,7 +233,7 @@ PowerApps의 캔버스 앱에 대 한 모임 화면 템플릿에 중요 한 각 
     )
     ```
 
-    이 컨트롤을 선택 하면 높은 수준에서 사람의 추가 합니다 **MyPeople** 컬렉션 (참석자 목록 앱의 저장소) 및 새로 고침 사용 가능한 모임 시간 기준으로 새 사용자 추가 합니다.
+    높은 수준에서, 이 컨트롤을 선택하면 **MyPeople** 컬렉션(참석자 목록의 앱의 저장소)에 사용자를 추가하며 새 사용자 추가에 따라 가능한 모임 시간을 새로 고칩니다.
 
     이 컨트롤을 선택 하는 점을 선택 하는 **AddIcon** ; 유일한 차이는 `Set(_selectedUser, ThisItem)` 문과 작업의 실행 순서입니다. 따라서이 토론으로 심층 수 없습니다. 자세한 설명은 읽기를 [AddIcon 컨트롤](#add-icon) 섹션입니다.
 
@@ -248,7 +248,7 @@ PowerApps의 캔버스 앱에 대 한 모임 화면 템플릿에 중요 한 각 
 * 속성: **항목**<br>
     값: `MyPeople`
 
-    **MyPeople** 초기화 또는 선택 하 여 추가할 사용자의 컬렉션은 컬렉션의 **PeopleBrowseGallery 제목** 제어 합니다.
+    **MyPeople** 컬렉션은 **PeopleBrowseGallery Title** 컨트롤을 선택하여 추가된 또는 초기화된 사용자 컬렉션입니다.
 
 * 속성: **Height**<br>
     값: 갤러리 350의 최대 높이 증가 허용 하도록 논리:
@@ -261,12 +261,12 @@ PowerApps의 캔버스 앱에 대 한 모임 화면 템플릿에 중요 한 각 
     ```
 
   
-   이 갤러리의 높이 350의 최대 높이 갤러리에서 항목의 수를 조정합니다. 수식은 단일 행의 높이 변수로 76 **MeetingPeopleGallery**, 행의 수로 곱합니다. 합니다 **WrapCount** 속성이 2로 true 행 수가 이므로 `RoundUp(CountRows(MeetingPeopleGallery.AllItems) / 2, 0)`합니다.
+   이 갤러리의 높이를 최대 350 높이까지 갤러리의 항목 수에 따라 조정합니다. 수식은 **MeetingPeopleGallery** 단일 행의 높이인 76에 행의 수를 곱합니다. **WrapCount** 속성은 2로 설정하여, 진짜 행의 수는 `RoundUp(CountRows(MeetingPeopleGallery.AllItems) / 2, 0)`이 됩니다.
 
 * 속성: **ShowScrollbar**<br>
     값: `MeetingPeopleGallery.Height >= 350`
 
-    갤러리의 최대 높이 (350)에 도달 하면, 스크롤 막대에 표시 됩니다.
+    갤러리가 최대 높이(350)에 도달하면, 스크롤 막대가 표시됩니다.
 
 ### <a name="meeting-people-gallery-title"></a>모임 사용자 갤러리 제목
 
@@ -317,7 +317,7 @@ PowerApps의 캔버스 앱에 대 한 모임 화면 템플릿에 중요 한 각 
     Set( _showMeetingTimes, true )
     ```
 
-  높은 수준에서이 컨트롤을 선택 참석자 목록에서 사용자를 제거 및이 사람의 제거 작업에 따라 사용 가능한 회의 시간을 새로 고칩니다.
+  높은 수준에서, 이 컨트롤을 선택하면 참석자 목록에서 사용자를 제거하고 해당 사용자의 제거에 따라 가능한 모임 시간을 새로 고칩니다.
 
   앞의 코드의 첫 번째 줄을 다음이 컨트롤을 선택 하는 거의 동일 선택 하 여 **AddIcon** 제어 합니다. 따라서이 토론으로 심층 되지 않습니다. 자세한 설명은 읽기를 [AddIcon 컨트롤 섹션](#add-icon)합니다.
 
@@ -333,12 +333,12 @@ PowerApps의 캔버스 앱에 대 한 모임 화면 템플릿에 중요 한 각 
 * 속성: **DisplayMode**<br>
     값: `If( IsEmpty(MyPeople), DisplayMode.Disabled, DisplayMode.Edit )`
 
-    하나 이상의 참석자에 추가한 될 때까지 회의 대 한 날짜를 선택할 수 없습니다는 **MyPeople** 컬렉션입니다.
+    **MyPeople** 컬렉션에 하나 이상의 참석자가 추가될 때까지 모임 날짜를 선택할 수 없습니다.
 
 * 속성: **OnChange**<br>
     값: `Select( MeetingDateSelect )`
 
-    코드를 트리거 선택한 날짜를 변경 합니다 **OnSelect** 실행 하려면이 컨트롤의 속성입니다.
+    선택한 날짜를 변경하면 이 컨트롤의 **OnSelect** 속성의 코드가 트리거되어 실행됩니다.
 
 * 속성: **OnSelect**<br>
     값: A **수집** 문을 사용할 수 있는 회의 시간 및 몇 가지 변수 설정/해제를 새로 고치려면:
@@ -374,7 +374,7 @@ PowerApps의 캔버스 앱에 대 한 모임 화면 템플릿에 중요 한 각 
     Set( _showMeetingTimes, true )
     ```
 
-  높은 수준에서이 컨트롤을 선택 하면 새로 사용 가능한 모임 시간을 고칩니다. 날짜를 변경 하는 사용자, 사용 가능한 모임 시간 그 날에 대 한 참석자의 가용성을 반영 하도록 업데이트 해야 할 때문에 유용 합니다.
+  높은 수준에서, 이 컨트롤을 선택하면 사용 가능한 모임 시간을 새로 고칩니다. 사용자가 날짜를 변경하는 경우, 사용 가능한 모임 시간은 그 날에 대한 참석자의 가용성을 반영하도록 업데이트할 필요가 있기 때문에 유용합니다.
 
   초기를 제외 하 고 **수집** 문을 동일 합니다 **OnSelect** 기능의 **AddIcon** 컨트롤입니다. 따라서이 토론으로 심층 되지 않습니다. 자세한 설명은 읽기를 [AddIcon 컨트롤](#add-icon) 섹션입니다.
 
@@ -389,12 +389,12 @@ PowerApps의 캔버스 앱에 대 한 모임 화면 템플릿에 중요 한 각 
 * 속성: **DisplayMode**<br>
     값: `If( IsEmpty(MyPeople), DisplayMode.Disabled, DisplayMode.Edit )`
 
-    하나 이상의 참석자에 추가한 될 때까지 회의 대 한 기간을 선택할 수 없습니다는 **MyPeople** 컬렉션입니다.
+    **MyPeople** 컬렉션에 하나 이상의 참석자가 추가될 때까지 모임 기간을 선택할 수 없습니다.
 
 * 속성: **OnChange**<br>
     값: `Select(MeetingDateSelect1)`
 
-    코드를 트리거하는 선택한 기간을 변경 합니다 **OnSelect** 의 속성을 **MeetingDateSelect** 컨트롤을 실행할 합니다.
+    선택한 기간을 변경하면 **MeetingDateSelect** 컨트롤의 **OnSelect** 속성의 코드가 트리거되어 실행됩니다.
 
 ## <a name="find-meeting-times-gallery"></a>모임 시간 찾기 갤러리
 
@@ -403,7 +403,7 @@ PowerApps의 캔버스 앱에 대 한 모임 화면 템플릿에 중요 한 각 
 * 속성: **항목**<br>
     값: `MeetingTimes`
 
-    잠재적인 모임 시간의 컬렉션에서 검색 된 [Office365.FindMeetingTimes](https://docs.microsoft.com/connectors/office365/#find-meeting-times) 작업 합니다.
+    잠재적인 모임 시간의 컬렉션은 [Office365.FindMeetingTimes](https://docs.microsoft.com/connectors/office365/#find-meeting-times) 작업에서 검색합니다.
 
 * 속성: **Visible**<br>
     값: `_showMeetingTimes && _showDetails && !IsEmpty( MyPeople )`
@@ -428,8 +428,8 @@ PowerApps의 캔버스 앱에 대 한 모임 화면 템플릿에 중요 한 각 
     )
     ```
 
-  검색된 값 **StartTime** UTC 형식으로 되어 있습니다. 하 [UTC에서 현지 시간으로 변환](../functions/function-dateadd-datediff.md#converting-from-utc)의 **DateAdd** 함수를 적용 합니다.
-  합니다 [Text 함수](../functions/function-text.md#datetime) 해당 첫 번째 인수와 두 번째 인수에 따라 형식으로 날짜/시간을 사용 합니다. 현지 시간 변환 전달 **ThisItem.StartTime**를 그대로 표시 **DateTimeFormat.ShortTime**합니다.
+  검색된 **StartTime**의 값은 UTC 형식으로 되어 있습니다. [UTC에서 현지 시간으로 변환](../functions/function-dateadd-datediff.md#converting-from-utc)하기 위해 **DateAdd** 함수가 적용됩니다.
+  [Text 함수](../functions/function-text.md#datetime)는 첫 번째 인수로 날짜/시간,두 번째 인수로 그 형식을 사용합니다. **ThisItem.StartTime**의 현지 시간 변환을 전달하여 **DateTimeFormat.ShortTime**으로 표시합니다.
 
 * 속성: **OnSelect**<br>
     값: 몇 가지 **수집** 회의실 및 해당 제안 된 가용성 뿐만 아니라 여러 변수 설정/해제를 수집 하는 문:
@@ -479,7 +479,7 @@ PowerApps의 캔버스 앱에 대 한 모임 화면 템플릿에 중요 한 각 
     UpdateContext( {_loadingRooms: false} )
     ```
 
-  이 코드 블록 높은 수준에서 수집 하지 않은 사용자에 대 한 사용 가능한 객실 대화방 목록, 모임에 대해 선택한 날짜/시간을 기준으로 합니다. 이 고, 그렇지 단순히 방 목록을 검색합니다.
+  높은 수준에서, 이 코드 블록은 모임의 선택한 날짜/시간을 기준으로 회의실 목록을 가지고 있지 않은 사용자를 위해 가능한 회의실을 수집합니다. 그렇지 않으면, 단순히 회의실 목록을 검색합니다.
 
   낮은 수준에서이 코드 블록:
   1. 집합 **_selectedMeetingTime** 선택한 항목에 있습니다. 이 시간 동안 사용할 수 있는 어떤 방 찾으려고 사용 됩니다.
@@ -495,7 +495,7 @@ PowerApps의 캔버스 앱에 대 한 모임 화면 템플릿에 중요 한 각 
       1. **_roomListSelected** 로 설정 된 **false**합니다.
   1. 로딩 상태가 **_loadingRooms**로 설정 된 **false** 등등 실행이 완료 되 면 합니다.
 
-## <a name="room-browse-gallery"></a>대화방 갤러리 찾아보기
+## <a name="room-browse-gallery"></a>회의실 찾아보기 갤러리
 
    ![RoomBrowseGallery 컨트롤](media/meeting-screen/meeting-rooms-gall.png)
 
@@ -516,9 +516,9 @@ PowerApps의 캔버스 앱에 대 한 모임 화면 템플릿에 중요 한 각 
 * 속성: **Visible**<br>
     값: ```_showDetails && !IsBlank( _selectedMeetingTime ) && !_loadingRooms```
 
-    갤러리에 세 이전 문이 평가 하는 경우에 표시 됩니다 **true**합니다.
+    위의 세 구문이 **true**인 경우에만 갤러리를 표시합니다.
 
-### <a name="roombrowsegallery-title"></a>RoomBrowseGallery 제목
+### <a name="roombrowsegallery-title"></a>RoomBrowseGallery(회의실 찾아보기 갤러리) 제목
 
    ![RoomBrowseGallery 제목 컨트롤](media/meeting-screen/meeting-rooms-gall-title.png)
 
@@ -581,14 +581,14 @@ PowerApps의 캔버스 앱에 대 한 모임 화면 템플릿에 중요 한 각 
       1. **_roomListSelected** 로 설정 된 **false**합니다.
   1. 로딩 상태가 **_loadingRooms**로 설정 된 **false** 등등 실행이 완료 되 면 합니다.
 
-## <a name="back-chevron"></a>펼침 단추를 다시
+## <a name="back-chevron"></a>뒤로 펼침 단추
 
    ![RoomsBackNav 컨트롤](media/meeting-screen/meeting-back.png)
 
 * 속성: **Visible**<br>
     값: `_roomListSelected && _showDetails`
 
-    이 컨트롤은 모두 회의실 목록 선택 된 경우에 표시 하며 **일정** 탭을 선택 합니다.
+    이 컨트롤은 회의실 목록이 선택되고 **일정** 탭이 선택된 경우에만 표시됩니다.
 
 * 속성: **OnSelect**<br>
     값: `Set( _roomListSelected, false )`
@@ -608,7 +608,7 @@ PowerApps의 캔버스 앱에 대 한 모임 화면 템플릿에 중요 한 각 
         DisplayMode.Edit, DisplayMode.Disabled
     )
     ```
-  아이콘은 회의 제목을 작성, 회의 대 한 하나 이상의 참가자는 및 모임 시간을 선택한 경우에 선택할 수 있습니다. 그렇지 않은 경우는 비활성화 됩니다.
+  모임 제목을 작성하고, 모임에 한 명 이상의 참석자가 있고 모임 시간을 선택한 경우에 아이콘을 선택할 수 있습니다. 그렇지 않은 경우에는 비활성화됩니다.
 
 * 속성: **OnSelect**<br>
 
@@ -653,6 +653,6 @@ PowerApps의 캔버스 앱에 대 한 모임 화면 템플릿에 중요 한 각 
 
 ## <a name="next-steps"></a>다음 단계
 
-* [이 화면에 자세히 알아보기](./meeting-screen-overview.md)
-* [PowerApps에서 Office 365 Outlook 커넥터에 자세히 알아보기](../connections/connection-office365-outlook.md)
-* [PowerApps에서 Office 365 사용자 커넥터에 자세히 알아보기](../connections/connection-office365-users.md)
+* [이 화면 자세히 알아보기](./meeting-screen-overview.md)
+* [PowerApps에서 Office 365 Outlook 커넥터 자세히 알아보기](../connections/connection-office365-outlook.md)
+* [PowerApps에서 Office 365 사용자 커넥터 자세히 알아보기](../connections/connection-office365-users.md)
