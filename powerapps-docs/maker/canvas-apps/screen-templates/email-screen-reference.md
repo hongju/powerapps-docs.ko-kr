@@ -1,6 +1,6 @@
 ---
-title: 캔버스 앱에 대 한 전자 메일 화면 템플릿에 대 한 참조 | Microsoft Docs
-description: PowerApps의 캔버스 앱에 대 한 전자 메일 화면 템플릿을 작동 하는 방법의 세부 정보 이해
+title: 캔버스 앱에 대한 전자 메일 화면 템플릿에 대한 참조 | Microsoft Docs
+description: PowerApps의 캔버스 앱에 대한 전자 메일 화면 템플릿을 작동하는 방법의 세부 정보 이해
 author: emcoope-msft
 manager: kvivek
 ms.service: powerapps
@@ -20,7 +20,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/23/2019
 ms.locfileid: "54459485"
 ---
-# <a name="reference-information-about-the-email-screen-template-for-canvas-apps"></a>캔버스 앱의 전자 메일 화면 템플릿에 대한 참조 정보
+# <a name="reference-information-about-the-email-screen-template-for-canvas-apps"></a>캔버스 앱에 대한 전자 메일 화면 템플릿에 대한 참조 정보
 
 PowerApps의 캔버스 앱에 대한 전자 메일 화면 템플릿의 각 중요한 컨트롤이 화면의 전체 기본 기능에 기여하는 방법을 이해합니다. 이 깊이 있는 정보는 컨트롤이 사용자 입력에 응답하는 방법을 결정하는 다른 속성의 값과 동작 수식을 표시합니다. 이 화면의 기본 기능의 간략한 설명은 [전자 메일 화면 개요](email-screen-overview.md)를 참조합니다.
 
@@ -40,7 +40,7 @@ PowerApps의 캔버스 앱에 대한 전자 메일 화면 템플릿의 각 중�
 
    ![TextSearchBox 컨트롤](media/email-screen/email-search-box.png)
 
-**텍스트 검색 상자** 컨트롤은 화면의 다른 여러 컨트롤에 대해 종속성을 가집니다.
+ **텍스트 검색 상자** 컨트롤은 화면의 다른 여러 컨트롤에 대해 종속성을 가집니다.
 
 * 사용자가 텍스트를 입력하기 시작할 경우 **PeopleBrowseGallery**가 나타납니다.
 * 유효한 전자 메일 주소를 입력하면 **AddIcon**이 나타납니다.
@@ -53,21 +53,21 @@ PowerApps의 캔버스 앱에 대한 전자 메일 화면 템플릿의 각 중�
 **추가 아이콘** 컨트롤을 사용하여 앱 사용자는 해당 조직 내에서 존재하지 않는 사람을 전자 메일 받는사람 목록에 추가할 수 있습니다.
 
 * 속성: **Visible**<br>
-    값: 검색 상자에 유효한 전자 메일 주소를 입력 하는 경우에 컨트롤을 표시 하는 논리:
+    값: 검색 상자에 유효한 전자 메일 주소를 입력하는 경우에만 컨트롤을 표시하는 논리입니다.:
 
     ```powerapps-dot
     !IsBlank( TextSearchBox.Text ) &&
         IsMatch( TextSearchBox.Text, Match.Email ) &&
         Not( Trim( TextSearchBox.Text ) in MyPeople.UserPrincipalName )
     ```
-  한 줄씩, 앞에 나오는 코드 블록에 따르면 합니다 **추가 아이콘** 컨트롤 표시 됩니다. 경우에만:
+  한 줄씩, 앞에 나오는 코드 블록에 따르면 **추가 아이콘** 컨트롤은 다음 경우에 해당되면 표시됩니다.
 
-    * **TextSearchBox**가 텍스트를 포함합니다.
-    * **TextSearchBox**의 텍스트가 유효한 전자 메일 주소입니다.
-    * **TextSearchBox**의 텍스트가 **MyPeople** 컬렉션에 존재하지 않습니다.
+   * **TextSearchBox**가 텍스트를 포함합니다.
+   * **TextSearchBox**의 텍스트가 유효한 전자 메일 주소입니다.
+   * **TextSearchBox**의 텍스트가 **MyPeople** 컬렉션에 존재하지 않습니다.
 
 * 속성: **OnSelect**<br>
-    값: 이 선택 하면 올바른 전자 메일 주소를 추가 합니다 **MyPeople** 컬렉션입니다. 이 컬렉션은 받는 사람 목록으로 화면에서 사용 됩니다.
+    값: 선택하면 올바른 전자 메일 주소를 **MyPeople** 컬렉션에 추가합니다. 이 컬렉션은 받는 사람 목록으로 화면에서 사용됩니다.
 
     ```powerapps-dot
     Collect( MyPeople,
@@ -86,8 +86,8 @@ PowerApps의 캔버스 앱에 대한 전자 메일 화면 템플릿의 각 중�
 
    ![PeopleBrowseGallery 컨트롤](media/email-screen/email-browse-gall.png)
 
-* 속성: **항목**<br>
-    값: 에 입력 된 검색 텍스트가 상위 15 검색 결과 **TextSearchBox** 제어 합니다.
+* 속성: **Items**<br>
+   값: **TextSearchBox** 컨트롤에 입력된 검색 텍스트의 상위 15개 검색 결과가 나타납니다.
     
     ```powerapps-dot
     If( !IsBlank( Trim(TextSearchBox.Text ) ), 
@@ -103,13 +103,13 @@ PowerApps의 캔버스 앱에 대한 전자 메일 화면 템플릿의 각 중�
 
    ![PeopleBrowseGallery 제목 컨트롤](media/email-screen/email-browse-gall-title.png)
 
-* 속성: **텍스트**<br>
+* 속성: **Text**<br>
     값: `ThisItem.DisplayName`
 
   Office 365 프로필에서 사용자의 표시 이름을 표시합니다.
 
 * 속성: **OnSelect**<br>
-    값: 사용자는 응용 프로그램 수준 컬렉션에 추가할 코드 및 사용자를 선택 합니다.
+    값: 응용 프로그램 수준 컬렉션에 추가할 코드 및 사용자를 선택합니다.
 
     ```powerapps-dot
     Concurrent(
@@ -122,21 +122,21 @@ PowerApps의 캔버스 앱에 대한 전자 메일 화면 템플릿의 각 중�
     ```
 이 컨트롤은 다음 세 가지를 동시에 수행합니다.
 
-   * 설정 된 **_selectedUser** 선택한 항목에 변수입니다.
-   * 재설정에 검색 용어가 **TextSearchBox**합니다.
-   * 선택한 항목을 추가 합니다 **MyPeople** 컬렉션, 받는 사람 집합으로 전자 메일 화면에는 선택한 모든 사용자의 컬렉션입니다.
+   * **\_selectedUser** 변수를 선택한 항목으로 설정합니다.
+   * **TextSearchBox**의 검색 용어를 다시 설정합니다.
+   * 선택한 항목을 **MyPeople** 컬렉션에 추가합니다. **MyPeople** 컬렉션은 받는 사람 집합이며, 전자 메일 화면에서 사용하는 선택된 모든 사용자의 컬렉션입니다.
 
 ## <a name="email-people-gallery"></a>전자 메일 사용자 갤러리
 
    ![EmailPeopleGallery 컨트롤](media/email-screen/email-people-gall.png)
 
-* 속성: **항목**<br>
+* 속성: **Items**<br>
     값: `MyPeople`
 
   **PeopleBrowseGallery Title** 컨트롤을 선택하여 추가된 또는 초기화된 사용자 컬렉션입니다.
 
 * 속성: **Height**<br>
-    값: 갤러리에서 현재 항목의 수에 따라, 높이 설정 하려면 논리:
+    값: 사용자의 전자 메일 메시지를 보냅니다.
 
     ```powerapps-dot
     Min( 
@@ -162,9 +162,9 @@ PowerApps의 캔버스 앱에 대한 전자 메일 화면 템플릿의 각 중�
 * 속성: **OnSelect**<br>
     값: `Set(_selectedUser, ThisItem)`
 
-  설정 된 **_selectedUser** 에서 선택한 항목에 변수 **EmailPeopleGallery**합니다.
+  **\_selectedUser** 변수를 **EmailPeopleGallery**에서 선택된 항목으로 설정합니다.
 
-### <a name="email-people-gallery-iconremove-control"></a>전자 메일 사용자 갤러리 iconRemove 컨트롤
+### <a name="email-people-gallery-iconremove-control"></a>전자 메일 사용자 갤러리 제거 아이콘 컨트롤
 
    ![MonthDayGallery 제목 컨트롤](media/email-screen/email-people-gall-delete.png)
 
@@ -176,7 +176,7 @@ PowerApps의 캔버스 앱에 대한 전자 메일 화면 템플릿의 각 중�
 ## <a name="mail-icon"></a>메일 아이콘
 
 * 속성: **OnSelect**<br>
-    값: 사용자의 전자 메일 메시지를 보내도록 논리:
+    값: 사용자의 전자 메일 메시지를 보냅니다:
 
     ```powerapps-dot
     Set( _emailRecipientString, Concat( MyPeople, Mail & ";" ) );
@@ -190,11 +190,11 @@ PowerApps의 캔버스 앱에 대한 전자 메일 화면 템플릿의 각 중�
     Clear( MyPeople )
     ```
 
-  전자 메일 메시지를 보내는 전자 메일 주소의 세미콜론으로 구분 된 문자열로 필요 합니다. 위의 코드:
-  1. 코드의 첫 번째 줄은는 **메일** 의 모든 행에서 필드를 **MyPeople** 컬렉션을 세미콜론으로 구분 된 전자 메일 주소의 단일 문자열로 연결 및 설정의 **_ emailRecipientString** 변수를 문자열 값입니다.
+   전자 메일 주소들이 세미콜론으로 구분된 문자열은 전자 메일 메시지를 보낼 때 필요합니다.
+   1. 코드의 첫 번째 줄은 **MyPeople** 컬렉션에서 모든 행의 **Mail** 필드를 가져오고, 전자 메일 주소들을 세미콜론으로 구분된 단일 문자열로 연결하고 **\_emailRecipientString** 변수를 문자열로 설정합니다.
 
   1. 사용 하 여는 [Office365.SendEmail](https://docs.microsoft.com/connectors/office365/#sendemail) 받는 사람에 게 전자 메일을 보내는 작업을 합니다.
-    작업에 세 개의 필수 매개 변수를 **하**, **주체**, 및 **본문**, 및 하나의 선택적 매개 변수-**중요도**합니다. 이들은 위의 코드에서 **_emailRecipientString**하십시오 **TextEmailSubject**합니다. 텍스트 **TextEmailMessage**합니다. 텍스트 및 **Normal**, 각각.
+  작업에 세 개의 필수 매개 변수를 **하**, **주체**, 및 **본문**, 및 하나의 선택적 매개 변수-**중요도**합니다. 이들은 위의 코드에서 **_emailRecipientString**하십시오 **TextEmailSubject**합니다. 텍스트 **TextEmailMessage**합니다. 텍스트 및 **Normal**, 각각. 
   1. 마지막으로 다시 설정 합니다 **TextEmailSubject** 및 **TextEmailMessage** 컨트롤과 지웁니다 합니다 **MyPeople** 컬렉션입니다.
 
 * 속성: **DisplayMode**<br>
