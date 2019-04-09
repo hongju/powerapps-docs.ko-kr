@@ -74,7 +74,6 @@ Android 또는 iOS 장치에서 바코드, QR 코드 및 데이터 행렬 코드
 **[Y](properties-size-location.md)** – 컨트롤의 위쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 위쪽 가장자리 사이의 거리입니다.
 
 ## <a name="accessibility-guidelines"></a>접근성 지침 
-
 스캔을 시작 하는 단추이기 때문에 **바코드 스캐너** 컨트롤은 **[단추](control-button.md)** 컨트롤과 동일한 지침이 적용됩니다.
 
 ### <a name="visual-alternatives"></a>시각 신호
