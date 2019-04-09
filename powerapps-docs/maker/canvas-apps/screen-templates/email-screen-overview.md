@@ -20,7 +20,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/23/2019
 ms.locfileid: "54459554"
 ---
-# <a name="overview-of-the-email-screen-template-for-canvas-apps"></a>캔버스 앱에 대한 전자 메일 화면 템플릿 개요
+# <a name="overview-of-the-email-screen-template-for-canvas-apps"></a>캔버스 앱에 대 한 전자 메일-화면 템플릿 개요
 
 캔버스 앱에서 사용자가 Office 365 Outlook 계정에서 전자 메일을 보낼 수 있는 전자 메일 화면을 추가합니다. 사용자가 해당 조직에서 받는 사람을 검색하고 외부 전자 메일 주소를 추가합니다. 이미지-첨부 파일 지원을 추가하고, 검색 갤러리에 표시되는 사용자 데이터를 변경하고, 다른 사용자 지정을 만들 수 있습니다.
 
@@ -32,7 +32,7 @@ ms.locfileid: "54459554"
 > * 수정 하는 방법.
 > * 앱에 통합 하는 방법.
 
-이 화면의 기본 기능에 대한 심층 분석에 대해서는 [전자 메일 화면 참조](email-screen-reference.md)를 확인합니다.
+이 화면의 기본 기능에 자세히에 대 한 참조를 [전자 메일 화면 참조](email-screen-reference.md)합니다.
 
 ## <a name="prerequisite"></a>필수 조건
 
@@ -46,7 +46,7 @@ ms.locfileid: "54459554"
 
     이 항목에서는 전화 앱을 보여주지만 태블릿 앱에 동일한 개념이 적용 됩니다.
 
-1. 리본의 **홈** 탭에서 **새 화면** > **전자 메일**을 선택합니다.
+1. 에 **홈** 선택 리본의 탭 **새 화면** > **메일**합니다.
 
     기본적으로 다음 화면과 비슷합니다.
 
@@ -56,8 +56,8 @@ ms.locfileid: "54459554"
 
 * 조직에서 사용자를 검색하려면 "To" 아래에 있는 텍스트 입력 상자에 해당 이름을 입력합니다.
 * 사용자를 검색할 때 상위 15 결과만 반환 됩니다.
-* 조직 외부 전자 메일 받는 사람에게 전자 메일 주소를 추가하려면 전체 유효한 메일 주소를 입력하고 오른쪽에 표시되는 '+' 아이콘을 선택합니다.
-* 전자 메일을 보내려면 1명 이상의 받는 사람을 추가하고 제목을 입력해야 합니다.
+* 조직 외부 전자 메일 받는 사람에 게 전자 메일 주소를 추가 하려면 전체, 유효한 메일 주소를 입력 하 고의 오른쪽에 표시 되는 '+' 아이콘을 선택 합니다.
+* 명 이상의 받는 사람으로 추가 하 고 전자 메일을 보내려면 제목을 입력 해야 합니다.
 * 전자 메일을 보내면 받는 사람 목록 뿐만 아니라 제목 줄 및 메시지 본문의 내용은 모두 삭제 됩니다.
 
 ## <a name="modify-the-screen"></a>화면 수정
@@ -67,14 +67,14 @@ ms.locfileid: "54459554"
 * [이미지-첨부 파일 지원 추가](email-screen-overview.md#add-image-attachment-support)
 * [사용자에 대한 다양한 데이터 표시](email-screen-overview.md#show-different-data-for-people)
 
-화면을 추가로 수정하려는 경우 가이드로 [전자 메일 화면 참조](./email-screen-reference.md)를 사용합니다.
+추가 화면을 수정 하려는 경우 사용 합니다 [전자 메일 화면 참조](./email-screen-reference.md) 가이드로 합니다.
 
 > [!IMPORTANT]
 > 다음 단계는 앱에 하나의 전자 메일 화면을 추가한 것을 가정합니다. 둘 이상의 컨트롤을 추가한 경우 컨트롤 이름에 다른 숫자를 사용(예: **iconMail1**)하여 끝나게 되고 수식을 적절하게 조정해야 합니다.
 
 ### <a name="add-image-attachment-support"></a>이미지-첨부 파일 지원 추가
 
-이 전자 메일을 사용하여 단일 이미지를 첨부 파일로 보낼 수가 있습니다.
+이 전자 메일을 사용 하 여 단일 이미지를 첨부 파일로 보낼 수가 있습니다.
 
 1. **삽입** 탭에서 **미디어**를 선택한 후 **사진 추가**를 선택합니다.
 1. 새 컨트롤의 **Y** 속성을 다음 식으로 설정합니다.
@@ -82,8 +82,8 @@ ms.locfileid: "54459554"
     `TextEmailMessage1.Y + TextEmailMessage1.Height + 20`
     
 1. 삽입된 **AddMediaWithImage** 컨트롤의 높이는 210 보다 작게 설정합니다.
-1. 컨트롤 트리 보기에서  **AddMediaWithImage** > **...**   >  **순서 바꾸기** > **맨 뒤로 보내기**를 선택합니다.
-   컨트롤이 **PeopleBrowseGallery** 컨트롤의 앞에 위치하지 않도록 합니다.
+1. 컨트롤 트리 보기에서 선택 **AddMediaWithImage** > **...**   >  **순서** > **맨 뒤로 보내기**합니다.
+   컨트롤의 앞에 위치한에서 이렇게 합니다 **PeopleBrowseGallery** 제어 합니다.
 1. **EmailPeopleGallery**의 **Height** 속성을 다음 수식으로 변경합니다.
 
     ```powerapps-dot
@@ -100,7 +100,7 @@ ms.locfileid: "54459554"
     
     이것은 **AddMediaWithImage** 컨트롤을 페이지에서 밀어내지 않도록 최대 높이를 제한합니다.
     
-1. **iconMail** 컨트롤의 **OnSelect** 속성을 다음 수식으로 변경합니다.
+1. 변경 된 **OnSelect** 의 속성을 **iconMail** 컨트롤을 다음이 수식으로:
 
     ```powerapps-dot
     Set( _emailRecipientString, Concat(MyPeople, Mail & ";") );
@@ -137,11 +137,11 @@ ms.locfileid: "54459554"
 
 ### <a name="show-different-data-for-people"></a>사용자에 대한 다양한 데이터 표시.
 
-이 화면은 조직에서 사용자를 검색하기 위해 [Office365Users.SearchUser](https://docs.microsoft.com/connectors/office365users/#searchuser) 작업을 사용합니다. **PeopleBrowseGallery** 컨트롤에 나타나는 각 이벤트에 대한 추가 필드를 제공합니다. 갤러리에서 필드를 변경하거나 추가하는 것은 간단합니다.
+이 화면을 사용 합니다 [Office365Users.SearchUser](https://docs.microsoft.com/connectors/office365users/#searchuser) 조직에서 사용자를 검색 하는 작업 새로운 각 이벤트에 표시에 대 한 추가 필드를 제공 합니다 **PeopleBrowseGallery** 제어 합니다. 갤러리에서 필드를 변경 하거나 추가 간단 합니다.
 
 1. **PeopleBrowseGallery** 컨트롤에서, 수정하려는(또는 추가한 후 선택) 레이블을 선택합니다.
 
-1. **Text** 속성을 선택하고 수식 입력줄에서 `ThisItem.`으로 내용을 바꿉니다.
+1. 사용 하 여 해당 **텍스트** 속성을 선택 하 고 수식 입력줄에서 사용 하 여 내용을 바꾸기 `ThisItem.`
 
     IntelliSense에는 선택할 수 있는 필드의 목록을 보여 줍니다.
 
@@ -149,7 +149,7 @@ ms.locfileid: "54459554"
 
     **Text** 속성을 `ThisItem.{FieldSelection}`으로 업데이트합니다.
 
-## <a name="integrate-the-screen-into-an-app"></a>앱에 화면 통합
+## <a name="integrate-the-screen-into-an-app"></a>화면을 앱에 통합
 
 전자 메일 화면은 자체로 컨트롤의 강력한 번들이지만 일반적으로 가장 큰, 더 다양 한 응용 프로그램의 일부로 수행합니다. [일정 화면에 연결](email-screen-overview.md#linking-to-the-calendar-screen)을 포함하여 다양한 방법으로 더 큰 앱에 이 화면을 통합할 수 있습니다.
 
