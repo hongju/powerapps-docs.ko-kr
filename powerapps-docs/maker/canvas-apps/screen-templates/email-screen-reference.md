@@ -193,13 +193,12 @@ PowerApps의 캔버스 앱에 대한 전자 메일 화면 템플릿의 각 중�
    전자 메일 주소들이 세미콜론으로 구분된 문자열은 전자 메일 메시지를 보낼 때 필요합니다.
    1. 코드의 첫 번째 줄은 **MyPeople** 컬렉션에서 모든 행의 **Mail** 필드를 가져오고, 전자 메일 주소들을 세미콜론으로 구분된 단일 문자열로 연결하고 **\_emailRecipientString** 변수를 문자열로 설정합니다.
 
-  1. 그런 다음 [Office365.SendEmail](https://docs.microsoft.com/connectors/office365/#sendemail) 작업으로 받는 사람에게 전자 메일을 보냅니다. 해당 작업에는 세 개의 필수 매개 변수로 **To**, **Subject** 및 **Body** 가 필요하고 하나의 선택적 매개 변수로 **Importance**가 사용됩니다. 위의 코드에서 **\_emailRecipientString**, **TextEmailSubject**, **TextEmailMessage** 및 **Normal** 매개 변수에 각각 해당됩니다. 
-  
-  1. 마지막으로, **TextEmailSubject**, **TextEmailMessage** 컨트롤을 다시 설정하고 **MyPeople** 컬렉션을 지웁니다.
+  1. 사용 하 여는 [Office365.SendEmail](https://docs.microsoft.com/connectors/office365/#sendemail) 받는 사람에 게 전자 메일을 보내는 작업을 합니다.
+  작업에 세 개의 필수 매개 변수를 **하**, **주체**, 및 **본문**, 및 하나의 선택적 매개 변수-**중요도**합니다. 이들은 위의 코드에서 **_emailRecipientString**하십시오 **TextEmailSubject**합니다. 텍스트 **TextEmailMessage**합니다. 텍스트 및 **Normal**, 각각. 
+  1. 마지막으로 다시 설정 합니다 **TextEmailSubject** 및 **TextEmailMessage** 컨트롤과 지웁니다 합니다 **MyPeople** 컬렉션입니다.
 
 * 속성: **DisplayMode**<br>
-    값: `If( Len( Trim( TextEmailSubject.Text ) ) > 0 && !IsEmpty( MyPeople ), DisplayMode.Edit, DisplayMode.Disabled )` 
-    전자 메일을 보내기 위해 전자 메일 제목 줄은 텍스트가 반드시 있어야 하고 받는 사람(**MyPeople**) 컬렉션은 비워둘 수 없습니다.
+    값: `If( Len( Trim( TextEmailSubject.Text ) ) > 0 && !IsEmpty( MyPeople ), DisplayMode.Edit, DisplayMode.Disabled )` 보낼 전자 메일에 대 한 텍스트 및 받는 사람 전자 메일 제목 줄 있어야 합니다 (**MyPeople**) 컬렉션은 비워둘 수 없습니다.
 
 ## <a name="next-steps"></a>다음 단계
 
