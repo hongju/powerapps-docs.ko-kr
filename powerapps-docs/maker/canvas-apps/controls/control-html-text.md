@@ -80,7 +80,7 @@ ms.locfileid: "49307864"
 ## <a name="example"></a>예
 1. **[레이블](control-text-box.md)** 컨트롤을 추가하고 이름을 **Source**로 지정한 후, **[Text](properties-core.md)** 속성을 다음 문자열로 지정합니다.
 
-"\<본사에서는 \&매우 \&심층적인 \&세계화 및 지역화를 이뤄냈습니다.\<"
+"\<p>본사에서는\&nbsp;매우 \&quot;심층적인\&quot; 세계화 및 지역화를 이뤄냈습니다.\<p>"
 
 [컨트롤을 추가, 이름을 지정하고, 구성](../add-configure-controls.md)하는 방법을 모르시나요?
 
