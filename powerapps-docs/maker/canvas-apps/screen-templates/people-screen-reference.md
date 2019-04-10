@@ -22,7 +22,7 @@ ms.locfileid: "54459462"
 ---
 # <a name="reference-information-about-the-people-screen-template-for-canvas-apps"></a>캔버스 앱의 사용자 화면 템플릿에 대한 참조 정보
 
-PowerApps의 캔버스 앱의 사용자 화면 템플릿에 중요한 각 컨트롤 화면이 전체 기본 기능에 기여하는 방법을 이해합니다. 이 깊이 있는 정보는 컨트롤이 사용자 입력에 응답하는 방법을 결정하는 다른 속성의 값 및 동작 수식을 표시합니다. 이 화면의 기본 기능의 간략한 설명에 대해서는 [사용자 화면 개요](people-screen-overview.md)를 참조합니다.
+PowerApps의 캔버스 앱의 사용자 화면 템플릿에 중요한 각 컨트롤 화면이 전체 기본 기능에 기여하는 방법을 이해합니다. 이 깊이 있는 정보는 컨트롤이 사용자 입력에 응답하는 방법을 결정하는 다른 속성의 값 및 동작 수식을 표시합니다. 이 화면의 기본 기능의 간략한 설명에 대해서는 [사용자 화면 개요](people-screen-overview.md)를 참조합니다. 
 
 이 항목에서는 몇 가지 중요한 컨트롤을 강조 표시하고 각 컨트롤의 다양한 속성(**Items**와 **OnSelect** 등)에 설정하는 수식 또는 식을 설명합니다.
 
@@ -38,7 +38,7 @@ PowerApps의 캔버스 앱의 사용자 화면 템플릿에 중요한 각 컨트
 
 ![TextSearchBox 컨트롤](media/people-screen/people-search-box.png)
 
-몇 가지 다른 컨트롤과 상호 작용 하거나 텍스트 검색 상자에 대 한 종속성:
+**텍스트 검색 상자** 컨트롤은 화면의 다른 여러 컨트롤에 대해 다음과 같은 종속성을 가집니다.
 
 * 사용자가 텍스트를 입력하기 시작하면 **UserBrowseGallery**가 표시됩니다.
 * 사용자가 **UserBrowseGallery**에서 사용자를 선택하는 경우, 검색 내용이 다시 설정됩니다.
@@ -47,8 +47,8 @@ PowerApps의 캔버스 앱의 사용자 화면 템플릿에 중요한 각 컨트
 
 ![UserBrowseGallery 컨트롤](media/people-screen/people-browse-gall.png)
 
-* 속성: **항목**<br>
-    값: 사용자가 입력을 시작 하는 경우에 사용자를 조회 하는 논리:
+* 속성: **Items**<br>
+     값: 사용자가 입력을 시작하는 경우 사용자를 조회합니다.
     
     ```powerapps-dot
     If( !IsBlank( Trim( TextSearchBox.Text ) ), 
@@ -61,20 +61,20 @@ PowerApps의 캔버스 앱의 사용자 화면 템플릿에 중요한 각 컨트
     )
     ```
     
-이 갤러리의 항목이 검색 결과에서 채워지는 합니다 [Office365.SearchUser](https://docs.microsoft.com/connectors/office365users/#searchuser) 작업 합니다. 작업 텍스트를 가져와 `Trim(TextSearchBox)` 검색으로 용어 및 상위 15 결과 반환 합니다 기준으로 검색 합니다. **TextSearchBox** 래핑됩니다는 `Trim()` 공간에서 사용자 검색을 유효 하지 않으므로 작동 합니다.
+이 갤러리의 항목이 [Office365.SearchUser](https://docs.microsoft.com/connectors/office365users/#searchuser) 작업에 따라 검색 결과에 나타납니다. 이 작업은 검색어를 `Trim(**TextSearchBox**)`하여 가져오고 상위 15개의 검색 결과를 반환합니다. 사용자 검색에서 빈 칸은 유효하지 않기 떄문에 **TextSearchBox**는 **Trim** 함수로 래핑됩니다.
 
 `Office365Users.SearchUser` 작업은 검색 상자가 사용자 입력한 텍스트를 포함하는 경우에만 작업을 호출할 필요가 있기 때문에`If(!IsBlank(Trim(TextSearchBox.Text)) ... )` 함수로 래핑됩니다. 이것은 성능을 향상시킵니다.
 
-### <a name="userbrowsegallery-title-control"></a>UserBrowseGallery 제목 컨트롤
+### <a name="userbrowsegallery-title-control"></a>사용자 찾아보기 갤러리 제목 컨트롤
 
 ![UserBrowseGallery 제목 컨트롤](media/people-screen/people-browse-gall-title.png)
 
-* 속성: **텍스트**<br>값: `ThisItem.DisplayName`
+* 속성: **Text**<br>값: `ThisItem.DisplayName`
 
   Office 365 프로필에서 사용자의 표시 이름을 표시합니다.
 
 * 속성: **OnSelect**<br>
-    값: 사용자는 응용 프로그램 수준 컬렉션에 추가할 코드 및 사용자를 선택 합니다.
+    값: 응용 프로그램 수준 컬렉션에 사용자를 추가한 다음 사용자를 선택합니다.
 
     ```powerapps-dot
     Concurrent(
@@ -87,7 +87,7 @@ PowerApps의 캔버스 앱의 사용자 화면 템플릿에 중요한 각 컨트
     ```
 이 컨트롤을 선택하면 다음 세 가지가 동시에 수행됩니다.
 
-   * 설정 된  **\_selectedUser** 선택한 항목에 변수입니다.
+   * **\_selectedUser** 변수를 선택한 항목으로 설정합니다.
    * **TextSearchBox**에 검색어를 다시 설정합니다.
    * 앱 사용자가 선택한 모든 사용자의 컬렉션인 **MyPeople** 컬렉션에 선택된 항목을 추가합니다.
 
@@ -95,8 +95,8 @@ PowerApps의 캔버스 앱의 사용자 화면 템플릿에 중요한 각 컨트
 
 ![사용자 찾아보기 갤러리 프로필 이미지 컨트롤](media/people-screen/people-browse-gall-image.png)
 
-* 속성: **이미지**<br>
-    값: 사용자의 프로필 사진을 검색할 논리입니다.
+* 속성: **Image**<br>
+    값: 사용자의 프로필 사진을 검색합니다.
 
     ```powerapps-dot
     If( !IsBlank( ThisItem.Id ) && 
@@ -116,7 +116,7 @@ PowerApps의 캔버스 앱의 사용자 화면 템플릿에 중요한 각 컨트
 
 ![PeopleAddedGallery 컨트롤](media/people-screen/people-people-gall.png)
 
-* 속성: **항목**<br>
+* 속성: **Items**<br>
     값: `MyPeople`
 
 **UserBrowseGallery Title** 컨트롤을 선택하여 사용자 컬렉션을 초기화하거나 추가합니다.
@@ -128,7 +128,7 @@ PowerApps의 캔버스 앱의 사용자 화면 템플릿에 중요한 각 컨트
 * 속성: **OnSelect**<br>
     값: `Set( _selectedUser, ThisItem )`
 
-설정 된 **_selectedUser** 에서 선택한 항목에 변수 **EmailPeopleGallery**합니다.
+**\_selectedUser** 변수를 **EmailPeopleGallery**에서 선택한 항목으로 설정합니다.
 
 ### <a name="peopleaddedgallery-iconremove-control"></a>사용자 추가 갤러리 제거 아이콘 컨트롤
 
@@ -137,7 +137,7 @@ PowerApps의 캔버스 앱의 사용자 화면 템플릿에 중요한 각 컨트
 * 속성: **OnSelect**<br>
     값: `Remove( MyPeople, LookUp( MyPeople, UserPrincipalName = ThisItem.UserPrincipalName ) )`
 
-**MyPeople** 컬렉션에서 **UserPrincipalName**이 선택한 항목의 **UserPrincipalName**과 일치하는 레코드를 조회한 다음 컬렉션에서 해당 레코드를 제거합니다.
+  **MyPeople** 컬렉션에서 **UserPrincipalName**이 선택한 항목의 **UserPrincipalName**과 일치하는 레코드를 조회한 다음 컬렉션에서 해당 레코드를 제거합니다.
 
 ## <a name="next-steps"></a>다음 단계
 
