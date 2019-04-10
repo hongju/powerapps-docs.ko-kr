@@ -113,4 +113,4 @@ PowerApps에서 문서를 열 수 없는 경우 외부 브라우저에서 문서
 [WCAG 2.0](https://www.w3.org/TR/WCAG-TECHS/pdf.html) 및 [PDF/UA](https://www.pdfa.org/pdfua-the-iso-standard-for-universal-accessibility/) 표준을 사용하여 접근성 있는 PDF 문서를 만드는 방법을 알아봅니다.
 
 ### <a name="screen-reader-support"></a>화면 판독기 지원
-* PDF 문서에 제목이 없는 경우 **[레이블](control-text-box.md)** 을 제목을 추가하는 것이 좋습니다. 제목은 **PDF 뷰어** 바로 앞에 배치할 수 있습니다.
+* PDF 문서에 제목이 없는 경우 **[레이블](control-text-box.md)** 을 통해 제목을 추가하는 것이 좋습니다. 제목은 **PDF 뷰어** 바로 앞에 배치할 수 있습니다.
