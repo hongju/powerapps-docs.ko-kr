@@ -91,7 +91,7 @@ ms.locfileid: "58616711"
 
     ![최종 갤러리](./media/add-gallery/final-gallery.png)
 
-## <a name="filter-and-sort-a-gallery"></a>필터 및 정렬 된 갤러리
+## <a name="filter-and-sort-a-gallery"></a>갤러리 필터링 및 정렬
 **갤러리** 컨트롤의 **[Items](controls/properties-core.md)** 속성은 표시하는 항목을 결정합니다. 이 절차에서는, 또한 필터 조건 및 순서에 따라 나타나는 레코드가 결정되도록 해당 속성을 구성합니다.
 
 ![검색 상자 및 정렬 아이콘](./media/add-gallery/text-search-box.png)

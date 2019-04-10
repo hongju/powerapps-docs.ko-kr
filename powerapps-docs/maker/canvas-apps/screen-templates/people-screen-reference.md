@@ -20,7 +20,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/23/2019
 ms.locfileid: "54459462"
 ---
-# <a name="reference-information-about-the-people-screen-template-for-canvas-apps"></a>캔버스 앱에 대 한 사용자 화면 템플릿에 대 한 참조 정보
+# <a name="reference-information-about-the-people-screen-template-for-canvas-apps"></a>캔버스 앱의 사용자 화면 템플릿에 대한 참조 정보
 
 PowerApps의 캔버스 앱의 사용자 화면 템플릿에 중요한 각 컨트롤 화면이 전체 기본 기능에 기여하는 방법을 이해합니다. 이 깊이 있는 정보는 컨트롤이 사용자 입력에 응답하는 방법을 결정하는 다른 속성의 값 및 동작 수식을 표시합니다. 이 화면의 기본 기능의 간략한 설명에 대해서는 [사용자 화면 개요](people-screen-overview.md)를 참조합니다.
 
@@ -89,7 +89,7 @@ PowerApps의 캔버스 앱의 사용자 화면 템플릿에 중요한 각 컨트
 
    * 설정 된  **\_selectedUser** 선택한 항목에 변수입니다.
    * **TextSearchBox**에 검색어를 다시 설정합니다.
-   * 선택한 항목을 추가 합니다 **MyPeople** 앱 사용자가 선택한 모든 사용자 컬렉션, 컬렉션입니다.
+   * 앱 사용자가 선택한 모든 사용자의 컬렉션인 **MyPeople** 컬렉션에 선택된 항목을 추가합니다.
 
 ### <a name="userbrowsegallery-profileimage-control"></a>사용자 찾아보기 갤러리 프로필 이미지 컨트롤
 
