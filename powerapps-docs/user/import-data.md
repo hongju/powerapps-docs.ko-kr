@@ -29,7 +29,7 @@ ms.locfileid: "58491530"
   
 ## <a name="step-1-get-your-import-file-ready"></a>1단계: 파일 가져오기 준비  
 먼저 데이터를 Excel 파일로 내보냅니다. 지원되는 파일 형식은 다음과 같습니다.
- - Excel 통합 문서(*.xlsx)
+ - Excel 통합 문서(.xlsx)
  - 쉼표로 구분된 값(.csv)
   
 .zip 파일의 허용되는 최대 파일 크기는 32MB입니다. 다른 파일 형식의 경우 허용되는 최대 파일 크기는 8MB입니다.  
