@@ -32,11 +32,11 @@ ms.locfileid: "42853685"
 
 ## <a name="key-properties"></a>주요 속성
 
-**[기본](properties-core.md)**  – 사용자가 변경하기 전에 컨트롤의 값입니다.
+**[Default](properties-core.md)**  – 사용자가 변경하기 전에 컨트롤의 값입니다.
 
 **[Items](properties-core.md)** – 갤러리, 목록 또는 차트와 같은 컨트롤에 표시되는 데이터 원본입니다.
 
-**레이아웃** – 옵션이 가로 또는 세로로 레이아웃되었는지입니다.
+**Layout** – 가로 또는 세로로 레이아웃되는지 옵션입니다.
 
 **[Value](properties-core.md)** – 입력 컨트롤의 값입니다.
 
