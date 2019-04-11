@@ -21,7 +21,7 @@ ms.lasthandoff: 08/24/2018
 ms.locfileid: "42849848"
 ---
 # <a name="card-control-in-powerapps"></a>PowerApps의 카드 컨트롤
-**[표시 양식](control-form-detail.md)** 또는 **[편집 양식](control-form-detail.md)** 컨트롤의 단일 필드에 대한 표시 및 편집 경험을 제공합니다.
+**[표시 폼](control-form-detail.md)** 또는 **[편집 폼](control-form-detail.md)** 컨트롤의 단일 필드에 대한 표시 및 편집 환경을 제공합니다.
 
 ## <a name="description"></a>설명
 **[표시 폼](control-form-detail.md)** 및 **[편집 폼](control-form-detail.md)** 컨트롤은 레코드 전체를 표시하고 볼 수 있는 컨테이너의 역할을 합니다. 각 컨테이너는 개별 필드를 표시하거나 이러한 필드를 업데이트할 방법을 제공하는 **카드** 컨트롤 집합을 포함할 수 있습니다. 각 카드에는 작동하는 레코드의 필드를 지정하는 **DataField** 속성이 있습니다.  

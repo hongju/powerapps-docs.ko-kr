@@ -28,7 +28,7 @@ ms.locfileid: "59042758"
 
 이 항목의 시나리오의 경우, 매장 직원은 폼을 통해 이슈를 **Incidents** 목록에 제출합니다. 인시던트가 발생한 매장의 위치를 지정하는 것 뿐만 아니라 해당 위치 내의 부서도 지정합니다. 모든 위치에 동일한 부서가 있지는 않으므로, **Locations** 목록은 직원이 부서가 없는 위치에 대해 부서를 지정할 수 없도록 합니다.
 
-이 항목에서는 Microsoft SharePoint 목록을 데이터 원본으로 사용 하 여 있지만 모든 테이블 형식 데이터 원본에 동일한 방식으로 작동 합니다.
+이 항목에서는 Microsoft SharePoint 목록을 데이터 원본으로 사용하지만 모든 테이블 형식 데이터 원본은 동일한 방식으로 작동합니다.
 
 ## <a name="create-data-sources"></a>데이터 원본 만들기
 
@@ -49,7 +49,7 @@ ms.locfileid: "59042758"
 | Pembroke       | 생성          |
 | Pembroke       | 꽃           |
 
-**인시던트** 연락처 정보 및 각 인시던트에 대 한 정보 목록을 보여 줍니다. 으로 날짜 열을 만듭니다는 **날짜** 열에 있지만 다른 열을 만들 **한 줄 텍스트** 구성을 단순화 하 고 방지 하기 위해 열 [위임](./delegation-overview.md) 에서 경고 Microsoft PowerApps입니다.
+**Incidents** 목록은 연락처 정보 및 각 인시던트에 대한 정보를 보여줍니다. 날짜 열로 **Date** 열을 생성하지만, Microsoft PowerApps에서 [위임](./delegation-overview.md) 경고를 방지하고 구성을 단순화하기 위해 **한 줄 텍스트**로 다른 열을 생성합니다.
 
 | First Name | Last Name | Phone Number     | Location | Department | Description       | Date      |
 |------------|-----------|------------------|----------------|------------|-------------------------|-----------|
@@ -64,7 +64,7 @@ ms.locfileid: "59042758"
 
 변경 후, **제목 열**을 무시하거나 기본 보기에 다른 열이 하나 이상 있다면 기본 보기에서 [제거](https://support.office.com/article/edit-a-list-column-in-sharepoint-online-77130c2e-76d1-4f80-af8b-4c6f47b264b8)할 수도 있습니다.
 
-## <a name="open-the-form"></a>폼을 엽니다
+## <a name="open-the-form"></a>폼 열기
 
 1. **Incidents** 목록을 열고, **PowerApps** > **양식 사용자 지정**을 선택합니다.
 
@@ -142,14 +142,14 @@ ms.locfileid: "59042758"
 
 1. (선택 사항) Alt 키를 누른 채 **ddLocation**을 열어서 세 위치가 표시되는지 확인합니다.
 
-## <a name="configure-the-departments"></a>부서를 구성 합니다.
+## <a name="configure-the-departments"></a>부서 구성
 
 1. **ddDepartment**를 선택한 다음 오른쪽 창 **속성**탭에서 **다음에 종속**을 선택합니다.
 
 1. **부모 컨트롤** 아래, 위쪽 목록에 **ddLocation**이 표시되고 아래 목록에 **결과**가 나타나는지 확인합니다.
 
     > [!NOTE]
-    > 문자열에는 데이터 행의 실제 ID에 일치 하지 않으려는 경우 선택 **ID** of **결과**합니다.
+    > 문자열로 매치하는 것을 원하지 않고 데이터 행의 실제 ID와 매치하려는 경우, **결과** 대신 **ID**를 선택합니다.
 
 1. **일치하는 필드** 아래, 위쪽 목록에서 **Locations**를 선택하고 아래 목록에서 **Location**을 선택하고 **적용**을 선택합니다.
 
@@ -173,7 +173,7 @@ ms.locfileid: "59042758"
 
 Alt 키를 누른 채로 위치 목록을 열고, 하나를 선택하고 부서 목록을 열고 하나를 선택합니다.
 
-위치와 부서 목록에서 정보를 반영 합니다 **위치** SharePoint 목록.
+위치와 부서 목록은 SharePoint **Locations** 목록의 정보를 반영합니다.
 
 > [!div class="mx-imgBorder"]
 > ![위치 목록, Pembroke,으로 Renfrew에서 선택을 변경를 열고 학부의 목록](./media/dependent-drop-down-lists/dropdowns.gif)

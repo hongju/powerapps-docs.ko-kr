@@ -69,7 +69,7 @@ PowerApps에 [등록](../signup-for-powerapps.md)한 다음, 등록에 사용한
 
 3. PowerApps의 **삽입 > 미디어**에서 **비디오** 컨트롤을 추가합니다.
 
-4. **미디어** 속성을 복사한 URL로 설정합니다.
+4. **Media** 속성을 복사한 URL로 설정합니다.
 
     이 그림에서 볼 수 있듯이 Azure Media Services가 지원하는 모든 스트리밍 URL을 선택할 수 있습니다.
 
