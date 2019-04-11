@@ -68,7 +68,7 @@ ms.locfileid: "54459439"
 
 ### <a name="show-different-data-for-people"></a>사용자의 다양한 데이터 표시
 
-이 화면은 조직에서 사용자를 검색하기 위해 [Office365Users.SearchUser](https://docs.microsoft.com/connectors/office365users/#searchuser) 작업을 사용합니다. **UserBrowseGallery** 컨트롤을 표시하는 각 이벤트를 위한 추가 필드를 제공합니다. 갤러리에서 필드를 변경하거나 추가하는 것은 간단한 프로세스입니다.
+이 화면을 사용 합니다 [Office365Users.SearchUser](https://docs.microsoft.com/connectors/office365users/#searchuser) 조직에서 사용자를 검색 하는 작업 새로운 각 이벤트에 표시에 대 한 추가 필드를 제공 합니다 **UserBrowseGallery** 제어 합니다. 갤러리에서 필드를 변경 하거나 추가 간단한 프로세스입니다.
 
 1. **UserBrowseGallery**에서 변경하려는 레이블을 선택하거나 추가하여 선택합니다.
 

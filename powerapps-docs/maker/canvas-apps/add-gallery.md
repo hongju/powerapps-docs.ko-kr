@@ -38,7 +38,7 @@ ms.locfileid: "58616711"
 
     1. **나만의 앱 만들기**에서 **빈 페이지의 캔버스 앱**을 선택합니다.
 
-     1. 앱의 이름을 지정하고, **전화**를 선택한 다음, **만들기**를 선택합니다.
+    1. 앱의 이름을 지정하고, **전화**를 선택한 다음, **만들기**를 선택합니다.
 
     1. **PowerApps Studio 시작** 대화 상자에서 **건너뛰기**를 선택합니다.
 
@@ -123,12 +123,12 @@ ms.locfileid: "58616711"
 
     필터 조건을 충족 하는 항목만 표시 됩니다.
 
-1. 정렬 순서를 전환하려면 Alt 키를 누른 상태에서 정렬 아이콘을 한 번 이상 선택합니다.
+1. 정렬 순서를 전환하려면  Alt 키를 누른 상태에서 정렬 아이콘을 한 번 이상 선택합니다.
 
     제품 이름을 기준으로 알파벳 순서의 오름차순과 내림차순으로 레코드를 전환합니다.
 
 ## <a name="highlight-the-selected-item"></a>선택한 항목 강조 표시
-**갤러리** 컨트롤의 **TemplateFill** 속성을 이 예제와 비슷한 수식으로 설정합니다. 원하면 다른 색을 지정할 수도 있습니다.
+설정 된 **갤러리** 컨트롤의 **TemplateFill** 속성을 수 있지만이 예제와 비슷한 수식으로 하려는 경우 서로 다른 색을 지정할 수 있습니다.
 
 **If(ThisItem.IsSelected, LightCyan, White)**
 
@@ -137,7 +137,7 @@ ms.locfileid: "58616711"
 
 **Last(FirstN(FlooringEstimates, 5))**
 
-이 예제에서는, **FlooringEstimates** 데이터 원본의 **Hardwood** 범주에서 첫 번째 항목을 지정합니다.
+이 예제에서는 **FlooringEstimates** 데이터 원본의 **Hardwood** 범주에서 첫 번째 항목을 지정합니다.
 
 **First(Filter(FlooringEstimates, Category = "Hardwood"))**
 

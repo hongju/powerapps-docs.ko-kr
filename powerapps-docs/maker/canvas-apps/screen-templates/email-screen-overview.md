@@ -149,7 +149,7 @@ ms.locfileid: "54459554"
 
     **Text** 속성을 `ThisItem.{FieldSelection}`으로 업데이트합니다.
 
-## <a name="integrate-the-screen-into-an-app"></a>화면을 앱에 통합
+## <a name="integrate-the-screen-into-an-app"></a>앱에 화면 통합
 
 전자 메일 화면은 자체로 컨트롤의 강력한 번들이지만 일반적으로 가장 큰, 더 다양 한 응용 프로그램의 일부로 수행합니다. [일정 화면에 연결](email-screen-overview.md#linking-to-the-calendar-screen)을 포함하여 다양한 방법으로 더 큰 앱에 이 화면을 통합할 수 있습니다.
 

@@ -1,6 +1,6 @@
 ---
 title: 캔버스 앱에서 차트 만들기 | Microsoft Docs
-description: PowerApps에서 캔버스 응용 프로그램의 꺾은 선형 차트, 원형 차트 또는 가로 막대형 차트로 데이터 범주 표시
+description: PowerApps에서 캔버스 응용 프로그램의 꺾은선형 차트, 원형 차트 또는 막대형 차트로 데이터 범주 표시
 author: fikaradz
 manager: kvivek
 ms.service: powerapps
@@ -22,7 +22,7 @@ ms.locfileid: "57799689"
 ---
 # <a name="show-data-in-a-line-pie-or-bar-chart-in-powerapps"></a>PowerApps에서 꺾은선형, 원형 또는 막대형 차트로 데이터 표시
 
-꺾은선형 차트, 원형 차트 및 가로 막대형 차트를 사용하여 캔버스 앱에 데이터를 표시합니다. 차트를 사용할 때 가져오는 데이터는 다음 기준에 따라 구성되어야 합니다.
+꺾은선형 차트, 원형 차트 및 막대형 차트를 사용하여 캔버스 앱에 데이터를 표시합니다. 차트를 사용할 때 가져오는 데이터는 다음 기준에 따라 구성되어야 합니다.
 
 * 각 시리즈는 첫 번째 행에 있어야 합니다.
 * 맨 왼쪽 열에 레이블이 있어야 합니다.
@@ -31,7 +31,7 @@ ms.locfileid: "57799689"
 
 ![][9]
 
-PowerApps 내에서 이러한 차트를 만들고 사용할 수 없습니다. 이제 시작하겠습니다.
+PowerApps 내에서 이러한 차트를 만들고 사용할 수 있습니다. 이제 시작하겠습니다.
 
 ## <a name="prerequisites"></a>필수 조건
 
@@ -84,14 +84,14 @@ PowerApps 내에서 이러한 차트를 만들고 사용할 수 없습니다. �
 
     ![][3]  
 
-## <a name="add-a-bar-chart-to-display-your-data"></a>데이터를 표시하는 가로 막대형 차트 추가
-이제 가로 막대형 차트에서 이 ProductRevenue 컬렉션을 사용하겠습니다.
+## <a name="add-a-bar-chart-to-display-your-data"></a>데이터를 표시하는 막대형 차트 추가
+이제 막대형 차트에서 이 ProductRevenue 컬렉션을 사용하겠습니다.
 
-1. **홈** 탭에서 화면을 추가합니다.]
+1. **홈** 탭에서 화면을 추가합니다.
 
 2. **삽입** 탭에서 **차트**를 선택한 다음 **세로 막대형 차트**를 선택합니다.
 
-3. 세로 막대형 차트의 중심을 선택합니다. 세로 막대형 차트의 **[항목](controls/properties-core.md)** 속성을 ```ProductRevenue```로 설정합니다.
+3. 세로 막대형 차트의 중심을 선택합니다. 세로 막대형 차트의 **[Items](controls/properties-core.md)** 속성을 ```ProductRevenue```로 설정합니다.
 
     ![][12]  
 
