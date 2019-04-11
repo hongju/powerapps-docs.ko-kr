@@ -34,7 +34,7 @@ ms.locfileid: "42851740"
 
 ![3개 화면에 걸쳐 있는 레코드 찾아보기, 보기 및 편집](./media/working-with-forms/three-screens.png)
 
-이 항목에서 설명은, 이러한 컨트롤을 수식과 결합하여 전체 사용자 환경을 만듭니다.
+이 항목에서 설명한 대로 이러한 컨트롤을 수식과 결합하여 전체 사용자 환경을 만듭니다.
 
 ## <a name="prerequisites"></a>필수 조건
 
@@ -137,7 +137,7 @@ PowerApps는 지정한 데이터 원본을 기반으로 하는 앱을 자동으�
 
 ![제작 환경에서 선택한 편집 카드 및 카드 컨트롤](./media/working-with-forms/afd-edit-card-controls.png)
 
-이전 이미지에서 선택한 카드는 **AssetID** 필드를 표시하고 사용자가 해당 필드의 값을 편집할 수 있도록 **[텍스트 입력](controls/control-text-input.md)** 컨트롤을 포함하고 있습니다. (반대로 세부 정보 화면은 읽기 전용인 **[레이블](controls/control-text-box.md)** 컨트롤에 동일한 필드를 표시합니다.) **[텍스트 입력](controls/control-text-input.md)** 컨트롤에는 **Parent.Default**로 설정된 **[Default](controls/properties-core.md)** 속성이 있습니다. 사용자가 레코드를 편집하는 대신 레코드를 만든 경우 해당 컨트롤은 사용자가 새 레코드에 대해 변경할 수 있는 초기 값을 표시합니다.
+이전 이미지에서 선택한 카드는 **AssetID** 필드를 표시하고 사용자가 해당 필드의 값을 편집할 수 있도록 **[텍스트 입력](controls/control-text-input.md)** 컨트롤을 포함하고 있습니다. (반대로 세부 정보 화면은 읽기 전용인 **[레이블](controls/control-text-box.md)** 컨트롤에 있는 동일한 필드를 표시합니다.) **[텍스트 입력](controls/control-text-input.md)** 컨트롤에는 **Parent.Default**로 설정된 **[Default](controls/properties-core.md)** 속성이 있습니다. 사용자가 레코드를 편집하는 대신 레코드를 만든 경우 해당 컨트롤은 사용자가 새 레코드에 대해 변경할 수 있는 초기 값을 표시합니다.
 
 오른쪽 창에서 각 카드를 표시하거나, 숨기거나, 다시 정렬하거나, 다른 유형의 컨트롤에 있는 필드를 표시하도록 구성할 수 있습니다.
 
@@ -196,7 +196,7 @@ PowerApps에서 앱을 생성하는 방법을 이해하면 이 항목의 앞부�
 **[표시 폼](controls/control-form-detail.md)** 컨트롤을 추가하려면 다음을 수행합니다.
 
 1. 화면을 추가한 다음 이 화면에 **[표시 폼](controls/control-form-detail.md)** 컨트롤을 추가합니다
-2. 폼 컨트롤의 **[DataSource](controls/control-form-detail.md)** 속성을 **'Ice Cream'** 으로 설정합니다.
+2. 폼 컨트롤의 **[DataSource](controls/control-form-detail.md)** 속성을 **'Ice Cream'**으로 설정합니다.
 
 오른쪽 창에서 화면에 표시할 필드와 각 필드에 표시할 카드 유형을 선택할 수 있습니다. 오른쪽 창에서 변경하면 각 **[카드](controls/control-card.md)** 컨트롤의 **[DataField](controls/control-card.md)** 속성이 사용자가 상호 작용할 필드로 설정됩니다. 화면은 다음 예제와 비슷합니다.
 
@@ -241,7 +241,7 @@ PowerApps에서 앱을 생성하는 방법을 이해하면 이 항목의 앞부�
 
 **[편집 폼](controls/control-form-detail.md)** 컨트롤을 추가하려면 다음을 수행합니다.
 
-1. 화면을 추가하고, **[편집 폼](controls/control-form-detail.md)** 컨트롤을 추가한 다음, 폼의 **[DataSource](controls/control-form-detail.md)** 속성을 **'Ice Cream'** 으로 설정합니다.
+1. 화면을 추가하고, **[편집 폼](controls/control-form-detail.md)** 컨트롤을 추가한 다음, 폼의 **[DataSource](controls/control-form-detail.md)** 속성을 **'Ice Cream'**으로 설정합니다.
 2. **[Item](controls/control-form-detail.md)** 속성을 **Gallery1.Selected**로 설정합니다.
 
 이제 화면에 표시할 필드를 선택할 수 있습니다. 또한 각 필드에 표시할 카드 유형도 선택할 수 있습니다. 오른쪽 창에서 변경하면 각 **[카드](controls/control-card.md)** 컨트롤의 **[DataField](controls/control-card.md)** 속성이 사용자가 상호 작용할 필드로 설정됩니다.  화면은 다음 예제와 비슷합니다.
@@ -282,7 +282,7 @@ PowerApps에서 앱을 생성하는 방법을 이해하면 이 항목의 앞부�
 
 폼이 **New** 모드에 있으면 각 필드의 값은 데이터 원본의 기본값으로 설정됩니다. 폼의 **[Item](controls/control-form-detail.md)** 속성에 제공된 레코드는 무시됩니다.  
 
-사용자가 새 레코드를 저장할 준비가 되면 **[SubmitForm](functions/function-form.md)** 이 실행됩니다. 폼이 성공적으로 제출되면 폼은 **EditMode**로 다시 전환됩니다.  
+사용자가 새 레코드를 저장할 준비가 되면 **[SubmitForm](functions/function-form.md)**이 실행됩니다. 폼이 성공적으로 제출되면 폼은 **EditMode**로 다시 전환됩니다. 
 
 첫 번째 화면에서 **새로 만들기** 단추가 추가됩니다.
 
@@ -306,7 +306,7 @@ PowerApps에서 앱을 생성하는 방법을 이해하면 이 항목의 앞부�
 ## <a name="handling-errors"></a>오류 처리
 이 앱에서 필드의 값이 유효하지 않거나, 필수 필드가 비어 있거나, 네트워크 연결이 끊어졌거나, 다른 문제가 발생하면 오류가 발생합니다.  
 
-어떤 이유로든 **[SubmitForm](functions/function-form.md)** 이 실패하면 **[편집 폼](controls/control-form-detail.md)** 컨트롤의 **Error** 속성에 사용자에게 표시할 오류 메시지가 포함됩니다. 이 정보를 사용하면 사용자는 문제를 해결하고 변경 내용을 다시 제출하거나 업데이트를 취소할 수 있습니다.
+어떤 이유로든 **[SubmitForm](functions/function-form.md)**이 실패하면 **[편집 폼](controls/control-form-detail.md)** 컨트롤의 **Error** 속성에 사용자에게 표시할 오류 메시지가 포함됩니다. 이 정보를 사용하면 사용자는 문제를 해결하고 변경 내용을 다시 제출하거나 업데이트를 취소할 수 있습니다.
 
 1. 편집 및 만들기 화면에서 **[레이블](controls/control-text-box.md)** 컨트롤을 추가하고 **저장** 단추 바로 아래로 이동합니다. 사용자가 이 컨트롤을 선택하여 변경 내용을 저장한 후에는 모든 오류를 쉽게 확인할 수 있습니다.
 
