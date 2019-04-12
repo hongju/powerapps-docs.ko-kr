@@ -1,10 +1,10 @@
 ---
-title: 앱용 Common Data Service의 엔터티 및 메타데이터 | MicrosoftDocs
-description: 앱용 Common Data Service의 엔터티 및 메타데이터에 대해 알아보기
+title: Common Data Service의 엔터티 및 메타데이터 | MicrosoftDocs
+description: Common Data Service의 엔터티 및 메타데이터에 대해 알아보기
 ms.custom: ''
 ms.date: 05/30/2018
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
@@ -24,15 +24,15 @@ search.app:
   - D365CE
 ---
 
-# <a name="entities-and-metadata-in-common-data-service-for-apps"></a>앱용 Common Data Service의 엔터티 및 메타데이터
+# <a name="entities-and-metadata-in-common-data-service"></a>Common Data Service의 엔터티 및 메타데이터
 
-앱에 대한 일반적인 데이터 서비스는 응용 프로그램에 대한 데이터 모델을 쉽고 빠르게 만들 수 있도록 설계되었습니다. 일반적으로 이 항목에서 소개하는 메타데이터에 대한 세부 정보를 고려해야 합니다. 그러나 앱용 CDS를 사용하는 앱의 작동 방식 또는 가능한 것을 평가하는 방법에 대해 더 자세히 이해하려면 앱용 CDS에서 사용하는 메타데이터를 이해하면 통찰력을 얻을 수 있습니다.
+Common Data Service는 응용 프로그램에 대한 데이터 모델을 쉽고 빠르게 만들 수 있도록 설계되었습니다. 일반적으로 이 항목에서 소개하는 메타데이터에 대한 세부 정보를 고려해야 합니다. 그러나 Common Data Service를 사용하는 앱의 작동 방식 또는 가능한 것을 평가하는 방법에 대해 더 자세히 이해하려면 Common Data Service에서 사용하는 메타데이터를 이해하면 통찰력을 얻을 수 있습니다.
 
-*메타데이터*는 데이터에 대한 데이터를 의미합니다. 앱용 CDS는 환경은 사용할 데이터의 정의를 비교적 편집하기 쉽기 때문에 사용자를 위한 유연한 플랫폼을 제공합니다. 앱용 CDS에서 메타데이터는 엔터티의 컬렉션입니다. 엔터티는 데이터베이스에 저장되어 있는 데이터 종류를 설명합니다.  각 엔터티는 데이터베이스 테이블에 대응하고 엔터티 내 각 필드(특성으로도 알려짐)는 해당 테이블 열을 나타냅니다. 엔터티 메타데이터는 만들 수 있는 레코드 종류를 제어하고 여기에 수행할 수 있는 작업 종류입니다. 사용자 지정 도구를 사용하여 엔터티, 필드 및 엔터티 관계를 만들거나 편집할 때 이 메타데이터를 편집하는 것입니다. 
+*메타데이터*는 데이터에 대한 데이터를 의미합니다. Common Data Service는 환경에서 사용할 데이터의 정의를 비교적 쉽게 편집할 수 있기 때문에 유연한 플랫폼을 제공합니다. Common Data Service에서 메타데이터는 엔터티의 컬렉션입니다. 엔터티는 데이터베이스에 저장되어 있는 데이터 종류를 설명합니다.  각 엔터티는 데이터베이스 테이블에 대응하고 엔터티 내 각 필드(특성으로도 알려짐)는 해당 테이블 열을 나타냅니다. 엔터티 메타데이터는 만들 수 있는 레코드 종류를 제어하고 여기에 수행할 수 있는 작업 종류입니다. 사용자 지정 도구를 사용하여 엔터티, 필드 및 엔터티 관계를 만들거나 편집할 때 이 메타데이터를 편집하는 것입니다. 
   
 사용자가 환경의 데이터로 상호 작용하는 데 사용하는 다른 클라이언트는 메타데이터를 사용자 지정할 때 달라지므로 엔터티 메타데이터가 변경되면 조정됩니다. 하지만 이러한 클라이언트는 표시할 시각적 요소, 적용할 사용자 지정 논리 및 보안을 적용하는 방법을 제어하는 다른 데이터에 따라서도 달라집니다. 이 시스템 데이터는 엔터티에도 저장되지만 엔터티 자체는 사용자 지정에 사용할 수 없습니다.
 
-[엔터티 참조 ](/powerapps/developer/common-data-service/reference/about-entity-reference)를 검토하여 앱용 CDS에 기본적으로 포함되는 표준 엔터티, 특성 및 엔터티 관계에 대해 알아볼 수 있습니다.
+[엔터티 참조 ](/powerapps/developer/common-data-service/reference/about-entity-reference)를 검토하여 Common Data Service에 기본적으로 포함되는 표준 엔터티, 특성 및 엔터티 관계에 대해 알아볼 수 있습니다.
 
 > [!TIP]
 > 메타데이터를 편집하는 데 사용할 수 있는 디자이너는 메타데이터에 있는 모든 세부 정보를 표시할 수 없습니다. 시스템에서 발견되는 모든 엔터티와 메타데이터 속성을 볼 수 있는 **메타데이터 브라우저**라는 모델 기반 앱을 설치할 수 있습니다. 자세한 내용: [환경에 대한 메타데이터 찾아보기](https://docs.microsoft.com/dynamics365/customer-engagement/developer/browse-your-metadata)
@@ -41,7 +41,7 @@ search.app:
 
 ## <a name="create-new-metadata-or-use-existing-metadata"></a>새 메타데이터 만들거나 기존 메타데이터를 사용하십니까?
 
-앱용 CDS에는 핵심 비즈니스 응용 프로그램 기능을 지원하는 여러 표준 엔터티가 포함되어 있습니다. 예를 들어 고객 또는 잠재적인 고객에 대한 데이터는 거래처 또는 연락처 엔터티를 사용하여 저장됩니다.  
+Common Data Service에는 핵심 비즈니스 응용 프로그램 기능을 지원하는 여러 표준 엔터티가 포함되어 있습니다. 예를 들어 고객 또는 잠재적인 고객에 대한 데이터는 거래처 또는 연락처 엔터티를 사용하여 저장됩니다.  
   
 이러한 각 엔터티에는 시스템에서 해당 엔터티에 대해 저장해야 하는 일반적인 데이터를 나타내는 여러 필드가 포함되어 있습니다.  
   

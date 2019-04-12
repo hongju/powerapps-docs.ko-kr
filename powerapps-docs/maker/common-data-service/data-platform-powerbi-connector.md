@@ -1,6 +1,6 @@
 ---
 title: PowerBI 보고서 만들기 | Microsoft Docs
-description: 응용 프로그램 커넥터에 대한 Common Data Service를 사용하여 Power BI Desktop에서 데이터에 연결합니다.
+description: Common Data Service 커넥터를 사용하여 PowerBI Desktop에서 데이터에 연결합니다.
 author: lancedMicrosoft
 manager: kfile
 ms.service: powerapps
@@ -15,43 +15,43 @@ search.app:
   - D365CE
 ---
 # <a name="create-a-power-bi-report"></a>Power BI 보고서 만들기
-앱용 Common Data Service를 사용하면 Power BI Desktop을 통해 데이터에 직접 연결하여 보고서를 만들고 Power BI에 게시할 수 있습니다. Power BI에서 보고서는 다른 사용자와 공유되고 Power BI 모바일 앱에서 액세스되는 교차 플랫폼으로 대시보드에 사용될 수 있습니다.
+Common Data Service를 사용하면 Power BI Desktop을 통해 데이터에 직접 연결하여 보고서를 만들고 Power BI에 게시할 수 있습니다. Power BI에서 보고서는 다른 사용자와 공유되고 Power BI 모바일 앱에서 액세스되는 교차 플랫폼으로 대시보드에 사용될 수 있습니다.
 
 ![Power BI Desktop](./media/data-platform-cds-powerbi-connector/PBIDesktop.png "Power BI Desktop")
 
 ## <a name="prerequisites"></a>필수 구성 요소
 
-앱용 Common Data Service에서 Power BI를 사용하려면 다음이 필요합니다.
+Common Data Service에서 Power BI를 사용하려면 다음이 필요합니다.
 
 * 로컬 컴퓨터에서 실행되는 무료 응용 프로그램인 Power BI Desktop을 다운로드하여 설치합니다. Power BI Desktop은 [여기](https://powerbi.microsoft.com/desktop/)에서 다운로드할 수 있습니다.
-* 포털에 액세스할 수 있는 메이커 권한 및 데이터에 액세스하기 위한 읽기 권한이 있는 앱 환경에 대한 앱용 Common Data Service입니다.
+* 포털에 액세스할 수 있는 메이커 권한 및 데이터에 액세스하기 위한 읽기 권한이 있는 앱 환경에 대한 Common Data Service입니다.
 
-## <a name="finding-your-common-data-service-for-apps-environment-url"></a>앱 환경 URL에 대한 Common Data Service 찾기
+## <a name="finding-your-common-data-service-environment-url"></a>Common Data Service 환경 URL 찾기
 
 1. [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)를 열고 연결하려는 환경을 선택하고 오른쪽 위 모서리에 있는 **설정 기어** 를 클릭한 다음 **고급 사용자 지정**을 클릭합니다.
 
-    ![앱용 CDS 환경](./media/data-platform-cds-powerbi-connector/CDSEnv1.png "앱용 CDS 환경")
+    ![Common Data Service 환경](./media/data-platform-cds-powerbi-connector/CDSEnv1.png "Common Data Service 환경")
 
 2. 새 탭을 열 개발자 리소스 섹션에서 **리소스**를 클릭합니다.
 
-    ![앱용 CDS 환경](./media/data-platform-cds-powerbi-connector/CDSEnv2.png "앱용 CDS 환경")
+    ![Common Data Service 환경](./media/data-platform-cds-powerbi-connector/CDSEnv2.png "Common Data Service 환경")
 
 3. 새 탭에서 URL의 루트를 복사하면 사용자 환경에 대한 고유한 URL이 됩니다. URL은 **https://yourenvironmentid.crm.dynamics.com/** 형식이며 URL의 나머지 부분을 복사하지 않도록 해야 합니다. PowerBI 보고서를 만들 때 사용할 수 있도록 이 위치를 편리하게 유지합니다.
 
     > [!div class="mx-imgBorder"] 
-    > ![앱용 CDS 환경](./media/data-platform-cds-powerbi-connector/CDSEnv3.png "앱용 CDS 환경")
+    > ![Common Data Service 환경](./media/data-platform-cds-powerbi-connector/CDSEnv3.png "Common Data Service 환경")
 
-## <a name="connecting-to-common-data-service-for-apps-from-power-bi-desktop"></a>Power BI Desktop에서 앱용 Common Data Service에 연결
+## <a name="connecting-to-common-data-service-from-power-bi-desktop"></a>Power BI Desktop에서 Common Data Service에 연결
 
 1. **Power BI Desktop**을 시작하고 시작 화면에서 처음으로 메시지를 받거나 빈 캔버스로 바로 이동하는 경우 두 경우 모두 **데이터 가져오기**를 클릭하고 **자세히**를 선택하여 Power BI Desktop에 사용할 수 있는 데이터 원본 전체 목록을 엽니다.
 
     ![Power BI Desktop](./media/data-platform-cds-powerbi-connector/CreateReport1.png "Power BI Desktop")
 
-2. 커넥터 목록에서 **온라인 서비스** 및 **앱용 Common Data Service(베타)** 를 클릭합니다. **연결**을 클릭합니다.
+2. 커넥터 목록에서 **온라인 서비스** 및 **Common Data Service(베타)** 를 클릭합니다. **연결**을 클릭합니다.
 
     ![Power BI Desktop](./media/data-platform-cds-powerbi-connector/CreateReport2.png "Power BI Desktop")
 
-3. **앱 환경 URL에 대한 앱용 Common Data Service**를 **서버 URL** 필드에 붙여넣고 **확인**을 클릭합니다. 처음에는 앱의 PowerApps 및 Common Data Service에 연결하는 데 사용하는 것과 동일한 자격 증명을 사용하여 로그인하라는 메시지가 표시됩니다.
+3. **Common Data Service 환경 URL**을 **서버 URL** 필드에 붙여넣고 **확인**을 클릭합니다. 처음에는 PowerApps 및 Common Data Service에 연결하는 데 사용하는 것과 동일한 자격 증명을 사용하여 로그인하라는 메시지가 표시됩니다.
 
     ![Power BI Desktop](./media/data-platform-cds-powerbi-connector/CreateReport3.png "Power BI Desktop")
 
@@ -94,7 +94,7 @@ search.app:
 
 ## <a name="navigating-relationships"></a>관계 탐색
 
-앱용 Common Data Service의 관계는 GUID 필드를 사용하여 두 엔터티 사이에 PowerBI Desktop 내에서 관계를 생성해야 합니다, 이것은 시스템이 생성한 고유 식별자가 어디에 생성 레코드에 대한 관계가 생성되도록 다른 필드에 모호성 또는 중복이 존재할 수 있습니다. Power BI Desktop에서의 관계 관리에 대한 자세한 내용은 [여기](https://docs.microsoft.com/power-bi/desktop-create-and-manage-relationships)를 참조하십시오.
+Common Data Service의 관계는 GUID 필드를 사용하여 두 엔터티 사이에 PowerBI Desktop 내에서 관계를 생성해야 합니다, 이것은 시스템이 생성한 고유 식별자가 어디에 생성 레코드에 대한 관계가 생성되도록 다른 필드에 모호성 또는 중복이 존재할 수 있습니다. Power BI Desktop에서의 관계 관리에 대한 자세한 내용은 [여기](https://docs.microsoft.com/power-bi/desktop-create-and-manage-relationships)를 참조하십시오.
 
 일부 관계는 자동으로 만들어질 수 있지만 보고서를 만들 때 올바른 관계를 검토하고 확인하는 것도 가능합니다.
 

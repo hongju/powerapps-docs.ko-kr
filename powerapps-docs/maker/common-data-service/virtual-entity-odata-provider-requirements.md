@@ -1,9 +1,9 @@
 ---
-title: 앱용 Common Data Service에서 OData v4 데이터 공급자 사용 | MicrosoftDocs
+title: Common Data Service에서 OData v4 데이터 공급자 사용 | MicrosoftDocs
 ms.custom: ''
 ms.date: 06/04/2018
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
@@ -28,16 +28,16 @@ search.app:
 
 ## <a name="odata-v4-data-provider-best-practices"></a>OData v4 데이터 공급자 모범 사례
 
-- 앱용 Common Data Service에서 모든 엔터티는 ID 특성을 지녀야 하며 이 ID는 고유 식별자로 알려져 있으며 값은 guid여야 합니다.  `Edm.Guid` 데이터 형식의 외부 필드에만 ID 필드를 매핑할 수 있습니다.  앱용 CDS에서 고유 식별자 데이터 형식 필드에 `Edm.Int32` 데이터 형식을 매핑할 수 없습니다.
--  null이 허용되는 속성의 OData 엔터티는 가상 엔터티의 매핑된 필드와 일치하도록 설정해야 합니다. 예를 들어 Nullable=False인 OData 엔터티 속성은 앱용 CDS **필드 요구 사항** 특성에서 **업무상 필수**로 설정된 매핑된 필드가 있어야 합니다. 
+- Common Data Service에서 모든 엔터티는 ID 특성을 지녀야 하며 이 ID는 고유 식별자로 알려져 있으며 값은 guid여야 합니다.  `Edm.Guid` 데이터 형식의 외부 필드에만 ID 필드를 매핑할 수 있습니다.  Common Data Service에서 고유 식별자 데이터 형식 필드에 `Edm.Int32` 데이터 형식을 매핑할 수 없습니다.
+-  null이 허용되는 속성의 OData 엔터티는 가상 엔터티의 매핑된 필드와 일치하도록 설정해야 합니다. 예를 들어 Nullable=False인 OData 엔터티 속성은 Common Data Service **필드 요구 사항** 특성에서 **업무상 필수**로 설정된 매핑된 필드가 있어야 합니다. 
 - 표에 데이터를 로드할 때와 같이 여러 쿼리를 검색하려면 선택 및 필터 쿼리 매개 변수를 사용하여 외부 데이터 원본에서 반환되는 데이터 집합의 크기를 제어합니다.
 - 아직 활성화하지 않았으면 시스템 관리자가 플러그 인 추적을 사용하도록 설정해야 합니다. 활성화되면 OData 끝점의 모든 오류가 플러그 인 추적 로그에 캡처됩니다. 추가 정보:  [관리자 가이드: 시스템 설정 대화 상자 - 사용자 지정 탭](/dynamics365/customer-engagement/admin/system-settings-dialog-box-customization-tab) 
 
 ## <a name="data-type-mapping"></a>데이터 형식 매핑
 
-다음 표에는 앱용 CDS 데이터 형식이 포함된 OData 엔터티 데이터 모델(EDM) 데이터 형식 매핑을 나열합니다. 
+다음 표에는 Common Data Service 데이터 형식이 포함된 OData 엔터티 데이터 모델(EDM) 데이터 형식 매핑을 나열합니다. 
 
-|OData 데이터 형식|앱용 CDS 데이터 형식  |
+|OData 데이터 형식|Common Data Service 데이터 유형  |
 |---------|---------|
 |`Edm.Boolean`|두 개의 옵션|
 |`Edm.DateTime`|날짜 및 시간|
@@ -69,7 +69,7 @@ search.app:
 1. 작업에서 **새로 만들기**를 클릭합니다.  
 1. **데이터 공급자 선택** 대화 상자에서 다음 데이터 원본에서 선택하고 **확인**을 클릭합니다.  
   
-    - **OData v4 데이터 공급자**. 앱용 CDS는 OData v4 개방형 표준을 지원하는 데이터 원본에 연결하는 데 사용할 수 있는 OData v4 데이터 공급자를 포함합니다.  
+    - **OData v4 데이터 공급자**. Common Data Service는 OData v4 개방형 표준을 지원하는 데이터 원본에 연결하는 데 사용할 수 있는 OData v4 데이터 공급자를 포함합니다.  
     - *사용자 지정 데이터 공급자*. 데이터 공급자 플러그 인을 가져온 경우 데이터 공급자가 여기에 표시됩니다. 추가 정보:  [개발자 설명서: 가상 엔터티 시작](/dynamics365/customer-engagement/developer/virtual-entities/get-started-ve)  
     
 1. **새 데이터 원본** 속성 페이지에서 다음 필드를 입력한 다음 레코드를 저장합니다.  

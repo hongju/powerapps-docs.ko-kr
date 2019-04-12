@@ -1,10 +1,10 @@
 ---
-title: 앱용 Common Data Service에서 OData v4 데이터 공급자를 사용하는 가상 엔터티 연습 | MicrosoftDocs
+title: Common Data Service에서 OData 데이터 공급자를 사용하는 가상 엔터티 연습 | MicrosoftDocs
 description: OData v4 데이터 공급자를 가상 엔터티와 함께 사용하는 방법 알아보기
 ms.custom: ''
 ms.date: 06/04/2018
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article

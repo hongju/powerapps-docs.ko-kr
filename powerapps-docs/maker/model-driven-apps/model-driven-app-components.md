@@ -1,7 +1,7 @@
 ---
 title: PowerApps의 모델 기반 앱 구성 요소 이해 | MicrosoftDocs
 description: '데이터, UI, 로직 및 시각화와 같은 모델 기반 앱의 다양한 구성 요소를 이해합니다.'
-Keywords: 'fields, attributes, model-driven app'
+Keywords: '필드, 특성, 모델 기반 앱'
 author: Mattp123
 applies_to:
   - Dynamics 365 (online)
@@ -10,7 +10,7 @@ applies_to:
 ms.author: matp
 manager: kvivek
 ms.date: 06/27/2018
-ms.service: crm-online
+ms.service: powerapps
 ms.topic: article
 search.audienceType:
   - maker

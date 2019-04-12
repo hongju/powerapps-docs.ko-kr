@@ -1,9 +1,9 @@
 ---
-title: 솔루션 탐색기를 사용하여 앱용 Common Data Service의 전역 옵션 집합 만들기 및 편집 | MicrosoftDocs
+title: 솔루션 탐색기를 사용하여 Common Data Service에 대한 전역 옵션 집합 만들기 및 편집 | MicrosoftDocs
 ms.custom: ''
 ms.date: 05/26/2018
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
@@ -19,12 +19,12 @@ search.app:
   - PowerApps
   - D365CE
 ---
-# <a name="create-and-edit-global-option-sets-for-common-data-service-for-apps-using-solution-explorer"></a>솔루션 탐색기를 사용하여 앱용 Common Data Service에 대한 전역 옵션 집합 만들기 및 편집
+# <a name="create-and-edit-global-option-sets-for-common-data-service-using-solution-explorer"></a>솔루션 탐색기를 사용하여 Common Data Service에 대한 전역 옵션 집합 만들기 및 편집
 
-솔루션 탐색기는 앱용 Common Data Service를 사용하는 앱의 Common Data Service에 대한 전역 옵션 집합을 만들고 편집하는 한 가지 방법을 제공합니다.
+솔루션 탐색기를 통해 Common Data Service의 전역 옵션 집합을 만들고 편집할 수 있습니다.
 
 [PowerApps 포털](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)을 사용하면 가장 일반적인 옵션을 구성할 수 있지만 특정 옵션은 솔루션 탐색기를 사용하여 설정만 가능합니다. <br />추가 정보: 
-- [앱용 Common Data Service에 대한 전역 옵션 집합 만들기 및 편집](create-edit-global-option-sets.md)
+- [Common Data Service에 대한 전역 옵션 집합 만들기 및 편집](create-edit-global-option-sets.md)
 - [옵션 집합 만들기](custom-picklists.md)
 
 ## <a name="open-solution-explorer"></a>솔루션 탐색기를 엽니다.
@@ -40,7 +40,7 @@ search.app:
 ![전역 옵션 집합 보기](media/view-global-option-sets-solution-explorer.png)
 
 > [!NOTE]
-> 일부 시스템 전역 옵션 집합은 사용자 지정할 수 없습니다. 이러한 옵션은 업데이트 또는 새 버전으로 변경할 수 있으므로 사용자의 요구 사항이 앱용 CDS에서 이러한 값을 사용하는 방식과 일치하는지 확실하지 않을 경우 사용하지 않는 것이 좋습니다.
+> 일부 시스템 전역 옵션 집합은 사용자 지정할 수 없습니다. 이러한 옵션은 업데이트 또는 새 버전으로 변경할 수 있으므로 사용자의 요구 사항이 Common Data Service에서 이러한 값을 사용하는 방식과 일치하는지 확실하지 않을 경우 사용하지 않는 것이 좋습니다.
 
 ## <a name="create-a-global-option-set"></a>전역 옵션 집합 만들기
 
@@ -81,7 +81,7 @@ search.app:
   
 ### <a name="see-also"></a>참조
  
-[앱용 Common Data Service에 대한 전역 옵션 집합 만들기 및 편집](create-edit-global-option-sets.md)<br />
+[Common Data Service에 대한 전역 옵션 집합 만들기 및 편집](create-edit-global-option-sets.md)<br />
 [옵션 집합 만들기](custom-picklists.md)<br />
 [필드 만들기 및 편집](create-edit-fields.md)<br />
 [개발자 설명서: 전역 옵션 집합 사용자 지정](/dynamics365/customer-engagement/developer/org-service/customize-global-option-sets)

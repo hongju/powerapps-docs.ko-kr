@@ -22,7 +22,7 @@ PowerApps에서는 *엔터티*는 일반적으로 회사 이름, 위치, 제품,
 ## <a name="prerequisites"></a>필수 구성 요소
 이 절차를 수행하려면 다음 항목이 필요 합니다.
 * PowerApps 계획 2 또는 Microsoft Flow 계획 2 라이선스가 있습니다. 또는 [무료 PowerApps 계획 2 평가판](https://web.powerapps.com/signup?redirect=marketing&email=)을 등록할 수 있습니다.
-* 앱용 Common Data Service 내에서 시스템 관리자 또는 시스템 사용자 지정자 보안 역할입니다.
+* Common Data Service 내에서 시스템 관리자 또는 시스템 사용자 지정자 보안 역할입니다.
 
 ## <a name="sign-in-to-powerapps"></a>PowerApps에 로그인
 [https://web.powerapps.com](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 PowerApps에 로그인

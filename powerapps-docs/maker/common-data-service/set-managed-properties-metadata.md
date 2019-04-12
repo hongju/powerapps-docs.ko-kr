@@ -1,10 +1,10 @@
 ---
-title: 앱용 Common Data Service 메타데이터에서 관리 속성 설정 | MicrosoftDocs
+title: Common Data Service 메타데이터에서 관리 속성 설정 | MicrosoftDocs
 description: 솔루션에서 메타데이터 항목의 관리 속성을 설정하는 방법에 대해 알아봅니다.
 ms.custom: ''
 ms.date: 05/30/2018
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
@@ -23,7 +23,7 @@ search.app:
   - PowerApps
   - D365CE
 ---
-# <a name="set-managed-properties-in-common-data-service-for-apps-metadata"></a>앱용 Common Data Service 메타데이터에서 관리 속성 설정 
+# <a name="set-managed-properties-in-common-data-service-metadata"></a>Common Data Service 메타데이터에서 관리 속성 설정 
 
 관리형 속성은 관리형 솔루션으로 메타데이터를 포함하고 다른 환경으로 가져올 경우에만 적용됩니다. 이러한 설정을 통해 관리형 솔루션 제작자는 해당 솔루션을 설치하는 사용자에게 허용하려는 사용자 지정 수준을 일부 제어할 수 있습니다. 
 
@@ -58,7 +58,7 @@ search.app:
 
 ## <a name="field-managed-properties"></a>필드 관리 속성
 
-필드를 편집하는 방법에 대한 자세한 내용은 [PowerApps 솔루션 탐색기를 사용하여 앱용 Common Data Service에 대한 필드 만들기 및 편집](create-edit-field-solution-explorer.md)을 참조하십시오.
+필드를 편집하는 방법에 대한 자세한 내용은 [PowerApps 솔루션 탐색기를 사용하여 Common Data Service에 대한 필드 만들기 및 편집](create-edit-field-solution-explorer.md)을 참조하십시오.
 
 [필드 를 보는](create-edit-field-solution-explorer.md#view-fields) 동안 비관리형 솔루션에서 사용자 지정 필드를 선택한 다음 메뉴 모음에서 **추가 작업** >  **관리 속성**을 선택합니다.
 
@@ -94,6 +94,6 @@ search.app:
 
 [관리 속성](solutions-overview.md#managed-properties)<br />
 [솔루션 탐색기를 사용하여 엔터티 만들기 및 편집](create-edit-entities-solution-explorer.md)<br />
-[PowerApps 솔루션 탐색기를 사용하여 앱용 Common Data Service에 대한 필드 만들기 및 편집](create-edit-field-solution-explorer.md)<br />
+[PowerApps 솔루션 탐색기를 사용하여 Common Data Service에 대한 필드 만들기 및 편집](create-edit-field-solution-explorer.md)<br />
 [솔루션 탐색기를 사용하여 1:N(일대다) 또는 N:1(다대일) 엔터티 관계 만들기 및 편집](create-edit-1n-relationships-solution-explorer.md)<br />
-[솔루션 탐색기를 사용하여 앱용 Common Data Service에서 N:N(다대다) 엔터티 관계 만들기](create-edit-nn-relationships-solution-explorer.md)
+[솔루션 탐색기를 사용하여 Common Data Service에서 N:N(다대다) 엔터티 관계 만들기](create-edit-nn-relationships-solution-explorer.md)

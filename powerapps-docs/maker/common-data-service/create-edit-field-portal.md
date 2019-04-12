@@ -1,9 +1,9 @@
 ---
-title: PowerApps 포털을 사용하여 앱용 Common Data Service에 대한 필드 만들기 및 편집 | MicrosoftDocs
+title: PowerApps 포털을 사용하여 Common Data Service에 대한 필드 만들기 및 편집 | MicrosoftDocs
 ms.custom: ''
-ms.date: 05/18/2018
+ms.date: 02/28/2019
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
@@ -12,20 +12,20 @@ applies_to:
   - Dynamics 365 Version 9.x
   - PowerApps
 ms.author: matp
-manager: brycho
+manager: kvivek
 search.audienceType:
   - maker
 search.app:
   - PowerApps
   - D365CE
 ---
-# <a name="create-and-edit-fields-for-common-data-service-for-apps-using-powerapps-portal"></a>PowerApps 포털을 사용하여 앱용 Common Data Service에 대한 필드 만들기 및 편집
+# <a name="create-and-edit-fields-for-common-data-service-using-powerapps-portal"></a>PowerApps 포털을 사용하여 Common Data Service에 대한 필드 만들기 및 편집
 
-[PowerApps 포털](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)을 사용하면 앱용 Common Data Service에서 엔터티 필드를 쉽게 만들고 편집할 수 있습니다.
+[PowerApps 포털](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)을 사용하면 Common Data Service에서 엔터티 필드를 쉽게 만들고 편집할 수 있습니다.
 
 포털을 사용하면 가장 일반적인 옵션을 구성할 수 있지만 특정 옵션은 솔루션 탐색기를 사용하여 설정만 가능 합니다. <br />추가 정보: 
-- [앱용 Common Data Service에 대한 필드 만들기 및 편집](create-edit-fields.md)
-- [PowerApps 솔루션 탐색기를 사용하여 앱용 Common Data Service에 대한 필드 만들기 및 편집](create-edit-field-solution-explorer.md)
+- [Common Data Service에 대한 필드 만들기 및 편집](create-edit-fields.md)
+- [PowerApps 솔루션 탐색기를 사용하여 Common Data Service에 대한 필드 만들기 및 편집](create-edit-field-solution-explorer.md)
 
 ## <a name="view-fields"></a>필드 보기
 
@@ -52,8 +52,8 @@ search.app:
  |속성|설명|
  |--|--|
  |**표시 이름**|사용자 인터페이스의 필드에 대해 표시되는 텍스트입니다.|
- |**이름**|환경에서 고유한 이름입니다. 입력한 표시 이름에 따라 이름이 생성되지만 저장하기 전에 편집할 수 있습니다. 필드를 만든 후에는 응용 프로그램이나 코드에서 참조될 수 있으므로 이름을 변경할 수 없습니다. 이 이름 앞에는 **CDS 기본 게시자** 에 대한 사용자 지정 접두사가 붙습니다.|
- |**데이터 형식**|값이 저장되는 방법 및 일부 응용 프로그램에서의 형식 지정 방법을 제어합니다. 필드를 저장한 후에는 엔터티의 데이터에 영향을 줄 수 있으므로 데이터 형식을 변경할 수 없습니다.|
+ |**이름**|환경에서 고유한 이름입니다. 입력한 표시 이름에 따라 이름이 생성되지만 저장하기 전에 편집할 수 있습니다. 필드를 만든 후에는 응용 프로그램이나 코드에서 참조될 수 있으므로 이름을 변경할 수 없습니다. 이 이름 앞에는 **Common Data Service 기본 게시자** 에 대한 사용자 지정 접두사가 붙습니다.|
+ |**데이터 형식**|값이 저장되는 방법 및 일부 응용 프로그램에서의 형식 지정 방법을 제어합니다. 필드가 저장되면 텍스트 필드를 자동 번호 매기기 필드로 변환하는 것을 제외하고는 데이터 형식을 변경할 수 없습니다.|
 
 선택한 **데이터 형식**에 따라 추가 옵션을 설정할 수 있습니다.
 
@@ -75,6 +75,7 @@ search.app:
 |**URL**|URL로 유효성이 검사되고 URL을 열기 위한 링크로 렌더링되는 텍스트 값입니다.|
 |**주식 종목 코드**|주식 종목 코드에 대한 텍스트 값은 링크를 표시하여 주식 종목 코드에 대한 견적을 표시합니다. |
 |**전화**|Skype를 사용하여 전화 통화를 시작하기 위한 링크로 렌더링 되는 전화 번호로 유효성이 검사된 텍스트 값입니다. |
+|**자동 번호 매기기**|레코드를 만들 때마다 서버에서 자동으로 생성되는 숫자와 문자의 사용자 지정 가능한 조합입니다. 추가 정보: [자동 번호 매기기 필드](autonumber-fields.md) |
 
 #### <a name="max-length"></a> 최대 길이 
 
@@ -170,7 +171,7 @@ search.app:
 
 ## <a name="number-field-options"></a>숫자 필드 옵션
 
-숫자 필드의 각 유형에는 절대 최소값과 최대값이 있습니다. 이러한 절대 값 내에서 적절한 **최소값** 및 **최대값**을 설정할 수 있습니다. 앱용 CDS가 필드에 저장하려는 데이터의 값을 확인하도록 하려면 이 작업을 수행합니다.
+숫자 필드의 각 유형에는 절대 최소값과 최대값이 있습니다. 이러한 절대 값 내에서 적절한 **최소값** 및 **최대값**을 설정할 수 있습니다. Common Data Service가 필드에 저장하려는 데이터의 값을 확인하도록 하려면 이 작업을 수행합니다.
 
 **부동 소수점 숫자** 및 **10진수** 데이터 형식의 경우 **소수 자릿수**를 지정할 수 있습니다.
 
@@ -224,8 +225,8 @@ search.app:
 
 
 ### <a name="see-also"></a>참조  
-[앱용 Common Data Service에 대한 필드 만들기 및 편집](create-edit-fields.md)<br />
-[PowerApps 솔루션 탐색기를 사용하여 앱용 Common Data Service에 대한 필드 만들기 및 편집](create-edit-field-solution-explorer.md)<br />
+[Common Data Service에 대한 필드 만들기 및 편집](create-edit-fields.md)<br />
+[PowerApps 솔루션 탐색기를 사용하여 Common Data Service에 대한 필드 만들기 및 편집](create-edit-field-solution-explorer.md)<br />
 [필드 유형 및 필드 데이터 형식](types-of-fields.md)<br />
 [계산 필드를 정의하여 수동 계산 자동화](define-calculated-fields.md)<br />
 [값을 집계하는 롤업 필드 정의](define-rollup-fields.md)<br />

@@ -1,9 +1,9 @@
 ---
 title: 모델 기반 앱 비즈니스 규칙 및 추천 만들기 | MicrosoftDocs
 ms.custom: ''
-ms.date: 12/06/2018
+ms.date: 03/15/2019
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: get-started-article
@@ -24,9 +24,9 @@ search.app:
   - PowerApps
   - D365CE
 ---
-# <a name="tutorial-create-business-rules-and-recommendations-to-apply-logic-in-a-model-driven-app-form"></a>자습서: 비즈니스 규칙 및 추천을 만들어 모델 기반 앱 양식의 논리에 적용
+# <a name="create-business-rules-and-recommendations-to-apply-logic-in-a-model-driven-app-form"></a>비즈니스 규칙 및 추천을 만들어 모델 기반 앱 양식의 논리에 적용
 
-이 자습서에서는 비즈니스 규칙 및 추천을 만들어 JavaScript 코드를 작성하거나 플러그 인을 만들지 않고 모델 기반 앱에서 양식 논리를 적용할 수 있습니다. 비즈니스 규칙은 빠르게 변화하고 일반적으로 사용되는 규칙을 구현하고 유지하는 간단한 인터페이스를 제공하는 방법을 보여줍니다. 기본 및 빨리 만들기 양식에 적용할 수 있으며 모델 기반 앱, Dynamics 365 Customer Engagement 웹 앱, Dynamics 365 for tablets 및 Dynamics 365 for Outlook(온라인 또는 오프 라인 모드)에서 작동합니다.
+이 항목에서는 비즈니스 규칙 및 추천을 만들어 JavaScript 코드를 작성하거나 플러그 인을 만들지 않고 모델 기반 앱에서 양식 논리를 적용할 수 있습니다. 비즈니스 규칙은 빠르게 변화하고 일반적으로 사용되는 규칙을 구현하고 유지하는 간단한 인터페이스를 제공하는 방법을 보여줍니다. 기본 및 빨리 만들기 양식에 적용할 수 있으며 모델 기반 앱, Dynamics 365 Customer Engagement 웹 앱, Dynamics 365 for tablets 및 Dynamics 365 for Outlook(온라인 또는 오프 라인 모드)에서 작동합니다.
 
 > [!NOTE]
 > 모든 양식 및 서버에 적용되도록 엔터티에 대한 비즈니스 규칙을 정의하려면 [엔터티를 위한 비즈니스 규칙 만들기](/powerapps/maker/common-data-service/data-platform-create-business-rule)를 참조하십시오.
@@ -129,7 +129,13 @@ search.app:
 ## <a name="localize-error-messages-used-in-business-rules"></a>비즈니스 규칙에 사용되는 오류 메시지 지역화  
  조직에 구축된 언어가 둘 이상일 경우 설정된 오류 메시지를 지역화해야 할 수 있습니다. 메시지를 설정할 때마다 시스템에서 레이블을 생성합니다. 조직에서 번역을 내보내면 기본 언어가 아닌 언어를 사용하는 사용자가 번역된 메시지를 볼 수 있도록 오류 메시지의 지역화된 버전을 추가한 다음 해당 레이블을 시스템으로 다시 가져올 수 있습니다.  
 
-## <a name="is-your-business-rule-not-firing-for-a-form"></a>비즈니스 규칙이 양식에 대해 실행되지 않습니까?
+## <a name="common-issues"></a>일반적인 문제
+이 섹션에서는 비즈니스 규칙을 사용할 때 발생할 수 있는 일반적인 문제에 대해 설명합니다. 
+
+### <a name="full-name-field-not-supported-with-unified-interface-apps"></a>전체 이름 필드는 통합 인터페이스 앱에서 지원되지 않음
+**전체 이름**(fullname) 필드를 사용하는 작업 또는 조건은 통합 인터페이스를 기반으로 하는 앱에서 지원되지 않습니다.  또는 **이름**(firstname)과 **성**(lastname) 필드를 사용하여 작업 또는 조건을 사용할 수 있습니다. 
+
+### <a name="is-your-business-rule-not-firing-for-a-form"></a>비즈니스 규칙이 양식에 대해 실행되지 않습니까?
 비즈니스 규칙에서 참조하는 필드가 양식에 포함되지 않기 때문에 비즈니스 규칙이 실행되지 않을 수 있습니다. 
 1.  솔루션 탐색기를 엽니다. 원하는 엔터티를 확장하고 **양식**을 선택합니다. 
 2.  원하는 양식을 연 다음 양식 디자이너 리본에서 **비즈니스 규칙**을 선택합니다. 

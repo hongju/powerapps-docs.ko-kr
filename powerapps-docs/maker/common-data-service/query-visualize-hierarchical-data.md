@@ -4,7 +4,7 @@ description: 계층적 관련 데이터 쿼리 및 시각화 방법 알아보기
 ms.custom: ''
 ms.date: 06/20/2018
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
@@ -23,7 +23,7 @@ search.app:
   - PowerApps
   - D365CE
 ---
-# <a name="query-and-visualize-hierarchically-related-data"></a>계층적으로 연관된 데이터 쿼리 및 시각화
+# <a name="query-and-visualize-hierarchically-related-data"></a>계층적으로 관련된 데이터를 쿼리하고 가시화하기
 
 관련 데이터를 계층적으로 시각화하여 귀중한 비즈니스 통찰력을 얻을 수 있습니다. 계층 구조 모델링 및 가상화 기능을 사용하면 많은 이점이 있습니다.  
   
@@ -37,7 +37,7 @@ search.app:
   
 <a name="BKMK_Querydata"></a>   
 ## <a name="query-hierarchical-data"></a>계층적 데이터 쿼리  
- 앱용 Common Data Service에서 계층 구조 데이터 구조는 관련 레코드의 자체 참조 일대다(1:N) 관계에서 지원됩니다. 과거에는 계층 구조 데이터를 보려면 관련 레코드에 대해 반복적으로 쿼리해야 합니다. 현재 한 단계에서 관련 데이터를 계층 구조로 쿼리할 수 있습니다. **이하** 및 **이상** 논리를 사용하여 레코드를 쿼리할 수 있습니다. **이하** 및 **이상** 계층적 연산자는 상세하게 찾기 및 워크플로 편집기에 표시됩니다. 이러한 연산자를 사용하는 방법에 대한 자세한 내용은 [워크플로 단계 구성](/flow/configure-workflow-steps)을 참조하십시오. 상세하기 찾기에 대한 자세한 내용은 [상세하게 찾기 검색 만들기, 편집 또는 저장](https://docs.microsoft.com/dynamics365/customer-engagement/basics/save-advanced-find-search)을 참조하십시오.  
+ Common Data Service에서 계층 구조 데이터 구조는 관련 레코드의 자체 참조 일대다(1:N) 관계에서 지원됩니다. 과거에는 계층 구조 데이터를 보려면 관련 레코드에 대해 반복적으로 쿼리해야 합니다. 현재 한 단계에서 관련 데이터를 계층 구조로 쿼리할 수 있습니다. **이하** 및 **이상** 논리를 사용하여 레코드를 쿼리할 수 있습니다. **이하** 및 **이상** 계층적 연산자는 상세하게 찾기 및 워크플로 편집기에 표시됩니다. 이러한 연산자를 사용하는 방법에 대한 자세한 내용은 [워크플로 단계 구성](/flow/configure-workflow-steps)을 참조하십시오. 상세하기 찾기에 대한 자세한 내용은 [상세하게 찾기 검색 만들기, 편집 또는 저장](https://docs.microsoft.com/dynamics365/customer-engagement/basics/save-advanced-find-search)을 참조하십시오.  
   
  다음 예제에서는 계층 구조를 쿼리하는 다양한 시나리오를 보여줍니다.  
   

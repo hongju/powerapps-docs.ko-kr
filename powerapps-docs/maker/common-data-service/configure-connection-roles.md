@@ -3,7 +3,7 @@ title: 연결 역할 구성 | MicrosoftDocs
 ms.custom: ''
 ms.date: 05/27/2018
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
@@ -21,7 +21,7 @@ search.app:
 ---
 # <a name="configure-connection-roles"></a>연결 역할 구성
 
-앱용 Common Data Service를 사용하면 엔터티 관계를 만들지 않고 엔터티 레코드 간의 **연결**을 정의할 수 있습니다. 모델 기반 앱에서 사용자는 레코드 간에 명명된 링크를 설정하여 실제 엔터티 관계를 만드는 것을 정당화하지 않는 덜 공식적인 관계를 설정할 수 있습니다. 몇 가지 예로는 *친구*, *형제 자매*, *배우자*, *참석자* 및 *이해 관계자*가 있습니다. 또한 일부 연결은 또한 *자녀*와 *부모*, *남편*과 *아내* 또는 *의사*와 *환자* 등의 상호 연결일 수 있습니다.
+Common Data Service를 사용하면 엔터티 관계를 만들지 않고 엔터티 레코드 간의 **연결**을 정의할 수 있습니다. 모델 기반 앱에서 사용자는 레코드 간에 명명된 링크를 설정하여 실제 엔터티 관계를 만드는 것을 정당화하지 않는 덜 공식적인 관계를 설정할 수 있습니다. 몇 가지 예로는 *친구*, *형제 자매*, *배우자*, *참석자* 및 *이해 관계자*가 있습니다. 또한 일부 연결은 또한 *자녀*와 *부모*, *남편*과 *아내* 또는 *의사*와 *환자* 등의 상호 연결일 수 있습니다.
 
 두 레코드 간에 연결을 설정하면 관계의 시작 및 종료 날짜와 같은 추가 정보나 설명도 추가할 수 있습니다. 추가 정보: [레코드 간의 관계를 정의 및 표시하도록 연결 레코드 만들기](/dynamics365/customer-engagement/basics/create-connections-view-relationships-between-records).
 
@@ -29,7 +29,7 @@ search.app:
 
 ## <a name="view-connection-roles"></a>연결 역할 보기
 
-앱용 CDS에 이미 구성된 여러 표준 연결 역할이 있습니다. 역할을 보려면 설정 영역으로 이동해야 합니다. 
+Common Data Service에 이미 구성된 여러 표준 연결 역할이 있습니다. 역할을 보려면 설정 영역으로 이동해야 합니다. 
 
 ### <a name="navigate-to-the-settings-area"></a>설정 영역으로 이동합니다.
 
@@ -91,7 +91,7 @@ search.app:
 - 영업 팀
 - 서비스
 
-**범주** 전역 옵션 집합을 편집하여 새 범주를 추가하거나 기존 범주를 수정할 수 있습니다. 자세한 내용: [앱용 Common Data Service에 대한 전역 옵션 집합(선택 목록) 만들기 및 편집](create-edit-global-option-sets.md)
+**범주** 전역 옵션 집합을 편집하여 새 범주를 추가하거나 기존 범주를 수정할 수 있습니다. 자세한 내용: [Common Data Service에 대한 전역 옵션 집합(선택 목록) 만들기 및 편집](create-edit-global-option-sets.md)
 
 ### <a name="select-record-types"></a>레코드 종류 선택
 
@@ -125,7 +125,7 @@ search.app:
 ### <a name="see-also"></a>참조
 <!-- This is in the basics guide. It needs to be migrated -->
 [레코드 간의 관계를 정의하고 보도록 연결 레코드 만들기](/dynamics365/customer-engagement/basics/create-connections-view-relationships-between-records)<br />
-[앱용 Common Data Service에 대한 전역 옵션 집합(선택 목록) 만들기 및 편집](create-edit-global-option-sets.md)<br />
+[Common Data Service(선택 목록)에 대한 전역 옵션 집합 만들기 및 편집](create-edit-global-option-sets.md)<br />
 [엔터티 간 관계 만들기 및 편집](create-edit-entity-relationships.md)
 
 

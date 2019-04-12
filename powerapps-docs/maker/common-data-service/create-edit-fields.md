@@ -1,9 +1,9 @@
 ---
-title: 앱용 Common Data Service의 필드를 만들고 편집하는 방법| MicrosoftDocs
+title: Common Data Service의 필드를 만들고 편집하는 방법| MicrosoftDocs
 ms.custom: ''
 ms.date: 02/08/2019
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
@@ -23,7 +23,7 @@ search.app:
 ---
 # <a name="how-to-create-and-edit-fields"></a>필드를 만들고 편집하는 방법
 
-앱용 Common Data Service에서 필드는 엔터티에 데이터를 저장하는 데 사용할 수 있는 개별 데이터 항목을 정의합니다. 필드는 개발자에 의해 *특성*이라고도 합니다. 
+Common Data Service에서 필드는 엔터티에 데이터를 저장하는 데 사용할 수 있는 개별 데이터 항목을 정의합니다. 필드는 개발자에 의해 *특성*이라고도 합니다. 
   
 사용자 지정 필드를 만들려면 먼저 기존 필드를 사용하여 요구 사항을 충족하는지 평가합니다. 추가 정보: [새 메타데이터를 만들거나 기존 메타데이터를 사용하시겠습니까?](create-edit-metadata.md#create-new-metadata-or-use-existing-metadata)
 
@@ -31,8 +31,8 @@ search.app:
 
 |디자이너| 설명|
 |--|--|
-|[PowerApps 포털](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)|쉽게 간소화된 환경을 제공하지만 일부 특수 설정은 사용할 수 없습니다.<br />추가 정보: [PowerApps 포털을 사용하여 앱용 Common Data Service에 대한 필드 만들기 및 편집](create-edit-field-portal.md)|
-|솔루션 탐색기|쉽지 않지만 덜 일반적인 요구 사항에 대한 더 많은 유연성을 제공합니다.<br />추가 정보: [PowerApps 솔루션 탐색기를 사용하여 앱용 Common Data Service에 대한 필드 만들기 및 편집](create-edit-field-solution-explorer.md) |
+|[PowerApps 포털](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)|쉽게 간소화된 환경을 제공하지만 일부 특수 설정은 사용할 수 없습니다.<br />추가 정보: [PowerApps 포털을 사용하여 Common Data Service에 대한 필드 만들기 및 편집](create-edit-field-portal.md)|
+|솔루션 탐색기|쉽지 않지만 덜 일반적인 요구 사항에 대한 더 많은 유연성을 제공합니다.<br />추가 정보: [PowerApps 솔루션 탐색기를 사용하여 Common Data Service에 대한 필드 만들기 및 편집](create-edit-field-solution-explorer.md) |
 
 > [!NOTE]
 > 다음을 사용하여 환경에서 필드를 만들 수도 있습니다.
@@ -47,7 +47,7 @@ search.app:
 
 - 고객 조회 필드 만들기. 
    - 추가 정보: [조회의 다른 유형](types-of-fields.md#different-types-of-lookups)
-- CDS 기본 솔루션 이외의 솔루션에 필드 만들기. 
+- Common Data Service 기본 솔루션 이외의 솔루션에 필드 만들기. 
    - 추가 정보: [솔루션 개요](solutions-overview.md)
 - 상태 설명 전환 정의. 
    - 추가 정보: [서비스 케이스 또는 사용자 지정 엔터티에 대한 상태 설명 전환 정의](define-status-reason-transitions.md)
@@ -70,14 +70,14 @@ search.app:
 
 ## <a name="community-tools"></a>커뮤니티 도구
 
-**[특성 번역기](https://www.xrmtoolbox.com/plugins/DLaB.Xrm.AttributeManager/)** 는 XrmToolBox 커뮤니티가 앱용 CDS를 위해 개발한 도구입니다. 커뮤니티 개발 도구에 대한 자세한 내용은 [개발자 도구](https://docs.microsoft.com/dynamics365/customer-engagement/developer/developer-tools) 항목을 참조하십시오.
+**[특성 번역기](https://www.xrmtoolbox.com/plugins/DLaB.Xrm.AttributeManager/)** 는 XrmToolBox 커뮤니티가 Common Data Service를 위해 개발한 도구입니다. 커뮤니티 개발 도구에 대한 자세한 내용은 [개발자 도구](https://docs.microsoft.com/dynamics365/customer-engagement/developer/developer-tools) 항목을 참조하십시오.
 
 > [!NOTE]
 > 커뮤니티 도구는 Microsoft의 제품이 아니며 커뮤니티 도구에 대해 지원을 확장하지 않습니다. 도구와 관련된 질문이 있으면 게시자에게 문의하십시오. 추가 정보: [XrmToolBox](https://www.xrmtoolbox.com)
 
 ### <a name="see-also"></a>참조  
-[PowerApps 포털을 사용하여 앱용 Common Data Service에 대한 필드 만들기 및 편집](create-edit-field-portal.md)<br />
-[PowerApps 솔루션 탐색기를 사용하여 앱용 Common Data Service에 대한 필드 만들기 및 편집](create-edit-field-solution-explorer.md)<br />
+[PowerApps 포털을 사용하여 Common Data Service에 대한 필드 만들기 및 편집](create-edit-field-portal.md)<br />
+[PowerApps 솔루션 탐색기를 사용하여 Common Data Service에 대한 필드 만들기 및 편집](create-edit-field-solution-explorer.md)<br />
 [필드 유형 및 필드 데이터 형식](types-of-fields.md)<br />
 [개발자 설명서: 속성 메타데이터 작업](/dynamics365/customer-engagement/developer/org-service/work-attribute-metadata)
  

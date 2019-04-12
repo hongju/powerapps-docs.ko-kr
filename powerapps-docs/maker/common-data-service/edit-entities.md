@@ -4,7 +4,7 @@ description: 엔터티를 편집할 수 있는 다양한 방법 알아보기
 ms.custom: ''
 ms.date: 05/15/2018
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
@@ -39,7 +39,7 @@ search.app:
 
 PowerApps 포털 및 솔루션 탐색기에서 다음을 수행할 수 있습니다.
 
-- **엔터티 필드 편집**. 추가 정보:  [앱용 Common Data Service에 대한 필드 만들기 및 편집](create-edit-fields.md)
+- **엔터티 필드 편집**. 추가 정보:  [Common Data Service에 대한 필드 만들기 및 편집](create-edit-fields.md)
   
 - **엔터티 관계 편집**. 추가 정보:  [엔터티 간 관계 만들기 및 편집](create-edit-entity-relationships.md)
 

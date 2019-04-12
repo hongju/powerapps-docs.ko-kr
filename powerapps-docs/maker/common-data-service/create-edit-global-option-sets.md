@@ -1,9 +1,9 @@
 ---
-title: 앱용 Common Data Service의 전역 옵션 집합(선택 목록) 만들기 및 편집 개요 | MicrosoftDocs
+title: Common Data Service의 전역 옵션 집합(선택 목록) 만들기 및 편집 개요 | MicrosoftDocs
 ms.custom: ''
 ms.date: 05/26/2018
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
@@ -37,7 +37,7 @@ search.app:
 |디자이너| 설명|
 |--|--|
 |[PowerApps 포털](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)|쉽게 간소화된 환경을 제공하지만 일부 특수 설정은 사용할 수 없습니다.<br />추가 정보: [옵션 집합 만들기](custom-picklists.md) |
-|솔루션 탐색기|쉽지 않지만 덜 일반적인 요구 사항에 대한 더 많은 유연성을 제공합니다. <br />추가 정보: [솔루션 탐색기를 사용하여 앱용 Common Data Service에 대한 전역 옵션 집합 만들기 및 편집](create-edit-global-option-sets-solution-explorer.md) |
+|솔루션 탐색기|쉽지 않지만 덜 일반적인 요구 사항에 대한 더 많은 유연성을 제공합니다. <br />추가 정보: [솔루션 탐색기를 사용하여 Common Data Service에 대한 전역 옵션 집합 만들기 및 편집](create-edit-global-option-sets-solution-explorer.md) |
 
 > [!NOTE]
 > 다음을 사용하여 환경에서 전역 옵션 집합을 만들 수도 있습니다.
@@ -50,7 +50,7 @@ search.app:
 
 - 옵션에 색상 할당
 - 옵션의 순서 변경
-- CDS 기본 솔루션 이외의 솔루션에 전역 옵션 집합 만들기
+- Common Data Service 기본 솔루션 이외의 솔루션에 전역 옵션 집합 만들기
 - 관리 속성 설정
 - 가상 엔터티에 사용되는 속성 설정
 - 종속성 보기
@@ -58,7 +58,7 @@ search.app:
 ## <a name="see-also"></a>참조
 
 [옵션 집합 만들기](custom-picklists.md)<br />
-[솔루션 탐색기를 사용하여 앱용 Common Data Service에 대한 전역 옵션 집합 만들기 및 편집](create-edit-global-option-sets-solution-explorer.md)<br />
+[솔루션 탐색기를 사용하여 Common Data Service에 대한 전역 옵션 집합 만들기 및 편집](create-edit-global-option-sets-solution-explorer.md)<br />
 [개발자 설명서: 전역 옵션 집합 사용자 지정](/dynamics365/customer-engagement/developer/org-service/customize-global-option-sets)
   
 
