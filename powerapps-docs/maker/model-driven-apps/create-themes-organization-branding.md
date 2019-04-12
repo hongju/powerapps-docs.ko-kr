@@ -3,7 +3,7 @@ title: 조직의 브랜드와 일치하도록 색 구성표를 변경하거나 �
 ms.custom: ''
 ms.date: 02/19/2019
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
@@ -116,7 +116,7 @@ search.app:
 ### <a name="theme-contrast"></a>테마 대비  
  다음과 같은 방법을 사용하여 대비 색상을 제공하는 것이 좋습니다.  
   
--   대비 색상을 신중하게 선택합니다. 앱용 Common Data Service 기본 제공 테마에는 최적의 사용을 위해 올바른 대시 비율로 되어 있습니다. 새로운 테마에 유사한 비율을 사용합니다.  
+-   대비 색상을 신중하게 선택합니다. Common Data Service 기본 제공 테마에는 최적의 사용을 위해 올바른 대시 비율로 되어 있습니다. 새로운 테마에 유사한 비율을 사용합니다.  
   
 -   고대비 모드의 경우 기본 색 설정을 사용합니다.  
   

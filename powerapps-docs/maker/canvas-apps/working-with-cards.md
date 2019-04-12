@@ -1,6 +1,6 @@
 ---
 title: 데이터 카드 이해 | Microsoft Docs
-description: PowerApps에서 양식 카드를 사용하여 데이터 원본에서 정보를 수집하고 표시합니다.
+description: PowerApps에서 폼 카드를 사용하여 데이터 원본에서 정보를 수집하고 표시합니다.
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -15,20 +15,20 @@ search.app:
 - PowerApps
 ms.openlocfilehash: db0e42a45af217e9e5703242c2a5a867a52b687b
 ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/24/2018
 ms.locfileid: "42850533"
 ---
 # <a name="understand-data-cards-in-powerapps"></a>PowerApps의 데이터 카드 이해
 
-**[카드](controls/control-card.md)** 컨트롤은 캔버스 앱에서 **[편집 양식](controls/control-form-detail.md)** 및 **[표시 양식](controls/control-form-detail.md)** 컨트롤의 구성 요소입니다. 양식은 전체 레코드를 나타내며 각 카드는 해당 레코드의 단일 필드를 나타냅니다.
+**[카드](controls/control-card.md)** 컨트롤은 캔버스 앱에서 **[편집 폼](controls/control-form-detail.md)** 및 **[표시 폼](controls/control-form-detail.md)** 컨트롤의 구성 요소입니다. 폼은 전체 레코드를 나타내며 각 카드는 해당 레코드의 단일 필드를 나타냅니다.
 
 디자인 작업 영역에서 양식 컨트롤을 선택하면 오른쪽 창에서 가장 쉽게 카드와 상호 작용할 수 있습니다. 해당 창에 표시할 필드, 각 필드를 표시하는 방법 및 필드를 표시할 순서를 선택할 수 있습니다. 이 예제에서는 **자산**이라고 하는 SharePoint 목록에서 빌드된 앱에 있는 **편집 양식** 컨트롤을 보여줍니다.
 
 ![첫 번째 화면](./media/working-with-cards/first-screen.png)
 
-카드를 시작하려면 [양식 추가](add-form.md) 및 [데이터 양식 이해](working-with-forms.md)를 참조하세요. 이 항목의 나머지 부분에서는 카드 작동 방식 및 사용자 지정 또는 고유한 카드를 생성하는 방법에 대해 자세히 설명합니다.
+카드를 시작하려면 [폼 추가](add-form.md) 및 [데이터 폼 이해](working-with-forms.md)를 참조하세요. 이 항목의 나머지 부분에서는 카드 작동 방식 및 사용자 지정 또는 고유한 카드를 생성하는 방법에 대해 자세히 설명합니다.
 
 ## <a name="predefined-cards"></a>미리 정의된 카드
 
@@ -102,22 +102,22 @@ PowerApps는 문자열, 숫자 및 기타 데이터 형식에 미리 정의된 �
 
 ![](./media/working-with-cards/show-image.png)
 
-이제 이미지를 확인하고 해당 URL을 편집할 수 있습니다. **Parent.Default**를 **Image** 속성으로 사용했지만 사용자가 URL를 변경한 경우 없게 업데이트되지 않습니다.
+이제 이미지를 확인하고 해당 URL을 편집할 수 있습니다. **Parent.Default**를 **Image** 속성으로 사용했지만 사용자가 URL을 변경한 경우 업데이트되지 않습니다.
 
 이 앱의 두 번째 화면에서 동일한 작업을 수행할 수 있습니다. 여기서 **표시 양식** 컨트롤을 사용하여 레코드의 세부 정보를 표시합니다. 이 경우에 사용자가 해당 화면에서 URL을 편집하지 않기 때문에 레이블을 숨기는 것이 좋습니다(레이블의 **Visible** 속성을 카드가 아닌 **false**로 설정).
 
 ![](./media/working-with-cards/show-image-display.png)
 
-## <a name="interact-with-a-form"></a>양식 사용
-카드의 잠금을 해제한 후에 이를 포함하는 양식을 사용하는 방법을 변경할 수 있습니다.
+## <a name="interact-with-a-form"></a>폼 사용
+카드의 잠금을 해제한 후에 이를 포함하는 폼을 사용하는 방법을 변경할 수 있습니다.
 
-컨트롤이 해당 카드를 사용하는 방법 및 카드가 양식을 사용하는 방법에 대한 몇 가지 지침은 다음과 같습니다. 이들은 지침일 뿐입니다. PowerApps의 모든 컨트롤과 마찬가지로 PowerApps에 있는 다른 컨트롤을 참조하고 카드 및 카드 내의 컨트롤에서 true인 수식을 만들 수 있습니다. 창의적인 여러 가지 방법으로 앱을 만들 수 있습니다.  
+컨트롤이 해당 카드를 사용하는 방법 및 카드가 폼을 사용하는 방법에 대한 몇 가지 지침은 다음과 같습니다. 이들은 지침일 뿐입니다. PowerApps의 모든 컨트롤과 마찬가지로 PowerApps에 있는 다른 컨트롤을 참조하고 카드 및 카드 내의 컨트롤에서 true인 수식을 만들 수 있습니다. 창의적인 여러 가지 방법으로 앱을 만들 수 있습니다.  
 
 ### <a name="datafield-property"></a>DataField 속성
 카드의 가장 중요한 속성은 **[DataField](controls/control-card.md)** 속성입니다.  이 속성은 유효성 검사, 업데이트되는 필드 및 카드의 기타 측면을 생성합니다.
 
 ### <a name="information-flowing-in"></a>들어오는 정보
-양식은 컨테이너로써 **ThisItem**를 내부의 모든 카드에 사용할 수 있습니다. 이 레코드는 현재 사용 중인 레코드에 대한 모든 필드를 포함합니다.  
+폼은 컨테이너로써 **ThisItem**을 내부의 모든 카드에 사용할 수 있습니다. 이 레코드는 현재 사용 중인 레코드에 대한 모든 필드를 포함합니다.  
 
 모든 카드의 **[Default](controls/properties-core.md)** 속성을 **ThisItem**.*FieldName*으로 설정해야 합니다.  특정 상황에서 중간에 이 값을 변환할 수 있습니다. 예를 들어 문자열을 포맷하거나 값을 다른 언어로 변환하려고 합니다.
 
@@ -128,7 +128,7 @@ PowerApps는 문자열, 숫자 및 기타 데이터 형식에 미리 정의된 �
 ### <a name="information-flowing-out"></a>내보내는 정보
 사용자가 카드에서 컨트롤을 사용하여 레코드를 수정한 후에 **[SubmitForm](functions/function-form.md)** 함수는 데이터 원본에 해당 변경 내용을 저장합니다. 해당 함수가 실행되면 양식 컨트롤은 각 카드의 **[DataField](controls/control-card.md)** 속성 값을 읽고 변경할 필드에 대해 알아봅니다.  
 
-또한 양식 컨트롤은 각 카드의 **[Update](controls/control-card.md)** 속성 값을 읽습니다. 이 값을 이 필드에 대한 데이터 원본에 저장합니다. 카드의 **[Default](controls/properties-core.md)** 수식에서 적용된 변환을 되돌리려면 여기에서 다른 변환을 적용하면 됩니다.
+또한 폼 컨트롤은 각 카드의 **[Update](controls/control-card.md)** 속성 값을 읽습니다. 이 값을 이 필드에 대한 데이터 원본에 저장합니다. 카드의 **[Default](controls/properties-core.md)** 수식에서 적용된 변환을 되돌리려면 여기에서 다른 변환을 적용하면 됩니다.
 
 **Valid** 속성은 **[DataField](controls/control-card.md)** 속성에 따라 데이터 원본의 메타데이터에서 생성됩니다. 또한 **[Required](controls/control-card.md)** 속성 및 **[Update](controls/control-card.md)** 속성이 값을 포함하는지 여부에 기반합니다. **[Update](controls/control-card.md)** 속성의 값이 유효하지 않으면 **Error** 속성은 사용자에게 친숙한 오류 메시지를 제공합니다.
 

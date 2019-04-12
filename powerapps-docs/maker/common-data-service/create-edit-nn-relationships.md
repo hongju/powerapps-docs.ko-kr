@@ -1,10 +1,10 @@
 ---
-title: 앱용 Common Data Service에서 다대다 엔트리 관계 만들기 개요 | MicrosoftDocs
+title: Common Data Service에서 다대다 엔트리 관계 만들기 개요 | MicrosoftDocs
 description: 다대다 관계를 만드는 방법 알아보기
 ms.custom: ''
 ms.date: 05/29/2018
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
@@ -37,8 +37,8 @@ search.app:
 
 |디자이너| 설명|
 |--|--|
-|[PowerApps 포털](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)|쉽게 간소화된 환경을 제공하지만 일부 특수 설정은 사용할 수 없습니다.<br />자세한 내용: [PowerApps 포털을 사용하여 앱용 Common Data Service에서 다대다 엔터티 관계 만들기](create-edit-nn-relationships-portal.md)|
-|솔루션 탐색기|쉽지 않지만 덜 일반적인 요구 사항에 대한 더 많은 유연성을 제공합니다.<br />자세한 내용: [솔루션 탐색기를 사용하여 앱용 Common Data Service에서 N:N(다대다) 엔터티 관계 만들기](create-edit-nn-relationships-solution-explorer.md) |
+|[PowerApps 포털](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)|쉽게 간소화된 환경을 제공하지만 일부 특수 설정은 사용할 수 없습니다.<br />자세한 내용: [PowerApps 포털을 사용하여 Common Data Service에서 다대다 엔터티 관계 만들기](create-edit-nn-relationships-portal.md)|
+|솔루션 탐색기|쉽지 않지만 덜 일반적인 요구 사항에 대한 더 많은 유연성을 제공합니다.<br />자세한 내용: [솔루션 탐색기를 사용하여 Common Data Service에서 N:N(다대다) 엔터티 관계 만들기](create-edit-nn-relationships-solution-explorer.md) |
 
 > [!NOTE]
 > 다음을 사용하여 환경에서 새 다대다(N:N) 엔터티 관계를 만들 수도 있습니다.
@@ -55,7 +55,7 @@ search.app:
 ## <a name="see-also"></a>참조
 
 [엔터티 간 관계 만들기 및 편집](create-edit-entity-relationships.md)<br />
-[PowerApps 포털을 사용하여 앱용 Common Data Service에서 다대다 엔터티 관계 만들기](create-edit-nn-relationships-portal.md)<br />
-[솔루션 탐색기를 사용하여 앱용 Common Data Service에서 N:N(다대다) 엔터티 관계 만들기](create-edit-nn-relationships-solution-explorer.md)<br />
+[PowerApps 포털을 사용하여 Common Data Service에서 다대다 엔터티 관계 만들기](create-edit-nn-relationships-portal.md)<br />
+[솔루션 탐색기를 사용하여 Common Data Service에서 N:N(다대다) 엔터티 관계 만들기](create-edit-nn-relationships-solution-explorer.md)<br />
 [개발자 설명서: 엔터티 관계 메타데이터 사용자 지정](https://docs.microsoft.com/dynamics365/customer-engagement/developer/customize-entity-relationship-metadata)<br />
 [개발자 설명서: 엔터티 관계 자격](https://docs.microsoft.com/dynamics365/customer-engagement/developer/entity-relationship-eligibility)

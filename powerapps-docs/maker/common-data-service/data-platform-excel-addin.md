@@ -1,13 +1,13 @@
 ---
 title: Excel에서 엔터티 열기 | Microsoft Docs
 description: 대화형 보기 및 편집을 위해 Excel에서 엔터티 데이터를 엽니다.
-author: clwesene
+author: lancedMicrosoft
 manager: kfile
 ms.service: powerapps
 ms.component: cds
 ms.topic: conceptual
 ms.date: 05/21/2018
-ms.author: clwesene
+ms.author: lanced
 search.audienceType:
   - maker
 search.app:
@@ -78,6 +78,6 @@ Excel 추가 기능에서 엔터티 데이터를 통합 문서로 읽은 후에�
 ## <a name="next-steps"></a>다음 단계
 * [엔터티의 필드 관리](data-platform-manage-fields.md)
 * [엔터티 간 관계 정의](data-platform-entity-lookup.md)
-* [앱용 Common Data Service를 사용하여 앱 생성](../canvas-apps/data-platform-create-app.md)
-* [앱용 Common Data Service를 사용하여 앱을 처음부터 새로 만들기](../canvas-apps/data-platform-create-app-scratch.md)
+* [Common Data Service를 사용하여 앱 생성](../canvas-apps/data-platform-create-app.md)
+* [Common Data Service를 사용하여 앱을 처음부터 새로 만들기](../canvas-apps/data-platform-create-app-scratch.md)
 

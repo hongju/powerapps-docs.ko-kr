@@ -4,7 +4,7 @@ description: PowerApps 포털을 사용하여 엔터티를 만들고 편집하�
 ms.custom: ''
 ms.date: 05/30/2018
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
@@ -25,10 +25,10 @@ search.app:
 
 # <a name="create-and-edit-entities-using-powerapps-portal"></a>PowerApps 포털을 사용하여 엔터티 만들기 및 편집
 
-[PowerApps 포털](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)을 사용하면 앱용 Common Data Service의 엔터티를 쉽게 만들고 편집할 수 있습니다.
+[PowerApps 포털](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)을 사용하면 Common Data Service의 엔터티를 쉽게 만들고 편집할 수 있습니다.
 
 포털을 사용하면 가장 일반적인 옵션을 구성할 수 있지만 특정 옵션은 솔루션 탐색기를 사용하여 설정만 가능 합니다. 추가 정보: 
-- [앱용 Common Data Service에서 엔터티 만들기 및 편집](create-edit-entities.md)
+- [Common Data Service에서 엔터티 만들기 및 편집](create-edit-entities.md)
 - [솔루션 탐색기를 사용하여 엔터티 만들기 및 편집](create-edit-entities-solution-explorer.md)
 
 ## <a name="view-entities"></a>엔터티 보기
@@ -62,7 +62,7 @@ search.app:
 |--|--|
 |**표시 이름**|이것은 앱에 표시되는 엔터티의 단일 이름입니다. 이것은 나중에 변경할 수 있습니다.|
 |**여러 표시 이름**|이것은 앱에 표시되는 엔터티의 복수 이름입니다. 이것은 나중에 변경할 수 있습니다.|
-|**이름**|이 필드는 입력한 **표시 이름**에 따라 미리 채워집니다. 여기에는 CDS 기본 게시자의 사용자 지정 접두사가 포함됩니다. 엔터티를 저장한 후에는 변경할 수 없습니다.|
+|**이름**|이 필드는 입력한 **표시 이름**에 따라 미리 채워집니다. 여기에는 Common Data Service 솔루션 게시자의 사용자 지정 접두사가 포함됩니다. 엔터티를 저장한 후에는 변경할 수 없습니다.|
 |**설명**|엔터티의 용도에 대해 알기 쉬운 설명을 제공합니다.|
 
 계속하려면 **다음**을 선택하고 **새 엔터티** 패널을 닫고 필드 목록을 표시합니다.
@@ -144,7 +144,7 @@ search.app:
 
 ### <a name="see-also"></a>참조
 
-[앱용 Common Data Service에서 엔터티 만들기 및 편집](create-edit-entities.md)<br />
+[Common Data Service에서 엔터티 만들기 및 편집](create-edit-entities.md)<br />
 [솔루션 탐색기를 사용하여 엔터티 만들기 및 편집](create-edit-entities-solution-explorer.md)
 
 

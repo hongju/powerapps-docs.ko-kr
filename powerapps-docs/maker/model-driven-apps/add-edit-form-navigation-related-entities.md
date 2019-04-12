@@ -4,7 +4,7 @@ description: 관련 엔터티의 양식 탐색을 추가하는 방법 알아보�
 ms.custom: ''
 ms.date: 06/18/2018
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
@@ -83,4 +83,4 @@ search.app:
 > 솔루션 설치 또는 사용자 지정 항목 게시 작업은 일반적인 시스템 작업과 충돌할 수 있습니다. 사용자에게 가장 지장을 덜 줄 때 솔루션을 가져오도록 예약하는 것이 좋습니다.
   
 ## <a name="next-steps"></a>다음 단계  
- [앱용 Common Data Service에 대한 엔터티 관계 만들기 및 편집](../common-data-service/create-edit-entity-relationships.md)
+ [Common Data Service에 대한 엔터티 관계 만들기 및 편집](../common-data-service/create-edit-entity-relationships.md)

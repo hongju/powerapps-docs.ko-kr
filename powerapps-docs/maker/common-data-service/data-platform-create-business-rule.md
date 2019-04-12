@@ -1,13 +1,13 @@
 ---
-title: 앱용 Common Data Service에서 비즈니스 규칙 만들기 | Microsoft Docs
-description: 앱용 Common Data Service(CDS)에서 비즈니스 규칙을 만드는 방법에 대한 단계별 지침입니다.
-author: clwesene
+title: Common Data Service에서 비즈니스 규칙 만들기 | Microsoft Docs
+description: Common Data Service에서 비즈니스 규칙을 만드는 방법에 대한 단계별 지침입니다.
+author: lancedMicrosoft
 manager: kfile
 ms.service: powerapps
 ms.component: cds
 ms.topic: conceptual
 ms.date: 03/21/2018
-ms.author: clwesene
+ms.author: lanced
 search.audienceType:
   - maker
 search.app:

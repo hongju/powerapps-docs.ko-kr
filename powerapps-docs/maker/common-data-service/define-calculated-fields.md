@@ -4,7 +4,7 @@ description: 계산 필드를 정의하는 방법 알아보기
 ms.custom: ''
 ms.date: 05/25/2018
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article

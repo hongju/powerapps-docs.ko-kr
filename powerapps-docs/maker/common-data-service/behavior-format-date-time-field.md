@@ -1,9 +1,9 @@
 ---
-title: 앱용 Common Data Service에서 날짜 및 시간 필드의 동작 및 형식 | MicrosoftDocs
+title: Common Data Service에서 날짜 및 시간 필드의 동작 및 형식 | MicrosoftDocs
 ms.custom: ''
 ms.date: 05/25/2018
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
@@ -24,7 +24,7 @@ search.app:
 ---
 # <a name="behavior-and-format-of-the-date-and-time-field"></a>날짜 및 시간 필드의 동작 및 형식
 
-앱용 Common Data Service에서 날짜 및 시간 데이터 형식은 많은 표준 엔터티 필드에 사용됩니다. 필드가 나타내는 날짜의 유형에 따라 **사용자 현지 시간**, **날짜만** 또는 **표준 시간대 독립** 같은 필드 동작을 선택할 수 있습니다.  
+Common Data Service에서 날짜 및 시간 데이터 형식은 많은 표준 엔터티 필드에 사용됩니다. 필드가 나타내는 날짜의 유형에 따라 **사용자 현지 시간**, **날짜만** 또는 **표준 시간대 독립** 같은 필드 동작을 선택할 수 있습니다.  
   
 <a name="Behavior"></a>   
 

@@ -1,12 +1,12 @@
 ---
 title: PowerApps의 모델 기반 앱 공통 필드 속성 | MicrosoftDocs
 description: Dynamics 365 Customer Engagement 기본 양식 공통 필드 속성 이해하기
-Keywords: Main form; Common field properties; Dynamics 365
+Keywords: 기본 양식; 공통 필드 속성; Dynamics 365
 author: Mattp123
 ms.author: matp
 manager: kvivek
 ms.date: 06/18/2018
-ms.service: crm-online
+ms.service: powerapps
 ms.topic: article
 applies_to:
   - Dynamics 365 (online)

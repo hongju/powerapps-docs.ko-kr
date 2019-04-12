@@ -4,7 +4,7 @@ description: 양식 내에서 탐색을 변경하는 방법에 대해 알아보�
 ms.custom: ''
 ms.date: 06/06/2018
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
@@ -29,7 +29,7 @@ search.app:
   
  표시되도록 구성되어 있는 모든 엔터티 관계는 양식 편집기에서 재정의할 수 있습니다. 양식 탐색을 통해 다른 웹 사이트 또는 웹 리소스를 표시하도록 탐색 링크를 포함할 수 있습니다.  
   
- 단계별 지침은 [앱용 Common Data Service에 대한 엔터티 관계 만들기 및 편집](../common-data-service/create-edit-entity-relationships.md)을 참조하십시오.  
+ 단계별 지침은 [Common Data Service에 대한 엔터티 관계 만들기 및 편집](../common-data-service/create-edit-entity-relationships.md)을 참조하십시오.  
   
  탐색을 편집할 수 있으려면 먼저 양식 디자이너의 **홈** 탭의 **선택** 그룹에서 **탐색**을 선택해야 합니다.  
  

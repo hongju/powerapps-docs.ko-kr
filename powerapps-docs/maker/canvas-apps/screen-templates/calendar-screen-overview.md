@@ -77,7 +77,7 @@ ms.locfileid: "54459508"
 
 사용자에게 표시되어야 하는 일정을 이미 알고 있는 경우에 앱을 게시하기 전에 해당 일정을 지정하여 화면을 간소화할 수 있습니다. 이렇게 변경하면 일정의 드롭다운 목록이 필요 없어지므로 제거할 수 있습니다.
 
-1. 앱에서 기본 화면의 **[OnStart](../controls/control-screen.md)** 속성을 다음 수식으로 설정합니다.
+1. 설정 된 **[OnStart](../controls/control-screen.md)** 속성을 다음이 수식으로 앱의 기본 화면:
 
     ```powerapps-dot
     Set( _userDomain, Right( User().Email, Len( User().Email ) - Find( "@", User().Email ) ) );
@@ -189,7 +189,7 @@ ms.locfileid: "54459508"
         )
     ) > 0 && !Subcircle1.Visible && Title2.Visible
     ```
-    이 수식은 앞의 수식과 동일한 필터가 포함되어 있습니다. 따라서 이벤트의 가용성이 다른 일정 없음이 아니고 선택한 날짜에 하나 이상의 이벤트를 가지는 경우에만 이벤트 표시기 원이 날짜 아래에 나타납니다.
+    이 수식은 앞의 수식은으로 동일한 필터가 포함 되어 있습니다. 따라서 이벤트 표시기 원이 나타납니다. 날짜에서 두 개 이상 있어 가용성 되지 않는 한 선택한 날짜에는 더 많은 이벤트 설정 하는 경우에 **무료**합니다.
 
 ## <a name="integrate-the-screen-into-an-app"></a>화면을 앱에 통합
 
@@ -203,9 +203,9 @@ ms.locfileid: "54459508"
 사용자가 **CalendarEventsGallery**에서 하나의 이벤트를 선택하는 경우 , 해당 이벤트에 대한 자세한 정보를 보여주는 다른 화면을 열 수 있습니다.
 
 > [!NOTE]
-> 이 절차에서는 동적 콘텐츠를 사용하여 갤러리에서 이벤트 세부 정보를 보여 줍니다. 하지만 다른 접근 방식을 수행하여 비슷한 결과를 얻을 수 있습니다. 예를 들어, 대신 일련의 레이블을 사용하여 자세한 디자인 컨트롤을 얻을 수 있습니다.
+> 이 절차에서는 동적 콘텐츠를 사용 하 여 갤러리에서 이벤트 세부 정보를 보여 줍니다. 하지만 다른 접근 방식을 수행 하 여 비슷한 결과 얻을 수 있습니다. 예를 들어, 자세한 디자인 컨트롤 대신는 일련의 레이블로 사용 하 여 가져올 수 있습니다.
 
-1. **EventDetailsScreen**이라는 이름의 빈 화면을 추가합니다. 이 화면은 높이 조정이 가능한 빈 갤러리 및 일정 화면으로 이동하는 단추를 포함합니다.
+1. 명명 된 빈 화면을 추가 **EventDetailsScreen**, 빈 유연한 높이 갤러리 및 일정 화면으로 이동 하는 단추를 포함 하는 합니다.
 
 1. 높이 조정 가능 갤러리에 **레이블**과 **HTML 텍스트** 컨트롤을 추가하고 두 컨트롤의 **AutoHeight** 속성을 **true**로 지정합니다.
 
@@ -235,7 +235,7 @@ ms.locfileid: "54459508"
 
     이 수식은 **CalendarEventsGallery** 컨트롤에서 사용자가 이벤트를 선택할 때마다 설정되는 **_selectedCalendarEvent**의 필드 값으로 설정되는 동적 데이터의 갤러리를 만듭니다. 레이블을 더 추가하여 더 많은 필드를 포함하도록 갤러리를 확장할 수 있지만 이 설정은 좋은 출발점을 제공합니다.
 
-1. 갤러리 항목에서 **레이블** 컨트롤의 **Text** 속성을 `ThisItem.Title`로 설정하고 **HTML 텍스트** 컨트롤의 **HtmlText** 속성을 `ThisItem.Value`로 설정합니다.
+1. 곳에서 갤러리 항목을 사용 하 여 설정 합니다 **텍스트** 의 속성을 **레이블** 컨트롤을 `ThisItem.Title`, 및 **HtmlText** 속성은 **HTML 텍스트**  컨트롤을 `ThisItem.Value`입니다.
 
 1. **CalendarEventsGallery**에서 **Title** 컨트롤의 **OnSelect** 속성을 다음 수식으로 설정합니다.
 
@@ -245,7 +245,7 @@ ms.locfileid: "54459508"
     ```
 
     > [!Note]
-    > **_selectedCalendarEvent** 변수를 사용하는 대신 **CalendarEventsGallery.Selected**를 사용할 수 있습니다.
+    > 사용 하는 대신 합니다 **_selectedCalendarEvent** 변수를 사용할 수 있습니다 대신 **CalendarEventsGallery**합니다. 선택 합니다.
 
 ### <a name="show-event-attendees"></a>이벤트 참석자 표시
 
@@ -335,7 +335,7 @@ ms.locfileid: "54459508"
         )
     );
     ```
-    Office 365 프로필을 검색하려면 [Office365Users.UserProfile](https://docs.microsoft.com/connectors/office365users/#userprofile) 또는 [Office365Users.UserProfileV2](https://docs.microsoft.com/connectors/office365users/#userprofile) 작업을 사용해야 합니다. 이 작업들은 사용자의 조직에 있는 참석자에 대한 모든 Office 365 프로필을 먼저 수집합니다. 그런 다음 조직 외부의 참석자에 대한 몇 가지 필드를 추가합니다. **ForAll** 루프는 순서를 보장하지 않기 때문에 구분되는 작업으로 두 항목을 분리했습니다. 따라서 **ForAll**은 조직 외부의 참석자를 먼저 수집할 수 있습니다. 이 경우, **MyPeople** 스키마는 **DisplayName**, **Id**, **JobTitle** 및 **UserPrincipalName**만 포함합니다. 그러나 UserProfile 작업은 훨씬 더 다양한 데이터를 검색합니다. 그래서 다른 프로필보다 먼저 **MyPeople** 컬렉션을 Office 365 프로필에 추가해야 합니다.
+    Office 365 프로필을 검색 하려면 사용 해야 합니다 [Office365Users.UserProfile](https://docs.microsoft.com/connectors/office365users/#userprofile) 하거나 [Office365Users.UserProfileV2](https://docs.microsoft.com/connectors/office365users/#userprofile) 작업 합니다. 이러한 작업 사용자의 조직에 있는 참가자에 대 한 모든 Office 365 프로필을 먼저 수집 그런 다음 작업을 조직 외부에서 참가자에 대 한 몇 가지 필드를 추가합니다. 때문에 고유한 작업으로 두 개의 항목을 구분 합니다 **ForAll** 루프 순서를 보장 하지 않습니다. 따라서 **ForAll** 조직 외부에서 참가자를 처음 수집할 수 있습니다. 이 경우에 대 한 스키마 **MyPeople** 만 포함 **DisplayName**합니다 **Id**를 **JobTitle**, 및 **UserPrincipalName** . 그러나 UserProfile 작업 보다 훨씬 다양 한 데이터를 검색합니다. 할 하므로 합니다 **MyPeople** 다른 프로필 전에 Office 365 프로필을 추가할 컬렉션입니다.
 
     > [!NOTE]
     > 단지 **ClearCollect** 함수 하나만 사용하여 동일한 결과를 얻을 수 있습니다.

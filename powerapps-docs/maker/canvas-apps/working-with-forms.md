@@ -1,6 +1,6 @@
 ---
-title: 캔버스 앱 양식 이해 | Microsoft Docs
-description: PowerApps에서 캔버스 앱에 양식을 추가하면 데이터 원본에서 정보를 수집하고 표시할 수 있습니다.
+title: 캔버스 앱 폼 이해 | Microsoft Docs
+description: PowerApps에서 캔버스 앱에 폼을 추가하면 데이터 원본에서 정보를 수집하고 표시할 수 있습니다.
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -15,20 +15,20 @@ search.app:
 - PowerApps
 ms.openlocfilehash: 661f6710c8cec55868ccc9d67d0f83dd230f89c1
 ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/24/2018
 ms.locfileid: "42851740"
 ---
-# <a name="understand-canvas-app-forms-in-microsoft-powerapps"></a>Microsoft PowerApps의 캔버스 앱 양식 이해
+# <a name="understand-canvas-app-forms-in-microsoft-powerapps"></a>Microsoft PowerApps의 캔버스 앱 폼 이해
 
 캔버스 앱에 세 가지 유형의 컨트롤을 추가하여 사용자가 레코드를 찾아보고, 해당 레코드에 대한 세부 정보를 표시하고, 레코드를 편집하거나 만들 수 있습니다.
 
 | 작업 | 컨트롤 | 설명 |
 | --- | --- | --- |
 | **레코드 찾아보기** |**[갤러리](controls/control-gallery.md)** 컨트롤 |데이터 원본의 레코드를 필터링, 정렬, 검색 및 스크롤하고 특정 레코드를 선택합니다. 작은 화면에서도 한 번에 여러 레코드를 표시할 수 있도록 각 레코드의 일부 필드만 표시합니다. |
-| **레코드 세부 정보 표시** |**[표시 양식](controls/control-form-detail.md)** 컨트롤 |단일 레코드의 경우 해당 레코드에 여러 또는 모든 필드를 표시합니다. |
-| **레코드 만들기 또는 편집** |**[편집 양식](controls/control-form-detail.md)** 컨트롤 |단일 레코드에서 하나 이상의 필드를 업데이트(또는 기본값으로 시작하는 레코드 만들기)하고, 변경 내용을 기본 데이터 원본에 다시 저장합니다. |
+| **레코드 세부 정보 표시** |**[표시 폼](controls/control-form-detail.md)** 컨트롤 |단일 레코드의 경우 해당 레코드에 여러 또는 모든 필드를 표시합니다. |
+| **레코드 만들기 또는 편집** |**[편집 폼](controls/control-form-detail.md)** 컨트롤 |단일 레코드에서 하나 이상의 필드를 업데이트(또는 기본값으로 시작하는 레코드 만들기)하고, 변경 내용을 기본 데이터 원본에 다시 저장합니다. |
 
 더 쉽게 구분할 수 있도록 각 컨트롤을 다른 화면에 배치합니다.
 
@@ -87,7 +87,7 @@ PowerApps는 지정한 데이터 원본을 기반으로 하는 앱을 자동으�
 | --- | --- | --- |
 | **DetailForm1** |**Assets** 데이터 원본의 레코드를 표시합니다. |**[DataSource](controls/control-form-detail.md)** 속성을 **Assets**로 설정합니다. |
 | **DetailForm1** |표시할 레코드를 결정합니다. 생성된 앱에서 사용자가 갤러리에서 선택한 레코드를 표시합니다. |이 컨트롤의 **[Item](controls/control-form-detail.md)** 속성을 다음 값으로 설정합니다.<br>**BrowseGallery1.Selected** |
-| **[카드](controls/control-card.md)** 컨트롤 |**[표시 양식](controls/control-form-detail.md)** 컨트롤에서 레코드의 단일 필드를 표시합니다. |**[DataField](controls/control-card.md)** 속성을 큰따옴표로 묶은 필드 이름으로 설정합니다(예: **"Name"**). |
+| **[카드](controls/control-card.md)** 컨트롤 |**[표시 폼](controls/control-form-detail.md)** 컨트롤에서 레코드의 단일 필드를 표시합니다. |**[DataField](controls/control-card.md)** 속성을 큰따옴표로 묶은 필드 이름으로 설정합니다(예: **"Name"**). |
 | **ImageBackArrow1** |사용자가 이 컨트롤을 선택하면 **BrowseScreen1**이 열립니다. |**[OnSelect](controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.<br>**Back()** |
 | **ImageDelete1** |사용자가 이 컨트롤을 선택하면 레코드를 삭제합니다. |**[OnSelect](controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.<br>**Remove( Assets, BrowseGallery1.Selected )** |
 | **ImageEdit1** |사용자가 이 컨트롤을 선택하면 현재 레코드에 대한 **편집 및 만들기** 화면이 열립니다. |**[OnSelect](controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.<br>**Navigate( EditScreen1, None )** |
@@ -128,12 +128,12 @@ PowerApps는 지정한 데이터 원본을 기반으로 하는 앱을 자동으�
 
 사용자가 업데이트를 취소하기 위해 "X" 아이콘을 선택하면 **[ResetForm](functions/function-form.md)** 함수에서 저장되지 않은 변경 내용을 삭제하고, **[Back](functions/function-navigate.md)** 함수에서 **세부 정보** 화면을 엽니다. 사용자가 **BrowseScreen1**에서 다른 레코드를 선택할 때까지 **세부 정보** 화면과 **편집 및 만들기** 화면 모두에서 동일한 레코드를 표시합니다. 해당 레코드의 필드는 사용자가 변경한 다음 중단한 변경 내용이 아니라 가장 최근에 저장된 값으로 설정된 상태로 유지됩니다.
 
-사용자가 양식에서 하나 이상의 값을 변경한 다음 "확인 표시" 아이콘을 선택하면 **[SubmitForm](functions/function-form.md)** 함수에서 사용자의 변경 내용을 데이터 원본으로 보냅니다.
+사용자가 폼에서 하나 이상의 값을 변경한 다음 "확인 표시" 아이콘을 선택하면 **[SubmitForm](functions/function-form.md)** 함수에서 사용자의 변경 내용을 데이터 원본으로 보냅니다.
 
-* 변경 내용이 성공적으로 저장되면, 양식의 **[OnSuccess](controls/control-form-detail.md)** 수식이 실행되고 **Back()** 함수에서 세부 정보 화면을 열어 업데이트된 레코드를 표시합니다.
+* 변경 내용이 성공적으로 저장되면, 폼의 **[OnSuccess](controls/control-form-detail.md)** 수식이 실행되고 **Back()** 함수에서 세부 정보 화면을 열어 업데이트된 레코드를 표시합니다.
 * 변경 내용이 성공적으로 저장되지 않으면, 양식의 **[OnFailure](controls/control-form-detail.md)** 수식이 실행되지만 '공백'이므로 아무 것도 변경되지 않습니다. 사용자가 변경을 취소하거나 오류를 해결할 수 있도록 **편집 및 만들기** 화면이 열려 있습니다. **LblFormError1**은 양식의 **Error** 속성이 설정된 사용자에게 친숙한 오류 메시지를 표시합니다.
 
-**[표시 양식](controls/control-form-detail.md)** 컨트롤과 마찬가지로 **[편집 양식](controls/control-form-detail.md)** 컨트롤에는 레코드의 다른 필드를 표시하는 다른 컨트롤이 포함된 **[Card](controls/control-card.md)** 컨트롤이 포함되어 있습니다.
+**[표시 폼](controls/control-form-detail.md)** 컨트롤과 마찬가지로 **[편집 폼](controls/control-form-detail.md)** 컨트롤에는 레코드의 다른 필드를 표시하는 다른 컨트롤이 포함된 **[카드](controls/control-card.md)** 컨트롤이 포함되어 있습니다.
 
 ![제작 환경에서 선택한 편집 카드 및 카드 컨트롤](./media/working-with-forms/afd-edit-card-controls.png)
 
@@ -161,7 +161,7 @@ PowerApps에서 앱을 생성하는 방법을 이해하면 이 항목의 앞부�
     > [!NOTE]
   > 태블릿 앱은 매우 비슷하지만, 추가 화면 공간을 최대한 활용하기 위해 별도의 [화면 레이아웃](#screen-design)이 필요할 수 있습니다.
   
-    항목의 나머지 부분에 있는 예제는 **아이스크림**이라는 데이터 원본을 기반으로 합니다.
+    항목의 나머지 부분에 있는 예제는 **Ice Cream**이라는 데이터 원본을 기반으로 합니다.
 
 ## <a name="browse-records"></a>레코드 찾아보기
 찾아보기 화면에 있는 갤러리에서 레코드를 찾아서 해당 레코드에 대한 정보 부분을 빠르게 가져옵니다.
@@ -169,7 +169,7 @@ PowerApps에서 앱을 생성하는 방법을 이해하면 이 항목의 앞부�
 1. **세로** 갤러리를 추가하고 레이아웃을 **제목**으로 변경합니다.
    
     ![아이스크림 데이터 원본에 연결된 갤러리](./media/working-with-forms/new-gallery.png)
-2. 갤러리의 **[Items](controls/properties-core.md)** 속성을 **아이스크림**으로 설정합니다.
+2. 갤러리의 **[Items](controls/properties-core.md)** 속성을 **Ice Cream**으로 설정합니다.
 3. 갤러리에 있는 첫 번째 레이블의 **[Text](controls/properties-core.md)** 속성을 **ThisItem.Title**로 설정합니다(다르게 설정된 경우).
    
     레이블은 이제 각 레코드의 **제목** 필드에 값을 표시합니다.
@@ -182,27 +182,27 @@ PowerApps에서 앱을 생성하는 방법을 이해하면 이 항목의 앞부�
     ![아이스크림 데이터 원본에 연결된 갤러리](./media/working-with-forms/new-gallery-icecream.png)
 
 ## <a name="view-details"></a>세부 사항 보기
-갤러리에서 원하는 정보가 표시되지 않으면 레코드의 화살표를 선택하여 세부 정보 화면을 엽니다. 해당 화면의 **[표시 양식](controls/control-form-detail.md)** 컨트롤은 선택한 레코드의 더 많은, 아마도 모든 필드를 표시합니다.
+갤러리에서 원하는 정보가 표시되지 않으면 레코드의 화살표를 선택하여 세부 정보 화면을 엽니다. 해당 화면의 **[표시 폼](controls/control-form-detail.md)** 컨트롤은 선택한 레코드의 더 많은, 아마도 모든 필드를 표시합니다.
 
-**[표시 양식](controls/control-form-detail.md)** 컨트롤은 다음 두 가지 속성을 사용하여 레코드를 표시합니다.
+**[표시 폼](controls/control-form-detail.md)** 컨트롤은 다음 두 가지 속성을 사용하여 레코드를 표시합니다.
 
 * **[DataSource](controls/control-form-detail.md)** 속성 -  레코드를 보유하고 있는 데이터 원본의 이름입니다. 이 속성은 오른쪽 패널을 필드로 채우고 각 필드의 표시 이름 및 데이터 형식(문자열, 숫자, 날짜 등)을 결정합니다.  
 * **[Item](controls/control-form-detail.md)** 속성 -  표시할 레코드입니다.  이 속성은 종종 **[갤러리](controls/control-gallery.md)** 컨트롤의 **Selected** 속성에 연결되므로 사용자가 **[갤러리](controls/control-gallery.md)** 컨트롤에서 레코드를 선택한 다음 해당 레코드로 드릴할 수 있습니다.
 
 **[DataSource](controls/control-form-detail.md)** 속성이 설정되면 오른쪽 창에서 필드를 추가 및 제거하고 표시 방법을 변경할 수 있습니다.
 
-이 화면에서 사용자는 레코드의 값을 의도적이거나 실수로 변경할 수 없습니다. **[표시 양식](controls/control-form-detail.md)** 컨트롤은 읽기 전용이므로 레코드를 수정하지 않습니다.
+이 화면에서 사용자는 레코드의 값을 의도적이거나 실수로 변경할 수 없습니다. **[표시 폼](controls/control-form-detail.md)** 컨트롤은 읽기 전용이므로 레코드를 수정하지 않습니다.
 
-**[표시 양식](controls/control-form-detail.md)** 컨트롤을 추가하려면 다음을 수행합니다.
+**[표시 폼](controls/control-form-detail.md)** 컨트롤을 추가하려면 다음을 수행합니다.
 
-1. 화면을 추가한 다음 이 화면에 **[표시 양식](controls/control-form-detail.md)** 컨트롤을 추가합니다
+1. 화면을 추가한 다음 이 화면에 **[표시 폼](controls/control-form-detail.md)** 컨트롤을 추가합니다
 2. 양식 컨트롤의 **[DataSource](controls/control-form-detail.md)** 속성을 **'아이스크림'** 으로 설정합니다.
 
 오른쪽 창에서 화면에 표시할 필드와 각 필드에 표시할 카드 유형을 선택할 수 있습니다. 오른쪽 창에서 변경하면 각 **[카드](controls/control-card.md)** 컨트롤의 **[DataField](controls/control-card.md)** 속성이 사용자가 상호 작용할 필드로 설정됩니다. 화면은 다음 예제와 비슷합니다.
 
 ![아이스크림 데이터 원본에 대한 표시 양식](./media/working-with-forms/ice-cream-new.png)
 
-마지막으로 특정 레코드의 세부 정보를 볼 수 있도록 **[표시 양식](controls/control-form-detail.md)** 컨트롤을 **[갤러리](controls/control-gallery.md)** 컨트롤에 연결해야 합니다.  **[Item](controls/control-form-detail.md)** 속성 설정이 완료되는 즉시 갤러리의 첫 번째 레코드가 양식에 표시됩니다.
+마지막으로 특정 레코드의 세부 정보를 볼 수 있도록 **[표시 폼](controls/control-form-detail.md)** 컨트롤을 **[갤러리](controls/control-gallery.md)** 컨트롤에 연결해야 합니다.  **[Item](controls/control-form-detail.md)** 속성 설정이 완료되는 즉시 갤러리의 첫 번째 레코드가 폼에 표시됩니다.
 
 * **[표시 양식](controls/control-form-detail.md)** 컨트롤의 **[Item](controls/control-form-detail.md)** 속성을 **Gallery1.Selected**로 설정합니다.
    
@@ -232,14 +232,14 @@ PowerApps에서 앱을 생성하는 방법을 이해하면 이 항목의 앞부�
 4. **[뒤로](functions/function-navigate.md)** 단추를 선택하여 제품 갤러리로 돌아간 다음 Esc 키를 누릅니다.
 
 ## <a name="editing-details"></a>세부 정보 편집
-마지막으로 최종적인 핵심 작업은 사용자가 **[편집 양식](controls/control-form-detail.md)** 컨트롤에서 수행한 레코드의 내용을 변경하는 것입니다.
+마지막으로 최종적인 핵심 작업은 사용자가 **[편집 폼](controls/control-form-detail.md)** 컨트롤에서 수행한 레코드의 내용을 변경하는 것입니다.
 
-**[편집 양식](controls/control-form-detail.md)** 컨트롤은 다음 두 가지 속성을 사용하여 레코드를 표시하고 편집합니다.
+**[편집 폼](controls/control-form-detail.md)** 컨트롤은 다음 두 가지 속성을 사용하여 레코드를 표시하고 편집합니다.
 
-* **[DataSource](controls/control-form-detail.md)** 속성 -  레코드를 보유하고 있는 데이터 원본의 이름입니다.  **[표시 양식](controls/control-form-detail.md)** 컨트롤과 마찬가지로 이 속성은 오른쪽 패널을 필드로 채우고 각 필드의 표시 이름 및 데이터 형식(문자열, 숫자, 날짜 등)을 결정합니다. 또한 이 속성은 기본 데이터 원본에 제출하기 전에 각 필드의 값이 유효한지 여부를 결정합니다.
+* **[DataSource](controls/control-form-detail.md)** 속성 -  레코드를 보유하고 있는 데이터 원본의 이름입니다.  **[표시 폼](controls/control-form-detail.md)** 컨트롤과 마찬가지로 이 속성은 오른쪽 패널을 필드로 채우고 각 필드의 표시 이름 및 데이터 형식(문자열, 숫자, 날짜 등)을 결정합니다. 또한 이 속성은 기본 데이터 원본에 제출하기 전에 각 필드의 값이 유효한지 여부를 결정합니다.
 * **[Item](controls/control-form-detail.md)** 속성 -  편집할 레코드이며, 종종 **[갤러리](controls/control-gallery.md)** 컨트롤의 **Selected** 속성에 연결됩니다. 이렇게 하면 **[갤러리](controls/control-gallery.md)** 컨트롤에서 레코드를 선택하고, 세부 정보 화면에 표시하고, **편집 및 만들기** 화면에서 편집할 수 있습니다.
 
-**[편집 양식](controls/control-form-detail.md)** 컨트롤을 추가하려면 다음을 수행합니다.
+**[편집 폼](controls/control-form-detail.md)** 컨트롤을 추가하려면 다음을 수행합니다.
 
 1. 화면을 추가하고, **[편집 양식](controls/control-form-detail.md)** 컨트롤을 추가한 다음, 양식의 **[DataSource](controls/control-form-detail.md)** 속성을 **'아이스크림'** 으로 설정합니다.
 2. **[Item](controls/control-form-detail.md)** 속성을 **Gallery1.Selected**로 설정합니다.
@@ -248,9 +248,9 @@ PowerApps에서 앱을 생성하는 방법을 이해하면 이 항목의 앞부�
 
 ![아이스크림 데이터 원본에 대한 표시 양식](./media/working-with-forms/icecream-edit.png)
 
-이러한 두 속성은 **[표시 양식](controls/control-form-detail.md)** 컨트롤의 속성과 동일합니다.  그리고 이러한 속성만으로도 레코드의 세부 정보를 표시할 수 있습니다.  
+이러한 두 속성은 **[표시 폼](controls/control-form-detail.md)** 컨트롤의 속성과 동일합니다.  그리고 이러한 속성만으로도 레코드의 세부 정보를 표시할 수 있습니다.  
 
-**[편집 양식](controls/control-form-detail.md)** 컨트롤은 **[SubmitForm](functions/function-form.md)** 함수를 제공하여 데이터 원본에 대한 변경 내용을 쓰기 저장하면서 진행됩니다. 단추 또는 이미지 컨트롤과 함께 사용하여 사용자의 변경 내용을 저장합니다.
+**[편집 폼](controls/control-form-detail.md)** 컨트롤은 **[SubmitForm](functions/function-form.md)** 함수를 제공하여 데이터 원본에 대한 변경 내용을 쓰기 저장하면서 진행됩니다. 단추 또는 이미지 컨트롤과 함께 사용하여 사용자의 변경 내용을 저장합니다.
 
 * **[단추](controls/control-button.md)** 컨트롤을 추가하고, **저장**을 표시하도록 **[Text](controls/properties-core.md)** 속성을 설정하고, **[OnSelect](controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.<br>
   **SubmitForm( Form1 )**
@@ -278,9 +278,9 @@ PowerApps에서 앱을 생성하는 방법을 이해하면 이 항목의 앞부�
 ![아이스크림 앱 사용해 보기](./media/working-with-forms/try-icecream.png)
 
 ## <a name="create-a-record"></a>레코드 만들기
-사용자는 동일한 **편집** 양식과 상호 작용하여 레코드를 업데이트하고 만듭니다. 사용자가 레코드를 만들려고 할 때 **[NewForm](functions/function-form.md)** 함수는 양식을 **New** 모드로 전환합니다.
+사용자는 동일한 **편집** 폼과 상호 작용하여 레코드를 업데이트하고 만듭니다. 사용자가 레코드를 만들려고 할 때 **[NewForm](functions/function-form.md)** 함수는 폼을 **New** 모드로 전환합니다.
 
-양식이 **New** 모드에 있으면 각 필드의 값은 데이터 원본의 기본값으로 설정됩니다. 양식의 **[Item](controls/control-form-detail.md)** 속성에 제공된 레코드는 무시됩니다.  
+폼이 **New** 모드에 있으면 각 필드의 값은 데이터 원본의 기본값으로 설정됩니다. 폼의 **[Item](controls/control-form-detail.md)** 속성에 제공된 레코드는 무시됩니다.  
 
 사용자가 새 레코드를 저장할 준비가 되면 **[SubmitForm](functions/function-form.md)** 이 실행됩니다. 양식이 성공적으로 제출되면 양식은 **EditMode**로 다시 전환됩니다.  
 
@@ -294,7 +294,7 @@ PowerApps에서 앱을 생성하는 방법을 이해하면 이 항목의 앞부�
 
 !["편집" 단추가 추가된 표시 양식](./media/working-with-forms/gallery-icecream-new.png)
 
-편집 및 만들기 화면이 열리면 사용자가 항목을 추가할 준비가 된 양식이 비어 있습니다. 사용자가 **저장** 단추를 선택하면 **[SubmitForm](functions/function-form.md)** 함수는 레코드를 업데이트하는 대신 만들도록 합니다. 사용자가 **취소** 단추를 선택하면, **[ResetForm](functions/function-form.md)** 함수는 양식을 **Edit** 모드로 다시 전환하고, **[Back](functions/function-navigate.md)** 함수는 갤러리를 탐색하기 위한 화면을 엽니다.
+편집 및 만들기 화면이 열리면 사용자가 항목을 추가할 준비가 된 폼이 비어 있습니다. 사용자가 **저장** 단추를 선택하면 **[SubmitForm](functions/function-form.md)** 함수는 레코드를 업데이트하는 대신 만들도록 합니다. 사용자가 **취소** 단추를 선택하면, **[ResetForm](functions/function-form.md)** 함수는 폼을 **Edit** 모드로 다시 전환하고, **[Back](functions/function-navigate.md)** 함수는 갤러리를 탐색하기 위한 화면을 엽니다.
 
 ## <a name="delete-a-record"></a>레코드 삭제
 1. **표시** 화면에서 단추를 추가하고, **삭제**를 표시하도록 **[Text](controls/properties-core.md)** 속성을 설정합니다.

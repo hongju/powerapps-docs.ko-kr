@@ -1,6 +1,6 @@
 ---
 title: '바코드 스캐너 컨트롤: 참조 | Microsoft Docs'
-description: 속성 및 바코드 스캐너 컨트롤에 대 한 예제를 포함 한 정보
+description: 바코드 스캐너 컨트롤에 대한 속성 및 예제를 포함한 정보
 author: fikaradz
 manager: kvivek
 ms.service: powerapps
@@ -20,15 +20,15 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 03/27/2019
 ms.locfileid: "58491595"
 ---
-# <a name="barcode-scanner-control-for-canvas-apps"></a>캔버스 앱에 대 한 바코드 스캐너 컨트롤
+# <a name="barcode-scanner-control-for-canvas-apps"></a>캔버스 앱에 대한 바코드 스캐너 컨트롤
 
-바코드, QR 코드 및 Android 또는 iOS 장치에서 데이터 행렬 코드를 검색합니다. 웹 브라우저에서 지원 되지 않습니다.
+Android 또는 iOS 장치에서 바코드, QR 코드 및 데이터 행렬 코드를 검색합니다. 웹 브라우저에서는 지원되지 않습니다.
 
 ## <a name="description"></a>설명
 
-컨트롤에는 Android 또는 iOS 장치에서 네이티브 스캐너를 엽니다. 스캐너는 바코드, QR 코드를 또는 행렬 데이터 코드를 표시 하는 경우에 자동으로 검색 합니다. 컨트롤을 웹 브라우저에서 검색을 지원 하지 않습니다.
+컨트롤은 Android 또는 iOS 장치에서 네이티브 스캐너를 엽니다. 스캐너는 바코드, QR 코드 또는 데이터 행렬 코드가 표시되는 경우 자동으로 감지합니다. 컨트롤은 웹 브라우저에서 검색을 지원 하지 않습니다.
 
-컨트롤 QR 코드, 데이터 행렬 코드 및 이러한 유형의 바코드를 지원합니다.
+컨트롤은 QR 코드, 데이터 행렬 코드 및 다음 유형의 바코드를 지원합니다.
 
 - UPC A
 - UPC E
@@ -45,7 +45,7 @@ ms.locfileid: "58491595"
 
 **텍스트** -스캐너를 활성화 하는 단추에 나타나는 텍스트입니다.
 
-**OnScan** – 바코드를 스캔 했습니다 때 앱이 응답 하는 방법입니다.
+**OnScan** – 바코드를 성공적으로 스캔했을때 앱이 응답하는 방식입니다.
 
 ## <a name="additional-properties"></a>추가 속성
 

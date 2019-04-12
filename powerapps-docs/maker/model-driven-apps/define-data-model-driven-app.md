@@ -1,7 +1,7 @@
 ---
 title: PowerApps에서 모델 기반 앱에 대한 데이터 정의 | MicrosoftDocs
 description: 모델 기반 앱에 대한 데이터를 정의하는 방법 이해
-Keywords: 'data, entity, fields, relationship, attributes, model-driven app'
+Keywords: '데이터, 엔터티, 필드, 관계, 특성 및 모델 기반 앱'
 author: Mattp123
 applies_to:
   - Dynamics 365 (online)
@@ -10,7 +10,7 @@ applies_to:
 ms.author: matp
 manager: kvivek
 ms.date: 06/27/2018
-ms.service: crm-online
+ms.service: powerapps
 ms.topic: article
 search.audienceType:
   - maker
@@ -20,11 +20,11 @@ search.app:
 ---
 # <a name="define-data-for-your-model-driven-app"></a>모델 기반 앱에 대한 데이터 정의
 
-모델 기반 앱의 데이터는 [앱용 Common Data Service(CDS)](../common-data-service/data-platform-intro.md)에서 정의되어 있습니다. 
+모델 기반 앱의 데이터는 [Common Data Service](../common-data-service/data-platform-intro.md)에서 정의되어 있습니다. 
 
 *엔터티*, *필드* 및 *관계*와 같은 구성 요소를 사용하여 앱 데이터를 정의합니다.
 
-앱이 모델 기반 앱에 대한 데이터를 정의하기 위해 앱용 CDS에서 이러한 구성 요소를 사용하는 방법에 대한 자세한 내용은 앱용 CDS 섹션에서 다음 항목을 참조하십시오.
+앱이 모델 기반 앱에 대한 데이터를 정의하기 위해 앱용 Common Data Service에서 이러한 구성 요소를 사용하는 방법에 대한 자세한 내용은 Common Data Service 섹션에서 다음 항목을 참조하십시오.
 
 |구성 요소 |항목|
 |-----|----|

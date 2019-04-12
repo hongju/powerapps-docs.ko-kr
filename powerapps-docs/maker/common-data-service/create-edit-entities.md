@@ -1,10 +1,10 @@
 ---
-title: 앱용 Common Data Service에서 엔터티 만들기 및 편집 | MicrosoftDocs
+title: Common Data Service에서 엔터티 만들기 및 편집 | MicrosoftDocs
 description: 엔터티를 만들고 편집하는 방법 알아보기
 ms.custom: ''
 ms.date: 05/11/2018
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
@@ -22,7 +22,7 @@ search.app:
   - PowerApps
   - D365CE
 ---
-# <a name="create-and-edit-entities-in-common-data-service-for-apps"></a>앱용 Common Data Service에서 엔터티 만들기 및 편집
+# <a name="create-and-edit-entities-in-common-data-service"></a>Common Data Service에서 엔터티 만들기 및 편집
 
 사용자 지정 엔터티를 만들려면 먼저 기존 엔터티를 사용하여 요구 사항을 충족하는지 평가합니다. 추가 정보: [새 메타데이터를 만들거나 기존 메타데이터를 사용하시겠습니까?](create-edit-metadata.md#create-new-metadata-or-use-existing-metadata)
 

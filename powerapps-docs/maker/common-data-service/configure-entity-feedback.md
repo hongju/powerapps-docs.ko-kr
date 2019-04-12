@@ -4,7 +4,7 @@ description: 엔터티에 대한 피드백을 활성화하는 방법 알아보�
 ms.custom: ''
 ms.date: 05/18/2018
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
@@ -42,7 +42,8 @@ search.app:
 
 기본적으로 피드백을 추가하려는 레코드의 관련 레코드 목록으로 이동해야 합니다. 보다 쉽게 사용자가 피드백을 추가할 수 있도록 피드백을 활성화하려는 엔터티 양식에 피드백 하위 표 추가를 원할 수 있습니다.  
 
-<!-- This is the closest I could find to a topic about adding an subgrid to a form. -->추가 정보: [하위 표 속성 개요](../model-driven-apps/sub-grid-properties-legacy.md)
+<!-- This is the closest I could find to a topic about adding an subgrid to a form. -->
+추가 정보: [하위 표 속성 개요](../model-driven-apps/sub-grid-properties-legacy.md)
 
 ## <a name="add-a-rollup-field--to-the-entity-form-to-show-the-ratings"></a>평가를 표시하려면 엔터티 양식에 롤업 필드 추가  
 
