@@ -60,7 +60,7 @@ ms.locfileid: "58073674"
 
 **[편집 폼](controls/control-form-detail.md)** – 폼을 사용하여 데이터 원본의 레코드를 편집하고 만듭니다.
 
-**[엔터티 폼](entity-form-control.md)**  -실험적 기능: 사용자 수 보기, 탐색 및 Common Data Service의 관계형 데이터를 편집 하는 동적 폼을 추가 합니다.
+**[엔터티 폼](entity-form-control.md)** - 실험적 기능: 사용자 수 보기, 탐색 및 Common Data Service의 관계형 데이터를 편집하는 동적 폼을 추가합니다.
 
 **[내보내기](controls/control-export-import.md)** – PowerApps의 다른 위치에서 사용할 데이터를 내보냅니다.
 
