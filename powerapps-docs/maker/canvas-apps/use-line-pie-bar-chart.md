@@ -76,7 +76,7 @@ PowerApps 내에서 이러한 차트를 만들고 사용할 수 있습니다. �
 
     ![][10]
 
-4. 원형 차트의 **[항목](controls/properties-core.md)** 속성을 `ProductRevenue.Revenue2014` 식으로 설정합니다.
+4. 원형 차트의 **[Items](controls/properties-core.md)** 속성을 `ProductRevenue.Revenue2014` 식으로 설정합니다.
 
     ![][2]  
 
