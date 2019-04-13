@@ -1,7 +1,7 @@
 ---
 title: PowerApps에서 모델 기반 앱 기본 양식의 빠른 보기 컨트롤 속성 | MicrosoftDocs
 description: 기본 양식의 빠른 보기 컨트롤 속성 이해
-Keywords: Quick view control properties; Dynamics 365; Main forms
+Keywords: 빠른 보기 컨트롤 속성; Dynamics 365; 기본 양식
 author: Mattp123
 applies_to:
   - Dynamics 365 (online)
@@ -10,7 +10,7 @@ applies_to:
 ms.author: matp
 manager: kvivek
 ms.date: 06/06/2018
-ms.service: crm-online
+ms.service: powerapps
 ms.topic: article
 ms.assetid: 68f68d5b-6c71-4b95-bb46-d48c59d9008e
 search.audienceType:

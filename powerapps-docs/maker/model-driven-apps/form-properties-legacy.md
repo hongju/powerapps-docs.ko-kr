@@ -1,7 +1,7 @@
 ---
 title: PowerApps의 모델 기반 앱 양식 속성 | MicrosoftDocs
 description: 기본 양식 속성 이해
-Keywords: Main form properties; Dynamics 365
+Keywords: 기본 양식; 속성; Dynamics 365
 author: Mattp123
 applies_to:
   - Dynamics 365 (online)
@@ -10,7 +10,7 @@ applies_to:
 ms.author: matp
 manager: kvivek
 ms.date: 06/27/2018
-ms.service: crm-online
+ms.service: powerapps
 ms.topic: article
 ms.assetid: 4ed30bb7-dca1-4de8-80f3-842152ea921a
 search.audienceType:

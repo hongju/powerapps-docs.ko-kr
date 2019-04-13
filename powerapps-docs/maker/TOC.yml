@@ -832,6 +832,8 @@ items:
           href: ./model-driven-apps/pass-current-embedded-canvas-app.md
         - name: 포함된 캔버스 앱에 관련된 레코드 전달
           href: ./model-driven-apps/pass-related-embedded-canvas-app.md
+        - name: 호스트 양식에서 미리 정의된 작업 수행
+          href: ./model-driven-apps/embedded-canvas-app-actions.md
         - name: 포함된 캔버스 앱 공유
           href: ./model-driven-apps/share-embedded-canvas-app.md
         - name: 포함된 캔버스 앱 지침
@@ -1113,9 +1115,9 @@ items:
     href: ./common-data-service/data-platform-cds-newentity-troubleshooting-mashup.md
   - name: 지원
     href: https://powerapps.microsoft.com/support/
-ms.openlocfilehash: c595c263b653f1f85e0d2d11e120aa8bcab0ba39
-ms.sourcegitcommit: ca21565c27fe0d46db87197bf00fd31899f1a71e
+ms.openlocfilehash: 7ba1f96d9fb2d0a3fdfc05721e8685630898028e
+ms.sourcegitcommit: 57185a7d2af0dd1d67d7204754d8457f886c8704
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58395143"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "59246045"

@@ -1,10 +1,10 @@
 ---
-title: 앱용 Common Data Service에서 계층적 데이터 정의 및 쿼리 | MicrosoftDocs
+title: Common Data Service에서 계층적 데이터 정의 및 쿼리 | MicrosoftDocs
 description: 계층적으로 관련된 데이터를 정의하고 쿼리하는 방법 알아보기
 ms.custom: ''
 ms.date: 06/02/2018
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
@@ -35,7 +35,7 @@ search.app:
 
 ## <a name="define-hierarchical-data"></a>계층적 데이터 정의
 
-앱용 Common Data Service에서 계층 구조 데이터 구조는 관련 레코드의 *자체 참조* 일대다(1:N) 관계에서 지원됩니다. 
+Common Data Service에서 계층 구조 데이터 구조는 관련 레코드의 *자체 참조* 일대다(1:N) 관계에서 지원됩니다. 
 
 > [!NOTE]
 > *자체 참조*는 엔터티가 자신과 관련되어 있음을 의미합니다. 예를 들어 거래처 엔터티에는 다른 거래처 엔터티 레코드를 사용하는 조회 필드가 있습니다.

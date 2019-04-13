@@ -3,7 +3,7 @@ title: 엔터티 유형 | MicrosoftDocs
 ms.custom: ''
 ms.date: 05/30/2018
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
@@ -24,7 +24,7 @@ search.app:
 ---
 # <a name="types-of-entities"></a>엔터티 유형
 
-앱용 Common Data Service에서 엔터티를 만들거나 편집하기 전에 다른 유형의 엔터티가 있다는 것을 알고 있어야 합니다. 사용자 지정 엔터티를 만든 후에는 이러한 유형을 변경할 수 없습니다. 주요 두 부문은 엔터티 소유권 형태와 엔터티가 활동 엔터티인지 여부에 따라 달라집니다.  
+Common Data Service에서 엔터티를 만들거나 편집하기 전에 다른 유형의 엔터티가 있다는 것을 알고 있어야 합니다. 사용자 지정 엔터티를 만든 후에는 이러한 유형을 변경할 수 없습니다. 주요 두 부문은 엔터티 소유권 형태와 엔터티가 활동 엔터티인지 여부에 따라 달라집니다.  
   
 <a name="BKMK_EntityOwnership"></a>
 
@@ -51,7 +51,7 @@ search.app:
   
 활동 엔터티는 사용자 또는 팀에서만 담당할 수 있으며 조직에서 담당할 수 없습니다.  
   
-다음 표에는 앱용 CDS 기본 환경에서 사용할 수 있는 활동 엔터티가 나열되어 있습니다.
+다음 표에는 Common Data Service 기본 환경에서 사용할 수 있는 활동 엔터티가 나열되어 있습니다.
   
 |이름|설명|활동 메뉴에 표시|참조|
 |----------|-----------------|----------------|---------------|  

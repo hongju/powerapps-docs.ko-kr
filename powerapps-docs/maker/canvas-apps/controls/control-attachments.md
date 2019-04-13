@@ -32,7 +32,7 @@ ms.locfileid: "58357900"
 1. 최대 10MB의 파일만 업로드할 수 있습니다.  
 
 ## <a name="description"></a>설명
-사용자의 장치에 파일을 다운로드하는 것뿐만 아니라 업로드하고, SharePoint 목록 또는 Common Data Service 엔터티에서 파일을 삭제할 수 있는 컨트롤입니다.
+**첨부 파일** 컨트롤을 사용하여 SharePoint 목록 또는 Common Data Service 엔터티에 파일을 추가하고, 열고, 삭제합니다.
 
 ## <a name="key-properties"></a>주요 속성
 **[Items](properties-core.md)** – 다운로드할 수 있는 파일을 설명하는 소스입니다.

@@ -4,7 +4,7 @@ description: 솔루션 탐색기를 사용하여 엔터티를 만드는 방법 �
 ms.custom: ''
 ms.date: 05/30/2018
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
@@ -23,7 +23,7 @@ search.app:
 
 # <a name="create-and-edit-entities-using-solution-explorer"></a>솔루션 탐색기를 사용하여 엔터티 만들기 및 편집
 
-대부분의 일반적인 상황에서 PowerApps 포털을 사용하여 엔터티를 쉽게 만들 수 있지만 모든 기능이 구현되는 것은 아닙니다. [앱용 Common Data Service에서 엔터티 만들기 및 편집](create-edit-entities.md)에 설명된 요구 사항을 충족해야 하는 경우 솔루션 탐색기를 사용하여 엔터티를 만들거나 편집하여 이를 달성할 수 있습니다.
+대부분의 일반적인 상황에서 PowerApps 포털을 사용하여 엔터티를 쉽게 만들 수 있지만 모든 기능이 구현되는 것은 아닙니다. [Common Data Service에서 엔터티 만들기 및 편집](create-edit-entities.md)에 설명된 요구 사항을 충족해야 하는 경우 솔루션 탐색기를 사용하여 엔터티를 만들거나 편집하여 이를 달성할 수 있습니다.
 
 ## <a name="open-solution-explorer"></a>솔루션 탐색기를 엽니다.
 
@@ -106,7 +106,7 @@ Both should point to this include
 [!INCLUDE [cc_entity-changeable-options-table](../../includes/cc_entity-changeable-options-table.md)]
 
 또한 다음과 같이 변경할 수 있습니다.
-- [앱용 Common Data Service에 대한 필드 만들기 및 편집](create-edit-fields.md)
+- [Common Data Service에 대한 필드 만들기 및 편집](create-edit-fields.md)
 - [엔터티 간 관계 만들기 및 편집](create-edit-entity-relationships.md)
 - [양식 만들기 및 디자인](../model-driven-apps/create-design-forms.md)
 - [프로세스를 표준화하는 비즈니스 프로세스 흐름 만들기](/flow/create-business-process-flow)
@@ -197,6 +197,6 @@ Both should point to this include
 추가 정보: [외부 데이터 원본에서 데이터를 포함하는 가상 엔터티 만들기 및 편집](create-edit-virtual-entities.md)
 
 ### <a name="see-also"></a>참조
-[앱용 Common Data Service에서 엔터티 만들기 및 편집](create-edit-entities.md)<br />
+[Common Data Service에서 엔터티 만들기 및 편집](create-edit-entities.md)<br />
 [자습서: PowerApps에서 구성 요소가 있는 사용자 지정 엔터티 만들기](/powerapps/maker/common-data-service/create-custom-entity)<br />
 [솔루션 만들기](create-solution.md)

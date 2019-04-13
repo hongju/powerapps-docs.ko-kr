@@ -4,7 +4,7 @@ description: 솔루션 분할을 사용하여 솔루션을 업데이트하는 �
 ms.custom: ''
 ms.date: 06/18/2018
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article

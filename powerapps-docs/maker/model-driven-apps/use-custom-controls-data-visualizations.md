@@ -4,7 +4,7 @@ description: 필드에 사용자 지정 컨트롤을 사용하는 방법 알아�
 ms.custom: ''
 ms.date: 06/07/2018
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article

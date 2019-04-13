@@ -1,6 +1,6 @@
 ---
 title: 파워 쿼리 문제 해결 | Microsoft Docs
-description: 파워 쿼리를 사용하여 앱용 Common Data Service에서 사용자 지정 엔터티를 만드는 방법으로 문제를 해결합니다.
+description: 파워 쿼리를 사용하여 Common Data Service에서 사용자 지정 엔터티를 만드는 방법으로 문제를 해결합니다.
 author: mllopis
 manager: kfile
 ms.service: powerapps
@@ -20,7 +20,7 @@ Excel용 파워 쿼리를 사용하여 외부 원본의 데이터를 포함하�
 
 >"Azure Active Directory 관리자가 이 기능을 사용하지 못하도록 하는 정책을 설정했습니다. 사용자를 대신하여 이 기능에 대한 권한을 부여할 수 있는 관리자에게 문의하십시오. "
 
-파워 쿼리가 앱의 PowerApps 또는 Common Data Service에서 조직의 데이터에 액세스할 수 없는 경우 오류가 표시됩니다. 이러한 상황은 다음과 같은 두 가지 상황에서 발생합니다.
+파워 쿼리가 PowerApps 또는 Common Data Service에서 조직의 데이터에 액세스할 수 없는 경우 오류가 표시됩니다. 이러한 상황은 다음과 같은 두 가지 상황에서 발생합니다.
 
 * Azure Active Directory(Azure AD) 테넌트 관리자가 사용자를 대신하여 회사 데이터에 액세스하는 앱에 대한 동의 권한을 허용하지 않습니다.
 * 관리되지 않는 Active Directory 테넌트 사용 관리되지 않는 테넌트는 셀프 서비스 등록 제안을 완료하기 위해 만든 전역 관리자가 없는 디렉터리입니다. 이 시나리오를 해결하려면 먼저 사용자가 관리되는 테넌트로 변환한 다음 이 문제에 대한 두 가지 해결 방법 중 하나를 수행해야 합니다. 솔루션에 대해서는 다음 섹션에서 설명합니다.

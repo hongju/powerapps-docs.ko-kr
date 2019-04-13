@@ -4,7 +4,7 @@ description: 번역된 엔터티 및 필드 텍스트를 가져오는 방법 알
 ms.custom: ''
 ms.date: 06/19/2018
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article

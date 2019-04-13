@@ -6,7 +6,7 @@ manager: kvivek
 ms.service: powerapps
 ms.component: cds
 ms.topic: article
-ms.date: 12/04/2018
+ms.date: 03/20/2019
 ms.author: matp
 search.audienceType:
   - maker
@@ -17,22 +17,18 @@ search.app:
 
 # <a name="use-solution-checker-to-validate-your-model-driven-apps-in-powerapps"></a>솔루션 검사기를 사용하여 PowerApps에서 모델 기반 앱의 유효성 검사
 
-복잡한 비즈니스 요구 사항을 제공하기 위해 모델 기반 앱 제작자는 종종 앱 플랫폼에 대한 Common Data Service(CDS)를 사용자 지정하고 확장하는 고도의 솔루션으로 끝날 수 있습니다. 고급 구현에서는 성능, 안정성 및 안정성 문제가 도입되어 사용자 환경에 부정적인 영향을 줄 수 있는 위험이 증가합니다. 이러한 문제를 해결하는 방법을 확인하고 이해하는 것은 복잡하고 시간이 많이 걸릴 수 있습니다. 솔루션 검사 기능을 사용하면 모범 사례 규칙 세트에 따라 솔루션에 대한 풍부한 정적 분석 검사를 수행하고 이러한 문제 패턴을 신속하게 식별할 수 있습니다. 확인이 완료되면 식별된 문제, 영향을 받는 구성 요소 및 코드, 각 문제를 해결하는 방법을 설명하는 설명서에 대한 링크가 나열된 자세한 보고서를 받게 됩니다.
+복잡한 비즈니스 요구 사항을 제공하기 위해 모델 기반 앱 제작자는 종종 Common Data Service 플랫폼을 사용자 지정하고 확장하는 고도의 솔루션으로 끝날 수 있습니다. 고급 구현에서는 성능, 안정성 및 안정성 문제가 도입되어 사용자 환경에 부정적인 영향을 줄 수 있는 위험이 증가합니다. 이러한 문제를 해결하는 방법을 확인하고 이해하는 것은 복잡하고 시간이 많이 걸릴 수 있습니다. 솔루션 검사 기능을 사용하면 모범 사례 규칙 세트에 따라 솔루션에 대한 풍부한 정적 분석 검사를 수행하고 이러한 문제 패턴을 신속하게 식별할 수 있습니다. 확인이 완료되면 식별된 문제, 영향을 받는 구성 요소 및 코드, 각 문제를 해결하는 방법을 설명하는 설명서에 대한 링크가 나열된 자세한 보고서를 받게 됩니다.
 
 솔루션 검사에서 이러한 솔루션 구성 요소를 분석합니다. 
-- 앱 플러그인 용 CDS
-- 앱 사용자 지정 워크플로 작업용 CDS 
-- 앱 웹 리소스용 CDS(HTML 및 JavaScript)
-- SDK 메시지 단계와 같은 앱 구성용 CDS 
+- Common Data Service 플러그 인
+- Common Data Service 사용자 지정 워크플로 활동 
+- Common Data Service 웹 리소스(HTML 및 JavaScript)
+- SDK 메시지 단계와 같은 Common Data Service 구성 
 
-솔루션 검사기는 환경에서 내보낼 수 있는 비관리형 솔루션에서 작동합니다. 솔루션 검사기는 다음 솔루션에서 작동하지 *않습니다*. 
+솔루션 검사기는 환경에서 내보낼 수 있는 비관리형 솔루션에서 작동합니다. 
 
-
-<!--from editor: Should it be Common Data Service (singular) below, rather than Services? -->
-
-- 시스템 기본 솔루션(기본 솔루션 및 Common Data Services 기본 솔루션)입니다.
-- ECMAScript 6(2015) 이상 버전을 사용하는 JavaScript를 포함하는 솔루션입니다. 이러한 버전 중 하나를 사용하는 JavaScript가 검색되면 웹 리소스용 JS001 구문 문제가 보고됩니다.
-
+> [!NOTE]
+> 솔루션 검사기는 ECMAScript 6(2015) 이상 버전을 사용하는 JavaScript를 포함하는 솔루션에서 작동하지 않습니다. 이러한 버전 중 하나를 사용하는 JavaScript가 검색되면 웹 리소스용 JS001 구문 문제가 보고됩니다.
 
 ## <a name="enable-the-solution-checker"></a>솔루션 검사 사용
 솔루션 검사기는 PowerApps 검사기 솔루션을 설치한 후 PowerApps의 솔루션 영역에서 사용할 수 있게 됩니다. 검색 또는 Microsoft AppSource에서 검색하여 찾을 수 없음을 확인합니다. 이를 설치하려면 다음 단계를 수행합니다.  
@@ -62,7 +58,7 @@ When you install the PowerApps checker these solution specific components are cr
    - Analysis Result
 - System job: A system job is created so admins can remove solution analysis data from the environment. The job contains a configuration value, currently set to remove the solution analysis data after 60 days, which an administrator can override. 
 - Security Roles: Two security roles, **Export Customizations**, and **Solution Checker** are created. These roles are required to export the solution for analysis, and storing the analysis results to the entities in your environment.
-- User principle: The **PowerApps Advisor** user is created that allows the checker to authenticate with your CDS for Apps environment and assign the two security roles, Export Customizations and Solution Checker. The PowerApps Advisor is an application user and does not consume a license.  -->
+- User principle: The **PowerApps Advisor** user is created that allows the checker to authenticate with your Common Data Service environment and assign the two security roles, Export Customizations and Solution Checker. The PowerApps Advisor is an application user and does not consume a license.  -->
 
 ## <a name="run-the-solution-checker"></a>솔루션 검사 실행
 환경에 PowerApps 검사기를 설치한 후에는 PowerApps의 **솔루션**영역에서 비관리형 솔루션을 선택하면 **솔루션 검사기** 메뉴 항목을 사용할 수 있습니다. 
@@ -157,7 +153,7 @@ When you install the PowerApps checker these solution specific components are cr
 |웹 리소스  | [웹-방지-crm2011-서비스-soap](http://go.microsoft.com/fwlink/?LinkID=398563&error=web-avoid-crm2011-service-soap&client=PAChecker&source=featuredocs)  | Microsoft Dynamics CRM 2011 SOAP 서비스를 대상으로 지정하지 마십시오.   |
 |웹 리소스  | [웹-방지-브라우저-전용-api](http://go.microsoft.com/fwlink/?LinkID=398563&error=web-avoid-browser-specific-api&client=PAChecker&source=featuredocs) | Internet Explorer 레거시 APIs 또는 브라우저 플러그 인을 사용하지 마십시오.   |
 |웹 리소스  | [웹-방지-2011-api](http://go.microsoft.com/fwlink/?LinkID=398563&error=web-avoid-2011-api&client=PAChecker&source=featuredocs)  | 사용되지 않는 Microsoft Dynamics CRM 2011 개체 모델을 사용해서는 안 됩니다.  |
-|웹 리소스  | [웹-사용-상대-uri](http://go.microsoft.com/fwlink/?LinkID=398563&error=web-use-relative-uri&client=PAChecker&source=featuredocs)   | 앱 끝점 URL에 절대 CDS를 사용하지 마세요.    |
+|웹 리소스  | [웹-사용-상대-uri](http://go.microsoft.com/fwlink/?LinkID=398563&error=web-use-relative-uri&client=PAChecker&source=featuredocs)   | 절대 Common Data Service 엔드포인트 URL을 사용하지 마십시오.    |
 |웹 리소스  | [웹-사용-클라이언트-컨텍스트](http://go.microsoft.com/fwlink/?LinkID=398563&error=web-use-client-context&client=PAChecker&source=featuredocs)  | 클라이언트 컨텍스트를 사용하십시오.   |
 |웹 리소스  | [웹-사용-대화-api-변수](http://go.microsoft.com/fwlink/?LinkID=398563&error=web-use-dialog-api-param&client=PAChecker&source=featuredocs)   | 대화 상자 API 매개 변수를 사용합니다.   |
 |웹 리소스  | [웹-사용-조직-설정](http://go.microsoft.com/fwlink/?LinkID=398563&error=web-use-org-setting&client=PAChecker&source=featuredocs)   | 조직 설정을 사용하십시오.   |
@@ -167,6 +163,6 @@ When you install the PowerApps checker these solution specific components are cr
 
 
 ## <a name="see-also"></a>참조
-[앱용 Common Data Service에 대한 모범 사례 및 지침](../../developer/common-data-service/best-practices/index.md)<br />
+[Common Data Service에 대한 모범 사례 및 지침](../../developer/common-data-service/best-practices/index.md)<br />
 [모델 기반 앱에 대한 모범 사례 및 지침](../../developer/model-driven-apps/best-practices/index.md)<br />
 [솔루션 검사기에 대한 일반적인 문제 및 해결 방법](common-issues-resolutions-solution-checker.md)<br />

@@ -3,7 +3,7 @@ title: 개발자 리소스 보기 또는 다운로드 | MicrosoftDocs
 description: 개발자 리소스 및 서비스 끝점 URL 찾기
 keywords: ''
 ms.date: 06/06/2018
-ms.service: crm-online
+ms.service: powerapps
 ms.custom: null
 ms.topic: article
 applies_to:
@@ -54,9 +54,9 @@ search.app:
 <!-- TODO update 512122 to go to https://docs.microsoft.com/dynamics365/customer-engagement/developer/download-tools-nuget -->
 
 
-## <a name="connect-your-apps-to-this-instance-of-common-data-service-for-apps"></a>응용 프로그램에 대한 일반적인 데이터 서비스의 이 인스턴스에 앱을 연결합니다.
+## <a name="connect-your-apps-to-this-instance-of-common-data-service"></a>Common Data Service의 이 인스턴스에 앱을 연결합니다.
 
-이 섹션에서는 앱 인스턴스에 대한 공통 데이터 서비스에 연결하는 데 필요한 정보를 제공합니다.
+이 섹션에서는 Common Data Service 인스턴스에 연결하는 데 필요한 정보를 제공합니다.
 
 ### <a name="instance-web-api"></a>인스턴스 웹 API
 
@@ -75,9 +75,9 @@ search.app:
 이 정보는 인스턴스와 함께 Azure 확장을 사용할 때 필요합니다.
 추가 정보: [개발자 설명서: Dynamics 365 Customer Engagement용 Azure 확장](/dynamics365/customer-engagement/developer/azure-extensions)
 
-## <a name="connect-your-apps-to-the-common-data-service-for-apps-discovery-service"></a>응용 프로그램에 대한 앱용 Common Data Service 검색 서비스를 연결합니다.
+## <a name="connect-your-apps-to-the-common-data-service-discovery-service"></a>응용 프로그램에 대한 Common Data Service 검색 서비스를 연결합니다.
 
-사용자가 앱 환경에 대한 여러 CDS에 액세스할 수 있기 때문에 검색 서비스를 사용하여 개인이 자신의 자격 증명을 기반으로 액세스할 수 있는 환경을 검색합니다.
+사용자가 여러 Common Data Service 환경에 액세스할 수 있기 때문에 검색 서비스를 사용하여 개인이 자신의 자격 증명을 기반으로 액세스할 수 있는 환경을 검색합니다.
 
 ### <a name="discovery-web-api"></a>검색 웹 API
 

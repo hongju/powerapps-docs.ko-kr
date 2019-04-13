@@ -15,7 +15,7 @@ search.app:
 - PowerApps
 ms.openlocfilehash: 85806799a5f5ea91a4671a27e71cf95daabcd01a
 ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/24/2018
 ms.locfileid: "42863852"
@@ -34,8 +34,8 @@ ms.locfileid: "42863852"
 
 ## <a name="prerequisites"></a>필수 조건
 * PowerApps에 [등록](../signup-for-powerapps.md)하는 데 사용된 사용자 이름과 암호
-* 게이트웨이 대한 관리 권한(설치한 각 게이트웨이에 대해 기본적으로 이 권한을 가지며, 다른 게이트웨이의 관리자가 해당 게이트웨이에 대한 이러한 권한을 사용자에게 부여할 수 있습니다.)
-* 온-프레미스 게이트웨이를 사용하여 온-프레미스 데이터 액세스를 지원하는 라이선스. 자세한 내용은 [가격 책정 페이지](https://powerapps.microsoft.com/pricing/)의 "연결" 섹션을 참조하세요.
+* 게이트웨이 대한 관리 권한 설치한 각 게이트웨이에 대해 기본적으로 이 권한을 가지며, 다른 게이트웨이의 관리자가 해당 게이트웨이에 대한 이러한 권한을 사용자에게 부여할 수 있습니다.
+* 온-프레미스 게이트웨이를 사용하여 온-프레미스 데이터 액세스를 지원하는 라이선스 자세한 내용은 [가격 책정 페이지](https://powerapps.microsoft.com/pricing/)의 "연결" 섹션을 참조하세요.
 * 게이트웨이 및 온-프레미스 연결은 사용자의 [기본 환경](working-with-environments.md)에서만 생성하고 사용할 수 있습니다.
 
 ## <a name="install-a-gateway"></a>게이트웨이 설치
