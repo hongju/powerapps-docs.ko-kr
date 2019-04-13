@@ -102,7 +102,7 @@ ms.locfileid: "42830739"
 [**Sum**( *Value1*, *Value2* )](../functions/function-aggregates.md)
 
 ## <a name="example"></a>예
-1. 단추 하나를 추가하고 이 수식에 **[OnSelect](properties-core.md)** 속성을 설정합니다.
+1. 단추 하나를 추가하고 **[OnSelect](properties-core.md)** 속성을 다음 수식으로 설정합니다.
    <br>**ClearCollect(CityPopulations, {City:"London", Country:"United Kingdom", Population:8615000}, {City:"Berlin", Country:"Germany", Population:3562000}, {City:"Madrid", Country:"Spain", Population:3165000}, {City:"Rome", Country:"Italy", Population:2874000}, {City:"Paris", Country:"France", Population:2273000}, {City:"Hamburg", Country:"Germany", Population:1760000}, {City:"Barcelona", Country:"Spain", Population:1602000}, {City:"Munich", Country:"Germany", Population:1494000}, {City:"Milan", Country:"Italy", Population:1344000})**
    
     [컨트롤을 추가, 이름을 지정하고, 구성](../add-configure-controls.md)하는 방법을 모르시나요?
@@ -137,4 +137,4 @@ ms.locfileid: "42830739"
 * 포커스 표시기가 명확하게 표시되어야 합니다. **[FocusedBorderColor](properties-color-border.md)** 및 **[FocusedBorderThickness](properties-color-border.md)** 를 사용하여 이를 달성합니다.
 * 슬라이더 값은 키보드를 조작할 때 표시되어야 합니다. 이 작업은 다음 방법 중 하나로 수행할 수 있습니다.
     * **ShowValue**를 **true**로 설정합니다.
-    * 슬라이더에 인접한 **[레이블](control-text-box.md)** 을 추가합니다. 레이블의 **[텍스트](properties-core.md)** 를 슬라이더의 **[값](properties-core.md)** 으로 설정합니다.
+    * 슬라이더에 인접한 **[레이블](control-text-box.md)** 을 추가합니다. 레이블의 **[Text](properties-core.md)** 를 슬라이더의 **[Value](properties-core.md)** 로 설정합니다.
