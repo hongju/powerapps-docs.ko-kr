@@ -69,7 +69,7 @@ ms.locfileid: "42849205"
     [컨트롤을 추가하고 구성](../add-configure-controls.md)하는 방법을 모르시나요?
 
 2. **[화면](control-screen.md)** 컨트롤을 추가하고 이름을 **Source**로 지정합니다.
-3. **Source**에서 **도형** 컨트롤을 추가하고 다음 수식에 **[OnSelect](properties-core.md)** 속성을 설정합니다.<br>**Navigate(Target, ScreenTransition.Fade)**
+3. **Source**에서 **도형** 컨트롤을 추가하고 **[OnSelect](properties-core.md)** 속성을 다음 수식으로 설정합니다.<br>**Navigate(Target, ScreenTransition.Fade)**
 4. F5 키를 누르고 **도형** 컨트롤을 클릭하거나 탭합니다.
 
     **Target** 화면이 나타납니다.
