@@ -38,7 +38,7 @@ ms.locfileid: "57801943"
 앱 접근성을 테스트할 때는 iOS 및 Android의 접근성 모드에서 키보드만으로 앱을 사용할 수 있는지 확인하고, 화면 판독기를 사용하도록 설정하고 앱을 탐색할 수 있는지도 확인하세요.
 
 화면 판독기 사용 여부와 관계없이 키보드 탐색을 위해서는 각 컨트롤의 **[TabIndex](controls/properties-accessibility.md)** 속성을 설정하여 Tab 키를 사용하여 입력 필드로 이동할 때 논리적 순서를 따라야 합니다.
-- 레이블, 이미지, 아이콘, 셰이프 컨트롤-대화형 요소 (예)를 나타내는 경우 TabIndex를 0;으로 설정 장식 요소 또는 텍스트인 경우 TabIndex를-1로 설정 합니다.
+- 레이블, 이미지, 아이콘, 셰이프 컨트롤 -대화형 요소(예, 단추)를 나타내는 경우 TabIndex를 0으로 설정하고, 장식 요소 또는 텍스트인 경우 TabIndex를-1로 설정 합니다.
 - 탭 인덱스를 0보다 크게 설정하지 마세요.
 
 ## <a name="screen-reader-support"></a>화면 판독기 지원
@@ -53,7 +53,7 @@ ms.locfileid: "57801943"
 
 - 모든 입력 컨트롤의 **[AccessibilityLabel](controls/properties-accessibility.md)** 속성을 설정해야 합니다.
 - 이미지의 경우 **[AccessibilityLabel](controls/properties-accessibility.md)** 을 적절한 설명으로 설정합니다.
-  - 사진이 단추 또는 링크로 사용되지 않고(즉, 아이콘이 장식용으로만 사용됨) 화면 판독기에서 일지 않아야 하는 경우 **[AccessibilityLabel](controls/properties-accessibility.md)** 이 비어 있거나 설정되어 있지 않아야 합니다.
+  - 사진이 단추 또는 링크로 사용되지 않고(즉, 아이콘이 장식용으로만 사용됨) 화면 판독기에서 읽지 않아야 하는 경우 **[AccessibilityLabel](controls/properties-accessibility.md)** 이 비어 있거나 설정되어 있지 않아야 합니다.
   - 사진이나 아이콘이 단추로 사용되는 경우에는 **[TabIndex](controls/properties-accessibility.md)** 를 0으로, **[AccessibilityLabel](controls/properties-accessibility.md)** 을 링크 설명으로 설정합니다.
 
 
