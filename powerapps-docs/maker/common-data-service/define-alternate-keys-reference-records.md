@@ -1,10 +1,10 @@
 ---
-title: 앱용 Common Data Service에서 레코드를 참조할 대체 키 정의 | MicrosoftDocs
-description: 앱용 Common Data Service에서 레코드를 참조하는 데 사용할 수 있는 대체 키를 정의하는 방법에 대해 설명합니다.
+title: Common Data Service에서 레코드를 참조할 대체 키 정의 | MicrosoftDocs
+description: Common Data Service에서 레코드를 참조하는 데 사용할 수 있는 대체 키를 정의하는 방법에 대해 설명합니다.
 ms.custom: ''
 ms.date: 06/06/2018
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
@@ -25,7 +25,7 @@ search.app:
 ---
 # <a name="define-alternate-keys-to-reference-records"></a>레코드를 참조할 대체 키 정의
 
-*대체 키*로 데이터를 외부 시스템과 효율적이고 정확하게 통합할 수 있습니다. 외부 시스템에서 앱용 Common Data Service의 레코드를 고유하게 식별하는 GUID(Globally Unique Identifier) ID를 저장하지 않는 경우에 필수적입니다. 
+*대체 키*로 데이터를 외부 시스템과 효율적이고 정확하게 통합할 수 있습니다. 외부 시스템에서 Common Data Service의 레코드를 고유하게 식별하는 GUID(Globally Unique Identifier) ID를 저장하지 않는 경우에 필수적입니다. 
 
 데이터 통합 시스템은 고유 조합을 나타내는 하나 이상의 엔터티 필드 값을 사용하여 레코드를 고유하게 식별하기 위해 대체 키를 사용합니다. 각 대체 키에는 고유한 이름이 있습니다. 
 
@@ -61,7 +61,7 @@ search.app:
 
 다음 요구 사항 중 하나를 해결 해야 하는 경우가 아니면 [PowerApps 포털](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)을 사용하여 대체 키를 만들어야 합니다.
 
-- 앱 기본 솔루션에 대한 Common Data Service 이외의 솔루션 내에서 대체 키 만들기
+- Common Data Service 기본 솔루션 이외의 솔루션 내에서 대체 키 만들기
 - 지원 색인 만들기의 진행 상황을 추적하는 시스템 작업을 쉽게 추적하길 원할 것입니다.
 
 

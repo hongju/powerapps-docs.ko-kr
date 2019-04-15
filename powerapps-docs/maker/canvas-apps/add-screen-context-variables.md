@@ -45,11 +45,11 @@ ms.locfileid: "57800724"
 ![화면을 다시 정렬](./media/add-screen-context-variables/reorder-screen.png)
 
 > [!NOTE]
-> 앱을 열 때 컨트롤의 계층적 목록 맨 위에 있는 화면이 일반적으로 첫 번째로 나타납니다. 하지만 **[Navigate](functions/function-navigate.md)** 함수를 포함하는 수식으로 **[OnStart](controls/control-screen.md)** 속성을 설정하여 다른 화면을 지정할 수 있습니다.
+> 에 앱을 열 때 컨트롤의 계층적 목록 맨 위에 있는 화면이 일반적으로 첫 번째를 나타납니다. 하지만 설정 하 여 다른 화면을 지정할 수 있습니다는 **[OnStart](controls/control-screen.md)** 속성을 포함 하는 수식으로는 **[탐색](functions/function-navigate.md)** 함수입니다.
 
 ## <a name="add-navigation"></a>탐색 추가
 
-1. **Source** 화면을 선택하고, **삽입** 탭을 열어, **아이콘**을 선택한 후 **앞으로 화살표**를 선택합니다. 
+1. **Source**  화면을 선택하고, **삽입** 탭을 열어, **아이콘**을 선택한 후 **앞으로 화살표**를 선택합니다.  
 
     ![[삽입] 탭에 있는 [셰이프] 옵션](./media/add-screen-context-variables/add-next-arrow.png)
 

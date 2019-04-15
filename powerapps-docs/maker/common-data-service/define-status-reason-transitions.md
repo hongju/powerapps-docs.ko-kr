@@ -4,7 +4,7 @@ description: 상태 설명 전환을 정의하는 방법 알아보기
 ms.custom: ''
 ms.date: 05/25/2018
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
@@ -29,7 +29,7 @@ search.app:
 인시던트(**서비스 케이스**) 엔터티 또는 사용자 지정 엔터티에 대한 상태 설명 전환을 지정할 수 있습니다.
 
 > [!NOTE]
-> 인시던트(케이스) 엔터티는 앱용 Common Data Service의 기본 환경에 포함되지 않지만 [Dynamics 365 for Customer Service](https://dynamics.microsoft.com/customer-service/)에 사용되고 [Common Data Model](https://github.com/Microsoft/CDM/blob/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/Incident.cdm.json) 내에서 정의됩니다.
+> 인시던트(케이스) 엔터티는 Common Data Service의 기본 환경에 포함되지 않지만 [Dynamics 365 for Customer Service](https://dynamics.microsoft.com/customer-service/)에 사용되고 [Common Data Model](https://github.com/Microsoft/CDM/blob/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/Incident.cdm.json) 내에서 정의됩니다.
   
 상태 설명 전환은 각 상태 설명에 대해 변경될 수 있는 상태 설명 값을 정의하는 선택적인 추가 필터링 수준입니다. 제한된 올바른 옵션 목록을 정의하면 올바른 상태 설명 값의 조합을 많이 사용할 때 사람들이 레코드에 대해 올바른 다음 상태 설명을 쉽게 선택할 수 있습니다.  
   
@@ -60,7 +60,7 @@ search.app:
 서비스 케이스 엔터티와 사용자 지정 엔터티에 대한 상태 설명 필드 옵션을 수정하여 사람들이 선택할 수 있는 다음 상태 설명 옵션을 정의할 수 있습니다. 유일한 제한 사항은 활성 상태에 대한 각 상태 설명 옵션은 비활성 상태에 대한 하나 이상의 경로를 허용해야 한다는 것입니다. 그렇지 않을 경우 서비스 케이스를 해결하거나 취소할 수 없는 조건을 만들 수 있습니다.  
 
 > [!NOTE]
-> 상태 설명 변환을 편집하려면 솔루션 탐색기를 사용해야 합니다. 필드를 편집하는 방법에 대한 자세한 내용은 [PowerApps 솔루션 탐색기를 사용하여 앱용 Common Data Service에 대한 필드 만들기 및 편집](create-edit-field-solution-explorer.md)을 참조하십시오.
+> 상태 설명 변환을 편집하려면 솔루션 탐색기를 사용해야 합니다. 필드를 편집하는 방법에 대한 자세한 내용은 [PowerApps 솔루션 탐색기를 사용하여 Common Data Service에 대한 필드 만들기 및 편집](create-edit-field-solution-explorer.md)을 참조하십시오.
   
  상태 설명 필드를 편집하면 **상태 설명 전환 편집** 단추가 메뉴에 표시됩니다. 
 
@@ -81,7 +81,7 @@ search.app:
   
 ### <a name="see-also"></a>참고 항목  
 
-[PowerApps 솔루션 탐색기를 사용하여 앱용 Common Data Service에 대한 필드 만들기 및 편집](create-edit-field-solution-explorer.md)<br />
+[PowerApps 솔루션 탐색기를 사용하여 Common Data Service에 대한 필드 만들기 및 편집](create-edit-field-solution-explorer.md)<br />
 [엔터티 메타데이터 > 엔터티 상태](/powerapps/developer/common-data-service/entity-metadata#entity-states)<br />
 [사용자 지정 상태 모델 전환 정의](/dynamics365/customer-engagement/developer/define-custom-state-model-transitions)
 

@@ -15,12 +15,12 @@ search.app:
 - PowerApps
 ms.openlocfilehash: 1cc2b7c1752abe4f12e76c30f59978fc753f4ac5
 ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/24/2018
 ms.locfileid: "42835654"
 ---
-# <a name="add-picture-control-in-powerapps"></a>PowerApps의 그림 컨트롤 추가
+# <a name="add-picture-control-in-powerapps"></a>PowerApps의 이미지 컨트롤 추가
 사진을 촬영하거나 로컬 디바이스에서 이미지를 로드 합니다.
 
 ## <a name="description"></a>설명
@@ -31,7 +31,7 @@ ms.locfileid: "42835654"
 **Image** 속성에 대해서는 [이미지 컨트롤 참조](control-image.md)를 참조하세요.
 
 ## <a name="add-media-button-properties"></a>미디어 단추 추가 속성
-**[AccessibleLabel](properties-accessibility.md)** – 화면 읽기 프로그램의 레이블입니다. 그림 추가의 목적을 설명해야 합니다.
+**[AccessibleLabel](properties-accessibility.md)** – 화면 읽기 프로그램의 레이블입니다. 이미지 추가의 목적을 설명해야 합니다.
 
 **[Align](properties-text.md)** - 컨트롤의 가로 가운데를 기준으로 한 텍스트의 위치입니다.
 
@@ -122,15 +122,15 @@ ms.locfileid: "42835654"
    
     [컨트롤을 추가, 이름을 지정하고, 구성](../add-configure-controls.md)하는 방법을 모르시나요?
 2. **열기** 대화 상자에서 이미지 파일을 클릭하거나 탭한 다음, **열기**를 클릭하거나 탭합니다.
-3. **[단추](control-button.md)** 컨트롤을 추가하고 **그림 추가** 컨트롤에서 이동하고 **[단추](control-button.md)** 컨트롤에 대한 **[OnSelect](properties-core.md)** 속성을 이 수식으로 설정합니다.<br>
+3. **[단추](control-button.md)** 컨트롤을 추가하여 **이미지 추가** 컨트롤 아래로 이동시키고 **[단추](control-button.md)** 컨트롤에 대한 **[OnSelect](properties-core.md)** 속성을 이 수식으로 설정합니다.<br>
    **Collect(MyPix, AddMediaButton1.Media)**
    
     **[Collect](../functions/function-clear-collect-clearcollect.md)** 함수 또는 [다른 함수](../formula-reference.md)에 대해 더 알고 싶으신가요?
 4. **이미지 갤러리** 컨트롤을 추가하고 **[Items](properties-core.md)** 속성을 **MyPix**로 설정합니다.
 5. F5 키를 누르고 **[단추](control-button.md)** 컨트롤을 클릭하거나 탭합니다.
    
-    **그림 추가** 컨트롤의 이미지가 **이미지 갤러리** 컨트롤에 나타납니다. 이미지가 **Image gallery** 컨트롤에서 가로 세로 비율이 **[이미지](control-image.md)** 와 동일하지 않을 경우, **[Image](control-image.md)** 컨트롤의 **[ImagePosition](properties-visual.md)** 속성을 **Fit**로 설정합니다.
-6. **그림 추가** 컨트롤을 클릭하거나 탭하고 다른 이미지 파일을 클릭하거나 탭하고, **열기**를 클릭하거나 탭한 다음, 사용자가 추가한 **[단추](control-button.md)** 컨트롤을 클릭하거나 탭합니다.
+    **이미지 추가** 컨트롤의 이미지가 **이미지 갤러리** 컨트롤에 나타납니다. 이미지가 **Image gallery** 컨트롤에서 가로 세로 비율이 **[이미지](control-image.md)** 와 동일하지 않을 경우, **[Image](control-image.md)** 컨트롤의 **[ImagePosition](properties-visual.md)** 속성을 **Fit**로 설정합니다.
+6. **이미지 추가** 컨트롤을 클릭하거나 탭하고 다른 이미지 파일을 클릭하거나 탭하고, **열기**를 클릭하거나 탭한 다음, 사용자가 추가한 **[단추](control-button.md)** 컨트롤을 클릭하거나 탭합니다.
    
     두 번째 이미지가 **이미지 갤러리** 컨트롤에 나타납니다.
 7. (선택 사항) 이전 단계를 1회 이상 반복한 다음, Esc 키를 눌러 기본 작업 영역으로 돌아갑니다.
@@ -145,7 +145,7 @@ ms.locfileid: "42835654"
 * **미디어 단추 추가**에는 텍스트와 배경 사이에 적절한 대비가 있어야 합니다. 업로드된 이미지의 색은 다양할 수 있으므로 **미디어 단추 추가**에서 불투명 **[Fill](properties-color-border.md)** 을 사용하여 일관적인 대비를 보장합니다.
 
 ### <a name="screen-reader-support"></a>화면 판독기 지원
-* **미디어 단추 추가**에는 사용자에게 그림을 추가하거나 변경할지 묻는 메시지를 표시하는 **Text** 및 **ChangePictureText**가 있어야 합니다.
+* **미디어 단추 추가**에는 사용자에게 이미지를 추가하거나 변경할지 묻는 메시지를 표시하는 **Text** 및 **ChangePictureText**가 있어야 합니다.
 
 ### <a name="keyboard-support"></a>키보드 지원
 * **미디어 단추 추가**에는 키보드 사용자가 탐색할 수 있도록 0 이상의 **[TabIndex](properties-accessibility.md)** 가 있어야 합니다.

@@ -1,13 +1,13 @@
 ---
 title: 엔터티의 사용자 지정 필드 관리 | Microsoft Docs
-description: 앱용 Common Data Service(CDS)에서 엔터티의 사용자 지정 필드를 만들고 읽고 업데이트하고 삭제하는 방법에 대한 연습입니다.
-author: clwesene
+description: Common Data Service에서 엔터티의 사용자 지정 필드를 만들고 읽고 업데이트하고 삭제하는 방법에 대한 연습입니다.
+author: lancedMicrosoft
 manager: kfile
 ms.service: powerapps
 ms.component: cds
 ms.topic: conceptual
 ms.date: 03/21/2018
-ms.author: clwesene
+ms.author: lanced
 search.audienceType:
   - maker
 search.app:

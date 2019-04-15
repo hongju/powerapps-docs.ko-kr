@@ -1,16 +1,16 @@
 ---
-title: PowerApps의 모델 기반 앱을 공유하기 위한 자습서 | Microsoft Docs
-description: 이 자습서에서는 모델 기반 앱을 공유하는 방법에 대해 알아봅니다.
+title: PowerApps를 사용하여 모델 기반 앱 공유 | Microsoft Docs
+description: 모델 기반 앱을 공유하는 방법 알아보기
 documentationcenter: ''
 author: Mattp123
-manager: kfile
+manager: kvivek
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: conceptual
 ms.component: model
-ms.date: 03/21/2018
+ms.date: 03/19/2019
 ms.author: matp
 search.audienceType:
   - maker
@@ -19,11 +19,11 @@ search.app:
   - D365CE
 ---
 
-# <a name="tutorial-share-a-model-driven-app-with-powerapps"></a>자습서: PowerApps를 사용하여 모델 기반 앱 공유
+# <a name="share-a-model-driven-app-with-powerapps"></a>PowerApps를 사용하여 모델 기반 앱 공유
 
 [!INCLUDE [powerapps](../../includes/powerapps.md)] 앱은 역할 기반 보안을 공유에 사용합니다. 역할 기반 보안의 기본 개념은 앱 내에서 수행할 수 있는 작업 집합을 정의하는 권한이 보안 역할에 포함되어 있다는 것입니다. 모든 앱 사용자가 하나 이상의 사용자 지정 또는 미리 정의된 역할에 할당되어야 합니다. 또는 팀에 역할을 할당할 수도 있습니다. 사용자 또는 팀이 이러한 역할 중 하나에 할당되면 사용자 또는 팀 구성원은 해당 역할에 연결된 권한 집합이 부여됩니다. 
 
-이 자습서에서는 다른 사용자가 사용할 수 있도록 모델 기반 앱을 공유하기 위한 작업을 수행합니다. 다음 방법에 대해 설명합니다.
+이 항목에서는 다른 사용자가 사용할 수 있도록 모델 기반 앱을 공유하기 위한 작업을 수행합니다. 다음 방법에 대해 설명합니다.
 - 사용자 지정 보안 역할 만들기
 - 사용자 지정 보안 역할에 사용자 할당
 - 앱에 보안 역할 할당
@@ -35,7 +35,7 @@ search.app:
 [PowerApps](https://powerapps.microsoft.com/)에 로그인합니다. 아직 [!INCLUDE [powerapps](../../includes/powerapps.md)] 계정이 없는 경우 **무료 시작** 링크를 선택합니다.
 
 ## <a name="share-an-app"></a>앱 공유 
-이 자습서는 개와 고양이 서비스를 하는 애완 동물 사업체인 Contoso사의 경우를 중심으로 설명합니다. 애완 동물 미용 사업을 추적하기 위한 사용자 지정 엔터티가 포함된 앱이 이미 만들어져 게시되었습니다. 이제 앱은 애완 동물 미용 직원이 사용할 수 있도록 공유되어야 합니다. 앱을 공유하려면 관리자나 앱 메이커가 사용자와 앱에 하나 이상의 보안 역할을 할당합니다. 
+이 항목은 개와 고양이 서비스를 하는 애완 동물 사업체인 Contoso사의 경우를 중심으로 설명합니다. 애완 동물 미용 사업을 추적하기 위한 사용자 지정 엔터티가 포함된 앱이 이미 만들어져 게시되었습니다. 이제 앱은 애완 동물 미용 직원이 사용할 수 있도록 공유되어야 합니다. 앱을 공유하려면 관리자나 앱 메이커가 사용자와 앱에 하나 이상의 보안 역할을 할당합니다. 
 
 ## <a name="create-or-configure-a-security-role"></a>보안 역할 만들기 또는 구성
 [!INCLUDE [powerapps](../../includes/powerapps.md)] 환경에는 앱을 사용하는 데 필요한 비즈니스 데이터의 최소량에 대한 액세스를 제공하는 최상의 목표와 일치하도록 정의된 액세스 수준을 가진 공통의 사용자 작업을 반영하는 [미리 정의된 보안 역할](#about-predefined-security-roles)이 포함되어 있습니다. Contoso 애완 동물 미용 앱은 사용자 지정 엔터티를 기반으로 한다는 점을 기억해야 합니다. 엔터티는 사용자 지정이기 때문에 사용자가 작업을 할 수 있으려면 먼저 권한을 명시적으로 지정해야 합니다. 이렇게 하려면 다음 중 하나를 선택할 수 있습니다.
@@ -50,22 +50,36 @@ search.app:
 
 ## <a name="create-a-custom-security-role"></a>사용자 지정 보안 역할 만들기
 1. [!INCLUDE [powerapps](../../includes/powerapps.md)] 사이트에서 **앱** > **…**> **링크 공유**를 선택합니다.
+
 2. **이 앱 공유** 대화 상자의 **보안 역할 만들기**에서 **보안 설정**을 선택합니다.
+
 3. **설정** 페이지에서 **새로 만들기**를 선택합니다.  
 
 4. 보안 역할 디자이너에서 읽기, 쓰기 또는 삭제와 같은 작업 및 해당 작업을 수행할 범위를 선택합니다. 범위는 사용자가 특정 작업을 수행할 수 있는 환경 계층 구조 내에서의 깊이 또는 높은 정도를 결정합니다. **역할 이름** 상자에 *애완 동물 미용 기술자*를 입력합니다.
+
 5. **사용자 지정 엔터티** 탭을 선택한 다음 원하는 사용자 지정 엔터티를 찾습니다. 이 예에서는 **애완 동물**이라는 사용자 지정 엔터티가 사용됩니다. 
+
 6. **애완 동물** 행에서 조직 범위 전역 ![조직 전역 범위](media/share-model-driven-app/organizational-scope-privilege.png) 를 선택하기 전까지  **읽기, 쓰기, 추가** 권한 각각을 네 번 선택합니다.
-> [!div class="mx-imgBorder"] 
-> ![새 보안 역할.](media/share-model-driven-app/custom-security-role.png)
+
+   > [!div class="mx-imgBorder"] 
+   > ![새 보안 역할.](media/share-model-driven-app/custom-security-role.png)
+
 7. 애완 동물 미용 앱에도 계정 엔터티와의 관계가 있으므로 **핵심 레코드** 탭을 선택하고 **거래처** 행에서 조직 범위 전역까지 ![조직 전역 범위](media/share-model-driven-app/organizational-scope-privilege.png)가 선택될 때까지 네 번 **읽기**를 선택합니다. 
-8. **저장 후 닫기**를 선택합니다. 
-9. 보안 역할 디자이너에서 **역할 이름** 상자에 *애완 동물 미용 스케줄러*를 입력합니다. 
-10. **사용자 지정 엔터티** 탭을 선택한 다음 **애완 동물** 엔터티를 찾습니다. 
-11. **애완 동물** 행에서 조직 범위 전역 ![조직 전역 범위](media/share-model-driven-app/organizational-scope-privilege.png) 를 선택하기 전까지  **만들기, 읽기, 쓰기, 삭제, 추가, 다른 레코드에 추가, 할당, 공유** 권한 각각을 네 번 선택합니다.
-12. 애완 동물 미용 앱에도 계정 엔터티와의 관계가 있고 스케줄러는 거래처 레코드를 만들고 수정할 수 있어야 하므로 **핵심 레코드** 탭을 선택하고 **거래처** 행에서 조직 범위 전역까지 ![조직 전역 범위](media/share-model-driven-app/organizational-scope-privilege.png)가 선택될 때까지 네 번 다음 각 권한을 선택합니다. 
+
+8. **사용자 지정** 탭을 선택한 다음 권한 목록에서 조직 범위 ![조직 전역 범위](media/share-model-driven-app/organizational-scope-privilege.png)가 선택되도록 **모델 기반 앱** 옆에 있는 **읽기** 권한을 선택합니다.
+
+9. **저장 후 닫기**를 선택합니다. 
+
+10. 보안 역할 디자이너에서 **역할 이름** 상자에 *애완 동물 미용 스케줄러*를 입력합니다. 
+
+11. **사용자 지정 엔터티** 탭을 선택한 다음 **애완 동물** 엔터티를 찾습니다. 
+
+12. **애완 동물** 행에서 조직 범위 전역 ![조직 전역 범위](media/share-model-driven-app/organizational-scope-privilege.png) 를 선택하기 전까지  **만들기, 읽기, 쓰기, 삭제, 추가, 다른 레코드에 추가, 할당, 공유** 권한 각각을 네 번 선택합니다.
+
+13. 애완 동물 미용 앱에도 계정 엔터티와의 관계가 있고 스케줄러는 거래처 레코드를 만들고 수정할 수 있어야 하므로 **핵심 레코드** 탭을 선택하고 **거래처** 행에서 조직 범위 전역까지 ![조직 전역 범위](media/share-model-driven-app/organizational-scope-privilege.png)가 선택될 때까지 네 번 다음 각 권한을 선택합니다. 
     **만들기, 읽기, 쓰기, 삭제, 추가, 다른 레코드에 추가, 할당, 공유**
-13. **저장 후 닫기**를 선택합니다.
+
+14. **저장 후 닫기**를 선택합니다.
 
 ## <a name="assign-security-roles-to-users"></a>사용자에게 보안 역할 할당
 보안 역할은 액세스 수준 및 권한 집합을 통해 데이터에 대한 사용자의 액세스를 제어합니다. 특정 보안 역할에 포함된 액세스 수준과 권한의 조합은 사용자의 데이터 보기 및 사용자와 해당 데이터의 상호 작용에 대한 제한을 설정합니다.

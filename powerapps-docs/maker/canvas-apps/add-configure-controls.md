@@ -28,7 +28,9 @@ ms.locfileid: "57799459"
 
 1. PowerApps 라이선스가 아직 없는 경우 [등록](../signup-for-powerapps.md)한 다음 [로그인](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)합니다.
 1. **나만의 앱 만들기** 아래 **빈 페이지의 캔버스 앱**을 마우스로 선택한 후 **만들기**를 선택합니다.
-1. 대화형 둘러보기가 나타나는 경우 PowerApps 인터페이스의 주요 영역을 살펴보려면 **다음**을 선택합니다(또는 **건너뛰기** 선택). 화면의 오른쪽 위 모서리의 물음표 아이콘을 선택한 다음 **즉석 팁**을 선택하여 언제든지 나중에 둘러보기를 선택할 수 있습니다.
+1. 대화형 둘러보기가 나타나는 경우 PowerApps 인터페이스의 주요 영역을 살펴보려면 **다음**을 선택합니다(또는 **건너뛰기** 선택).
+
+    화면의 오른쪽 위 모서리의 물음표 아이콘을 선택한 다음 **즉석 팁**을 선택하여 언제든지 나중에 둘러보기를 선택할 수 있습니다.
 
 ## <a name="add-and-select-a-control"></a>컨트롤 선택 및 추가
 
@@ -49,7 +51,7 @@ ms.locfileid: "57799459"
 
 ![목록의 Screen2](./media/add-configure-controls/add-label.png)
 
-화면에서는 기본적으로 6개의 핸들을 가진 상자가 레이블을 둘러쌉니다. 어떤 컨트롤이 선택되면 해당 유형의 상자가 둘러쌉니다. 화면을 클릭하거나 탭(하지만 레이블 외부)하면 레이블의 상자가 사라집니다. 레이블을 다시 선택하기 위해서는 레이블을 클릭 또는 탭하거나, 계층적 목록에서 **Label1** 컨트롤을 클릭하거나 탭할 수 있습니다.
+화면에서는 기본적으로 6개의 핸들을 가진 상자가 레이블을 둘러쌉니다. 어떤 컨트롤이 선택되면 해당 유형의 상자가 둘러쌉니다. 화면을 클릭하거나 탭(하지만 레이블 외부)하면 레이블의 상자가 사라집니다. 레이블을 다시 선택하기 위해서는 레이블을 클릭 또는 탭하거나, 계층적 목록에서 **Label1** 컨트롤을  클릭하거나 탭할 수 있습니다.
 
 > [!IMPORTANT]
 > 컨트롤을 구성 하기 전에 항상 선택 해야 합니다.
@@ -73,7 +75,7 @@ ms.locfileid: "57799459"
 ![화면을 다시 정렬](./media/add-configure-controls/reorder-screen.png)
 
 > [!NOTE]
-> 앱을 열 때 컨트롤의 계층적 목록 맨 위에 있는 화면이 일반적으로 첫 번째로 나타납니다. 하지만 **[Navigate](functions/function-navigate.md)** 함수를 포함하는 수식으로 **[OnStart](controls/control-screen.md)** 속성을 설정하여 다른 화면을 지정할 수 있습니다.
+> 에 앱을 열 때 컨트롤의 계층적 목록 맨 위에 있는 화면이 일반적으로 첫 번째를 나타납니다. 하지만 설정 하 여 다른 화면을 지정할 수 있습니다는 **[OnStart](controls/control-screen.md)** 속성을 포함 하는 수식으로는 **[탐색](functions/function-navigate.md)** 함수입니다.
 
 ## <a name="move-and-resize-a-control"></a>컨트롤 크기 조정 및 이동
 
@@ -86,7 +88,7 @@ ms.locfileid: "57799459"
 ![컨트롤 이동](./media/add-configure-controls/resize-control.png)
 
 > [!NOTE]
-> 이 항목 뒷부분 설명처럼, 수식 입력줄에서 **[X](controls/properties-size-location.md)**, **[Y](controls/properties-size-location.md)**, **[Height](controls/properties-size-location.md)** 및 **[Width](controls/properties-size-location.md)** 속성의 여러 조합을 수정하여 컨트롤의 크기를 조정하거나 이동할 수 있습니다.
+> 이 항목 뒷부분에서 설명한 대로 이동할 수 있으며 모든 조합을 수정 하 여 컨트롤의 크기 조정 해당  **[X](controls/properties-size-location.md)** 하십시오  **[Y](controls/properties-size-location.md)**,  **[높이](controls/properties-size-location.md)**, 및 **[너비](controls/properties-size-location.md)** 수식 입력줄에는 속성입니다.
 
 ## <a name="change-the-text-of-a-label-or-a-button"></a>레이블 또는 단추 텍스트 변경
 
@@ -95,7 +97,7 @@ ms.locfileid: "57799459"
 ![텍스트 변경](./media/add-configure-controls/change-text.png)
 
 > [!NOTE]
->  항목 뒷부분 설명처럼, 수식 입력줄에서 **[Text](controls/properties-core.md)** 속성을 수정하여 텍스트를 변경할 수도 있습니다.
+> 이 항목에서는 나중에 설명 된 대로 변경할 수도 있습니다이 텍스트를 수정 하 여 해당 **[텍스트](controls/properties-core.md)** 수식 입력줄에는 속성입니다.
 
 ## <a name="configure-a-control-from-the-toolbar"></a>도구 모음에서 컨트롤 구성
 
@@ -129,7 +131,7 @@ ms.locfileid: "57799459"
 
 - 속성 목록에서 **Text**를 선택한 다음 수식 입력줄에서 리터럴 문자열, 식 또는 수식의 조합을 지정하여 해당 텍스트를 변경할 수 있습니다.
 
-    - 리터럴 문자열은 따옴표로 둘러싸고 입력한 대로 정확하게 표시됩니다. **"Hello, world"**는 리터럴 문자열입니다.
+    - 리터럴 문자열은 따옴표로 둘러싸고 입력한 대로 정확하게 표시됩니다. **"Hello, world"** 는 리터럴 문자열입니다.
 
         ![리터럴 문자열을 텍스트 속성을 설정 합니다.](./media/add-configure-controls/literal-string.png)
 

@@ -162,7 +162,7 @@ ms.locfileid: "58504046"
 
     `BrowseGallery1.Selected`
 
-1. 화면 위쪽에서 **[레이블](controls/control-text-box.md)** 컨트롤을 선택한 다음, **[제목]**을 **레코드 변경**으로 바꿉니다.
+1. 화면 위쪽에서 **[레이블](controls/control-text-box.md)** 컨트롤을 선택한 다음, **[제목]** 을 **레코드 변경**으로 바꿉니다.
 
     ![제목 표시줄 변경](./media/get-started-create-from-blank/change-title-bar2.png)
 
