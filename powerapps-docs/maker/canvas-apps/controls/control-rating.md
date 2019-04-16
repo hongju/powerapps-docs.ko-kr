@@ -15,13 +15,13 @@ search.app:
 - PowerApps
 ms.openlocfilehash: 1979ad63ce9cd5fbe3f3a9a3fa5a56df5e80966e
 ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/24/2018
 ms.locfileid: "42830874"
 ---
 # <a name="rating-control-in-powerapps"></a>PowerApps의 등급 컨트롤
-사용자가 1과 사용자가 지정하는 최대 숫자 사이의 값을 나타낼 수 있는 컨트롤입니다.
+1과 사용자가 지정하는 최대 숫자 사이의 값을 나타낼 수 있는 컨트롤입니다.
 
 ## <a name="description"></a>설명
 이 컨트롤에서 사용자는 몇 개의 별을 선택하여 좋아하는 정도 등을 나타낼 수 있습니다.

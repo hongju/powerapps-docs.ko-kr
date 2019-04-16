@@ -40,13 +40,13 @@ Power BI 콘텐츠가 포함된 앱을 공유하는 경우 타일을 제공하�
 
 ## <a name="pass-a-parameter"></a>매개 변수 전달
 
-에 앱에서 단일 매개 변수를 전달 하 여 Power BI 타일에 표시 되는 결과 필터링 할 수 있습니다. 그러나 문자열 값과 같음 연산자만 지원 됩니다 및 테이블 이름 또는 열 이름에 공백이 포함 된 경우 필터 작동 하지 않을 수 있습니다.
+앱에서 단일 매개 변수를 전달하여 Power BI 타일에 표시되는 결과를 필터링할 수 있습니다. 그러나 문자열 값과 같음 연산자만 지원되고, 테이블 이름 또는 열 이름에 공백이 포함된 경우 필터가 작동하지 않을 수 있습니다.
 
-단일 필터 값을 전달 하려면 값을 수정 합니다 **TileURL** 이 구문에 따라 속성:
+단일 필터 값을 전달하려면 다음 구문과 같이 **TileURL** 속성 값을 변경합니다.
 
 ```"https://app.powerbi.com/embed?dashboardId=<DashboardID>&tileId=<TileID>&config=<SomeHash>" ```
 
-해당 값이이 구문을 추가 합니다.
+해당 값에 다음 구문을 추가합니다.
 
 ```&$filter=<TableName>/<ColumnName> eq "<Value>" ```
 
@@ -102,4 +102,4 @@ Power BI 콘텐츠가 포함된 앱을 공유하는 경우 타일을 제공하�
 
 **Power BI 타일**은 단순히 Power BI 콘텐츠용 컨테이너입니다. 이러한 [Power BI 접근성 팁](https://docs.microsoft.com/power-bi/desktop-accessibility)을 사용하여 접근성 있는 콘텐츠를 만드는 방법을 알아봅니다.
 
-Power BI 콘텐츠에 제목이 없는 경우 **[레이블](control-text-box.md)** 컨트롤을 사용하는 제목을 추가하고 화면 reader를 지원합니다. Power BI 타일 바로 앞에 레이블을 지정할 수 있습니다.
+Power BI 콘텐츠에 제목이 없는 경우 **[레이블](control-text-box.md)** 컨트롤을 사용하여 제목을 추가하여 화면 리더를 지원할 수 있습니다. Power BI 타일 바로 앞에 레이블을 지정할 수 있습니다.
