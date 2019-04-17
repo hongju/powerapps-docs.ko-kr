@@ -70,7 +70,7 @@ ms.locfileid: "59541818"
 
 1. **[화면](control-screen.md)** 컨트롤을 추가하고 이름을 **Source**로 지정합니다.
 
-1. **Source**에서 **도형** 컨트롤을 추가하고 다음 수식에 **[OnSelect](properties-core.md)** 속성을 설정합니다.
+1. **Source**에서 **도형** 컨트롤을 추가하고 **[OnSelect](properties-core.md)** 속성을 다음 수식으로 설정합니다.
 
   `Navigate(Target, ScreenTransition.Fade)`
   
@@ -92,11 +92,11 @@ ms.locfileid: "59541818"
 - **[Color](properties-color-border.md)** 및 **[Fill](properties-color-border.md)**
 - 기타 [표준 색 대비 요구 사항](../accessible-apps-color.md)이 적용됨(단추로 사용되는 경우)
 
-테두리가 있는 셰이프:
+테두리가 있는 도형:
 - **[BorderColor](properties-color-border.md)** 및 컨트롤 외부 색
 - **[FocusedBorderColor](properties-color-border.md)** 및 컨트롤 외부 색(단추로 사용되는 경우)
 
-테두리가 없는 셰이프:
+테두리가 없는 도형:
 - **[Fill](properties-color-border.md)** 및 컨트롤 외부 색
 - **[PressedFill](properties-color-border.md)** 및 컨트롤 외부 색(단추로 사용되는 경우)
 - **[HoverFill](properties-color-border.md)** 및 컨트롤 외부 색(단추로 사용되는 경우)
