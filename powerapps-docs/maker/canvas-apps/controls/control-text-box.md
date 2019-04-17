@@ -178,7 +178,7 @@ ms.locfileid: "57802012"
 ### <a name="screen-reader-support"></a>화면 reader 지원
 
 * **[Text](properties-core.md)** 가 있어야 합니다.
-* **[Live](properties-accessibility.md)**  로 설정 해야 **정중** 하거나 **Assertive** 화면 판독기 값의 변경 내용을 알릴 해야 하는 경우를 **텍스트** 속성입니다.
+* **[Live](properties-accessibility.md)**는 화면 읽기 프로그램이 레이블의 **Text** 속성의 값으로 변경 내용을 알려야 경우 **Polite** 또는 **Assertive**로 설정해야 합니다.
 
   > [!NOTE]
   > 화면 읽기 프로그램은 **[TabIndex](properties-accessibility.md)** 가 0 이상이면 **레이블**을 단추로 처리합니다.
