@@ -106,8 +106,6 @@ ms.locfileid: "59541818"
 
 - **[AccessibleLabel](properties-accessibility.md)**  비어 있거나 빈 문자열 이어야 합니다 **""** 그래픽이 중복 정보를 제공 하거나 장식용 경우. 이 값 하면 화면 읽기 프로그램이 그래픽을 무시 합니다.
 
-예를 들어, 설정할 수 있습니다 합니다 **[AccessibleLabel](properties-accessibility.md)** 속성을 **설정** 아이콘을 **설정**합니다. 이 아이콘은 단추로 사용 되지 않습니다. 옆에 **[레이블을](control-text-box.md)** 도 표시 된 **설정**합니다. 화면 판독기는 모두 아이콘으로 읽고 레이블을 읽습니다 **설정을**, 하는 경우 작업이 번거롭습니다. 아이콘 필요 하지 않습니다는 경우에  **[AccessibleLabel](properties-accessibility.md)** 합니다.
-
 > [!IMPORTANT]
 > 화면 판독기는 읽기는 아이콘 또는 셰이프가으로 **단추** 경우 해당 **[AccessibleLabel](properties-accessibility.md)** 빈 문자열로 설정 되 고 **[TabIndex ](properties-accessibility.md)** 이상 0으로 설정 됩니다. 이러한 아이콘 또는 셰이프 단추가 렌더링 됩니다. 
 
