@@ -65,7 +65,7 @@ ms.locfileid: "42862471"
 
 ## <a name="example"></a>예
 ### <a name="add-photos-to-an-image-gallery-control"></a>이미지 갤러리 컨트롤에 사진 추가
-1. **바코드 스캐너** 컨트롤을 추가하고 이름을 **Mybarcode scanner**로 지정 합니다.
+1. **바코드 스캐너** 컨트롤을 추가하고 이름을 **Mybarcode scanner**로 지정합니다.
 
     [컨트롤을 추가, 이름을 지정하고, 구성](../add-configure-controls.md)하는 방법을 모르시나요?
 2. **레이블** 컨트롤을 추가하고 해당 출력을 바코드의 **Text**로 설정합니다.  
@@ -75,7 +75,7 @@ ms.locfileid: "42862471"
 
 ## <a name="accessibility-guidelines"></a>접근성 지침
 ### <a name="video-alternatives"></a>비디오 대체 항목
-* **[Text](properties-core.md)** 가 바코드 스캐너의 **Text**로 설정된 **[레이블](control-text-box.md)** 을 추가하는 것이 좋습니다. 바코드 스캐너는 식별된 바코드 값을 표시하지 않으므로 위의 작업을 수행하면 시각 장애가 있는 사용자만이 아니라 모든 사용자가 스캐너에 액세스할 수 있습니다.
+* **[Text](properties-core.md)** 가 바코드 스캐너의 **Text**로 설정된 ** [레이블](control-text-box.md)** 을 추가하는 것이 좋습니다. 바코드 스캐너는 식별된 바코드 값을 표시하지 않으므로 위의 작업을 수행하면 시각 장애가 있는 사용자만이 아니라 모든 사용자가 스캐너에 액세스할 수 있습니다.
 
 ### <a name="screen-reader-support"></a>화면 판독기 지원
 * **[AccessibleLabel](properties-accessibility.md)** 이 있어야 합니다.
