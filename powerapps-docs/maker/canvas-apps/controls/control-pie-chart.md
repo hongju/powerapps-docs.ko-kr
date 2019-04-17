@@ -89,7 +89,7 @@ ms.locfileid: "42859253"
    
     **[Collect](../functions/function-clear-collect-clearcollect.md)** 함수 또는 [다른 함수](../formula-reference.md)에 대해 더 알고 싶으신가요?
 2. F5 키를 누르고, **[단추](control-button.md)** 컨트롤을 클릭하거나 탭한 다음, 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
-3. **원형 차트** 컨트롤을 추가하고 **[항목](properties-core.md)** 속성을 **Revenue2015**로 설정합니다.
+3. **원형 차트** 컨트롤을 추가하고 **[Items](properties-core.md)** 속성을 **Revenue2015**로 설정합니다.
    
     **원형 차트** 컨트롤은 다른 제품과 관련하여 각 제품에 대한 수입 데이터를 보여줍니다.
 
