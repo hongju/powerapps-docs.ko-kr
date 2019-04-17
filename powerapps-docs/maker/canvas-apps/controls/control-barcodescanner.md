@@ -27,7 +27,7 @@ ms.locfileid: "42862471"
 이 컨트롤을 추가하면 사용자는 앱이 실행 중일 때마다 하나 이상의 사진으로 데이터 원본을 업데이트할 수 있습니다.
 
 ## <a name="key-properties"></a>주요 속성
-**바코드 스캐너** – 둘 이상의 바코드 스캐너를 사용하는 장치에서 앱이 사용하는 바코드 스캐너의 숫자 ID입니다.
+**Barcode scanner** – 둘 이상의 바코드 스캐너를 사용하는 장치에서 앱이 사용하는 바코드 스캐너의 숫자 ID입니다.
 
 ## <a name="additional-properties"></a>추가 속성
 **[AccessibleLabel](properties-accessibility.md)** – 화면 읽기 프로그램의 레이블입니다.
@@ -65,17 +65,17 @@ ms.locfileid: "42862471"
 
 ## <a name="example"></a>예
 ### <a name="add-photos-to-an-image-gallery-control"></a>이미지 갤러리 컨트롤에 사진 추가
-1. **바코드 스캐너** 컨트롤을 추가하고 이름을 **Mybarcode 스캐너**로 지정
+1. **바코드 스캐너** 컨트롤을 추가하고 이름을 **Mybarcode scanner**로 지정합니다.
 
     [컨트롤을 추가, 이름을 지정하고, 구성](../add-configure-controls.md)하는 방법을 모르시나요?
-2. **레이블** 컨트롤을 추가하고 해당 출력을 바코드의 **텍스트**로 설정합니다.  
-3. BarcodeType 속성에서 설정된 형식의 바코드입니다.
+2. **레이블** 컨트롤을 추가하고 해당 출력을 바코드의 **Text**로 설정합니다.  
+3. BarcodeType 속성에서 설정된 형식의 바코드를 스캔합니다.
 4. 레이블이 스캔된 바코드를 표시하려고 합니다.
 
 
 ## <a name="accessibility-guidelines"></a>접근성 지침
 ### <a name="video-alternatives"></a>비디오 대체 항목
-* **[Text](properties-core.md)** 가 바코드 스캐너의 **텍스트**로 설정된 **[레이블](control-text-box.md)** 을 추가하는 것이 좋습니다. 바코드 스캐너는 식별된 바코드 값을 표시하지 않으므로 위의 작업을 수행하면 시각 장애가 있는 사용자만이 아니라 모든 사용자가 스캐너에 액세스할 수 있습니다.
+* **[Text](properties-core.md)** 가 바코드 스캐너의 **Text**로 설정된 ** [레이블](control-text-box.md)** 을 추가하는 것이 좋습니다. 바코드 스캐너는 식별된 바코드 값을 표시하지 않으므로 위의 작업을 수행하면 시각 장애가 있는 사용자만이 아니라 모든 사용자가 스캐너에 액세스할 수 있습니다.
 
 ### <a name="screen-reader-support"></a>화면 판독기 지원
 * **[AccessibleLabel](properties-accessibility.md)** 이 있어야 합니다.
