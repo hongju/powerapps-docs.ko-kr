@@ -28,7 +28,7 @@ Power BI가 없으십니까? [가입](https://docs.microsoft.com/power-bi/servic
 
 ## <a name="description"></a>설명
 
-앱 내부에 있는 **[Power BI 타일](https://docs.microsoft.com/power-bi/service-dashboard-tiles)** 을 표시하여 기존 데이터 분석 및 보고를 활용합니다. 옵션 패널의 **데이터** 탭에서 **Workspace**, **Dashboard** 및 **Tile** 속성을 설정하여 표시하려는 타일을 지정합니다.
+앱 내부에 있는 **[Power BI 타일](https://docs.microsoft.com/power-bi/service-dashboard-tiles)** 을 표시하여 기존 데이터 분석 및 보고를 활용합니다. 옵션 패널의 **데이터** 탭에서 **작업 영역**, **대시보드** 및 **타일** 속성을 설정하여 표시하려는 타일을 지정합니다.
 
 ## <a name="sharing-and-security"></a>공유 및 보안
 
