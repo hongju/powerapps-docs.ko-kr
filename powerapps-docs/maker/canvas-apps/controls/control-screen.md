@@ -26,7 +26,7 @@ ms.locfileid: "57800747"
 
 ## <a name="description"></a>설명
 
-대부분의 앱에서는 **[레이블](control-text-box.md)** 컨트롤, **[버튼](control-button.md)** 컨트롤 및 기타 데이터를 표시하고 탐색을 지원하는 컨트롤 등을 포함하는 여러 **화면** 컨트롤이 있습니다. 화면을 추가하고, 화면 순서를 변경하고, 탐색을 구성 하는 방법에 대한 정보는 [화면 추가](../add-screen-context-variables.md)를 검토 합니다.
+대부분의 앱에는 데이터를 표시하고 탐색을 지원하는 **[레이블](control-text-box.md)** 컨트롤, **[버튼](control-button.md)** 컨트롤 및 기타 컨트롤을 포함하는 여러 **화면** 컨트롤이 있습니다. 화면을 추가하고, 화면 순서를 변경하고, 탐색을 구성하는 방법에 대한 정보는 [화면 추가](../add-screen-context-variables.md)를 검토합니다.
 
 ## <a name="key-properties"></a>주요 속성
 
@@ -77,17 +77,17 @@ ms.locfileid: "57800747"
 
     `If("Red" in ScreenFills.Selected.Value, RGBA(255, 0, 0, 1), RGBA(54, 176, 75, 1))`
 
-1. **Source** 화면을 선택한 다음, Alt 키를 누른 상태에서 **[라디오](control-radio.md)** 컨트롤의 옵션 중 하나를 선택하고 **[셰이프](control-shapes-icons.md)** 컨트롤을 선택 합니다.
+1. **Source** 화면을 선택한 다음, Alt 키를 누른 상태에서 **[라디오](control-radio.md)** 컨트롤의 옵션 중 하나를 선택하고 **[셰이프](control-shapes-icons.md)** 컨트롤을 선택합니다.
 
-    **Target**은 선택한 색상으로 표시 됩니다.
+    **Target**은 선택한 색상으로 표시됩니다.
 
-1. **Target**에서 **Source**로 돌아가려면 **[셰이프](control-shapes-icons.md)** 컨트롤을 선택 합니다.
+1. **Target**에서 **Source**로 돌아가려면 **[셰이프](control-shapes-icons.md)** 컨트롤을 선택합니다.
 
-1. (선택 사항) **[라디오](control-radio.md)** 컨트롤에서 다른 옵션을 선택한 다음, **[셰이프](control-shapes-icons.md)** 컨트롤을 선택하여 **Target**이 다른 색상으로 표시되는지 확인 합니다.
+1. (선택 사항) **[라디오](control-radio.md)** 컨트롤에서 다른 옵션을 선택한 다음, **[셰이프](control-shapes-icons.md)** 컨트롤을 선택하여 **Target**이 다른 색상으로 표시되는지 확인합니다.
 
 1. (선택 사항) 왼쪽 탐색 모음에서 **Target**을 마우스로 가리키고, 나타나는 줄임표를 선택한 후, **위로 이동**을 선택하여 화면을 다시 정렬합니다. 
 
-    사용자 앱을 열면 **Target**이 먼저 표시 됩니다.
+    사용자 앱을 열면 **Target**이 먼저 표시됩니다.
 
 ## <a name="accessibility-guidelines"></a>접근성 지침
 
