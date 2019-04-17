@@ -122,7 +122,7 @@ ms.locfileid: "49384274"
    
     **[ClearCollect](../functions/function-clear-collect-clearcollect.md)** 함수 또는 [다른 함수](../formula-reference.md)에 대해 더 알고 싶으신가요?
 2. F5를 누르고 **[단추](control-button.md)** 컨트롤을 클릭하거나 탭한 다음 Esc 키를 누릅니다.
-3. **내보내기** 컨트롤을 추가하고 **제품**에 **Data** 속성을 설정합니다.
+3. **내보내기** 컨트롤을 추가하고 **Data** 속성을 **Products**로 설정합니다.
 4. F5를 누르고 **내보내기** 컨트롤을 클릭하거나 탭한 다음 데이터를 내보낼 파일의 이름을 지정합니다.
 5. **저장**을 클릭하거나 탭한 다음 Esc를 눌러 기본 작업 영역으로 돌아갑니다.
 6. 기존 또는 새 앱에서 **가져오기** 컨트롤을 추가하고 **MyData**로 이름을 지정한 다음 **[OnSelect](properties-core.md)** 속성에 이 수식을 설정합니다.<br>

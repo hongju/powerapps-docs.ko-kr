@@ -1,9 +1,9 @@
 ---
-title: 앱용 Common Data Service에서 SQL API 데이터 공급자에 Azure Cosmos DB 사용 | MicrosoftDocs
+title: Common Data Service에서 SQL API 데이터 공급자에 Azure Cosmos DB 사용 | MicrosoftDocs
 description: 가상 엔터티와 함께 사용할 SQL API 데이터 공급자용 Azure Cosmos DB를 구성하는 방법에 대해 알아봅니다.
 keywords: SQL API
 ms.date: 02/15/2019
-ms.service: crm-online
+ms.service: powerapps
 ms.custom: null
 ms.topic: article
 applies_to:
@@ -52,9 +52,9 @@ Azure Cosmos DB는 업무상 중요한 응용 프로그램을 위한 Microsoft�
 
 ![SQL API 문서의 예제 JSON.](media/documentdbexample.png)
 
-이 테이블은 앱용 Common Data Service에서 *Orders* 컬렉션의 SQL API 문서에 대한 데이터 형식 매핑을 나타냅니다.
+이 테이블은 Common Data Service에서 *Orders* 컬렉션의 SQL API 문서에 대한 데이터 형식 매핑을 나타냅니다.
 
-|SQL API 데이터|앱용 CDS|
+|SQL API 데이터|Common Data Service|
 |--|--|
 |`id`|기본 키|
 |`name`|한 줄 텍스트|
@@ -67,7 +67,7 @@ Azure Cosmos DB는 업무상 중요한 응용 프로그램을 위한 Microsoft�
 
 > [!NOTE]
 > - 밑줄(_) 접두사가 있는 특성은 SQL API에 의해 생성됩니다.
-> - SQL API 문서에서 선택 사항으로 구성되고 앱용 CDS에서 **비즈니스에 필수**로 매핑되는 특성으로 인해 런타임 오류가 발생합니다.
+> - SQL API 문서에서 선택 사항으로 구성되고 Common Data Service에서 **비즈니스에 필수**로 매핑되는 특성으로 인해 런타임 오류가 발생합니다.
 > - ID 특성 값은 guid여야 합니다.
 > - SQL API에서 날짜를 사용하는 방법에 대한 자세한 내용은 [Azure Cosmos DB에서 날짜 작업](https://azure.microsoft.com/blog/working-with-dates-in-azure-documentdb-4/)을 참조하십시오.
 
@@ -78,7 +78,7 @@ SQL 쿼리 필터링은 다음 연산자를 지원합니다.
 - 비교 연산자:`<`,`>`,`<=`, `>=`,`!=`
 - 논리 연산자: `and`, `or` 
 - 집합 연산자: `in`, `not in`
-- 문자열 연산자: `like`, `contains`, b`egins with`,`ends with`
+- 문자열 연산자: `like`, `contains`, `begins with`, `ends with`
 
 > [!NOTE]
 > Like 연산자의 사용은 동등한 `contains`/`begins with`/`ends with`연산자로 변환됩니다. SQL API는 [Like (Transact-SQL)](/sql/t-sql/language-elements/like-transact-sql) 항목에 설명된 대로 패턴 인수를 지원하지 않습니다. SQL API 데이터 공급자에 대한 Azure Cosmos DB는 단일 특수 사례 `Like('[aA]%')`를 또는 `BeginsWith('a')``BeginsWith('A')`로 변환할 수 있습니다. SQL API의 문자열 비교는 대소문자를 구분합니다.

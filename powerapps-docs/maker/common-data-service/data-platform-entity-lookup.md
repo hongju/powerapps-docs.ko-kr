@@ -88,7 +88,7 @@ search.app:
 조회 필드가 포함된 엔터티에서 [자동으로 앱을 만들면](../canvas-apps/data-platform-create-app.md) 엔터티의 **기본 이름** 필드에 있는 데이터를 포함하는 **드롭다운** 컨트롤로 표시됩니다.
 
 ## <a name="add-1n-and-nn-relationships-for-canvas-apps"></a>캔버스 앱에 대해 1:N 및 N:N 관계 추가
-**관계** 함수를 사용하여 앱용 Common Data Service(CDS)에서 일대다 또는 다대다 관계를 통해 두 레코드를 연결합니다. 추가 정보: [PowerApps의 관계 및 관계 해제 함수](../canvas-apps/functions/function-relate-unrelate.md)
+**관계** 함수를 사용하여 Common Data Service에서 일대다 또는 다대다 관계를 통해 두 레코드를 연결합니다. 추가 정보: [PowerApps의 관계 및 관계 해제 함수](../canvas-apps/functions/function-relate-unrelate.md)
 
 ## <a name="next-steps"></a>다음 단계
 * [Common Data Service 데이터베이스를 사용하여 앱 생성](../canvas-apps/data-platform-create-app.md)

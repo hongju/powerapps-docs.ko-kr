@@ -3,7 +3,7 @@ title: 솔루션을 사용하여 모델 기반 앱 배포 | MicrosoftDocs
 description: 솔루션을 사용하여 모델 기반 앱을 배포하는 방법 알아보기
 keywords: ''
 ms.date: 08/06/2018
-ms.service: crm-online
+ms.service: powerapps
 ms.custom: null
 ms.topic: article
 applies_to:

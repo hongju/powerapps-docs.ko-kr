@@ -1,9 +1,9 @@
 ---
-title: PowerApps 솔루션 탐색기를 사용하여 앱용 Common Data Service의 필드 만들기 및 편집 | MicrosoftDocs
+title: PowerApps 솔루션 탐색기를 사용하여 Common Data Service에 대한 필드 만들기 및 편집 | MicrosoftDocs
 ms.custom: ''
 ms.date: 05/18/2018
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
@@ -19,13 +19,13 @@ search.app:
   - PowerApps
   - D365CE
 ---
-# <a name="create-and-edit-fields-for-common-data-service-for-apps-using-powerapps-solution-explorer"></a>PowerApps 솔루션 탐색기를 사용하여 앱용 Common Data Service에 대한 필드 만들기 및 편집
+# <a name="create-and-edit-fields-for-common-data-service-using-powerapps-solution-explorer"></a>PowerApps 솔루션 탐색기를 사용하여 Common Data Service에 대한 필드 만들기 및 편집
 
-솔루션 탐색기를 통해 앱용 Common Data Service의 필드를 만들고 편집할 수 있습니다.
+솔루션 탐색기를 통해 Common Data Service의 필드를 만들고 편집할 수 있습니다.
 
 [PowerApps 포털](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)을 사용하면 가장 일반적인 옵션을 구성할 수 있지만 특정 옵션은 솔루션 탐색기를 사용하여 설정만 가능합니다. <br />추가 정보: 
-- [앱용 Common Data Service에 대한 필드 만들기 및 편집](create-edit-fields.md)
-- [PowerApps 포털을 사용하여 앱용 Common Data Service에 대한 필드 만들기 및 편집](create-edit-field-portal.md)
+- [Common Data Service에 대한 필드 만들기 및 편집](create-edit-fields.md)
+- [PowerApps 포털을 사용하여 Common Data Service에 대한 필드 만들기 및 편집](create-edit-field-portal.md)
   
 ## <a name="open-solution-explorer"></a>솔루션 탐색기를 엽니다.
 
@@ -142,7 +142,7 @@ search.app:
 
 ![전역 옵션 집합 구성](media/global-option-set-solution-explorer.png)
 
-전역 옵션 집합을 별도로 구성할 수도 있습니다. 자세한 내용: [앱용 Common Data Service에 대한 전역 옵션 집합(선택 목록) 만들기 및 편집](create-edit-global-option-sets.md)
+전역 옵션 집합을 별도로 구성할 수도 있습니다. 자세한 내용: [Common Data Service에 대한 전역 옵션 집합(선택 목록) 만들기 및 편집](create-edit-global-option-sets.md)
 
 > [!NOTE]
 > 모든 옵션 집합을 전역 옵션 집합으로 정의하는 경우 전역 옵션 집합의 목록이 증가하고 관리하기가 어려울 수 있습니다. 옵션 집합이 한 위치에서만 사용된다는 것을 알고 있는 경우에는 로컬 옵션 집합을 사용합니다.
@@ -260,8 +260,8 @@ search.app:
 
 
 ### <a name="see-also"></a>참조  
-[앱용 Common Data Service에 대한 필드 만들기 및 편집](create-edit-fields.md)<br />
-[PowerApps 포털을 사용하여 앱용 Common Data Service에 대한 필드 만들기 및 편집](create-edit-field-portal.md)<br />
+[Common Data Service에 대한 필드 만들기 및 편집](create-edit-fields.md)<br />
+[PowerApps 포털을 사용하여 Common Data Service에 대한 필드 만들기 및 편집](create-edit-field-portal.md)<br />
 [필드 유형 및 필드 데이터 형식](types-of-fields.md)<br />
 [계산 필드를 정의하여 수동 계산 자동화](define-calculated-fields.md)<br />
 [값을 집계하는 롤업 필드 정의](define-rollup-fields.md)<br />

@@ -1,10 +1,10 @@
 ---
-title: PowerApps 포털을 사용하여 앱용 Common Data Service에서 다대다 엔터티 관계 만들기 | MicrosoftDocs
+title: PowerApps 포털을 사용하여 Common Data Service에서 다대다 엔터티 관계 만들기 | MicrosoftDocs
 description: 다대다 관계를 만드는 방법 알아보기
 ms.custom: ''
 ms.date: 06/11/2018
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
@@ -22,13 +22,13 @@ search.app:
   - D365CE
 ---
 
-# <a name="create-many-to-many-entity-relationships-in-common-data-service-for-apps-using-powerapps-portal"></a>PowerApps 포털을 사용하여 앱용 Common Data Service에서 다대다 엔터티 관계 만들기
+# <a name="create-many-to-many-entity-relationships-in-common-data-service-using-powerapps-portal"></a>PowerApps 포털을 사용하여 Common Data Service에서 다대다 엔터티 관계 만들기
 
-[PowerApps 포털](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)을 통해 앱용 Common Data Service에 대한 다대다 관계를 쉽게 만들고 편집할 수 있습니다.
+[PowerApps 포털](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)을 통해 Common Data Service에 대한 다대다 관계를 쉽게 만들고 편집할 수 있습니다.
 
 포털을 사용하면 가장 일반적인 옵션을 구성할 수 있지만 특정 옵션은 솔루션 탐색기를 사용하여 설정만 가능 합니다. 추가 정보: 
 - [N:N(다대다) 엔터티 관계 만들기](create-edit-nn-relationships.md)
-- [솔루션 탐색기를 사용하여 앱용 Common Data Service에서 N:N(다대다) 엔터티 관계 만들기](create-edit-nn-relationships-solution-explorer.md)
+- [솔루션 탐색기를 사용하여 Common Data Service에서 N:N(다대다) 엔터티 관계 만들기](create-edit-nn-relationships-solution-explorer.md)
 
 ## <a name="view-many-to-many-entity-relationships"></a>다대다 엔터티 관계 보기
 
@@ -86,4 +86,4 @@ search.app:
 ### <a name="see-also"></a>참조
 
 [N:N(다대다) 엔터티 관계 만들기](create-edit-nn-relationships.md)<br />
-[솔루션 탐색기를 사용하여 앱용 Common Data Service에서 N:N(다대다) 엔터티 관계 만들기](create-edit-nn-relationships-solution-explorer.md)
+[솔루션 탐색기를 사용하여 Common Data Service에서 N:N(다대다) 엔터티 관계 만들기](create-edit-nn-relationships-solution-explorer.md)

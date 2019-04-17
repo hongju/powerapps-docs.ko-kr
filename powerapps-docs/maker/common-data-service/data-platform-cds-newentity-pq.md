@@ -1,14 +1,14 @@
 ---
-title: 파워 쿼리를 사용하여 App용 Common Data Service에서 엔터티에 데이터 추가 | Microsoft Docs
-description: 파워 쿼리를 사용하여 다른 데이터 원본의 앱용 Common Data Service(CDS)의 새 엔터티나 기존 엔터티에 데이터를 추가하는 방법에 대한 단계별 지침입니다.
-author: AFTOwen
+title: 파워 쿼리를 사용하여 Common Data Service에서 엔터티에 데이터 추가 | Microsoft Docs
+description: 파워 쿼리를 사용하여 다른 데이터 원본의 Common Data Service의 새 엔터티나 기존 엔터티에 데이터를 추가하는 방법에 대한 단계별 지침입니다.
+author: mllopis
 manager: kfile
 ms.service: powerapps
 ms.devlang: na
 ms.topic: conceptual
 ms.component: cds
 ms.date: 03/21/2018
-ms.author: anneta
+ms.author: millopis
 search.audienceType:
   - maker
 search.app:
@@ -16,8 +16,8 @@ search.app:
   - D365CE
 ---
 
-# <a name="add-data-to-an-entity-in-common-data-service-for-apps-by-using-power-query"></a>파워 쿼리를 사용하여 App용 Common Data Service에서 엔터티에 데이터 추가
-이 절차에서는 [앱용 Common Data Service(CDS)](data-platform-intro.md)에서 엔터티를 만들고 파워 쿼리를 사용하여 OData 피드의 데이터로 해당 엔터티를 채웁니다. 동일한 기술을 사용하여 이러한 온라인 및 온-프레미스 소스의 데이터를 통합할 수 있습니다.
+# <a name="add-data-to-an-entity-in-common-data-service-by-using-power-query"></a>파워 쿼리를 사용하여 Common Data Service에서 엔터티에 데이터 추가
+이 절차에서는 [Common Data Service](data-platform-intro.md)에서 엔터티를 만들고 파워 쿼리를 사용하여 OData 피드의 데이터로 해당 엔터티를 채웁니다. 동일한 기술을 사용하여 이러한 온라인 및 온-프레미스 소스의 데이터를 통합할 수 있습니다.
 
 * SQL Server
 * Salesforce

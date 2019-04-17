@@ -1,13 +1,13 @@
 ---
 title: PowerApps 계획 2 라이선스가 필요한 복합 엔터티 | Microsoft Docs
-description: PowerApps 계획 2 라이선스가 필요한 앱용 Common Data Service(CDS)의 복합 엔터티 목록입니다.
-author: clwesene
+description: PowerApps 계획 2 라이선스가 필요한 Common Data Service의 복합 엔터티 목록입니다.
+author: lancedMicrosoft
 manager: kvivek
 ms.service: powerapps
 ms.component: cds
 ms.topic: reference
 ms.date: 07/17/2018
-ms.author: clwesene
+ms.author: lanced
 search.audienceType:
   - maker
 search.app:

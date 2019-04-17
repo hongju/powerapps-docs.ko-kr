@@ -3,7 +3,7 @@ title: Outlook용 Dynamics 365 앱 배포 | MicrosoftDocs
 ms.custom: ''
 ms.date: '2017-04-20'
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: get-started-article
