@@ -154,7 +154,7 @@ ms.locfileid: "57802012"
 
 이 절차에서는 유럽의 다양한 도시의 인구에 대한 데이터가 포함된 **CityPopulations**라고 하는 컬렉션을 만듭니다. 다음으로, 세 개의 레이블이 포함된 갤러리에서 해당 데이터를 보여주며 각 레이블이 표시할 데이터 형식을 지정합니다.
 
-1. 단추 하나를 추가하고 이 수식에 **[OnSelect](properties-core.md)** 속성을 설정합니다.<br>
+1. 단추 하나를 추가하고 **[OnSelect](properties-core.md)** 속성을 다음 수식으로 설정합니다.<br>
    **ClearCollect(CityPopulations, {City:"London", Country:"United Kingdom", Population:8615000}, {City:"Berlin", Country:"Germany", Population:3562000}, {City:"Madrid", Country:"Spain", Population:3165000}, {City:"Rome", Country:"Italy", Population:2874000}, {City:"Paris", Country:"France", Population:2273000}, {City:"Hamburg", Country:"Germany", Population:1760000}, {City:"Barcelona", Country:"Spain", Population:1602000}, {City:"Munich", Country:"Germany", Population:1494000}, {City:"Milan", Country:"Italy", Population:1344000})**
 2. F5 키를 누르고 단추를 선택한 다음, Esc 키를 누릅니다.
 3. 텍스트 갤러리를 추가하고 **[Items](properties-core.md)** 속성을 **CityPopulations**로 설정합니다.
@@ -178,7 +178,7 @@ ms.locfileid: "57802012"
 ### <a name="screen-reader-support"></a>화면 reader 지원
 
 * **[Text](properties-core.md)** 가 있어야 합니다.
-* **[Live](properties-accessibility.md)**  로 설정 해야 **정중** 하거나 **Assertive** 화면 판독기 값의 변경 내용을 알릴 해야 하는 경우를 **텍스트** 속성입니다.
+* **[Live](properties-accessibility.md)**는 화면 읽기 프로그램이 레이블의 **Text** 속성의 값으로 변경 내용을 알려야 경우 **Polite** 또는 **Assertive**로 설정해야 합니다.
 
   > [!NOTE]
   > 화면 읽기 프로그램은 **[TabIndex](properties-accessibility.md)** 가 0 이상이면 **레이블**을 단추로 처리합니다.
