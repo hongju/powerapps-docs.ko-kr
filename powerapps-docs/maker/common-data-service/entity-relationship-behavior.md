@@ -1,5 +1,5 @@
 ---
-title: 엔터티 관계 동작(Common Data Service for Apps) | Microsoft Docs
+title: 엔터티 관계 동작(Common Data Service) | Microsoft Docs
 description: <Description>
 ms.custom: ''
 ms.date: 08/01/2018

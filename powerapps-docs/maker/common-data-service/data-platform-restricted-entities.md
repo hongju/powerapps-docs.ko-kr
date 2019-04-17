@@ -1,13 +1,13 @@
 ---
 title: Dynamics 365 라이선스가 필요한 제한적 엔터티 | Microsoft Docs
-description: Dynamics 365 라이선스가 필요한 앱에 대한 Common Data Service(CDS)의 제한된 엔터티 목록입니다.
-author: clwesene
+description: Dynamics 365 라이선스가 필요한 Common Data Service의 제한된 엔터티 목록입니다.
+author: lancedMicrosoft
 manager: kfile
 ms.service: powerapps
 ms.component: cds
 ms.topic: reference
 ms.date: 05/01/2018
-ms.author: clwesene
+ms.author: lanced
 search.audienceType:
   - maker
 search.app:
@@ -15,8 +15,8 @@ search.app:
   - D365CE
 ---
 
-# <a name="restricted-entities-requiring-dynamics-365-licenses"></a>Dynamics 365 라이선스가 필요한 제한된 엔터티
-앱 제작자는 앱용 Common Data Service(CDS) 내에서 사용 가능한 대부분의 엔터티를 사용하여 PowerApps 계획 1 라이선스만 있는 사용자를 위한 앱과 흐름을 만들 수 있습니다. 그러나 일부 엔터티에는 앱 사용자에게 PowerApps 계획 2 또는 Microsoft Flow 계획 2 라이선스가 있어야 하는 복잡한 비즈니스 논리가 포함되어 있습니다(자세한 내용은 [엔터티 라이선스 요구 사항](data-platform-entity-licenses.md) 참조). Dynamics 365 제품에 연결된 더 작은 엔터티 집합에는 엔터티 내에서 레코드를 생성, 업데이트 또는 삭제해야 하는 경우 캔버스 및 모델 기반 앱 사용자에 게 해당 Dynamics 365 제품에 대한 라이선스가 있어야 합니다. 이러한 항목은 *제한된* 엔터티로 참조됩니다.
+# <a name="restricted-entities-requiring-dynamics-365-licenses"></a>Dynamics 365 라이선스가 요구되는 제한적 엔터티
+앱 제작자는 Common Data Service 내에서 사용 가능한 대부분의 엔터티를 사용하여 PowerApps 계획 1 라이선스만 있는 사용자를 위한 앱과 흐름을 만들 수 있습니다. 그러나 일부 엔터티에는 앱 사용자에게 PowerApps 계획 2 또는 Microsoft Flow 계획 2 라이선스가 있어야 하는 복잡한 비즈니스 논리가 포함되어 있습니다(자세한 내용은 [엔터티 라이선스 요구 사항](data-platform-entity-licenses.md) 참조). Dynamics 365 제품에 연결된 더 작은 엔터티 집합에는 엔터티 내에서 레코드를 생성, 업데이트 또는 삭제해야 하는 경우 캔버스 및 모델 기반 앱 사용자에 게 해당 Dynamics 365 제품에 대한 라이선스가 있어야 합니다. 이러한 항목은 *제한된* 엔터티로 참조됩니다.
 
 엔터티는 다음과 같은 이유로 Dynamics 365 라이선스로 제한될 수 있습니다.
 

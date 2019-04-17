@@ -21,7 +21,7 @@ ms.lasthandoff: 03/22/2019
 ms.locfileid: "58357900"
 ---
 # <a name="attachments-control-in-powerapps"></a>PowerApps의 첨부 파일 컨트롤
-뿐만 아니라 해당 장치에 파일을 다운로드 하 고, 업로드 하 고, SharePoint 목록 또는 Common Data Service 엔터티에서 파일을 삭제 하는 사용자를 허용 하는 컨트롤입니다.
+사용자의 장치에 파일을 다운로드하는 것뿐만 아니라 업로드하고, SharePoint 목록 또는 Common Data Service 엔터티에서 파일을 삭제할 수 있는 컨트롤입니다.
 
 ## <a name="limitations"></a>제한 사항
 첨부 파일 컨트롤에는 이러한 제한 사항이 있습니다.
@@ -32,7 +32,7 @@ ms.locfileid: "58357900"
 1. 최대 10MB의 파일만 업로드할 수 있습니다.  
 
 ## <a name="description"></a>설명
-**첨부 파일** 제어를 사용 하면 추가 하 고, 열고, SharePoint 목록 또는 Common Data Service 엔터티에서 파일을 삭제 합니다.
+**첨부 파일** 컨트롤을 사용하여 SharePoint 목록 또는 Common Data Service 엔터티에 파일을 추가하고, 열고, 삭제합니다.
 
 ## <a name="key-properties"></a>주요 속성
 **[Items](properties-core.md)** – 다운로드할 수 있는 파일을 설명하는 소스입니다.
@@ -82,9 +82,9 @@ ms.locfileid: "58357900"
 
 
 ## <a name="example"></a>예
-1. SharePoint 목록을 데이터 원본으로 사용하여 데이터에서 앱을 만듭니다. 대안으로 앱에 양식을 추가하고, SharePoint 목록을 데이터 원본으로 설정합니다.
+1. SharePoint 목록을 데이터 원본으로 사용하여 데이터에서 앱을 만듭니다. 대안으로 앱에 폼을 추가하고, SharePoint 목록을 데이터 원본으로 설정합니다.
 
-2. 왼쪽의 트리 뷰에서 **Form** 컨트롤을 선택합니다.
+2. 왼쪽의 트리 뷰에서 **폼** 컨트롤을 선택합니다.
 
 3. 오른쪽의 옵션 패널에 있는 속성 탭에서 **데이터**를 클릭합니다.
 

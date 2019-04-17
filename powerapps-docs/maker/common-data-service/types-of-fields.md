@@ -1,9 +1,9 @@
 ---
-title: 앱용 Common Data Service의 필드 데이터 유형 | MicrosoftDocs
+title: Common Data Service의 필드 데이터 유형 | MicrosoftDocs
 description: 앱에 사용할 수 있는 다양한 필드 데이터 유형 이해
 keywords: ''
 ms.date: 06/27/2018
-ms.service: crm-online
+ms.service: powerapps
 ms.custom: null
 ms.topic: article
 applies_to:
@@ -58,8 +58,8 @@ search.app:
 |**정수**|**정수**<br />*없음* 형식|`IntegerType`|
 
 추가하거나 편집할 수 있는 각 형식에 대한 자세한 설명은 해당 디자이너에 대한 항목을 참조하십시오.
- - [PowerApps 포털을 사용하여 앱용 Common Data Service에 대한 필드 만들기 및 편집: 필드 데이터 형식](create-edit-field-portal.md#field-data-types)
- - [PowerApps 솔루션 탐색기를 사용하여 앱용 Common Data Service에 대한 필드 만들기 및 편집: 필드 데이터 형식](create-edit-field-solution-explorer.md#field-data-types)
+ - [PowerApps 포털을 사용하여 Common Data Service에 대한 필드 만들기 및 편집: 필드 데이터 형식](create-edit-field-portal.md#field-data-types)
+ - [PowerApps 솔루션 탐색기를 사용하여 Common Data Service에 대한 필드 만들기 및 편집: 필드 데이터 형식](create-edit-field-solution-explorer.md#field-data-types)
 
 API에서 필드 데이터 형식이 정의되는 방법에 대한 자세한 내용은 [특성 메타데이터](/powerapps/developer/common-data-service/entity-attribute-metadata)를 참조하십시오.
 

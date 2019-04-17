@@ -4,7 +4,7 @@ description: Dynamics 365 for phones 및 tablets에서 사용할 수 있는 컨�
 ms.custom: ''
 ms.date: 06/18/2018
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article

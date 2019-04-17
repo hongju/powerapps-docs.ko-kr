@@ -4,7 +4,7 @@ description: 시스템 엔터티 메시지를 편집하는 방법 알아보기
 ms.custom: ''
 ms.date: 05/15/2018
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
@@ -25,7 +25,7 @@ search.app:
 ---
 # <a name="edit-system-entity-messages"></a>시스템 엔터티 메시지 편집
 
-일부 시스템 엔터티의 기본 표시 이름은 사용자 인터페이스 텍스트 및 앱용 Common Data Service의 오류 메시지에 사용됩니다. 표시 이름을 변경할 경우 기본 표시 이름을 사용하는 모든 메시지도 업데이트해야 합니다. 예를 들어 *거래처*의 표시 이름을 *회사*로 변경하면 이전 이름을 사용하는 오류 메시지를 계속 볼 수 있습니다.  
+일부 시스템 엔터티의 기본 표시 이름은 사용자 인터페이스 텍스트 및 Common Data Service의 오류 메시지에 사용됩니다. 표시 이름을 변경할 경우 기본 표시 이름을 사용하는 모든 메시지도 업데이트해야 합니다. 예를 들어 *거래처*의 표시 이름을 *회사*로 변경하면 이전 이름을 사용하는 오류 메시지를 계속 볼 수 있습니다.  
 
 PowerApps 포털을 사용하여 시스템 메시지를 편집할 수 없으며 솔루션 탐색기를 사용해야 합니다.
 

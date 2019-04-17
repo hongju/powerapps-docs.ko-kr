@@ -133,7 +133,7 @@ ms.locfileid: "58357647"
 1. Alt 키를 누른 채로 컨트롤의 아래쪽 화살표를 선택하여 목록에 항목을 표시합니다.
 
 ### <a name="list-from-a-data-source"></a>데이터 원본에서 나열
-이 절차에서는 원칙 적용 [테이블을 제공 하는 데이터 원본](../connections-list.md#tables) 하지만 이러한 단계를 정확 하 게 수행 하려면 Common Data Service 데이터베이스를 추가 하는 생성 되 고 샘플 데이터는 왔습니다 environment 열어야 합니다.
+이 절차의 원칙은 [테이블을 제공하는 모든 데이터 원본](../connections-list.md#tables)에 적용되지만 이러한 단계를 정확하게 수행하려면, Common Data Service 데이터베이스가 생성되고 샘플 데이터가 추가된 환경이 필요합니다.
 
 1. [빈 앱을 연](../data-platform-create-app-scratch.md#open-a-blank-app) 다음, [**계정** 엔터티를 지정](../data-platform-create-app-scratch.md#specify-an-entity)합니다.
 

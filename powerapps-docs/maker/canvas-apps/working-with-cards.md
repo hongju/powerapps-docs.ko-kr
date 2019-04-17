@@ -15,7 +15,7 @@ search.app:
 - PowerApps
 ms.openlocfilehash: db0e42a45af217e9e5703242c2a5a867a52b687b
 ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/24/2018
 ms.locfileid: "42850533"
@@ -24,7 +24,7 @@ ms.locfileid: "42850533"
 
 **[카드](controls/control-card.md)** 컨트롤은 캔버스 앱에서 **[편집 폼](controls/control-form-detail.md)** 및 **[표시 폼](controls/control-form-detail.md)** 컨트롤의 구성 요소입니다. 폼은 전체 레코드를 나타내며 각 카드는 해당 레코드의 단일 필드를 나타냅니다.
 
-디자인 작업 영역에서 폼 컨트롤을 선택하면 오른쪽 창에서 가장 쉽게 카드와 상호 작용할 수 있습니다. 해당 창에 표시할 필드, 각 필드를 표시하는 방법 및 필드를 표시할 순서를 선택할 수 있습니다. 이 예제에서는 **Assets**라고 하는 SharePoint 목록에서 빌드된 앱에 있는 **편집 폼** 컨트롤을 보여줍니다.
+디자인 작업 영역에서 양식 컨트롤을 선택하면 오른쪽 창에서 가장 쉽게 카드와 상호 작용할 수 있습니다. 해당 창에 표시할 필드, 각 필드를 표시하는 방법 및 필드를 표시할 순서를 선택할 수 있습니다. 이 예제에서는 **자산**이라고 하는 SharePoint 목록에서 빌드된 앱에 있는 **편집 양식** 컨트롤을 보여줍니다.
 
 ![첫 번째 화면](./media/working-with-cards/first-screen.png)
 
@@ -45,7 +45,7 @@ PowerApps는 문자열, 숫자 및 기타 데이터 형식에 미리 정의된 �
 ![](./media/working-with-cards/add-security-code.png)
 
 ## <a name="customize-a-card"></a>카드 사용자 지정
-카드는 다른 컨트롤을 구성합니다. **편집 폼** 컨트롤에서 사용자는 **삽입** 탭에서 추가한 표준 **[텍스트 입력](controls/control-text-input.md)** 컨트롤에 데이터를 입력합니다.  
+카드는 다른 컨트롤을 구성합니다. **편집 양식** 컨트롤에서 사용자는 **삽입** 탭에서 추가한 표준 **[텍스트 입력](controls/control-text-input.md)** 컨트롤에 데이터를 입력합니다.  
 
 컨트롤을 제어하여 카드의 모양을 변경하는 방법의 예제를 살펴보겠습니다.
 
@@ -76,7 +76,7 @@ PowerApps는 문자열, 숫자 및 기타 데이터 형식에 미리 정의된 �
 
 ![](./media/working-with-cards/unlocked-card.png)
 
-**[DisplayName](controls/control-card.md)**을 수정하여 **Asset**과 **ID** 간에 공백을 만들겠습니다. 이렇게 변경하여 생성된 내용을 변경하고 있습니다. 오른쪽 창의 이 카드에는 다른 레이블이 있습니다.
+**[DisplayName](controls/control-card.md)** 을 수정하여 **자산**과 **ID** 간에 공백을 만들겠습니다. 이렇게 변경하여 생성된 내용을 변경하고 있습니다.  오른쪽 창에서 이 카드에는 다른 레이블이 있습니다.
 
 ![](./media/working-with-cards/change-display-name.png)
 
@@ -91,7 +91,7 @@ PowerApps는 문자열, 숫자 및 기타 데이터 형식에 미리 정의된 �
 
 별은 이제 카드의 일부이기 때문에 예를 들어 양식 내에서 카드의 순서를 바꾸는 경우에도 함께 이동됩니다.
 
-또 다른 예제로 **ImageURL** 카드의 잠금을 해제한 다음 **삽입** 탭에서 **이미지** 컨트롤을 해당 카드에 추가합니다.
+또 다른 예제로 **ImageURL** 카드의 잠금을 해제한 다음 **이미지** 컨트롤을 **삽입** 탭의 해당 카드에 추가합니다.
 
 ![](./media/working-with-cards/add-image.png)
 
@@ -104,7 +104,7 @@ PowerApps는 문자열, 숫자 및 기타 데이터 형식에 미리 정의된 �
 
 이제 이미지를 확인하고 해당 URL을 편집할 수 있습니다. **Parent.Default**를 **Image** 속성으로 사용했지만 사용자가 URL을 변경한 경우 업데이트되지 않습니다.
 
-이 앱의 두 번째 화면에서 동일한 작업을 수행할 수 있습니다. 여기서 **표시 폼** 컨트롤을 사용하여 레코드의 세부 정보를 표시합니다. 이 경우에 사용자가 해당 화면에서 URL을 편집하지 않기 때문에 레이블을 숨기는 것이 좋습니다(카드가 아닌 레이블의 **Visible** 속성을 **false**로 설정).
+이 앱의 두 번째 화면에서 동일한 작업을 수행할 수 있습니다. 여기서 **표시 양식** 컨트롤을 사용하여 레코드의 세부 정보를 표시합니다. 이 경우에 사용자가 해당 화면에서 URL을 편집하지 않기 때문에 레이블을 숨기는 것이 좋습니다(레이블의 **Visible** 속성을 카드가 아닌 **false**로 설정).
 
 ![](./media/working-with-cards/show-image-display.png)
 
@@ -117,7 +117,7 @@ PowerApps는 문자열, 숫자 및 기타 데이터 형식에 미리 정의된 �
 카드의 가장 중요한 속성은 **[DataField](controls/control-card.md)** 속성입니다.  이 속성은 유효성 검사, 업데이트되는 필드 및 카드의 기타 측면을 생성합니다.
 
 ### <a name="information-flowing-in"></a>들어오는 정보
-폼은 컨테이너로써 **ThisItem**을 내부의 모든 카드에 사용할 수 있습니다. 이 레코드는 현재 사용 중인 레코드에 대한 모든 필드를 포함합니다. 
+폼은 컨테이너로써 **ThisItem**을 내부의 모든 카드에 사용할 수 있습니다. 이 레코드는 현재 사용 중인 레코드에 대한 모든 필드를 포함합니다.  
 
 모든 카드의 **[Default](controls/properties-core.md)** 속성을 **ThisItem**.*FieldName*으로 설정해야 합니다.  특정 상황에서 중간에 이 값을 변환할 수 있습니다. 예를 들어 문자열을 포맷하거나 값을 다른 언어로 변환하려고 합니다.
 
@@ -149,7 +149,7 @@ Alt 키를 누르고 있으면 이 카드를 구성하는 컨트롤의 이름을
 | --- | --- | --- |
 | **TextRequiredStar** |**[레이블](controls/control-text-box.md)** 컨트롤 |필수 필드를 나타내기 위해 일반적으로 데이터 항목 양식에서 사용되는 별을 표시합니다. |
 | **TextFieldDisplayName** |**[레이블](controls/control-text-box.md)** 컨트롤 |이 필드의 사용자 친화적 이름을 표시합니다. 이 이름은 데이터 원본의 스키마에 포함된 내용과 다를 수 있습니다. |
-| **InputText** |**텍스트 입력** 컨트롤 |필드의 초기 값을 표시하고 해당 값을 변경할 수 있습니다. |
+| **InputText** |**입력 텍스트** 컨트롤 |필드의 초기 값을 표시하고 해당 값을 변경할 수 있습니다. |
 | **TextErrorMessage** |**[레이블](controls/control-text-box.md)** 컨트롤 |유효성 검사에서 문제가 발생한 경우 사용자에게 친숙한 오류 메시지가 표시됩니다. 또한 필요한 경우 필드에 값이 있는지 확인합니다. |
 
 이러한 컨트롤을 데이터로 채우려면 해당 속성은 이러한 주요 수식을 통해 카드의 속성에서 생성될 수 있습니다. 이러한 수식은 특정 필드를 참조하지 않습니다. 대신 모든 정보는 카드에서 가져옵니다.

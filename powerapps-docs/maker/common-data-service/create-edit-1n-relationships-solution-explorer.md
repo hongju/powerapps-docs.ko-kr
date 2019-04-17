@@ -4,7 +4,7 @@ description: PowerApps 솔루션 탐색기를 사용하여 일대다 또는 다�
 ms.custom: ''
 ms.date: 10/28/2018
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
@@ -24,7 +24,7 @@ search.app:
 
 # <a name="create-and-edit-1n-one-to-many-or-n1-many-to-one-entity-relationships-using-solution-explorer"></a>솔루션 탐색기를 사용하여 1:N(일대다) 또는 N:1(다대일) 엔터티 관계 만들기 및 편집 
 
-솔루션 탐색기를 통해 앱용 Common Data Service에 대한 1: N(일대다) 또는 N:1(다대일) 엔터티 관계를 만들고 편집할 수 있습니다.
+솔루션 탐색기를 통해 Common Data Service에 대한 1: N(일대다) 또는 N:1(다대일) 엔터티 관계를 만들고 편집할 수 있습니다.
 
 [PowerApps 포털](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)을 사용하면 가장 일반적인 옵션을 구성할 수 있지만 특정 옵션은 솔루션 탐색기를 사용하여 설정만 가능합니다. 추가 정보: 
 - [1:N(일대다) 또는 N:1(다대일) 관계 만들기](create-edit-1n-relationships.md)

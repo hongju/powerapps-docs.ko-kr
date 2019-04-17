@@ -1,6 +1,6 @@
 ---
-title: 앱용 Common Data Service에서 데이터 가져오기 또는 내보내기
-description: Excel에서 데이터 가져오기 및 데이터 내보내기 기능을 사용하여 앱용 Common Data Service의 엔터티로 Excel 또는 CSV 파일의 데이터를 대량으로 가져오고 내보냅니다.
+title: Common Data Service에서 데이터 가져오기 또는 내보내기
+description: Excel에서 데이터 가져오기 및 데이터 내보내기 기능을 사용하여 Common Data Service의 엔터티로 Excel 또는 CSV 파일의 데이터를 대량으로 가져오고 내보냅니다.
 author: sabinn-msft
 ms.service: powerapps
 ms.topic: conceptual
@@ -13,9 +13,9 @@ search.app:
   - PowerApps
   - D365CE
 ---
-# <a name="import-or-export-data-from-common-data-service-for-apps"></a>앱용 Common Data Service에서 데이터 가져오기 또는 내보내기
+# <a name="import-or-export-data-from-common-data-service"></a>Common Data Service에서 데이터 가져오기 또는 내보내기
 
-Microsoft Excel 또는 CSV 파일에서 대량으로 데이터 가져오고 내보내려면 업데이트된 앱용 Common Data Service 환경에 대해 Excel 파일에서 데이터 가져오기 또는 데이터 내보내기 기능을 사용합니다.
+Microsoft Excel 또는 CSV 파일에서 대량으로 데이터 가져오고 내보내려면 업데이트된 Common Data Service 환경에 대해 Excel 파일에서 데이터 가져오기 또는 데이터 내보내기 기능을 사용합니다.
 
 Excel 또는 CSV 파일에서 엔터티로 파일을 가져올 수 있는 방법은 두 가지가 있습니다.
 
@@ -66,7 +66,7 @@ Excel 또는 CSV 파일에서 엔터티로 파일을 가져올 수 있는 방법
 
 ## <a name="option-2-import-by-bringing-your-own-source-file"></a>옵션 2: 원본 파일을 가져와 가져오기
 
-고급 사용자이고 앱 엔터티에 대한 Common Data Service에 대한 지정된 엔터티에 대한 필수 필드를 알고 있는 경우 고유한 Excel 또는 CSV 원본 파일을 정의합니다. **파일 가져오기**의 단계를 따릅니다.
+고급 사용자이고 엔터티에 대한 Common Data Service에 대한 지정된 엔터티에 대한 필수 필드를 알고 있는 경우 고유한 Excel 또는 CSV 원본 파일을 정의합니다. **파일 가져오기**의 단계를 따릅니다.
 
 ## <a name="navigate-mapping-errors"></a>매핑 오류 탐색
 
@@ -92,7 +92,7 @@ Excel 또는 CSV 파일에서 엔터티로 파일을 가져올 수 있는 방법
 
 ## <a name="ensure-uniqueness-when-you-import-data-into-an-entity-from-excel-or-csv"></a>Excel 또는 CSV에서 엔터티로 데이터를 가져올 때 고유성 보장
 
-앱용 Common Data Service 엔터티는 기본 키를 사용하여 공통 데이터 서비스 엔터티 테이블 내의 레코드를 고유하게 식별합니다. Common Data Service 엔터티의 기본 키는 GUID(Globally Unique Identifier)입니다. 레코드 식별에 대한 기본 기반을 형성합니다. Common Data Service 엔터티로 데이터를 가져오는 등의 데이터 작업은 기본 기본 키를 노출합니다.
+Common Data Service 엔터티는 기본 키를 사용하여 공통 데이터 서비스 엔터티 테이블 내의 레코드를 고유하게 식별합니다. Common Data Service 엔터티의 기본 키는 GUID(Globally Unique Identifier)입니다. 레코드 식별에 대한 기본 기반을 형성합니다. Common Data Service 엔터티로 데이터를 가져오는 등의 데이터 작업은 기본 기본 키를 노출합니다.
 
 예제:  
 **거래처** 엔터티의 기본 키는 **accountid**입니다.

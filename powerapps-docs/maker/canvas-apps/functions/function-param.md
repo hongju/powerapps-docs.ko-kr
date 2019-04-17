@@ -1,6 +1,6 @@
 ---
 title: Download, Launch 및 Param 함수 | Microsoft Docs
-description: PowerApps의 Download, Launch 및 Param 함수에 대한 참조 정보이며, 구문과 예제를 포함하고 있습니다.
+description: 구문 및 캔버스 앱의 Download, Launch 및 Param 함수에 대 한 예제를 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,22 +13,24 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 6c465a8cd23511c0cffbbfab9b70dd436be06d37
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.openlocfilehash: 4a53d8c20bd4b7784cb94daa574682c041f104ea
+ms.sourcegitcommit: b316e0eee9946ef09e0512577ce2d11cd27aa864
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42860020"
+ms.lasthandoff: 04/11/2019
+ms.locfileid: "59508312"
 ---
-# <a name="download-launch-and-param-functions-in-powerapps"></a>PowerApps의 Download, Launch 및 Param 함수
+# <a name="download-launch-and-param-functions-in-canvas-apps"></a>캔버스 앱의 download, Launch 및 Param 함수
 매개 변수를 사용하여 웹 페이지 또는 앱을 다운로드하거나 시작합니다.  
 
 ## <a name="description"></a>설명
-**Download** 함수는 파일을 웹에서 로컬 장치로 다운로드합니다.  사용자에게 파일을 저장할 위치를 묻는 메시지가 표시됩니다.  **Download**는 파일이 로컬로 저장된 위치를 문자열로 반환합니다.  
+**Download** 함수는 파일을 웹에서 로컬 디바이스로 다운로드합니다. 사용자에게 파일을 저장할 위치를 묻는 메시지가 표시됩니다.  **Download**는 파일이 로컬로 저장된 위치를 문자열로 반환합니다.  
 
-**Launch** 함수는 웹 페이지 또는 앱을 시작합니다.  이 함수는 필요에 따라 매개 변수를 앱에 전달할 수 있습니다.  
+**Launch** 함수는 웹 페이지 또는 앱을 시작합니다.  이 함수는 필요에 따라 매개 변수를 앱에 전달할 수 있습니다.
 
-**Param** 함수는 앱이 시작될 때 해당 앱에 전달된 매개 변수를 검색합니다.  명명된 매개 변수가 전달되지 않은 경우 **Param**에서 *공백*을 반환합니다.
+Internet Explorer와 Microsoft Edge에는 **시작** 함수에는 웹 사이트 또는 앱 또는 함수를 포함 하는 앱 보다 높은 보안 설정을 동일 하는 경우에 열립니다. 예를 들어, 추가 하는 경우는 **시작** 함수에서 실행 되는 앱에는 **신뢰할 수 있는 사이트** 보안 영역을 열고 함수 앱을 웹 사이트 인지 확인 합니다 **신뢰할 수 있는 사이트** 나 **로컬 인트라넷** 영역 (아닌 **제한 된 사이트**). 자세한 정보: [Internet Explorer 11에 대 한 보안 및 개인 정보 설정을 변경](https://support.microsoft.com/en-us/help/17479/windows-internet-explorer-11-change-security-privacy-settings)합니다.  
+
+**Param** 함수는 앱이 시작될 때 해당 앱에 전달된 매개 변수를 검색합니다. 명명된 매개 변수가 전달되지 않은 경우 **Param**에서 *공백*을 반환합니다.
 
 ## <a name="syntax"></a>구문
 **Download**( *Address* )

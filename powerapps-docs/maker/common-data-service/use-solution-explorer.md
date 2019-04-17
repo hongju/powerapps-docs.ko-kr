@@ -4,7 +4,7 @@ description: 솔루션을 사용하여 앱을 만들거나 사용자 지정하�
 ms.custom: ''
 ms.date: 10/29/2018
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
@@ -101,8 +101,8 @@ PowerApps의 왼쪽 탐색 창에서 **솔루션**을 선택한 다음 명령 �
 - 캔버스 앱이 관리형 솔루션에 패키지화 되어 있는 경우 대상 환경에서 계속 편집할 수 있습니다.
 - 캔버스 앱에는 종속성을 사용할 수 없습니다.
 - 관리형 솔루션을 삭제해도 다른 캔버스 앱 버전으로 롤백되지 않습니다. 
--   캔버스 앱 액세스(CRUD 및 보안)는 PowerApps에서 전적으로 관리되고 앱(CDS)용 Common Data Service 데이터베이스는 사용되지 않습니다.
--   캔버스 앱을 호출하는 CDS AP는 차단되고 아무것도 반환하지 않습니다 
+-   캔버스 앱 액세스(CRUD 및 보안)는 PowerApps에서 전적으로 관리되고 Common Data Service(Common Data Service) 데이터베이스는 사용되지 않습니다.
+-   캔버스 앱을 호출하는 Common Data Service API는 차단되고 아무것도 반환하지 않습니다 
 -   솔루션에서 만든 캔버스 앱을 AAD 보안 그룹에 대한 공동 소유자로 공유할 수 없습니다.
 -   기본 솔루션 탐색기에 캔버스 앱이 표시되지 않습니다.
 -   기존 캔버스 앱이 솔루션을 인식하지 못합니다. 

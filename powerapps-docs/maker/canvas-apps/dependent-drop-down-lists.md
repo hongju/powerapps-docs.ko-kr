@@ -1,4 +1,4 @@
----
+﻿---
 title: 캔버스 앱에서 종속 드롭 다운 목록 만들기 | Microsoft Docs
 description: PowerApps에서 캔버스 앱에서 다른 드롭다운 목록을 필터링 하는 드롭다운 목록을 만듭니다.
 author: emcoope-msft
@@ -28,7 +28,7 @@ ms.locfileid: "59042758"
 
 이 항목의 시나리오의 경우, 매장 직원은 폼을 통해 이슈를 **Incidents** 목록에 제출합니다. 인시던트가 발생한 매장의 위치를 지정하는 것 뿐만 아니라 해당 위치 내의 부서도 지정합니다. 모든 위치에 동일한 부서가 있지는 않으므로, **Locations** 목록은 직원이 부서가 없는 위치에 대해 부서를 지정할 수 없도록 합니다.
 
-이 항목에서는 Microsoft SharePoint 목록을 데이터 원본으로 사용 하 여 있지만 모든 테이블 형식 데이터 원본에 동일한 방식으로 작동 합니다.
+이 항목에서는 Microsoft SharePoint 목록을 데이터 원본으로 사용하지만 모든 테이블 형식 데이터 원본은 동일한 방식으로 작동합니다.
 
 ## <a name="create-data-sources"></a>데이터 원본 만들기
 
@@ -49,22 +49,22 @@ ms.locfileid: "59042758"
 | Pembroke       | 생성          |
 | Pembroke       | 꽃           |
 
-**인시던트** 연락처 정보 및 각 인시던트에 대 한 정보 목록을 보여 줍니다. 으로 날짜 열을 만듭니다는 **날짜** 열에 있지만 다른 열을 만들 **한 줄 텍스트** 구성을 단순화 하 고 방지 하기 위해 열 [위임](./delegation-overview.md) 에서 경고 Microsoft PowerApps입니다.
+**Incidents** 목록은 연락처 정보 및 각 인시던트에 대한 정보를 보여줍니다. 날짜 열로 **Date** 열을 생성하지만, Microsoft PowerApps에서 [위임](./delegation-overview.md) 경고를 방지하고 구성을 단순화하기 위해 **한 줄 텍스트**로 다른 열을 생성합니다.
 
 | First Name | Last Name | Phone Number     | Location | Department | Description       | Date      |
 |------------|-----------|------------------|----------------|------------|-------------------------|-----------|
 | Tonya       | Cortez   | (206) 555 - 1022 | Eganville      | 생성    | 문제가 있습니다...   | 2/12/2019 |
 | Moses     | Laflamme     | (425) 555 - 1044 | Renfrew        | 꽃     | 문제를 경험 했습니다... | 2/13/2019 |
 
-기본적으로 사용자 지정 SharePoint 목록에 포함 된 **제목** 열 이름을 바꾸거나 제거할 수 없습니다 및 목록에서 항목을 저장 하기 전에 데이터를 포함 해야 합니다. 데이터를 필요 하지 않습니다 있도록 열을 구성 합니다.
+기본적으로 사용자 지정 SharePoint 목록에 포함된 **제목** 열 이름을 바꾸거나 제거할 수 없습니다. 그리고 목록에서 항목을 저장하기 전에 데이터가 포함되어야 합니다. 데이터가 필요하지 않도록 열을 구성하려면 다음을 수행합니다.
 
-1. 오른쪽 위 모서리에서 기어 아이콘을 선택 하 고 선택한 **설정을 나열 합니다.** 합니다.
+1. 오른쪽 위 모서리에서 기어 아이콘을 선택하고, **목록 설정**을 선택합니다.
 1. **설정** 페이지에서 열 목록 중 **제목** 열을 선택합니다.
 1. **필수 열로 지정**에서 **아니요**를 선택합니다.
 
 변경 후, **제목 열**을 무시하거나 기본 보기에 다른 열이 하나 이상 있다면 기본 보기에서 [제거](https://support.office.com/article/edit-a-list-column-in-sharepoint-online-77130c2e-76d1-4f80-af8b-4c6f47b264b8)할 수도 있습니다.
 
-## <a name="open-the-form"></a>폼을 엽니다
+## <a name="open-the-form"></a>폼 열기
 
 1. **Incidents** 목록을 열고, **PowerApps** > **양식 사용자 지정**을 선택합니다.
 
@@ -117,7 +117,7 @@ ms.locfileid: "59042758"
 
 ## <a name="unlock-the-cards"></a>카드 잠금 해제
 
-1. 선택 합니다 **위치** 카드를 선택 합니다 **고급** 오른쪽 창에서 탭을 선택 합니다 **속성을 변경 하려면 잠금 해제**합니다.
+1. **Location** 카드를 선택합니다. 그리고 오른쪽 창의 **고급** 탭을 선택하고 **속성을 변경하려면 잠금 해제합니다**를 선택합니다.
 
 1. **부서** 카드에 이전 단계를 반복합니다.
 
@@ -142,14 +142,14 @@ ms.locfileid: "59042758"
 
 1. (선택 사항) Alt 키를 누른 채 **ddLocation**을 열어서 세 위치가 표시되는지 확인합니다.
 
-## <a name="configure-the-departments"></a>부서를 구성 합니다.
+## <a name="configure-the-departments"></a>부서 구성
 
 1. **ddDepartment**를 선택한 다음 오른쪽 창 **속성**탭에서 **다음에 종속**을 선택합니다.
 
 1. **부모 컨트롤** 아래, 위쪽 목록에 **ddLocation**이 표시되고 아래 목록에 **결과**가 나타나는지 확인합니다.
 
     > [!NOTE]
-    > 문자열에는 데이터 행의 실제 ID에 일치 하지 않으려는 경우 선택 **ID** of **결과**합니다.
+    > 문자열로 매치하는 것을 원하지 않고 데이터 행의 실제 ID와 매치하려는 경우, **결과** 대신 **ID**를 선택합니다.
 
 1. **일치하는 필드** 아래, 위쪽 목록에서 **Locations**를 선택하고 아래 목록에서 **Location**을 선택하고 **적용**을 선택합니다.
 
@@ -161,7 +161,7 @@ ms.locfileid: "59042758"
     `Filter(Locations, Location = ddLocation.Selected.Result)`
 
     이 수식은 사용자가 **ddLocation**을 선택하는 것에 따라 **ddDepartment** 항목을 필터링합니다. 이러한 구성은 "자식" 부서 목록이 SharePoint **Locations** 목록이 지정하는 "부모" 위치에 대한 데이터를 반영하도록 합니다.
-
+    
 1. 오른쪽 창 **속성** 탭에서, **Value** 옆의 목록를 열어 **Department**를 선택합니다.
 
     이 단계에서는 SharePoint **Locations** 목록의 **Department** 열로부터 옵션에 표시할 텍스트를 설정합니다.
@@ -173,7 +173,7 @@ ms.locfileid: "59042758"
 
 Alt 키를 누른 채로 위치 목록을 열고, 하나를 선택하고 부서 목록을 열고 하나를 선택합니다.
 
-위치와 부서 목록에서 정보를 반영 합니다 **위치** SharePoint 목록.
+위치와 부서 목록은 SharePoint **Locations** 목록의 정보를 반영합니다.
 
 > [!div class="mx-imgBorder"]
 > ![위치 목록, Pembroke,으로 Renfrew에서 선택을 변경를 열고 학부의 목록](./media/dependent-drop-down-lists/dropdowns.gif)
@@ -188,7 +188,7 @@ Alt 키를 누른 채로 위치 목록을 열고, 하나를 선택하고 부서 
 
 ## <a name="faq"></a>FAQ
 
-**데이터가 보이지 않는 경우: 소스 모두 비어 있거나 잘못 된 데이터입니다.**
+**데이터가 보이지 않는 경우: 데이터 원본이 모두 비어있거나 잘못된 데이터입니다.**
 아래 방법 중 하나로 컨트롤에 대해 올바른 필드를 표시하는지 여부를 확인합니다.
 
 - 드롭다운 목록을 선택한 다음 오른쪽 창의 **속성** 탭에서 **Value** 속성을 선택합니다.
@@ -201,8 +201,8 @@ Alt 키를 누른 채로 위치 목록을 열고, 하나를 선택하고 부서 
     > [!div class="mx-imgBorder"]
     > ![변경 콤보 상자](./media/dependent-drop-down-lists/combo-box-display-field.png)
 
-**내 자식 드롭다운 목록에서 중복 항목을 포함 합니다.**
-이 증상을 사용 하 여 때문일 가능성이 큽니다.는 **조회** SharePoint에서 열 또는 **선택** PowerApps의 함수입니다. 중복을 제거 하려면 래핑하는 **Distinct** 제대로 반환 데이터에 대 한 함수입니다. 자세한 정보: [Distinct 함수](functions/function-distinct.md)합니다.
+**자식 드롭다운 목록에서 중복 항목을 포함합니다.**
+이 증상은 SharePoint에서 **조회** 열 또는 PowerApps의 **Choices** 함수를 사용하기 때문일 가능성이 큽니다. 중복을 제거하려면, 반환 데이터에 대해 **Distinct** 함수를 래핑합니다. 자세한 정보는 [Distinct 함수](functions/function-distinct.md)를 참조합니다.
 
 ## <a name="known-limitations"></a>알려진 제한 사항
 
