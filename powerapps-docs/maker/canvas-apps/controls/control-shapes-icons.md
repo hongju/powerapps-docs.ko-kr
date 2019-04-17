@@ -105,11 +105,11 @@ ms.locfileid: "42849205"
     예를 들어 **[AccessibleLabel](properties-accessibility.md)** 이 **설정**으로 설정된 **설정** 아이콘이 있습니다. 이 아이콘은 단추로 사용되지 않습니다. **설정**으로도 표시된 **[레이블](control-text-box.md)** 옆에 있습니다. 화면 읽기 프로그램은 아이콘을 **설정**으로 읽고 레이블을 다시 **설정**으로 읽습니다. 이는 불필요하게 자세한 정보입니다. 이 경우 아이콘에는 **[AccessibleLabel](properties-accessibility.md)** 이 필요하지 않습니다.
 
     > [!IMPORTANT]
-    > 화면 읽기 프로그램은 **[AccessibleLabel](properties-accessibility.md)** 이 비어 있는 경우에도 항상 0 이상의 **[TabIndex](properties-accessibility.md)** 가 있는 아이콘 또는 도형을 읽습니다. 이는 이미지가 단추로 렌더링되기 때문입니다. **[AccessibleLabel](properties-accessibility.md)** 이 제공되지 않으면 화면 읽기 프로그램은 그래픽을 **단추**로만 읽습니다.
+    > **[AccessibleLabel](properties-accessibility.md)**이 빈 문자열로 설정되고 **[TabIndex](properties-accessibility.md)**가 0 이상으로 설정된 경우 화면 읽기 프로그램은 아이콘 또는 도형을 버튼으로 읽습니다. 이러한 아이콘이나 도형은 버튼으로 렌더링됩니다.
 
 ### <a name="keyboard-support"></a>키보드 지원
 * 그래픽이 단추로 사용되는 경우 **[TabIndex](properties-accessibility.md)** 는 0 이상이어야 합니다. 이 경우 키보드 사용자가 이미지로 이동할 수 있습니다.
 * 그래픽이 단추로 사용되는 경우 포커스 표시기는 명확하게 표시되어야 합니다. **[FocusedBorderColor](properties-color-border.md)** 및 **[FocusedBorderThickness](properties-color-border.md)** 를 사용하여 이를 달성합니다.
 
     > [!NOTE]
-  > **[TabIndex](properties-accessibility.md)** 가 0 이상이면 아이콘 또는 도형이 단추로 렌더링됩니다. 시각적 모양은 변경되지 않지만 화면 읽기 프로그램은 이미지를 단추로 올바르게 식별합니다. **[TabIndex](properties-accessibility.md)** 가 0보다 작으면 아이콘 또는 도형이 이미지로 식별됩니다.
+    > **[TabIndex](properties-accessibility.md)**가 0 이상이면 아이콘 또는 도형이 단추로 렌더링됩니다. 시각적 모양은 변경되지 않지만 화면 읽기 프로그램은 이미지를 단추로 올바르게 식별합니다. **[TabIndex](properties-accessibility.md)**가 0보다 작으면 아이콘 또는 도형은 이미지로 식별됩니다.
