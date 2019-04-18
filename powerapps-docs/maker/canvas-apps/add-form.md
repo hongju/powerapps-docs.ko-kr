@@ -39,7 +39,7 @@ ms.locfileid: "58581027"
 1. 빈 화면에서 추가 **[드롭다운](controls/control-drop-down.md)** 제어 하 고 이름을 **ChooseProduct**합니다.
 
     > [!NOTE]
-   > 컨트롤을 추가하거나, 이름을 바꾸거나, 속성을 설정하는 방법을 잘 모르는 경우 [컨트롤 추가 및 제어](add-configure-controls.md)를 참조하세요.
+   > 컨트롤을 추가하거나, 이름을 바꾸거나, 속성을 설정하는 방법을 잘 모르는 경우 [컨트롤 추가 및 구성](add-configure-controls.md)을 참조하세요.
 
 1. 오른쪽 창의 **속성** 탭에서, **항목**을 `FlooringEstimates`으로 설정하고 **Value**에 `Name`을 설정합니다.
 
@@ -83,7 +83,7 @@ ms.locfileid: "58581027"
 
     ![슬라이더 편집](./media/add-form/edit-slider.png)
 
-    폼에는 **가격** 필드를 **슬라이더** 컨트롤 대신를 **텍스트 입력** 컨트롤입니다.
+    폼에서 **Price** 필드는 **텍스트 입력** 컨트롤 대신 **슬라이더** 컨트롤을 표시합니다.
 
 1. (선택 사항) **Overview** 필드 컨트롤을 **여러 줄 텍스트 편집** 컨트롤로 변경하려면 동일한 프로세스를 수행합니다.
 
@@ -97,9 +97,9 @@ ms.locfileid: "58581027"
 
 1. 미리 보기를 열기 위해 F5 키를 눌러, 제품의 이름을 변경하고 위에서 추가한 단추를 선택합니다.
 
-    합니다 **[SubmitForm](functions/function-form.md)** 함수는 데이터 원본에 변경 내용을 저장 합니다.
+    **[SubmitForm](functions/function-form.md)** 함수는 데이터 원본에 변경 내용을 저장합니다.
 
-1. (선택 사항) Esc 키를 눌러 (또는 오른쪽 위 모서리의 닫기 아이콘을 선택 하 여) 미리 보기를 닫습니다.
+1. (선택 사항) Esc 키를 눌러 (또는 오른쪽 위 모서리의 닫기 아이콘을 선택하여) 미리 보기를 닫습니다.
 
 ## <a name="next-steps"></a>다음 단계
 [폼](working-with-forms.md), 및 [수식](working-with-formulas.md)을 사용한 작업에 대한 자세한 내용을 알아봅니다.
