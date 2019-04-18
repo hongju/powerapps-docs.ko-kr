@@ -49,9 +49,9 @@ ms.locfileid: "59096170"
 
 **ShowColumns** 함수는 테이블의 열을 포함하고 다른 모든 열을 삭제합니다. **ShowColumns**를 사용하여 다중 열 테이블에서 단일 열 테이블을 만들 수 있습니다.  **ShowColumns**는 열을 포함하고 **DropColumns**는 열을 제외합니다.  
 
-이러한 모든 함수의 경우 적용된 변환을 사용하는 새 테이블이 만들어집니다. 원래 테이블은 수정되지 않습니다. 수식 사용 하 여 기존 테이블을 수정할 수 없습니다. SharePoint, Common Data Service, SQL Server 및 기타 데이터 원본 목록, 엔터티 및 스키마 라고 자주 하는 테이블의 열을 수정 하기 위한 도구를 제공 합니다. 이 항목에서는에 포함 된 함수는 추가 사용을 위해 출력 테이블에 원래를 수정 하지 않고 입력된 테이블을만 변환 합니다.
+이러한 모든 함수의 경우 적용된 변환을 사용하는 새 테이블이 만들어집니다. 원래 테이블은 수정되지 않습니다. 수식을 사용 하여 기존 테이블을 수정할 수 없습니다. SharePoint, Common Data Service, SQL Server 및 기타 데이터 원본 목록, 엔터티 및 스키마 라고 자주 하는 테이블의 열을 수정 하기 위한 도구를 제공 합니다. 이 항목에서는 포함된 함수는 추가 사용을 위해 출력 테이블에 원래를 수정 하지 않고 입력된 테이블만 변환 합니다.
 
-이러한 함수에 대 한 인수에는 위임을 지원 합니다. 예를 들어, 한 **필터** 모든 샘플을 통해 검색 관련된 레코드를 인수로 사용 되는 함수 경우에는 **' [dbo]. [ AllListings]'** 데이터 소스는 백만 행을 포함 합니다.
+이러한 함수에 대한 인수에는 위임을 지원 합니다. 예를 들어, 관련된 레코드를 가져오는데 인수로 사용된 **Filter** 함수는 **'[dbo]. [ AllListings]'** 데이터 원본이 백만 행을 포함하는 경우라도 모든 샘플을 통해 검색 합니다.
 
 ```powerapps-dot
 AddColumns( RealEstateAgents, 
@@ -60,9 +60,9 @@ AddColumns( RealEstateAgents,
 )
 ```
 
-그러나 이러한 함수의 출력을 적용 하는 것은 [비-위임 레코드 제한](../delegation-overview.md#non-delegable-limits)합니다.  이 예제에서는 500 개의 레코드가 반환 됩니다 경우에 합니다 **RealEstateAgents** 데이터 원본에 레코드 501 이상.
+그러나 이러한 함수의 출력을 적용 하는 것은 [비-위임 레코드 제한](../delegation-overview.md#non-delegable-limits)합니다.  이 예제에서는 **RealEstateAgents** 데이터 원본에 레코드가 501개 이상 존재하더라도 500 개의 레코드가 반환 됩니다.
 
-사용 하는 경우 **AddColumns** 이런 방식으로 **필터** 의 해당 첫 번째 레코드의 각 데이터 원본에 대 한 별도 호출을 사용 해야 **RealEstateAgents**, 많은 경우 네트워크 chatter 합니다. 경우 **[dbo]. [ AllListings]** 가 너무 작고 변경 되지 않습니다 자주 호출할 수 있습니다 합니다 **수집** 함수 [ **OnStart** ](signals.md#app) 앱에서 데이터 원본 캐시 시작 되 면 합니다. 대신에 사용자를 요청 하는 경우에 관련된 레코드를 가져올 수 있도록 앱을 재구성할 수 있습니다.  
+이런 방식으로 **AddColumns**을 사용 하는 경우,  **Filter** 함수는 **RealEstateAgents**의 해당 첫 번째 레코드의 각 데이터 원본에 대한 별도 호출을 사용 해여, 많은 경우 네트워크 트래픽이 발생 합니다. 만약 **[dbo]. [ AllListings]** 이 아주 작고 변경 되지 않은 경우라면, 앱이 시작할때 데이터 원본을 캐시하도록 [ **OnStart** ](signals.md#app)에서 **Collect** 함수를 호출할 수 있습니다. 대신에 사용자를 요청 하는 경우에 관련된 레코드를 가져올 수 있도록 앱을 재구성할 수 있습니다.  
 
 ## <a name="syntax"></a>구문
 **AddColumns**( *Table*, *ColumnName1*, *Formula1* [, *ColumnName2*, *Formula2*, ... ] )
@@ -99,7 +99,7 @@ AddColumns( RealEstateAgents,
 | **AddColumns( IceCreamSales, "Revenue", UnitPrice * QuantitySold )** |**Revenue** 열을 결과에 추가합니다.  각 레코드의 경우 **UnitPrice * QuantitySold**가 평가되고 결과가 새 열에 배치됩니다. |<style> img { max-width: none; } </style> ![](media/function-table-shaping/icecream-add-revenue.png) |
 | **DropColumns( IceCreamSales, "UnitPrice" )** |**UnitPrice** 열을 결과에서 제외합니다. 이 함수를 사용하여 열을 제외하고 **ShowColumns**를 사용하여 포함합니다. |![](media/function-table-shaping/icecream-drop-price.png) |
 | **ShowColumns (IceCreamSales, "Flavor")** |**Flavor** 열만 결과에 포함합니다. 이 함수를 사용하여 열을 포함하고 **DropColumns**를 사용하여 제외합니다. |![](media/function-table-shaping/icecream-select-flavor.png) |
-| **RenameColumns( IceCreamSales, "UnitPrice", "Price")** |이름을 바꿉니다는 **UnitPrice** 결과의 열입니다. |![](media/function-table-shaping/icecream-rename-price.png) |
+| **RenameColumns( IceCreamSales, "UnitPrice", "Price")** |결과에서 **UnitPrice** 결과의 열 이름을 바꿉니다. |![](media/function-table-shaping/icecream-rename-price.png) |
 | **RenameColumns( IceCreamSales, "UnitPrice", "Price", "QuantitySold", "Number")** |결과에서 **UnitPrice** 및 **QuantitySold** 열의 이름을 바꿉니다. |![](media/function-table-shaping/icecream-rename-price-quant.png) |
 | **DropColumns(<br>RenameColumns(<br>AddColumns (IceCreamSales, "Revenue",<br>UnitPrice * QuantitySold ),<br>"UnitPrice", "Price" ),<br>"Quantity" )** |다음 테이블 변환을 수식의 내부부터 순서대로 수행합니다. <ol><li>**UnitPrice * Quantity**의 레코드별 계산을 기반으로 **Revenue** 열을 추가합니다.<li>**UnitPrice**의 이름을 **Price**로 변경합니다.<li>**Quantity** 열을 제외합니다.</ol>  순서는 중요합니다. 예를 들어 이름이 변경된 후에는 **UnitPrice**로 계산할 수 없습니다. |![](media/function-table-shaping/icecream-all-transforms.png) |
 
@@ -107,7 +107,7 @@ AddColumns( RealEstateAgents,
 
 이 항목의 앞부분에서 예제 중 일부를 사용해 보겠습니다.  
 
-1. 추가 하 여 컬렉션 만들기를 **[단추](../controls/control-button.md)** 컨트롤과 설정을 해당 **OnSelect** 속성을 다음이 수식:
+1. **[단추](../controls/control-button.md)** 컨트롤을 추가하여 컬렉션을 생성하고 해당 **OnSelect** 속성을 다음 수식으로 설정합니다:
 
     ```powerapps-dot
     ClearCollect( IceCreamSales, 
@@ -119,23 +119,23 @@ AddColumns( RealEstateAgents,
     )
     ```
 
-1. Alt 키를 누른 채 단추를 선택 하 여 수식을 실행 합니다.
+1. Alt 키를 누른 채 단추를 선택 하여 수식을 실행 합니다.
 
-1. 두 번째 추가 **단추** 컨트롤 해당 **OnSelect** 속성을이 수식으로 다음 실행:
+1. 두 번째 **단추** 컨트롤을 추가하고 해당 **OnSelect** 속성을 다음 수식으로 설정한 다음 실행합니다:
 
     ```powerapps-dot
     ClearCollect( FirstExample, 
         AddColumns( IceCreamSales, "Revenue", UnitPrice * QuantitySold )
     ) 
     ```
-1. 에 **파일** 메뉴에서 **컬렉션**를 선택한 후 **IceCreamSales** 해당 컬렉션에 표시할입니다.
+1. **파일** 메뉴에서 **컬렉션**를 선택한 후, **IceCreamSales** 을 선택하여 컬렉션을 표시합니다.
  
-    이 그래픽에서 볼 수 있듯이 두 번째 수식은이 컬렉션을 수정 되지 않았습니다. 합니다 **AddColumns** 사용 되는 함수 **IceCreamSales** 함수 하지 않은 인수에 지정 된 참조 하는 테이블을 수정 하는 데 읽기 전용 인수로;.
+    이 그래픽에서 볼 수 있듯이 두 번째 수식은 이 컬렉션을 수정 하지 않았습니다. **AddColumns** 함수는 읽기 전용 인수로 **IceCreamSales**를 사용합니다; 그 함수는 참조 하는 인수로 테이블을 수정 하지 않습니다.
     
     ![수입 열이 포함 되지 않은 아이스크림 판매 컬렉션의 세 개의 레코드를 보여 주는 컬렉션 뷰어](media/function-table-shaping/ice-cream-sales-collection.png)
 
-1. 선택 **FirstExample**합니다.
+1. **FirstExample**을 선택 합니다.
 
-    이 그림에서 두 번째 수식을 추가 된 열을 사용 하 여 새 테이블을 반환 합니다. 합니다 **ClearCollect** 함수에서 새 테이블을 캡처된 합니다 **FirstExample** 원본을 수정 하지 않고 함수를 통해 적용 된 대로 원래 테이블에 항목을 추가 하는 컬렉션:
+    이 그림에서 두 번째 수식은 추가 된 열을 사용 하여 새 테이블을 반환 합니다. **ClearCollect** 함수는 원본을 수정 하지 않고 함수를 통해 적용된 대로 원래 테이블에 항목을 추가 하는 **FirstExample** 컬렉션에서 새 테이블을 캡처 합니다:
 
     ![새 수입 열이 포함 된 첫 번째 예에서는 컬렉션의 세 개의 레코드를 보여 주는 컬렉션 뷰어](media/function-table-shaping/first-example-collection.png)
