@@ -31,7 +31,7 @@ ms.locfileid: "57799091"
 2. 단일 숫자를 포함하는 카드에서 줄임표(**...**)를 클릭하거나 누릅니다.
    
     ![최대 승인 보류 일 수 카드](./media/sharepoint-scenario-alerts-flow/07-01-01-tile-ellipsis.png)
-3. 종 모양 아이콘을 ![클릭하거나 누릅니다.](./media/sharepoint-scenario-alerts-flow/icon-bell.png)줄임표(...)를 클릭한 다음
+3. 종 모양 아이콘을 ![클릭하거나 누릅니다.](./media/sharepoint-scenario-alerts-flow/icon-bell.png) 클릭하거나 탭합니다.
    
     ![타일 메뉴](./media/sharepoint-scenario-alerts-flow/07-01-02-tile-bell.png)
 4. 오른쪽 창에서 **경고 규칙 추가**를 클릭하거나 누릅니다.
@@ -69,7 +69,7 @@ ms.locfileid: "57799091"
    
     ![완료 단추](./media/sharepoint-scenario-alerts-flow/07-01-12-done.png)
 
-[시나리오를 끝까지 실행](sharepoint-scenario-summary.md)할 때 이 흐름 실행을 확인합니다. 이제 Power BI 보고서를 SharePoint에 포함 시나리오에서 최근 작업으로 이동합니다.
+[시나리오를 끝까지 실행](sharepoint-scenario-summary.md)할 때 이 흐름 실행을 확인합니다. 이제 마지막 작업으로 Power BI 보고서를 SharePoint에 포함 시나리오로 이동합니다.
 
 ## <a name="next-steps"></a>다음 단계
 이 자습서 시리즈의 다음 단계에서는 [SharePoint Online에서 Power BI 프로젝트 보고서를 포함합니다](sharepoint-scenario-embed-report.md).
