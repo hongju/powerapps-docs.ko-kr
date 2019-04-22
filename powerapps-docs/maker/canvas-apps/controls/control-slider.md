@@ -137,4 +137,4 @@ ms.locfileid: "42830739"
 * 포커스 표시기가 명확하게 표시되어야 합니다. **[FocusedBorderColor](properties-color-border.md)** 및 **[FocusedBorderThickness](properties-color-border.md)** 를 사용하여 이를 달성합니다.
 * 슬라이더 값은 키보드를 조작할 때 표시되어야 합니다. 이 작업은 다음 방법 중 하나로 수행할 수 있습니다.
     * **ShowValue**를 **true**로 설정합니다.
-    * 슬라이더에 인접한 **[레이블](control-text-box.md)**을 추가합니다. 레이블의 **[Text](properties-core.md)**를 슬라이더의 **[Value](properties-core.md)** 로 설정합니다.
+    * 슬라이더에 인접한 **[레이블](control-text-box.md)** 을 추가합니다. 레이블의 **[Text](properties-core.md)** 를 슬라이더의 **[Value](properties-core.md)** 로 설정합니다.

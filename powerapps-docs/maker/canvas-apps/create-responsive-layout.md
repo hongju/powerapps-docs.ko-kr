@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 776a542d8e790cc9ae3591b6cda9f08d0d347ef7
-ms.sourcegitcommit: 38f91423933749ca19557f29e86cd8f5ad06e1eb
+ms.openlocfilehash: cad1d7f138a8f831631d9a57b55c54b30d537b9c
+ms.sourcegitcommit: 39c9b4cbc26617e302d46085d81c6d397e01fbf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/05/2019
-ms.locfileid: "59042781"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59671610"
 ---
 # <a name="create-responsive-layouts-in-canvas-apps"></a>반응 형 레이아웃에서 캔버스 앱 만들기
 
@@ -44,7 +44,7 @@ PowerApps의 캔버스 앱을 빌드하기 전에 휴대폰 또는 태블릿에 
 
 화면 크기에 대 한 변경 내용에 응답 하는 앱의 레이아웃을 만들려면 사용 하는 수식을 작성 합니다 **너비** 하 고 **높이** 화면의 속성입니다. 이러한 속성을 표시 하려면 PowerApps Studio 앱 열기 하 고 화면을 선택 합니다. 이러한 속성에 대 한 기본 수식을 표시 합니다 **고급** 오른쪽 창의 탭 합니다.
 
-**Width** = `Max(App.Width, App.DesignWidth)`
+**너비** = `Max(App.Width, App.DesignWidth)`
 
 **Height** = `Max(App.Height, App.DesignHeight)`
 
@@ -67,9 +67,9 @@ PowerApps의 캔버스 앱을 빌드하기 전에 휴대폰 또는 태블릿에 
 
 | 속성      | Value            |
 |--------|---------------|
-| **X**      | 0             |
-| **Y**      | 0             |
-| **너비**  | `Parent.Width`  |
+| **X**      | `0`             |
+| **Y**      | `0`             |
+| **Width**  | `Parent.Width`  |
 | **Height** | `Parent.Height` |
 
 이러한 수식을 사용 합니다 **부모** 연산자입니다. 화면에 직접 배치 되는 컨트롤에 대 한 **부모** 화면을 가리킵니다. 이러한 속성 값을 사용 하 여 컨트롤 (0, 0) 화면의 왼쪽 위 모서리에 표시 되 고 동일한 **너비** 하 고 **높이** 화면으로 합니다.
@@ -82,13 +82,13 @@ PowerApps의 캔버스 앱을 빌드하기 전에 휴대폰 또는 태블릿에 
 
 | 컨트롤 | 속성 | 수식           |
 |-|----------|-------------------|
-| **Upper** | **X**        | 0                 |
-| **Upper** | **Y**        | 0                 |
-| **Upper** | **너비**    | `Parent.Width`      |
-| **Upper** | **Height**   | `Parent.Height / 2` |
-| **Lower** | **X**        | 0                 |
+| **위** | **X**        | `0`                 |
+| **위** | **Y**        | `0`                 |
+| **위** | **Width**    | `Parent.Width`      |
+| **위** | **Height**   | `Parent.Height / 2` |
+| **Lower** | **X**        | `0`                 |
 | **Lower** | **Y**        | `Parent.Height / 2` |
-| **Lower** | **너비**    | `Parent.Width`      |
+| **Lower** | **Width**    | `Parent.Width`      |
 | **Lower** | **Height**   | `Parent.Height / 2` |
 
 ![위 높아지고 컨트롤](media/create-responsive-layout/dynamic-layout.png)
@@ -100,13 +100,13 @@ PowerApps의 캔버스 앱을 빌드하기 전에 휴대폰 또는 태블릿에 
 
 | 컨트롤 | 속성 | 수식           |
 |-|----------|-------------------|
-| **Upper** | **X**        | 0                 |
-| **Upper** | **Y**        | 0                 |
-| **Upper** | **너비**    | `Parent.Width`      |
-| **Upper** | **Height**   | `Parent.Height / 2` |
-| **Lower** | **X**        | 0                       |
+| **위** | **X**        | `0`                 |
+| **위** | **Y**        | `0`                 |
+| **위** | **Width**    | `Parent.Width`      |
+| **위** | **Height**   | `Parent.Height / 2` |
+| **Lower** | **X**        | `0`                       |
 | **Lower** | **Y**        | `Upper.Y + Upper.Height`  |
-| **Lower** | **너비**    | `Parent.Width`            |
+| **Lower** | **Width**    | `Parent.Width`            |
 | **Lower** | **Height**   | `Parent.Height - Lower.Y` |
 
 ![상위 및 하위 컨트롤 상대 크기 조정](media/create-responsive-layout/dynamic-layout2.png)
@@ -117,9 +117,9 @@ PowerApps의 캔버스 앱을 빌드하기 전에 휴대폰 또는 태블릿에 
 
 | C와 해당 부모 간의 관계 | 속성 | 수식 | 그림 |
 |--|--|--|--|
-| **C** 여백을 부모의 너비를 채웁니다 *N* | **X**| *N* | ![부모의 C 채우기 너비의 예](media/create-responsive-layout/c1.png) |
-|  | **너비** | `Parent.Width - (N * 2)` |  |
-| **C** 여백을 부모의 높이 채우는 *N* | **Y** | *N* | ![부모의 C 채우기 높이의 예](media/create-responsive-layout/c2.png) |
+| **C** 여백을 부모의 너비를 채웁니다 *N* | **X**| `N` | ![부모의 C 채우기 너비의 예](media/create-responsive-layout/c1.png) |
+|  | **Width** | `Parent.Width - (N * 2)` |  |
+| **C** 여백을 부모의 높이 채우는 *N* | **Y** | `N` | ![부모의 C 채우기 높이의 예](media/create-responsive-layout/c2.png) |
 |  | **Height** | `Parent.Height - (N * 2)` |  |
 | **C** 여백에 부모의 오른쪽 가장자리에 맞춥니다 *N* | **X** | `Parent.Width - (C.Width + N)` | ![부모의 가장자리에 맞게 조정 하는 C의 예](media/create-responsive-layout/c3.png) |
 | **C** 여백에 부모의 아래쪽 가장자리에 맞춥니다 *N* | **Y** | `Parent.Height - (C.Height + N)` | ![부모의 가장자리에 맞게 조정 하는 C의 예](media/create-responsive-layout/c4.png) |
@@ -129,7 +129,7 @@ PowerApps의 캔버스 앱을 빌드하기 전에 휴대폰 또는 태블릿에 
 | C 및 D 간의 관계 | 속성 | 수식 | 그림 |
 |--|--|--|--|
 | **C** 가로로 맞추어 **D** 와 동일한 너비로 **D** | **X** | `D.X` | ![패턴의 예](media/create-responsive-layout/d1.png) |
-|  | **너비**    | `D.Width` |  |
+|  | **Width**    | `D.Width` |  |
 | **C** 세로로 맞추어 **D** 와 같은 높이로 **D**  | **Y** | `D.Y` | ![패턴의 예](media/create-responsive-layout/d2.png) |
 |  | **Height** | `D.Height` |  |
 | 가장자리를 마우스 오른쪽 단추로 **C** 의 오른쪽 가장자리에 맞춥니다 **D** | **X** | `D.X + D.Width - C.Width` | ![패턴의 예](media/create-responsive-layout/d3.png) |
@@ -139,7 +139,7 @@ PowerApps의 캔버스 앱을 빌드하기 전에 휴대폰 또는 태블릿에 
 | **C** 의 오른쪽에 배치 **D** N 간격으로 | **X** | `D.X + D.Width - N` | ![패턴의 예](media/create-responsive-layout/d7.png) |
 | **C** 아래에 배치 **D** 간격으로 *N*             | **Y** | `D.Y + D.Height + N` | ![패턴의 예](media/create-responsive-layout/d8.png) |
 | **C** 사이 공백을 채웁니다 **D** 부모의 가장자리를 마우스 오른쪽 단추로 및 | **X** | `D.X + D.Width` | ![패턴의 예](media/create-responsive-layout/d9.png) |
-|  | **너비** | `Parent.Width - C.X` |  |
+|  | **Width** | `Parent.Width - C.X` |  |
 | **C** 사이 공백을 채웁니다 **D** 및 부모의 가장자리 아래쪽 | Y | `D.Y + D.Height` | ![패턴의 예](media/create-responsive-layout/d10.png) |
 
 ## <a name="hierarchical-layout"></a>계층형 레이아웃
@@ -164,10 +164,10 @@ PowerApps의 캔버스 앱을 빌드하기 전에 휴대폰 또는 태블릿에 
 
 | 속성 | 헤더 | 메뉴 | 닫기 | Title |
 |--|--|--|--|--|
-| **X** | 0  | 0 | `Parent.Width - Close.Width` | `Menu.X + Menu.Width` |
-| **Y** | 0 | 0 | 0 | 0 |
-| **너비**  | `Parent.Width` | `Parent.Height` | `Parent.Height` | `Close.X - Title.X` |
-| **Height** | 64 | `Parent.Height` | `Parent.Height` | `Parent.Height` |
+| **X** | `0`  | `0` | `Parent.Width - Close.Width` | `Menu.X + Menu.Width` |
+| **Y** | `0` | `0` | `0` | `0` |
+| **Width**  | `Parent.Width` | `Parent.Height` | `Parent.Height` | `Close.X - Title.X` |
+| **Height** | `64` | `Parent.Height` | `Parent.Height` | `Parent.Height` |
 
 에 대 한 합니다 **머리글** 컨트롤을 `Parent` 화면을 가리킵니다. 서로 `Parent` 가리킵니다 합니다 **헤더** 컨트롤입니다.
 
@@ -192,7 +192,7 @@ PowerApps의 캔버스 앱을 빌드하기 전에 휴대폰 또는 태블릿에 
 
 화면에 맞게 **너비** 하 고 **높이** 속성 장치 방향으로 이러한 수식을 사용할 수 있습니다.
 
-**Width** = `Max(App.Width, If(App.Width < App.Height, App.DesignWidth, App.DesignHeight))`
+**너비** = `Max(App.Width, If(App.Width < App.Height, App.DesignWidth, App.DesignHeight))`
 
 **Height** = `Max(App.Height, If(App.Width < App.Height, App.DesignHeight, App.DesignWidth))`
 
@@ -200,25 +200,67 @@ PowerApps의 캔버스 앱을 빌드하기 전에 휴대폰 또는 태블릿에 
 
 화면을 조정한 후 **너비** 하 고 **높이** 수식 수도 있습니다를 더욱 효율적으로 사용 가능한 공간을 사용 하 여 화면 내에서 컨트롤을 다시 정렬 하려면. 예를 들어, 화면의 절반을 차지 두 컨트롤의 각 세로 세로로 쌓을 하 하지만 환경에 나란히 정렬할 수 있습니다.
 
+화면을 사용할 수 있습니다 **방향을** 가로 또는 세로로 화면 방향 인지 확인 하는 속성입니다.
+
 > [!NOTE]
 > 가로 방향으로는 **위쪽** 하 고 **낮은** 컨트롤 왼쪽 및 오른쪽 컨트롤로 표시 합니다.
 
 | 컨트롤 | 속성 | 수식 |
 |--|----------|---|
-| **Upper** | **X** | 0 |
-| **Upper** | **Y** | 0 |
-| **Upper** | **너비** | `If(Parent.Width < Parent.Height, Parent.Width, Parent.Width / 2)` |
-| **Upper** | **Height**   | `If(Parent.Width < Parent.Height, Parent.Height / 2, Parent.Height)` |
-| **Lower** | X | `If(Parent.Width < Parent.Height, 0, Upper.X + Upper.Width)`  |
-| **Lower** | Y | `If(Parent.Width < Parent.Height, Upper.Y + Upper.Height, 0)` |
-| **Lower** | **너비** | `Parent.Width - Lower.X` |
+| **위** | **X** | `0` |
+| **위** | **Y** | `0` |
+| **위** | **Width** | `If(Parent.Orientation = Layout.Vertical, Parent.Height, Parent.Width, Parent.Width / 2)` |
+| **위** | **Height**   | `If(Parent.Orientation = Layout.Vertical, Parent.Height / 2, Parent.Height)` |
+| **Lower** | X | `If(Parent.Orientation = Layout.Vertical, 0, Upper.X + Upper.Width)`  |
+| **Lower** | Y | `If(Parent.Orientation = Layout.Vertical, Upper.Y + Upper.Height, 0)` |
+| **Lower** | **Width** | `Parent.Width - Lower.X` |
 | **Lower** | **Height** | `Parent.Height - Lower.Y` |
 
 ![세로 방향에 맞게 식](media/create-responsive-layout/portrait.png)
 
 ![가로 방향에 맞게 식](media/create-responsive-layout/landscape.png)
 
-### <a name="known-limitations"></a>알려진 제한 사항
+### <a name="screen-sizes-and-breakpoints"></a>화면 크기 및 중단점
+
+장치 크기에 따라 레이아웃을 조정할 수 있습니다. 화면의 **크기** 현재 장치 크기를 분류 하는 속성입니다. 크기는 양의 정수입니다. ScreenSize 형식 가독성에 도움이 되는 명명 된 상수를 제공 합니다. 이 테이블에는 상수를 나열 합니다.
+
+| 상수              | Value | 일반적인 장치 유형 (기본 앱 설정을 사용 하 여) |
+|-----------------------|-------|--------------------------------------------------|
+| ScreenSize.Small      | 1     | 전화                                            |
+| ScreenSize.Medium     | 2     | 세로 태블릿                          |
+| ScreenSize.Large      | 3     | 태블릿, 가로로 보유                        |
+| ScreenSize.ExtraLarge | 4     | 데스크톱 컴퓨터                                 |
+
+이러한 크기를 사용 하 여 앱의 레이아웃에 대 한 결정을 내릴 수 있습니다. 예를 들어, phone 크기가 장치에서 볼 수 있지만 고, 그렇지 표시 되지 않도록 컨트롤을 원한다 면 컨트롤의 설정 수 **Visible** 속성을 다음이 수식:
+
+`Parent.Size >= ScreenSize.Medium`
+
+이 수식으로 계산 되 **true** 중간 또는 큰 크기의 경우와 **false** 그렇지 않은 경우.
+
+화면 크기에 따라 화면 너비의 다른 부분을 차지 하는 컨트롤을 원한다 면 컨트롤의 설정 **너비** 속성을 다음이 수식:
+
+```
+Parent.Width *  
+    Switch(Parent.Size,  
+        ScreenSize.Small, 0.5,  
+        ScreenSize.Medium, 0.3,  
+        0.25)
+```
+이 수식은 3-보통 화면에서 화면 너비의 1/10 초 및 다른 모든 화면에서 화면 너비 사분기 작은 화면에서 화면 너비의 절반을 컨트롤의 너비를 설정합니다.
+
+## <a name="custom-breakpoints"></a>사용자 지정 중단점
+
+화면의 **크기** 속성은 화면을 비교 하 여 계산 **너비** 앱의 값으로 속성 **SizeBreakpoints** 속성입니다. 이 속성은 명명 된 화면 크기를 구분 하는 너비 중단점을 나타내는 숫자의 단일 열 테이블:
+
+태블릿 또는 웹에 대해 만든 앱에서 앱의 기본 값 **SizeBreakpoints** 속성은 **[600, 900, 1200]** 합니다. 휴대폰에 대해 만든 앱에서 값이 **[1200, 1800, 2400]** 합니다. (이러한 앱에는 다른 앱에서 사용 되는 좌표를 효과적으로 double 좌표를 사용 하기 때문에 phone 앱에 대 한 값을 두 배가 됩니다.)
+
+![App.SizeBreakpoints 속성의 기본값](media/create-responsive-layout/default-breakpoints.png)
+
+앱의 값을 변경 하 여 앱의 중단점을 사용자 지정할 수 있습니다 **SizeBreakpoints** 속성입니다. 선택 **앱** 트리 뷰에서 선택 **SizeBreakpoints** 속성의 목록을 연 후 수식 입력줄에서 값을 편집 합니다. 명명 된 화면 크기에 해당 앱에 필요한 있지만 크기를 1 ~ 4 많은 중단점을 만들 수 있습니다. 수식에서 숫자 값을 기준으로 초과 ExtraLarge 크기를 참조할 수 있습니다 (5, 6, 등).
+
+또한 더 적은 중단점을 지정할 수 있습니다. 예를 들어, 소형, 중형 및 대형 가능한 화면 크기 되도록 3 개 크기 (두 개의 중단점)만 앱 해야 할 수 있습니다.
+
+## <a name="known-limitations"></a>알려진 제한 사항
 
 제작 캔버스 크기 조정 수식 만든 응답 하지 않습니다. 반응 형 동작을 테스트 하려면 저장 하 고 앱을 게시 하 다음 장치에서 또는 다양 한 크기 및 방향의 브라우저 창에서 엽니다.
 

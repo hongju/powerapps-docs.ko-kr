@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: d13f4a0669ae9f0d7ef9a5f4ef7115e006256bd9
-ms.sourcegitcommit: d1d39d6b72516d62514af4ff90f04c35fbdd8638
+ms.openlocfilehash: 18bd89549aa330b5da333dccfd723887db38a36e
+ms.sourcegitcommit: 39c9b4cbc26617e302d46085d81c6d397e01fbf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/11/2019
-ms.locfileid: "59480242"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59671564"
 ---
 # <a name="acceleration-app-compass-connection-and-location-signals-in-powerapps"></a>PowerApps의 가속, 앱, 나침반, 연결 및 위치 신호 
 전 세계에서 사용자의 위치, 표시할 화면 등과 같이 앱 환경 관련 정보를 반환합니다.  
@@ -48,12 +48,13 @@ ms.locfileid: "59480242"
 | **App.Height** | 앱 실행 되는 창의 높이 반환 합니다. 설정한 경우 수식에서이 속성을 사용할 수 있습니다 합니다 **높이** 응답성이 뛰어난 앱을 빌드하는 화면의 속성입니다. |
 | **App.DesignWidth** | PowerApps Studio 앱의 너비를 반환합니다. 설정한 경우 수식에서이 속성을 사용할 수 있습니다 합니다 **너비** 응답성 있는 앱의 최소 너비를 확인 하려면 화면의 속성입니다.  |
 | **App.DesignHeight** | PowerApps Studio 앱의 높이 반환합니다. 설정한 경우 수식에서이 속성을 사용할 수 있습니다 합니다 **높이** 응답성 있는 앱의 최소 높이 확인 하려면 화면의 속성입니다.  |
+| **App.SizeBreakpoints** | 화면 크기를 구분 하는 숫자의 단일 열 테이블을 하는 범위를 [ **Screen.Size** ](../controls/control-screen.md) 속성 반환 합니다. 이 테이블의 값을 사용 하 여를 화면 앱의 모든 중단점에 맞게 변경할 수 있습니다.
 
 합니다 **앱** 개체에는 [동작 수식](../working-with-formulas-in-depth.md) 설정할 수 있는 합니다.
 
 | 속성  | 설명 |
 | --- | --- |
-| **OnStart** | 앱이 시작할 때의 동작입니다. 이 속성은 일반적으로 검색 하 고 사용 하 여 컬렉션으로 데이터를 캐시 사용 합니다 **[수집](function-clear-collect-clearcollect.md)** 함수를 사용 하 여 변수를 설정 합니다 **[설정](function-set.md)** 함수를 사용 하 여 초기 화면에 이동 합니다 **[Navigate](function-navigate.md)** 함수입니다. 이 수식은 첫 번째 화면이 표시 되기 전에 평가 됩니다. 컨텍스트 변수를 설정할 수 없습니다. 없는 화면 로드 되는 **[UpdateContext](function-updatecontext.md)** 함수입니다. 그러나 사용 하 여 상황에 맞는 변수를 전달할 수 있습니다 합니다 **Navigate** 함수입니다. |
+| **App.OnStart** | 앱이 시작할 때의 동작입니다. 결정권자가 검색 하 고 사용 하 여 컬렉션으로 데이터를 캐시의 경우이 속성을 사용 합니다 **[수집](function-clear-collect-clearcollect.md)** 함수를 사용 하 여 변수를 설정 합니다 **[설정](function-set.md)** 함수를 사용 하 여 초기 화면에 이동 합니다 **[Navigate](function-navigate.md)** 함수입니다. 이 수식은 첫 번째 화면이 표시 되기 전에 평가 됩니다. 컨텍스트 변수를 설정할 수 없습니다. 없는 화면 로드 되는 **[UpdateContext](function-updatecontext.md)** 함수입니다. 그러나 사용 하 여 상황에 맞는 변수를 전달할 수 있습니다 합니다 **Navigate** 함수입니다. |
 
 합니다 **앱** 왼쪽된 탐색 창에서 컨트롤의 계층적 목록 맨 위에 있는 개체가 표시 되 고 화면에 컨트롤과 같은이 개체를 선택할 수 있습니다. 개체를 선택한 후에 볼 수 있으며 수식 입력줄의 왼쪽 드롭다운 목록에서 해당 속성을 선택 하면 해당 속성 중 하나를 편집할 수 있습니다.  
 

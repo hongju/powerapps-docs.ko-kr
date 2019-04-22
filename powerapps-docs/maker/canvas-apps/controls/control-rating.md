@@ -82,7 +82,7 @@ ms.locfileid: "42830874"
    
     [컨트롤을 추가, 이름을 지정하고, 구성](../add-configure-controls.md)하는 방법을 모르시나요?
 2. **[텍스트 입력](control-text-input.md)** 컨트롤을 추가하고 **Qualitative**로 이름을 지정한 후 **등급** 컨트롤 아래로 이동합니다.
-3. **[텍스트 입력](control-text-input.md)**의 **[Default](properties-core.md)** 속성을 **""**로 설정하고 **HintText**를 다음 수식으로 설정합니다.
+3. **[텍스트 입력](control-text-input.md)** 의 **[Default](properties-core.md)** 속성을 **""** 로 설정하고 **HintText**를 다음 수식으로 설정합니다.
    <br>**If(Quantitative.Value > 3, "특별히 무엇을 하는 것이 좋았나요?", "개선하려면 어떻게 하나요?")**
    
     **[If](../functions/function-if.md)** 함수 또는 [다른 함수](../formula-reference.md)에 대해 더 알고 싶으신가요?

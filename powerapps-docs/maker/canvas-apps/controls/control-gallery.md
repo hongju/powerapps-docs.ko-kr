@@ -14,10 +14,10 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: ba5df28f03ec5e7c9a3d8146aecb0427d8145b13
-ms.sourcegitcommit: dc578df718420c7f19e4583d9e7002e69495e268
+ms.sourcegitcommit: f84095d964fe1fe5cc5290e5edbee284bd768e1e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2019
+ms.lasthandoff: 04/18/2019
 ms.locfileid: "59425314"
 ---
 # <a name="gallery-control-in-canvas-apps"></a>캔버스 앱의 갤러리 컨트롤
@@ -92,16 +92,16 @@ ms.locfileid: "59425314"
 
 ## <a name="related-functions"></a>관련된 함수
 
-[**필터**( *DataSource*하십시오 *수식* )](../functions/function-filter-lookup.md)
+[**Filter**( *DataSource*, *Formula* )](../functions/function-filter-lookup.md)
 
 ## <a name="examples"></a>예
 
 ### <a name="show-and-filter-data"></a>데이터 표시 및 필터링
 
 * [텍스트 표시](control-text-box.md#show-data-in-a-gallery)
-* [이미지를 표시 합니다.](control-image.md#show-a-set-of-images-from-a-data-source)
-* [목록 옵션을 선택 하 여 데이터를 필터링 합니다.](control-drop-down.md#example)
-* [슬라이더를 조정 하 여 데이터를 필터링 합니다.](control-slider.md#example)
+* [이미지 표시](control-image.md#show-a-set-of-images-from-a-data-source)
+* [목록 옵션을 선택하여 데이터 필터링](control-drop-down.md#example)
+* [슬라이더를 조정하여 데이터 필터링](control-slider.md#example)
 
 ### <a name="get-data-from-the-user"></a>사용자로부터 데이터 가져오기
 

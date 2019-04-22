@@ -14,10 +14,10 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 1a6465a00f135489d594bad75b8a25942e05dd25
-ms.sourcegitcommit: f4b71ea0996603b3358377a0da21b9e4428a287c
+ms.sourcegitcommit: f84095d964fe1fe5cc5290e5edbee284bd768e1e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2019
+ms.lasthandoff: 04/18/2019
 ms.locfileid: "58870934"
 ---
 # <a name="customize-a-canvas-app-form-in-powerapps"></a>PowerApps에서 캔버스 앱 양식 사용자 지정
@@ -49,12 +49,12 @@ Common Data Service에서 [앱을 생성](data-platform-create-app.md)한 다음
 1. 같은 필드를 숨기려면 **설명을**가리키면 나타나는 줄임표 (...)를 선택 하 고 다음을 선택 하 여 **제거**합니다.
 
     > [!div class="mx-imgBorder"]
-    > ![필드 목록](./media/customize-forms-sharepoint/hide-fields.png)
+    > ![필드의 목록](./media/customize-forms-sharepoint/hide-fields.png)
 
 1. 선택 하 여 필드를 보여 줍니다 **추가 필드**, 입력 또는 검색 상자, 필드의 확인란을 선택 하 고 선택한 다음 필드 이름의 처음 몇 문자를 붙여 **추가**합니다.
 
     > [!div class="mx-imgBorder"]
-    > ![필드 목록](./media/customize-forms-sharepoint/show-field.png)
+    > ![필드의 목록](./media/customize-forms-sharepoint/show-field.png)
 
 ## <a name="reorder-the-cards"></a>카드 재정렬
 
@@ -63,7 +63,7 @@ Common Data Service에서 [앱을 생성](data-platform-create-app.md)한 다음
     카드 **DetailForm1** 변경 내용을 반영 합니다.
 
     > [!div class="mx-imgBorder"]
-    > ![재정렬된 카드](./media/customize-forms-sharepoint/reordered-card.png)
+    > ![재정렬된 된 카드](./media/customize-forms-sharepoint/reordered-card.png)
 
 1. (선택 사항) 이 시퀀스에 다른 카드를 다시 정렬 합니다.
 
@@ -97,7 +97,7 @@ Common Data Service에서 [앱을 생성](data-platform-create-app.md)한 다음
 1. 하 고 변경 내용을 저장 하 고 돌아갑니다 오른쪽 위 모서리에 있는 확인 표시 아이콘을 선택한 모든 데이터를 추가할 **BrowseScreen1**합니다.
 
     > [!div class="mx-imgBorder"]
-    > ![레코드 저장](./media/customize-forms-sharepoint/save-record.png)
+    > ![레코드를 저장 합니다.](./media/customize-forms-sharepoint/save-record.png)
 
 1. 화살표를 선택 하 여 해당 항목에 대 한 세부 정보 표시를 방금 만든 항목에 대 한 **DetailScreen1**합니다.
 

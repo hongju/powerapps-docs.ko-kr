@@ -32,7 +32,7 @@ ms.locfileid: "42853685"
 
 ## <a name="key-properties"></a>주요 속성
 
-**[Default](properties-core.md)** – 사용자가 변경하기 전의 컨트롤의 값입니다.
+**[Default](properties-core.md)**  – 사용자가 변경하기 전의 컨트롤의 값입니다.
 
 **[Items](properties-core.md)** – 갤러리, 목록 또는 차트와 같은 컨트롤에 표시되는 데이터 원본입니다.
 

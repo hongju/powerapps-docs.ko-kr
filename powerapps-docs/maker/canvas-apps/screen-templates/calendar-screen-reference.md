@@ -14,10 +14,10 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: e3d5f40a604d2cbfa074ed5973d599c40a6c5c05
-ms.sourcegitcommit: 647e183c070c2159b790c7813a7be1d60b2551bd
+ms.sourcegitcommit: f84095d964fe1fe5cc5290e5edbee284bd768e1e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2019
+ms.lasthandoff: 04/18/2019
 ms.locfileid: "58765586"
 ---
 # <a name="reference-information-about-the-calendar-screen-template-for-canvas-apps"></a>캔버스 앱에 대한 일정 화면 템플릿에 대한 참조 정보
@@ -324,6 +324,6 @@ PowerApps의 캔버스 앱에 대한 일정 화면 템플릿의 각 중요한 �
 
 ## <a name="next-steps"></a>다음 단계
 
-- [이 화면에 자세히 알아보기](./calendar-screen-overview.md)
-- [PowerApps에서 Office 365 Outlook 커넥터에 자세히 알아보기](../connections/connection-office365-outlook.md)
-- [PowerApps에서 Office 365 사용자 커넥터에 자세히 알아보기](../connections/connection-office365-users.md)
+- [이 화면 자세히 알아보기](./calendar-screen-overview.md)
+- [PowerApps에서 Office 365 Outlook 커넥터 자세히 알아보기](../connections/connection-office365-outlook.md)
+- [PowerApps에서 Office 365 사용자 커넥터 자세히 알아보기](../connections/connection-office365-users.md)

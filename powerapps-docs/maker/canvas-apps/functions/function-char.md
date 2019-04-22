@@ -14,10 +14,10 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 1b598cc863ec01bcb2a66a9510cb48ec5203e679
-ms.sourcegitcommit: 38f91423933749ca19557f29e86cd8f5ad06e1eb
+ms.sourcegitcommit: f84095d964fe1fe5cc5290e5edbee284bd768e1e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/05/2019
+ms.lasthandoff: 04/18/2019
 ms.locfileid: "59042634"
 ---
 # <a name="char-function-in-powerapps"></a>PowerApps의 Char 함수
@@ -39,7 +39,7 @@ ms.locfileid: "59042634"
 | 수식 | 설명 | 결과 |
 | --- | --- | --- |
 | **Char( 65 )** |ASCII 코드 65에 해당하는 문자를 반환합니다. |"A" |
-| **Char (105)** |ASCII 코드 105에 해당하는 문자를 반환합니다. |"i" |
+| **Char( 105 )** |ASCII 코드 105에 해당하는 문자를 반환합니다. |"i" |
 | **Char( 35 )** |ASCII 코드 35에 해당하는 문자를 반환합니다. |"#" |
 
 ### <a name="display-a-character-map"></a>문자 매핑 표시

@@ -22,7 +22,7 @@ ms.locfileid: "58357417"
 ---
 # <a name="share-canvas-app-resources-in-powerapps"></a>PowerApps의 캔버스 앱 리소스 공유
 
-[캔버스 앱을 공유](share-app.md)하기 전에 다음 중 한 개 이상과 같이 주로 사용하려는 리소스 유형을 고려합니다.
+[캔버스 앱을 공유](share-app.md)하기 전에 다음 중 한 개 이상과 같이 의존하는 리소스 유형을 고려합니다.
 
 * Common Data Service에서 엔터티
 

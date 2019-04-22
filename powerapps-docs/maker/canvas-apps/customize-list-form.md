@@ -14,10 +14,10 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: d33f541ea698b02a662edb652f809095f47acc6e
-ms.sourcegitcommit: 38f91423933749ca19557f29e86cd8f5ad06e1eb
+ms.sourcegitcommit: f84095d964fe1fe5cc5290e5edbee284bd768e1e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/05/2019
+ms.lasthandoff: 04/18/2019
 ms.locfileid: "59042735"
 ---
 # <a name="customize-a-sharepoint-list-form-by-using-powerapps"></a>PowerApps를 사용하여 SharePoint 목록 양식 사용자 지정
@@ -41,7 +41,7 @@ SharePoint 사이트에서 목록을 만듭니다 하와 해당 목록에 이러
 > [!div class="mx-imgBorder"]
 > ![사이트 콘텐츠 선택 > 새로 만들기 > 목록에서 목록 이름 입력 하 고 만들기를 선택 합니다. 각 열에 대 한 추가 열을 선택, 목록 유형 지정 (예/아니요, 통화, 날짜, 선택 항목) 목록 이름 (세부 정보, 가격, 가용성, 색)을 지정 하 고 저장을 선택 합니다.](./media/customize-list-form/create-list.gif)
 
-## <a name="open-the-form"></a>폼을 엽니다
+## <a name="open-the-form"></a>폼 열기
 
 1. 명령 모음에서 선택 **PowerApps**를 선택한 후 **양식을 사용자 지정**합니다.
 
