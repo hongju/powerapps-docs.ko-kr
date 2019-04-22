@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 28357a6187831e05fe27075b8b22514950215ab4
-ms.sourcegitcommit: fc604f3e7f0399bdabee86ce94f67de49531a444
+ms.openlocfilehash: 43832847f447a9af8a05d149b0d6f3b564b770e1
+ms.sourcegitcommit: 0267e58b305f9fb0a4b32130fb149cd6e34b3354
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "58545064"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "59993806"
 ---
 # <a name="add-a-data-connection-to-a-canvas-app-in-powerapps"></a>PowerApps의 캔버스 앱에 데이터 연결 추가
 
@@ -58,7 +58,7 @@ PowerApps에 [등록](../signup-for-powerapps.md)한 다음, 등록에 사용한
 
     ![연결 추가](./media/add-data-connection/add-connection.png)
 
-1. 검색 창에서 원하는 연결의 처음 몇 문자를 입력 또는 붙여넣은 후, 연결이 표시되면 선택합니다.
+1. 검색 표시줄에 입력 또는 원하는 연결의 처음 몇 문자를 붙여 하 고 표시 되는 경우 연결을 선택 합니다.
 
     ![연결 검색](./media/add-data-connection/search-connections.png)
 
@@ -67,7 +67,7 @@ PowerApps에 [등록](../signup-for-powerapps.md)한 다음, 등록에 사용한
     **Office 365 Outlook**과 같은 일부 커넥터는 추가 단계가 필요하지 않으며 즉시 데이터를 표시할 수 있습니다. 다른 커넥터의 경우 자격 증명을 제공하고, 데이터의 특정 집합을 지정하거나 다른 단계를 수행하라는 메시지가 표시됩니다. 예를 들어 [SharePoint](connections/connection-sharepoint-online.md) 및 [SQL Server](connections/connection-azure-sqldatabase.md)는 사용하기 전에 추가 정보가 필요합니다.
 
 ## <a name="identify-or-change-a-data-source"></a>데이터 원본 식별 또는 변경
-앱을 업데이트하는 경우 갤러리, 양식 또는 다른 컨트롤에 표시되는 데이터의 원본을 식별하거나 변경해야 할 수 있습니다. 예를 들어 다른 사용자가 만들거나 자신이 오래전에 만든 앱을 업데이트할 때 데이터 원본을 식별해야 할 수 있습니다.
+앱을 업데이트하는 경우 갤러리, 양식 또는 다른 컨트롤에 표시되는 데이터의 원본을 식별하거나 변경해야 할 수 있습니다. 예를 들어, 다른 사람이 만든 앱을 업데이트 하거나 오래 전에 만든 데이터 원본을 식별 해야 합니다.
 
 1. 데이터 원본을 식별하거나 변경하려는 갤러리와 같은 컨트롤을 선택합니다.
 

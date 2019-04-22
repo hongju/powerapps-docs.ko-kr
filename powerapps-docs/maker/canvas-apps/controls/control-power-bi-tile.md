@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 82a7089ec14753a70d52d09024d1df527dbeb866
-ms.sourcegitcommit: a06e3137e3cb36414f0d61825bbc687487ea6f8c
+ms.openlocfilehash: fa5385d0da6572523300c267a4237b0d24c22bc1
+ms.sourcegitcommit: 0267e58b305f9fb0a4b32130fb149cd6e34b3354
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "57804266"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "59993944"
 ---
 # <a name="power-bi-tile-control-in-powerapps"></a>PowerApps의 Power BI 타일 컨트롤
 
@@ -48,7 +48,7 @@ Power BI 콘텐츠가 포함된 앱을 공유하는 경우 타일을 제공하�
 
 해당 값에 다음 구문을 추가합니다.
 
-```&$filter=<TableName>/<ColumnName> eq "<Value>" ```
+```&$filter=<TableName>/<ColumnName> eq '<Value>' ```
 
 매개 변수 타일이 만들어진 보고서의 데이터 집합의 값을 필터링 됩니다.
 

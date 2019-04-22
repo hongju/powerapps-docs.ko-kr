@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: d20c19e44f3fb247314613cdfe23e1d1e5820cba
-ms.sourcegitcommit: 0aa8344e6ff1096b67fbac6b986515ec2540e5fd
+ms.openlocfilehash: 88e0a74d2c25d1d2f5f571f4d1850417d1aab9ca
+ms.sourcegitcommit: 0267e58b305f9fb0a4b32130fb149cd6e34b3354
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "59541818"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "59993829"
 ---
 # <a name="shape-controls-and-icon-controls-in-powerapps"></a>PowerApps의 도형 컨트롤 및 아이콘 컨트롤
 모양 및 동작 속성을 구성할 수 있는 그래픽입니다.
@@ -26,10 +26,18 @@ ms.locfileid: "59541818"
 ## <a name="description"></a>설명
 이러한 컨트롤에는 fill, size 및 location 등의 속성을 구성할 수 있는 화살표, 기하학적 도형, 작업 아이콘 및 기호가 있습니다. 구성할 수도 있습니다 해당 **[OnSelect](properties-core.md)** 속성 앱이 사용자가 컨트롤을 선택 하는 경우 응답 수 있도록 합니다.
 
-## <a name="key-properties"></a>주요 속성
+## <a name="key-properties-icons-and-shapes"></a>키 속성 (아이콘 및 셰이프)
 **[Fill](properties-color-border.md)** - 컨트롤의 배경색입니다.
 
 **[OnSelect](properties-core.md)**  – 사용자가 컨트롤을 선택 하는 경우 앱이 응답 하는 방법입니다.
+
+## <a name="key-properties-icons-only"></a>키 속성 (아이콘에만 해당)
+
+**아이콘** -표시할 아이콘 유형 (예를 들어 **ArrowDown** 하거나 **ShoppingCart**). 
+
+**회전** -아이콘 회전 각도 (도)의 수입니다. 
+
+**색** -이름이 나 RGBA 값으로 아이콘의 색입니다.
 
 ## <a name="additional-properties"></a>추가 속성
 **[AccessibleLabel](properties-accessibility.md)** – 화면 읽기 프로그램의 레이블입니다.

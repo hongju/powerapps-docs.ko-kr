@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: cad1d7f138a8f831631d9a57b55c54b30d537b9c
-ms.sourcegitcommit: 39c9b4cbc26617e302d46085d81c6d397e01fbf7
+ms.openlocfilehash: ddd11ddd40792ef1042536041554737ddb16547b
+ms.sourcegitcommit: 0267e58b305f9fb0a4b32130fb149cd6e34b3354
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59671610"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "59993921"
 ---
 # <a name="create-responsive-layouts-in-canvas-apps"></a>반응 형 레이아웃에서 캔버스 앱 만들기
 
@@ -209,7 +209,7 @@ PowerApps의 캔버스 앱을 빌드하기 전에 휴대폰 또는 태블릿에 
 |--|----------|---|
 | **위** | **X** | `0` |
 | **위** | **Y** | `0` |
-| **위** | **Width** | `If(Parent.Orientation = Layout.Vertical, Parent.Height, Parent.Width, Parent.Width / 2)` |
+| **위** | **Width** | `If(Parent.Orientation = Layout.Vertical, Parent.Width, Parent.Width / 2)` |
 | **위** | **Height**   | `If(Parent.Orientation = Layout.Vertical, Parent.Height / 2, Parent.Height)` |
 | **Lower** | X | `If(Parent.Orientation = Layout.Vertical, 0, Upper.X + Upper.Width)`  |
 | **Lower** | Y | `If(Parent.Orientation = Layout.Vertical, Upper.Y + Upper.Height, 0)` |

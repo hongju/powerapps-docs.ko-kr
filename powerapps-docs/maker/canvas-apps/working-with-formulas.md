@@ -116,12 +116,12 @@ Excel에서 예를 들어 음수 값은 빨간색을 표시 하려면 수식 조
     ![슬라이더 정렬 후 각 색상의 구성 요소에 대한 레이블 추가](./media/working-with-formulas/three-sliders.png)
 3. 각 슬라이더의 **Max** 속성 값을 **[RGBA](functions/function-colors.md)** 함수에 대한 색상 구성 요소의 최대 값인 255로 설정합니다.
 
-    **콘텐츠** 탭 또는 속성 목록에서 **최대** 속성 값을 선택하여 지정할 수 있습니다.
+    **콘텐츠** 탭 또는 속성 목록에서 **Max** 속성을 선택하여 값을 지정할 수 있습니다.
 
     ![각 슬라이더의 최대 값 변경](./media/working-with-formulas/three-sliders-max.png)
 4. 어떤 컨트롤도 선택하지 않고 클릭하여 화면을 선택한 후 화면의 **[Fill](controls/properties-color-border.md)** 속성을 다음 수식으로 설정합니다.<br>**RGBA( Slider1.Value, Slider2.Value, Slider3.Value, 1 )**
 
-    앞서 설명한 대로 **.** 연산자를 사용하여 컨트롤 속성에 액세스합니다.  **Slider1.Value**는 **최소** 값과 **최대** 값 사이에 사용자가 슬라이더를 배치하도록 반영한 값인 슬라이더의 **[값](controls/properties-core.md)** 속성을 의미합니다. 이 수식을 입력하면서 포함된 각 컨트롤은 화면과 수식 입력줄 사이에서 색상이 코딩됩니다.
+    앞서 설명한 대로 **.** 연산자를 사용하여 컨트롤 속성에 액세스합니다.  **Slider1.Value**는 **최소** 값과 **최대** 값 사이에 사용자가 슬라이더를 배치하도록 한 값을 반영하는 슬라이더의 **[Value](controls/properties-core.md)** 속성을 의미합니다. 이 수식을 입력하면, 포함된 각 컨트롤은 화면과 수식 입력줄 사이에서 색상이 코딩됩니다.
 
     ![화면의 배경 채우기 색상에 대한 수식을 미완료 상태로 변경](./media/working-with-formulas/three-sliders-partial-rgba.png)
 
