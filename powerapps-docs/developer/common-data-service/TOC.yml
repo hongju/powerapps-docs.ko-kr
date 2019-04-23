@@ -89,6 +89,8 @@ items:
       href: logging-tracing.md
     - name: 성능 분석
       href: analyze-performance.md
+    - name: 플러그 인 문제 해결
+      href: troubleshoot-plug-in.md
     - name: 외부 웹 리소스 액세스
       href: access-web-services.md
     - name: 자습서
@@ -415,9 +417,9 @@ items:
     href: solution-component-file-reference-solutionpackager.md
   - name: FetchXML 스키마
     href: fetchxml-schema.md
-ms.openlocfilehash: 3a162e476d0d3c9c4935d185b9e3942c86960edd
-ms.sourcegitcommit: 5b2b70c3fc7bcba5647d505a79276bbaad31c610
+ms.openlocfilehash: a3abd4ea8567ef434d48e48bf757e252f49cdea5
+ms.sourcegitcommit: 0267e58b305f9fb0a4b32130fb149cd6e34b3354
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58357049"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "59993852"
