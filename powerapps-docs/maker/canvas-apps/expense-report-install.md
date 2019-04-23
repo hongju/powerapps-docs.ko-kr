@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 4640c1f3fcab1382ec70573cea2ac259cf8b2a30
-ms.sourcegitcommit: 5c098a62f66a2f33418967fdce9363bd529e0fc1
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "58581073"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61560957"
 ---
 # <a name="install-and-configure-the-expense-report-sample-for-canvas-apps-in-powerapps"></a>PowerApps의 캔버스 앱에 대한 경비 보고서 샘플 설치 및 구성 | Microsoft Docs
 
@@ -67,7 +67,7 @@ ms.locfileid: "58581073"
 4. **열 만들기**를 클릭합니다.
 5. **열 이름** 텍스트 상자에 **비용 센터**를 입력합니다.
 6. **이 열의 정보 형식** 라디오 단추 목록에서 **선택**을 선택합니다.
-7. **각 선택 사항을 별도의 줄에 입력** 텍스트 상자에서 별도의 줄에 각각 다음 값을 입력합니다. 
+7. **별도의 줄에 각 선택 입력** 텍스트 상자에서 별도의 줄에 각각 다음 값을 입력합니다. 
     - Microsoft
     - Contoso
 8. **기본값** 텍스트 상자에 **Microsoft**를 입력합니다.
@@ -88,7 +88,7 @@ ms.locfileid: "58581073"
 4. **열 만들기**를 클릭합니다.
 5. **열 이름** 텍스트 상자에 **상태**를 입력합니다.
 6. **이 열의 정보 형식** 라디오 단추 목록에서 **선택**을 선택합니다.
-7. **각 선택 사항을 별도의 줄에 입력** 텍스트 상자에서 별도의 줄에 각각 다음 값을 입력합니다. 
+7. **별도의 줄에 각 선택 입력** 텍스트 상자에서 별도의 줄에 각각 다음 값을 입력합니다. 
     - 개방성
     - 보류 중
     - Approved

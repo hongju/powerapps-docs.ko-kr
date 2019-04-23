@@ -21,11 +21,11 @@ search.app:
 - PowerApps
 - D365CE
 ms.openlocfilehash: 60e489ffd35f0e07f9a22f65336b242b7e0e2652
-ms.sourcegitcommit: 5b2b70c3fc7bcba5647d505a79276bbaad31c610
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58357831"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61528415"
 ---
 # <a name="best-practices-and-guidance-regarding-plug-in-and-workflow-development-for-the-common-data-service"></a>Common Data Service의 플러그 인 및 워크플로 개발에 관한 모범 사례 및 지침
 

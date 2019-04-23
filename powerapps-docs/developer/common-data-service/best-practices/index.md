@@ -21,11 +21,11 @@ search.app:
 - PowerApps
 - D365CE
 ms.openlocfilehash: c89042e1f94e6f891bfdc255c38f72929c27cb1e
-ms.sourcegitcommit: 5b2b70c3fc7bcba5647d505a79276bbaad31c610
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58357348"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61528369"
 ---
 # <a name="best-practices-and-guidance-for-the-common-data-service"></a>Common Data Service에 대한 모범 사례 및 지침
 
