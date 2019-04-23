@@ -69,7 +69,7 @@ PowerApps 구독이 없는 경우 시작하기 전에 [체험 계정을 만듭�
 
     ![필드 선택](media/embed-powerapps-powerbi/select-fields.png)
 
-4. 사용자 지정 시각적 개체 타일에서 앱을 만들려는 PowerApps 환경을 선택한 다음, **새로 만들기**를 클릭하거나 탭합니다.
+4. 사용자 지정 시각적 개체 타일에서 앱을 만들려는 PowerApps 환경을 선택한 다음, **Create new**를 클릭하거나 탭합니다.
 
     ![새 앱 만들기](media/embed-powerapps-powerbi/create-new-app.png)
 
