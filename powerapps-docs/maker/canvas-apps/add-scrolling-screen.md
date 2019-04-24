@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 7094c42c8b070095d08d33a276785cce36933407
-ms.sourcegitcommit: 6851486b8a44d76b6d87837952b7a7f38a8752b6
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "53570285"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61553195"
 ---
 # <a name="add-a-scrolling-screen-to-a-canvas-app-in-powerapps"></a>PowerApps의 캔버스 앱에 스크롤 화면 추가
 

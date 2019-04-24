@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 5d20e2324f2efb4f866ed4fc183f289733c10a41
-ms.sourcegitcommit: 212d397284c431f5989dc7b39549e2fc170d447e
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "58491668"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61560470"
 ---
 # <a name="timer-control-in-powerapps"></a>PowerApps의 타이머 컨트롤
 일정 시간이 지난 후 앱이 응답하는 방식을 결정할 수 있는 컨트롤입니다.
@@ -31,7 +31,7 @@ ms.locfileid: "58491668"
 
 
 ## <a name="key-properties"></a>주요 속성
-**Duration** – 타이머가 실행되는 시간(밀리초)입니다. 최대 값이 없습니다.
+**Duration** – 타이머가 실행되는 시간(밀리초)입니다.  최대 값이 없습니다.
 
 **OnTimerEnd** - 타이머 실행이 완료될 때 앱이 응답하는 방식입니다.
 
@@ -142,7 +142,7 @@ ms.locfileid: "58491668"
 
     **[ColorFade](../functions/function-colors.md)** 함수 또는 [다른 함수](../formula-reference.md)에 대해 더 알고 싶으신가요?
 
-5. 타이머 단추를 선택하여 애니메이션을 시작 또는 중지합니다. 레이블의 텍스트가 흰색으로 흐려지며, 진한 색으로 돌아가는 프로세스를 반복합니다.
+5. 타이머 단추를 선택하여 애니메이션을 시작 또는 중지합니다. 레이블의 텍스트가 흰색으로 흐려졌다가 진한 색으로 돌아가는 프로세스를 반복합니다.
 
 ## <a name="accessibility-guidelines"></a>접근성 지침
 사용자와 상호 작용하는 경우라면 **타이머** 컨트롤에는 **[단추](control-button.md)** 컨트롤과 동일한 지침이 적용됩니다.

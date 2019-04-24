@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: f52338d4eed8942259e7ae15a8df3b05c45a703d
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.openlocfilehash: c255daf93cdb4807572f1a663c7bb87be0bb39e1
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42837015"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61536727"
 ---
 # <a name="save-and-publish-a-canvas-app-in-powerapps"></a>PowerApps에서 캔버스 앱 저장 및 게시
 캔버스 앱에 대한 변경 내용을 저장할 때마다 사용자와 앱을 편집할 수 있는 권한이 있는 다른 모든 사람에 대해서만 자동으로 게시합니다. 변경이 끝나면 앱이 공유된 모든 사용자가 사용할 수 있도록 명시적으로 게시해야 합니다.
@@ -60,5 +60,6 @@ PowerApps는 정기적으로 2분마다 앱을 저장할 수 있습니다. 앱�
 최신 버전을 게시하려면 **이 버전 게시**를 클릭하거나 누른 다음 **게시** 대화 상자에서 **이 버전 게시**를 클릭하거나 누릅니다.
 
 ## <a name="next-steps"></a>다음 단계
+* 찾기 및 앱 실행을 [브라우저](../../user/run-app-browser.md) 또는 [phone](../../user/run-app-client.md)합니다.
 * powerapps.com에서 [앱 이름 바꾸기](set-name-tile.md)
 * 앱의 여러 버전이 있는 경우 [앱 복원](restore-an-app.md)

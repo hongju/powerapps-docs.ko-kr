@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 4aae487a0b2efe50e3ac6bd42c90d26de23fed60
-ms.sourcegitcommit: ead27300a1b7371136edee1842829ed87ca77a72
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57892279"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61553795"
 ---
 # <a name="build-global-support-into-canvas-apps"></a>캔버스 앱에 글로벌 지원 빌드
 PowerApps는 글로벌 제품입니다. 많은 다양한 언어와 지역에서 캔버스 앱을 빌드하고 사용할 수 있습니다.
@@ -28,7 +28,7 @@ PowerApps는 글로벌 제품입니다. 많은 다양한 언어와 지역에서 
 사용자가 만드는 앱도 전 세계적으로 알려질 수 있습니다.  **[Language](functions/function-language.md)**, **[Text](functions/function-text.md)**, **[Value](functions/function-value.md)**, **[DateValue](functions/function-datevalue-timevalue.md)** 및 기타 함수를 사용하여 다른 언어에서 입력으로 표시 및 사용되는 것을 변경합니다.   
 
 ## <a name="language-settings"></a>언어 설정
-네이티브 스튜디오 또는 플레이어를 사용할 경우 사용하는 언어는 호스트 운영 체제에서제공합니다.  Windows의 경우 "모든 설정" 및 "시간 및 언어" 설정에서 제어할 수 있습니다.  Windows에서도 사용자가 소수 구분 기호에 사용할 문자를 지정하여 언어 설정을 재정의하도록 허용합니다.  
+네이티브 스튜디오 또는 플레이어를 사용할 경우 사용하는 언어는 호스트 운영 체제에서 제공합니다.  Windows의 경우 "모든 설정" 및 "시간 및 언어" 설정에서 제어할 수 있습니다.  Windows에서도 사용자가 소수 구분 기호에 사용할 문자를 지정하여 언어 설정을 재정의하도록 허용합니다.  
 
 웹 환경을 사용할 경우 사용하는 언어는 브라우저에서 제공합니다.  대부분 브라우저는 호스트 운영 체제로 기본 설정되며 일부는 언어를 수동으로 설정할 수 있는 방법을 제공하기도 합니다.
 
@@ -48,7 +48,7 @@ PowerApps는 글로벌 제품입니다. 많은 다양한 언어와 지역에서 
 
 ![](media/global-apps/insert-controls-es.png)
 
-다음 중 하나를 앱에 삽입하면 해당 이름이 영어로 기본 지정됩니다.  컨트롤 속성 이름과 식의 나머지 부분의 일관성을 위해 수행합니다.  예를 들어 위에 목록에 있는 **Casilla**는 **Checkbox1**으 삽입됩니다.  
+다음 중 하나를 앱에 삽입하면 해당 이름이 영어로 기본 지정됩니다.  이것은 컨트롤 속성 이름과 식의 나머지 부분의 일관성을 위해 수행됩니다.  예를 들어 위의 목록에 있는 **Casilla**는 **Checkbox1**으로 삽입됩니다.  
 
 컨트롤을 삽입한 후 원하는 이름으로 변경할 수 있습니다.  선택된 상태에서 “콘텐츠” 리본의 맨 왼쪽은 컨트롤의 이름을 표시합니다.  이 이름을 선택하면 이름을 편집할 수 있는 텍스트 상자가 드롭다운됩니다.
 
@@ -70,17 +70,17 @@ PowerApps는 글로벌 제품입니다. 많은 다양한 언어와 지역에서 
 | **.** (점 또는 마침표) |**.** (점 또는 마침표) |**,**(쉼표) |**;**(세미콜론) |
 | **,**(쉼표) |**,**(쉼표) |**;**(세미콜론) |**;;**(이중 세미콜론) |
 
-PowerApps 목록 구분 기호의 변경 사항이 Excel 목록 구분 기호의 변경 상황과 일치합니다.  미치는 영향:
+PowerApps 목록 구분 기호의 변경 사항이 Excel 목록 구분 기호의 변경 사항과 일치합니다.  이는 다음에 영향을 미칩니다.
 
 * 함수 호출의 인수
 * [레코드](working-with-tables.md#elements-of-a-table)의 필드
 * [값 테이블](working-with-tables.md#inline-syntax)의 레코드
 
-예를 들어, 언어 및 소수 구분 기호로, 일본 등 United Kingdom 점 또는 마침표를 사용 하는 영역 표현 하는 다음 수식을 고려 합니다.
+예를 들어, 일본과 영국 같은 소수 구분 기호로 점 또는 마침표를 사용하는 언어나 지역에서는 다음 수식을 고려합니다.
 
 ![PowerApps 수식 오픈 괄호 slider1 점 값을 쉼표로 12 점 59 보다 큰 경우 알림 오픈 괄호 "유효!" 쉼표로 성공 닫기 괄호 열고 닫는 괄호 없음 "NextScreen" 쉼표로 괄호 세미콜론 탐색 쉼표로 알림 오픈 괄호 "잘못 된 경우 다시 시도" 쉼표로 오류 닫기 괄호 닫기 괄호](media/global-apps/operators-dot.png)
 
-이제 언어 및 지역을는 프랑스 등 스페인 소수 구분 기호로 쉼표를 사용 하는 위치에서이 동일한 수식을 보려면:
+이제 프랑스, 스페인 같은 소수 구분 기호로 쉼표를 사용하는 언어나 지역에서의 동일한 수식을 봅니다.
 
 ![PowerApps 수식 오픈 괄호 slider1 점 값 12 쉼표로 세미콜론 59 보다 큰 경우 알림 오픈 괄호 "유효!" 세미콜론으로 성공 닫기 괄호 이중 세미콜론 탐색 열린 괄호 "NextScreen" None 닫기 괄호는 세미콜론으로 세미콜론으로 알림 오픈 괄호 "잘못 된 경우 다시 시도" 세미콜론 오류 닫기 괄호 닫기 괄호](media/global-apps/operators-comma.png)
 

@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 3adb036a1619263d2b8cef1f649c2d2f97925ceb
-ms.sourcegitcommit: 825daacc9a812637815afc1ce6fad28f0cebd479
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "57803139"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61543909"
 ---
 # <a name="patch-function-in-powerapps"></a>PowerApps의 Patch 함수
 [데이터 원본](../working-with-data-sources.md)의 [레코드](../working-with-tables.md#records)를 하나 이상 수정 또는 생성하거나 데이터 원본 외부의 레코드를 병합합니다.

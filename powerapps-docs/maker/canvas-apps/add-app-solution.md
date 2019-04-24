@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: dcb6a9c69e602b739d58afde2242d18b60e6f477
-ms.sourcegitcommit: 5b2b70c3fc7bcba5647d505a79276bbaad31c610
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58356819"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61540528"
 ---
 # <a name="create-a-canvas-app-from-within-a-solution"></a>솔루션 내에서 캔버스 앱 만들기
 
@@ -54,7 +54,7 @@ ms.locfileid: "58356819"
     > [!div class="mx-imgBorder"]
     > ![새 솔루션에 대 한 옵션](./media/add-app-solution/configure-new-solution.png "새 솔루션에 대 한 옵션")
 
-     이름(공백 없음)은 지정하는 표시 이름에 따라 자동으로 생성되지만 원하는 경우 생성된 이름을 사용자 지정할 수 있습니다. 특별한 요구사항이 없다면 사용자 환경에 대한 기본 게시자와 버전 **1.0**을 지정할 수 있습니다.
+    이름(공백 없음)은 지정하는 표시 이름에 따라 자동으로 생성되지만 원하는 경우 생성된 이름을 사용자 지정할 수 있습니다. 특별한 요구사항이 없다면 사용자 환경에 대한 기본 게시자와 버전 **1.0**을 지정할 수 있습니다.
 
 1. 왼쪽 위 모서리 근처의 **저장 후 닫기**를 선택합니다.
 
@@ -100,7 +100,7 @@ ms.locfileid: "58356819"
 
 1. 필요한 경우 앱을 연결 하려는 솔루션을 포함 하는 환경으로 전환 합니다.
 
-1. 왼쪽된 탐색 모음에서 **솔루션**을 선택합니다.
+1. 왼쪽 탐색 모음에서 **솔루션**을 선택합니다.
 
     > [!div class="mx-imgBorder"]
     > ![왼쪽된 탐색 모음에서 솔루션 옵션](./media/add-app-solution/left-nav.png "왼쪽된 탐색 모음에서 솔루션 옵션")

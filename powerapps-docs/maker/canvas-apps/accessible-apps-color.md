@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 586c82804380846ef400f020c4ce55c07262730f
-ms.sourcegitcommit: 4db9c763455d141a7e1dd569a50c86bd9e50ebf0
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "57802035"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61549976"
 ---
 # <a name="accessible-colors-for-canvas-apps-in-powerapps"></a>PowerApps의 캔버스 앱에 액세스 가능한 색
 캔버스 앱에서 사용되는 색은 색맹 및 저시력 사용자가 액세스할 수 있어야 합니다. 모든 PowerApps 테마는 기본적으로 액세스할 수 있습니다. 앱에서 사용되는 색을 수정할 경우 다음 지침에 따라 색에 계속 액세스할 수 있는지 확인합니다. 색 대비 문제를 식별하는 데 도움이 되는 온라인으로 사용 가능한 여러 도구가 있습니다.

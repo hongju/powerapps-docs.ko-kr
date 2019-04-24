@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 07548ff8fb14626543472b72ea52b80c858eeb0e
-ms.sourcegitcommit: 825daacc9a812637815afc1ce6fad28f0cebd479
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "57803668"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61556415"
 ---
 # <a name="use-cognitive-services-in-powerapps"></a>PowerApps에서 Cognitive Services 사용
 이 문서를 사용 하는 기본 캔버스 앱을 빌드하는 방법을 보여 줍니다.는 [Azure Cognitive Services 텍스트 분석 API](https://docs.microsoft.com/azure/cognitive-services/text-analytics/overview) 텍스트를 분석 합니다. Text Analytics API를 설정하고 [Text Analytics 커넥터](https://docs.microsoft.com/connectors/cognitiveservicestextanalytics/)와 연결하는 방식을 보여주고, 그런 다음, API를 호출하는 캔버스 앱을 빌드하는 방법을 살펴보겠습니다.

@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 3fd93ce6cf9703e9e9fbf69c5826213d9aa78e02
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42863571"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61519182"
 ---
 # <a name="shuffle-function-in-powerapps"></a>PowerApps의 Shuffle 함수
 [테이블](../working-with-tables.md)의 [레코드](../working-with-tables.md#records)를 무작위로 다시 정렬합니다.

@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: e3d5f40a604d2cbfa074ed5973d599c40a6c5c05
-ms.sourcegitcommit: 647e183c070c2159b790c7813a7be1d60b2551bd
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2019
-ms.locfileid: "58765586"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61539104"
 ---
 # <a name="reference-information-about-the-calendar-screen-template-for-canvas-apps"></a>캔버스 앱에 대한 일정 화면 템플릿에 대한 참조 정보
 
@@ -41,7 +41,7 @@ PowerApps의 캔버스 앱에 대한 일정 화면 템플릿의 각 중요한 �
 
 ![dropdownCalendarSelection 컨트롤](media/calendar-screen/calendar-dropdown.png)
 
-- 속성: **항목**<br>
+- 속성: **Items**<br>
     값: `Office365.CalendarGetTables().value`
 
     이 값은 앱 사용자의 Outlook 일정을 검색하는 커넥터 작업입니다. 이 작업이 검색하는 [값](https://docs.microsoft.com/connectors/office365/#entitylistresponse[table])을 확인할 수 있습니다.
@@ -205,7 +205,7 @@ PowerApps의 캔버스 앱에 대한 일정 화면 템플릿의 각 중요한 �
 
 ![MonthDayGallery 컨트롤](media/calendar-screen/calendar-month-gall.png)
 
-- 속성: **항목**<br>
+- 속성: **Items**<br>
     값: `[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,
     20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41]`
   
@@ -308,7 +308,7 @@ PowerApps의 캔버스 앱에 대한 일정 화면 템플릿의 각 중요한 �
 
 ![CalendarEventsGallery 컨트롤](media/calendar-screen/calendar-events-gall.png)
 
-- 속성: **항목**<br>
+- 속성: **Items**<br>
     값: 정렬 하 고 이벤트 갤러리를 필터링 하는 수식:
 
     ```powerapps-dot
@@ -324,6 +324,6 @@ PowerApps의 캔버스 앱에 대한 일정 화면 템플릿의 각 중요한 �
 
 ## <a name="next-steps"></a>다음 단계
 
-- [이 화면에 자세히 알아보기](./calendar-screen-overview.md)
-- [PowerApps에서 Office 365 Outlook 커넥터에 자세히 알아보기](../connections/connection-office365-outlook.md)
-- [PowerApps에서 Office 365 사용자 커넥터에 자세히 알아보기](../connections/connection-office365-users.md)
+- [이 화면 자세히 알아보기](./calendar-screen-overview.md)
+- [PowerApps에서 Office 365 Outlook 커넥터 자세히 알아보기](../connections/connection-office365-outlook.md)
+- [PowerApps에서 Office 365 사용자 커넥터 자세히 알아보기](../connections/connection-office365-users.md)

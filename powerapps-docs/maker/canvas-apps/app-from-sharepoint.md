@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 042819241a40b9ad01f95085faf23b6393f62559
-ms.sourcegitcommit: c6ad6ba7814c5e7b12c3b7b76bf2e7718bf41b8c
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58198593"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61552813"
 ---
 # <a name="generate-a-canvas-app-in-powerapps-from-a-sharepoint-list"></a>SharePoint 목록에서 PowerApps에 캔버스 앱 생성
 
@@ -99,4 +99,4 @@ SharePoint Online 명령 모음에서 사용자 지정 목록의 앱을 만들 �
 이 항목에서는 SharePoint 목록의 데이터를 관리하는 앱을 만들었습니다. 다음 단계에서는 더 복잡한 목록에서 앱을 생성한 다음, 사용자의 요구 사항에 맞게 앱을 사용자 지정합니다(찾아보기 화면으로 시작).
 
 > [!div class="nextstepaction"]
-> [기본 찾아보기 화면을 사용자 지정합니다.]customize-layout-sharepoint.md)
+> [기본 찾아보기 화면을 사용자 지정합니다.](customize-layout-sharepoint.md)

@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 930439325b60b60fefed18b66c22d9d4f97f55b7
-ms.sourcegitcommit: 4db9c763455d141a7e1dd569a50c86bd9e50ebf0
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "57802104"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61550988"
 ---
 # <a name="editform-newform-submitform-resetform-and-viewform-functions-in-powerapps"></a>PowerApps의 EditForm, NewForm, SubmitForm, ResetForm 및 ViewForm 함수
 **[편집 양식](../controls/control-form-detail.md)** 컨트롤의 항목을 보거나 편집하거나 생성하고 콘텐츠를 저장하고 컨트롤을 다시 설정합니다.

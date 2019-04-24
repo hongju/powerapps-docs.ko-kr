@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: b6e2fc48d931ccf702dd2711bdc00a484dc51018
-ms.sourcegitcommit: 4db9c763455d141a7e1dd569a50c86bd9e50ebf0
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "57801943"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61549930"
 ---
 # <a name="create-accessible-canvas-apps-in-powerapps"></a>PowerApps에서 액세스 가능한 캔버스 앱 만들기
 액세스 가능한 캔버스 앱에서는 시각, 청각 및 기타 장애가 있는 사용자가 앱을 사용할 수 있습니다.  여러 정부 및 조직의 요구 사항인 점을 별개로 하더라도 아래 지침을 따르면 사용자의 능력에 상관없이 모든 사용자의 사용 편의성이 개선됩니다.
@@ -38,7 +38,7 @@ ms.locfileid: "57801943"
 앱 접근성을 테스트할 때는 iOS 및 Android의 접근성 모드에서 키보드만으로 앱을 사용할 수 있는지 확인하고, 화면 판독기를 사용하도록 설정하고 앱을 탐색할 수 있는지도 확인하세요.
 
 화면 판독기 사용 여부와 관계없이 키보드 탐색을 위해서는 각 컨트롤의 **[TabIndex](controls/properties-accessibility.md)** 속성을 설정하여 Tab 키를 사용하여 입력 필드로 이동할 때 논리적 순서를 따라야 합니다.
-- 레이블, 이미지, 아이콘, 셰이프 컨트롤-대화형 요소 (예)를 나타내는 경우 TabIndex를 0;으로 설정 장식 요소 또는 텍스트인 경우 TabIndex를-1로 설정 합니다.
+- 레이블, 이미지, 아이콘, 셰이프 컨트롤 - 대화형 요소(예, 단추)를 나타내는 경우 TabIndex를 0으로 설정하고, 장식 요소 또는 텍스트인 경우 TabIndex를 -1로 설정합니다.
 - 탭 인덱스를 0보다 크게 설정하지 마세요.
 
 ## <a name="screen-reader-support"></a>화면 판독기 지원

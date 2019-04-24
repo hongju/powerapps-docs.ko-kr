@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 9796cf6c668818110cd6910311ab5b5f61a745df
-ms.sourcegitcommit: 825daacc9a812637815afc1ce6fad28f0cebd479
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "57803783"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61559590"
 ---
 # <a name="formula-reference-for-powerapps"></a>PowerApps에 대한 수식 참조
 수식은 많은 요소를 결합합니다.  아래 나열되어 있습니다.
@@ -369,7 +369,7 @@ ms.locfileid: "57803783"
 **[ViewForm](functions/function-form.md)** – 기존 항목 보기를 위해 Form 컨트롤을 다시 설정합니다.
 
 ## <a name="w"></a>W
-**[Weekday](functions/function-datetime-parts.md)** – R날짜/시간 값의 요일 부분을 검색합니다.
+**[Weekday](functions/function-datetime-parts.md)** – 날짜/시간 값의 요일 부분을 검색합니다.
 
 ## <a name="y"></a>Y
 **[Year](functions/function-datetime-parts.md)** – 날짜/시간 값의 연도 부분을 검색합니다.  

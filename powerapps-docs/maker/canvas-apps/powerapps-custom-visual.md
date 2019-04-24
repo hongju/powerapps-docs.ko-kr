@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: dde096adbd82c04f7a2f17cd2af156b2e334c990
-ms.sourcegitcommit: 66fd1129ad25b72556f11a08350ba95f2ba060dd
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57804358"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61538645"
 ---
 # <a name="powerapps-custom-visual-for-power-bi"></a>Power BI용 PowerApps 사용자 지정 시각적 개체
 

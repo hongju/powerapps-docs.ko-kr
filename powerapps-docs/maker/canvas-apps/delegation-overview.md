@@ -14,10 +14,10 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 61a7e67b7914e5f844397389833f830244d5af28
-ms.sourcegitcommit: 2dce3fe99828b0ffa23885bc7e11f1a1f871af07
+ms.sourcegitcommit: f84095d964fe1fe5cc5290e5edbee284bd768e1e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2019
+ms.lasthandoff: 04/18/2019
 ms.locfileid: "59098049"
 ---
 # <a name="understand-delegation-in-a-canvas-app"></a>캔버스 앱에서 위임 이해
@@ -29,7 +29,7 @@ PowerApps에는 강력한 필터링, 정렬 및 캔버스 앱에서 데이터의
 
 복잡해지는 상황에서 이 문서가 있는 이유는 PowerApps 수식으로 표현할 수 있는 것 중에 모든 데이터 원본으로 위임할 수 없는 것도 있기 때문입니다. PowerApps 언어는 광범위한 숫자 및 텍스트 조작 기능과 함께 메모리의 전체 통합 문서에 완벽한 즉시 액세스할 수 있도록 설계된 Excel의 수식 언어를 흉내내고 있습니다. 결과적으로, PowerApps 언어는 SQL Server와 같은 강력한 데이터베이스 엔진을 포함해 대부분 데이터 원본이 지원할 수 있는 것보다 훨씬 풍부합니다.
 
-**데이터 원본과 수식을 위임할 수 있는 사용 해야 하는 큰 데이터 집합을 사용 합니다.** 앱 성능을 유지하고 사용자가 필요한 모든 정보에 액세스할 수 있게 하는 유일한 방법입니다. 위임이 불가능한 위치를 식별하는 위임 경고에 주의하세요. 작은 데이터 집합(500개 레코드 미만)을 사용하려는 경우 수식을 위임할 수 없다면 앱이 로컬로 처리를 수행할 수 있기 때문에 데이터 원본과 수식도 사용할 수 있습니다. 
+**큰 데이터 집합을 작업하려면 위임할 수 있는 데이터 원본과 수식을 사용해야 합니다.** 앱 성능을 유지하고 사용자가 필요한 모든 정보에 액세스할 수 있게 하는 유일한 방법입니다. 위임이 불가능한 위치를 식별하는 위임 경고에 주의하세요. 작은 데이터 집합(500개 레코드 미만)을 사용하려는 경우 수식을 위임할 수 없다면 앱이 로컬로 처리를 수행할 수 있기 때문에 데이터 원본과 수식도 사용할 수 있습니다. 
 
 > [!NOTE]
 > 위임 경고는 이전에 "파란색 점" 제안으로 PowerApps에 플래그가 지정되었지만 위임 제안은 다시 경고로 분류된 이후에 지정되었습니다. 데이터 원본의 데이터가 500개의 레코드를 초과하여 함수가 위임될 수 없는 경우 PowerApps는 데이터를 모두 검색할 수 없으므로 앱에는 잘못된 결과가 포함될 수 있습니다. 위임 경고를 통해 올바른 결과가 포함되도록 앱을 관리할 수 있습니다.
@@ -54,7 +54,7 @@ Excel 통합 문서를 가져올 (사용 하는 **앱에 정적 데이터 추가
 **Filter** 및 **LookUp** 함수 내에서 적합한 레코드를 선택하기 위해 테이블의 열에서 다음을 사용할 수 있습니다.
 
 * **[And](functions/function-logicals.md)**(**[&&](functions/operators.md)** 포함), **[Or](functions/function-logicals.md)**(**[||](functions/operators.md)** 포함), **[Not](functions/function-logicals.md)**(**[!](functions/operators.md)** 포함)
-* **[에서](functions/operators.md)**
+* **[In](functions/operators.md)**
 * **[=](functions/operators.md)**, **[<>](functions/operators.md)**, **[>=](functions/operators.md)**, **[<=](functions/operators.md)**, **[>](functions/operators.md)**, **[<](functions/operators.md)**
 * **[+](functions/operators.md)**, **[-](functions/operators.md)**
 * **[TrimEnds](functions/function-trim.md)**

@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 3174d959a2360b36e82cd7070c4401251ca9fe18
-ms.sourcegitcommit: 212d397284c431f5989dc7b39549e2fc170d447e
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "58491621"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61526266"
 ---
 # <a name="rich-text-editor-control-in-powerapps"></a>PowerApps에서 서식 있는 텍스트 편집기 컨트롤
 최종 사용자는 WYSIWYG 편집 영역 내에서 텍스트 서식을 지정할 수 있습니다.  출력 형식은 HTML입니다.

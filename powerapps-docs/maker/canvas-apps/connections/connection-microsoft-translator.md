@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 405dcf432526206aa3a5f341a38e2ae5547cea1f
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42858288"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61545703"
 ---
 # <a name="connect-to-microsoft-translator-from-powerapps"></a>PowerApps에서 Microsoft Translator에 연결
 ![Microsoft Translator](./media/connection-microsoft-translator/translatoricon.png)
@@ -48,7 +48,7 @@ Microsoft Translator 커넥터를 추가하여 앱의 **레이블** 컨트롤에
 
 ## <a name="use-the-microsoft-translator-connection-in-your-app"></a>앱에서 Microsoft Translator 연결 사용
 ### <a name="translate-text"></a>텍스트 번역
-1. **삽입** 메뉴에서 **텍스트 상자**를 선택한 다음 **텍스트 입력**을 선택합니다. 텍스트 입력 컨트롤의 이름을 **Source**로 바꿉니다.  
+1. **삽입** 메뉴에서 **텍스트**를 선택한 다음 **텍스트 입력**을 선택합니다. 텍스트 입력 컨트롤의 이름을 **Source**로 바꿉니다.  
 
     ![이름 바꾸기](./media/connection-microsoft-translator/renametosource.png)
 2. **드롭다운** 목록(**삽입** 메뉴 > **컨트롤**)을 추가하고 이름을 **TargetLang**으로 변경한 다음, **Source** 아래로 이동합니다.
@@ -98,7 +98,7 @@ Microsoft Translator 커넥터를 추가하여 앱의 **레이블** 컨트롤에
 | [SpeechLanguages](connection-microsoft-translator.md#speechlanguages) |음성 합성에 사용할 수 있는 언어를 검색합니다. |
 | [TextToSpeech](connection-microsoft-translator.md#texttospeech) |지정된 텍스트를 웨이브 형식의 오디오 스트림 음성으로 변환합니다. |
 
-### <a name="languages"></a>언어
+### <a name="languages"></a>언어들
 언어 가져오기: Microsoft Translator가 지원하는 모든 언어를 검색합니다.
 
 #### <a name="input-properties"></a>입력 속성
@@ -127,7 +127,7 @@ Microsoft Translator 커넥터를 추가하여 앱의 **레이블** 컨트롤에
 없음
 
 ### <a name="detect"></a>검색
-언어 검색: 지정된 텍스트의 원본 언어를 검색합니다.
+언어를 검색 합니다. 지정된 텍스트의 원본 언어를 검색합니다.
 
 #### <a name="input-properties"></a>입력 속성
 
@@ -156,7 +156,7 @@ Microsoft Translator 커넥터를 추가하여 앱의 **레이블** 컨트롤에
 | 이름 |문자열 |아니요 | |
 
 ### <a name="texttospeech"></a>TextToSpeech
-텍스트를 음성으로 변환: 지정된 텍스트를 웨이브 형식의 오디오 스트림 음성으로 변환합니다.
+텍스트 음성 변환: 지정된 텍스트를 웨이브 형식의 오디오 스트림 음성으로 변환합니다.
 
 #### <a name="input-properties"></a>입력 속성
 

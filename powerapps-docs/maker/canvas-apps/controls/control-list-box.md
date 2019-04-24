@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: a2cb87cf68457771605e78970b8d7a923af61fce
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42835175"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61544438"
 ---
 # <a name="list-box-control-in-powerapps"></a>PowerApps의 목록 상자 컨트롤
 사용자가 하나 또는 여러 개의 항목을 선택할 수 있는 목록입니다.
@@ -60,7 +60,7 @@ ms.locfileid: "42835175"
 
 **[Font](properties-text.md)** – 텍스트가 표시되는 글꼴의 제품군 이름입니다.
 
-**[FontWeight](properties-text.md)** - 컨트롤의 텍스트 굵기입니다. **Bold**, **Semibold**, **Normal** 또는 **Lighter**로 설정합니다.
+**[FontWeight](properties-text.md)**  – 컨트롤의 텍스트의 가중치: **굵게**, **Semibold**, **정상**, 또는 **밝은**.
 
 **[Height](properties-size-location.md)** – 컨트롤의 위쪽 및 아래쪽 가장자리 사이의 간격입니다.
 
@@ -140,9 +140,9 @@ ms.locfileid: "42835175"
      ![드롭다운 목록의 바닥재 이름](./media/control-list-box/flooring-names.png)
 4. 각 **[드롭다운](control-drop-down.md)** 컨트롤의 **[Visible](properties-core.md)** 속성을 다음 값 중에 하나로 설정합니다.
    
-   * CarpetList: **If("Carpet" in CategoryList.SelectedItems.Value, true)**
-   * HardwoodList: **If("Hardwood" in CategoryList.SelectedItems.Value, true)**
-   * TileList: **If("Tile" in CategoryList.SelectedItems.Value, true)**
+   * CarpetList: **경우 ("카페트"에서 CategoryList.SelectedItems.Value, true)**
+   * HardwoodList: **경우 ("하드 우드에 어"에서 CategoryList.SelectedItems.Value, true)**
+   * TileList: **경우 ("타일" CategoryList.SelectedItems.Value, true)**
      
      **[If](../functions/function-if.md)** 함수 또는 [다른 함수](../formula-reference.md)에 대해 더 알고 싶으신가요?
 5. F5 키를 누르고 **CategoryList**에서 여러 개의 항목을 선택합니다.

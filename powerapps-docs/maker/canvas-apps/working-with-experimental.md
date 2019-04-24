@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 50785382404496c7409eab1b545fdc0b2d930d44
-ms.sourcegitcommit: 647e183c070c2159b790c7813a7be1d60b2551bd
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2019
-ms.locfileid: "58765555"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61556808"
 ---
 # <a name="understand-experimental-and-preview-features-in-powerapps"></a>PowerApps에서 실험적 및 미리 보기 기능 이해
 
@@ -52,11 +52,11 @@ ms.locfileid: "58765555"
 
 미리 보기의 끝부분으로 가면서 모든 앱에 이 기능을 한 번에 활성화할 수 있으며, 이를 **최종 유효성 검증**이라고 합니다.  이 변경은 대부분 사용자에게 이 기능을 사용해 보고 해제할 수 있는 마지막 기회를 제공합니다. 다음 단계에서는 이 기능이 완전 탑재되어 해제할 수 없게 되므로 시기적절한 피드백은 이 기간에서 중요합니다.
 
-최종 전환 **Shipped**는 기능을 이미 켜져 효과적으로 기능 영구적으로 전환 하는 앱에서 미리 보기 스위치를 제거할 수 있습니다. 이 변경 되므로 기능에서 기본적으로 해당 시점 전에 대부분의 앱에 적용 됩니다. 기능이 꺼져 앱에 대 한 미리 보기 스위치 설정 기능을 테스트 하 고 PowerApps Studio 동일한 세션 내에서 해제 하 사용할 수 있습니다. 그러나 스위치가 켜져 있을 때 앱을 저장 하면이 사용할 수 없습니다 앱을 다시 로드 하므로 다시 해제 기능을 끌 수 없습니다. 이때 있습니다 [이전 버전으로 앱 복원](restore-an-app.md) 기능이 하기 전에 앱 상태를 반환할 합니다.
+**탑재**로의 최종 전환에서는 기능이 이미 설정된 앱에서는 미리 보기 스위치를 제거하여 효과적으로 기능을 영구적으로 설정할 수 있습니다. 해당 시점 전에 그 기능이 기본값이 되므로 이 변경은 대부분의 앱에 적용됩니다. 해당 기능이 꺼져 있는 앱의 경우, 미리 보기 스위치는 여전히 켜고 기능을 테스트하고 동일한 PowerApps Studio 세션 내에서 해제 할수 있습니다. 그러나 스위치가 켜져 있을 때 앱을 저장하면 다시 로드될 때 사용할 수 없으므로 이를 수행할 수 없습니다. 이 때, 기능을 켜기 전 상태로 앱을 되돌리기 위해 [이전 버전으로 앱을 복원](restore-an-app.md)할 수 있습니다.
 
 ## <a name="documentation"></a>설명서
 
-이러한 기능에 대한 정보는 어디서 찾을 수 있나요?  미리 보기 기능을 완성된 기능으로 다루며 다른 제품 기능과 마찬가지로 이 기능에 대해서 자세히 알아볼 수 있습니다. 
+이러한 기능에 대한 정보는 어디서 찾을 수 있을까요?  미리 보기 기능은 완성된 기능으로 다루어지며, 다음과 같은 다른 제품 기능과 마찬가지로 이 기능에 대해서 자세히 알아볼 수 있습니다. 
 - [PowerApps 설명서](https://docs.microsoft.com/powerapps/maker/canvas-apps/getting-started). 새 기능에 대한 기본 사항(예: 이점, 시작 방법 및 참조 정보)을 제공합니다.
 - [PowerApps 커뮤니티 포럼](https://powerusers.microsoft.com/t5/PowerApps-Community/ct-p/PowerApps1).  다른 사용자와 함께 새로운 기능을 살펴봅니다. 다른 사용자의 경험으로부터 배우고 자신의 경험을 공유합니다.
 - [PowerApps 블로그](https://powerapps.microsoft.com/blog/).  항상 그렇지는 않지만 종종 블로그 게시물에 새 기능이 소개됩니다.

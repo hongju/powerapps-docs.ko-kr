@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 16226203262d5ecacc8fc49a88c9934dd0f673e6
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42862867"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61562879"
 ---
 # <a name="hashtags-function-in-powerapps"></a>PowerApps의 HashTags 함수
 텍스트 문자열에서 해시태그(#strings)를 추출합니다.

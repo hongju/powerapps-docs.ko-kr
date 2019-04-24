@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 20e06f7c03d0aca18b8351e546ccee3fff528f56
-ms.sourcegitcommit: 825daacc9a812637815afc1ce6fad28f0cebd479
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "57803576"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61537644"
 ---
 # <a name="updatecontext-function-in-powerapps"></a>PowerApps의 UpdateContext 함수
 현재 화면의 [컨텍스트 변수](../working-with-variables.md#use-a-context-variable)를 만들거나 업데이트합니다.

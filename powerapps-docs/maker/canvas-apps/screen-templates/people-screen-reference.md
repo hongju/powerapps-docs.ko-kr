@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 09b92a1e2bc87ac6f4e2ec651aa67a845e0f07b1
-ms.sourcegitcommit: 5e15a1033a68289781f8092fb65c57432501f911
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54459462"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61540784"
 ---
 # <a name="reference-information-about-the-people-screen-template-for-canvas-apps"></a>캔버스 앱의 사용자 화면 템플릿에 대한 참조 정보
 
@@ -47,7 +47,7 @@ PowerApps의 캔버스 앱의 사용자 화면 템플릿에 중요한 각 컨트
 
 ![UserBrowseGallery 컨트롤](media/people-screen/people-browse-gall.png)
 
-* 속성: **항목**<br>
+* 속성: **Items**<br>
     값: 사용자가 입력을 시작 하는 경우에 사용자를 조회 하는 논리:
     
     ```powerapps-dot
@@ -61,7 +61,7 @@ PowerApps의 캔버스 앱의 사용자 화면 템플릿에 중요한 각 컨트
     )
     ```
     
-이 갤러리의 항목이 검색 결과에서 채워지는 합니다 [Office365.SearchUser](https://docs.microsoft.com/connectors/office365users/#searchuser) 작업 합니다. 작업 텍스트를 가져와 `Trim(TextSearchBox)` 검색으로 용어 및 상위 15 결과 반환 합니다 기준으로 검색 합니다. **TextSearchBox** 래핑됩니다는 `Trim()` 공간에서 사용자 검색을 유효 하지 않으므로 작동 합니다.
+이 갤러리의 항목은 [Office365.SearchUser](https://docs.microsoft.com/connectors/office365users/#searchuser) 작업의 검색 결과로 채워집니다. 이 작업은 검색어를 `Trim(TextSearchBox)`하여 텍스트를 가져와서 검색에 따라 상위 15개 결과를 반환합니다. **TextSearchBox**는 사용자 검색에 빈 칸이 유효하지 않으므로 `Trim()` 함수로 래핑됩니다.
 
 `Office365Users.SearchUser` 작업은 검색 상자가 사용자 입력한 텍스트를 포함하는 경우에만 작업을 호출할 필요가 있기 때문에`If(!IsBlank(Trim(TextSearchBox.Text)) ... )` 함수로 래핑됩니다. 이것은 성능을 향상시킵니다.
 
@@ -116,7 +116,7 @@ PowerApps의 캔버스 앱의 사용자 화면 템플릿에 중요한 각 컨트
 
 ![PeopleAddedGallery 컨트롤](media/people-screen/people-people-gall.png)
 
-* 속성: **항목**<br>
+* 속성: **Items**<br>
     값: `MyPeople`
 
 **UserBrowseGallery Title** 컨트롤을 선택하여 사용자 컬렉션을 초기화하거나 추가합니다.
@@ -128,7 +128,7 @@ PowerApps의 캔버스 앱의 사용자 화면 템플릿에 중요한 각 컨트
 * 속성: **OnSelect**<br>
     값: `Set( _selectedUser, ThisItem )`
 
-설정 된 **_selectedUser** 에서 선택한 항목에 변수 **EmailPeopleGallery**합니다.
+**_selectedUser** 변수를 **EmailPeopleGallery**에서 선택된 항목으로 설정합니다.
 
 ### <a name="peopleaddedgallery-iconremove-control"></a>사용자 추가 갤러리 제거 아이콘 컨트롤
 

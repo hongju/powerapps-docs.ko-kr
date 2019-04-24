@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 507bac0b57cdc1e348bd384d5544d7b664a3e0f5
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42851267"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61557387"
 ---
 # <a name="connect-to-office-365-users-connection-from-powerapps"></a>PowerApps에서 Office 365 사용자 연결
 ![Office 365 사용자](./media/connection-office365-users/office365icon.png)
@@ -142,7 +142,7 @@ Office 365 사용자 연결이 만들어지고 앱에 추가됩니다. 이제 �
 | [SearchUser](connection-office365-users.md#searchuser) |사용자 프로필의 검색 결과를 검색합니다. |
 
 ### <a name="myprofile"></a>MyProfile
-내 프로필 가져오기: 현재 사용자에 대한 프로필을 검색합니다.
+내 프로필 가져오기: 현재 사용자의 프로필을 검색합니다.
 
 #### <a name="input-properties"></a>입력 속성
 없음
@@ -189,7 +189,7 @@ Office 365 사용자 연결이 만들어지고 앱에 추가됩니다. 이제 �
 | AccountEnabled |부울 |플래그가 활성화된 계정입니다. |
 
 ### <a name="manager"></a>Manager
-관리자 가져오기: 지정된 사용자의 관리자에 대한 사용자 프로필을 검색합니다.
+관리자를 가져옵니다. 지정된 사용자의 관리자에 대한 사용자 프로필을 검색합니다.
 
 #### <a name="input-properties"></a>입력 속성
 
@@ -214,7 +214,7 @@ Office 365 사용자 연결이 만들어지고 앱에 추가됩니다. 이제 �
 | AccountEnabled |부울 |플래그가 활성화된 계정입니다. |
 
 ### <a name="directreports"></a>DirectReports
-직속 부하 가져오기: 직속 부하를 가져옵니다.
+부하 직원 가져오기: 부하 직원 가져오기
 
 #### <a name="input-properties"></a>입력 속성
 
@@ -239,7 +239,7 @@ Office 365 사용자 연결이 만들어지고 앱에 추가됩니다. 이제 �
 | AccountEnabled |부울 |플래그가 활성화된 계정입니다. |
 
 ### <a name="searchuser"></a>SearchUser
-사용자 검색: 사용자 프로필의 검색 결과를 검색합니다.
+사용자를 검색 합니다. 사용자 프로필의 검색 결과를 검색합니다.
 
 #### <a name="input-properties"></a>입력 속성
 

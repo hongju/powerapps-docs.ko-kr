@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: e4d3d2e769951ed75ddeeb57f7fe4c0b350d02e7
-ms.sourcegitcommit: 38f91423933749ca19557f29e86cd8f5ad06e1eb
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/05/2019
-ms.locfileid: "59042689"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61550300"
 ---
 # <a name="integrate-canvas-apps-into-websites-and-other-services"></a>웹 사이트 및 기타 서비스로 캔버스 앱 통합
 작성 하는 앱은 종종 사람들이 작업을 수행 하는 경우에 바로 사용할 수 있을 때 가장 유용 합니다. 캔버스 앱을 iframe에 포함 하 여 웹 사이트 및 Power BI 또는 SharePoint와 같은 다른 서비스에 해당 앱을 통합할 수 있습니다.

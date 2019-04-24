@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 1adf38b59b01bb08bc89c6101a96247b8bce8092
-ms.sourcegitcommit: 5b2b70c3fc7bcba5647d505a79276bbaad31c610
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58357463"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61540318"
 ---
 # <a name="quickstart-create-a-canvas-app-from-a-sample-in-powerapps"></a>빠른 시작: PowerApps의 샘플에서 캔버스 앱 만들기
 이 빠른 시작에서 디자인 가능성을 알아보고 사용자 고유의 캔버스 앱을 개발할 때 적용할 수 있는 개념을 검색할 수 있도록 샘플에서 캔버스 앱을 만듭니다.

@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: d13f4a0669ae9f0d7ef9a5f4ef7115e006256bd9
-ms.sourcegitcommit: d1d39d6b72516d62514af4ff90f04c35fbdd8638
+ms.openlocfilehash: 18bd89549aa330b5da333dccfd723887db38a36e
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/11/2019
-ms.locfileid: "59480242"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61553933"
 ---
 # <a name="acceleration-app-compass-connection-and-location-signals-in-powerapps"></a>PowerApps의 가속, 앱, 나침반, 연결 및 위치 신호 
 전 세계에서 사용자의 위치, 표시할 화면 등과 같이 앱 환경 관련 정보를 반환합니다.  
@@ -48,6 +48,7 @@ ms.locfileid: "59480242"
 | **App.Height** | 앱 실행 되는 창의 높이 반환 합니다. 설정한 경우 수식에서이 속성을 사용할 수 있습니다 합니다 **높이** 응답성이 뛰어난 앱을 빌드하는 화면의 속성입니다. |
 | **App.DesignWidth** | PowerApps Studio 앱의 너비를 반환합니다. 설정한 경우 수식에서이 속성을 사용할 수 있습니다 합니다 **너비** 응답성 있는 앱의 최소 너비를 확인 하려면 화면의 속성입니다.  |
 | **App.DesignHeight** | PowerApps Studio 앱의 높이 반환합니다. 설정한 경우 수식에서이 속성을 사용할 수 있습니다 합니다 **높이** 응답성 있는 앱의 최소 높이 확인 하려면 화면의 속성입니다.  |
+| **App.SizeBreakpoints** | 화면 크기를 구분 하는 숫자의 단일 열 테이블을 하는 범위를 [ **Screen.Size** ](../controls/control-screen.md) 속성 반환 합니다. 이 테이블의 값을 사용 하 여를 화면 앱의 모든 중단점에 맞게 변경할 수 있습니다.
 
 또한 **앱** 개체에는 설정할 수 있는 [동작 수식](../working-with-formulas-in-depth.md)이 있습니다.
 

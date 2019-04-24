@@ -14,15 +14,15 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 32a7c0a6848ee5b9521de65b9af0f28d85939f57
-ms.sourcegitcommit: 90245baddce9d92c3ce85b0537c1ac1cf26bf55a
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "57799735"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61537175"
 ---
 # <a name="how-to-link-sharepoint-lists-using-a-lookup-field-in-powerapps"></a>PowerApps에서 조회 필드를 사용하여 SharePoint 목록을 연결하는 방법
 
-이 자습서에서는 캔버스 앱의 두 개의 SharePoint 목록을 조회 필드와 연결하는 방법을 보여줍니다.
+이 자습서에서는 캔버스 앱에서 두 개의 SharePoint 목록을 조회 필드와 연결하는 방법을 보여줍니다.
 
 ## <a name="overview"></a>개요
 
@@ -77,11 +77,11 @@ SharePoint에서는 두 가지 형식의 조회 필드를 제공합니다.
 ### <a name="define-the-assets-list"></a>자산 목록을 정의합니다.
 1. SharePoint 사이트에서 새 **자산** 목록을 만듭니다.
 
-2. 더하기 기호를 클릭하거나 누르고 **자세히**를 선택합니다.
+2. 더하기 기호를 클릭하거나 누르고 **더 보기...** 를 선택합니다.
 
     ![](./media/sharepoint-lookup-fields/choose-more-type.png)
 
-3. **선택** 형식의 *AssetType* 필드를 추가하고, **별도 줄에 각 선택 사항 입력** 텍스트 상자의 선택 메뉴에 표시하려는 값을 입력합니다. 그런 다음 **확인**을 클릭하거나 누릅니다.
+3. **선택** 형식의 *AssetType* 필드를 추가하고, **각 선택 사항을 별도 줄에 입력** 텍스트 상자에 선택 메뉴에 표시하려는 값을 입력합니다. 그런 다음 **확인**을 클릭하거나 누릅니다.
 
     ![](./media/sharepoint-lookup-fields/define-choice-column.png)
 

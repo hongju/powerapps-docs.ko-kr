@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: ee9ea62280b06b75bf71885c532659f0381e6d9a
-ms.sourcegitcommit: 926f42cd61ac3751540d42e74e4408bc82afc444
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "58504046"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61555504"
 ---
 # <a name="create-a-canvas-app-from-scratch-based-on-excel-data"></a>Excel 데이터를 기반으로 처음부터 캔버스 앱 만들기
 

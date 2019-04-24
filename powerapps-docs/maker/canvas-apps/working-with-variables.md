@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 6f46dcdf300c91be9fbc2f39e6b2a5418a4b82de
-ms.sourcegitcommit: 825daacc9a812637815afc1ce6fad28f0cebd479
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "57803760"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61559313"
 ---
 # <a name="understand-canvas-app-variables-in-powerapps"></a>PowerApps에서 캔버스 앱 변수 이해
 
@@ -182,13 +182,13 @@ PowerApps에는 세 가지 유형의 변수:
 
 `Set( Radius, 12 )`
 
-간단히 사용할 수 있습니다 **Radius** 숫자를 사용할 수 있습니다를 사용 하 여 바뀝니다 어디 **12**:
+그런 다음 어디서나 간단히 숫자를 사용하는 **Radius**를 사용할 수 있고 **12**로 바뀝니다.
 
 `Pi() * Power( Radius, 2 )`
 
 컨텍스트 변수 이름이 같은 전역 변수 또는 컬렉션을 제공 하는 경우 컨텍스트 변수가 우선 합니다. 그러나 참조할 수 있습니다 컬렉션 또는 전역 변수를 사용 하는 경우는 [명확성 연산자](functions/operators.md#disambiguation-operator) **@[Radius]** 합니다.
 
-## <a name="use-a-context-variable"></a>컨텍스트 변수를 사용 합니다.
+## <a name="use-a-context-variable"></a>컨텍스트 변수 사용
 
 전역 변수 대신 컨텍스트 변수를 사용하여 계산기를 만드는 방법을 살펴보겠습니다.
 
@@ -234,27 +234,27 @@ PowerApps에는 세 가지 유형의 변수:
 
     ![텍스트 입력 컨트롤에는 값을 표시 및 레이블은 총 실행 표시](media/working-with-variables/context-variable-4.png)
 
-7. 화면을 이동하면서 컨텍스트 변수의 값을 설정할 수 있습니다. 이 경우 한 화면에서 다른 화면으로 "컨텍스트" 또는 "매개 변수"를 전달할 때 유용합니다. 이 기법을 보여 주기 위해 화면을 삽입, 단추를 삽입 하 고 설정 해당 **OnSelect** 속성을 다음이 수식:
+7. 화면을 이동하면서 컨텍스트 변수의 값을 설정할 수 있습니다. 이는 한 화면에서 다른 화면으로 "컨텍스트" 또는 "매개 변수"를 전달할 때 유용합니다. 이 기법을 보여 주기 위해 화면을 추가하고, 단추를 추가하고, 단추의 **OnSelect** 속성을 다음 수식으로 설정합니다.
 
     **Navigate( Screen1, None, { RunningTotal: -1000 } )**
 
     ![단추의 OnSelect 속성](media/working-with-variables/context-variable-5.png)
 
-    모두 표시 하려면이 단추를 선택 하는 동안에 Alt 키를 눌러 **Screen1** 컨텍스트 변수를 설정 하 고 **RunningTotal** -1000입니다.
+    Alt 키를 누른 상태에서 단추를 선택하여 **Screen1**이 표시되고 컨텍스트 변수 **RunningTotal**이 -1000으로 설정되는 것을 확인합니다.
 
     ![Screen1 열려 있습니다.](media/working-with-variables/context-variable-6.png)
 
-8. 컨텍스트 변수의 값을 표시 하려면 선택 합니다 **파일** 메뉴를 선택한 후 **변수** 왼쪽 창에서.
+8. 컨텍스트 변수의 값을 표시하려면, **파일** 메뉴를 선택하고, 왼쪽 창에서 **변수**를 선택합니다.
 
     ![파일 메뉴에서 변수 옵션](media/working-with-variables/context-variable-file-1.png)
 
-9. 컨텍스트 변수가 정의 되 고 사용 되는 위치를 표시 하려면 선택 합니다.
+9. 컨텍스트 변수가 정의되고 사용되는 위치를 표시하려면, 변수를 선택합니다.
 
     ![변수를 사용 하는 목록](media/working-with-variables/context-variable-file-2.png)
 
 ## <a name="use-a-collection"></a>컬렉션 사용
 
-마지막으로 컬렉션을 사용하여 계산기를 만드는 방법을 살펴보겠습니다.  컬렉션에는 수정하기 쉬운 테이블이 있으므로 이 계산기에서는 "종이 테이프"의 각 값이 입력되는 대로 유지하게 됩니다.
+마지막으로 컬렉션을 사용하여 계산기를 만드는 방법을 살펴보겠습니다.  컬렉션에는 수정하기 쉬운 테이블이 있으므로 이 계산기는 "Paper Tape"의 각 값이 입력되는 대로 유지하게 됩니다.
 
 컬렉션의 작동 방식은 다음과 같습니다.
 
@@ -272,9 +272,9 @@ PowerApps에는 세 가지 유형의 변수:
 
     **Collect( PaperTape, TextInput1.Text )**
 
-    이 수식은 단순히 있는지 여부를 설정 **PaperTape** 텍스트 문자열의 단일 열 테이블을 포함 하는 컬렉션으로 합니다. 참조할 수 있습니다 **PaperTape** 이 앱에서 아무 곳 이나 합니다. 사용자가이 앱을 열 때마다 **PaperTape** 빈 테이블입니다.
+    이 수식은 텍스트 문자열의 단일 열 테이블을 포함하는 컬렉션으로 **PaperTape**을 설정합니다. **PaperTape**은 앱의 아무 곳에서 참조할 수 있습니다. 사용자가 이 앱을 열 때마다 **PaperTape**의 초기 값은 빈 테이블입니다.
 
-    이 수식은 실행 될 때 컬렉션의 끝에 새 값을 추가 합니다. 단일 값을 추가 하는 것 때문 **수집** 자동으로 단일 열 테이블에 배치 고 열 이름은 **값**, 나중에 사용할 수 있습니다.
+    이 수식이 실행되면 컬렉션의 끝에 새 값을 추가합니다. 단일 값을 추가하므로, **Collect**는 자동으로 단일 열 테이블에 이 값을 배치하고 열 이름은 **Value**이며, 나중에 사용할 수 있습니다.
 
     ![추가 단추의 OnSelect 속성](media/working-with-variables/papertape-1.png)
 
@@ -296,11 +296,11 @@ PowerApps에는 세 가지 유형의 변수:
 
 7. 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
 
-8. '종이 테이프'를 표시하려면 **데이터 테이블** 컨트롤을 삽입하고, **[Items](controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.
+8. 'Paper Tape'을 표시하려면 **데이터 테이블** 컨트롤을 삽입하고, **[Items](controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.
 
     **PaperTape**
 
-    오른쪽 창에서 선택 합니다 **값** 열을 표시 합니다.
+    오른쪽 창에서, **Value** 열을 선택하여 표시합니다.
 
     ![컬렉션에 추가 값을 보여 주는 데이터 테이블](media/working-with-variables/papertape-4.png)
 
@@ -308,21 +308,21 @@ PowerApps에는 세 가지 유형의 변수:
 
     ![PaperTape 컬렉션의 미리 보기](media/working-with-variables/papertape-file.png)
 
-10. 저장 하 고 검색 컬렉션에 두 개의 추가 단추 컨트롤을 추가 하 고 설정 자신의 **텍스트** 속성을 **부하** 하 고 **저장**합니다. 설정 된 **OnSelect** 의 속성을 **부하** 을 다음이 수식으로 단추:
+10. 컬렉션을 저장하고 검색하기 위해, 두 개의 단추 컨트롤을 추가하고 **Text** 속성을 **로드**와 **저장**으로 설정합니다. **로드** 단추의  **OnSelect**의 속성을 다음 수식으로 설정합니다.
 
      **Clear( PaperTape ); LoadData( PaperTape, "StoredPaperTape", true )**
 
-     때문에 컬렉션을 먼저 선택 취소 해야 할 **LoadData** 저장 된 값 컬렉션의 끝에 추가 됩니다.
+     **LoadData**는 저장된 값을 컬렉션의 끝에 추가하기 때문에 먼저 컬렉션을 지워야 합니다.
 
      ![부하 단추의 OnSelect 속성](media/working-with-variables/papertape-5.png)
 
-11. 설정 된 **OnSelect** 의 속성을 **저장** 을 다음이 수식으로 단추:
+11. **저장** 단추의 **OnSelect** 속성을 다음 수식으로 설정합니다.
 
      **SaveData( PaperTape, "StoredPaperTape" )**
 
      ![저장 단추의 OnSelect * 속성](media/working-with-variables/papertape-6.png)
 
-12. F5 키를 눌러 다시 한 번 미리 보고, 텍스트 입력 컨트롤에서 숫자를 입력하고, 단추를 선택합니다. **저장** 단추를 선택합니다. 닫고 앱을 다시 로드 하 고 선택 합니다 **부하** 컬렉션을 다시 로드 하려면 단추입니다.
+12. F5 키를 눌러 다시 한 번 미리 보고, 텍스트 입력 컨트롤에서 숫자를 입력하고, 단추를 선택합니다. **저장** 단추를 선택합니다. 앱을 닫고 다시 시작하고 컬렉션을 다시 로드하기 위해 **로드** 단추를 선택합니다.
 
 > [!NOTE]
-> **SaveData** 하 고 **LoadData** PowerApps Mobile 있지만 PowerApps Studio 또는 PowerApps에 대 한 웹 플레이어의 함수입니다.
+> **SaveData**와 **LoadData** 함수는 PowerApps Mobile에는 있지만 PowerApps Studio 또는 PowerApps의 웹 플레이어에는 없습니다.

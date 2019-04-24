@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 9415ab67b93ef64f5caa025af5ac685ca2363305
-ms.sourcegitcommit: 5b2b70c3fc7bcba5647d505a79276bbaad31c610
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58357072"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61563133"
 ---
 # <a name="guid-function-in-powerapps"></a>PowerApps의 GUID 함수
 GUID([전역적으로 고유 식별자](https://en.wikipedia.org/wiki/Universally_unique_identifier)) 문자열을 GUID 값으로 변환하거나 새 GUID 값을 만듭니다.

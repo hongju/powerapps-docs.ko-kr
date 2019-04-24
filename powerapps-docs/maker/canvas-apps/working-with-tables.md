@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 5883ae65beb698a8c7681d9eac6ba0f7439ca19e
-ms.sourcegitcommit: 825daacc9a812637815afc1ce6fad28f0cebd479
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "57803737"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61557887"
 ---
 # <a name="understand-canvas-app-tables-and-records-in-powerapps"></a>PowerApps에서 캔버스 앱 테이블 및 레코드 이해
 
@@ -153,7 +153,7 @@ Excel 및 PowerApps에서는 수식을 사용하여 숫자와 텍스트 문자�
 ## <a name="record-formulas"></a>레코드 수식
 개별 레코드에 대한 데이터를 계산하고, 개별 레코드를 인수로 사용하고, 개별 레코드를 반환 값으로 제공하는 수식을 작성할 수도 있습니다. 위의 갤러리 예제로 돌아가서 **Gallery1.Selected** 속성을 사용하여 사용자가 갤러리에서 선택한 레코드의 정보를 표시해 보겠습니다.
 
-1. 단추 하나를 추가하고 이 수식에 **[OnSelect](controls/properties-core.md)** 속성을 설정합니다.<br>
+1. 단추 하나를 추가하고 **[OnSelect](controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.<br>
     **Collect( SelectedRecord, Gallery1.Selected )**
 
 2. Alt 키를 누른 상태에서 단추를 선택합니다.

@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 23a61dd1300fab71bed4d8c72b861c3c38a1cdea
-ms.sourcegitcommit: 4db9c763455d141a7e1dd569a50c86bd9e50ebf0
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "57802081"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61557542"
 ---
 # <a name="connect-to-twitter-from-powerapps"></a>PowerApps에서 Twitter 연결
 ![Twitter](./media/connection-twitter/twittericon.png)
@@ -173,7 +173,7 @@ Twitter 연결이 만들어지고 앱에 추가됩니다. 이제 사용할 수 �
 2. 단추를 추가하고 **[OnSelect](../controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.  
     `Twitter.Tweet({tweetText: MyTweet.Text})`
 3. F5 키를 누르거나 미리 보기 단추(![](./media/connection-twitter/preview.png))를 선택합니다. **MyTweet**에 텍스트를 입력한 다음 단추를 선택하여 입력한 텍스트를 트윗합니다.
-4. 기본 작업 영역으로 돌아가려면 Esc를 누릅니다.
+4. 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
 
 ## <a name="view-the-available-functions"></a>사용할 수 있는 함수 보기
 이 연결에는 다음 함수가 포함됩니다.
