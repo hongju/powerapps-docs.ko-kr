@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 7141d3b9a2ba6bf18bffe1756d0d7de048606cad
-ms.sourcegitcommit: f5013108140276b3d66a9dce13a061df89609d26
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "57798378"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61563250"
 ---
 # <a name="ismatch-match-and-matchall-functions-in-powerapps"></a>PowerApps의 IsMatch, 일치 및 MatchAll 함수
 일치 또는 추출 패턴에 따라 텍스트 문자열 부분을 테스트 합니다.

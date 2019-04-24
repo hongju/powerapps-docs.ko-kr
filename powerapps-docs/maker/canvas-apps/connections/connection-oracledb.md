@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: f431373b2c36a84b54a3241ad2d49af019c37419
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42858430"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61558081"
 ---
 # <a name="connect-to-an-oracle-database-from-powerapps"></a>PowerApps에서 Oracle 데이터베이스에 연결
 PowerApps에서 연결을 만들고 앱을 빌드한 후에 Oracle 데이터베이스에서 테이블을 나열하고 테이블 행을 만들고 읽으며 업데이트하고 삭제합니다. Oracle 데이터베이스 연결은 트리거 또는 저장 프로시저를 제외한 필터링, 정렬 및 기타 함수의 전체 위임을 지원합니다.
@@ -64,7 +64,7 @@ PowerApps에서 연결을 만들고 앱을 빌드한 후에 Oracle 데이터베�
 7. **만들기**를 클릭하거나 탭하여 연결을 만듭니다.
    
    ![새로 만들기](./media/connection-oracledb/create-button.png)
-8. **기본** 데이터 집합을 클릭하거나 탭합니다.
+8. **기본** 데이터 세트를 클릭하거나 탭합니다.
    
    ![새로 만들기](./media/connection-oracledb/choose-dataset.png)
 9. 테이블 목록에서 사용하려는 테이블을 클릭하거나 탭합니다.

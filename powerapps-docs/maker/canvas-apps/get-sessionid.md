@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 67cfe4ac6c53797e6a18a68d3fbcf29b088f3da8
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42848658"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61554092"
 ---
 # <a name="get-a-session-id-or-a-canvas-app-id"></a>세션 ID 또는 캔버스 앱 ID 가져오기
 PowerApps에 만든 캔버스 앱에 문제가 발생하는 경우 해당 문제에 대한 세션 ID, 앱 ID 또는 둘 다를 제공하여 Microsoft에서 훨씬 더 효과적으로 문제를 해결할 수 있도록 도울 수 있습니다.

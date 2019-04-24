@@ -15,11 +15,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: e31d3689c7b61c408be90c31f1e212e4fdd9a91c
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42848986"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61563894"
 ---
 # <a name="blank-coalesce-isblank-and-isempty-functions-in-powerapps"></a>PowerApps의 Blank, Coalesce, IsBlank 및 IsEmpty 함수
 값이 비어 있거나 [테이블](../working-with-tables.md)에 [레코드](../working-with-tables.md#records)가 없는지 여부를 테스트하고 *공백* 값을 만드는 방법을 제공합니다.
@@ -77,7 +77,7 @@ ms.locfileid: "42848986"
 1. 앱을 처음부터 만들고 **단추** 컨트롤을 추가합니다.
 2. 단추의 **[OnSelect](../controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.
 
-    **ClearCollect( Cities, { Name: "Seattle", Weather: "비" } )**
+    **ClearCollect (Cities, {이름: "Seattle", Weather: "Rainy" } )**
 3. 앱을 미리 보고, 추가한 단추를 클릭하거나 탭한 다음, 미리 보기를 닫습니다.  
 4. **파일** 메뉴에서 **컬렉션**을 클릭하거나 탭합니다.
 
@@ -136,7 +136,7 @@ ms.locfileid: "42848986"
 1. 앱을 처음부터 만들고 **단추** 컨트롤을 추가합니다.
 2. 단추의 **[OnSelect](../controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.
 
-    **Collect( IceCream, { Flavor: "딸기", Quantity: 300 }, { Flavor: "초콜릿", Quantity: 100 } )**
+    **수집 (IceCream, {Flavor: "딸기", Quantity: 300 }, { Flavor: "초콜릿", Quantity: 100 } )**
 3. 앱을 미리 보고, 추가한 단추를 클릭하거나 탭한 다음, 미리 보기를 닫습니다.  
 
     **IceCream**이라는 컬렉션이 만들어지고 다음 데이터가 포함되어 있습니다.

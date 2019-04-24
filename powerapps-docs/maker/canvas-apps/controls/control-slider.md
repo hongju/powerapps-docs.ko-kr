@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 198275ef72129b17cbf73a5f4eb47fd342de3b24
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42830739"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61548757"
 ---
 # <a name="slider-control-in-powerapps"></a>PowerApps의 슬라이더 컨트롤
 사용자가 핸들을 끌어 값을 지정할 수 있는 컨트롤입니다.

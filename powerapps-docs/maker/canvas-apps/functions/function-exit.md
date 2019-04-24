@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: eef2209ff604c0de1efdc9a3ad1c98662817a8bc
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42859052"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61551011"
 ---
 # <a name="exit-function-in-powerapps"></a>PowerApps의 Exit 함수
 현재 실행 중인 앱을 종료합니다.

@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 748f76835e9a66281f4723b88ed7249a7a07e091
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42843449"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61544208"
 ---
 # <a name="now-today-and-istoday-functions-in-powerapps"></a>PowerApps의 Now, Today 및 IsToday 함수
 현재 날짜와 시간을 반환하고, 날짜/시간 값이 오늘인지 테스트합니다.

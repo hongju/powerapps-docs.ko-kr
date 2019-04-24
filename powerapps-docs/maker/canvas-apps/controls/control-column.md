@@ -14,17 +14,17 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: e1c8ba704a01c989da990fd1b2b17f7b5def5541
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42850858"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61564701"
 ---
 # <a name="column-control-in-powerapps"></a>PowerApps의 열 컨트롤
 [**데이터 테이블**](control-data-table.md) 컨트롤에서 단일 필드에 대한 디스플레이 경험을 제공합니다.
 
 ## <a name="description"></a>설명
-[**데이터 테이블**](control-data-table.md) 컨트롤은 테이블 형식으로 데이터 집합을 보여주며 테이블 형식의 각 열은 **열** 컨트롤로 나타납니다. **열** 컨트롤은 앱 제작자가 열의 모양과 동작을 사용자 지정하기 위해 사용할 수 있는 속성을 제공합니다.
+[**데이터 테이블**](control-data-table.md) 컨트롤은 테이블 형식으로 데이터 세트를 보여주며 테이블 형식의 각 열은 **열** 컨트롤로 나타납니다. **열** 컨트롤은 앱 제작자가 열의 모양과 동작을 사용자 지정하기 위해 사용할 수 있는 속성을 제공합니다.
 
 ## <a name="capabilities"></a>기능
 ### <a name="now-available"></a>지금 사용 가능

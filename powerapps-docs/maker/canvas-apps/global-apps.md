@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 4aae487a0b2efe50e3ac6bd42c90d26de23fed60
-ms.sourcegitcommit: ead27300a1b7371136edee1842829ed87ca77a72
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57892279"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61553795"
 ---
 # <a name="build-global-support-into-canvas-apps"></a>캔버스 앱에 글로벌 지원 빌드
 PowerApps는 글로벌 제품입니다. 많은 다양한 언어와 지역에서 캔버스 앱을 빌드하고 사용할 수 있습니다.

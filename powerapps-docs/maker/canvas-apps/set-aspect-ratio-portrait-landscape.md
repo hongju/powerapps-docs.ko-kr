@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: c4d9f648a4519ef30887d8d0739d7dc3d940555b
-ms.sourcegitcommit: 0dbbf53aea319e53edadc1d3a9efa5728856ebd8
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58172682"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61536043"
 ---
 # <a name="change-screen-size-and-orientation-of-a-canvas-app-in-powerapps"></a>PowerApps에서 캔버스 앱의 화면 크기 및 방향 변경
 화면 크기와 방향을 변경하여 캔버스 앱을 사용자 지정합니다.

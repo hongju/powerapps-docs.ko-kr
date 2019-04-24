@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: a7559f84b43d3c0372dea71d49c35461ba9d4e57
-ms.sourcegitcommit: 5e15a1033a68289781f8092fb65c57432501f911
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54459531"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61539705"
 ---
 # <a name="reference-information-about-the-meeting-screen-template-for-canvas-apps"></a>캔버스 앱의 모임 화면 템플릿 참조 정보
 
@@ -172,7 +172,7 @@ PowerApps의 캔버스 앱의 모임 화면 템플릿의 각 주요 컨트롤이
 
    ![PeopleBrowseGallery 컨트롤](media/meeting-screen/meeting-browse-gall.png)
 
-* 속성: **항목**<br>
+* 속성: **Items**<br>
     값: 
     ```powerapps-dot
     If( !IsBlank( Trim( TextSearchBox.Text ) ), 
@@ -245,7 +245,7 @@ PowerApps의 캔버스 앱의 모임 화면 템플릿의 각 주요 컨트롤이
 
    ![MeetingPeopleGallery 컨트롤](media/meeting-screen/meeting-people-gall.png)
 
-* 속성: **항목**<br>
+* 속성: **Items**<br>
     값: `MyPeople`
 
     **MyPeople** 컬렉션은 **PeopleBrowseGallery Title** 컨트롤을 선택하여 추가된 또는 초기화된 사용자 컬렉션입니다.
@@ -400,7 +400,7 @@ PowerApps의 캔버스 앱의 모임 화면 템플릿의 각 주요 컨트롤이
 
    ![FindMeetingTimesGallery 컨트롤](media/meeting-screen/meeting-time-gall.png)
 
-* 속성: **항목**<br>
+* 속성: **Items**<br>
     값: `MeetingTimes`
 
     잠재적인 모임 시간의 컬렉션은 [Office365.FindMeetingTimes](https://docs.microsoft.com/connectors/office365/#find-meeting-times) 작업에서 검색합니다.
@@ -499,7 +499,7 @@ PowerApps의 캔버스 앱의 모임 화면 템플릿의 각 주요 컨트롤이
 
    ![RoomBrowseGallery 컨트롤](media/meeting-screen/meeting-rooms-gall.png)
 
-* 속성: **항목**<br>
+* 속성: **Items**<br>
     값: 사용자가 회의실 목록 선택 또는 방 목록 테 넌 트에 있는지 여부에 따라 동일한 스키마의 두 가지 내부 컬렉션을 논리적으로 설정 합니다.
 
     ```powerapps-dot

@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 4d7b21286f793aefdcc66a3dcbb027ab8f9ac4e7
-ms.sourcegitcommit: 5b2b70c3fc7bcba5647d505a79276bbaad31c610
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58356842"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61544319"
 ---
 # <a name="edit-form-and-display-form-controls-in-powerapps"></a>PowerApps의 편집 폼 및 표시 폼 컨트롤
 데이터 원본에서 레코드를 표시하고, 편집하고, 만듭니다.
@@ -66,10 +66,10 @@ ms.locfileid: "58356842"
 일부 데이터 원본에서 두 사람이 동시에 동일한 레코드 업데이트를 시도하는 것을 탐지할 수 있습니다. 이 경우 **ErrorKind**가 **ErrorKind.Conflict**로 설정되며 다른 사용자의 변경 내용으로 데이터 원본을 새로 고친 다음, 해당 사용자의 변경 내용을 다시 적용하는 조치를 취합니다.
 
 > [!TIP]
-> 사용자가 진행 중인 변경 내용을 취소할 수 있게 양식에 **취소** 단추를 제공할 경우, 이 속성이 화면 변경을 위한 **[Navigate](../functions/function-navigate.md)** 함수를 포함한다 하더라도 **[ResetForm](../functions/function-form.md)** 함수를 단추의 **[OnSelect](properties-core.md)** 속성에 추가합니다. 그렇지 않으면 양식이 사용자의 변경 내용을 유지합니다.
+> 사용자가 진행 중인 변경 내용을 취소할 수 있게 폼에 **취소** 단추를 제공할 경우, 이 속성이 화면 변경을 위한 **[Navigate](../functions/function-navigate.md)** 함수를 포함한다 하더라도 **[ResetForm](../functions/function-form.md)** 함수를 단추의 **[OnSelect](properties-core.md)** 속성에 추가합니다. 그렇지 않으면 폼이 사용자의 변경 내용을 유지합니다.
 
 ### <a name="layout"></a>레이아웃
-기본적으로 카드는 전화 앱의 한 열, 테이블 앱의 세 열에 놓입니다. 양식을 구성할 때 양식에 있는 열 수와, 카드가 해당 값에 맞출지 여부를 지정할 수 있습니다.  이 설정은 카드의 **X**, **Y** 및 **Width** 속성을 설정하는 데만 사용되므로 속성으로 노출되지 않습니다. 
+기본적으로 카드는 전화 앱의 한 열, 테이블 앱의 세 열에 놓입니다. 폼을 구성할 때 폼에 있는 열 수와, 카드가 해당 값에 맞출지 여부를 지정할 수 있습니다. 이 설정은 카드의 **X**, **Y** 및 **Width** 속성을 설정하는 데만 사용되므로 속성으로 노출되지 않습니다. 
 
 자세한 내용은 [데이터 폼 레이아웃 이해](../working-with-form-layout.md)를 참조하세요.
 

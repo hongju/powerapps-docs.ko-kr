@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: cc4338e37b7ecde2e2e2e9ad5c5ac6e96d116b58
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42849848"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61559487"
 ---
 # <a name="card-control-in-powerapps"></a>PowerApps의 카드 컨트롤
 **[표시 폼](control-form-detail.md)** 또는 **[편집 폼](control-form-detail.md)** 컨트롤의 단일 필드에 대한 표시 및 편집 환경을 제공합니다.
@@ -34,7 +34,7 @@ ms.locfileid: "42849848"
 
 미리 정의된 카드는 기본적으로 *잠겨* 있습니다. 잠긴 카드에서는 카드의 일부 속성 또는 카드 내부의 컨트롤만 수정할 수 있으며 잠긴 카드는 삭제할 수 없습니다. **고급** 보기의 **보기** 탭에서 카드 잠금 및 잠금 해제를 볼 수 있습니다. 속성이 잠겨 있고 수정할 수 없는 경우 해당 이름 옆에 자물쇠 아이콘이 나타납니다. 해당 카드에 대해 자동 수식이 더 이상 생성되지 않으므로, 카드 잠금 해제는 주의하여 수행해야 하는 고급 작업이며 카드를 다시 잠글 수 없습니다.
 
-폼의 컨테이너 내부에서 **ThisItem** 레코드가 사용 가능하며 해당 레코드의 모든 필드를 포함합니다. 예를 들어, 카드의 **[Default](properties-core.md)** 속성은 **ThisItem**.*FieldName*으로 설정되는 경우가 많습니다.
+폼의 컨테이너 내부에서 **ThisItem** 레코드가 사용 가능하며 해당 레코드의 모든 필드를 포함합니다.  예를 들어, 카드의 **[Default](properties-core.md)** 속성은 **ThisItem**.*FieldName*으로 설정되는 경우가 많습니다.
 
 **부모** 참조를 사용하여 카드의 속성을 참조하도록 컨트롤을 구성할 수 있습니다.  예를 들어, 컨트롤은 **Parent.Default**를 사용하여 데이터 원본에서 필드의 초기 상태를 읽어야 합니다. 원하는 정보에 직접 액세스하는 대신 **부모**를 사용하면 카드의 암호화가 개선되며, 내부 서식을 깨지 않고도 다른 필드로 바꿀 수 있습니다.
 
@@ -76,7 +76,7 @@ ms.locfileid: "42849848"
 
 **[Width](properties-size-location.md)** – 컨트롤의 왼쪽 및 오른쪽 가장자리 사이의 간격입니다.
 
-**[WidthFit](properties-size-location.md)** – **[편집 양식](control-form-detail.md)** 컨트롤처럼 컨테이너 컨트롤의 빈 공간을 채우기 위해 컨트롤의 가로가 자동으로 커지는지 여부입니다. 여러 카드에서 이 속성이 **true**로 설정되면 카드 사이의 공간이 분할됩니다. 자세한 내용은 [데이터 양식 레이아웃 이해](../working-with-form-layout.md)를 참조하세요.
+**[WidthFit](properties-size-location.md)** – **[편집 양식](control-form-detail.md)** 컨트롤처럼 컨테이너 컨트롤의 빈 공간을 채우기 위해 컨트롤의 가로가 자동으로 커지는지 여부입니다. 여러 카드에서 이 속성이 **true**로 설정되면 카드 사이의 공간이 분할됩니다. 자세한 내용은 [데이터 폼 레이아웃 이해](../working-with-form-layout.md)를 참조하세요.
 
 ## <a name="additional-properties"></a>추가 속성
 **[BorderColor](properties-color-border.md)** - 컨트롤의 테두리 색입니다.

@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 24f04ff9ce95f603f5f7d4dc7d217146b9eebef8
-ms.sourcegitcommit: 5e15a1033a68289781f8092fb65c57432501f911
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54459413"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61535993"
 ---
 # <a name="overview-of-the-meeting-screen-template-for-canvas-apps"></a>캔버스 앱에 대한 모임 화면 템플릿의 개요
 
@@ -68,6 +68,6 @@ ms.locfileid: "54459413"
 
 ## <a name="next-steps"></a>다음 단계
 
-* [이 화면에 대한 참조 설명서](./meeting-screen-reference.md)를 봅니다.
-* [Office 365 Outlook 커넥터에 대해 자세히 알아봅니다.](../connections/connection-office365-outlook.md)
-* [Office 365 사용자 커넥터에 대해 자세히 알아봅니다.](../connections/connection-office365-users.md)
+* [이 화면에 대한 참조 설명서 보기](./meeting-screen-reference.md)
+* [Office 365 Outlook 커넥터에 대해 자세히 알아보기](../connections/connection-office365-outlook.md)
+* [Office 365 사용자 커넥터에 대해 자세히 알아보기](../connections/connection-office365-users.md)

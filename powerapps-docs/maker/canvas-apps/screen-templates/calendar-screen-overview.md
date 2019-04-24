@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 745b4232a43a06c46866e83ca2452f8a55afeddf
-ms.sourcegitcommit: 5e15a1033a68289781f8092fb65c57432501f911
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54459508"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61536204"
 ---
 # <a name="overview-of-the-calendar-screen-template-for-canvas-apps"></a>캔버스 앱에 대한 일정 화면 템플릿의 개요
 
@@ -36,7 +36,7 @@ ms.locfileid: "54459508"
 
 ## <a name="prerequisite"></a>필수 조건
 
-[PowerApps에서 앱을 만들어](../data-platform-create-app-scratch.md) 화면 및 기타 컨트롤을 추가하고 구성하는 방법을 숙지하고 있습니다.
+[PowerApps에서 앱을 만들어](../data-platform-create-app-scratch.md) 화면 및 기타 컨트롤을 추가하고 구성하는 방법에 친숙합니다.
 
 ## <a name="default-functionality"></a>기본 기능
 
@@ -191,7 +191,7 @@ ms.locfileid: "54459508"
     ```
     이 수식은 앞의 수식은으로 동일한 필터가 포함 되어 있습니다. 따라서 이벤트 표시기 원이 나타납니다. 날짜에서 두 개 이상 있어 가용성 되지 않는 한 선택한 날짜에는 더 많은 이벤트 설정 하는 경우에 **무료**합니다.
 
-## <a name="integrate-the-screen-into-an-app"></a>화면을 앱에 통합
+## <a name="integrate-the-screen-into-an-app"></a>앱에 화면 통합
 
 일정 화면은 그 자체로도 강력한 컨트롤 번들이지만 일반적으로 더 큰, 더 다기능의 응용 프로그램의 일부로 작동합니다. 이러한 옵션을 추가하는 등 다양한 방법으로 더 큰 앱에 이 화면을 통합할 수 있습니다.
 
@@ -377,6 +377,6 @@ ms.locfileid: "54459508"
 
 ## <a name="next-steps"></a>다음 단계
 
-* [이 화면에 대한 참조 설명서](calendar-screen-reference.md)를 확인합니다.
-* [Office 365 Outlook 커넥터에 대해 자세히 알아봅니다.](../connections/connection-office365-outlook.md)
-* [Office 365 사용자 커넥터에 대해 자세히 알아봅니다.](../connections/connection-office365-users.md)
+* [이 화면에 대한 참조 설명서 보기](calendar-screen-reference.md)
+* [Office 365 Outlook 커넥터에 대해 자세히 알아보기](../connections/connection-office365-outlook.md)
+* [Office 365 사용자 커넥터에 대해 자세히 알아보기](../connections/connection-office365-users.md)

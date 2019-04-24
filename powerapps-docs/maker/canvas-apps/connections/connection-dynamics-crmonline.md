@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 3c061d43a766bfdcd0a560c5959756f79751a7f2
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42849146"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61547511"
 ---
 # <a name="connect-to-dynamics-365-from-powerapps"></a>PowerApps에서 Dynamics 365 연결
 PowerApps를 사용하면 약간의 코드 또는 전혀 없이 모바일 앱을 신속하게 생성, 사용자 지정, 공유 및 실행할 수 있습니다. Dynamics 365 커넥터를 사용하여 몇 분 만에 사용자의 조직과 공유할 수 있는 유용한 모바일 앱을 만들 수 있습니다.
@@ -53,7 +53,7 @@ PowerApps를 사용하면 약간의 코드 또는 전혀 없이 모바일 앱을
 2. **데이터를 통해 시작**에서 **Dynamics 365** 타일의 **전화 레이아웃**을 클릭합니다.
    
     ![PowerApps는 Dynamics 365 커넥터를 선택합니다.](./media/connection-dynamics-crmonline/phonelayout.png)
-3. **연결**에서 원하는 연결을 선택한 다음, 앱에서 관리할 Dynamics 365의 인스턴스에 해당하는 데이터 집합을 선택합니다.
+3. **연결**에서 원하는 연결을 선택한 다음, 앱에서 관리할 Dynamics 365의 인스턴스에 해당하는 데이터 세트를 선택합니다.
 4. **테이블 선택**에서 **연락처**를 클릭한 다음, **연결**합니다.
 5. 왼쪽 탐색 모음에서 오른쪽 위 모서리의 아이콘을 클릭하거나 탭하여 미리 보기로 전환합니다.
    

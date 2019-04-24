@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: ea5912a043dc00fa197a2070c11610c358c3201d
-ms.sourcegitcommit: 02d0234bd84352bf1c43d0fc9225ab60947a0add
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49316726"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61553681"
 ---
 # <a name="create-a-canvas-app-from-a-template-in-powerapps"></a>PowerApps의 템플릿에서 캔버스 앱 만들기
 
