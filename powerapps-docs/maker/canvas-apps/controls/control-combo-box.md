@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: ad3b8efc2306540862d0470223cee4f46fb5703c
-ms.sourcegitcommit: 50404720bed371bbc93feb08d296c954ef8038e1
+ms.openlocfilehash: e6d1b1083fcc7e865fa7c9cfe3f8966e20ed86a5
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54031357"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61552046"
 ---
 # <a name="combo-box-control-in-powerapps"></a>PowerApps의 콤보 박스 컨트롤
 사용자가 제공된 선택 항목 중에서 선택할 수 있습니다.  검색과 다중 선택을 지원합니다.
@@ -84,15 +84,21 @@ ms.locfileid: "54031357"
 **[Y](properties-size-location.md)** – 컨트롤의 위쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 위쪽 가장자리 사이의 거리입니다.
 
 ## <a name="example"></a>예
-1. 삽입 탭, 컨트롤 메뉴에서 **콤보 상자** 컨트롤을 추가합니다.  
-2. 속성 옵션 탭에서 데이터를 클릭합니다.  
-3. 데이터 원본, 레이아웃 및 아래의 관련 속성을 선택합니다.
-4. 고급 탭에서 **SelectMultiple** 속성을 설정합니다.
+1. 에 **삽입** 탭을 열고 합니다 **컨트롤** 메뉴를 선택한 후 **콤보 상자**합니다.  
 
-    기능적인 **콤보 상자**가 앱에 나타납니다.
+1. 에 **속성** 탭을 열고 오른쪽 창을 **데이터 원본을 선택** 목록 (옆에 **항목**), 한 다음 추가 하거나 데이터 원본을 선택 합니다.
 
-    [컨트롤을 추가하고 구성](../add-configure-controls.md)하는 방법을 모르시나요?
+1. 동일한 탭에서 선택 **편집할** (옆 **필드**).
 
+1. 에 **데이터** 창 열기를 **기본 텍스트** 목록 및 다음에 표시 하려는 열을 선택 합니다 **콤보 상자** 컨트롤입니다.
+
+1. Alt 키를 누른 채를 열려면 아래쪽 화살표를 선택 합니다 **콤보 상자** 제어 합니다.
+
+    컨트롤에서는 지정한 데이터 원본에 지정 된 열에서 데이터를 보여 줍니다.
+    
+1. (선택 사항) 기본적으로 첫 번째 레코드를 표시 하려면 설정 합니다 **DefaultSelectedItems** 속성을이 식으로 대체 *DataSource* 데이터 원본의 이름:
+
+    `First(DataSource)`
 
 ## <a name="accessibility-guidelines"></a>접근성 지침
 ### <a name="color-contrast"></a>색 대비

@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 9956332c35b4df2773b2634cb7f66d2ea96469e4
-ms.sourcegitcommit: 1b8578e38a09220ac66c5123644714139fc3c9e5
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "57800448"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61551057"
 ---
 # <a name="encodeurl-and-plaintext-functions-in-powerapps"></a>PowerApps의 EncodeUrl 및 PlainText 함수
 문자열을 인코딩하고 디코딩합니다.
