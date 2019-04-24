@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: fc682694bb22ecc63ecc762a735df07950ce29d3
-ms.sourcegitcommit: f84095d964fe1fe5cc5290e5edbee284bd768e1e
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "59096170"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61543775"
 ---
 # <a name="addcolumns-dropcolumns-renamecolumns-and-showcolumns-functions-in-powerapps"></a>PowerApps에서 AddColumns, DropColumns, RenameColumns 및 ShowColumns 함수
 해당 [열](../working-with-tables.md#columns)을 추가, 삭제, 이름 바꾸기 및 선택하여 [테이블](../working-with-tables.md)을 셰이프합니다.

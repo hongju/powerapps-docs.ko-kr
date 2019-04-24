@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 4b2c6b9518e987ef17f2ff2b50987568c8a0b69f
-ms.sourcegitcommit: 5b2b70c3fc7bcba5647d505a79276bbaad31c610
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58356773"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61527527"
 ---
 # <a name="relate-and-unrelate-functions-in-powerapps"></a>PowerApps에서 함수의 연결을 해제와 관련 된
 
@@ -100,7 +100,7 @@ ms.locfileid: "58356773"
 
 1. 만들기는 [비어 있는 상태에서 태블릿 앱](../data-platform-create-app-scratch.md)합니다.
 
-1. 에 **뷰** 탭을 선택 **데이터 원본**합니다.
+1. **보기**에서 **데이터 원본**을 선택합니다.
 
 1. 에 **데이터** 창 **데이터 원본 추가** > **Common Data Service** > **제품**  >  **연결**합니다.  
 
@@ -170,7 +170,7 @@ ms.locfileid: "58356773"
 
 이 시점에서 다른 한 레코드에서 관계를 이동할 수 있습니다 하지만 관계를 완전히 제거할 수 없습니다. 사용할 수는 **Unrelate** 함수를 예약 레코드를 모든 제품에서 연결을 끊습니다.
 
-1. 에 **뷰** 탭을 선택 **데이터 원본**합니다.
+1. **보기**에서 **데이터 원본**을 선택합니다.
 
 1. 에 **데이터** 창 **데이터 원본 추가** > **Common Data Service** > **예약**  >  **연결**합니다.
 
@@ -271,7 +271,7 @@ ms.locfileid: "58356773"
 
     ![구성 취소 아이콘](media/function-relate-unrelate/contacts-unrelate.png)
 
-1. 에 **뷰** 탭을 선택 **데이터 원본**합니다.
+1. **보기**에서 **데이터 원본**을 선택합니다.
 
 1. 에 **데이터** 창 **데이터 원본 추가** > **Common Data Service** > **연락처**  >  **연결**합니다.
 

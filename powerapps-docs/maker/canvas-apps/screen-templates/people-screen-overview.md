@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 85da6f5414cc25d1145f0fa8910e8c78bfb74533
-ms.sourcegitcommit: 5e15a1033a68289781f8092fb65c57432501f911
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54459439"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61536159"
 ---
 # <a name="overview-of-the-people-screen-template-for-canvas-apps"></a>캔버스 앱의 사용자 화면 템플릿 개요
 
@@ -80,7 +80,7 @@ ms.locfileid: "54459439"
 
     **Text** 속성을 `ThisItem.{FieldSelection}`으로 업데이트합니다.
 
-## <a name="integrate-the-screen-into-an-app"></a>화면을 앱에 통합
+## <a name="integrate-the-screen-into-an-app"></a>앱에 화면 통합
 
 사용자 화면은 그 자체로도 컨트롤의 강력한 번들이지만 일반적으로 더 큰, 더 다기능의 응용 프로그램의 일부로 수행됩니다. [캐시된 사용자 목록을 이용하는 것](people-screen-overview.md#use-your-cached-list-of-people)을 포함하여 다양한 방법으로 더 큰 앱에 이 화면을 통합할 수 있습니다.
 

@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: b8f8dc0d354dd17fedd16524fed0f358b70839d4
-ms.sourcegitcommit: f5013108140276b3d66a9dce13a061df89609d26
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "57798401"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61519429"
 ---
 # <a name="split-function-in-powerapps"></a>PowerApps의 Split 함수
 텍스트 문자열을 하위 문자열의 테이블로 분할합니다.
