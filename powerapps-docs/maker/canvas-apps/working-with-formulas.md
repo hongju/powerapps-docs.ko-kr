@@ -43,7 +43,7 @@ Excel에서 작업하는 것처럼 값을 계산하고 다른 작업을 수행�
 Excel의 경우 숫자 **42**나 문구 **Hello World**와 같이 특정 데이터를 셀에 입력할 수 있습니다. 해당 셀은 사용자가 입력한 대로 해당 데이터를 항상 표시합니다. 마찬가지로 PowerApps의 경우 레이블의 **[Text](controls/properties-core.md)** 속성을 큰따옴표로 묶인 정확한 문자 시퀀스로 설정하여 데이터의 일부가 변경되지 않도록 지정할 수 있습니다.
 
 1. (화면의 왼쪽 가장자리에 있는) **파일** 메뉴에서 **새로 만들기**를 선택합니다.
-2. **앱 만들기** 아래에서 **새 앱** 타일에 있는 **휴대폰 레이아웃**을 선택합니다.
+2. **앱 만들기** 아래에서 **빈 앱** 타일에 있는 **전화 레이아웃**을 선택합니다.
 
     수식 입력줄이 화면 맨 위에 나타납니다.
 
@@ -51,8 +51,8 @@ Excel의 경우 숫자 **42**나 문구 **Hello World**와 같이 특정 데이�
 
     이 입력줄은 다음 두 부분으로 구성됩니다.
 
-   * *속성 목록*:  각 컨트롤과 화면에는 [속성 집합이](reference-properties.md)합니다.  이 목록을 사용하여 특정 속성을 선택합니다.  
-   * *수식*:  이 속성에 대해 계산할 수식으로 이루어져 [값, 연산자 및 함수](formula-reference.md)합니다.
+   * *속성 목록*:  각 컨트롤과 화면에는 [속성 집합](reference-properties.md)이 있습니다  이 목록을 사용하여 특정 속성을 선택합니다.  
+   * *수식*:  이 속성에 대해 계산할 수식으로 [값, 연산자 및 함수](formula-reference.md)로 이루어져 있습니다.
 
      수식 입력줄에서는 선택한 컨트롤 또는 선택한 컨트롤이 없다면 화면에 대한 속성을 확인하고 편집할 수 있습니다.  **콘텐츠** 탭에서 선택한 컨트롤의 이름을 볼 수 있습니다.
 
@@ -64,7 +64,7 @@ Excel의 경우 숫자 **42**나 문구 **Hello World**와 같이 특정 데이�
     ![텍스트 상자 컨트롤이 추가됩니다.](./media/working-with-formulas/add-a-label.png)
 
     레이블을 추가하면 속성 목록에 컨트롤이 표시하는 항목을 구동하는 **[Text](controls/properties-core.md)** 속성이 자동으로 표시됩니다. 기본적으로 이 속성의 값은 **"텍스트"** 입니다.  
-4. 수식 입력줄에 이중 따옴표로 묶은 문자열을 입력하여 **[텍스트](controls/properties-core.md)** 속성 값을 **"Hello World"** 로 설정합니다.
+4. 수식 입력줄에 이중 따옴표로 묶은 문자열을 입력하여 **[Text](controls/properties-core.md)** 속성 값을 **"Hello World"** 로 설정합니다.
 
     !["Hello World" 레이블 사용](./media/working-with-formulas/label-hello-world.png)
 
@@ -88,7 +88,7 @@ Excel에서 입력 **= A1 + A2** 모든 셀 값의 합계를 표시 하려면 �
 
 ![두 숫자의 합을 계산 하는 Excel의 애니메이션](./media/working-with-formulas/excel-recalc.gif)
 
-PowerApps에서 화면에 컨트롤을 추가 하 고 해당 속성을 설정 하 여 비슷한 결과 얻을 수 있습니다. 이 예제에서는 명명 된 레이블 컨트롤을 보여 줍니다 **Label1** 두 개의 **[텍스트 입력](controls/control-text-input.md)** 컨트롤, 명명 된 **TextInput1** 고  **TextInput2**합니다.
+PowerApps에서 화면에 컨트롤을 추가하고 해당 속성을 설정하여 비슷한 결과 얻을 수 있습니다. 이 예제에서는 **Label1**이라는 이름의 레이블 컨트롤과 **TextInput1**, **TextInput2**으로 명명된 두 개의 **[텍스트 입력](controls/control-text-input.md)** 컨트롤을 보여주고 있습니다.
 
 ![두 숫자의 합을 계산 하는 PowerApps의 그림](./media/working-with-formulas/recalc1.png)
 
@@ -98,7 +98,7 @@ PowerApps에서 화면에 컨트롤을 추가 하 고 해당 속성을 설정 �
 
 ![두 숫자의 합을 계산 하는 PowerApps의 애니메이션](./media/working-with-formulas/recalc2.gif)
 
-Excel에서 예를 들어 음수 값은 빨간색을 표시 하려면 수식 조건부 서식 지정을 사용할 수 있습니다. PowerApps에서 수식을 사용하여 컨트롤의 기본값뿐만 아니라 서식과 같은 속성도 결정할 수 있습니다. 다음 예제에서는 수식에는 **[색](controls/properties-color-border.md)** 레이블의 속성 빨간색에서 음수 값을 자동으로 표시 합니다. **[If](functions/function-if.md)** 함수는 Excel과 매우 친숙해야 합니다.
+Excel에서 예를 들어 음수 값은 빨간색으로 표시하는 등 조건부 서식 지정 수식을 사용할 수 있습니다. PowerApps에서 수식을 사용하여 컨트롤의 기본값뿐만 아니라 서식과 같은 속성도 결정할 수 있습니다. 다음 예제에서는 레이블의 **[Color](controls/properties-color-border.md)** 속성을 위한 수식은  자동으로 음수 값을 빨간색으로 표시합니다. **[If](functions/function-if.md)** 함수는 Excel과 매우 비슷합니다.
 
 `If( Value(Label1.Text) < 0, Red, Black )`
 

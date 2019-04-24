@@ -335,7 +335,7 @@ ms.locfileid: "61536204"
         )
     );
     ```
-    Office 365 프로필을 검색 하려면 사용 해야 합니다 [Office365Users.UserProfile](https://docs.microsoft.com/connectors/office365users/#userprofile) 하거나 [Office365Users.UserProfileV2](https://docs.microsoft.com/connectors/office365users/#userprofile) 작업 합니다. 이러한 작업 사용자의 조직에 있는 참가자에 대 한 모든 Office 365 프로필을 먼저 수집 그런 다음 작업을 조직 외부에서 참가자에 대 한 몇 가지 필드를 추가합니다. 때문에 고유한 작업으로 두 개의 항목을 구분 합니다 **ForAll** 루프 순서를 보장 하지 않습니다. 따라서 **ForAll** 조직 외부에서 참가자를 처음 수집할 수 있습니다. 이 경우에 대 한 스키마 **MyPeople** 만 포함 **DisplayName**합니다 **Id**를 **JobTitle**, 및 **UserPrincipalName** . 그러나 UserProfile 작업 보다 훨씬 다양 한 데이터를 검색합니다. 할 하므로 합니다 **MyPeople** 다른 프로필 전에 Office 365 프로필을 추가할 컬렉션입니다.
+    Office 365 프로필을 검색하려면 [Office365Users.UserProfile](https://docs.microsoft.com/connectors/office365users/#userprofile) 또는 [Office365Users.UserProfileV2](https://docs.microsoft.com/connectors/office365users/#userprofile) 작업을 사용해야 합니다. 이 작업들은 사용자의 조직에 있는 참석자에 대한 모든 Office 365 프로필을 먼저 수집합니다. 그런 다음 조직 외부의 참석자에 대한 몇 가지 필드를 추가합니다. **ForAll** 루프는 순서를 보장하지 않기 때문에 구분되는 작업으로 두 항목을 분리했습니다. 따라서 **ForAll**은 조직 외부의 참석자를 먼저 수집할 수 있습니다. 이 경우, **MyPeople** 스키마는 **DisplayName**, **Id**, **JobTitle** 및 **UserPrincipalName**만 포함합니다. 그러나 UserProfile 작업은 훨씬 더 다양한 데이터를 검색합니다. 그래서 다른 프로필보다 먼저 **MyPeople** 컬렉션을 Office 365 프로필에 추가해야 합니다.
 
     > [!NOTE]
     > 단지 **ClearCollect** 함수 하나만 사용하여 동일한 결과를 얻을 수 있습니다.

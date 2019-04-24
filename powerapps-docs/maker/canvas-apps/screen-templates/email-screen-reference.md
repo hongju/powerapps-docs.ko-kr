@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 8f77fe1194ace2f8cb5abeb3f9657cc76aab263a
-ms.sourcegitcommit: 5e15a1033a68289781f8092fb65c57432501f911
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54459485"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61538829"
 ---
 # <a name="reference-information-about-the-email-screen-template-for-canvas-apps"></a>캔버스 앱의 전자 메일 화면 템플릿에 대한 참조 정보
 
@@ -34,7 +34,7 @@ PowerApps의 캔버스 앱에 대한 전자 메일 화면 템플릿의 각 중�
 
 ## <a name="prerequisite"></a>필수 조건
 
-[PowerApps에서 앱을 만들어](../data-platform-create-app-scratch.md) 화면 및 기타 컨트롤을 추가하고 구성하는 방법을 익힙니다.
+[PowerApps에서 앱을 만들어](../data-platform-create-app-scratch.md) 화면 및 기타 컨트롤을 추가하고 구성하는 방법에 친숙합니다.
 
 ## <a name="text-search-box"></a>텍스트 검색 상자
 
@@ -203,5 +203,5 @@ PowerApps의 캔버스 앱에 대한 전자 메일 화면 템플릿의 각 중�
 ## <a name="next-steps"></a>다음 단계
 
 * [이 화면 자세히 알아보기](./email-screen-overview.md)
-* [PowerApps에서 Office 365 Outlook 커넥터에 자세히 알아보기](../connections/connection-office365-outlook.md)
-* [PowerApps에서 Office 365 사용자 커넥터에 자세히 알아보기](../connections/connection-office365-users.md)
+* [PowerApps에서 Office 365 Outlook 커넥터 자세히 알아보기](../connections/connection-office365-outlook.md)
+* [PowerApps에서 Office 365 사용자 커넥터 자세히 알아보기](../connections/connection-office365-users.md)

@@ -33,7 +33,7 @@ ms.locfileid: "61544319"
 ### <a name="record-selection"></a>레코드 선택
 어떤 양식 종류에서나 **DataSource** 속성을 레코드 테이블로 설정하고 양식의 **Item** 속성은 해당 테이블의 특정 레코드를 표시하도록 설정합니다. 예를 들어 양식의 **Item** 속성은 **[갤러리](control-gallery.md)** 컨트롤의 **SelectedItem** 속성으로 설정할 수 있습니다. 갤러리에서 레코드를 선택할 때 양식이 더 많은 필드를 표시할 수 있는 경우를 제외하고 양식에 동일한 레코드가 표시됩니다. 사용자가 갤러리로 돌아와 다른 레코드를 선택하면 갤러리의 **SelectedItem** 속성이 변경됩니다. 이렇게 변경하면 양식의 **Item** 속성이 업데이트되어 최근에 선택한 레코드를 표시합니다.
 
-[Show, edit, or add a record](../add-form.md)(레코드 표시, 편집 또는 추가)의 설명대로 **드롭다운** 컨트롤을 사용하거나 **Lookup** 또는 **First** 같은 함수를 사용하여 양식의 **Item** 속성을 설정할 수도 있습니다. 예를 들어, 설정할 수 있습니다 합니다 **항목** 속성을 이러한 수식에서 Fabrikam 항목을 표시 하는 **계정** Common Data Service에서 엔터티:
+[Show, edit, or add a record](../add-form.md)(레코드 표시, 편집 또는 추가)의 설명대로 **드롭다운** 컨트롤을 사용하거나 **Lookup** 또는 **First** 같은 함수를 사용하여 폼의 **Item** 속성을 설정할 수도 있습니다. 예를 들어 **Item** 속성을 다음 수식 중 하나로 설정하여 Common Data Service의 **Accounts** 엔터티에 Fabrikam 항목을 표시할 수 있습니다.
 
 ```First(Accounts)```
 
@@ -48,7 +48,7 @@ ms.locfileid: "61544319"
 
 예를 들어, 단추의 **[Text](properties-core.md)** 속성을 **새로 만들기**로 표시하고 그 **[OnSelect](properties-core.md)** 속성은 **[NewForm](../functions/function-form.md)** 함수를 포함하는 수식으로 설정할 수 있습니다. 사용자가 해당 단추를 선택하면 **새로 만들기** 모드로 전환되어 사용자가 알고 있는 값으로 레코드를 만들 수 있습니다.
 
-**[ResetForm](../functions/function-form.md)** 함수나 **[SubmitForm](../functions/function-form.md)** 함수가 성공적으로 실행된 경우 양식이 다시 **편집** 모드로 전환됩니다.
+**[ResetForm](../functions/function-form.md)** 함수나 **[SubmitForm](../functions/function-form.md)** 함수가 성공적으로 실행된 경우 폼이 다시 **편집** 모드로 전환됩니다.
 
 * 단추의 **[Text](properties-core.md)** 속성을 **취소**로 표시하고 그 **[OnSelect](properties-core.md)** 속성은 **[ResetForm](../functions/function-form.md)** 함수를 포함하는 수식으로 설정할 수 있습니다. 사용자가 해당 단추를 선택하면 진행 중인 변경 내용이 무시되며 폼의 값은 다시 데이터 원본의 기본값과 일치하게 됩니다.
 * 단추의 **[Text](properties-core.md)** 속성을 **변경 내용 저장**으로 표시하고 그 **[OnSelect](properties-core.md)** 속성은 **[SubmitForm](../functions/function-form.md)** 함수를 포함하는 수식으로 설정할 수 있습니다.  사용자가 해당 단추를 선택하고 데이터 원본이 업데이트되면 폼의 값이 데이터 원본의 기본값으로 재설정됩니다.
@@ -56,7 +56,7 @@ ms.locfileid: "61544319"
 ### <a name="save-changes"></a>변경 내용 저장
 앞 섹션에서 설명한 것처럼 **변경 내용 저장** 단추를 만들면 사용자가 해당 단추를 선택하여 레코드를 만들거나 업데이트한 다음, 변경 내용을 데이터 원본에 저장할 수 있습니다. 또는 **[SubmitForm](../functions/function-form.md)** 함수를 사용하여 구성하기만 한다면 **[이미지](control-image.md)** 컨트롤이나 다른 컨트롤이 동일한 작업을 수행하도록 구성할 수 있습니다.  어느 경우에나 **Error**, **ErrorKind**, **OnSuccess** 및 **OnFailure** 속성은 결과에 대한 피드백을 제공합니다.
 
-**[SubmitForm](../functions/function-form.md)** 함수가 실행되면 먼저 사용자가 제출하려는 데이터의 유효성을 검사합니다. 필수 필드에 값이 없거나 다른 값이 어떤 제약 조건에 부합하지 않는 경우 **ErrorKind** 속성이 설정되고 **OnFailure** 수식이 실행됩니다. 데이터가 올바른 경우에만(즉 양식의 **Valid** 속성이 **true**인 경우) 사용자가 선택할 수 있게 **변경 내용 저장** 단추 또는 기타 컨트롤을 구성할 수 있습니다. 사용자는 문제를 해결할 뿐 아니라 **변경 내용 저장** 단추를 다시 선택하여(또는 앞서 설명한 대로 **취소** 단추를 선택하여 변경 내용 취소) **Error** 및 **ErrorKind** 속성을 다시 설정해야 합니다.
+**[SubmitForm](../functions/function-form.md)** 함수가 실행되면 먼저 사용자가 제출하려는 데이터의 유효성을 검사합니다. 필수 필드에 값이 없거나 다른 값이 어떤 제약 조건에 부합하지 않는 경우 **ErrorKind** 속성이 설정되고 **OnFailure** 수식이 실행됩니다. 데이터가 올바른 경우에만(즉 폼의 **Valid** 속성이 **true**인 경우) 사용자가 선택할 수 있게 **변경 내용 저장** 단추 또는 기타 컨트롤을 구성할 수 있습니다. 사용자는 문제를 해결할 뿐 아니라 **변경 내용 저장** 단추를 다시 선택하여(또는 앞서 설명한 대로 **취소** 단추를 선택하여 변경 내용 취소) **Error** 및 **ErrorKind** 속성을 다시 설정해야 합니다.
 
 데이터가 유효성 검사를 통과할 경우 **[SubmitForm](../functions/function-form.md)** 이 데이터를 데이터 원본에 보내며 여기서 네트워크 대기 시간에 따라 다소 시간이 걸릴 수 있습니다.
 
