@@ -279,7 +279,7 @@ PowerApps의 캔버스 앱에 대한 일정 화면 템플릿의 각 중요한 �
 ![MonthDayGallery 원 컨트롤](media/calendar-screen/calendar-month-event.png)
 
 - 속성: **Visible**<br>
-    값: 선택한 날짜에 대 한 예약 된 모든 이벤트가 여부를 결정 하는 수식을 합니다 **Subcircle** 및 **제목** 컨트롤이 표시 됩니다.
+    값: 선택한 날짜에 대해 어떤 이벤트가 예약되었는지와 **Subcircle**, **Title** 컨트롤이 표시되는지 여부를 결정하는 수식입니다.
 
     ```powerapps-dot
     CountRows(
@@ -289,7 +289,7 @@ PowerApps의 캔버스 앱에 대한 일정 화면 템플릿의 각 중요한 �
     ) > 0 && !Subcircle.Visible && Title.Visible
     ```
 
-    **원** 컨트롤이 표시 되는지 경우 합니다 **시작** 해당 셀의 날짜에 해당 하는 모든 이벤트에 대 한 필드 경우는 **제목** 컨트롤은 표시 경우에  **Subcircle** 컨트롤이 표시 되지 않습니다. 즉,이 날에 하나 이상의 이벤트가 발생 하 고이 선택 되지 않은 경우이 컨트롤이 표시 됩니다. 선택한 경우에 해당 날짜에 대 한 이벤트에 표시 됩니다는 **CalendarEventsGallery** 제어 합니다.
+    해당 셀의 날짜가 어떤 이벤트의 **Start** 필드와 동일하며, **Title** 컨트롤이 표시되고 **Subcircle** 컨트롤이 표시되지 않는 경우 **Circle** 컨트롤이 표시됩니다. 즉, 이 날에 하나 이상의 이벤트가 발생하고, 선택되지 않은 경우에 해당 컨트롤이 표시됩니다. 선택되는 경우, 해당 날짜에 대한 이벤트가 **CalendarEventsGallery** 컨트롤에 표시됩니다.
 
 ### <a name="subcircle-control-in-the-calendar-gallery"></a>달력 갤러리에서 subcircle 컨트롤
 
@@ -302,14 +302,14 @@ PowerApps의 캔버스 앱에 대한 일정 화면 템플릿의 각 중요한 �
     DateAdd( _firstDayInView, ThisItem.Value ) = _dateSelected && Title.Visible
     ```
 
-  **Subcircle** 컨트롤을 표시할지  **\_dateSelected** 셀의 날짜에 해당 하는 및 **제목** 컨트롤이 표시 됩니다. 즉,이 컨트롤에 셀이 현재 선택 된 경우 표시 됩니다.
+  **Subcircle**컨트롤은 **\_dateSelected**와 셀의 날짜가 동일하며 **Title** 컨트롤이 표시되는 경우 표시됩니다. 즉, 이 컨트롤은 해당 셀이 현재 선택된 날짜인 경우 표시됩니다.
 
 ## <a name="events-gallery"></a>이벤트 갤러리
 
 ![CalendarEventsGallery 컨트롤](media/calendar-screen/calendar-events-gall.png)
 
 - 속성: **Items**<br>
-    값: 정렬 하 고 이벤트 갤러리를 필터링 하는 수식:
+    값: 이벤트 갤러리를 정렬하고 필터링하는 수식입니다.
 
     ```powerapps-dot
     SortByColumns(

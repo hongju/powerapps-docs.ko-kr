@@ -1,0 +1,120 @@
+- name: 코드를 사용하여 데이터 작업
+  href: ../work-with-data-cds.md
+- name: 조직 서비스 사용
+  href: overview.md
+- name: 시작
+  items:
+    - name: '빠른 시작: 콘솔 앱 만들기'
+      href: quick-start-org-service-console-app.md
+    - name: 지연 및 초기 바인딩된 프로그래밍
+      href: early-bound-programming.md
+    - name: IOrganizationService 인터페이스
+      href: iorganizationservice-interface.md
+    - name: OrganizationServiceContext
+      href: organizationservicecontext.md
+    - name: 클라이언트 앱 만들기
+      href: create-client-app.md
+      items:
+        - name: NuGet을 사용하여 SDK 어셈블리 업데이트 구독
+          href: subscribe-sdk-assembly-updates-using-nuget.md
+        - name: Visual Studio 및 .NET Framework
+          href: visual-studio-dot-net-framework.md
+        - name: 검색 서비스
+          href: discovery-service.md
+        - name: XRM 도구 사용
+          href: ../xrm-tooling/build-windows-client-applications-xrm-tools.md
+- name: 엔터티 작업
+  href: entity-operations.md
+  items:
+    - name: 데이터 쿼리
+      href: entity-operations-query-data.md
+      items:
+        - name: QueryExpression으로 쿼리 빌드
+          href: build-queries-with-queryexpression.md
+          items:
+            - name: QueryExpression 클래스 사용
+              href: use-queryexpression-class.md
+            - name: ConditionExpression 클래스 사용
+              href: use-conditionexpression-class.md
+            - name: FilterExpression 클래스 사용
+              href: use-filterexpression-class.md
+            - name: ColumnSet 클래스 사용
+              href: use-the-columnset-class.md
+            - name: QueryExpression으로 큰 결과 집합 페이지 지정
+              href: page-large-result-sets-with-queryexpression.md
+            - name: QueryExpression에서 왼쪽 우선 외부 조인을 사용하여 "not in" 레코드 쿼리
+              href: use-left-outer-join-queryexpression-query-records-not-in.md
+            - name: QueryByAttribute 클래스 사용
+              href: use-querybyattribute-class.md
+            - name: FetchXML로 큰 결과 집합 페이지 지정
+              href: page-large-result-sets-with-fetchxml.md
+    - name: 엔터티 만들기
+      href: entity-operations-create.md
+    - name: 엔터티 검색
+      href: entity-operations-retrieve.md
+    - name: 엔터티 업데이트 및 삭제
+      href: entity-operations-update-delete.md
+    - name: 엔터티 연결 및 분리
+      href: entity-operations-associate-disassociate.md
+- name: 메시지 사용
+  href: use-messages.md
+- name: 특수 작업
+  items:
+    - name: ExecuteAsync 사용
+      href: use-executeAsync.md
+    - name: ExecuteTransaction 사용
+      href: use-executetransaction.md
+    - name: 여러 요청 실행
+      href: execute-multiple-requests.md
+- name: OrganizationServiceContext 사용
+  items:
+    - name: LINQ로 쿼리 빌드(.NET 언어 통합 쿼리)
+      href: build-queries-with-linq-net-language-integrated-query.md
+    - name: LINQ 쿼리 예제
+      href: linq-query-examples.md
+    - name: LINQ가 있는 엔터티 특성을 사용하여 결과 순서 지정
+      href: order-results-entity-attributes-linq.md
+    - name: LINQ로 큰 결과 집합 페이지 지정
+      href: page-large-result-sets-linq.md
+    - name: LINQ 쿼리와 함께 런타임에 바인딩된 엔터티 클래스 사용
+      href: use-late-bound-entity-class-linq-query.md
+    - name: LINQ를 사용하여 쿼리 구성
+      href: use-linq-construct-query.md
+- name: 중복 데이터 검색
+  href: detect-duplicate-data.md
+- name: 초기 바인딩된 프로그래밍에 대한 클래스 생성
+  href: generate-early-bound-classes.md
+  items:
+    - name: 코드 생성 도구에 대한 확장 만들기
+      href: extend-code-generation-tool.md
+- name: 메타데이터 작업
+  href: work-with-metadata.md
+  items:
+    - name: 사용자 지정 엔터티 만들기
+      href: create-custom-entity.md
+    - name: 특성 메타데이터 작업
+      href: metadata-attributemetadata.md
+    - name: '글로벌 옵션 집합 옵션 삽입, 업데이트, 삭제 및 순서 지정'
+      href: metadata-global-option-set-options.md
+    - name: 옵션 집합 사용자 지정
+      href: metadata-option-sets.md
+    - name: 엔터티 관계 만들기 및 검색
+      href: metadata-relationshipmetadata.md
+    - name: 메타데이터에 대한 변경 내용 추적 및 검색
+      href: metadata-retrieve-detect-changes.md
+    - name: '엔터티 검색, 업데이트 및 삭제'
+      href: metadata-retrieve-update-delete-entities.md
+    - name: 이메일 작업을 보낼 엔터티 만들기
+      href: create-update-entity-emailed.md
+- name: 데이터 가져오기
+  href: ../import-data.md
+- name: 샘플 데이터
+  href: ../sample-data.md
+- name: 코딩 사례
+  items:
+    - name: 코드에서 예외 처리
+      href: handle-exceptions-code.md
+    - name: 웹 서비스 오류 코드
+      href: web-service-error-codes.md
+- name: 샘플
+  href: samples/toc.yml

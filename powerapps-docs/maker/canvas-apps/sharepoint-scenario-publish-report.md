@@ -15,7 +15,7 @@ search.app:
 - PowerApps
 ms.openlocfilehash: 43e95b88cdf305e7c4b768def83a6b41fa0fcae7
 ms.sourcegitcommit: 90245baddce9d92c3ce85b0537c1ac1cf26bf55a
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 01/26/2019
 ms.locfileid: "57799367"
