@@ -137,7 +137,7 @@ SharePoint 목록을 저장했으므로 첫 번째 앱을 빌드하고 사용자
 아주 간단한 앱이며 몇 가지 기본 사용자 지정만 수행했지만 흥미로운 기능을 신속하게 빌드할 수 있습니다. 다음 작업으로 이동하겠습니다. 하지만 원하신다면 앱에 대해 좀 더 살펴보고 컨트롤 및 수식이 함께 작동하여 앱 동작을 구현하는 방법을 확인합니다.
 
 ## <a name="formula-deep-dive"></a>수식 심층 분석
-이 섹션은 옵션이지만 수식이 작동하는 방법에 대해 자세히 이해할 수 있습니다. 이 작업의 3단계에서 **BrowseGallery1**에 있는 **Item** 속성의 수식을 수정했습니다. 특히 선택한 PowerApps 필드 대신 **Title** 필드를 사용하도록 정렬 및 검색 방법을 변경했습니다. 수정한 수식은 다음과 같습니다.
+이 섹션은 옵션이지만 수식이 작동하는 방법에 대해 자세히 이해할 수 있게 합니다. 이 작업의 3단계에서 **BrowseGallery1**에 있는 **Item** 속성의 수식을 수정했습니다. 특히 선택한 PowerApps 필드 대신 **Title** 필드를 사용하도록 정렬 및 검색 방법을 변경했습니다. 수정한 수식은 다음과 같습니다.
 
 **SortByColumns ( Filter ( 'Project Requests', StartsWith ( Title, TextSearchBox1.Text ) ), "Title", If ( SortDescending1, Descending, Ascending ) )**
 
