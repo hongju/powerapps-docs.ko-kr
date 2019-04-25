@@ -82,11 +82,11 @@ PowerApps의 캔버스 앱을 빌드하기 전에, 휴대폰 또는 태블릿 �
 
 | 컨트롤 | 속성 | 수식           |
 |-|----------|-------------------|
-| **위** | **X**        | `0`                 |
-| **위** | **Y**        | `0`                 |
-| **위** | **Width**    | `Parent.Width`      |
-| **위** | **Height**   | `Parent.Height / 2` |
-| **Lower** | **X**        | `0`                 |
+| **Upper** | **X**        | 0                 |
+| **Upper** | **Y**        | 0                 |
+| **Upper** | **Width**    | `Parent.Width`      |
+| **Upper** | **Height**   | `Parent.Height / 2` |
+| **Lower** | **X**        | 0                 |
 | **Lower** | **Y**        | `Parent.Height / 2` |
 | **Lower** | **Width**    | `Parent.Width`      |
 | **Lower** | **Height**   | `Parent.Height / 2` |
@@ -100,11 +100,11 @@ PowerApps의 캔버스 앱을 빌드하기 전에, 휴대폰 또는 태블릿 �
 
 | 컨트롤 | 속성 | 수식           |
 |-|----------|-------------------|
-| **위** | **X**        | `0`                 |
-| **위** | **Y**        | `0`                 |
-| **위** | **Width**    | `Parent.Width`      |
-| **위** | **Height**   | `Parent.Height / 2` |
-| **Lower** | **X**        | `0`                       |
+| **Upper** | **X**        | 0                 |
+| **Upper** | **Y**        | 0                 |
+| **Upper** | **Width**    | `Parent.Width`      |
+| **Upper** | **Height**   | `Parent.Height / 2` |
+| **Lower** | **X**        | 0                       |
 | **Lower** | **Y**        | `Upper.Y + Upper.Height`  |
 | **Lower** | **Width**    | `Parent.Width`            |
 | **Lower** | **Height**   | `Parent.Height - Lower.Y` |
@@ -117,9 +117,9 @@ PowerApps의 캔버스 앱을 빌드하기 전에, 휴대폰 또는 태블릿 �
 
 | C와 해당 부모 간의 관계 | 속성 | 수식 | 그림 |
 |--|--|--|--|
-| **C** 여백을 부모의 너비를 채웁니다 *N* | **X**| `N` | ![부모의 C 채우기 너비의 예](media/create-responsive-layout/c1.png) |
+| **C**는 *N*의 여백을 두고 부모의 너비를 채웁니다 | **X**| *N* | ![C의 부모 채우기 너비의 예](media/create-responsive-layout/c1.png) |
 |  | **Width** | `Parent.Width - (N * 2)` |  |
-| **C** 여백을 부모의 높이 채우는 *N* | **Y** | `N` | ![부모의 C 채우기 높이의 예](media/create-responsive-layout/c2.png) |
+| **C**는 *N*의 여백을 두고 부모의 높이를 채웁니다 | **Y** | *N* | ![C의 부모 높이 채우기의 예](media/create-responsive-layout/c2.png) |
 |  | **Height** | `Parent.Height - (N * 2)` |  |
 | **C**를 *N* 여백으로 부모의 오른쪽 가장자리에 맞춥니다 | **X** | `Parent.Width - (C.Width + N)` | ![부모의 가장자리에 맞게 조정하는 C의 예](media/create-responsive-layout/c3.png) |
 | **C**를 *N* 여백으로 부모의 아래쪽 가장자리에 맞춥니다 | **Y** | `Parent.Height - (C.Height + N)` | ![부모의 가장자리에 맞게 조정하는 C의 예](media/create-responsive-layout/c4.png) |
@@ -207,12 +207,12 @@ Components로 명명된 다른 실험적 기능을 사용하는 경우, 빌딩 �
 
 | 컨트롤 | 속성 | 수식 |
 |--|----------|---|
-| **위** | **X** | `0` |
-| **위** | **Y** | `0` |
-| **위** | **Width** | `If(Parent.Orientation = Layout.Vertical, Parent.Width, Parent.Width / 2)` |
-| **위** | **Height**   | `If(Parent.Orientation = Layout.Vertical, Parent.Height / 2, Parent.Height)` |
-| **Lower** | X | `If(Parent.Orientation = Layout.Vertical, 0, Upper.X + Upper.Width)`  |
-| **Lower** | Y | `If(Parent.Orientation = Layout.Vertical, Upper.Y + Upper.Height, 0)` |
+| **Upper** | **X** | 0 |
+| **Upper** | **Y** | 0 |
+| **Upper** | **Width** | `If(Parent.Width < Parent.Height, Parent.Width, Parent.Width / 2)` |
+| **Upper** | **Height**   | `If(Parent.Width < Parent.Height, Parent.Height / 2, Parent.Height)` |
+| **Lower** | X | `If(Parent.Width < Parent.Height, 0, Upper.X + Upper.Width)`  |
+| **Lower** | Y | `If(Parent.Width < Parent.Height, Upper.Y + Upper.Height, 0)` |
 | **Lower** | **Width** | `Parent.Width - Lower.X` |
 | **Lower** | **Height** | `Parent.Height - Lower.Y` |
 
