@@ -63,7 +63,7 @@ SharePoint 목록을 저장했으므로 첫 번째 앱을 빌드하고 사용자
 
 1. 찾아보기 화면을 클릭하거나 누릅니다.
    
-    이 화면에는 *갤러리*를 포함하는 *레이아웃*이 있어서 검색 표시줄 및 정렬 단추와 같은 다른 *컨트롤*뿐만 아니라 목록 항목을 표시합니다.
+    이 화면에는 *갤러리*를 포함하는 *레이아웃*이 있어서 검색 표시줄 및 정렬 단추와 같은 다른 *컨트롤* 뿐만 아니라 목록 항목을 표시합니다.
 
 2. 첫 번째 항목을 제외한 레코드를 클릭하거나 눌러서 **BrowseGallery1** 갤러리를 선택합니다.
    
@@ -75,13 +75,13 @@ SharePoint 목록을 저장했으므로 첫 번째 앱을 빌드하고 사용자
    
    * **RequestDate**
 
-   * **요청자**
+   * **Requestor**
 
    * **Title**
 
      ![갤러리 필드](./media/sharepoint-scenario-generate-app/02-03-02-gallery-fields.png)
 
-5. **BrowseGallery1**을 선택한 상태에서 **항목** 속성을 선택합니다.
+5. **BrowseGallery1**을 선택한 상태에서 **Item** 속성을 선택합니다.
    
     ![항목 속성](./media/sharepoint-scenario-generate-app/02-03-03-items.png)
 
@@ -89,24 +89,24 @@ SharePoint 목록을 저장했으므로 첫 번째 앱을 빌드하고 사용자
    
     ![수식 입력줄](./media/sharepoint-scenario-generate-app/02-03-04-formula.png)
    
-    그러면 PowerApps에서 선택한 기본값 대신 **제목** 필드별로 정렬하고 검색할 수 있습니다. 자세한 정보는 [수식 심층 분석](#formula-deep-dive)을 참조하세요.
+    그러면 PowerApps에서 선택한 기본값 대신 **Title** 필드별로 정렬하고 검색할 수 있습니다. 자세한 정보는 [수식 심층 분석](#formula-deep-dive)을 참조하세요.
 
 6. **파일** 및 **저장**을 차례로 클릭하거나 누릅니다. ![앱으로 돌아가기 아이콘](./media/sharepoint-scenario-generate-app/icon-back-to-app.png)을 클릭하거나 눌러서 앱으로 돌아갑니다.
 
 ## <a name="step-4-review-the-apps-details-screen-and-edit-screen"></a>4단계: 앱의 세부 정보 화면 검토 및 화면 편집
 1. 세부 정보 화면을 클릭하거나 누릅니다.
    
-    이 화면에는 갤러리에서 선택한 항목에 대한 정보를 표시한 *표시 양식*을 포함하는 다른 레이아웃이 있습니다. 항목을 편집하거나 삭제하는 컨트롤 및 찾아보기 화면으로 돌아가는 컨트롤이 있습니다.
+    이 화면에는 갤러리에서 선택한 항목에 대한 정보를 표시한 *표시 폼*을 포함하는 다른 레이아웃이 있습니다. 항목을 편집하거나 삭제하는 컨트롤 및 찾아보기 화면으로 돌아가는 컨트롤이 있습니다.
    
     ![세부 정보 표시 양식](./media/sharepoint-scenario-generate-app/02-04-01-details.png)
 
 4. 편집 화면을 클릭하거나 누릅니다.
    
-    이 화면에는 선택한 항목을 편집하거나 (찾아보기 화면에서 직접 이동한 경우) 새로운 항목을 만드는 *편집 양식*이 포함됩니다. 변경 내용을 저장하거나 취소하는 컨트롤이 있습니다.
+    이 화면에는 선택한 항목을 편집하거나 (찾아보기 화면에서 직접 이동한 경우) 새로운 항목을 만드는 *편집 폼*이 포함됩니다. 변경 내용을 저장하거나 취소하는 컨트롤이 있습니다.
 
     ![편집 양식](./media/sharepoint-scenario-generate-app/02-04-03-edit.png)
 
-## <a name="step-5-run-the-app-from-the-list"></a>5단계: 목록에서 앱을 실행 합니다.
+## <a name="step-5-run-the-app-from-the-list"></a>5단계: 목록에서 앱 실행
 
 1. **프로젝트 요청** 목록에서 **모든 항목** 및 **프로젝트 요청 앱**을 차례로 클릭하거나 누릅니다.
    
@@ -121,7 +121,7 @@ SharePoint 목록을 저장했으므로 첫 번째 앱을 빌드하고 사용자
 
 4. 연필 편집 아이콘을 ![클릭하거나 눌러서](./media/sharepoint-scenario-generate-app/icon-pencil.png) 항목을 편집합니다.
 
-5. **설명** 필드를 업데이트합니다. 마지막 단어를 "그룹"에서 "팀"으로 변경한 다음 ![확인 표시 아이콘](./media/sharepoint-scenario-generate-app/icon-check-mark.png)을 클릭하거나 누릅니다.
+5. **Description** 필드를 업데이트합니다. 마지막 단어를 "그룹"에서 "팀"으로 변경한 다음 ![확인 표시 아이콘](./media/sharepoint-scenario-generate-app/icon-check-mark.png)을 클릭하거나 누릅니다.
    
    ![설명 필드 업데이트](./media/sharepoint-scenario-generate-app/02-05-07-edit.png)
 
@@ -137,7 +137,7 @@ SharePoint 목록을 저장했으므로 첫 번째 앱을 빌드하고 사용자
 아주 간단한 앱이며 몇 가지 기본 사용자 지정만 수행했지만 흥미로운 기능을 신속하게 빌드할 수 있습니다. 다음 작업으로 이동하겠습니다. 하지만 원하신다면 앱에 대해 좀 더 살펴보고 컨트롤 및 수식이 함께 작동하여 앱 동작을 구현하는 방법을 확인합니다.
 
 ## <a name="formula-deep-dive"></a>수식 심층 분석
-이 섹션은 옵션이지만 수식이 작동하는 방법에 대해 자세히 이해할 수 있습니다. 이 작업의 3단계에서 **BrowseGallery1**에 있는 **항목** 속성의 수식을 수정했습니다. 특히 선택한 PowerApps 필드 대신 **제목** 필드를 사용하도록 정렬 및 검색 방법을 변경했습니다. 수정한 수식은 다음과 같습니다.
+이 섹션은 옵션이지만 수식이 작동하는 방법에 대해 자세히 이해할 수 있게 합니다. 이 작업의 3단계에서 **BrowseGallery1**에 있는 **Item** 속성의 수식을 수정했습니다. 특히 선택한 PowerApps 필드 대신 **Title** 필드를 사용하도록 정렬 및 검색 방법을 변경했습니다. 수정한 수식은 다음과 같습니다.
 
 **SortByColumns ( Filter ( 'Project Requests', StartsWith ( Title, TextSearchBox1.Text ) ), "Title", If ( SortDescending1, Descending, Ascending ) )**
 
@@ -150,13 +150,13 @@ SharePoint 목록을 저장했으므로 첫 번째 앱을 빌드하고 사용자
 
 수식에 함수를 함께 배치하면 다음과 같은 상황이 발생합니다.
 
-1. 검색 상자에 텍스트를 입력하는 경우 **StartsWith** 함수는 해당 텍스트를 목록의 **제목** 열에서 각 문자열의 시작 부분과 비교합니다.
+1. 검색 상자에 텍스트를 입력하는 경우 **StartsWith** 함수는 해당 텍스트를 목록의 **Title** 열에서 각 문자열의 시작 부분과 비교합니다.
    
     **StartsWith ( Title, TextSearchBox1.Text )**
    
     예를 들어 검색 상자에 "de"를 입력하는 경우 "Desktop" 및 "Device"로 시작하는 항목을 비롯한 4개의 결과가 표시됩니다. 모든 "Mobile devices" 항목은 "de"로 *시작*하지 않기 때문에 표시되지 않습니다.
 
-2. **필터** 함수는 **프로젝트 요청** 테이블에서 행을 *반환*합니다. 비교할 검색 상자에 텍스트가 없으면 **필터**는 모든 행을 반환합니다.
+2. **Filter** 함수는 **프로젝트 요청** 테이블에서 행을 *반환*합니다. 비교할 검색 상자에 텍스트가 없으면 **Filter**는 모든 행을 반환합니다.
    
     **Filter ( 'Project Requests', StartsWith ( Title, TextSearchBox1.Text )**
 
@@ -164,7 +164,7 @@ SharePoint 목록을 저장했으므로 첫 번째 앱을 빌드하고 사용자
    
     **If ( SortDescending1, Descending, Ascending )**
 
-4. 이제 **SortByColumns** 함수는 갤러리를 정렬할 수 있습니다. 이 경우에 **제목** 필드에 따라 정렬하지만 검색 필드가 아닌 다른 필드일 수 있습니다.
+4. 이제 **SortByColumns** 함수는 갤러리를 정렬할 수 있습니다. 이 경우에 **Title** 필드에 따라 정렬하지만 검색 필드가 아닌 다른 필드일 수 있습니다.
 
 이 지점까지 수행한 경우 사용자가 이 수식의 작동 방식 및 함수 및 기타 요소를 결합하여 앱에서 필요한 동작을 실행하는 방법을 이해할 수 있을 것입니다. 자세한 내용은 [PowerApps에 대한 수식 참조](formula-reference.md)를 참조하세요.
 
