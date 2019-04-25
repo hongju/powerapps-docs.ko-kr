@@ -71,13 +71,13 @@ ms.locfileid: "57799367"
 
 1. 보고서를 다시 가져오려면 **보고서** 아래에서 **project-analysis**를 클릭하거나 탭합니다.
 
-1. 왼쪽 위의 차트를 클릭하거나 탭한 다음 ![핀 고정 아이콘을 클릭하거나](./media/sharepoint-scenario-publish-report/icon-pin.png)을 클릭하거나 탭합니다.
+1. 왼쪽 위의 차트를 클릭하거나 탭한 다음 ![핀 고정 아이콘](./media/sharepoint-scenario-publish-report/icon-pin.png)을 클릭하거나 탭합니다.
    
     ![차트 고정](./media/sharepoint-scenario-publish-report/06-01-12-pin-projected.png)
 2. 고정하려는 대시보드에 대한 이름을 입력한 다음 **핀 고정**을 클릭하거나 탭합니다.
    
     ![새 대시보드에 차트 고정](./media/sharepoint-scenario-publish-report/06-01-13-pin-new.png)
-3. 오른쪽 위의 차트를 클릭하거나 탭한 다음 ![핀 고정 아이콘을 클릭하거나](./media/sharepoint-scenario-publish-report/icon-pin.png)을 클릭하거나 탭합니다.
+3. 오른쪽 위의 차트를 클릭하거나 탭한 다음 ![핀 고정 아이콘](./media/sharepoint-scenario-publish-report/icon-pin.png)을 클릭하거나 탭합니다.
    
     ![차트 고정](./media/sharepoint-scenario-publish-report/06-01-14-pin-variance.png)
 4. 기존 대시보드를 선택하고 **핀 고정**을 클릭하거나 탭합니다.
