@@ -1,4 +1,4 @@
-﻿---
+---
 title: '표시 폼 및 편집 폼 컨트롤: 참조 | Microsoft Docs'
 description: 표시 폼과 편집 폼 컨트롤에 대한 속성 및 예제 등을 포함한 정보
 author: aneesmsft
@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 4d7b21286f793aefdcc66a3dcbb027ab8f9ac4e7
-ms.sourcegitcommit: 5b2b70c3fc7bcba5647d505a79276bbaad31c610
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58356842"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61544319"
 ---
 # <a name="edit-form-and-display-form-controls-in-powerapps"></a>PowerApps의 편집 폼 및 표시 폼 컨트롤
 데이터 원본에서 레코드를 표시하고, 편집하고, 만듭니다.
@@ -33,7 +33,7 @@ ms.locfileid: "58356842"
 ### <a name="record-selection"></a>레코드 선택
 어떤 폼 종류에서나 **DataSource** 속성을 레코드 테이블로 설정하고 폼의 **Item** 속성은 해당 테이블의 특정 레코드를 표시하도록 설정합니다. 예를 들어 폼의 **Item** 속성은 **[갤러리](control-gallery.md)** 컨트롤의 **SelectedItem** 속성으로 설정할 수 있습니다. 갤러리에서 레코드를 선택할 때 폼이 더 많은 필드를 표시할 수 있는 경우를 제외하고 폼에 동일한 레코드가 표시됩니다. 사용자가 갤러리로 돌아와 다른 레코드를 선택하면 갤러리의 **SelectedItem** 속성이 변경됩니다. 이렇게 변경하면 폼의 **Item** 속성이 업데이트되어 최근에 선택한 레코드를 표시합니다.
 
-[Show, edit, or add a record](../add-form.md)(레코드 표시, 편집 또는 추가)의 설명대로 **드롭다운** 컨트롤을 사용하거나 **Lookup** 또는 **First** 같은 함수를 사용하여 폼의 **Item** 속성을 설정할 수도 있습니다. 예를 들어 **Item** 속성을 다음 수식 중 하나로 설정하여 Common Data Service의 Accounts 엔터티에 Fabrikam 항목을 표시할 수 있습니다.
+[Show, edit, or add a record](../add-form.md)(레코드 표시, 편집 또는 추가)의 설명대로 **드롭다운** 컨트롤을 사용하거나 **Lookup** 또는 **First** 같은 함수를 사용하여 폼의 **Item** 속성을 설정할 수도 있습니다. 예를 들어 **Item** 속성을 다음 수식 중 하나로 설정하여 Common Data Service의 **Accounts** 엔터티에 Fabrikam 항목을 표시할 수 있습니다.
 
 ```First(Accounts)```
 
@@ -69,7 +69,7 @@ ms.locfileid: "58356842"
 > 사용자가 진행 중인 변경 내용을 취소할 수 있게 폼에 **취소** 단추를 제공할 경우, 이 속성이 화면 변경을 위한 **[Navigate](../functions/function-navigate.md)** 함수를 포함한다 하더라도 **[ResetForm](../functions/function-form.md)** 함수를 단추의 **[OnSelect](properties-core.md)** 속성에 추가합니다. 그렇지 않으면 폼이 사용자의 변경 내용을 유지합니다.
 
 ### <a name="layout"></a>레이아웃
-기본적으로 카드는 전화 앱의 한 열, 테이블 앱의 세 열에 놓입니다. 폼을 구성할 때 폼에 있는 열 수와, 카드가 해당 값에 맞출지 여부를 지정할 수 있습니다.  이 설정은 카드의 **X**, **Y** 및 **Width** 속성을 설정하는 데만 사용되므로 속성으로 노출되지 않습니다. 
+기본적으로 카드는 전화 앱의 한 열, 테이블 앱의 세 열에 놓입니다. 폼을 구성할 때 폼에 있는 열 수와, 카드가 해당 값에 맞출지 여부를 지정할 수 있습니다. 이 설정은 카드의 **X**, **Y** 및 **Width** 속성을 설정하는 데만 사용되므로 속성으로 노출되지 않습니다. 
 
 자세한 내용은 [데이터 폼 레이아웃 이해](../working-with-form-layout.md)를 참조하세요.
 

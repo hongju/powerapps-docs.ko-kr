@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 95406bff477a4d84a6125225ffc1e158ffb8c19a
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42827255"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61544067"
 ---
 # <a name="abs-exp-ln-power-and-sqrt-functions-in-powerapps"></a>Microsoft PowerApps의 Abs, Exp, Ln, Power 및 Sqrt 함수
 절대 값, 자연 로그, 제곱근 및 *e* 또는 지정된 숫자로 거듭제곱했을 때 결과를 계산합니다.

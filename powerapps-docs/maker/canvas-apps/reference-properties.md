@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 968722e672c6f169c4a9e2e87be959aa48e23c86
-ms.sourcegitcommit: 957d67e13bd4153d042b3b3bd650f6d0de20613c
+ms.openlocfilehash: 97f9324230e1d935cb056eada294e11d8bfb4d73
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "58073674"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61535831"
 ---
 # <a name="controls-and-properties-in-powerapps"></a>PowerApps 컨트롤 및 속성
 
@@ -31,8 +31,6 @@ ms.locfileid: "58073674"
 **[첨부 파일](controls/control-attachments.md)** – 로컬 디바이스에서 데이터 원본으로 파일을 다운로드하고 업로드합니다.
 
 **[오디오](controls/control-audio-video.md)** – 오디오 클립 또는 비디오 클립의 오디오 부분을 재생합니다.
-
-**[(실험적) 바코드 스캐너](controls/control-barcodescanner.md)**  – (레거시/사용 되지 않음) 웹 브라우저에서 코드를 검색 합니다.
 
 **[바코드 스캐너](controls/control-new-barcode-scanner.md)**  – 바코드, QR 코드 및 Android 또는 iOS 장치에서 데이터 행렬 코드를 검색 합니다.
 
@@ -60,7 +58,7 @@ ms.locfileid: "58073674"
 
 **[편집 폼](controls/control-form-detail.md)** – 폼을 사용하여 데이터 원본의 레코드를 편집하고 만듭니다.
 
-**[엔터티 폼](entity-form-control.md)** - 실험적 기능: 사용자 수 보기, 탐색 및 Common Data Service의 관계형 데이터를 편집하는 동적 폼을 추가합니다.
+**[엔터티 양식](entity-form-control.md)**  -실험적 기능: 사용자 수 보기, 탐색 및 Common Data Service의 관계형 데이터를 편집 하는 동적 양식을 추가 합니다.
 
 **[내보내기](controls/control-export-import.md)** – PowerApps의 다른 위치에서 사용할 데이터를 내보냅니다.
 
@@ -194,7 +192,7 @@ ms.locfileid: "58073674"
 
 **[DefaultDate](controls/control-date-picker.md)** – 사용자가 날짜 컨트롤을 변경하기 전의 초기 값입니다.  **[날짜 선택](controls/control-date-picker.md)** 컨트롤에 적용됩니다.
 
-**[DefaultMode](controls/control-form-detail.md)** – 폼 컨트롤의 초기 모드로서 **Edit**, **New** 또는 **View** 중 하나입니다.  **[편집 폼](controls/control-form-detail.md)** 컨트롤에 적용됩니다.
+**[DefaultMode](controls/control-form-detail.md)** – 양식 컨트롤의 초기 모드로서 **Edit**, **New** 또는 **View** 중 하나입니다.  **[편집 폼](controls/control-form-detail.md)** 컨트롤에 적용됩니다.
 
 **[Direction](controls/control-gallery.md)** – 갤러리의 첫 번째 항목이 가로 방향으로 왼쪽 또는 오른쪽 가장자리 근처에 표시되는지 여부입니다.  **[갤러리](controls/control-gallery.md)** 컨트롤에 적용됩니다.
 
@@ -346,7 +344,7 @@ ms.locfileid: "58073674"
 
 **[OnPause](controls/control-audio-video.md)** - 사용자가 오디오 또는 비디오 컨트롤에서 재생 중인 클립을 일시 중지할 때의 앱 동작입니다.  **[오디오](controls/control-audio-video.md)** 및 **[비디오](controls/control-audio-video.md)** 컨트롤에 적용됩니다.
 
-**[OnReset](controls/control-form-detail.md)** – **[편집 폼](controls/control-form-detail.md)** 컨트롤이 다시 설정되었을 때의 앱 동작입니다.  **[편집 폼](controls/control-form-detail.md)** 컨트롤에 적용됩니다.
+**[OnReset](controls/control-form-detail.md)** – **[편집 양식](controls/control-form-detail.md)** 컨트롤이 다시 설정되었을 때의 앱 동작입니다.  **[편집 폼](controls/control-form-detail.md)** 컨트롤에 적용됩니다.
 
 **[OnSelect](controls/properties-core.md)** – 사용자가 앱을 클릭하거나 탭할 때의 앱 동작입니다.  많은 컨트롤에 적용됩니다.
 
@@ -500,11 +498,11 @@ ms.locfileid: "58073674"
 
 **[Underline](controls/properties-text.md)** – 컨트롤에 표시되는 텍스트 아래에 선을 표시할지 여부를 선택합니다.  많은 컨트롤에 적용됩니다.
 
-**[Unsaved](controls/control-form-detail.md)** – **[편집 폼](controls/control-form-detail.md)** 컨트롤에 저장되지 않은 사용자 변경 내용이 포함되어 있으면 true입니다.  **[편집 폼](controls/control-form-detail.md)** 컨트롤에 적용됩니다.
+**[Unsaved](controls/control-form-detail.md)** – **[편집 양식](controls/control-form-detail.md)** 컨트롤에 저장되지 않은 사용자 변경 내용이 포함되어 있으면 true입니다.  **[편집 폼](controls/control-form-detail.md)** 컨트롤에 적용됩니다.
 
 **[Update](controls/control-card.md)** – 필드의 데이터 원본에 쓰기 저장하는 값입니다.  **[카드](controls/control-card.md)** 컨트롤에 적용됩니다.
 
-**[Updates](controls/control-form-detail.md)** – 폼 컨트롤에 로드된 레코드의 데이터 원본에 쓰기 저장하는 값입니다.  **[편집 폼](controls/control-form-detail.md)** 컨트롤에 적용됩니다.
+**[Updates](controls/control-form-detail.md)** – 양식 컨트롤에 로드된 레코드의 데이터 원본에 쓰기 저장하는 값입니다.  **[편집 폼](controls/control-form-detail.md)** 컨트롤에 적용됩니다.
 
 ### <a name="v"></a>V
 

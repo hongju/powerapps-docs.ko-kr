@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 32a7c0a6848ee5b9521de65b9af0f28d85939f57
-ms.sourcegitcommit: 90245baddce9d92c3ce85b0537c1ac1cf26bf55a
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "57799735"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61537175"
 ---
 # <a name="how-to-link-sharepoint-lists-using-a-lookup-field-in-powerapps"></a>PowerApps에서 조회 필드를 사용하여 SharePoint 목록을 연결하는 방법
 
@@ -77,7 +77,7 @@ SharePoint에서는 두 가지 형식의 조회 필드를 제공합니다.
 ### <a name="define-the-assets-list"></a>자산 목록을 정의합니다.
 1. SharePoint 사이트에서 새 **자산** 목록을 만듭니다.
 
-2. 더하기 기호를 클릭하거나 누르고 **더 보기...**를 선택합니다.
+2. 더하기 기호를 클릭하거나 누르고 **더 보기...** 를 선택합니다.
 
     ![](./media/sharepoint-lookup-fields/choose-more-type.png)
 
@@ -85,9 +85,9 @@ SharePoint에서는 두 가지 형식의 조회 필드를 제공합니다.
 
     ![](./media/sharepoint-lookup-fields/define-choice-column.png)
 
-4. 2단계처럼 다른 필드를 추가하기 시작합니다. 더하기 기호를 클릭하거나 누르고 **더 보기...**를 선택합니다.
+4. 2단계처럼 다른 필드를 추가하기 시작합니다. 더하기 기호를 클릭하거나 누르고 **자세히**를 선택합니다.
 
-5. **조회** 형식의 *RepairShop* 필드를 추가하고, **정보를 가져올 대상** 텍스트 상자에서 **RepairShop**을 선택하고, **열 선택** 텍스트 상자에서 *ContactEmail*을 선택합니다. 그런 다음 **확인**을 클릭하거나 누릅니다.
+5. **조회** 형식의 *RepairShop* 필드를 추가하고, **정보를 가져오는 위치** 텍스트 상자에서 **RepairShop**을 선택하고, **이 열에서** 텍스트 상자에서 *ContactEmail*을 선택합니다. 그런 다음 **확인**을 클릭하거나 누릅니다.
 
     ![](./media/sharepoint-lookup-fields/setup-lookup-column.png)
 

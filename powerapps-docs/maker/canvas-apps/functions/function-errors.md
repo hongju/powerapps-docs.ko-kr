@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 1cc589d1bff73777e0c20ed933a563e42b934f35
-ms.sourcegitcommit: 825daacc9a812637815afc1ce6fad28f0cebd479
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "57803599"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61551150"
 ---
 # <a name="errors-function-in-powerapps"></a>PowerApps의 Errors 함수
 [데이터 원본](../working-with-data-sources.md)의 이전 변경에 대한 오류 정보를 제공합니다.

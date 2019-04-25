@@ -1,6 +1,6 @@
 ---
-title: '바코드 스캐너 컨트롤: 참조 | Microsoft Docs'
-description: 속성 및 예제를 포함한 바코드 스캐너 컨트롤에 관한 정보
+title: '웹 바코드 스캐너 컨트롤: 참조 | Microsoft Docs'
+description: 바코드 스캐너 컨트롤에 대한 속성 및 예제를 포함한 정보
 author: fikaradz
 manager: kvivek
 ms.service: powerapps
@@ -13,23 +13,27 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 853558273521491467fa7474688ce9c984ac5db6
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.openlocfilehash: 787fa34bdfcabf6103fefd82f66e976b680544e2
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42862471"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61544594"
 ---
-# <a name="barcode-scanner-control-experimental-in-powerapps"></a>PowerApps의 바코드 스캐너 컨트롤(실험)
-사용자가 장치에서 바코드 스캐너를 사용하여 사진을 촬영할 수 있는 실험적 컨트롤입니다.
+# <a name="web-barcode-scanner-control-experimental-in-powerapps"></a>PowerApps에서 (실험적) 웹 바코드 스캐너 컨트롤
+
+레거시 바코드 스캔 하는 컨트롤에는 사용 되지 않습니다 하지만 웹 브라우저에서 코드를 스캔 하는 데 유용할 수 있습니다.
 
 ## <a name="description"></a>설명
-이 컨트롤을 추가하면 사용자는 앱이 실행 중일 때마다 하나 이상의 사진으로 데이터 원본을 업데이트할 수 있습니다.
+
+컨트롤은 사용자는 모든 장치에서 바코드를 스캔할 수 있도록 앱에서 카메라 피드를 보여줍니다. 컨트롤은 성능 저하 및 모바일 인해 사용 되지 않습니다 **[바코드 스캐너](control-new-barcode-scanner.md)** 컨트롤이이 컨트롤을 대체 합니다.
 
 ## <a name="key-properties"></a>주요 속성
-**Barcode scanner** – 둘 이상의 바코드 스캐너를 사용하는 장치에서 앱이 사용하는 바코드 스캐너의 숫자 ID입니다.
+
+**Barcode scanner** – 둘 이상의 바코드 스캐너를 사용하는 디바이스에서 앱이 사용하는 바코드 스캐너의 숫자 ID입니다.
 
 ## <a name="additional-properties"></a>추가 속성
+
 **[AccessibleLabel](properties-accessibility.md)** – 화면 읽기 프로그램의 레이블입니다.
 
 **[BorderColor](properties-color-border.md)** - 컨트롤의 테두리 색입니다.
@@ -61,24 +65,32 @@ ms.locfileid: "42862471"
 **[Y](properties-size-location.md)** – 컨트롤의 위쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 위쪽 가장자리 사이의 거리입니다.
 
 ## <a name="related-functions"></a>관련된 함수
+
 [**Patch**( *DataSource*, *BaseRecord*, *ChangeRecord* )](../functions/function-patch.md)
 
 ## <a name="example"></a>예
+
 ### <a name="add-photos-to-an-image-gallery-control"></a>이미지 갤러리 컨트롤에 사진 추가
-1. **바코드 스캐너** 컨트롤을 추가하고 이름을 **Mybarcode scanner**로 지정합니다.
+
+1. **바코드 스캐너** 컨트롤을 추가하고 이름을 **Mybarcode scanner**로 지정합니다
 
     [컨트롤을 추가, 이름을 지정하고, 구성](../add-configure-controls.md)하는 방법을 모르시나요?
-2. **레이블** 컨트롤을 추가하고 해당 출력을 바코드의 **Text**로 설정합니다.  
-3. BarcodeType 속성에서 설정된 형식의 바코드를 스캔합니다.
-4. 레이블이 스캔된 바코드를 표시하려고 합니다.
 
+1. 추가 된 **레이블을** 컨트롤 및 해당 출력을 바코드 스캐너로 **텍스트** 속성.
+
+1. 설정 된 형식의 바코드를 스캔 **BarcodeType** 속성입니다.
+
+    레이블이 스캔 된 바코드를 표시합니다.
 
 ## <a name="accessibility-guidelines"></a>접근성 지침
+
 ### <a name="video-alternatives"></a>비디오 대체 항목
-* **[Text](properties-core.md)** 가 바코드 스캐너의 **Text**로 설정된 ** [레이블](control-text-box.md)** 을 추가하는 것이 좋습니다. 바코드 스캐너는 식별된 바코드 값을 표시하지 않으므로 위의 작업을 수행하면 시각 장애가 있는 사용자만이 아니라 모든 사용자가 스캐너에 액세스할 수 있습니다.
+
+* **[Text](properties-core.md)** 가 바코드 스캐너의 **Text**로 설정된 **[레이블](control-text-box.md)** 을 추가하는 것이 좋습니다. 바코드 스캐너는 식별된 바코드 값을 표시하지 않으므로 위의 작업을 수행하면 시각 장애가 있는 사용자만이 아니라 모든 사용자가 스캐너에 액세스할 수 있습니다.
 
 ### <a name="screen-reader-support"></a>화면 판독기 지원
+
 * **[AccessibleLabel](properties-accessibility.md)** 이 있어야 합니다.
 
     > [!NOTE]
-  > 새 바코드가 발견되면 화면 읽기 프로그램이 이를 알립니다. 값은 알리지 않습니다. 바코드가 보기에 있는 동안에는 화면 읽기 프로그램이 동일한 바코드가 아직 식별되고 있음을 5초마다 다시 알립니다.
+  > 새 바코드가 발견 되 면 화면 읽기 프로그램 공지. 값을 발표 하지 않습니다. 바코드가 보기를으로 화면 판독기는 동일한 바코드가 아직 식별 되는 5 초 마다를 사용자를 알립니다.

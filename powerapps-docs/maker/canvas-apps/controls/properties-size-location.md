@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 040e9e540591e9a8c593dd273bedeabcffb23c90
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42842650"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61560372"
 ---
 # <a name="size-and-location-properties-in-powerapps"></a>PowerApps의 크기 및 위치 속성
 ## <a name="overview"></a>개요
@@ -46,7 +46,7 @@ ms.locfileid: "42842650"
 
 * **[Add picture](control-add-picture.md)**, **[Audio](control-audio-video.md)**, **[Button](control-button.md)**, **[Camera](control-camera.md)**, **[Card](control-card.md)**, **[Check box](control-check-box.md)**, **[Column chart](control-column-line-chart.md)**, **[Date Picker](control-date-picker.md)**, **[Display form](control-form-detail.md)**, **[Drop down](control-drop-down.md)**, **[Edit form](control-form-detail.md)**, **[Export](control-export-import.md)**, **[Gallery](control-gallery.md)**, **[HTML text](control-html-text.md)**, **[Icon](control-shapes-icons.md)**, **[Image](control-image.md)**, **[Label](control-text-box.md)**, **[Import](control-export-import.md)**, **[Line chart](control-column-line-chart.md)**, **[List Box](control-list-box.md)**, **[Microphone](control-microphone.md)**, **[PDF viewer](control-pdf-viewer.md)**, **[Pen input](control-pen-input.md)**, **[Pie chart](control-pie-chart.md)**, **[Radio](control-radio.md)**, **[Rating](control-rating.md)**, **[Shape](control-shapes-icons.md)**, **[Slider](control-slider.md)**, **[Text input](control-text-input.md)**, **[Timer](control-timer.md)**, **[Toggle](control-toggle.md)** 및 **[Video](control-audio-video.md)** 컨트롤에 적용됩니다.
 
-**WidthFit** – **[편집 양식](control-form-detail.md)** 컨트롤처럼 컨테이너 컨트롤의 빈 공간을 채우기 위해 컨트롤의 가로가 자동으로 커지는지 여부입니다. 여러 카드에서 이 속성이 **true**로 설정되면 카드 사이에 공간이 나뉩니다. 자세한 내용은 [데이터 양식 레이아웃 이해](../working-with-form-layout.md)를 참조하세요.
+**WidthFit** – **[편집 양식](control-form-detail.md)** 컨트롤처럼 컨테이너 컨트롤의 빈 공간을 채우기 위해 컨트롤의 가로가 자동으로 커지는지 여부입니다. 여러 카드에서 이 속성이 **true**로 설정되면 카드 사이에 공간이 나뉩니다. 자세한 내용은 [데이터 폼 레이아웃 이해](../working-with-form-layout.md)를 참조하세요.
 
 * **[카드](control-card.md)** 에 적용
 

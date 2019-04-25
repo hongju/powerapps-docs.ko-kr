@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: d5765c1e425a3196b5e560bb621f391d36f6580c
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42841596"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61544617"
 ---
 # <a name="image-control-in-powerapps"></a>PowerApps의 이미지 컨트롤
 로컬 파일이나 데이터 원본 등으로부터 이미지를 표시하는 컨트롤입니다.

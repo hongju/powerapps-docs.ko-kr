@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: abb64d57e53f292dc42cb44ef2b1c9f35bbad944
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42850225"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61564007"
 ---
 # <a name="rand-function-in-powerapps"></a>PowerApps의 Rand 함수
 의사 난수를 반환합니다.

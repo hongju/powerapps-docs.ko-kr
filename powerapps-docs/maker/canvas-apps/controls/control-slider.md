@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 198275ef72129b17cbf73a5f4eb47fd342de3b24
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42830739"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61548757"
 ---
 # <a name="slider-control-in-powerapps"></a>PowerApps의 슬라이더 컨트롤
 사용자가 핸들을 끌어 값을 지정할 수 있는 컨트롤입니다.
@@ -137,4 +137,4 @@ ms.locfileid: "42830739"
 * 포커스 표시기가 명확하게 표시되어야 합니다. **[FocusedBorderColor](properties-color-border.md)** 및 **[FocusedBorderThickness](properties-color-border.md)** 를 사용하여 이를 달성합니다.
 * 슬라이더 값은 키보드를 조작할 때 표시되어야 합니다. 이 작업은 다음 방법 중 하나로 수행할 수 있습니다.
     * **ShowValue**를 **true**로 설정합니다.
-    * 슬라이더에 인접한 **[레이블](control-text-box.md)**을 추가합니다. 레이블의 **[Text](properties-core.md)**를 슬라이더의 **[Value](properties-core.md)** 로 설정합니다.
+    * 슬라이더에 인접한 **[레이블](control-text-box.md)** 을 추가합니다. 레이블의 **[Text](properties-core.md)** 를 슬라이더의 **[Value](properties-core.md)** 로 설정합니다.

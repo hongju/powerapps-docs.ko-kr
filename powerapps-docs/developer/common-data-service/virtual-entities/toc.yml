@@ -1,0 +1,9 @@
+- name: 가상 엔터티 시작
+  href: get-started-ve.md
+  items:
+    - name: API 고려 사항
+      href: api-considerations-ve.md
+    - name: 사용자 지정 데이터 공급자
+      href: custom-ve-data-providers.md
+    - name: '샘플: 일반 가상 엔터티 데이터 공급자 플러그 인'
+      href: sample-generic-ve-plugin.md

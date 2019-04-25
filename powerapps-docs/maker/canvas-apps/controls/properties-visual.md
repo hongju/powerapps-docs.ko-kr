@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: dad00e28dfc61c92c03aaf917c154e67291af073
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42843627"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61560251"
 ---
 # <a name="image-properties-in-powerapps"></a>PowerApps의 이미지 속성
 이미지, 사진 및 펜 컨트롤의 요소를 포함하여 앱에서 그래픽 요소를 구성합니다.

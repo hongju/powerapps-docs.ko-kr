@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 3292d03a55fe6296b8efdf2377efde5f2b4ad36e
-ms.sourcegitcommit: 676cfa415f67e2e8fcfcf30fab83fc118a6f3210
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "57800494"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61551563"
 ---
 # <a name="set-function-in-powerapps"></a>PowerApps의 Set 함수
 전역 변수의 값을 설정합니다.

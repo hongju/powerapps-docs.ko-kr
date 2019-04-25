@@ -14,15 +14,15 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 4f303cdfba474448321d230bb61b698e8f959e5f
-ms.sourcegitcommit: 5b2b70c3fc7bcba5647d505a79276bbaad31c610
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58357417"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61535947"
 ---
 # <a name="share-canvas-app-resources-in-powerapps"></a>PowerApps의 캔버스 앱 리소스 공유
 
-[캔버스 앱을 공유](share-app.md)하기 전에 다음 중 한 개 이상과 같이 주로 사용하려는 리소스 유형을 고려합니다.
+[캔버스 앱을 공유](share-app.md)하기 전에 다음 중 한 개 이상과 같이 의존하는 리소스 유형을 고려합니다.
 
 * Common Data Service에서 엔터티
 

@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: ddc1c677ed95caf10d8cd6e0e7e12e6aaf88a0f5
-ms.sourcegitcommit: f4b71ea0996603b3358377a0da21b9e4428a287c
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "58870911"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61559865"
 ---
 # <a name="customize-a-card-in-a-canvas-app"></a>캔버스 앱에서 카드 사용자 지정
 
@@ -44,7 +44,7 @@ ms.locfileid: "58870911"
 1. 필드 목록의 아래쪽 화살표를 선택 **Number of Employees**를 연 다음 아래의 목록 **컨트롤 형식과**합니다.
 
     > [!div class="mx-imgBorder"]
-    > ![숫자 카드에 대한 옵션의 드롭다운 목록](./media/customize-card/card-selector.png)
+    > ![숫자 카드에 대 한 옵션의 드롭다운 목록](./media/customize-card/card-selector.png)
 
 1. 선택 **슬라이더 편집**합니다.
 

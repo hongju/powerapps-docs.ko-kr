@@ -15,7 +15,7 @@ search.app:
 - PowerApps
 ms.openlocfilehash: 7be4a0574c1a81684188eaede4b6e80b02e7b7cc
 ms.sourcegitcommit: 90245baddce9d92c3ce85b0537c1ac1cf26bf55a
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 01/26/2019
 ms.locfileid: "57799183"
@@ -56,7 +56,7 @@ SharePoint 기능 공유 및 공동 작업에 대 한 많은 되었지만이 시
 | ActualDays |번호 |프로젝트를 완료한 시기 |
 | PMAssigned |한 줄 텍스트 |프로젝트 관리자 |
 
-## <a name="step-2-create-and-review-the-lists"></a>2 단계: 만들고 목록 검토
+## <a name="step-2-create-and-review-the-lists"></a>2단계: 목록 생성 및 검토
 이 시나리오를 계속하려면 두 개의 SharePoint 목록을 만들어 샘플 데이터로 채워야 합니다. 이제 목록을 만들고 샘플 데이터를 이 목록에 붙여넣는 방법을 보여 주겠습니다. [다운로드 패키지](https://aka.ms/o4ia0f)의 Excel 파일이 있는지 확인합니다.
 
 > [!NOTE]
@@ -82,7 +82,7 @@ SharePoint 기능 공유 및 공동 작업에 대 한 많은 되었지만이 시
    
     ![한 줄 텍스트 필드 추가](./media/sharepoint-scenario-setup/01-01-04-add-column.png)
 
-2. [이름]에서 "설명"을 입력한 다음 **저장**을 클릭하거나 탭합니다.
+2. [이름]에서 "Description"을 입력한 다음 **저장**을 클릭하거나 탭합니다.
    
 3. **1** 및 **2** 단계를 반복합니다. 목록의 다른 열은 다음과 같습니다.
    
@@ -105,10 +105,10 @@ SharePoint 기능 공유 및 공동 작업에 대 한 많은 되었지만이 시
 4. 데이터를 복사하여 SharePoint의 그리드에 붙여넣은 다음 **완료**를 클릭하거나 탭합니다.
    
     ![완성된 목록(데이터 포함)](./media/sharepoint-scenario-setup/01-01-09-full-grid.png)
-5. project-details.xlsx 통합 문서를 사용하여 "프로젝트 세부 정보"에 대한 목록 만들기 및 복사 프로세스를 반복합니다. 프로젝트 세부 정보 테이블에 참조 [1 단계: 목록 이해](#step-1-understand-the-lists) 열 이름과 데이터 형식에 대 한 합니다.
+5. project-details.xlsx 통합 문서를 사용하여 "프로젝트 세부 정보" 목록에 대한 목록 만들기 및 복사 프로세스를 반복합니다. 열 이름과 데이터 형식에 대해서는 [1단계: 목록 이해](#step-1-understand-the-lists)에서 프로젝트 세부 정보 테이블을 참조합니다.
 
-## <a name="step-3-update-connections-to-samples---optional"></a>3 단계: 샘플-선택 사항에 대 한 업데이트 연결
-이 자습서 시리즈의 소개 부분에서 설명했듯이 [다운로드 패키지](https://aka.ms/o4ia0f)에는 두 개의 샘플 앱과 보고서가 포함되어 있습니다. 이러한 샘플을 사용하지 않고 이 시나리오를 완료할 수 있지만, 샘플을 사용하려면 SharePoint 목록에 대한 연결을 업데이트해야 합니다. '사용자'의 목록을 데이터 원본으로 사용하도록 연결을 업데이트합니다.
+## <a name="step-3-update-connections-to-samples---optional"></a>3단계: 선택 사항 - 샘플에 대한 연결 업데이트
+이 자습서 시리즈의 소개 부분에서 설명했듯이 [다운로드 패키지](https://aka.ms/o4ia0f)에는 두 개의 샘플 앱과 보고서가 포함되어 있습니다. 이러한 샘플을 사용하지 않고 이 시나리오를 완료할 수 있지만, 샘플을 사용하려면 SharePoint 목록에 대한 연결을 업데이트해야 합니다. *사용자*의 목록을 데이터 원본으로 사용하도록 연결을 업데이트합니다.
 
 ### <a name="update-connections-for-the-sample-apps"></a>샘플 앱에 대한 연결 업데이트
 

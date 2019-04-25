@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 6406afad9079895a0da38c7f1f6e3961f2e37fa1
-ms.sourcegitcommit: 5b2b70c3fc7bcba5647d505a79276bbaad31c610
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58357854"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61536411"
 ---
 # <a name="optimize-canvas-app-performance-in-powerapps"></a>PowerApps의 캔버스 앱 성능 최적화 | Microsoft Docs
 Microsoft는 PowerApps 플랫폼에서 실행되는 모든 앱의 성능 향상을 위해 최선을 다합니다. 이 항목에서는 빌드한 앱의 성능을 향상시킬 수 있는 모범 사례를 소개합니다.

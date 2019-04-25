@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: d82db4deaa123e460bce043bff10cc30ea409f15
-ms.sourcegitcommit: 90245baddce9d92c3ce85b0537c1ac1cf26bf55a
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "57798953"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61560308"
 ---
 # <a name="embed-a-new-canvas-app-in-a-power-bi-report"></a>Power BI 보고서에 새 캔버스 앱 포함
 
@@ -42,7 +42,7 @@ PowerApps 구독이 없는 경우 시작하기 전에 [체험 계정을 만듭�
 
 첫 번째 단계는 샘플 보고서에서 사용할 수 있도록 PowerApps 사용자 지정 시각적 개체를 가져오는 것입니다.
 
-1. 기회 분석 샘플 보고서에서 **예정된 기회** 탭을 클릭하거나 탭합니다.
+1. 기회 분석 샘플 보고서에서 **Upcoming Opportunites** 탭을 클릭하거나 탭합니다.
 
 2. 보고서 위쪽에서 **보고서 편집**을 클릭하거나 탭합니다.
 
@@ -65,11 +65,11 @@ PowerApps 구독이 없는 경우 시작하기 전에 [체험 계정을 만듭�
 
 2. PowerApps 사용자 지정 시각적 개체 아이콘을 클릭하거나 탭한 다음, 공간에 맞게 타일의 크기를 조정합니다.
 
-3. **필드** 창에서 **이름**, **제품 코드** 및 **영업 스테이지**를 선택합니다. 
+3. **필드** 창에서 **Name**, **Product Code** 및 **Sales Stage**를 선택합니다. 
 
     ![필드 선택](media/embed-powerapps-powerbi/select-fields.png)
 
-4. 사용자 지정 시각적 개체 타일에서 앱을 만들려는 PowerApps 환경을 선택한 다음, **새로 만들기**를 클릭하거나 탭합니다.
+4. 사용자 지정 시각적 개체 타일에서 앱을 만들려는 PowerApps 환경을 선택한 다음, **Create new**를 클릭하거나 탭합니다.
 
     ![새 앱 만들기](media/embed-powerapps-powerbi/create-new-app.png)
 

@@ -1,0 +1,11 @@
+- name: Outlook 클라이언트 확장
+  href: extend-dynamics-365-outlook.md
+  items:
+    - name: '오프라인, Outlook 필터 및 템플릿'
+      href: offline-outlook-filters-templates.md
+    - name: '샘플: Outlook 필터 만들기 및 검색'
+      href: sample-create-retrieve-outlook-filters.md
+    - name: '샘플: Dynamics 365 for Outlook 메서드 사용'
+      href: sample-outlook-methods.md
+    - name: 웹 서비스의 오프라인 사용
+      href: offline-use-services.md

@@ -14,14 +14,14 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: ea4bda4857c89a9e28359f63811e70744f111499
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42830960"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61553290"
 ---
 # <a name="format-a-table-in-excel-and-naming-tips"></a>Excel에서 표 서식 지정 및 이름 지정 팁
-PowerApps에서는 표로 서식이 지정된 경우에만 Excel 데이터를 기반으로 캔버스 앱을 만들 수 있습니다. 이 콘텐츠를 따라가면 Excel 열의 이름을 지정하는 몇 가지 팁 및 Excel에서 표의 서식을 지정하는 방법을 알게 됩니다.
+PowerApps에서 테이블로 서식이 지정된 경우에만 Excel 데이터를 기반으로 캔버스 앱을 만들 수 있습니다. 이 콘텐츠를 따라가면 Excel 열의 이름을 지정하는 몇 가지 팁 및 Excel에서 표의 서식을 지정하는 방법을 알게 됩니다.
 
 ## <a name="how-to-format-a-table-in-excel"></a>Excel에서 표의 서식을 지정하는 방법
 Excel의 **홈** 탭에서 **테이블로 형식 지정**을 선택하면 사용자 데이터를 테이블로 변환할 수 있습니다.

@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 5439399a22b47fcf4195cf878208e0e0bd4e0764
-ms.sourcegitcommit: 6858f3786e960ca53a400e04734561400dcac5b1
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/25/2019
-ms.locfileid: "57802587"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61532114"
 ---
 # <a name="start-a-flow-in-a-canvas-app"></a>캔버스 앱에서 흐름 시작
 
@@ -84,7 +84,7 @@ Microsoft Flow를 사용하여 캔버스 앱에서 이벤트가 발생할 때 �
 
 1. **[단추](controls/control-button.md)** 컨트롤을 추가하고 **RecordTitle** 아래로 이동합니다.
 
-1. **[단추](controls/control-button.md)** 컨트롤을 선택하고 **작업** 탭에서 **Flows**를 선택합니다.
+1. **[단추](controls/control-button.md)** 컨트롤을 선택하고 **작업** 탭에서 **흐름**을 선택합니다.
 
     ![[작업] 탭의 [흐름] 옵션](./media/using-logic-flows/action-tab.png)
 
@@ -95,13 +95,13 @@ Microsoft Flow를 사용하여 캔버스 앱에서 이벤트가 발생할 때 �
 
     ![사용자 지정 창에서 흐름 추가](./media/using-logic-flows/add-flow-from-pane.png)
 
-1. 수식 입력줄에서 자동으로 추가된 수식 끝에 **RecordTitle.Text)**를 입력하거나 붙여넣습니다.
+1. 수식 입력줄에서 자동으로 추가된 수식 끝에 **(RecordTitle.Text)** 를 입력하거나 붙여넣습니다.
 
     ![흐름이 포함된 OnSelect 속성](./media/using-logic-flows/onselect-with-flow.png)
 
 ## <a name="test-the-flow"></a>흐름 테스트
 1. **텍스트 입력** 컨트롤을 두 번 클릭하고, 텍스트를 입력하거나 붙여넣습니다.
 
-1. Alt 키를 누른 채로 **[단추](controls/control-button.md)** 컨트롤을 선택합니다.
+1. Alt 키를 누른 채 선택 합니다 **[단추](controls/control-button.md)** 제어 합니다.
 
     제목으로 지정한 텍스트를 사용하여 지정한 목록에 SharePoint 항목이 생성됩니다. 흐름이 실행될 때 목록이 열려 있었으면 브라우저 창을 새로 고쳐 변경 내용을 표시합니다.

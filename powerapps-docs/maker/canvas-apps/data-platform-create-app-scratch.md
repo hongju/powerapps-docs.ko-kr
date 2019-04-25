@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 428ca1fd96df4ed8a9c3fd7c14a1ad3e07356c70
-ms.sourcegitcommit: d1d39d6b72516d62514af4ff90f04c35fbdd8638
+ms.openlocfilehash: 1fc257bb8ef99353b78e7a87234397b4ced3bc4a
+ms.sourcegitcommit: f84095d964fe1fe5cc5290e5edbee284bd768e1e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/11/2019
-ms.locfileid: "59480219"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59686227"
 ---
 # <a name="create-a-canvas-app-from-scratch-using-common-data-service"></a>Common Data Service를 사용하여 캔버스 앱을 처음부터 만들기
 
@@ -30,7 +30,7 @@ Common Data Service에서 앱을 빌드하면, SharePoint, Dynamics 365 및 Sale
 
 - 앱을 처음부터 만들기 전에 [앱을 생성](data-platform-create-app.md)한 다음, 해당 앱의 [갤러리](customize-layout-sharepoint.md), [양식](customize-forms-sharepoint.md) 및 [카드](customize-card.md)를 사용자 지정하여 PowerApps 기본 사항에 익숙해지도록 합니다.
 - 샘플 데이터를 사용하여 데이터베이스를 만든 [환경으로 전환합니다](working-with-environments.md). 적절한 라이선스를 있는 경우 이 요구 사항이 충족되는 [환경을 만들 수 있습니다](../../administrator/create-environment.md).
-- 앱을 만들려면 [Environment Maker](https://docs.microsoft.com/power-platform/admin/database-security.md#predefined-security-roles) 보안 역할에 할당되어야합니다.
+- 앱을 만들려면 [Environment Maker](https://docs.microsoft.com/power-platform/admin/database-security#predefined-security-roles) 보안 역할에 할당되어야합니다.
 
 ## <a name="open-a-blank-app"></a>비어 있는 앱 열기
 

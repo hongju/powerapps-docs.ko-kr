@@ -1,12 +1,12 @@
 ---
-title: 앱을 찾아 실행하려면 어떻게 해야 합니까? | Microsoft Docs
+title: PowerApps에서 앱을 찾아 실행하려면 어떻게 해야 하나요? | Microsoft Docs
 description: PowerApps 앱을 찾고 실행하는 방법 개요.
-author: Mattp123
+author: mduelae
 ms.service: powerapps
 ms.component: pa-user
 ms.topic: overview
-ms.date: 07/09/2018
-ms.author: matp
+ms.date: 11/16/2018
+ms.author: mkaur
 manager: kvivek
 ms.custom: ''
 ms.reviewer: ''
@@ -16,31 +16,29 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 8396d62e0f427d005f6b9e486820316be869ed15
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: 66e021aefe3703acbb467ca244f64f33de572dc9
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42826732"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61543352"
 ---
 # <a name="how-do-i-find-and-run-apps"></a>앱을 찾아 실행하려면 어떻게 해야 합니까?
-앱 작성자는 사용자가 현장의 모바일 작업자이든, 바쁜 병원의 의사이든 상관없이 자신의 방식대로 작동하는 사용자 지정된 작업 및 역할 기반 *캔버스* 앱을 만들 수 있습니다. 캔버스 앱 작성자는 캔버스 앱의 거의 모든 측면을 사용자 지정할 수 있으며 여러 데이터 원본에 연결하여 사용자가 포커스된 작업을 완료하는 데 도움을 줄 수 있습니다.
 
-앱 작성자는 조직의 데이터에서 생성된 *모델 기반* 앱을 만들 수도 있습니다. 모델 기반 앱은 복잡하고 즉각 반응하는 앱으로, 사용자가 일련의 수동 단계를 수행하는 것을 기억하지 않고 작업에만 집중할 수 있도록 하는 데 도움이 됩니다. 모델 기반 앱 작성자는 앱에 필요한 데이터, 그리고 해당 데이터와 다른 데이터와의 관계를 설정하는 방법을 정하고, 앱이 따라야 할 비즈니스 프로세스를 정의한 다음, 해당 프로세스를 적용하는 구성 요소를 추가하고 구성합니다. 고도로 사용자 지정이 가능한 캔버스 앱과는 달리, 모델 기반 앱의 레이아웃은 작성자가 앱에 추가하는 구성 요소에 의해 크게 좌우됩니다.
+작업을 완료하기 위해 수동으로 작업할 필요가 없습니다. PowerApps를 사용하면 캔버스 앱 또는 모델 기반 앱을 만들어 사용할 수 있으므로 작업을 신속하게 완료할 수 있습니다. 앱을 만들면 조직과 앱을 공유할 수 있습니다. 
 
-앱 작성자는 앱을 만든 후 iOS, Android, Windows 및 웹에 즉시 게시한 다음, 조직의 다른 사람들과 공유할 수 있습니다.
+[캔버스 앱](/powerapps/maker/canvas-apps/getting-started)을 통해 앱의 사용자 환경을 제어할 수 있습니다. 앱 제작자는 템플릿을 사용하여 캔버스 앱을 만들 수 있고 원하는 방식으로 앱을 구성할 수 있습니다. 캔버스 앱은 이름처럼 빈 캔버스이므로 조직의 사용자 요구에 맞게 앱을 만들 수 있습니다.
 
-앱 사용자는 휴대폰이나 태블릿 또는 웹 브라우저에서 자신이 만든 앱을 실행하거나&mdash;다른 사용자가 만들고 공유한&mdash;앱을 실행할 수 있습니다. 모바일 장치의 [Dynamics 365 홈 페이지](https://home.dynamics.com/) 및 PowerApps 또는 Dynamics 365 앱에서 앱을 찾을 수 있습니다. Microsoft 팀 채널, SharePoint 및 AppSource에서 앱을 찾고 실행할 수도 있습니다. 앱을 만들고 이메일로 링크를 보내는 경우 이메일의 링크를 클릭하거나 눌러서 앱을 실행할 수 있습니다.
+캔버스 앱은 본질적으로 무엇이든 될 수 있으므로 앱을 만든 후에 사용하는 방법에 대한 도움말 설명서는 많지 않습니다. 캔버스 앱 사용에 대한 도움이 필요한 경우 앱 제작자 또는 PowerApps 관리자에게 문의하세요.
 
-이 섹션에서는 앱을 찾고 실행하는 방법에 대한 정보를 제공하며 다음과 같은 아티클을 포함하고 있습니다.
+[모델 기반 앱](/powerapps/maker/model-driven-apps/model-driven-app-overview)은 응답성 및 액세스 가능한 디자인을 제공하는 [통합 인터페이스](unified-interface.md)를 사용합니다. 웹 브라우저나 인기 있는 모바일 디바이스에서 앱을 실행할 수 있습니다. 이 앱은 대시보드, 폼, 보기, 차트 및 비즈니스 프로세스를 포함한 여러 구성 요소를 함께 사용하여 앱을 쉽게 사용할 수 있게 합니다. 모델 기반 앱은 Microsoft Dynamics 365 Customer Engagement 프레임워크를 기반으로 빌드 및 모델링되므로, 사용자 환경은 Dynamics 365 Customer Engagement [앱](/dynamics365/customer-engagement/basics/business-apps-dynamics-365)과 유사합니다.
 
-* [웹 브라우저에서 앱 실행](run-app-browser.md)
-* [모바일 장치에서 캔버스 앱 실행](run-app-client.md)
-* [모바일 장치에서 모델 기반 앱 실행](run-app-client-model-driven.md)
-* [Microsoft 팀에서 앱 추가 및 실행](open-app-embedded-in-teams.md)
-* [AppSource에서 앱 찾기 및 실행](app-source.md)
+이 섹션에서는 다양한 위치에서 캔버스 및 모델 기반 앱을 찾아 실행하는 방법에 대한 정보를 제공합니다. 모델 기반 앱 내에서 탐색하고 작동하는 방법에 대한 정보도 제공합니다. [모델 기반 앱 사용](use-model-driven-apps.md).
 
-## <a name="next-steps"></a>다음 단계
-* [지원되는 장치 플랫폼 및 브라우저](../maker/canvas-apps/limits-and-config.md)를 사용 중인지 확인합니다.
-* 캔버스 앱을 실행하려면 [App Store](https://itunes.apple.com/app/powerapps/id1047318566?mt=8) 또는 [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.msapps)에서 PowerApps를 다운로드하여 설치합니다.
-* 휴대폰에서 모델 기반 앱을 실행하려면 [App Store](https://itunes.apple.com/app/dynamics-crm-for-phones/id1003997947?ls=1&mt=8) 또는 [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.crm.crmphone)에서 휴대폰용 Dynamics 365를 다운로드하여 설치합니다. 태블릿에서 모델 기반 앱을 실행하려면 [App Store](https://itunes.apple.com/app/microsoft-dynamics-crm/id678800460?mt=8), [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.crm.crmtablet) 또는 [Windows Store](https://www.microsoft.com/store/p/microsoft-dynamics-365/9nblggh4rfqp)에서 태블릿용 Dynamics 365를 다운로드합니다.
+
+## <a name="whats-required-to-run-apps"></a>앱을 실행하려면 무엇이 필요하나요?
+- [지원되는 디바이스 플랫폼 및 브라우저](../maker/canvas-apps/limits-and-config.md)를 사용 중인지 확인합니다.
+- 캔버스 앱을 실행하려면 [App Store](https://itunes.apple.com/app/powerapps/id1047318566?mt=8) 또는 [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.msapps)에서 PowerApps를 다운로드하여 설치합니다.
+- 모델 기반 앱을 실행하려면 다음을 수행합니다.
+    - 휴대폰의 경우 [App Store](https://itunes.apple.com/app/dynamics-crm-for-phones/id1003997947?ls=1&mt=8) 또는 [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.crm.crmphone)에서 휴대폰용 Dynamics 365를 다운로드하여 설치합니다. 
+    - 태블릿의 경우 [App Store](https://itunes.apple.com/app/microsoft-dynamics-crm/id678800460?mt=8), [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.crm.crmtablet) 또는 [Microsoft Store](https://www.microsoft.com/store/p/microsoft-dynamics-365/9nblggh4rfqp)에서 태블릿용 Dynamics 365를 다운로드합니다.

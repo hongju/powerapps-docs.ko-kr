@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 919efacd1a1dc5c931d71e07024aa7c8a30168bf
-ms.sourcegitcommit: 90245baddce9d92c3ce85b0537c1ac1cf26bf55a
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "57799252"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61538891"
 ---
 # <a name="understand-sharepoint-forms-integration"></a>SharePoint 양식 통합 이해
 PowerApps에서 [SharePoint 목록 양식을 쉽게 사용자 지정](customize-list-form.md)할 수 있습니다. 이 문서에서는 이러한 양식의 작업 방식과 사용자 지정하는 방법을 자세히 설명합니다.

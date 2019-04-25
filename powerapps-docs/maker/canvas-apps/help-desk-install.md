@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 9981a549aaf0ce88f6e66dd4df2c7897901d219b
-ms.sourcegitcommit: 5c098a62f66a2f33418967fdce9363bd529e0fc1
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "58581096"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61554306"
 ---
 # <a name="install-and-configure-the-help-desk-sample-in-powerapps"></a>PowerApps에서 지원 센터 샘플 설치 및 구성
 
@@ -177,7 +177,7 @@ PowerApps에서 캔버스 앱에 대한 지원 센터 샘플 설치 및 구성�
 1. 웹 브라우저에서 https://web.powerapps.com 으로 이동합니다.
 2. 등록 시 사용한 동일한 자격 증명을 제공하여 로그인합니다.
 3. 왼쪽 메뉴에서 **앱**을 선택합니다. 
-4. **패키지 가져오기(미리 보기)**를 클릭합니다.
+4. **패키지 가져오기(미리 보기)** 를 클릭합니다.
     
    ![패키지 가져오기 화면](./media/help-desk-install/import-package.png)
 
@@ -216,17 +216,17 @@ PowerApps에서 캔버스 앱에 대한 지원 센터 샘플 설치 및 구성�
 
 ### <a name="delete-connections"></a>연결 삭제
 
-1. 에 **뷰** 탭을 선택 **데이터 원본**합니다.
+1. **보기**에서 **데이터 원본**을 선택합니다.
 1. 에 **데이터** 창 옆에서 줄임표 (...)를 선택 **기술 지원팀**를 선택한 후 **제거**합니다.
 
 ### <a name="helpdesk-list"></a>지원 센터 목록
 
-1. 에 **뷰** 탭을 선택 **데이터 원본**합니다.
-1. 에 **데이터** 창 **데이터 원본 추가** > **새 연결** > **SharePoint**  >  **만듭니다**합니다.
+1. **보기**에서 **데이터 원본**을 선택합니다.
+1. **데이터** 창에서 **데이터 원본 추가** > **새 연결** > **SharePoint** > **만들기**를 선택합니다.
 1. **최근에 사용한 사이트** 목록에서 지원 센터 목록을 만든 SharePoint 사이트를 선택합니다.
 
     > [!TIP] 
-    > 사이트 목록에 표시 되지 않으면, 입력 또는 SharePoint 사이트 URL 텍스트 상자에 붙여 넣습니다. 선택한 후 **이동**합니다.
+    > 사이트가 목록에 나타나지 않을 경우 텍스트 상자에 SharePoint 사이트 URL을 입력하거나 붙여넣고 **이동**을 선택합니다.
 
 1. 에 **검색** 형식 목록의 맨 위에 있는 상자 또는 붙여 **헬프 데스크**합니다.
 1. 옆의 확인란을 선택 **기술 지원팀**를 선택한 후 **Connect**합니다.
@@ -244,7 +244,7 @@ PowerApps에서 캔버스 앱에 대한 지원 센터 샘플 설치 및 구성�
    > 둘 이상의 관리자에 있는 경우 관리자 목록을 구분 하려면 쉼표를 사용 합니다. 예: "admin1@microsoft.com","admin2@microsoft.com".
    > AdminList의 주소가 PowerApps에 필요한 형식과 일치하는지 확인하려면 [보기] > [변수] > [전역] > [MyProfile]을 선택하고 ‘메일’ 열에서 필요한 메일 형식을 확인합니다.
 
-1. 선택 **파일** > **저장** > **게시** > **이 버전 게시**합니다.
+1. **파일** > **저장** > **게시** > **이 버전 게시**를 선택합니다.
 
 ## <a name="modify-the-flow"></a>흐름 수정
 
@@ -275,8 +275,8 @@ PowerApps에서 캔버스 앱에 대한 지원 센터 샘플 설치 및 구성�
 ## <a name="play-the-app"></a>앱 재생
 
 1. 웹 브라우저에서 **앱**을 클릭합니다.
-2. 지원 센터 PowerApps 옆에 있는 **줄임표**를 클릭합니다.
-3. **열기**를 클릭합니다.
+2. 기술 지원팀 앱 옆의 줄임표 (...)를 클릭 합니다.
+3. **열기**를 클릭합니다. 
 
 > [!TIP]
 > 지원 센터 PowerApp 샘플을 사용하는 방법을 보려면 이 [동영상](https://youtu.be/sl5fXwwnvzI)을 시청하세요.

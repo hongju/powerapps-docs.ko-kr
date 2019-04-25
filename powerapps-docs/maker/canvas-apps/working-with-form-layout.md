@@ -15,14 +15,14 @@ search.app:
 - PowerApps
 ms.openlocfilehash: a8abc0a641f13cc05e723b96d48dd2d877f0b70f
 ms.sourcegitcommit: 5b2b70c3fc7bcba5647d505a79276bbaad31c610
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/22/2019
 ms.locfileid: "58356911"
 ---
 # <a name="understand-data-form-layout-for-canvas-apps-in-powerapps"></a>PowerApps에서 캔버스 앱에 대한 데이터 폼 레이아웃 이해 | Microsoft Docs
 
-PowerApps에서 캔버스 앱을 빌드할 때 매력적이고 효율적인 양식을 쉽게 만듭니다. 예를 들어 판매 주문을 기록하기 위해 다음 기본 양식을 고려해 보세요.
+PowerApps에서 캔버스 앱을 빌드할 때 매력적이고 효율적인 폼을 쉽게 만듭니다. 예를 들어 판매 주문을 기록하기 위해 다음 기본 폼을 고려해 보세요.
 
 ![판매 주문 샘플](./media/working-with-form-layout/sales-order.png)
 
@@ -32,7 +32,7 @@ PowerApps에서 캔버스 앱을 빌드할 때 매력적이고 효율적인 양�
 
 PowerApps를 처음 사용하거나 앱을 자동으로만 생성한 경우에는 이 항목을 살펴보기 전에 [앱을 처음부터 빌드](get-started-create-from-blank.md)합니다. 앱을 처음부터 빌드하는 경우 이 항목에서 언급하지만 설명하지 않는 데이터 원본 및 컨트롤 추가와 같이 필요한 개념에 익숙해집니다.
 
-이 항목에는 데이터가 있는 것 처럼 씌 이라고 하는 원본 **Sales order** 이전 그래픽에서 필드를 포함 하는 합니다. PowerApps 요금제 2 라이선스가 있는 경우 [평가판 라이선스](../signup-for-powerapps.md) 하면 시스템 관리자 또는 시스템 사용자 지정자 사용 권한 [엔터티를 만듭니다.](../common-data-service/data-platform-create-entity.md) Common Data Service에서 유사한 필드를 추가 합니다. 
+이 항목은 **Sales order**라는 데이터 원본을 가지고 있고 데이터 원본은 위 이미지에서의 필드를 포함하고 있는 것으로 설명합니다. PowerApps 요금제 2 라이선스가 있거나 [평가판 라이선스](../signup-for-powerapps.md)가 있고 시스템 관리자 또는 시스템 사용자 지정자 사용 권한을 가지고 있다면 Common Data Service에서 [엔터티를 만들고](../common-data-service/data-platform-create-entity.md) 유사한 필드를 추가합니다. 
 
 ## <a name="add-a-gallery"></a>갤러리 추가
 
@@ -40,7 +40,7 @@ PowerApps를 처음 사용하거나 앱을 자동으로만 생성한 경우에�
 
     이 항목에서 설명하는 모든 내용은 전화 레이아웃에도 적용되지만, 전화 앱에는 세로 열 하나만 있는 경우가 많습니다.
     
-2. 세로 **갤러리** 컨트롤을 추가하고, **Items** 속성을 **'판매 주문'** 으로 설정합니다.
+2. 세로 **갤러리** 컨트롤을 추가하고, **Items** 속성을 **'Sales order'** 로 설정합니다.
    
     (선택 사항) 이 자습서의 예제에 맞게 갤러리의 **레이아웃**을 **제목 및 부제목**만 표시하도록 변경합니다.
    
@@ -78,7 +78,7 @@ PowerApps를 처음 사용하거나 앱을 자동으로만 생성한 경우에�
 ## <a name="add-a-form"></a>폼 추가
 1. **편집 폼** 컨트롤을 추가한 다음, 이동하고, 크기를 조정하여 레이블 아래의 화면을 채웁니다.
    
-    다음 단계에서는 수식 입력줄이 아닌 오른쪽 창을 사용하여 양식 컨트롤을 **판매 주문** 데이터 원본에 연결합니다. 수식 입력줄을 사용하면 기본적으로 양식에 필드가 표시되지 않습니다. 오른쪽 창에서 하나 이상의 확인란을 선택하여 언제든지 원하는 필드를 모두 표시할 수 있습니다.
+    다음 단계에서는 수식 입력줄이 아닌 오른쪽 창을 사용하여 폼 컨트롤을 **Sales order** 데이터 원본에 연결합니다. 수식 입력줄을 사용하면 기본적으로 폼에 필드가 표시되지 않습니다. 오른쪽 창에서 하나 이상의 확인란을 선택하여 언제든지 원하는 필드를 모두 표시할 수 있습니다.
 2. 오른쪽 창에서 **데이터 원본 선택** 옆에 있는 아래쪽 화살표를 클릭하거나 탭한 다음, **Sales order**를 클릭하거나 탭합니다.
    
     **Sales order** 데이터 원본의 기본 필드 집합은 간단한 3열 레이아웃으로 표시됩니다. 그러나 대부분은 비어 있으며, 최종 위치에 정착하는 데 몇 분 정도 걸릴 수 있습니다.  
@@ -89,7 +89,7 @@ PowerApps를 처음 사용하거나 앱을 자동으로만 생성한 경우에�
    
    * **Sales order ID**
    * **Account**
-   * **영업 사원**
+   * **Sales Person**
    * **Account contact**
 5. **Order status** 필드를 왼쪽으로 끈 다음 **Customer purchase order reference** 필드의 다른 쪽에 놓아서 이동합니다.
    
@@ -124,7 +124,7 @@ PowerApps를 처음 사용하거나 앱을 자동으로만 생성한 경우에�
     ![열 수 지정](./media/working-with-form-layout/12-columns.png)
    
     양식이 눈에 띄게 변경되지는 않지만, 왼쪽 또는 오른쪽 잡기 핸들을 끌면 더 많은 맞춤 지점이 있습니다.
-2. 오른쪽에 있는 잡기 핸들을 오른쪽으로 끌어 **주문 날짜** 카드의 너비를 늘립니다.
+2. 오른쪽에 있는 잡기 핸들을 오른쪽으로 끌어 **Order date** 카드의 너비를 늘립니다.
    
     카드는 폼의 12개 열 중 3개(또는 폼의 1/4)에만 걸쳐 있는 대신 폼의 12개 열 중 4개(또는 폼 1/3)에 걸쳐 있습니다. 카드의 너비를 맞춤 지점 하나씩에 맞춰 늘릴 때마다 카드는 폼의 1/12만큼 추가로 넓혀집니다.
    

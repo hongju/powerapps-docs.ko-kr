@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: f001e3da66605db1eb96d74078a3f8b1fdf518f2
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42823849"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61529157"
 ---
 # <a name="connect-to-sql-server-from-powerapps"></a>PowerApps에서 SQL Server 연결
 ![SQL Server 아이콘](./media/connection-azure-sqldatabase/sqlicon.png)
@@ -62,12 +62,12 @@ PowerApps에서 정보를 표시할 수 있도록 Azure 또는 온-프레미스 
        > [!NOTE]
      > 게이트웨이가 없는 경우 [하나 설치](../gateway-reference.md)하고 **게이트웨이 목록 새로 고침**을 클릭하거나 탭합니다.
 6. **연결**을 클릭 하거나 탭합니다.
-7. **데이터 집합 선택**에서 옵션을 클릭하거나 탭하고 **테이블 선택**에서 옵션을 클릭하거나 탭한 다음, **연결**을 클릭하거나 탭합니다.
+7. **데이터 세트 선택**에서 옵션을 클릭하거나 탭하고 **테이블 선택**에서 옵션을 클릭하거나 탭한 다음, **연결**을 클릭하거나 탭합니다.
    
     PowerApps는 세 개의 화면에 데이터를 표시하는 앱을 만듭니다. 추론은 표시할 데이터의 종류를 제안하지만, 사용자의 요구 사항에 맞게 UI를 사용자 지정해야 합니다.
 8. 먼저 앱 레이아웃 바꾸기부터 시작하여 [Excel에서 앱 만들기](../get-started-create-from-data.md)에서 설명한 것과 비슷한 기법을 사용하여 앱을 사용자 지정합니다.
 
-## <a name="build-an-app-from-scratch"></a>앱을 처음부터 빌드하기
+## <a name="build-an-app-from-scratch"></a>처음부터 앱 빌드
 1. PowerApps 가입에 사용한 것과 동일한 계정으로 [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
 2. 왼쪽 탐색 모음에서 **연결**을 클릭하거나 탭합니다.  
    
@@ -106,7 +106,7 @@ PowerApps에서 정보를 표시할 수 있도록 Azure 또는 온-프레미스 
        > [!NOTE]
      > 게이트웨이가 없는 경우 [하나 설치](../gateway-reference.md)하고 원형 아이콘을 클릭하거나 탭하여 목록을 새로 고칩니다.
 6. **연결**을 클릭 하거나 탭합니다.
-7. **데이터 집합 선택**에서 옵션을 클릭하거나 탭합니다.
+7. **데이터 세트 선택**에서 옵션을 클릭하거나 탭합니다.
 8. **표 선택**에서 하나 이상의 확인란을 선택한 다음 **연결**을 클릭하거나 탭합니다.
 
 ## <a name="next-steps"></a>다음 단계
