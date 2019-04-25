@@ -67,7 +67,7 @@ PowerPoint에서 슬라이드 모음을 만드는 것처럼 PowerApps Studio에�
 | **ViewProjects** |요약 정보와 함께 프로젝트 목록 표시 |
 | **UpdateDetails** |프로젝트 세부 정보 표시 및 업데이트 |
 
-1. **홈** 탭에서 **새 화면**, **스크롤 가능**을 차례로 클릭하거나 탭합니다.
+1. **홈** 탭에서 **새 화면**, **스크롤 가능 화면**을 차례로 클릭하거나 탭합니다.
    
     ![스크롤 가능 화면](./media/sharepoint-scenario-build-app/04-01-03a-scrollable-screen.png)
 2. 화면의 이름을 **SelectTask**로 바꿉니다.
@@ -75,9 +75,9 @@ PowerPoint에서 슬라이드 모음을 만드는 것처럼 PowerApps Studio에�
     ![화면 이름 바꾸기](./media/sharepoint-scenario-build-app/04-01-04-rename-screen.png)
 3. 추가 화면을 만들고 이름을 바꿉니다.
    
-   1. **새 화면**, **스크롤 가능**을 차례로 클릭하거나 탭합니다. 화면의 이름을 **AssignManager**로 바꿉니다.
-   2. **새 화면**, **목록**을 차례로 클릭하거나 탭합니다. 화면의 이름을 **ViewProjects**로 바꿉니다.
-   3. **새 화면**, **양식**을 차례로 클릭하거나 탭합니다. 화면의 이름을 **UpdateDetails**로 바꿉니다.
+   1. **새 화면**, **스크롤 가능 화면**을 차례로 클릭하거나 탭합니다. 화면의 이름을 **AssignManager**로 바꿉니다.
+   2. **새 화면**, **목록 화면**을 차례로 클릭하거나 탭합니다. 화면의 이름을 **ViewProjects**로 바꿉니다.
+   3. **새 화면**, **양식 화면**을 차례로 클릭하거나 탭합니다. 화면의 이름을 **UpdateDetails**로 바꿉니다.
 4. **Screen1** 옆에 있는 줄임표(**. . .**)를 선택한 다음 **삭제**를 클릭하거나 탭합니다.
    
     ![삭제 화면](./media/sharepoint-scenario-build-app/04-01-04a-delete-screen.png)
@@ -163,11 +163,11 @@ PowerPoint에서 슬라이드 모음을 만드는 것처럼 PowerApps Studio에�
 
 1. **SelectTask** 화면을 클릭하거나 탭합니다(앱은 항상 PowerApps Studio의 미리 보기 모드에서 선택한 화면에서 시작합니다).
 
-2. 종 모양 아이콘을 ![앱 실행 아이콘을 클릭하여](./media/sharepoint-scenario-build-app/icon-run-arrow.png) 클릭하거나 탭하여 앱을 실행합니다.
+2. 우측 상단 모서리의 ![앱 실행 아이콘](./media/sharepoint-scenario-build-app/icon-run-arrow.png)을 클릭하거나 탭하여 앱을 실행합니다.
 
 3. 단추 중 하나를 클릭하거나 탭하여 다른 화면으로 이동합니다.
 
-4. 종 모양 아이콘을 ![앱 미리 보기 닫기 아이콘을 클릭하거나 탭하여](./media/sharepoint-scenario-build-app/icon-close-preview.png) 클릭하거나 탭하여 앱을 닫습니다.
+4. ![앱 미리 보기 닫기 아이콘](./media/sharepoint-scenario-build-app/icon-close-preview.png)을 클릭하거나 탭하여 앱을 닫습니다.
 
 ## <a name="step-4-build-the-assignmanager-screen"></a>4단계: AssignManager 화면 빌드
 이 단계에서는 갤러리를 사용하여 승인되었지만 아직 관리자가 없는 모든 프로젝트를 표시합니다. 다른 컨트롤을 추가하여 관리자를 지정할 수 있습니다.
@@ -487,7 +487,7 @@ PowerPoint에서 슬라이드 모음을 만드는 것처럼 PowerApps Studio에�
    
    ![항목 세부 정보 업데이트](./media/sharepoint-scenario-build-app/04-07-11-update.png)
 
-5. 종 모양 아이콘을 ![클릭하거나 누른](./media/sharepoint-scenario-build-app/icon-check-mark.png) 클릭하거나 탭하여 변경 내용을 SharePoint 목록에 적용합니다.
+5. ![체크 표시 아이콘](./media/sharepoint-scenario-build-app/icon-check-mark.png)을 클릭하거나 탭하여 변경 내용을 SharePoint 목록에 적용합니다.
 
 6. 앱을 닫고 목록으로 돌아갑니다. 이제 프로젝트 항목이 변경된 날짜 및 일 수로 업데이트됩니다.
    
