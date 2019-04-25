@@ -612,7 +612,7 @@ PowerApps의 캔버스 앱의 모임 화면 템플릿의 각 주요 컨트롤이
 
 * 속성: **OnSelect**<br>
 
-    값: 코드를 선택한 참석자에 게 모임 초대를 보내고 모든 입력된 필드의 선택을 취소 합니다.
+    값: 선택한 참석자에게 모임 초대를 보내고 모든 입력 필드를 취소하는 코드입니다.
 
     ```powerapps-dot
     Set( _myCalendarName, LookUp( 'Office365'.CalendarGetTables().value, DisplayName = "Calendar" ).Name );
@@ -643,10 +643,10 @@ PowerApps의 캔버스 앱의 모임 화면 템플릿의 각 주요 컨트롤이
     )
     ```
   
-  낮은 수준에서이 코드 블록:
-  1. 집합 **_myCalendarName** 에서 일정 합니다 [Office365.CalendarGetTables()](https://docs.microsoft.com/connectors/office365/#get-calendars) 사용 하 여 작업을 **DisplayName** "일정"의
-  1. 일정 회의 입력의 모든 값에서 다양 한 선택 항목을 사용 하 여 화면 전반에서 사용자를 [Office365.V2CalendarPostItem](https://docs.microsoft.com/connectors/office365/#create-event--v2-) 작업 합니다.
-  1. 모든 입력된 필드 및 회의 만드는 데 사용 되는 변수를 다시 설정 합니다.
+  코드 블록을 구체적으로 설명하면 다음과 같습니다.
+  1. **_myCalendarName**을 [Office365.CalendarGetTables()](https://docs.microsoft.com/connectors/office365/#get-calendars)에서 **DisplayName**이 "Calendar"인 일정으로 설정합니다.
+  1. [Office365.V2CalendarPostItem](https://docs.microsoft.com/connectors/office365/#create-event--v2-) 작업을 사용하여 화면에서 사용자가 만든 다양한 선택에서 입력값으로 모임을 예약합니다.
+  1. 모임을 생성하는데 사용된 모든 입력 필드 및 변수를 다시 설정합니다.
 
 > [!NOTE]
 > 해당 지역에 따라, "Calendar"의 표시 이름을 사용하지 않을 수 있습니다. 일정의 제목이 무엇인지 Outlook에서 확인하고 앱에서 적절하게 변경합니다.

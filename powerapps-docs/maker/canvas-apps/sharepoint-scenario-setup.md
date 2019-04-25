@@ -15,7 +15,7 @@ search.app:
 - PowerApps
 ms.openlocfilehash: 7be4a0574c1a81684188eaede4b6e80b02e7b7cc
 ms.sourcegitcommit: 90245baddce9d92c3ce85b0537c1ac1cf26bf55a
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 01/26/2019
 ms.locfileid: "57799183"
@@ -24,7 +24,7 @@ ms.locfileid: "57799183"
 > [!NOTE]
 > 이 문서는 SharePoint Online에서 PowerApps, Microsoft Flow 및 Power BI를 사용하는 방법에 대한 자습서 시리즈의 일부입니다. [시리즈 소개](sharepoint-scenario-intro.md)를 참고하여 관련된 다운로드뿐만 아니라 전체적인 내용을 파악해야 합니다.
 
-SharePoint는 많은 공유 및 공동 작업 기능이 있지만 이 시나리오에서는 [SharePoint 목록](https://support.office.com/article/Introduction-to-lists-0A1C3ACE-DEF0-44AF-B225-CFA8D92C52D7) 기능을 초점을 맞춥니다. 목록은 팀 구성원 및 다른 사이트 사용자와 공유할 수 있는 데이터 컬렉션입니다. 이 시나리오에 사용된 목록을 검토한 다음 사용자 고유의 SharePoint Online 사이트에서 목록을 만들 수 있습니다.
+SharePoint 기능 공유 및 공동 작업에 대 한 많은 되었지만이 시나리오에 대 한 기능 중 하나에 초점을 합니다. [SharePoint 목록](https://support.office.com/article/Introduction-to-lists-0A1C3ACE-DEF0-44AF-B225-CFA8D92C52D7)합니다. 목록은 팀 구성원 및 다른 사이트 사용자와 공유할 수 있는 데이터의 모음입니다. 이 시나리오에 사용된 목록을 검토한 다음 사용자 고유의 SharePoint Online 사이트에서 목록을 만들 수 있습니다.
 
 ## <a name="step-1-understand-the-lists"></a>1 단계: 목록 이해
 첫 번째 목록은 프로젝트 요청자가 요청을 추가하는 **프로젝트 요청**입니다. 그런 다음 프로젝트 승인자가 해당 요청을 검토하여 승인하거나 거부합니다.
@@ -32,7 +32,7 @@ SharePoint는 많은 공유 및 공동 작업 기능이 있지만 이 시나리�
 | **목록 열** | **데이터 형식** | **설명** |
 | --- | --- | --- |
 | Title |한 줄 텍스트 |프로젝트 이름에 사용되는 기본 열 |
-| Description |한 줄 텍스트 | |
+| 설명 |한 줄 텍스트 | |
 | ProjectType |한 줄 텍스트 |값: 새 하드웨어, 업그레이드된 하드웨어, 새 소프트웨어, 업그레이드된 소프트웨어 |
 | RequestDate |Date | |
 | Requestor |한 줄 텍스트 | |
@@ -40,7 +40,7 @@ SharePoint는 많은 공유 및 공동 작업 기능이 있지만 이 시나리�
 | Approved |한 줄 텍스트 |값: 보류 중, 예, 아니요 |
 
 > [!NOTE]
-> 또한 SharePoint로 생성되고 기본적으로 숨겨진 **ID** 열을 사용합니다. 간단히 하기 위해 기본 데이터 형식을 사용하지만, 실제 앱에서는 **개인 또는 그룹**과 같이 **Requestor** 열에 대해 더 복잡한 형식을 사용할 수 있습니다. PowerApps에서 지원하는 데이터 형식에 대한 자세한 내용은 [Microsoft PowerApps에서 SharePoint로 연결](connections/connection-sharepoint-online.md#known-issues)을 참조하세요.
+> SharePoint에서 생성되고 기본적으로 숨겨지는 **ID** 열을 사용합니다. 간단히 하기 위해 기본 데이터 형식을 사용하지만, 실제 앱에서는 **개인 또는 그룹**과 같이 **Requestor** 열에 대해 더 복잡한 형식을 사용할 수 있습니다. PowerApps에서 지원하는 데이터 형식에 대한 자세한 내용은 [Microsoft PowerApps에서 SharePoint로 연결](connections/connection-sharepoint-online.md#known-issues)을 참조하세요.
 
 두 번째 목록은 프로젝트 관리자 할당과 같이 승인된 모든 프로젝트에 대한 세부 정보를 추적하는 **프로젝트 세부 정보**입니다.
 
@@ -49,7 +49,7 @@ SharePoint는 많은 공유 및 공동 작업 기능이 있지만 이 시나리�
 | Title |한 줄 텍스트 |프로젝트 이름에 사용되는 기본 열 |
 | RequestID |번호 |**프로젝트 요청** 목록 **ID** 열의 값과 일치합니다. |
 | ApprovedDate |Date | |
-| Status |한 줄 텍스트 |값: 시작되지 않음, 진행 중, 완료됨 |
+| 상태 |한 줄 텍스트 |값: 시작되지 않음, 진행 중, 완료됨 |
 | ProjectedStartDate |Date |프로젝트 관리자가 프로젝트를 시작할 것으로 예상하는 시기 |
 | ProjectedEndDate |Date |프로젝트 관리자가 프로젝트를 종료할 것으로 예상하는 시기 |
 | ProjectedDays |번호 |작업일 - 일반적으로 계산되지만 이 시나리오에서는 그렇지 않습니다. |
@@ -108,7 +108,7 @@ SharePoint는 많은 공유 및 공동 작업 기능이 있지만 이 시나리�
 5. project-details.xlsx 통합 문서를 사용하여 "프로젝트 세부 정보" 목록에 대한 목록 만들기 및 복사 프로세스를 반복합니다. 열 이름과 데이터 형식에 대해서는 [1단계: 목록 이해](#step-1-understand-the-lists)에서 프로젝트 세부 정보 테이블을 참조합니다.
 
 ## <a name="step-3-update-connections-to-samples---optional"></a>3단계: 선택 사항 - 샘플에 대한 연결 업데이트
-이 자습서 시리즈의 소개 부분에서 설명했듯이 [다운로드 패키지](https://aka.ms/o4ia0f)에는 두 개의 샘플 앱과 보고서가 포함되어 있습니다. 이러한 샘플을 사용하지 않고 이 시나리오를 완료할 수 있지만, 샘플을 사용하려면 SharePoint 목록에 대한 연결을 업데이트해야 합니다. 사용자의 목록을 데이터 원본으로 사용하도록 연결을 업데이트합니다.
+이 자습서 시리즈의 소개 부분에서 설명했듯이 [다운로드 패키지](https://aka.ms/o4ia0f)에는 두 개의 샘플 앱과 보고서가 포함되어 있습니다. 이러한 샘플을 사용하지 않고 이 시나리오를 완료할 수 있지만, 샘플을 사용하려면 SharePoint 목록에 대한 연결을 업데이트해야 합니다. *사용자*의 목록을 데이터 원본으로 사용하도록 연결을 업데이트합니다.
 
 ### <a name="update-connections-for-the-sample-apps"></a>샘플 앱에 대한 연결 업데이트
 

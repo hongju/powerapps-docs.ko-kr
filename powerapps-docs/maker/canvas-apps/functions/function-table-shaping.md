@@ -1,4 +1,4 @@
-﻿---
+---
 title: AddColumns, DropColumns, RenameColumns 및 ShowColumns 함수 | Microsoft Docs
 description: PowerApps에서 AddColumns, DropColumns, RenameColumns 및 ShowColumns 함수에 대한 구문과 예제를 포함한 참조 정보
 author: gregli-msft
@@ -60,9 +60,9 @@ AddColumns( RealEstateAgents,
 )
 ```
 
-그러나 이러한 함수의 출력은 [비-위임 레코드 제한](../delegation-overview.md#non-delegable-limits)의 적용을 받습니다. 이 예제에서는 **RealEstateAgents** 데이터 원본에 레코드가 501개 이상 존재하더라도 500개의 레코드만 반환됩니다.
+그러나 이러한 함수의 출력은 [비-위임 레코드 제한](../delegation-overview.md#non-delegable-limits)의 적용을 받습니다.  이 예제에서는 **RealEstateAgents** 데이터 원본에 레코드가 501개 이상 존재하더라도 500개의 레코드만 반환됩니다.
 
-이런 방식으로 **AddColumns**를 사용하는 경우, **Filter** 함수는 **RealEstateAgents**의 해당 첫 번째 레코드의 각 데이터 원본에 대한 별도 호출을 사용해야 하므로, 많은 경우 네트워크 트래픽이 발생합니다. 만약 **[dbo]. [ AllListings]**이 아주 작고 변경 되지 않은 경우라면, 앱이 시작할 때 데이터 원본을 캐시하도록 [**OnStart**](signals.md#app)에서 **Collect** 함수를 호출할 수 있습니다. 또는 사용자가 요청하는 경우에만 관련된 레코드를 가져올 수 있도록 앱을 재구성할 수 있습니다. 
+이런 방식으로 **AddColumns**를 사용하는 경우, **Filter** 함수는 **RealEstateAgents**의 해당 첫 번째 레코드의 각 데이터 원본에 대한 별도 호출을 사용해야 하므로, 많은 경우 네트워크 트래픽이 발생합니다. 만약 **[dbo]. [ AllListings]** 이 아주 작고 변경 되지 않은 경우라면, 앱이 시작할 때 데이터 원본을 캐시하도록 [**OnStart**](signals.md#app)에서 **Collect** 함수를 호출할 수 있습니다. 또는 사용자가 요청하는 경우에만 관련된 레코드를 가져올 수 있도록 앱을 재구성할 수 있습니다.  
 
 ## <a name="syntax"></a>구문
 **AddColumns**( *Table*, *ColumnName1*, *Formula1* [, *ColumnName2*, *Formula2*, ... ] )
@@ -99,7 +99,7 @@ AddColumns( RealEstateAgents,
 | **AddColumns( IceCreamSales, “Revenue”, UnitPrice * QuantitySold )** |**Revenue** 열을 결과에 추가합니다.  각 레코드의 경우 **UnitPrice * QuantitySold**가 평가되고 결과가 새 열에 배치됩니다. |<style> img { max-width: none; } </style> ![](media/function-table-shaping/icecream-add-revenue.png) |
 | **DropColumns( IceCreamSales, “UnitPrice” )** |**UnitPrice** 열을 결과에서 제외합니다. 이 함수를 사용하여 열을 제외하고 **ShowColumns**를 사용하여 포함합니다. |![](media/function-table-shaping/icecream-drop-price.png) |
 | **ShowColumns( IceCreamSales, “Flavor” )** |**Flavor** 열만 결과에 포함합니다. 이 함수를 사용하여 열을 포함하고 **DropColumns**를 사용하여 제외합니다. |![](media/function-table-shaping/icecream-select-flavor.png) |
-| **RenameColumns( IceCreamSales, “UnitPrice”, “Price”)** |이름을 바꿉니다는 **UnitPrice** 결과의 열입니다. |![](media/function-table-shaping/icecream-rename-price.png) |
+| **RenameColumns( IceCreamSales, “UnitPrice”, “Price”)** |결과에서 **UnitPrice**의 열 이름을 바꿉니다. |![](media/function-table-shaping/icecream-rename-price.png) |
 | **RenameColumns( IceCreamSales, “UnitPrice”, “Price”, “QuantitySold”, “Number”)** |결과에서 **UnitPrice** 및 **QuantitySold** 열의 이름을 바꿉니다. |![](media/function-table-shaping/icecream-rename-price-quant.png) |
 | **DropColumns(<br>RenameColumns(<br>AddColumns( IceCreamSales, “Revenue”,<br>UnitPrice * QuantitySold ),<br>“UnitPrice”, “Price” ),<br>“Quantity” )** |다음 테이블 변환을 수식의 내부부터 순서대로 수행합니다. <ol><li>**UnitPrice * Quantity**의 레코드별 계산을 기반으로 **Revenue** 열을 추가합니다.<li>**UnitPrice**의 이름을 **Price**로 변경합니다.<li>**Quantity** 열을 제외합니다.</ol>  순서는 중요합니다. 예를 들어 이름이 변경된 후에는 **UnitPrice**로 계산할 수 없습니다. |![](media/function-table-shaping/icecream-all-transforms.png) |
 
@@ -107,7 +107,7 @@ AddColumns( RealEstateAgents,
 
 이 항목의 앞부분에서 예제 중 일부를 사용해 보겠습니다.  
 
-1. **[단추](../controls/control-button.md)** 컨트롤을 추가하여 컬렉션을 생성하고 해당 **OnSelect** 속성을 다음 수식으로 설정합니다.
+1. 추가 하 여 컬렉션 만들기를 **[단추](../controls/control-button.md)** 컨트롤과 설정을 해당 **OnSelect** 속성을 다음이 수식:
 
     ```powerapps-dot
     ClearCollect( IceCreamSales, 
@@ -119,7 +119,7 @@ AddColumns( RealEstateAgents,
     )
     ```
 
-1. Alt 키를 누른 채 단추를 선택하여 수식을 실행합니다.
+1. Alt 키를 누른 채 단추를 선택 하 여 수식을 실행 합니다.
 
 1. 두 번째 **단추** 컨트롤을 추가하고 해당 **OnSelect** 속성을 다음 수식으로 설정한 다음 실행합니다.
 
@@ -136,6 +136,6 @@ AddColumns( RealEstateAgents,
 
 1. **FirstExample**을 선택합니다.
 
-    이 그림에서 두 번째 수식은 열이 추가된 새 테이블을 반환합니다. **ClearCollect** 함수는 **FirstExample** 컬렉션의 새 테이블을 캡처하며, 원본을 수정하지 않고 함수를 통해 적용된 대로 원래 테이블에 항목을 추가합니다.
+    이 그림에서 두 번째 수식을 추가 된 열을 사용 하 여 새 테이블을 반환 합니다. 합니다 **ClearCollect** 함수에서 새 테이블을 캡처된 합니다 **FirstExample** 원본을 수정 하지 않고 함수를 통해 적용 된 대로 원래 테이블에 항목을 추가 하는 컬렉션:
 
     ![새 수입 열이 포함 된 첫 번째 예에서는 컬렉션의 세 개의 레코드를 보여 주는 컬렉션 뷰어](media/function-table-shaping/first-example-collection.png)

@@ -15,14 +15,14 @@ search.app:
 - PowerApps
 ms.openlocfilehash: a8abc0a641f13cc05e723b96d48dd2d877f0b70f
 ms.sourcegitcommit: 5b2b70c3fc7bcba5647d505a79276bbaad31c610
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/22/2019
 ms.locfileid: "58356911"
 ---
 # <a name="understand-data-form-layout-for-canvas-apps-in-powerapps"></a>PowerApps에서 캔버스 앱에 대한 데이터 폼 레이아웃 이해 | Microsoft Docs
 
-PowerApps에서 캔버스 앱을 빌드할 때 매력적이고 효율적인 양식을 쉽게 만듭니다. 예를 들어 판매 주문을 기록하기 위해 다음 기본 양식을 고려해 보세요.
+PowerApps에서 캔버스 앱을 빌드할 때 매력적이고 효율적인 폼을 쉽게 만듭니다. 예를 들어 판매 주문을 기록하기 위해 다음 기본 폼을 고려해 보세요.
 
 ![판매 주문 샘플](./media/working-with-form-layout/sales-order.png)
 
@@ -32,7 +32,7 @@ PowerApps에서 캔버스 앱을 빌드할 때 매력적이고 효율적인 양�
 
 PowerApps를 처음 사용하거나 앱을 자동으로만 생성한 경우에는 이 항목을 살펴보기 전에 [앱을 처음부터 빌드](get-started-create-from-blank.md)합니다. 앱을 처음부터 빌드하는 경우 이 항목에서 언급하지만 설명하지 않는 데이터 원본 및 컨트롤 추가와 같이 필요한 개념에 익숙해집니다.
 
-이 항목에는 데이터가 있는 것 처럼 씌 이라고 하는 원본 **Sales order** 이전 그래픽에서 필드를 포함 하는 합니다. PowerApps 요금제 2 라이선스가 있는 경우 [평가판 라이선스](../signup-for-powerapps.md) 하면 시스템 관리자 또는 시스템 사용자 지정자 사용 권한 [엔터티를 만듭니다.](../common-data-service/data-platform-create-entity.md) Common Data Service에서 유사한 필드를 추가 합니다. 
+이 항목은 **Sales order**라는 데이터 원본을 가지고 있고 데이터 원본은 위 이미지에서의 필드를 포함하고 있는 것으로 설명합니다. PowerApps 요금제 2 라이선스가 있거나 [평가판 라이선스](../signup-for-powerapps.md)가 있고 시스템 관리자 또는 시스템 사용자 지정자 사용 권한을 가지고 있다면 Common Data Service에서 [엔터티를 만들고](../common-data-service/data-platform-create-entity.md) 유사한 필드를 추가합니다. 
 
 ## <a name="add-a-gallery"></a>갤러리 추가
 
