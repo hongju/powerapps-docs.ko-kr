@@ -33,7 +33,7 @@ ms.locfileid: "61531736"
 2. **열기**를 클릭하면 새 브라우저 탭에서 앱이 열립니다.
    
     ![프로젝트 요청 열기 앱](./media/sharepoint-scenario-summary/09-00-02-open-app.png)
-3. 앱의 찾아보기 갤러리에서 첫 번째 항목의 ![항목 아이콘을 추가하여](./media/sharepoint-scenario-summary/icon-add-item.png) 새 항목을 만듭니다.
+3. 오른쪽 위의 차트를 클릭하거나 탭한 다음 ![핀 고정 아이콘](./media/sharepoint-scenario-publish-report/icon-pin.png)을 클릭하거나 탭합니다.
 4. 다음 값으로 양식을 작성합니다.
    
    * **Title** = "Mobile devices for design team"
@@ -51,7 +51,7 @@ ms.locfileid: "61531736"
    * **Requestor** = "Emily Braun"
      
      ![프로젝트 요청 편집 양식](./media/sharepoint-scenario-summary/09-01-01-app-new.png)
-5. 확인 표시 아이콘을 ![클릭하거나 누른](./media/sharepoint-scenario-summary/icon-check-mark.png)다음 브라우저 탭을 닫습니다.
+5. ![확인 표시 아이콘](./media/sharepoint-scenario-summary/icon-check-mark.png)을 클릭하거나 탭한 다음 브라우저 탭을 닫습니다.
 6. **프로젝트 요청** 목록으로 이동하고, **프로젝트 요청 앱** 및 **모든 항목**을 차례로 클릭하거나 누릅니다.
    
     ![모든 항목 보기](./media/sharepoint-scenario-summary/09-01-01a-view-all.png)
@@ -59,7 +59,7 @@ ms.locfileid: "61531736"
    
     ![새 항목을 포함하는 SharePoint 목록](./media/sharepoint-scenario-summary/09-01-02-list-new.png)
 
-## <a name="step-2-approve-the-project"></a>2 단계: 프로젝트를 승인 합니다.
+## <a name="step-2-approve-the-project"></a>2단계: 프로젝트 승인
 1. 1단계에서 항목을 추가할 때 흐름이 실행되고 승인 메일을 보내도록 해야 합니다. 승인자 전자 메일 계정의 받은 편지함을 확인합니다.
    
     ![승인 요청 전자 메일](./media/sharepoint-scenario-summary/09-02-01-allan-email.png)
@@ -74,7 +74,7 @@ ms.locfileid: "61531736"
     ![업데이트된 항목을 포함하는 SharePoint 목록](./media/sharepoint-scenario-summary/09-02-03-yes.png)
 
 ## <a name="step-3-assign-a-manager-to-the-project"></a>3 단계: 프로젝트에 관리자 할당
-1. 먼저 SharePoint에서 **프로젝트 세부 정보** 목록을 살펴보겠습니다. 새 프로젝트에는 **PMAssigned** 열에 **할당되지 않음** 값이 있습니다.
+1. 먼저 SharePoint에서 **프로젝트 세부 정보** 목록을 살펴보겠습니다. 새 프로젝트에는 **PMAssigned** 열에 **Unassigned** 값이 있습니다.
    
     ![할당되지 않은 SharePoint 목록 항목](./media/sharepoint-scenario-summary/09-03-01-unassigned.png)
 2. SharePoint 사이트의 왼쪽 탐색 영역에서 **프로젝트 관리 앱**을 클릭하거나 누릅니다.
@@ -93,7 +93,7 @@ ms.locfileid: "61531736"
    
     ![할당된 SharePoint 목록 항목](./media/sharepoint-scenario-summary/09-03-05-assigned.png)
 
-## <a name="step-4-add-time-estimates-for-the-project"></a>4단계: 프로젝트에 대 한 시간 예상치 추가
+## <a name="step-4-add-time-estimates-for-the-project"></a>4단계: 프로젝트에 대한 시간 예상치 추가
 1. ![뒤로 아이콘](./media/sharepoint-scenario-summary/icon-back.png)을 클릭하거나 눌러서 첫 번째 화면으로 돌아간 다음, **세부 정보 업데이트**를 클릭하거나 누릅니다.
    
     ![프로젝트 업데이트 세부 정보](./media/sharepoint-scenario-summary/09-04-00-intro-screen.png)
@@ -114,12 +114,12 @@ ms.locfileid: "61531736"
    * **ProjectedDays** 필드 = "15"
      
      ![프로젝트 업데이트 세부 정보](./media/sharepoint-scenario-summary/09-04-03-update.png)
-5. 종 모양 아이콘을 ![클릭하거나 누른](./media/sharepoint-scenario-summary/icon-check-mark.png) 변경 내용을 SharePoint 목록에 적용합니다.
+5. ![체크 표시 아이콘](./media/sharepoint-scenario-summary/icon-check-mark.png)을 클릭하거나 탭하여 변경 내용을 SharePoint 목록에 적용합니다.
 6. 앱을 닫고 목록으로 돌아갑니다. 이제 프로젝트 항목이 변경된 날짜 및 일 수로 업데이트됩니다.
    
    ![SharePoint 목록에서 업데이트된 세부 정보](./media/sharepoint-scenario-summary/09-04-04-updated-list.png)
 
-## <a name="step-5-review-report-data-for-existing-projects"></a>5단계: 기존 프로젝트에 대 한 보고서 데이터를 검토 합니다.
+## <a name="step-5-review-report-data-for-existing-projects"></a>5단계: 기존 프로젝트에 대한 보고서 데이터 검토
 1. SharePoint Online에서 **사이트 콘텐츠** 및 **사이트 페이지**를 차례로 클릭하거나 누릅니다.
 2. 앞에서 만든 **프로젝트 분석** 페이지를 엽니다.
    
@@ -136,7 +136,7 @@ ms.locfileid: "61531736"
    
     ![시작 날짜 차이를 보여주는 표](./media/sharepoint-scenario-summary/09-05-04-chart-diff-completed.png)
    
-    이 시각화를 만들 때 설명한 대로 Irvin Sayers가 할당한 프로젝트는 나머지보다 훨씬 오래 걸리는 두 개의 프로젝트를 포함하기 때문에 시작하는 데 오래 걸립니다.
+    우리가 이 시각화를 만들었을 때 주목했던 대로, Irvin Sayers에 할당한 프로젝트가 시작하는 데 더 많은 시간이 걸리며, 두 프로젝트가 나머지 프로젝트보다 훨씬 오래 걸립니다.
 
 ## <a name="step-6-respond-to-pending-project-delays"></a>6 단계: 보류 중인 프로젝트 지연에 응답
 1. Power BI 서비스에서 **프로젝트 분석** 데이터 세트를 클릭하거나 누르고 **지금 새로 고침**을 클릭하거나 누릅니다. 새로 고침은 보류 중인 프로젝트에 설정한 경고를 트리거합니다.
@@ -150,10 +150,10 @@ ms.locfileid: "61531736"
 3. 알림 센터를 열어서 발생한 경고의 세부 정보를 확인합니다.
    
     ![데이터 경고에 대한 알림](./media/sharepoint-scenario-summary/09-06-03-notification.png)
-4. 경고를 만든 사용자에 대한 받은 편지함을 확인합니다(이 경우에 Megan Bowen임).
+4. 경고를 만든 사용자의 받은 편지함을 확인합니다(이 경우 Megan Bowen).
    
     ![Power BI에서 보낸 경고 전자 메일](./media/sharepoint-scenario-summary/09-06-04-email-powerbi.png)
-5. 데이터 경고 흐름에 추가한 사용자에 대한 받은 편지함을 확인합니다(이 경우에 Allan DeYoung임).
+5. 데이터 경고 흐름에 추가한 사용자의 받은 편지함을 확인합니다(이 경우 Allan DeYoung).
    
     ![Microsoft Flow에서 보낸 경고 전자 메일](./media/sharepoint-scenario-summary/09-06-05-email-flow.png)
 6. 이제 보류 중인 프로젝트에 대한 정보가 있으므로 뒤로 돌아가서 확인해야 하는 항목을 승인할 수 있습니다.
