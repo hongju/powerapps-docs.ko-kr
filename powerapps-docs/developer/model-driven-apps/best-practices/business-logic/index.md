@@ -21,11 +21,11 @@ search.app:
 - PowerApps
 - D365CE
 ms.openlocfilehash: e2b43178882cb66abba2305f65f78855915591ed
-ms.sourcegitcommit: 44ca0a386fce0c4a18310b515a4880065942dd05
+ms.sourcegitcommit: 4ed29d83e90a2ecbb2f5e9ec5578e47a293a55ab
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "59537830"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63317667"
 ---
 # <a name="best-practices-and-guidance-of-client-side-scripting-for-model-driven-apps"></a>모델 기반 앱에 대한 클라이언트 쪽 스크립팅 모범 사례 및 지침
 
