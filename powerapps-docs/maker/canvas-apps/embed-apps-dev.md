@@ -21,7 +21,7 @@ ms.lasthandoff: 04/05/2019
 ms.locfileid: "59042689"
 ---
 # <a name="integrate-canvas-apps-into-websites-and-other-services"></a>웹 사이트 및 기타 서비스로 캔버스 앱 통합
-작성 하는 앱은 종종 사람들이 작업을 수행 하는 경우에 바로 사용할 수 있을 때 가장 유용 합니다. 캔버스 앱을 iframe에 포함 하여 웹 사이트 및 Power BI 또는 SharePoint와 같은 다른 서비스에 해당 앱을 통합할 수 있습니다.
+작성하는 앱은 종종 사람들이 작업 수행에 바로 사용할 수 있을 때 가장 유용합니다. 캔버스 앱을 iframe에 포함하여 웹 사이트 및 Power BI 또는 SharePoint와 같은 다른 서비스에 해당 앱을 통합할 수 있습니다.
 
 이 토픽에서는 앱 포함을 위해 매개 변수를 설정하는 방법을 보여 준 다음 웹 사이트에 자산 순서 지정 앱을 포함합니다.
 
@@ -32,7 +32,7 @@ ms.locfileid: "59042689"
 - 동일한 테넌트의 PowerApps 사용자만 포함된 앱에 액세스할 수 있습니다.
 - Internet Explorer 11을 사용하여 PowerApps에 액세스하려면 호환성 보기를 해제해야 합니다.
 
-또한 SharePoint Online에 iframe을 사용 하지 않고 캔버스 앱을 통합할 수 있습니다. 자세한 정보: [PowerApps 웹 파트 사용](https://support.office.com/article/use-the-powerapps-web-part-6285f05e-e441-408a-99d7-aa688195cd1c).
+또한 iframe을 사용하지 않고 SharePoint Online에 캔버스 앱을 통합할 수 있습니다. 자세한 정보: [PowerApps 웹 파트 사용](https://support.office.com/article/use-the-powerapps-web-part-6285f05e-e441-408a-99d7-aa688195cd1c).
 
 ## <a name="set-uri-parameters-for-your-app"></a>앱에 대한 URI 매개 변수 설정
 포함하려는 앱이 있는 경우 첫 번째 단계는 iframe이 앱을 찾을 수 있는 위치를 알 수 있도록 URI(Uniform Resource Identifier)에 대한 매개 변수를 설정하는 것입니다. URI는 다음과 같은 형식입니다.
