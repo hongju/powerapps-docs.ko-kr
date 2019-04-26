@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 31b166dbe0257127d02f410182aaebb70e641da6
-ms.sourcegitcommit: 5b2b70c3fc7bcba5647d505a79276bbaad31c610
+ms.sourcegitcommit: 4ed29d83e90a2ecbb2f5e9ec5578e47a293a55ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58357900"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63320869"
 ---
 # <a name="attachments-control-in-powerapps"></a>PowerApps의 첨부 파일 컨트롤
 사용자의 장치에 파일을 다운로드하는 것뿐만 아니라 업로드하고, SharePoint 목록 또는 Common Data Service 엔터티에서 파일을 삭제할 수 있는 컨트롤입니다.

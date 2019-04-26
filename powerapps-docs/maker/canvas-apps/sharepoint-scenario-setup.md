@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 7be4a0574c1a81684188eaede4b6e80b02e7b7cc
-ms.sourcegitcommit: 90245baddce9d92c3ce85b0537c1ac1cf26bf55a
-ms.translationtype: HT
+ms.sourcegitcommit: 4ed29d83e90a2ecbb2f5e9ec5578e47a293a55ab
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "57799183"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63319157"
 ---
 # <a name="set-up-lists-for-sharepoint-online-integration-with-powerapps-microsoft-flow-and-power-bi"></a>PowerApps, Microsoft Flow 및 Power BI와의 통합을 위한 SharePoint Online 목록 설정
 > [!NOTE]

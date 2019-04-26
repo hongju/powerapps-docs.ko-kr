@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: c57375906ba900a3112b9d7999d3941f14e9af58
-ms.sourcegitcommit: 90245baddce9d92c3ce85b0537c1ac1cf26bf55a
-ms.translationtype: MT
+ms.sourcegitcommit: 4ed29d83e90a2ecbb2f5e9ec5578e47a293a55ab
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "57799942"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63321284"
 ---
 # <a name="create-a-power-bi-report-to-analyze-projects"></a>프로젝트를 분석하는 Power BI 보고서 만들기
 > [!NOTE]
@@ -129,7 +129,7 @@ ms.locfileid: "57799942"
 
 2. **파일**, **저장**을 차례로 클릭하거나 탭하고 project-analysis.pbix라는 이름으로 저장합니다.
 
-## <a name="step-2-improve-the-data-model"></a>2 단계: 데이터 모델 향상
+## <a name="step-2-improve-the-data-model"></a>2단계: 데이터 모델 향상
 이제 SharePoint 목록의 데이터를 Power BI Desktop으로 가져왔으므로 데이터 모델링으로 이동합니다. 데이터 모델링은 시간이 많이 걸리는 프로세스일 수 있지만, Power BI Desktop의 목록 데이터를 더 많이 활용하기 위해 수행할 수 있는 몇 가지 흥미로운 작업에 대해 간략히 살펴보겠습니다.
 
 * 두 테이블 간의 관계를 변경합니다.
@@ -198,17 +198,12 @@ Power BI Desktop에서 목록을 가져올 때 두 테이블의 **ID** 열을 �
     ![새 열](./media/sharepoint-scenario-build-report/05-02-00-modeling-column.png)
 2. 다음 수식을 수식 입력줄에 입력합니다.
    
-    ```
+    ```dax
     ApprovedStartDiff = CALCULATE(SUM(Dates[IsWeekday]),
-   
        DATESBETWEEN(Dates[Date],
-   
           'Project Details'[ApprovedDate],
-   
           'Project Details'[ProjectedStartDate]
-   
       )
-   
     )
     ```
    
@@ -223,17 +218,12 @@ Power BI Desktop에서 목록을 가져올 때 두 테이블의 **ID** 열을 �
     ![새 열](./media/sharepoint-scenario-build-report/05-02-00-modeling-column.png)
 2. 다음 수식을 수식 입력줄에 입력합니다.
    
-    ```
+    ```dax
     RequestDateAge = CALCULATE(SUM(Dates[IsWeekday]),
-   
        DATESBETWEEN(Dates[Date],
-   
           'Project Requests'[RequestDate],
-   
           NOW()
-   
        )
-   
     )
     ```
    
@@ -248,13 +238,10 @@ Power BI Desktop에서 목록을 가져올 때 두 테이블의 **ID** 열을 �
     ![새 측정값](./media/sharepoint-scenario-build-report/05-02-00-modeling-measure.png)
 2. 다음 수식을 수식 입력줄에 입력합니다.
    
-    ```
+    ```dax
     VarProjectedActual = DIVIDE(
-   
         SUM('Project Details'[ActualDays]) - SUM('Project Details'[ProjectedDays]),
-   
         SUM('Project Details'[ProjectedDays])
-   
     )
     ```
    
@@ -269,13 +256,10 @@ Power BI Desktop에서 목록을 가져올 때 두 테이블의 **ID** 열을 �
     ![새 측정값](./media/sharepoint-scenario-build-report/05-02-00-modeling-measure.png)
 2. 다음 수식을 수식 입력줄에 입력합니다.
    
-    ```
+    ```dax
     MaxDaysPending = MAXX(
-   
         FILTER('Project Requests', 'Project Requests'[Approved]="Pending"),
-   
         'Project Requests'[RequestDateAge]
-   
     )
     ```
    
@@ -284,7 +268,7 @@ Power BI Desktop에서 목록을 가져올 때 두 테이블의 **ID** 열을 �
    
     ![MaxDaysPending 측정값 추가](./media/sharepoint-scenario-build-report/05-02-12-measure-maxdayspending.png)
 
-## <a name="step-3-create-report-visualizations"></a>3 단계: 보고서 시각화 만들기
+## <a name="step-3-create-report-visualizations"></a>3단계: 보고서 시각화 만들기
 이제 많은 사람들이 데이터 분석을 고려하는 단계에 있습니다. 시각화를 만들어 데이터에서 패턴을 찾을 수 있도록 합니다. 이 단계에서는 네 가지 시각화를 만듭니다.
 
 * 프로젝트에 예상 일 수와 실제 일 수를 표시하는 세로 막대형 차트

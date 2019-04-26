@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: d4cde32e52240e04a3499444d2c1325d0105a945
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.sourcegitcommit: 4ed29d83e90a2ecbb2f5e9ec5578e47a293a55ab
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42855430"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63320599"
 ---
 # <a name="button-control-in-powerapps"></a>PowerApps의 단추 컨트롤
 사용자가 클릭하거나 탭하여 앱과 상호 작용할 수 있는 컨트롤입니다.
@@ -60,7 +60,7 @@ ms.locfileid: "42855430"
 
 **[Font](properties-text.md)** – 텍스트가 표시되는 글꼴의 제품군 이름입니다.
 
-**[FontWeight](properties-text.md)** - 컨트롤의 텍스트 굵기입니다. **Bold**, **Semibold**, **Normal** 또는 **Lighter**로 설정합니다.
+**[FontWeight](properties-text.md)**  – 컨트롤의 텍스트의 가중치: **굵게**, **Semibold**, **정상**, 또는 **밝은**.
 
 **[Height](properties-size-location.md)** – 컨트롤의 위쪽 및 아래쪽 가장자리 사이의 간격입니다.
 
@@ -171,7 +171,7 @@ ms.locfileid: "42855430"
    
    * 4개 **[Radius](properties-size-location.md)** 값을 모두 **150**으로 설정하여 원을 만듭니다.
    * **[RadiusTopLeft](properties-size-location.md)** 및 **[RadiusBottomRight](properties-size-location.md)** 의 값을 **300**으로 설정하여 리프형 **단추**를 만듭니다.
-   * **[RadiusTopLeft](properties-size-location.md)** 및 **[RadiusTopRight](properties-size-location.md)** 의 값을 **300**, **[RadiusBottomLeft](properties-size-location.md)** 및 **[RadiusBottomRight](properties-size-location.md)** 의 값을 **100** 으로 설정하여 탭 모양 단추를 만듭니다.
+   * **[RadiusTopLeft](properties-size-location.md)** 및**[RadiusTopRight](properties-size-location.md)** 의 값을 **300**, **[RadiusBottomLeft](properties-size-location.md)** 및 **[RadiusBottomRight](properties-size-location.md)** 의 값을 **100**으로 설정하여 탭 모양 단추를 만듭니다.
 
 #### <a name="change-a-buttons-color-when-you-hover-over-it"></a>마우스로 가리킬 때 단추의 색 변경
 기본적으로 **단추** 컨트롤의 채우기 색은 마우스로 가리킬 때 20% 흐려집니다. **[ColorFade](../functions/function-colors.md)** 함수를 사용하는 **[HoverFill](properties-color-border.md)** 속성을 변경하여 이 동작을 조정할 수 있습니다. **[ColorFade](../functions/function-colors.md)** 수식을 양의 백분율로 설정하면 마우스를 단추에 가져갔을 때 색이 더 밝아지며 음수로 설정하면 더 어두워집니다.

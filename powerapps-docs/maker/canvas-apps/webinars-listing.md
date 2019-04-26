@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: c11800767225f66520e1a5c368de5102219505d2
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.sourcegitcommit: 4ed29d83e90a2ecbb2f5e9ec5578e47a293a55ab
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42845341"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63321629"
 ---
 # <a name="powerapps-webinar-listing"></a>PowerApps 웹 세미나 목록 #
 웹 세미나는 Microsoft PowerApps의 기능을 활용하는 데 도움이 됩니다. 웹 세미나는 실시간 방송 후에 주문형으로 제공됩니다. 일부 경우에 등록 세부 정보를 다시 입력하면 동영상 링크가 메일로 전송됩니다. 
@@ -52,7 +52,7 @@ ms.locfileid: "42845341"
 <br>주체: Emma Cooper [시청하기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Getting-Started-New-Office-Graph-Templates-Part-2-by-Emma-Cooper/m-p/116840)
 
 ## <a name="intermediate-webinar-series"></a>중급자 웹 세미나 시리즈 ##
-**PowerApps의 새로운 저장 및 게시 옵션을 사용한 응용 프로그램 수명 주기**
+**PowerApps의 새로운 저장 및 게시 옵션을 사용한 애플리케이션 수명 주기**
 <br>주체: Karthik Bharathy [시청하기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Application-LIfecycle-with-the-new-Save-and-publish-options-in/m-p/116860)
 
 **Lookup 함수 사용에 중점을 둔 PowerApps**
@@ -70,7 +70,7 @@ ms.locfileid: "42845341"
 **PowerApps 관리 | 질문과 대답**
 <br>작성자: Manas Maheshwari [지금 보기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/PowerApps-Administration-FAQ/m-p/127369#M44)
 
-**범용 감사 앱 살펴보기: PowerApps 및 Flow에서 할 수 있는 작업 알아보기, 작성자: Paul Culmsee**
+**범용 감사 앱 내부: PowerApps 및 Flow 수 작성자: Paul Culmsee 참조**
 <br>작성자: Paul Culmsee [지금 보기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Inside-the-Universal-Audit-App-See-what-PowerApps-and-Flow-are/m-p/127370#M45)
 
 ## <a name="advanced-webinar-series"></a>고급자 웹 세미나 시리즈 ##
@@ -108,11 +108,11 @@ ms.locfileid: "42845341"
 **PowerApps를 통한 Office Graph의 힘**
 <br>주체: Audrie Gordon [시청하기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/The-Power-of-Office-Graph-with-PowerApps/m-p/116888)
 
-**커넥터 사용: Project Online(PWA)**
+**커넥터 작업: Project Online (PWA)**
 <br>주체: Audrie Gordon [시청하기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Connecting-to-Project-Online-PWA/m-p/116889)
 
 ## <a name="sharepoint-series"></a>SharePoint 시리즈 ##
-**PowerApps Studio로 신속하게 응용 프로그램 구축**
+**PowerApps Studio로 신속하게 애플리케이션 구축**
 <br>주체: Karthik Bharathy [시청하기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Rapidly-build-applications-with-PowerApps-Studio/m-p/116849)
 
 **PowerApps에서 InfoPath Designer 양식 다시 작성**
@@ -150,5 +150,5 @@ ms.locfileid: "42845341"
 **PowerApps에서 대화 상자 또는 팝업 메시지 빌드**
 <br>작성자: Veronica Ward [지금 보기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Building-Dialogs-in-PowerApps-by-Veronica-Ward/m-p/117627#M39)
 
-**PowerApps 개발자와 함께 알아보기 – 템플릿 자세히 살펴보기: Marie Hoeger**
+**PowerApps 개발자 자세히 보기 템플릿 중 하나를 사용 하 여 커튼 뒷부분을 확인 합니다. Marie Hoeger**
 <br>주체: Audrie Gordon [시청하기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Developer-Intro-and-Discussing-Templates/m-p/116848)

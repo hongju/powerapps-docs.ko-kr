@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 61a7e67b7914e5f844397389833f830244d5af28
-ms.sourcegitcommit: f84095d964fe1fe5cc5290e5edbee284bd768e1e
+ms.sourcegitcommit: 4ed29d83e90a2ecbb2f5e9ec5578e47a293a55ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "59098049"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63318114"
 ---
 # <a name="understand-delegation-in-a-canvas-app"></a>캔버스 앱에서 위임 이해
 PowerApps에는 강력한 필터링, 정렬 및 캔버스 앱에서 데이터의 테이블을 셰이핑 함수 집합이 포함 됩니다. **[필터](functions/function-filter-lookup.md)** 를  **[정렬](functions/function-sort.md)**, 및 **[AddColumns](functions/function-table-shaping.md)** 몇 이름을 지정 하는 함수입니다. 이러한 함수를 사용하여 사용자에게 필요한 정보에 대한 집중된 액세스 권한을 제공할 수 있습니다. 데이터베이스 배경 지식이 있는 사람들에게 이러한 함수를 사용하는 것은 데이터베이스 쿼리를 작성하는 것과 같습니다.
@@ -102,7 +102,7 @@ AddColumns( Products,
 
 경우에 **제품** 및 **공급 업체** 위임 가능한 데이터 원본 수 및 **조회** 위임 가능한 함수인의 출력을 **AddColumns**함수는 위임할 수 없습니다. 전체 수식의 결과 첫 번째 부분으로 제한 합니다 **제품** 데이터 원본입니다. **LookUp** 함수와 해당 데이터 원본이 위임 가능하기 때문에 **Suppliers**에 대한 일치 항목은 크더라도 데이터 원본 어디서든 찾을 수 있습니다. 
 
-사용 하는 경우 **AddColumns** 이런 방식으로 **조회** 의 해당 첫 번째 레코드의 각 데이터 원본에 대 한 별도 호출을 사용 해야 **제품**, 네트워크의 많은 경우 chatter 합니다. 경우 **공급 업체** 가 너무 작고 바뀌지 자주 호출할 수 있습니다 합니다 **수집** 함수 [ **OnStart** ](functions/signals.md) 데이터를 캐시할 수 앱이 시작 될 때 원본입니다. 대신에 사용자를 요청 하는 경우에 관련된 레코드를 가져올 수 있도록 앱을 재구성할 수 있습니다.  
+사용 하는 경우 **AddColumns** 이런 방식으로 **조회** 의 해당 첫 번째 레코드의 각 데이터 원본에 대 한 별도 호출을 사용 해야 **제품**, 네트워크의 많은 경우 chatter 합니다. 경우 **공급 업체** 가 너무 작고 바뀌지 자주 호출할 수 있습니다 합니다 **수집** 함수 [ **OnStart** ](functions/signals.md) 데이터를 캐시할 수 앱이 시작 될 때 원본입니다. 또는 사용자가 요청하는 경우에만 관련된 레코드를 가져올 수 있도록 앱을 재구성할 수 있습니다.  
  
 ## <a name="non-delegable-functions"></a>위임 불가능 함수
 모든 기타 함수는 다음 중요 함수를 포함해 위임을 지원하지 않습니다.
