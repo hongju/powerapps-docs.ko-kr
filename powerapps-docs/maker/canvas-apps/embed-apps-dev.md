@@ -15,7 +15,7 @@ search.app:
 - PowerApps
 ms.openlocfilehash: e4d3d2e769951ed75ddeeb57f7fe4c0b350d02e7
 ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "61550300"
@@ -32,14 +32,13 @@ ms.locfileid: "61550300"
 - 동일한 테넌트의 PowerApps 사용자만 포함된 앱에 액세스할 수 있습니다.
 - Internet Explorer 11을 사용하여 PowerApps에 액세스하려면 호환성 보기를 해제해야 합니다.
 
-또한 iframe을 사용하지 않고 SharePoint Online에 캔버스 앱을 통합할 수 있습니다. 자세한 정보: [PowerApps 웹 파트 사용](https://support.office.com/article/use-the-powerapps-web-part-6285f05e-e441-408a-99d7-aa688195cd1c).
+또한 SharePoint Online에 iframe을 사용 하지 않고 캔버스 앱을 통합할 수 있습니다. 자세한 정보: [PowerApps 웹 파트를 사용 하 여](https://support.office.com/article/use-the-powerapps-web-part-6285f05e-e441-408a-99d7-aa688195cd1c)입니다.
 
 ## <a name="set-uri-parameters-for-your-app"></a>앱에 대한 URI 매개 변수 설정
 포함하려는 앱이 있는 경우 첫 번째 단계는 iframe이 앱을 찾을 수 있는 위치를 알 수 있도록 URI(Uniform Resource Identifier)에 대한 매개 변수를 설정하는 것입니다. URI는 다음과 같은 형식입니다.
 
 ```
-https://web.powerapps.com/webplayer/iframeapp?source=iframe
-&appId=/providers/Microsoft.PowerApps/apps/[AppID]
+https://web.powerapps.com/webplayer/iframeapp?source=iframe&appId=/providers/Microsoft.PowerApps/apps/[AppID]
 ```
 
 > [!NOTE]
@@ -55,7 +54,7 @@ https://web.powerapps.com/webplayer/iframeapp?source=iframe
 ### <a name="get-the-app-id"></a>앱 ID 가져오기
 앱 ID는 powerapps.com에서 제공됩니다. 포함하려는 앱의 경우:
 
-1. [powerapps.com](https://powerapps.microsoft.com)의 **앱** 탭에서 줄임표( **. . .** )를 클릭하거나 탭한 다음 **세부 정보**를 클릭하거나 탭합니다.
+1. [powerapps.com](https://powerapps.microsoft.com)의 **앱** 탭에서 줄임표( **. . .** )를 클릭하거나 탭합니다. 다음 **세부 정보**.
    
     ![앱 세부 정보로 이동](./media/embed-apps-dev/details.png)
 1. **앱 ID**를 복사합니다.
@@ -70,7 +69,7 @@ https://web.powerapps.com/webplayer/iframeapp?source=iframe
 ## <a name="embed-your-app-in-a-website"></a>웹 사이트에 앱 포함
 앱을 포함하는 것은 이제 사이트(또는 Power BI 또는 SharePoint와 같은 iframe을 지원하는 다른 서비스)에 대한 HTML 코드에 iframe을 포함하는 것만큼 간단합니다.
 
-```
+```html
 <iframe width="[W]" height="[H]" src="https://web.powerapps.com/webplayer/iframeapp?source=website&screenColor=rgba(165,34,55,1)&appId=/providers/Microsoft.PowerApps/apps/[AppID]" allow="geolocation; microphone; camera"/>
 ```
 
