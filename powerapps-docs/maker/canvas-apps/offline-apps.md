@@ -31,13 +31,13 @@ ms.locfileid: "57800379"
 
 ## <a name="limitations"></a>제한 사항
 
-**LoadData**와 **SaveData**는 결합하여 로컬 장치에 적은 양의 데이터를 저장 하는 간단한 메커니즘을 형성 합니다. 이러한 함수를 사용 하여 앱에 간단한 오프 라인 기능을 추가할 수 있습니다.  
+**LoadData**와 **SaveData**는 결합하여 로컬 장치에 적은 양의 데이터를 저장하는 간단한 메커니즘을 형성합니다. 이러한 함수를 사용하여 앱에 간단한 오프라인 기능을 추가할 수 있습니다. 
 
-이러한 함수는 메모리 내 컬렉션에서 작동 하기 때문에 사용 가능한 앱 메모리 양으로 제한 됩니다. 사용 가능한 메모리는 장치, 운영 체제, PowerApps Mobile이 사용 하는 메모리 및 화면 및 컨트롤 측면에서 앱의 복잡성에 따라 달라질 수 있습니다. 겨우 몇 메가바이트의 데이터를 저장 하는 경우는 예상 실행 장치에 필요한 시나리오를 사용 하여 앱을 테스트 합니다. 일반적으로 사용 가능한 메모리의 30 및 70 메가바이트 사이가 되어야 합니다.  
+이러한 함수는 메모리 내 컬렉션에서 작동하기 때문에 사용 가능한 앱 메모리 양의 제한을 받습니다. 사용 가능한 메모리는 장치, 운영 체제, PowerApps Mobile이 사용하는 메모리 및 화면 및 컨트롤 측면에서의 앱의 복잡성에 따라 달라질 수 있습니다. 겨우 몇 메가바이트의 데이터를 저장하는 경우 예상 실행 장치에 필요한 시나리오를 사용하여 앱을 테스트합니다. 일반적으로 30 및 70 메가바이트 사이의 사용 가능한 메모리가 있어야 합니다.
 
-함수는 또한 오프 라인 장치에서 연결로 돌아올때 자동으로 병합 충돌을 해결하지 않습니다. 어떤 데이터가 저장되고 다시 연결을 처리하는 방법의 구성은 식을 작성하는 작성자에게 달려 있습니다.
+함수는 또한 오프라인 장치에서 연결로 돌아올때 자동으로 병합 충돌을 해결하지 않습니다. 어떤 데이터가 저장될 것인지와 다시 연결을 처리하는 방법의 구성은 식을 작성하는 작성자에게 달려 있습니다.
 
-오프 라인 시나리오에 대 한 기능을 확장 하기 위해 노력 하고 있습니다. 사용할 수 있게 되면 여기와 [PowerApps 블로그](https://powerapps.microsoft.com/blog/)에서 업데이트 내용을 확인합니다.
+오프라인 시나리오에 대한 기능을 확장하기 위해 노력하고 있습니다. 사용할 수 있게 되면 여기와 [PowerApps 블로그](https://powerapps.microsoft.com/blog/)에서 업데이트 내용을 확인합니다.
 
 ## <a name="how-to-build-offline-capable-apps"></a>오프라인에서 사용 가능한 앱을 빌드하는 방법
 
@@ -79,7 +79,7 @@ PowerApps의 가장 흥미로운 측면 중 하나는 데이터 원본에 관계
 
     ![Twitter 연결 추가](./media/offline-apps/twitter-connection.png)
 
-### <a name="step-3-load-tweets-into-a-localtweets-collection-on-app-startup"></a>3 단계: 앱 시작 시 LocalTweets 컬렉션으로 트윗 로드
+### <a name="step-3-load-tweets-into-a-localtweets-collection-on-app-startup"></a>3단계: 앱 시작 시 LocalTweets 컬렉션으로 트윗 로드
 앱에서 **Screen1**의 **OnVisible** 속성을 선택하고, 다음 수식을 복사합니다.
 
 ```powerapps-dot
@@ -98,13 +98,13 @@ SaveData( LocalTweets, "Tweets" )
 이 수식은 디바이스가 온라인 상태인지를 확인합니다.
 
 * 디바이스가 온라인 상태인 경우 **LocalTweets** 컬렉션에 "PowerApps"라는 검색 단어를 포함하는 최대 100개의 트윗을 로드합니다.
-* 디바이스가 오프라인 상태인 경우 사용할 수 있다면 "Tweets"이라는 파일에서 로컬 캐시를 로드합니다.
+* 디바이스가 오프라인 상태인 경우 사용할 수 있다면 "Tweets"라는 파일에서 로컬 캐시를 로드합니다.
 
 ### <a name="step-4-add-a-gallery-and-bind-it-to-the-localtweets-collection"></a>4단계: 갤러리 추가 및 LocalTweets 컬렉션에 바인딩
 
-1. 새로운 높이 조정 가능 갤러리를 삽입 합니다. **삽입** > **갤러리** > **높이 조정 가능(비어 있음)** 을 선택 합니다.
+1. 새로운 높이 조정 가능 갤러리를 삽입합니다. **삽입** > **갤러리** > **높이 조정 가능(비어 있음)**을 선택합니다.
 
-2. **Items** 속성을 **LocalTweets**으로 설정합니다.
+2. **Items** 속성을 **LocalTweets**로 설정합니다.
 
 3. 4개의 **레이블**을 추가하고, 각 트윗에서 데이터를 표시하고, **텍스트** 속성을 다음으로 설정합니다.
    * **ThisItem.TweetText**
@@ -120,13 +120,13 @@ SaveData( LocalTweets, "Tweets" )
 
 이 수식은 디바이스가 온라인 상태인지를 확인합니다. 이러한 경우 레이블 텍스트가 "연결됨"이고, 그렇지 않으면 "오프라인"입니다.
 
-### <a name="step-6-add-a-text-input-to-compose-new-tweets"></a>6 단계: 새 트윗을 작성 하는 텍스트 입력 추가
+### <a name="step-6-add-a-text-input-to-compose-new-tweets"></a>6단계: 새 트윗을 작성하는 텍스트 입력 추가
 
 1. "NewTweetTextInput"이라는 새 **텍스트 입력** 컨트롤을 삽입합니다.
 
 2. 텍스트 입력의 **Reset** 속성을 **resetNewTweet**으로 설정합니다.
 
-### <a name="step-7-add-a-button-to-post-the-tweet"></a>7 단계: 트윗을 게시 하는 단추 추가
+### <a name="step-7-add-a-button-to-post-the-tweet"></a>7단계: 트윗을 게시하는 단추 추가
 1. **단추** 컨트롤을 추가하고 **Text** 속성을 "트윗"으로 설정합니다.
 2. **OnSelect** 속성을 다음 수식으로 설정합니다.
 
@@ -147,7 +147,7 @@ SaveData( LocalTweets, "Tweets" )
 
 그런 다음 수식은 텍스트 상자에서 텍스트를 다시 설정합니다.
 
-### <a name="step-8-add-a-timer-to-check-for-tweets-every-five-minutes"></a>8 단계: 5 분 마다 트윗을 확인 하도록 타이머 추가
+### <a name="step-8-add-a-timer-to-check-for-tweets-every-five-minutes"></a>8단계: 5분마다 트윗을 확인하도록 타이머 추가
 새 **타이머** 컨트롤을 추가합니다.
 
 * **Duration** 속성을 300000으로 설정합니다.
