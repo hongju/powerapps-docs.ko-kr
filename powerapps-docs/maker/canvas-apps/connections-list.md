@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 29de71e413a83a1c0939796f7b65bd42d4aca3c4
-ms.sourcegitcommit: 4db9c763455d141a7e1dd569a50c86bd9e50ebf0
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "57801989"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61556652"
 ---
 # <a name="overview-of-canvas-app-connectors-for-powerapps"></a>PowerApps용 캔버스 앱 커넥터의 개요
 데이터는 PowerApps에서 빌드하는 앱을 포함해 대부분 앱의 핵심입니다. 데이터는 *데이터 원본*에 저장되며 *연결*을 만들어 해당 데이터를 앱으로 구현합니다. 이 연결은 특정 *커넥터*를 사용하여 데이터 원본과 데이터를 교환합니다. PowerApps에는 SharePoint, SQL Server, Office 365, Salesforce, Twitter를 비롯한 많은 인기 서비스 및 온-프레미스 데이터 원본용 커넥터가 있습니다. 캔버스 앱에 데이터 추가를 시작하려면 [PowerApps에서 데이터 연결 추가](add-data-connection.md)를 참조하세요.
@@ -58,7 +58,7 @@ ms.locfileid: "57801989"
 [Patch 함수](functions/function-patch.md)<br>[Collect 함수](functions/function-clear-collect-clearcollect.md)<br>[Update 함수](functions/function-update-updateif.md)
 
 > [!NOTE]
->  **PowerApps는 동적 스키마를 사용하지 않습니다.** 동적 스키마라는 문구는 동일한 작업이 다른 열을 가진 다른 테이블을 반환할 수 있는 가능성을 가리킵니다. 테이블의 열이 다를 수 있는 조건은 작업 입력 매개 변수, 작업을 실행하는 역할 및 사용자, 특히 사용자가 작업하는 그룹을 포함합니다. 예를 들어, SQL Server 저장 프로시저는 서로 다른 입력을 사용하여 실행하는 경우 다른 열을 반환할 수 있습니다. 동적 스키마를 사용하는 작업에 대한 커넥터 설명서에서는 다음과 같이 표시됩니다. 반환 값인 **이 작업의 출력은 동적입니다.** 반면, Microsoft Flow는 동적 스키마를 사용하여 작동하여 사용자의 시나리오를 위한 해결책을 제공할 수 있습니다.
+>  **PowerApps는 동적 스키마를 사용하지 않습니다.** 동적 스키마라는 문구는 동일한 작업이 다른 열을 가진 다른 테이블을 반환할 수 있는 가능성을 가리킵니다. 테이블의 열이 다를 수 있는 조건은 작업 입력 매개 변수, 작업을 실행하는 역할 및 사용자, 특히 사용자가 작업하는 그룹을 포함합니다. 예를 들어, SQL Server 저장 프로시저는 서로 다른 입력을 사용하여 실행하는 경우 다른 열을 반환할 수 있습니다. 동적 스키마를 사용하는 작업에 대한 커넥터 설명서에서는 다음과 같이 표시됩니다. 반환 값인 이 작업의 출력은 동적입니다. 반면, Microsoft Flow는 동적 스키마를 사용하여 작동하여 사용자의 시나리오를 위한 해결책을 제공할 수 있습니다.
 
 ## <a name="popular-connectors"></a>가장 많이 사용되는 커넥터
 
