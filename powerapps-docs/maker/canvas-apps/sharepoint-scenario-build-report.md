@@ -97,7 +97,7 @@ ms.locfileid: "63321284"
 3. 다음 두 개의 열을 제거 합니다 **Id** 열: **ServerRedirectedEmbedURL** 하 고 **ContentTypeId**합니다. 
    > [!TIP]
    > Shift 키를 사용하여 두 열을 선택한 다음 **열 제거**를 클릭하거나 탭합니다.
-4. **PMAssigned** 열(총 22열)의 오른쪽에 있는 모든 열을 제거합니다. 테이블은 다음 이미지와 같습니다.
+4. **PMAssigned**열 오른쪽에 있는 모든 열(총 22열)을 제거합니다. 테이블은 다음 이미지와 같습니다.
    
     ![쿼리 편집기의 프로젝트 세부 정보 테이블](./media/sharepoint-scenario-build-report/05-01-08-table-details.png)
 5. 방금 진행한 과정을 **프로젝트 요청**에 대해 반복합니다. **FileSystemObjectType**, **ServerRedirectedEmbedURL**, **ContentTypeId** 및 모든 열을 **승인됨** 열 오른쪽으로 제거합니다(총 22열). 테이블은 다음 이미지와 같습니다.
