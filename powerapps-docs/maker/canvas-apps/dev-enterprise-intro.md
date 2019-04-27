@@ -1,6 +1,6 @@
 ---
 title: 엔터프라이즈 개발자, 파트너 및 ISV용 PowerApps | Microsoft Docs
-description: 캔버스 앱을 사용 하 여 솔루션 개발을 소개 합니다.
+description: 캔버스 앱을 사용하여 솔루션 개발을 소개합니다.
 author: ImadYanni
 manager: kvivek
 ms.service: powerapps
@@ -20,11 +20,11 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "61550068"
 ---
-# <a name="canvas-apps-for-enterprise-developers-partners-and-isvs"></a>엔터프라이즈 개발자, 파트너 및 Isv 용 캔버스 앱
+# <a name="canvas-apps-for-enterprise-developers-partners-and-isvs"></a>엔터프라이즈 개발자, 파트너 및 Isv용 캔버스 앱
 
 개발자로서 PowerApps에서 캔버스 앱을 확장하면 조직 및 고객을 위한 더 강력한 솔루션을 사용하도록 설정할 수 있습니다.
 
-## <a name="powerapps-for-enterprise-developers"></a>엔터프라이즈 개발자 용 PowerApps
+## <a name="powerapps-for-enterprise-developers"></a>엔터프라이즈 개발자용 PowerApps
 
 엔터프라이즈 개발자는 PowerApps에서 강력한 맞춤형 솔루션을 빌드하도록 조직을 강화합니다.
 
