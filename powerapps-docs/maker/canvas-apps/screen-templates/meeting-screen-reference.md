@@ -593,14 +593,14 @@ PowerApps의 캔버스 앱의 모임 화면 템플릿의 각 주요 컨트롤이
 * 속성: **OnSelect**<br>
     값: `Set( _roomListSelected, false )`
 
-    때 **_roomListSelected** 로 설정 되어 **false**를 변경 합니다 **RoomBrowseGallery** 컨트롤에서 항목을 표시 하는 **RoomsLists** 컬렉션입니다.
+    **_roomListSelected**가 **false**로 설정되면, **RoomsLists** 컬렉션에서 항목을 표시하기 위해 **RoomBrowseGallery** 컨트롤을 변경합니다.
 
 ## <a name="send-icon"></a>보내기 아이콘
 
    ![IconSendItem 컨트롤](media/meeting-screen/meeting-send-icon.png)
 
 * 속성: **DisplayMode**<br>
-    값: 아이콘을 편집할 수 있게 되기 전에 특정 모임 세부 정보를 입력 하 여 적용할 논리입니다.
+    값: 아이콘이 편집가능하게 되기 전에 사용자에게 특정 모임 세부 정보를 입력하게 하는 논리입니다.
     
     ```powerapps-dot
     If( Len( Trim( TextMeetingSubject1.Text ) ) > 0

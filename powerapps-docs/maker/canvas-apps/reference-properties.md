@@ -58,7 +58,7 @@ ms.locfileid: "61535831"
 
 **[편집 폼](controls/control-form-detail.md)** – 폼을 사용하여 데이터 원본의 레코드를 편집하고 만듭니다.
 
-**[엔터티 양식](entity-form-control.md)**  -실험적 기능: 사용자 수 보기, 탐색 및 Common Data Service의 관계형 데이터를 편집 하는 동적 양식을 추가 합니다.
+**[엔터티 폼](entity-form-control.md)**  -실험적 기능: 사용자 수 보기, 탐색 및 Common Data Service의 관계형 데이터를 편집하는 동적 폼을 추가합니다.
 
 **[내보내기](controls/control-export-import.md)** – PowerApps의 다른 위치에서 사용할 데이터를 내보냅니다.
 
@@ -192,7 +192,7 @@ ms.locfileid: "61535831"
 
 **[DefaultDate](controls/control-date-picker.md)** – 사용자가 날짜 컨트롤을 변경하기 전의 초기 값입니다.  **[날짜 선택](controls/control-date-picker.md)** 컨트롤에 적용됩니다.
 
-**[DefaultMode](controls/control-form-detail.md)** – 양식 컨트롤의 초기 모드로서 **Edit**, **New** 또는 **View** 중 하나입니다.  **[편집 폼](controls/control-form-detail.md)** 컨트롤에 적용됩니다.
+**[DefaultMode](controls/control-form-detail.md)** – 폼 컨트롤의 초기 모드로서 **Edit**, **New** 또는 **View** 중 하나입니다.  **[편집 폼](controls/control-form-detail.md)** 컨트롤에 적용됩니다.
 
 **[Direction](controls/control-gallery.md)** – 갤러리의 첫 번째 항목이 가로 방향으로 왼쪽 또는 오른쪽 가장자리 근처에 표시되는지 여부입니다.  **[갤러리](controls/control-gallery.md)** 컨트롤에 적용됩니다.
 
@@ -344,7 +344,7 @@ ms.locfileid: "61535831"
 
 **[OnPause](controls/control-audio-video.md)** - 사용자가 오디오 또는 비디오 컨트롤에서 재생 중인 클립을 일시 중지할 때의 앱 동작입니다.  **[오디오](controls/control-audio-video.md)** 및 **[비디오](controls/control-audio-video.md)** 컨트롤에 적용됩니다.
 
-**[OnReset](controls/control-form-detail.md)** – **[편집 양식](controls/control-form-detail.md)** 컨트롤이 다시 설정되었을 때의 앱 동작입니다.  **[편집 폼](controls/control-form-detail.md)** 컨트롤에 적용됩니다.
+**[OnReset](controls/control-form-detail.md)** – **[편집 폼](controls/control-form-detail.md)** 컨트롤이 다시 설정되었을 때의 앱 동작입니다.  **[편집 폼](controls/control-form-detail.md)** 컨트롤에 적용됩니다.
 
 **[OnSelect](controls/properties-core.md)** – 사용자가 앱을 클릭하거나 탭할 때의 앱 동작입니다.  많은 컨트롤에 적용됩니다.
 

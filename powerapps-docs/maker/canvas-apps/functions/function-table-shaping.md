@@ -136,6 +136,6 @@ AddColumns( RealEstateAgents,
 
 1. **FirstExample**을 선택합니다.
 
-    이 그림에서 두 번째 수식을 추가 된 열을 사용 하 여 새 테이블을 반환 합니다. 합니다 **ClearCollect** 함수에서 새 테이블을 캡처된 합니다 **FirstExample** 원본을 수정 하지 않고 함수를 통해 적용 된 대로 원래 테이블에 항목을 추가 하는 컬렉션:
+    이 그림에서 두 번째 수식은 열이 추가된 새 테이블을 반환합니다. **ClearCollect** 함수는 **FirstExample** 컬렉션의 새 테이블을 캡처하며, 원본을 수정하지 않고 함수를 통해 적용된 대로 원래 테이블에 항목을 추가합니다:
 
     ![새 수입 열이 포함 된 첫 번째 예에서는 컬렉션의 세 개의 레코드를 보여 주는 컬렉션 뷰어](media/function-table-shaping/first-example-collection.png)

@@ -82,7 +82,7 @@ ms.locfileid: "61546250"
 3. **[단추](control-button.md)** 컨트롤의 **[OnSelect](properties-core.md)** 속성을 이 수식으로 설정합니다.<br>
    **Collect(Doodles, {Sketch:MyDoodles.Image})**
 4. **이미지 갤러리** 컨트롤을 추가하고 **[단추](control-button.md)** 컨트롤 아래로 이동한 다음, 세 개 항목이 표시될 때까지 **이미지 갤러리** 컨트롤의 너비를 축소합니다.
-5. **이미지 갤러리** 컨트롤의 **[항목](properties-core.md)** 속성을 **Doodles**로 설정하고 F5 키를 누릅니다.
+5. **이미지 갤러리** 컨트롤의 **[Items](properties-core.md)** 속성을 **Doodles**로 설정하고 F5 키를 누릅니다.
 6. **MyDoodles**에서 이미지를 그리고, **[단추](control-button.md)** 컨트롤을 클릭하거나 탭합니다.
    
     사용자가 그린 이미지가 **이미지 갤러리** 컨트롤에 나타납니다.
