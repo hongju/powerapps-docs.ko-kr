@@ -107,7 +107,7 @@ AddColumns( RealEstateAgents,
 
 이 항목의 앞부분에서 예제 중 일부를 사용해 보겠습니다.  
 
-1. 추가 하 여 컬렉션 만들기를 **[단추](../controls/control-button.md)** 컨트롤과 설정을 해당 **OnSelect** 속성을 다음이 수식:
+1. **[단추](../controls/control-button.md)** 컨트롤을 추가하여 컬렉션을 생성하고 해당 **OnSelect** 속성을 다음 수식으로 설정합니다.
 
     ```powerapps-dot
     ClearCollect( IceCreamSales, 
@@ -119,7 +119,7 @@ AddColumns( RealEstateAgents,
     )
     ```
 
-1. Alt 키를 누른 채 단추를 선택 하 여 수식을 실행 합니다.
+1. Alt 키를 누른 채 단추를 선택하여 수식을 실행합니다.
 
 1. 두 번째 **단추** 컨트롤을 추가하고 해당 **OnSelect** 속성을 다음 수식으로 설정한 다음 실행합니다.
 
