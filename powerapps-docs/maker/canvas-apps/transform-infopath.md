@@ -163,7 +163,7 @@ Microsoft Flow를 사용해 작성한 흐름에 앱을 연결하면 예를 들�
 
 ```Filter( Impacts, ddSelectType.Selected.Value in SCategory )```
 
-계단식 드롭다운이 있는 것처럼 설정합니다. 자세한 내용은 PowerApps 팀의이 게시물 확인 [SharePoint: 4 단계의 계단식 드롭다운!](https://powerusers.microsoft.com/t5/PowerApps-Community-Blog/SharePoint-Cascading-Dropdowns-in-4-Easy-Steps/ba-p/16248) 또는 이 [커뮤니티 비디오](https://powerusers.microsoft.com/t5/Video-Webinar-Gallery/PowerApps-Cascading-Dropdown/m-p/92813)를 참조하세요. 걱정하지 마세요. SharePoint 없이 쉽게 해낼 수 있습니다.
+이제 계단식 드롭다운이 생성되었습니다. 자세한 내용은 PowerApps 팀의 이 게시물 [SharePoint: 쉬운 4단계의 계단식 드롭다운!](https://powerusers.microsoft.com/t5/PowerApps-Community-Blog/SharePoint-Cascading-Dropdowns-in-4-Easy-Steps/ba-p/16248) 을 확인하세요. 또는 이 [커뮤니티 비디오](https://powerusers.microsoft.com/t5/Video-Webinar-Gallery/PowerApps-Cascading-Dropdown/m-p/92813)를 참조하세요. 걱정하지 마세요. SharePoint 없이 쉽게 해낼 수 있습니다.
 
 **하나의 슈퍼 앱 빌드하지 않기**  
 PowerApps를 사용하면 한 앱에서 다른 앱을 호출할 수 있습니다. 따라서 대용량 InfoPath 양식을 대충 구성하여 사용하기보다는 서로 호출하고 데이터를 주고받기까지 하는 앱 그룹을 빌드할 수 있으므로 더욱 간단하게 개발할 수 있습니다.

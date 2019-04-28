@@ -79,7 +79,7 @@ PowerApps의 가장 흥미로운 측면 중 하나는 데이터 원본에 관계
 
     ![Twitter 연결 추가](./media/offline-apps/twitter-connection.png)
 
-### <a name="step-3-load-tweets-into-a-localtweets-collection-on-app-startup"></a>3 단계: 앱 시작 시 LocalTweets 컬렉션으로 트 윗 로드
+### <a name="step-3-load-tweets-into-a-localtweets-collection-on-app-startup"></a>3단계: 앱 시작 시 LocalTweets 컬렉션으로 트윗 로드
 앱에서 **Screen1**의 **OnVisible** 속성을 선택하고, 다음 수식을 복사합니다.
 
 ```powerapps-dot
@@ -120,13 +120,13 @@ SaveData( LocalTweets, "Tweets" )
 
 이 수식은 디바이스가 온라인 상태인지를 확인합니다. 이러한 경우 레이블 텍스트가 "연결됨"이고, 그렇지 않으면 "오프라인"입니다.
 
-### <a name="step-6-add-a-text-input-to-compose-new-tweets"></a>6 단계: 새 트 윗을 작성 하는 텍스트 입력 추가
+### <a name="step-6-add-a-text-input-to-compose-new-tweets"></a>6단계: 새 트윗을 작성하는 텍스트 입력 추가
 
 1. "NewTweetTextInput"이라는 새 **텍스트 입력** 컨트롤을 삽입합니다.
 
 2. 텍스트 입력의 **Reset** 속성을 **resetNewTweet**으로 설정합니다.
 
-### <a name="step-7-add-a-button-to-post-the-tweet"></a>7 단계: 트 윗을 게시 하는 단추 추가
+### <a name="step-7-add-a-button-to-post-the-tweet"></a>7단계: 트윗을 게시하는 단추 추가
 1. **단추** 컨트롤을 추가하고 **Text** 속성을 "트윗"으로 설정합니다.
 2. **OnSelect** 속성을 다음 수식으로 설정합니다.
 
@@ -147,7 +147,7 @@ SaveData( LocalTweets, "Tweets" )
 
 그런 다음 수식은 텍스트 상자에서 텍스트를 다시 설정합니다.
 
-### <a name="step-8-add-a-timer-to-check-for-tweets-every-five-minutes"></a>8 단계: 5 분 마다 트 윗을 확인 하도록 타이머 추가
+### <a name="step-8-add-a-timer-to-check-for-tweets-every-five-minutes"></a>8단계: 5분마다 트윗을 확인하도록 타이머 추가
 새 **타이머** 컨트롤을 추가합니다.
 
 * **Duration** 속성을 300000으로 설정합니다.
