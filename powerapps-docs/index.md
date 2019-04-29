@@ -9,12 +9,12 @@ featureFlags:
 ms.service: powerapps
 ms.custom:
 - powerapps-hub
-ms.openlocfilehash: e20fa35acda2953bff2068ffd3c3c20e6d051fe0
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: 9ef852744a302ee502fdb9eadfaac7289537a4ab
+ms.sourcegitcommit: 444bd58ec52339516c45e49ea0f42447417faf4e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61543113"
+ms.lasthandoff: 04/24/2019
+ms.locfileid: "63769790"
 ---
 <div id="main"
    class="v2">
@@ -370,7 +370,7 @@ ms.locfileid: "61543113"
                                     <hr/>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/power-platform/admin/pricing-billing-skus">라이선스 개요</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/maker/common-data-service/data-platform-entity-licenses">엔터티에 대한 라이선스 요구 사항</a></p>
-<!--                                   <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/administrator/powerapps-for-us-govt">PowerApps for US Government</a></p> -->
+                                    <p><a class="barLink" style="font-size: 0.95rem" href="/power-platform/admin/powerapps-us-government">PowerApps 미국 정부</a></p>
                                  </div>
                               </div>
                            </div>
@@ -468,7 +468,7 @@ ms.locfileid: "61543113"
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/model-driven-apps/customize-visualizations-dashboards">시각화 및 대시보드 사용자 지정</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/model-driven-apps/client-scripting">클라이언트 스크립팅을 사용하여 비즈니스 논리 적용</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/model-driven-apps/customize-commands-ribbon">명령 및 리본 사용자 지정</a></p>
-                                    <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/model-driven-apps/web-resources">웹 리소스 사용</a></p>
+                                    <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/component-framework/overview">사용자 지정 컨트롤 빌드</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/model-driven-apps/create-manage-model-driven-apps-using-code">앱 만들기, 관리 및 게시</a></p>
                                  </div>
                               </div>

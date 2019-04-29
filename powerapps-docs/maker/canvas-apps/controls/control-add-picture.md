@@ -122,7 +122,7 @@ ms.locfileid: "61544663"
    
     [컨트롤을 추가, 이름을 지정하고, 구성](../add-configure-controls.md)하는 방법을 모르시나요?
 2. **열기** 대화 상자에서 이미지 파일을 클릭하거나 탭한 다음, **열기**를 클릭하거나 탭합니다.
-3. **[단추](control-button.md)** 컨트롤을 추가하고 **그림 추가** 컨트롤에서 이동하고 **[단추](control-button.md)** 컨트롤에 대한 **[OnSelect](properties-core.md)** 속성을 이 수식으로 설정합니다.<br>
+3. **[단추](control-button.md)** 컨트롤을 추가하여 **이미지 추가** 컨트롤 아래로 이동시키고 **[단추](control-button.md)** 컨트롤에 대한 **[OnSelect](properties-core.md)** 속성을 이 수식으로 설정합니다.<br>
    **Collect(MyPix, AddMediaButton1.Media)**
    
     **[Collect](../functions/function-clear-collect-clearcollect.md)** 함수 또는 [다른 함수](../formula-reference.md)에 대해 더 알고 싶으신가요?
