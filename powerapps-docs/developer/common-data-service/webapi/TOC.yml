@@ -1,96 +1,101 @@
-items:
 - name: 코드를 사용하여 데이터 작업
   href: ../work-with-data-cds.md
 - name: Web API 사용
   href: overview.md
 - name: 시작
   items:
-  - name: (C#)
-    href: get-started-dynamics-365-web-api-csharp.md
-    items:
-    - name: '빠른 시작: Web API 샘플(C#)'
-      href: quick-start-console-app-csharp.md
-    - name: 빠른 시작 향상(C#)
-      href: enhanced-quick-start.md
-- name: 클라이언트 쪽 JavaScript
-  href: get-started-web-api-client-side-javascript.md
+    - name: '(C#)'
+      items:
+        - name: 'Web API(C#) 사용 시작'
+          href: get-started-dynamics-365-web-api-csharp.md
+        - name: '빠른 시작: Web API 샘플(C#)'
+          href: quick-start-console-app-csharp.md
+        - name: '빠른 시작 향상(C#)'
+          href: enhanced-quick-start.md
+        - name: Visual Studio에서 Web API 프로젝트 만들기
+          href: start-web-api-project-visual-studio-csharp.md
 - name: 인증
   href: authenticate-web-api.md
 - name: 형식 및 작업
   href: web-api-types-operations.md
 - name: 작업 수행
-  href: perform-operations-web-api.md
   items:
-  - name: HTTP 요청 작성 및 오류 처리
-    href: compose-http-requests-handle-errors.md
-  - name: 데이터 쿼리
-    href: query-data-web-api.md
-  - name: 쿼리를 사용하여 관련 엔터티 검색
-    href: retrieve-related-entities-query.md
-  - name: 미리 정의된 쿼리 검색 및 실행
-    href: retrieve-and-execute-predefined-queries.md
-  - name: 엔터티 만들기
-    href: create-entity-web-api.md
-  - name: 엔터티 검색
-    href: retrieve-entity-using-web-api.md
-  - name: 엔터티 업데이트 및 삭제
-    href: update-delete-entities-using-web-api.md
-  - name: 엔터티 연결 및 분리
-    href: associate-disassociate-entities-using-web-api.md
-  - name: 함수 사용
-    href: use-web-api-functions.md
-  - name: 작업 사용
-    href: use-web-api-actions.md
-  - name: 일괄 처리 작업 실행
-    href: execute-batch-operations-using-web-api.md
-  - name: 다른 사용자를 가장합니다.
-    href: impersonate-another-user-web-api.md
-  - name: 조건부 연산 수행
-    href: perform-conditional-operations-using-web-api.md
-  - name: 중복 데이터 검색
-    href: manage-duplicate-detection-create-update.md
-- name: 버전 간 차이점
-  href: web-api-versions.md
+    - name: 작업 수행 시작
+      href: perform-operations-web-api.md
+    - name: HTTP 요청 작성 및 오류 처리
+      href: compose-http-requests-handle-errors.md
+    - name: 데이터 쿼리
+      href: query-data-web-api.md
+    - name: 쿼리를 사용하여 관련 엔터티 검색
+      href: retrieve-related-entities-query.md
+    - name: 미리 정의된 쿼리 검색 및 실행
+      href: retrieve-and-execute-predefined-queries.md
+    - name: 엔터티 만들기
+      href: create-entity-web-api.md
+    - name: 엔터티 검색
+      href: retrieve-entity-using-web-api.md
+    - name: 엔터티 업데이트 및 삭제
+      href: update-delete-entities-using-web-api.md
+    - name: 엔터티 연결 및 분리
+      href: associate-disassociate-entities-using-web-api.md
+    - name: 함수 사용
+      href: use-web-api-functions.md
+    - name: 작업 사용
+      href: use-web-api-actions.md
+    - name: 일괄 처리 작업 실행
+      href: execute-batch-operations-using-web-api.md
+    - name: 다른 사용자를 가장합니다.
+      href: impersonate-another-user-web-api.md
+    - name: 조건부 연산 수행
+      href: perform-conditional-operations-using-web-api.md
+    - name: 중복 데이터 검색
+      href: manage-duplicate-detection-create-update.md
 - name: 메타데이터 작업
-  href: use-web-api-metadata.md
   items:
-  - name: 메타데이터 쿼리
-    href: query-metadata-web-api.md
-  - name: 이름 또는 MetadataId로 메타데이터 검색
-    href: retrieve-metadata-name-metadataid.md
-  - name: 엔터티 정의 만들기 및 업데이트
-    href: create-update-entity-definitions-using-web-api.md
-  - name: 엔터티 관계 만들기 및 업데이트
-    href: create-update-entity-relationships-using-web-api.md
-  - name: 옵션 세트로 작업
-    href: create-update-optionsets.md
+    - name: 메타데이터 사용 시작
+      href: use-web-api-metadata.md
+    - name: 메타데이터 쿼리
+      href: query-metadata-web-api.md
+    - name: 이름 또는 MetadataId로 메타데이터 검색
+      href: retrieve-metadata-name-metadataid.md
+    - name: 엔터티 정의 만들기 및 업데이트
+      href: create-update-entity-definitions-using-web-api.md
+    - name: 엔터티 관계 만들기 및 업데이트
+      href: create-update-entity-relationships-using-web-api.md
+    - name: 옵션 세트로 작업
+      href: create-update-optionsets.md
+- name: Web API와 함께 Postman 사용
+  items:
+    - name: Postman 시작
+      href: use-postman-web-api.md
+    - name: Postman 환경 설정
+      href: setup-postman-environment.md
+    - name: Postman을 사용하여 작업 수행
+      href: use-postman-perform-operations.md
+- name: 모델 기반 앱에서 Web API를 사용하는 클라이언트 쪽 JavaScript
+  href: get-started-web-api-client-side-javascript.md
 - name: 조직에 대한 URL 검색
-  href: discover-url-organization-web-api.md
   items:
-  - name: 글로벌 검색 서비스 샘플(C#)
-    href: samples/global-discovery-service-csharp.md
+    - name: 시작
+      href: discover-url-organization-web-api.md
+    - name: '글로벌 검색 서비스 샘플(C#)'
+      href: samples/global-discovery-service-csharp.md
 - name: 데이터 가져오기
   href: ../import-data.md
 - name: 샘플 데이터
   href: ../sample-data.md
 - name: 샘플
   items:
-  - name: 데이터 작업 샘플 템플릿
-    href: web-api-samples.md
-    items:
-    - name: 기본 작업
-      href: web-api-basic-operations-sample.md
-    - name: 쿼리 데이터
-      href: web-api-query-data-sample.md
-    - name: 조건부 연산
-      href: web-api-conditional-operations-sample.md
-    - name: 함수 및 작업
-      href: web-api-functions-actions-sample.md
-    - name: 샘플
-      href: samples/toc.yml
-ms.openlocfilehash: fd5e79a6cb5c5d23a8edb246086be4db95fe102c
-ms.sourcegitcommit: b703a5c9cddda2ff50c88533b3dbd12cba852b50
-ms.translationtype: HT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56222658"
+    - name: 데이터 작업 샘플 템플릿
+      href: web-api-samples.md
+      items:
+        - name: 기본 작업
+          href: web-api-basic-operations-sample.md
+        - name: 쿼리 데이터
+          href: web-api-query-data-sample.md
+        - name: 조건부 연산
+          href: web-api-conditional-operations-sample.md
+        - name: 함수 및 작업
+          href: web-api-functions-actions-sample.md
+        - name: 샘플
+          href: samples/toc.yml

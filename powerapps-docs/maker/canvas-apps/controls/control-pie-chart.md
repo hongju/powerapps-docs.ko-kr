@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 8c2a48941629e98f58ea6d6ac7894e6a244b5e69
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42859253"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61548090"
 ---
 # <a name="pie-chart-control-in-powerapps"></a>PowerApps의 원형 차트
 서로 비교하는 상대 값을 보여주는 컨트롤입니다.
@@ -82,14 +82,14 @@ ms.locfileid: "42859253"
 [**Max**( *DataSource*, *ColumnName* )](../functions/function-aggregates.md)
 
 ## <a name="example"></a>예
-1. **[단추](control-button.md)** 컨트롤을 추가하고 이 수식에 **[OnSelect](properties-core.md)** 속성을 설정합니다.<br>
+1. **[단추](control-button.md)** 컨트롤을 추가하고 **[OnSelect](properties-core.md)** 속성에 이 수식을 설정합니다.<br>
    **Collect(Revenue2015, {Product:"Europa", Revenue:27000}, {Product:"Ganymede", Revenue:26300}, {Product:"Callisto", Revenue:29200})**
    
     [컨트롤을 추가하고 구성](../add-configure-controls.md)하는 방법을 모르시나요?
    
     **[Collect](../functions/function-clear-collect-clearcollect.md)** 함수 또는 [다른 함수](../formula-reference.md)에 대해 더 알고 싶으신가요?
 2. F5 키를 누르고, **[단추](control-button.md)** 컨트롤을 클릭하거나 탭한 다음, 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
-3. **원형 차트** 컨트롤을 추가하고 **[Items](properties-core.md)** 속성을 **Revenue2015**로 설정합니다.
+3. **원형 차트** 컨트롤을 추가하고 **[항목](properties-core.md)** 속성을 **Revenue2015**로 설정합니다.
    
     **원형 차트** 컨트롤은 다른 제품과 관련하여 각 제품에 대한 수입 데이터를 보여줍니다.
 

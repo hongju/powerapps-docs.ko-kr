@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: a1aad5ca9e8c7f8b55b1645b04d6c8dc0b9c707b
-ms.sourcegitcommit: 5e15a1033a68289781f8092fb65c57432501f911
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54459554"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61539236"
 ---
 # <a name="overview-of-the-email-screen-template-for-canvas-apps"></a>캔버스 앱에 대한 전자 메일 화면 템플릿 개요
 
@@ -36,7 +36,7 @@ ms.locfileid: "54459554"
 
 ## <a name="prerequisite"></a>필수 조건
 
-[PowerApps에서 앱을 만들어](../data-platform-create-app-scratch.md) 화면 및 기타 컨트롤을 추가하고 구성하는 방법을 익힙니다.
+[PowerApps에서 앱을 만들어](../data-platform-create-app-scratch.md) 화면 및 기타 컨트롤을 추가하고 구성하는 방법에 친숙합니다.
 
 ## <a name="default-functionality"></a>기본 기능
 
@@ -137,13 +137,13 @@ ms.locfileid: "54459554"
 
 ### <a name="show-different-data-for-people"></a>사용자에 대한 다양한 데이터 표시.
 
-이 화면을 사용 합니다 [Office365Users.SearchUser](https://docs.microsoft.com/connectors/office365users/#searchuser) 조직에서 사용자를 검색 하는 작업 새로운 각 이벤트에 표시에 대 한 추가 필드를 제공 합니다 **PeopleBrowseGallery** 제어 합니다. 갤러리에서 필드를 변경 하거나 추가 간단 합니다.
+이 화면은 조직에서 사용자를 검색하기 위해 [Office365Users.SearchUser](https://docs.microsoft.com/connectors/office365users/#searchuser) 작업을 사용합니다. 새로운 각 이벤트에 표시에 대 한 추가 필드를 제공 합니다 **PeopleBrowseGallery** 제어 합니다. 갤러리에서 필드를 변경 하거나 추가 간단 합니다.
 
 1. **PeopleBrowseGallery** 컨트롤에서, 수정하려는(또는 추가한 후 선택) 레이블을 선택합니다.
 
 1. **Text** 속성을 선택하고 수식 입력줄에서 `ThisItem.`으로 내용을 바꿉니다.
 
-    IntelliSense에는 선택할 수 있는 필드의 목록을 보여 줍니다.
+    IntelliSense는 선택할 수 있는 필드의 목록을 보여줍니다.
 
 1. 원하는 필드를 선택 합니다.
 

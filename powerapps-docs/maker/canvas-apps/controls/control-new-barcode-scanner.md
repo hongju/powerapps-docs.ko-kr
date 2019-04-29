@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 1e41ec8d228e62c22354d77777a8390bfd442f8c
-ms.sourcegitcommit: 212d397284c431f5989dc7b39549e2fc170d447e
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "58491595"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61543968"
 ---
 # <a name="barcode-scanner-control-for-canvas-apps"></a>캔버스 앱에 대한 바코드 스캐너 컨트롤
 
@@ -73,10 +73,10 @@ Android 또는 iOS 장치에서 바코드, QR 코드 및 데이터 행렬 코드
 
 **[Y](properties-size-location.md)** – 컨트롤의 위쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 위쪽 가장자리 사이의 거리입니다.
 
-## <a name="accessibility-guidelines"></a>접근성 지침 
-스캔을 시작하는 단추이기 때문에 **바코드 스캐너** 컨트롤은 **[단추](control-button.md)** 컨트롤과 동일한 지침이 적용됩니다.
+## <a name="accessibility-guidelines"></a>접근성 지침
+에 대 한 동일한 지침이 합니다 **[단추](control-button.md)** 에 적용될지를 제어 합니다 **바코드 스캐너** 검색을 시작 하는 단추가 이기 때문에 제어 합니다.
 
 ### <a name="visual-alternatives"></a>시각 신호
-* 바코드 스캐너는 스캔 결과를 표시하지 않는 단추입니다. **[레이블](control-text-box.md)** 컨트롤에 스캔 결과를 표시하는 것이 좋습니다. 레이블의 **[Text](properties-core.md)** 속성을 바코드 스캐너의 **Value** 속성으로 설정합니다. 레이블의 **[Live](properties-accessibility.md)** 속성을 **Polite**로 설정하여 화면 읽기 프로그램 사용자에게 변경을 알립니다. 이 변경은 시각적 능력에 상관 없이 누구나 액세스할 수 있는 스캔한 값을 만듭니다.
+* 바코드 스캐너에는 검색 결과 표시 하지 않는 단추입니다. 검색 결과를 표시 하는 것이 좋습니다.는 **[레이블을](control-text-box.md)** 제어 합니다. 레이블 설정 **[텍스트](properties-core.md)** 속성을 바코드 스캐너 **값** 속성입니다. 레이블 설정 **[Live](properties-accessibility.md)** 속성을 **정중** 화면 읽기 프로그램 사용자에 대 한 알림을 변경 되도록 합니다. 이 변경은 visual 수에 관계 없이 누구나 액세스할 수 있는 스캔 한 값을 만듭니다.
 
-* 시각 및 운동 기능 장애가 있는 사용자는 카메라로 바코드를 가리키는 것을 선호하지 않을 수 있습니다. 바코드 입력을 위해 **[텍스트 입력](control-text-input.md)** 컨트롤과 같은 다른 형태의 입력을 추가하는 것이 좋습니다.
+* 시각적 및 화물 차 장애가 있는 사용자는 한 바코드에 카메라를 가리키지 선호할 수 있습니다. 와 같은 다른 형태의 입력을 추가 하는 것이 좋습니다.는 **[텍스트 입력](control-text-input.md)** 바코드를 입력 하는 사용자에 대 한 제어 합니다.

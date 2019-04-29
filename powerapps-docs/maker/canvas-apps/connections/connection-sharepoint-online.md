@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 65ce3b7736b55f3734d6da7d945965ed791a3ce4
-ms.sourcegitcommit: 4fe0a71efd54c1f4d22a279aa74c6bde3d908b9d
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/04/2019
-ms.locfileid: "59007892"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61549354"
 ---
 # <a name="connect-to-sharepoint-from-a-canvas-app"></a>캔버스 앱에서 SharePoint에 연결
 
@@ -52,7 +52,7 @@ ms.locfileid: "59007892"
 
 1. 이러한 단계 중 하나를 수행 합니다.
 
-    - SharePoint Online에 연결 하려면 **직접 연결 (클라우드 서비스)** 를 선택 **만들기**, (메시지가 표시) 하는 경우 자격 증명을 입력 합니다.
+    - SharePoint Online에 연결하려면 **직접 연결(클라우드 서비스)** 을 선택하고 **만들기**를 선택한 후, (메시지가 나타나는 경우) 자격 증명을 입력합니다.
 
         > [!div class="mx-imgBorder"]
         > ![SharePoint Online에 연결 하려면, 직접 연결 (클라우드 서비스)를 선택 합니다.](./media/connection-sharepoint-online/select-online.png)
@@ -93,7 +93,7 @@ ms.locfileid: "59007892"
     > [!div class="mx-imgBorder"]
     > ![사이트를 선택 합니다.](./media/connection-sharepoint-online/select-sp-site.png)
 
-1. 아래 **목록을 선택**에 대 한 확인란을 선택 **문서** 또는 사용 하 고 클릭 하려는 하나 이상의 목록 **Connect**:
+1. **목록 선택**에서 사용하려는 문서 또는 하나 이상의 목록의 확인란을 선택한 후 **연결**을 선택합니다.
 
     > [!div class="mx-imgBorder"]
     > ![선택 목록에서를 사용 하려는 하나 이상의 목록 또는 문서에 대 한 확인란을 선택 하 고 연결을 선택](./media/connection-sharepoint-online/select-sp-tables.png)
@@ -111,7 +111,7 @@ ms.locfileid: "59007892"
 
 ## <a name="show-list-columns-in-a-gallery"></a>갤러리에서 목록 열 표시
 
-사용자 지정 목록 이러한 유형의 열을 포함 하는 경우 표시에서 해당 데이터를 **갤러리** 설정 하 고 수식 입력줄을 사용 하 여 컨트롤을 **텍스트** 하나 이상의 속성 **레이블** 갤러리에 컨트롤:
+사용자 지정 목록이 이러한 유형의 열을 포함하는 경우, **갤러리**에 있는 하나 이상의 **레이블** 컨트롤의 **텍스트** 속성을 설정하기 위해 수식 입력줄을 사용하여 해당 데이터를 갤러리의 컨트롤에서 표시할 수 있습니다.
 
 - 에 대 한는 **Choice** 또는 **조회** 열을 지정 **ThisItem.** _ColumnName_**합니다. 값** 해당 열에 데이터를 표시 하도록 합니다.
 
@@ -134,7 +134,7 @@ ms.locfileid: "59007892"
 
 SharePoint 라이브러리에 몇 개의 이미지가 있는 경우  **드롭다운** 컨트롤을 추가하여 사용자가 표시할 이미지를 지정할 수 있습니다. 비디오 같은 다른 종류의 데이터 및 **갤러리** 컨트롤 같은 다른 컨트롤에도 동일한 원칙을 적용할 수 있습니다.
 
-1. 이미 않았다면 [연결을 만듭니다](#create-a-connection)를 차례로 [기존 앱에 데이터를 추가](#add-data-to-an-existing-app).
+1. 기존 연결이 없으면 [연결을 만듭니다](#create-a-connection). 그리고 [기존 앱에 데이터를 추가](#add-data-to-an-existing-app)합니다.
 
 1. **드롭다운** 컨트롤을 추가하고 이름을 **ImageList**로 변경합니다.
 
@@ -180,7 +180,7 @@ SharePoint 라이브러리에서 데이터를 표시하는 더 복잡한 접근 
 
 ### <a name="lists"></a>목록
 
-PowerApps는 공백을 포함 하는 열 이름을 읽을 수 있지만 16 진수 이스케이프 코드를 사용 하 여 공백을 바뀝니다 **"\_x0020\_"** 합니다. 예를 들어 SharePoint의 **"Column Name"** 은 데이터 레이아웃에 표시되거나 수식에 사용될 때 PowerApps에 **"Column_x0020_Name"** 으로 나타납니다.
+PowerApps는 공백을 포함하는 열 이름을 읽을 수 있지만 16진수 이스케이프 코드(**"\_x0020\_"**)를 사용하여 공백을 바꿉니다. 예를 들어 SharePoint의 **"Column Name"** 은 데이터 레이아웃에 표시되거나 수식에 사용될 때 PowerApps에 **"Column_x0020_Name"** 으로 나타납니다.
 
 일부 유형의 열은 지원 되며 일부 유형의 열에는 모든 카드 형식을 지원 합니다.
 

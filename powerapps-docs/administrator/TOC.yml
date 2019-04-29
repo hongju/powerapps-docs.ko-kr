@@ -1,85 +1,78 @@
-items:
 - name: PowerApps 관리
   href: admin-guide.md
   items:
-  - name: 시작
-    items:
-    - name: PowerApps 관리자의 역할은 무엇입니까?
-      href: overview-role-powerapps-admin.md
-    - name: PowerApps 엔터프라이즈 배포 백서
-      href: admin-powerapps-enterprise-deployment.md
-  - name: 라이선스
-    items:
-    - name: 라이선스 개요
-      href: pricing-billing-skus.md
-    - name: 조직의 라이선스 관리
-      href: signup-question-and-answer.md
-    - name: PowerApps 구매
-      href: signup-for-powerapps-admin.md
-  - name: PowerApps 관리
-    items:
-    - name: 환경에서 앱 보기
-      href: admin-view-apps.md
-    - name: 조직의 앱 관리
-      href: admin-manage-apps.md
-    - name: 테넌트 또는 환경 간에 앱 이동
-      href: environment-and-tenant-migration.md
-    - name: PowerApps에 대한 PowerShell 지원(미리 보기)
-      href: powerapps-powershell.md
-    - name: PowerApps에 대한 작업 로깅
-      href: https://docs.microsoft.com/power-platform/admin/logging-powerapps
-  - name: 데이터 통합
-    items:
-    - name: Common Data Service에 데이터 통합
-      href: data-integrator.md
-    - name: 데이터 통합자 오류 관리 및 문제 해결
-      href: data-integrator-error-management.md
-    - name: DSR 요청에 응답
+    - name: 시작
       items:
-      - name: 시스템 생성 로그
-        href: powerapps-gdpr-dsr-guide-systemlogs.md
-      - name: Common Data Service 데이터 통합
-        href: data-integration-gdpr-dsr-guide.md
-      - name: PowerApps 고객 데이터
-        href: powerapps-gdpr-dsr-guide.md
-        items:
-        - name: 데이터 내보내기
-          href: powerapps-gdpr-export-dsr.md
-        - name: 데이터 삭제
-          href: powerapps-gdpr-delete-dsr.md
-      - name: Common Data Service 고객 데이터
-        href: common-data-service-gdpr-dsr-guide.md
-  - name: 환경 관리
-    href: environments-administration.md
-    items:
-    - name: 환경 개요
-      href: environments-overview.md
-    - name: 지역 개요
-      href: regions-overview.md
-    - name: 환경 만들기
-      href: create-environment.md
-    - name: 데이터베이스 만들기
-      href: create-database.md
-    - name: 환경 미리 보기
-      href: preview-environments.md
-    - name: 평가판 환경
-      href: trial-environments.md
-  - name: 환경 보안 구성
-    href: database-security.md
-    items:
-    - name: 데이터 그룹 소개
-      href: introduction-to-data-groups.md
-    - name: DLP 정책 만들기
-      href: create-dlp-policy.md
-    - name: DLP 정책 관리
-      href: prevent-data-loss.md
-  - name: 구독 및 사용자 계정 관리
-    items:
-    - name: 테넌트의 활성 사용자 보기
-      href: admin-view-user-licenses.md
-ms.openlocfilehash: 4eb2feacf0c461e70729de529e0e23fd0d6ccb8b
-ms.sourcegitcommit: 5b2b70c3fc7bcba5647d505a79276bbaad31c610
-ms.translationtype: HT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58356681"
+        - name: PowerApps 관리자의 역할은 무엇입니까?
+          href: overview-role-powerapps-admin.md
+        - name: PowerApps 엔터프라이즈 배포 백서
+          href: admin-powerapps-enterprise-deployment.md
+    - name: 라이선스
+      items:
+        - name: 라이선스 개요
+          href: pricing-billing-skus.md
+        - name: 조직의 라이선스 관리
+          href: signup-question-and-answer.md
+        - name: PowerApps 구매
+          href: signup-for-powerapps-admin.md
+    - name: PowerApps 관리
+      items:
+        - name: 환경에서 앱 보기
+          href: admin-view-apps.md
+        - name: 조직의 앱 관리
+          href: admin-manage-apps.md
+        - name: 테넌트 또는 환경 간에 앱 이동
+          href: environment-and-tenant-migration.md
+        - name: PowerApps에 대한 PowerShell 지원(미리 보기)
+          href: powerapps-powershell.md
+        - name: PowerApps에 대한 작업 로깅
+          href: 'https://docs.microsoft.com/power-platform/admin/logging-powerapps'
+    - name: 데이터 통합
+      items:
+        - name: Common Data Service에 데이터 통합
+          href: data-integrator.md
+        - name: 데이터 통합자 오류 관리 및 문제 해결
+          href: data-integrator-error-management.md
+        - name: DSR 요청에 응답
+          items:
+            - name: 시스템 생성 로그
+              href: powerapps-gdpr-dsr-guide-systemlogs.md
+            - name: Common Data Service 데이터 통합
+              href: data-integration-gdpr-dsr-guide.md
+            - name: PowerApps 고객 데이터
+              href: powerapps-gdpr-dsr-guide.md
+              items:
+                - name: 데이터 내보내기
+                  href: powerapps-gdpr-export-dsr.md
+                - name: 데이터 삭제
+                  href: powerapps-gdpr-delete-dsr.md
+            - name: Common Data Service 고객 데이터
+              href: common-data-service-gdpr-dsr-guide.md
+    - name: 환경 관리
+      href: environments-administration.md
+      items:
+        - name: 환경 개요
+          href: environments-overview.md
+        - name: 지역 개요
+          href: regions-overview.md
+        - name: 환경 만들기
+          href: create-environment.md
+        - name: 데이터베이스 만들기
+          href: create-database.md
+        - name: 환경 미리 보기
+          href: preview-environments.md
+        - name: 평가판 환경
+          href: trial-environments.md
+    - name: 환경 보안 구성
+      href: database-security.md
+      items:
+        - name: 데이터 그룹 소개
+          href: introduction-to-data-groups.md
+        - name: DLP 정책 만들기
+          href: create-dlp-policy.md
+        - name: DLP 정책 관리
+          href: prevent-data-loss.md
+    - name: 구독 및 사용자 계정 관리
+      items:
+        - name: 테넌트의 활성 사용자 보기
+          href: admin-view-user-licenses.md

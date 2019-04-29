@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 9c290d28db7ae35d33f4ceb2cd56c3a3ad79b01c
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42832839"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61559383"
 ---
 # <a name="column-chart-and-line-chart-controls-in-powerapps"></a>PowerApps의 세로 막대형 차트 및 꺾은선형 차트 컨트롤
 데이터를 x 및 축이 있는 그래프로 표시하는 컨트롤입니다.
@@ -116,7 +116,7 @@ ms.locfileid: "42832839"
 [**Max**( *DataSource*, *ColumnName* )](../functions/function-aggregates.md)
 
 ## <a name="example"></a>예
-1. **[단추](control-button.md)** 컨트롤을 추가하고 이 수식에 **[OnSelect](properties-core.md)** 속성을 설정합니다.<br>
+1. **[단추](control-button.md)** 컨트롤을 추가하고 **[OnSelect](properties-core.md)** 속성에 이 수식을 설정합니다.<br>
    **Collect(Revenue, {Year:"2013", Europa:24000, Ganymede:22300, Callisto:21200}, {Year:"2014", Europa:26500, Ganymede:25700, Callisto:24700},{Year:"2014", Europa:27900, Ganymede:28300, Callisto:25600})**
    
     [컨트롤을 추가하고 구성](../add-configure-controls.md)하는 방법을 모르시나요?

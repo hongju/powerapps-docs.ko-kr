@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 07548ff8fb14626543472b72ea52b80c858eeb0e
-ms.sourcegitcommit: 825daacc9a812637815afc1ce6fad28f0cebd479
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "57803668"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61556415"
 ---
 # <a name="use-cognitive-services-in-powerapps"></a>PowerApps에서 Cognitive Services 사용
 이 문서를 사용 하는 기본 캔버스 앱을 빌드하는 방법을 보여 줍니다.는 [Azure Cognitive Services 텍스트 분석 API](https://docs.microsoft.com/azure/cognitive-services/text-analytics/overview) 텍스트를 분석 합니다. Text Analytics API를 설정하고 [Text Analytics 커넥터](https://docs.microsoft.com/connectors/cognitiveservicestextanalytics/)와 연결하는 방식을 보여주고, 그런 다음, API를 호출하는 캔버스 앱을 빌드하는 방법을 살펴보겠습니다.
@@ -27,7 +27,7 @@ ms.locfileid: "57803668"
 > PowerApps에서 처음으로 앱을 빌드하는 경우에는 이 문서를 살펴 보기 전에 [앱을 처음부터 만들기](get-started-create-from-blank.md)를 읽어보는 것이 좋습니다.
 
 ## <a name="introduction-to-azure-cognitive-services"></a>Azure Cognitive Services 소개
-Azure Cognitive Services는 Api, Sdk 및 응용 프로그램을 더 지능적이 고 유용 하도록 사용할 수 있는 검색 가능한 서비스의 집합입니다. 이 서비스를 통해 사용자는 지능형 기능(예: 감정 및 비디오 감지, 안면, 음성 및 시각 인식, 음성 및 언어 이해)을 애플리케이션에 쉽게 추가할 수 있습니다.
+Azure Cognitive Services는 응용 프로그램을 더 지능적이고 유용하게 사용할 수 있고 검색 가능하게 만드는 API, SDK 및 서비스의 집합입니다. 이 서비스를 통해 사용자는 지능형 기능(예: 감정 및 비디오 감지, 안면, 음성 및 시각 인식, 음성 및 언어 이해)을 애플리케이션에 쉽게 추가할 수 있습니다.
 
 이 문서에서는 Text Analytics API에 사용할 수 있는 "언어 이해"에 초점을 맞추려고 합니다. 이 API를 통해 사용자는 텍스트에서 감정, 핵심 구, 토픽 및 언어를 검색할 수 있습니다. API 데모를 사용해 본 다음, 미리 보기 버전을 등록하여 시작해 보겠습니다.
 
@@ -47,7 +47,7 @@ API는 무료 미리 보기로 사용 가능하며 Azure 구독과 연결되어 
 
 1. Azure 구독이 아직 없는 경우 [무료 구독에 등록](https://azure.microsoft.com/free/)합니다.
 
-2. [이 페이지](https://ms.portal.azure.com/#create/Microsoft.CognitiveServicesTextAnalytics),이 이미지와 같이 Text Analytics API에 대 한 정보를 입력 합니다. **F0**(무료) 가격 책정 계층을 선택합니다.
+2. [이 페이지](https://ms.portal.azure.com/#create/Microsoft.CognitiveServicesTextAnalytics)에서, 다음 이미지와 같이 Text Analytics API에 대한 정보를 입력합니다. **F0**(무료) 가격 책정 계층을 선택합니다.
    
     ![Text Analytics API 만들기](./media/cognitive-services-api/azure-create.png)
 
@@ -108,7 +108,7 @@ API는 무료 미리 보기로 사용 가능하며 Azure 구독과 연결되어 
 
 7. 세 개의 **레이블** 컨트롤을 추가합니다. 처음 두 개는 언어와 감정 API 호출의 결과를 포함하고 세 번째는 화면 맨 아래에 있는 갤러리에 대한 소개에 불과합니다.
 
-8. **비어 있는 세로 갤러리** 컨트롤을 추가한 다음 **레이블** 컨트롤을 갤러리에 추가합니다. 이 갤러리에는 핵심 문구 API 호출의 결과가 저장됩니다. 앱은 이제 다음 이미지와 같습니다.
+8. **세로 갤러리(비어 있음)** 컨트롤을 추가한 다음 **레이블** 컨트롤을 갤러리에 추가합니다. 이 갤러리에는 핵심 문구 API 호출의 결과가 저장됩니다. 앱은 이제 다음 이미지와 같습니다.
    
     ![갤러리 및 레이블이 있는 앱](./media/cognitive-services-api/partial-app-step3.png)
 
@@ -203,7 +203,7 @@ API 호출의 결과를 표시하려면 각 컨트롤에서 적절한 컬렉션�
 
 ![데이터가 있는 완성된 앱](./media/cognitive-services-api/finished-app.png)
 
-이 문서의 시작 부분에서 Text Analytics API 페이지와 이 앱의 출력을 비교할 경우 같은 결과가 동일한 것을 볼 수 있습니다.
+이 문서의 시작 부분에서 Text Analytics API 페이지와 이 앱의 출력을 비교하면 결과가 동일하다는 것을 알 수 있습니다.
 
 이제 Text Analytics API에 대해 좀 더 이해하고 앱으로 통합하는 방법을 확인하셨길 바랍니다. 문서에서 집중적으로 다뤘으면 하는 다른 Cognitive Services(또는 일반적으로 기타 서비스)가 있다면 저희에게 알려주세요. 늘 그렇듯이 의견에 피드백과 궁금한 점을 남겨 주시기 바랍니다.
 

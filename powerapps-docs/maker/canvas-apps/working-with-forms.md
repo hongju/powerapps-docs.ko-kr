@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 661f6710c8cec55868ccc9d67d0f83dd230f89c1
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: MT
+ms.sourcegitcommit: 4ed29d83e90a2ecbb2f5e9ec5578e47a293a55ab
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42851740"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63318241"
 ---
 # <a name="understand-canvas-app-forms-in-microsoft-powerapps"></a>Microsoft PowerApps의 캔버스 앱 폼 이해
 
@@ -143,7 +143,7 @@ PowerApps는 지정한 데이터 원본을 기반으로 하는 앱을 자동으�
 
 ![옵션 창이 열려 있는 편집 화면](./media/working-with-forms/edit-screen.png)
 
-## <a name="build-an-app-from-scratch"></a>앱을 처음부터 빌드하기
+## <a name="build-an-app-from-scratch"></a>처음부터 앱 빌드
 PowerApps에서 앱을 생성하는 방법을 이해하면 이 항목의 앞부분에서 설명한 것과 동일한 구성 요소와 수식을 사용하여 앱을 직접 빌드할 수 있습니다.
 
 ## <a name="identify-test-data"></a>테스트 데이터 식별
@@ -181,7 +181,7 @@ PowerApps에서 앱을 생성하는 방법을 이해하면 이 항목의 앞부�
    
     ![아이스크림 데이터 원본에 연결된 갤러리](./media/working-with-forms/new-gallery-icecream.png)
 
-## <a name="view-details"></a>세부 사항 보기
+## <a name="view-details"></a>세부 정보 보기
 갤러리에서 원하는 정보가 표시되지 않으면 레코드의 화살표를 선택하여 세부 정보 화면을 엽니다. 해당 화면의 **[표시 폼](controls/control-form-detail.md)** 컨트롤은 선택한 레코드의 더 많은, 아마도 모든 필드를 표시합니다.
 
 **[표시 폼](controls/control-form-detail.md)** 컨트롤은 다음 두 가지 속성을 사용하여 레코드를 표시합니다.
@@ -334,18 +334,22 @@ PowerApps가 데이터에서 생성한 앱에서 찾아보기 화면의 위쪽�
 
 ![찾아보기 화면에서 컨트롤 정렬 및 검색](./media/working-with-forms/afd-browse-search-sort.png)
 
-사용자가 정렬 단추를 선택하면 갤러리의 정렬 순서가 반대로 바뀝니다. 이 동작을 만들려면 '컨텍스트 변수'를 사용하여 갤러리가 정렬되는 방향을 추적합니다. 사용자가 단추를 선택하면 변수가 업데이트되고 방향이 반대로 바뀝니다. 정렬 단추의 **[OnSelect](controls/properties-core.md)** 속성이 **UpdateContext( {SortDescending1: !SortDescending1} )** 수식으로 설정됩니다.
+사용자가 정렬 단추를 선택하면 갤러리의 정렬 순서가 반대로 바뀝니다. 이 동작을 만들려면 '컨텍스트 변수'를 사용하여 갤러리가 정렬되는 방향을 추적합니다. 사용자가 단추를 선택하면 변수가 업데이트되고 방향이 반대로 바뀝니다. 합니다 **[OnSelect](controls/properties-core.md)** 정렬 단추의 속성을 다음이 수식으로 설정 됩니다. **UpdateContext( {SortDescending1: !SortDescending1} )**
 
 **SortDescending1** 컨텍스트 변수가 아직 없으면 **[UpdateContext](functions/function-updatecontext.md)** 함수에서 이 변수를 만듭니다. 이 함수는 변수의 값을 읽고 **!** 연산자를 사용하여 논리적 반대로 설정합니다. 액세스합니다. 값이 'true'이면 'false'가 됩니다. 값이 'false'이면 'true'가 됩니다.
 
 **[갤러리](controls/control-gallery.md)** 컨트롤의 **[Items](controls/properties-core.md)** 속성에 대한 수식은 **TextSearchBox1** 컨트롤의 텍스트와 함께 이 컨텍스트 변수를 사용합니다.
 
-    Gallery1.Items = Sort( If( IsBlank(TextSearchBox1.Text),
-                               Assets,
-                               Filter( Assets,
-                                       TextSearchBox1.Text in Text(ApproverEmail) ) ),
-                            ApproverEmail,
-                            If(SortDescending1, Descending, Ascending) )
+```powerapps-dot
+Sort( 
+    If( IsBlank(TextSearchBox1.Text),
+        Assets,
+        Filter( Assets, TextSearchBox1.Text in Text(ApproverEmail) ) 
+    ),
+    ApproverEmail,
+    If(SortDescending1, Descending, Ascending) 
+)
+```
 
 이 수식을 분석해 보겠습니다.
 

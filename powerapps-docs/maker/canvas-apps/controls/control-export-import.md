@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: b78f88941fce85b9e63427635cb946f944aa120a
-ms.sourcegitcommit: e2a9d1a6090cdd8aa78515b49f38ed2365217ea6
-ms.translationtype: HT
+ms.sourcegitcommit: 4ed29d83e90a2ecbb2f5e9ec5578e47a293a55ab
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "49384274"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63319945"
 ---
 # <a name="export-control-and-import-control-in-powerapps"></a>PowerApps에서 컨트롤 내보내기 및 가져오기
 로컬 파일에 데이터를 내보내고 해당 데이터를 PowerApps의 다른 앱으로 가져오기 위한 컨트롤
@@ -66,7 +66,7 @@ ms.locfileid: "49384274"
 
 **[Font](properties-text.md)** – 텍스트가 표시되는 글꼴의 제품군 이름입니다.
 
-**[FontWeight](properties-text.md)** - 컨트롤의 텍스트 굵기입니다. **Bold**, **Semibold**, **Normal** 또는 **Lighter**로 설정합니다.
+**[FontWeight](properties-text.md)**  – 컨트롤의 텍스트의 가중치: **굵게**, **Semibold**, **정상**, 또는 **밝은**.
 
 **[Height](properties-size-location.md)** – 컨트롤의 위쪽 및 아래쪽 가장자리 사이의 간격입니다.
 

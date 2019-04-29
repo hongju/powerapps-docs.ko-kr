@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: b6f83d21b2964dac7c4925d45efdf11a3a1e6b02
-ms.sourcegitcommit: 7f67cd28c781a48f6a211ed82c2c861ae3acf1a5
+ms.sourcegitcommit: 4ed29d83e90a2ecbb2f5e9ec5578e47a293a55ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2019
-ms.locfileid: "57800724"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63321374"
 ---
 # <a name="add-a-screen-to-a-canvas-app-and-navigate-between-screens"></a>캔버스 앱에 화면 추가 및 화면 간 이동
 
@@ -45,7 +45,7 @@ ms.locfileid: "57800724"
 ![화면을 다시 정렬](./media/add-screen-context-variables/reorder-screen.png)
 
 > [!NOTE]
-> 에 앱을 열 때 컨트롤의 계층적 목록 맨 위에 있는 화면이 일반적으로 첫 번째를 나타납니다. 하지만 설정 하 여 다른 화면을 지정할 수 있습니다는 **[OnStart](controls/control-screen.md)** 속성을 포함 하는 수식으로는 **[탐색](functions/function-navigate.md)** 함수입니다.
+> 앱을 열 때 컨트롤의 계층적 목록 맨 위에 있는 화면이 일반적으로 첫 번째로 나타납니다. 하지만 **[Navigate](functions/function-navigate.md)** 함수를 포함하는 수식으로 **[OnStart](controls/control-screen.md)** 속성을 설정하여 다른 화면을 지정할 수 있습니다.
 
 ## <a name="add-navigation"></a>탐색 추가
 

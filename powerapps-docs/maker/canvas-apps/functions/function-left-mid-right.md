@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: ca4fbaf18d7fa993a28f5cbb70f317b4ef5d42fd
-ms.sourcegitcommit: a4719a7d719116aeda26baa44159b2271a9a79c8
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2019
-ms.locfileid: "57800540"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61563663"
 ---
 # <a name="left-mid-and-right-functions-in-powerapps"></a>PowerApps의 Left, Mid 및 Right 함수
 텍스트 문자열의 왼쪽, 가운데 또는 오른쪽 부분을 추출합니다.

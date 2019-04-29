@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 6968e15bbfdb16d3f5443c51065765069ae8867b
-ms.sourcegitcommit: 5b2b70c3fc7bcba5647d505a79276bbaad31c610
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58357187"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61553358"
 ---
 # <a name="what-are-canvas-apps-in-powerapps"></a>PowerApps의 캔버스 앱이란 무엇인가요?
 C# 같은 일반적인 프로그래밍 언어로 코드를 작성하지 않고도 Microsoft PowerApps의 캔버스에서 비즈니스 앱을 설계하고 빌드합니다. Powerpoint에서 슬라이드를 디자인하는 것처럼 캔버스에 요소를 끌어 놓아 앱을 설계합니다. 논리를 지정하고 데이터로 작업하기 위해 Excel 같은 식을 만듭니다. [다양한 Microsoft 및 타사 원본](connections-list.md)에서 비즈니스 데이터를 통합하는 앱을 빌드합니다. 사용자가 브라우저 또는 모바일 디바이스에서 앱을 실행하도록 앱을 공유하고 사용자가 SharePoint, Power BI 또는 Teams에서 앱을 실행할 수 있도록 앱을 포함합니다.

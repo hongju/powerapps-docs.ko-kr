@@ -1,0 +1,14 @@
+- name: 코드를 사용하여 비즈니스 논리 적용
+  href: ../apply-business-logic-with-code.md
+- name: 워크플로 확장
+  href: workflow-extensions.md
+- name: 워크플로 활동 디버그
+  href: debug-workflow-activites.md
+- name: '자습서: 워크플로 확장 만들기'
+  href: tutorial-create-workflow-extension.md
+- name: '샘플: 사용자 지정 워크플로 작업 만들기'
+  href: sample-create-custom-workflow-activity.md
+- name: '샘플: 사용자 지정 워크플로 작업을 사용하여 다음 생일 업데이트'
+  href: sample-update-next-birthday-using-custom-workflow-activity.md
+- name: '샘플: 사용자 지정 워크플로 작업을 사용하여 크레딧 점수 계산'
+  href: sample-calculate-credit-score-custom-workflow-activity.md

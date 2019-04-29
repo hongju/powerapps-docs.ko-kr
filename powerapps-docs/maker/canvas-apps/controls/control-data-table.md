@@ -14,17 +14,17 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: fb7c2ac88c24197d014ebdc1b2b6a50e4802e0bf
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.sourcegitcommit: 4ed29d83e90a2ecbb2f5e9ec5578e47a293a55ab
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42846777"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63319370"
 ---
 # <a name="data-table-control-in-powerapps"></a>PowerApps의 데이터 테이블 컨트롤
 테이블 형식으로 데이터 집합을 보여 줍니다.
 
 ## <a name="description"></a>설명
-**데이터 테이블** 컨트롤은 컨트롤이 표시하는 각 필드에 대한 머리글을 포함하는 형식으로 데이터 집합을 보여 줍니다. 앱 제작자는 표시할 필드와 순서를 완전히 제어할 수 있습니다. **갤러리** 컨트롤처럼 **데이터 테이블** 컨트롤도 선택된 행을 가리키는 **Selected** 속성을 유지합니다. 따라서 **데이터 테이블**을 다른 컨트롤에 연결할 수 있습니다.
+**데이터 테이블** 컨트롤은 컨트롤이 표시하는 각 필드에 대한 머리글을 포함하는 형식으로 데이터 세트를 보여 줍니다. 앱 제작자는 표시할 필드와 순서를 완전히 제어할 수 있습니다. **갤러리** 컨트롤처럼 **데이터 테이블** 컨트롤도 선택된 행을 가리키는 **Selected** 속성을 유지합니다. 따라서 **데이터 테이블**을 다른 컨트롤에 연결할 수 있습니다.
 
 ## <a name="capabilities"></a>기능
 PowerApps에는 2017년 5월 5일 **데이터 테이블**이 도입되었습니다. 이 섹션에서는 지원되는 기능과 지원되지 않는 기능에 대한 정보를 제공합니다.

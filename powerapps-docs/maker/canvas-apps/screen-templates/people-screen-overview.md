@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 85da6f5414cc25d1145f0fa8910e8c78bfb74533
-ms.sourcegitcommit: 5e15a1033a68289781f8092fb65c57432501f911
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54459439"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61536159"
 ---
 # <a name="overview-of-the-people-screen-template-for-canvas-apps"></a>캔버스 앱의 사용자 화면 템플릿 개요
 
@@ -68,7 +68,7 @@ ms.locfileid: "54459439"
 
 ### <a name="show-different-data-for-people"></a>사용자의 다양한 데이터 표시
 
-이 화면을 사용 합니다 [Office365Users.SearchUser](https://docs.microsoft.com/connectors/office365users/#searchuser) 조직에서 사용자를 검색 하는 작업 새로운 각 이벤트에 표시에 대 한 추가 필드를 제공 합니다 **UserBrowseGallery** 제어 합니다. 갤러리에서 필드를 변경 하거나 추가 간단한 프로세스입니다.
+이 화면은 조직에서 사용자를 검색하기 위해 [Office365Users.SearchUser](https://docs.microsoft.com/connectors/office365users/#searchuser) 작업을 사용합니다. **UserBrowseGallery** 컨트롤을 표시하는 각 이벤트를 위한 추가 필드를 제공합니다. 갤러리에서 필드를 변경하거나 추가하는 것은 간단한 프로세스입니다. 갤러리에서 필드를 변경 하거나 추가 간단한 프로세스입니다.
 
 1. **UserBrowseGallery**에서 변경하려는 레이블을 선택하거나 추가하여 선택합니다.
 
@@ -80,7 +80,7 @@ ms.locfileid: "54459439"
 
     **Text** 속성을 `ThisItem.{FieldSelection}`으로 업데이트합니다.
 
-## <a name="integrate-the-screen-into-an-app"></a>화면을 앱에 통합
+## <a name="integrate-the-screen-into-an-app"></a>앱에 화면 통합
 
 사용자 화면은 그 자체로도 컨트롤의 강력한 번들이지만 일반적으로 더 큰, 더 다기능의 응용 프로그램의 일부로 수행됩니다. [캐시된 사용자 목록을 이용하는 것](people-screen-overview.md#use-your-cached-list-of-people)을 포함하여 다양한 방법으로 더 큰 앱에 이 화면을 통합할 수 있습니다.
 

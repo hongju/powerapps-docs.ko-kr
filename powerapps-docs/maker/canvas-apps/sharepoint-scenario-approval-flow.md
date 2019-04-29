@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: d41807bedf85c151c8e115456b9fb3e23756629d
-ms.sourcegitcommit: 90245baddce9d92c3ce85b0537c1ac1cf26bf55a
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "57799620"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61538246"
 ---
 # <a name="create-a-flow-to-manage-project-approvals"></a>프로젝트 승인을 관리하는 흐름 만들기
 > [!NOTE]
@@ -27,7 +27,7 @@ ms.locfileid: "57799620"
 이 작업에서는 프로젝트 승인 프로세스를 구동하는 흐름을 만듭니다. Microsoft Flow는 SharePoint와 통합되어 있으므로 목록에서 직접 흐름을 쉽게 만들 수 있습니다. **프로젝트 요청** 목록에 항목을 추가할 때 만드는 흐름이 트리거됩니다. 흐름은 프로젝트 승인자에게 전자 메일을 보내고, 프로젝트 승인자는 전자 메일에서 직접 요청을 승인하거나 거부합니다. 그런 다음 승인 요청 또는 거부 전자 메일을 프로젝트 요청자에게 보내고, SharePoint 목록을 적절하게 업데이트합니다.
 
 ## <a name="step-1-configure-the-flow-template"></a>1 단계: 흐름 템플릿 구성
-1. **프로젝트 요청** 목록에서 **흐름**, **흐름 만들기**를 차례로 클릭하거나 탭합니다.
+1. **프로젝트 요청** 목록에서 **Flow**, **흐름 만들기**를 차례로 클릭하거나 탭합니다.
    
     ![흐름 만들기](./media/sharepoint-scenario-approval-flow/03-01-01-create-flow.png)
 2. 오른쪽 창에서 **새 항목이 추가되면 승인 시작**을 클릭하거나 탭합니다.
@@ -40,7 +40,7 @@ ms.locfileid: "57799620"
     이제 이 흐름에 대한 템플릿이 표시되며 작업을 수행할 준비가 되었습니다. 흐름의 상자는 단계를 나타냅니다. 제공하는 입력뿐만 아니라 이전 단계의 입력도 가져옵니다. 그런 다음 각 단계에서 후속 단계로 출력을 제공할 수 있습니다.
    
     ![승인 템플릿](./media/sharepoint-scenario-approval-flow/03-01-04-template.png)
-4. **할당 대상** 상자에서 테넌트에 유효한 이름을 입력합니다.
+4. **Assigned To** 상자에서 테넌트에 유효한 이름을 입력합니다.
    
     ![승인 전자 메일 연락처](./media/sharepoint-scenario-approval-flow/03-01-05-approval-email.png)
    

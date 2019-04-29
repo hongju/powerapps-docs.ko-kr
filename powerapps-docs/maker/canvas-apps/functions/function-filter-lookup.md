@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: c37aa315981c51a446254473686c44501e72a96f
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.sourcegitcommit: 4ed29d83e90a2ecbb2f5e9ec5578e47a293a55ab
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42831479"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63321025"
 ---
 # <a name="filter-search-and-lookup-functions-in-powerapps"></a>PowerApps의 Filter, Search 및 LookUp 함수
 [테이블](../working-with-tables.md)에서 하나 이상의 [레코드](../working-with-tables.md#records)를 찾습니다.
@@ -78,7 +78,7 @@ ms.locfileid: "42831479"
 | **LookUp( IceCream, Flavor = "Chocolate", Quantity )** |적어도 하나가 있는 "Chocolate"과 같은 **Flavor**로 레코드를 검색합니다.  발견된 첫 번째 레코드의 경우 해당 레코드의 **Quantity**를 반환합니다. |100 |
 | **LookUp( IceCream, Quantity > 150, Quantity + OnOrder )** |여러 개가 있는 100보다 큰 **Quantity**로 레코드를 검색합니다.  "Vanilla" **Flavor**인 발견된 첫 번째 레코드의 경우 **Quantity** 및 **OnOrder** 열의 합계를 반환합니다. |250 |
 | **LookUp( IceCream, Flavor = "Pistachio", OnOrder )** |하나도 없는 "Pistachio"와 같은 **Flavor**로 레코드를 검색합니다.  아무 것도 발견되지 않았으므로 **Lookup**은 *공백*을 반환합니다. |*공백* |
-| **LookUp( IceCream, Flavor = "Vanilla" )** |적어도 하나가 있는 "Vanilla"와 같은 **Flavor**로 레코드를 검색합니다.  감소가 없는 수식이 제공됐으므로 전체 레코드가 반환됩니다. |{ Flavor: "Vanilla", Quantity: 200, OnOrder: 75 } |
+| **LookUp( IceCream, Flavor = "Vanilla" )** |적어도 하나가 있는 "Vanilla"와 같은 **Flavor**로 레코드를 검색합니다.  감소가 없는 수식이 제공됐으므로 전체 레코드가 반환됩니다. |{Flavor: "Vanilla", Quantity: 200, OnOrder: 75 } |
 
 ### <a name="search-user-experience"></a>검색 사용자 환경
 많은 앱에서 하나 이상의 문자를 검색 상자에 입력하면 큰 데이터 집합의 레코드 목록을 필터링할 수 있습니다. 입력하는 동안 검색 조건과 일치하는 레코드만 목록에 표시됩니다.
@@ -89,7 +89,7 @@ ms.locfileid: "42831479"
 
 이 데이터 원본을 컬렉션으로 만들려면 **[Button](../controls/control-button.md)** 컨트롤을 만들고 **OnSelect** 속성을 다음 수식으로 설정합니다.
 
-**ClearCollect( Customers, Table( { Name: "Fred Garcia", Company: "Northwind Traders" }, { Name: "Cole Miller", Company: "Contoso" }, { Name: "Glenda Johnson", Company: "Contoso" }, { Name: "Mike Collins", Company: "Adventure Works" }, { Name: "Colleen Jones", Company: "Adventure Works" } ) )**
+**ClearCollect( Customers, Table( { Name: "Fred 가르시아", 회사: "Northwind Traders" }, { Name: "Cole Miller", 회사: "Contoso"}, {이름: "Glenda Johnson", 회사: "Contoso"}, {이름: "Mike Collins", 회사: "Adventure Works"}, {이름: "Colleen Jones", 회사: "Adventure Works"}))**
 
 이 예제에서와 같이 화면 하단의 [**갤러리 컨트롤**](../controls/control-gallery.md)에 레코드 목록을 표시할 수 있습니다. 사용자가 관심 있는 레코드를 지정할 수 있도록 화면 맨 위 가까이에 **SearchInput**이라는 [**텍스트 입력**](../controls/control-text-input.md) 컨트롤을 추가합니다.
 

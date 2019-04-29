@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 43e95b88cdf305e7c4b768def83a6b41fa0fcae7
-ms.sourcegitcommit: 90245baddce9d92c3ce85b0537c1ac1cf26bf55a
+ms.sourcegitcommit: 4ed29d83e90a2ecbb2f5e9ec5578e47a293a55ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "57799367"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63319338"
 ---
 # <a name="publish-the-power-bi-project-report-and-create-a-dashboard"></a>Power BI 프로젝트 보고서 게시 및 대시보드 만들기
 > [!NOTE]
@@ -48,7 +48,7 @@ ms.locfileid: "57799367"
    
     게시할 때 Power BI Desktop에서 데이터 세트 **(d)** 와 보고서 **(c)** 를 업로드했음을 알 수 있습니다. Power BI Desktop이 아닌 서비스에서 대시보드를 만든 경우 이 작업 영역에는 아직 대시보드 **(b)** 가 없습니다. 곧 대시보드를 만들겠습니다.
 
-## <a name="step-2-configure-credentials-for-refresh"></a>2 단계: 새로 고침에 대 한 자격 증명 구성
+## <a name="step-2-configure-credentials-for-refresh"></a>2단계: 새로 고침에 대 한 자격 증명 구성
 1. 서비스의 오른쪽 위 모서리에서 ![기어 아이콘](./media/sharepoint-scenario-publish-report/icon-gear.png), **설정**을 차례로 클릭하거나 탭합니다.
 2. **데이터 세트**,**프로젝트 분석**을 차례로 클릭하거나 탭합니다.
    
@@ -67,7 +67,7 @@ ms.locfileid: "57799367"
    
     ![데이터 원본이 업데이트됨](./media/sharepoint-scenario-publish-report/06-01-11-updated.png)
 
-## <a name="step-3-create-a-dashboard"></a>3 단계: 대시보드 만들기
+## <a name="step-3-create-a-dashboard"></a>3단계: 대시보드 만들기
 
 1. 보고서를 다시 가져오려면 **보고서** 아래에서 **project-analysis**를 클릭하거나 탭합니다.
 

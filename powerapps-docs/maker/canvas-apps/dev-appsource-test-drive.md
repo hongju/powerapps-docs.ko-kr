@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 590dc1707d080c1790c00f236df820559fe8f5a9
-ms.sourcegitcommit: ba5542ff1c815299baa16304c6e0b5fed936e776
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54308413"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61550437"
 ---
 # <a name="let-customers-test-drive-your-canvas-app-on-appsource"></a>AppSource에서 고객이 캔버스 앱을 시험 사용할 수 있도록 하기
 
@@ -42,7 +42,7 @@ PowerApps에서 캔버스 앱을 빌드하는 데 열중하고 있나요? 캔버
 PowerApps는 기본적으로 포함된 데이터로 앱 빌드를 지원하므로 앱을 사용하기 위해 샘플 데이터만이 필요합니다. 이 데이터는 하나 이상의 테이블로 Excel 파일에서 캡처되어야 합니다. 그러면 PowerApps에서 Excel 테이블의 데이터를 앱으로 가져오고 외부 연결을 통하는 대신 거기에서 작업합니다. 아래 3단계 프로세스는 데이터를 가져오고 앱에서 해당 데이터를 사용하는 방법을 보여 줍니다.
 
 ### <a name="step-1-import-data-into-the-app"></a>1 단계: 앱에 데이터 가져오기
-두 테이블을 사용 하 여 Excel 파일에 있다고 가정 합니다. **SiteInspector** 하 고 **SitePhotos**합니다.
+**SiteInspector**와 **SitePhotos** 두 테이블을 가진 Excel 파일이 있다고 가정합니다.
 
 ![가져올 Excel 테이블](./media/dev-appsource-test-drive/excel-file.png)
 
@@ -72,7 +72,7 @@ ClearCollect( SitePhotosCollect, SitePhotos )
 
 이제 **Title** 필드에 액세스하려는 경우 수식에서 **SiteInspectorCollect.Title**을 사용합니다.
 
-### <a name="step-3-add-update-and-delete-data-in-your-app"></a>3 단계: 추가, 업데이트 및 앱에서 데이터를 삭제 합니다.
+### <a name="step-3-add-update-and-delete-data-in-your-app"></a>3단계: 앱에서 데이터 추가, 업데이트 및 삭제
 지금까지 데이터를 직접 및 컬렉션에서 읽는 방법을 살펴봤습니다. 이제 컬렉션에서 데이터를 추가, 업데이트 및 삭제하는 방법을 보여 줍니다.
 
 **컬렉션에 행을 추가하려면** [Collect( DataSource, Item, ... )](../canvas-apps/functions/function-clear-collect-clearcollect.md)을 사용합니다.

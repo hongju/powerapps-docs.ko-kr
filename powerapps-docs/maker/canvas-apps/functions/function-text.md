@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 3a3d272737783abeaf2fe33557457486dae31e45
-ms.sourcegitcommit: a4719a7d719116aeda26baa44159b2271a9a79c8
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2019
-ms.locfileid: "57800563"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61519205"
 ---
 # <a name="text-function-in-powerapps"></a>PowerApps의 Text 함수
 모든 값을 변환 하 고 텍스트 문자열을 숫자 또는 날짜/시간 값의 형식을 지정 합니다.

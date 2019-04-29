@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: f538d785b9655b94a44a79c3299e979bbfe88883
-ms.sourcegitcommit: ba5542ff1c815299baa16304c6e0b5fed936e776
+ms.sourcegitcommit: 4ed29d83e90a2ecbb2f5e9ec5578e47a293a55ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54308780"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63320951"
 ---
 # <a name="forall-function-in-powerapps"></a>PowerApps의 ForAll 함수
 [테이블](../working-with-tables.md)의 모든 [레코드](../working-with-tables.md#records)에 대해 값을 계산하고 작업을 수행합니다.

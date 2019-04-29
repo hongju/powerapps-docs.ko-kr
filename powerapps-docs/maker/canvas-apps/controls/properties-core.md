@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 16065dc29d74655cbede25cea20148b343b790e6
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42854010"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61560349"
 ---
 # <a name="core-properties-in-powerapps"></a>PowerApps의 핵심 속성
 사용자가 컨트롤을 보고 상호 작용할 수 있는지 여부를 구성합니다.

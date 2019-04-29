@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: c405af25d0e3228939b908c081ea8b08ce674ea6
-ms.sourcegitcommit: 4db9c763455d141a7e1dd569a50c86bd9e50ebf0
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "57802334"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61519659"
 ---
 # <a name="sort-and-sortbycolumns-functions-in-powerapps"></a>PowerApps의 Sort 및 SortByColumns 함수
 [테이블](../working-with-tables.md)을 정렬합니다.
@@ -86,7 +86,7 @@ ms.locfileid: "57802334"
 ### <a name="step-by-step"></a>단계별 가이드
 이러한 예제를 직접 실행하려면 [Collection](../working-with-data-sources.md#collections)과 같은 **IceCream** 데이터 원본을 만듭니다.
 
-1. 단추 하나를 추가하고 이 수식에 **[OnSelect](../controls/properties-core.md)** 속성을 설정합니다.<br>**ClearCollect (IceCream, {Flavor: "초콜릿", Quantity: 100, OnOrder: 150 }, { Flavor:  "Vanilla", Quantity: 200, OnOrder: 20}, {flavor: "딸기", Quantity: 300, OnOrder: Id={0}, {flavor: "Mint Chocolate", Quantity: 60, OnOrder: 100}, {flavor: "Pistachio", Quantity: 200, OnOrder: 10 } )**
+1. 단추 하나를 추가하고 **[OnSelect](../controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.<br>**ClearCollect (IceCream, {Flavor: "초콜릿", Quantity: 100, OnOrder: 150 }, { Flavor:  "Vanilla", Quantity: 200, OnOrder: 20}, {flavor: "딸기", Quantity: 300, OnOrder: Id={0}, {flavor: "Mint Chocolate", Quantity: 60, OnOrder: 100}, {flavor: "Pistachio", Quantity: 200, OnOrder: 10 } )**
 2. 앱을 미리 보고, 단추를 선택한 다음, 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
 3. 바로 만든 컬렉션을 표시하려면 **File** 메뉴의 **Collections**를 선택한 다음, 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
 

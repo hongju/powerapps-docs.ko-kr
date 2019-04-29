@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: bffbc86dda86c0b179634d2f59e0fb4f5d063ecd
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.sourcegitcommit: 4ed29d83e90a2ecbb2f5e9ec5578e47a293a55ab
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42842627"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63321321"
 ---
 # <a name="camera-control-in-powerapps"></a>PowerApps의 카메라 컨트롤
 사용자가 디바이스에서 카메라를 사용하여 사진을 촬영할 수 있는 컨트롤입니다.
@@ -27,7 +27,7 @@ ms.locfileid: "42842627"
 이 컨트롤을 추가하면 사용자는 앱이 실행 중일 때마다 하나 이상의 사진으로 데이터 원본을 업데이트할 수 있습니다.
 
 ## <a name="key-properties"></a>주요 속성
-**Camera** – 여러 카메라가 있는 장치의 경우 앱이 사용하는 카메라의 숫자 ID입니다.
+**Camera** – 여러 카메라가 있는 디바이스의 경우 앱이 사용하는 카메라의 숫자 ID입니다.
 
 ## <a name="additional-properties"></a>추가 속성
 **[AccessibleLabel](properties-accessibility.md)** – 화면 읽기 프로그램의 레이블입니다. 사진 촬영의 목적을 설명해야 합니다.

@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: e202ce052bf12f5f67715deb2e86b385c2e515a7
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42835563"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61547086"
 ---
 # <a name="endswith-and-startswith-functions-in-powerapps"></a>PowerApps의 EndsWith 및 StartsWith 함수
 텍스트 문자열이 다른 텍스트 문자열로 시작되거나 끝나는지 테스트합니다.
@@ -68,7 +68,7 @@ ms.locfileid: "42835563"
 
 이 데이터 원본을 컬렉션으로 만들려면 **[Button](../controls/control-button.md)** 컨트롤을 만들고 **OnSelect** 속성을 다음 수식으로 설정합니다.
 
-**ClearCollect( Customers, Table( { Name: "Fred Garcia", Company: "Northwind Traders" }, { Name: "Cole Miller", Company: "Contoso" }, { Name: "Glenda Johnson", Company: "Contoso" }, { Name: "Mike Collins", Company: "Adventure Works" }, { Name: "Colleen Jones", Company: "Adventure Works" } ) )**
+**ClearCollect( Customers, Table( { Name: "Fred 가르시아", 회사: "Northwind Traders" }, { Name: "Cole Miller", 회사: "Contoso"}, {이름: "Glenda Johnson", 회사: "Contoso"}, {이름: "Mike Collins", 회사: "Adventure Works"}, {이름: "Colleen Jones", 회사: "Adventure Works"}))**
 
 이 예제에서와 같이 화면 하단의 [**갤러리 컨트롤**](../controls/control-gallery.md)에 레코드 목록을 표시할 수 있습니다. 사용자가 관심 있는 레코드를 지정할 수 있도록 화면 맨 위 가까이에 **SearchInput**이라는 [**텍스트 입력**](../controls/control-text-input.md) 컨트롤을 추가합니다.
 

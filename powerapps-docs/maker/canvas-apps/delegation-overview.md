@@ -14,14 +14,14 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 61a7e67b7914e5f844397389833f830244d5af28
-ms.sourcegitcommit: 2dce3fe99828b0ffa23885bc7e11f1a1f871af07
+ms.sourcegitcommit: 4ed29d83e90a2ecbb2f5e9ec5578e47a293a55ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "59098049"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63318114"
 ---
 # <a name="understand-delegation-in-a-canvas-app"></a>캔버스 앱에서 위임 이해
-PowerApps에는 강력한 필터링, 정렬 및 캔버스 앱에서 데이터의 테이블을 셰이핑 함수 집합이 포함 됩니다. **[필터](functions/function-filter-lookup.md)** 를  **[정렬](functions/function-sort.md)**, 및 **[AddColumns](functions/function-table-shaping.md)** 몇 이름을 지정 하는 함수입니다. 이러한 함수를 사용하여 사용자에게 필요한 정보에 대한 집중된 액세스 권한을 제공할 수 있습니다. 데이터베이스 배경 지식이 있는 사람들에게 이러한 함수를 사용하는 것은 데이터베이스 쿼리를 작성하는 것과 같습니다.
+PowerApps에는 데이터의 테이블을 캔버스 앱에서 필터링, 정렬 및 셰이핑하는 강력한 함수 집합이 포함됩니다: 몇 가지를 말하면 **[Filter](functions/function-filter-lookup.md)**, **[Sort](functions/function-sort.md)** 및 **[AddColumns](functions/function-table-shaping.md)** 함수입니다. 이러한 함수를 사용하여 사용자에게 필요한 정보에 대한 집중된 액세스 권한을 제공할 수 있습니다. 데이터베이스 배경 지식이 있는 사람들에게 이러한 함수를 사용하는 것은 데이터베이스 쿼리를 작성하는 것과 같습니다.
 
 효율적인 앱을 빌드하는 핵심은 디바이스로 가져와야 하는 데이터의 양을 최소화하는 것입니다. 수백 만 개의 레코드 중에서 일부만 필요하거나, 또는 단일 집계 값이 수천 개의 레코드를 나타낼 수 있습니다. 또는 아마도 첫 번째 레코드 집합을 검색할 수 있고 나머지 데이터 집합은 사용자가 더 원한다는 제스처를 취할 때 검색됩니다. 집중하면 앱에서 필요한 처리량, 네트워크 대역폭을 현저하게 줄일 수 있어 셀룰러 네트워크를 통해 연결된 휴대폰에서도 사용자를 위해 더 신속하게 응답할 수 있습니다. 
 
@@ -29,7 +29,7 @@ PowerApps에는 강력한 필터링, 정렬 및 캔버스 앱에서 데이터의
 
 복잡해지는 상황에서 이 문서가 있는 이유는 PowerApps 수식으로 표현할 수 있는 것 중에 모든 데이터 원본으로 위임할 수 없는 것도 있기 때문입니다. PowerApps 언어는 광범위한 숫자 및 텍스트 조작 기능과 함께 메모리의 전체 통합 문서에 완벽한 즉시 액세스할 수 있도록 설계된 Excel의 수식 언어를 흉내내고 있습니다. 결과적으로, PowerApps 언어는 SQL Server와 같은 강력한 데이터베이스 엔진을 포함해 대부분 데이터 원본이 지원할 수 있는 것보다 훨씬 풍부합니다.
 
-**데이터 원본과 수식을 위임할 수 있는 사용 해야 하는 큰 데이터 집합을 사용 합니다.** 앱 성능을 유지하고 사용자가 필요한 모든 정보에 액세스할 수 있게 하는 유일한 방법입니다. 위임이 불가능한 위치를 식별하는 위임 경고에 주의하세요. 작은 데이터 집합(500개 레코드 미만)을 사용하려는 경우 수식을 위임할 수 없다면 앱이 로컬로 처리를 수행할 수 있기 때문에 데이터 원본과 수식도 사용할 수 있습니다. 
+**큰 데이터 집합을 작업하려면 위임할 수 있는 데이터 원본과 수식을 사용해야 합니다.** 앱 성능을 유지하고 사용자가 필요한 모든 정보에 액세스할 수 있게 하는 유일한 방법입니다. 위임이 불가능한 위치를 식별하는 위임 경고에 주의하세요. 작은 데이터 집합(500개 레코드 미만)을 사용하려는 경우 수식을 위임할 수 없다면 앱이 로컬로 처리를 수행할 수 있기 때문에 데이터 원본과 수식도 사용할 수 있습니다. 
 
 > [!NOTE]
 > 위임 경고는 이전에 "파란색 점" 제안으로 PowerApps에 플래그가 지정되었지만 위임 제안은 다시 경고로 분류된 이후에 지정되었습니다. 데이터 원본의 데이터가 500개의 레코드를 초과하여 함수가 위임될 수 없는 경우 PowerApps는 데이터를 모두 검색할 수 없으므로 앱에는 잘못된 결과가 포함될 수 있습니다. 위임 경고를 통해 올바른 결과가 포함되도록 앱을 관리할 수 있습니다.
@@ -54,7 +54,7 @@ Excel 통합 문서를 가져올 (사용 하는 **앱에 정적 데이터 추가
 **Filter** 및 **LookUp** 함수 내에서 적합한 레코드를 선택하기 위해 테이블의 열에서 다음을 사용할 수 있습니다.
 
 * **[And](functions/function-logicals.md)**(**[&&](functions/operators.md)** 포함), **[Or](functions/function-logicals.md)**(**[||](functions/operators.md)** 포함), **[Not](functions/function-logicals.md)**(**[!](functions/operators.md)** 포함)
-* **[에서](functions/operators.md)**
+* **[In](functions/operators.md)**
 * **[=](functions/operators.md)**, **[<>](functions/operators.md)**, **[>=](functions/operators.md)**, **[<=](functions/operators.md)**, **[>](functions/operators.md)**, **[<](functions/operators.md)**
 * **[+](functions/operators.md)**, **[-](functions/operators.md)**
 * **[TrimEnds](functions/function-trim.md)**
@@ -102,7 +102,7 @@ AddColumns( Products,
 
 경우에 **제품** 및 **공급 업체** 위임 가능한 데이터 원본 수 및 **조회** 위임 가능한 함수인의 출력을 **AddColumns**함수는 위임할 수 없습니다. 전체 수식의 결과 첫 번째 부분으로 제한 합니다 **제품** 데이터 원본입니다. **LookUp** 함수와 해당 데이터 원본이 위임 가능하기 때문에 **Suppliers**에 대한 일치 항목은 크더라도 데이터 원본 어디서든 찾을 수 있습니다. 
 
-사용 하는 경우 **AddColumns** 이런 방식으로 **조회** 의 해당 첫 번째 레코드의 각 데이터 원본에 대 한 별도 호출을 사용 해야 **제품**, 네트워크의 많은 경우 chatter 합니다. 경우 **공급 업체** 가 너무 작고 바뀌지 자주 호출할 수 있습니다 합니다 **수집** 함수 [ **OnStart** ](functions/signals.md) 데이터를 캐시할 수 앱이 시작 될 때 원본입니다. 대신에 사용자를 요청 하는 경우에 관련된 레코드를 가져올 수 있도록 앱을 재구성할 수 있습니다.  
+사용 하는 경우 **AddColumns** 이런 방식으로 **조회** 의 해당 첫 번째 레코드의 각 데이터 원본에 대 한 별도 호출을 사용 해야 **제품**, 네트워크의 많은 경우 chatter 합니다. 경우 **공급 업체** 가 너무 작고 바뀌지 자주 호출할 수 있습니다 합니다 **수집** 함수 [ **OnStart** ](functions/signals.md) 데이터를 캐시할 수 앱이 시작 될 때 원본입니다. 또는 사용자가 요청하는 경우에만 관련된 레코드를 가져올 수 있도록 앱을 재구성할 수 있습니다.  
  
 ## <a name="non-delegable-functions"></a>위임 불가능 함수
 모든 기타 함수는 다음 중요 함수를 포함해 위임을 지원하지 않습니다.
@@ -139,7 +139,7 @@ AddColumns( Products,
 위임 경고는 위임 가능한 데이터 원본에서 작동하는 수식에만 표시됩니다. 경고가 표시되지 않고 수식이 제대로 위임되지 않은 경우 이 항목의 앞에서 [위임 가능한 데이터 원본](delegation-overview.md#delegable-data-sources) 목록과 비교하여 데이터 원본 형식을 확인하세요.
 
 ## <a name="examples"></a>예
-예를 들어 **[dbo].[Fruit]** 라는 SQL Server 테이블을 기반으로 하는 세 개의 화면 앱을 자동으로 생성합니다. 앱을 생성 하는 방법에 대 한 내용은 비슷한 원칙에 적용할 수 있습니다 합니다 [Common Data Service에 대 한 항목](data-platform-create-app.md) SQL server입니다.
+예를 들어 **[dbo].[Fruit]** 라는 SQL Server 테이블을 기반으로 하는 세 개의 화면으로 구성된 앱을 자동으로 생성합니다. 앱을 생성하는 방법에 대한 내용은 [Common Data Service에 대한 항목](data-platform-create-app.md)에서 SQL server에 비슷한 원칙을 적용할 수 있습니다.
 
 ![3개 화면 앱](./media/delegation-overview/products-afd.png)
 

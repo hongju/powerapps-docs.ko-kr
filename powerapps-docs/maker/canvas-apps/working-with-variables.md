@@ -1,4 +1,4 @@
-﻿---
+---
 title: 캔버스 앱의 변수 이해 | Microsoft Docs
 description: 캔버스 앱의 상태, 컨텍스트 변수 및 컬렉션 작업에 대한 참조 정보
 author: gregli-msft
@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 6f46dcdf300c91be9fbc2f39e6b2a5418a4b82de
-ms.sourcegitcommit: 825daacc9a812637815afc1ce6fad28f0cebd479
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "57803760"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61559313"
 ---
 # <a name="understand-canvas-app-variables-in-powerapps"></a>PowerApps에서 캔버스 앱 변수 이해
 
@@ -46,11 +46,11 @@ Excel에서는 변수를 사용하지 않습니다. 수식이 포함된 셀의 �
 
 PowerApps에서 만드는 앱은 Excel과 매우 비슷하게 작동합니다. 셀을 업데이트하는 대신 화면에 원하는 위치에 컨트롤을 추가하고 수식에 사용할 컨트롤의 이름을 지정할 수 있습니다.
 
-예를 들어 **Label1**이라는 **[레이블](controls/control-text-box.md)** 컨트롤과 **TextInput1**, **TextInput2**로 명명된 두 개의 **[텍스트 입력](controls/control-text-input.md)** 컨트롤을 추가하여 앱에서 Excel 동작을 복제할 수 있습니다. **Label1**의 **[텍스트](controls/properties-core.md)** 속성을 **TextInput1 + TextInput2**로 설정하면 **TextInput1**과 **TextInput2**의 숫자의 합이 항상 자동으로 표시됩니다.
+예를 들어 **Label1**이라는 **[레이블](controls/control-text-box.md)** 컨트롤과 **TextInput1**, **TextInput2**로 명명된 두 개의 **[텍스트 입력](controls/control-text-input.md)** 컨트롤을 추가하여 앱에서 Excel 동작을 복제할 수 있습니다.  **Label1**의 **[텍스트](controls/properties-core.md)** 속성을 **TextInput1 + TextInput2**로 설정하면 **TextInput1**과 **TextInput2**의 숫자의 합이 항상 자동으로 표시됩니다.
 
 ![PowerApps에서 두 숫자의 합계를 계산합니다.](media/working-with-variables/recalc1.png)
 
-**Label1** 컨트롤을 선택하면, 화면 맨 위에 있는 수식 입력줄에 **[Text](controls/properties-core.md)** 수식이 나타납니다. 여기서 **TextInput1 + TextInput2** 수식을 찾습니다. 이 수식은 Excel 통합 문서에서 셀 간에 종속성을 만든 것처럼 이러한 컨트롤 간에 종속성을 만듭니다. **TextInput1**의 값을 변경해 보겠습니다.
+**Label1** 컨트롤을 선택하면, 화면 맨 위에 있는 수식 입력줄에 **[Text](controls/properties-core.md)** 수식이 나타납니다. 여기서 **TextInput1 + TextInput2** 수식을 찾습니다. 이 수식은 Excel 통합 문서에서 셀 간에 종속성을 만든 것처럼 이러한 컨트롤 간에 종속성을 만듭니다.  **TextInput1**의 값을 변경해 보겠습니다.
 
 ![PowerApps에서 두 숫자의 합계를 계산 하는 애니메이션](media/working-with-variables/recalc2.gif)
 
@@ -73,7 +73,7 @@ PowerApps에서 수식을 사용하여 컨트롤의 기본값뿐만 아니라 �
 
 * Excel을 알고 있으면 PowerApps도 알 수 있습니다. 모델과 수식 언어가 동일하기 때문입니다.
 * 다른 프로그래밍 도구를 사용했으면 이러한 예제를 수행하는 데 필요한 코드의 양을 생각하면 됩니다.  Visual Basic에서는 각 텍스트 입력 컨트롤에 변경 이벤트에 대한 이벤트 처리기를 작성해야 합니다.  이러한 컨트롤 각각에서 계산을 수행하는 코드가 중복되고 동기화되지 못하거나 일반적인 서브루틴을 작성해야 합니다.  PowerApps에서는 단 한 줄의 수식으로 이러한 모든 작업을 수행합니다.
-* **Label1**의 텍스트가 어디서 왔는지 이해하기 위해서는, 어디를 확인해야 하는지 정확하게 알고 있습니다. 바로 **[Text](controls/properties-core.md)** 속성입니다. 이 컨트롤의 텍스트에 영향을 줄 수 있는 다른 방법은 없습니다. 기존의 프로그래밍 도구에서 모든 이벤트 처리기 또는 서브루틴은 프로그램의 모든 위치에서 레이블의 값을 변경할 수 있습니다. 이로 인해 변수가 언제 어디서 변경되었는지 추적하기가 어려워질 수 있습니다.
+* **Label1**의 텍스트가 어디서 왔는지 이해하기 위해서는, 어디를 확인해야 하는지 정확하게 알고 있습니다. 바로 **[Text](controls/properties-core.md)** 속성입니다.  이 컨트롤의 텍스트에 영향을 줄 수 있는 다른 방법은 없습니다.  기존의 프로그래밍 도구에서 모든 이벤트 처리기 또는 서브루틴은 프로그램의 모든 위치에서 레이블의 값을 변경할 수 있습니다.  이로 인해 변수가 언제 어디서 변경되었는지 추적하기가 어려워질 수 있습니다.
 * 사용자가 슬라이더 컨트롤을 변경한 다음 생각을 바꾸면 슬라이더를 원래 값으로 다시 변경할 수 있습니다.  그러면 마치 아무 것도 변경되지 않은 것처럼 됩니다. 즉 앱에서 이전과 동일한 컨트롤 값을 표시합니다.  Excel에서 아무 효과가 없는 것처럼 "what if"를 실험하고 요청하는 것에 대해 아무 효과가 없습니다.  
 
 일반적으로 수식을 사용하여 결과를 얻을 수 있는 경우가 더 효과적입니다. PowerApps에서 수식 엔진을 사용하여 작업해 보겠습니다.  
@@ -120,7 +120,7 @@ PowerApps에서 수식을 사용하여 컨트롤의 기본값뿐만 아니라 �
 
     이 수식은 **+** 연산자 때문에 숫자를 가지고 있는 **RunningTotal**을 전역 변수로 설정합니다. **RunningTotal**은 앱의 아무 곳에서 참조 할 수 있습니다. 사용자가 이 앱을 열 때마다 **RunningTotal** 의 초기 값은 *빈 값*이 됩니다.
 
-    처음으로 사용자가 **추가** 단추를 선택 하고 **[Set](functions/function-set.md)**이 실행될 때, **RunningTotal**은 **TextInput1 + RunningTotal** 값으로 설정됩니다.
+    처음으로 사용자가 **추가** 단추를 선택 하고 **[Set](functions/function-set.md)** 이 실행될 때, **RunningTotal**은 **RunningTotal + TextInput1** 값으로 설정됩니다.
 
     ![함수를 설정 하려면 추가 단추 OnSelect 속성 설정](media/working-with-variables/global-variable-1.png)
 
@@ -162,11 +162,11 @@ PowerApps에는 세 가지 유형의 변수:
 
 모든 변수는 **Set**, **UpdateContext**, **Navigate**, **Collect**, 또는 **ClearCollect** 함수에서 나타날 경우 암시적으로 생성됩니다. 변수와 그 형식을 선언하려면, 앱 어디서나 이러한 함수들 내에서 그것을 포함만 하면 됩니다. 이러한 함수들은 변수를 생성하지 않습니다. 값을 변수에 채우기만 합니다. 다른 프로그래밍 도구에서처럼 명시적으로 변수를 선언하지 않으며, 모든 형식은 사용을 통해 암시적으로 알 수 있습니다.
 
-예를 들어, **OnSelect** 수식이 **Set(X, 1)**으로 설정된 단추 컨트롤이 있을 수 있습니다. 이 수식은 숫자 형식의 **X** 변수를 설정합니다. 숫자로 수식에서 **X**를 사용할 수 있으며, 해당 변수는 사용자가 앱을 열고 단추를 선택하기 전에는 비어 있습니다. 단추를 선택하면, **X** 변수에 **1**을 제공하게 됩니다.
+예를 들어, **OnSelect** 수식이 **Set( X, 1 )** 으로 설정된 단추 컨트롤이 있을 수 있습니다. 이 수식은 숫자 형식의 **X** 변수를 설정합니다. 숫자로 수식에서 **X**를 사용할 수 있으며, 해당 변수는 사용자가 앱을 열고 단추를 선택하기 전에는 비어 있습니다. 단추를 선택하면, **X** 변수에 **1**을 제공하게 됩니다.
 
-다른 단추를 추가하고 **OnSelect** 속성을 **Set(X, "Hello")**으로 설정하게 되면, type(텍스트 문자열)은 이전 **Set**(숫자)의 형식과 일치하지 않으므로 오류가 발생합니다. 변수의 암시적 정의는 형식이 일치해야 합니다. 다시 말하면, 이러한 수식 중 하나가 실행되었기 때문이 아니라, **X**가 수식에서 언급되었기 때문에 오류가 발생됩니다.
+다른 단추를 추가하고 **OnSelect** 속성을 **Set(X, "Hello")** 으로 설정하게 되면, type(텍스트 문자열)은 이전 **Set**(숫자)의 형식과 일치하지 않으므로 오류가 발생합니다. 변수의 암시적 정의는 형식이 일치해야 합니다. 다시 말하면, 이러한 수식 중 하나가 실행되었기 때문이 아니라, **X**가 수식에서 언급되었기 때문에 오류가 발생됩니다.
 
-암시적으로 변수를 설정하는 **Set**, **UpdateContext**, **Navigate**, **Collect**, 또는 **ClearCollect** 함수를 모두 제거하여 변수를 제거합니다. 이러한 함수가 없으면, 변수가 존재하지 않습니다. 오류가 발생하기 때문에 변수에 대한 모든 참조를 또한 제거해야 합니다.  
+암시적으로 변수를 설정하는 **Set**, **UpdateContext**, **Navigate**, **Collect**, 또는 **ClearCollect** 함수를 모두 제거하여 변수를 제거합니다. 이러한 함수가 없으면, 변수가 존재하지 않습니다. 오류가 발생하기 때문에 변수에 대한 모든 참조를 또한 제거해야 합니다.
 
 ## <a name="variable-lifetime-and-initial-value"></a>초기 값 및 변수 수명
 
@@ -186,7 +186,7 @@ PowerApps에는 세 가지 유형의 변수:
 
 `Pi() * Power( Radius, 2 )`
 
-컨텍스트 변수에 전역 변수 또는 컬렉션과 같은 이름을 제공하는 경우 컨텍스트 변수가 우선합니다. 그러나, [명확성 연산자](functions/operators.md#disambiguation-operator) **@[Radius]**를 사용하면 전역 변수 또는 컬렉션을 여전히 참조할 수 있습니다.
+컨텍스트 변수에 전역 변수 또는 컬렉션과 같은 이름을 제공하는 경우 컨텍스트 변수가 우선합니다. 그러나, [명확성 연산자](functions/operators.md#disambiguation-operator) **@[Radius]** 를 사용하면 전역 변수 또는 컬렉션을 여전히 참조할 수 있습니다.
 
 ## <a name="use-a-context-variable"></a>컨텍스트 변수 사용
 
@@ -194,8 +194,8 @@ PowerApps에는 세 가지 유형의 변수:
 
 컨텍스트 변수의 작동 방식은 다음과 같습니다.
 
-* **[UpdateContext](functions/function-updatecontext.md)** 또는 **[Navigate](functions/function-navigate.md)** 함수를 사용하여 암시적으로 컨텍스트 변수를 만들고 설정합니다. 앱을 시작하는 경우 모든 컨텍스트 변수의 초기 값은 *빈 값*입니다.
-* 레코드를 사용하여 컨텍스트 변수를 업데이트합니다. 다른 프로그래밍 도구에서는 일반적으로 "x = 1"에서와 같이 할당에 "="를 사용합니다. 컨텍스트 변수는 대신 **{x: 1}**을 사용합니다. 컨텍스트 변수를 사용하는 경우 레코드 구문 없이 직접 해당 이름을 사용합니다.
+* **[UpdateContext](functions/function-updatecontext.md)** 또는 **[Navigate](functions/function-navigate.md)** 함수를 사용하여 암시적으로 컨텍스트 변수를 만들고 설정합니다 앱을 시작하는 경우 모든 컨텍스트 변수의 초기 값은 *빈 값*입니다.
+* 레코드를 사용하여 컨텍스트 변수를 업데이트합니다. 다른 프로그래밍 도구에서는 일반적으로 "x = 1"에서와 같이 할당에 "="를 사용합니다. 컨텍스트 변수는 대신 **{x: 1}** 을 사용합니다. 컨텍스트 변수를 사용하는 경우 레코드 구문 없이 직접 해당 이름을 사용합니다.
 * 화면을 표시하기 위해 **[Navigate](functions/function-navigate.md)** 함수를 사용할 때도 컨텍스트 변수를 설정할 수 있습니다. 화면을 프로시저 또는 서브루틴의 한 종류로 생각하면, 이 접근법은 다른 프로그래밍 도구에서 매개 변수를 전달하는 것과 유사합니다.
 * **[Navigate](functions/function-navigate.md)** 를 제외하고 컨텍스트 변수는 단일 화면의 컨텍스트로 제한되며, 여기에서 컨텍스트 변수의 이름을 얻습니다. 이 컨텍스트 외부에서는 사용하거나 설정할 수 없습니다.
 * 컨텍스트 변수에는 문자열, 숫자, 레코드 및 [테이블](working-with-tables.md)을 포함한 모든 값이 포함될 수 있습니다.
@@ -210,17 +210,17 @@ PowerApps에는 세 가지 유형의 변수:
 
     **UpdateContext( { RunningTotal: RunningTotal + TextInput1 } )**
 
-    이 수식은 **+** 연산자 때문에 **RunningTotal**을 숫자를 가지고 있는 컨텍스트 변수로 설정합니다. **RunningTotal**은 앱의 아무 곳에서 참조할 수 있습니다. 사용자가 이 앱을 열 때마다 **RunningTotal**의 초기 값은 *빈 값*입니다.
+    이 수식은 **+** 연산자 때문에 **RunningTotal**을 숫자를 가지고 있는 컨텍스트 변수로 설정합니다. **RunningTotal**은 앱의 아무 곳에서 참조할 수 있습니다. 사용자가 이 앱을 열 때마다 **RunningTotal** 의 초기 값은 *빈 값*이 됩니다.
 
-     처음으로 사용자가 **추가** 단추를 선택하고 **[UpdateContext](functions/function-updatecontext.md)**가 실행되면, **RunningTotal**은 **TextInput1 + RunningTotal** 값으로 설정 됩니다.
-   
+    처음으로 사용자가 **추가** 단추를 선택하고 **[UpdateContext](functions/function-updatecontext.md)** 가 실행되면, **RunningTotal**은 **RunningTotal + TextInput1** 값으로 설정 됩니다.
+
     ![추가 단추의 OnSelect 속성](media/working-with-variables/context-variable-1.png)
 
 4. 사용자가 **지우기** 단추를 선택할 때마다 누계를 **0**으로 설정하려면 **[OnSelect](controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.
 
     **UpdateContext( { RunningTotal: 0 } )**
 
-    전술한 대로, **[UpdateContext](functions/function-updatecontext.md)**는 **UpdateContext( { RunningTotal: 0 } )** 수식을 사용합니다.
+    전술한 대로, **[UpdateContext](functions/function-updatecontext.md)** 는 **UpdateContext( { RunningTotal: 0 } )** 수식을 사용합니다.
 
     ![선택을 취소 단추의 OnSelect 속성](media/working-with-variables/context-variable-2.png)
 
@@ -254,7 +254,7 @@ PowerApps에는 세 가지 유형의 변수:
 
 ## <a name="use-a-collection"></a>컬렉션 사용
 
-마지막으로 컬렉션을 사용하여 계산기를 만드는 방법을 살펴보겠습니다. 컬렉션에는 수정하기 쉬운 테이블이 있으므로 이 계산기는 "Paper Tape"의 각 값이 입력되는 대로 유지하게 됩니다.
+마지막으로 컬렉션을 사용하여 계산기를 만드는 방법을 살펴보겠습니다.  컬렉션에는 수정하기 쉬운 테이블이 있으므로 이 계산기는 "Paper Tape"의 각 값이 입력되는 대로 유지하게 됩니다.
 
 컬렉션의 작동 방식은 다음과 같습니다.
 
@@ -273,7 +273,7 @@ PowerApps에는 세 가지 유형의 변수:
     **Collect( PaperTape, TextInput1.Text )**
 
     이 수식은 텍스트 문자열의 단일 열 테이블을 포함하는 컬렉션으로 **PaperTape**을 설정합니다. **PaperTape**은 앱의 아무 곳에서 참조할 수 있습니다. 사용자가 이 앱을 열 때마다 **PaperTape**의 초기 값은 빈 테이블입니다.
-   
+
     이 수식이 실행되면 컬렉션의 끝에 새 값을 추가합니다. 단일 값을 추가하므로, **Collect**는 자동으로 단일 열 테이블에 이 값을 배치하고 열 이름은 **Value**이며, 나중에 사용할 수 있습니다.
 
     ![추가 단추의 OnSelect 속성](media/working-with-variables/papertape-1.png)
@@ -308,7 +308,7 @@ PowerApps에는 세 가지 유형의 변수:
 
     ![PaperTape 컬렉션의 미리 보기](media/working-with-variables/papertape-file.png)
 
-10. 컬렉션을 저장하고 검색하기 위해, 두 개의 단추 컨트롤을 추가하고 **Text** 속성을 **로드**와 **저장**으로 설정합니다. **로드** 단추의 **OnSelect**의 속성을 다음 수식으로 설정합니다.
+10. 컬렉션을 저장하고 검색하기 위해, 두 개의 단추 컨트롤을 추가하고 **Text** 속성을 **로드**와 **저장**으로 설정합니다. **로드** 단추의  **OnSelect**의 속성을 다음 수식으로 설정합니다.
 
      **Clear( PaperTape ); LoadData( PaperTape, "StoredPaperTape", true )**
 

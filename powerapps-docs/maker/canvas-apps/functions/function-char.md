@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 1b598cc863ec01bcb2a66a9510cb48ec5203e679
-ms.sourcegitcommit: 38f91423933749ca19557f29e86cd8f5ad06e1eb
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/05/2019
-ms.locfileid: "59042634"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61559710"
 ---
 # <a name="char-function-in-powerapps"></a>PowerApps의 Char 함수
 
@@ -26,7 +26,7 @@ ms.locfileid: "59042634"
 
 ## <a name="description"></a>설명
 
-합니다 **Char** 함수 해당 ASCII 문자로 문자열을 숫자로 변환 합니다.
+**Char** 함수는 숫자를 ASCII 문자에 해당하는 문자열로 변환합니다.
 
 ## <a name="syntax"></a>구문
 
@@ -39,50 +39,50 @@ ms.locfileid: "59042634"
 | 수식 | 설명 | 결과 |
 | --- | --- | --- |
 | **Char( 65 )** |ASCII 코드 65에 해당하는 문자를 반환합니다. |"A" |
-| **Char (105)** |ASCII 코드 105에 해당하는 문자를 반환합니다. |"i" |
+| **Char( 105 )** |ASCII 코드 105에 해당하는 문자를 반환합니다. |"i" |
 | **Char( 35 )** |ASCII 코드 35에 해당하는 문자를 반환합니다. |"#" |
 
 ### <a name="display-a-character-map"></a>문자 매핑 표시
 
-1. 태블릿 앱에서 사용 되는 빈 화면에서 추가 [ **갤러리** ](../controls/control-gallery.md) 컨트롤을 **빈 가로** 레이아웃, 이러한 속성을 설정한 후:
+1. 태블릿 앱에서 사용되는 빈 화면에서 **빈 가로** 레이아웃의 [ **갤러리** ](../controls/control-gallery.md) 컨트롤을 추가한 다음, 다음 속성을 설정합니다.
 
-    - **항목**: `[0,1,2,3,4,5,6,7]`
+    - **Items**: `[0,1,2,3,4,5,6,7]`
     - **Width**: 800
     - **높이**: 500
     - **TemplateSize**: 100
     - **TemplatePadding**: 0
 
-1. 해당 갤러리 내에서 추가 **갤러리** 컨트롤을 **빈 세로** 레이아웃, 이러한 속성을 설정한 후:
+1. 해당 갤러리 안에, **빈 세로** 레이아웃의 **갤러리** 컨트롤을 추가하고, 다음 속성을 설정합니다.
 
-    - **항목**: `ForAll( [0,2,3,4,5,6,7,8,9,10,11,12,13,14,15], Value + ThisItem.Value * 16 )`
+    - **Items**: `ForAll( [0,2,3,4,5,6,7,8,9,10,11,12,13,14,15], Value + ThisItem.Value * 16 )`
     - **Width**: 100
     - **높이**: 500
     - **TemplateSize**: 30
     - **TemplatePadding**: 0
 
-    값을 **항목** 속성의 값 열을 제공한 열 수는 16을 곱합니다 합니다 **항목** 갤러리의 첫 번째 속성 (0-7에서 `ThisItem.Value`). 수식에 추가한 결과 행 번호 중 하나에 갤러리의 두 번째 (0 ~ 15 개 레코드의 범위를 합니다 [ **ForAll** ](function-forall.md) 함수는 제공).
+    **Items** 속성의 값은 첫 번째 갤러리(`ThisItem.Value`의 0-7)의 **Items** 속성에서 제공하는 열 수에 16을 곱합니다. 수식은 그 결과를 두 번째 갤러리([ **ForAll** ](function-forall.md) 함수가 제공하는 레코드 범위의 0 ~ 15)의 행 수의 하나에 더합니다.
 
-1. 두 번째 (세로) 갤러리 내에서 추가 **레이블** 이러한 속성을 설정 합니다.
+1. 두 번째 (세로) 갤러리 안에 **레이블** 컨트롤을 추가하고 다음 속성을 설정합니다.
 
-    - **텍스트**: `ThisItem.Value`
+    - **Text**: `ThisItem.Value`
     - **Width**: 50
 
-1. 두 번째 (세로) 갤러리 내에서 다른 항목 추가 **레이블** 이러한 속성을 설정 합니다.
+1. 두 번째 (세로) 갤러리 안에 또 다른 **레이블** 컨트롤을 추가하고 다음 속성을 설정합니다.
 
-    - **텍스트**: `Char( ThisItem.Value )`
+    - **Text**: `Char( ThisItem.Value )`
     - **Width**: 50
     - **X**: 50
 
-차트의 처음 128 개 ASCII 문자를 만들었습니다. 작은 사각형을 인쇄할 수 없는 것으로 표시 하는 문자입니다.
+처음 128개 ASCII 문자의 차트를 만들었습니다. 작은 사각형으로 표시되는 문자는 인쇄할 수 없는 문자입니다.
 
 ![먼저 128 개의 ASCII 문자](media/function-char/chart-lower.png)
 
-확장 된 ASCII 문자를 표시 하려면 설정 합니다 **항목** 128 각 문자 값을 추가 하는 다음이 수식으로 두 번째 갤러리의 속성:
+확장된 ASCII 문자를 표시하려면, 두 번째 갤러리의 **Items** 속성을 다음 수식으로 설정하여, 각 문자 값에 128을 더합니다.
 
 `ForAll( [0,2,3,4,5,6,7,8,9,10,11,12,13,14,15], Value + ThisItem.Value * 16 + 128)`
 
 ![확장 된 ASCII 문자](media/function-char/chart-higher.png)
 
-다른 글꼴에서 문자를 표시 하려면 설정 합니다 **글꼴** 와 같은 값으로 두 번째 레이블의 속성 **Dancing 스크립트**합니다.
+다른 글꼴로 문자를 표시하려면, 두 번째 레이블의 **Font** 속성을 **Dancing Script**와 같은 값으로 설정합니다.
 
 ![스크립트 dancing](media/function-char/chart-higher-dancing-script.png)

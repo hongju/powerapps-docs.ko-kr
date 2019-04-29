@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 5125299c969db635a9e260ea7bac28f6a6e02bc0
-ms.sourcegitcommit: 90245baddce9d92c3ce85b0537c1ac1cf26bf55a
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "57799896"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61542313"
 ---
 # <a name="create-a-canvas-app-to-manage-projects"></a>프로젝트를 관리하는 캔버스 앱 만들기
 > [!NOTE]
@@ -55,7 +55,7 @@ PowerPoint에서 슬라이드 모음을 만드는 것처럼 PowerApps Studio에�
    
     ![클라우드에 저장](./media/sharepoint-scenario-build-app/04-01-03-save-to-cloud.png)
 
-4. 종 모양 아이콘을 ![클릭하거나 탭하여](./media/sharepoint-scenario-build-app/icon-back-to-app.png) 앱으로 돌아갑니다.
+4. 우측 상단 모서리의 ![클릭하거나 탭하여](./media/sharepoint-scenario-build-app/icon-back-to-app.png) 앱으로 돌아갑니다.
 
 ### <a name="add-four-screens-to-the-app"></a>앱에 4개 화면 추가
 이 단계에서는 앱에 대한 4개의 빈 화면을 만듭니다. 화면의 용도에 따라 별개의 화면 레이아웃을 사용합니다. 이후 단계에서 이러한 화면을 추가합니다.
@@ -67,7 +67,7 @@ PowerPoint에서 슬라이드 모음을 만드는 것처럼 PowerApps Studio에�
 | **ViewProjects** |요약 정보와 함께 프로젝트 목록 표시 |
 | **UpdateDetails** |프로젝트 세부 정보 표시 및 업데이트 |
 
-1. **홈** 탭에서 **NewScreen**, **스크롤 가능 화면**을 차례로 클릭하거나 탭합니다.
+1. **홈** 탭에서 **새 화면**, **스크롤 가능 화면**을 차례로 클릭하거나 탭합니다.
    
     ![스크롤 가능 화면](./media/sharepoint-scenario-build-app/04-01-03a-scrollable-screen.png)
 2. 화면의 이름을 **SelectTask**로 바꿉니다.
@@ -75,9 +75,9 @@ PowerPoint에서 슬라이드 모음을 만드는 것처럼 PowerApps Studio에�
     ![화면 이름 바꾸기](./media/sharepoint-scenario-build-app/04-01-04-rename-screen.png)
 3. 추가 화면을 만들고 이름을 바꿉니다.
    
-   1. **NewScreen**, **스크롤 가능 화면**을 차례로 클릭하거나 탭합니다. 화면의 이름을 **AssignManager**로 바꿉니다.
-   2. **NewScreen**, **목록 화면**을 차례로 클릭하거나 탭합니다. 화면의 이름을 **ViewProjects**로 바꿉니다.
-   3. **NewScreen**, **양식 화면**을 차례로 클릭하거나 탭합니다. 화면의 이름을 **UpdateDetails**로 바꿉니다.
+   1. **새 화면**, **스크롤 가능 화면**을 차례로 클릭하거나 탭합니다. 화면의 이름을 **AssignManager**로 바꿉니다.
+   2. **새 화면**, **목록 화면**을 차례로 클릭하거나 탭합니다. 화면의 이름을 **ViewProjects**로 바꿉니다.
+   3. **새 화면**, **양식 화면**을 차례로 클릭하거나 탭합니다. 화면의 이름을 **UpdateDetails**로 바꿉니다.
 4. **Screen1** 옆에 있는 줄임표(**. . .**)를 선택한 다음 **삭제**를 클릭하거나 탭합니다.
    
     ![삭제 화면](./media/sharepoint-scenario-build-app/04-01-04a-delete-screen.png)
@@ -163,11 +163,11 @@ PowerPoint에서 슬라이드 모음을 만드는 것처럼 PowerApps Studio에�
 
 1. **SelectTask** 화면을 클릭하거나 탭합니다(앱은 항상 PowerApps Studio의 미리 보기 모드에서 선택한 화면에서 시작합니다).
 
-2. 종 모양 아이콘을 ![앱 실행 아이콘을 클릭하여](./media/sharepoint-scenario-build-app/icon-run-arrow.png) 앱을 실행합니다.
+2. 우측 상단 모서리의 ![앱 실행 아이콘](./media/sharepoint-scenario-build-app/icon-run-arrow.png) 을 클릭하거나 탭하여 앱을 실행합니다.
 
 3. 단추 중 하나를 클릭하거나 탭하여 다른 화면으로 이동합니다.
 
-4. 종 모양 아이콘을 ![앱 미리 보기 닫기 아이콘을 클릭하거나 탭하여](./media/sharepoint-scenario-build-app/icon-close-preview.png) 앱을 닫습니다.
+4. 우측 상단 모서리의 ![앱 미리 보기 닫기 아이콘을 클릭하거나 탭하여](./media/sharepoint-scenario-build-app/icon-close-preview.png) 앱을 닫습니다.
 
 ## <a name="step-4-build-the-assignmanager-screen"></a>4단계: AssignManager 화면 빌드
 이 단계에서는 갤러리를 사용하여 승인되었지만 아직 관리자가 없는 모든 프로젝트를 표시합니다. 다른 컨트롤을 추가하여 관리자를 지정할 수 있습니다.
@@ -449,11 +449,11 @@ PowerPoint에서 슬라이드 모음을 만드는 것처럼 PowerApps Studio에�
    
     ![앱 소개 화면](./media/sharepoint-scenario-build-app/04-07-03-intro-screen.png)
 
-4. **관리자 할당** 화면의 목록에서 할당되지 않은 두 개의 프로젝트가 표시됩니다. **새 BI 소프트웨어** 프로젝트를 선택합니다.
+4. **관리자 할당** 화면의 목록에서 할당되지 않은 두 개의 프로젝트가 표시됩니다. **New BI software** 프로젝트를 선택합니다.
    
     ![선택한 항목이 있는 갤러리](./media/sharepoint-scenario-build-app/04-07-04-selected.png)
 
-5. **관리자** 텍스트 입력에서 "Joni Sherman"을 입력한 다음 **확인**을 클릭합니다.
+5. **Manager** 텍스트 입력에서 "Joni Sherman"을 입력한 다음 **확인**을 클릭합니다.
    
     변경 내용을 목록에 적용하고 갤러리를 새로 고치므로 할당되지 않은 나머지 프로젝트만 표시됩니다.
    
@@ -469,11 +469,11 @@ PowerPoint에서 슬라이드 모음을 만드는 것처럼 PowerApps Studio에�
    
    ![앱 소개 화면](./media/sharepoint-scenario-build-app/04-07-08-intro-screen.png)
 
-2. **프로젝트 보기** 화면에서 검색 상자에 "새"를 입력합니다.
+2. **프로젝트 보기** 화면에서 검색 상자에 "New"를 입력합니다.
    
    ![앱 갤러리에서 검색](./media/sharepoint-scenario-build-app/04-07-09-search-new.png)
 
-3. **새 BI 소프트웨어** 항목에 대한 ![세부 정보 화살표 아이콘](./media/sharepoint-scenario-build-app/icon-details-arrow.png)을 클릭합니다.
+3. **New BI software** 항목에 대한 ![세부 정보 화살표 아이콘](./media/sharepoint-scenario-build-app/icon-details-arrow.png)을 클릭합니다.
    
    ![선택한 갤러리 항목](./media/sharepoint-scenario-build-app/04-07-10-select-project.png)
 
@@ -487,7 +487,7 @@ PowerPoint에서 슬라이드 모음을 만드는 것처럼 PowerApps Studio에�
    
    ![항목 세부 정보 업데이트](./media/sharepoint-scenario-build-app/04-07-11-update.png)
 
-5. 종 모양 아이콘을 ![클릭하거나 누른](./media/sharepoint-scenario-build-app/icon-check-mark.png) 변경 내용을 SharePoint 목록에 적용합니다.
+5. 우측 상단 모서리의 ![클릭하거나 누른](./media/sharepoint-scenario-build-app/icon-check-mark.png) 변경 내용을 SharePoint 목록에 적용합니다.
 
 6. 앱을 닫고 목록으로 돌아갑니다. 이제 프로젝트 항목이 변경된 날짜 및 일 수로 업데이트됩니다.
    
@@ -508,7 +508,7 @@ PowerApps 수식에 있는 선택적인 두 번째 섹션입니다. 첫 번째 �
 
 1. **확인** 단추를 클릭하면 **Patch** 함수가 호출되어 **프로젝트 세부 정보** 목록을 업데이트합니다.
 
-2. **Patch** 함수 내에서 **LookUp** 함수는 업데이트할 **프로젝트 세부 정보** 목록의 행을 식별합니다. 이는 선택한 갤러리 항목의 ID를 목록의 ID와 비교하여 수행합니다. 예를 들어 12라는 ID는 **새 BI 소프트웨어**에 대한 항목을 업데이트해야 함을 의미합니다.
+2. **Patch** 함수 내에서 **LookUp** 함수는 업데이트할 **프로젝트 세부 정보** 목록의 행을 식별합니다. 이는 선택한 갤러리 항목의 ID를 목록의 ID와 비교하여 수행합니다. 예를 들어 12라는 ID는 **New BI software**에 대한 항목을 업데이트해야 함을 의미합니다.
 
 3. **Patch** 함수에 올바른 ID가 있으므로 **PMAssigned** 필드가 **TextInput1.Text**의 값으로 업데이트됩니다.
 

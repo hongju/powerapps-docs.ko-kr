@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: f45948bc16f036669a09ed2c566c60440d24a797
-ms.sourcegitcommit: 2180982e57f0d161610be584fdae9424fe7e06b5
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "58616711"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61528121"
 ---
 # <a name="show-a-list-of-items-in-powerapps"></a>PowerApps에서 항목 목록 표시
 

@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 7ac87e794341fe79a6e4f949893b64462c384f83
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42843800"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61544640"
 ---
 # <a name="audio-and-video-controls-in-powerapps"></a>PowerApps의 오디오 및 동영상
 오디오 파일, 동영상 파일 또는 YouTube의 동영상을 재생하는 컨트롤입니다.

@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 5752781cf99a538d76e9dd9197aa4f8b8abce53e
-ms.sourcegitcommit: ba5542ff1c815299baa16304c6e0b5fed936e776
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54308573"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61563548"
 ---
 # <a name="groupby-and-ungroup-functions-in-powerapps"></a>PowerApps의 GroupBy 및 Ungroup 함수
 [테이블](../working-with-tables.md)의 [레코드](../working-with-tables.md#records)를 그룹화하고 그룹을 해제합니다.

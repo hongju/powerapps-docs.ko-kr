@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 798a355e1c8728b41f3e92f183d4a4e2831b7cc2
-ms.sourcegitcommit: 90245baddce9d92c3ce85b0537c1ac1cf26bf55a
-ms.translationtype: MT
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "57799459"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61530574"
 ---
 # <a name="add-and-configure-a-canvas-app-control-in-powerapps"></a>PowerApps에서 캔버스 앱 컨트롤 추가 및 구성
 
@@ -75,7 +75,7 @@ ms.locfileid: "57799459"
 ![화면을 다시 정렬](./media/add-configure-controls/reorder-screen.png)
 
 > [!NOTE]
-> 에 앱을 열 때 컨트롤의 계층적 목록 맨 위에 있는 화면이 일반적으로 첫 번째를 나타납니다. 하지만 설정 하 여 다른 화면을 지정할 수 있습니다는 **[OnStart](controls/control-screen.md)** 속성을 포함 하는 수식으로는 **[탐색](functions/function-navigate.md)** 함수입니다.
+> 앱을 열 때 컨트롤의 계층적 목록 맨 위에 있는 화면이 일반적으로 첫 번째로 나타납니다. 하지만 **[Navigate](functions/function-navigate.md)** 함수를 포함하는 수식으로 **[OnStart](controls/control-screen.md)** 속성을 설정하여 다른 화면을 지정할 수 있습니다.
 
 ## <a name="move-and-resize-a-control"></a>컨트롤 크기 조정 및 이동
 
@@ -88,7 +88,7 @@ ms.locfileid: "57799459"
 ![컨트롤 이동](./media/add-configure-controls/resize-control.png)
 
 > [!NOTE]
-> 이 항목 뒷부분에서 설명한 대로 이동할 수 있으며 모든 조합을 수정 하 여 컨트롤의 크기 조정 해당  **[X](controls/properties-size-location.md)** 하십시오  **[Y](controls/properties-size-location.md)**,  **[높이](controls/properties-size-location.md)**, 및 **[너비](controls/properties-size-location.md)** 수식 입력줄에는 속성입니다.
+> 이 항목 뒷부분 설명처럼, 수식 입력줄에서 **[X](controls/properties-size-location.md)**, **[Y](controls/properties-size-location.md)**, **[Height](controls/properties-size-location.md)** 및 **[Width](controls/properties-size-location.md)** 속성의 여러 조합을 수정하여 컨트롤의 크기를 조정하거나 이동할 수 있습니다.
 
 ## <a name="change-the-text-of-a-label-or-a-button"></a>레이블 또는 단추 텍스트 변경
 
@@ -97,7 +97,7 @@ ms.locfileid: "57799459"
 ![텍스트 변경](./media/add-configure-controls/change-text.png)
 
 > [!NOTE]
-> 이 항목에서는 나중에 설명 된 대로 변경할 수도 있습니다이 텍스트를 수정 하 여 해당 **[텍스트](controls/properties-core.md)** 수식 입력줄에는 속성입니다.
+> 항목 뒷부분 설명처럼, 수식 입력줄에서 **[Text](controls/properties-core.md)** 속성을 수정하여 텍스트를 변경할 수도 있습니다.
 
 ## <a name="configure-a-control-from-the-toolbar"></a>도구 모음에서 컨트롤 구성
 

@@ -1,6 +1,6 @@
 ---
 title: SharePoint Online과 PowerApps, Microsoft Flow 및 Power BI 통합(소개) | Microsoft Docs
-description: 이 자습서 시리즈에서는 SharePoint 목록 및 SharePoint Online과 통합 되는 세 가지 주요 기술을 기반으로 하는 프로젝트 관리에 대 한 기본 캔버스 앱을 구축 하는 방법을 살펴봅니다. PowerApps, Microsoft Flow 및 Power BI를 선택 합니다.
+description: 이 자습서 시리즈에서는 SharePoint 목록 및 SharePoint Online과 통합되는 세 가지 주요 기술을 기반으로 하는 프로젝트 관리에 대한 기본 캔버스 앱을 구축하는 방법을 살펴봅니다. PowerApps, Microsoft Flow 및 Power BI를 선택합니다.
 author: NickWaggoner
 manager: kvivek
 ms.service: powerapps
@@ -14,14 +14,14 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 812a73163047914a8f0bcc651c831ee4022fcc28
-ms.sourcegitcommit: 90245baddce9d92c3ce85b0537c1ac1cf26bf55a
+ms.sourcegitcommit: 4ed29d83e90a2ecbb2f5e9ec5578e47a293a55ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "57799068"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63319419"
 ---
 # <a name="integrate-powerapps-microsoft-flow-and-power-bi-with-sharepoint-online"></a>SharePoint Online과 PowerApps, Microsoft Flow 및 Power BI 통합
-SharePoint Online을 가지고 있고 비즈니스 프로세스를 더 효율적으로 자동화하고 간소화하고 싶습니까? PowerApps, Microsoft Flow 또는 Power BI를 사용해 보았습니까? 아니면 SharePoint Online에서 사용하는 방법에 대해 잘 알고 있지 않으십니까? 그렇다면 제대로 찾아오셨습니다! 이 자습서 시리즈에서는 SharePoint 목록 및 SharePoint Online과 통합 되는 세 가지 주요 기술을 기반으로 하는 프로젝트 관리에 대 한 기본 캔버스 앱을 구축 하는 방법을 살펴봅니다. PowerApps, Microsoft Flow 및 Power BI를 선택 합니다. 이러한 기술을 함께 사용하면 비즈니스를 *측정*하고 결과에서 *작동*하고 워크플로를 *자동화*할 수 있습니다. 이 시리즈를 마치면 다음과 같이 멋진 시나리오를 갖게 됩니다.
+SharePoint Online을 가지고 있고 비즈니스 프로세스를 더 효율적으로 자동화하고 간소화하고 싶습니까? PowerApps, Microsoft Flow 또는 Power BI를 사용해 보았습니까? 아니면 SharePoint Online에서 사용하는 방법에 대해 잘 알고 있지 않으십니까? 그렇다면 제대로 찾아오셨습니다! 이 자습서 시리즈에서는 SharePoint 목록 및 SharePoint Online과 통합되는 세 가지 주요 기술을 기반으로 하는 프로젝트 관리에 대한 기본 캔버스 앱을 구축하는 방법을 살펴봅니다. PowerApps, Microsoft Flow 및 Power BI를 선택합니다. 이러한 기술을 함께 사용하면 비즈니스를 *측정*하고 결과에서 *작동*하고 워크플로를 *자동화*할 수 있습니다. 이 시리즈를 마치면 다음과 같이 멋진 시나리오를 갖게 됩니다.
 
 ![완성된 시나리오에 대한 다이어그램](./media/sharepoint-scenario-intro/composite-with-background.png)
 

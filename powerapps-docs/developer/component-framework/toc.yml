@@ -1,0 +1,259 @@
+- name: PowerApps 구성 요소 프레임워크
+  items:
+    - name: 개요
+      href: overview.md
+    - name: 사용자 지정 구성 요소란?
+      href: custom-controls-overview.md
+    - name: 'Microsoft PowerApps CLI를 사용하여 사용자 지정 구성 요소 만들기, 디버그 및 배포'
+      href: create-custom-controls-using-pcf.md
+    - name: TypeScript에서 사용자 지정 구성 요소 구현
+      href: implementing-controls-using-typescript.md
+    - name: 기존 PowerApps 구성 요소 프레임워크 구성 요소를 새 도구 형식으로 업데이트
+      href: updating-existing-controls.md
+    - name: PowerApps 구성 요소 프레임워크의 제한 사항
+      href: limitations.md
+    - name: FAQ
+      href: faq.md
+    - name: 샘플 구성 요소
+      items:
+        - name: 증분 구성 요소
+          href: sample-controls/increment-control.md
+        - name: 선형 입력 구성 요소
+          href: sample-controls/linear-input-control.md
+        - name: 지역화 API 구성 요소
+          href: sample-controls/localization-api-control.md
+        - name: Angular 대칭 이동 구성 요소
+          href: sample-controls/angular-flip-control.md
+        - name: 컨트롤 상태 API 구성 요소
+          href: sample-controls/control-state-api.md
+        - name: 데이터 세트 그리드 구성 요소
+          href: sample-controls/data-set-grid-control.md
+        - name: API 구성 요소 서식 지정
+          href: sample-controls/formatting-api-control.md
+        - name: IFRAME 구성 요소
+          href: sample-controls/iframe-control.md
+        - name: 이미지 업로드 구성 요소
+          href: sample-controls/image-upload-control.md
+        - name: 맵 구성 요소
+          href: sample-controls/map-control.md
+        - name: 탐색 API 구성 요소
+          href: sample-controls/navigation-api-control.md
+        - name: 테이블 구성 요소
+          href: sample-controls/table-control.md
+        - name: 테이블 그리드 구성 요소
+          href: sample-controls/table-grid-control.md
+        - name: 웹 API 구성 요소
+          href: sample-controls/webapi-control.md
+    - name: 참조
+      items:
+        - name: PowerApps 구성 요소 프레임워크
+          href: reference/index.md
+          items:
+            - name: 클라이언트
+              href: reference/client.md
+              items:
+                - name: getClient
+                  href: reference/client/getclient.md
+                - name: getFormFactor
+                  href: reference/client/getformfactor.md
+                - name: isOffline
+                  href: reference/client/isoffline.md
+            - name: 열
+              href: reference/column.md
+            - name: ConditionExpression
+              href: reference/conditionexpression.md
+            - name: 컨텍스트
+              href: reference/context.md
+            - name: 컨트롤
+              href: reference/control.md
+              items:
+                - name: 삭제
+                  href: reference/control/destroy.md
+                - name: getOutputs
+                  href: reference/control/getOutputs.md
+                - name: Init
+                  href: reference/control/init.md
+                - name: updateView
+                  href: reference/control/updateview.md
+            - name: 데이터 세트
+              href: reference/dataset.md
+              items:
+                - name: clearSelectedRecordIds
+                  href: reference/dataset/clearselectedrecordids.md
+                - name: getSelectedRecordIds
+                  href: reference/dataset/getselectedrecordids.md
+                - name: getTargetEntityType
+                  href: reference/dataset/gettargetentitytype.md
+                - name: getTitle
+                  href: reference/dataset/gettitle.md
+                - name: getViewId
+                  href: reference/dataset/getviewid.md
+                - name: openDatasetItem
+                  href: reference/dataset/opendatasetitem.md
+                - name: 새로 고침
+                  href: reference/dataset/refresh.md
+                - name: setSelectedRecordIds
+                  href: reference/dataset/setselectedrecordids.md
+            - name: DateFormattingInfo
+              href: reference/dateformattinginfo.md
+            - name: EntityReference
+              href: reference/entityreference.md
+            - name: 팩터리
+              href: reference/factory.md
+              items:
+                - name: getPopupService
+                  href: reference/factory/getpopupservice.md
+                - name: requestRender
+                  href: reference/factory/requestrender.md
+            - name: 연결 중
+              href: reference/linking.md
+              items:
+                - name: addLinkedEntity
+                  href: reference/linking/addlinkedentity.md
+                - name: getLinkedEntity
+                  href: reference/linking/getlinkedentities.md
+            - name: 서식 지정
+              href: reference/formatting.md
+              items:
+                - name: formatCurrency
+                  href: reference/formatting/formatcurrency.md
+                - name: formatDateAsFilterStringInUTC
+                  href: reference/formatting/formatdateasfilterstringinutc.md
+                - name: formatDateLong
+                  href: reference/formatting/formatdatelong.md
+                - name: formatDateLongAbbreviated
+                  href: reference/formatting/formatdatelongabbreviated.md
+                - name: formatDateShort
+                  href: reference/formatting/formatdateshort.md
+                - name: formatDateYearMonth
+                  href: reference/formatting/formatdateyearmonth.md
+                - name: formatDecimal
+                  href: reference/formatting/formatdecimal.md
+                - name: formatInteger
+                  href: reference/formatting/formatinteger.md
+                - name: formatLanguage
+                  href: reference/formatting/formatlanguage.md
+                - name: formatTime
+                  href: reference/formatting/formattime.md
+                - name: getWeekOfYear
+                  href: reference/formatting/getweekofyear.md
+            - name: 모드
+              href: reference/mode.md
+              items:
+                - name: setControlState
+                  href: reference/mode/setcontrolstate.md
+                - name: setFullScreen
+                  href: reference/mode/setfullscreen.md
+                - name: trackContainerResize
+                  href: reference/mode/trackcontainerresize.md
+            - name: 탐색
+              href: reference/navigation.md
+              items:
+                - name: openAlertDialog
+                  href: reference/navigation/openalertdialog.md
+                - name: openConfirmDialog
+                  href: reference/navigation/openconfirmdialog.md
+                - name: openErrorDialog
+                  href: reference/navigation/openerrordialog.md
+                - name: openFile
+                  href: reference/navigation/openfile.md
+                - name: openForm
+                  href: reference/navigation/openform.md
+                - name: openUrl
+                  href: reference/navigation/openurl.md
+                - name: openWebResource
+                  href: reference/navigation/openwebresource.md
+            - name: NumberFormattingInfo
+              href: reference/numberformattinginfo.md
+            - name: Paging
+              href: reference/paging.md
+              items:
+                - name: loadNextPage
+                  href: reference/paging/loadnextpage.md
+                - name: loadPreviousPage
+                  href: reference/paging/loadpreviouspage.md
+                - name: 다시 설정
+                  href: reference/paging/reset.md
+                - name: setpageSize
+                  href: reference/paging/setpagesize.md
+            - name: 팝업
+              href: reference/popup.md
+            - name: PopupService
+              href: reference/popupservice.md
+              items:
+                - name: closePopup
+                  href: reference/popupservice/closepopup.md
+                - name: createPopup
+                  href: reference/popupservice/createpopup.md
+                - name: deletePopup
+                  href: reference/popupservice/deletepopup.md
+                - name: getPopupsId
+                  href: reference/popupservice/getpopupsid.md
+                - name: openPopup
+                  href: reference/popupservice/openpopup.md
+                - name: setPopupsId
+                  href: reference/popupservice/setpopupsid.md
+                - name: updatePopup
+                  href: reference/popupservice/updatepopup.md
+            - name: 리소스
+              href: reference/resources.md
+              items:
+                - name: getResource
+                  href: reference/resources/getresource.md
+                - name: getString
+                  href: reference/resources/getstring.md
+            - name: SortStatus
+              href: reference/sortstatus.md
+            - name: UserSettings
+              href: reference/usersettings.md
+            - name: 유틸리티
+              href: reference/utility.md
+              items:
+                - name: getEntityMetadata
+                  href: reference/utility/getentitymetadata.md
+                - name: hasEntityPrivilege
+                  href: reference/utility/hasentityprivilege.md
+                - name: lookupObjects
+                  href: reference/utility/lookupobjects.md
+            - name: WebApi
+              href: reference/webapi.md
+              items:
+                - name: createRecord
+                  href: reference/webapi/createrecord.md
+                - name: deleteRecord
+                  href: reference/webapi/deleterecord.md
+                - name: retrieveMultipleRecords
+                  href: reference/webapi/retrievemultiplerecords.md
+                - name: retrieveRecord
+                  href: reference/webapi/retrieverecord.md
+                - name: updateRecord
+                  href: reference/webapi/updaterecord.md
+        - name: 매니페스트 스키마 참조
+          href: manifest-schema-reference/index.md
+          items:
+            - name: 코드
+              href: manifest-schema-reference/code.md
+            - name: 컨트롤
+              href: manifest-schema-reference/control.md
+            - name: css
+              href: manifest-schema-reference/css.md
+            - name: 데이터 세트
+              href: manifest-schema-reference/data-set.md
+            - name: html
+              href: manifest-schema-reference/html.md
+            - name: img
+              href: manifest-schema-reference/img.md
+            - name: 매니페스트
+              href: manifest-schema-reference/manifest.md
+            - name: 속성
+              href: manifest-schema-reference/property.md
+            - name: 속성 집합
+              href: manifest-schema-reference/property-set.md
+            - name: 리소스
+              href: manifest-schema-reference/resources.md
+            - name: resx
+              href: manifest-schema-reference/resx.md
+            - name: 형식
+              href: manifest-schema-reference/type.md
+            - name: 그룹 유형
+              href: manifest-schema-reference/type-group.md

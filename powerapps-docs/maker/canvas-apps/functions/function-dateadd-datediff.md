@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: b70026e84eb7dfee67583abe26665bf78a566b76
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.sourcegitcommit: 4ed29d83e90a2ecbb2f5e9ec5578e47a293a55ab
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42865257"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63321060"
 ---
 # <a name="dateadd-datediff-and-timezoneoffset-functions-in-powerapps"></a>PowerApps의 DateAdd, DateDiff 및 TimeZoneOffset 함수
 날짜/시간 값의 차이를 추가하거나 찾아서 현지 시간과 UTC 사이의 변환을 수행합니다.
@@ -41,13 +41,13 @@ ms.locfileid: "42865257"
 
 * *DateTime* - 필수 항목이며, 연산을 수행할 날짜/시간 값입니다.
 * *Addition* - 필수 항목입니다. *DateTime*에 추가할 *Units*에 해당하는 숫자입니다.
-* *Units* - 선택 사항입니다. 추가할 *단위* 유형: **밀리초**, **초**, **분**, **시간**, **일**, **월**, **분기** 또는 **연도**.  지정하지 않으면 **일**이 사용됩니다.
+* *Units* - 선택 사항입니다. 유형의 *단위* 추가 하려면: **밀리초**, **초**, **분**를 **시간**, **일**, **개월**,  **분기**, 또는 **년**합니다.  지정하지 않으면 **일**이 사용됩니다.
 
 **DateDiff**( *StartDateTime*, *EndDateTime* [, *Units* ] )
 
 * *StartDateTime* - 필수 항목입니다. 시작 날짜/시간 값입니다.
 * *EndDateTime* - 필수 항목입니다. 종료 날짜/시간 값입니다.
-* *Units* - 선택 사항입니다. 추가할 *단위* 유형: **밀리초**, **초**, **분**, **시간**, **일**, **월**, **분기** 또는 **연도**.  지정하지 않으면 **일**이 사용됩니다.
+* *Units* - 선택 사항입니다. 유형의 *단위* 추가 하려면: **밀리초**, **초**, **분**를 **시간**, **일**, **개월**,  **분기**, 또는 **년**합니다.  지정하지 않으면 **일**이 사용됩니다.
 
 **TimeZoneOffset**( [ *DateTime* ] )
 

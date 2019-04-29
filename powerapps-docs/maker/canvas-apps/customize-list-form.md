@@ -14,10 +14,10 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: d33f541ea698b02a662edb652f809095f47acc6e
-ms.sourcegitcommit: 38f91423933749ca19557f29e86cd8f5ad06e1eb
-ms.translationtype: MT
+ms.sourcegitcommit: f84095d964fe1fe5cc5290e5edbee284bd768e1e
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/05/2019
+ms.lasthandoff: 04/18/2019
 ms.locfileid: "59042735"
 ---
 # <a name="customize-a-sharepoint-list-form-by-using-powerapps"></a>PowerApps를 사용하여 SharePoint 목록 양식 사용자 지정
@@ -41,7 +41,7 @@ SharePoint 사이트에서 목록을 만듭니다 하와 해당 목록에 이러
 > [!div class="mx-imgBorder"]
 > ![사이트 콘텐츠 선택 > 새로 만들기 > 목록에서 목록 이름 입력 하 고 만들기를 선택 합니다. 각 열에 대 한 추가 열을 선택, 목록 유형 지정 (예/아니요, 통화, 날짜, 선택 항목) 목록 이름 (세부 정보, 가격, 가용성, 색)을 지정 하 고 저장을 선택 합니다.](./media/customize-list-form/create-list.gif)
 
-## <a name="open-the-form"></a>폼을 엽니다
+## <a name="open-the-form"></a>폼 열기
 
 1. 명령 모음에서 선택 **PowerApps**를 선택한 후 **양식을 사용자 지정**합니다.
 
@@ -195,22 +195,22 @@ SharePoint 사이트에서 목록을 만듭니다 하와 해당 목록에 이러
 
 **A:** 를 관리 하려면 SharePoint 권한을 가진 모든 사용자가 디자인, 또는 연결 된 목록을 편집 합니다.
 
-**Q:** 만들기 또는 사용자 지정 목록 양식을 사용 하는 데 PowerApps 라이선스가 필요 합니까?
+**Q:** 사용자 지정 목록 양식을 만들거나 사용하는 데 PowerApps 라이선스가 필요합니까?
 
-**A:** 필요는 [PowerApps가 포함 된 Office 365 계획](https://docs.microsoft.com/power-platform/admin/pricing-billing-skus.md#licenses)합니다.
+**A:** [PowerApps가 포함된 Office 365 플랜](https://docs.microsoft.com/power-platform/admin/pricing-billing-skus.md#licenses)이 필요합니다.
 
-**Q:** 게스트 사용자에 게 사용자 지정 양식이 있는 목록에 액세스 하는 경우 어떻게 되나요?
+**Q:** 게스트 사용자들이 사용자 지정 양식이 있는 목록에 액세스하는 경우 어떻게 되나요?
 
-**A:** 게스트 사용자는 PowerApps를 사용 하 여 사용자 지정 된 된 목록 양식에 액세스 하려고 하면 오류 메시지를 가져옵니다.
+**A:** 게스트 사용자가 PowerApps를 사용하여 사용자 지정된 목록 양식에 액세스하려고 하면 오류 메시지가 나타납니다.
 
-**Q:** 관리자로 서 어떻게 가져오나 요 모든 사용자 지정된 양식 목록을 조직에서?
+**Q:** 관리자로서, 조직의 모든 사용자 지정된 양식 목록을 어떻게 가져오나요?
 
-**A:** PowerApps에 대 한 테 넌 트 관리자 인 경우 조직의 기본 PowerApps 환경에 대 한 환경 관리자 권한이 다음을 수행 합니다.
+**A:** PowerApps의 테넌트 관리자이거나 조직의 기본 PowerApps 환경에 대한 환경 관리자 권한을 가지고 있는 경우, 다음을 수행합니다.
 
 1. [PowerApps 관리 센터](https://admin.powerapps.com)의 환경 목록에서 조직의 기본 환경을 선택합니다.
 
 1. 기본 환경 페이지의 맨 위에서 **리소스**를 선택합니다.
 
-1. 앱 목록에서 사용 하 여 앱에 대 한 확인을 **SharePoint 양식** 앱 유형-이 사용자 지정된 양식입니다.
+1. 앱 목록에서, **SharePoint Form** 앱 유형을 찾으세요 - 이들은 사용자 지정된 양식입니다.
 
     ![사용자 지정된 양식 목록](./media/customize-list-form/all-customized-forms.png)

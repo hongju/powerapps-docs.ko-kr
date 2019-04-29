@@ -14,11 +14,11 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 525c55a68478c4b51181fa72525eed802b0f10aa
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42865121"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61551333"
 ---
 # <a name="concat-and-concatenate-functions-in-powerapps"></a>PowerApps의 Concat 및 Concatenate 함수
 [테이블](../working-with-tables.md)에 있는 텍스트와 문자열의 개별 문자열을 연결합니다.
@@ -44,7 +44,7 @@ ms.locfileid: "42865121"
 
 ## <a name="examples"></a>예
 #### <a name="concat"></a>Concat
-1. **[단추](../controls/control-button.md)** 컨트롤을 추가하고 이 수식에 **[OnSelect](../controls/properties-core.md)** 속성을 설정합니다.
+1. **[단추](../controls/control-button.md)** 컨트롤을 추가하고 **[OnSelect](../controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.
    
     **Collect(Products, {String:"Violin", Wind:"Trombone", Percussion:"Bongos"}, {String:"Cello", Wind:"Trumpet", Percussion:"Tambourine"})**
 2. F5 키를 누르고 단추를 클릭한 다음, Esc 키를 눌러서 디자인 작업 영역으로 돌아갑니다.
