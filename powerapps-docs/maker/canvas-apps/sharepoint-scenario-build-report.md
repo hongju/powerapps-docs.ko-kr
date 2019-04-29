@@ -30,9 +30,9 @@ ms.locfileid: "57799942"
 > 이 시나리오에 대한 [다운로드 패키지](https://aka.ms/o4ia0f)에는 이 보고서의 완성된 버전인 project-analysis.pbix가 포함되어 있습니다.
 
 ## <a name="quick-review-of-power-bi-desktop"></a>Power BI Desktop에 대한 빠른 검토
-보고서를 만드는 방법을 살펴보기 전에 Power BI Desktop을 검토해 보겠습니다. 이는 많은 기능을 갖춘 강력한 도구이므로 이 작업에서 사용할 영역의 개요에 대해 중점적으로 설명합니다. Power BI Desktop에는 다음 세 가지 기본 작업 영역 또는 *뷰*가 있습니다: **보고서** 뷰, **데이터** 뷰 및 **관계** 뷰. 또한 Power BI Desktop에는 별개의 창에서 열리는 **쿼리 편집기**도 있습니다.
+보고서를 만드는 방법을 살펴보기 전에 Power BI Desktop을 검토해 보겠습니다. 이는 많은 기능을 갖춘 강력한 도구이므로 이 작업에서 사용할 영역의 개요에 대해 중점적으로 설명합니다. Power BI Desktop에는 다음 세 가지 기본 작업 영역 또는 *뷰*가 있습니다. **보고서** 뷰, **데이터** 뷰 및 **관계** 뷰. 또한 Power BI Desktop에는 별개의 창에서 열리는 **쿼리 편집기**도 있습니다.
 
-다음 화면에서는 Power BI Desktop의 왼쪽을 따라 위쪽에서 아래쪽으로 세 개의 **보고서**, **데이터**, 및 **관계** 뷰 아이콘을 보여 줍니다. 왼쪽의 노란색 막대는 현재 보기를 나타내며, 여기서는 **보고서** 보기가 표시되어 있습니다. 이러한 세 아이콘 중 하나를 선택하여 보기를 변경합니다.
+다음 화면에서는 Power BI Desktop의 왼쪽을 따라 위쪽에서 아래쪽으로 세 개의 **보고서**, **데이터**, 및 **관계** 뷰 아이콘을 보여 줍니다. 왼쪽의 노란색 막대는 현재 뷰를 나타내며, 여기서는 **보고서** 뷰가 표시되어 있습니다. 이러한 세 아이콘 중 하나를 선택하여 뷰를 변경합니다.
 
 ![Power BI Desktop 보기](./media/sharepoint-scenario-build-report/05-00-00-tabs.png)
 
@@ -94,7 +94,7 @@ ms.locfileid: "57799942"
 2. 가운데 창에서 **FileSystemObjectType** 열을 선택한 다음 **열 제거**를 클릭하거나 탭합니다.
    
     ![열 제거](./media/sharepoint-scenario-build-report/05-01-07-remove-column.png)
-3. **Id**열 다음 두 개의 열을 제거 합니다: **ServerRedirectedEmbedURL**과 **ContentTypeId**
+3. **Id**열 다음 두 개의 열인 **ServerRedirectedEmbedURL**과 **ContentTypeId**를 제거합니다.
    > [!TIP]
    > Shift 키를 사용하여 두 열을 선택한 다음 **열 제거**를 클릭하거나 탭합니다.
 4. **PMAssigned**열 오른쪽에 있는 모든 열(총 22열)을 제거합니다. 테이블은 다음 이미지와 같습니다.
@@ -105,11 +105,11 @@ ms.locfileid: "57799942"
     ![ 쿼리 편집기의 프로젝트 요청 테이블](./media/sharepoint-scenario-build-report/05-01-09-table-requests.png)
 
 ### <a name="change-the-data-type-on-project-details-columns"></a>프로젝트 세부 정보 열의 데이터 형식 변경
-1. **ProjectedDays** 열을 선택하고, **데이터 형식: 임의**를 클릭 하거나 탭한 다음 **정수**를 선택 합니다.
+1. **ProjectedDays** 열을 선택하고, **데이터 형식: 임의**를 클릭하거나 탭한 다음 **정수**를 선택합니다.
    
     ![데이터 형식을 정수로 변경](./media/sharepoint-scenario-build-report/05-01-10-datatype-number.png)
 2. **ActualDays** 열에 대해 이전 단계를 반복합니다.
-3. **ApprovedDate** 열을 선택하고, **데이터 형식: 임의**를 클릭 하거나 탭한 다음 **날짜**를 선택 합니다.
+3. **ApprovedDate** 열을 선택하고, **데이터 형식: 임의**를 클릭하거나 탭한 다음 **날짜**를 선택합니다.
    
     ![ 데이터 형식을 날짜로 변경](./media/sharepoint-scenario-build-report/05-01-11-datatype-date.png)
 
@@ -117,9 +117,9 @@ ms.locfileid: "57799942"
 
 ### <a name="change-the-data-type-on-project-requests-columns"></a>프로젝트 요청 열의 데이터 형식 변경
 
-1. **EstimatedDays** 열을 선택하고, **데이터 형식: 임의**를 클릭 하거나 탭한 다음 **정수**를 선택 합니다.
+1. **EstimatedDays** 열을 선택하고, **데이터 형식: 임의**를 클릭하거나 탭한 다음 **정수**를 선택합니다.
 
-2. **RequestDate** 열을 선택하고, **데이터 형식: 임의**를 클릭 하거나 탭한 다음 **날짜**를 선택 합니다.
+2. **RequestDate** 열을 선택하고, **데이터 형식: 임의**를 클릭하거나 탭한 다음 **날짜**를 선택합니다.
 
 ### <a name="apply-and-save-changes"></a>변경 내용 적용 및 저장
 
