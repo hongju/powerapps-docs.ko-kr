@@ -1,6 +1,6 @@
 ---
 title: 엔터프라이즈 개발자, 파트너 및 ISV용 PowerApps | Microsoft Docs
-description: 캔버스 앱을 사용 하여 솔루션 개발을 소개 합니다.
+description: 캔버스 앱을 사용하여 솔루션 개발을 소개합니다.
 author: ImadYanni
 manager: kvivek
 ms.service: powerapps
