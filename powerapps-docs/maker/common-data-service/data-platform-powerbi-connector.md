@@ -32,7 +32,7 @@ search.app:
 
     ![앱용 CDS 환경](./media/data-platform-cds-powerbi-connector/CDSEnv1.png "앱용 CDS 환경")
 
-2. 새 탭을 열 개발자 리소스 섹션에서 **리소스**를 클릭합니다.
+2. 새 탭이 열릴 개발자 리소스 섹션 아래에서 **리소스**를 클릭합니다.
 
     ![앱용 CDS 환경](./media/data-platform-cds-powerbi-connector/CDSEnv2.png "앱용 CDS 환경")
 
@@ -67,7 +67,7 @@ search.app:
 
     ![Power BI Desktop](./media/data-platform-cds-powerbi-connector/CreateReport5.png "Power BI Desktop")
 
-6. 이제 엔터티가 보고서에 로드되 고 보고서 작성을 시작하거나 이 프로세스를 반복하여 엔터티를 더 추가할 수 있습니다.
+6. 이제 엔터티가 보고서에 로드되고 보고서 작성을 시작하거나 이 프로세스를 반복하여 엔터티를 더 추가할 수 있습니다.
 
     ![Power BI Desktop](./media/data-platform-cds-powerbi-connector/CreateReport6.png "Power BI Desktop")
 
@@ -94,7 +94,7 @@ search.app:
 
 ## <a name="navigating-relationships"></a>관계 탐색
 
-앱용 Common Data Service의 관계는 GUID 필드를 사용하여 두 엔터티 사이에 PowerBI Desktop 내에서 관계를 생성해야 합니다, 이것은 시스템이 생성한 고유 식별자가 어디에 생성 레코드에 대한 관계가 생성되도록 다른 필드에 모호성 또는 중복이 존재할 수 있습니다. Power BI Desktop에서의 관계 관리에 대한 자세한 내용은 [여기](https://docs.microsoft.com/power-bi/desktop-create-and-manage-relationships)를 참조하십시오.
+앱용 Common Data Service의 관계는 GUID 필드를 사용하여 두 엔터티 사이에 PowerBI Desktop 내에서 관계를 생성해야 합니다, 이것은 다른 필드와 모호하거나 중복이 존재할 수있는 레코드 작성에 대한 관계가 작성되도록 하는 시스템 생성 고유 식별자입니다. Power BI Desktop에서의 관계 관리에 대한 자세한 내용은 [여기](https://docs.microsoft.com/power-bi/desktop-create-and-manage-relationships)를 참조하십시오.
 
 일부 관계는 자동으로 만들어질 수 있지만 보고서를 만들 때 올바른 관계를 검토하고 확인하는 것도 가능합니다.
 
